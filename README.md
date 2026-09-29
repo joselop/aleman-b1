@@ -25,11 +25,14 @@ Estado actual: A1 · Tema 1 completo; el resto del temario está planificado en 
 
 ## Verlo en tu ordenador
 
+Abre `index.html` con doble clic. En ese modo la web lee el contenido de `assets/content-bundle.js`, que se regenera solo al ejecutar `python scripts/validate.py` (hazlo cada vez que cambies algo en `content/`).
+
+También puedes servir la carpeta, que es como funciona en GitHub Pages:
+
 ```bash
 python3 -m http.server 8000
 # abre http://localhost:8000
 ```
-(Abrir `index.html` con doble clic no funciona: el navegador bloquea la lectura de los JSON.)
 
 Sin audios generados, la web usa la voz alemana de tu navegador. Para generar los MP3 en local:
 
@@ -54,7 +57,8 @@ Alternativa 100 % offline con Piper (voces libres Thorsten/Kerstin): instala `pi
 ```
 index.html, assets/        la web (HTML + CSS + JS sin dependencias)
 content/                   todo el contenido del curso (ver docs/esquema.md)
-scripts/validate.py        comprobaciones del contenido
+scripts/validate.py        comprobaciones del contenido (y regenera el bundle)
+scripts/bundle.py          empaqueta content/ para abrir la web con doble clic
 scripts/generate_audio.py  genera los MP3 (edge-tts, Piper o tonos de prueba)
 scripts/build_prompt.py    prepara los prompts de generación y revisión
 scripts/prompts/           plantillas de los prompts

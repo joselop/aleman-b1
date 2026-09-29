@@ -1,6 +1,9 @@
 // Deutsch Schritt für Schritt — motor de la web (sin dependencias, sin build).
 // Todo el contenido vive en /content como JSON + Markdown. Ver docs/esquema.md.
 
+(() => {
+"use strict";
+
 /* ------------------------------------------------------------------ utils */
 const $ = (sel, root = document) => root.querySelector(sel);
 const app = () => document.getElementById("app");
@@ -75,19 +78,34 @@ const store = {
 
 /* ------------------------------------------------------------------ data */
 const cache = {};
+// Con doble clic (file://) el navegador no deja usar fetch: se usa assets/content-bundle.js.
+const LOCAL = location.protocol === "file:";
+function fromBundle(url) {
+  const b = window.__CONTENT || {};
+  if (url in b) return b[url];
+  throw new Error(`No encuentro ${url}. Ejecuta: python scripts/bundle.py`);
+}
 async function getJSON(url) {
   if (!(url in cache)) {
-    cache[url] = fetch(url).then((r) => {
-      if (!r.ok) throw new Error(`${r.status} ${url}`);
-      return r.json();
-    });
+    cache[url] = LOCAL
+      ? Promise.resolve().then(() => fromBundle(url))
+      : fetch(url).then((r) => {
+          if (!r.ok) throw new Error(`${r.status} ${url}`);
+          return r.json();
+        }).catch((e) => (window.__CONTENT && url in window.__CONTENT ? window.__CONTENT[url] : Promise.reject(e)));
   }
   return cache[url];
 }
 async function getText(url) {
-  const r = await fetch(url);
-  if (!r.ok) throw new Error(`${r.status} ${url}`);
-  return r.text();
+  if (LOCAL) return fromBundle(url);
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(`${r.status} ${url}`);
+    return await r.text();
+  } catch (e) {
+    if (window.__CONTENT && url in window.__CONTENT) return window.__CONTENT[url];
+    throw e;
+  }
 }
 const curriculum = () => getJSON("content/curriculum.json");
 const loadTopic = (lvl, tid) => getJSON(`content/${lvl}/${tid}/topic.json`);
@@ -339,7 +357,7 @@ async function route() {
   } catch (err) {
     console.error(err);
     root.append(h("div", { class: "card error" }, h("h2", {}, "No se pudo cargar esta página"), h("p", {}, String(err.message || err)),
-      h("p", {}, "Si abriste index.html directamente, sirve la carpeta con un servidor local (ver README)."), h("a", { href: "#/" }, "← Volver al inicio")));
+      h("p", {}, "Si abriste index.html con doble clic, ejecuta python scripts/validate.py para regenerar assets/content-bundle.js."), h("a", { href: "#/" }, "← Volver al inicio")));
   }
   updateRepasoBadge();
   window.scrollTo(0, 0);
@@ -1003,3 +1021,4 @@ function viewAjustes(root) {
         } }))))
   );
 }
+})();

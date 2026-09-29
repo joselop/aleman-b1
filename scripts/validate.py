@@ -216,6 +216,8 @@ def main():
     if errors or (args.strict and warnings):
         sys.exit(1)
     print("Todo correcto ✓")
+    import bundle  # regenera assets/content-bundle.js para poder abrir index.html con doble clic
+    bundle.main()
 
 
 if __name__ == "__main__":

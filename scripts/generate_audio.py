@@ -198,6 +198,8 @@ async def main():
                 f.unlink()
     present = sorted(k for k in wanted if (AUDIO / f"{k}.mp3").exists())
     (AUDIO / "manifest.json").write_text(json.dumps({"engine": args.engine, "files": present}, indent=0), encoding="utf-8")
+    import bundle  # el manifest también va en el bundle para el modo doble clic
+    bundle.main()
     print(f"Manifest: {len(present)}/{len(wanted)} audios disponibles. Fallos: {failed}")
 
 
