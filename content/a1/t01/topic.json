@@ -1,0 +1,1713 @@
+{
+  "id": "a1-t01",
+  "level": "a1",
+  "topic": "t01",
+  "title": "Hallo! Saludar y presentarse",
+  "title_de": "Hallo! Begrüßen und sich vorstellen",
+  "goals": [
+    "Saludar y despedirte de forma formal e informal según la hora del día",
+    "Decir cómo te llamas, de dónde eres y dónde vives, y preguntárselo a otra persona",
+    "Elegir entre du y Sie",
+    "Deletrear tu nombre con el alfabeto alemán",
+    "Conjugar sein y los verbos regulares en presente",
+    "Formar preguntas con wer, wie, woher, wo y was"
+  ],
+  "vocab": [
+    {
+      "de": "Hallo!",
+      "es": "¡Hola!",
+      "cat": "Saludos",
+      "ex": "Hallo, ich bin Anna.",
+      "ex_es": "Hola, soy Anna."
+    },
+    {
+      "de": "Guten Morgen!",
+      "es": "¡Buenos días! (por la mañana temprano)",
+      "cat": "Saludos",
+      "ex": "Guten Morgen, Frau Keller!",
+      "ex_es": "¡Buenos días, señora Keller!"
+    },
+    {
+      "de": "Guten Tag!",
+      "es": "¡Buenos días! / ¡Buenas tardes! (formal)",
+      "cat": "Saludos",
+      "ex": "Guten Tag, Herr Braun!",
+      "ex_es": "¡Buenas tardes, señor Braun!"
+    },
+    {
+      "de": "Guten Abend!",
+      "es": "¡Buenas noches! (al llegar)",
+      "cat": "Saludos",
+      "ex": "Guten Abend! Wie geht es Ihnen?",
+      "ex_es": "¡Buenas noches! ¿Cómo está usted?"
+    },
+    {
+      "de": "Gute Nacht!",
+      "es": "¡Buenas noches! (al irse a dormir)",
+      "cat": "Saludos",
+      "ex": "Gute Nacht, bis morgen!",
+      "ex_es": "¡Buenas noches, hasta mañana!"
+    },
+    {
+      "de": "Auf Wiedersehen!",
+      "es": "¡Adiós! (formal)",
+      "cat": "Saludos",
+      "ex": "Auf Wiedersehen, Frau Frei!",
+      "ex_es": "¡Adiós, señora Frei!"
+    },
+    {
+      "de": "Tschüss!",
+      "es": "¡Chao! (informal)",
+      "cat": "Saludos",
+      "ex": "Tschüss, Anna!",
+      "ex_es": "¡Chao, Anna!"
+    },
+    {
+      "de": "Bis bald!",
+      "es": "¡Hasta pronto!",
+      "cat": "Saludos",
+      "ex": "Tschüss und bis bald!",
+      "ex_es": "¡Chao y hasta pronto!"
+    },
+    {
+      "de": "Bis morgen!",
+      "es": "¡Hasta mañana!",
+      "cat": "Saludos",
+      "ex": "Gute Nacht, bis morgen!",
+      "ex_es": "¡Buenas noches, hasta mañana!"
+    },
+    {
+      "de": "Wie geht es Ihnen?",
+      "es": "¿Cómo está usted?",
+      "cat": "Saludos",
+      "ex": "Guten Tag, Herr Keller! Wie geht es Ihnen?",
+      "ex_es": "¡Buenos días, señor Keller! ¿Cómo está usted?"
+    },
+    {
+      "de": "Wie geht's?",
+      "es": "¿Qué tal?",
+      "cat": "Saludos",
+      "ex": "Hallo Peter, wie geht's?",
+      "ex_es": "Hola, Peter, ¿qué tal?"
+    },
+    {
+      "de": "gut",
+      "es": "bien, bueno",
+      "cat": "Saludos",
+      "ex": "Gut, danke. Und dir?",
+      "ex_es": "Bien, gracias. ¿Y tú?"
+    },
+    {
+      "de": "sehr",
+      "es": "muy",
+      "cat": "Saludos",
+      "ex": "Sehr gut, danke!",
+      "ex_es": "¡Muy bien, gracias!"
+    },
+    {
+      "de": "Es geht.",
+      "es": "Regular. / Voy tirando.",
+      "cat": "Saludos",
+      "ex": "Wie geht's? – Es geht.",
+      "ex_es": "¿Qué tal? – Regular."
+    },
+    {
+      "de": "nicht so gut",
+      "es": "no muy bien",
+      "cat": "Saludos",
+      "ex": "Mir geht es nicht so gut.",
+      "ex_es": "No estoy muy bien."
+    },
+    {
+      "de": "danke",
+      "es": "gracias",
+      "cat": "Cortesía",
+      "ex": "Danke, gut!",
+      "ex_es": "¡Bien, gracias!"
+    },
+    {
+      "de": "bitte",
+      "es": "por favor / de nada",
+      "cat": "Cortesía",
+      "ex": "Buchstabieren Sie bitte.",
+      "ex_es": "Deletree, por favor."
+    },
+    {
+      "de": "Freut mich!",
+      "es": "¡Encantado/a!",
+      "cat": "Cortesía",
+      "ex": "Das ist Anna. – Freut mich!",
+      "ex_es": "Esta es Anna. – ¡Encantado!"
+    },
+    {
+      "de": "Entschuldigung!",
+      "es": "¡Perdón! / Disculpe",
+      "cat": "Cortesía",
+      "ex": "Entschuldigung, wie heißen Sie?",
+      "ex_es": "Disculpe, ¿cómo se llama?"
+    },
+    {
+      "de": "ja",
+      "es": "sí",
+      "cat": "Cortesía",
+      "ex": "Ja, ich wohne in Zürich.",
+      "ex_es": "Sí, vivo en Zúrich."
+    },
+    {
+      "de": "nein",
+      "es": "no",
+      "cat": "Cortesía",
+      "ex": "Nein, ich komme aus Spanien.",
+      "ex_es": "No, soy de España."
+    },
+    {
+      "de": "der Name",
+      "pl": "die Namen",
+      "es": "el nombre",
+      "cat": "Persona",
+      "ex": "Mein Name ist Laura García.",
+      "ex_es": "Me llamo Laura García."
+    },
+    {
+      "de": "der Vorname",
+      "pl": "die Vornamen",
+      "es": "el nombre de pila",
+      "cat": "Persona",
+      "ex": "Mein Vorname ist José.",
+      "ex_es": "Mi nombre de pila es José."
+    },
+    {
+      "de": "der Familienname",
+      "pl": "die Familiennamen",
+      "es": "el apellido",
+      "cat": "Persona",
+      "ex": "Mein Familienname ist López.",
+      "ex_es": "Mi apellido es López."
+    },
+    {
+      "de": "der Herr",
+      "pl": "die Herren",
+      "es": "el señor",
+      "cat": "Persona",
+      "ex": "Das ist Herr Keller.",
+      "ex_es": "Este es el señor Keller."
+    },
+    {
+      "de": "die Frau",
+      "pl": "die Frauen",
+      "es": "la señora; la mujer",
+      "cat": "Persona",
+      "ex": "Guten Tag, Frau García!",
+      "ex_es": "¡Buenos días, señora García!"
+    },
+    {
+      "de": "der Lehrer / die Lehrerin",
+      "pl": "die Lehrer / die Lehrerinnen",
+      "es": "el profesor / la profesora",
+      "cat": "Persona",
+      "ex": "Sie ist Lehrerin.",
+      "ex_es": "Ella es profesora."
+    },
+    {
+      "de": "der Kursleiter / die Kursleiterin",
+      "pl": "die Kursleiter / die Kursleiterinnen",
+      "es": "el/la profesor/a de un curso",
+      "cat": "Persona",
+      "ex": "Die Kursleiterin heißt Frau Frei.",
+      "ex_es": "La profesora del curso se llama señora Frei."
+    },
+    {
+      "de": "der Kursteilnehmer / die Kursteilnehmerin",
+      "pl": "die Kursteilnehmer / die Kursteilnehmerinnen",
+      "es": "el/la alumno/a de un curso",
+      "cat": "Persona",
+      "ex": "Die Kursteilnehmer kommen aus Spanien und Italien.",
+      "ex_es": "Los alumnos del curso son de España e Italia."
+    },
+    {
+      "de": "der Deutschkurs",
+      "pl": "die Deutschkurse",
+      "es": "el curso de alemán",
+      "cat": "Persona",
+      "ex": "Der Deutschkurs ist super!",
+      "ex_es": "¡El curso de alemán es genial!"
+    },
+    {
+      "de": "sein",
+      "es": "ser, estar",
+      "cat": "Verbos",
+      "forms": "ich bin, du bist, er ist",
+      "ex": "Ich bin José.",
+      "ex_es": "Soy José."
+    },
+    {
+      "de": "heißen",
+      "es": "llamarse",
+      "cat": "Verbos",
+      "forms": "ich heiße, du heißt, er heißt",
+      "ex": "Wie heißt du?",
+      "ex_es": "¿Cómo te llamas?"
+    },
+    {
+      "de": "kommen (aus)",
+      "es": "venir, ser (de)",
+      "cat": "Verbos",
+      "forms": "ich komme, du kommst, er kommt",
+      "ex": "Ich komme aus Spanien.",
+      "ex_es": "Soy de España."
+    },
+    {
+      "de": "wohnen (in)",
+      "es": "vivir (en)",
+      "cat": "Verbos",
+      "forms": "ich wohne, du wohnst, er wohnt",
+      "ex": "Wo wohnen Sie?",
+      "ex_es": "¿Dónde vive usted?"
+    },
+    {
+      "de": "lernen",
+      "es": "aprender, estudiar",
+      "cat": "Verbos",
+      "forms": "ich lerne, du lernst, er lernt",
+      "ex": "Wir lernen Deutsch.",
+      "ex_es": "Aprendemos alemán."
+    },
+    {
+      "de": "arbeiten",
+      "es": "trabajar",
+      "cat": "Verbos",
+      "forms": "ich arbeite, du arbeitest, er arbeitet",
+      "ex": "Arbeitest du hier?",
+      "ex_es": "¿Trabajas aquí?"
+    },
+    {
+      "de": "machen",
+      "es": "hacer",
+      "cat": "Verbos",
+      "forms": "ich mache, du machst, er macht",
+      "ex": "Was machst du hier?",
+      "ex_es": "¿Qué haces aquí?"
+    },
+    {
+      "de": "buchstabieren",
+      "es": "deletrear",
+      "cat": "Verbos",
+      "forms": "ich buchstabiere, du buchstabierst",
+      "ex": "Können Sie das bitte buchstabieren?",
+      "ex_es": "¿Puede deletrearlo, por favor?"
+    },
+    {
+      "de": "wer?",
+      "es": "¿quién?",
+      "cat": "Preguntas",
+      "ex": "Wer ist das?",
+      "ex_es": "¿Quién es?"
+    },
+    {
+      "de": "wie?",
+      "es": "¿cómo?",
+      "cat": "Preguntas",
+      "ex": "Wie ist Ihr Name?",
+      "ex_es": "¿Cuál es su nombre?"
+    },
+    {
+      "de": "woher?",
+      "es": "¿de dónde?",
+      "cat": "Preguntas",
+      "ex": "Woher kommst du?",
+      "ex_es": "¿De dónde eres?"
+    },
+    {
+      "de": "wo?",
+      "es": "¿dónde?",
+      "cat": "Preguntas",
+      "ex": "Wo wohnt Anna?",
+      "ex_es": "¿Dónde vive Anna?"
+    },
+    {
+      "de": "was?",
+      "es": "¿qué?",
+      "cat": "Preguntas",
+      "ex": "Was machen Sie hier?",
+      "ex_es": "¿Qué hace usted aquí?"
+    },
+    {
+      "de": "und",
+      "es": "y",
+      "cat": "Palabras útiles",
+      "ex": "Und Sie?",
+      "ex_es": "¿Y usted?"
+    },
+    {
+      "de": "aber",
+      "es": "pero",
+      "cat": "Palabras útiles",
+      "ex": "Ich komme aus Spanien, aber ich wohne in Zürich.",
+      "ex_es": "Soy de España, pero vivo en Zúrich."
+    },
+    {
+      "de": "auch",
+      "es": "también",
+      "cat": "Palabras útiles",
+      "ex": "Ich lerne auch Deutsch.",
+      "ex_es": "Yo también aprendo alemán."
+    },
+    {
+      "de": "hier",
+      "es": "aquí",
+      "cat": "Palabras útiles",
+      "ex": "Arbeiten Sie hier?",
+      "ex_es": "¿Trabaja usted aquí?"
+    },
+    {
+      "de": "jetzt",
+      "es": "ahora",
+      "cat": "Palabras útiles",
+      "ex": "Jetzt wohne ich in Bern.",
+      "ex_es": "Ahora vivo en Berna."
+    },
+    {
+      "de": "Das ist …",
+      "es": "Este/a es …",
+      "cat": "Palabras útiles",
+      "ex": "Das ist Herr Braun.",
+      "ex_es": "Este es el señor Braun."
+    },
+    {
+      "de": "Deutsch",
+      "es": "alemán (idioma)",
+      "cat": "Países",
+      "ex": "Ich lerne Deutsch.",
+      "ex_es": "Aprendo alemán."
+    },
+    {
+      "de": "Deutschland",
+      "es": "Alemania",
+      "cat": "Países",
+      "ex": "Er kommt aus Deutschland.",
+      "ex_es": "Él es de Alemania."
+    },
+    {
+      "de": "Österreich",
+      "es": "Austria",
+      "cat": "Países",
+      "ex": "Anna kommt aus Österreich, aus Wien.",
+      "ex_es": "Anna es de Austria, de Viena."
+    },
+    {
+      "de": "die Schweiz",
+      "es": "Suiza",
+      "cat": "Países",
+      "ex": "Ich wohne in der Schweiz.",
+      "ex_es": "Vivo en Suiza."
+    },
+    {
+      "de": "Spanien",
+      "es": "España",
+      "cat": "Países",
+      "ex": "Ich komme aus Spanien.",
+      "ex_es": "Soy de España."
+    },
+    {
+      "de": "Italien",
+      "es": "Italia",
+      "cat": "Países",
+      "ex": "Marco kommt aus Italien.",
+      "ex_es": "Marco es de Italia."
+    },
+    {
+      "de": "Frankreich",
+      "es": "Francia",
+      "cat": "Países",
+      "ex": "Kommen Sie aus Frankreich?",
+      "ex_es": "¿Es usted de Francia?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "mc",
+      "title": "¿Qué saludo usas?",
+      "instructions": "Elige el saludo o la despedida adecuada para cada situación.",
+      "items": [
+        {
+          "q": "Son las 8:00. Llegas a la oficina y ves a tu jefa.",
+          "options": [
+            "Guten Morgen!",
+            "Gute Nacht!",
+            "Tschüss!"
+          ],
+          "answer": 0,
+          "explain": "Por la mañana temprano: Guten Morgen."
+        },
+        {
+          "q": "Son las 20:00. Llegas a una cena en casa de un profesor.",
+          "options": [
+            "Gute Nacht!",
+            "Guten Abend!",
+            "Bis morgen!"
+          ],
+          "answer": 1,
+          "explain": "Al llegar por la noche se dice Guten Abend. Gute Nacht es solo para despedirse antes de dormir."
+        },
+        {
+          "q": "Te despides de un amigo; lo vuelves a ver mañana.",
+          "options": [
+            "Auf Wiedersehen!",
+            "Guten Tag!",
+            "Bis morgen!"
+          ],
+          "answer": 2,
+          "explain": "Bis morgen = hasta mañana. Auf Wiedersehen sería demasiado formal con un amigo."
+        },
+        {
+          "q": "Sales de una consulta médica.",
+          "options": [
+            "Tschüss!",
+            "Auf Wiedersehen!",
+            "Hallo!"
+          ],
+          "answer": 1,
+          "explain": "En una situación formal: Auf Wiedersehen."
+        },
+        {
+          "q": "Son las 15:00. Entras en una tienda.",
+          "options": [
+            "Guten Tag!",
+            "Guten Morgen!",
+            "Gute Nacht!"
+          ],
+          "answer": 0,
+          "explain": "Durante el día, en situación formal: Guten Tag."
+        },
+        {
+          "q": "Tu compañera de piso se va a dormir.",
+          "options": [
+            "Guten Abend!",
+            "Gute Nacht!",
+            "Hallo!"
+          ],
+          "answer": 1,
+          "explain": "Al irse a dormir: Gute Nacht."
+        }
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "match",
+      "title": "Frases útiles",
+      "instructions": "Relaciona cada frase alemana con su traducción.",
+      "pairs": [
+        [
+          "Wie geht's?",
+          "¿Qué tal?"
+        ],
+        [
+          "Freut mich!",
+          "¡Encantado/a!"
+        ],
+        [
+          "Es geht.",
+          "Regular."
+        ],
+        [
+          "Entschuldigung!",
+          "¡Perdón!"
+        ],
+        [
+          "Bis bald!",
+          "¡Hasta pronto!"
+        ],
+        [
+          "Wie schreibt man das?",
+          "¿Cómo se escribe?"
+        ],
+        [
+          "Und Ihnen?",
+          "¿Y a usted?"
+        ]
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "mc",
+      "title": "¿du o Sie?",
+      "instructions": "¿Qué pregunta es la adecuada en cada situación?",
+      "items": [
+        {
+          "q": "Hablas con un compañero de tu curso de alemán (tenéis 25 años).",
+          "options": [
+            "Wie heißt du?",
+            "Wie heißen Sie?"
+          ],
+          "answer": 0,
+          "explain": "Entre compañeros de clase se usa du."
+        },
+        {
+          "q": "Hablas con la recepcionista de un hotel.",
+          "options": [
+            "Woher kommst du?",
+            "Woher kommen Sie?"
+          ],
+          "answer": 1,
+          "explain": "Con desconocidos en un contexto de servicio: Sie."
+        },
+        {
+          "q": "Hablas con un niño de 8 años en el parque.",
+          "options": [
+            "Wie heißt du?",
+            "Wie heißen Sie?"
+          ],
+          "answer": 0,
+          "explain": "A los niños siempre se les trata de du."
+        },
+        {
+          "q": "Hablas con el examinador en el examen Goethe.",
+          "options": [
+            "Wo wohnst du?",
+            "Wo wohnen Sie?"
+          ],
+          "answer": 1,
+          "explain": "Con el examinador: Sie."
+        },
+        {
+          "q": "Hablas con tu nuevo jefe el primer día.",
+          "options": [
+            "Wie geht es Ihnen?",
+            "Wie geht's?"
+          ],
+          "answer": 0,
+          "explain": "Con el jefe, salvo que te ofrezca el du: Sie (Wie geht es Ihnen?)."
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "El verbo sein",
+      "instructions": "Escribe la forma correcta de sein.",
+      "items": [
+        {
+          "text": "Ich [[bin]] Laura."
+        },
+        {
+          "text": "Du [[bist]] Pablo, oder?"
+        },
+        {
+          "text": "Das [[ist]] Herr Keller."
+        },
+        {
+          "text": "Wir [[sind]] im Deutschkurs."
+        },
+        {
+          "text": "Ihr [[seid]] Anna und Tom, richtig?"
+        },
+        {
+          "text": "[[Sind]] Sie Frau Frei?"
+        },
+        {
+          "text": "Marco und Sofia [[sind]] aus Italien."
+        },
+        {
+          "text": "Wer [[ist]] das?"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Presente de los verbos regulares",
+      "instructions": "Conjuga el verbo entre paréntesis.",
+      "items": [
+        {
+          "text": "Ich [[wohne]] in Zürich. (wohnen)"
+        },
+        {
+          "text": "Woher [[kommst]] du? (kommen)"
+        },
+        {
+          "text": "Wie [[heißt/heisst]] du? (heißen)",
+          "note": "En Suiza se escribe ss en lugar de ß; aceptamos las dos."
+        },
+        {
+          "text": "Anna [[lernt]] Deutsch. (lernen)"
+        },
+        {
+          "text": "Wo [[arbeitest]] du? (arbeiten)"
+        },
+        {
+          "text": "Er [[arbeitet]] in Bern. (arbeiten)"
+        },
+        {
+          "text": "Was [[macht]] ihr hier? (machen)"
+        },
+        {
+          "text": "Wir [[kommen]] aus Spanien. (kommen)"
+        },
+        {
+          "text": "Wie [[heißen/heissen]] Sie? (heißen)"
+        },
+        {
+          "text": "Ihr [[wohnt]] in Wien, oder? (wohnen)"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "Preguntas con W-",
+      "instructions": "Completa con wer, wie, woher, wo o was.",
+      "items": [
+        {
+          "text": "[[Wie]] heißen Sie? – Ich heiße Keller."
+        },
+        {
+          "text": "[[Woher]] kommst du? – Aus Österreich."
+        },
+        {
+          "text": "[[Wo]] wohnt ihr? – In Basel."
+        },
+        {
+          "text": "[[Wer]] ist das? – Das ist Frau Frei."
+        },
+        {
+          "text": "[[Was]] machst du hier? – Ich lerne Deutsch."
+        },
+        {
+          "text": "[[Wie]] geht es Ihnen? – Sehr gut, danke."
+        },
+        {
+          "text": "[[Wo]] arbeitet Marco? – In Zürich."
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Construye la frase",
+      "instructions": "Pulsa las palabras en el orden correcto. Recuerda: el verbo va en la posición 2.",
+      "items": [
+        {
+          "words": [
+            "Wo",
+            "wohnen",
+            "Sie",
+            "?"
+          ],
+          "answers": [
+            "Wo wohnen Sie?"
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "komme",
+            "aus",
+            "Spanien",
+            "."
+          ],
+          "answers": [
+            "Ich komme aus Spanien."
+          ]
+        },
+        {
+          "words": [
+            "Jetzt",
+            "wohne",
+            "ich",
+            "in",
+            "Zürich",
+            "."
+          ],
+          "answers": [
+            "Jetzt wohne ich in Zürich."
+          ]
+        },
+        {
+          "words": [
+            "Hier",
+            "lerne",
+            "ich",
+            "Deutsch",
+            "."
+          ],
+          "answers": [
+            "Hier lerne ich Deutsch."
+          ]
+        },
+        {
+          "words": [
+            "Was",
+            "machst",
+            "du",
+            "hier",
+            "?"
+          ],
+          "answers": [
+            "Was machst du hier?"
+          ]
+        },
+        {
+          "words": [
+            "Das",
+            "ist",
+            "Frau",
+            "Frei",
+            "."
+          ],
+          "answers": [
+            "Das ist Frau Frei."
+          ]
+        },
+        {
+          "words": [
+            "Woher",
+            "kommt",
+            "Marco",
+            "?"
+          ],
+          "answers": [
+            "Woher kommt Marco?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Deletreo",
+      "instructions": "Escucha cómo se deletrea cada apellido y escríbelo.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Mein Name ist Huber. Ha, U, Be, E, Er."
+            }
+          ],
+          "answers": [
+            "Huber"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Ich heiße Wagner. We, A, Ge, En, E, Er."
+            }
+          ],
+          "answers": [
+            "Wagner"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Mein Familienname ist Schulz. Es, Ce, Ha, U, El, Zett."
+            }
+          ],
+          "answers": [
+            "Schulz"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Mein Name ist Vogel. Fau, O, Ge, E, El."
+            }
+          ],
+          "answers": [
+            "Vogel"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Ich heiße Jung. Jott, U, En, Ge."
+            }
+          ],
+          "answers": [
+            "Jung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "listen",
+      "title": "Diálogos cortos",
+      "instructions": "Escucha cada diálogo y contesta la pregunta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hallo, ich bin Tom. Und wie heißt du?"
+            },
+            {
+              "v": "f2",
+              "t": "Ich heiße Sara. Ich komme aus Italien."
+            }
+          ],
+          "q": "¿De dónde es Sara?",
+          "options": [
+            "De Italia",
+            "De España",
+            "De Austria"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Tag, Herr Wagner. Wie geht es Ihnen?"
+            },
+            {
+              "v": "m2",
+              "t": "Danke, sehr gut. Und Ihnen?"
+            },
+            {
+              "v": "f1",
+              "t": "Es geht."
+            }
+          ],
+          "q": "¿Qué tal está la mujer?",
+          "options": [
+            "Muy bien",
+            "Regular",
+            "Mal"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Wo wohnst du, Lena?"
+            },
+            {
+              "v": "f2",
+              "t": "Ich wohne in Basel. Aber ich arbeite in Zürich."
+            }
+          ],
+          "q": "¿Dónde vive Lena?",
+          "options": [
+            "En Zúrich",
+            "En Berna",
+            "En Basilea"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Entschuldigung, sind Sie Herr Braun?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, ich bin Herr Keller. Das ist Herr Braun."
+            }
+          ],
+          "q": "¿Cómo se llama el hombre que habla?",
+          "options": [
+            "Braun",
+            "Keller",
+            "Wagner"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán. Se aceptan pequeñas variantes; fíjate en las mayúsculas.",
+      "items": [
+        {
+          "prompt": "Me llamo Ana.",
+          "answers": [
+            "Ich heiße Ana.",
+            "Ich bin Ana.",
+            "Mein Name ist Ana."
+          ]
+        },
+        {
+          "prompt": "¿De dónde es usted?",
+          "answers": [
+            "Woher kommen Sie?"
+          ]
+        },
+        {
+          "prompt": "Vivo en Zúrich.",
+          "answers": [
+            "Ich wohne in Zürich."
+          ]
+        },
+        {
+          "prompt": "¿Qué tal? (informal)",
+          "answers": [
+            "Wie geht's?",
+            "Wie geht es dir?"
+          ]
+        },
+        {
+          "prompt": "Soy de España, pero vivo en Suiza.",
+          "answers": [
+            "Ich komme aus Spanien, aber ich wohne in der Schweiz.",
+            "Ich bin aus Spanien, aber ich wohne in der Schweiz."
+          ]
+        },
+        {
+          "prompt": "Esta es la señora Frei. Es profesora.",
+          "answers": [
+            "Das ist Frau Frei. Sie ist Lehrerin.",
+            "Das ist Frau Frei. Sie ist Kursleiterin."
+          ]
+        },
+        {
+          "prompt": "Aquí aprendo alemán.",
+          "answers": [
+            "Hier lerne ich Deutsch.",
+            "Ich lerne hier Deutsch."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wie heißt die Frau?",
+          "options": [
+            "Anna Berger",
+            "Anna Schmidt",
+            "Thomas Schmidt"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Tag, ich bin Thomas Berger. Und wie heißen Sie?"
+            },
+            {
+              "v": "f1",
+              "t": "Guten Tag, Herr Berger. Ich heiße Anna Schmidt."
+            }
+          ]
+        },
+        {
+          "q": "Woher kommt Pablo?",
+          "options": [
+            "aus Spanien",
+            "aus Österreich",
+            "aus Deutschland"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hallo, ich bin Pablo."
+            },
+            {
+              "v": "f2",
+              "t": "Hallo Pablo! Woher kommst du? Aus Spanien?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, ich komme aus Österreich. Aber ich wohne in Madrid."
+            }
+          ]
+        },
+        {
+          "q": "Wo wohnt Frau Keller?",
+          "options": [
+            "in Zürich",
+            "in Bern",
+            "in Basel"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Frau Keller, wohnen Sie in Zürich?"
+            },
+            {
+              "v": "f1",
+              "t": "Nein, ich wohne in Bern. Ich arbeite in Zürich."
+            }
+          ]
+        },
+        {
+          "q": "Wie schreibt man den Namen?",
+          "options": [
+            "Meier",
+            "Maier",
+            "Mayer"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Wie ist Ihr Name, bitte?"
+            },
+            {
+              "v": "f1",
+              "t": "Mayer."
+            },
+            {
+              "v": "m1",
+              "t": "Wie schreibt man das?"
+            },
+            {
+              "v": "f1",
+              "t": "Em, A, Ypsilon, E, Er."
+            }
+          ]
+        },
+        {
+          "q": "Wie geht es Peter?",
+          "options": [
+            "gut",
+            "sehr gut",
+            "nicht so gut"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Peter, wie geht's?"
+            },
+            {
+              "v": "m2",
+              "t": "Ach, nicht so gut. Und dir?"
+            },
+            {
+              "v": "f2",
+              "t": "Sehr gut, danke!"
+            }
+          ]
+        },
+        {
+          "q": "Was macht Sofia hier?",
+          "options": [
+            "Sie arbeitet hier.",
+            "Sie lernt Deutsch.",
+            "Sie wohnt hier."
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hallo Sofia! Arbeitest du hier?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, ich lerne hier Deutsch. Ich wohne in Wien."
+            }
+          ]
+        },
+        {
+          "q": "Wer ist Herr Braun?",
+          "options": [
+            "der Lehrer",
+            "ein Kursteilnehmer",
+            "ein Mann aus Wien"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Frau Novak, das ist Herr Braun. Er ist Lehrer hier."
+            },
+            {
+              "v": "f2",
+              "t": "Guten Tag, Herr Braun. Freut mich!"
+            },
+            {
+              "v": "m2",
+              "t": "Freut mich auch, Frau Novak."
+            }
+          ]
+        },
+        {
+          "q": "Wie ist der Vorname von Herrn Müller?",
+          "options": [
+            "Jens",
+            "Jan",
+            "Hans"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wie heißen Sie, bitte?"
+            },
+            {
+              "v": "m1",
+              "t": "Müller. Jan Müller."
+            },
+            {
+              "v": "f1",
+              "t": "Jan? Wie schreibt man das?"
+            },
+            {
+              "v": "m1",
+              "t": "Jott, A, En."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Herr Wagner kommt aus Berlin.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Eine Information für Herrn Wagner aus Hamburg: Herr Wagner, bitte kommen Sie zur Information. Danke."
+            }
+          ]
+        },
+        {
+          "statement": "Maria Lopez wohnt in Spanien.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Morgen! Hier ist Radio Zürich. Heute im Studio: Maria Lopez aus Spanien. Sie wohnt und arbeitet jetzt in Zürich."
+            }
+          ]
+        },
+        {
+          "statement": "Die Kursleiterin heißt Petra Wolf.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo und herzlich willkommen im Deutschkurs! Ich bin Ihre Kursleiterin. Ich heiße Petra Wolf. Wir lernen hier Deutsch."
+            }
+          ]
+        },
+        {
+          "statement": "Das Café ist in Wien.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hallo, hier ist das Café Europa in Wien. Wir sprechen Deutsch, Englisch und Spanisch. Willkommen!"
+            }
+          ]
+        },
+        {
+          "statement": "Der Mann von Frau Kaya ist an der Information.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Achtung, eine Information für Frau Kaya: Frau Kaya, Ihr Mann ist hier an der Information."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wo ist Mia?",
+          "options": [
+            "in Wien",
+            "in Berlin",
+            "in Zürich"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Lukas, hier ist Mia. Ich bin jetzt in Berlin! Ich wohne bei Anna. Tschüss, bis bald!"
+            }
+          ]
+        },
+        {
+          "q": "Wer ist in Madrid?",
+          "options": [
+            "Sara",
+            "Ben",
+            "Sara und Pablo"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hallo Sara, hier ist Ben. Wie geht's? Ich bin in Madrid, bei Pablo. Es ist super hier! Bis morgen, tschüss!"
+            }
+          ]
+        },
+        {
+          "q": "Wer ruft an?",
+          "options": [
+            "eine Kursteilnehmerin",
+            "die Kursleiterin",
+            "Herr Novak"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Abend, Herr Novak. Hier ist Julia Braun, Ihre Kursleiterin. Der Kurs ist morgen nicht hier, er ist im Café Europa. Bis morgen!"
+            }
+          ]
+        },
+        {
+          "q": "Woher kommt der Lehrer?",
+          "options": [
+            "aus Deutschland",
+            "aus Österreich",
+            "aus der Schweiz"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Tom, hier ist Lisa. Ich lerne jetzt Deutsch! Der Lehrer kommt aus Österreich, aus Wien. Er ist sehr nett. Tschüss!"
+            }
+          ]
+        },
+        {
+          "q": "Was macht Herr Rossi in Bern?",
+          "options": [
+            "Er arbeitet.",
+            "Er lernt Deutsch.",
+            "Er wohnt dort."
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Guten Tag, Frau Weber, hier ist Marco Rossi. Ich bin jetzt in Bern, ich arbeite hier. Aber ich wohne noch in Zürich. Auf Wiederhören!"
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Laura,\n\nwie geht's? Ich bin jetzt in Zürich! Ich wohne bei Familie Huber. Herr Huber kommt aus Österreich, Frau Huber kommt aus der Schweiz. Ich lerne hier Deutsch – der Kurs ist super! Die Kursleiterin heißt Frau Frei. Sie ist sehr nett.\n\nLiebe Grüße\nElena",
+          "statements": [
+            {
+              "s": "Elena wohnt in Zürich.",
+              "answer": true
+            },
+            {
+              "s": "Herr Huber kommt aus der Schweiz.",
+              "answer": false
+            },
+            {
+              "s": "Elena arbeitet in Zürich.",
+              "answer": false
+            },
+            {
+              "s": "Elena lernt Deutsch.",
+              "answer": true
+            },
+            {
+              "s": "Die Kursleiterin heißt Laura.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Ich heiße Marco Rossi. Ich komme aus Italien, aus Rom. Jetzt wohne ich in Wien. Ich arbeite hier und ich lerne auch Deutsch. Mein Kollege heißt Stefan. Er kommt aus Wien und er spricht sehr gut Italienisch!",
+          "statements": [
+            {
+              "s": "Marco kommt aus Rom.",
+              "answer": true
+            },
+            {
+              "s": "Marco wohnt in Italien.",
+              "answer": false
+            },
+            {
+              "s": "Marco lernt Deutsch.",
+              "answer": true
+            },
+            {
+              "s": "Stefan kommt aus Italien.",
+              "answer": false
+            },
+            {
+              "s": "Stefan spricht Italienisch.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Liebe Kursteilnehmerinnen und Kursteilnehmer,\n\nich bin Tim Wagner, der neue Kursleiter. Ich komme aus Deutschland, aus Hamburg, aber ich wohne schon lange in Bern. Ich spreche Deutsch, Englisch und ein bisschen Spanisch. Frau Frei ist jetzt im Kurs A2.\n\nBis morgen!\nTim Wagner",
+          "statements": [
+            {
+              "s": "Tim Wagner ist der neue Kursleiter.",
+              "answer": true
+            },
+            {
+              "s": "Tim Wagner kommt aus Bern.",
+              "answer": false
+            },
+            {
+              "s": "Er wohnt in der Schweiz.",
+              "answer": true
+            },
+            {
+              "s": "Er spricht sehr gut Spanisch.",
+              "answer": false
+            },
+            {
+              "s": "Frau Frei ist jetzt die Kursleiterin von Kurs A2.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie lernen Deutsch und möchten eine Lehrerin aus Österreich.",
+          "a": "Deutschkurs A1 mit Frau Gruber aus Wien",
+          "b": "Deutschkurs A1 mit Frau Keller aus Bern",
+          "answer": "a"
+        },
+        {
+          "situation": "Ihr Familienname ist Zimmermann. Wo ist Ihr Kurs?",
+          "a": "Deutschkurs 1: Familiennamen A bis M",
+          "b": "Deutschkurs 2: Familiennamen N bis Z",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie kommen aus Spanien und wohnen in Zürich. Sie suchen Leute aus Spanien.",
+          "a": "Club Hispano Zürich – Spanierinnen und Spanier in Zürich: Willkommen!",
+          "b": "Club Español Madrid – für Leute in Madrid",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie arbeiten am Tag. Sie möchten am Abend Deutsch lernen.",
+          "a": "Deutsch am Morgen: 8.30 bis 10.00 Uhr",
+          "b": "Deutsch am Abend: 19.00 bis 20.30 Uhr",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie wohnen in Basel und suchen einen Deutschkurs.",
+          "a": "Deutschkurse in Basel – Sprachschule Rhein",
+          "b": "Deutschkurse in Bern – Sprachschule Aare",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten Französisch sprechen.",
+          "a": "Café Paris – Hier sprechen wir Französisch und Deutsch.",
+          "b": "Café Roma – Hier sprechen wir Italienisch und Deutsch.",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie sind neu in Zürich. Sie möchten andere Leute kennenlernen, nicht nur Spanier.",
+          "a": "Club Hispano Zürich – nur Spanisch!",
+          "b": "Neu in Zürich? Treffen für Leute aus allen Ländern – wir sprechen Deutsch.",
+          "answer": "b"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Deutschkurs A1: Heute nicht in Raum 2, sondern in Raum 5!",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der Deutschkurs ist heute in Raum 2.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Café Europa – Wir sprechen Deutsch, Englisch und Spanisch.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Im Café Europa spricht man auch Spanisch.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Lehrerzimmer – nur für Lehrerinnen und Lehrer",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Hier sind die Kursteilnehmer.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Sprachschule Lingua – Information. Heute: Herr Keller. Morgen: Frau Frei.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Heute ist Frau Frei an der Information.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Herzlich willkommen, liebe Kursteilnehmerinnen und Kursteilnehmer! Der Deutschkurs beginnt hier.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Hier ist der Deutschkurs.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Familie Huber – bitte zweimal klingeln",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Hier wohnt Familie Huber.",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Carmen Ruiz kommt aus Spanien, aus Sevilla. Jetzt wohnt sie in der Schweiz, in Zürich. Sie arbeitet in Zürich und lernt Deutsch. Sie möchte einen Deutschkurs machen. Ihr Mann heißt Luis, er kommt aus Italien.",
+          "title": "Anmeldung – Sprachschule Lingua",
+          "fields": [
+            {
+              "label": "Familienname",
+              "given": "Ruiz"
+            },
+            {
+              "label": "Vorname",
+              "answers": [
+                "Carmen"
+              ]
+            },
+            {
+              "label": "Herkunftsland",
+              "answers": [
+                "Spanien"
+              ]
+            },
+            {
+              "label": "Geburtsort",
+              "answers": [
+                "Sevilla"
+              ]
+            },
+            {
+              "label": "Wohnort",
+              "answers": [
+                "Zürich",
+                "Zuerich",
+                "Zurich"
+              ]
+            },
+            {
+              "label": "Kurs (Sprache)",
+              "answers": [
+                "Deutsch"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Das ist Stefan Gruber. Er kommt aus Österreich, aus Graz. Er wohnt jetzt in Deutschland, in Berlin. Stefan lernt Spanisch. Seine Kursleiterin heißt Ana López.",
+          "title": "Anmeldung – Sprachschule Berlin-Mitte",
+          "fields": [
+            {
+              "label": "Familienname",
+              "answers": [
+                "Gruber"
+              ]
+            },
+            {
+              "label": "Vorname",
+              "given": "Stefan"
+            },
+            {
+              "label": "Herkunftsland",
+              "answers": [
+                "Österreich",
+                "Oesterreich"
+              ]
+            },
+            {
+              "label": "Geburtsort",
+              "answers": [
+                "Graz"
+              ]
+            },
+            {
+              "label": "Wohnort",
+              "answers": [
+                "Berlin"
+              ]
+            },
+            {
+              "label": "Kurs (Sprache)",
+              "answers": [
+                "Spanisch"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Hallo, ich bin Yuki Tanaka. Ich komme aus Japan, aus Osaka. Seit Mai wohne ich in Österreich, in Wien. Ich arbeite in einem Hotel. Ich möchte Deutsch lernen – am Abend, bitte!",
+          "title": "Anmeldung – Volkshochschule Wien",
+          "fields": [
+            {
+              "label": "Familienname",
+              "answers": [
+                "Tanaka"
+              ]
+            },
+            {
+              "label": "Vorname",
+              "given": "Yuki"
+            },
+            {
+              "label": "Herkunftsland",
+              "answers": [
+                "Japan"
+              ]
+            },
+            {
+              "label": "Wohnort",
+              "answers": [
+                "Wien"
+              ]
+            },
+            {
+              "label": "Kurs (Sprache)",
+              "answers": [
+                "Deutsch"
+              ]
+            },
+            {
+              "label": "Kurszeit (Morgen / Abend)",
+              "answers": [
+                "Abend",
+                "am Abend"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie sind neu im Deutschkurs. Schreiben Sie Ihrer Kursleiterin, Frau Frei, eine E-Mail.",
+          "points": [
+            "Wer sind Sie?",
+            "Woher kommen Sie?",
+            "Wo wohnen und arbeiten Sie?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Frei,\n\nich heiße José López. Ich bin neu im Deutschkurs. Ich komme aus Spanien, aus Granada. Jetzt wohne ich in Zürich. Ich arbeite hier an der Universität.\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Sie haben eine neue Kollegin, Lena. Schreiben Sie Lena eine kurze Nachricht.",
+          "points": [
+            "Stellen Sie sich vor.",
+            "Woher kommen Sie?",
+            "Fragen Sie: Woher kommt Lena?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Lena,\n\nich bin Pablo. Ich arbeite auch hier. Ich komme aus Spanien, aber ich wohne jetzt in Bern. Und du? Woher kommst du?\n\nBis bald!\nPablo"
+        },
+        {
+          "task": "Sie wohnen neu in einem Haus. Schreiben Sie Ihrer Nachbarin, Frau Huber, eine kurze Nachricht.",
+          "points": [
+            "Wer sind Sie?",
+            "Woher kommen Sie?",
+            "Was machen Sie hier (arbeiten / lernen)?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Huber,\n\nich bin Laura García und ich wohne jetzt hier. Ich komme aus Spanien, aus Valencia. Ich arbeite in Zürich und ich lerne Deutsch.\n\nViele Grüße\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Wohnort?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie schreibt man Ihren Namen? Buchstabieren Sie bitte.",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Mein Name ist José López. Ich komme aus Spanien, aus Granada. Jetzt wohne ich in Zürich. Ich arbeite hier und ich lerne Deutsch. López: El, O, Pe, E, Zett."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Wohnort?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie schreibt man Ihren Wohnort? Buchstabieren Sie bitte.",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo! Ich heiße Laura García. Ich komme aus Spanien, aus Valencia. Ich wohne jetzt in Bern. Bern: Be, E, Er, En."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Person",
+          "word": "Name",
+          "question": "Wie heißt du?",
+          "answer": "Ich heiße Laura."
+        },
+        {
+          "theme": "Person",
+          "word": "Woher?",
+          "question": "Woher kommst du?",
+          "answer": "Ich komme aus Spanien."
+        },
+        {
+          "theme": "Person",
+          "word": "Wohnort",
+          "question": "Wo wohnst du?",
+          "answer": "Ich wohne in Zürich."
+        },
+        {
+          "theme": "Person",
+          "word": "Deutschkurs",
+          "question": "Lernst du hier Deutsch?",
+          "answer": "Ja, ich lerne hier Deutsch."
+        },
+        {
+          "theme": "Person",
+          "word": "arbeiten",
+          "question": "Wo arbeitest du?",
+          "answer": "Ich arbeite in Bern."
+        },
+        {
+          "theme": "Person",
+          "word": "Wie geht's?",
+          "question": "Wie geht es dir?",
+          "answer": "Gut, danke. Und dir?"
+        }
+      ]
+    }
+  }
+}

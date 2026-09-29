@@ -1,0 +1,67 @@
+# Valida el contenido, genera los audios que falten y publica la web en GitHub Pages.
+# Activa Pages en: Settings → Pages → Source: "GitHub Actions".
+name: Publicar web
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar ffmpeg y edge-tts
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install edge-tts
+
+      - name: Validar contenido
+        run: python scripts/validate.py
+
+      # Los MP3 se guardan en caché entre ejecuciones: solo se generan los textos nuevos o cambiados.
+      - name: Recuperar audios generados
+        uses: actions/cache@v4
+        with:
+          path: audio
+          key: audio-${{ hashFiles('content/**') }}
+          restore-keys: audio-
+
+      - name: Generar audios que falten
+        run: python scripts/generate_audio.py --engine edge --prune
+
+      - name: Preparar la web
+        run: |
+          mkdir _site
+          cp -r index.html assets content audio _site/
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
