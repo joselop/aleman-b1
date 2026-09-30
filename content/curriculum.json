@@ -95,7 +95,7 @@
         },
         {
           "id": "t09",
-          "status": "planned",
+          "status": "ready",
           "title": "En la ciudad",
           "grammar": [
             "Dativo con mit / zu / bei",
@@ -105,7 +105,7 @@
         },
         {
           "id": "t10",
-          "status": "planned",
+          "status": "ready",
           "title": "Salud y cuerpo",
           "grammar": [
             "müssen / dürfen",
@@ -115,7 +115,7 @@
         },
         {
           "id": "t11",
-          "status": "planned",
+          "status": "ready",
           "title": "Trabajo y citas",
           "grammar": [
             "Fechas y ordinales",
@@ -125,7 +125,7 @@
         },
         {
           "id": "t12",
-          "status": "planned",
+          "status": "ready",
           "title": "Viajes, tiempo y fiestas",
           "grammar": [
             "Perfekt con sein",

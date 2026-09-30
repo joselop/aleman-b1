@@ -1,0 +1,463 @@
+{
+  "id": "a1-t11",
+  "level": "a1",
+  "topic": "t11",
+  "title": "Trabajo y citas",
+  "title_de": "Arbeit und Termine",
+  "goals": [
+    "Decir tu profesión y dónde trabajas, y preguntar por la de otra persona",
+    "Usar los meses, las estaciones y los números ordinales",
+    "Decir y entender fechas: am dritten Mai, der 3. Mai",
+    "Usar las preposiciones de tiempo um, am, im, seit, vor, ab",
+    "Contar el pasado con el Perfekt con haben (gemacht, gegessen, eingekauft, studiert…)"
+  ],
+  "vocab": [
+    { "de": "der Beruf", "pl": "die Berufe", "es": "la profesión", "cat": "Profesiones", "ex": "Was sind Sie von Beruf?", "ex_es": "¿Cuál es su profesión?" },
+    { "de": "der Ingenieur / die Ingenieurin", "pl": "die Ingenieure / die Ingenieurinnen", "es": "el/la ingeniero/a", "cat": "Profesiones", "ex": "Ich bin Ingenieur.", "ex_es": "Soy ingeniero." },
+    { "de": "der Krankenpfleger / die Krankenpflegerin", "pl": "die Krankenpfleger / die Krankenpflegerinnen", "es": "el/la enfermero/a", "cat": "Profesiones", "ex": "Sie arbeitet als Krankenpflegerin.", "ex_es": "Trabaja de enfermera." },
+    { "de": "der Verkäufer / die Verkäuferin", "pl": "die Verkäufer / die Verkäuferinnen", "es": "el/la dependiente/a", "cat": "Profesiones", "ex": "Er ist Verkäufer im Supermarkt.", "ex_es": "Es dependiente en el supermercado." },
+    { "de": "der Koch / die Köchin", "pl": "die Köche / die Köchinnen", "es": "el/la cocinero/a", "cat": "Profesiones", "ex": "Mein Bruder ist Koch.", "ex_es": "Mi hermano es cocinero." },
+    { "de": "der Kellner / die Kellnerin", "pl": "die Kellner / die Kellnerinnen", "es": "el/la camarero/a", "cat": "Profesiones", "ex": "Die Kellnerin ist sehr nett.", "ex_es": "La camarera es muy amable." },
+    { "de": "der Friseur / die Friseurin", "pl": "die Friseure / die Friseurinnen", "es": "el/la peluquero/a", "cat": "Profesiones", "ex": "Ich habe morgen einen Termin beim Friseur.", "ex_es": "Mañana tengo cita en la peluquería." },
+    { "de": "der Programmierer / die Programmiererin", "pl": "die Programmierer / die Programmiererinnen", "es": "el/la programador/a", "cat": "Profesiones", "ex": "Sie ist Programmiererin bei Google.", "ex_es": "Es programadora en Google." },
+    { "de": "der Student / die Studentin", "pl": "die Studenten / die Studentinnen", "es": "el/la estudiante universitario/a", "cat": "Profesiones", "ex": "Ich bin Student.", "ex_es": "Soy estudiante." },
+    { "de": "der Rentner / die Rentnerin", "pl": "die Rentner / die Rentnerinnen", "es": "el/la jubilado/a", "cat": "Profesiones", "ex": "Mein Vater ist Rentner.", "ex_es": "Mi padre está jubilado." },
+    { "de": "arbeitslos", "es": "en paro", "cat": "Profesiones", "ex": "Er ist seit drei Monaten arbeitslos.", "ex_es": "Lleva tres meses en paro." },
+    { "de": "die Firma", "pl": "die Firmen", "es": "la empresa", "cat": "Trabajo", "ex": "Die Firma ist in Basel.", "ex_es": "La empresa está en Basilea." },
+    { "de": "das Büro", "pl": "die Büros", "es": "la oficina", "cat": "Trabajo", "ex": "Ich bin bis fünf im Büro.", "ex_es": "Estoy en la oficina hasta las cinco." },
+    { "de": "der Chef / die Chefin", "pl": "die Chefs / die Chefinnen", "es": "el/la jefe/a", "cat": "Trabajo", "ex": "Meine Chefin ist heute nicht da.", "ex_es": "Mi jefa no está hoy." },
+    { "de": "die Arbeit", "es": "el trabajo", "cat": "Trabajo", "ex": "Die Arbeit macht Spaß.", "ex_es": "El trabajo es divertido." },
+    { "de": "die Ausbildung", "pl": "die Ausbildungen", "es": "la formación profesional", "cat": "Trabajo", "ex": "Sie macht eine Ausbildung als Friseurin.", "ex_es": "Está haciendo la formación de peluquera." },
+    { "de": "das Praktikum", "pl": "die Praktika", "es": "las prácticas", "cat": "Trabajo", "ex": "Ich mache ein Praktikum bei einer Bank.", "ex_es": "Hago prácticas en un banco." },
+    { "de": "der Urlaub", "es": "las vacaciones (del trabajo)", "cat": "Trabajo", "ex": "Im August habe ich Urlaub.", "ex_es": "En agosto tengo vacaciones." },
+    { "de": "Vollzeit / Teilzeit", "es": "jornada completa / parcial", "cat": "Trabajo", "ex": "Ich arbeite Teilzeit.", "ex_es": "Trabajo a media jornada." },
+    { "de": "als", "es": "como, de (profesión)", "cat": "Trabajo", "ex": "Ich arbeite als Kellner.", "ex_es": "Trabajo de camarero." },
+    { "de": "studieren", "es": "estudiar (en la universidad)", "cat": "Trabajo", "forms": "er studiert, hat studiert", "ex": "Ich habe in Granada studiert.", "ex_es": "Estudié en Granada." },
+    { "de": "der Monat", "pl": "die Monate", "es": "el mes", "cat": "Fechas", "ex": "Das Jahr hat zwölf Monate.", "ex_es": "El año tiene doce meses." },
+    { "de": "Januar, Februar, März …", "es": "enero, febrero, marzo…", "cat": "Fechas", "ex": "Im Januar ist es kalt.", "ex_es": "En enero hace frío." },
+    { "de": "der Frühling", "es": "la primavera", "cat": "Fechas", "ex": "Im Frühling ist es schön.", "ex_es": "En primavera se está bien." },
+    { "de": "der Sommer", "es": "el verano", "cat": "Fechas", "ex": "Im Sommer fahre ich nach Spanien.", "ex_es": "En verano voy a España." },
+    { "de": "der Herbst", "es": "el otoño", "cat": "Fechas", "ex": "Im Herbst regnet es oft.", "ex_es": "En otoño llueve a menudo." },
+    { "de": "der Winter", "es": "el invierno", "cat": "Fechas", "ex": "Im Winter fahren wir Ski.", "ex_es": "En invierno esquiamos." },
+    { "de": "das Datum", "pl": "die Daten", "es": "la fecha", "cat": "Fechas", "ex": "Welches Datum ist heute?", "ex_es": "¿Qué fecha es hoy?" },
+    { "de": "der Geburtstag", "pl": "die Geburtstage", "es": "el cumpleaños", "cat": "Fechas", "ex": "Wann hast du Geburtstag?", "ex_es": "¿Cuándo es tu cumpleaños?" },
+    { "de": "erste / dritte / siebte", "es": "primero / tercero / séptimo", "cat": "Fechas", "ex": "Heute ist der erste Mai.", "ex_es": "Hoy es uno de mayo." },
+    { "de": "geboren", "es": "nacido", "cat": "Fechas", "ex": "Ich bin 1998 geboren.", "ex_es": "Nací en 1998." },
+    { "de": "gestern", "es": "ayer", "cat": "Tiempo", "ex": "Gestern habe ich viel gearbeitet.", "ex_es": "Ayer trabajé mucho." },
+    { "de": "vorgestern", "es": "anteayer", "cat": "Tiempo", "ex": "Vorgestern hat sie angerufen.", "ex_es": "Anteayer llamó ella." },
+    { "de": "letzte Woche", "es": "la semana pasada", "cat": "Tiempo", "ex": "Letzte Woche habe ich Urlaub gemacht.", "ex_es": "La semana pasada estuve de vacaciones." },
+    { "de": "vor", "es": "hace (con tiempo)", "cat": "Tiempo", "ex": "Ich habe vor zwei Jahren Deutsch gelernt.", "ex_es": "Aprendí alemán hace dos años." },
+    { "de": "schon", "es": "ya", "cat": "Tiempo", "ex": "Hast du schon gegessen?", "ex_es": "¿Ya has comido?" },
+    { "de": "noch nicht", "es": "todavía no", "cat": "Tiempo", "ex": "Ich habe noch nicht gegessen.", "ex_es": "Todavía no he comido." },
+    { "de": "machen – gemacht", "es": "hacer – hecho", "cat": "Participios", "forms": "hat gemacht", "ex": "Was hast du gemacht?", "ex_es": "¿Qué has hecho?" },
+    { "de": "arbeiten – gearbeitet", "es": "trabajar – trabajado", "cat": "Participios", "forms": "hat gearbeitet", "ex": "Ich habe bis acht gearbeitet.", "ex_es": "Trabajé hasta las ocho." },
+    { "de": "essen – gegessen", "es": "comer – comido", "cat": "Participios", "forms": "hat gegessen", "ex": "Wir haben Pizza gegessen.", "ex_es": "Comimos pizza." },
+    { "de": "trinken – getrunken", "es": "beber – bebido", "cat": "Participios", "forms": "hat getrunken", "ex": "Ich habe zu viel Kaffee getrunken.", "ex_es": "He tomado demasiado café." },
+    { "de": "sehen – gesehen", "es": "ver – visto", "cat": "Participios", "forms": "hat gesehen", "ex": "Hast du den Film gesehen?", "ex_es": "¿Has visto la película?" },
+    { "de": "schreiben – geschrieben", "es": "escribir – escrito", "cat": "Participios", "forms": "hat geschrieben", "ex": "Ich habe eine E-Mail geschrieben.", "ex_es": "He escrito un correo." },
+    { "de": "treffen – getroffen", "es": "quedar con – quedado", "cat": "Participios", "forms": "hat getroffen", "ex": "Ich habe Anna getroffen.", "ex_es": "He quedado con Anna." },
+    { "de": "anrufen – angerufen", "es": "llamar – llamado", "cat": "Participios", "forms": "hat angerufen", "ex": "Hast du deine Mutter angerufen?", "ex_es": "¿Has llamado a tu madre?" },
+    { "de": "einkaufen – eingekauft", "es": "hacer la compra – hecho la compra", "cat": "Participios", "forms": "hat eingekauft", "ex": "Ich habe schon eingekauft.", "ex_es": "Ya he hecho la compra." },
+    { "de": "bezahlen – bezahlt", "es": "pagar – pagado", "cat": "Participios", "forms": "hat bezahlt", "ex": "Hast du die Rechnung bezahlt?", "ex_es": "¿Has pagado la factura?" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Profesiones y trabajo",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["der Verkäufer", "el dependiente"],
+        ["die Krankenpflegerin", "la enfermera"],
+        ["der Koch", "el cocinero"],
+        ["die Firma", "la empresa"],
+        ["der Urlaub", "las vacaciones"],
+        ["arbeitslos", "en paro"],
+        ["das Praktikum", "las prácticas"],
+        ["der Rentner", "el jubilado"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "Hablar de la profesión",
+      "instructions": "Elige la frase correcta.",
+      "items": [
+        { "q": "Soy profesora.", "options": ["Ich bin eine Lehrerin.", "Ich bin Lehrerin.", "Ich bin die Lehrerin."], "answer": 1 },
+        { "q": "Trabajo de camarero en un hotel.", "options": ["Ich arbeite als Kellner in einem Hotel.", "Ich arbeite wie Kellner in einem Hotel.", "Ich arbeite von Kellner in einem Hotel."], "answer": 0 },
+        { "q": "¿A qué se dedica usted?", "options": ["Was sind Sie von Beruf?", "Was ist Ihr Arbeit?", "Wie arbeiten Sie?"], "answer": 0 },
+        { "q": "Trabajo en Siemens.", "options": ["Ich arbeite in Siemens.", "Ich arbeite bei Siemens.", "Ich arbeite zu Siemens."], "answer": 1 },
+        { "q": "Estudio medicina.", "options": ["Ich lerne Medizin.", "Ich studiere Medizin.", "Ich bin Medizin."], "answer": 1, "explain": "En la universidad se dice studieren; lernen es aprender/estudiar para un examen." }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "write",
+      "title": "Los ordinales",
+      "instructions": "Escribe la fecha con letras, como se dice después de am (por ejemplo: am dritten Mai).",
+      "items": [
+        { "prompt": "am 1. Januar", "answers": ["am ersten Januar"] },
+        { "prompt": "am 3. März", "answers": ["am dritten März"] },
+        { "prompt": "am 7. Juli", "answers": ["am siebten Juli"] },
+        { "prompt": "am 20. August", "answers": ["am zwanzigsten August"] },
+        { "prompt": "am 12. Oktober", "answers": ["am zwölften Oktober"] },
+        { "prompt": "am 31. Dezember", "answers": ["am einunddreißigsten Dezember"] }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "Preposiciones de tiempo",
+      "instructions": "Completa con um, am, im, seit, vor o ab.",
+      "items": [
+        { "text": "[[Im]] August habe ich Urlaub." },
+        { "text": "Mein Geburtstag ist [[am]] 12. März." },
+        { "text": "Ich arbeite [[seit]] zwei Jahren bei dieser Firma." },
+        { "text": "Ich habe [[vor]] drei Jahren in Madrid gewohnt." },
+        { "text": "[[Ab]] Montag arbeite ich Teilzeit." },
+        { "text": "Das Meeting ist [[um]] zehn Uhr." },
+        { "text": "[[Im]] Winter ist es in Zürich kalt." }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "¿Cuál es el participio?",
+      "instructions": "Elige el participio correcto.",
+      "items": [
+        { "q": "machen", "options": ["gemachen", "gemacht", "machtet"], "answer": 1 },
+        { "q": "essen", "options": ["geesst", "gegessen", "gessen"], "answer": 1 },
+        { "q": "einkaufen", "options": ["geeinkauft", "eingekauft", "eingekaufen"], "answer": 1 },
+        { "q": "studieren", "options": ["gestudiert", "studiert", "gestudieren"], "answer": 1 },
+        { "q": "arbeiten", "options": ["gearbeitet", "gearbeit", "arbeitet"], "answer": 0 },
+        { "q": "schreiben", "options": ["geschreibt", "geschrieben", "geschriebt"], "answer": 1 },
+        { "q": "bezahlen", "options": ["gebezahlt", "bezahlt", "bezahlen"], "answer": 1 },
+        { "q": "anrufen", "options": ["angerufen", "angeruft", "geanrufen"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "El Perfekt con haben",
+      "instructions": "Completa con la forma de haben y el participio del verbo entre paréntesis.",
+      "items": [
+        { "text": "Ich [[habe]] gestern viel [[gearbeitet]]. (arbeiten)" },
+        { "text": "Was [[hast]] du am Wochenende [[gemacht]]? (machen)" },
+        { "text": "Anna [[hat]] ein Buch [[gelesen]]. (lesen)" },
+        { "text": "Wir [[haben]] Pizza [[gegessen]]. (essen)" },
+        { "text": "[[Habt]] ihr schon [[eingekauft]]? (einkaufen)" },
+        { "text": "Meine Eltern [[haben]] mich [[angerufen]]. (anrufen)" },
+        { "text": "Er [[hat]] in Wien [[studiert]]. (studieren)" }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "La pinza del Perfekt",
+      "instructions": "Ordena la frase. El participio va al final.",
+      "items": [
+        { "words": ["Ich", "habe", "gestern", "eingekauft", "."], "answers": ["Ich habe gestern eingekauft.", "Gestern habe ich eingekauft."] },
+        { "words": ["Was", "hast", "du", "gemacht", "?"], "answers": ["Was hast du gemacht?"] },
+        { "words": ["Hast", "du", "schon", "gegessen", "?"], "answers": ["Hast du schon gegessen?"] },
+        { "words": ["Am", "Samstag", "habe", "ich", "Freunde", "getroffen", "."], "answers": ["Am Samstag habe ich Freunde getroffen.", "Ich habe am Samstag Freunde getroffen."] },
+        { "words": ["Sie", "hat", "vor", "zwei", "Jahren", "Deutsch", "gelernt", "."], "answers": ["Sie hat vor zwei Jahren Deutsch gelernt.", "Vor zwei Jahren hat sie Deutsch gelernt."] },
+        { "words": ["Wir", "haben", "die", "Rechnung", "bezahlt", "."], "answers": ["Wir haben die Rechnung bezahlt."] }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "¿Qué hiciste?",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Was hast du am Samstag gemacht?" },
+            { "v": "m1", "t": "Ich habe lange geschlafen und dann habe ich meine Wohnung aufgeräumt." }
+          ],
+          "q": "¿Qué hizo el sábado?", "options": ["Trabajó", "Durmió mucho y ordenó el piso", "Hizo la compra"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Wann hast du Geburtstag?" },
+            { "v": "f2", "t": "Am dreiundzwanzigsten Mai." }
+          ],
+          "q": "¿Cuándo es su cumpleaños?", "options": ["3 de mayo", "23 de mayo", "23 de marzo"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Was sind Sie von Beruf?" },
+            { "v": "m1", "t": "Ich bin Koch. Ich arbeite seit fünf Jahren in einem Restaurant in Bern." }
+          ],
+          "q": "¿Cuánto tiempo lleva trabajando en el restaurante?", "options": ["Tres años", "Cinco años", "Quince años"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Hast du deine Mutter angerufen?" },
+            { "v": "f2", "t": "Nein, noch nicht. Ich rufe sie heute Abend an." }
+          ],
+          "q": "¿Ha llamado a su madre?", "options": ["Sí, ayer", "Todavía no", "Sí, esta mañana"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Wann hast du Urlaub?" },
+            { "v": "m1", "t": "Im Juli. Vom ersten bis zum fünfzehnten." }
+          ],
+          "q": "¿Cuándo tiene vacaciones?", "options": ["1–15 de junio", "1–15 de julio", "5–15 de julio"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich habe gestern gearbeitet." }], "answers": ["Ich habe gestern gearbeitet."] },
+        { "audio": [{ "v": "m1", "t": "Was hast du gemacht?" }], "answers": ["Was hast du gemacht?"] },
+        { "audio": [{ "v": "f2", "t": "Im Sommer habe ich Urlaub." }], "answers": ["Im Sommer habe ich Urlaub."] },
+        { "audio": [{ "v": "m2", "t": "Er ist Ingenieur." }], "answers": ["Er ist Ingenieur."] },
+        { "audio": [{ "v": "f1", "t": "Wir haben Pizza gegessen." }], "answers": ["Wir haben Pizza gegessen."] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Soy ingeniero.", "answers": ["Ich bin Ingenieur.", "Ich bin Ingenieurin."] },
+        { "prompt": "Mi cumpleaños es el 3 de mayo.", "answers": ["Mein Geburtstag ist am dritten Mai.", "Mein Geburtstag ist am 3. Mai.", "Ich habe am dritten Mai Geburtstag.", "Ich habe am 3. Mai Geburtstag."] },
+        { "prompt": "Ayer hice la compra.", "answers": ["Gestern habe ich eingekauft.", "Ich habe gestern eingekauft."] },
+        { "prompt": "¿Qué has hecho el fin de semana?", "answers": ["Was hast du am Wochenende gemacht?"] },
+        { "prompt": "En agosto tengo vacaciones.", "answers": ["Im August habe ich Urlaub.", "Ich habe im August Urlaub."] },
+        { "prompt": "Trabajo en esta empresa desde hace tres años.", "answers": ["Ich arbeite seit drei Jahren bei dieser Firma.", "Ich arbeite seit drei Jahren in dieser Firma.", "Seit drei Jahren arbeite ich bei dieser Firma."] },
+        { "prompt": "Hemos comido pizza.", "answers": ["Wir haben Pizza gegessen."] }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Was ist die Frau von Beruf?", "options": ["Ärztin", "Krankenpflegerin", "Lehrerin"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Sind Sie Ärztin?" },
+            { "v": "f1", "t": "Nein, ich bin Krankenpflegerin. Ich arbeite im Kinderkrankenhaus." }
+          ]
+        },
+        {
+          "q": "Wann ist das Meeting?", "options": ["am 4. Juni", "am 14. Juni", "am 4. Juli"], "answer": 0,
+          "audio": [
+            { "v": "f2", "t": "Das Meeting ist am vierten Juni, oder?" },
+            { "v": "m2", "t": "Ja, genau. Am vierten Juni um zehn Uhr im Büro von Frau Keller." }
+          ]
+        },
+        {
+          "q": "Was hat Tom am Wochenende gemacht?", "options": ["Er hat gearbeitet.", "Er hat Freunde getroffen.", "Er hat ferngesehen."], "answer": 0,
+          "audio": [
+            { "v": "f1", "t": "Tom, was hast du am Wochenende gemacht?" },
+            { "v": "m1", "t": "Nicht viel. Ich habe im Restaurant gearbeitet, am Samstag und am Sonntag." }
+          ]
+        },
+        {
+          "q": "Seit wann arbeitet Herr Novak in der Firma?", "options": ["seit 2 Jahren", "seit 10 Jahren", "seit 12 Jahren"], "answer": 2,
+          "audio": [
+            { "v": "f2", "t": "Herr Novak, Sie arbeiten schon lange hier, oder?" },
+            { "v": "m2", "t": "Ja, seit zwölf Jahren. Vorher habe ich zwei Jahre in Prag gearbeitet." }
+          ]
+        },
+        {
+          "q": "Wann hat Lena Geburtstag?", "options": ["im März", "im Mai", "im November"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Lena, dein Geburtstag ist doch im März, oder?" },
+            { "v": "f2", "t": "Nein, im Mai! Am neunten Mai." }
+          ]
+        },
+        {
+          "q": "Was hat Anna gestern gekauft?", "options": ["einen Rock", "Schuhe", "eine Jacke"], "answer": 2,
+          "audio": [
+            { "v": "m2", "t": "Hast du gestern Schuhe gekauft?" },
+            { "v": "f1", "t": "Nein, die Schuhe haben zu viel gekostet. Aber ich habe eine Jacke gekauft. Sie ist sehr schön!" }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Das Büro ist vom 24. Dezember bis 2. Januar geschlossen.", "answer": true,
+          "audio": [{ "v": "f1", "t": "Guten Tag, Sie sind mit der Firma Keller verbunden. Unser Büro ist vom vierundzwanzigsten Dezember bis zum zweiten Januar geschlossen. Ab dem dritten Januar sind wir wieder für Sie da." }]
+        },
+        {
+          "statement": "Das Stadtfest ist im Juni.", "answer": false,
+          "audio": [{ "v": "m1", "t": "Am zwölften und dreizehnten August ist unser großes Stadtfest. Kommen Sie mit der ganzen Familie!" }]
+        },
+        {
+          "statement": "Die Firma sucht einen Koch.", "answer": true,
+          "audio": [{ "v": "f2", "t": "Das Restaurant Sonne sucht ab sofort einen Koch oder eine Köchin, Vollzeit. Rufen Sie uns an!" }]
+        },
+        {
+          "statement": "Die Mitarbeiter sollen am Freitag früher kommen.", "answer": false,
+          "audio": [{ "v": "m2", "t": "Liebe Kolleginnen und Kollegen, am Freitag ist unser Betriebsausflug. Die Arbeit endet schon um zwölf Uhr." }]
+        },
+        {
+          "statement": "Der Kurs beginnt am 1. März.", "answer": true,
+          "audio": [{ "v": "f1", "t": "Der neue Deutschkurs A2 beginnt am ersten März. Anmeldung bis zum zwanzigsten Februar." }]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wann soll Frau López zum Gespräch kommen?", "options": ["am 5. Mai", "am 15. Mai", "am 5. März"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Guten Tag, Frau López, hier ist Peter Graf von der Firma Techno. Wir haben Ihre Bewerbung gelesen. Können Sie am fünfzehnten Mai um zehn Uhr zu einem Gespräch kommen? Bitte rufen Sie mich an." }]
+        },
+        {
+          "q": "Was hat Sara vergessen?", "options": ["ihren Schlüssel", "ihr Handy", "ihre Tasche"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Hallo Mia, hier ist Sara. Ich habe mein Handy im Büro vergessen! Ich rufe von Toms Telefon an. Kannst du es morgen mitbringen? Danke!" }]
+        },
+        {
+          "q": "Warum ruft Ben an?", "options": ["Er hat eine neue Arbeit.", "Er ist krank.", "Er hat Geburtstag."], "answer": 0,
+          "audio": [{ "v": "m2", "t": "Hi Lukas, hier ist Ben. Ich habe den Job bei der Bank bekommen! Ich fange am ersten Juni an. Wir feiern am Samstag, kommst du?" }]
+        },
+        {
+          "q": "Wann ist die Chefin wieder im Büro?", "options": ["am Montag", "am Dienstag", "am Mittwoch"], "answer": 2,
+          "audio": [{ "v": "f1", "t": "Guten Tag, hier ist das Sekretariat von Frau Weber. Frau Weber ist bis Dienstag auf Geschäftsreise. Ab Mittwoch ist sie wieder im Büro." }]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Julia,\n\nich habe jetzt eine neue Arbeit! Ich arbeite seit dem 1. September als Verkäuferin in einem Buchladen. Die Arbeit macht Spaß, aber ich arbeite auch am Samstag. Letzte Woche habe ich viele neue Kolleginnen kennengelernt. Sie sind sehr nett. Am 12. Oktober habe ich Geburtstag – kommst du zu meiner Party?\n\nLiebe Grüße\nNina",
+          "statements": [
+            { "s": "Nina arbeitet seit September in einem Buchladen.", "answer": true },
+            { "s": "Nina arbeitet am Samstag nicht.", "answer": false },
+            { "s": "Nina findet ihre Kolleginnen nett.", "answer": true },
+            { "s": "Ninas Geburtstag ist im November.", "answer": false },
+            { "s": "Nina lädt Julia zu ihrer Party ein.", "answer": true }
+          ]
+        },
+        {
+          "text": "Liebe Kolleginnen und Kollegen,\n\nam Freitag, 20. Juni, machen wir unser Sommerfest. Es beginnt um 17 Uhr im Garten der Firma. Es gibt Essen und Getränke. Bitte sagen Sie mir bis zum 15. Juni: Kommen Sie? Ihre Familie ist auch herzlich willkommen!\n\nViele Grüße\nPetra Lang, Personalabteilung",
+          "statements": [
+            { "s": "Das Sommerfest ist am 20. Juni.", "answer": true },
+            { "s": "Das Fest beginnt am Vormittag.", "answer": false },
+            { "s": "Die Mitarbeiter müssen Essen mitbringen.", "answer": false },
+            { "s": "Man soll bis zum 15. Juni antworten.", "answer": true },
+            { "s": "Familien dürfen mitkommen.", "answer": true }
+          ]
+        },
+        {
+          "text": "Hi Marco,\n\nbist du wieder zu Hause? Ich habe dich gestern angerufen, aber du hast nicht geantwortet. Ich habe am Wochenende einen Deutschkurs gemacht – zwei Tage, acht Stunden jeden Tag! Jetzt bin ich sehr müde. Treffen wir uns am Donnerstag nach der Arbeit?\n\nBis bald\nPaul",
+          "statements": [
+            { "s": "Paul hat Marco gestern angerufen.", "answer": true },
+            { "s": "Marco hat mit Paul gesprochen.", "answer": false },
+            { "s": "Paul hat am Wochenende gearbeitet.", "answer": false },
+            { "s": "Der Deutschkurs hat zwei Tage gedauert.", "answer": true },
+            { "s": "Paul möchte Marco am Donnerstag treffen.", "answer": true }
+          ]
+        }
+      ],
+      "t2": [
+        { "situation": "Sie suchen eine Arbeit nur am Vormittag.", "a": "Bäckerei sucht Verkäuferin, Teilzeit, 6–12 Uhr", "b": "Restaurant sucht Kellner, Vollzeit, abends und am Wochenende", "answer": "a" },
+        { "situation": "Sie möchten ein Praktikum im Büro machen.", "a": "Firma Techno: Praktikum im Marketing, 3 Monate", "b": "Hotel Alpen: Praktikum in der Küche", "answer": "a" },
+        { "situation": "Sie möchten im Sommer arbeiten und Geld verdienen.", "a": "Ferienjob im Schwimmbad: Juli und August", "b": "Nachhilfe im Winter: Mathematik für Schüler", "answer": "a" },
+        { "situation": "Sie möchten Ihren Lebenslauf auf Deutsch schreiben lassen.", "a": "Bewerbungshilfe: Wir schreiben Ihren Lebenslauf", "b": "Übersetzungsbüro: nur Englisch–Französisch", "answer": "a" },
+        { "situation": "Sie sind Koch und suchen Arbeit.", "a": "Restaurant Adler: Koch/Köchin gesucht!", "b": "Kochkurs: Italienisch kochen für Anfänger", "answer": "a" },
+        { "situation": "Sie möchten am 1. Mai (Feiertag) einkaufen.", "a": "Supermarkt Frisch: Am 1. Mai geschlossen", "b": "Bahnhof-Shop: Auch an Feiertagen geöffnet", "answer": "b" }
+      ],
+      "t3": [
+        { "text": "Wegen Inventur am 30. Juni geschlossen", "sign": true, "statements": [{ "s": "Das Geschäft ist am 30. Juni offen.", "answer": false }] },
+        { "text": "Wir suchen: Verkäufer/in (Teilzeit). Bewerbung an: info@mode-klein.ch", "sign": true, "statements": [{ "s": "Man kann sich per E-Mail bewerben.", "answer": true }] },
+        { "text": "Betriebsferien: 1.–21. August", "sign": true, "statements": [{ "s": "Die Firma hat im August drei Wochen Urlaub.", "answer": true }] },
+        { "text": "Büro: 2. Stock, Zimmer 204 – Anmeldung", "sign": true, "statements": [{ "s": "Die Anmeldung ist im Erdgeschoss.", "answer": false }] },
+        { "text": "Nur für Mitarbeiter", "sign": true, "statements": [{ "s": "Kunden dürfen hier hinein.", "answer": false }] },
+        { "text": "Sprechstunde der Chefin: Donnerstag 14–16 Uhr", "sign": true, "statements": [{ "s": "Man kann die Chefin am Donnerstagnachmittag sprechen.", "answer": true }] }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Elena Petrova ist am 7. April 1995 in Sofia, Bulgarien, geboren. Sie ist Programmiererin und sucht eine Stelle in Zürich. Sie spricht Bulgarisch, Englisch und Deutsch. Sie kann ab 1. Juli anfangen.",
+          "title": "Online-Bewerbung – Firma Techno",
+          "fields": [
+            { "label": "Name", "given": "Petrova" },
+            { "label": "Geburtsdatum", "answers": ["7. April 1995", "07.04.1995", "7.4.1995", "07.04.95"] },
+            { "label": "Geburtsort", "answers": ["Sofia"] },
+            { "label": "Beruf", "answers": ["Programmiererin"] },
+            { "label": "Sprachen", "answers": ["Bulgarisch, Englisch, Deutsch", "Bulgarisch, Englisch und Deutsch"] },
+            { "label": "Beginn ab", "answers": ["1. Juli", "01.07.", "1.7.", "ersten Juli"] }
+          ]
+        },
+        {
+          "context": "Sie nehmen im Büro eine Nachricht für Ihren Chef, Herrn Weber, an. Frau Klein von der Firma Solar hat angerufen. Sie möchte einen Termin am 18. März. Ihre Telefonnummer ist 031 456 78 90.",
+          "title": "Telefonnotiz",
+          "fields": [
+            { "label": "Für", "given": "Herrn Weber" },
+            { "label": "Anrufer/in", "answers": ["Frau Klein"] },
+            { "label": "Firma", "answers": ["Solar"] },
+            { "label": "Grund", "answers": ["Termin", "einen Termin", "Terminwunsch"] },
+            { "label": "Datum", "answers": ["18. März", "18.3.", "18.03."] },
+            { "label": "Telefon", "answers": ["031 456 78 90"] }
+          ]
+        },
+        {
+          "context": "Luis Moreno möchte Urlaub machen: vom 4. bis 18. August. Er arbeitet in der Abteilung Marketing. Seine Chefin ist Frau Graf.",
+          "title": "Urlaubsantrag",
+          "fields": [
+            { "label": "Name", "given": "Luis Moreno" },
+            { "label": "Abteilung", "answers": ["Marketing"] },
+            { "label": "Urlaub von", "answers": ["4. August", "4.8.", "04.08."] },
+            { "label": "Urlaub bis", "answers": ["18. August", "18.8.", "18.08."] },
+            { "label": "Vorgesetzte", "answers": ["Frau Graf", "Graf"] }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Ihre Freundin Carla fragt: Was hast du am Wochenende gemacht? Antworten Sie ihr.",
+          "points": ["Samstag: Was haben Sie gemacht?", "Sonntag: Was haben Sie gemacht?", "Fragen Sie Carla nach ihrem Wochenende."],
+          "register": "informal (du)",
+          "model": "Liebe Carla,\n\nam Samstag habe ich lange geschlafen und dann eingekauft. Am Abend habe ich mit Freunden gekocht. Am Sonntag habe ich meine Eltern angerufen und ein Buch gelesen. Und du? Was hast du gemacht?\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "Sie haben eine Stellenanzeige gelesen: Ein Hotel sucht eine Rezeptionistin / einen Rezeptionisten. Schreiben Sie dem Hotel.",
+          "points": ["Stellen Sie sich vor (Beruf, Sprachen).", "Ab wann können Sie arbeiten?", "Fragen Sie: Ist die Stelle Vollzeit oder Teilzeit?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe Ihre Anzeige gelesen. Ich heiße Laura García und bin Hotelfachfrau. Ich spreche Spanisch, Englisch und Deutsch. Ich kann ab dem 1. Juni arbeiten. Ist die Stelle Vollzeit oder Teilzeit?\n\nMit freundlichen Grüßen\nLaura García"
+        },
+        {
+          "task": "Ihr Kollege Martin hat bald Geburtstag. Schreiben Sie den Kolleginnen und Kollegen.",
+          "points": ["Wann hat Martin Geburtstag?", "Sie möchten ein Geschenk kaufen.", "Wer möchte mitmachen? (Geld bis Freitag)"],
+          "register": "informal (ihr)",
+          "model": "Hallo zusammen,\n\nMartin hat am 14. Mai Geburtstag. Ich möchte ein Geschenk für ihn kaufen, vielleicht ein Buch. Wer macht mit? Bitte gebt mir bis Freitag 5 Euro.\n\nViele Grüße\nPablo"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": ["Name?", "Alter?", "Land?", "Wohnort?", "Sprachen?", "Beruf?", "Hobby?"],
+          "extra": "Der Prüfer fragt dann: Wann haben Sie Geburtstag?",
+          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig Jahre alt und komme aus Spanien, aus Granada. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Ich bin Physiker und arbeite an der ETH. Mein Hobby ist Wandern. Ich habe am vierzehnten Februar Geburtstag." }]
+        },
+        {
+          "keywords": ["Name?", "Beruf?", "Seit wann?", "Wochenende?"],
+          "extra": "Der Prüfer fragt dann: Was haben Sie letztes Wochenende gemacht?",
+          "model": [{ "v": "f1", "t": "Hallo, ich bin Laura. Ich bin Lehrerin und arbeite seit zehn Jahren in einer Schule in Bern. Letztes Wochenende habe ich meine Freundin getroffen und wir haben zusammen gekocht." }]
+        },
+        {
+          "keywords": ["Name?", "Studium / Beruf?", "Urlaub?"],
+          "extra": "Der Prüfer fragt dann: Wann haben Sie Urlaub?",
+          "model": [{ "v": "m2", "t": "Guten Tag. Ich heiße Pablo. Ich habe in Mexiko Informatik studiert. Jetzt bin ich Programmierer in Basel. Im August habe ich drei Wochen Urlaub." }]
+        }
+      ],
+      "t2": [
+        { "theme": "Arbeit", "word": "Beruf", "question": "Was bist du von Beruf?", "answer": "Ich bin Ingenieur." },
+        { "theme": "Arbeit", "word": "Kollegen", "question": "Wie sind deine Kollegen?", "answer": "Sie sind sehr nett." },
+        { "theme": "Arbeit", "word": "Geburtstag", "question": "Wann hast du Geburtstag?", "answer": "Am dritten Mai." },
+        { "theme": "Arbeit", "word": "gestern", "question": "Was hast du gestern gemacht?", "answer": "Ich habe gearbeitet und gekocht." },
+        { "theme": "Arbeit", "word": "Urlaub", "question": "Wann hast du Urlaub?", "answer": "Im August." },
+        { "theme": "Arbeit", "word": "Deutsch", "question": "Seit wann lernst du Deutsch?", "answer": "Seit drei Monaten." }
+      ]
+    }
+  }
+}

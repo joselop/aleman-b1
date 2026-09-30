@@ -1,0 +1,459 @@
+{
+  "id": "a1-t10",
+  "level": "a1",
+  "topic": "t10",
+  "title": "Salud y cuerpo",
+  "title_de": "Gesundheit und Körper",
+  "goals": [
+    "Nombrar las partes del cuerpo y decir qué te duele",
+    "Pedir cita en el médico y entender sus indicaciones",
+    "Usar müssen y dürfen, y distinguir müssen nicht de dürfen nicht",
+    "Dar instrucciones con el imperativo de Sie",
+    "Usar los posesivos unser, euer, ihr (de ellos) e Ihr",
+    "Escribir un mensaje corto para avisar de que estás enfermo"
+  ],
+  "vocab": [
+    { "de": "der Körper", "pl": "die Körper", "es": "el cuerpo", "cat": "Cuerpo", "ex": "Sport ist gut für den Körper.", "ex_es": "El deporte es bueno para el cuerpo." },
+    { "de": "der Kopf", "pl": "die Köpfe", "es": "la cabeza", "cat": "Cuerpo", "ex": "Mein Kopf tut weh.", "ex_es": "Me duele la cabeza." },
+    { "de": "das Auge", "pl": "die Augen", "es": "el ojo", "cat": "Cuerpo", "ex": "Sie hat blaue Augen.", "ex_es": "Tiene los ojos azules." },
+    { "de": "das Ohr", "pl": "die Ohren", "es": "la oreja, el oído", "cat": "Cuerpo", "ex": "Mein Ohr tut weh.", "ex_es": "Me duele el oído." },
+    { "de": "die Nase", "pl": "die Nasen", "es": "la nariz", "cat": "Cuerpo", "ex": "Meine Nase ist zu.", "ex_es": "Tengo la nariz taponada." },
+    { "de": "der Mund", "pl": "die Münder", "es": "la boca", "cat": "Cuerpo", "ex": "Öffnen Sie bitte den Mund.", "ex_es": "Abra la boca, por favor." },
+    { "de": "der Zahn", "pl": "die Zähne", "es": "el diente", "cat": "Cuerpo", "ex": "Ich habe Zahnschmerzen.", "ex_es": "Me duelen las muelas." },
+    { "de": "der Hals", "pl": "die Hälse", "es": "el cuello, la garganta", "cat": "Cuerpo", "ex": "Ich habe Halsschmerzen.", "ex_es": "Me duele la garganta." },
+    { "de": "der Rücken", "pl": "die Rücken", "es": "la espalda", "cat": "Cuerpo", "ex": "Mein Rücken tut weh.", "ex_es": "Me duele la espalda." },
+    { "de": "der Bauch", "pl": "die Bäuche", "es": "la barriga, el estómago", "cat": "Cuerpo", "ex": "Das Kind hat Bauchschmerzen.", "ex_es": "El niño tiene dolor de barriga." },
+    { "de": "der Arm", "pl": "die Arme", "es": "el brazo", "cat": "Cuerpo", "ex": "Mein Arm ist gebrochen.", "ex_es": "Tengo el brazo roto." },
+    { "de": "die Hand", "pl": "die Hände", "es": "la mano", "cat": "Cuerpo", "ex": "Meine Hände sind kalt.", "ex_es": "Tengo las manos frías." },
+    { "de": "das Bein", "pl": "die Beine", "es": "la pierna", "cat": "Cuerpo", "ex": "Meine Beine tun weh.", "ex_es": "Me duelen las piernas." },
+    { "de": "das Knie", "pl": "die Knie", "es": "la rodilla", "cat": "Cuerpo", "ex": "Mein Knie tut weh.", "ex_es": "Me duele la rodilla." },
+    { "de": "der Fuß", "pl": "die Füße", "es": "el pie", "cat": "Cuerpo", "ex": "Meine Füße sind kalt.", "ex_es": "Tengo los pies fríos." },
+    { "de": "krank / gesund", "es": "enfermo / sano", "cat": "Salud", "ex": "Ich bin krank.", "ex_es": "Estoy enfermo." },
+    { "de": "erkältet", "es": "resfriado", "cat": "Salud", "ex": "Sie ist erkältet.", "ex_es": "Está resfriada." },
+    { "de": "das Fieber", "es": "la fiebre", "cat": "Salud", "ex": "Das Kind hat Fieber.", "ex_es": "El niño tiene fiebre." },
+    { "de": "der Husten", "es": "la tos", "cat": "Salud", "ex": "Ich habe Husten.", "ex_es": "Tengo tos." },
+    { "de": "der Schnupfen", "es": "el resfriado (mocos)", "cat": "Salud", "ex": "Ich habe Schnupfen.", "ex_es": "Tengo mocos." },
+    { "de": "die Schmerzen", "es": "los dolores", "cat": "Salud", "ex": "Haben Sie Schmerzen?", "ex_es": "¿Tiene dolor?" },
+    { "de": "wehtun", "es": "doler", "cat": "Salud", "forms": "es tut weh, sie tun weh", "ex": "Was tut Ihnen weh?", "ex_es": "¿Qué le duele?" },
+    { "de": "Gute Besserung!", "es": "¡Que te mejores!", "cat": "Salud", "ex": "Du bist krank? Gute Besserung!", "ex_es": "¿Estás enfermo? ¡Que te mejores!" },
+    { "de": "der Arzt / die Ärztin", "pl": "die Ärzte / die Ärztinnen", "es": "el médico / la médica", "cat": "En el médico", "ex": "Ich muss zum Arzt.", "ex_es": "Tengo que ir al médico." },
+    { "de": "die Praxis", "pl": "die Praxen", "es": "la consulta", "cat": "En el médico", "ex": "Die Praxis ist im ersten Stock.", "ex_es": "La consulta está en el primer piso." },
+    { "de": "das Wartezimmer", "pl": "die Wartezimmer", "es": "la sala de espera", "cat": "En el médico", "ex": "Bitte warten Sie im Wartezimmer.", "ex_es": "Espere en la sala de espera, por favor." },
+    { "de": "die Versichertenkarte", "pl": "die Versichertenkarten", "es": "la tarjeta sanitaria", "cat": "En el médico", "ex": "Haben Sie Ihre Versichertenkarte?", "ex_es": "¿Tiene su tarjeta sanitaria?" },
+    { "de": "die Krankenkasse", "pl": "die Krankenkassen", "es": "el seguro médico", "cat": "En el médico", "ex": "Bei welcher Krankenkasse sind Sie?", "ex_es": "¿Con qué seguro médico está?" },
+    { "de": "das Medikament", "pl": "die Medikamente", "es": "el medicamento", "cat": "En el médico", "ex": "Nehmen Sie das Medikament zweimal am Tag.", "ex_es": "Tome el medicamento dos veces al día." },
+    { "de": "die Tablette", "pl": "die Tabletten", "es": "la pastilla", "cat": "En el médico", "ex": "Nehmen Sie eine Tablette nach dem Essen.", "ex_es": "Tome una pastilla después de comer." },
+    { "de": "das Rezept", "pl": "die Rezepte", "es": "la receta", "cat": "En el médico", "ex": "Hier ist Ihr Rezept.", "ex_es": "Aquí tiene su receta." },
+    { "de": "der Notfall", "pl": "die Notfälle", "es": "la urgencia", "cat": "En el médico", "ex": "Im Notfall rufen Sie 144 an.", "ex_es": "En caso de urgencia llame al 144." },
+    { "de": "müssen", "es": "tener que, deber", "cat": "Verbos", "forms": "ich muss, du musst, er muss", "ex": "Du musst im Bett bleiben.", "ex_es": "Tienes que quedarte en la cama." },
+    { "de": "dürfen", "es": "poder (tener permiso)", "cat": "Verbos", "forms": "ich darf, du darfst, er darf", "ex": "Hier darf man nicht rauchen.", "ex_es": "Aquí no se puede fumar." },
+    { "de": "bleiben", "es": "quedarse", "cat": "Verbos", "forms": "ich bleibe, du bleibst, er bleibt", "ex": "Bleiben Sie zwei Tage zu Hause.", "ex_es": "Quédese dos días en casa." },
+    { "de": "rauchen", "es": "fumar", "cat": "Verbos", "forms": "ich rauche, du rauchst, er raucht", "ex": "Rauchen Sie?", "ex_es": "¿Fuma usted?" },
+    { "de": "warten", "es": "esperar", "cat": "Verbos", "forms": "ich warte, du wartest, er wartet", "ex": "Ich warte schon eine Stunde.", "ex_es": "Llevo una hora esperando." },
+    { "de": "sich ausruhen", "es": "descansar", "cat": "Verbos", "forms": "ich ruhe mich aus", "ex": "Ruhen Sie sich aus!", "ex_es": "¡Descanse!" },
+    { "de": "unser / unsere", "es": "nuestro/a", "cat": "Posesivos", "ex": "Unsere Ärztin ist sehr nett.", "ex_es": "Nuestra médica es muy amable." },
+    { "de": "euer / eure", "es": "vuestro/a", "cat": "Posesivos", "ex": "Wo ist eure Mutter?", "ex_es": "¿Dónde está vuestra madre?" },
+    { "de": "ihr / ihre (de ellos)", "es": "su (de ellos)", "cat": "Posesivos", "ex": "Die Kinder spielen mit ihrem Hund.", "ex_es": "Los niños juegan con su perro." },
+    { "de": "dreimal am Tag", "es": "tres veces al día", "cat": "Palabras útiles", "ex": "Nehmen Sie die Tabletten dreimal am Tag.", "ex_es": "Tome las pastillas tres veces al día." },
+    { "de": "vor / nach dem Essen", "es": "antes / después de comer", "cat": "Palabras útiles", "ex": "Die Tabletten nach dem Essen nehmen.", "ex_es": "Tomar las pastillas después de comer." },
+    { "de": "sofort", "es": "enseguida, inmediatamente", "cat": "Palabras útiles", "ex": "Kommen Sie sofort!", "ex_es": "¡Venga enseguida!" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "El cuerpo",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["der Rücken", "la espalda"],
+        ["der Hals", "la garganta"],
+        ["das Bein", "la pierna"],
+        ["der Bauch", "la barriga"],
+        ["das Knie", "la rodilla"],
+        ["der Zahn", "el diente"],
+        ["das Ohr", "la oreja"],
+        ["der Fuß", "el pie"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Qué le pasa?",
+      "instructions": "Elige la frase que describe la situación.",
+      "items": [
+        { "q": "Te duele la garganta.", "options": ["Ich habe Halsschmerzen.", "Ich habe Husten.", "Ich habe Bauchschmerzen."], "answer": 0 },
+        { "q": "Tienes 39 °C.", "options": ["Ich habe Schnupfen.", "Ich habe Fieber.", "Ich bin gesund."], "answer": 1 },
+        { "q": "Te duelen los pies.", "options": ["Meine Füße tut weh.", "Meine Füße tun weh.", "Ich tue die Füße weh."], "answer": 1 },
+        { "q": "Tu amiga está enferma. Le dices…", "options": ["Guten Appetit!", "Gute Besserung!", "Viel Spaß!"], "answer": 1 },
+        { "q": "El médico pregunta qué te pasa.", "options": ["Was fehlt Ihnen?", "Was kostet das?", "Wie spät ist es?"], "answer": 0 },
+        { "q": "Estás resfriado.", "options": ["Ich bin erkältet.", "Ich bin kalt.", "Ich habe kalt."], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "müssen y dürfen",
+      "instructions": "Escribe la forma correcta del modal entre paréntesis.",
+      "items": [
+        { "text": "Ich [[muss]] heute zum Arzt. (müssen)" },
+        { "text": "Du [[musst]] viel Wasser trinken. (müssen)" },
+        { "text": "Hier [[darf]] man nicht rauchen. (dürfen)" },
+        { "text": "[[Darf]] ich das Fenster öffnen? (dürfen)" },
+        { "text": "Die Kinder [[müssen]] um acht ins Bett. (müssen)" },
+        { "text": "Er [[darf]] keinen Sport machen. (dürfen)" },
+        { "text": "Ihr [[müsst]] leise sein. (müssen)" },
+        { "text": "[[Dürfen]] wir hier parken? (dürfen)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "müssen nicht o dürfen nicht",
+      "instructions": "¿Qué significa la frase?",
+      "items": [
+        { "q": "Sie dürfen hier nicht parken.", "options": ["Está prohibido aparcar aquí.", "No es necesario aparcar aquí."], "answer": 0 },
+        { "q": "Sie müssen morgen nicht kommen.", "options": ["Está prohibido venir mañana.", "No hace falta que venga mañana."], "answer": 1 },
+        { "q": "Du darfst keinen Kaffee trinken.", "options": ["No puedes tomar café.", "No hace falta que tomes café."], "answer": 0 },
+        { "q": "Wir müssen heute nicht arbeiten.", "options": ["Hoy no tenemos que trabajar.", "Hoy tenemos prohibido trabajar."], "answer": 0 },
+        { "q": "Kinder dürfen hier nicht spielen.", "options": ["Los niños no tienen que jugar aquí.", "Los niños no pueden jugar aquí."], "answer": 1 }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Imperativo con Sie",
+      "instructions": "Escribe el consejo del médico con el imperativo de Sie.",
+      "items": [
+        { "text": "[[Nehmen Sie]] die Tabletten dreimal am Tag! (nehmen)" },
+        { "text": "[[Trinken Sie]] viel Tee! (trinken)" },
+        { "text": "[[Bleiben Sie]] zwei Tage im Bett! (bleiben)" },
+        { "text": "[[Kommen Sie]] am Freitag wieder! (kommen)" },
+        { "text": "[[Rufen Sie]] mich morgen [[an]]! (anrufen)" },
+        { "text": "[[Seien Sie]] bitte pünktlich! (sein)" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "Imperativo: du, ihr, Sie",
+      "instructions": "Completa con la forma indicada del imperativo de nehmen / trinken / sein.",
+      "items": [
+        { "text": "Tom, [[nimm]] eine Tablette! (nehmen, du)" },
+        { "text": "Kinder, [[trinkt]] viel Wasser! (trinken, ihr)" },
+        { "text": "Frau Keller, [[nehmen Sie]] das Rezept mit! (nehmen, Sie)" },
+        { "text": "[[Sei]] nicht so laut, das Baby schläft! (sein, du)" },
+        { "text": "Anna und Tim, [[seid]] leise! (sein, ihr)" }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "gap",
+      "title": "Posesivos: unser, euer, ihr",
+      "instructions": "Completa con el posesivo correcto.",
+      "items": [
+        { "text": "Wir haben einen Hund. [[Unser]] Hund heißt Bello." },
+        { "text": "Wir haben eine neue Ärztin. [[Unsere]] Ärztin ist sehr nett." },
+        { "text": "Kinder, wo ist [[eure]] Mutter? (vuestra)" },
+        { "text": "Ist das [[euer]] Auto? (vuestro)" },
+        { "text": "Tom und Lisa sind krank. [[Ihre]] Mutter ruft den Arzt an. (su, de ellos)" },
+        { "text": "Herr Weber, ist das [[Ihr]] Rezept? (su, de usted)" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "En el médico",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Was fehlt Ihnen, Herr Braun?" },
+            { "v": "m1", "t": "Ich habe seit zwei Tagen Rückenschmerzen." }
+          ],
+          "q": "¿Qué le duele al señor Braun?", "options": ["La cabeza", "La espalda", "La barriga"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Nehmen Sie die Tabletten zweimal am Tag, morgens und abends, nach dem Essen." },
+            { "v": "f2", "t": "Zweimal, nach dem Essen. Gut, danke." }
+          ],
+          "q": "¿Cuántas veces al día debe tomar las pastillas?", "options": ["Una", "Dos", "Tres"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Darf ich Sport machen?" },
+            { "v": "m2", "t": "Diese Woche nicht. Nächste Woche dürfen Sie wieder schwimmen." }
+          ],
+          "q": "¿Qué puede hacer la próxima semana?", "options": ["Nada de deporte", "Nadar", "Correr"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Muss ich morgen wiederkommen?" },
+            { "v": "f2", "t": "Nein, das müssen Sie nicht. Kommen Sie in zwei Wochen." }
+          ],
+          "q": "¿Cuándo tiene que volver?", "options": ["Mañana", "En dos semanas", "No tiene que volver nunca"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Mama, ich bin krank. Mein Hals tut weh und ich habe Fieber." },
+            { "v": "m2", "t": "Oh nein. Du bleibst heute zu Hause. Ich rufe den Arzt an." }
+          ],
+          "q": "¿Qué síntomas tiene la hija?", "options": ["Tos y fiebre", "Dolor de garganta y fiebre", "Dolor de cabeza"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "order",
+      "title": "Construye la frase",
+      "instructions": "Ordena la frase.",
+      "items": [
+        { "words": ["Ich", "muss", "heute", "zum", "Arzt", "gehen", "."], "answers": ["Ich muss heute zum Arzt gehen.", "Heute muss ich zum Arzt gehen."] },
+        { "words": ["Hier", "darf", "man", "nicht", "rauchen", "."], "answers": ["Hier darf man nicht rauchen.", "Man darf hier nicht rauchen."] },
+        { "words": ["Nehmen", "Sie", "die", "Tabletten", "nach", "dem", "Essen", "!"], "answers": ["Nehmen Sie die Tabletten nach dem Essen!"] },
+        { "words": ["Mein", "Kopf", "tut", "weh", "."], "answers": ["Mein Kopf tut weh."] },
+        { "words": ["Darf", "ich", "Sport", "machen", "?"], "answers": ["Darf ich Sport machen?"] },
+        { "words": ["Unsere", "Ärztin", "ist", "sehr", "nett", "."], "answers": ["Unsere Ärztin ist sehr nett."] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Me duele la cabeza.", "answers": ["Ich habe Kopfschmerzen.", "Mein Kopf tut weh.", "Mir tut der Kopf weh."] },
+        { "prompt": "Tengo que ir al médico.", "answers": ["Ich muss zum Arzt gehen.", "Ich muss zum Arzt.", "Ich muss zur Ärztin gehen.", "Ich muss zur Ärztin."] },
+        { "prompt": "Aquí no se puede fumar.", "answers": ["Hier darf man nicht rauchen.", "Man darf hier nicht rauchen."] },
+        { "prompt": "Tome las pastillas tres veces al día. (Sie)", "answers": ["Nehmen Sie die Tabletten dreimal am Tag.", "Nehmen Sie die Tabletten dreimal am Tag!", "Nehmen Sie dreimal am Tag die Tabletten."] },
+        { "prompt": "Necesito una cita.", "answers": ["Ich brauche einen Termin."] },
+        { "prompt": "¡Que te mejores!", "answers": ["Gute Besserung!"] },
+        { "prompt": "No hace falta que vengas mañana.", "answers": ["Du musst morgen nicht kommen.", "Morgen musst du nicht kommen."] }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wann hat Frau Ruiz einen Termin?", "options": ["heute um 10 Uhr", "morgen um 10 Uhr", "morgen um 11 Uhr"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Praxis Dr. Keller, guten Tag." },
+            { "v": "f1", "t": "Guten Tag, hier ist Ruiz. Ich brauche einen Termin, ich habe Fieber." },
+            { "v": "m1", "t": "Heute ist leider alles voll. Morgen um zehn Uhr?" },
+            { "v": "f1", "t": "Ja, gut, danke." }
+          ]
+        },
+        {
+          "q": "Was tut dem Mann weh?", "options": ["der Rücken", "das Knie", "der Fuß"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Was ist denn los? Tut dir der Rücken weh?" },
+            { "v": "m2", "t": "Nein, das Knie. Ich spiele viel Fußball, das ist nicht gut für die Knie." }
+          ]
+        },
+        {
+          "q": "Was darf der Patient nicht?", "options": ["Kaffee trinken", "Sport machen", "arbeiten"], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Darf ich Sport machen?" },
+            { "v": "f1", "t": "Ja, Sport ist gut. Aber keinen Kaffee, bitte. Trinken Sie lieber Tee." }
+          ]
+        },
+        {
+          "q": "Wie oft soll die Frau die Tabletten nehmen?", "options": ["einmal am Tag", "zweimal am Tag", "dreimal am Tag"], "answer": 2,
+          "audio": [
+            { "v": "m2", "t": "Hier ist Ihr Rezept. Nehmen Sie die Tabletten dreimal am Tag, vor dem Essen." },
+            { "v": "f2", "t": "Dreimal vor dem Essen. Danke." }
+          ]
+        },
+        {
+          "q": "Wer ist krank?", "options": ["der Sohn", "die Tochter", "der Mann"], "answer": 0,
+          "audio": [
+            { "v": "f1", "t": "Hallo Maria, kommst du heute zum Kurs?" },
+            { "v": "f2", "t": "Nein, leider nicht. Mein Sohn ist krank, er hat Fieber. Ich muss zu Hause bleiben." }
+          ]
+        },
+        {
+          "q": "Was muss der Mann mitbringen?", "options": ["das Rezept", "die Versichertenkarte", "die Tabletten"], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Ihr Termin ist am Montag um neun. Bringen Sie bitte Ihre Versichertenkarte mit." },
+            { "v": "m1", "t": "Gut, die Versichertenkarte. Bis Montag!" }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Die Praxis ist heute Nachmittag geschlossen.", "answer": true,
+          "audio": [{ "v": "f1", "t": "Hier ist die Praxis Dr. Frei. Heute Nachmittag ist die Praxis geschlossen. Im Notfall rufen Sie bitte die Nummer eins, vier, vier an." }]
+        },
+        {
+          "statement": "Im Krankenhaus darf man im Garten rauchen.", "answer": false,
+          "audio": [{ "v": "m1", "t": "Liebe Besucher, im ganzen Krankenhaus und im Garten ist Rauchen verboten. Vielen Dank." }]
+        },
+        {
+          "statement": "Die Apotheke hat heute bis 22 Uhr geöffnet.", "answer": true,
+          "audio": [{ "v": "f2", "t": "Die Bahnhof-Apotheke ist heute Notdienst-Apotheke und bis zweiundzwanzig Uhr geöffnet." }]
+        },
+        {
+          "statement": "Frau Novak soll ins Zimmer 4 kommen.", "answer": false,
+          "audio": [{ "v": "m2", "t": "Frau Novak, bitte in Zimmer sieben. Frau Novak, bitte in Zimmer sieben." }]
+        },
+        {
+          "statement": "Besucher dürfen nur bis 20 Uhr bleiben.", "answer": true,
+          "audio": [{ "v": "f1", "t": "Liebe Besucherinnen und Besucher, die Besuchszeit endet um zwanzig Uhr. Bitte verlassen Sie dann das Krankenhaus." }]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wann ist der neue Termin?", "options": ["Mittwoch, 14 Uhr", "Donnerstag, 14 Uhr", "Donnerstag, 16 Uhr"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Guten Tag, Herr López, hier ist die Zahnarztpraxis Dr. Sommer. Ihr Termin am Mittwoch geht leider nicht. Können Sie am Donnerstag um vierzehn Uhr kommen? Bitte rufen Sie uns an." }]
+        },
+        {
+          "q": "Was soll Paul kaufen?", "options": ["Tabletten", "Hustensaft", "Tee"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Hallo Paul, hier ist Anna. Ich bin erkältet und habe starken Husten. Kannst du mir bitte Hustensaft aus der Apotheke mitbringen? Danke!" }]
+        },
+        {
+          "q": "Warum kommt Tim nicht zur Arbeit?", "options": ["Er hat Fieber.", "Er hat Rückenschmerzen.", "Sein Kind ist krank."], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Guten Morgen, Frau Weber, hier ist Tim Berger. Ich kann heute nicht zur Arbeit kommen. Ich habe starke Rückenschmerzen und muss zum Arzt. Ich rufe morgen wieder an." }]
+        },
+        {
+          "q": "Was muss Frau Lang machen?", "options": ["das Rezept abholen", "einen neuen Termin machen", "nichts"], "answer": 0,
+          "audio": [{ "v": "m2", "t": "Guten Tag, Frau Lang, hier ist die Praxis Dr. Graf. Ihr Rezept ist fertig. Sie können es heute bis achtzehn Uhr abholen. Auf Wiederhören." }]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Liebe Frau Wolf,\n\nleider kann ich heute nicht zum Kurs kommen. Ich bin krank: Ich habe Fieber und Halsschmerzen. Ich gehe heute zum Arzt. Ich muss drei Tage im Bett bleiben. Am Montag komme ich wieder. Können Sie mir bitte die Hausaufgaben schicken?\n\nViele Grüße\nAhmed Karimi",
+          "statements": [
+            { "s": "Ahmed hat Fieber.", "answer": true },
+            { "s": "Ahmed geht morgen zum Arzt.", "answer": false },
+            { "s": "Ahmed muss drei Tage im Bett bleiben.", "answer": true },
+            { "s": "Ahmed kommt am Dienstag wieder.", "answer": false },
+            { "s": "Ahmed möchte die Hausaufgaben bekommen.", "answer": true }
+          ]
+        },
+        {
+          "text": "Praxis Dr. med. Anna Sommer – Allgemeinmedizin\n\nSprechstunden: Mo, Di, Do 8–12 und 14–18 Uhr, Mi und Fr 8–12 Uhr.\nBitte bringen Sie immer Ihre Versichertenkarte mit.\nTermine nur nach Anruf: 044 321 00 11.\nIm Notfall: Tel. 144.",
+          "statements": [
+            { "s": "Am Mittwochnachmittag ist die Praxis geschlossen.", "answer": true },
+            { "s": "Am Donnerstag kann man um 15 Uhr kommen.", "answer": true },
+            { "s": "Man braucht die Versichertenkarte nicht.", "answer": false },
+            { "s": "Für einen Termin muss man anrufen.", "answer": true },
+            { "s": "Im Notfall ruft man 044 321 00 11 an.", "answer": false }
+          ]
+        },
+        {
+          "text": "Hi Lisa,\n\nwie geht es dir? Tom sagt, du bist krank. Gute Besserung! Brauchst du etwas? Ich kann für dich einkaufen oder zur Apotheke gehen. Ich habe heute ab 17 Uhr Zeit. Ruf mich an!\n\nLiebe Grüße\nSara",
+          "statements": [
+            { "s": "Sara ist krank.", "answer": false },
+            { "s": "Sara weiß von Tom: Lisa ist krank.", "answer": true },
+            { "s": "Sara möchte Lisa helfen.", "answer": true },
+            { "s": "Sara hat am Vormittag Zeit.", "answer": false },
+            { "s": "Lisa soll Sara anrufen.", "answer": true }
+          ]
+        }
+      ],
+      "t2": [
+        { "situation": "Sie haben am Sonntag starke Zahnschmerzen.", "a": "Zahnarzt Dr. Huber: Mo–Fr 8–17 Uhr", "b": "Zahnärztlicher Notdienst: Wochenende und Feiertage, Tel. 0800 33 66 55", "answer": "b" },
+        { "situation": "Ihr Kind (4 Jahre) hat Fieber.", "a": "Kinderarztpraxis Dr. Klein – für Kinder bis 16 Jahre", "b": "Augenarzt Dr. Blum – Brillen und Kontaktlinsen", "answer": "a" },
+        { "situation": "Sie möchten Rückenschmerzen mit Sport behandeln.", "a": "Rückengymnastik – Kurs für Erwachsene, Mo 18 Uhr", "b": "Schwimmkurs für Babys, Mi 10 Uhr", "answer": "a" },
+        { "situation": "Sie möchten mit dem Rauchen aufhören.", "a": "Nichtraucher-Kurs: In 6 Wochen rauchfrei!", "b": "Kochkurs: Gesund essen", "answer": "a" },
+        { "situation": "Sie brauchen am Abend um 21 Uhr ein Medikament.", "a": "Stadt-Apotheke: Mo–Fr 8–18.30 Uhr", "b": "Notdienst heute: Bahnhof-Apotheke, bis 23 Uhr", "answer": "b" },
+        { "situation": "Sie sprechen noch nicht gut Deutsch und suchen eine Ärztin, die Spanisch spricht.", "a": "Dr. Laura Méndez – Allgemeinmedizin – Wir sprechen Deutsch, Spanisch und Englisch", "b": "Dr. Peter Graf – Allgemeinmedizin – Wir sprechen Deutsch und Französisch", "answer": "a" }
+      ],
+      "t3": [
+        { "text": "Rauchen verboten!", "sign": true, "statements": [{ "s": "Hier darf man rauchen.", "answer": false }] },
+        { "text": "Bitte im Wartezimmer Platz nehmen. Sie werden aufgerufen.", "sign": true, "statements": [{ "s": "Man muss im Wartezimmer warten.", "answer": true }] },
+        { "text": "Handys bitte ausschalten", "sign": true, "statements": [{ "s": "Man darf hier telefonieren.", "answer": false }] },
+        { "text": "Anmeldung – bitte Versichertenkarte bereithalten", "sign": true, "statements": [{ "s": "An der Anmeldung braucht man die Versichertenkarte.", "answer": true }] },
+        { "text": "Heute keine Sprechstunde – Vertretung: Dr. Graf, Marktgasse 3", "sign": true, "statements": [{ "s": "Heute kann man zu Dr. Graf gehen.", "answer": true }] },
+        { "text": "Besucher: Eingang B", "sign": true, "statements": [{ "s": "Besucher müssen den Eingang A benutzen.", "answer": false }] }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Pedro Gómez ist neu in der Praxis Dr. Sommer. Er ist 35 Jahre alt. Seine Krankenkasse ist die Helvetia. Er hat seit einer Woche Rückenschmerzen. Er nimmt keine Medikamente. Er raucht nicht.",
+          "title": "Patientenformular – Praxis Dr. Sommer",
+          "fields": [
+            { "label": "Name", "given": "Gómez" },
+            { "label": "Alter", "answers": ["35", "fünfunddreißig"] },
+            { "label": "Krankenkasse", "answers": ["Helvetia"] },
+            { "label": "Beschwerden", "answers": ["Rückenschmerzen"] },
+            { "label": "Seit wann?", "answers": ["seit einer Woche", "eine Woche", "1 Woche"] },
+            { "label": "Raucher (ja / nein)", "answers": ["nein"] }
+          ]
+        },
+        {
+          "context": "Sie melden Ihre Tochter Lena im Kindergarten krank. Lena ist 5 Jahre alt und in der Gruppe „Sonne“. Sie hat Fieber. Sie kommt am Montag wieder.",
+          "title": "Kindergarten – Krankmeldung",
+          "fields": [
+            { "label": "Name des Kindes", "given": "Lena" },
+            { "label": "Alter", "answers": ["5", "fünf"] },
+            { "label": "Gruppe", "answers": ["Sonne"] },
+            { "label": "Grund", "answers": ["Fieber", "krank"] },
+            { "label": "Kommt wieder am", "answers": ["Montag", "am Montag"] }
+          ]
+        },
+        {
+          "context": "Herr Frei möchte einen Termin beim Zahnarzt. Er hat Zahnschmerzen. Er kann am Vormittag nicht, nur ab 16 Uhr. Seine Handynummer ist 079 888 77 66.",
+          "title": "Zahnarztpraxis – Terminanfrage online",
+          "fields": [
+            { "label": "Name", "given": "Frei" },
+            { "label": "Grund", "answers": ["Zahnschmerzen"] },
+            { "label": "Wann möglich?", "answers": ["ab 16 Uhr", "ab 16", "Nachmittag", "am Nachmittag"] },
+            { "label": "Handy", "answers": ["079 888 77 66"] }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie sind krank und können morgen nicht zur Arbeit. Schreiben Sie Ihrem Chef, Herrn Graf.",
+          "points": ["Was haben Sie?", "Sie gehen zum Arzt.", "Wann kommen Sie wieder?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrter Herr Graf,\n\nich bin leider krank. Ich habe Fieber und Halsschmerzen. Morgen gehe ich zum Arzt. Ich kann erst am Montag wieder arbeiten.\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Ihre Freundin Marta ist krank. Schreiben Sie ihr.",
+          "points": ["Wünschen Sie gute Besserung.", "Fragen Sie: Was brauchst du?", "Sie können sie besuchen: wann?"],
+          "register": "informal (du)",
+          "model": "Liebe Marta,\n\nTom sagt, du bist krank. Gute Besserung! Brauchst du etwas? Ich kann für dich einkaufen. Ich kann dich morgen Nachmittag besuchen.\n\nLiebe Grüße\nLaura"
+        },
+        {
+          "task": "Sie haben morgen einen Termin beim Arzt, aber Sie können nicht kommen. Schreiben Sie der Praxis.",
+          "points": ["Sie können morgen nicht kommen.", "Warum nicht?", "Bitten Sie um einen neuen Termin."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe morgen um 10 Uhr einen Termin bei Dr. Sommer. Leider kann ich nicht kommen, ich muss arbeiten. Haben Sie einen neuen Termin für mich, am Nachmittag?\n\nMit freundlichen Grüßen\nPablo Ruiz"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": ["Name?", "Alter?", "Sport?", "Gesundheit?"],
+          "extra": "Der Prüfer fragt dann: Sind Sie oft krank?",
+          "model": [{ "v": "m1", "t": "Guten Tag! Ich heiße José und bin achtundzwanzig. Ich laufe dreimal in der Woche. Ich bin meistens gesund, aber im Winter bin ich oft erkältet. Dann trinke ich viel Tee und bleibe zu Hause." }]
+        },
+        {
+          "keywords": ["Name?", "Familie?", "Arzt?"],
+          "extra": "Der Prüfer fragt dann: Wie heißt Ihr Arzt?",
+          "model": [{ "v": "f1", "t": "Hallo, ich bin Laura. Ich habe zwei Kinder. Unsere Kinderärztin ist sehr nett, sie spricht auch Spanisch. Unser Hausarzt heißt Dr. Keller." }]
+        },
+        {
+          "keywords": ["Name?", "Beruf?", "Rauchen?", "Essen?"],
+          "extra": "Der Prüfer fragt dann: Was essen Sie gern?",
+          "model": [{ "v": "m2", "t": "Guten Tag. Ich heiße Pablo und bin Koch. Nein, ich rauche nicht. Ich esse viel Gemüse und Obst. Am liebsten esse ich Fisch." }]
+        }
+      ],
+      "t2": [
+        { "theme": "Gesundheit", "word": "Arzt", "question": "Gehst du oft zum Arzt?", "answer": "Nein, nur einmal im Jahr." },
+        { "theme": "Gesundheit", "word": "Sport", "question": "Musst du viel Sport machen?", "answer": "Ja, ich muss jeden Tag laufen." },
+        { "theme": "Gesundheit", "word": "Kopfschmerzen", "question": "Was machst du bei Kopfschmerzen?", "answer": "Ich nehme eine Tablette." },
+        { "theme": "Gesundheit", "word": "rauchen", "question": "Darf man hier rauchen?", "answer": "Nein, hier darf man nicht rauchen." },
+        { "theme": "Gesundheit", "word": "krank", "question": "Bist du oft krank?", "answer": "Nein, fast nie." },
+        { "theme": "Gesundheit", "word": "Wochenende", "question": "Musst du am Wochenende arbeiten?", "answer": "Nein, am Wochenende muss ich nicht arbeiten." }
+      ]
+    }
+  }
+}

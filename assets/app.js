@@ -26,6 +26,11 @@ function h(tag, attrs = {}, ...children) {
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
+// Baraja las opciones de una pregunta de elección múltiple y recoloca el índice correcto.
+function shuffleOptions(it) {
+  const order = shuffle(it.options.map((_, i) => i));
+  return { ...it, options: order.map((i) => it.options[i]), answer: order.indexOf(it.answer) };
+}
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -533,7 +538,8 @@ function renderExercise(ex, topic) {
 
 function exMC(ex) {
   const name = () => `${ex.id}-${Math.random().toString(36).slice(2)}`;
-  const items = ex.items.map((it, idx) => {
+  const items = ex.items.map((orig, idx) => {
+    const it = shuffleOptions(orig);
     const n = name();
     const opts = it.options.map((o, i) => h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: i }), h("span", { lang: ex.type === "listen" ? null : "de" }, o)));
     const el = h("div", { class: "item" },
@@ -792,11 +798,12 @@ async function viewExam(root, lvlId, tid, mode) {
     for (const teil of m.teile) {
       if (!teil.items.length) continue;
       const tsec = h("div", { class: "card teil" }, h("h3", {}, `Teil ${teil.key.slice(1)}`), h("p", { class: "instr", lang: "de" }, teil.de), h("p", { class: "muted small" }, teil.es));
-      for (const it of teil.items) {
+      for (let it of teil.items) {
         q++;
         const el = h("div", { class: "item" });
         if (teil.kind === "listen_mc" || teil.kind === "listen_tf") {
           const n = `q${q}`;
+          if (teil.kind === "listen_mc") it = shuffleOptions(it);
           const opts = teil.kind === "listen_mc" ? it.options : ["Richtig", "Falsch"];
           el.append(h("div", { class: "q" }, h("span", { class: "n" }, `${q}.`), h("span", { lang: "de" }, it.q || it.statement)), listenControl(it.audio, teil.plays),
             h("div", { class: "opts" }, opts.map((o, i) => h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: i }), h("span", { lang: "de" }, `${teil.kind === "listen_mc" ? "abc"[i] + ") " : ""}${o}`)))));

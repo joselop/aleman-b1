@@ -1668,6 +1668,20 @@
               "t": "Hallo! Ich heiße Laura García. Ich komme aus Spanien, aus Valencia. Ich wohne jetzt in Bern. Bern: Be, E, Er, En."
             }
           ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Wohnort?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie ist Ihr Familienname? Buchstabieren Sie bitte.",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Ich heiße Pablo Ruiz. Ich komme aus Mexiko und wohne jetzt in Basel. Ruiz: Er, U, I, Zett."
+            }
+          ]
         }
       ],
       "t2": [

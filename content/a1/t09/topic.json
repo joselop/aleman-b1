@@ -1,0 +1,1542 @@
+{
+  "id": "a1-t09",
+  "level": "a1",
+  "topic": "t09",
+  "title": "En la ciudad",
+  "title_de": "In der Stadt",
+  "goals": [
+    "Nombrar lugares de la ciudad y medios de transporte",
+    "Usar el dativo detrás de aus, bei, mit, nach, seit, von, zu (y zum, zur, beim, vom)",
+    "Elegir entre nach y zu, y entre nach Hause y zu Hause",
+    "Preguntar el camino y entender indicaciones",
+    "Dar instrucciones con el imperativo de du y de ihr",
+    "Entender anuncios de estaciones y transportes"
+  ],
+  "vocab": [
+    {
+      "de": "die Stadt",
+      "pl": "die Städte",
+      "es": "la ciudad",
+      "cat": "Lugares",
+      "ex": "Zürich ist eine schöne Stadt.",
+      "ex_es": "Zúrich es una ciudad bonita."
+    },
+    {
+      "de": "der Bahnhof",
+      "pl": "die Bahnhöfe",
+      "es": "la estación",
+      "cat": "Lugares",
+      "ex": "Wie komme ich zum Bahnhof?",
+      "ex_es": "¿Cómo llego a la estación?"
+    },
+    {
+      "de": "die Haltestelle",
+      "pl": "die Haltestellen",
+      "es": "la parada",
+      "cat": "Lugares",
+      "ex": "Die Haltestelle ist dort drüben.",
+      "ex_es": "La parada está allí enfrente."
+    },
+    {
+      "de": "der Flughafen",
+      "pl": "die Flughäfen",
+      "es": "el aeropuerto",
+      "cat": "Lugares",
+      "ex": "Ich fahre mit dem Zug zum Flughafen.",
+      "ex_es": "Voy en tren al aeropuerto."
+    },
+    {
+      "de": "die Post",
+      "es": "Correos",
+      "cat": "Lugares",
+      "ex": "Die Post ist neben der Bank.",
+      "ex_es": "Correos está al lado del banco."
+    },
+    {
+      "de": "die Bank",
+      "pl": "die Banken",
+      "es": "el banco",
+      "cat": "Lugares",
+      "ex": "Ich gehe zur Bank.",
+      "ex_es": "Voy al banco."
+    },
+    {
+      "de": "das Rathaus",
+      "pl": "die Rathäuser",
+      "es": "el ayuntamiento",
+      "cat": "Lugares",
+      "ex": "Das Rathaus ist am Marktplatz.",
+      "ex_es": "El ayuntamiento está en la plaza del mercado."
+    },
+    {
+      "de": "das Krankenhaus",
+      "pl": "die Krankenhäuser",
+      "es": "el hospital",
+      "cat": "Lugares",
+      "ex": "Sie arbeitet im Krankenhaus.",
+      "ex_es": "Trabaja en el hospital."
+    },
+    {
+      "de": "die Kirche",
+      "pl": "die Kirchen",
+      "es": "la iglesia",
+      "cat": "Lugares",
+      "ex": "Die Kirche ist sehr alt.",
+      "ex_es": "La iglesia es muy antigua."
+    },
+    {
+      "de": "das Museum",
+      "pl": "die Museen",
+      "es": "el museo",
+      "cat": "Lugares",
+      "ex": "Das Museum ist am Montag geschlossen.",
+      "ex_es": "El museo cierra los lunes."
+    },
+    {
+      "de": "der Platz",
+      "pl": "die Plätze",
+      "es": "la plaza; el sitio",
+      "cat": "Lugares",
+      "ex": "Wir treffen uns am Marktplatz.",
+      "ex_es": "Quedamos en la plaza del mercado."
+    },
+    {
+      "de": "die Straße",
+      "pl": "die Straßen",
+      "es": "la calle",
+      "cat": "Lugares",
+      "ex": "Ich wohne in der Bahnhofstraße.",
+      "ex_es": "Vivo en la calle de la Estación."
+    },
+    {
+      "de": "die Ampel",
+      "pl": "die Ampeln",
+      "es": "el semáforo",
+      "cat": "Lugares",
+      "ex": "An der Ampel links.",
+      "ex_es": "En el semáforo, a la izquierda."
+    },
+    {
+      "de": "die Ecke",
+      "pl": "die Ecken",
+      "es": "la esquina",
+      "cat": "Lugares",
+      "ex": "Die Apotheke ist an der Ecke.",
+      "ex_es": "La farmacia está en la esquina."
+    },
+    {
+      "de": "das Zentrum",
+      "es": "el centro",
+      "cat": "Lugares",
+      "ex": "Das Hotel ist im Zentrum.",
+      "ex_es": "El hotel está en el centro."
+    },
+    {
+      "de": "der Bus",
+      "pl": "die Busse",
+      "es": "el autobús",
+      "cat": "Transporte",
+      "ex": "Ich fahre mit dem Bus.",
+      "ex_es": "Voy en autobús."
+    },
+    {
+      "de": "die U-Bahn",
+      "pl": "die U-Bahnen",
+      "es": "el metro",
+      "cat": "Transporte",
+      "ex": "Nimm die U-Bahn!",
+      "ex_es": "¡Coge el metro!"
+    },
+    {
+      "de": "die Straßenbahn / das Tram",
+      "pl": "die Straßenbahnen",
+      "es": "el tranvía",
+      "cat": "Transporte",
+      "ex": "Die Straßenbahn kommt in drei Minuten.",
+      "ex_es": "El tranvía llega en tres minutos."
+    },
+    {
+      "de": "der Zug",
+      "pl": "die Züge",
+      "es": "el tren",
+      "cat": "Transporte",
+      "ex": "Der Zug hat Verspätung.",
+      "ex_es": "El tren lleva retraso."
+    },
+    {
+      "de": "das Auto",
+      "pl": "die Autos",
+      "es": "el coche",
+      "cat": "Transporte",
+      "ex": "Fährst du mit dem Auto?",
+      "ex_es": "¿Vas en coche?"
+    },
+    {
+      "de": "das Fahrrad",
+      "pl": "die Fahrräder",
+      "es": "la bicicleta",
+      "cat": "Transporte",
+      "ex": "Ich fahre mit dem Fahrrad zur Arbeit.",
+      "ex_es": "Voy en bici al trabajo."
+    },
+    {
+      "de": "zu Fuß",
+      "es": "a pie",
+      "cat": "Transporte",
+      "ex": "Es sind nur fünf Minuten zu Fuß.",
+      "ex_es": "Son solo cinco minutos a pie."
+    },
+    {
+      "de": "die Fahrkarte",
+      "pl": "die Fahrkarten",
+      "es": "el billete",
+      "cat": "Transporte",
+      "ex": "Wo kann ich eine Fahrkarte kaufen?",
+      "ex_es": "¿Dónde puedo comprar un billete?"
+    },
+    {
+      "de": "das Gleis",
+      "pl": "die Gleise",
+      "es": "la vía, el andén",
+      "cat": "Transporte",
+      "ex": "Der Zug fährt von Gleis 5 ab.",
+      "ex_es": "El tren sale de la vía 5."
+    },
+    {
+      "de": "die Verspätung",
+      "pl": "die Verspätungen",
+      "es": "el retraso",
+      "cat": "Transporte",
+      "ex": "Der Bus hat zehn Minuten Verspätung.",
+      "ex_es": "El autobús lleva diez minutos de retraso."
+    },
+    {
+      "de": "abfahren",
+      "es": "salir (un vehículo)",
+      "cat": "Transporte",
+      "forms": "er fährt ab",
+      "ex": "Der Zug fährt um acht ab.",
+      "ex_es": "El tren sale a las ocho."
+    },
+    {
+      "de": "ankommen",
+      "es": "llegar",
+      "cat": "Transporte",
+      "forms": "er kommt an",
+      "ex": "Wann kommt der Zug in Bern an?",
+      "ex_es": "¿Cuándo llega el tren a Berna?"
+    },
+    {
+      "de": "umsteigen",
+      "es": "hacer transbordo",
+      "cat": "Transporte",
+      "forms": "er steigt um",
+      "ex": "Steig in Olten um!",
+      "ex_es": "¡Haz transbordo en Olten!"
+    },
+    {
+      "de": "einsteigen / aussteigen",
+      "es": "subir / bajar (del vehículo)",
+      "cat": "Transporte",
+      "forms": "er steigt ein / aus",
+      "ex": "Steig an der Haltestelle Bellevue aus!",
+      "ex_es": "¡Bájate en la parada Bellevue!"
+    },
+    {
+      "de": "geradeaus",
+      "es": "todo recto",
+      "cat": "Direcciones",
+      "ex": "Geh geradeaus!",
+      "ex_es": "¡Sigue recto!"
+    },
+    {
+      "de": "links / rechts",
+      "es": "a la izquierda / a la derecha",
+      "cat": "Direcciones",
+      "ex": "Die erste Straße links.",
+      "ex_es": "La primera calle a la izquierda."
+    },
+    {
+      "de": "neben",
+      "es": "al lado de",
+      "cat": "Direcciones",
+      "ex": "Das Café ist neben der Post.",
+      "ex_es": "El café está al lado de Correos."
+    },
+    {
+      "de": "gegenüber",
+      "es": "enfrente",
+      "cat": "Direcciones",
+      "ex": "Die Bank ist gegenüber vom Bahnhof.",
+      "ex_es": "El banco está enfrente de la estación."
+    },
+    {
+      "de": "weit / nah",
+      "es": "lejos / cerca",
+      "cat": "Direcciones",
+      "ex": "Ist das weit? – Nein, ganz nah.",
+      "ex_es": "¿Está lejos? – No, muy cerca."
+    },
+    {
+      "de": "in der Nähe",
+      "es": "cerca",
+      "cat": "Direcciones",
+      "ex": "Gibt es hier in der Nähe eine Apotheke?",
+      "ex_es": "¿Hay una farmacia por aquí cerca?"
+    },
+    {
+      "de": "dort",
+      "es": "allí",
+      "cat": "Direcciones",
+      "ex": "Die Haltestelle ist dort.",
+      "ex_es": "La parada está allí."
+    },
+    {
+      "de": "mit",
+      "es": "con; en (transporte)",
+      "cat": "Preposiciones + dativo",
+      "ex": "Ich fahre mit dem Zug.",
+      "ex_es": "Voy en tren."
+    },
+    {
+      "de": "zu",
+      "es": "a (personas, lugares con artículo)",
+      "cat": "Preposiciones + dativo",
+      "ex": "Ich gehe zum Arzt.",
+      "ex_es": "Voy al médico."
+    },
+    {
+      "de": "nach",
+      "es": "a (ciudades, países); después de",
+      "cat": "Preposiciones + dativo",
+      "ex": "Wir fahren nach Wien.",
+      "ex_es": "Vamos a Viena."
+    },
+    {
+      "de": "bei",
+      "es": "en casa de; en",
+      "cat": "Preposiciones + dativo",
+      "ex": "Ich wohne bei meinen Eltern.",
+      "ex_es": "Vivo en casa de mis padres."
+    },
+    {
+      "de": "von",
+      "es": "de, desde",
+      "cat": "Preposiciones + dativo",
+      "ex": "Ich komme gerade vom Supermarkt.",
+      "ex_es": "Vengo del supermercado."
+    },
+    {
+      "de": "seit",
+      "es": "desde (hace)",
+      "cat": "Preposiciones + dativo",
+      "ex": "Ich lerne seit einem Jahr Deutsch.",
+      "ex_es": "Aprendo alemán desde hace un año."
+    },
+    {
+      "de": "nach Hause / zu Hause",
+      "es": "a casa / en casa",
+      "cat": "Preposiciones + dativo",
+      "ex": "Ich gehe nach Hause. Um sechs bin ich zu Hause.",
+      "ex_es": "Me voy a casa. A las seis estoy en casa."
+    },
+    {
+      "de": "Wie komme ich zu …?",
+      "es": "¿Cómo llego a…?",
+      "cat": "Frases útiles",
+      "ex": "Wie komme ich zum Museum?",
+      "ex_es": "¿Cómo llego al museo?"
+    },
+    {
+      "de": "Danke schön! – Bitte schön!",
+      "es": "¡Muchas gracias! – ¡De nada!",
+      "cat": "Frases útiles",
+      "ex": "Danke schön! – Bitte schön!",
+      "ex_es": "¡Muchas gracias! – ¡De nada!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "La ciudad",
+      "instructions": "Relaciona.",
+      "pairs": [
+        [
+          "die Haltestelle",
+          "la parada"
+        ],
+        [
+          "das Rathaus",
+          "el ayuntamiento"
+        ],
+        [
+          "die Ampel",
+          "el semáforo"
+        ],
+        [
+          "das Gleis",
+          "el andén"
+        ],
+        [
+          "umsteigen",
+          "hacer transbordo"
+        ],
+        [
+          "geradeaus",
+          "todo recto"
+        ],
+        [
+          "gegenüber",
+          "enfrente"
+        ],
+        [
+          "zu Fuß",
+          "a pie"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "mit + dativo",
+      "instructions": "Completa con dem o der.",
+      "items": [
+        {
+          "text": "Ich fahre mit [[dem]] Bus. (der Bus)"
+        },
+        {
+          "text": "Anna fährt mit [[der]] U-Bahn. (die U-Bahn)"
+        },
+        {
+          "text": "Wir fahren mit [[dem]] Auto. (das Auto)"
+        },
+        {
+          "text": "Fährst du mit [[dem]] Fahrrad? (das Fahrrad)"
+        },
+        {
+          "text": "Ich komme mit [[der]] Straßenbahn. (die Straßenbahn)"
+        },
+        {
+          "text": "Er fährt mit [[dem]] Zug nach Genf. (der Zug)"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "zum, zur, beim, vom",
+      "instructions": "Completa con la contracción correcta.",
+      "items": [
+        {
+          "text": "Wie komme ich [[zum]] Bahnhof? (zu + der Bahnhof)"
+        },
+        {
+          "text": "Ich gehe [[zur]] Post. (zu + die Post)"
+        },
+        {
+          "text": "Heute Nachmittag bin ich [[beim]] Arzt. (bei + der Arzt)"
+        },
+        {
+          "text": "Er kommt gerade [[vom]] Supermarkt. (von + der Supermarkt)"
+        },
+        {
+          "text": "Fahren Sie bitte [[zum]] Flughafen. (zu + der Flughafen)"
+        },
+        {
+          "text": "Wir gehen [[zur]] Bank. (zu + die Bank)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "¿nach o zu? ¿nach Hause o zu Hause?",
+      "instructions": "Elige la opción correcta.",
+      "items": [
+        {
+          "q": "Am Wochenende fahre ich ___ Wien.",
+          "options": [
+            "nach",
+            "zu",
+            "zum"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Ich gehe heute ___ meiner Oma.",
+          "options": [
+            "nach",
+            "zu",
+            "bei"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Es ist spät. Ich gehe jetzt ___.",
+          "options": [
+            "zu Hause",
+            "nach Hause",
+            "bei Hause"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Am Sonntag bin ich immer ___.",
+          "options": [
+            "nach Hause",
+            "zu Hause",
+            "zum Hause"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Wir fliegen im Sommer ___ Spanien.",
+          "options": [
+            "zu",
+            "nach",
+            "in"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Wie komme ich ___ Museum?",
+          "options": [
+            "nach",
+            "zum",
+            "zur"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Preposiciones con dativo",
+      "instructions": "Completa con aus, bei, mit, nach, seit, von o zu.",
+      "items": [
+        {
+          "text": "Ich wohne [[seit]] zwei Jahren in Zürich."
+        },
+        {
+          "text": "Maria kommt [[aus]] Portugal."
+        },
+        {
+          "text": "Ich wohne [[bei]] meiner Tante."
+        },
+        {
+          "text": "Das ist das Auto [[von]] meinem Bruder."
+        },
+        {
+          "text": "Wir fahren [[mit]] dem Zug [[nach]] Bern."
+        },
+        {
+          "text": "[[Nach]] dem Kurs gehen wir ins Café."
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "El imperativo",
+      "instructions": "Escribe el imperativo de du (o de ihr si se indica).",
+      "items": [
+        {
+          "text": "[[Komm]] bitte um acht! (kommen)"
+        },
+        {
+          "text": "[[Nimm]] den Bus Nummer 31! (nehmen)"
+        },
+        {
+          "text": "[[Fahr]] mit dem Fahrrad! (fahren)"
+        },
+        {
+          "text": "[[Geh]] hier geradeaus! (gehen)"
+        },
+        {
+          "text": "[[Lies]] den Text! (lesen)"
+        },
+        {
+          "text": "[[Ruf]] mich bitte [[an]]! (anrufen)"
+        },
+        {
+          "text": "Kinder, [[kommt]] bitte! (kommen, ihr)"
+        },
+        {
+          "text": "[[Seid]] bitte pünktlich! (sein, ihr)"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Preguntar el camino",
+      "instructions": "Ordena la frase.",
+      "items": [
+        {
+          "words": [
+            "Wie",
+            "komme",
+            "ich",
+            "zum",
+            "Bahnhof",
+            "?"
+          ],
+          "answers": [
+            "Wie komme ich zum Bahnhof?"
+          ]
+        },
+        {
+          "words": [
+            "Geh",
+            "hier",
+            "geradeaus",
+            "."
+          ],
+          "answers": [
+            "Geh hier geradeaus."
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "Post",
+            "ist",
+            "neben",
+            "der",
+            "Bank",
+            "."
+          ],
+          "answers": [
+            "Die Post ist neben der Bank."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "fahre",
+            "mit",
+            "dem",
+            "Bus",
+            "zur",
+            "Arbeit",
+            "."
+          ],
+          "answers": [
+            "Ich fahre mit dem Bus zur Arbeit."
+          ]
+        },
+        {
+          "words": [
+            "Steig",
+            "in",
+            "Olten",
+            "um",
+            "!"
+          ],
+          "answers": [
+            "Steig in Olten um!"
+          ]
+        },
+        {
+          "words": [
+            "Gibt",
+            "es",
+            "hier",
+            "eine",
+            "Apotheke",
+            "?"
+          ],
+          "answers": [
+            "Gibt es hier eine Apotheke?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "¿Por dónde?",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Entschuldigung, wie komme ich zur Post?"
+            },
+            {
+              "v": "m1",
+              "t": "Gehen Sie geradeaus und dann die zweite Straße rechts. Die Post ist neben der Bank."
+            }
+          ],
+          "q": "¿Dónde está Correos?",
+          "options": [
+            "Al lado del banco",
+            "Enfrente del banco",
+            "Al lado de la iglesia"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Wie kommst du zur Arbeit?"
+            },
+            {
+              "v": "f2",
+              "t": "Im Sommer mit dem Fahrrad, im Winter mit der Straßenbahn."
+            }
+          ],
+          "q": "¿Cómo va al trabajo en invierno?",
+          "options": [
+            "En bici",
+            "En tranvía",
+            "En autobús"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Ist das Museum weit?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, nur zehn Minuten zu Fuß. Oder nimm den Bus, zwei Stationen."
+            }
+          ],
+          "q": "¿Cuánto se tarda a pie?",
+          "options": [
+            "2 minutos",
+            "10 minutos",
+            "20 minutos"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Wo bist du?"
+            },
+            {
+              "v": "f2",
+              "t": "Ich bin noch bei meiner Schwester. Um acht bin ich zu Hause."
+            }
+          ],
+          "q": "¿Dónde está la mujer?",
+          "options": [
+            "En casa",
+            "En casa de su hermana",
+            "En el trabajo"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Fährt der Zug nach Basel von Gleis sieben?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, heute von Gleis elf. Und in Olten steigen Sie um."
+            }
+          ],
+          "q": "¿De qué vía sale el tren?",
+          "options": [
+            "7",
+            "11",
+            "17"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Ich fahre mit dem Bus."
+            }
+          ],
+          "answers": [
+            "Ich fahre mit dem Bus."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Wie komme ich zum Bahnhof?"
+            }
+          ],
+          "answers": [
+            "Wie komme ich zum Bahnhof?"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Geh hier links!"
+            }
+          ],
+          "answers": [
+            "Geh hier links!"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Ich gehe nach Hause."
+            }
+          ],
+          "answers": [
+            "Ich gehe nach Hause."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Die Bank ist gegenüber."
+            }
+          ],
+          "answers": [
+            "Die Bank ist gegenüber."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Voy en tren a Berna.",
+          "answers": [
+            "Ich fahre mit dem Zug nach Bern."
+          ]
+        },
+        {
+          "prompt": "¿Cómo llego al ayuntamiento?",
+          "answers": [
+            "Wie komme ich zum Rathaus?"
+          ]
+        },
+        {
+          "prompt": "¡Coge el autobús! (du)",
+          "answers": [
+            "Nimm den Bus!"
+          ]
+        },
+        {
+          "prompt": "Vivo en casa de mis padres.",
+          "answers": [
+            "Ich wohne bei meinen Eltern."
+          ]
+        },
+        {
+          "prompt": "Vivo en Zúrich desde hace tres años.",
+          "answers": [
+            "Ich wohne seit drei Jahren in Zürich.",
+            "Seit drei Jahren wohne ich in Zürich."
+          ]
+        },
+        {
+          "prompt": "Estoy en casa.",
+          "answers": [
+            "Ich bin zu Hause."
+          ]
+        },
+        {
+          "prompt": "¡Sigue recto y luego a la izquierda! (du)",
+          "answers": [
+            "Geh geradeaus und dann links!",
+            "Geh geradeaus und dann nach links!",
+            "Fahr geradeaus und dann links!"
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wo ist die Apotheke?",
+          "options": [
+            "neben dem Supermarkt",
+            "gegenüber vom Bahnhof",
+            "an der Ecke"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Entschuldigung, gibt es hier eine Apotheke?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, gegenüber vom Bahnhof. Nur zwei Minuten von hier."
+            }
+          ]
+        },
+        {
+          "q": "Wie fährt die Frau nach Hause?",
+          "options": [
+            "mit dem Bus",
+            "mit dem Taxi",
+            "mit der U-Bahn"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Soll ich dir ein Taxi rufen?"
+            },
+            {
+              "v": "f1",
+              "t": "Nein danke, ich nehme die U-Bahn. Sie hält direkt vor meinem Haus."
+            }
+          ]
+        },
+        {
+          "q": "Wo muss der Mann umsteigen?",
+          "options": [
+            "in Olten",
+            "in Aarau",
+            "in Bern"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Eine Fahrkarte nach Basel, bitte. Gibt es einen direkten Zug?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, Sie steigen in Olten um. Der Zug fährt um neun Uhr zwölf."
+            }
+          ]
+        },
+        {
+          "q": "Welcher Bus fährt zum Krankenhaus?",
+          "options": [
+            "Bus 13",
+            "Bus 30",
+            "Bus 33"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Welcher Bus fährt zum Krankenhaus? Die Dreizehn?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, die Dreiunddreißig. Die Haltestelle ist dort drüben."
+            }
+          ]
+        },
+        {
+          "q": "Wohin geht Tim?",
+          "options": [
+            "zur Bank",
+            "zur Post",
+            "zum Arzt"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Tim, gehst du zur Post?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, zur Bank. Ich brauche Geld. Aber die Post ist gleich daneben, ich kann deinen Brief mitnehmen."
+            }
+          ]
+        },
+        {
+          "q": "Wie lange wohnt Frau Ito schon in Wien?",
+          "options": [
+            "2 Jahre",
+            "5 Jahre",
+            "10 Jahre"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Frau Ito, wohnen Sie schon lange in Wien?"
+            },
+            {
+              "v": "f1",
+              "t": "Seit fünf Jahren. Vorher habe ich zehn Jahre in Tokio gewohnt."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Der Zug nach Genf hat Verspätung.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Achtung am Gleis sechs: Der Intercity nach Genf, Abfahrt zehn Uhr zwei, hat circa zwanzig Minuten Verspätung."
+            }
+          ]
+        },
+        {
+          "statement": "Die Fahrgäste nach Luzern steigen in Zug um.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Nächster Halt: Zug. Fahrgäste nach Luzern, bitte hier umsteigen. Der Anschlusszug wartet auf Gleis zwei."
+            }
+          ]
+        },
+        {
+          "statement": "Die U-Bahn-Linie 2 fährt heute normal.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Information der Verkehrsbetriebe: Die U-Bahn-Linie zwei fährt heute nicht. Bitte nehmen Sie den Bus Nummer vierzig."
+            }
+          ]
+        },
+        {
+          "statement": "Die nächste Haltestelle ist Bellevue.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Nächste Haltestelle: Bellevue. Umsteigen zur Linie vier und elf."
+            }
+          ]
+        },
+        {
+          "statement": "Der Flug nach Madrid geht von Gate B12.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Passagiere des Fluges LX zwei null zwei nach Madrid: Ihr Flug geht heute von Gate C zwölf, nicht von Gate B zwölf."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wo wartet Marie?",
+          "options": [
+            "am Bahnhof",
+            "an der Haltestelle",
+            "vor dem Kino"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Paul, hier ist Marie. Ich warte schon an der Haltestelle Paradeplatz. Wo bist du? Komm bitte schnell!"
+            }
+          ]
+        },
+        {
+          "q": "Wie kommt Jonas zur Party?",
+          "options": [
+            "mit dem Auto",
+            "mit dem Zug",
+            "mit dem Fahrrad"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hi Lena, hier ist Jonas. Mein Auto ist kaputt. Ich komme mit dem Zug zur Party. Holst du mich um sieben am Bahnhof ab? Danke!"
+            }
+          ]
+        },
+        {
+          "q": "Wo ist das neue Büro?",
+          "options": [
+            "neben der Post",
+            "gegenüber vom Rathaus",
+            "am Bahnhof"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Tag, Herr López, hier ist Frau Graf. Unser Büro ist jetzt in der Marktgasse, gegenüber vom Rathaus. Bis Montag!"
+            }
+          ]
+        },
+        {
+          "q": "Was soll Anna nehmen?",
+          "options": [
+            "den Bus 5",
+            "die Straßenbahn 5",
+            "ein Taxi"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hallo Anna, hier ist Papa. Nimm vom Bahnhof die Straßenbahn Nummer fünf. Steig an der Haltestelle Uni aus. Ich warte dort. Bis gleich!"
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Laura,\n\nam Samstag ist meine Party! So kommst du zu mir: Nimm am Bahnhof die U-Bahn, Linie 3. Steig an der Haltestelle Rosenplatz aus. Dann geh die erste Straße rechts. Mein Haus ist neben dem Supermarkt, Nummer 12. Ich wohne im zweiten Stock.\n\nBis Samstag!\nDaniel",
+          "statements": [
+            {
+              "s": "Laura soll mit dem Bus fahren.",
+              "answer": false
+            },
+            {
+              "s": "Laura steigt am Rosenplatz aus.",
+              "answer": true
+            },
+            {
+              "s": "Nach der Haltestelle geht sie links.",
+              "answer": false
+            },
+            {
+              "s": "Daniels Haus ist neben dem Supermarkt.",
+              "answer": true
+            },
+            {
+              "s": "Daniel wohnt im Erdgeschoss.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Liebe Fahrgäste,\n\nvom 3. bis 10. Juli fährt die Straßenbahn Linie 4 nicht bis zum Bahnhof. Die Endstation ist Stadtpark. Vom Stadtpark zum Bahnhof fährt ein Bus. Der Bus fährt alle 10 Minuten. Fahrkarten für die Straßenbahn gelten auch im Bus.\n\nIhre Verkehrsbetriebe",
+          "statements": [
+            {
+              "s": "Die Linie 4 fährt eine Woche nicht bis zum Bahnhof.",
+              "answer": true
+            },
+            {
+              "s": "Die letzte Station ist Stadtpark.",
+              "answer": true
+            },
+            {
+              "s": "Vom Stadtpark zum Bahnhof fährt die U-Bahn.",
+              "answer": false
+            },
+            {
+              "s": "Der Bus fährt alle 20 Minuten.",
+              "answer": false
+            },
+            {
+              "s": "Man braucht für den Bus eine neue Fahrkarte.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Hi Sam,\n\nich wohne jetzt seit einem Monat in Bern. Die Stadt ist nicht groß, ich gehe fast überall zu Fuß. Zur Arbeit fahre ich mit dem Fahrrad, das dauert nur zehn Minuten. Am Wochenende fahre ich oft mit dem Zug nach Zürich zu meiner Freundin.\n\nViele Grüße\nNoah",
+          "statements": [
+            {
+              "s": "Noah wohnt seit einem Jahr in Bern.",
+              "answer": false
+            },
+            {
+              "s": "Noah geht in Bern viel zu Fuß.",
+              "answer": true
+            },
+            {
+              "s": "Noah fährt mit dem Bus zur Arbeit.",
+              "answer": false
+            },
+            {
+              "s": "Die Fahrt zur Arbeit dauert zehn Minuten.",
+              "answer": true
+            },
+            {
+              "s": "Noahs Freundin wohnt in Zürich.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie möchten eine Fahrkarte kaufen. Der Schalter ist geschlossen.",
+          "a": "Fahrkarten auch am Automaten – Eingang links",
+          "b": "Fundbüro – 1. Stock",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie haben Ihren Regenschirm im Zug vergessen.",
+          "a": "Reisezentrum: Fahrkarten und Informationen",
+          "b": "Fundbüro: verlorene Sachen – Gleis 1",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie möchten ein Fahrrad für einen Tag mieten.",
+          "a": "Velostation am Bahnhof: Fahrräder mieten ab 15 Fr./Tag",
+          "b": "Parkhaus am Bahnhof: 2 Fr./Stunde",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten die Stadt kennenlernen.",
+          "a": "Stadtführung: täglich 14 Uhr, Treffpunkt Rathaus",
+          "b": "Stadtbibliothek: Bücher und Zeitungen",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie sind am Flughafen und möchten schnell ins Zentrum.",
+          "a": "Zug ins Zentrum: alle 10 Minuten, Fahrzeit 12 Minuten",
+          "b": "Bus ins Zentrum: jede Stunde, Fahrzeit 45 Minuten",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie suchen am Abend eine Apotheke.",
+          "a": "Apotheke am Markt: Mo–Fr 8–18 Uhr",
+          "b": "Bahnhof-Apotheke: täglich 7–22 Uhr",
+          "answer": "b"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Gleis 7: Zug nach Basel heute von Gleis 9",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der Zug nach Basel fährt heute von Gleis 7.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Fahrkarten bitte vor der Fahrt kaufen! Im Bus kein Verkauf.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Im Bus kann man eine Fahrkarte kaufen.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Zum Museum → 300 m geradeaus",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Das Museum ist nicht weit.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Baustelle! Fußgänger bitte die andere Straßenseite benutzen",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Man soll auf der anderen Seite gehen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Taxi-Stand – Ausgang Nord",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Die Taxis stehen am Ausgang Süd.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Hunde nur mit Fahrkarte (halber Preis)",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Für einen Hund braucht man auch eine Fahrkarte.",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Frau Silva möchte eine Monatskarte für den Bus. Sie wohnt in Zürich, Seefeldstraße 20. Sie ist 42 Jahre alt. Die Karte soll ab 1. Mai gültig sein. Sie bezahlt mit Karte.",
+          "title": "Antrag – Monatskarte ZVV",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Silva"
+            },
+            {
+              "label": "Straße",
+              "answers": [
+                "Seefeldstraße 20",
+                "Seefeldstrasse 20"
+              ]
+            },
+            {
+              "label": "Stadt",
+              "answers": [
+                "Zürich"
+              ]
+            },
+            {
+              "label": "Alter",
+              "answers": [
+                "42",
+                "zweiundvierzig"
+              ]
+            },
+            {
+              "label": "gültig ab",
+              "answers": [
+                "1. Mai",
+                "1.5.",
+                "1. 5.",
+                "ersten Mai"
+              ]
+            },
+            {
+              "label": "Zahlung",
+              "answers": [
+                "Karte",
+                "mit Karte"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Herr Braun fährt heute mit dem Zug um 8.02 Uhr von Bern nach Zürich. Im Zug vergisst er seine Tasche. Die Tasche ist schwarz. Seine Telefonnummer ist 079 555 12 34.",
+          "title": "Fundbüro – Verlustmeldung",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Braun"
+            },
+            {
+              "label": "Was?",
+              "answers": [
+                "Tasche",
+                "eine Tasche",
+                "seine Tasche"
+              ]
+            },
+            {
+              "label": "Farbe",
+              "answers": [
+                "schwarz"
+              ]
+            },
+            {
+              "label": "Zug von … nach …",
+              "answers": [
+                "Bern nach Zürich",
+                "von Bern nach Zürich",
+                "Bern – Zürich",
+                "Bern - Zürich"
+              ]
+            },
+            {
+              "label": "Abfahrt",
+              "answers": [
+                "8.02",
+                "8:02",
+                "8.02 Uhr",
+                "8:02 Uhr"
+              ]
+            },
+            {
+              "label": "Telefon",
+              "answers": [
+                "079 555 12 34"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Sie buchen für Ihre Kollegin Maria Rossi ein Hotelzimmer in Wien. Sie kommt am Freitag mit dem Zug an und bleibt zwei Nächte. Sie möchte ein Zimmer in der Nähe vom Bahnhof.",
+          "title": "Hotel am Bahnhof – Buchung",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Rossi"
+            },
+            {
+              "label": "Anreise (Tag)",
+              "answers": [
+                "Freitag",
+                "am Freitag"
+              ]
+            },
+            {
+              "label": "Nächte",
+              "answers": [
+                "2",
+                "zwei"
+              ]
+            },
+            {
+              "label": "Ankunft mit (Auto / Zug / Flugzeug)",
+              "answers": [
+                "Zug",
+                "mit dem Zug"
+              ]
+            },
+            {
+              "label": "Stadt",
+              "answers": [
+                "Wien"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Ihr Freund Pedro besucht Sie am Samstag zum ersten Mal. Schreiben Sie ihm den Weg.",
+          "points": [
+            "Welcher Bus / welche Bahn vom Bahnhof?",
+            "Wo aussteigen?",
+            "Wo ist Ihr Haus?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Pedro,\n\nnimm am Bahnhof die Straßenbahn Nummer 11. Steig an der Haltestelle Bucheggplatz aus. Geh dann geradeaus und die zweite Straße links. Mein Haus ist neben der Apotheke, Nummer 8.\n\nBis Samstag!\nJosé"
+        },
+        {
+          "task": "Sie kommen heute zu spät zur Arbeit. Schreiben Sie Ihrer Chefin, Frau Keller.",
+          "points": [
+            "Sie kommen später.",
+            "Warum? (Zug / Bus)",
+            "Wann sind Sie im Büro?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Keller,\n\nich komme heute leider später. Mein Zug hat eine Stunde Verspätung. Ich bin um halb zehn im Büro.\n\nViele Grüße\nLaura García"
+        },
+        {
+          "task": "Sie fahren heute mit dem Bus. Ihre Jacke liegt jetzt noch im Bus. Schreiben Sie an das Fundbüro.",
+          "points": [
+            "Was suchen Sie? Wie sieht es aus?",
+            "Welcher Bus? Um wie viel Uhr?",
+            "Wie kann man Sie erreichen?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich suche meine Jacke. Sie liegt im Bus Nummer 31 (heute, 18 Uhr). Die Jacke ist blau, Größe M. Haben Sie sie? Meine Telefonnummer ist 079 123 45 67.\n\nMit freundlichen Grüßen\nPablo Ruiz"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Wohnort?",
+            "Seit wann?",
+            "Arbeit?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie kommen Sie zur Arbeit?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Ich heiße José und wohne seit einem Jahr in Zürich. Ich arbeite an der ETH. Ich fahre mit der Straßenbahn zur Arbeit, das dauert zwanzig Minuten. Im Sommer fahre ich auch mit dem Fahrrad."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Stadt?",
+            "Lieblingsort?"
+          ],
+          "extra": "Der Prüfer fragt dann: Was gibt es in Ihrer Stadt?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo, ich bin Laura und wohne in Bern. Bern ist nicht so groß, aber sehr schön. Mein Lieblingsort ist der Rosengarten. In Bern gibt es viele Museen, einen Fluss und eine schöne Altstadt."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Verkehrsmittel?"
+          ],
+          "extra": "Der Prüfer fragt dann: Haben Sie ein Auto?",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Ich heiße Pablo und komme aus Mexiko. Hier fahre ich meistens mit dem Bus oder mit dem Zug. Nein, ich habe kein Auto, das ist zu teuer."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Stadt und Verkehr",
+          "word": "Bus",
+          "question": "Fährst du oft mit dem Bus?",
+          "answer": "Ja, jeden Tag."
+        },
+        {
+          "theme": "Stadt und Verkehr",
+          "word": "Arbeit",
+          "question": "Wie kommst du zur Arbeit?",
+          "answer": "Ich fahre mit dem Fahrrad."
+        },
+        {
+          "theme": "Stadt und Verkehr",
+          "word": "Bahnhof",
+          "question": "Ist der Bahnhof weit?",
+          "answer": "Nein, nur fünf Minuten zu Fuß."
+        },
+        {
+          "theme": "Stadt und Verkehr",
+          "word": "Wohnort",
+          "question": "Seit wann wohnst du hier?",
+          "answer": "Ich wohne seit zwei Jahren hier."
+        },
+        {
+          "theme": "Stadt und Verkehr",
+          "word": "Wochenende",
+          "question": "Wohin fährst du am Wochenende?",
+          "answer": "Ich fahre nach Luzern."
+        },
+        {
+          "theme": "Stadt und Verkehr",
+          "word": "Supermarkt",
+          "question": "Wo ist hier ein Supermarkt?",
+          "answer": "Geh geradeaus, dann rechts."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "id": "a1-t12",
+  "level": "a1",
+  "topic": "t12",
+  "title": "Viajes, tiempo y fiestas",
+  "title_de": "Reisen, Wetter und Feste",
+  "goals": [
+    "Describir el tiempo que hace",
+    "Hablar de viajes y vacaciones y reservar una habitación",
+    "Contar el pasado con el Perfekt con sein (bin gefahren, bin geflogen…)",
+    "Usar war y hatte (Präteritum de sein y haben)",
+    "Felicitar en cumpleaños, Navidad, Año Nuevo y bodas",
+    "Invitar, aceptar y rechazar una invitación por escrito"
+  ],
+  "vocab": [
+    { "de": "das Wetter", "es": "el tiempo (meteorológico)", "cat": "Tiempo", "ex": "Wie ist das Wetter heute?", "ex_es": "¿Qué tiempo hace hoy?" },
+    { "de": "die Sonne", "es": "el sol", "cat": "Tiempo", "ex": "Die Sonne scheint.", "ex_es": "Hace sol." },
+    { "de": "der Regen", "es": "la lluvia", "cat": "Tiempo", "ex": "Morgen kommt Regen.", "ex_es": "Mañana llega la lluvia." },
+    { "de": "regnen", "es": "llover", "cat": "Tiempo", "forms": "es regnet, hat geregnet", "ex": "Es regnet schon den ganzen Tag.", "ex_es": "Lleva todo el día lloviendo." },
+    { "de": "der Schnee", "es": "la nieve", "cat": "Tiempo", "ex": "In den Bergen liegt Schnee.", "ex_es": "En la montaña hay nieve." },
+    { "de": "schneien", "es": "nevar", "cat": "Tiempo", "forms": "es schneit, hat geschneit", "ex": "Im Winter schneit es oft.", "ex_es": "En invierno nieva a menudo." },
+    { "de": "der Wind", "es": "el viento", "cat": "Tiempo", "ex": "Heute ist viel Wind.", "ex_es": "Hoy hace mucho viento." },
+    { "de": "die Wolke", "pl": "die Wolken", "es": "la nube", "cat": "Tiempo", "ex": "Es gibt viele Wolken.", "ex_es": "Hay muchas nubes." },
+    { "de": "das Gewitter", "pl": "die Gewitter", "es": "la tormenta", "cat": "Tiempo", "ex": "Am Abend gibt es ein Gewitter.", "ex_es": "Por la tarde habrá tormenta." },
+    { "de": "sonnig / bewölkt / windig", "es": "soleado / nublado / ventoso", "cat": "Tiempo", "ex": "Morgen ist es sonnig.", "ex_es": "Mañana estará soleado." },
+    { "de": "das Grad", "es": "el grado", "cat": "Tiempo", "ex": "Es sind 30 Grad!", "ex_es": "¡Hace 30 grados!" },
+    { "de": "die Reise", "pl": "die Reisen", "es": "el viaje", "cat": "Viajes", "ex": "Die Reise war lang.", "ex_es": "El viaje fue largo." },
+    { "de": "das Flugzeug", "pl": "die Flugzeuge", "es": "el avión", "cat": "Viajes", "ex": "Wir fliegen mit dem Flugzeug.", "ex_es": "Vamos en avión." },
+    { "de": "fliegen", "es": "volar, ir en avión", "cat": "Viajes", "forms": "er fliegt, ist geflogen", "ex": "Ich bin nach Madrid geflogen.", "ex_es": "Volé a Madrid." },
+    { "de": "der Koffer", "pl": "die Koffer", "es": "la maleta", "cat": "Viajes", "ex": "Mein Koffer ist sehr schwer.", "ex_es": "Mi maleta pesa mucho." },
+    { "de": "der Pass", "pl": "die Pässe", "es": "el pasaporte", "cat": "Viajes", "ex": "Hast du deinen Pass?", "ex_es": "¿Tienes el pasaporte?" },
+    { "de": "das Doppelzimmer / Einzelzimmer", "pl": "die Doppelzimmer / Einzelzimmer", "es": "la habitación doble / individual", "cat": "Viajes", "ex": "Ich möchte ein Einzelzimmer, bitte.", "ex_es": "Quiero una habitación individual, por favor." },
+    { "de": "die Nacht", "pl": "die Nächte", "es": "la noche", "cat": "Viajes", "ex": "Das Zimmer kostet 90 Euro pro Nacht.", "ex_es": "La habitación cuesta 90 euros por noche." },
+    { "de": "das Meer", "pl": "die Meere", "es": "el mar", "cat": "Viajes", "ex": "Wir machen Urlaub am Meer.", "ex_es": "Pasamos las vacaciones en el mar." },
+    { "de": "der Strand", "pl": "die Strände", "es": "la playa", "cat": "Viajes", "ex": "Der Strand ist sehr schön.", "ex_es": "La playa es muy bonita." },
+    { "de": "der See", "pl": "die Seen", "es": "el lago", "cat": "Viajes", "ex": "Wir sind im See geschwommen.", "ex_es": "Nadamos en el lago." },
+    { "de": "die Berge", "es": "la montaña", "cat": "Viajes", "ex": "Im Winter fahren wir in die Berge.", "ex_es": "En invierno vamos a la montaña." },
+    { "de": "der Ausflug", "pl": "die Ausflüge", "es": "la excursión", "cat": "Viajes", "ex": "Am Sonntag machen wir einen Ausflug.", "ex_es": "El domingo hacemos una excursión." },
+    { "de": "besichtigen", "es": "visitar (monumentos)", "cat": "Viajes", "forms": "er besichtigt, hat besichtigt", "ex": "Wir haben die Altstadt besichtigt.", "ex_es": "Visitamos el casco antiguo." },
+    { "de": "gehen – gegangen", "es": "ir – ido", "cat": "Perfekt con sein", "forms": "ist gegangen", "ex": "Ich bin ins Kino gegangen.", "ex_es": "Fui al cine." },
+    { "de": "fahren – gefahren", "es": "ir (en vehículo) – ido", "cat": "Perfekt con sein", "forms": "ist gefahren", "ex": "Wir sind nach Wien gefahren.", "ex_es": "Fuimos a Viena." },
+    { "de": "kommen – gekommen", "es": "venir – venido", "cat": "Perfekt con sein", "forms": "ist gekommen", "ex": "Er ist spät nach Hause gekommen.", "ex_es": "Llegó tarde a casa." },
+    { "de": "ankommen – angekommen", "es": "llegar – llegado", "cat": "Perfekt con sein", "forms": "ist angekommen", "ex": "Wann bist du angekommen?", "ex_es": "¿Cuándo llegaste?" },
+    { "de": "aufstehen – aufgestanden", "es": "levantarse – levantado", "cat": "Perfekt con sein", "forms": "ist aufgestanden", "ex": "Ich bin um sechs aufgestanden.", "ex_es": "Me levanté a las seis." },
+    { "de": "bleiben – geblieben", "es": "quedarse – quedado", "cat": "Perfekt con sein", "forms": "ist geblieben", "ex": "Wir sind zu Hause geblieben.", "ex_es": "Nos quedamos en casa." },
+    { "de": "schwimmen – geschwommen", "es": "nadar – nadado", "cat": "Perfekt con sein", "forms": "ist geschwommen", "ex": "Ich bin im Meer geschwommen.", "ex_es": "Nadé en el mar." },
+    { "de": "passieren – passiert", "es": "pasar, ocurrir", "cat": "Perfekt con sein", "forms": "ist passiert", "ex": "Was ist passiert?", "ex_es": "¿Qué ha pasado?" },
+    { "de": "war / hatte", "es": "estaba, era, fue / tenía, tuvo", "cat": "Präteritum", "forms": "ich war, du warst; ich hatte, du hattest", "ex": "Ich war krank und hatte Fieber.", "ex_es": "Estaba enfermo y tenía fiebre." },
+    { "de": "das Fest", "pl": "die Feste", "es": "la fiesta, la celebración", "cat": "Fiestas", "ex": "Das Fest beginnt um sieben.", "ex_es": "La fiesta empieza a las siete." },
+    { "de": "die Party", "pl": "die Partys", "es": "la fiesta", "cat": "Fiestas", "ex": "Kommst du zu meiner Party?", "ex_es": "¿Vienes a mi fiesta?" },
+    { "de": "feiern", "es": "celebrar", "cat": "Fiestas", "forms": "er feiert, hat gefeiert", "ex": "Wir feiern am Samstag.", "ex_es": "Lo celebramos el sábado." },
+    { "de": "die Einladung", "pl": "die Einladungen", "es": "la invitación", "cat": "Fiestas", "ex": "Danke für die Einladung!", "ex_es": "¡Gracias por la invitación!" },
+    { "de": "einladen", "es": "invitar", "cat": "Fiestas", "forms": "er lädt ein, hat eingeladen", "ex": "Ich lade dich zum Essen ein.", "ex_es": "Te invito a comer." },
+    { "de": "das Geschenk", "pl": "die Geschenke", "es": "el regalo", "cat": "Fiestas", "ex": "Das Geschenk ist für dich.", "ex_es": "El regalo es para ti." },
+    { "de": "schenken", "es": "regalar", "cat": "Fiestas", "forms": "er schenkt, hat geschenkt", "ex": "Was schenkst du deiner Mutter?", "ex_es": "¿Qué le regalas a tu madre?" },
+    { "de": "Weihnachten", "es": "Navidad", "cat": "Fiestas", "ex": "Frohe Weihnachten!", "ex_es": "¡Feliz Navidad!" },
+    { "de": "Silvester / Neujahr", "es": "Nochevieja / Año Nuevo", "cat": "Fiestas", "ex": "Frohes neues Jahr!", "ex_es": "¡Feliz Año Nuevo!" },
+    { "de": "Ostern", "es": "Pascua", "cat": "Fiestas", "ex": "Frohe Ostern!", "ex_es": "¡Felices Pascuas!" },
+    { "de": "die Hochzeit", "pl": "die Hochzeiten", "es": "la boda", "cat": "Fiestas", "ex": "Die Hochzeit ist im Juni.", "ex_es": "La boda es en junio." },
+    { "de": "Herzlichen Glückwunsch!", "es": "¡Enhorabuena! / ¡Felicidades!", "cat": "Fiestas", "ex": "Herzlichen Glückwunsch zum Geburtstag!", "ex_es": "¡Feliz cumpleaños!" },
+    { "de": "Alles Gute!", "es": "¡Que te vaya todo bien! / ¡Felicidades!", "cat": "Fiestas", "ex": "Alles Gute zum Geburtstag!", "ex_es": "¡Feliz cumpleaños!" },
+    { "de": "Gute Reise! / Viel Spaß!", "es": "¡Buen viaje! / ¡Que te diviertas!", "cat": "Fiestas", "ex": "Gute Reise und viel Spaß!", "ex_es": "¡Buen viaje y que te diviertas!" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Tiempo y viajes",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["Es regnet.", "Llueve."],
+        ["Es schneit.", "Nieva."],
+        ["bewölkt", "nublado"],
+        ["der Koffer", "la maleta"],
+        ["der See", "el lago"],
+        ["das Meer", "el mar"],
+        ["der Ausflug", "la excursión"],
+        ["das Geschenk", "el regalo"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿haben o sein?",
+      "instructions": "Elige el auxiliar correcto para el Perfekt.",
+      "items": [
+        { "q": "Ich ___ nach Berlin gefahren.", "options": ["habe", "bin"], "answer": 1 },
+        { "q": "Wir ___ Pizza gegessen.", "options": ["haben", "sind"], "answer": 0 },
+        { "q": "Wann ___ du angekommen?", "options": ["hast", "bist"], "answer": 1 },
+        { "q": "Er ___ ein Buch gelesen.", "options": ["hat", "ist"], "answer": 0 },
+        { "q": "Am Sonntag ___ ich zu Hause geblieben.", "options": ["habe", "bin"], "answer": 1, "explain": "bleiben forma el Perfekt con sein." },
+        { "q": "Sie ___ um sechs aufgestanden.", "options": ["hat", "ist"], "answer": 1 },
+        { "q": "Wir ___ im See geschwommen.", "options": ["haben", "sind"], "answer": 1 },
+        { "q": "Ich ___ meine Oma besucht.", "options": ["habe", "bin"], "answer": 0, "explain": "besuchen no es movimiento de un lugar a otro: haben." }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Perfekt con sein",
+      "instructions": "Completa con la forma de sein y el participio del verbo entre paréntesis.",
+      "items": [
+        { "text": "Ich [[bin]] im Sommer nach Spanien [[geflogen]]. (fliegen)" },
+        { "text": "Wir [[sind]] mit dem Zug nach Wien [[gefahren]]. (fahren)" },
+        { "text": "Wann [[bist]] du [[angekommen]]? (ankommen)" },
+        { "text": "Anna [[ist]] ins Kino [[gegangen]]. (gehen)" },
+        { "text": "Was [[ist]] [[passiert]]? (passieren)" },
+        { "text": "Die Kinder [[sind]] zu Hause [[geblieben]]. (bleiben)" },
+        { "text": "[[Seid]] ihr früh [[aufgestanden]]? (aufstehen)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "war y hatte",
+      "instructions": "Completa con la forma correcta de war (sein) o hatte (haben).",
+      "items": [
+        { "text": "Gestern [[war]] ich krank. (sein)" },
+        { "text": "Wo [[warst]] du am Wochenende? (sein)" },
+        { "text": "Wir [[waren]] zwei Wochen in Italien. (sein)" },
+        { "text": "Ich [[hatte]] keine Zeit. (haben)" },
+        { "text": "[[Hattest]] du einen schönen Urlaub? (haben)" },
+        { "text": "Das Wetter [[war]] fantastisch! (sein)" },
+        { "text": "Die Kinder [[hatten]] Fieber. (haben)" },
+        { "text": "Wie [[war]] die Party? (sein)" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "Felicitaciones",
+      "instructions": "¿Qué dices en cada situación?",
+      "items": [
+        { "q": "Es el cumpleaños de tu amiga.", "options": ["Frohe Weihnachten!", "Herzlichen Glückwunsch zum Geburtstag!", "Gute Besserung!"], "answer": 1 },
+        { "q": "Tu compañero se va de vacaciones.", "options": ["Schönen Urlaub!", "Guten Appetit!", "Frohe Ostern!"], "answer": 0 },
+        { "q": "Es el 31 de diciembre por la mañana.", "options": ["Guten Rutsch!", "Frohe Ostern!", "Gute Nacht!"], "answer": 0 },
+        { "q": "Tu primo se casa.", "options": ["Herzlichen Glückwunsch zur Hochzeit!", "Viel Glück beim Examen!", "Gute Reise!"], "answer": 0 },
+        { "q": "Tu amigo coge un avión mañana.", "options": ["Gute Reise!", "Guten Appetit!", "Gute Besserung!"], "answer": 0 },
+        { "q": "Te invitan a una fiesta y aceptas.", "options": ["Leider kann ich nicht.", "Danke für die Einladung! Ich komme gern.", "Frohes neues Jahr!"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "Contar un viaje",
+      "instructions": "Ordena la frase.",
+      "items": [
+        { "words": ["Ich", "bin", "nach", "Rom", "geflogen", "."], "answers": ["Ich bin nach Rom geflogen."] },
+        { "words": ["Das", "Wetter", "war", "super", "."], "answers": ["Das Wetter war super."] },
+        { "words": ["Wir", "haben", "viele", "Museen", "besichtigt", "."], "answers": ["Wir haben viele Museen besichtigt."] },
+        { "words": ["Am", "Sonntag", "sind", "wir", "ans", "Meer", "gefahren", "."], "answers": ["Am Sonntag sind wir ans Meer gefahren.", "Wir sind am Sonntag ans Meer gefahren."] },
+        { "words": ["Leider", "hatte", "ich", "keine", "Zeit", "."], "answers": ["Leider hatte ich keine Zeit.", "Ich hatte leider keine Zeit."] },
+        { "words": ["Wann", "bist", "du", "angekommen", "?"], "answers": ["Wann bist du angekommen?"] }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "Vacaciones y tiempo",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Wie war dein Urlaub?" },
+            { "v": "m1", "t": "Super! Wir waren in Griechenland. Es war sehr heiß, fünfunddreißig Grad!" }
+          ],
+          "q": "¿Dónde estuvieron de vacaciones?", "options": ["En Italia", "En Grecia", "En España"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Wie ist das Wetter morgen?" },
+            { "v": "f2", "t": "Am Vormittag regnet es, aber am Nachmittag scheint die Sonne." }
+          ],
+          "q": "¿Qué tiempo hará por la tarde?", "options": ["Lluvia", "Sol", "Nieve"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Bist du mit dem Auto gefahren?" },
+            { "v": "m1", "t": "Nein, ich bin geflogen. Mit dem Auto sind es zwölf Stunden." }
+          ],
+          "q": "¿Cómo viajó el hombre?", "options": ["En coche", "En avión", "En tren"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Warum warst du nicht auf der Party?" },
+            { "v": "f2", "t": "Ich hatte Fieber. Ich bin zu Hause geblieben." }
+          ],
+          "q": "¿Por qué no fue a la fiesta?", "options": ["Tenía que trabajar", "Estaba enferma", "Estaba de viaje"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Ich möchte ein Doppelzimmer für drei Nächte." },
+            { "v": "m1", "t": "Gern. Das kostet hundertzwanzig Euro pro Nacht, mit Frühstück." }
+          ],
+          "q": "¿Cuánto cuesta la habitación por noche?", "options": ["100 €", "120 €", "360 €"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Es regnet." }], "answers": ["Es regnet."] },
+        { "audio": [{ "v": "m1", "t": "Ich war in Berlin." }], "answers": ["Ich war in Berlin."] },
+        { "audio": [{ "v": "f2", "t": "Wir sind nach Wien gefahren." }], "answers": ["Wir sind nach Wien gefahren."] },
+        { "audio": [{ "v": "m2", "t": "Danke für die Einladung!" }], "answers": ["Danke für die Einladung!"] },
+        { "audio": [{ "v": "f1", "t": "Alles Gute zum Geburtstag!" }], "answers": ["Alles Gute zum Geburtstag!"] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "gap",
+      "title": "Una respuesta a una invitación",
+      "instructions": "Completa el mensaje con: Einladung, leider, kann, wünsche, war.",
+      "items": [
+        { "text": "Liebe Anna, vielen Dank für die [[Einladung]]!" },
+        { "text": "Aber [[leider]] habe ich am Samstag keine Zeit." },
+        { "text": "Ich [[kann]] nicht kommen, ich fahre nach Bern." },
+        { "text": "Ich [[wünsche]] dir eine schöne Party!" },
+        { "text": "PS: Wie [[war]] dein Urlaub?" }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Hoy hace sol y 25 grados.", "answers": ["Heute scheint die Sonne und es sind 25 Grad.", "Heute ist es sonnig und es sind 25 Grad.", "Heute scheint die Sonne und es ist 25 Grad."] },
+        { "prompt": "Fuimos a Viena en tren.", "answers": ["Wir sind mit dem Zug nach Wien gefahren."] },
+        { "prompt": "Ayer estuve enfermo.", "answers": ["Gestern war ich krank.", "Ich war gestern krank."] },
+        { "prompt": "No tenía tiempo.", "answers": ["Ich hatte keine Zeit."] },
+        { "prompt": "¡Feliz cumpleaños!", "answers": ["Herzlichen Glückwunsch zum Geburtstag!", "Alles Gute zum Geburtstag!"] },
+        { "prompt": "¿Cuándo llegaste?", "answers": ["Wann bist du angekommen?"] },
+        { "prompt": "Gracias por la invitación. Voy con gusto.", "answers": ["Danke für die Einladung. Ich komme gern.", "Vielen Dank für die Einladung. Ich komme gern.", "Danke für die Einladung! Ich komme gern."] }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wie war das Wetter im Urlaub?", "options": ["sonnig", "regnerisch", "kalt"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Und, wie war euer Urlaub in Schottland?" },
+            { "v": "f1", "t": "Schön, aber es hat fast jeden Tag geregnet." }
+          ]
+        },
+        {
+          "q": "Wohin ist Paul gefahren?", "options": ["nach Berlin", "nach Hamburg", "nach München"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Paul, warst du am Wochenende in Berlin?" },
+            { "v": "m2", "t": "Nein, ich bin nach Hamburg gefahren. Meine Schwester wohnt dort." }
+          ]
+        },
+        {
+          "q": "Was schenkt Maria ihrem Vater?", "options": ["ein Buch", "einen Pullover", "Wein"], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Was schenkst du deinem Vater zum Geburtstag? Wieder Wein?" },
+            { "v": "f1", "t": "Nein, dieses Jahr ein Buch. Er liest sehr gern." }
+          ]
+        },
+        {
+          "q": "Wann ist die Hochzeit?", "options": ["im Mai", "im Juni", "im Juli"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Wann heiraten Anna und Tom? Im Mai?" },
+            { "v": "m2", "t": "Nein, im Juni. Am zwanzigsten Juni." }
+          ]
+        },
+        {
+          "q": "Wie viele Nächte bleibt der Gast?", "options": ["zwei", "drei", "vier"], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Hotel Alpenblick, guten Tag." },
+            { "v": "m1", "t": "Guten Tag, ich möchte ein Einzelzimmer vom fünften bis zum achten Mai." },
+            { "v": "f1", "t": "Drei Nächte, gern." }
+          ]
+        },
+        {
+          "q": "Warum war Lisa nicht im Kurs?", "options": ["Sie war krank.", "Sie hatte Besuch.", "Sie war im Urlaub."], "answer": 1,
+          "audio": [
+            { "v": "m2", "t": "Lisa, warum warst du gestern nicht im Kurs?" },
+            { "v": "f2", "t": "Meine Eltern waren zu Besuch. Sie sind aus Spanien gekommen." }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Morgen scheint im ganzen Land die Sonne.", "answer": false,
+          "audio": [{ "v": "m1", "t": "Das Wetter für morgen: Im Norden regnet es, im Süden scheint die Sonne. Die Temperaturen: zwischen fünfzehn und zweiundzwanzig Grad." }]
+        },
+        {
+          "statement": "Der Flug nach Palma ist pünktlich.", "answer": false,
+          "audio": [{ "v": "f1", "t": "Information für die Passagiere nach Palma de Mallorca: Ihr Flug hat eine Stunde Verspätung. Neue Abflugzeit: vierzehn Uhr dreißig." }]
+        },
+        {
+          "statement": "In den Bergen schneit es heute.", "answer": true,
+          "audio": [{ "v": "m2", "t": "Achtung, Autofahrer: In den Bergen schneit es heute stark. Bitte fahren Sie langsam." }]
+        },
+        {
+          "statement": "Der Ausflug beginnt um 9 Uhr am Hotel.", "answer": true,
+          "audio": [{ "v": "f2", "t": "Liebe Gäste, unser Ausflug zum See beginnt morgen um neun Uhr vor dem Hotel. Bitte seien Sie pünktlich." }]
+        },
+        {
+          "statement": "Das Weihnachtsessen ist am 23. Dezember.", "answer": false,
+          "audio": [{ "v": "m1", "t": "Liebe Kolleginnen und Kollegen, unser Weihnachtsessen ist am zwanzigsten Dezember um neunzehn Uhr im Restaurant Adler." }]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wann kommt Oma an?", "options": ["um 14:15", "um 15:40", "um 16:40"], "answer": 2,
+          "audio": [{ "v": "f1", "t": "Hallo Jonas, hier ist Mama. Oma kommt heute mit dem Zug. Er kommt um sechzehn Uhr vierzig an, Gleis drei. Holst du sie bitte ab? Danke!" }]
+        },
+        {
+          "q": "Was soll Tom zur Party mitbringen?", "options": ["einen Kuchen", "Musik", "Getränke"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Hi Tom, hier ist Sara. Danke, du kommst am Samstag zu meiner Party! Kannst du deine Musikanlage mitbringen? Essen und Getränke habe ich schon. Tschüss!" }]
+        },
+        {
+          "q": "Wo ist Herr Keller jetzt?", "options": ["in Italien", "im Büro", "zu Hause"], "answer": 0,
+          "audio": [{ "v": "m1", "t": "Guten Tag, Frau Graf, hier ist Peter Keller. Ich bin jetzt in Rom, der Flug war gut. Ich bin am Montag wieder im Büro. Auf Wiederhören!" }]
+        },
+        {
+          "q": "Warum ruft Laura an?", "options": ["Sie hat Geburtstag.", "Sie hat ein Baby bekommen.", "Sie hat die Prüfung bestanden."], "answer": 2,
+          "audio": [{ "v": "f1", "t": "Hallo Mama, hier ist Laura! Ich habe die Deutschprüfung bestanden! Achtzig Punkte! Heute Abend feiern wir. Ich rufe morgen wieder an!" }]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Liebe Clara,\n\nherzliche Grüße aus Kroatien! Wir sind am Samstag mit dem Auto gekommen. Die Fahrt war lang, zwölf Stunden! Unser Hotel ist direkt am Meer. Das Wetter ist fantastisch, jeden Tag Sonne und 30 Grad. Gestern haben wir einen Ausflug mit dem Schiff gemacht. Am Freitag fahren wir wieder nach Hause.\n\nLiebe Grüße\nEva und Paul",
+          "statements": [
+            { "s": "Eva und Paul sind mit dem Flugzeug gekommen.", "answer": false },
+            { "s": "Die Reise hat zwölf Stunden gedauert.", "answer": true },
+            { "s": "Das Hotel ist in den Bergen.", "answer": false },
+            { "s": "Das Wetter ist sehr gut.", "answer": true },
+            { "s": "Eva und Paul fahren am Freitag nach Hause.", "answer": true }
+          ]
+        },
+        {
+          "text": "Liebe Nachbarn,\n\nam Samstag, 15. Juni, feiere ich meinen 40. Geburtstag im Garten. Die Party beginnt um 18 Uhr. Es gibt Essen und Getränke, und am Abend gibt es Musik. Es kann also ein bisschen laut werden – bitte entschuldigen Sie! Sie sind natürlich auch herzlich eingeladen!\n\nViele Grüße\nMarkus Weber (2. Stock)",
+          "statements": [
+            { "s": "Markus hat seinen 40. Geburtstag.", "answer": true },
+            { "s": "Die Party ist in der Wohnung.", "answer": false },
+            { "s": "Die Party beginnt am Abend.", "answer": true },
+            { "s": "Die Nachbarn müssen Essen mitbringen.", "answer": false },
+            { "s": "Markus lädt die Nachbarn ein.", "answer": true }
+          ]
+        },
+        {
+          "text": "Hallo Tim,\n\nwie war dein Wochenende? Ich war in Luzern! Ich bin am Samstag mit dem Zug gefahren und habe eine Freundin besucht. Wir sind auf den Berg Pilatus gefahren, aber leider hatten wir kein Glück mit dem Wetter: Es hat geregnet und wir haben nichts gesehen. Am Sonntag war es dann sonnig.\n\nBis Montag!\nJulia",
+          "statements": [
+            { "s": "Julia war am Wochenende in Luzern.", "answer": true },
+            { "s": "Julia ist mit dem Auto gefahren.", "answer": false },
+            { "s": "Auf dem Berg war das Wetter schlecht.", "answer": true },
+            { "s": "Julia hat vom Berg viel gesehen.", "answer": false },
+            { "s": "Am Sonntag hat die Sonne geschienen.", "answer": true }
+          ]
+        }
+      ],
+      "t2": [
+        { "situation": "Sie möchten im Urlaub am Meer liegen und schwimmen.", "a": "Hotel Bergblick: Wandern und Ski fahren in den Alpen", "b": "Hotel Mare: direkt am Strand, mit Pool", "answer": "b" },
+        { "situation": "Sie möchten Silvester in einer großen Stadt feiern.", "a": "Silvester in Berlin: Party am Brandenburger Tor", "b": "Silvester auf dem Bauernhof: ruhig und romantisch", "answer": "a" },
+        { "situation": "Sie brauchen ein Geschenk für ein Kind (6 Jahre).", "a": "Spielwaren Müller: Spiele und Bücher für Kinder", "b": "Weinhandlung Rot: Weine aus aller Welt", "answer": "a" },
+        { "situation": "Sie möchten am Wochenende einen Tagesausflug machen.", "a": "Busreise: 14 Tage Italien", "b": "Schiffsfahrt auf dem Vierwaldstättersee: Sonntag 10–17 Uhr", "answer": "b" },
+        { "situation": "Sie möchten wissen: Wie ist das Wetter morgen?", "a": "Wetter-Hotline: Tel. 0900 55 66 77", "b": "Hotel-Hotline: Zimmer buchen Tel. 0800 11 22 33", "answer": "a" },
+        { "situation": "Sie möchten eine günstige Unterkunft für eine Nacht.", "a": "Luxushotel Palace: ab 450 € pro Nacht", "b": "Jugendherberge: Bett ab 35 € pro Nacht", "answer": "b" }
+      ],
+      "t3": [
+        { "text": "24.12. und 25.12. geschlossen – Frohe Weihnachten!", "sign": true, "statements": [{ "s": "Am 25. Dezember ist das Geschäft offen.", "answer": false }] },
+        { "text": "Check-out bis 11 Uhr", "sign": true, "statements": [{ "s": "Man muss das Zimmer bis 11 Uhr verlassen.", "answer": true }] },
+        { "text": "Bei Gewitter: Seilbahn geschlossen", "sign": true, "statements": [{ "s": "Bei Gewitter fährt die Seilbahn nicht.", "answer": true }] },
+        { "text": "Frühstück: 7–10 Uhr im Restaurant (Erdgeschoss)", "sign": true, "statements": [{ "s": "Das Frühstück ist im ersten Stock.", "answer": false }] },
+        { "text": "Strand: Schwimmen nur von 9 bis 18 Uhr erlaubt", "sign": true, "statements": [{ "s": "Man darf um 20 Uhr schwimmen.", "answer": false }] },
+        { "text": "Silvesterparty – Eintritt 20 € (inkl. ein Glas Sekt)", "sign": true, "statements": [{ "s": "Im Eintritt ist ein Getränk dabei.", "answer": true }] }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Familie Santos (2 Erwachsene, 1 Kind) möchte vom 10. bis 17. August ein Zimmer im Hotel Mare. Sie möchten ein Zimmer mit Meerblick und Frühstück. Sie kommen mit dem Flugzeug.",
+          "title": "Zimmerreservierung – Hotel Mare",
+          "fields": [
+            { "label": "Name", "given": "Santos" },
+            { "label": "Anreise", "answers": ["10. August", "10.8.", "10.08."] },
+            { "label": "Abreise", "answers": ["17. August", "17.8.", "17.08."] },
+            { "label": "Personen", "answers": ["3", "drei"] },
+            { "label": "Frühstück (ja / nein)", "answers": ["ja"] },
+            { "label": "Anreise mit", "answers": ["Flugzeug", "dem Flugzeug", "mit dem Flugzeug"] }
+          ]
+        },
+        {
+          "context": "Sie melden sich für die Weihnachtsfeier Ihrer Firma an. Sie kommen mit Ihrer Partnerin. Sie essen kein Fleisch. Ihr Name ist José López, Abteilung Forschung.",
+          "title": "Anmeldung Weihnachtsfeier",
+          "fields": [
+            { "label": "Name", "given": "José López" },
+            { "label": "Abteilung", "answers": ["Forschung"] },
+            { "label": "Personen", "answers": ["2", "zwei"] },
+            { "label": "Essen (mit Fleisch / vegetarisch)", "answers": ["vegetarisch"] }
+          ]
+        },
+        {
+          "context": "Frau Berger hat im Zug nach Salzburg ihren Koffer vergessen. Der Koffer ist rot und groß. Sie wohnt im Hotel Mozart in Salzburg, Zimmer 214.",
+          "title": "Fundbüro – Verlustmeldung",
+          "fields": [
+            { "label": "Name", "given": "Berger" },
+            { "label": "Was?", "answers": ["Koffer", "ein Koffer", "ihren Koffer"] },
+            { "label": "Farbe", "answers": ["rot"] },
+            { "label": "Wo verloren?", "answers": ["im Zug", "Zug", "im Zug nach Salzburg"] },
+            { "label": "Adresse jetzt", "answers": ["Hotel Mozart", "Hotel Mozart, Zimmer 214", "Hotel Mozart Salzburg"] }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Ihr Freund Daniel hat Sie zu seiner Geburtstagsparty am Samstag eingeladen. Sie können nicht kommen. Schreiben Sie ihm.",
+          "points": ["Danken Sie für die Einladung.", "Sagen Sie, warum Sie nicht kommen können.", "Machen Sie einen Vorschlag für ein Treffen."],
+          "register": "informal (du)",
+          "model": "Lieber Daniel,\n\nvielen Dank für die Einladung! Leider kann ich am Samstag nicht kommen. Meine Eltern besuchen mich. Wollen wir am Sonntag zusammen essen gehen? Alles Gute zum Geburtstag!\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Sie sind im Urlaub. Schreiben Sie Ihrer Kollegin Anna eine Postkarte.",
+          "points": ["Wo sind Sie?", "Wie ist das Wetter?", "Was haben Sie schon gemacht?"],
+          "register": "informal (du)",
+          "model": "Liebe Anna,\n\nviele Grüße aus Italien! Ich bin in Rom. Das Wetter ist super, jeden Tag Sonne. Ich habe schon viele Museen besichtigt und jeden Tag Pizza gegessen. Am Freitag fliege ich zurück.\n\nBis bald!\nLaura"
+        },
+        {
+          "task": "Sie möchten im Hotel Alpenblick ein Zimmer reservieren. Schreiben Sie eine E-Mail.",
+          "points": ["Wann und wie viele Nächte?", "Einzelzimmer oder Doppelzimmer?", "Fragen Sie: Ist das Frühstück inklusive?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich möchte vom 12. bis 15. Februar ein Doppelzimmer reservieren, also drei Nächte. Ist das Frühstück inklusive?\n\nMit freundlichen Grüßen\nPablo Ruiz"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": ["Name?", "Alter?", "Land?", "Wohnort?", "Sprachen?", "Beruf?", "Hobby?"],
+          "extra": "Der Prüfer fragt dann: Wo waren Sie im letzten Urlaub?",
+          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig und komme aus Spanien. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und Deutsch. Ich bin Physiker. Meine Hobbys sind Wandern und Reisen. Im letzten Urlaub war ich in Portugal. Ich bin nach Lissabon geflogen." }]
+        },
+        {
+          "keywords": ["Name?", "Familie?", "Feste?"],
+          "extra": "Der Prüfer fragt dann: Wie feiern Sie Weihnachten?",
+          "model": [{ "v": "f1", "t": "Hallo, ich bin Laura. Ich bin verheiratet und habe zwei Kinder. Wir feiern gern, am liebsten Geburtstage. Weihnachten feiern wir in Spanien, bei meinen Eltern." }]
+        },
+        {
+          "keywords": ["Name?", "Land?", "Wetter?", "Lieblingsjahreszeit?"],
+          "extra": "Der Prüfer fragt dann: Wie ist das Wetter in Ihrem Land?",
+          "model": [{ "v": "m2", "t": "Guten Tag. Ich heiße Pablo und komme aus Mexiko. Hier in der Schweiz ist es im Winter sehr kalt. Meine Lieblingsjahreszeit ist der Sommer. In Mexiko ist es fast immer warm und sonnig." }]
+        }
+      ],
+      "t2": [
+        { "theme": "Reisen und Feste", "word": "Urlaub", "question": "Wo warst du im Urlaub?", "answer": "Ich war in Italien." },
+        { "theme": "Reisen und Feste", "word": "Wetter", "question": "Wie ist das Wetter heute?", "answer": "Es regnet und es ist kalt." },
+        { "theme": "Reisen und Feste", "word": "Geburtstag", "question": "Wie feierst du deinen Geburtstag?", "answer": "Ich mache eine Party mit Freunden." },
+        { "theme": "Reisen und Feste", "word": "Wochenende", "question": "Wohin bist du am Wochenende gefahren?", "answer": "Ich bin nach Bern gefahren." },
+        { "theme": "Reisen und Feste", "word": "Geschenk", "question": "Was schenkst du gern zum Geburtstag?", "answer": "Ich schenke oft Bücher." },
+        { "theme": "Reisen und Feste", "word": "Weihnachten", "question": "Wo feierst du Weihnachten?", "answer": "Bei meinen Eltern in Spanien." }
+      ]
+    }
+  }
+}
