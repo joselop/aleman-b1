@@ -1,0 +1,1619 @@
+{
+  "id": "a1-t06",
+  "level": "a1",
+  "topic": "t06",
+  "title": "La rutina y la hora",
+  "title_de": "Tagesablauf und Uhrzeit",
+  "goals": [
+    "Decir y entender la hora oficial e informal (¡sin confundir halb!)",
+    "Usar los días de la semana y las partes del día",
+    "Usar um, am, von … bis y ab con expresiones de tiempo",
+    "Conjugar y colocar los verbos separables (aufstehen, einkaufen…)",
+    "Contar tu rutina diaria con zuerst, dann, danach",
+    "Decir con qué frecuencia haces algo: immer, oft, manchmal, nie"
+  ],
+  "vocab": [
+    {
+      "de": "die Uhr",
+      "pl": "die Uhren",
+      "es": "el reloj; (con número) la hora",
+      "cat": "La hora",
+      "ex": "Es ist drei Uhr.",
+      "ex_es": "Son las tres."
+    },
+    {
+      "de": "die Uhrzeit",
+      "pl": "die Uhrzeiten",
+      "es": "la hora",
+      "cat": "La hora",
+      "ex": "Wie ist die Uhrzeit?",
+      "ex_es": "¿Qué hora es?"
+    },
+    {
+      "de": "Wie spät ist es?",
+      "es": "¿Qué hora es?",
+      "cat": "La hora",
+      "ex": "Entschuldigung, wie spät ist es?",
+      "ex_es": "Perdone, ¿qué hora es?"
+    },
+    {
+      "de": "halb",
+      "es": "media (hacia la hora siguiente)",
+      "cat": "La hora",
+      "ex": "Es ist halb acht.",
+      "ex_es": "Son las siete y media."
+    },
+    {
+      "de": "das Viertel",
+      "pl": "die Viertel",
+      "es": "el cuarto",
+      "cat": "La hora",
+      "ex": "Es ist Viertel nach zwei.",
+      "ex_es": "Son las dos y cuarto."
+    },
+    {
+      "de": "nach / vor",
+      "es": "y (pasadas) / menos",
+      "cat": "La hora",
+      "ex": "Es ist zehn vor neun.",
+      "ex_es": "Son las nueve menos diez."
+    },
+    {
+      "de": "die Minute",
+      "pl": "die Minuten",
+      "es": "el minuto",
+      "cat": "La hora",
+      "ex": "Der Bus kommt in fünf Minuten.",
+      "ex_es": "El autobús llega en cinco minutos."
+    },
+    {
+      "de": "die Stunde",
+      "pl": "die Stunden",
+      "es": "la hora (duración)",
+      "cat": "La hora",
+      "ex": "Ich arbeite acht Stunden.",
+      "ex_es": "Trabajo ocho horas."
+    },
+    {
+      "de": "der Tag",
+      "pl": "die Tage",
+      "es": "el día",
+      "cat": "Días",
+      "ex": "Jeden Tag stehe ich früh auf.",
+      "ex_es": "Todos los días me levanto temprano."
+    },
+    {
+      "de": "die Woche",
+      "pl": "die Wochen",
+      "es": "la semana",
+      "cat": "Días",
+      "ex": "Die Woche hat sieben Tage.",
+      "ex_es": "La semana tiene siete días."
+    },
+    {
+      "de": "der Montag",
+      "es": "el lunes",
+      "cat": "Días",
+      "ex": "Am Montag arbeite ich.",
+      "ex_es": "El lunes trabajo."
+    },
+    {
+      "de": "der Dienstag",
+      "es": "el martes",
+      "cat": "Días",
+      "ex": "Der Kurs ist am Dienstag.",
+      "ex_es": "El curso es el martes."
+    },
+    {
+      "de": "der Mittwoch",
+      "es": "el miércoles",
+      "cat": "Días",
+      "ex": "Mittwochs gehe ich schwimmen.",
+      "ex_es": "Los miércoles voy a nadar."
+    },
+    {
+      "de": "der Donnerstag",
+      "es": "el jueves",
+      "cat": "Días",
+      "ex": "Am Donnerstag habe ich Zeit.",
+      "ex_es": "El jueves tengo tiempo."
+    },
+    {
+      "de": "der Freitag",
+      "es": "el viernes",
+      "cat": "Días",
+      "ex": "Am Freitag gehen wir aus.",
+      "ex_es": "El viernes salimos."
+    },
+    {
+      "de": "der Samstag",
+      "es": "el sábado",
+      "cat": "Días",
+      "ex": "Am Samstag kaufe ich ein.",
+      "ex_es": "El sábado hago la compra."
+    },
+    {
+      "de": "der Sonntag",
+      "es": "el domingo",
+      "cat": "Días",
+      "ex": "Sonntags schlafe ich lange.",
+      "ex_es": "Los domingos duermo mucho."
+    },
+    {
+      "de": "das Wochenende",
+      "pl": "die Wochenenden",
+      "es": "el fin de semana",
+      "cat": "Días",
+      "ex": "Schönes Wochenende!",
+      "ex_es": "¡Buen fin de semana!"
+    },
+    {
+      "de": "der Morgen",
+      "es": "la mañana (temprano)",
+      "cat": "Partes del día",
+      "ex": "Am Morgen trinke ich Kaffee.",
+      "ex_es": "Por la mañana tomo café."
+    },
+    {
+      "de": "der Vormittag",
+      "es": "la mañana (hasta mediodía)",
+      "cat": "Partes del día",
+      "ex": "Am Vormittag bin ich im Büro.",
+      "ex_es": "Por la mañana estoy en la oficina."
+    },
+    {
+      "de": "der Mittag",
+      "es": "el mediodía",
+      "cat": "Partes del día",
+      "ex": "Am Mittag esse ich in der Kantine.",
+      "ex_es": "A mediodía como en el comedor."
+    },
+    {
+      "de": "der Nachmittag",
+      "es": "la tarde",
+      "cat": "Partes del día",
+      "ex": "Am Nachmittag habe ich frei.",
+      "ex_es": "Por la tarde tengo libre."
+    },
+    {
+      "de": "der Abend",
+      "es": "la tarde-noche",
+      "cat": "Partes del día",
+      "ex": "Am Abend sehe ich fern.",
+      "ex_es": "Por la noche veo la tele."
+    },
+    {
+      "de": "die Nacht",
+      "pl": "die Nächte",
+      "es": "la noche",
+      "cat": "Partes del día",
+      "ex": "In der Nacht schlafe ich.",
+      "ex_es": "Por la noche duermo."
+    },
+    {
+      "de": "aufstehen",
+      "es": "levantarse",
+      "cat": "Verbos separables",
+      "forms": "ich stehe auf, du stehst auf, er steht auf",
+      "ex": "Ich stehe um sieben Uhr auf.",
+      "ex_es": "Me levanto a las siete."
+    },
+    {
+      "de": "einkaufen",
+      "es": "hacer la compra",
+      "cat": "Verbos separables",
+      "forms": "ich kaufe ein, du kaufst ein, er kauft ein",
+      "ex": "Am Samstag kaufe ich ein.",
+      "ex_es": "El sábado hago la compra."
+    },
+    {
+      "de": "fernsehen",
+      "es": "ver la televisión",
+      "cat": "Verbos separables",
+      "forms": "ich sehe fern, du siehst fern, er sieht fern",
+      "ex": "Abends sehe ich fern.",
+      "ex_es": "Por las noches veo la tele."
+    },
+    {
+      "de": "anrufen",
+      "es": "llamar por teléfono",
+      "cat": "Verbos separables",
+      "forms": "ich rufe an, du rufst an, er ruft an",
+      "ex": "Ich rufe dich morgen an.",
+      "ex_es": "Te llamo mañana."
+    },
+    {
+      "de": "anfangen",
+      "es": "empezar",
+      "cat": "Verbos separables",
+      "forms": "ich fange an, du fängst an, er fängt an",
+      "ex": "Der Film fängt um acht an.",
+      "ex_es": "La película empieza a las ocho."
+    },
+    {
+      "de": "aufräumen",
+      "es": "ordenar, recoger",
+      "cat": "Verbos separables",
+      "forms": "ich räume auf, du räumst auf, er räumt auf",
+      "ex": "Am Sonntag räume ich auf.",
+      "ex_es": "El domingo ordeno."
+    },
+    {
+      "de": "mitkommen",
+      "es": "venir (con alguien)",
+      "cat": "Verbos separables",
+      "forms": "ich komme mit, du kommst mit, er kommt mit",
+      "ex": "Kommst du mit ins Kino?",
+      "ex_es": "¿Te vienes al cine?"
+    },
+    {
+      "de": "ausgehen",
+      "es": "salir (de noche)",
+      "cat": "Verbos separables",
+      "forms": "ich gehe aus, du gehst aus, er geht aus",
+      "ex": "Am Freitag gehen wir aus.",
+      "ex_es": "El viernes salimos."
+    },
+    {
+      "de": "beginnen",
+      "es": "empezar",
+      "cat": "Otros verbos",
+      "forms": "ich beginne, du beginnst, er beginnt",
+      "ex": "Der Kurs beginnt um neun.",
+      "ex_es": "El curso empieza a las nueve."
+    },
+    {
+      "de": "frühstücken",
+      "es": "desayunar",
+      "cat": "Otros verbos",
+      "forms": "ich frühstücke, du frühstückst, er frühstückt",
+      "ex": "Ich frühstücke um halb acht.",
+      "ex_es": "Desayuno a las siete y media."
+    },
+    {
+      "de": "duschen",
+      "es": "ducharse",
+      "cat": "Otros verbos",
+      "forms": "ich dusche, du duschst, er duscht",
+      "ex": "Morgens dusche ich.",
+      "ex_es": "Por las mañanas me ducho."
+    },
+    {
+      "de": "schlafen",
+      "es": "dormir",
+      "cat": "Otros verbos",
+      "forms": "ich schlafe, du schläfst, er schläft",
+      "ex": "Am Sonntag schlafe ich lange.",
+      "ex_es": "El domingo duermo hasta tarde."
+    },
+    {
+      "de": "gehen",
+      "es": "ir (a pie)",
+      "cat": "Otros verbos",
+      "forms": "ich gehe, du gehst, er geht",
+      "ex": "Um elf gehe ich ins Bett.",
+      "ex_es": "A las once me voy a la cama."
+    },
+    {
+      "de": "dauern",
+      "es": "durar",
+      "cat": "Otros verbos",
+      "forms": "es dauert",
+      "ex": "Der Kurs dauert zwei Stunden.",
+      "ex_es": "El curso dura dos horas."
+    },
+    {
+      "de": "wann?",
+      "es": "¿cuándo?",
+      "cat": "Palabras útiles",
+      "ex": "Wann stehst du auf?",
+      "ex_es": "¿Cuándo te levantas?"
+    },
+    {
+      "de": "Um wie viel Uhr?",
+      "es": "¿A qué hora?",
+      "cat": "Palabras útiles",
+      "ex": "Um wie viel Uhr beginnt der Film?",
+      "ex_es": "¿A qué hora empieza la película?"
+    },
+    {
+      "de": "früh / spät",
+      "es": "temprano / tarde",
+      "cat": "Palabras útiles",
+      "ex": "Ich stehe früh auf.",
+      "ex_es": "Me levanto temprano."
+    },
+    {
+      "de": "zuerst",
+      "es": "primero",
+      "cat": "Palabras útiles",
+      "ex": "Zuerst dusche ich.",
+      "ex_es": "Primero me ducho."
+    },
+    {
+      "de": "dann / danach",
+      "es": "luego / después",
+      "cat": "Palabras útiles",
+      "ex": "Dann frühstücke ich.",
+      "ex_es": "Luego desayuno."
+    },
+    {
+      "de": "immer",
+      "es": "siempre",
+      "cat": "Frecuencia",
+      "ex": "Ich stehe immer um sieben auf.",
+      "ex_es": "Siempre me levanto a las siete."
+    },
+    {
+      "de": "oft",
+      "es": "a menudo",
+      "cat": "Frecuencia",
+      "ex": "Ich sehe oft fern.",
+      "ex_es": "Veo la tele a menudo."
+    },
+    {
+      "de": "manchmal",
+      "es": "a veces",
+      "cat": "Frecuencia",
+      "ex": "Manchmal koche ich.",
+      "ex_es": "A veces cocino."
+    },
+    {
+      "de": "nie",
+      "es": "nunca",
+      "cat": "Frecuencia",
+      "ex": "Ich frühstücke nie.",
+      "ex_es": "Nunca desayuno."
+    },
+    {
+      "de": "die Zeit",
+      "es": "el tiempo (disponible)",
+      "cat": "Palabras útiles",
+      "ex": "Hast du am Freitag Zeit?",
+      "ex_es": "¿Tienes tiempo el viernes?"
+    },
+    {
+      "de": "der Termin",
+      "pl": "die Termine",
+      "es": "la cita (formal)",
+      "cat": "Palabras útiles",
+      "ex": "Ich habe um drei einen Termin.",
+      "ex_es": "A las tres tengo una cita."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "mc",
+      "title": "¿Qué hora es?",
+      "instructions": "Elige la hora que corresponde.",
+      "items": [
+        {
+          "q": "halb acht",
+          "options": [
+            "8:30",
+            "7:30",
+            "8:00"
+          ],
+          "answer": 1,
+          "explain": "halb acht = media hora hacia las ocho = 7:30."
+        },
+        {
+          "q": "Viertel nach drei",
+          "options": [
+            "3:15",
+            "2:45",
+            "3:45"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Viertel vor zwölf",
+          "options": [
+            "12:15",
+            "11:45",
+            "12:45"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "zehn nach sechs",
+          "options": [
+            "6:10",
+            "5:50",
+            "6:50"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "fünf vor halb zehn",
+          "options": [
+            "10:25",
+            "9:25",
+            "9:35"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "achtzehn Uhr zwanzig",
+          "options": [
+            "8:20",
+            "18:20",
+            "20:18"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "halb eins",
+          "options": [
+            "12:30",
+            "1:30",
+            "0:30 / 12:30"
+          ],
+          "answer": 2,
+          "explain": "halb eins = 12:30 (o 0:30 de la noche)."
+        }
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "dictation",
+      "title": "Escucha la hora",
+      "instructions": "Escucha y escribe la hora en cifras (formato 7:30). Si es informal, usa de 1 a 12.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Es ist halb neun."
+            }
+          ],
+          "answers": [
+            "8:30",
+            "08:30",
+            "20:30"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Es ist Viertel vor sieben."
+            }
+          ],
+          "answers": [
+            "6:45",
+            "06:45",
+            "18:45"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Der Zug kommt um vierzehn Uhr zehn."
+            }
+          ],
+          "answers": [
+            "14:10"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Es ist zwanzig nach vier."
+            }
+          ],
+          "answers": [
+            "4:20",
+            "04:20",
+            "16:20"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wir treffen uns um halb drei."
+            }
+          ],
+          "answers": [
+            "2:30",
+            "02:30",
+            "14:30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "match",
+      "title": "Días y partes del día",
+      "instructions": "Relaciona.",
+      "pairs": [
+        [
+          "Mittwoch",
+          "miércoles"
+        ],
+        [
+          "Donnerstag",
+          "jueves"
+        ],
+        [
+          "Samstag",
+          "sábado"
+        ],
+        [
+          "der Nachmittag",
+          "la tarde"
+        ],
+        [
+          "abends",
+          "por las noches"
+        ],
+        [
+          "das Wochenende",
+          "el fin de semana"
+        ],
+        [
+          "manchmal",
+          "a veces"
+        ]
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "um, am, von … bis",
+      "instructions": "Completa con um, am, von, bis o in der.",
+      "items": [
+        {
+          "text": "Der Kurs beginnt [[um]] neun Uhr."
+        },
+        {
+          "text": "[[Am]] Montag habe ich keine Zeit."
+        },
+        {
+          "text": "Ich arbeite [[von]] acht [[bis]] fünf."
+        },
+        {
+          "text": "[[Am]] Abend sehe ich fern."
+        },
+        {
+          "text": "[[In der]] Nacht schlafe ich."
+        },
+        {
+          "text": "Wir treffen uns [[am]] Wochenende."
+        },
+        {
+          "text": "Das Café öffnet [[um]] halb sieben."
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Verbos separables",
+      "instructions": "Completa: el verbo en posición 2 y el prefijo al final.",
+      "items": [
+        {
+          "text": "Ich [[stehe]] um sechs Uhr [[auf]]. (aufstehen)"
+        },
+        {
+          "text": "Am Samstag [[kaufen]] wir [[ein]]. (einkaufen)"
+        },
+        {
+          "text": "Abends [[sieht]] er [[fern]]. (fernsehen)"
+        },
+        {
+          "text": "Der Film [[fängt]] um acht Uhr [[an]]. (anfangen)"
+        },
+        {
+          "text": "[[Rufst]] du mich morgen [[an]]? (anrufen)"
+        },
+        {
+          "text": "[[Kommst]] du ins Kino [[mit]]? (mitkommen)"
+        },
+        {
+          "text": "Am Sonntag [[räume]] ich die Wohnung [[auf]]. (aufräumen)"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "La pinza (Satzklammer)",
+      "instructions": "Ordena la frase.",
+      "items": [
+        {
+          "words": [
+            "Ich",
+            "stehe",
+            "um",
+            "sieben",
+            "Uhr",
+            "auf",
+            "."
+          ],
+          "answers": [
+            "Ich stehe um sieben Uhr auf.",
+            "Um sieben Uhr stehe ich auf."
+          ]
+        },
+        {
+          "words": [
+            "Wann",
+            "stehst",
+            "du",
+            "auf",
+            "?"
+          ],
+          "answers": [
+            "Wann stehst du auf?"
+          ]
+        },
+        {
+          "words": [
+            "Am",
+            "Samstag",
+            "kaufe",
+            "ich",
+            "ein",
+            "."
+          ],
+          "answers": [
+            "Am Samstag kaufe ich ein.",
+            "Ich kaufe am Samstag ein."
+          ]
+        },
+        {
+          "words": [
+            "Dann",
+            "sehe",
+            "ich",
+            "fern",
+            "."
+          ],
+          "answers": [
+            "Dann sehe ich fern."
+          ]
+        },
+        {
+          "words": [
+            "Der",
+            "Kurs",
+            "fängt",
+            "um",
+            "neun",
+            "an",
+            "."
+          ],
+          "answers": [
+            "Der Kurs fängt um neun an.",
+            "Um neun fängt der Kurs an."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "möchte",
+            "heute",
+            "fernsehen",
+            "."
+          ],
+          "answers": [
+            "Ich möchte heute fernsehen.",
+            "Heute möchte ich fernsehen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "mc",
+      "title": "¿Está bien la frase?",
+      "instructions": "Elige la frase correcta.",
+      "items": [
+        {
+          "q": "Me levanto a las siete.",
+          "options": [
+            "Ich aufstehe um sieben.",
+            "Ich stehe um sieben auf.",
+            "Ich stehe auf um sieben."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "El lunes trabajo.",
+          "options": [
+            "In Montag arbeite ich.",
+            "Am Montag ich arbeite.",
+            "Am Montag arbeite ich."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Entiendo.",
+          "options": [
+            "Ich verstehe.",
+            "Ich stehe ver.",
+            "Ich ver stehe."
+          ],
+          "answer": 0,
+          "explain": "ver- nunca se separa."
+        },
+        {
+          "q": "Desayuno a las ocho.",
+          "options": [
+            "Ich stücke um acht früh.",
+            "Ich frühstücke um acht.",
+            "Um acht ich frühstücke."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "¿Te vienes?",
+          "options": [
+            "Mitkommst du?",
+            "Kommst du mit?",
+            "Du kommst mit?"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "Horarios y citas",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wann beginnt der Deutschkurs?"
+            },
+            {
+              "v": "m1",
+              "t": "Um halb sieben. Er dauert bis acht."
+            }
+          ],
+          "q": "¿A qué hora empieza el curso?",
+          "options": [
+            "7:30",
+            "6:30",
+            "8:00"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hast du am Donnerstag Zeit?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, am Donnerstag nicht. Aber am Freitag habe ich Zeit."
+            }
+          ],
+          "q": "¿Qué día tiene tiempo la mujer?",
+          "options": [
+            "Jueves",
+            "Viernes",
+            "Sábado"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wann stehst du auf, Paul?"
+            },
+            {
+              "v": "m1",
+              "t": "Normalerweise um sechs. Aber am Wochenende stehe ich erst um zehn auf."
+            }
+          ],
+          "q": "¿A qué hora se levanta Paul el fin de semana?",
+          "options": [
+            "A las 6",
+            "A las 10",
+            "A las 12"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Wie lange arbeitest du heute?"
+            },
+            {
+              "v": "f2",
+              "t": "Von neun bis Viertel nach fünf."
+            }
+          ],
+          "q": "¿Hasta qué hora trabaja?",
+          "options": [
+            "17:15",
+            "16:45",
+            "17:45"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Siehst du abends oft fern?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, nie. Abends lese ich oder ich gehe aus."
+            }
+          ],
+          "q": "¿Con qué frecuencia ve la tele el hombre?",
+          "options": [
+            "A menudo",
+            "A veces",
+            "Nunca"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "gap",
+      "title": "La rutina de Anna",
+      "instructions": "Completa el texto con la forma correcta de los verbos entre paréntesis.",
+      "items": [
+        {
+          "text": "Anna [[steht]] um halb sieben [[auf]]. (aufstehen)"
+        },
+        {
+          "text": "Zuerst [[duscht]] sie. (duschen)"
+        },
+        {
+          "text": "Dann [[frühstückt]] sie. (frühstücken)"
+        },
+        {
+          "text": "Sie [[arbeitet]] von acht bis vier. (arbeiten)"
+        },
+        {
+          "text": "Nach der Arbeit [[kauft]] sie [[ein]]. (einkaufen)"
+        },
+        {
+          "text": "Abends [[sieht]] sie ein bisschen [[fern]]. (fernsehen)"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Me levanto a las seis y media.",
+          "answers": [
+            "Ich stehe um halb sieben auf.",
+            "Um halb sieben stehe ich auf.",
+            "Ich stehe um sechs Uhr dreißig auf."
+          ]
+        },
+        {
+          "prompt": "El curso empieza a las nueve.",
+          "answers": [
+            "Der Kurs beginnt um neun.",
+            "Der Kurs beginnt um neun Uhr.",
+            "Der Kurs fängt um neun an.",
+            "Der Kurs fängt um neun Uhr an."
+          ]
+        },
+        {
+          "prompt": "El sábado hago la compra.",
+          "answers": [
+            "Am Samstag kaufe ich ein.",
+            "Ich kaufe am Samstag ein."
+          ]
+        },
+        {
+          "prompt": "¿Tienes tiempo el viernes?",
+          "answers": [
+            "Hast du am Freitag Zeit?"
+          ]
+        },
+        {
+          "prompt": "Trabajo de ocho a cinco.",
+          "answers": [
+            "Ich arbeite von acht bis fünf.",
+            "Ich arbeite von acht bis fünf Uhr.",
+            "Ich arbeite von 8 bis 5.",
+            "Ich arbeite von 8 bis 17 Uhr."
+          ]
+        },
+        {
+          "prompt": "Te llamo mañana.",
+          "answers": [
+            "Ich rufe dich morgen an.",
+            "Morgen rufe ich dich an."
+          ]
+        },
+        {
+          "prompt": "Por las noches veo la tele.",
+          "answers": [
+            "Abends sehe ich fern.",
+            "Am Abend sehe ich fern.",
+            "Ich sehe abends fern."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wann treffen sich die zwei?",
+          "options": [
+            "um 7:30",
+            "um 8:30",
+            "um 8:00"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Treffen wir uns um acht vor dem Kino?"
+            },
+            {
+              "v": "f2",
+              "t": "Der Film fängt schon um acht an. Sagen wir um halb acht?"
+            },
+            {
+              "v": "m1",
+              "t": "Okay, um halb acht."
+            }
+          ]
+        },
+        {
+          "q": "Wann hat die Frau Zeit?",
+          "options": [
+            "am Montag",
+            "am Dienstag",
+            "am Mittwoch"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Frau Weber, haben Sie am Montag Zeit für einen Termin?"
+            },
+            {
+              "v": "f1",
+              "t": "Am Montag und am Dienstag leider nicht. Geht es am Mittwoch?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, Mittwoch ist gut."
+            }
+          ]
+        },
+        {
+          "q": "Wie spät ist es?",
+          "options": [
+            "9:45",
+            "10:15",
+            "10:45"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Entschuldigung, wie spät ist es?"
+            },
+            {
+              "v": "m1",
+              "t": "Es ist Viertel vor zehn."
+            }
+          ]
+        },
+        {
+          "q": "Wann steht Maria auf?",
+          "options": [
+            "um 5:30",
+            "um 6:00",
+            "um 6:30"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Maria, du arbeitest im Krankenhaus. Stehst du früh auf?"
+            },
+            {
+              "v": "f1",
+              "t": "Ja, sehr früh. Um halb sechs. Die Arbeit beginnt um sieben."
+            }
+          ]
+        },
+        {
+          "q": "Wie lange dauert der Kurs?",
+          "options": [
+            "eine Stunde",
+            "zwei Stunden",
+            "drei Stunden"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Der Yogakurs ist von sechs bis acht, oder?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, genau. Zwei Stunden."
+            }
+          ]
+        },
+        {
+          "q": "Was macht Lukas am Samstag?",
+          "options": [
+            "Er kauft ein.",
+            "Er räumt auf.",
+            "Er arbeitet."
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Lukas, kommst du am Samstag mit? Wir gehen einkaufen."
+            },
+            {
+              "v": "m2",
+              "t": "Nein, am Samstag räume ich meine Wohnung auf. Sie ist so chaotisch!"
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Der Zug nach Bern fährt um 14:36 ab.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Achtung am Gleis vier: Der Intercity nach Bern fährt heute um vierzehn Uhr dreiundvierzig ab. Wir bitten um Entschuldigung."
+            }
+          ]
+        },
+        {
+          "statement": "Das Schwimmbad ist heute bis 20 Uhr geöffnet.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Liebe Gäste, unser Schwimmbad ist heute von neun bis zwanzig Uhr geöffnet. Viel Spaß!"
+            }
+          ]
+        },
+        {
+          "statement": "Der Supermarkt schließt in 15 Minuten.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Liebe Kundinnen und Kunden, unser Markt schließt in fünfzehn Minuten. Bitte gehen Sie jetzt zur Kasse."
+            }
+          ]
+        },
+        {
+          "statement": "Der Film beginnt um halb neun.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Guten Abend und willkommen im Kino Rex. Der Film beginnt heute um zwanzig Uhr, also in zehn Minuten."
+            }
+          ]
+        },
+        {
+          "statement": "Das Museum ist am Montag geschlossen.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Das Museum ist von Dienstag bis Sonntag von zehn bis achtzehn Uhr geöffnet. Montags ist das Museum geschlossen."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wann kommt Anna?",
+          "options": [
+            "um 18:00",
+            "um 18:30",
+            "um 19:30"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Tom, hier ist Anna. Ich komme heute später. Die Arbeit dauert bis sechs. Ich bin um halb sieben bei dir. Bis dann!"
+            }
+          ]
+        },
+        {
+          "q": "Wann ist der neue Termin?",
+          "options": [
+            "Dienstag, 9 Uhr",
+            "Donnerstag, 9 Uhr",
+            "Donnerstag, 10 Uhr"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Tag, Frau López, hier ist die Praxis Dr. Berger. Ihr Termin am Dienstag geht leider nicht. Kommen Sie bitte am Donnerstag um neun Uhr. Danke!"
+            }
+          ]
+        },
+        {
+          "q": "Was soll Julia machen?",
+          "options": [
+            "einkaufen",
+            "aufräumen",
+            "anrufen"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hallo Julia, hier ist Mama. Ich komme heute erst um acht nach Hause. Kaufst du bitte ein? Wir brauchen Brot und Milch. Danke, Schatz!"
+            }
+          ]
+        },
+        {
+          "q": "Wann beginnt das Fußballtraining?",
+          "options": [
+            "um 16:15",
+            "um 16:45",
+            "um 15:45"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hallo, hier ist Trainer Klaus. Morgen fängt das Training später an: um Viertel vor fünf, nicht um vier. Bis morgen!"
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Sara,\n\nmein Tag ist sehr lang! Ich stehe um 5.30 Uhr auf. Um 7 Uhr fängt meine Arbeit im Hotel an. Mittags habe ich eine Stunde Pause. Ich arbeite bis 16 Uhr. Dann kaufe ich ein und koche. Abends lerne ich Deutsch, am Montag und am Mittwoch habe ich Kurs. Am Wochenende schlafe ich lange!\n\nLiebe Grüße\nLuis",
+          "statements": [
+            {
+              "s": "Luis steht um halb sechs auf.",
+              "answer": true
+            },
+            {
+              "s": "Luis arbeitet in einem Restaurant.",
+              "answer": false
+            },
+            {
+              "s": "Seine Pause dauert eine Stunde.",
+              "answer": true
+            },
+            {
+              "s": "Luis hat dreimal pro Woche Deutschkurs.",
+              "answer": false
+            },
+            {
+              "s": "Am Wochenende steht Luis früh auf.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Liebe Kursteilnehmerinnen und Kursteilnehmer,\n\nab nächster Woche beginnt unser Kurs nicht um 18 Uhr, sondern um 18.30 Uhr. Er dauert bis 20.30 Uhr. Am Freitag, 12. Mai, ist kein Kurs. Bitte bringen Sie am Montag Ihr Buch mit.\n\nViele Grüße\nPetra Wolf",
+          "statements": [
+            {
+              "s": "Der Kurs beginnt jetzt um halb sieben.",
+              "answer": true
+            },
+            {
+              "s": "Der Kurs dauert eine Stunde.",
+              "answer": false
+            },
+            {
+              "s": "Am 12. Mai gibt es keinen Kurs.",
+              "answer": true
+            },
+            {
+              "s": "Am Montag braucht man das Buch.",
+              "answer": true
+            },
+            {
+              "s": "Der Kurs endet um 20 Uhr.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Hi Ben,\n\nkommst du am Samstag mit? Wir gehen ins Schwimmbad. Es ist von 9 bis 21 Uhr geöffnet. Wir fahren um 10 Uhr mit dem Bus. Am Abend gehen wir dann zusammen aus. Ruf mich bitte bis Freitag an!\n\nCiao\nLeonie",
+          "statements": [
+            {
+              "s": "Leonie geht am Sonntag ins Schwimmbad.",
+              "answer": false
+            },
+            {
+              "s": "Das Schwimmbad schließt um 21 Uhr.",
+              "answer": true
+            },
+            {
+              "s": "Der Bus fährt um 9 Uhr.",
+              "answer": false
+            },
+            {
+              "s": "Am Abend gehen sie aus.",
+              "answer": true
+            },
+            {
+              "s": "Ben soll Leonie bis Freitag anrufen.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie arbeiten bis 18 Uhr und möchten danach einkaufen.",
+          "a": "Supermarkt Frisch: Mo–Sa 7–21 Uhr",
+          "b": "Bäckerei Keller: Mo–Fr 6–14 Uhr",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten am Sonntag ins Museum gehen.",
+          "a": "Stadtmuseum: Di–Sa 10–17 Uhr",
+          "b": "Kunstmuseum: Di–So 10–18 Uhr",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie möchten am Vormittag Deutsch lernen.",
+          "a": "Deutschkurs A1: Mo, Mi, Fr 9–12 Uhr",
+          "b": "Deutschkurs A1: Di, Do 18–21 Uhr",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie haben am Samstag Zahnschmerzen.",
+          "a": "Zahnarzt Dr. Frei: Mo–Fr 8–17 Uhr",
+          "b": "Zahnärztlicher Notdienst: Sa und So 9–20 Uhr",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie möchten am Abend schwimmen gehen.",
+          "a": "Hallenbad: täglich 7–22 Uhr",
+          "b": "Freibad: täglich 9–18 Uhr",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten einen Film am späten Abend sehen.",
+          "a": "Kino Rex: Kinderfilm 15.00 Uhr",
+          "b": "Kino Rex: Spätvorstellung 22.30 Uhr",
+          "answer": "b"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Öffnungszeiten: Mo–Fr 8.00–18.00 · Sa 8.00–12.00 · So geschlossen",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Am Samstagnachmittag ist geöffnet.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Mittagspause 12.30–13.30 Uhr",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Um 13 Uhr ist geschlossen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Sprechstunde nur nach Termin – Tel. 044 111 22 33",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Man muss vorher anrufen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Heute: Kurs A1 fällt aus!",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der Kurs A1 findet heute statt.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Bus Linie 31: alle 10 Minuten, ab 5.30 Uhr",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der erste Bus fährt um halb sechs.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Bibliothek: Mittwoch bis 20 Uhr geöffnet",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Am Mittwoch kann man um 19 Uhr in die Bibliothek gehen.",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Frau Petrova möchte einen Termin beim Friseur. Sie kann nur am Donnerstag, am Nachmittag ab 15 Uhr. Sie möchte Haare schneiden. Ihre Handynummer ist 0176 11 22 33 44.",
+          "title": "Friseur Schön – Terminwunsch",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Petrova"
+            },
+            {
+              "label": "Tag",
+              "answers": [
+                "Donnerstag",
+                "am Donnerstag"
+              ]
+            },
+            {
+              "label": "Uhrzeit ab",
+              "answers": [
+                "15 Uhr",
+                "15",
+                "15:00",
+                "15.00"
+              ]
+            },
+            {
+              "label": "Service",
+              "answers": [
+                "Haare schneiden",
+                "schneiden"
+              ]
+            },
+            {
+              "label": "Handy",
+              "answers": [
+                "0176 11 22 33 44"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Paulo arbeitet von Montag bis Freitag. Er möchte einen Deutschkurs am Samstag, am Vormittag. Er kann ab 9 Uhr. Er ist Anfänger. Er wohnt in Wien.",
+          "title": "Anmeldung – Sprachschule Wien",
+          "fields": [
+            {
+              "label": "Vorname",
+              "given": "Paulo"
+            },
+            {
+              "label": "Kurstag",
+              "answers": [
+                "Samstag",
+                "am Samstag"
+              ]
+            },
+            {
+              "label": "Tageszeit",
+              "answers": [
+                "Vormittag",
+                "am Vormittag",
+                "vormittags"
+              ]
+            },
+            {
+              "label": "ab (Uhrzeit)",
+              "answers": [
+                "9 Uhr",
+                "9",
+                "9:00",
+                "9.00"
+              ]
+            },
+            {
+              "label": "Niveau",
+              "answers": [
+                "Anfänger",
+                "A1"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Sie reservieren für Ihren Kollegen Marc einen Tisch im Restaurant. Er kommt am Freitag um halb acht mit drei Personen. Sein Nachname ist Dubois.",
+          "title": "Restaurant Adler – Reservierung",
+          "fields": [
+            {
+              "label": "Name",
+              "answers": [
+                "Dubois"
+              ]
+            },
+            {
+              "label": "Tag",
+              "answers": [
+                "Freitag",
+                "am Freitag"
+              ]
+            },
+            {
+              "label": "Uhrzeit",
+              "answers": [
+                "19:30",
+                "19.30",
+                "halb acht",
+                "7:30",
+                "19:30 Uhr",
+                "19.30 Uhr"
+              ]
+            },
+            {
+              "label": "Personen",
+              "answers": [
+                "3",
+                "drei"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben am Samstag keine Zeit für das Treffen mit Ihrer Freundin Eva. Schreiben Sie ihr.",
+          "points": [
+            "Sagen Sie: Samstag geht nicht.",
+            "Warum? (Was machen Sie?)",
+            "Machen Sie einen neuen Vorschlag (Tag, Uhrzeit)."
+          ],
+          "register": "informal (du)",
+          "model": "Liebe Eva,\n\nleider habe ich am Samstag keine Zeit. Ich arbeite bis 18 Uhr und dann kaufe ich ein. Geht es am Sonntag? Um drei Uhr im Café Europa?\n\nLiebe Grüße\nLaura"
+        },
+        {
+          "task": "Sie kommen morgen nicht zum Deutschkurs. Schreiben Sie Ihrer Kursleiterin, Frau Wolf.",
+          "points": [
+            "Sie kommen morgen nicht.",
+            "Warum nicht?",
+            "Fragen Sie nach den Hausaufgaben."
+          ],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Wolf,\n\nich komme morgen leider nicht zum Kurs. Ich habe um 18 Uhr einen Termin beim Arzt. Was sind die Hausaufgaben?\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Ein neuer Kollege fragt: Wie ist dein Arbeitstag? Schreiben Sie ihm.",
+          "points": [
+            "Wann stehen Sie auf?",
+            "Wann arbeiten Sie?",
+            "Was machen Sie am Abend?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Tim,\n\nich stehe um halb sieben auf. Ich arbeite von acht bis fünf. Mittags esse ich in der Kantine. Am Abend koche ich oder ich sehe fern. Manchmal gehe ich auch aus.\n\nViele Grüße\nPablo"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Wohnort?",
+            "Beruf?",
+            "Tagesablauf?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wann stehen Sie am Wochenende auf?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Ich heiße José und wohne in Zürich. Ich arbeite an der Universität. Ich stehe um halb sieben auf und fange um acht Uhr an. Abends koche ich und sehe ein bisschen fern. Am Wochenende stehe ich um neun auf."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Familie?",
+            "Morgen?",
+            "Abend?"
+          ],
+          "extra": "Der Prüfer fragt dann: Was machen Sie am Sonntag?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo, ich bin Laura. Ich bin verheiratet und habe zwei Kinder. Morgens stehe ich um sechs auf und mache Frühstück. Abends räume ich auf und lese. Am Sonntag schlafe ich lange und gehe spazieren."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Hobby?",
+            "Wochenende?"
+          ],
+          "extra": "Der Prüfer fragt dann: Gehen Sie oft aus?",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Ich heiße Pablo und bin fünfundzwanzig. Ich spiele gern Fußball. Am Wochenende kaufe ich ein und treffe Freunde. Ja, am Freitag gehe ich oft aus."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Tagesablauf",
+          "word": "aufstehen",
+          "question": "Wann stehst du auf?",
+          "answer": "Ich stehe um sieben Uhr auf."
+        },
+        {
+          "theme": "Tagesablauf",
+          "word": "Wochenende",
+          "question": "Was machst du am Wochenende?",
+          "answer": "Am Samstag kaufe ich ein."
+        },
+        {
+          "theme": "Tagesablauf",
+          "word": "fernsehen",
+          "question": "Siehst du oft fern?",
+          "answer": "Nein, ich sehe nur manchmal fern."
+        },
+        {
+          "theme": "Tagesablauf",
+          "word": "Arbeit",
+          "question": "Wann fängt deine Arbeit an?",
+          "answer": "Meine Arbeit fängt um acht Uhr an."
+        },
+        {
+          "theme": "Tagesablauf",
+          "word": "Frühstück",
+          "question": "Wann frühstückst du?",
+          "answer": "Ich frühstücke um halb acht."
+        },
+        {
+          "theme": "Tagesablauf",
+          "word": "Freitag",
+          "question": "Hast du am Freitag Zeit?",
+          "answer": "Ja, am Abend habe ich Zeit."
+        }
+      ]
+    }
+  }
+}

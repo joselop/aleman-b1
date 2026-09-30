@@ -643,7 +643,8 @@ function exOrder(ex) {
     check() {
       let ok = 0;
       for (const { el, it, sentence } of items) {
-        const right = compare(sentence(), it.answers) === "ok";
+        // Las fichas traen su propia mayúscula, así que aquí no se penalizan las mayúsculas.
+        const right = compare(sentence(), it.answers) !== "no";
         if (right) ok++;
         mark(el, right ? "ok" : "no", right ? "✓" : `✗ <strong>${esc(it.answers[0])}</strong>`);
       }

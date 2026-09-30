@@ -1,0 +1,459 @@
+{
+  "id": "a1-t07",
+  "level": "a1",
+  "topic": "t07",
+  "title": "Tiempo libre",
+  "title_de": "Freizeit und Hobbys",
+  "goals": [
+    "Hablar de tus aficiones y preguntar por las de otra persona",
+    "Decir lo que te gusta, lo que prefieres y lo que más te gusta (gern, lieber, am liebsten)",
+    "Conjugar verbos con cambio de vocal: fahren, schlafen, laufen, lesen, sehen, treffen",
+    "Usar können y wollen con el infinitivo al final de la frase",
+    "Proponer un plan, aceptar, rechazar y quedar a una hora y en un sitio"
+  ],
+  "vocab": [
+    { "de": "die Freizeit", "es": "el tiempo libre", "cat": "Aficiones", "ex": "Was machst du in deiner Freizeit?", "ex_es": "¿Qué haces en tu tiempo libre?" },
+    { "de": "das Hobby", "pl": "die Hobbys", "es": "la afición", "cat": "Aficiones", "ex": "Mein Hobby ist Fotografieren.", "ex_es": "Mi afición es la fotografía." },
+    { "de": "der Sport", "es": "el deporte", "cat": "Aficiones", "ex": "Machst du gern Sport?", "ex_es": "¿Te gusta hacer deporte?" },
+    { "de": "spielen", "es": "jugar; tocar (instrumento)", "cat": "Aficiones", "forms": "ich spiele, du spielst, er spielt", "ex": "Ich spiele Gitarre.", "ex_es": "Toco la guitarra." },
+    { "de": "der Fußball", "es": "el fútbol", "cat": "Aficiones", "ex": "Am Sonntag spielen wir Fußball.", "ex_es": "El domingo jugamos al fútbol." },
+    { "de": "schwimmen", "es": "nadar", "cat": "Aficiones", "forms": "ich schwimme, du schwimmst, er schwimmt", "ex": "Ich schwimme gern im See.", "ex_es": "Me gusta nadar en el lago." },
+    { "de": "Rad fahren", "es": "montar en bici", "cat": "Aficiones", "forms": "ich fahre Rad, du fährst Rad, er fährt Rad", "ex": "Er fährt jeden Tag Rad.", "ex_es": "Monta en bici todos los días." },
+    { "de": "laufen", "es": "correr; andar", "cat": "Aficiones", "forms": "ich laufe, du läufst, er läuft", "ex": "Sie läuft jeden Morgen fünf Kilometer.", "ex_es": "Corre cinco kilómetros cada mañana." },
+    { "de": "joggen", "es": "hacer footing", "cat": "Aficiones", "forms": "ich jogge, du joggst, er joggt", "ex": "Wir joggen im Park.", "ex_es": "Corremos en el parque." },
+    { "de": "wandern", "es": "hacer senderismo", "cat": "Aficiones", "forms": "ich wandere, du wanderst, er wandert", "ex": "Am Wochenende wandern wir in den Bergen.", "ex_es": "El fin de semana hacemos senderismo en la montaña." },
+    { "de": "Ski fahren", "es": "esquiar", "cat": "Aficiones", "forms": "ich fahre Ski, du fährst Ski, er fährt Ski", "ex": "Kannst du Ski fahren?", "ex_es": "¿Sabes esquiar?" },
+    { "de": "tanzen", "es": "bailar", "cat": "Aficiones", "forms": "ich tanze, du tanzt, er tanzt", "ex": "Sie tanzt sehr gut Salsa.", "ex_es": "Baila muy bien salsa." },
+    { "de": "singen", "es": "cantar", "cat": "Aficiones", "forms": "ich singe, du singst, er singt", "ex": "Ich singe in einem Chor.", "ex_es": "Canto en un coro." },
+    { "de": "die Musik", "es": "la música", "cat": "Aficiones", "ex": "Ich höre gern Musik.", "ex_es": "Me gusta escuchar música." },
+    { "de": "die Gitarre", "pl": "die Gitarren", "es": "la guitarra", "cat": "Aficiones", "ex": "Spielst du Gitarre?", "ex_es": "¿Tocas la guitarra?" },
+    { "de": "lesen", "es": "leer", "cat": "Aficiones", "forms": "ich lese, du liest, er liest", "ex": "Sie liest gern Romane.", "ex_es": "Le gusta leer novelas." },
+    { "de": "das Buch", "pl": "die Bücher", "es": "el libro", "cat": "Aficiones", "ex": "Das Buch ist sehr spannend.", "ex_es": "El libro es muy emocionante." },
+    { "de": "fotografieren", "es": "hacer fotos", "cat": "Aficiones", "forms": "ich fotografiere, du fotografierst, er fotografiert", "ex": "Ich fotografiere gern Tiere.", "ex_es": "Me gusta fotografiar animales." },
+    { "de": "malen", "es": "pintar", "cat": "Aficiones", "forms": "ich male, du malst, er malt", "ex": "Meine Tochter malt sehr schön.", "ex_es": "Mi hija pinta muy bien." },
+    { "de": "reisen", "es": "viajar", "cat": "Aficiones", "forms": "ich reise, du reist, er reist", "ex": "Am liebsten reise ich.", "ex_es": "Lo que más me gusta es viajar." },
+    { "de": "spazieren gehen", "es": "pasear", "cat": "Aficiones", "ex": "Am Sonntag gehen wir spazieren.", "ex_es": "El domingo vamos a pasear." },
+    { "de": "das Kino", "pl": "die Kinos", "es": "el cine", "cat": "Aficiones", "ex": "Gehen wir heute ins Kino?", "ex_es": "¿Vamos hoy al cine?" },
+    { "de": "der Film", "pl": "die Filme", "es": "la película", "cat": "Aficiones", "ex": "Der Film ist sehr lustig.", "ex_es": "La película es muy divertida." },
+    { "de": "das Konzert", "pl": "die Konzerte", "es": "el concierto", "cat": "Aficiones", "ex": "Am Freitag ist ein Konzert.", "ex_es": "El viernes hay un concierto." },
+    { "de": "der Verein", "pl": "die Vereine", "es": "el club, la asociación", "cat": "Aficiones", "ex": "Er spielt in einem Fußballverein.", "ex_es": "Juega en un club de fútbol." },
+    { "de": "treffen", "es": "encontrarse con, quedar", "cat": "Verbos", "forms": "ich treffe, du triffst, er trifft", "ex": "Ich treffe am Samstag meine Freunde.", "ex_es": "El sábado quedo con mis amigos." },
+    { "de": "sehen", "es": "ver", "cat": "Verbos", "forms": "ich sehe, du siehst, er sieht", "ex": "Siehst du gern Filme?", "ex_es": "¿Te gusta ver películas?" },
+    { "de": "fahren", "es": "ir (en vehículo), conducir", "cat": "Verbos", "forms": "ich fahre, du fährst, er fährt", "ex": "Wir fahren an den See.", "ex_es": "Vamos al lago." },
+    { "de": "helfen", "es": "ayudar", "cat": "Verbos", "forms": "ich helfe, du hilfst, er hilft", "ex": "Er hilft gern.", "ex_es": "Le gusta ayudar." },
+    { "de": "geben", "es": "dar", "cat": "Verbos", "forms": "ich gebe, du gibst, er gibt", "ex": "Heute gibt es ein Konzert.", "ex_es": "Hoy hay un concierto." },
+    { "de": "können", "es": "poder; saber (hacer)", "cat": "Verbos", "forms": "ich kann, du kannst, er kann", "ex": "Ich kann gut schwimmen.", "ex_es": "Sé nadar bien." },
+    { "de": "wollen", "es": "querer", "cat": "Verbos", "forms": "ich will, du willst, er will", "ex": "Wir wollen am Samstag wandern.", "ex_es": "Queremos hacer senderismo el sábado." },
+    { "de": "gern", "es": "con gusto; (verbo + gern) gustar", "cat": "Gustos", "ex": "Ich tanze gern.", "ex_es": "Me gusta bailar." },
+    { "de": "lieber", "es": "preferiblemente; preferir", "cat": "Gustos", "ex": "Ich trinke lieber Tee.", "ex_es": "Prefiero tomar té." },
+    { "de": "am liebsten", "es": "lo que más (me gusta)", "cat": "Gustos", "ex": "Am liebsten lese ich.", "ex_es": "Lo que más me gusta es leer." },
+    { "de": "die Lust", "es": "las ganas", "cat": "Quedar", "ex": "Hast du Lust auf Kino?", "ex_es": "¿Te apetece ir al cine?" },
+    { "de": "die Idee", "pl": "die Ideen", "es": "la idea", "cat": "Quedar", "ex": "Gute Idee!", "ex_es": "¡Buena idea!" },
+    { "de": "leider", "es": "desgraciadamente", "cat": "Quedar", "ex": "Leider kann ich nicht.", "ex_es": "Lo siento, no puedo." },
+    { "de": "Tut mir leid.", "es": "Lo siento.", "cat": "Quedar", "ex": "Tut mir leid, ich habe keine Zeit.", "ex_es": "Lo siento, no tengo tiempo." },
+    { "de": "zusammen", "es": "juntos", "cat": "Quedar", "ex": "Wollen wir zusammen kochen?", "ex_es": "¿Cocinamos juntos?" },
+    { "de": "spannend", "es": "emocionante, interesante", "cat": "Adjetivos", "ex": "Das Buch ist spannend.", "ex_es": "El libro es emocionante." },
+    { "de": "langweilig", "es": "aburrido", "cat": "Adjetivos", "ex": "Der Film ist langweilig.", "ex_es": "La película es aburrida." },
+    { "de": "lustig", "es": "divertido, gracioso", "cat": "Adjetivos", "ex": "Tom ist sehr lustig.", "ex_es": "Tom es muy gracioso." },
+    { "de": "toll / super", "es": "genial", "cat": "Adjetivos", "ex": "Das Konzert ist toll!", "ex_es": "¡El concierto es genial!" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Aficiones",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["wandern", "hacer senderismo"],
+        ["Rad fahren", "montar en bici"],
+        ["malen", "pintar"],
+        ["spazieren gehen", "pasear"],
+        ["Freunde treffen", "quedar con amigos"],
+        ["tanzen", "bailar"],
+        ["langweilig", "aburrido"],
+        ["spannend", "emocionante"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "Cambio de vocal",
+      "instructions": "Conjuga el verbo entre paréntesis.",
+      "items": [
+        { "text": "[[Fährst]] du gern Rad? (fahren)" },
+        { "text": "Mein Bruder [[liest]] sehr viel. (lesen)" },
+        { "text": "Am Sonntag [[schläft]] Anna lange. (schlafen)" },
+        { "text": "[[Siehst]] du oft Filme? (sehen)" },
+        { "text": "Er [[läuft]] jeden Tag zehn Kilometer. (laufen)" },
+        { "text": "Sie [[trifft]] am Freitag ihre Freundin. (treffen)" },
+        { "text": "Wir [[fahren]] am Wochenende Ski. (fahren)" },
+        { "text": "[[Hilfst]] du mir? (helfen)" }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "können y wollen",
+      "instructions": "Escribe la forma correcta del modal.",
+      "items": [
+        { "text": "Ich [[kann]] sehr gut schwimmen. (können)" },
+        { "text": "[[Kannst]] du Gitarre spielen? (können)" },
+        { "text": "Maria [[kann]] am Samstag nicht. (können)" },
+        { "text": "Wir [[wollen]] ins Kino gehen. (wollen)" },
+        { "text": "Was [[willst]] du heute machen? (wollen)" },
+        { "text": "Er [[will]] Deutsch lernen. (wollen)" },
+        { "text": "[[Könnt]] ihr Ski fahren? (können)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "order",
+      "title": "Modal + infinitivo al final",
+      "instructions": "Ordena la frase.",
+      "items": [
+        { "words": ["Ich", "kann", "gut", "tanzen", "."], "answers": ["Ich kann gut tanzen."] },
+        { "words": ["Kannst", "du", "Ski", "fahren", "?"], "answers": ["Kannst du Ski fahren?"] },
+        { "words": ["Am", "Samstag", "wollen", "wir", "wandern", "."], "answers": ["Am Samstag wollen wir wandern.", "Wir wollen am Samstag wandern."] },
+        { "words": ["Was", "willst", "du", "heute", "machen", "?"], "answers": ["Was willst du heute machen?"] },
+        { "words": ["Leider", "kann", "ich", "nicht", "kommen", "."], "answers": ["Leider kann ich nicht kommen.", "Ich kann leider nicht kommen."] },
+        { "words": ["Er", "will", "ein", "Buch", "lesen", "."], "answers": ["Er will ein Buch lesen."] }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "gern, lieber, am liebsten",
+      "instructions": "Elige la opción correcta.",
+      "items": [
+        { "q": "Me gusta nadar.", "options": ["Ich mag schwimmen.", "Ich schwimme gern.", "Ich gern schwimme."], "answer": 1 },
+        { "q": "Prefiero el té.", "options": ["Ich trinke lieber Tee.", "Ich trinke gern Tee lieber.", "Ich lieber trinke Tee."], "answer": 0 },
+        { "q": "Lo que más me gusta es leer.", "options": ["Am liebsten lese ich.", "Am liebsten ich lese.", "Ich lese liebsten."], "answer": 0 },
+        { "q": "No me gusta cocinar.", "options": ["Ich koche gern nicht.", "Ich koche nicht gern.", "Ich nicht koche gern."], "answer": 1 },
+        { "q": "¿Te gusta bailar?", "options": ["Tanzt du gern?", "Magst du tanzen gern?", "Gern tanzt du?"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "Quedar con alguien",
+      "instructions": "Elige la reacción adecuada.",
+      "items": [
+        { "q": "Hast du Lust? Wir gehen heute ins Kino.", "options": ["Ja, gern! Wann?", "Ja, ich habe Kino.", "Doch, gern."], "answer": 0 },
+        { "q": "Wollen wir am Samstag wandern? (No puedes.)", "options": ["Gute Idee!", "Leider kann ich am Samstag nicht.", "Ich will wandern."], "answer": 1 },
+        { "q": "Wann treffen wir uns?", "options": ["Vor dem Kino.", "Um acht Uhr.", "Ja, gern."], "answer": 1 },
+        { "q": "Wo treffen wir uns?", "options": ["Am Bahnhof.", "Am Samstag.", "Mit Anna."], "answer": 0 },
+        { "q": "Kommst du mit?", "options": ["Ja, ich komme mit.", "Ja, ich mitkomme.", "Ja, ich komme."], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "Planes para el fin de semana",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "m1", "t": "Was machst du gern in deiner Freizeit, Sara?" },
+            { "v": "f2", "t": "Ich lese gern und ich gehe oft schwimmen. Aber am liebsten reise ich." }
+          ],
+          "q": "¿Qué es lo que más le gusta a Sara?", "options": ["Leer", "Nadar", "Viajar"], "answer": 2
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Wollen wir am Samstag ins Konzert gehen?" },
+            { "v": "m2", "t": "Am Samstag kann ich leider nicht. Ich spiele Fußball. Aber am Sonntag geht es." }
+          ],
+          "q": "¿Qué hace el hombre el sábado?", "options": ["Va a un concierto", "Juega al fútbol", "Trabaja"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Kannst du Ski fahren?" },
+            { "v": "f1", "t": "Ein bisschen. Aber ich fahre lieber Snowboard." }
+          ],
+          "q": "¿Qué prefiere la mujer?", "options": ["Esquiar", "Snowboard", "Patinar"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Treffen wir uns um sieben vor dem Kino?" },
+            { "v": "m2", "t": "Um sieben ist zu früh für mich. Um halb acht?" },
+            { "v": "f2", "t": "Okay, bis dann!" }
+          ],
+          "q": "¿A qué hora quedan?", "options": ["7:00", "7:30", "8:30"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Spielt dein Sohn ein Instrument?" },
+            { "v": "f1", "t": "Ja, er spielt Klavier. Und er will jetzt auch Gitarre lernen." }
+          ],
+          "q": "¿Qué quiere aprender el hijo?", "options": ["Piano", "Guitarra", "Canto"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich lese gern." }], "answers": ["Ich lese gern."] },
+        { "audio": [{ "v": "m1", "t": "Er fährt gern Rad." }], "answers": ["Er fährt gern Rad."] },
+        { "audio": [{ "v": "f2", "t": "Kannst du schwimmen?" }], "answers": ["Kannst du schwimmen?"] },
+        { "audio": [{ "v": "m2", "t": "Hast du Lust?" }], "answers": ["Hast du Lust?"] },
+        { "audio": [{ "v": "f1", "t": "Leider kann ich nicht." }], "answers": ["Leider kann ich nicht."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "gap",
+      "title": "Una invitación",
+      "instructions": "Completa el mensaje con: Lust, kann, gern, treffen, mit.",
+      "items": [
+        { "text": "Hallo Tom, hast du [[Lust]]? Wir gehen am Freitag tanzen." },
+        { "text": "Kommst du [[mit]]?" },
+        { "text": "Wir [[treffen]] uns um neun vor dem Club." },
+        { "text": "Hallo Lisa, ich tanze sehr [[gern]]!" },
+        { "text": "Aber am Freitag [[kann]] ich leider nicht." }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Me gusta leer.", "answers": ["Ich lese gern."] },
+        { "prompt": "¿Sabes tocar la guitarra?", "answers": ["Kannst du Gitarre spielen?"] },
+        { "prompt": "El sábado queremos hacer senderismo.", "answers": ["Am Samstag wollen wir wandern.", "Wir wollen am Samstag wandern."] },
+        { "prompt": "Prefiero ir al cine.", "answers": ["Ich gehe lieber ins Kino."] },
+        { "prompt": "Lo siento, no tengo tiempo.", "answers": ["Tut mir leid, ich habe keine Zeit.", "Leider habe ich keine Zeit."] },
+        { "prompt": "Él lee mucho.", "answers": ["Er liest viel.", "Er liest sehr viel."] },
+        { "prompt": "¿Te apetece? – Sí, ¡buena idea!", "answers": ["Hast du Lust? – Ja, gute Idee!", "Hast du Lust? Ja, gute Idee!", "Hast du Lust? - Ja, gute Idee!"] }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Was ist das Hobby von Frau Klein?", "options": ["Malen", "Singen", "Tanzen"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Frau Klein, was machen Sie in Ihrer Freizeit?" },
+            { "v": "f1", "t": "Ich singe in einem Chor. Das mache ich schon zwanzig Jahre." }
+          ]
+        },
+        {
+          "q": "Wohin gehen die zwei am Samstag?", "options": ["ins Kino", "ins Schwimmbad", "ins Konzert"], "answer": 2,
+          "audio": [
+            { "v": "f2", "t": "Gehen wir am Samstag ins Kino?" },
+            { "v": "m2", "t": "Hm, ich habe zwei Karten für ein Konzert. Kommst du mit?" },
+            { "v": "f2", "t": "Super, gern!" }
+          ]
+        },
+        {
+          "q": "Was kann Tim nicht?", "options": ["schwimmen", "Ski fahren", "Rad fahren"], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Tim, kommst du im Winter mit in die Berge? Wir fahren Ski." },
+            { "v": "m1", "t": "Ich kann leider nicht Ski fahren. Aber ich wandere gern!" }
+          ]
+        },
+        {
+          "q": "Wann trifft sich die Gruppe?", "options": ["Montag", "Mittwoch", "Freitag"], "answer": 1,
+          "audio": [
+            { "v": "m2", "t": "Wann ist der Lauftreff?" },
+            { "v": "f2", "t": "Jeden Mittwoch um sechs im Park. Am Freitag ist nur manchmal." }
+          ]
+        },
+        {
+          "q": "Was macht Anna am liebsten?", "options": ["lesen", "fotografieren", "kochen"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Anna, du liest viel, oder?" },
+            { "v": "f1", "t": "Ja, und ich koche gern. Aber am liebsten fotografiere ich." }
+          ]
+        },
+        {
+          "q": "Wo treffen sie sich?", "options": ["am Bahnhof", "vor dem Kino", "im Café"], "answer": 0,
+          "audio": [
+            { "v": "f2", "t": "Treffen wir uns vor dem Kino?" },
+            { "v": "m2", "t": "Nein, lieber am Bahnhof. Dann gehen wir zusammen." }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Das Fußballspiel beginnt später.", "answer": true,
+          "audio": [{ "v": "m1", "t": "Liebe Fußballfans, das Spiel beginnt heute nicht um fünfzehn Uhr, sondern um sechzehn Uhr. Danke für Ihr Verständnis." }]
+        },
+        {
+          "statement": "Im Schwimmbad gibt es heute einen Kurs für Kinder.", "answer": true,
+          "audio": [{ "v": "f1", "t": "Achtung, liebe Gäste: Um vierzehn Uhr beginnt der Schwimmkurs für Kinder im kleinen Becken." }]
+        },
+        {
+          "statement": "Das Konzert ist heute im Park.", "answer": false,
+          "audio": [{ "v": "m2", "t": "Das Konzert heute Abend ist nicht im Park, es regnet. Es ist in der Stadthalle. Beginn: zwanzig Uhr." }]
+        },
+        {
+          "statement": "Die Bibliothek hat am Samstag geöffnet.", "answer": true,
+          "audio": [{ "v": "f2", "t": "Die Stadtbibliothek ist von Dienstag bis Samstag geöffnet. Am Samstag von zehn bis vierzehn Uhr." }]
+        },
+        {
+          "statement": "Der Tanzkurs ist für Anfänger.", "answer": true,
+          "audio": [{ "v": "m1", "t": "Sie wollen tanzen lernen? Unser neuer Salsa-Kurs für Anfänger beginnt am Montag um neunzehn Uhr." }]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was will Laura am Sonntag machen?", "options": ["wandern", "schwimmen", "ins Kino gehen"], "answer": 0,
+          "audio": [{ "v": "f1", "t": "Hallo Mia, hier ist Laura. Das Wetter am Sonntag ist super! Wollen wir wandern? Wir fahren um neun Uhr. Ruf mich an!" }]
+        },
+        {
+          "q": "Warum kann Jan nicht kommen?", "options": ["Er ist krank.", "Er arbeitet.", "Er hat Training."], "answer": 2,
+          "audio": [{ "v": "m1", "t": "Hi Ben, hier ist Jan. Heute Abend kann ich leider nicht ins Kino. Ich habe Fußballtraining. Vielleicht am Donnerstag? Tschüss!" }]
+        },
+        {
+          "q": "Wann beginnt der Gitarrenkurs?", "options": ["am Montag", "am Dienstag", "am Donnerstag"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Guten Tag, Herr Ruiz, hier ist die Musikschule. Ihr Gitarrenkurs beginnt am Dienstag um achtzehn Uhr. Bitte bringen Sie Ihre Gitarre mit." }]
+        },
+        {
+          "q": "Was soll Paul mitbringen?", "options": ["Musik", "Getränke", "Fotos"], "answer": 1,
+          "audio": [{ "v": "m2", "t": "Hallo Paul, hier ist Eva. Am Samstag machen wir eine Party. Hast du Lust? Bring bitte Getränke mit. Essen haben wir genug. Bis dann!" }]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Kim,\n\nich bin jetzt im Sportverein! Montags spiele ich Volleyball und mittwochs gehe ich schwimmen. Am Wochenende fahre ich oft Rad. Ich kann leider nicht gut tanzen, aber ich will es lernen. Kommst du mit in den Tanzkurs? Er ist am Donnerstag um 19 Uhr.\n\nLiebe Grüße\nNadia",
+          "statements": [
+            { "s": "Nadia spielt am Montag Volleyball.", "answer": true },
+            { "s": "Am Mittwoch fährt Nadia Rad.", "answer": false },
+            { "s": "Nadia kann sehr gut tanzen.", "answer": false },
+            { "s": "Nadia möchte tanzen lernen.", "answer": true },
+            { "s": "Der Tanzkurs ist am Donnerstag.", "answer": true }
+          ]
+        },
+        {
+          "text": "Liebe Eltern,\n\nam Freitag machen wir mit der Klasse 3b einen Ausflug in den Zoo. Wir fahren um 8.30 Uhr mit dem Bus und kommen um 15 Uhr zurück. Bitte geben Sie Ihrem Kind Essen und Trinken mit. Der Ausflug kostet 12 Euro.\n\nViele Grüße\nFrau Berger",
+          "statements": [
+            { "s": "Die Klasse fährt am Freitag in den Zoo.", "answer": true },
+            { "s": "Die Kinder fahren mit dem Zug.", "answer": false },
+            { "s": "Die Klasse ist um 15 Uhr wieder da.", "answer": true },
+            { "s": "Im Zoo gibt es Essen für die Kinder.", "answer": false },
+            { "s": "Der Ausflug kostet 12 Euro.", "answer": true }
+          ]
+        },
+        {
+          "text": "Hi Leon,\n\nhast du am Samstag Zeit? Im Park ist ein Konzert, es beginnt um 18 Uhr und kostet nichts! Vorher können wir zusammen essen. Ich möchte um 17 Uhr im Café Luna sein. Kommst du mit? Schreib mir bitte!\n\nCiao\nMarta",
+          "statements": [
+            { "s": "Das Konzert ist am Sonntag.", "answer": false },
+            { "s": "Das Konzert ist kostenlos.", "answer": true },
+            { "s": "Marta und Leon essen nach dem Konzert.", "answer": false },
+            { "s": "Marta will um 17 Uhr im Café sein.", "answer": true },
+            { "s": "Leon soll Marta antworten.", "answer": true }
+          ]
+        }
+      ],
+      "t2": [
+        { "situation": "Sie möchten Gitarre spielen lernen.", "a": "Musikschule Melodie: Gitarre, Klavier, Gesang – für Anfänger", "b": "Musikgeschäft Ton: Gitarren kaufen und reparieren", "answer": "a" },
+        { "situation": "Sie wandern gern und suchen eine Gruppe.", "a": "Wandergruppe Alpen: jeden Sonntag, Treffpunkt Bahnhof 8 Uhr", "b": "Laufgruppe: Joggen im Park, Mo und Do 18 Uhr", "answer": "a" },
+        { "situation": "Sie möchten mit Ihren Kindern (5 und 8) am Wochenende etwas machen.", "a": "Kindertheater: Samstag und Sonntag, 15 Uhr", "b": "Jazz-Bar: Livemusik ab 22 Uhr", "answer": "a" },
+        { "situation": "Sie haben nur am Abend Zeit und möchten Sport machen.", "a": "Fitnessstudio Fit: täglich 6–23 Uhr", "b": "Tennisclub: Plätze nur vormittags frei", "answer": "a" },
+        { "situation": "Sie möchten einen Film auf Englisch sehen.", "a": "Kino Arena: alle Filme auf Deutsch", "b": "Kino Studio: Filme im Original (Englisch mit Untertiteln)", "answer": "b" },
+        { "situation": "Sie lesen gern und möchten mit anderen über Bücher sprechen.", "a": "Lesekreis: jeden Dienstag in der Bibliothek", "b": "Buchhandlung Seite: Bücher bis 30 % billiger", "answer": "a" }
+      ],
+      "t3": [
+        { "text": "Schwimmbad: Heute Sauna geschlossen", "sign": true, "statements": [{ "s": "Man kann heute schwimmen.", "answer": true }] },
+        { "text": "Kinder unter 14 Jahren nur mit Eltern!", "sign": true, "statements": [{ "s": "Ein Kind mit 10 Jahren darf allein hinein.", "answer": false }] },
+        { "text": "Yogakurs – Anmeldung bis Freitag im Büro", "sign": true, "statements": [{ "s": "Man muss sich für den Yogakurs anmelden.", "answer": true }] },
+        { "text": "Fahrradverleih: 1 Stunde 5 €, 1 Tag 20 €", "sign": true, "statements": [{ "s": "Ein Fahrrad kostet für einen Tag 5 Euro.", "answer": false }] },
+        { "text": "Heute Abend: Konzert im Park – bei Regen in der Stadthalle", "sign": true, "statements": [{ "s": "Bei Regen ist das Konzert in der Stadthalle.", "answer": true }] },
+        { "text": "Tischtennis: Schläger an der Kasse", "sign": true, "statements": [{ "s": "Man muss eigene Schläger mitbringen.", "answer": false }] }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Markus Frei ist 34 Jahre alt. Er möchte im Sportverein Tennis spielen. Er kann schon ein bisschen spielen. Er hat nur am Wochenende Zeit. Seine E-Mail-Adresse ist m.frei@mail.ch.",
+          "title": "Anmeldung – Sportverein Grün-Weiß",
+          "fields": [
+            { "label": "Name", "given": "Frei" },
+            { "label": "Alter", "answers": ["34", "vierunddreißig"] },
+            { "label": "Sportart", "answers": ["Tennis"] },
+            { "label": "Niveau (Anfänger / etwas Erfahrung)", "answers": ["etwas Erfahrung"] },
+            { "label": "Wann?", "answers": ["Wochenende", "am Wochenende"] },
+            { "label": "E-Mail", "answers": ["m.frei@mail.ch"] }
+          ]
+        },
+        {
+          "context": "Ihre Freundin Sofia möchte in einen Chor. Sie ist 26 und singt seit zehn Jahren. Sie kann am Dienstag und am Donnerstag am Abend. Sie wohnt in Luzern.",
+          "title": "Stadtchor Luzern – Neue Sängerinnen",
+          "fields": [
+            { "label": "Vorname", "given": "Sofia" },
+            { "label": "Alter", "answers": ["26", "sechsundzwanzig"] },
+            { "label": "Wie lange singen Sie schon?", "answers": ["10 Jahre", "zehn Jahre", "seit zehn Jahren", "seit 10 Jahren"] },
+            { "label": "Probentage", "answers": ["Dienstag und Donnerstag", "Dienstag, Donnerstag", "Di und Do", "Donnerstag und Dienstag"] },
+            { "label": "Wohnort", "answers": ["Luzern"] }
+          ]
+        },
+        {
+          "context": "Herr Lopes möchte für sich und seine Frau zwei Karten für das Konzert am Samstag. Sie wollen Plätze in Reihe 5. Er bezahlt mit Karte.",
+          "title": "Kartenbestellung – Stadthalle",
+          "fields": [
+            { "label": "Name", "given": "Lopes" },
+            { "label": "Veranstaltung", "answers": ["Konzert"] },
+            { "label": "Tag", "answers": ["Samstag", "am Samstag"] },
+            { "label": "Anzahl Karten", "answers": ["2", "zwei"] },
+            { "label": "Reihe", "answers": ["5", "fünf"] },
+            { "label": "Zahlung (bar / Karte)", "answers": ["Karte", "mit Karte"] }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Ihr Freund Jonas schreibt: Kommst du am Samstag mit zum Fußball? Antworten Sie.",
+          "points": ["Danken Sie für die Einladung.", "Sie können am Samstag nicht. Warum?", "Machen Sie einen anderen Vorschlag."],
+          "register": "informal (du)",
+          "model": "Hallo Jonas,\n\ndanke für die Einladung! Leider kann ich am Samstag nicht. Meine Eltern kommen aus Spanien. Wollen wir am Sonntag zusammen joggen gehen? Um zehn Uhr im Park?\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "Sie möchten einen Yogakurs machen. Schreiben Sie der Yogaschule.",
+          "points": ["Sie sind Anfänger/in.", "Fragen Sie: Wann ist der Kurs?", "Fragen Sie: Was kostet der Kurs?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich möchte gern Yoga lernen. Ich bin Anfängerin. Wann ist der Kurs für Anfänger? Und was kostet der Kurs?\n\nViele Grüße\nLaura García"
+        },
+        {
+          "task": "Sie gehen am Freitag ins Kino. Schreiben Sie Ihrer Kollegin Nina.",
+          "points": ["Laden Sie Nina ein.", "Welcher Film? Wann?", "Wo treffen Sie sich?"],
+          "register": "informal (du)",
+          "model": "Hallo Nina,\n\nhast du am Freitag Zeit? Ich gehe ins Kino. Der Film heißt „Sommer in Rom“ und beginnt um 20 Uhr. Wir treffen uns um halb acht vor dem Kino. Kommst du mit?\n\nViele Grüße\nPablo"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": ["Name?", "Alter?", "Land?", "Wohnort?", "Sprachen?", "Hobby?"],
+          "extra": "Der Prüfer fragt dann: Was machen Sie am Wochenende?",
+          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig Jahre alt und komme aus Spanien. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Hobbys sind Lesen und Wandern. Am Wochenende wandere ich gern in den Bergen." }]
+        },
+        {
+          "keywords": ["Name?", "Familie?", "Beruf?", "Hobby?"],
+          "extra": "Der Prüfer fragt dann: Können Sie ein Instrument spielen?",
+          "model": [{ "v": "f1", "t": "Hallo, ich heiße Laura. Ich bin verheiratet und habe zwei Kinder. Ich bin Lehrerin. In meiner Freizeit lese ich gern und ich tanze Salsa. Ja, ich kann ein bisschen Gitarre spielen." }]
+        },
+        {
+          "keywords": ["Name?", "Alter?", "Sport?", "Lieblingsfilm?"],
+          "extra": "Der Prüfer fragt dann: Gehen Sie oft ins Kino?",
+          "model": [{ "v": "m2", "t": "Guten Tag. Ich heiße Pablo und bin fünfundzwanzig. Ich spiele gern Fußball und ich laufe jeden Morgen. Mein Lieblingsfilm ist Star Wars. Nein, ich gehe nicht so oft ins Kino, ich sehe lieber Filme zu Hause." }]
+        }
+      ],
+      "t2": [
+        { "theme": "Freizeit", "word": "Sport", "question": "Machst du gern Sport?", "answer": "Ja, ich schwimme gern." },
+        { "theme": "Freizeit", "word": "Musik", "question": "Was für Musik hörst du gern?", "answer": "Ich höre gern Pop und Jazz." },
+        { "theme": "Freizeit", "word": "Wochenende", "question": "Was machst du am liebsten am Wochenende?", "answer": "Am liebsten wandere ich." },
+        { "theme": "Freizeit", "word": "Instrument", "question": "Kannst du ein Instrument spielen?", "answer": "Ja, ich kann Gitarre spielen." },
+        { "theme": "Freizeit", "word": "Kino", "question": "Hast du Lust auf Kino?", "answer": "Ja, gern! Wann?" },
+        { "theme": "Freizeit", "word": "Bücher", "question": "Liest du gern?", "answer": "Ja, ich lese jeden Abend." }
+      ]
+    }
+  }
+}

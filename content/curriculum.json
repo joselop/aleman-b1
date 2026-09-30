@@ -55,7 +55,7 @@
         },
         {
           "id": "t05",
-          "status": "planned",
+          "status": "ready",
           "title": "La vivienda",
           "grammar": [
             "Adjetivo predicativo",
@@ -65,7 +65,7 @@
         },
         {
           "id": "t06",
-          "status": "planned",
+          "status": "ready",
           "title": "La rutina y la hora",
           "grammar": [
             "Verbos separables",
@@ -75,7 +75,7 @@
         },
         {
           "id": "t07",
-          "status": "planned",
+          "status": "ready",
           "title": "Tiempo libre",
           "grammar": [
             "Modales können / wollen",
@@ -85,7 +85,7 @@
         },
         {
           "id": "t08",
-          "status": "planned",
+          "status": "ready",
           "title": "Compras y ropa",
           "grammar": [
             "Precios",

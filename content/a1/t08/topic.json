@@ -1,0 +1,1586 @@
+{
+  "id": "a1-t08",
+  "level": "a1",
+  "topic": "t08",
+  "title": "Compras y ropa",
+  "title_de": "Einkaufen und Kleidung",
+  "goals": [
+    "Nombrar prendas de ropa, tallas y tiendas",
+    "Entender y decir precios, también por encima de 100",
+    "Preguntar y señalar con welch- y dies-",
+    "Sustituir personas y cosas con pronombres en acusativo (mich, dich, ihn, sie, es…)",
+    "Comprar en una tienda: pedir talla, probarse, preguntar el precio y pagar",
+    "Decir si algo te gusta o te queda bien: gefällt mir / passt"
+  ],
+  "vocab": [
+    {
+      "de": "die Kleidung",
+      "es": "la ropa",
+      "cat": "Ropa",
+      "ex": "Ich kaufe Kleidung im Internet.",
+      "ex_es": "Compro ropa por internet."
+    },
+    {
+      "de": "der Pullover",
+      "pl": "die Pullover",
+      "es": "el jersey",
+      "cat": "Ropa",
+      "ex": "Der Pullover ist warm.",
+      "ex_es": "El jersey es calentito."
+    },
+    {
+      "de": "die Hose",
+      "pl": "die Hosen",
+      "es": "el pantalón",
+      "cat": "Ropa",
+      "ex": "Die Hose ist zu lang.",
+      "ex_es": "El pantalón es demasiado largo."
+    },
+    {
+      "de": "das Hemd",
+      "pl": "die Hemden",
+      "es": "la camisa",
+      "cat": "Ropa",
+      "ex": "Das Hemd ist weiß.",
+      "ex_es": "La camisa es blanca."
+    },
+    {
+      "de": "die Bluse",
+      "pl": "die Blusen",
+      "es": "la blusa",
+      "cat": "Ropa",
+      "ex": "Die Bluse gefällt mir.",
+      "ex_es": "Me gusta la blusa."
+    },
+    {
+      "de": "das T-Shirt",
+      "pl": "die T-Shirts",
+      "es": "la camiseta",
+      "cat": "Ropa",
+      "ex": "Das T-Shirt kostet 15 Euro.",
+      "ex_es": "La camiseta cuesta 15 euros."
+    },
+    {
+      "de": "der Rock",
+      "pl": "die Röcke",
+      "es": "la falda",
+      "cat": "Ropa",
+      "ex": "Der Rock ist zu kurz.",
+      "ex_es": "La falda es demasiado corta."
+    },
+    {
+      "de": "das Kleid",
+      "pl": "die Kleider",
+      "es": "el vestido",
+      "cat": "Ropa",
+      "ex": "Das Kleid ist sehr schön.",
+      "ex_es": "El vestido es muy bonito."
+    },
+    {
+      "de": "die Jacke",
+      "pl": "die Jacken",
+      "es": "la chaqueta",
+      "cat": "Ropa",
+      "ex": "Ich suche eine Jacke.",
+      "ex_es": "Busco una chaqueta."
+    },
+    {
+      "de": "der Mantel",
+      "pl": "die Mäntel",
+      "es": "el abrigo",
+      "cat": "Ropa",
+      "ex": "Im Winter brauche ich einen Mantel.",
+      "ex_es": "En invierno necesito un abrigo."
+    },
+    {
+      "de": "der Schuh",
+      "pl": "die Schuhe",
+      "es": "el zapato",
+      "cat": "Ropa",
+      "ex": "Die Schuhe sind zu klein.",
+      "ex_es": "Los zapatos son demasiado pequeños."
+    },
+    {
+      "de": "der Stiefel",
+      "pl": "die Stiefel",
+      "es": "la bota",
+      "cat": "Ropa",
+      "ex": "Die Stiefel sind reduziert.",
+      "ex_es": "Las botas están rebajadas."
+    },
+    {
+      "de": "die Socke",
+      "pl": "die Socken",
+      "es": "el calcetín",
+      "cat": "Ropa",
+      "ex": "Fünf Paar Socken für 10 Euro.",
+      "ex_es": "Cinco pares de calcetines por 10 euros."
+    },
+    {
+      "de": "die Jeans",
+      "pl": "die Jeans",
+      "es": "los vaqueros",
+      "cat": "Ropa",
+      "ex": "Die Jeans passt gut.",
+      "ex_es": "Los vaqueros me quedan bien."
+    },
+    {
+      "de": "die Mütze",
+      "pl": "die Mützen",
+      "es": "el gorro",
+      "cat": "Ropa",
+      "ex": "Die Mütze ist aus Wolle.",
+      "ex_es": "El gorro es de lana."
+    },
+    {
+      "de": "die Tasche",
+      "pl": "die Taschen",
+      "es": "el bolso, la bolsa",
+      "cat": "Ropa",
+      "ex": "Brauchen Sie eine Tasche?",
+      "ex_es": "¿Necesita una bolsa?"
+    },
+    {
+      "de": "die Größe",
+      "pl": "die Größen",
+      "es": "la talla, el tamaño",
+      "cat": "En la tienda",
+      "ex": "Welche Größe haben Sie?",
+      "ex_es": "¿Qué talla tiene?"
+    },
+    {
+      "de": "anprobieren",
+      "es": "probarse (ropa)",
+      "cat": "En la tienda",
+      "forms": "ich probiere an, du probierst an, er probiert an",
+      "ex": "Kann ich die Hose anprobieren?",
+      "ex_es": "¿Puedo probarme el pantalón?"
+    },
+    {
+      "de": "die Umkleidekabine",
+      "pl": "die Umkleidekabinen",
+      "es": "el probador",
+      "cat": "En la tienda",
+      "ex": "Die Umkleidekabine ist dort hinten.",
+      "ex_es": "El probador está allí al fondo."
+    },
+    {
+      "de": "passen",
+      "es": "quedar bien (de talla)",
+      "cat": "En la tienda",
+      "forms": "es passt, sie passen",
+      "ex": "Die Schuhe passen nicht.",
+      "ex_es": "Los zapatos no me quedan bien."
+    },
+    {
+      "de": "gefallen",
+      "es": "gustar",
+      "cat": "En la tienda",
+      "forms": "es gefällt, sie gefallen",
+      "ex": "Das Kleid gefällt mir.",
+      "ex_es": "Me gusta el vestido."
+    },
+    {
+      "de": "kosten",
+      "es": "costar",
+      "cat": "En la tienda",
+      "forms": "es kostet, sie kosten",
+      "ex": "Was kostet der Mantel?",
+      "ex_es": "¿Cuánto cuesta el abrigo?"
+    },
+    {
+      "de": "der Preis",
+      "pl": "die Preise",
+      "es": "el precio",
+      "cat": "En la tienda",
+      "ex": "Der Preis ist gut.",
+      "ex_es": "El precio es bueno."
+    },
+    {
+      "de": "das Angebot",
+      "pl": "die Angebote",
+      "es": "la oferta",
+      "cat": "En la tienda",
+      "ex": "Die Jacken sind im Angebot.",
+      "ex_es": "Las chaquetas están de oferta."
+    },
+    {
+      "de": "reduziert",
+      "es": "rebajado",
+      "cat": "En la tienda",
+      "ex": "Alle Schuhe sind reduziert.",
+      "ex_es": "Todos los zapatos están rebajados."
+    },
+    {
+      "de": "bar",
+      "es": "en efectivo",
+      "cat": "En la tienda",
+      "ex": "Ich zahle bar.",
+      "ex_es": "Pago en efectivo."
+    },
+    {
+      "de": "die Karte",
+      "pl": "die Karten",
+      "es": "la tarjeta",
+      "cat": "En la tienda",
+      "ex": "Kann ich mit Karte zahlen?",
+      "ex_es": "¿Puedo pagar con tarjeta?"
+    },
+    {
+      "de": "das Geld",
+      "es": "el dinero",
+      "cat": "En la tienda",
+      "ex": "Ich habe kein Geld mehr.",
+      "ex_es": "Ya no tengo dinero."
+    },
+    {
+      "de": "der Franken",
+      "pl": "die Franken",
+      "es": "el franco (suizo)",
+      "cat": "En la tienda",
+      "ex": "Das kostet 20 Franken.",
+      "ex_es": "Cuesta 20 francos."
+    },
+    {
+      "de": "der Cent",
+      "pl": "die Cent",
+      "es": "el céntimo",
+      "cat": "En la tienda",
+      "ex": "Das kostet 80 Cent.",
+      "ex_es": "Cuesta 80 céntimos."
+    },
+    {
+      "de": "das Kaufhaus",
+      "pl": "die Kaufhäuser",
+      "es": "los grandes almacenes",
+      "cat": "Tiendas",
+      "ex": "Im Kaufhaus gibt es alles.",
+      "ex_es": "En los grandes almacenes hay de todo."
+    },
+    {
+      "de": "das Geschäft",
+      "pl": "die Geschäfte",
+      "es": "la tienda",
+      "cat": "Tiendas",
+      "ex": "Die Geschäfte sind am Sonntag zu.",
+      "ex_es": "Las tiendas cierran el domingo."
+    },
+    {
+      "de": "die Bäckerei",
+      "pl": "die Bäckereien",
+      "es": "la panadería",
+      "cat": "Tiendas",
+      "ex": "Die Bäckerei öffnet um sechs.",
+      "ex_es": "La panadería abre a las seis."
+    },
+    {
+      "de": "die Apotheke",
+      "pl": "die Apotheken",
+      "es": "la farmacia",
+      "cat": "Tiendas",
+      "ex": "Die Apotheke ist neben der Post.",
+      "ex_es": "La farmacia está junto a Correos."
+    },
+    {
+      "de": "der Markt",
+      "pl": "die Märkte",
+      "es": "el mercado",
+      "cat": "Tiendas",
+      "ex": "Samstags gehe ich auf den Markt.",
+      "ex_es": "Los sábados voy al mercado."
+    },
+    {
+      "de": "offen / geschlossen",
+      "es": "abierto / cerrado",
+      "cat": "Tiendas",
+      "ex": "Das Geschäft ist heute geschlossen.",
+      "ex_es": "La tienda está cerrada hoy."
+    },
+    {
+      "de": "tausend",
+      "es": "mil",
+      "cat": "Números",
+      "ex": "Das Sofa kostet tausend Euro.",
+      "ex_es": "El sofá cuesta mil euros."
+    },
+    {
+      "de": "zweihundert",
+      "es": "doscientos",
+      "cat": "Números",
+      "ex": "Der Mantel kostet zweihundert Franken.",
+      "ex_es": "El abrigo cuesta doscientos francos."
+    },
+    {
+      "de": "welcher / welche / welches",
+      "es": "¿qué? / ¿cuál?",
+      "cat": "Palabras útiles",
+      "ex": "Welcher Pullover gefällt dir?",
+      "ex_es": "¿Qué jersey te gusta?"
+    },
+    {
+      "de": "dieser / diese / dieses",
+      "es": "este / esta / esto",
+      "cat": "Palabras útiles",
+      "ex": "Ich nehme diese Jacke.",
+      "ex_es": "Me llevo esta chaqueta."
+    },
+    {
+      "de": "eng / weit",
+      "es": "estrecho / ancho",
+      "cat": "Adjetivos",
+      "ex": "Die Hose ist zu eng.",
+      "ex_es": "El pantalón es demasiado estrecho."
+    },
+    {
+      "de": "lang / kurz",
+      "es": "largo / corto",
+      "cat": "Adjetivos",
+      "ex": "Der Rock ist zu kurz.",
+      "ex_es": "La falda es demasiado corta."
+    },
+    {
+      "de": "warm",
+      "es": "caliente, abrigado",
+      "cat": "Adjetivos",
+      "ex": "Die Jacke ist sehr warm.",
+      "ex_es": "La chaqueta abriga mucho."
+    },
+    {
+      "de": "bequem",
+      "es": "cómodo",
+      "cat": "Adjetivos",
+      "ex": "Die Schuhe sind bequem.",
+      "ex_es": "Los zapatos son cómodos."
+    },
+    {
+      "de": "helfen",
+      "es": "ayudar",
+      "cat": "Palabras útiles",
+      "forms": "ich helfe, du hilfst, er hilft",
+      "ex": "Kann ich Ihnen helfen?",
+      "ex_es": "¿Puedo ayudarle?"
+    },
+    {
+      "de": "suchen",
+      "es": "buscar",
+      "cat": "Palabras útiles",
+      "forms": "ich suche, du suchst, er sucht",
+      "ex": "Ich suche einen Mantel.",
+      "ex_es": "Busco un abrigo."
+    },
+    {
+      "de": "ihn",
+      "es": "lo, le (a él, masculino)",
+      "cat": "Palabras útiles",
+      "ex": "Der Mantel? Ich nehme ihn.",
+      "ex_es": "¿El abrigo? Me lo llevo."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "La ropa",
+      "instructions": "Relaciona.",
+      "pairs": [
+        [
+          "der Rock",
+          "la falda"
+        ],
+        [
+          "das Hemd",
+          "la camisa"
+        ],
+        [
+          "der Mantel",
+          "el abrigo"
+        ],
+        [
+          "die Hose",
+          "el pantalón"
+        ],
+        [
+          "die Mütze",
+          "el gorro"
+        ],
+        [
+          "die Größe",
+          "la talla"
+        ],
+        [
+          "anprobieren",
+          "probarse"
+        ],
+        [
+          "reduziert",
+          "rebajado"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "dictation",
+      "title": "Precios",
+      "instructions": "Escucha y escribe el precio en cifras (por ejemplo 12,50).",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Der Pullover kostet neunundzwanzig Euro neunzig."
+            }
+          ],
+          "answers": [
+            "29,90",
+            "29.90",
+            "29,90 €",
+            "29,90 Euro"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Die Schuhe kosten hundertzwanzig Euro."
+            }
+          ],
+          "answers": [
+            "120",
+            "120,00",
+            "120 €",
+            "120 Euro"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Das macht sieben Franken fünfzig."
+            }
+          ],
+          "answers": [
+            "7,50",
+            "7.50",
+            "7,50 Fr.",
+            "7,50 Franken"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Der Mantel kostet zweihundertneunundvierzig Euro."
+            }
+          ],
+          "answers": [
+            "249",
+            "249,00",
+            "249 €",
+            "249 Euro"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Die Socken kosten achtzig Cent."
+            }
+          ],
+          "answers": [
+            "0,80",
+            "0.80",
+            "80 Cent",
+            "0,80 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "welch- y dies-",
+      "instructions": "Completa con la terminación correcta de welch- o dies-.",
+      "items": [
+        {
+          "text": "[[Welcher]] Pullover gefällt dir? (der Pullover)"
+        },
+        {
+          "text": "[[Welche]] Jacke nimmst du? (die Jacke)"
+        },
+        {
+          "text": "[[Welches]] Kleid ist billiger? (das Kleid)"
+        },
+        {
+          "text": "Ich nehme [[diesen]] Mantel. (der Mantel, acusativo)"
+        },
+        {
+          "text": "[[Diese]] Schuhe sind zu klein. (plural)"
+        },
+        {
+          "text": "[[Welchen]] Rock möchten Sie? (der Rock, acusativo)"
+        },
+        {
+          "text": "[[Dieses]] T-Shirt kostet nur 10 Euro. (das T-Shirt)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "Pronombres en acusativo",
+      "instructions": "Completa con ihn, sie o es. ¡Piensa en el género alemán!",
+      "items": [
+        {
+          "text": "Der Pullover ist schön. Ich nehme [[ihn]]."
+        },
+        {
+          "text": "Die Jacke ist zu teuer. Ich kaufe [[sie]] nicht."
+        },
+        {
+          "text": "Das Kleid gefällt mir. Kann ich [[es]] anprobieren?"
+        },
+        {
+          "text": "Der Rock ist toll. Ich kaufe [[ihn]]."
+        },
+        {
+          "text": "Die Schuhe? Ich nehme [[sie]]."
+        },
+        {
+          "text": "Wo ist mein Handy? Ich finde [[es]] nicht."
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "mich, dich, uns, euch",
+      "instructions": "Completa con el pronombre en acusativo.",
+      "items": [
+        {
+          "text": "Rufst du [[mich]] morgen an? (a mí)"
+        },
+        {
+          "text": "Ich besuche [[dich]] am Samstag. (a ti)"
+        },
+        {
+          "text": "Kannst du [[uns]] abholen? (a nosotros)"
+        },
+        {
+          "text": "Wir sehen [[euch]] im Kurs. (a vosotros)"
+        },
+        {
+          "text": "Herr Keller, ich rufe [[Sie]] morgen an. (a usted)"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "En la tienda",
+      "instructions": "Elige la frase adecuada.",
+      "items": [
+        {
+          "q": "La dependienta te ofrece ayuda. Buscas un abrigo.",
+          "options": [
+            "Ich suche einen Mantel.",
+            "Ich suche ein Mantel.",
+            "Ich finde einen Mantel."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quieres probarte la chaqueta.",
+          "options": [
+            "Kann ich die Jacke anprobieren?",
+            "Kann ich die Jacke passen?",
+            "Gefällt die Jacke mir?"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "El pantalón no es de tu talla.",
+          "options": [
+            "Die Hose gefällt mir nicht.",
+            "Die Hose passt nicht.",
+            "Die Hose ist nicht teuer."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Te gusta mucho el vestido.",
+          "options": [
+            "Ich gefalle das Kleid.",
+            "Das Kleid gefällt mir sehr gut.",
+            "Das Kleid passt mir gern."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quieres pagar con tarjeta.",
+          "options": [
+            "Bar, bitte.",
+            "Mit Karte, bitte.",
+            "Die Rechnung, bitte."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Decides comprar el jersey (der Pullover).",
+          "options": [
+            "Ich nehme ihn.",
+            "Ich nehme sie.",
+            "Ich nehme er."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Frases de compra",
+      "instructions": "Ordena la frase.",
+      "items": [
+        {
+          "words": [
+            "Was",
+            "kostet",
+            "der",
+            "Mantel",
+            "?"
+          ],
+          "answers": [
+            "Was kostet der Mantel?"
+          ]
+        },
+        {
+          "words": [
+            "Haben",
+            "Sie",
+            "die",
+            "Hose",
+            "in",
+            "Blau",
+            "?"
+          ],
+          "answers": [
+            "Haben Sie die Hose in Blau?"
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "Schuhe",
+            "gefallen",
+            "mir",
+            "."
+          ],
+          "answers": [
+            "Die Schuhe gefallen mir."
+          ]
+        },
+        {
+          "words": [
+            "Kann",
+            "ich",
+            "ihn",
+            "anprobieren",
+            "?"
+          ],
+          "answers": [
+            "Kann ich ihn anprobieren?"
+          ]
+        },
+        {
+          "words": [
+            "Welche",
+            "Größe",
+            "haben",
+            "Sie",
+            "?"
+          ],
+          "answers": [
+            "Welche Größe haben Sie?"
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "nehme",
+            "diesen",
+            "Pullover",
+            "."
+          ],
+          "answers": [
+            "Ich nehme diesen Pullover.",
+            "Diesen Pullover nehme ich."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "De compras",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Tag, kann ich Ihnen helfen?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, ich suche eine Jacke. Größe L."
+            }
+          ],
+          "q": "¿Qué busca el hombre?",
+          "options": [
+            "Un abrigo",
+            "Una chaqueta",
+            "Un jersey"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Was kostet dieses Kleid?"
+            },
+            {
+              "v": "f2",
+              "t": "Es kostet neunundfünfzig Euro. Aber heute ist es reduziert: nur neununddreißig Euro."
+            }
+          ],
+          "q": "¿Cuánto cuesta hoy el vestido?",
+          "options": [
+            "59 €",
+            "39 €",
+            "49 €"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Passt die Hose?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, sie ist zu lang. Haben Sie sie eine Nummer kleiner?"
+            }
+          ],
+          "q": "¿Qué problema tiene el pantalón?",
+          "options": [
+            "Es demasiado largo",
+            "Es demasiado estrecho",
+            "Es demasiado caro"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Wie gefällt dir der Pullover?"
+            },
+            {
+              "v": "m2",
+              "t": "Die Farbe gefällt mir nicht. Ich nehme lieber den Pullover in Grau."
+            }
+          ],
+          "q": "¿Qué no le gusta?",
+          "options": [
+            "El precio",
+            "El color",
+            "La talla"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Entschuldigung, wo finde ich Schuhe?"
+            },
+            {
+              "v": "f1",
+              "t": "Schuhe sind im Erdgeschoss, gleich rechts."
+            }
+          ],
+          "q": "¿Dónde están los zapatos?",
+          "options": [
+            "En la planta baja",
+            "En el primer piso",
+            "En el sótano"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "mc",
+      "title": "¿Qué número es?",
+      "instructions": "Elige la cifra.",
+      "items": [
+        {
+          "q": "dreihundertvierzig",
+          "options": [
+            "304",
+            "340",
+            "430"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "hundertfünfundsiebzig",
+          "options": [
+            "157",
+            "175",
+            "1075"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "zweitausend",
+          "options": [
+            "200",
+            "2000",
+            "20 000"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "achthundertzwölf",
+          "options": [
+            "812",
+            "821",
+            "8012"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "neunzehn Euro neunundneunzig",
+          "options": [
+            "19,99 €",
+            "99,19 €",
+            "90,99 €"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "¿Cuánto cuesta el abrigo?",
+          "answers": [
+            "Was kostet der Mantel?",
+            "Wie viel kostet der Mantel?"
+          ]
+        },
+        {
+          "prompt": "Busco unos zapatos.",
+          "answers": [
+            "Ich suche Schuhe."
+          ]
+        },
+        {
+          "prompt": "¿Puedo probarme el vestido?",
+          "answers": [
+            "Kann ich das Kleid anprobieren?"
+          ]
+        },
+        {
+          "prompt": "El jersey es bonito. Me lo llevo.",
+          "answers": [
+            "Der Pullover ist schön. Ich nehme ihn."
+          ]
+        },
+        {
+          "prompt": "La falda no me gusta.",
+          "answers": [
+            "Der Rock gefällt mir nicht."
+          ]
+        },
+        {
+          "prompt": "¿Qué chaqueta te gusta?",
+          "answers": [
+            "Welche Jacke gefällt dir?"
+          ]
+        },
+        {
+          "prompt": "Pago en efectivo.",
+          "answers": [
+            "Ich zahle bar.",
+            "Ich bezahle bar."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Was kostet die Jacke?",
+          "options": [
+            "79 €",
+            "97 €",
+            "179 €"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Die Jacke ist super! Was kostet sie?"
+            },
+            {
+              "v": "m1",
+              "t": "Neunundsiebzig Euro. Sie ist diese Woche im Angebot."
+            }
+          ]
+        },
+        {
+          "q": "Welche Größe hat die Frau?",
+          "options": [
+            "36",
+            "38",
+            "40"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Welche Größe brauchen Sie?"
+            },
+            {
+              "v": "f1",
+              "t": "Normalerweise sechsunddreißig, aber diese Hose lieber in achtunddreißig."
+            }
+          ]
+        },
+        {
+          "q": "Was kauft der Mann?",
+          "options": [
+            "einen Pullover",
+            "ein Hemd",
+            "eine Hose"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Und? Nehmen Sie den Pullover?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, der ist zu warm. Ich nehme nur das Hemd."
+            }
+          ]
+        },
+        {
+          "q": "Wie bezahlt die Frau?",
+          "options": [
+            "bar",
+            "mit Karte",
+            "mit Handy"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Das macht vierundzwanzig fünfzig. Mit Karte?"
+            },
+            {
+              "v": "f1",
+              "t": "Nein, ich zahle bar. Hier sind dreißig Euro."
+            }
+          ]
+        },
+        {
+          "q": "In welchem Stock ist die Damenmode?",
+          "options": [
+            "Erdgeschoss",
+            "1. Stock",
+            "2. Stock"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Entschuldigung, wo ist die Damenmode?"
+            },
+            {
+              "v": "m1",
+              "t": "Im zweiten Stock. Die Herrenmode ist im ersten Stock."
+            }
+          ]
+        },
+        {
+          "q": "Warum kauft Tom die Schuhe nicht?",
+          "options": [
+            "Sie sind zu teuer.",
+            "Sie sind zu klein.",
+            "Sie gefallen ihm nicht."
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Tom, die Schuhe sind doch schön! Kaufst du sie?"
+            },
+            {
+              "v": "m2",
+              "t": "Sie sind schön, aber zu klein. Und Größe dreiundvierzig gibt es nicht mehr."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Heute sind alle Jacken billiger.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Liebe Kunden, heute im Kaufhaus Merkur: alle Jacken und Mäntel dreißig Prozent billiger! Nur heute!"
+            }
+          ]
+        },
+        {
+          "statement": "Die Kinderabteilung ist im Erdgeschoss.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Besuchen Sie auch unsere Kinderabteilung im dritten Stock. Dort gibt es neue Kleidung für den Winter."
+            }
+          ]
+        },
+        {
+          "statement": "Das Kaufhaus schließt heute um 20 Uhr.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Sehr geehrte Kundinnen und Kunden, unser Kaufhaus schließt heute schon um achtzehn Uhr. Bitte kommen Sie zur Kasse."
+            }
+          ]
+        },
+        {
+          "statement": "Man kann im Café im 4. Stock essen.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Machen Sie eine Pause in unserem Café im vierten Stock. Heute gibt es Kuchen und Kaffee für nur fünf Euro."
+            }
+          ]
+        },
+        {
+          "statement": "Schuhe gibt es heute zum halben Preis.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Achtung, Schnäppchen! In der Schuhabteilung im Erdgeschoss: alle Schuhe fünfzig Prozent billiger."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was soll Lisa kaufen?",
+          "options": [
+            "Socken",
+            "eine Mütze",
+            "Handschuhe"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Lisa, hier ist Mama. Du bist doch in der Stadt. Kaufst du bitte eine Mütze für Max? Seine Mütze ist kaputt. Danke!"
+            }
+          ]
+        },
+        {
+          "q": "Wann kann Herr Ruiz den Anzug abholen?",
+          "options": [
+            "heute",
+            "am Freitag",
+            "am Samstag"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Tag, Herr Ruiz, hier ist Mode Weber. Ihr Anzug ist leider noch nicht fertig. Sie können ihn am Samstag abholen. Auf Wiederhören!"
+            }
+          ]
+        },
+        {
+          "q": "Was kostet der Mantel jetzt?",
+          "options": [
+            "120 €",
+            "80 €",
+            "200 €"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hallo Anna, hier ist Julia. Ich bin im Kaufhaus. Der Mantel, er gefällt dir doch so gut! Er kostet jetzt nur noch achtzig Euro, nicht mehr hundertzwanzig! Ruf mich an!"
+            }
+          ]
+        },
+        {
+          "q": "Wo treffen sich Ben und Tom?",
+          "options": [
+            "vor dem Kaufhaus",
+            "im Café",
+            "am Bahnhof"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hey Tom, hier ist Ben. Ich brauche neue Schuhe. Kommst du mit? Wir treffen uns um drei vor dem Kaufhaus. Bis später!"
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Nina,\n\nich bin gerade im Kaufhaus. Ich suche einen Mantel, aber alle Mäntel sind zu teuer. Aber hier ist eine Jacke – sie ist blau, sehr warm und kostet nur 69 Euro! Morgen gehe ich noch einmal hin, ich brauche Schuhe. Kommst du mit? Die Schuhe sind im Angebot.\n\nLiebe Grüße\nClara",
+          "statements": [
+            {
+              "s": "Clara kauft einen Mantel.",
+              "answer": false
+            },
+            {
+              "s": "Die Jacke ist blau.",
+              "answer": true
+            },
+            {
+              "s": "Die Jacke kostet 96 Euro.",
+              "answer": false
+            },
+            {
+              "s": "Clara geht morgen wieder ins Kaufhaus.",
+              "answer": true
+            },
+            {
+              "s": "Die Schuhe sind billiger.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Liebe Kundinnen und Kunden,\n\nab Montag hat unser Geschäft neue Öffnungszeiten: Montag bis Freitag von 9 bis 19 Uhr, Samstag von 9 bis 16 Uhr. Am Sonntag ist geschlossen. Sie können bei uns bar oder mit Karte zahlen. Umtausch nur mit Kassenbon!\n\nIhr Team von Mode Klein",
+          "statements": [
+            {
+              "s": "Am Samstag ist das Geschäft bis 19 Uhr offen.",
+              "answer": false
+            },
+            {
+              "s": "Am Sonntag ist das Geschäft zu.",
+              "answer": true
+            },
+            {
+              "s": "Man kann nicht mit Karte zahlen.",
+              "answer": false
+            },
+            {
+              "s": "Die neuen Öffnungszeiten beginnen am Montag.",
+              "answer": true
+            },
+            {
+              "s": "Für einen Umtausch braucht man den Kassenbon.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Hi Marco,\n\ndanke für die Einladung zur Hochzeit! Ich brauche aber etwas zum Anziehen. Ich habe kein Hemd und keine schönen Schuhe. Gehst du am Samstag mit mir einkaufen? Du hast doch Geschmack! Um 11 Uhr am Marktplatz?\n\nViele Grüße\nLeo",
+          "statements": [
+            {
+              "s": "Leo geht zu einer Hochzeit.",
+              "answer": true
+            },
+            {
+              "s": "Leo hat ein Hemd.",
+              "answer": false
+            },
+            {
+              "s": "Leo möchte mit Marco einkaufen gehen.",
+              "answer": true
+            },
+            {
+              "s": "Sie treffen sich am Sonntag.",
+              "answer": false
+            },
+            {
+              "s": "Der Treffpunkt ist am Marktplatz.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie brauchen einen Wintermantel, aber Sie haben nicht viel Geld.",
+          "a": "Mode Luxus: Mäntel von Designern ab 800 €",
+          "b": "Second-Hand-Laden: Mäntel und Jacken ab 20 €",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie suchen Sportschuhe.",
+          "a": "Kaufhaus Merkur: Sport – 3. Stock",
+          "b": "Kaufhaus Merkur: Bücher – 3. Stock",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten am Sonntag einkaufen.",
+          "a": "Bahnhofsgeschäfte: täglich 6–22 Uhr, auch sonntags",
+          "b": "Einkaufszentrum: Mo–Sa 9–20 Uhr",
+          "answer": "a"
+        },
+        {
+          "situation": "Ihre Hose ist zu lang. Wer kann Ihnen helfen?",
+          "a": "Schneiderei Nadel: Änderungen und Reparaturen",
+          "b": "Reinigung Blitz: Kleidung waschen in 1 Stunde",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten Kleidung für Ihr Baby kaufen.",
+          "a": "Kaufhaus: Babymode – Erdgeschoss",
+          "b": "Kaufhaus: Herrenmode – 1. Stock",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten Kleidung im Internet bestellen und kostenlos zurückschicken.",
+          "a": "Shop Mode24: Kostenlose Rücksendung!",
+          "b": "Shop Style: Rücksendung 9,90 €",
+          "answer": "a"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Sommerschlussverkauf – alles bis 50 % reduziert!",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Die Sachen sind jetzt billiger.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Umkleidekabinen: maximal 3 Teile",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Man kann fünf Hosen auf einmal anprobieren.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Kasse 3 geschlossen – bitte Kasse 4 benutzen",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Man bezahlt an Kasse 4.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Kartenzahlung ab 10 €",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Für 5 Euro kann man mit Karte zahlen.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Damen 1. OG · Herren 2. OG · Kinder 3. OG",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Die Herrenmode ist im zweiten Stock.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Reduzierte Ware ist vom Umtausch ausgeschlossen.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Reduzierte Kleidung kann man zurückgeben.",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Frau Ramos bestellt im Internet eine Jacke in Größe 38. Die Jacke kommt, aber sie ist zu klein: Frau Ramos braucht Größe 40. Sie möchte die Jacke umtauschen, nicht das Geld zurück. Die Bestellnummer ist 45781.",
+          "title": "Rücksendung – Mode24",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Ramos"
+            },
+            {
+              "label": "Bestellnummer",
+              "answers": [
+                "45781"
+              ]
+            },
+            {
+              "label": "Artikel",
+              "answers": [
+                "Jacke",
+                "eine Jacke"
+              ]
+            },
+            {
+              "label": "Grund",
+              "answers": [
+                "zu klein"
+              ]
+            },
+            {
+              "label": "Neue Größe",
+              "answers": [
+                "40",
+                "vierzig"
+              ]
+            },
+            {
+              "label": "Umtausch oder Geld zurück?",
+              "answers": [
+                "Umtausch"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Jan möchte bei Kaufhaus Merkur eine Kundenkarte. Er heißt Jan Kowalski, ist 31 Jahre alt und wohnt in Bern, Marktgasse 12. Seine E-Mail ist jan.k@post.ch.",
+          "title": "Kundenkarte – Kaufhaus Merkur",
+          "fields": [
+            {
+              "label": "Vorname",
+              "given": "Jan"
+            },
+            {
+              "label": "Familienname",
+              "answers": [
+                "Kowalski"
+              ]
+            },
+            {
+              "label": "Alter",
+              "answers": [
+                "31",
+                "einunddreißig"
+              ]
+            },
+            {
+              "label": "Stadt",
+              "answers": [
+                "Bern"
+              ]
+            },
+            {
+              "label": "Straße",
+              "answers": [
+                "Marktgasse 12",
+                "Marktgasse"
+              ]
+            },
+            {
+              "label": "E-Mail",
+              "answers": [
+                "jan.k@post.ch"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Frau Weber möchte einen Anzug für ihren Mann bestellen. Er trägt Größe 52. Der Anzug soll schwarz sein. Sie möchte ihn im Geschäft abholen, am Freitag.",
+          "title": "Bestellung – Herrenmode Schulz",
+          "fields": [
+            {
+              "label": "Kundin",
+              "given": "Weber"
+            },
+            {
+              "label": "Artikel",
+              "answers": [
+                "Anzug",
+                "ein Anzug"
+              ]
+            },
+            {
+              "label": "Größe",
+              "answers": [
+                "52",
+                "zweiundfünfzig"
+              ]
+            },
+            {
+              "label": "Farbe",
+              "answers": [
+                "schwarz"
+              ]
+            },
+            {
+              "label": "Abholung (Tag)",
+              "answers": [
+                "Freitag",
+                "am Freitag"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Ihr neuer Pullover von Mode Klein ist zu klein. Schreiben Sie dem Geschäft.",
+          "points": [
+            "Welcher Artikel? Welche Größe?",
+            "Was ist das Problem?",
+            "Was möchten Sie? (andere Größe / Geld zurück)"
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nmein Pullover von Mode Klein (Größe M) ist leider zu klein. Haben Sie ihn auch in Größe L? Ich möchte ihn gern umtauschen.\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Ihre Freundin Eva hat bald Geburtstag. Schreiben Sie Ihrer Freundin Sara.",
+          "points": [
+            "Sie möchten mit Sara ein Geschenk kaufen.",
+            "Was möchten Sie kaufen?",
+            "Wann und wo treffen Sie sich?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Sara,\n\nEva hat am Montag Geburtstag! Wollen wir zusammen ein Geschenk kaufen? Ich möchte ihr eine Tasche kaufen. Treffen wir uns am Samstag um elf vor dem Kaufhaus Merkur?\n\nLiebe Grüße\nLaura"
+        },
+        {
+          "task": "Sie gehen am Samstag einkaufen. Ihr Mitbewohner Tom fragt, ob Sie etwas für ihn kaufen können. Schreiben Sie ihm.",
+          "points": [
+            "Sie gehen am Samstag in die Stadt.",
+            "Fragen Sie: Was brauchst du?",
+            "Fragen Sie: Welche Größe / Farbe?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Tom,\n\nich gehe am Samstag in die Stadt einkaufen. Brauchst du auch etwas? Du suchst doch ein T-Shirt, oder? Welche Größe und welche Farbe möchtest du?\n\nBis später\nPablo"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Wohnort?",
+            "Einkaufen?",
+            "Lieblingsfarbe?"
+          ],
+          "extra": "Der Prüfer fragt dann: Kaufen Sie gern Kleidung?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Ich heiße José und wohne in Zürich. Ich kaufe am Samstag im Supermarkt ein. Meine Lieblingsfarbe ist blau. Kleidung kaufe ich nicht so gern, lieber im Internet."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Familie?",
+            "Geschäfte?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wo kaufen Sie Kleidung für Ihre Kinder?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo, ich bin Laura. Ich habe zwei Kinder. Ich kaufe gern auf dem Markt ein, dort gibt es frisches Obst. Kleidung für die Kinder kaufe ich im Kaufhaus, dort ist sie nicht so teuer."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Hobby?",
+            "Kleidung?"
+          ],
+          "extra": "Der Prüfer fragt dann: Was tragen Sie gern?",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Ich heiße Pablo, ich bin fünfundzwanzig. Ich spiele gern Fußball. Ich trage gern Jeans und T-Shirts. Sie sind bequem."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Einkaufen",
+          "word": "Größe",
+          "question": "Welche Größe hast du?",
+          "answer": "Ich habe Größe M."
+        },
+        {
+          "theme": "Einkaufen",
+          "word": "Preis",
+          "question": "Was kostet dein Handy?",
+          "answer": "Es kostet dreihundert Euro."
+        },
+        {
+          "theme": "Einkaufen",
+          "word": "Kaufhaus",
+          "question": "Gehst du gern ins Kaufhaus?",
+          "answer": "Nein, ich kaufe lieber im Internet."
+        },
+        {
+          "theme": "Einkaufen",
+          "word": "Farbe",
+          "question": "Welche Farbe gefällt dir?",
+          "answer": "Blau gefällt mir sehr gut."
+        },
+        {
+          "theme": "Einkaufen",
+          "word": "Schuhe",
+          "question": "Wie viele Schuhe hast du?",
+          "answer": "Ich habe fünf Paar Schuhe."
+        },
+        {
+          "theme": "Einkaufen",
+          "word": "bar / Karte",
+          "question": "Zahlst du bar oder mit Karte?",
+          "answer": "Ich zahle meistens mit Karte."
+        }
+      ]
+    }
+  }
+}

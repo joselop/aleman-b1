@@ -1,0 +1,1630 @@
+{
+  "id": "a1-t05",
+  "level": "a1",
+  "topic": "t05",
+  "title": "La vivienda",
+  "title_de": "Wohnen",
+  "goals": [
+    "Nombrar las habitaciones, los muebles y los colores",
+    "Describir tu casa con adjetivos detrás de sein y finden",
+    "Decir lo que hay con es gibt + acusativo",
+    "Negar correctamente con nicht o kein y colocar nicht en la frase",
+    "Contestar doch a una pregunta negativa",
+    "Entender anuncios de pisos con sus abreviaturas"
+  ],
+  "vocab": [
+    {
+      "de": "die Wohnung",
+      "pl": "die Wohnungen",
+      "es": "el piso, la vivienda",
+      "cat": "Casa",
+      "ex": "Die Wohnung ist hell.",
+      "ex_es": "El piso es luminoso."
+    },
+    {
+      "de": "das Haus",
+      "pl": "die Häuser",
+      "es": "la casa, el edificio",
+      "cat": "Casa",
+      "ex": "Das Haus hat einen Garten.",
+      "ex_es": "La casa tiene jardín."
+    },
+    {
+      "de": "das Zimmer",
+      "pl": "die Zimmer",
+      "es": "la habitación",
+      "cat": "Casa",
+      "ex": "Die Wohnung hat drei Zimmer.",
+      "ex_es": "El piso tiene tres habitaciones."
+    },
+    {
+      "de": "die Küche",
+      "pl": "die Küchen",
+      "es": "la cocina",
+      "cat": "Casa",
+      "ex": "Die Küche ist klein.",
+      "ex_es": "La cocina es pequeña."
+    },
+    {
+      "de": "das Bad",
+      "pl": "die Bäder",
+      "es": "el baño",
+      "cat": "Casa",
+      "ex": "Das Bad ist neu.",
+      "ex_es": "El baño es nuevo."
+    },
+    {
+      "de": "das Wohnzimmer",
+      "pl": "die Wohnzimmer",
+      "es": "el salón",
+      "cat": "Casa",
+      "ex": "Im Wohnzimmer steht ein Sofa.",
+      "ex_es": "En el salón hay un sofá."
+    },
+    {
+      "de": "das Schlafzimmer",
+      "pl": "die Schlafzimmer",
+      "es": "el dormitorio",
+      "cat": "Casa",
+      "ex": "Das Schlafzimmer ist ruhig.",
+      "ex_es": "El dormitorio es tranquilo."
+    },
+    {
+      "de": "der Balkon",
+      "pl": "die Balkone",
+      "es": "el balcón",
+      "cat": "Casa",
+      "ex": "Gibt es einen Balkon?",
+      "ex_es": "¿Hay balcón?"
+    },
+    {
+      "de": "der Garten",
+      "pl": "die Gärten",
+      "es": "el jardín",
+      "cat": "Casa",
+      "ex": "Wir haben keinen Garten.",
+      "ex_es": "No tenemos jardín."
+    },
+    {
+      "de": "der Keller",
+      "pl": "die Keller",
+      "es": "el sótano, el trastero",
+      "cat": "Casa",
+      "ex": "Die Waschmaschine ist im Keller.",
+      "ex_es": "La lavadora está en el sótano."
+    },
+    {
+      "de": "der Aufzug",
+      "pl": "die Aufzüge",
+      "es": "el ascensor",
+      "cat": "Casa",
+      "ex": "Im Haus gibt es keinen Aufzug.",
+      "ex_es": "En el edificio no hay ascensor."
+    },
+    {
+      "de": "das Erdgeschoss",
+      "es": "la planta baja",
+      "cat": "Casa",
+      "ex": "Ich wohne im Erdgeschoss.",
+      "ex_es": "Vivo en la planta baja."
+    },
+    {
+      "de": "der Stock",
+      "es": "la planta, el piso (altura)",
+      "cat": "Casa",
+      "ex": "Die Wohnung ist im dritten Stock.",
+      "ex_es": "El piso está en la tercera planta."
+    },
+    {
+      "de": "die Miete",
+      "pl": "die Mieten",
+      "es": "el alquiler",
+      "cat": "Casa",
+      "ex": "Die Miete ist sehr hoch.",
+      "ex_es": "El alquiler es muy alto."
+    },
+    {
+      "de": "die Nebenkosten",
+      "es": "los gastos (agua, calefacción…)",
+      "cat": "Casa",
+      "ex": "Die Nebenkosten sind 200 Franken.",
+      "ex_es": "Los gastos son 200 francos."
+    },
+    {
+      "de": "der Quadratmeter (m²)",
+      "pl": "die Quadratmeter",
+      "es": "el metro cuadrado",
+      "cat": "Casa",
+      "ex": "Die Wohnung hat 70 Quadratmeter.",
+      "ex_es": "El piso tiene 70 metros cuadrados."
+    },
+    {
+      "de": "die WG (Wohngemeinschaft)",
+      "pl": "die WGs",
+      "es": "el piso compartido",
+      "cat": "Casa",
+      "ex": "Ich wohne in einer WG.",
+      "ex_es": "Vivo en un piso compartido."
+    },
+    {
+      "de": "der Tisch",
+      "pl": "die Tische",
+      "es": "la mesa",
+      "cat": "Muebles",
+      "ex": "Der Tisch ist aus Holz.",
+      "ex_es": "La mesa es de madera."
+    },
+    {
+      "de": "der Stuhl",
+      "pl": "die Stühle",
+      "es": "la silla",
+      "cat": "Muebles",
+      "ex": "Wir brauchen vier Stühle.",
+      "ex_es": "Necesitamos cuatro sillas."
+    },
+    {
+      "de": "das Sofa",
+      "pl": "die Sofas",
+      "es": "el sofá",
+      "cat": "Muebles",
+      "ex": "Das Sofa ist sehr bequem.",
+      "ex_es": "El sofá es muy cómodo."
+    },
+    {
+      "de": "das Bett",
+      "pl": "die Betten",
+      "es": "la cama",
+      "cat": "Muebles",
+      "ex": "Das Bett ist zu klein.",
+      "ex_es": "La cama es demasiado pequeña."
+    },
+    {
+      "de": "der Schrank",
+      "pl": "die Schränke",
+      "es": "el armario",
+      "cat": "Muebles",
+      "ex": "Der Schrank ist weiß.",
+      "ex_es": "El armario es blanco."
+    },
+    {
+      "de": "das Regal",
+      "pl": "die Regale",
+      "es": "la estantería",
+      "cat": "Muebles",
+      "ex": "Im Regal sind viele Bücher.",
+      "ex_es": "En la estantería hay muchos libros."
+    },
+    {
+      "de": "die Lampe",
+      "pl": "die Lampen",
+      "es": "la lámpara",
+      "cat": "Muebles",
+      "ex": "Die Lampe ist neu.",
+      "ex_es": "La lámpara es nueva."
+    },
+    {
+      "de": "der Kühlschrank",
+      "pl": "die Kühlschränke",
+      "es": "la nevera",
+      "cat": "Muebles",
+      "ex": "Der Kühlschrank ist leer.",
+      "ex_es": "La nevera está vacía."
+    },
+    {
+      "de": "der Herd",
+      "pl": "die Herde",
+      "es": "la cocina (fuegos)",
+      "cat": "Muebles",
+      "ex": "Der Herd ist kaputt.",
+      "ex_es": "La cocina está estropeada."
+    },
+    {
+      "de": "die Waschmaschine",
+      "pl": "die Waschmaschinen",
+      "es": "la lavadora",
+      "cat": "Muebles",
+      "ex": "Gibt es eine Waschmaschine?",
+      "ex_es": "¿Hay lavadora?"
+    },
+    {
+      "de": "groß / klein",
+      "es": "grande / pequeño",
+      "cat": "Adjetivos",
+      "ex": "Das Zimmer ist klein.",
+      "ex_es": "La habitación es pequeña."
+    },
+    {
+      "de": "hell / dunkel",
+      "es": "luminoso / oscuro",
+      "cat": "Adjetivos",
+      "ex": "Die Küche ist dunkel.",
+      "ex_es": "La cocina es oscura."
+    },
+    {
+      "de": "neu / alt",
+      "es": "nuevo / viejo",
+      "cat": "Adjetivos",
+      "ex": "Das Haus ist sehr alt.",
+      "ex_es": "La casa es muy antigua."
+    },
+    {
+      "de": "schön / hässlich",
+      "es": "bonito / feo",
+      "cat": "Adjetivos",
+      "ex": "Ich finde die Lampe hässlich.",
+      "ex_es": "La lámpara me parece fea."
+    },
+    {
+      "de": "teuer / billig",
+      "es": "caro / barato",
+      "cat": "Adjetivos",
+      "ex": "Die Wohnung ist zu teuer.",
+      "ex_es": "El piso es demasiado caro."
+    },
+    {
+      "de": "günstig",
+      "es": "económico, asequible",
+      "cat": "Adjetivos",
+      "ex": "Die Miete ist günstig.",
+      "ex_es": "El alquiler es económico."
+    },
+    {
+      "de": "ruhig / laut",
+      "es": "tranquilo / ruidoso",
+      "cat": "Adjetivos",
+      "ex": "Die Straße ist sehr laut.",
+      "ex_es": "La calle es muy ruidosa."
+    },
+    {
+      "de": "gemütlich",
+      "es": "acogedor",
+      "cat": "Adjetivos",
+      "ex": "Das Wohnzimmer ist gemütlich.",
+      "ex_es": "El salón es acogedor."
+    },
+    {
+      "de": "zentral",
+      "es": "céntrico",
+      "cat": "Adjetivos",
+      "ex": "Die Wohnung liegt zentral.",
+      "ex_es": "El piso está en el centro."
+    },
+    {
+      "de": "bequem",
+      "es": "cómodo",
+      "cat": "Adjetivos",
+      "ex": "Der Sessel ist bequem.",
+      "ex_es": "El sillón es cómodo."
+    },
+    {
+      "de": "kaputt",
+      "es": "roto, estropeado",
+      "cat": "Adjetivos",
+      "ex": "Die Lampe ist kaputt.",
+      "ex_es": "La lámpara está rota."
+    },
+    {
+      "de": "frei",
+      "es": "libre, disponible",
+      "cat": "Adjetivos",
+      "ex": "Die Wohnung ist ab sofort frei.",
+      "ex_es": "El piso está disponible ya."
+    },
+    {
+      "de": "die Farbe",
+      "pl": "die Farben",
+      "es": "el color",
+      "cat": "Colores",
+      "ex": "Welche Farbe hat das Sofa?",
+      "ex_es": "¿De qué color es el sofá?"
+    },
+    {
+      "de": "rot / blau / grün / gelb",
+      "es": "rojo / azul / verde / amarillo",
+      "cat": "Colores",
+      "ex": "Das Sofa ist rot.",
+      "ex_es": "El sofá es rojo."
+    },
+    {
+      "de": "schwarz / weiß / grau / braun",
+      "es": "negro / blanco / gris / marrón",
+      "cat": "Colores",
+      "ex": "Der Tisch ist braun.",
+      "ex_es": "La mesa es marrón."
+    },
+    {
+      "de": "es gibt",
+      "es": "hay",
+      "cat": "Palabras útiles",
+      "ex": "Es gibt einen Balkon.",
+      "ex_es": "Hay un balcón."
+    },
+    {
+      "de": "nicht",
+      "es": "no",
+      "cat": "Palabras útiles",
+      "ex": "Die Wohnung ist nicht groß.",
+      "ex_es": "El piso no es grande."
+    },
+    {
+      "de": "doch",
+      "es": "sí (a una pregunta negativa)",
+      "cat": "Palabras útiles",
+      "ex": "Hast du keinen Balkon? – Doch!",
+      "ex_es": "¿No tienes balcón? – ¡Sí!"
+    },
+    {
+      "de": "ziemlich",
+      "es": "bastante",
+      "cat": "Palabras útiles",
+      "ex": "Das Zimmer ist ziemlich klein.",
+      "ex_es": "La habitación es bastante pequeña."
+    },
+    {
+      "de": "zu",
+      "es": "demasiado",
+      "cat": "Palabras útiles",
+      "ex": "Das ist zu teuer.",
+      "ex_es": "Es demasiado caro."
+    },
+    {
+      "de": "finden",
+      "es": "encontrar; parecer (opinión)",
+      "cat": "Palabras útiles",
+      "forms": "ich finde, du findest, er findet",
+      "ex": "Wie findest du die Wohnung?",
+      "ex_es": "¿Qué te parece el piso?"
+    },
+    {
+      "de": "suchen",
+      "es": "buscar",
+      "cat": "Palabras útiles",
+      "forms": "ich suche, du suchst, er sucht",
+      "ex": "Ich suche eine Wohnung.",
+      "ex_es": "Busco piso."
+    },
+    {
+      "de": "mieten",
+      "es": "alquilar",
+      "cat": "Palabras útiles",
+      "forms": "ich miete, du mietest, er mietet",
+      "ex": "Wir möchten die Wohnung mieten.",
+      "ex_es": "Queremos alquilar el piso."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Casa y muebles",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "das Schlafzimmer",
+          "el dormitorio"
+        ],
+        [
+          "der Kühlschrank",
+          "la nevera"
+        ],
+        [
+          "der Schrank",
+          "el armario"
+        ],
+        [
+          "der Aufzug",
+          "el ascensor"
+        ],
+        [
+          "die Miete",
+          "el alquiler"
+        ],
+        [
+          "das Erdgeschoss",
+          "la planta baja"
+        ],
+        [
+          "gemütlich",
+          "acogedor"
+        ],
+        [
+          "hell",
+          "luminoso"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "Lo contrario",
+      "instructions": "Elige el adjetivo contrario.",
+      "items": [
+        {
+          "q": "groß",
+          "options": [
+            "klein",
+            "alt",
+            "laut"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "hell",
+          "options": [
+            "hässlich",
+            "dunkel",
+            "billig"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "teuer",
+          "options": [
+            "neu",
+            "ruhig",
+            "billig"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "laut",
+          "options": [
+            "ruhig",
+            "groß",
+            "schön"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "neu",
+          "options": [
+            "klein",
+            "alt",
+            "dunkel"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "schön",
+          "options": [
+            "gemütlich",
+            "hässlich",
+            "zentral"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "es gibt + acusativo",
+      "instructions": "Completa con ein, eine, einen, kein, keine o keinen.",
+      "items": [
+        {
+          "text": "In der Wohnung gibt es [[einen]] Balkon. (der Balkon)"
+        },
+        {
+          "text": "Gibt es hier [[eine]] Waschmaschine? (die Waschmaschine)"
+        },
+        {
+          "text": "Im Haus gibt es [[keinen]] Aufzug. (der Aufzug, no hay)"
+        },
+        {
+          "text": "Es gibt [[ein]] Bad und zwei Schlafzimmer. (das Bad)"
+        },
+        {
+          "text": "Leider gibt es [[keine]] Garage. (die Garage, no hay)"
+        },
+        {
+          "text": "In der Küche gibt es [[keinen]] Kühlschrank. (no hay)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "¿nicht o kein?",
+      "instructions": "Elige la negación correcta.",
+      "items": [
+        {
+          "q": "Die Wohnung ist ___ teuer.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 0,
+          "explain": "Adjetivo → nicht."
+        },
+        {
+          "q": "Wir haben ___ Garten.",
+          "options": [
+            "nicht",
+            "keinen",
+            "keine"
+          ],
+          "answer": 1,
+          "explain": "Sustantivo sin artículo determinado → kein; masculino en acusativo → keinen."
+        },
+        {
+          "q": "Ich wohne ___ in Berlin.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Das ist ___ Küche, das ist das Bad.",
+          "options": [
+            "nicht",
+            "keine",
+            "kein"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Das ist ___ mein Zimmer.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 0,
+          "explain": "Con posesivo → nicht."
+        },
+        {
+          "q": "Ich verstehe das ___.",
+          "options": [
+            "nicht",
+            "kein",
+            "keinen"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Im Zimmer gibt es ___ Lampe.",
+          "options": [
+            "nicht",
+            "keine",
+            "keinen"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "order",
+      "title": "¿Dónde va nicht?",
+      "instructions": "Ordena la frase negativa.",
+      "items": [
+        {
+          "words": [
+            "Die",
+            "Wohnung",
+            "ist",
+            "nicht",
+            "hell",
+            "."
+          ],
+          "answers": [
+            "Die Wohnung ist nicht hell."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "verstehe",
+            "das",
+            "nicht",
+            "."
+          ],
+          "answers": [
+            "Ich verstehe das nicht."
+          ]
+        },
+        {
+          "words": [
+            "Er",
+            "wohnt",
+            "nicht",
+            "in",
+            "Zürich",
+            "."
+          ],
+          "answers": [
+            "Er wohnt nicht in Zürich."
+          ]
+        },
+        {
+          "words": [
+            "Anna",
+            "kommt",
+            "heute",
+            "nicht",
+            "."
+          ],
+          "answers": [
+            "Anna kommt heute nicht.",
+            "Heute kommt Anna nicht."
+          ]
+        },
+        {
+          "words": [
+            "Das",
+            "ist",
+            "nicht",
+            "mein",
+            "Sofa",
+            "."
+          ],
+          "answers": [
+            "Das ist nicht mein Sofa."
+          ]
+        },
+        {
+          "words": [
+            "Im",
+            "Haus",
+            "gibt",
+            "es",
+            "keinen",
+            "Aufzug",
+            "."
+          ],
+          "answers": [
+            "Im Haus gibt es keinen Aufzug.",
+            "Es gibt im Haus keinen Aufzug."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "ja, nein o doch",
+      "instructions": "Elige la respuesta correcta.",
+      "items": [
+        {
+          "q": "Hast du keinen Balkon? (Sí tengo balcón.)",
+          "options": [
+            "Ja, ich habe einen Balkon.",
+            "Doch, ich habe einen Balkon.",
+            "Nein, ich habe einen Balkon."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Hast du einen Garten? (No tengo.)",
+          "options": [
+            "Doch, ich habe keinen.",
+            "Nein, ich habe keinen Garten.",
+            "Ja, keinen."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Ist die Wohnung nicht zu teuer? (Sí, lo es.)",
+          "options": [
+            "Doch, sie ist zu teuer.",
+            "Ja, sie ist nicht teuer.",
+            "Nein, sie ist zu teuer."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Wohnst du in Basel? (Sí.)",
+          "options": [
+            "Doch.",
+            "Ja.",
+            "Nein."
+          ],
+          "answer": 1,
+          "explain": "La pregunta es positiva: se contesta con ja."
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "gap",
+      "title": "Describe el piso",
+      "instructions": "Completa con el adjetivo contrario al que está entre paréntesis.",
+      "items": [
+        {
+          "text": "Das Wohnzimmer ist nicht klein, es ist [[groß]]."
+        },
+        {
+          "text": "Die Küche ist nicht hell, sie ist [[dunkel]]."
+        },
+        {
+          "text": "Die Straße ist nicht ruhig, sie ist [[laut]]."
+        },
+        {
+          "text": "Das Sofa ist nicht neu, es ist [[alt]]."
+        },
+        {
+          "text": "Die Miete ist nicht billig, sie ist [[teuer]]."
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "Buscando piso",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wie ist deine neue Wohnung?"
+            },
+            {
+              "v": "m1",
+              "t": "Sie ist klein, aber sehr hell. Und es gibt einen Balkon!"
+            }
+          ],
+          "q": "¿Cómo es el piso?",
+          "options": [
+            "Grande y luminoso",
+            "Pequeño y oscuro",
+            "Pequeño y luminoso"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Wie viele Zimmer hat die Wohnung?"
+            },
+            {
+              "v": "f2",
+              "t": "Drei Zimmer, eine Küche und ein Bad. Die Miete ist tausendzweihundert Euro."
+            }
+          ],
+          "q": "¿Cuántas habitaciones tiene?",
+          "options": [
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Gibt es im Haus einen Aufzug?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, leider nicht. Und die Wohnung ist im vierten Stock."
+            }
+          ],
+          "q": "¿Qué problema tiene el piso?",
+          "options": [
+            "No hay ascensor",
+            "Es muy caro",
+            "Es ruidoso"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Welche Farbe hat dein Sofa?"
+            },
+            {
+              "v": "f2",
+              "t": "Mein Sofa ist grau, und der Teppich ist rot."
+            }
+          ],
+          "q": "¿De qué color es el sofá?",
+          "options": [
+            "Rojo",
+            "Gris",
+            "Azul"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wohnst du nicht mehr in der WG?"
+            },
+            {
+              "v": "m2",
+              "t": "Doch, ich wohne noch in der WG. Aber ich suche eine Wohnung."
+            }
+          ],
+          "q": "¿Dónde vive ahora el hombre?",
+          "options": [
+            "En un piso compartido",
+            "Solo en un piso",
+            "En casa de sus padres"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Die Küche ist sehr klein."
+            }
+          ],
+          "answers": [
+            "Die Küche ist sehr klein."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Es gibt keinen Balkon."
+            }
+          ],
+          "answers": [
+            "Es gibt keinen Balkon."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Das Sofa ist blau."
+            }
+          ],
+          "answers": [
+            "Das Sofa ist blau."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Die Wohnung ist nicht teuer."
+            }
+          ],
+          "answers": [
+            "Die Wohnung ist nicht teuer."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Ich suche eine Wohnung."
+            }
+          ],
+          "answers": [
+            "Ich suche eine Wohnung."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "El piso es grande y luminoso.",
+          "answers": [
+            "Die Wohnung ist groß und hell."
+          ]
+        },
+        {
+          "prompt": "No hay ascensor.",
+          "answers": [
+            "Es gibt keinen Aufzug."
+          ]
+        },
+        {
+          "prompt": "No vivo en Zúrich.",
+          "answers": [
+            "Ich wohne nicht in Zürich."
+          ]
+        },
+        {
+          "prompt": "¿Hay lavadora?",
+          "answers": [
+            "Gibt es eine Waschmaschine?"
+          ]
+        },
+        {
+          "prompt": "El alquiler es demasiado caro.",
+          "answers": [
+            "Die Miete ist zu teuer."
+          ]
+        },
+        {
+          "prompt": "¿Qué te parece el piso?",
+          "answers": [
+            "Wie findest du die Wohnung?"
+          ]
+        },
+        {
+          "prompt": "¿No tienes jardín? – ¡Sí!",
+          "answers": [
+            "Hast du keinen Garten? – Doch!",
+            "Hast du keinen Garten? Doch!",
+            "Hast du keinen Garten? - Doch!"
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wie viele Zimmer hat die Wohnung?",
+          "options": [
+            "zwei",
+            "drei",
+            "vier"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Ist das eine Drei-Zimmer-Wohnung?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, sie hat zwei Zimmer: ein Wohnzimmer und ein Schlafzimmer. Und natürlich Küche und Bad."
+            }
+          ]
+        },
+        {
+          "q": "Wie hoch ist die Miete?",
+          "options": [
+            "850 €",
+            "580 €",
+            "950 €"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Und wie viel kostet die Wohnung?"
+            },
+            {
+              "v": "f2",
+              "t": "Die Miete ist achthundertfünfzig Euro, mit Nebenkosten."
+            }
+          ]
+        },
+        {
+          "q": "In welchem Stock wohnt Julia?",
+          "options": [
+            "im Erdgeschoss",
+            "im ersten Stock",
+            "im fünften Stock"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Julia, wohnst du im Erdgeschoss?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, im fünften Stock. Aber es gibt einen Aufzug."
+            }
+          ]
+        },
+        {
+          "q": "Was ist kaputt?",
+          "options": [
+            "der Kühlschrank",
+            "die Waschmaschine",
+            "der Herd"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Herr Braun, die Waschmaschine ist kaputt."
+            },
+            {
+              "v": "m2",
+              "t": "Schon wieder? Gut, ich rufe morgen den Techniker an."
+            }
+          ]
+        },
+        {
+          "q": "Wie findet Max die Wohnung?",
+          "options": [
+            "zu laut",
+            "zu teuer",
+            "zu klein"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Und, Max? Wie findest du die Wohnung? Sie ist schön und ruhig, oder?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, schön ist sie. Aber zweitausend Franken – das ist zu teuer für mich."
+            }
+          ]
+        },
+        {
+          "q": "Welche Farbe hat der Schrank?",
+          "options": [
+            "weiß",
+            "braun",
+            "schwarz"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Den Schrank gibt es in Braun und in Weiß. Welche Farbe nehmen wir?"
+            },
+            {
+              "v": "f1",
+              "t": "Weiß, bitte. Das Zimmer ist so dunkel."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Im Möbelhaus gibt es heute Sofas billiger.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Liebe Kunden, heute im Möbelhaus Wohnwelt: alle Sofas zwanzig Prozent billiger! Sie finden die Sofas im ersten Stock."
+            }
+          ]
+        },
+        {
+          "statement": "Die Lampen sind im Erdgeschoss.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Willkommen bei Wohnwelt. Küchen und Tische finden Sie im Erdgeschoss, Lampen und Teppiche im zweiten Stock."
+            }
+          ]
+        },
+        {
+          "statement": "Der Aufzug funktioniert heute nicht.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Achtung, liebe Bewohner: Der Aufzug ist heute kaputt. Bitte nehmen Sie die Treppe. Danke."
+            }
+          ]
+        },
+        {
+          "statement": "Die Besichtigung der Wohnung ist um 17 Uhr.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hier ist die Hausverwaltung. Die Besichtigung der Wohnung in der Bahnhofstraße ist heute um sechzehn Uhr, nicht um siebzehn Uhr."
+            }
+          ]
+        },
+        {
+          "statement": "Das Möbelhaus ist am Samstag geschlossen.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Unser Möbelhaus ist von Montag bis Samstag von neun bis zwanzig Uhr für Sie geöffnet. Am Sonntag ist geschlossen."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wie ist die Wohnung?",
+          "options": [
+            "groß und hell",
+            "klein und dunkel",
+            "klein, aber hell"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Mama, hier ist Clara. Ich habe eine Wohnung! Sie ist klein, nur ein Zimmer, aber sehr hell. Und nicht teuer! Tschüss!"
+            }
+          ]
+        },
+        {
+          "q": "Was braucht Tom noch?",
+          "options": [
+            "ein Bett",
+            "einen Tisch",
+            "ein Sofa"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hi Paul, hier ist Tom. Die neue Wohnung ist super! Ein Bett und ein Sofa habe ich schon. Aber ich brauche noch einen Tisch. Hast du einen? Ruf mich an!"
+            }
+          ]
+        },
+        {
+          "q": "Wann ist die Besichtigung?",
+          "options": [
+            "heute",
+            "morgen",
+            "am Samstag"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Tag, Herr López, hier ist Frau Huber von der Hausverwaltung. Sie möchten die Wohnung sehen? Morgen um zehn Uhr ist gut. Auf Wiederhören!"
+            }
+          ]
+        },
+        {
+          "q": "Warum ruft der Nachbar an?",
+          "options": [
+            "Die Musik ist zu laut.",
+            "Die Heizung ist kaputt.",
+            "Der Hund ist im Garten."
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Guten Abend, hier ist Klaus Meier, Ihr Nachbar aus dem ersten Stock. Ihre Musik ist sehr laut. Es ist schon elf Uhr. Bitte etwas leiser. Danke."
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Sofia,\n\nich wohne jetzt in Bern! Meine Wohnung ist im dritten Stock. Sie hat zwei Zimmer, eine kleine Küche und ein Bad. Das Wohnzimmer ist groß und hell. Einen Balkon gibt es leider nicht, aber im Haus gibt es einen Garten. Die Miete ist nicht billig: 1600 Franken.\n\nLiebe Grüße\nDaniel",
+          "statements": [
+            {
+              "s": "Daniels Wohnung ist im Erdgeschoss.",
+              "answer": false
+            },
+            {
+              "s": "Die Wohnung hat zwei Zimmer.",
+              "answer": true
+            },
+            {
+              "s": "Die Wohnung hat einen Balkon.",
+              "answer": false
+            },
+            {
+              "s": "Im Haus gibt es einen Garten.",
+              "answer": true
+            },
+            {
+              "s": "Daniel findet die Miete günstig.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Liebe Mieterinnen und Mieter,\n\nam Montag kommt der Techniker. Die Waschmaschinen im Keller sind dann von 8 bis 12 Uhr nicht frei. Am Nachmittag können Sie wieder waschen. Bitte stellen Sie keine Fahrräder in den Flur!\n\nIhre Hausverwaltung",
+          "statements": [
+            {
+              "s": "Die Waschmaschinen sind im Keller.",
+              "answer": true
+            },
+            {
+              "s": "Am Montagvormittag kann man nicht waschen.",
+              "answer": true
+            },
+            {
+              "s": "Der Techniker kommt am Dienstag.",
+              "answer": false
+            },
+            {
+              "s": "Fahrräder dürfen im Flur stehen.",
+              "answer": false
+            },
+            {
+              "s": "Am Montagnachmittag sind die Maschinen frei.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Hi Jonas,\n\nich wohne jetzt in einer WG mit Lena und Ali. Mein Zimmer ist klein, aber gemütlich. Die Küche und das Bad sind für alle. Die Wohnung ist sehr zentral, aber die Straße ist laut. Mein Zimmer kostet 700 Euro. Kommst du mal?\n\nBis bald\nMia",
+          "statements": [
+            {
+              "s": "Mia wohnt allein.",
+              "answer": false
+            },
+            {
+              "s": "Mias Zimmer ist groß.",
+              "answer": false
+            },
+            {
+              "s": "Die Wohnung ist im Zentrum.",
+              "answer": true
+            },
+            {
+              "s": "Die Straße ist ruhig.",
+              "answer": false
+            },
+            {
+              "s": "Mia bezahlt 700 Euro für ihr Zimmer.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie suchen eine Wohnung mit Balkon.",
+          "a": "2 Zi., Kü., Bad, Balkon, 55 m², 980 € warm",
+          "b": "2 Zi., Kü., Bad, EG, 50 m², 890 € warm",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie haben drei Kinder und brauchen eine große Wohnung.",
+          "a": "1-Zi.-Wohnung, 35 m², zentral, ab sofort frei",
+          "b": "5-Zi.-Wohnung, 120 m², Garten, ruhig",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie sind Student und haben wenig Geld.",
+          "a": "WG-Zimmer, 16 m², 450 € warm",
+          "b": "Penthouse, 3 Zi., Dachterrasse, 3200 €",
+          "answer": "a"
+        },
+        {
+          "situation": "Ihre Mutter ist 82. Sie sucht eine Wohnung mit Aufzug.",
+          "a": "2 Zi., 4. OG, kein Aufzug, günstig",
+          "b": "2 Zi., 3. OG, mit Aufzug, ruhig",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie brauchen ein Sofa, aber möchten nicht viel bezahlen.",
+          "a": "Möbelhaus Luxus: Designer-Sofas ab 2500 €",
+          "b": "Flohmarkt am Samstag: gebrauchte Möbel sehr günstig",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie möchten ab sofort eine Wohnung mieten.",
+          "a": "3-Zi.-Wohnung, frei ab 1. Januar",
+          "b": "3-Zi.-Wohnung, ab sofort frei",
+          "answer": "b"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Hausordnung: Ruhezeit von 22 bis 7 Uhr",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Um 23 Uhr darf man laut Musik hören.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Aufzug außer Betrieb – bitte Treppe benutzen",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der Aufzug funktioniert nicht.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Waschküche: Montag – Samstag, 7–20 Uhr",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Am Sonntag kann man in der Waschküche waschen.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Zu vermieten: 3-Zimmer-Wohnung, 2. Stock. Info: Tel. 031 222 33 44",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Hier kann man eine Wohnung mieten.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Möbel Schmidt – Alles 30 % billiger! Nur bis Samstag.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Die Möbel sind am Sonntag noch billiger.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Keller – nur für Mieter",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Die Mieter dürfen in den Keller.",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Herr und Frau Novak suchen eine Wohnung in Zürich. Sie haben ein Kind. Sie möchten drei Zimmer und einen Balkon. Die Miete darf maximal 2500 Franken sein. Ihre Telefonnummer ist 044 567 89 10.",
+          "title": "Wohnungssuche – Formular",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Novak"
+            },
+            {
+              "label": "Personen",
+              "answers": [
+                "3",
+                "drei"
+              ]
+            },
+            {
+              "label": "Zimmer",
+              "answers": [
+                "3",
+                "drei"
+              ]
+            },
+            {
+              "label": "Balkon (ja / nein)",
+              "answers": [
+                "ja"
+              ]
+            },
+            {
+              "label": "Miete maximal",
+              "answers": [
+                "2500",
+                "2500 Franken",
+                "2500 Fr.",
+                "CHF 2500"
+              ]
+            },
+            {
+              "label": "Telefon",
+              "answers": [
+                "044 567 89 10"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Sie sind Hausmeister. Frau Lang aus dem 2. Stock ruft an: Ihr Herd ist kaputt. Sie ist morgen den ganzen Tag zu Hause. Ihre Wohnung ist die Nummer 7.",
+          "title": "Reparaturauftrag",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Lang"
+            },
+            {
+              "label": "Stock",
+              "answers": [
+                "2",
+                "2.",
+                "zweiter",
+                "zweiter Stock"
+              ]
+            },
+            {
+              "label": "Wohnung Nr.",
+              "answers": [
+                "7",
+                "sieben"
+              ]
+            },
+            {
+              "label": "Was ist kaputt?",
+              "answers": [
+                "Herd",
+                "der Herd"
+              ]
+            },
+            {
+              "label": "Wann zu Hause?",
+              "answers": [
+                "morgen",
+                "morgen den ganzen Tag"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Marta möchte ihr altes Sofa verkaufen. Es ist grau, drei Jahre alt und kostet 150 Euro. Man kann sie abends anrufen: 0176 98 76 54.",
+          "title": "Kleinanzeige – Online-Formular",
+          "fields": [
+            {
+              "label": "Was verkaufen Sie?",
+              "given": "Sofa"
+            },
+            {
+              "label": "Farbe",
+              "answers": [
+                "grau"
+              ]
+            },
+            {
+              "label": "Alter",
+              "answers": [
+                "3 Jahre",
+                "drei Jahre",
+                "3"
+              ]
+            },
+            {
+              "label": "Preis",
+              "answers": [
+                "150",
+                "150 Euro",
+                "150 €"
+              ]
+            },
+            {
+              "label": "Telefon",
+              "answers": [
+                "0176 98 76 54"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben eine neue Wohnung. Schreiben Sie Ihrer Freundin Carla.",
+          "points": [
+            "Wo ist die Wohnung?",
+            "Wie ist die Wohnung? (Zimmer, groß/klein…)",
+            "Laden Sie Carla ein."
+          ],
+          "register": "informal (du)",
+          "model": "Liebe Carla,\n\nich habe eine neue Wohnung in Zürich! Sie hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist hell und gemütlich, aber die Küche ist klein. Kommst du am Samstag zum Essen?\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "In Ihrer Wohnung ist die Heizung kaputt. Schreiben Sie der Hausverwaltung.",
+          "points": [
+            "Was ist kaputt?",
+            "Seit wann?",
+            "Wann sind Sie zu Hause?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nin meiner Wohnung (Bahnhofstraße 12, 3. Stock) ist die Heizung kaputt. Sie funktioniert seit Montag nicht. Ich bin am Nachmittag ab 15 Uhr zu Hause.\n\nMit freundlichen Grüßen\nLaura García"
+        },
+        {
+          "task": "Sie haben eine Wohnungsanzeige gelesen. Schreiben Sie dem Vermieter.",
+          "points": [
+            "Sie möchten die Wohnung sehen.",
+            "Fragen Sie: Gibt es einen Aufzug?",
+            "Fragen Sie: Wie hoch sind die Nebenkosten?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrter Herr Keller,\n\nich interessiere mich für Ihre Wohnung in der Seestraße. Ich möchte sie gern sehen. Gibt es im Haus einen Aufzug? Und wie hoch sind die Nebenkosten?\n\nViele Grüße\nPablo Ruiz"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Wohnort?",
+            "Wohnung?"
+          ],
+          "extra": "Der Prüfer fragt dann: Haben Sie einen Balkon?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Ich heiße José und komme aus Spanien. Ich wohne in Zürich. Meine Wohnung ist klein, sie hat zwei Zimmer. Sie ist hell, aber die Straße ist laut. Nein, ich habe keinen Balkon."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Familie?",
+            "Wohnung / Haus?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie viele Zimmer hat Ihre Wohnung?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo, ich bin Laura. Ich bin verheiratet und habe zwei Kinder. Wir wohnen in einem Haus mit Garten. Das Haus hat fünf Zimmer, zwei Bäder und eine große Küche."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Wohnort?",
+            "WG?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie finden Sie Ihr Zimmer?",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Ich heiße Pablo und bin fünfundzwanzig. Ich wohne in Basel in einer WG. Mein Zimmer ist klein, aber gemütlich. Die Miete ist nicht so teuer."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Wohnen",
+          "word": "Balkon",
+          "question": "Hast du einen Balkon?",
+          "answer": "Nein, ich habe keinen Balkon."
+        },
+        {
+          "theme": "Wohnen",
+          "word": "Zimmer",
+          "question": "Wie viele Zimmer hat deine Wohnung?",
+          "answer": "Meine Wohnung hat drei Zimmer."
+        },
+        {
+          "theme": "Wohnen",
+          "word": "Miete",
+          "question": "Ist deine Miete teuer?",
+          "answer": "Ja, sie ist ziemlich teuer."
+        },
+        {
+          "theme": "Wohnen",
+          "word": "Küche",
+          "question": "Wie ist deine Küche?",
+          "answer": "Meine Küche ist klein, aber modern."
+        },
+        {
+          "theme": "Wohnen",
+          "word": "Garten",
+          "question": "Hast du keinen Garten?",
+          "answer": "Doch, ich habe einen Garten."
+        },
+        {
+          "theme": "Wohnen",
+          "word": "Lieblingsfarbe",
+          "question": "Was ist deine Lieblingsfarbe?",
+          "answer": "Meine Lieblingsfarbe ist blau."
+        }
+      ]
+    }
+  }
+}
