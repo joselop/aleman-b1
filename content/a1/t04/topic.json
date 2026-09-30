@@ -1,0 +1,1674 @@
+{
+  "id": "a1-t04",
+  "level": "a1",
+  "topic": "t04",
+  "title": "Comer y beber",
+  "title_de": "Essen und Trinken",
+  "goals": [
+    "Nombrar comidas y bebidas habituales y las comidas del día",
+    "Pedir en un café o restaurante y pedir la cuenta",
+    "Usar el acusativo (den, einen, keinen) con haben, möchte, essen, trinken, nehmen…",
+    "Conjugar möchte, essen y nehmen",
+    "Formar el plural de los sustantivos más frecuentes",
+    "Expresar cantidades: eine Flasche Wasser, ein Kilo Äpfel"
+  ],
+  "vocab": [
+    {
+      "de": "das Frühstück",
+      "es": "el desayuno",
+      "cat": "Comidas",
+      "ex": "Zum Frühstück esse ich ein Brötchen.",
+      "ex_es": "Para desayunar como un panecillo."
+    },
+    {
+      "de": "das Mittagessen",
+      "es": "la comida (de mediodía)",
+      "cat": "Comidas",
+      "ex": "Das Mittagessen ist um zwölf.",
+      "ex_es": "La comida es a las doce."
+    },
+    {
+      "de": "das Abendessen",
+      "es": "la cena",
+      "cat": "Comidas",
+      "ex": "Was gibt es zum Abendessen?",
+      "ex_es": "¿Qué hay para cenar?"
+    },
+    {
+      "de": "das Brot",
+      "pl": "die Brote",
+      "es": "el pan",
+      "cat": "Comida",
+      "ex": "Das Brot ist frisch.",
+      "ex_es": "El pan está recién hecho."
+    },
+    {
+      "de": "das Brötchen",
+      "pl": "die Brötchen",
+      "es": "el panecillo",
+      "cat": "Comida",
+      "ex": "Vier Brötchen, bitte.",
+      "ex_es": "Cuatro panecillos, por favor."
+    },
+    {
+      "de": "der Käse",
+      "es": "el queso",
+      "cat": "Comida",
+      "ex": "Ich mag Käse aus der Schweiz.",
+      "ex_es": "Me gusta el queso suizo."
+    },
+    {
+      "de": "die Wurst",
+      "pl": "die Würste",
+      "es": "el embutido, la salchicha",
+      "cat": "Comida",
+      "ex": "Eine Wurst mit Brot, bitte.",
+      "ex_es": "Una salchicha con pan, por favor."
+    },
+    {
+      "de": "das Ei",
+      "pl": "die Eier",
+      "es": "el huevo",
+      "cat": "Comida",
+      "ex": "Ich brauche sechs Eier.",
+      "ex_es": "Necesito seis huevos."
+    },
+    {
+      "de": "das Fleisch",
+      "es": "la carne",
+      "cat": "Comida",
+      "ex": "Ich esse kein Fleisch.",
+      "ex_es": "No como carne."
+    },
+    {
+      "de": "der Fisch",
+      "pl": "die Fische",
+      "es": "el pescado; el pez",
+      "cat": "Comida",
+      "ex": "Heute gibt es Fisch.",
+      "ex_es": "Hoy hay pescado."
+    },
+    {
+      "de": "das Hähnchen",
+      "pl": "die Hähnchen",
+      "es": "el pollo",
+      "cat": "Comida",
+      "ex": "Ich nehme das Hähnchen mit Reis.",
+      "ex_es": "Tomaré el pollo con arroz."
+    },
+    {
+      "de": "der Reis",
+      "es": "el arroz",
+      "cat": "Comida",
+      "ex": "Der Reis ist gut.",
+      "ex_es": "El arroz está bueno."
+    },
+    {
+      "de": "die Nudeln",
+      "es": "la pasta",
+      "cat": "Comida",
+      "ex": "Die Kinder essen gern Nudeln.",
+      "ex_es": "A los niños les gusta la pasta."
+    },
+    {
+      "de": "die Kartoffel",
+      "pl": "die Kartoffeln",
+      "es": "la patata",
+      "cat": "Comida",
+      "ex": "Ein Kilo Kartoffeln, bitte.",
+      "ex_es": "Un kilo de patatas, por favor."
+    },
+    {
+      "de": "das Gemüse",
+      "es": "la verdura",
+      "cat": "Comida",
+      "ex": "Gemüse ist gesund.",
+      "ex_es": "La verdura es sana."
+    },
+    {
+      "de": "das Obst",
+      "es": "la fruta",
+      "cat": "Comida",
+      "ex": "Ich esse viel Obst.",
+      "ex_es": "Como mucha fruta."
+    },
+    {
+      "de": "der Apfel",
+      "pl": "die Äpfel",
+      "es": "la manzana",
+      "cat": "Comida",
+      "ex": "Möchtest du einen Apfel?",
+      "ex_es": "¿Quieres una manzana?"
+    },
+    {
+      "de": "die Tomate",
+      "pl": "die Tomaten",
+      "es": "el tomate",
+      "cat": "Comida",
+      "ex": "Die Tomaten kommen aus Spanien.",
+      "ex_es": "Los tomates vienen de España."
+    },
+    {
+      "de": "der Salat",
+      "pl": "die Salate",
+      "es": "la ensalada; la lechuga",
+      "cat": "Comida",
+      "ex": "Ich nehme einen Salat.",
+      "ex_es": "Tomaré una ensalada."
+    },
+    {
+      "de": "die Suppe",
+      "pl": "die Suppen",
+      "es": "la sopa",
+      "cat": "Comida",
+      "ex": "Die Suppe ist heiß.",
+      "ex_es": "La sopa está caliente."
+    },
+    {
+      "de": "der Kuchen",
+      "pl": "die Kuchen",
+      "es": "el pastel",
+      "cat": "Comida",
+      "ex": "Ein Stück Kuchen, bitte.",
+      "ex_es": "Un trozo de pastel, por favor."
+    },
+    {
+      "de": "das Wasser",
+      "es": "el agua",
+      "cat": "Bebida",
+      "ex": "Eine Flasche Wasser, bitte.",
+      "ex_es": "Una botella de agua, por favor."
+    },
+    {
+      "de": "der Kaffee",
+      "es": "el café",
+      "cat": "Bebida",
+      "ex": "Ich möchte einen Kaffee mit Milch.",
+      "ex_es": "Quiero un café con leche."
+    },
+    {
+      "de": "der Tee",
+      "es": "el té",
+      "cat": "Bebida",
+      "ex": "Trinkst du Tee?",
+      "ex_es": "¿Bebes té?"
+    },
+    {
+      "de": "die Milch",
+      "es": "la leche",
+      "cat": "Bebida",
+      "ex": "Wir haben keine Milch mehr.",
+      "ex_es": "Ya no tenemos leche."
+    },
+    {
+      "de": "der Saft",
+      "pl": "die Säfte",
+      "es": "el zumo",
+      "cat": "Bebida",
+      "ex": "Einen Orangensaft, bitte.",
+      "ex_es": "Un zumo de naranja, por favor."
+    },
+    {
+      "de": "das Bier",
+      "pl": "die Biere",
+      "es": "la cerveza",
+      "cat": "Bebida",
+      "ex": "Zwei Bier, bitte!",
+      "ex_es": "¡Dos cervezas, por favor!"
+    },
+    {
+      "de": "der Wein",
+      "pl": "die Weine",
+      "es": "el vino",
+      "cat": "Bebida",
+      "ex": "Ein Glas Rotwein, bitte.",
+      "ex_es": "Una copa de vino tinto, por favor."
+    },
+    {
+      "de": "die Flasche",
+      "pl": "die Flaschen",
+      "es": "la botella",
+      "cat": "Cantidades",
+      "ex": "Eine Flasche Wasser kostet 1 Euro.",
+      "ex_es": "Una botella de agua cuesta 1 euro."
+    },
+    {
+      "de": "das Glas",
+      "pl": "die Gläser",
+      "es": "el vaso, la copa",
+      "cat": "Cantidades",
+      "ex": "Ein Glas Wasser, bitte.",
+      "ex_es": "Un vaso de agua, por favor."
+    },
+    {
+      "de": "die Tasse",
+      "pl": "die Tassen",
+      "es": "la taza",
+      "cat": "Cantidades",
+      "ex": "Möchten Sie eine Tasse Tee?",
+      "ex_es": "¿Quiere una taza de té?"
+    },
+    {
+      "de": "das Stück",
+      "pl": "die Stücke",
+      "es": "el trozo, la pieza",
+      "cat": "Cantidades",
+      "ex": "Zwei Stück Kuchen, bitte.",
+      "ex_es": "Dos trozos de pastel, por favor."
+    },
+    {
+      "de": "das Kilo",
+      "pl": "die Kilos",
+      "es": "el kilo",
+      "cat": "Cantidades",
+      "ex": "Ein Kilo Äpfel kostet 3 Euro.",
+      "ex_es": "Un kilo de manzanas cuesta 3 euros."
+    },
+    {
+      "de": "essen",
+      "es": "comer",
+      "cat": "Verbos",
+      "forms": "ich esse, du isst, er isst",
+      "ex": "Was isst du gern?",
+      "ex_es": "¿Qué te gusta comer?"
+    },
+    {
+      "de": "trinken",
+      "es": "beber",
+      "cat": "Verbos",
+      "forms": "ich trinke, du trinkst, er trinkt",
+      "ex": "Ich trinke keinen Alkohol.",
+      "ex_es": "No bebo alcohol."
+    },
+    {
+      "de": "nehmen",
+      "es": "tomar, coger",
+      "cat": "Verbos",
+      "forms": "ich nehme, du nimmst, er nimmt",
+      "ex": "Ich nehme die Suppe.",
+      "ex_es": "Tomaré la sopa."
+    },
+    {
+      "de": "möchte(n)",
+      "es": "querría, me gustaría",
+      "cat": "Verbos",
+      "forms": "ich möchte, du möchtest, er möchte",
+      "ex": "Was möchten Sie trinken?",
+      "ex_es": "¿Qué desea beber?"
+    },
+    {
+      "de": "mögen",
+      "es": "gustar (en general)",
+      "cat": "Verbos",
+      "forms": "ich mag, du magst, er mag",
+      "ex": "Ich mag keinen Fisch.",
+      "ex_es": "No me gusta el pescado."
+    },
+    {
+      "de": "kaufen",
+      "es": "comprar",
+      "cat": "Verbos",
+      "forms": "ich kaufe, du kaufst, er kauft",
+      "ex": "Ich kaufe Brot und Milch.",
+      "ex_es": "Compro pan y leche."
+    },
+    {
+      "de": "brauchen",
+      "es": "necesitar",
+      "cat": "Verbos",
+      "forms": "ich brauche, du brauchst, er braucht",
+      "ex": "Wir brauchen noch Tomaten.",
+      "ex_es": "Aún necesitamos tomates."
+    },
+    {
+      "de": "kochen",
+      "es": "cocinar",
+      "cat": "Verbos",
+      "forms": "ich koche, du kochst, er kocht",
+      "ex": "Heute koche ich Paella.",
+      "ex_es": "Hoy cocino paella."
+    },
+    {
+      "de": "bezahlen / zahlen",
+      "es": "pagar",
+      "cat": "Verbos",
+      "forms": "ich bezahle, du bezahlst, er bezahlt",
+      "ex": "Zahlen, bitte!",
+      "ex_es": "¡La cuenta, por favor!"
+    },
+    {
+      "de": "die Rechnung",
+      "pl": "die Rechnungen",
+      "es": "la cuenta, la factura",
+      "cat": "En el restaurante",
+      "ex": "Die Rechnung, bitte.",
+      "ex_es": "La cuenta, por favor."
+    },
+    {
+      "de": "die Speisekarte",
+      "pl": "die Speisekarten",
+      "es": "la carta, el menú",
+      "cat": "En el restaurante",
+      "ex": "Die Speisekarte, bitte.",
+      "ex_es": "La carta, por favor."
+    },
+    {
+      "de": "zusammen / getrennt",
+      "es": "junto / por separado",
+      "cat": "En el restaurante",
+      "ex": "Zusammen oder getrennt?",
+      "ex_es": "¿Junto o por separado?"
+    },
+    {
+      "de": "der Euro",
+      "pl": "die Euro",
+      "es": "el euro",
+      "cat": "En el restaurante",
+      "ex": "Das macht zehn Euro.",
+      "ex_es": "Son diez euros."
+    },
+    {
+      "de": "lecker",
+      "es": "rico, sabroso",
+      "cat": "Adjetivos",
+      "ex": "Der Kuchen ist sehr lecker!",
+      "ex_es": "¡El pastel está muy rico!"
+    },
+    {
+      "de": "heiß / kalt",
+      "es": "caliente / frío",
+      "cat": "Adjetivos",
+      "ex": "Der Tee ist heiß, das Wasser ist kalt.",
+      "ex_es": "El té está caliente y el agua fría."
+    },
+    {
+      "de": "gesund",
+      "es": "sano",
+      "cat": "Adjetivos",
+      "ex": "Obst ist gesund.",
+      "ex_es": "La fruta es sana."
+    },
+    {
+      "de": "süß",
+      "es": "dulce",
+      "cat": "Adjetivos",
+      "ex": "Der Kuchen ist zu süß.",
+      "ex_es": "El pastel está demasiado dulce."
+    },
+    {
+      "de": "Guten Appetit!",
+      "es": "¡Que aproveche!",
+      "cat": "Frases útiles",
+      "ex": "Das Essen ist da. Guten Appetit!",
+      "ex_es": "Ya está la comida. ¡Que aproveche!"
+    },
+    {
+      "de": "noch",
+      "es": "todavía, aún; más",
+      "cat": "Frases útiles",
+      "ex": "Noch einen Kaffee, bitte.",
+      "ex_es": "Otro café, por favor."
+    },
+    {
+      "de": "gern",
+      "es": "con gusto; (verbo + gern) gustar hacer algo",
+      "cat": "Frases útiles",
+      "ex": "Ich esse gern Fisch.",
+      "ex_es": "Me gusta comer pescado."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Comida y bebida",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "das Brötchen",
+          "el panecillo"
+        ],
+        [
+          "das Gemüse",
+          "la verdura"
+        ],
+        [
+          "der Saft",
+          "el zumo"
+        ],
+        [
+          "das Hähnchen",
+          "el pollo"
+        ],
+        [
+          "die Kartoffel",
+          "la patata"
+        ],
+        [
+          "das Frühstück",
+          "el desayuno"
+        ],
+        [
+          "die Rechnung",
+          "la cuenta"
+        ],
+        [
+          "lecker",
+          "rico, sabroso"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "Acusativo: ein / eine / einen",
+      "instructions": "Completa con ein, eine o einen.",
+      "items": [
+        {
+          "text": "Ich möchte [[einen]] Kaffee, bitte. (der Kaffee)"
+        },
+        {
+          "text": "Wir nehmen [[eine]] Flasche Wasser. (die Flasche)"
+        },
+        {
+          "text": "Möchtest du [[ein]] Ei? (das Ei)"
+        },
+        {
+          "text": "Er isst [[einen]] Apfel. (der Apfel)"
+        },
+        {
+          "text": "Ich trinke [[eine]] Cola. (die Cola)"
+        },
+        {
+          "text": "Sie nimmt [[einen]] Salat und [[ein]] Glas Wein."
+        },
+        {
+          "text": "Hast du [[einen]] Bruder? (der Bruder)"
+        },
+        {
+          "text": "Ich brauche [[ein]] Kilo Tomaten. (das Kilo)"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Acusativo: den / die / das y kein",
+      "instructions": "Completa con el artículo en acusativo.",
+      "items": [
+        {
+          "text": "Ich nehme [[den]] Fisch. (der Fisch)"
+        },
+        {
+          "text": "Wir essen [[die]] Suppe. (die Suppe)"
+        },
+        {
+          "text": "Kaufst du [[das]] Brot? (das Brot)"
+        },
+        {
+          "text": "Ich mag [[keinen]] Käse. (der Käse)"
+        },
+        {
+          "text": "Er trinkt [[keine]] Milch. (die Milch)"
+        },
+        {
+          "text": "Wir haben [[kein]] Obst mehr. (das Obst)"
+        },
+        {
+          "text": "[[Der]] Kaffee ist kalt! (der Kaffee, sujeto)",
+          "note": "Ojo: aquí der Kaffee es el sujeto (nominativo)."
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "essen, nehmen, möchte",
+      "instructions": "Conjuga el verbo entre paréntesis.",
+      "items": [
+        {
+          "text": "Was [[isst]] du zum Frühstück? (essen)"
+        },
+        {
+          "text": "Anna [[isst]] kein Fleisch. (essen)"
+        },
+        {
+          "text": "Ich [[nehme]] das Hähnchen. (nehmen)"
+        },
+        {
+          "text": "Was [[nimmst]] du? (nehmen)"
+        },
+        {
+          "text": "Er [[nimmt]] einen Tee. (nehmen)"
+        },
+        {
+          "text": "Was [[möchten]] Sie trinken? (möchte)"
+        },
+        {
+          "text": "[[Möchtest]] du noch einen Kaffee? (möchte)"
+        },
+        {
+          "text": "Lisa [[möchte]] ein Stück Kuchen. (möchte)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "El plural",
+      "instructions": "Elige el plural correcto.",
+      "items": [
+        {
+          "q": "der Apfel",
+          "options": [
+            "die Apfels",
+            "die Äpfel",
+            "die Apfelen"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "das Ei",
+          "options": [
+            "die Eier",
+            "die Eis",
+            "die Eien"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "die Tomate",
+          "options": [
+            "die Tomates",
+            "die Tomaten",
+            "die Tomate"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "das Brötchen",
+          "options": [
+            "die Brötchens",
+            "die Brötchen",
+            "die Brötchenen"
+          ],
+          "answer": 1,
+          "explain": "Las palabras en -chen no cambian en plural."
+        },
+        {
+          "q": "die Flasche",
+          "options": [
+            "die Flaschen",
+            "die Fläsche",
+            "die Flaschs"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "das Glas",
+          "options": [
+            "die Glase",
+            "die Gläser",
+            "die Glass"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "der Saft",
+          "options": [
+            "die Säfte",
+            "die Safts",
+            "die Saften"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "das Café",
+          "options": [
+            "die Caféen",
+            "die Cafés",
+            "die Cafée"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "Pedir en el café",
+      "instructions": "Ordena la frase. Con möchte + otro verbo, el infinitivo va al final.",
+      "items": [
+        {
+          "words": [
+            "Ich",
+            "möchte",
+            "einen",
+            "Tee",
+            "."
+          ],
+          "answers": [
+            "Ich möchte einen Tee."
+          ]
+        },
+        {
+          "words": [
+            "Was",
+            "möchten",
+            "Sie",
+            "trinken",
+            "?"
+          ],
+          "answers": [
+            "Was möchten Sie trinken?"
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "möchte",
+            "heute",
+            "Fisch",
+            "essen",
+            "."
+          ],
+          "answers": [
+            "Ich möchte heute Fisch essen.",
+            "Heute möchte ich Fisch essen."
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "Rechnung",
+            ",",
+            "bitte",
+            "!"
+          ],
+          "answers": [
+            "Die Rechnung, bitte!"
+          ]
+        },
+        {
+          "words": [
+            "Möchtest",
+            "du",
+            "ein",
+            "Stück",
+            "Kuchen",
+            "?"
+          ],
+          "answers": [
+            "Möchtest du ein Stück Kuchen?"
+          ]
+        },
+        {
+          "words": [
+            "Wir",
+            "zahlen",
+            "getrennt",
+            "."
+          ],
+          "answers": [
+            "Wir zahlen getrennt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "mc",
+      "title": "¿Qué dices?",
+      "instructions": "Elige la frase adecuada a cada situación.",
+      "items": [
+        {
+          "q": "El camarero te pregunta qué quieres. Quieres un café.",
+          "options": [
+            "Ich möchte einen Kaffee, bitte.",
+            "Ich mag Kaffee.",
+            "Ich möchte ein Kaffee."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quieres pagar.",
+          "options": [
+            "Guten Appetit!",
+            "Zahlen, bitte!",
+            "Prost!"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Empezáis a comer.",
+          "options": [
+            "Guten Appetit!",
+            "Die Speisekarte, bitte.",
+            "Getrennt, bitte."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "El camarero pregunta: «Zusammen oder getrennt?». Cada uno paga lo suyo.",
+          "options": [
+            "Zusammen, bitte.",
+            "Getrennt, bitte.",
+            "Noch einen, bitte."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quieres decir que en general no te gusta el pescado.",
+          "options": [
+            "Ich möchte keinen Fisch.",
+            "Ich mag keinen Fisch.",
+            "Ich mag kein Fisch."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quieres otra cerveza.",
+          "options": [
+            "Noch ein Bier, bitte.",
+            "Ein Bier noch nicht.",
+            "Kein Bier, bitte."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "En el café",
+      "instructions": "Escucha los diálogos y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Tag, was möchten Sie?"
+            },
+            {
+              "v": "f1",
+              "t": "Einen Tee mit Zitrone und ein Stück Apfelkuchen, bitte."
+            }
+          ],
+          "q": "¿Qué pide la mujer?",
+          "options": [
+            "Café y pastel de manzana",
+            "Té y pastel de manzana",
+            "Té y zumo de manzana"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Zahlen, bitte!"
+            },
+            {
+              "v": "m2",
+              "t": "Zusammen oder getrennt?"
+            },
+            {
+              "v": "f2",
+              "t": "Zusammen."
+            },
+            {
+              "v": "m2",
+              "t": "Das macht dreizehn Euro fünfzig."
+            }
+          ],
+          "q": "¿Cuánto pagan?",
+          "options": [
+            "30,50 €",
+            "13,50 €",
+            "13,15 €"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Was isst du zum Frühstück, Nina?"
+            },
+            {
+              "v": "f2",
+              "t": "Nur Obst und einen Joghurt. Ich trinke keinen Kaffee, nur Tee."
+            }
+          ],
+          "q": "¿Qué no toma Nina?",
+          "options": [
+            "Fruta",
+            "Té",
+            "Café"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wir brauchen noch Eier, Milch und Tomaten."
+            },
+            {
+              "v": "m2",
+              "t": "Milch haben wir noch. Ich kaufe Eier und Tomaten."
+            }
+          ],
+          "q": "¿Qué no hace falta comprar?",
+          "options": [
+            "Leche",
+            "Huevos",
+            "Tomates"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Ich nehme das Hähnchen mit Reis. Und du?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich esse kein Fleisch. Ich nehme die Gemüsesuppe."
+            }
+          ],
+          "q": "¿Qué toma la mujer?",
+          "options": [
+            "Pollo con arroz",
+            "Sopa de verduras",
+            "Pescado"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Lista de la compra",
+      "instructions": "Escucha y escribe la cantidad y el producto (por ejemplo: 2 Flaschen Wasser).",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Sechs Eier."
+            }
+          ],
+          "answers": [
+            "6 Eier",
+            "sechs Eier"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Zwei Flaschen Wasser."
+            }
+          ],
+          "answers": [
+            "2 Flaschen Wasser",
+            "zwei Flaschen Wasser"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Ein Kilo Äpfel."
+            }
+          ],
+          "answers": [
+            "1 Kilo Äpfel",
+            "ein Kilo Äpfel"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Vier Brötchen."
+            }
+          ],
+          "answers": [
+            "4 Brötchen",
+            "vier Brötchen"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Drei Tomaten."
+            }
+          ],
+          "answers": [
+            "3 Tomaten",
+            "drei Tomaten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Quiero un café con leche, por favor.",
+          "answers": [
+            "Ich möchte einen Kaffee mit Milch, bitte.",
+            "Einen Kaffee mit Milch, bitte.",
+            "Ich möchte bitte einen Kaffee mit Milch."
+          ]
+        },
+        {
+          "prompt": "No como carne.",
+          "answers": [
+            "Ich esse kein Fleisch."
+          ]
+        },
+        {
+          "prompt": "¿Qué comes tú en el desayuno?",
+          "answers": [
+            "Was isst du zum Frühstück?"
+          ]
+        },
+        {
+          "prompt": "Tomaré la ensalada.",
+          "answers": [
+            "Ich nehme den Salat."
+          ]
+        },
+        {
+          "prompt": "Necesitamos dos botellas de agua.",
+          "answers": [
+            "Wir brauchen zwei Flaschen Wasser."
+          ]
+        },
+        {
+          "prompt": "No me gusta el queso.",
+          "answers": [
+            "Ich mag keinen Käse.",
+            "Ich mag Käse nicht."
+          ]
+        },
+        {
+          "prompt": "La cuenta, por favor.",
+          "answers": [
+            "Die Rechnung, bitte.",
+            "Die Rechnung bitte.",
+            "Zahlen, bitte.",
+            "Zahlen bitte."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Was trinkt der Mann?",
+          "options": [
+            "einen Kaffee",
+            "einen Tee",
+            "ein Wasser"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Was möchten Sie trinken? Einen Kaffee?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein danke, Kaffee trinke ich nicht. Einen Tee, bitte."
+            }
+          ]
+        },
+        {
+          "q": "Wie viel kostet das?",
+          "options": [
+            "8,40 €",
+            "4,80 €",
+            "48 €"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Ein Kaffee und ein Stück Kuchen. Was macht das?"
+            },
+            {
+              "v": "f2",
+              "t": "Acht Euro vierzig, bitte."
+            }
+          ]
+        },
+        {
+          "q": "Was kauft die Frau?",
+          "options": [
+            "Äpfel und Brot",
+            "Äpfel und Käse",
+            "Brot und Käse"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Tag, was bekommen Sie?"
+            },
+            {
+              "v": "f1",
+              "t": "Ein Kilo Äpfel und zweihundert Gramm Käse, bitte. Brot habe ich noch."
+            }
+          ]
+        },
+        {
+          "q": "Was isst Tom zu Mittag?",
+          "options": [
+            "Nudeln",
+            "Fisch",
+            "Suppe"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Tom, was isst du heute zu Mittag? Fisch?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, heute esse ich Nudeln mit Tomatensoße. Fisch mag ich nicht so."
+            }
+          ]
+        },
+        {
+          "q": "Wie viele Brötchen möchte der Mann?",
+          "options": [
+            "4",
+            "6",
+            "10"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Morgen! Was darf es sein?"
+            },
+            {
+              "v": "m1",
+              "t": "Sechs Brötchen, bitte. Und ein Brot."
+            }
+          ]
+        },
+        {
+          "q": "Was nimmt die Frau?",
+          "options": [
+            "Hähnchen mit Kartoffeln",
+            "Hähnchen mit Reis",
+            "Salat mit Reis"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Haben Sie schon gewählt?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, ich nehme das Hähnchen. Aber mit Reis, nicht mit Kartoffeln, bitte."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Im Supermarkt sind heute die Äpfel billig.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Liebe Kundinnen und Kunden! Heute im Angebot: Äpfel aus der Schweiz, das Kilo nur zwei Euro. Und Milch: nur neunzig Cent!"
+            }
+          ]
+        },
+        {
+          "statement": "Das Restaurant im Zug hat heute keine Suppe.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Tag, meine Damen und Herren. Unser Restaurant ist jetzt geöffnet. Heute gibt es Gemüsesuppe und Kaffee und Kuchen. Wir sind in Wagen sieben."
+            }
+          ]
+        },
+        {
+          "statement": "Die Cafeteria ist bis 18 Uhr offen.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Eine Information: Die Cafeteria ist heute nur bis sechzehn Uhr geöffnet. Danke."
+            }
+          ]
+        },
+        {
+          "statement": "Das Mittagessen gibt es heute in Raum 12.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Liebe Kursteilnehmer, das Mittagessen ist heute nicht in der Cafeteria, sondern in Raum zwölf. Guten Appetit!"
+            }
+          ]
+        },
+        {
+          "statement": "Im Supermarkt gibt es heute Brot für 1 Euro.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Heute im Angebot: frische Brötchen, zehn Stück für zwei Euro. Und Kaffee: ein Kilo für neun Euro neunzig."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was soll Paul kaufen?",
+          "options": [
+            "Milch und Eier",
+            "Milch und Brot",
+            "Eier und Käse"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Paul, hier ist Anna. Kaufst du bitte noch Milch und sechs Eier? Brot und Käse haben wir noch. Danke!"
+            }
+          ]
+        },
+        {
+          "q": "Was kocht Marco heute?",
+          "options": [
+            "Fisch",
+            "Pizza",
+            "Nudeln"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hallo Lisa, hier ist Marco. Kommst du heute zum Abendessen? Ich koche Nudeln mit Tomatensoße. Bring bitte Wein mit! Tschüss!"
+            }
+          ]
+        },
+        {
+          "q": "Was soll Frau Berger mitbringen?",
+          "options": [
+            "einen Kuchen",
+            "einen Salat",
+            "Getränke"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Tag, Frau Berger, hier ist Petra Wolf. Am Samstag ist unser Kursfest. Bringen Sie bitte einen Salat mit? Kuchen und Getränke haben wir schon. Danke!"
+            }
+          ]
+        },
+        {
+          "q": "Wo isst Ben heute zu Mittag?",
+          "options": [
+            "zu Hause",
+            "in der Kantine",
+            "im Restaurant"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hi Sara, hier ist Ben. Heute esse ich nicht in der Kantine. Ich gehe mit Kollegen ins Restaurant Roma. Kommst du auch? Bis gleich!"
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo Laura,\n\nam Samstag machen wir ein Picknick im Park. Ich bringe Brot, Käse und Obst mit. Tom bringt Getränke: Wasser, Saft und Bier. Kannst du einen Kuchen machen? Dein Apfelkuchen ist so lecker! Wir essen um 12 Uhr.\n\nBis Samstag!\nMaria",
+          "statements": [
+            {
+              "s": "Das Picknick ist am Sonntag.",
+              "answer": false
+            },
+            {
+              "s": "Maria bringt Obst mit.",
+              "answer": true
+            },
+            {
+              "s": "Tom bringt den Kuchen mit.",
+              "answer": false
+            },
+            {
+              "s": "Laura soll einen Kuchen machen.",
+              "answer": true
+            },
+            {
+              "s": "Das Essen beginnt um 12 Uhr.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Liebe Kolleginnen und Kollegen,\n\nab Montag hat unsere Kantine ein neues Menü. Es gibt jeden Tag eine Suppe, ein Essen mit Fleisch und ein Essen ohne Fleisch. Ein Menü kostet 8,50 Euro, Kaffee kostet 1,50 Euro. Die Kantine ist von 11.30 bis 14 Uhr geöffnet.\n\nIhr Kantinen-Team",
+          "statements": [
+            {
+              "s": "Es gibt jeden Tag ein Essen ohne Fleisch.",
+              "answer": true
+            },
+            {
+              "s": "Ein Menü kostet 5,80 Euro.",
+              "answer": false
+            },
+            {
+              "s": "Der Kaffee kostet 1,50 Euro.",
+              "answer": true
+            },
+            {
+              "s": "Die Kantine ist bis 15 Uhr geöffnet.",
+              "answer": false
+            },
+            {
+              "s": "Das neue Menü beginnt am Montag.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Hi Jonas,\n\nich bin jetzt in Spanien, in Valencia. Das Essen hier ist super! Zum Frühstück esse ich nur ein Stück Brot mit Tomate. Das Mittagessen ist erst um 14 Uhr, und das Abendessen um 21 Uhr! Heute essen wir Paella – das ist Reis mit Fisch oder Fleisch und Gemüse.\n\nViele Grüße\nEva",
+          "statements": [
+            {
+              "s": "Eva isst in Spanien viel zum Frühstück.",
+              "answer": false
+            },
+            {
+              "s": "In Spanien gibt es das Mittagessen um 14 Uhr.",
+              "answer": true
+            },
+            {
+              "s": "Das Abendessen ist um 19 Uhr.",
+              "answer": false
+            },
+            {
+              "s": "In einer Paella ist Reis.",
+              "answer": true
+            },
+            {
+              "s": "Eva findet das Essen in Spanien gut.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie essen kein Fleisch. Wo gehen Sie essen?",
+          "a": "Grill-Haus: Steaks und Würste",
+          "b": "Café Grün: vegetarische Küche",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie möchten am Sonntag frühstücken gehen.",
+          "a": "Café Mozart: Sonntags-Frühstück von 9 bis 13 Uhr",
+          "b": "Bistro Lotte: Montag bis Freitag Mittagessen",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten günstig Obst und Gemüse kaufen.",
+          "a": "Wochenmarkt: Obst und Gemüse aus der Region – jeden Samstag",
+          "b": "Feinkost Keller: Käse, Wein und Schokolade",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten Pizza bestellen und zu Hause essen.",
+          "a": "Pizzeria Napoli – Lieferservice: Tel. 044 123 45 67",
+          "b": "Pizzeria Roma – kein Lieferservice",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten Deutsch sprechen und Kaffee trinken.",
+          "a": "Sprach-Café: Jeden Mittwoch Kaffee und Gespräche auf Deutsch",
+          "b": "Kaffee-Shop: Kaffee zum Mitnehmen",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten kochen lernen.",
+          "a": "Restaurant Sonne: Heute Fisch-Tag!",
+          "b": "Kochkurs: Italienisch kochen – jeden Dienstag",
+          "answer": "b"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Bäckerei – Heute: Brötchen 10 Stück 3,50 €",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Zehn Brötchen kosten heute 3,50 Euro.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Bitte keine Getränke und kein Essen im Kino!",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Im Kino darf man Cola trinken.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Restaurant Adler – Mittagsmenü: Suppe + Hauptgericht 14,90 €",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Das Menü hat eine Suppe.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Heute Ruhetag – Wir sind morgen ab 11 Uhr wieder für Sie da.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Das Restaurant ist heute geöffnet.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Wasser für Gäste: gratis!",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Das Wasser kostet nichts.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Kaffee zum Mitnehmen: 2,50 € · Im Café: 3,20 €",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Im Café ist der Kaffee billiger.",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Sie organisieren das Kursfest. Eva bringt einen Kuchen. Paul bringt Brot und Käse. Mehmet bringt Getränke: Wasser und Saft. Anna bringt einen Salat. Das Fest ist am Freitag.",
+          "title": "Kursfest – Wer bringt was?",
+          "fields": [
+            {
+              "label": "Eva",
+              "given": "Kuchen"
+            },
+            {
+              "label": "Paul",
+              "answers": [
+                "Brot und Käse",
+                "Brot, Käse",
+                "Käse und Brot"
+              ]
+            },
+            {
+              "label": "Mehmet",
+              "answers": [
+                "Wasser und Saft",
+                "Getränke",
+                "Wasser, Saft",
+                "Saft und Wasser"
+              ]
+            },
+            {
+              "label": "Anna",
+              "answers": [
+                "Salat",
+                "einen Salat"
+              ]
+            },
+            {
+              "label": "Tag",
+              "answers": [
+                "Freitag",
+                "am Freitag"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Frau Klein bestellt im Internet Lebensmittel. Sie möchte 2 Kilo Kartoffeln, 6 Eier und 3 Flaschen Milch. Die Lieferung soll am Dienstag kommen. Sie wohnt in Bern, Marktgasse 5.",
+          "title": "Online-Bestellung – Supermarkt Frisch",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Klein"
+            },
+            {
+              "label": "Kartoffeln (Kilo)",
+              "answers": [
+                "2",
+                "zwei"
+              ]
+            },
+            {
+              "label": "Eier (Stück)",
+              "answers": [
+                "6",
+                "sechs"
+              ]
+            },
+            {
+              "label": "Milch (Flaschen)",
+              "answers": [
+                "3",
+                "drei"
+              ]
+            },
+            {
+              "label": "Liefertag",
+              "answers": [
+                "Dienstag",
+                "am Dienstag"
+              ]
+            },
+            {
+              "label": "Stadt",
+              "answers": [
+                "Bern"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Herr Brandt möchte im Restaurant Adler einen Tisch für Samstag. Er kommt mit seiner Frau und zwei Kindern. Er isst kein Fleisch. Seine Telefonnummer ist 0711 23 45 67.",
+          "title": "Tischreservierung – Restaurant Adler",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Brandt"
+            },
+            {
+              "label": "Tag",
+              "answers": [
+                "Samstag",
+                "am Samstag"
+              ]
+            },
+            {
+              "label": "Personen",
+              "answers": [
+                "4",
+                "vier"
+              ]
+            },
+            {
+              "label": "vegetarisch (ja / nein)",
+              "answers": [
+                "ja"
+              ]
+            },
+            {
+              "label": "Telefon",
+              "answers": [
+                "0711 23 45 67"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie machen am Samstag ein Essen. Schreiben Sie Ihrem Freund Tobias eine Nachricht.",
+          "points": [
+            "Laden Sie ihn ein (Samstag, 19 Uhr).",
+            "Was kochen Sie?",
+            "Was soll er mitbringen?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Tobias,\n\nkommst du am Samstag um 19 Uhr zum Abendessen? Ich koche eine Paella mit Fisch und Gemüse. Kannst du bitte Wein oder Bier mitbringen?\n\nBis Samstag!\nJosé"
+        },
+        {
+          "task": "Sie möchten im Restaurant Sonne einen Tisch reservieren. Schreiben Sie eine E-Mail.",
+          "points": [
+            "Für wann und für wie viele Personen?",
+            "Sie essen kein Fleisch: Gibt es vegetarisches Essen?",
+            "Ihre Telefonnummer."
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich möchte einen Tisch für Freitag, 20 Uhr, für drei Personen reservieren. Ich esse kein Fleisch. Haben Sie vegetarisches Essen? Meine Telefonnummer ist 079 123 45 67.\n\nViele Grüße\nLaura García"
+        },
+        {
+          "task": "Ihre Mitbewohnerin Lena geht einkaufen. Schreiben Sie ihr einen Zettel.",
+          "points": [
+            "Was brauchen Sie? (drei Sachen)",
+            "Wie viel?",
+            "Danke sagen."
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Lena,\n\nkaufst du bitte für mich ein? Ich brauche ein Kilo Tomaten, sechs Eier und zwei Flaschen Milch. Das Geld gebe ich dir heute Abend. Danke!\n\nPablo"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Wohnort?",
+            "Essen?",
+            "Trinken?"
+          ],
+          "extra": "Der Prüfer fragt dann: Was essen Sie zum Frühstück?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Ich heiße José und komme aus Spanien. Ich wohne in Zürich. Ich esse gern Fisch und Gemüse, aber ich mag keine Wurst. Ich trinke viel Kaffee. Zum Frühstück esse ich ein Brötchen mit Käse."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Familie?",
+            "Lieblingsessen?"
+          ],
+          "extra": "Der Prüfer fragt dann: Kochen Sie gern?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo, ich bin Laura, ich bin vierunddreißig. Ich bin verheiratet und habe zwei Kinder. Mein Lieblingsessen ist Paella. Ja, ich koche sehr gern, am Wochenende koche ich für die Familie."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Sprachen?",
+            "Frühstück?"
+          ],
+          "extra": "Der Prüfer fragt dann: Trinken Sie Kaffee oder Tee?",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Mein Name ist Pablo, ich komme aus Mexiko. Ich spreche Spanisch und Englisch. Zum Frühstück esse ich Obst und ein Ei. Ich trinke Kaffee, keinen Tee."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Essen und Trinken",
+          "word": "Frühstück",
+          "question": "Was isst du zum Frühstück?",
+          "answer": "Ich esse ein Brötchen mit Käse."
+        },
+        {
+          "theme": "Essen und Trinken",
+          "word": "Fleisch",
+          "question": "Isst du gern Fleisch?",
+          "answer": "Nein, ich esse kein Fleisch."
+        },
+        {
+          "theme": "Essen und Trinken",
+          "word": "Kaffee",
+          "question": "Möchtest du einen Kaffee?",
+          "answer": "Ja, gern. Mit Milch, bitte."
+        },
+        {
+          "theme": "Essen und Trinken",
+          "word": "kochen",
+          "question": "Kochst du gern?",
+          "answer": "Ja, ich koche gern Nudeln."
+        },
+        {
+          "theme": "Essen und Trinken",
+          "word": "Lieblingsessen",
+          "question": "Was ist dein Lieblingsessen?",
+          "answer": "Mein Lieblingsessen ist Paella."
+        },
+        {
+          "theme": "Einkaufen",
+          "word": "Obst",
+          "question": "Kaufst du viel Obst?",
+          "answer": "Ja, ich kaufe jede Woche Äpfel."
+        }
+      ]
+    }
+  }
+}

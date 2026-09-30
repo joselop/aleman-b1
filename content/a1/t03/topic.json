@@ -1,0 +1,1569 @@
+{
+  "id": "a1-t03",
+  "level": "a1",
+  "topic": "t03",
+  "title": "Familia y amigos",
+  "title_de": "Familie und Freunde",
+  "goals": [
+    "Presentar a tu familia y a tus amigos y preguntar por la familia de otra persona",
+    "Usar los artículos der, die, das y aprender cada sustantivo con su género",
+    "Usar ein/eine y negar sustantivos con kein/keine",
+    "Conjugar haben y decir cuántos hijos o hermanos tienes",
+    "Usar los posesivos mein, dein, Ihr, sein e ihr",
+    "Decir tu estado civil en un formulario o una conversación"
+  ],
+  "vocab": [
+    {
+      "de": "die Familie",
+      "pl": "die Familien",
+      "es": "la familia",
+      "cat": "Familia",
+      "ex": "Das ist meine Familie.",
+      "ex_es": "Esta es mi familia."
+    },
+    {
+      "de": "der Vater",
+      "pl": "die Väter",
+      "es": "el padre",
+      "cat": "Familia",
+      "ex": "Mein Vater heißt Luis.",
+      "ex_es": "Mi padre se llama Luis."
+    },
+    {
+      "de": "die Mutter",
+      "pl": "die Mütter",
+      "es": "la madre",
+      "cat": "Familia",
+      "ex": "Meine Mutter ist 58.",
+      "ex_es": "Mi madre tiene 58 años."
+    },
+    {
+      "de": "die Eltern",
+      "es": "los padres (solo plural)",
+      "cat": "Familia",
+      "ex": "Meine Eltern wohnen in Granada.",
+      "ex_es": "Mis padres viven en Granada."
+    },
+    {
+      "de": "der Sohn",
+      "pl": "die Söhne",
+      "es": "el hijo",
+      "cat": "Familia",
+      "ex": "Sein Sohn ist fünf Jahre alt.",
+      "ex_es": "Su hijo tiene cinco años."
+    },
+    {
+      "de": "die Tochter",
+      "pl": "die Töchter",
+      "es": "la hija",
+      "cat": "Familia",
+      "ex": "Ihre Tochter heißt Mia.",
+      "ex_es": "Su hija se llama Mia."
+    },
+    {
+      "de": "das Kind",
+      "pl": "die Kinder",
+      "es": "el niño; el hijo",
+      "cat": "Familia",
+      "ex": "Haben Sie Kinder?",
+      "ex_es": "¿Tiene usted hijos?"
+    },
+    {
+      "de": "das Baby",
+      "pl": "die Babys",
+      "es": "el bebé",
+      "cat": "Familia",
+      "ex": "Das Baby heißt Leo.",
+      "ex_es": "El bebé se llama Leo."
+    },
+    {
+      "de": "der Bruder",
+      "pl": "die Brüder",
+      "es": "el hermano",
+      "cat": "Familia",
+      "ex": "Ich habe einen Bruder.",
+      "ex_es": "Tengo un hermano."
+    },
+    {
+      "de": "die Schwester",
+      "pl": "die Schwestern",
+      "es": "la hermana",
+      "cat": "Familia",
+      "ex": "Meine Schwester wohnt in Madrid.",
+      "ex_es": "Mi hermana vive en Madrid."
+    },
+    {
+      "de": "die Geschwister",
+      "es": "los hermanos (plural)",
+      "cat": "Familia",
+      "ex": "Hast du Geschwister?",
+      "ex_es": "¿Tienes hermanos?"
+    },
+    {
+      "de": "der Großvater / der Opa",
+      "pl": "die Großväter / die Opas",
+      "es": "el abuelo",
+      "cat": "Familia",
+      "ex": "Mein Opa ist 80.",
+      "ex_es": "Mi abuelo tiene 80 años."
+    },
+    {
+      "de": "die Großmutter / die Oma",
+      "pl": "die Großmütter / die Omas",
+      "es": "la abuela",
+      "cat": "Familia",
+      "ex": "Meine Oma spricht nur Spanisch.",
+      "ex_es": "Mi abuela solo habla español."
+    },
+    {
+      "de": "die Großeltern",
+      "es": "los abuelos (plural)",
+      "cat": "Familia",
+      "ex": "Die Großeltern wohnen in Sevilla.",
+      "ex_es": "Los abuelos viven en Sevilla."
+    },
+    {
+      "de": "der Onkel",
+      "pl": "die Onkel",
+      "es": "el tío",
+      "cat": "Familia",
+      "ex": "Mein Onkel wohnt in Mexiko.",
+      "ex_es": "Mi tío vive en México."
+    },
+    {
+      "de": "die Tante",
+      "pl": "die Tanten",
+      "es": "la tía",
+      "cat": "Familia",
+      "ex": "Meine Tante ist Lehrerin.",
+      "ex_es": "Mi tía es profesora."
+    },
+    {
+      "de": "der Mann",
+      "pl": "die Männer",
+      "es": "el hombre; el marido",
+      "cat": "Familia",
+      "ex": "Das ist mein Mann, Peter.",
+      "ex_es": "Este es mi marido, Peter."
+    },
+    {
+      "de": "die Frau",
+      "pl": "die Frauen",
+      "es": "la mujer; la esposa",
+      "cat": "Familia",
+      "ex": "Seine Frau kommt aus Italien.",
+      "ex_es": "Su mujer es de Italia."
+    },
+    {
+      "de": "der Partner / die Partnerin",
+      "pl": "die Partner / die Partnerinnen",
+      "es": "la pareja",
+      "cat": "Familia",
+      "ex": "Meine Partnerin heißt Andrea.",
+      "ex_es": "Mi pareja se llama Andrea."
+    },
+    {
+      "de": "der Freund / die Freundin",
+      "pl": "die Freunde / die Freundinnen",
+      "es": "el amigo / la amiga; el novio / la novia",
+      "cat": "Amigos",
+      "ex": "Das ist meine Freundin Lisa.",
+      "ex_es": "Esta es mi novia (amiga) Lisa."
+    },
+    {
+      "de": "der Kollege / die Kollegin",
+      "pl": "die Kollegen / die Kolleginnen",
+      "es": "el/la compañero/a de trabajo",
+      "cat": "Amigos",
+      "ex": "Mein Kollege heißt Tim.",
+      "ex_es": "Mi compañero de trabajo se llama Tim."
+    },
+    {
+      "de": "der Nachbar / die Nachbarin",
+      "pl": "die Nachbarn / die Nachbarinnen",
+      "es": "el/la vecino/a",
+      "cat": "Amigos",
+      "ex": "Unsere Nachbarin ist sehr nett.",
+      "ex_es": "Nuestra vecina es muy simpática."
+    },
+    {
+      "de": "das Mädchen",
+      "pl": "die Mädchen",
+      "es": "la chica, la niña",
+      "cat": "Amigos",
+      "ex": "Das Mädchen heißt Sofia.",
+      "ex_es": "La niña se llama Sofia."
+    },
+    {
+      "de": "der Junge",
+      "pl": "die Jungen",
+      "es": "el chico, el niño",
+      "cat": "Amigos",
+      "ex": "Der Junge ist zehn.",
+      "ex_es": "El chico tiene diez años."
+    },
+    {
+      "de": "der Hund",
+      "pl": "die Hunde",
+      "es": "el perro",
+      "cat": "Amigos",
+      "ex": "Wir haben einen Hund.",
+      "ex_es": "Tenemos un perro."
+    },
+    {
+      "de": "die Katze",
+      "pl": "die Katzen",
+      "es": "el gato",
+      "cat": "Amigos",
+      "ex": "Die Katze heißt Mimi.",
+      "ex_es": "La gata se llama Mimi."
+    },
+    {
+      "de": "das Foto",
+      "pl": "die Fotos",
+      "es": "la foto",
+      "cat": "Amigos",
+      "ex": "Hast du ein Foto?",
+      "ex_es": "¿Tienes una foto?"
+    },
+    {
+      "de": "der Familienstand",
+      "es": "el estado civil",
+      "cat": "Estado civil",
+      "ex": "Familienstand: verheiratet",
+      "ex_es": "Estado civil: casado"
+    },
+    {
+      "de": "ledig",
+      "es": "soltero/a",
+      "cat": "Estado civil",
+      "ex": "Ich bin ledig.",
+      "ex_es": "Estoy soltero."
+    },
+    {
+      "de": "verheiratet",
+      "es": "casado/a",
+      "cat": "Estado civil",
+      "ex": "Bist du verheiratet?",
+      "ex_es": "¿Estás casado?"
+    },
+    {
+      "de": "geschieden",
+      "es": "divorciado/a",
+      "cat": "Estado civil",
+      "ex": "Er ist geschieden.",
+      "ex_es": "Está divorciado."
+    },
+    {
+      "de": "verwitwet",
+      "es": "viudo/a",
+      "cat": "Estado civil",
+      "ex": "Meine Oma ist verwitwet.",
+      "ex_es": "Mi abuela es viuda."
+    },
+    {
+      "de": "haben",
+      "es": "tener",
+      "cat": "Verbos y palabras útiles",
+      "forms": "ich habe, du hast, er hat",
+      "ex": "Hast du Kinder?",
+      "ex_es": "¿Tienes hijos?"
+    },
+    {
+      "de": "mein / meine",
+      "es": "mi",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Das sind meine Eltern.",
+      "ex_es": "Estos son mis padres."
+    },
+    {
+      "de": "dein / deine",
+      "es": "tu",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Wie heißt deine Schwester?",
+      "ex_es": "¿Cómo se llama tu hermana?"
+    },
+    {
+      "de": "sein / seine",
+      "es": "su (de él)",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Peter und seine Frau",
+      "ex_es": "Peter y su mujer"
+    },
+    {
+      "de": "ihr / ihre",
+      "es": "su (de ella)",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Anna und ihr Mann",
+      "ex_es": "Anna y su marido"
+    },
+    {
+      "de": "Ihr / Ihre",
+      "es": "su (de usted)",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Wie heißt Ihr Sohn?",
+      "ex_es": "¿Cómo se llama su hijo?"
+    },
+    {
+      "de": "kein / keine",
+      "es": "ningún / ninguna; no (un)",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Ich habe keine Geschwister.",
+      "ex_es": "No tengo hermanos."
+    },
+    {
+      "de": "nett",
+      "es": "simpático, amable",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Deine Mutter ist sehr nett.",
+      "ex_es": "Tu madre es muy simpática."
+    },
+    {
+      "de": "zusammen",
+      "es": "juntos",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Wir wohnen zusammen.",
+      "ex_es": "Vivimos juntos."
+    },
+    {
+      "de": "allein",
+      "es": "solo (sin compañía)",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Mein Opa wohnt allein.",
+      "ex_es": "Mi abuelo vive solo."
+    },
+    {
+      "de": "Das sind …",
+      "es": "Estos/as son …",
+      "cat": "Verbos y palabras útiles",
+      "ex": "Das sind meine Kinder.",
+      "ex_es": "Estos son mis hijos."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "La familia",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "die Eltern",
+          "los padres"
+        ],
+        [
+          "die Geschwister",
+          "los hermanos"
+        ],
+        [
+          "die Tochter",
+          "la hija"
+        ],
+        [
+          "der Sohn",
+          "el hijo"
+        ],
+        [
+          "die Großeltern",
+          "los abuelos"
+        ],
+        [
+          "die Tante",
+          "la tía"
+        ],
+        [
+          "verheiratet",
+          "casado/a"
+        ],
+        [
+          "ledig",
+          "soltero/a"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿der, die o das?",
+      "instructions": "Elige el artículo correcto.",
+      "items": [
+        {
+          "q": "___ Vater",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "___ Kind",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "___ Schwester",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "___ Mädchen",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 2,
+          "explain": "Las palabras en -chen son siempre neutras."
+        },
+        {
+          "q": "___ Eltern",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 1,
+          "explain": "El plural siempre es die."
+        },
+        {
+          "q": "___ Foto",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "___ Lehrerin",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 1,
+          "explain": "Terminación -in: siempre femenino."
+        },
+        {
+          "q": "___ Hund",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "ein / eine / kein / keine",
+      "instructions": "Completa con ein, eine, kein o keine.",
+      "items": [
+        {
+          "text": "Das ist [[ein]] Foto von Anna."
+        },
+        {
+          "text": "Ist das [[eine]] Katze? – Nein, das ist [[keine]] Katze. Das ist ein Hund."
+        },
+        {
+          "text": "Wir haben [[keine]] Kinder."
+        },
+        {
+          "text": "Das ist [[kein]] Mann, das ist eine Frau!"
+        },
+        {
+          "text": "Hast du [[ein]] Foto? – Nein, ich habe [[kein]] Foto."
+        },
+        {
+          "text": "Ich habe [[eine]] Schwester, aber [[keine]] Brüder."
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "El verbo haben",
+      "instructions": "Escribe la forma correcta de haben.",
+      "items": [
+        {
+          "text": "Ich [[habe]] zwei Brüder."
+        },
+        {
+          "text": "[[Hast]] du Geschwister?"
+        },
+        {
+          "text": "Anna [[hat]] eine Tochter."
+        },
+        {
+          "text": "Wir [[haben]] keine Katze."
+        },
+        {
+          "text": "[[Habt]] ihr Kinder?"
+        },
+        {
+          "text": "[[Haben]] Sie ein Foto, Frau Frei?"
+        },
+        {
+          "text": "Mein Opa [[hat]] eine Katze."
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Posesivos",
+      "instructions": "Completa con el posesivo correcto (mein, dein, sein, ihr, Ihr + terminación).",
+      "items": [
+        {
+          "text": "Das ist [[meine]] Mutter. (mi)"
+        },
+        {
+          "text": "Wie heißt [[dein]] Bruder? (tu)"
+        },
+        {
+          "text": "Peter und [[seine]] Frau wohnen in Bern. (su, de Peter)"
+        },
+        {
+          "text": "Anna und [[ihr]] Mann kommen aus Wien. (su, de Anna)"
+        },
+        {
+          "text": "Herr Keller, wie alt ist [[Ihr]] Sohn? (su, de usted)"
+        },
+        {
+          "text": "Das sind [[meine]] Eltern. (mis)"
+        },
+        {
+          "text": "Lisa, sind das [[deine]] Kinder? (tus)"
+        },
+        {
+          "text": "Das ist Frau Frei und das sind [[ihre]] Kinder. (sus, de ella)"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "er, sie o es",
+      "instructions": "¿Qué pronombre sustituye a la palabra en negrita?",
+      "items": [
+        {
+          "q": "Das Baby heißt Mia. ___ ist drei Monate alt.",
+          "options": [
+            "Er",
+            "Sie",
+            "Es"
+          ],
+          "answer": 2,
+          "explain": "das Baby → es."
+        },
+        {
+          "q": "Der Hund heißt Rex. ___ ist sehr alt.",
+          "options": [
+            "Er",
+            "Sie",
+            "Es"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Meine Eltern wohnen in Madrid. ___ sind 60.",
+          "options": [
+            "Er",
+            "Sie",
+            "Es"
+          ],
+          "answer": 1,
+          "explain": "Plural → sie."
+        },
+        {
+          "q": "Das Mädchen heißt Lea. ___ ist acht.",
+          "options": [
+            "Er",
+            "Sie",
+            "Es"
+          ],
+          "answer": 2,
+          "explain": "Gramaticalmente das Mädchen → es (en la lengua hablada también se oye sie)."
+        },
+        {
+          "q": "Die Katze heißt Mimi. ___ ist schwarz.",
+          "options": [
+            "Er",
+            "Sie",
+            "Es"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Construye la frase",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "words": [
+            "Das",
+            "sind",
+            "meine",
+            "Eltern",
+            "."
+          ],
+          "answers": [
+            "Das sind meine Eltern."
+          ]
+        },
+        {
+          "words": [
+            "Hast",
+            "du",
+            "Geschwister",
+            "?"
+          ],
+          "answers": [
+            "Hast du Geschwister?"
+          ]
+        },
+        {
+          "words": [
+            "Wie",
+            "heißt",
+            "deine",
+            "Schwester",
+            "?"
+          ],
+          "answers": [
+            "Wie heißt deine Schwester?"
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "habe",
+            "keine",
+            "Kinder",
+            "."
+          ],
+          "answers": [
+            "Ich habe keine Kinder."
+          ]
+        },
+        {
+          "words": [
+            "Seine",
+            "Frau",
+            "kommt",
+            "aus",
+            "Polen",
+            "."
+          ],
+          "answers": [
+            "Seine Frau kommt aus Polen."
+          ]
+        },
+        {
+          "words": [
+            "Jetzt",
+            "wohnen",
+            "meine",
+            "Großeltern",
+            "allein",
+            "."
+          ],
+          "answers": [
+            "Jetzt wohnen meine Großeltern allein."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "¿Quién es quién?",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wer ist das auf dem Foto?"
+            },
+            {
+              "v": "m1",
+              "t": "Das ist meine Schwester Clara. Und das ist ihr Mann, Stefan."
+            }
+          ],
+          "q": "¿Quién es Stefan?",
+          "options": [
+            "El hermano del hombre",
+            "El marido de Clara",
+            "El padre de Clara"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Haben Sie Kinder, Frau Braun?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, zwei. Eine Tochter und einen Sohn. Meine Tochter ist zwölf und mein Sohn ist neun."
+            }
+          ],
+          "q": "¿Cuántos años tiene el hijo?",
+          "options": [
+            "12",
+            "9",
+            "2"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Bist du verheiratet, Tom?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, ich bin ledig. Aber ich habe eine Freundin. Sie heißt Julia."
+            }
+          ],
+          "q": "¿Cuál es el estado civil de Tom?",
+          "options": [
+            "Casado",
+            "Soltero",
+            "Divorciado"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hast du Geschwister?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, ich habe keine Geschwister. Aber ich habe viele Cousins!"
+            }
+          ],
+          "q": "¿Tiene hermanos la mujer?",
+          "options": [
+            "Sí, muchos",
+            "Un hermano",
+            "No"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wo wohnen deine Eltern, Pablo?"
+            },
+            {
+              "v": "m1",
+              "t": "Meine Eltern wohnen in Málaga. Meine Oma wohnt auch dort, aber allein."
+            }
+          ],
+          "q": "¿Quién vive sola?",
+          "options": [
+            "La madre de Pablo",
+            "La abuela de Pablo",
+            "La hermana de Pablo"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase completa. Cuida las mayúsculas de los sustantivos.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Das ist mein Vater."
+            }
+          ],
+          "answers": [
+            "Das ist mein Vater."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Ich habe zwei Kinder."
+            }
+          ],
+          "answers": [
+            "Ich habe zwei Kinder."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hast du Geschwister?"
+            }
+          ],
+          "answers": [
+            "Hast du Geschwister?"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Meine Frau ist Lehrerin."
+            }
+          ],
+          "answers": [
+            "Meine Frau ist Lehrerin."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wir haben keine Katze."
+            }
+          ],
+          "answers": [
+            "Wir haben keine Katze."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Estos son mis padres.",
+          "answers": [
+            "Das sind meine Eltern."
+          ]
+        },
+        {
+          "prompt": "¿Tienes hermanos?",
+          "answers": [
+            "Hast du Geschwister?"
+          ]
+        },
+        {
+          "prompt": "No tengo hijos.",
+          "answers": [
+            "Ich habe keine Kinder."
+          ]
+        },
+        {
+          "prompt": "Mi hermana está casada.",
+          "answers": [
+            "Meine Schwester ist verheiratet."
+          ]
+        },
+        {
+          "prompt": "Anna y su marido viven en Berna.",
+          "answers": [
+            "Anna und ihr Mann wohnen in Bern."
+          ]
+        },
+        {
+          "prompt": "Señora Frei, ¿cómo se llama su hija?",
+          "answers": [
+            "Frau Frei, wie heißt Ihre Tochter?"
+          ]
+        },
+        {
+          "prompt": "Tengo un hermano y una hermana.",
+          "answers": [
+            "Ich habe einen Bruder und eine Schwester."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wie viele Kinder hat Frau Meier?",
+          "options": [
+            "ein Kind",
+            "zwei Kinder",
+            "drei Kinder"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Frau Meier, haben Sie Kinder?"
+            },
+            {
+              "v": "f1",
+              "t": "Ja, drei. Zwei Töchter und einen Sohn."
+            }
+          ]
+        },
+        {
+          "q": "Wer ist die Frau auf dem Foto?",
+          "options": [
+            "die Mutter",
+            "die Schwester",
+            "die Freundin"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Ist das deine Freundin auf dem Foto?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, das ist meine Schwester Laura. Sie wohnt in Hamburg."
+            }
+          ]
+        },
+        {
+          "q": "Wie alt ist der Bruder von Nina?",
+          "options": [
+            "14",
+            "40",
+            "44"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Nina, wie alt ist dein Bruder?"
+            },
+            {
+              "v": "f2",
+              "t": "Mein Bruder? Er ist vierzehn. Er ist noch in der Schule."
+            }
+          ]
+        },
+        {
+          "q": "Wo wohnen die Eltern von Herrn Ruiz?",
+          "options": [
+            "in Spanien",
+            "in Mexiko",
+            "in Deutschland"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Herr Ruiz, wohnen Ihre Eltern auch in Deutschland?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, meine Eltern wohnen in Mexiko. Mein Bruder wohnt in Spanien."
+            }
+          ]
+        },
+        {
+          "q": "Was ist richtig?",
+          "options": [
+            "Paul ist verheiratet.",
+            "Paul ist geschieden.",
+            "Paul ist ledig."
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Paul, bist du verheiratet?"
+            },
+            {
+              "v": "m1",
+              "t": "Nicht mehr. Ich bin geschieden. Aber ich habe eine Tochter, sie heißt Emma."
+            }
+          ]
+        },
+        {
+          "q": "Wie heißt der Hund?",
+          "options": [
+            "Rex",
+            "Max",
+            "Mimi"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Oh, ein Hund! Wie heißt er?"
+            },
+            {
+              "v": "f1",
+              "t": "Er heißt Max. Und unsere Katze heißt Mimi."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Die Eltern von Leon sollen zur Information kommen.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Achtung, eine Information: Der kleine Leon, fünf Jahre alt, ist hier an der Information. Die Eltern von Leon, bitte kommen Sie zur Information."
+            }
+          ]
+        },
+        {
+          "statement": "Das Familienfest ist für Kinder bis 10 Jahre.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Liebe Familien! Heute ist unser Familienfest. Es gibt Spiele für Kinder von drei bis zwölf Jahren. Die Eltern bekommen Kaffee und Kuchen."
+            }
+          ]
+        },
+        {
+          "statement": "Frau Schneider wartet auf ihren Mann.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Eine Information für Herrn Schneider: Ihre Frau wartet am Eingang. Herr Schneider, bitte kommen Sie zum Eingang."
+            }
+          ]
+        },
+        {
+          "statement": "Großeltern bezahlen heute nichts.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Willkommen im Zoo! Heute ist Großelterntag: Omas und Opas bezahlen nichts. Viel Spaß!"
+            }
+          ]
+        },
+        {
+          "statement": "Die Familie Wagner kommt aus Österreich.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Eine Information für Familie Wagner aus München: Bitte kommen Sie zur Information. Ihr Sohn ist hier."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wer hat Geburtstag?",
+          "options": [
+            "die Mutter",
+            "die Oma",
+            "die Schwester"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Tim, hier ist Mama. Oma hat am Sonntag Geburtstag. Sie ist achtzig! Kommst du auch? Ruf mich bitte an. Tschüss!"
+            }
+          ]
+        },
+        {
+          "q": "Wer ist krank?",
+          "options": [
+            "der Sohn",
+            "die Tochter",
+            "der Mann"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Morgen, Frau Frei, hier ist Stefan Keller. Meine Tochter ist krank. Sie kommt heute nicht in den Kurs. Danke und auf Wiederhören."
+            }
+          ]
+        },
+        {
+          "q": "Wer kommt am Samstag?",
+          "options": [
+            "Lisas Bruder",
+            "Lisas Eltern",
+            "Lisas Freund"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hallo Anna, hier ist Lisa. Meine Eltern kommen am Samstag aus Spanien! Hast du am Sonntag Zeit? Dann kochen wir zusammen. Bis bald!"
+            }
+          ]
+        },
+        {
+          "q": "Wie heißt das Baby?",
+          "options": [
+            "Mia",
+            "Lea",
+            "Lena"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hallo Oma, hier ist Jonas. Das Baby ist da! Es ist ein Mädchen. Sie heißt Mia. Mama und Mia geht es gut. Tschüss!"
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Liebe Carmen,\n\nwie geht's? Hier ein Foto von meiner Familie: Das sind meine Eltern, Hans und Gisela. Mein Vater ist 64, meine Mutter ist 61. Und das ist mein Bruder Jan. Er ist verheiratet und hat zwei Kinder, Lea und Tom. Ich bin ledig und wohne allein in Berlin – mit meiner Katze!\n\nLiebe Grüße\nSabine",
+          "statements": [
+            {
+              "s": "Sabines Vater ist 61 Jahre alt.",
+              "answer": false
+            },
+            {
+              "s": "Jan ist der Bruder von Sabine.",
+              "answer": true
+            },
+            {
+              "s": "Jan hat keine Kinder.",
+              "answer": false
+            },
+            {
+              "s": "Sabine ist nicht verheiratet.",
+              "answer": true
+            },
+            {
+              "s": "Sabine hat eine Katze.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Hallo, ich bin Marco. Ich bin 35 und komme aus Italien. Meine Frau heißt Sophie, sie kommt aus Frankreich. Wir wohnen in der Schweiz, in Genf. Wir haben ein Kind: unser Sohn heißt Luca und ist vier. Zu Hause sprechen wir Italienisch und Französisch. Meine Eltern wohnen in Rom.",
+          "statements": [
+            {
+              "s": "Marcos Frau kommt aus Italien.",
+              "answer": false
+            },
+            {
+              "s": "Marco und Sophie haben einen Sohn.",
+              "answer": true
+            },
+            {
+              "s": "Luca ist vierzehn Jahre alt.",
+              "answer": false
+            },
+            {
+              "s": "Die Familie spricht zu Hause zwei Sprachen.",
+              "answer": true
+            },
+            {
+              "s": "Marcos Eltern wohnen in der Schweiz.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Hi Lukas,\n\nich bin am Wochenende nicht in Zürich. Meine Schwester hat ein Baby! Es ist ein Junge, er heißt Noah. Ich bin jetzt Tante! Meine Schwester und ihr Mann wohnen in Luzern. Am Montag bin ich wieder da.\n\nBis dann\nNora",
+          "statements": [
+            {
+              "s": "Nora ist am Wochenende in Luzern.",
+              "answer": true
+            },
+            {
+              "s": "Das Baby ist ein Mädchen.",
+              "answer": false
+            },
+            {
+              "s": "Noras Schwester hat jetzt ein Kind.",
+              "answer": true
+            },
+            {
+              "s": "Noras Schwester wohnt in Zürich.",
+              "answer": false
+            },
+            {
+              "s": "Am Montag ist Nora wieder in Zürich.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie haben zwei Kinder (4 und 7 Jahre). Sie suchen am Samstag ein Programm für die ganze Familie.",
+          "a": "Samstag: Familientag im Museum – für Eltern und Kinder ab 3 Jahren",
+          "b": "Samstag: Museumsnacht – nur für Erwachsene ab 18",
+          "answer": "a"
+        },
+        {
+          "situation": "Ihre Oma ist 80. Sie suchen einen Kurs für sie.",
+          "a": "Computerkurs für Senioren (ab 65 Jahren)",
+          "b": "Computerkurs für Jugendliche (12–18 Jahre)",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie sind ledig und möchten neue Leute kennenlernen.",
+          "a": "Single-Treff am Freitag: Neue Freunde finden!",
+          "b": "Treffen für Mütter mit Babys: jeden Dienstag",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie haben einen Hund. Sie suchen ein Hotel.",
+          "a": "Hotel Bergblick: Hunde sind willkommen!",
+          "b": "Hotel Seeblick: Leider keine Hunde und Katzen.",
+          "answer": "a"
+        },
+        {
+          "situation": "Ihr Sohn ist 10 und möchte Fußball spielen.",
+          "a": "FC Sonnenberg: Fußball für Kinder von 8 bis 12",
+          "b": "FC Sonnenberg: Fußball für Männer ab 30",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie möchten mit Ihren Eltern essen gehen. Ihr Vater isst kein Fleisch.",
+          "a": "Steakhaus Texas – Fleisch, Fleisch, Fleisch!",
+          "b": "Restaurant Grün – vegetarisch und vegan",
+          "answer": "b"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Spielplatz – nur für Kinder bis 12 Jahre",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Hier können Kinder mit 10 Jahren spielen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Keine Hunde im Supermarkt!",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Mit Hund darf man in den Supermarkt.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Familienkarte: 2 Erwachsene + 2 Kinder = 30 Euro",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Die Familienkarte ist für vier Personen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Kinderarzt Dr. Frei – heute keine Sprechstunde",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Dr. Frei ist heute in der Praxis.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Eltern-Café: Montag bis Freitag, 9–12 Uhr. Babys willkommen!",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Man kann mit einem Baby ins Eltern-Café kommen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Wickelraum – 1. Stock",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der Raum für Babys ist im Erdgeschoss.",
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Sandra Weber ist 36 Jahre alt. Sie ist verheiratet und hat zwei Kinder, Paul und Emma. Die Familie wohnt in Graz. Sandra möchte ihre Kinder im Schwimmkurs anmelden. Ihre Telefonnummer ist 0316 44 58 21.",
+          "title": "Anmeldung Schwimmkurs – Sportzentrum Graz",
+          "fields": [
+            {
+              "label": "Name der Mutter / des Vaters",
+              "given": "Sandra Weber"
+            },
+            {
+              "label": "Familienstand",
+              "answers": [
+                "verheiratet"
+              ]
+            },
+            {
+              "label": "Anzahl Kinder",
+              "answers": [
+                "2",
+                "zwei"
+              ]
+            },
+            {
+              "label": "Namen der Kinder",
+              "answers": [
+                "Paul und Emma",
+                "Paul, Emma",
+                "Emma und Paul",
+                "Emma, Paul"
+              ]
+            },
+            {
+              "label": "Wohnort",
+              "answers": [
+                "Graz"
+              ]
+            },
+            {
+              "label": "Telefon",
+              "answers": [
+                "0316 44 58 21"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Hallo, ich bin Diego Fernández. Ich bin 27 und komme aus Argentinien. Ich bin ledig und habe keine Kinder. Ich wohne in München und lerne Deutsch.",
+          "title": "Formular – Stadt München, Einwohnermeldeamt",
+          "fields": [
+            {
+              "label": "Familienname",
+              "given": "Fernández"
+            },
+            {
+              "label": "Vorname",
+              "answers": [
+                "Diego"
+              ]
+            },
+            {
+              "label": "Alter",
+              "answers": [
+                "27",
+                "siebenundzwanzig"
+              ]
+            },
+            {
+              "label": "Herkunftsland",
+              "answers": [
+                "Argentinien"
+              ]
+            },
+            {
+              "label": "Familienstand",
+              "answers": [
+                "ledig"
+              ]
+            },
+            {
+              "label": "Kinder (ja / nein)",
+              "answers": [
+                "nein",
+                "keine"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Das ist Familie Kaya: Mehmet (45) und seine Frau Elif (41). Sie haben eine Tochter, Deniz. Sie ist 15. Die Familie wohnt in Köln. Mehmet ist Lehrer.",
+          "title": "Anmeldung – Familienurlaub Nordsee",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Kaya"
+            },
+            {
+              "label": "Erwachsene (Anzahl)",
+              "answers": [
+                "2",
+                "zwei"
+              ]
+            },
+            {
+              "label": "Kinder (Anzahl)",
+              "answers": [
+                "1",
+                "eins",
+                "ein Kind"
+              ]
+            },
+            {
+              "label": "Alter der Kinder",
+              "answers": [
+                "15",
+                "fünfzehn"
+              ]
+            },
+            {
+              "label": "Wohnort",
+              "answers": [
+                "Köln"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Ihre neue Kollegin Martina fragt nach Ihrer Familie. Schreiben Sie ihr eine kurze E-Mail.",
+          "points": [
+            "Sind Sie verheiratet / haben Sie einen Partner?",
+            "Haben Sie Kinder oder Geschwister?",
+            "Wo wohnt Ihre Familie?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Martina,\n\ndanke für deine Frage! Ich bin nicht verheiratet, aber ich habe eine Partnerin. Sie heißt Andrea. Wir haben keine Kinder. Ich habe einen Bruder und eine Schwester. Meine Familie wohnt in Spanien, in Granada.\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "Ihre Freundin Julia hat ein Baby. Schreiben Sie ihr eine Karte.",
+          "points": [
+            "Gratulieren Sie.",
+            "Fragen Sie: Wie heißt das Baby?",
+            "Fragen Sie: Wie geht es dir?"
+          ],
+          "register": "informal (du)",
+          "model": "Liebe Julia,\n\nherzlichen Glückwunsch zum Baby! Ist es ein Junge oder ein Mädchen? Wie heißt das Baby? Und wie geht es dir?\n\nLiebe Grüße\nLaura"
+        },
+        {
+          "task": "Sie möchten Ihr Kind (6 Jahre) im Fußballverein anmelden. Schreiben Sie dem Verein.",
+          "points": [
+            "Wer sind Sie?",
+            "Wie heißt Ihr Kind und wie alt ist es?",
+            "Fragen Sie: Wann ist das Training?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nmein Name ist Ana Silva. Mein Sohn heißt Tiago und ist sechs Jahre alt. Er möchte gern Fußball spielen. Wann ist das Training?\n\nViele Grüße\nAna Silva"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Land?",
+            "Wohnort?",
+            "Familie?"
+          ],
+          "extra": "Der Prüfer fragt dann: Haben Sie Geschwister?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Ich heiße José López und bin achtundzwanzig. Ich komme aus Spanien und wohne in Zürich. Ich bin nicht verheiratet, aber ich habe eine Partnerin. Meine Eltern wohnen in Granada. Ich habe eine Schwester."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Land?",
+            "Familienstand?",
+            "Kinder?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie heißen Ihre Kinder?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo! Mein Name ist Laura García. Ich komme aus Spanien. Ich bin verheiratet, mein Mann heißt Tom. Wir haben zwei Kinder, einen Sohn und eine Tochter. Sie heißen Leo und Sara."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Geschwister?",
+            "Sprachen?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wo wohnt Ihre Familie?",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Ich heiße Pablo, ich bin einundvierzig. Ich habe zwei Brüder, aber keine Schwester. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Familie wohnt in Sevilla."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Familie",
+          "word": "Geschwister",
+          "question": "Hast du Geschwister?",
+          "answer": "Ja, ich habe einen Bruder."
+        },
+        {
+          "theme": "Familie",
+          "word": "Kinder",
+          "question": "Hast du Kinder?",
+          "answer": "Nein, ich habe keine Kinder."
+        },
+        {
+          "theme": "Familie",
+          "word": "Eltern",
+          "question": "Wo wohnen deine Eltern?",
+          "answer": "Meine Eltern wohnen in Spanien."
+        },
+        {
+          "theme": "Familie",
+          "word": "verheiratet",
+          "question": "Bist du verheiratet?",
+          "answer": "Nein, ich bin ledig."
+        },
+        {
+          "theme": "Familie",
+          "word": "Schwester",
+          "question": "Wie heißt deine Schwester?",
+          "answer": "Meine Schwester heißt Elena."
+        },
+        {
+          "theme": "Familie",
+          "word": "Hund / Katze",
+          "question": "Hast du einen Hund oder eine Katze?",
+          "answer": "Ich habe eine Katze. Sie heißt Mimi."
+        }
+      ]
+    }
+  }
+}

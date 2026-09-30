@@ -117,7 +117,7 @@ def check_topic(lvl, tid, fmt):
                 if not re.search(r"\[\[.+?\]\]", it.get("text", "")):
                     err(I, "hueco sin [[respuesta]]")
             elif t == "order":
-                tokens = lambda s: sorted(re.findall(r"[\wäöüÄÖÜß']+|[,.!?]", s))
+                tokens = lambda s: sorted(re.findall(r"[\wäöüÄÖÜß']+|[,.!?]", s.lower()))
                 for a in it.get("answers", []):
                     if tokens(a) != tokens(" ".join(it["words"])):
                         err(I, f"la respuesta {a!r} usa palabras distintas de las fichas")

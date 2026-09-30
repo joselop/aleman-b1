@@ -1,0 +1,1654 @@
+{
+  "id": "a1-t02",
+  "level": "a1",
+  "topic": "t02",
+  "title": "Números, países e idiomas",
+  "title_de": "Zahlen, Länder und Sprachen",
+  "goals": [
+    "Contar del 0 al 100 y entender números compuestos al oírlos",
+    "Decir y preguntar la edad y el número de teléfono",
+    "Nombrar países e idiomas, incluidos los que llevan artículo (die Schweiz, die USA…)",
+    "Conjugar sprechen (du sprichst, er spricht)",
+    "Hacer preguntas de sí o no con el verbo en primera posición",
+    "Pedir que te repitan algo: Wie bitte? Noch einmal, bitte."
+  ],
+  "vocab": [
+    {
+      "de": "die Zahl",
+      "pl": "die Zahlen",
+      "es": "el número (cifra)",
+      "cat": "Números",
+      "ex": "Die Zahl ist sehr lang.",
+      "ex_es": "El número es muy largo."
+    },
+    {
+      "de": "null",
+      "es": "cero",
+      "cat": "Números",
+      "ex": "Die Nummer beginnt mit null.",
+      "ex_es": "El número empieza por cero."
+    },
+    {
+      "de": "eins",
+      "es": "uno",
+      "cat": "Números",
+      "ex": "Eins, zwei, drei!",
+      "ex_es": "¡Uno, dos, tres!"
+    },
+    {
+      "de": "zwei",
+      "es": "dos",
+      "cat": "Números",
+      "ex": "Zimmer zwei, bitte.",
+      "ex_es": "Habitación dos, por favor."
+    },
+    {
+      "de": "zwölf",
+      "es": "doce",
+      "cat": "Números",
+      "ex": "Das Kind ist zwölf.",
+      "ex_es": "El niño tiene doce años."
+    },
+    {
+      "de": "sechzehn",
+      "es": "dieciséis",
+      "cat": "Números",
+      "ex": "Sie ist sechzehn Jahre alt.",
+      "ex_es": "Ella tiene dieciséis años."
+    },
+    {
+      "de": "siebzehn",
+      "es": "diecisiete",
+      "cat": "Números",
+      "ex": "Er ist siebzehn.",
+      "ex_es": "Él tiene diecisiete años."
+    },
+    {
+      "de": "zwanzig",
+      "es": "veinte",
+      "cat": "Números",
+      "ex": "Ich bin zwanzig Jahre alt.",
+      "ex_es": "Tengo veinte años."
+    },
+    {
+      "de": "einundzwanzig",
+      "es": "veintiuno",
+      "cat": "Números",
+      "ex": "Die Zimmernummer ist einundzwanzig.",
+      "ex_es": "El número de habitación es el veintiuno."
+    },
+    {
+      "de": "dreißig",
+      "es": "treinta",
+      "cat": "Números",
+      "ex": "Anna ist dreißig.",
+      "ex_es": "Anna tiene treinta años."
+    },
+    {
+      "de": "sechzig",
+      "es": "sesenta",
+      "cat": "Números",
+      "ex": "Mein Vater ist sechzig.",
+      "ex_es": "Mi padre tiene sesenta años."
+    },
+    {
+      "de": "siebzig",
+      "es": "setenta",
+      "cat": "Números",
+      "ex": "Herr Braun ist siebzig Jahre alt.",
+      "ex_es": "El señor Braun tiene setenta años."
+    },
+    {
+      "de": "hundert",
+      "es": "cien",
+      "cat": "Números",
+      "ex": "Hundert Prozent!",
+      "ex_es": "¡Al cien por cien!"
+    },
+    {
+      "de": "das Jahr",
+      "pl": "die Jahre",
+      "es": "el año",
+      "cat": "Datos personales",
+      "ex": "Ich bin 25 Jahre alt.",
+      "ex_es": "Tengo 25 años."
+    },
+    {
+      "de": "alt",
+      "es": "viejo; (con edad) … años",
+      "cat": "Datos personales",
+      "ex": "Wie alt sind Sie?",
+      "ex_es": "¿Cuántos años tiene usted?"
+    },
+    {
+      "de": "das Alter",
+      "es": "la edad",
+      "cat": "Datos personales",
+      "ex": "Alter: 34 Jahre",
+      "ex_es": "Edad: 34 años"
+    },
+    {
+      "de": "die Telefonnummer",
+      "pl": "die Telefonnummern",
+      "es": "el número de teléfono",
+      "cat": "Datos personales",
+      "ex": "Wie ist Ihre Telefonnummer?",
+      "ex_es": "¿Cuál es su número de teléfono?"
+    },
+    {
+      "de": "die Nummer",
+      "pl": "die Nummern",
+      "es": "el número",
+      "cat": "Datos personales",
+      "ex": "Meine Nummer ist 0176 23 45 67.",
+      "ex_es": "Mi número es el 0176 23 45 67."
+    },
+    {
+      "de": "das Handy",
+      "pl": "die Handys",
+      "es": "el móvil",
+      "cat": "Datos personales",
+      "ex": "Meine Handynummer ist 079 812 33 40.",
+      "ex_es": "Mi número de móvil es el 079 812 33 40."
+    },
+    {
+      "de": "die E-Mail",
+      "pl": "die E-Mails",
+      "es": "el correo electrónico",
+      "cat": "Datos personales",
+      "ex": "Wie ist Ihre E-Mail-Adresse?",
+      "ex_es": "¿Cuál es su dirección de correo?"
+    },
+    {
+      "de": "das Land",
+      "pl": "die Länder",
+      "es": "el país",
+      "cat": "Países e idiomas",
+      "ex": "Aus welchem Land kommst du?",
+      "ex_es": "¿De qué país eres?"
+    },
+    {
+      "de": "die Sprache",
+      "pl": "die Sprachen",
+      "es": "el idioma, la lengua",
+      "cat": "Países e idiomas",
+      "ex": "Welche Sprachen sprichst du?",
+      "ex_es": "¿Qué idiomas hablas?"
+    },
+    {
+      "de": "die Muttersprache",
+      "pl": "die Muttersprachen",
+      "es": "la lengua materna",
+      "cat": "Países e idiomas",
+      "ex": "Meine Muttersprache ist Spanisch.",
+      "ex_es": "Mi lengua materna es el español."
+    },
+    {
+      "de": "Spanisch",
+      "es": "español (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Sprechen Sie Spanisch?",
+      "ex_es": "¿Habla usted español?"
+    },
+    {
+      "de": "Englisch",
+      "es": "inglés (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Ich spreche gut Englisch.",
+      "ex_es": "Hablo bien inglés."
+    },
+    {
+      "de": "Französisch",
+      "es": "francés (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "In Genf spricht man Französisch.",
+      "ex_es": "En Ginebra se habla francés."
+    },
+    {
+      "de": "Italienisch",
+      "es": "italiano (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Marco spricht Italienisch.",
+      "ex_es": "Marco habla italiano."
+    },
+    {
+      "de": "Portugiesisch",
+      "es": "portugués (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Sprichst du Portugiesisch?",
+      "ex_es": "¿Hablas portugués?"
+    },
+    {
+      "de": "Türkisch",
+      "es": "turco (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Ayşe spricht Türkisch und Deutsch.",
+      "ex_es": "Ayşe habla turco y alemán."
+    },
+    {
+      "de": "Chinesisch",
+      "es": "chino (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Chinesisch ist schwer.",
+      "ex_es": "El chino es difícil."
+    },
+    {
+      "de": "England",
+      "es": "Inglaterra",
+      "cat": "Países e idiomas",
+      "ex": "Tom kommt aus England.",
+      "ex_es": "Tom es de Inglaterra."
+    },
+    {
+      "de": "die USA",
+      "es": "Estados Unidos",
+      "cat": "Países e idiomas",
+      "ex": "Sie kommt aus den USA.",
+      "ex_es": "Ella es de Estados Unidos."
+    },
+    {
+      "de": "die Türkei",
+      "es": "Turquía",
+      "cat": "Países e idiomas",
+      "ex": "Er wohnt in der Türkei.",
+      "ex_es": "Él vive en Turquía."
+    },
+    {
+      "de": "Polen",
+      "es": "Polonia",
+      "cat": "Países e idiomas",
+      "ex": "Kommen Sie aus Polen?",
+      "ex_es": "¿Es usted de Polonia?"
+    },
+    {
+      "de": "Portugal",
+      "es": "Portugal",
+      "cat": "Países e idiomas",
+      "ex": "Ana kommt aus Portugal, aus Lissabon.",
+      "ex_es": "Ana es de Portugal, de Lisboa."
+    },
+    {
+      "de": "Mexiko",
+      "es": "México",
+      "cat": "Países e idiomas",
+      "ex": "In Mexiko spricht man Spanisch.",
+      "ex_es": "En México se habla español."
+    },
+    {
+      "de": "China",
+      "es": "China",
+      "cat": "Países e idiomas",
+      "ex": "Li kommt aus China.",
+      "ex_es": "Li es de China."
+    },
+    {
+      "de": "sprechen",
+      "es": "hablar",
+      "cat": "Verbos",
+      "forms": "ich spreche, du sprichst, er spricht",
+      "ex": "Sprichst du Englisch?",
+      "ex_es": "¿Hablas inglés?"
+    },
+    {
+      "de": "zählen",
+      "es": "contar",
+      "cat": "Verbos",
+      "forms": "ich zähle, du zählst, er zählt",
+      "ex": "Wir zählen bis zwanzig.",
+      "ex_es": "Contamos hasta veinte."
+    },
+    {
+      "de": "schreiben",
+      "es": "escribir",
+      "cat": "Verbos",
+      "forms": "ich schreibe, du schreibst, er schreibt",
+      "ex": "Schreiben Sie bitte die Nummer.",
+      "ex_es": "Escriba el número, por favor."
+    },
+    {
+      "de": "hören",
+      "es": "oír, escuchar",
+      "cat": "Verbos",
+      "forms": "ich höre, du hörst, er hört",
+      "ex": "Hören Sie die Zahlen.",
+      "ex_es": "Escuche los números."
+    },
+    {
+      "de": "verstehen",
+      "es": "entender",
+      "cat": "Verbos",
+      "forms": "ich verstehe, du verstehst, er versteht",
+      "ex": "Ich verstehe das nicht.",
+      "ex_es": "No lo entiendo."
+    },
+    {
+      "de": "Wie bitte?",
+      "es": "¿Cómo dice? / ¿Perdón?",
+      "cat": "Frases útiles",
+      "ex": "Wie bitte? Noch einmal, bitte.",
+      "ex_es": "¿Perdón? Otra vez, por favor."
+    },
+    {
+      "de": "noch einmal",
+      "es": "otra vez",
+      "cat": "Frases útiles",
+      "ex": "Sagen Sie das bitte noch einmal.",
+      "ex_es": "Dígalo otra vez, por favor."
+    },
+    {
+      "de": "langsam",
+      "es": "despacio, lento",
+      "cat": "Frases útiles",
+      "ex": "Langsam, bitte!",
+      "ex_es": "¡Despacio, por favor!"
+    },
+    {
+      "de": "ein bisschen",
+      "es": "un poco",
+      "cat": "Frases útiles",
+      "ex": "Ich spreche ein bisschen Deutsch.",
+      "ex_es": "Hablo un poco de alemán."
+    },
+    {
+      "de": "richtig",
+      "es": "correcto",
+      "cat": "Frases útiles",
+      "ex": "Ja, das ist richtig.",
+      "ex_es": "Sí, es correcto."
+    },
+    {
+      "de": "falsch",
+      "es": "incorrecto, falso",
+      "cat": "Frases útiles",
+      "ex": "Die Nummer ist falsch.",
+      "ex_es": "El número es incorrecto."
+    },
+    {
+      "de": "welche?",
+      "es": "¿qué? / ¿cuáles?",
+      "cat": "Frases útiles",
+      "ex": "Welche Sprachen sprechen Sie?",
+      "ex_es": "¿Qué idiomas habla usted?"
+    },
+    {
+      "de": "oder",
+      "es": "o",
+      "cat": "Frases útiles",
+      "ex": "Kommst du aus Spanien oder aus Mexiko?",
+      "ex_es": "¿Eres de España o de México?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "mc",
+      "title": "¿Qué número es?",
+      "instructions": "Elige la cifra que corresponde a la palabra.",
+      "items": [
+        {
+          "q": "siebzehn",
+          "options": [
+            "70",
+            "17",
+            "7"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "vierunddreißig",
+          "options": [
+            "43",
+            "34",
+            "304"
+          ],
+          "answer": 1,
+          "explain": "Primero las unidades (vier = 4), luego las decenas (dreißig = 30)."
+        },
+        {
+          "q": "sechzig",
+          "options": [
+            "16",
+            "66",
+            "60"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "neunundachtzig",
+          "options": [
+            "98",
+            "89",
+            "19"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "zwölf",
+          "options": [
+            "2",
+            "20",
+            "12"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "einundfünfzig",
+          "options": [
+            "51",
+            "15",
+            "501"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "achtundsiebzig",
+          "options": [
+            "87",
+            "78",
+            "68"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "dictation",
+      "title": "Dictado de números",
+      "instructions": "Escucha y escribe el número en cifras.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "dreiundzwanzig"
+            }
+          ],
+          "answers": [
+            "23"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "siebenundvierzig"
+            }
+          ],
+          "answers": [
+            "47"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "sechzehn"
+            }
+          ],
+          "answers": [
+            "16"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "zweiundneunzig"
+            }
+          ],
+          "answers": [
+            "92"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "fünfundsechzig"
+            }
+          ],
+          "answers": [
+            "65"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "dreißig"
+            }
+          ],
+          "answers": [
+            "30"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "achtundfünfzig"
+            }
+          ],
+          "answers": [
+            "58"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "write",
+      "title": "Escribe los números con letras",
+      "instructions": "Escribe el número en alemán, en una sola palabra y en minúscula.",
+      "items": [
+        {
+          "prompt": "15",
+          "answers": [
+            "fünfzehn",
+            "fuenfzehn"
+          ]
+        },
+        {
+          "prompt": "21",
+          "answers": [
+            "einundzwanzig"
+          ]
+        },
+        {
+          "prompt": "36",
+          "answers": [
+            "sechsunddreißig",
+            "sechsunddreissig"
+          ]
+        },
+        {
+          "prompt": "70",
+          "answers": [
+            "siebzig"
+          ]
+        },
+        {
+          "prompt": "44",
+          "answers": [
+            "vierundvierzig"
+          ]
+        },
+        {
+          "prompt": "100",
+          "answers": [
+            "hundert",
+            "einhundert"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "match",
+      "title": "País e idioma",
+      "instructions": "¿Qué idioma se habla principalmente en cada país?",
+      "pairs": [
+        [
+          "Frankreich",
+          "Französisch"
+        ],
+        [
+          "Mexiko",
+          "Spanisch"
+        ],
+        [
+          "Österreich",
+          "Deutsch"
+        ],
+        [
+          "Portugal",
+          "Portugiesisch"
+        ],
+        [
+          "die USA",
+          "Englisch"
+        ],
+        [
+          "die Türkei",
+          "Türkisch"
+        ],
+        [
+          "Polen",
+          "Polnisch"
+        ]
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "El verbo sprechen",
+      "instructions": "Escribe la forma correcta de sprechen.",
+      "items": [
+        {
+          "text": "Ich [[spreche]] Spanisch und Englisch."
+        },
+        {
+          "text": "[[Sprichst]] du Französisch?"
+        },
+        {
+          "text": "Maria [[spricht]] sehr gut Deutsch."
+        },
+        {
+          "text": "Wir [[sprechen]] ein bisschen Italienisch."
+        },
+        {
+          "text": "Welche Sprachen [[sprecht]] ihr?"
+        },
+        {
+          "text": "[[Sprechen]] Sie Englisch, Herr Keller?"
+        },
+        {
+          "text": "Tom und Lisa [[sprechen]] Englisch."
+        },
+        {
+          "text": "Er [[spricht]] Türkisch und Deutsch."
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "aus / in + país",
+      "instructions": "Completa. Algunos países necesitan artículo (der / den / dem).",
+      "items": [
+        {
+          "text": "Lara kommt aus [[der]] Schweiz, aus Luzern."
+        },
+        {
+          "text": "Ich wohne in [[der]] Türkei, in Istanbul."
+        },
+        {
+          "text": "John kommt aus [[den]] USA."
+        },
+        {
+          "text": "Sie wohnen jetzt in [[den]] USA, in Boston."
+        },
+        {
+          "text": "Wir kommen [[aus]] Spanien."
+        },
+        {
+          "text": "Er wohnt [[in]] Österreich."
+        },
+        {
+          "text": "Kommst du aus [[der]] Schweiz oder aus Österreich?"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Preguntas de sí o no",
+      "instructions": "Ordena la pregunta. En las preguntas de sí/no el verbo va el primero.",
+      "items": [
+        {
+          "words": [
+            "Kommst",
+            "du",
+            "aus",
+            "Spanien",
+            "?"
+          ],
+          "answers": [
+            "Kommst du aus Spanien?"
+          ]
+        },
+        {
+          "words": [
+            "Sprechen",
+            "Sie",
+            "Englisch",
+            "?"
+          ],
+          "answers": [
+            "Sprechen Sie Englisch?"
+          ]
+        },
+        {
+          "words": [
+            "Wohnt",
+            "Anna",
+            "in",
+            "Wien",
+            "?"
+          ],
+          "answers": [
+            "Wohnt Anna in Wien?"
+          ]
+        },
+        {
+          "words": [
+            "Bist",
+            "du",
+            "zwanzig",
+            "?"
+          ],
+          "answers": [
+            "Bist du zwanzig?"
+          ]
+        },
+        {
+          "words": [
+            "Lernt",
+            "ihr",
+            "hier",
+            "Deutsch",
+            "?"
+          ],
+          "answers": [
+            "Lernt ihr hier Deutsch?"
+          ]
+        },
+        {
+          "words": [
+            "Spricht",
+            "Tom",
+            "Spanisch",
+            "?"
+          ],
+          "answers": [
+            "Spricht Tom Spanisch?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "mc",
+      "title": "¿Pregunta abierta o de sí/no?",
+      "instructions": "Elige la respuesta adecuada a cada pregunta.",
+      "items": [
+        {
+          "q": "Woher kommst du?",
+          "options": [
+            "Ja, aus Spanien.",
+            "Aus Spanien.",
+            "Nein."
+          ],
+          "answer": 1,
+          "explain": "Woher es una pregunta abierta: no se contesta con ja/nein."
+        },
+        {
+          "q": "Kommst du aus Italien?",
+          "options": [
+            "Nein, aus Portugal.",
+            "In Italien.",
+            "Italienisch."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Wie alt sind Sie?",
+          "options": [
+            "Ja, ich bin alt.",
+            "Ich habe 40 Jahre.",
+            "Ich bin 40."
+          ],
+          "answer": 2,
+          "explain": "La edad va con sein: Ich bin 40 (Jahre alt)."
+        },
+        {
+          "q": "Sprichst du Französisch?",
+          "options": [
+            "Ja, ein bisschen.",
+            "Aus Frankreich.",
+            "Ich heiße Paul."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Welche Sprachen sprechen Sie?",
+          "options": [
+            "Ja, sehr gut.",
+            "Deutsch und Spanisch.",
+            "In der Schweiz."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Wie ist Ihre Telefonnummer?",
+          "options": [
+            "Ich wohne in Bern.",
+            "0171 45 67 89.",
+            "Ja, bitte."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "listen",
+      "title": "Teléfonos y edades",
+      "instructions": "Escucha y elige la respuesta correcta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Wie ist deine Handynummer, Julia?"
+            },
+            {
+              "v": "f2",
+              "t": "Null, eins, sieben, sechs, dreiundvierzig, achtzehn, fünfundneunzig."
+            }
+          ],
+          "q": "¿Cuál es el móvil de Julia?",
+          "options": [
+            "0176 34 18 95",
+            "0176 43 18 95",
+            "0176 43 80 59"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wie alt ist Ihr Sohn, Herr Novak?"
+            },
+            {
+              "v": "m2",
+              "t": "Mein Sohn? Er ist siebzehn."
+            }
+          ],
+          "q": "¿Cuántos años tiene el hijo del señor Novak?",
+          "options": [
+            "7",
+            "17",
+            "70"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Sprichst du Englisch, Mia?"
+            },
+            {
+              "v": "f1",
+              "t": "Ja, sehr gut. Und ich spreche auch ein bisschen Französisch."
+            }
+          ],
+          "q": "¿Qué idioma habla Mia solo un poco?",
+          "options": [
+            "Inglés",
+            "Francés",
+            "Alemán"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Kommen Sie aus Österreich?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, aus der Schweiz. Aber ich wohne jetzt in Wien."
+            }
+          ],
+          "q": "¿De dónde es el hombre?",
+          "options": [
+            "De Austria",
+            "De Suiza",
+            "De Alemania"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Zimmer zweiundsechzig, bitte."
+            },
+            {
+              "v": "f1",
+              "t": "Wie bitte? Sechsundzwanzig?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, zweiundsechzig."
+            }
+          ],
+          "q": "¿Qué habitación quiere el hombre?",
+          "options": [
+            "26",
+            "62",
+            "66"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Tengo 31 años.",
+          "answers": [
+            "Ich bin 31 Jahre alt.",
+            "Ich bin 31.",
+            "Ich bin einunddreißig Jahre alt.",
+            "Ich bin einunddreißig."
+          ]
+        },
+        {
+          "prompt": "¿Hablas alemán? (informal)",
+          "answers": [
+            "Sprichst du Deutsch?"
+          ]
+        },
+        {
+          "prompt": "Hablo español, inglés y un poco de alemán.",
+          "answers": [
+            "Ich spreche Spanisch, Englisch und ein bisschen Deutsch."
+          ]
+        },
+        {
+          "prompt": "Vivo en Suiza.",
+          "answers": [
+            "Ich wohne in der Schweiz."
+          ]
+        },
+        {
+          "prompt": "¿Es usted de Estados Unidos?",
+          "answers": [
+            "Kommen Sie aus den USA?",
+            "Sind Sie aus den USA?"
+          ]
+        },
+        {
+          "prompt": "Otra vez, por favor. Despacio.",
+          "answers": [
+            "Noch einmal, bitte. Langsam.",
+            "Noch einmal bitte. Langsam bitte.",
+            "Noch einmal, bitte. Langsam, bitte."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wie ist die Telefonnummer von Frau Weber?",
+          "options": [
+            "044 27 38 15",
+            "044 72 83 15",
+            "044 27 83 51"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Frau Weber, wie ist Ihre Telefonnummer?"
+            },
+            {
+              "v": "f1",
+              "t": "Null, vier, vier, siebenundzwanzig, achtunddreißig, fünfzehn."
+            },
+            {
+              "v": "m1",
+              "t": "Siebenundzwanzig, achtunddreißig, fünfzehn. Danke!"
+            }
+          ]
+        },
+        {
+          "q": "Wie alt ist Lukas?",
+          "options": [
+            "19",
+            "29",
+            "92"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Lukas, wie alt bist du? Neunzehn?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, ich bin schon neunundzwanzig!"
+            }
+          ]
+        },
+        {
+          "q": "Welche Sprachen spricht Paulo?",
+          "options": [
+            "Portugiesisch und Spanisch",
+            "Portugiesisch und Englisch",
+            "Spanisch und Englisch"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Paulo, du kommst aus Portugal, richtig? Sprichst du auch Spanisch?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, leider nicht. Ich spreche Portugiesisch und Englisch. Und jetzt lerne ich Deutsch."
+            }
+          ]
+        },
+        {
+          "q": "Woher kommt Emily?",
+          "options": [
+            "aus England",
+            "aus den USA",
+            "aus der Schweiz"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Emily, kommst du aus England?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, ich komme aus den USA, aus Chicago. Aber ich wohne in der Schweiz."
+            }
+          ]
+        },
+        {
+          "q": "Welches Zimmer hat der Kurs?",
+          "options": [
+            "Zimmer 14",
+            "Zimmer 40",
+            "Zimmer 41"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Entschuldigung, wo ist der Deutschkurs? In Zimmer vierzehn?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, heute ist der Kurs in Zimmer einundvierzig."
+            }
+          ]
+        },
+        {
+          "q": "Was ist die Muttersprache von Herrn Yilmaz?",
+          "options": [
+            "Deutsch",
+            "Türkisch",
+            "Englisch"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Herr Yilmaz, Sie sprechen sehr gut Deutsch!"
+            },
+            {
+              "v": "m2",
+              "t": "Danke! Ich wohne schon lange in Deutschland. Aber meine Muttersprache ist Türkisch."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "statement": "Der Zug nach Basel fährt von Gleis 17.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Achtung, eine Information: Der Zug nach Basel fährt heute nicht von Gleis siebzehn, sondern von Gleis siebzig. Gleis siebzig."
+            }
+          ]
+        },
+        {
+          "statement": "Die Informationen gibt es auf Deutsch und Englisch.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Herzlich willkommen im Museum! Informationen gibt es auf Deutsch und auf Englisch. Danke."
+            }
+          ]
+        },
+        {
+          "statement": "Frau Rossi soll die Nummer 0 44 55 66 12 anrufen.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Eine Information für Frau Rossi: Bitte rufen Sie die Nummer null, vier, vier, fünfundfünfzig, sechsundsechzig, einundzwanzig an. Danke."
+            }
+          ]
+        },
+        {
+          "statement": "Der Kurs Spanisch A1 ist in Raum 33.",
+          "answer": true,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Liebe Kursteilnehmer: Der Kurs Spanisch A1 ist heute in Raum dreiunddreißig. Der Kurs Französisch ist in Raum zwölf."
+            }
+          ]
+        },
+        {
+          "statement": "Die Gruppe kommt aus Polen.",
+          "answer": false,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Tag! Hier ist die Information. Die Gruppe aus der Türkei ist jetzt da. Bitte kommen Sie zum Eingang."
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wie ist die neue Handynummer von Sara?",
+          "options": [
+            "0176 55 38 12",
+            "0176 55 83 12",
+            "0176 55 83 21"
+          ],
+          "answer": 1,
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Ben, hier ist Sara. Ich habe eine neue Handynummer: null, eins, sieben, sechs, fünfundfünfzig, dreiundachtzig, zwölf. Tschüss!"
+            }
+          ]
+        },
+        {
+          "q": "In welchem Zimmer ist Herr Keller?",
+          "options": [
+            "Zimmer 18",
+            "Zimmer 80",
+            "Zimmer 88"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Tag, Frau Huber, hier ist Peter Keller. Ich bin jetzt im Hotel, in Zimmer achtzehn. Rufen Sie mich bitte an. Danke!"
+            }
+          ]
+        },
+        {
+          "q": "Welche Sprache lernt Tim?",
+          "options": [
+            "Englisch",
+            "Spanisch",
+            "Italienisch"
+          ],
+          "answer": 2,
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hallo Mama, hier ist Tim. Ich bin in Rom! Ich lerne hier Italienisch. Es ist super, aber sehr schwer. Bis bald!"
+            }
+          ]
+        },
+        {
+          "q": "Wie alt ist der Opa von Lena?",
+          "options": [
+            "75",
+            "57",
+            "70"
+          ],
+          "answer": 0,
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hallo Anna, hier ist Lena. Kommst du am Samstag? Mein Opa hat Geburtstag. Er ist fünfundsiebzig! Tschüss!"
+            }
+          ]
+        }
+      ]
+    },
+    "lesen": {
+      "t1": [
+        {
+          "text": "Hallo, ich bin Ayşe. Ich bin 26 Jahre alt und komme aus der Türkei, aus Izmir. Jetzt wohne ich in Deutschland, in Köln. Ich spreche Türkisch, Englisch und ein bisschen Deutsch. Meine Freundin Lucía kommt aus Mexiko. Sie spricht Spanisch und sehr gut Englisch. Wir lernen zusammen Deutsch.",
+          "statements": [
+            {
+              "s": "Ayşe ist 26 Jahre alt.",
+              "answer": true
+            },
+            {
+              "s": "Ayşe wohnt in der Türkei.",
+              "answer": false
+            },
+            {
+              "s": "Ayşe spricht sehr gut Deutsch.",
+              "answer": false
+            },
+            {
+              "s": "Lucía kommt aus Mexiko.",
+              "answer": true
+            },
+            {
+              "s": "Lucía spricht gut Englisch.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Liebe Frau Schulz,\n\nich bin der neue Kursteilnehmer im Kurs A1. Ich heiße Daniel Costa und komme aus Portugal. Ich bin 42 Jahre alt. Meine Telefonnummer ist 0151 23 76 44. Ich spreche Portugiesisch, Spanisch und Englisch. Deutsch ist neu für mich!\n\nViele Grüße\nDaniel Costa",
+          "statements": [
+            {
+              "s": "Daniel ist 24 Jahre alt.",
+              "answer": false
+            },
+            {
+              "s": "Daniel kommt aus Portugal.",
+              "answer": true
+            },
+            {
+              "s": "Seine Telefonnummer ist 0151 23 76 44.",
+              "answer": true
+            },
+            {
+              "s": "Daniel spricht Englisch.",
+              "answer": true
+            },
+            {
+              "s": "Daniel spricht schon gut Deutsch.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Hi Jonas,\n\nwie geht's? Ich bin jetzt in den USA, in New York! Hier wohne ich bei Familie Brown. Mr. Brown ist 55 und Mrs. Brown ist 51. Sie sprechen Englisch und ein bisschen Spanisch, aber kein Deutsch. Ich spreche jetzt jeden Tag Englisch!\n\nBis bald\nMarie",
+          "statements": [
+            {
+              "s": "Marie wohnt jetzt in den USA.",
+              "answer": true
+            },
+            {
+              "s": "Mrs. Brown ist 55 Jahre alt.",
+              "answer": false
+            },
+            {
+              "s": "Familie Brown spricht Deutsch.",
+              "answer": false
+            },
+            {
+              "s": "Familie Brown spricht ein bisschen Spanisch.",
+              "answer": true
+            },
+            {
+              "s": "Marie spricht jeden Tag Englisch.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "situation": "Sie möchten Englisch lernen.",
+          "a": "Sprachschule Global: Englisch, Französisch, Spanisch – alle Niveaus",
+          "b": "Sprachschule Europa: Deutsch, Italienisch, Portugiesisch",
+          "answer": "a"
+        },
+        {
+          "situation": "Sie sprechen nicht gut Deutsch. Sie suchen einen Arzt. Sie sprechen Spanisch.",
+          "a": "Dr. med. Weber – wir sprechen Deutsch und Englisch",
+          "b": "Dr. med. Morales – hablamos español / wir sprechen Deutsch und Spanisch",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie möchten mit Leuten aus der Türkei Deutsch sprechen.",
+          "a": "Deutsch-Türkischer Treff: Kaffee und Gespräche auf Deutsch",
+          "b": "Deutsch-Polnischer Club: Wir sprechen Polnisch",
+          "answer": "a"
+        },
+        {
+          "situation": "Ihr Kind ist 12 und möchte Französisch lernen.",
+          "a": "Französisch für Erwachsene (ab 18 Jahren)",
+          "b": "Französisch für Kinder von 10 bis 14 Jahren",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie brauchen Hilfe am Telefon auf Englisch.",
+          "a": "Hotline Deutsch: 0800 11 22 33",
+          "b": "Hotline English: 0800 44 55 66",
+          "answer": "b"
+        },
+        {
+          "situation": "Sie möchten einen Kurs am Samstag. Sie sind 35 Jahre alt.",
+          "a": "Italienisch am Samstag – für Leute von 20 bis 60 Jahren",
+          "b": "Italienisch am Samstag – nur für Leute ab 60 Jahren",
+          "answer": "a"
+        }
+      ],
+      "t3": [
+        {
+          "text": "Information – Informazione – Information: Wir sprechen Deutsch, Italienisch und Englisch.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "An der Information spricht man Französisch.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Deutschkurs A1: Raum 23 (nicht Raum 32!)",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der Deutschkurs ist in Raum 23.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Kinderkino: Filme für Kinder von 6 bis 12 Jahren",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Ein Kind mit 14 Jahren ist hier richtig.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Taxi – Tel. 0800 55 00 55 – Wir sprechen Deutsch und Englisch",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Der Taxi-Fahrer spricht auch Englisch.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "text": "Hotel Sonne: Zimmer 1 bis 19 im Haus A, Zimmer 20 bis 40 im Haus B",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Zimmer 16 ist im Haus B.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "text": "Stadtführung auf Spanisch: jeden Samstag. Auf Englisch: jeden Sonntag.",
+          "sign": true,
+          "statements": [
+            {
+              "s": "Am Samstag gibt es eine Stadtführung auf Spanisch.",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "context": "Das ist Lucía Morales. Sie ist 29 Jahre alt und kommt aus Mexiko. Sie wohnt jetzt in Hamburg. Ihre Handynummer ist 0152 87 34 11. Lucía spricht Spanisch und Englisch. Sie möchte einen Deutschkurs machen.",
+          "title": "Anmeldung Deutschkurs – Sprachschule Hamburg",
+          "fields": [
+            {
+              "label": "Name",
+              "given": "Morales"
+            },
+            {
+              "label": "Vorname",
+              "answers": [
+                "Lucía",
+                "Lucia"
+              ]
+            },
+            {
+              "label": "Alter",
+              "answers": [
+                "29",
+                "neunundzwanzig",
+                "29 Jahre"
+              ]
+            },
+            {
+              "label": "Herkunftsland",
+              "answers": [
+                "Mexiko"
+              ]
+            },
+            {
+              "label": "Telefon",
+              "answers": [
+                "0152 87 34 11",
+                "0152873411",
+                "0152 8734 11"
+              ]
+            },
+            {
+              "label": "Sprachen",
+              "answers": [
+                "Spanisch, Englisch",
+                "Spanisch und Englisch",
+                "Spanisch Englisch",
+                "Englisch, Spanisch",
+                "Englisch und Spanisch"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Hallo, ich heiße Tomasz Nowak. Ich komme aus Polen, aus Krakau, und ich bin 38. Jetzt wohne ich in der Schweiz, in Basel. Ich spreche Polnisch, Deutsch und Englisch. Meine Telefonnummer: 061 45 72 90.",
+          "title": "Anmeldung – Sportverein Basel",
+          "fields": [
+            {
+              "label": "Familienname",
+              "answers": [
+                "Nowak"
+              ]
+            },
+            {
+              "label": "Vorname",
+              "given": "Tomasz"
+            },
+            {
+              "label": "Alter",
+              "answers": [
+                "38",
+                "achtunddreißig",
+                "38 Jahre"
+              ]
+            },
+            {
+              "label": "Land",
+              "answers": [
+                "Polen"
+              ]
+            },
+            {
+              "label": "Wohnort",
+              "answers": [
+                "Basel"
+              ]
+            },
+            {
+              "label": "Telefon",
+              "answers": [
+                "061 45 72 90",
+                "0614572 90",
+                "061457290"
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Mein Name ist Grace Miller. Ich komme aus den USA, aus Boston. Ich bin 21 Jahre alt und studiere in Wien. Ich spreche Englisch und Französisch. Deutsch lerne ich jetzt.",
+          "title": "Anmeldung – Studentenwohnheim Wien",
+          "fields": [
+            {
+              "label": "Name",
+              "answers": [
+                "Miller"
+              ]
+            },
+            {
+              "label": "Vorname",
+              "given": "Grace"
+            },
+            {
+              "label": "Alter",
+              "answers": [
+                "21",
+                "einundzwanzig",
+                "21 Jahre"
+              ]
+            },
+            {
+              "label": "Herkunftsland",
+              "answers": [
+                "USA",
+                "die USA",
+                "den USA"
+              ]
+            },
+            {
+              "label": "Muttersprache",
+              "answers": [
+                "Englisch"
+              ]
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie suchen einen Tandempartner für Deutsch. Schreiben Sie eine Nachricht an die Sprachschule.",
+          "points": [
+            "Wer sind Sie und wie alt sind Sie?",
+            "Welche Sprachen sprechen Sie?",
+            "Wie ist Ihre Telefonnummer?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich heiße José López und bin 28 Jahre alt. Ich komme aus Spanien. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Ich suche einen Tandempartner. Meine Telefonnummer ist 079 123 45 67.\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Ihre Freundin Nina fragt: Wer ist der neue Kollege? Schreiben Sie Nina über Ihren Kollegen Luca.",
+          "points": [
+            "Woher kommt Luca?",
+            "Wie alt ist er?",
+            "Welche Sprachen spricht er?"
+          ],
+          "register": "informal (du)",
+          "model": "Hallo Nina,\n\nder neue Kollege heißt Luca. Er kommt aus Italien, aus Mailand. Er ist 33 Jahre alt. Er spricht Italienisch, Englisch und ein bisschen Deutsch.\n\nLiebe Grüße\nClara"
+        },
+        {
+          "task": "Sie möchten einen Französischkurs machen. Schreiben Sie der Sprachschule eine E-Mail.",
+          "points": [
+            "Stellen Sie sich vor (Name, Land).",
+            "Welche Sprachen sprechen Sie schon?",
+            "Fragen Sie: Gibt es einen Kurs am Abend?"
+          ],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nmein Name ist Laura García. Ich komme aus Spanien und wohne in Zürich. Ich spreche Spanisch, Englisch und Deutsch. Jetzt möchte ich Französisch lernen. Gibt es einen Kurs am Abend?\n\nViele Grüße\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Land?",
+            "Wohnort?",
+            "Sprachen?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie ist Ihre Telefonnummer? Sagen Sie eine Nummer.",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig Jahre alt. Ich komme aus Spanien und wohne jetzt in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Telefonnummer ist null, sieben, neun, eins, zwei, drei, fünfundvierzig, siebenundsechzig."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Land?",
+            "Sprachen?"
+          ],
+          "extra": "Der Prüfer fragt dann: Welche Sprache ist Ihre Muttersprache?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo! Ich heiße Laura García. Ich bin vierunddreißig. Ich komme aus Spanien, aus Valencia. Ich spreche Spanisch, Englisch und Deutsch. Meine Muttersprache ist Spanisch."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            "Name?",
+            "Alter?",
+            "Wohnort?",
+            "Sprachen?"
+          ],
+          "extra": "Der Prüfer fragt dann: Wie schreibt man Ihren Wohnort? Buchstabieren Sie bitte.",
+          "model": [
+            {
+              "v": "m2",
+              "t": "Guten Tag. Ich heiße Pablo Ruiz und bin einundvierzig Jahre alt. Ich wohne in Bern. Bern: Be, E, Er, En. Ich spreche Spanisch und Französisch und ich lerne Deutsch."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "theme": "Sprachen",
+          "word": "Englisch",
+          "question": "Sprichst du Englisch?",
+          "answer": "Ja, ich spreche gut Englisch."
+        },
+        {
+          "theme": "Sprachen",
+          "word": "Muttersprache",
+          "question": "Was ist deine Muttersprache?",
+          "answer": "Meine Muttersprache ist Spanisch."
+        },
+        {
+          "theme": "Person",
+          "word": "Alter",
+          "question": "Wie alt bist du?",
+          "answer": "Ich bin 30 Jahre alt."
+        },
+        {
+          "theme": "Person",
+          "word": "Telefonnummer",
+          "question": "Wie ist deine Telefonnummer?",
+          "answer": "Meine Nummer ist 0176 12 34 56."
+        },
+        {
+          "theme": "Sprachen",
+          "word": "Deutsch",
+          "question": "Sprichst du gut Deutsch?",
+          "answer": "Nein, nur ein bisschen."
+        },
+        {
+          "theme": "Person",
+          "word": "Land",
+          "question": "Kommst du aus Spanien?",
+          "answer": "Ja, ich komme aus Spanien, aus Granada."
+        }
+      ]
+    }
+  }
+}

@@ -9,18 +9,130 @@
       "description": "Primeros pasos: presentarte, hablar de ti, tu familia, la comida, la ciudad y tu día a día con frases sencillas.",
       "wordlist": "Goethe-Zertifikat A1 Wortliste (~650 palabras)",
       "topics": [
-        { "id": "t01", "status": "ready", "title": "Hallo! Saludar y presentarse", "grammar": ["Pronombres personales", "sein", "Presente de los verbos regulares", "Preguntas con W-", "Verbo en posición 2"] },
-        { "id": "t02", "status": "planned", "title": "Números, países e idiomas", "grammar": ["Números 0–100", "Preguntas de sí/no", "sprechen (e→i)", "Países con artículo"] },
-        { "id": "t03", "status": "planned", "title": "Familia y amigos", "grammar": ["der/die/das", "ein/kein", "Posesivos mein/dein/Ihr", "haben"] },
-        { "id": "t04", "status": "planned", "title": "Comer y beber", "grammar": ["Acusativo", "möchte", "Plural de los sustantivos"] },
-        { "id": "t05", "status": "planned", "title": "La vivienda", "grammar": ["Adjetivo predicativo", "Negación: nicht y kein", "es gibt"] },
-        { "id": "t06", "status": "planned", "title": "La rutina y la hora", "grammar": ["Verbos separables", "Estructura de la frase (Satzklammer)", "um / am / von…bis"] },
-        { "id": "t07", "status": "planned", "title": "Tiempo libre", "grammar": ["Modales können / wollen", "gern / lieber", "Verbos irregulares (e→ie, a→ä)"] },
-        { "id": "t08", "status": "planned", "title": "Compras y ropa", "grammar": ["Precios", "welch- / dies-", "Pronombres en acusativo"] },
-        { "id": "t09", "status": "planned", "title": "En la ciudad", "grammar": ["Dativo con mit / zu / bei", "Imperativo (du / ihr)", "Direcciones"] },
-        { "id": "t10", "status": "planned", "title": "Salud y cuerpo", "grammar": ["müssen / dürfen", "Imperativo con Sie", "Posesivos en plural"] },
-        { "id": "t11", "status": "planned", "title": "Trabajo y citas", "grammar": ["Fechas y ordinales", "Perfekt con haben", "Preposiciones temporales"] },
-        { "id": "t12", "status": "planned", "title": "Viajes, tiempo y fiestas", "grammar": ["Perfekt con sein", "Präteritum de sein y haben", "Felicitar e invitar"] }
+        {
+          "id": "t01",
+          "status": "ready",
+          "title": "Hallo! Saludar y presentarse",
+          "grammar": [
+            "Pronombres personales",
+            "sein",
+            "Presente de los verbos regulares",
+            "Preguntas con W-",
+            "Verbo en posición 2"
+          ]
+        },
+        {
+          "id": "t02",
+          "status": "ready",
+          "title": "Números, países e idiomas",
+          "grammar": [
+            "Números 0–100",
+            "Preguntas de sí/no",
+            "sprechen (e→i)",
+            "Países con artículo"
+          ]
+        },
+        {
+          "id": "t03",
+          "status": "ready",
+          "title": "Familia y amigos",
+          "grammar": [
+            "der/die/das",
+            "ein/kein",
+            "Posesivos mein/dein/Ihr",
+            "haben"
+          ]
+        },
+        {
+          "id": "t04",
+          "status": "ready",
+          "title": "Comer y beber",
+          "grammar": [
+            "Acusativo",
+            "möchte",
+            "Plural de los sustantivos"
+          ]
+        },
+        {
+          "id": "t05",
+          "status": "planned",
+          "title": "La vivienda",
+          "grammar": [
+            "Adjetivo predicativo",
+            "Negación: nicht y kein",
+            "es gibt"
+          ]
+        },
+        {
+          "id": "t06",
+          "status": "planned",
+          "title": "La rutina y la hora",
+          "grammar": [
+            "Verbos separables",
+            "Estructura de la frase (Satzklammer)",
+            "um / am / von…bis"
+          ]
+        },
+        {
+          "id": "t07",
+          "status": "planned",
+          "title": "Tiempo libre",
+          "grammar": [
+            "Modales können / wollen",
+            "gern / lieber",
+            "Verbos irregulares (e→ie, a→ä)"
+          ]
+        },
+        {
+          "id": "t08",
+          "status": "planned",
+          "title": "Compras y ropa",
+          "grammar": [
+            "Precios",
+            "welch- / dies-",
+            "Pronombres en acusativo"
+          ]
+        },
+        {
+          "id": "t09",
+          "status": "planned",
+          "title": "En la ciudad",
+          "grammar": [
+            "Dativo con mit / zu / bei",
+            "Imperativo (du / ihr)",
+            "Direcciones"
+          ]
+        },
+        {
+          "id": "t10",
+          "status": "planned",
+          "title": "Salud y cuerpo",
+          "grammar": [
+            "müssen / dürfen",
+            "Imperativo con Sie",
+            "Posesivos en plural"
+          ]
+        },
+        {
+          "id": "t11",
+          "status": "planned",
+          "title": "Trabajo y citas",
+          "grammar": [
+            "Fechas y ordinales",
+            "Perfekt con haben",
+            "Preposiciones temporales"
+          ]
+        },
+        {
+          "id": "t12",
+          "status": "planned",
+          "title": "Viajes, tiempo y fiestas",
+          "grammar": [
+            "Perfekt con sein",
+            "Präteritum de sein y haben",
+            "Felicitar e invitar"
+          ]
+        }
       ]
     },
     {
@@ -30,17 +142,106 @@
       "description": "Situaciones cotidianas completas: contar el pasado, dar razones, opinar de forma sencilla y moverte por trámites.",
       "wordlist": "Goethe-Zertifikat A2 Wortliste (~1300 unidades)",
       "topics": [
-        { "id": "t01", "status": "planned", "title": "Mi historia", "grammar": ["Perfekt (repaso completo)", "Präteritum de modales"] },
-        { "id": "t02", "status": "planned", "title": "Mudanzas y vivienda", "grammar": ["Preposiciones de dos casos", "stellen/stehen, legen/liegen"] },
-        { "id": "t03", "status": "planned", "title": "Trabajo y profesión", "grammar": ["Subordinadas con weil / dass", "Verbo al final"] },
-        { "id": "t04", "status": "planned", "title": "Salud y médico", "grammar": ["Verbos reflexivos", "sollte (consejos)"] },
-        { "id": "t05", "status": "planned", "title": "Ropa y moda", "grammar": ["Declinación del adjetivo (artículo determinado)", "Comparativo y superlativo"] },
-        { "id": "t06", "status": "planned", "title": "Tiempo libre y medios", "grammar": ["Declinación del adjetivo (indeterminado)", "Subordinadas con wenn"] },
-        { "id": "t07", "status": "planned", "title": "Viajes y transporte", "grammar": ["Preposiciones de lugar (aus, von, nach, in, zu)", "Konjunktiv II de cortesía"] },
-        { "id": "t08", "status": "planned", "title": "Fiestas y relaciones", "grammar": ["Verbos con dativo", "Pronombres en dativo", "Preguntas indirectas con ob"] },
-        { "id": "t09", "status": "planned", "title": "Banco, correos y trámites", "grammar": ["Verbos con preposición", "da- / wo-"] },
-        { "id": "t10", "status": "planned", "title": "Aprender y estudiar", "grammar": ["deshalb / trotzdem", "Infinitivo con zu (intro)"] },
-        { "id": "t11", "status": "planned", "title": "Naturaleza y tiempo", "grammar": ["Genitivo (intro)", "Futur con werden (intro)"] }
+        {
+          "id": "t01",
+          "status": "planned",
+          "title": "Mi historia",
+          "grammar": [
+            "Perfekt (repaso completo)",
+            "Präteritum de modales"
+          ]
+        },
+        {
+          "id": "t02",
+          "status": "planned",
+          "title": "Mudanzas y vivienda",
+          "grammar": [
+            "Preposiciones de dos casos",
+            "stellen/stehen, legen/liegen"
+          ]
+        },
+        {
+          "id": "t03",
+          "status": "planned",
+          "title": "Trabajo y profesión",
+          "grammar": [
+            "Subordinadas con weil / dass",
+            "Verbo al final"
+          ]
+        },
+        {
+          "id": "t04",
+          "status": "planned",
+          "title": "Salud y médico",
+          "grammar": [
+            "Verbos reflexivos",
+            "sollte (consejos)"
+          ]
+        },
+        {
+          "id": "t05",
+          "status": "planned",
+          "title": "Ropa y moda",
+          "grammar": [
+            "Declinación del adjetivo (artículo determinado)",
+            "Comparativo y superlativo"
+          ]
+        },
+        {
+          "id": "t06",
+          "status": "planned",
+          "title": "Tiempo libre y medios",
+          "grammar": [
+            "Declinación del adjetivo (indeterminado)",
+            "Subordinadas con wenn"
+          ]
+        },
+        {
+          "id": "t07",
+          "status": "planned",
+          "title": "Viajes y transporte",
+          "grammar": [
+            "Preposiciones de lugar (aus, von, nach, in, zu)",
+            "Konjunktiv II de cortesía"
+          ]
+        },
+        {
+          "id": "t08",
+          "status": "planned",
+          "title": "Fiestas y relaciones",
+          "grammar": [
+            "Verbos con dativo",
+            "Pronombres en dativo",
+            "Preguntas indirectas con ob"
+          ]
+        },
+        {
+          "id": "t09",
+          "status": "planned",
+          "title": "Banco, correos y trámites",
+          "grammar": [
+            "Verbos con preposición",
+            "da- / wo-"
+          ]
+        },
+        {
+          "id": "t10",
+          "status": "planned",
+          "title": "Aprender y estudiar",
+          "grammar": [
+            "deshalb / trotzdem",
+            "Infinitivo con zu (intro)"
+          ]
+        },
+        {
+          "id": "t11",
+          "status": "planned",
+          "title": "Naturaleza y tiempo",
+          "grammar": [
+            "Genitivo (intro)",
+            "Futur con werden (intro)"
+          ]
+        }
       ]
     },
     {
@@ -50,18 +251,113 @@
       "description": "Independencia: argumentar, escribir correos formales, entender la radio y presentar un tema delante de otra persona.",
       "wordlist": "Goethe-Zertifikat B1 Wortliste (~2400 unidades)",
       "topics": [
-        { "id": "t01", "status": "planned", "title": "Infancia y recuerdos", "grammar": ["Präteritum", "Plusquamperfekt", "als / wenn"] },
-        { "id": "t02", "status": "planned", "title": "Mundo laboral y candidaturas", "grammar": ["Oraciones de relativo", "Correo formal"] },
-        { "id": "t03", "status": "planned", "title": "Vivienda y vecindario", "grammar": ["Pasiva presente y Präteritum"] },
-        { "id": "t04", "status": "planned", "title": "Salud y alimentación", "grammar": ["um…zu / damit", "Infinitivo con zu"] },
-        { "id": "t05", "status": "planned", "title": "Medios y tecnología", "grammar": ["Konjunktiv II presente y pasado", "Expresar opinión"] },
-        { "id": "t06", "status": "planned", "title": "Viajes y movilidad", "grammar": ["Preposiciones con genitivo", "obwohl"] },
-        { "id": "t07", "status": "planned", "title": "Medio ambiente", "grammar": ["Pasiva con modales", "Futur I"] },
-        { "id": "t08", "status": "planned", "title": "Relaciones y familia", "grammar": ["Verbos con preposición (avanzado)", "Declinación n"] },
-        { "id": "t09", "status": "planned", "title": "Consumo y dinero", "grammar": ["Conectores dobles (sowohl…als auch, weder…noch, je…desto)"] },
-        { "id": "t10", "status": "planned", "title": "Formación y aprendizaje", "grammar": ["Nominalización", "Presentar un tema (Sprechen Teil 2)"] },
-        { "id": "t11", "status": "planned", "title": "Cultura y ocio", "grammar": ["Relativo con preposición", "Adjetivo en genitivo"] },
-        { "id": "t12", "status": "planned", "title": "Sociedad y actualidad", "grammar": ["Participio como adjetivo", "Escribir en un foro (Schreiben Teil 2)"] }
+        {
+          "id": "t01",
+          "status": "planned",
+          "title": "Infancia y recuerdos",
+          "grammar": [
+            "Präteritum",
+            "Plusquamperfekt",
+            "als / wenn"
+          ]
+        },
+        {
+          "id": "t02",
+          "status": "planned",
+          "title": "Mundo laboral y candidaturas",
+          "grammar": [
+            "Oraciones de relativo",
+            "Correo formal"
+          ]
+        },
+        {
+          "id": "t03",
+          "status": "planned",
+          "title": "Vivienda y vecindario",
+          "grammar": [
+            "Pasiva presente y Präteritum"
+          ]
+        },
+        {
+          "id": "t04",
+          "status": "planned",
+          "title": "Salud y alimentación",
+          "grammar": [
+            "um…zu / damit",
+            "Infinitivo con zu"
+          ]
+        },
+        {
+          "id": "t05",
+          "status": "planned",
+          "title": "Medios y tecnología",
+          "grammar": [
+            "Konjunktiv II presente y pasado",
+            "Expresar opinión"
+          ]
+        },
+        {
+          "id": "t06",
+          "status": "planned",
+          "title": "Viajes y movilidad",
+          "grammar": [
+            "Preposiciones con genitivo",
+            "obwohl"
+          ]
+        },
+        {
+          "id": "t07",
+          "status": "planned",
+          "title": "Medio ambiente",
+          "grammar": [
+            "Pasiva con modales",
+            "Futur I"
+          ]
+        },
+        {
+          "id": "t08",
+          "status": "planned",
+          "title": "Relaciones y familia",
+          "grammar": [
+            "Verbos con preposición (avanzado)",
+            "Declinación n"
+          ]
+        },
+        {
+          "id": "t09",
+          "status": "planned",
+          "title": "Consumo y dinero",
+          "grammar": [
+            "Conectores dobles (sowohl…als auch, weder…noch, je…desto)"
+          ]
+        },
+        {
+          "id": "t10",
+          "status": "planned",
+          "title": "Formación y aprendizaje",
+          "grammar": [
+            "Nominalización",
+            "Presentar un tema (Sprechen Teil 2)"
+          ]
+        },
+        {
+          "id": "t11",
+          "status": "planned",
+          "title": "Cultura y ocio",
+          "grammar": [
+            "Relativo con preposición",
+            "Adjetivo en genitivo"
+          ]
+        },
+        {
+          "id": "t12",
+          "status": "planned",
+          "title": "Sociedad y actualidad",
+          "grammar": [
+            "Participio como adjetivo",
+            "Escribir en un foro (Schreiben Teil 2)"
+          ]
+        }
       ]
     }
   ],
@@ -69,80 +365,297 @@
     "a1": {
       "passPercent": 60,
       "modules": [
-        { "key": "hoeren", "name": "Hören", "minutes": 20, "teile": [
-          { "key": "t1", "kind": "listen_mc", "plays": 2, "n_tema": 4, "n_global": 6, "de": "Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.", "es": "Diálogos cortos: elige a, b o c. Cada audio suena dos veces." },
-          { "key": "t2", "kind": "listen_tf", "plays": 1, "n_tema": 3, "n_global": 4, "de": "Kreuzen Sie an: Richtig oder Falsch. Sie hören jeden Text einmal.", "es": "Anuncios: ¿verdadero o falso? Cada audio suena una sola vez." },
-          { "key": "t3", "kind": "listen_mc", "plays": 2, "n_tema": 2, "n_global": 5, "de": "Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.", "es": "Mensajes de contestador: elige a, b o c. Cada audio suena dos veces." }
-        ]},
-        { "key": "lesen", "name": "Lesen", "minutes": 25, "teile": [
-          { "key": "t1", "kind": "read_tf", "n_tema": 1, "n_global": 2, "de": "Lesen Sie die Texte. Kreuzen Sie an: Richtig oder Falsch.", "es": "Textos cortos (correos, notas): ¿verdadero o falso?" },
-          { "key": "t2", "kind": "read_ab", "n_tema": 4, "n_global": 5, "de": "Lesen Sie die Texte und Aufgaben. Wo finden Sie Informationen? Kreuzen Sie an: a oder b.", "es": "Situaciones: ¿qué anuncio o texto (a o b) te sirve?" },
-          { "key": "t3", "kind": "read_tf", "n_tema": 4, "n_global": 5, "de": "Lesen Sie die Texte. Kreuzen Sie an: Richtig oder Falsch.", "es": "Carteles y avisos: ¿verdadero o falso?" }
-        ]},
-        { "key": "schreiben", "name": "Schreiben", "minutes": 20, "teile": [
-          { "key": "t1", "kind": "form", "n_tema": 1, "n_global": 1, "de": "Füllen Sie das Formular aus.", "es": "Rellena un formulario con los datos del texto." },
-          { "key": "t2", "kind": "write_free", "n_tema": 1, "n_global": 1, "de": "Schreiben Sie zu jedem Punkt ein bis zwei Sätze (ca. 30 Wörter).", "es": "Escribe un mensaje corto (~30 palabras) tratando los tres puntos." }
-        ]},
-        { "key": "sprechen", "name": "Sprechen", "minutes": 15, "teile": [
-          { "key": "t1", "kind": "speak_intro", "n_tema": 1, "n_global": 1, "de": "Stellen Sie sich vor.", "es": "Preséntate usando las palabras clave. Luego deletrea tu nombre." },
-          { "key": "t2", "kind": "speak_cards", "n_tema": 2, "n_global": 3, "de": "Fragen stellen und beantworten.", "es": "Con cada tarjeta, formula una pregunta y contesta a la de tu pareja." }
-        ]}
+        {
+          "key": "hoeren",
+          "name": "Hören",
+          "minutes": 20,
+          "teile": [
+            {
+              "key": "t1",
+              "kind": "listen_mc",
+              "plays": 2,
+              "n_tema": 4,
+              "n_global": 6,
+              "de": "Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+              "es": "Diálogos cortos: elige a, b o c. Cada audio suena dos veces."
+            },
+            {
+              "key": "t2",
+              "kind": "listen_tf",
+              "plays": 1,
+              "n_tema": 3,
+              "n_global": 4,
+              "de": "Kreuzen Sie an: Richtig oder Falsch. Sie hören jeden Text einmal.",
+              "es": "Anuncios: ¿verdadero o falso? Cada audio suena una sola vez."
+            },
+            {
+              "key": "t3",
+              "kind": "listen_mc",
+              "plays": 2,
+              "n_tema": 2,
+              "n_global": 5,
+              "de": "Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+              "es": "Mensajes de contestador: elige a, b o c. Cada audio suena dos veces."
+            }
+          ]
+        },
+        {
+          "key": "lesen",
+          "name": "Lesen",
+          "minutes": 25,
+          "teile": [
+            {
+              "key": "t1",
+              "kind": "read_tf",
+              "n_tema": 1,
+              "n_global": 2,
+              "de": "Lesen Sie die Texte. Kreuzen Sie an: Richtig oder Falsch.",
+              "es": "Textos cortos (correos, notas): ¿verdadero o falso?"
+            },
+            {
+              "key": "t2",
+              "kind": "read_ab",
+              "n_tema": 4,
+              "n_global": 5,
+              "de": "Lesen Sie die Texte und Aufgaben. Wo finden Sie Informationen? Kreuzen Sie an: a oder b.",
+              "es": "Situaciones: ¿qué anuncio o texto (a o b) te sirve?"
+            },
+            {
+              "key": "t3",
+              "kind": "read_tf",
+              "n_tema": 4,
+              "n_global": 5,
+              "de": "Lesen Sie die Texte. Kreuzen Sie an: Richtig oder Falsch.",
+              "es": "Carteles y avisos: ¿verdadero o falso?"
+            }
+          ]
+        },
+        {
+          "key": "schreiben",
+          "name": "Schreiben",
+          "minutes": 20,
+          "teile": [
+            {
+              "key": "t1",
+              "kind": "form",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Füllen Sie das Formular aus.",
+              "es": "Rellena un formulario con los datos del texto."
+            },
+            {
+              "key": "t2",
+              "kind": "write_free",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Schreiben Sie zu jedem Punkt ein bis zwei Sätze (ca. 30 Wörter).",
+              "es": "Escribe un mensaje corto (~30 palabras) tratando los tres puntos."
+            }
+          ]
+        },
+        {
+          "key": "sprechen",
+          "name": "Sprechen",
+          "minutes": 15,
+          "teile": [
+            {
+              "key": "t1",
+              "kind": "speak_intro",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Stellen Sie sich vor.",
+              "es": "Preséntate usando las palabras clave. Luego deletrea tu nombre."
+            },
+            {
+              "key": "t2",
+              "kind": "speak_cards",
+              "n_tema": 2,
+              "n_global": 3,
+              "de": "Fragen stellen und beantworten.",
+              "es": "Con cada tarjeta, formula una pregunta y contesta a la de tu pareja."
+            }
+          ]
+        }
       ]
     },
     "a2": {
       "passPercent": 60,
       "note": "Formato de referencia para generar los temas de A2.",
       "modules": [
-        { "key": "lesen", "name": "Lesen", "minutes": 30, "teile": [
-          { "key": "t1", "es": "Artículo de periódico: elegir a, b o c." },
-          { "key": "t2", "es": "Tablón informativo / directorio: elegir a, b o c." },
-          { "key": "t3", "es": "Correo o carta: elegir a, b o c." },
-          { "key": "t4", "es": "Emparejar personas con anuncios." }
-        ]},
-        { "key": "hoeren", "name": "Hören", "minutes": 30, "teile": [
-          { "key": "t1", "es": "Anuncios y mensajes cortos (dos veces): a, b o c." },
-          { "key": "t2", "es": "Conversación larga: emparejar información (una vez)." },
-          { "key": "t3", "es": "Diálogos cortos (dos veces): a, b o c." },
-          { "key": "t4", "es": "Entrevista de radio (dos veces): sí o no." }
-        ]},
-        { "key": "schreiben", "name": "Schreiben", "minutes": 30, "teile": [
-          { "key": "t1", "es": "SMS informal (~20–30 palabras)." },
-          { "key": "t2", "es": "Correo semiformal (~30–40 palabras)." }
-        ]},
-        { "key": "sprechen", "name": "Sprechen", "minutes": 15, "teile": [
-          { "key": "t1", "es": "Preguntas y respuestas con tarjetas." },
-          { "key": "t2", "es": "Hablar de tu vida a partir de una tarjeta." },
-          { "key": "t3", "es": "Quedar con alguien usando dos agendas." }
-        ]}
+        {
+          "key": "lesen",
+          "name": "Lesen",
+          "minutes": 30,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "Artículo de periódico: elegir a, b o c."
+            },
+            {
+              "key": "t2",
+              "es": "Tablón informativo / directorio: elegir a, b o c."
+            },
+            {
+              "key": "t3",
+              "es": "Correo o carta: elegir a, b o c."
+            },
+            {
+              "key": "t4",
+              "es": "Emparejar personas con anuncios."
+            }
+          ]
+        },
+        {
+          "key": "hoeren",
+          "name": "Hören",
+          "minutes": 30,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "Anuncios y mensajes cortos (dos veces): a, b o c."
+            },
+            {
+              "key": "t2",
+              "es": "Conversación larga: emparejar información (una vez)."
+            },
+            {
+              "key": "t3",
+              "es": "Diálogos cortos (dos veces): a, b o c."
+            },
+            {
+              "key": "t4",
+              "es": "Entrevista de radio (dos veces): sí o no."
+            }
+          ]
+        },
+        {
+          "key": "schreiben",
+          "name": "Schreiben",
+          "minutes": 30,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "SMS informal (~20–30 palabras)."
+            },
+            {
+              "key": "t2",
+              "es": "Correo semiformal (~30–40 palabras)."
+            }
+          ]
+        },
+        {
+          "key": "sprechen",
+          "name": "Sprechen",
+          "minutes": 15,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "Preguntas y respuestas con tarjetas."
+            },
+            {
+              "key": "t2",
+              "es": "Hablar de tu vida a partir de una tarjeta."
+            },
+            {
+              "key": "t3",
+              "es": "Quedar con alguien usando dos agendas."
+            }
+          ]
+        }
       ]
     },
     "b1": {
       "passPercent": 60,
       "note": "Formato de referencia para generar los temas de B1.",
       "modules": [
-        { "key": "lesen", "name": "Lesen", "minutes": 65, "teile": [
-          { "key": "t1", "es": "Entrada de blog: richtig / falsch." },
-          { "key": "t2", "es": "Dos artículos de prensa: a, b o c." },
-          { "key": "t3", "es": "Emparejar situaciones con anuncios." },
-          { "key": "t4", "es": "Opiniones de lectores: ¿a favor o en contra?" },
-          { "key": "t5", "es": "Normas o instrucciones: a, b o c." }
-        ]},
-        { "key": "hoeren", "name": "Hören", "minutes": 40, "teile": [
-          { "key": "t1", "es": "Mensajes y anuncios (dos veces): richtig/falsch + a, b o c." },
-          { "key": "t2", "es": "Visita guiada o charla (una vez): a, b o c." },
-          { "key": "t3", "es": "Conversación informal (una vez): richtig / falsch." },
-          { "key": "t4", "es": "Debate de radio (dos veces): ¿quién dice qué?" }
-        ]},
-        { "key": "schreiben", "name": "Schreiben", "minutes": 60, "teile": [
-          { "key": "t1", "es": "Correo informal (~80 palabras)." },
-          { "key": "t2", "es": "Opinión en un foro (~80 palabras)." },
-          { "key": "t3", "es": "Correo formal corto (~40 palabras)." }
-        ]},
-        { "key": "sprechen", "name": "Sprechen", "minutes": 15, "teile": [
-          { "key": "t1", "es": "Planificar algo juntos." },
-          { "key": "t2", "es": "Presentar un tema (5 diapositivas)." },
-          { "key": "t3", "es": "Reaccionar a la presentación del otro." }
-        ]}
+        {
+          "key": "lesen",
+          "name": "Lesen",
+          "minutes": 65,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "Entrada de blog: richtig / falsch."
+            },
+            {
+              "key": "t2",
+              "es": "Dos artículos de prensa: a, b o c."
+            },
+            {
+              "key": "t3",
+              "es": "Emparejar situaciones con anuncios."
+            },
+            {
+              "key": "t4",
+              "es": "Opiniones de lectores: ¿a favor o en contra?"
+            },
+            {
+              "key": "t5",
+              "es": "Normas o instrucciones: a, b o c."
+            }
+          ]
+        },
+        {
+          "key": "hoeren",
+          "name": "Hören",
+          "minutes": 40,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "Mensajes y anuncios (dos veces): richtig/falsch + a, b o c."
+            },
+            {
+              "key": "t2",
+              "es": "Visita guiada o charla (una vez): a, b o c."
+            },
+            {
+              "key": "t3",
+              "es": "Conversación informal (una vez): richtig / falsch."
+            },
+            {
+              "key": "t4",
+              "es": "Debate de radio (dos veces): ¿quién dice qué?"
+            }
+          ]
+        },
+        {
+          "key": "schreiben",
+          "name": "Schreiben",
+          "minutes": 60,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "Correo informal (~80 palabras)."
+            },
+            {
+              "key": "t2",
+              "es": "Opinión en un foro (~80 palabras)."
+            },
+            {
+              "key": "t3",
+              "es": "Correo formal corto (~40 palabras)."
+            }
+          ]
+        },
+        {
+          "key": "sprechen",
+          "name": "Sprechen",
+          "minutes": 15,
+          "teile": [
+            {
+              "key": "t1",
+              "es": "Planificar algo juntos."
+            },
+            {
+              "key": "t2",
+              "es": "Presentar un tema (5 diapositivas)."
+            },
+            {
+              "key": "t3",
+              "es": "Reaccionar a la presentación del otro."
+            }
+          ]
+        }
       ]
     }
   }

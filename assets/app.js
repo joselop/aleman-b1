@@ -631,7 +631,11 @@ function exOrder(ex) {
     shuffle(it.words.map((w, i) => ({ text: w, id: i })).filter((w) => !/^[.?!]$/.test(w.text))).forEach((w) =>
       pool.append(h("button", { type: "button", class: "chip word", "data-id": w.id, onclick: () => { chosen.push(w); redraw(); } }, w.text)));
     const el = h("div", { class: "item" }, h("div", { class: "q" }, h("span", { class: "n" }, `${idx + 1}.`)), built, pool);
-    const sentence = () => chosen.map((w) => w.text).join(" ").replace(/\s+([,.!?])/g, "$1") + punct;
+    // La primera palabra se pone en mayúscula sola (así "heute" puede ir delante).
+    const sentence = () => {
+      const t = chosen.map((w) => w.text).join(" ").replace(/\s+([,.!?])/g, "$1") + punct;
+      return t.charAt(0).toUpperCase() + t.slice(1);
+    };
     return { el, it, sentence };
   });
   return {
@@ -846,7 +850,7 @@ async function viewExam(root, lvlId, tid, mode) {
             for (const { f, inp, row } of fields) {
               if (f.given) continue;
               tot++;
-              const r = compare(inp.value, f.answers) !== "no";
+              const r = compare(inp.value, f.answers) !== "no" || compare(inp.value.replace(/\s+/g, ""), f.answers.map((a) => a.replace(/\s+/g, ""))) !== "no";
               if (r) ok++;
               row.classList.remove("ok", "no");
               row.classList.add(r ? "ok" : "no");
