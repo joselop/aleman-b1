@@ -82,7 +82,7 @@ def collect() -> dict[str, list[dict]]:
 
     for md in sorted(CONTENT.glob("*/*/leccion.md")):
         for t in re.findall(r"\[\[de:(.+?)\]\]", md.read_text(encoding="utf-8")):
-            add([{"v": "f1", "t": t}])
+            add([{"v": "f1", "t": t.split("::")[0]}])  # "::" separa la traducción
 
     for tp in sorted(CONTENT.glob("*/*/topic.json")):
         topic = json.loads(tp.read_text(encoding="utf-8"))

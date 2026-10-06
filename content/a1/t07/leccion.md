@@ -17,7 +17,7 @@ En este tema hablas de tus aficiones y de lo que haces en tu tiempo libre, y apr
 | [[de:ins Kino gehen]] ir al cine | [[de:Computerspiele spielen]] jugar a videojuegos |
 
 - [[de:Was machst du in deiner Freizeit?]] — ¿Qué haces en tu tiempo libre?
-- [[de:Was sind deine Hobbys?]] — [[de:Meine Hobbys sind Lesen und Wandern.]]
+- [[de:Was sind deine Hobbys?::¿Cuáles son tus aficiones?]] — [[de:Meine Hobbys sind Lesen und Wandern.::Mis aficiones son leer y hacer senderismo.]]
 
 Fíjate: **spielen** se usa tanto para deportes y juegos (*Fußball spielen*) como para instrumentos (*Gitarre spielen*). Y cuando una actividad es sustantivo, va con mayúscula: *das Lesen*, *das Schwimmen*.
 
@@ -27,13 +27,13 @@ Para decir que algo **te gusta hacer**, en alemán no se usa un verbo como "gust
 
 | | | |
 |---|---|---|
-| gern | me gusta | [[de:Ich schwimme gern.]] |
-| lieber | prefiero | [[de:Ich lese lieber.]] |
-| am liebsten | lo que más me gusta | [[de:Am liebsten tanze ich.]] |
-| nicht gern | no me gusta | [[de:Ich koche nicht gern.]] |
+| gern | me gusta | [[de:Ich schwimme gern.::Me gusta nadar.]] |
+| lieber | prefiero | [[de:Ich lese lieber.::Prefiero leer.]] |
+| am liebsten | lo que más me gusta | [[de:Am liebsten tanze ich.::Lo que más me gusta es bailar.]] |
+| nicht gern | no me gusta | [[de:Ich koche nicht gern.::No me gusta cocinar.]] |
 
-- [[de:Spielst du gern Fußball? – Nein, ich spiele lieber Tennis.]]
-- [[de:Was machst du am liebsten? – Am liebsten reise ich.]]
+- [[de:Spielst du gern Fußball? – Nein, ich spiele lieber Tennis.::¿Te gusta jugar al fútbol? – No, prefiero jugar al tenis.]]
+- [[de:Was machst du am liebsten? – Am liebsten reise ich.::¿Qué es lo que más te gusta hacer? – Lo que más me gusta es viajar.]]
 
 Recuerda la diferencia con *mögen* (tema 4): **mögen + sustantivo** (*Ich mag Musik*), **verbo + gern** (*Ich höre gern Musik*).
 
@@ -49,9 +49,9 @@ Algunos verbos cambian la vocal de la raíz en **du** y **er/sie/es**. Ya conoce
 | er / sie / es | **liest** · **sieht** | **fährt** · **schläft** | **läuft** |
 | wir | lesen · sehen | fahren · schlafen | laufen |
 
-Otros verbos útiles del grupo e → i: [[de:treffen]] (*du triffst, er trifft*), [[de:geben]] (*du gibst, er gibt*), [[de:helfen]] (*du hilfst, er hilft*).
+Otros verbos útiles del grupo e → i: [[de:treffen::quedar con]] (*du triffst, er trifft*), [[de:geben::dar]] (*du gibst, er gibt*), [[de:helfen::ayudar]] (*du hilfst, er hilft*).
 
-- [[de:Liest du gern?]] · [[de:Er fährt gern Rad.]] · [[de:Sie trifft am Samstag ihre Freunde.]]
+- [[de:Liest du gern?::¿Te gusta leer?]] · [[de:Er fährt gern Rad.::Le gusta montar en bici.]] · [[de:Sie trifft am Samstag ihre Freunde.::El sábado queda con sus amigos.]]
 
 En la lista de vocabulario verás siempre la forma de *er* para que sepas si el verbo cambia.
 
@@ -77,28 +77,28 @@ El modal va en **posición 2** y el otro verbo, **en infinitivo al final**. Es l
 | | Kannst | du | Gitarre spielen? |
 | Wir | wollen | heute Abend | ausgehen. |
 
-- **können** = saber hacer algo, poder (posibilidad): [[de:Ich kann Ski fahren.]] · [[de:Am Montag kann ich nicht.]]
-- **wollen** = querer, tener intención (más directo que *möchte*): [[de:Ich will Deutsch lernen.]]
+- **können** = saber hacer algo, poder (posibilidad): [[de:Ich kann Ski fahren.::Sé esquiar.]] · [[de:Am Montag kann ich nicht.::El lunes no puedo.]]
+- **wollen** = querer, tener intención (más directo que *möchte*): [[de:Ich will Deutsch lernen.::Quiero aprender alemán.]]
 
-Con otro interlocutor, para invitar o pedir, es más educado *möchte*: [[de:Möchtest du mitkommen?]]
+Con otro interlocutor, para invitar o pedir, es más educado *möchte*: [[de:Möchtest du mitkommen?::¿Quieres venir?]]
 
 ## 5. Quedar con alguien
 
 **Proponer:**
-- [[de:Hast du Lust? Wir gehen ins Kino.]] — ¿Te apetece?
-- [[de:Wollen wir am Samstag schwimmen gehen?]]
-- [[de:Kommst du mit?]]
+- [[de:Hast du Lust? Wir gehen ins Kino.::¿Te apetece? Vamos al cine.]] — ¿Te apetece?
+- [[de:Wollen wir am Samstag schwimmen gehen?::¿Vamos a nadar el sábado?]]
+- [[de:Kommst du mit?::¿Te vienes?]]
 
 **Aceptar:**
-- [[de:Ja, gern!]] · [[de:Gute Idee!]] · [[de:Super, ich komme mit.]]
+- [[de:Ja, gern!::¡Sí, con mucho gusto!]] · [[de:Gute Idee!::¡Buena idea!]] · [[de:Super, ich komme mit.::Genial, me apunto.]]
 
 **Rechazar:**
-- [[de:Leider kann ich nicht.]] · [[de:Tut mir leid, ich habe keine Zeit.]]
-- [[de:Am Samstag kann ich nicht, aber am Sonntag.]]
+- [[de:Leider kann ich nicht.::Lo siento, no puedo.]] · [[de:Tut mir leid, ich habe keine Zeit.::Lo siento, no tengo tiempo.]]
+- [[de:Am Samstag kann ich nicht, aber am Sonntag.::El sábado no puedo, pero el domingo sí.]]
 
 **Concretar:**
-- [[de:Wann treffen wir uns?]] — [[de:Um acht vor dem Kino.]]
-- [[de:Wo treffen wir uns?]]
+- [[de:Wann treffen wir uns?::¿Cuándo quedamos?]] — [[de:Um acht vor dem Kino.::A las ocho delante del cine.]]
+- [[de:Wo treffen wir uns?::¿Dónde quedamos?]]
 
 ## 6. Errores típicos de hispanohablantes
 

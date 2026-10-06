@@ -15,15 +15,15 @@ En este tema hablas de tu familia y de tus amigos: quién es quién, cómo se ll
 | [[de:der Onkel]] tío | [[de:die Tante]] tía | |
 
 - **Eltern** son siempre "padre y madre" (no existe singular). Para "hijos" en general se dice **Kinder**.
-- **Geschwister** = hermanos y hermanas en general: [[de:Hast du Geschwister?]]
-- **Mann** y **Frau** significan hombre/mujer y también marido/esposa: [[de:Das ist mein Mann.]]
+- **Geschwister** = hermanos y hermanas en general: [[de:Hast du Geschwister?::¿Tienes hermanos?]]
+- **Mann** y **Frau** significan hombre/mujer y también marido/esposa: [[de:Das ist mein Mann.::Este es mi marido.]]
 - **Opa** y **Oma** son las formas cariñosas y las más usadas.
 
 ### Estado civil (*der Familienstand*)
 
 [[de:ledig]] soltero/a · [[de:verheiratet]] casado/a · [[de:geschieden]] divorciado/a · [[de:verwitwet]] viudo/a
 
-- [[de:Bist du verheiratet?]] — [[de:Nein, ich bin ledig. Aber ich habe eine Freundin.]]
+- [[de:Bist du verheiratet?::¿Estás casado/a?]] — [[de:Nein, ich bin ledig. Aber ich habe eine Freundin.::No, estoy soltero. Pero tengo novia.]]
 
 Ojo: **der Freund / die Freundin** significa *amigo/amiga*, pero con el posesivo (**mein Freund, meine Freundin**) casi siempre se entiende *mi novio / mi novia*. Para un amigo sin más, se dice *ein Freund von mir* o *ein guter Freund*.
 
@@ -52,16 +52,16 @@ Truco de estudio: asocia un color a cada género (azul *der*, rojo *die*, verde 
 
 - **ein / eine** = un / una. No tiene plural: [[de:Das sind Kinder.]] (Son niños).
 - **kein / keine** = ningún / no… (un). Sirve para **negar un sustantivo**:
-  - [[de:Ist das ein Hund? – Nein, das ist kein Hund. Das ist eine Katze.]]
-  - [[de:Hast du ein Foto? – Nein, ich habe kein Foto.]]
-  - [[de:Wir haben keine Kinder.]]
+  - [[de:Ist das ein Hund? – Nein, das ist kein Hund. Das ist eine Katze.::¿Es un perro? – No, no es un perro. Es un gato.]]
+  - [[de:Hast du ein Foto? – Nein, ich habe kein Foto.::¿Tienes una foto? – No, no tengo ninguna foto.]]
+  - [[de:Wir haben keine Kinder.::No tenemos hijos.]]
 
 ### ¿Qué pronombre? er, sie, es
 
 Los pronombres siguen el **género gramatical**, no el sexo: *Das Kind* → **es**; *der Tisch* → **er**.
 
-- [[de:Das ist mein Sohn. Er ist fünf.]]
-- [[de:Das ist das Baby. Es heißt Mia.]]
+- [[de:Das ist mein Sohn. Er ist fünf.::Este es mi hijo. Tiene cinco años.]]
+- [[de:Das ist das Baby. Es heißt Mia.::Este es el bebé. Se llama Mia.]]
 
 ## 3. El verbo *haben* (tener)
 
@@ -76,12 +76,12 @@ Los pronombres siguen el **género gramatical**, no el sexo: *Das Kind* → **es
 | ihr | habt |
 | sie / Sie | haben |
 
-- [[de:Ich habe zwei Kinder.]]
-- [[de:Hast du Geschwister?]]
-- [[de:Anna hat drei Brüder.]]
-- [[de:Wir haben keine Kinder.]]
+- [[de:Ich habe zwei Kinder.::Tengo dos hijos.]]
+- [[de:Hast du Geschwister?::¿Tienes hermanos?]]
+- [[de:Anna hat drei Brüder.::Anna tiene tres hermanos.]]
+- [[de:Wir haben keine Kinder.::No tenemos hijos.]]
 
-Con un sustantivo **masculino en singular**, detrás de *haben* el artículo cambia: **ein → einen**, **kein → keinen**: [[de:Ich habe einen Bruder.]] Apréndelo de momento como bloque; en el tema 4 verás el porqué (el acusativo). Con femeninos, neutros y plurales no cambia nada: *Ich habe **eine** Schwester / **ein** Kind / **zwei** Kinder.*
+Con un sustantivo **masculino en singular**, detrás de *haben* el artículo cambia: **ein → einen**, **kein → keinen**: [[de:Ich habe einen Bruder.::Tengo un hermano.]] Apréndelo de momento como bloque; en el tema 4 verás el porqué (el acusativo). Con femeninos, neutros y plurales no cambia nada: *Ich habe **eine** Schwester / **ein** Kind / **zwei** Kinder.*
 
 Recuerda: la **edad** no va con *haben*, sino con *sein*: *Er **ist** zehn Jahre alt.*
 
@@ -99,25 +99,25 @@ La terminación funciona igual que *ein / eine*: sin terminación con masculino 
 
 El español dice "su" para todo; el alemán distingue **de quién** es:
 
-- [[de:Das ist Peter. Sein Sohn heißt Max.]] (el hijo **de Peter**)
-- [[de:Das ist Anna. Ihr Sohn heißt Max.]] (el hijo **de Anna**)
-- [[de:Herr Keller, wie heißt Ihr Sohn?]] (el hijo **de usted**)
+- [[de:Das ist Peter. Sein Sohn heißt Max.::Este es Peter. Su hijo se llama Max.]] (el hijo **de Peter**)
+- [[de:Das ist Anna. Ihr Sohn heißt Max.::Esta es Anna. Su hijo se llama Max.]] (el hijo **de Anna**)
+- [[de:Herr Keller, wie heißt Ihr Sohn?::Señor Keller, ¿cómo se llama su hijo?]] (el hijo **de usted**)
 
 Los posesivos de *wir, ihr, sie* (unser, euer, ihr) los verás en el tema 10.
 
 ## 5. Presentar a tu familia
 
-> [[de:Das ist meine Familie. Das sind meine Eltern, Carmen und Luis.]]
-> [[de:Mein Vater ist 62 und meine Mutter ist 58.]]
-> [[de:Ich habe eine Schwester. Ihr Name ist Elena. Sie ist verheiratet und hat zwei Kinder.]]
-> [[de:Ich bin ledig, aber ich habe eine Freundin. Sie heißt Andrea.]]
+> [[de:Das ist meine Familie. Das sind meine Eltern, Carmen und Luis.::Esta es mi familia. Estos son mis padres, Carmen y Luis.]]
+> [[de:Mein Vater ist 62 und meine Mutter ist 58.::Mi padre tiene 62 años y mi madre 58.]]
+> [[de:Ich habe eine Schwester. Ihr Name ist Elena. Sie ist verheiratet und hat zwei Kinder.::Tengo una hermana. Se llama Elena. Está casada y tiene dos hijos.]]
+> [[de:Ich bin ledig, aber ich habe eine Freundin. Sie heißt Andrea.::Estoy soltero, pero tengo novia. Se llama Andrea.]]
 
 Frases útiles para preguntar:
 
-- [[de:Wer ist das?]] — [[de:Das ist mein Bruder.]] / [[de:Das sind meine Großeltern.]]
-- [[de:Wie heißt deine Schwester?]]
-- [[de:Hast du Kinder?]] — [[de:Ja, einen Sohn und eine Tochter.]] / [[de:Nein, ich habe keine Kinder.]]
-- [[de:Wo wohnen deine Eltern?]]
+- [[de:Wer ist das?::¿Quién es?]] — [[de:Das ist mein Bruder.::Es mi hermano.]] / [[de:Das sind meine Großeltern.::Son mis abuelos.]]
+- [[de:Wie heißt deine Schwester?::¿Cómo se llama tu hermana?]]
+- [[de:Hast du Kinder?::¿Tienes hijos?]] — [[de:Ja, einen Sohn und eine Tochter.::Sí, un hijo y una hija.]] / [[de:Nein, ich habe keine Kinder.::No, no tengo hijos.]]
+- [[de:Wo wohnen deine Eltern?::¿Dónde viven tus padres?]]
 
 Fíjate en **Das ist** (singular) y **Das sind** (plural): *Das **sind** meine Eltern.*
 

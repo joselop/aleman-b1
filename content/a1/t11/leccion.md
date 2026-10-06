@@ -22,23 +22,23 @@ La forma femenina casi siempre se hace con **-in** (y a veces con diéresis: *Ar
 
 - [[de:Was sind Sie von Beruf?]] · [[de:Was machst du beruflich?]] — ¿A qué te dedicas?
 - [[de:Ich bin Ingenieur.]] — **sin artículo**, igual que en español ("soy ingeniero").
-- [[de:Ich arbeite als Krankenpflegerin im Krankenhaus.]] (*als* = como)
-- [[de:Ich arbeite bei Siemens.]] (*bei* + empresa)
-- [[de:Ich bin arbeitslos.]] · [[de:Ich studiere Medizin.]] · [[de:Ich mache eine Ausbildung.]] (formación profesional)
+- [[de:Ich arbeite als Krankenpflegerin im Krankenhaus.::Trabajo de enfermera en el hospital.]] (*als* = como)
+- [[de:Ich arbeite bei Siemens.::Trabajo en Siemens.]] (*bei* + empresa)
+- [[de:Ich bin arbeitslos.::Estoy en paro.]] · [[de:Ich studiere Medizin.::Estudio Medicina.]] · [[de:Ich mache eine Ausbildung.::Hago una formación profesional.]] (formación profesional)
 
-Palabras del trabajo: [[de:die Firma]] (la empresa) · [[de:das Büro]] (la oficina) · [[de:der Chef]] / [[de:die Chefin]] · [[de:der Kollege]] / [[de:die Kollegin]] · [[de:die Arbeit]] · [[de:der Job]] · [[de:Vollzeit]] / [[de:Teilzeit]] (jornada completa / parcial) · [[de:das Praktikum]] (las prácticas) · [[de:der Urlaub]] (las vacaciones).
+Palabras del trabajo: [[de:die Firma]] (la empresa) · [[de:das Büro]] (la oficina) · [[de:der Chef::el jefe]] / [[de:die Chefin::la jefa]] · [[de:der Kollege::el compañero de trabajo]] / [[de:die Kollegin::la compañera de trabajo]] · [[de:die Arbeit::el trabajo]] · [[de:der Job::el trabajo, el empleo]] · [[de:Vollzeit]] / [[de:Teilzeit]] (jornada completa / parcial) · [[de:das Praktikum]] (las prácticas) · [[de:der Urlaub]] (las vacaciones).
 
 ## 2. Meses y estaciones
 
 | | | | |
 |---|---|---|---|
-| [[de:Januar]] | [[de:Februar]] | [[de:März]] | [[de:April]] |
-| [[de:Mai]] | [[de:Juni]] | [[de:Juli]] | [[de:August]] |
-| [[de:September]] | [[de:Oktober]] | [[de:November]] | [[de:Dezember]] |
+| [[de:Januar::enero]] | [[de:Februar::febrero]] | [[de:März::marzo]] | [[de:April::abril]] |
+| [[de:Mai::mayo]] | [[de:Juni::junio]] | [[de:Juli::julio]] | [[de:August::agosto]] |
+| [[de:September::septiembre]] | [[de:Oktober::octubre]] | [[de:November::noviembre]] | [[de:Dezember::diciembre]] |
 
-Estaciones: [[de:der Frühling]] · [[de:der Sommer]] · [[de:der Herbst]] · [[de:der Winter]]
+Estaciones: [[de:der Frühling::la primavera]] · [[de:der Sommer::el verano]] · [[de:der Herbst::el otoño]] · [[de:der Winter::el invierno]]
 
-Todos los meses y estaciones son **masculinos** y van con **im** (= in dem): [[de:im Mai]] · [[de:im Sommer]]. En Austria se dice *Jänner* por enero.
+Todos los meses y estaciones son **masculinos** y van con **im** (= in dem): [[de:im Mai::en mayo]] · [[de:im Sommer::en verano]]. En Austria se dice *Jänner* por enero.
 
 ## 3. Los números ordinales y las fechas
 
@@ -52,11 +52,11 @@ Los ordinales (primero, segundo…) se forman así:
 
 En la escritura, un **punto** detrás del número indica que es ordinal: *3.* = *dritte*.
 
-- ¿Qué día es hoy? [[de:Der Wievielte ist heute?]] — [[de:Heute ist der dritte Mai.]] (*der 3. Mai*)
-- ¿Cuándo? con **am** y el ordinal acabado en **-en**: [[de:am dritten Mai]] · [[de:am ersten Januar]]
-- [[de:Wann hast du Geburtstag? – Am zwölften März.]]
+- ¿Qué día es hoy? [[de:Der Wievielte ist heute?::¿A qué día estamos?]] — [[de:Heute ist der dritte Mai.::Hoy es 3 de mayo.]] (*der 3. Mai*)
+- ¿Cuándo? con **am** y el ordinal acabado en **-en**: [[de:am dritten Mai::el 3 de mayo]] · [[de:am ersten Januar::el 1 de enero]]
+- [[de:Wann hast du Geburtstag? – Am zwölften März.::¿Cuándo es tu cumpleaños? – El 12 de marzo.]]
 - Por escrito: *Zürich, 15.10.2026* (= *den fünfzehnten Oktober*).
-- Los años: *1998* = [[de:neunzehnhundertachtundneunzig]]; *2026* = [[de:zweitausendsechsundzwanzig]]. Se dicen **solos** o con **im Jahr**: *Ich bin 1998 geboren.* (nunca ~~in 1998~~).
+- Los años: *1998* = [[de:neunzehnhundertachtundneunzig::mil novecientos noventa y ocho]]; *2026* = [[de:zweitausendsechsundzwanzig::dos mil veintiséis]]. Se dicen **solos** o con **im Jahr**: *Ich bin 1998 geboren.* (nunca ~~in 1998~~).
 
 ## 4. Preposiciones de tiempo (resumen)
 
@@ -67,7 +67,7 @@ En la escritura, un **punto** detrás del número indica que es ordinal: *3.* = 
 | **im** | meses, estaciones | im Juli, im Winter |
 | **von … bis** | desde … hasta | von Mai bis August |
 | **seit** + dativo | desde (hace) | seit zwei Jahren, seit Januar |
-| **vor** + dativo | hace | [[de:vor drei Jahren]] |
+| **vor** + dativo | hace | [[de:vor drei Jahren::hace tres años]] |
 | **nach** + dativo | después de | nach der Arbeit |
 | **ab** | a partir de | ab Montag, ab 1. Juni |
 
@@ -90,39 +90,39 @@ El **Perfekt** es el pasado que se usa al hablar (en España equivale tanto a "h
 
 | Infinitivo | Participio |
 |---|---|
-| machen | [[de:gemacht]] |
-| kaufen | [[de:gekauft]] |
-| lernen | [[de:gelernt]] |
-| wohnen | [[de:gewohnt]] |
-| spielen | [[de:gespielt]] |
-| arbeiten | [[de:gearbeitet]] (raíz en -t/-d → **-et**) |
+| machen | [[de:gemacht::hecho]] |
+| kaufen | [[de:gekauft::comprado]] |
+| lernen | [[de:gelernt::aprendido]] |
+| wohnen | [[de:gewohnt::vivido]] |
+| spielen | [[de:gespielt::jugado]] |
+| arbeiten | [[de:gearbeitet::trabajado]] (raíz en -t/-d → **-et**) |
 
 **Verbos irregulares: ge- + raíz (a veces cambiada) + -en**. Hay que aprenderlos:
 
 | Infinitivo | Participio |
 |---|---|
-| essen | [[de:gegessen]] |
-| trinken | [[de:getrunken]] |
-| sehen | [[de:gesehen]] |
-| lesen | [[de:gelesen]] |
-| schreiben | [[de:geschrieben]] |
-| sprechen | [[de:gesprochen]] |
-| nehmen | [[de:genommen]] |
-| treffen | [[de:getroffen]] |
-| schlafen | [[de:geschlafen]] |
+| essen | [[de:gegessen::comido]] |
+| trinken | [[de:getrunken::bebido]] |
+| sehen | [[de:gesehen::visto]] |
+| lesen | [[de:gelesen::leído]] |
+| schreiben | [[de:geschrieben::escrito]] |
+| sprechen | [[de:gesprochen::hablado]] |
+| nehmen | [[de:genommen::tomado]] |
+| treffen | [[de:getroffen::quedado (con alguien)]] |
+| schlafen | [[de:geschlafen::dormido]] |
 
-**Separables: el ge- va en medio:** *einkaufen* → [[de:eingekauft]] · *anrufen* → [[de:angerufen]] · *fernsehen* → [[de:ferngesehen]] · *aufräumen* → [[de:aufgeräumt]]
+**Separables: el ge- va en medio:** *einkaufen* → [[de:eingekauft::hecho la compra]] · *anrufen* → [[de:angerufen::llamado]] · *fernsehen* → [[de:ferngesehen::visto la tele]] · *aufräumen* → [[de:aufgeräumt::ordenado]]
 
-**Sin ge-:** los verbos en **-ieren** y los que empiezan por **be-, ver-, er-**: *studieren* → [[de:studiert]] · *telefonieren* → [[de:telefoniert]] · *bezahlen* → [[de:bezahlt]] · *besuchen* → [[de:besucht]] · *verstehen* → [[de:verstanden]]
+**Sin ge-:** los verbos en **-ieren** y los que empiezan por **be-, ver-, er-**: *studieren* → [[de:studiert::estudiado]] · *telefonieren* → [[de:telefoniert::telefoneado]] · *bezahlen* → [[de:bezahlt::pagado]] · *besuchen* → [[de:besucht::visitado]] · *verstehen* → [[de:verstanden::entendido]]
 
 En el vocabulario de este tema y de los siguientes verás siempre el participio (*hat gemacht*).
 
 ### Un fin de semana
 
-> [[de:Was hast du am Wochenende gemacht?]]
-> [[de:Am Samstag habe ich lange geschlafen. Dann habe ich eingekauft und gekocht.]]
-> [[de:Am Abend habe ich Freunde getroffen.]]
-> [[de:Am Sonntag habe ich meine Eltern angerufen und ein Buch gelesen.]]
+> [[de:Was hast du am Wochenende gemacht?::¿Qué hiciste el fin de semana?]]
+> [[de:Am Samstag habe ich lange geschlafen. Dann habe ich eingekauft und gekocht.::El sábado dormí hasta tarde. Luego hice la compra y cociné.]]
+> [[de:Am Abend habe ich Freunde getroffen.::Por la noche quedé con amigos.]]
+> [[de:Am Sonntag habe ich meine Eltern angerufen und ein Buch gelesen.::El domingo llamé a mis padres y leí un libro.]]
 
 Los verbos de **movimiento** (*gehen, fahren, kommen…*) no usan *haben* sino **sein** (*Ich **bin** nach Bern gefahren*). Eso lo verás en el tema 12.
 

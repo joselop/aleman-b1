@@ -22,14 +22,14 @@ En este tema te mueves por la ciudad: lugares importantes, transporte, cómo pre
 | [[de:mit dem Auto]] en coche | [[de:mit dem Fahrrad]] en bici |
 | [[de:mit dem Taxi]] en taxi | [[de:zu Fuß]] a pie |
 
-- [[de:Wie kommst du zur Arbeit? – Mit dem Fahrrad.]]
-- [[de:Ich fahre mit dem Zug nach Bern.]]
-- [[de:Ich gehe zu Fuß.]]
+- [[de:Wie kommst du zur Arbeit? – Mit dem Fahrrad.::¿Cómo vas al trabajo? – En bici.]]
+- [[de:Ich fahre mit dem Zug nach Bern.::Voy en tren a Berna.]]
+- [[de:Ich gehe zu Fuß.::Voy a pie.]]
 
 Otras palabras del transporte: [[de:die Fahrkarte]] / [[de:das Ticket]] (el billete) · [[de:der Fahrplan]] (el horario) · [[de:das Gleis]] (la vía, el andén) · [[de:abfahren]] (salir) · [[de:ankommen]] (llegar) · [[de:umsteigen]] (hacer transbordo) · [[de:einsteigen]] / [[de:aussteigen]] (subir / bajar).
 
-- [[de:Der Zug fährt um 8.15 Uhr von Gleis 3 ab.]]
-- [[de:In Olten steigen Sie um.]]
+- [[de:Der Zug fährt um 8.15 Uhr von Gleis 3 ab.::El tren sale a las 8:15 de la vía 3.]]
+- [[de:In Olten steigen Sie um.::En Olten hace transbordo.]]
 
 ## 3. El dativo
 
@@ -53,22 +53,22 @@ Contracciones muy frecuentes:
 
 | | |
 |---|---|
-| zu + dem = **zum** | [[de:Ich gehe zum Bahnhof.]] |
-| zu + der = **zur** | [[de:Wie komme ich zur Post?]] |
-| bei + dem = **beim** | [[de:Ich bin beim Arzt.]] |
-| von + dem = **vom** | [[de:Ich komme vom Supermarkt.]] |
+| zu + dem = **zum** | [[de:Ich gehe zum Bahnhof.::Voy a la estación.]] |
+| zu + der = **zur** | [[de:Wie komme ich zur Post?::¿Cómo llego a Correos?]] |
+| bei + dem = **beim** | [[de:Ich bin beim Arzt.::Estoy en el médico.]] |
+| von + dem = **vom** | [[de:Ich komme vom Supermarkt.::Vengo del supermercado.]] |
 
 ### Qué significa cada preposición
 
 | | Significa | Ejemplo |
 |---|---|---|
-| **aus** | de (origen, salir de dentro) | [[de:Sie kommt aus der Schweiz.]] |
-| **bei** | en casa de, en (un lugar de trabajo) | [[de:Ich wohne bei meiner Tante.]] |
-| **mit** | con; en (transporte) | [[de:Ich fahre mit dem Bus.]] |
-| **nach** | a (ciudades y países sin artículo); después de | [[de:Ich fahre nach Berlin.]] · [[de:nach dem Kurs]] |
-| **seit** | desde (hace) | [[de:Ich wohne seit drei Jahren in Zürich.]] |
-| **von** | de (procedencia, de quién) | [[de:Das ist das Auto von meinem Vater.]] |
-| **zu** | a (personas y lugares con artículo) | [[de:Ich gehe zum Arzt.]] · [[de:Ich gehe zu Anna.]] |
+| **aus** | de (origen, salir de dentro) | [[de:Sie kommt aus der Schweiz.::Es de Suiza.]] |
+| **bei** | en casa de, en (un lugar de trabajo) | [[de:Ich wohne bei meiner Tante.::Vivo en casa de mi tía.]] |
+| **mit** | con; en (transporte) | [[de:Ich fahre mit dem Bus.::Voy en autobús.]] |
+| **nach** | a (ciudades y países sin artículo); después de | [[de:Ich fahre nach Berlin.::Voy a Berlín.]] · [[de:nach dem Kurs::después del curso]] |
+| **seit** | desde (hace) | [[de:Ich wohne seit drei Jahren in Zürich.::Vivo en Zúrich desde hace tres años.]] |
+| **von** | de (procedencia, de quién) | [[de:Das ist das Auto von meinem Vater.::Este es el coche de mi padre.]] |
+| **zu** | a (personas y lugares con artículo) | [[de:Ich gehe zum Arzt.::Voy al médico.]] · [[de:Ich gehe zu Anna.::Voy a casa de Anna.]] |
 
 ¿**nach** o **zu**? *nach* para ciudades y países (*nach Wien, nach Spanien*) y en la expresión **nach Hause** (a casa); *zu* para personas, tiendas, edificios (*zum Bahnhof, zu meiner Mutter*). "Estoy en casa" es **zu Hause**.
 
@@ -76,9 +76,9 @@ Ahora ya entiendes el bloque del tema 2: *aus **der** Schweiz* es dativo.
 
 ## 4. Preguntar el camino
 
-- [[de:Entschuldigung, wie komme ich zum Bahnhof?]]
-- [[de:Wo ist hier die Post?]]
-- [[de:Ist das weit?]] — [[de:Nein, nur fünf Minuten zu Fuß.]]
+- [[de:Entschuldigung, wie komme ich zum Bahnhof?::Perdone, ¿cómo llego a la estación?]]
+- [[de:Wo ist hier die Post?::¿Dónde está Correos?]]
+- [[de:Ist das weit?::¿Está lejos?]] — [[de:Nein, nur fünf Minuten zu Fuß.::No, solo cinco minutos a pie.]]
 
 Las indicaciones:
 
@@ -92,10 +92,10 @@ Las indicaciones:
 
 Palabras como *an der Ampel*, *neben der Bank* o *in der Nähe* también llevan dativo, pero con otras preposiciones que funcionan de forma especial; de momento apréndelas como bloques (las verás a fondo en A2).
 
-> [[de:Entschuldigung, wie komme ich zum Museum?]]
-> [[de:Geh hier geradeaus bis zur Ampel. Dann links. Das Museum ist neben der Kirche.]]
-> [[de:Danke schön!]]
-> [[de:Bitte schön!]]
+> [[de:Entschuldigung, wie komme ich zum Museum?::Perdone, ¿cómo llego al museo?]]
+> [[de:Geh hier geradeaus bis zur Ampel. Dann links. Das Museum ist neben der Kirche.::Sigue recto hasta el semáforo. Luego a la izquierda. El museo está al lado de la iglesia.]]
+> [[de:Danke schön!::¡Muchas gracias!]]
+> [[de:Bitte schön!::¡De nada!]]
 
 ## 5. El imperativo (du / ihr)
 
@@ -117,7 +117,7 @@ Cómo se forma:
 - Los verbos **e → i / ie** conservan el cambio (*Nimm! Lies! Sprich!*), pero los verbos **a → ä pierden la diéresis**: *du fährst* → **Fahr!**
 - **ihr**: igual que el presente sin el pronombre: *ihr kommt* → **Kommt!**
 - Los verbos separables mandan el prefijo al final: **Steig** in Olten **um**!
-- Añade **bitte** para ser amable: [[de:Komm bitte morgen um acht!]]
+- Añade **bitte** para ser amable: [[de:Komm bitte morgen um acht!::¡Ven mañana a las ocho, por favor!]]
 
 (El imperativo con *Sie* lo verás en el tema 10.)
 

@@ -13,10 +13,10 @@ Hay dos formas de decir la hora:
 
 | Reloj | Se dice |
 |---|---|
-| 7:00 | [[de:sieben Uhr]] |
-| 14:30 | [[de:vierzehn Uhr dreißig]] |
-| 20:15 | [[de:zwanzig Uhr fünfzehn]] |
-| 9:45 | [[de:neun Uhr fünfundvierzig]] |
+| 7:00 | [[de:sieben Uhr::las siete]] |
+| 14:30 | [[de:vierzehn Uhr dreißig::las catorce treinta]] |
+| 20:15 | [[de:zwanzig Uhr fünfzehn::las veinte quince]] |
+| 9:45 | [[de:neun Uhr fünfundvierzig::las nueve cuarenta y cinco]] |
 
 **Informal** (en la conversación): de 1 a 12, con *nach* (y… / pasadas), *vor* (menos), *Viertel* (cuarto) y *halb* (media).
 
@@ -50,13 +50,13 @@ Con **-s** y en minúscula significan "habitualmente, todos los…": [[de:morgen
 
 | Preposición | Se usa con | Ejemplo |
 |---|---|---|
-| **um** | la hora exacta | [[de:Der Kurs beginnt um neun Uhr.]] |
-| **am** | días y partes del día | [[de:am Montag]] · [[de:am Abend]] · [[de:am Wochenende]] |
-| **in der** | la noche (excepción) | [[de:in der Nacht]] |
-| **von … bis** | desde … hasta | [[de:Ich arbeite von acht bis fünf.]] |
-| **ab** | a partir de | [[de:Ab Montag habe ich Urlaub.]] |
+| **um** | la hora exacta | [[de:Der Kurs beginnt um neun Uhr.::El curso empieza a las nueve.]] |
+| **am** | días y partes del día | [[de:am Montag::el lunes]] · [[de:am Abend::por la tarde-noche]] · [[de:am Wochenende::el fin de semana]] |
+| **in der** | la noche (excepción) | [[de:in der Nacht::por la noche]] |
+| **von … bis** | desde … hasta | [[de:Ich arbeite von acht bis fünf.::Trabajo de ocho a cinco.]] |
+| **ab** | a partir de | [[de:Ab Montag habe ich Urlaub.::A partir del lunes tengo vacaciones.]] |
 
-Para preguntar: [[de:Wann beginnt der Film?]] (¿cuándo?) · [[de:Um wie viel Uhr kommst du?]] (¿a qué hora?) · [[de:Wie lange arbeitest du?]] (¿cuánto tiempo?).
+Para preguntar: [[de:Wann beginnt der Film?::¿Cuándo empieza la película?]] (¿cuándo?) · [[de:Um wie viel Uhr kommst du?::¿A qué hora vienes?]] (¿a qué hora?) · [[de:Wie lange arbeitest du?::¿Cuánto tiempo trabajas?]] (¿cuánto tiempo?).
 
 ## 4. Los verbos separables
 
@@ -64,14 +64,14 @@ Muchos verbos alemanes tienen un **prefijo** (*auf-, an-, ein-, fern-, mit-, aus
 
 | Infinitivo | Frase |
 |---|---|
-| **auf**stehen (levantarse) | [[de:Ich stehe um sieben Uhr auf.]] |
-| **ein**kaufen (hacer la compra) | [[de:Am Samstag kaufe ich ein.]] |
-| **fern**sehen (ver la tele) | [[de:Abends sehe ich fern.]] |
-| **an**rufen (llamar por teléfono) | [[de:Ich rufe dich morgen an.]] |
-| **an**fangen (empezar) | [[de:Der Kurs fängt um neun an.]] |
-| **auf**räumen (ordenar) | [[de:Am Sonntag räume ich auf.]] |
-| **mit**kommen (venir con) | [[de:Kommst du mit?]] |
-| **aus**gehen (salir) | [[de:Am Freitag gehen wir aus.]] |
+| **auf**stehen (levantarse) | [[de:Ich stehe um sieben Uhr auf.::Me levanto a las siete.]] |
+| **ein**kaufen (hacer la compra) | [[de:Am Samstag kaufe ich ein.::El sábado hago la compra.]] |
+| **fern**sehen (ver la tele) | [[de:Abends sehe ich fern.::Por las noches veo la tele.]] |
+| **an**rufen (llamar por teléfono) | [[de:Ich rufe dich morgen an.::Te llamo mañana.]] |
+| **an**fangen (empezar) | [[de:Der Kurs fängt um neun an.::El curso empieza a las nueve.]] |
+| **auf**räumen (ordenar) | [[de:Am Sonntag räume ich auf.::El domingo ordeno.]] |
+| **mit**kommen (venir con) | [[de:Kommst du mit?::¿Te vienes?]] |
+| **aus**gehen (salir) | [[de:Am Freitag gehen wir aus.::El viernes salimos.]] |
 
 El verbo va en **posición 2** y el prefijo **al final**: esa "pinza" se llama **Satzklammer** (paréntesis verbal).
 
@@ -82,21 +82,21 @@ El verbo va en **posición 2** y el prefijo **al final**: esa "pinza" se llama *
 | Wann | stehst | du | **auf**? |
 | | Stehst | du früh | **auf**? |
 
-La misma pinza la viste con *möchte*: *Ich **möchte** heute Fisch **essen**.* Con *möchte*, el verbo separable vuelve a juntarse al final: [[de:Ich möchte heute fernsehen.]]
+La misma pinza la viste con *möchte*: *Ich **möchte** heute Fisch **essen**.* Con *möchte*, el verbo separable vuelve a juntarse al final: [[de:Ich möchte heute fernsehen.::Hoy quiero ver la tele.]]
 
 Cómo reconocerlos: el prefijo separable lleva el **acento**: *AUFstehen*, *EINkaufen*. En el diccionario aparecen como *auf|stehen*.
 
-Algunos prefijos **no** se separan nunca (*be-, ver-, er-, ge-*): [[de:Ich bezahle.]] · [[de:Ich verstehe.]] · *frühstücken* tampoco: [[de:Ich frühstücke um acht.]]
+Algunos prefijos **no** se separan nunca (*be-, ver-, er-, ge-*): [[de:Ich bezahle.::Pago yo.]] · [[de:Ich verstehe.::Entiendo.]] · *frühstücken* tampoco: [[de:Ich frühstücke um acht.::Desayuno a las ocho.]]
 
 Dos verbos separables tienen además cambio de vocal: *anfangen* → *er f**ä**ngt an*; *fernsehen* → *er s**ie**ht fern* (lo verás a fondo en el tema 7).
 
 ## 5. Mi rutina
 
-> [[de:Ich stehe um halb sieben auf. Dann dusche ich und frühstücke.]]
-> [[de:Um acht Uhr fahre ich zur Arbeit. Ich arbeite von halb neun bis fünf.]]
-> [[de:Mittags esse ich in der Kantine.]]
-> [[de:Abends kaufe ich ein, koche und sehe ein bisschen fern.]]
-> [[de:Um elf Uhr gehe ich ins Bett.]]
+> [[de:Ich stehe um halb sieben auf. Dann dusche ich und frühstücke.::Me levanto a las seis y media. Luego me ducho y desayuno.]]
+> [[de:Um acht Uhr fahre ich zur Arbeit. Ich arbeite von halb neun bis fünf.::A las ocho voy al trabajo. Trabajo de ocho y media a cinco.]]
+> [[de:Mittags esse ich in der Kantine.::A mediodía como en el comedor.]]
+> [[de:Abends kaufe ich ein, koche und sehe ein bisschen fern.::Por la tarde hago la compra, cocino y veo un poco la tele.]]
+> [[de:Um elf Uhr gehe ich ins Bett.::A las once me voy a la cama.]]
 
 Palabras para ordenar la historia: **zuerst** (primero) · **dann** (luego) · **danach** (después) · **zum Schluss** (al final). Recuerda que, si empiezas con una de ellas, el sujeto va **detrás** del verbo: *Dann dusche **ich**.*
 

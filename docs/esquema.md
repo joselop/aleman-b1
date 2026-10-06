@@ -17,7 +17,7 @@ Para publicar un tema nuevo: crea su carpeta, cambia su `status` a `"ready"` en 
 ## leccion.md
 
 Markdown normal (títulos `##`/`###`, tablas, listas, `> citas`, `**negrita**`, `*cursiva*`, `~~tachado~~`).
-Extensión propia: `[[de:Guten Tag!]]` muestra la frase con un botón de audio.
+Extensión propia: `[[de:Guten Tag!::¡Buenos días!]]` muestra la frase con un botón de audio y la traducción debajo (la parte tras `::` es opcional y no se lee en el audio).
 
 ## topic.json
 

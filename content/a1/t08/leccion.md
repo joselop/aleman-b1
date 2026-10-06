@@ -13,12 +13,12 @@ En este tema vas de compras: aprendes la ropa, las tallas, los precios (también
 
 Ojo: **die Hose** es singular en alemán (en español "los pantalones" o "el pantalón"): *Die Hose **ist** zu lang.* En cambio **die Jeans** puede ser singular o plural.
 
-- [[de:die Größe]] — la talla · [[de:Welche Größe haben Sie?]] — [[de:Größe 38.]] / [[de:Größe M.]]
-- [[de:anprobieren]] — probarse · [[de:Kann ich die Jacke anprobieren?]]
+- [[de:die Größe]] — la talla · [[de:Welche Größe haben Sie?::¿Qué talla tiene?]] — [[de:Größe 38.::Talla 38.]] / [[de:Größe M.::Talla M.]]
+- [[de:anprobieren]] — probarse · [[de:Kann ich die Jacke anprobieren?::¿Puedo probarme la chaqueta?]]
 - [[de:die Umkleidekabine]] — el probador
 - Tamaño y ajuste: *zu groß / zu klein* · *zu lang / zu kurz* · [[de:eng]] (estrecho) · [[de:weit]] (ancho)
 - [[de:Die Hose passt nicht.]] — el pantalón no me queda bien (de talla)
-- [[de:Wie gefällt dir der Pullover?]] — ¿Qué te parece el jersey? — [[de:Er gefällt mir gut.]] (me gusta)
+- [[de:Wie gefällt dir der Pullover?]] — ¿Qué te parece el jersey? — [[de:Er gefällt mir gut.::Me gusta mucho.]] (me gusta)
 
 *gefallen* funciona como "gustar" en español: **la cosa** es el sujeto: *Der Rock gefällt **mir**.* / *Die Schuhe gefallen **mir**.* De momento apréndete *mir* (a mí), *dir* (a ti) e *Ihnen* (a usted).
 
@@ -26,16 +26,16 @@ Ojo: **die Hose** es singular en alemán (en español "los pantalones" o "el pan
 
 | | |
 |---|---|
-| 100 [[de:hundert]] | 101 [[de:hunderteins]] |
-| 120 [[de:hundertzwanzig]] | 200 [[de:zweihundert]] |
-| 350 [[de:dreihundertfünfzig]] | 999 [[de:neunhundertneunundneunzig]] |
-| 1000 [[de:tausend]] | 2500 [[de:zweitausendfünfhundert]] |
+| 100 [[de:hundert]] | 101 [[de:hunderteins::ciento uno]] |
+| 120 [[de:hundertzwanzig::ciento veinte]] | 200 [[de:zweihundert::doscientos]] |
+| 350 [[de:dreihundertfünfzig::trescientos cincuenta]] | 999 [[de:neunhundertneunundneunzig::novecientos noventa y nueve]] |
+| 1000 [[de:tausend::mil]] | 2500 [[de:zweitausendfünfhundert::dos mil quinientos]] |
 
 Los precios: **19,99 €** = [[de:neunzehn Euro neunundneunzig]] · **4,50 Fr.** = [[de:vier Franken fünfzig]] · **0,80 €** = [[de:achtzig Cent]].
 
-Para preguntar: [[de:Was kostet der Mantel?]] · [[de:Wie viel kosten die Schuhe?]] — [[de:Er kostet 89 Euro.]] / [[de:Sie kosten 120 Euro.]]
+Para preguntar: [[de:Was kostet der Mantel?::¿Cuánto cuesta el abrigo?]] · [[de:Wie viel kosten die Schuhe?::¿Cuánto cuestan los zapatos?]] — [[de:Er kostet 89 Euro.::Cuesta 89 euros.]] / [[de:Sie kosten 120 Euro.::Cuestan 120 euros.]]
 
-Pagar: [[de:Zahlen Sie bar oder mit Karte?]] — [[de:Mit Karte, bitte.]]
+Pagar: [[de:Zahlen Sie bar oder mit Karte?::¿Paga en efectivo o con tarjeta?]] — [[de:Mit Karte, bitte.::Con tarjeta, por favor.]]
 
 ## 3. welch- y dies-
 
@@ -48,10 +48,10 @@ Pagar: [[de:Zahlen Sie bar oder mit Karte?]] — [[de:Mit Karte, bitte.]]
 
 Fíjate en que siguen al artículo: de**r** → dies**er**, **die** → dies**e**, da**s** → dies**es**, de**n** → dies**en**.
 
-- [[de:Welcher Pullover gefällt dir? – Dieser hier.]]
-- [[de:Welche Jacke nimmst du? – Diese.]]
-- [[de:Welches Kleid ist billiger?]]
-- [[de:Welchen Mantel möchten Sie? – Diesen, bitte.]] (acusativo: *möchten* + complemento directo)
+- [[de:Welcher Pullover gefällt dir? – Dieser hier.::¿Qué jersey te gusta? – Este de aquí.]]
+- [[de:Welche Jacke nimmst du? – Diese.::¿Qué chaqueta te llevas? – Esta.]]
+- [[de:Welches Kleid ist billiger?::¿Qué vestido es más barato?]]
+- [[de:Welchen Mantel möchten Sie? – Diesen, bitte.::¿Qué abrigo quiere? – Este, por favor.]] (acusativo: *möchten* + complemento directo)
 
 ## 4. Los pronombres en acusativo
 
@@ -59,33 +59,33 @@ Para no repetir la cosa o la persona, usas un pronombre. En acusativo:
 
 | Nominativo | Acusativo | Ejemplo |
 |---|---|---|
-| ich | **mich** | [[de:Kannst du mich anrufen?]] |
-| du | **dich** | [[de:Ich rufe dich an.]] |
-| er | **ihn** | [[de:Der Pullover ist schön. Ich nehme ihn.]] |
-| sie | **sie** | [[de:Die Jacke ist zu teuer. Ich kaufe sie nicht.]] |
-| es | **es** | [[de:Das Kleid ist toll. Ich probiere es an.]] |
-| wir | **uns** | [[de:Besuchst du uns?]] |
-| ihr | **euch** | [[de:Ich sehe euch morgen.]] |
-| sie / Sie | **sie / Sie** | [[de:Die Schuhe? Ich nehme sie.]] |
+| ich | **mich** | [[de:Kannst du mich anrufen?::¿Puedes llamarme?]] |
+| du | **dich** | [[de:Ich rufe dich an.::Te llamo.]] |
+| er | **ihn** | [[de:Der Pullover ist schön. Ich nehme ihn.::El jersey es bonito. Me lo llevo.]] |
+| sie | **sie** | [[de:Die Jacke ist zu teuer. Ich kaufe sie nicht.::La chaqueta es demasiado cara. No la compro.]] |
+| es | **es** | [[de:Das Kleid ist toll. Ich probiere es an.::El vestido es genial. Me lo pruebo.]] |
+| wir | **uns** | [[de:Besuchst du uns?::¿Nos visitas?]] |
+| ihr | **euch** | [[de:Ich sehe euch morgen.::Os veo mañana.]] |
+| sie / Sie | **sie / Sie** | [[de:Die Schuhe? Ich nehme sie.::¿Los zapatos? Me los llevo.]] |
 
 La regla de siempre: **solo cambia el masculino** en 3.ª persona (*er → ihn*). *sie*, *es* y el plural *sie* son iguales. Y el pronombre tiene que coincidir con el **género alemán**: *der Rock* → **ihn** (aunque en español sea "la falda").
 
 ## 5. En la tienda
 
-> [[de:Guten Tag, kann ich Ihnen helfen?]]
-> [[de:Ja, ich suche einen Pullover.]]
-> [[de:Welche Größe haben Sie?]]
-> [[de:Größe M. Haben Sie diesen Pullover auch in Blau?]]
-> [[de:Ja, hier bitte.]]
-> [[de:Kann ich ihn anprobieren?]]
-> [[de:Natürlich, die Umkleidekabine ist dort.]]
+> [[de:Guten Tag, kann ich Ihnen helfen?::Buenos días, ¿puedo ayudarle?]]
+> [[de:Ja, ich suche einen Pullover.::Sí, busco un jersey.]]
+> [[de:Welche Größe haben Sie?::¿Qué talla tiene?]]
+> [[de:Größe M. Haben Sie diesen Pullover auch in Blau?::Talla M. ¿Tiene este jersey también en azul?]]
+> [[de:Ja, hier bitte.::Sí, aquí tiene.]]
+> [[de:Kann ich ihn anprobieren?::¿Puedo probármelo?]]
+> [[de:Natürlich, die Umkleidekabine ist dort.::Claro, el probador está allí.]]
 > …
-> [[de:Und? Passt er?]]
-> [[de:Ja, er passt gut. Was kostet er?]]
-> [[de:Neunundvierzig Euro neunzig.]]
-> [[de:Gut, ich nehme ihn.]]
+> [[de:Und? Passt er?::¿Y bien? ¿Le queda bien?]]
+> [[de:Ja, er passt gut. Was kostet er?::Sí, me queda bien. ¿Cuánto cuesta?]]
+> [[de:Neunundvierzig Euro neunzig.::Cuarenta y nueve euros con noventa.]]
+> [[de:Gut, ich nehme ihn.::Bien, me lo llevo.]]
 
-Tiendas: [[de:das Kaufhaus]] (grandes almacenes) · [[de:der Supermarkt]] · [[de:die Bäckerei]] (panadería) · [[de:die Apotheke]] (farmacia) · [[de:der Markt]] (mercado). En los grandes almacenes: [[de:Die Damenmode ist im zweiten Stock.]]
+Tiendas: [[de:das Kaufhaus]] (grandes almacenes) · [[de:der Supermarkt::el supermercado]] · [[de:die Bäckerei]] (panadería) · [[de:die Apotheke]] (farmacia) · [[de:der Markt]] (mercado). En los grandes almacenes: [[de:Die Damenmode ist im zweiten Stock.::La moda de mujer está en la segunda planta.]]
 
 Ofertas: [[de:das Angebot]] (la oferta) · *reduziert* (rebajado) · *Sonderangebot* · *Schlussverkauf* (rebajas) · *50 % billiger*.
 

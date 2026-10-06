@@ -16,21 +16,21 @@ Plurales útiles: *die Augen, die Ohren, die Zähne, die Hände, die Beine, die 
 
 ## 2. ¿Qué te pasa?
 
-- [[de:Wie geht es Ihnen?]] · [[de:Was fehlt Ihnen?]] (el médico: ¿qué le pasa?)
-- [[de:Ich bin krank.]] · [[de:Ich bin erkältet.]] (estoy resfriado)
-- [[de:Ich habe Fieber.]] · [[de:Ich habe Husten.]] (tos) · [[de:Ich habe Schnupfen.]] (mocos)
+- [[de:Wie geht es Ihnen?::¿Cómo está usted?]] · [[de:Was fehlt Ihnen?]] (el médico: ¿qué le pasa?)
+- [[de:Ich bin krank.::Estoy enfermo/a.]] · [[de:Ich bin erkältet.]] (estoy resfriado)
+- [[de:Ich habe Fieber.::Tengo fiebre.]] · [[de:Ich habe Husten.]] (tos) · [[de:Ich habe Schnupfen.]] (mocos)
 
 Para decir que algo **duele** hay dos formas:
 
 | Con *-schmerzen* | Con *wehtun* |
 |---|---|
-| [[de:Ich habe Kopfschmerzen.]] | [[de:Mein Kopf tut weh.]] |
-| [[de:Ich habe Halsschmerzen.]] | [[de:Mein Hals tut weh.]] |
-| [[de:Ich habe Bauchschmerzen.]] | [[de:Mein Bauch tut weh.]] |
-| [[de:Ich habe Rückenschmerzen.]] | [[de:Mein Rücken tut weh.]] |
-| [[de:Ich habe Zahnschmerzen.]] | [[de:Mein Zahn tut weh.]] |
+| [[de:Ich habe Kopfschmerzen.::Me duele la cabeza.]] | [[de:Mein Kopf tut weh.::Me duele la cabeza.]] |
+| [[de:Ich habe Halsschmerzen.::Me duele la garganta.]] | [[de:Mein Hals tut weh.::Me duele la garganta.]] |
+| [[de:Ich habe Bauchschmerzen.::Me duele la barriga.]] | [[de:Mein Bauch tut weh.::Me duele la barriga.]] |
+| [[de:Ich habe Rückenschmerzen.::Me duele la espalda.]] | [[de:Mein Rücken tut weh.::Me duele la espalda.]] |
+| [[de:Ich habe Zahnschmerzen.::Me duelen las muelas.]] | [[de:Mein Zahn tut weh.::Me duele una muela.]] |
 
-Con plural: [[de:Meine Füße tun weh.]] También oirás **Mir tut der Kopf weh** ("me duele la cabeza", con dativo *mir*): es muy frecuente.
+Con plural: [[de:Meine Füße tun weh.::Me duelen los pies.]] También oirás **Mir tut der Kopf weh** ("me duele la cabeza", con dativo *mir*): es muy frecuente.
 
 Desear que se mejore: [[de:Gute Besserung!]] — ¡Que te mejores!
 
@@ -48,11 +48,11 @@ Desear que se mejore: [[de:Gute Besserung!]] — ¡Que te mejores!
 | [[de:die Apotheke]] | la farmacia |
 | [[de:der Notfall]] | la urgencia |
 
-> [[de:Praxis Dr. Weber, guten Morgen.]]
-> [[de:Guten Morgen, hier ist José López. Ich brauche einen Termin. Ich habe seit drei Tagen Fieber und Halsschmerzen.]]
-> [[de:Können Sie heute um 11 Uhr kommen?]]
-> [[de:Ja, das geht. Vielen Dank!]]
-> [[de:Bringen Sie bitte Ihre Versichertenkarte mit.]]
+> [[de:Praxis Dr. Weber, guten Morgen.::Consulta del Dr. Weber, buenos días.]]
+> [[de:Guten Morgen, hier ist José López. Ich brauche einen Termin. Ich habe seit drei Tagen Fieber und Halsschmerzen.::Buenos días, soy José López. Necesito una cita. Llevo tres días con fiebre y dolor de garganta.]]
+> [[de:Können Sie heute um 11 Uhr kommen?::¿Puede venir hoy a las 11?]]
+> [[de:Ja, das geht. Vielen Dank!::Sí, me va bien. ¡Muchas gracias!]]
+> [[de:Bringen Sie bitte Ihre Versichertenkarte mit.::Traiga su tarjeta sanitaria, por favor.]]
 
 ## 4. müssen y dürfen
 
@@ -67,10 +67,10 @@ Desear que se mejore: [[de:Gute Besserung!]] — ¡Que te mejores!
 
 Igual que *können* y *wollen*: modal en posición 2, infinitivo al final, e **ich/er sin terminación**.
 
-- [[de:Ich muss heute zum Arzt gehen.]]
-- [[de:Sie müssen die Tabletten dreimal am Tag nehmen.]]
-- [[de:Darf ich hier rauchen? – Nein, hier dürfen Sie nicht rauchen.]]
-- [[de:Sie dürfen heute keinen Sport machen.]]
+- [[de:Ich muss heute zum Arzt gehen.::Hoy tengo que ir al médico.]]
+- [[de:Sie müssen die Tabletten dreimal am Tag nehmen.::Tiene que tomar las pastillas tres veces al día.]]
+- [[de:Darf ich hier rauchen? – Nein, hier dürfen Sie nicht rauchen.::¿Puedo fumar aquí? – No, aquí no puede fumar.]]
+- [[de:Sie dürfen heute keinen Sport machen.::Hoy no puede hacer deporte.]]
 
 ### ¡Cuidado con la negación!
 
@@ -87,12 +87,12 @@ Para dar instrucciones o consejos a quien tratas de usted (el médico, carteles,
 
 | Infinitivo | Imperativo con Sie |
 |---|---|
-| nehmen | [[de:Nehmen Sie die Tabletten nach dem Essen!]] |
-| trinken | [[de:Trinken Sie viel Tee!]] |
-| bleiben | [[de:Bleiben Sie zwei Tage im Bett!]] |
-| kommen | [[de:Kommen Sie morgen wieder!]] |
-| anrufen | [[de:Rufen Sie mich am Montag an!]] |
-| sein | [[de:Seien Sie bitte pünktlich!]] (irregular) |
+| nehmen | [[de:Nehmen Sie die Tabletten nach dem Essen!::¡Tome las pastillas después de comer!]] |
+| trinken | [[de:Trinken Sie viel Tee!::¡Beba mucho té!]] |
+| bleiben | [[de:Bleiben Sie zwei Tage im Bett!::¡Quédese dos días en la cama!]] |
+| kommen | [[de:Kommen Sie morgen wieder!::¡Vuelva mañana!]] |
+| anrufen | [[de:Rufen Sie mich am Montag an!::¡Llámeme el lunes!]] |
+| sein | [[de:Seien Sie bitte pünktlich!::¡Sea puntual, por favor!]] (irregular) |
 
 Ahora ya tienes las tres formas del imperativo:
 
@@ -119,7 +119,7 @@ Completas la tabla del tema 3:
 
 - **euer** pierde la *e* cuando lleva terminación: *eure* (no ~~euere~~).
 - Con acusativo masculino se añade **-en** como siempre: *Bringen Sie **Ihren** Ausweis mit.*
-- [[de:Unser Arzt heißt Dr. Weber.]] · [[de:Wie heißt eure Lehrerin?]] · [[de:Die Kinder sind krank. Ihre Mutter ruft den Arzt an.]]
+- [[de:Unser Arzt heißt Dr. Weber.::Nuestro médico se llama Dr. Weber.]] · [[de:Wie heißt eure Lehrerin?::¿Cómo se llama vuestra profesora?]] · [[de:Die Kinder sind krank. Ihre Mutter ruft den Arzt an.::Los niños están enfermos. Su madre llama al médico.]]
 
 ## 7. Errores típicos de hispanohablantes
 

@@ -227,9 +227,14 @@ function speakBtn(lines, label = "Escuchar") {
 /* ------------------------------------------------------------------ markdown */
 function inline(text) {
   let s = esc(text);
-  s = s.replace(/\[\[de:(.+?)\]\]/g, (_, t) => {
+  // [[de:Texto alemán]] o [[de:Texto alemán::Traducción]]
+  s = s.replace(/\[\[de:(.+?)\]\]/g, (_, whole) => {
+    const [t, tr] = whole.split("::");
     const raw = t.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
-    return `<span class="de"><button class="spk" type="button" data-say="${esc(raw)}" aria-label="Escuchar">🔊</button><span lang="de">${t}</span></span>`;
+    const de = `<span class="de-line"><button class="spk" type="button" data-say="${esc(raw)}" aria-label="Escuchar">🔊</button><span lang="de">${t}</span></span>`;
+    return tr
+      ? `<span class="de has-tr">${de}<span class="tr" lang="es">${tr}</span></span>`
+      : `<span class="de">${de}</span>`;
   });
   s = s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   s = s.replace(/~~(.+?)~~/g, "<del>$1</del>");

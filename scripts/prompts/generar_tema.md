@@ -37,7 +37,7 @@ Markdown con esta estructura:
 3. Una sección **«Errores típicos de hispanohablantes»** (5–8 puntos, con la forma incorrecta tachada `~~así~~`).
 4. **«Resumen para el examen»**: qué partes del Goethe puedes hacer ya con este tema.
 
-Escribe cada frase alemana que merezca escucharse como `[[de:Frase completa.]]` (se convierte en un botón de audio). No pongas `[[de:]]` a palabras sueltas dentro de una frase española.
+Escribe cada frase alemana que merezca escucharse como `[[de:Frase completa.::Traducción al español.]]`: se muestra con un botón de audio y la traducción debajo. **Toda frase o expresión alemana debe llevar su traducción** (en `::` o en una columna de la tabla), salvo los números escritos junto a su cifra. No pongas `[[de:]]` a palabras sueltas dentro de una frase española.
 
 ### 2. `topic.json`
 

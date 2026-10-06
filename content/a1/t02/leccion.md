@@ -54,12 +54,12 @@ En 21, 31, 41… se dice **ein**und-, no *eins*und-: *einundzwanzig*.
 ## 4. La edad y el teléfono
 
 - [[de:Wie alt bist du?]] · [[de:Wie alt sind Sie?]] — ¿Cuántos años tienes / tiene?
-- [[de:Ich bin 28 Jahre alt.]] o simplemente [[de:Ich bin 28.]]
+- [[de:Ich bin 28 Jahre alt.::Tengo 28 años.]] o simplemente [[de:Ich bin 28.::Tengo 28.]]
 
 Recuerda: la edad se dice con **sein** (*ich bin*), no con "tener".
 
-- [[de:Wie ist Ihre Telefonnummer?]] · [[de:Wie ist deine Telefonnummer?]]
-- [[de:Meine Nummer ist 0176 45 83 21.]]
+- [[de:Wie ist Ihre Telefonnummer?::¿Cuál es su número de teléfono?]] · [[de:Wie ist deine Telefonnummer?::¿Cuál es tu número de teléfono?]]
+- [[de:Meine Nummer ist 0176 45 83 21.::Mi número es el 0176 45 83 21.]]
 
 Los teléfonos se dicen cifra a cifra o en grupos de dos: *null – eins – sieben – sechs – fünfundvierzig – dreiundachtzig – einundzwanzig*.
 
@@ -79,7 +79,7 @@ Para pedir que te lo repitan: [[de:Wie bitte?]] (¿Cómo dice?) · [[de:Noch ein
 | Russland | Russisch | Griechenland | Griechisch |
 
 - Los idiomas se escriben con **mayúscula** (son sustantivos) y casi todos acaban en **-isch**.
-- Los idiomas van **sin artículo**: [[de:Ich spreche Spanisch.]]
+- Los idiomas van **sin artículo**: [[de:Ich spreche Spanisch.::Hablo español.]]
 
 ### Países con artículo
 
@@ -87,11 +87,11 @@ La mayoría de países no llevan artículo: *Ich komme aus Spanien. Ich wohne in
 
 | País | ¿De dónde? | ¿Dónde? |
 |---|---|---|
-| die Schweiz | [[de:aus der Schweiz]] | [[de:in der Schweiz]] |
-| die Türkei | [[de:aus der Türkei]] | [[de:in der Türkei]] |
-| die USA (plural) | [[de:aus den USA]] | [[de:in den USA]] |
-| die Niederlande (plural) | [[de:aus den Niederlanden]] | [[de:in den Niederlanden]] |
-| der Iran | [[de:aus dem Iran]] | [[de:im Iran]] |
+| die Schweiz | [[de:aus der Schweiz::de Suiza]] | [[de:in der Schweiz::en Suiza]] |
+| die Türkei | [[de:aus der Türkei::de Turquía]] | [[de:in der Türkei::en Turquía]] |
+| die USA (plural) | [[de:aus den USA::de Estados Unidos]] | [[de:in den USA::en Estados Unidos]] |
+| die Niederlande (plural) | [[de:aus den Niederlanden::de los Países Bajos]] | [[de:in den Niederlanden::en los Países Bajos]] |
+| der Iran | [[de:aus dem Iran::de Irán]] | [[de:im Iran::en Irán]] |
 
 ## 6. El verbo *sprechen* (hablar): cambio e → i
 
@@ -107,12 +107,12 @@ La mayoría de países no llevan artículo: *Ich komme aus Spanien. Ich wohne in
 | sie / Sie | sprechen |
 
 - [[de:Welche Sprachen sprichst du?]] — ¿Qué idiomas hablas?
-- [[de:Ich spreche Spanisch, Englisch und ein bisschen Deutsch.]]
-- [[de:Maria spricht sehr gut Französisch.]]
+- [[de:Ich spreche Spanisch, Englisch und ein bisschen Deutsch.::Hablo español, inglés y un poco de alemán.]]
+- [[de:Maria spricht sehr gut Französisch.::María habla muy bien francés.]]
 
-Para decir cómo de bien: [[de:sehr gut]] · [[de:gut]] · [[de:ein bisschen]] (un poco).
+Para decir cómo de bien: [[de:sehr gut::muy bien]] · [[de:gut::bien]] · [[de:ein bisschen]] (un poco).
 
-**Welche Sprachen…?** significa "¿Qué idiomas…?". *Sprache* = idioma; *Muttersprache* = lengua materna: [[de:Meine Muttersprache ist Spanisch.]]
+**Welche Sprachen…?** significa "¿Qué idiomas…?". *Sprache* = idioma; *Muttersprache* = lengua materna: [[de:Meine Muttersprache ist Spanisch.::Mi lengua materna es el español.]]
 
 ## 7. Preguntas de sí o no: el verbo en posición 1
 
@@ -127,13 +127,13 @@ En el tema 1 viste que en las preguntas con W- el verbo va en posición 2. En la
 
 Respuestas:
 
-- [[de:Ja, ich komme aus Spanien.]]
-- [[de:Nein, ich komme aus Mexiko.]]
+- [[de:Ja, ich komme aus Spanien.::Sí, soy de España.]]
+- [[de:Nein, ich komme aus Mexiko.::No, soy de México.]]
 
 Compara las dos preguntas:
 
-- [[de:Woher kommst du?]] → *Aus Spanien.* (pregunta abierta, W- + verbo)
-- [[de:Kommst du aus Spanien?]] → *Ja.* / *Nein.* (verbo primero)
+- [[de:Woher kommst du?::¿De dónde eres?]] → *Aus Spanien.* (pregunta abierta, W- + verbo)
+- [[de:Kommst du aus Spanien?::¿Eres de España?]] → *Ja.* / *Nein.* (verbo primero)
 
 En español la pregunta se distingue solo por la entonación ("¿Vienes de España?"); en alemán **cambia el orden** y además la voz sube al final.
 

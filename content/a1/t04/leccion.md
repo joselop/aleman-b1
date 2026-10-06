@@ -49,8 +49,8 @@ Fíjate: **das Gemüse** y **das Obst** son singulares aunque signifiquen "verdu
 | ihr | trinkt | esst | nehmt |
 | sie / Sie | trinken | essen | nehmen |
 
-- [[de:Was isst du zum Frühstück?]] — [[de:Ich esse ein Brötchen mit Käse.]]
-- [[de:Er trinkt keinen Kaffee.]]
+- [[de:Was isst du zum Frühstück?::¿Qué desayunas?]] — [[de:Ich esse ein Brötchen mit Käse.::Me como un panecillo con queso.]]
+- [[de:Er trinkt keinen Kaffee.::No toma café.]]
 - [[de:Ich nehme die Suppe.]] (en el restaurante: "tomaré la sopa")
 
 ## 4. *möchte*: pedir de forma educada
@@ -66,13 +66,13 @@ Fíjate: **das Gemüse** y **das Obst** son singulares aunque signifiquen "verdu
 | ihr | möchtet |
 | sie / Sie | möchten |
 
-- [[de:Ich möchte einen Kaffee, bitte.]]
+- [[de:Ich möchte einen Kaffee, bitte.::Quiero un café, por favor.]]
 - [[de:Was möchten Sie?]] — ¿Qué desea?
-- [[de:Möchtest du ein Stück Kuchen?]]
+- [[de:Möchtest du ein Stück Kuchen?::¿Quieres un trozo de pastel?]]
 
-Con otro verbo, el infinitivo va **al final** de la frase: [[de:Ich möchte heute Fisch essen.]] Esta "pinza" (verbo conjugado en posición 2 + infinitivo al final) la verás muchísimo.
+Con otro verbo, el infinitivo va **al final** de la frase: [[de:Ich möchte heute Fisch essen.::Hoy quiero comer pescado.]] Esta "pinza" (verbo conjugado en posición 2 + infinitivo al final) la verás muchísimo.
 
-**möchte** ≠ **mag**: *Ich möchte einen Tee* = quiero un té (ahora). *Ich mag Tee* = me gusta el té (en general). [[de:Ich mag keinen Fisch.]]
+**möchte** ≠ **mag**: *Ich möchte einen Tee* = quiero un té (ahora). *Ich mag Tee* = me gusta el té (en general). [[de:Ich mag keinen Fisch.::No me gusta el pescado.]]
 
 ## 5. El acusativo
 
@@ -87,10 +87,10 @@ La buena noticia: **solo cambia el masculino**.
 | neutro | das / ein / kein Ei | das / ein / kein Ei |
 | plural | die / – / keine Äpfel | die / – / keine Äpfel |
 
-- [[de:Der Kaffee ist heiß.]] (*der Kaffee* es el sujeto → nominativo)
-- [[de:Ich möchte den Kaffee.]] (*den Kaffee* es lo que quiero → acusativo)
-- [[de:Ich nehme einen Salat und eine Cola.]]
-- [[de:Wir haben keinen Käse mehr.]]
+- [[de:Der Kaffee ist heiß.::El café está caliente.]] (*der Kaffee* es el sujeto → nominativo)
+- [[de:Ich möchte den Kaffee.::Quiero el café.]] (*den Kaffee* es lo que quiero → acusativo)
+- [[de:Ich nehme einen Salat und eine Cola.::Tomaré una ensalada y una cola.]]
+- [[de:Wir haben keinen Käse mehr.::Ya no tenemos queso.]]
 
 Los posesivos siguen la misma regla: *Ich esse **meinen** Apfel.* Y ahora entiendes el "bloque" del tema 3: *Ich habe **einen** Bruder.*
 
@@ -108,23 +108,23 @@ No hay una regla única: **aprende cada sustantivo con su artículo y su plural*
 | palabras cortas neutras: **-er** + ¨ | das Ei, das Glas | die Ei**er**, die Gl**ä**s**er** |
 | palabras extranjeras y acabadas en vocal: **-s** | das Café, der Joghurt | die Café**s**, die Joghurt**s** |
 
-- [[de:ein Apfel – zwei Äpfel]]
-- [[de:ein Ei – sechs Eier]]
-- [[de:eine Flasche – drei Flaschen]]
+- [[de:ein Apfel – zwei Äpfel::una manzana – dos manzanas]]
+- [[de:ein Ei – sechs Eier::un huevo – seis huevos]]
+- [[de:eine Flasche – drei Flaschen::una botella – tres botellas]]
 
 ## 7. En el café o el restaurante
 
-> [[de:Guten Tag! Was möchten Sie?]]
-> [[de:Ich möchte einen Tee und ein Stück Apfelkuchen, bitte.]]
-> [[de:Und für Sie?]]
-> [[de:Ich nehme einen Kaffee mit Milch.]]
+> [[de:Guten Tag! Was möchten Sie?::¡Buenos días! ¿Qué desea?]]
+> [[de:Ich möchte einen Tee und ein Stück Apfelkuchen, bitte.::Quiero un té y un trozo de tarta de manzana, por favor.]]
+> [[de:Und für Sie?::¿Y para usted?]]
+> [[de:Ich nehme einen Kaffee mit Milch.::Tomaré un café con leche.]]
 > …
-> [[de:Die Rechnung, bitte!]] / [[de:Zahlen, bitte!]]
-> [[de:Zusammen oder getrennt?]]
-> [[de:Getrennt, bitte.]]
-> [[de:Das macht 7,80 Euro.]]
+> [[de:Die Rechnung, bitte!::¡La cuenta, por favor!]] / [[de:Zahlen, bitte!::¡Cóbreme, por favor!]]
+> [[de:Zusammen oder getrennt?::¿Junto o por separado?]]
+> [[de:Getrennt, bitte.::Por separado, por favor.]]
+> [[de:Das macht 7,80 Euro.::Son 7,80 euros.]]
 
-Envases y cantidades muy frecuentes: [[de:eine Flasche Wasser]] · [[de:ein Glas Wein]] · [[de:eine Tasse Kaffee]] · [[de:ein Stück Kuchen]] · [[de:ein Kilo Äpfel]]. Fíjate: en alemán **no hay "de"**: *eine Flasche Wasser* (una botella de agua).
+Envases y cantidades muy frecuentes: [[de:eine Flasche Wasser::una botella de agua]] · [[de:ein Glas Wein::una copa de vino]] · [[de:eine Tasse Kaffee::una taza de café]] · [[de:ein Stück Kuchen::un trozo de pastel]] · [[de:ein Kilo Äpfel::un kilo de manzanas]]. Fíjate: en alemán **no hay "de"**: *eine Flasche Wasser* (una botella de agua).
 
 ## 8. Errores típicos de hispanohablantes
 

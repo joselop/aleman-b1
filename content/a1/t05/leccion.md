@@ -12,10 +12,10 @@ En este tema aprendes a describir tu casa o tu piso: las habitaciones, los muebl
 | [[de:der Flur]] el pasillo | [[de:der Balkon]] el balcón | [[de:der Garten]] el jardín |
 | [[de:der Keller]] el sótano, el trastero | [[de:der Aufzug]] el ascensor | [[de:die Treppe]] la escalera |
 
-Las plantas: [[de:das Erdgeschoss]] (planta baja) · [[de:im ersten Stock]] (en el primer piso) · [[de:im dritten Stock]] (en el tercero).
+Las plantas: [[de:das Erdgeschoss::la planta baja]] (planta baja) · [[de:im ersten Stock::en el primer piso]] (en el primer piso) · [[de:im dritten Stock::en el tercer piso]] (en el tercero).
 
-- [[de:Meine Wohnung ist im zweiten Stock.]]
-- [[de:Die Wohnung hat drei Zimmer, eine Küche und ein Bad.]]
+- [[de:Meine Wohnung ist im zweiten Stock.::Mi piso está en la segunda planta.]]
+- [[de:Die Wohnung hat drei Zimmer, eine Küche und ein Bad.::El piso tiene tres habitaciones, una cocina y un baño.]]
 
 En los anuncios alemanes "3 Zimmer" cuenta **salón + dormitorios** (sin cocina ni baño). Un "3-Zimmer-Wohnung" suele ser un salón y dos dormitorios.
 
@@ -32,8 +32,8 @@ En los anuncios alemanes "3 Zimmer" cuenta **salón + dormitorios** (sin cocina 
 
 Cuando el adjetivo va detrás de *sein* (o de *finden*), **no cambia nunca**: ni género, ni número.
 
-- [[de:Die Wohnung ist groß.]] · [[de:Das Zimmer ist groß.]] · [[de:Die Zimmer sind groß.]]
-- [[de:Ich finde das Sofa sehr schön.]] (*finden* = parecer: "el sofá me parece muy bonito")
+- [[de:Die Wohnung ist groß.::El piso es grande.]] · [[de:Das Zimmer ist groß.::La habitación es grande.]] · [[de:Die Zimmer sind groß.::Las habitaciones son grandes.]]
+- [[de:Ich finde das Sofa sehr schön.::El sofá me parece muy bonito.]] (*finden* = parecer: "el sofá me parece muy bonito")
 
 | | | | |
 |---|---|---|---|
@@ -48,23 +48,23 @@ Cuando el adjetivo va detrás de *sein* (o de *finden*), **no cambia nunca**: ni
 
 Para matizar: **sehr** (muy) · **ziemlich** (bastante) · **zu** (demasiado) · **nicht so** (no muy):
 
-- [[de:Die Wohnung ist ziemlich klein, aber sehr hell.]]
-- [[de:Die Miete ist zu teuer!]]
+- [[de:Die Wohnung ist ziemlich klein, aber sehr hell.::El piso es bastante pequeño, pero muy luminoso.]]
+- [[de:Die Miete ist zu teuer!::¡El alquiler es demasiado caro!]]
 
 ### Los colores
 
 [[de:rot]] rojo · [[de:blau]] azul · [[de:grün]] verde · [[de:gelb]] amarillo · [[de:schwarz]] negro · [[de:weiß]] blanco · [[de:grau]] gris · [[de:braun]] marrón · [[de:orange]] naranja · [[de:rosa]] rosa
 
-- [[de:Das Sofa ist blau.]] · [[de:Welche Farbe hat der Tisch? – Er ist braun.]]
+- [[de:Das Sofa ist blau.::El sofá es azul.]] · [[de:Welche Farbe hat der Tisch? – Er ist braun.::¿De qué color es la mesa? – Es marrón.]]
 
 ## 4. *es gibt*: hay
 
 **es gibt** + acusativo = hay. Recuerda que en acusativo solo cambia el masculino (*einen, keinen*):
 
-- [[de:In der Wohnung gibt es einen Balkon.]]
-- [[de:Gibt es hier eine Waschmaschine?]]
-- [[de:Im Haus gibt es keinen Aufzug.]]
-- [[de:In Zürich gibt es viele Wohnungen, aber sie sind teuer.]]
+- [[de:In der Wohnung gibt es einen Balkon.::En el piso hay un balcón.]]
+- [[de:Gibt es hier eine Waschmaschine?::¿Hay lavadora aquí?]]
+- [[de:Im Haus gibt es keinen Aufzug.::En el edificio no hay ascensor.]]
+- [[de:In Zürich gibt es viele Wohnungen, aber sie sind teuer.::En Zúrich hay muchos pisos, pero son caros.]]
 
 *es gibt* no cambia en plural: *Es gibt zwei Bäder* (hay dos baños).
 
@@ -73,26 +73,26 @@ Para matizar: **sehr** (muy) · **ziemlich** (bastante) · **zu** (demasiado) ·
 Ya conoces **kein**. Ahora aprendes **nicht**. La regla básica:
 
 - **kein** niega un **sustantivo** que llevaría *ein* o que no lleva artículo:
-  - *Das ist ein Balkon.* → [[de:Das ist kein Balkon.]]
-  - *Wir haben Kinder.* → [[de:Wir haben keine Kinder.]]
+  - *Das ist ein Balkon.* → [[de:Das ist kein Balkon.::Esto no es un balcón.]]
+  - *Wir haben Kinder.* → [[de:Wir haben keine Kinder.::No tenemos hijos.]]
 - **nicht** niega **todo lo demás**: verbos, adjetivos, adverbios, nombres propios y sustantivos con *der/die/das* o con posesivo:
-  - [[de:Die Wohnung ist nicht groß.]]
-  - [[de:Ich wohne nicht in Zürich.]]
-  - [[de:Das ist nicht mein Zimmer.]]
-  - [[de:Ich komme heute nicht.]]
+  - [[de:Die Wohnung ist nicht groß.::El piso no es grande.]]
+  - [[de:Ich wohne nicht in Zürich.::No vivo en Zúrich.]]
+  - [[de:Das ist nicht mein Zimmer.::Esta no es mi habitación.]]
+  - [[de:Ich komme heute nicht.::Hoy no vengo.]]
 
 ### ¿Dónde va *nicht*?
 
-- Normalmente **al final** de la frase: [[de:Ich verstehe das nicht.]] · [[de:Sie kommt heute nicht.]]
-- Pero **delante** de un adjetivo, de un lugar o de la palabra concreta que niegas: [[de:Das Zimmer ist nicht hell.]] · [[de:Er wohnt nicht in Berlin.]]
+- Normalmente **al final** de la frase: [[de:Ich verstehe das nicht.::No lo entiendo.]] · [[de:Sie kommt heute nicht.::Ella no viene hoy.]]
+- Pero **delante** de un adjetivo, de un lugar o de la palabra concreta que niegas: [[de:Das Zimmer ist nicht hell.::La habitación no es luminosa.]] · [[de:Er wohnt nicht in Berlin.::No vive en Berlín.]]
 
 ### *doch*: sí (contra una pregunta negativa)
 
 Si alguien pregunta en negativo y la respuesta es **afirmativa**, no se dice *ja*, sino **doch**:
 
-- [[de:Hast du keinen Balkon? – Doch, ich habe einen Balkon!]] (sí que tengo)
-- [[de:Hast du keinen Balkon? – Nein, ich habe keinen.]] (no tengo)
-- [[de:Ist die Wohnung nicht teuer? – Doch, sehr!]]
+- [[de:Hast du keinen Balkon? – Doch, ich habe einen Balkon!::¿No tienes balcón? – ¡Sí, tengo balcón!]] (sí que tengo)
+- [[de:Hast du keinen Balkon? – Nein, ich habe keinen.::¿No tienes balcón? – No, no tengo.]] (no tengo)
+- [[de:Ist die Wohnung nicht teuer? – Doch, sehr!::¿No es caro el piso? – ¡Sí, mucho!]]
 
 ## 6. Anuncios de pisos
 
@@ -111,7 +111,7 @@ Los anuncios usan muchas abreviaturas:
 
 > **3 Zi., Kü., Bad, Balkon, 75 m², 2. OG, ruhig und hell. Miete 1450 Fr. + 200 Fr. NK. Ab sofort frei. Tel. 044 312 45 67**
 
-[[de:Die Wohnung hat drei Zimmer und einen Balkon. Sie ist ruhig und hell. Die Miete ist 1450 Franken plus Nebenkosten.]]
+[[de:Die Wohnung hat drei Zimmer und einen Balkon. Sie ist ruhig und hell. Die Miete ist 1450 Franken plus Nebenkosten.::El piso tiene tres habitaciones y un balcón. Es tranquilo y luminoso. El alquiler es de 1450 francos más gastos.]]
 
 ## 7. Errores típicos de hispanohablantes
 

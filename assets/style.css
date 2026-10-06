@@ -236,3 +236,10 @@ textarea { width: 100%; resize: vertical; }
 .flashcard .actions { justify-content: center; }
 
 @media (max-width: 480px) { .brand em { display: none; } .item .q .n { min-width: 1.4em; } }
+
+/* Frase alemana con su traducción debajo */
+.de.has-tr { display: inline-flex; flex-direction: column; vertical-align: top; margin: 2px 0; }
+.de .tr { color: var(--muted); font-size: .86em; font-style: italic; line-height: 1.35; padding-left: 1.45em; }
+blockquote .de.has-tr { display: flex; margin: 4px 0 8px; }
+li .de.has-tr + .de.has-tr, li .de.has-tr { margin-right: 4px; }
+blockquote .de.has-tr + br { display: none; }

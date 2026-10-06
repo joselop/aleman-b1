@@ -19,14 +19,14 @@ En este primer tema aprendes a saludar, despedirte y presentarte: decir cómo te
 
 Ojo: **Guten Abend** es para *saludar* por la noche; **Gute Nacht** solo para *despedirte* antes de dormir.
 
-> **Variantes regionales.** En Suiza oirás [[de:Grüezi!]] (formal) y *Sali* (informal); en Austria y el sur de Alemania [[de:Grüß Gott!]] y *Servus*; en el norte *Moin*. Entiéndelas, pero en el examen usa las formas estándar de la tabla.
+> **Variantes regionales.** En Suiza oirás [[de:Grüezi!::¡Buenos días! (Suiza)]] (formal) y *Sali* (informal); en Austria y el sur de Alemania [[de:Grüß Gott!::¡Buenos días! (Austria y sur de Alemania)]] y *Servus*; en el norte *Moin*. Entiéndelas, pero en el examen usa las formas estándar de la tabla.
 
 ### ¿Qué tal?
 
 - [[de:Wie geht es Ihnen?]] — ¿Cómo está usted? (formal)
 - [[de:Wie geht's?]] — ¿Qué tal? (informal)
-- Respuestas: [[de:Sehr gut, danke!]] · [[de:Gut, danke.]] · [[de:Es geht.]] (regular) · [[de:Nicht so gut.]]
-- Devolver la pregunta: [[de:Und Ihnen?]] (formal) · [[de:Und dir?]] (informal)
+- Respuestas: [[de:Sehr gut, danke!::¡Muy bien, gracias!]] · [[de:Gut, danke.::Bien, gracias.]] · [[de:Es geht.]] (regular) · [[de:Nicht so gut.::No muy bien.]]
+- Devolver la pregunta: [[de:Und Ihnen?::¿Y usted?]] (formal) · [[de:Und dir?::¿Y tú?]] (informal)
 
 ## 2. *du* o *Sie*
 
@@ -35,7 +35,7 @@ El alemán distingue, igual que el español, entre tú y usted, pero **se usa *S
 - **du** (tú): familia, amigos, niños, compañeros de clase, gente joven en contextos informales.
 - **Sie** (usted/ustedes): adultos que no conoces, en tiendas, oficinas, con profesores y en el trabajo (salvo que te ofrezcan el *du*).
 
-*Sie* de cortesía **siempre se escribe con mayúscula** y el verbo va en la misma forma que "ellos": [[de:Wie heißen Sie?]] — ¿Cómo se llama usted?
+*Sie* de cortesía **siempre se escribe con mayúscula** y el verbo va en la misma forma que "ellos": [[de:Wie heißen Sie?::¿Cómo se llama usted?]] — ¿Cómo se llama usted?
 
 En el examen A1, con el examinador usas *Sie*; con tu compañero de examen puedes usar *du*.
 
@@ -43,27 +43,27 @@ En el examen A1, con el examinador usas *Sie*; con tu compañero de examen puede
 
 | Pregunta formal | Pregunta informal | Respuesta |
 |---|---|---|
-| [[de:Wie heißen Sie?]] | [[de:Wie heißt du?]] | [[de:Ich heiße José.]] / [[de:Ich bin José.]] |
-| [[de:Wie ist Ihr Name?]] | [[de:Wie ist dein Name?]] | [[de:Mein Name ist López.]] |
-| [[de:Woher kommen Sie?]] | [[de:Woher kommst du?]] | [[de:Ich komme aus Spanien.]] |
-| [[de:Wo wohnen Sie?]] | [[de:Wo wohnst du?]] | [[de:Ich wohne in Zürich.]] |
-| [[de:Was machen Sie hier?]] | [[de:Was machst du hier?]] | [[de:Ich lerne Deutsch.]] / [[de:Ich arbeite hier.]] |
+| [[de:Wie heißen Sie?::¿Cómo se llama usted?]] | [[de:Wie heißt du?::¿Cómo te llamas?]] | [[de:Ich heiße José.::Me llamo José.]] / [[de:Ich bin José.::Soy José.]] |
+| [[de:Wie ist Ihr Name?::¿Cuál es su nombre?]] | [[de:Wie ist dein Name?::¿Cuál es tu nombre?]] | [[de:Mein Name ist López.::Mi apellido es López.]] |
+| [[de:Woher kommen Sie?::¿De dónde es usted?]] | [[de:Woher kommst du?::¿De dónde eres?]] | [[de:Ich komme aus Spanien.::Soy de España.]] |
+| [[de:Wo wohnen Sie?::¿Dónde vive usted?]] | [[de:Wo wohnst du?::¿Dónde vives?]] | [[de:Ich wohne in Zürich.::Vivo en Zúrich.]] |
+| [[de:Was machen Sie hier?::¿Qué hace usted aquí?]] | [[de:Was machst du hier?::¿Qué haces aquí?]] | [[de:Ich lerne Deutsch.::Aprendo alemán.]] / [[de:Ich arbeite hier.::Trabajo aquí.]] |
 
-Presentar a otra persona: [[de:Das ist Anna. Sie kommt aus Österreich.]] — y la respuesta típica: [[de:Freut mich!]] (¡Encantado/a!).
+Presentar a otra persona: [[de:Das ist Anna. Sie kommt aus Österreich.::Esta es Anna. Es de Austria.]] — y la respuesta típica: [[de:Freut mich!]] (¡Encantado/a!).
 
 Fíjate en las preposiciones, que no se traducen igual que en español:
 
 - **aus** = de (origen): *Ich komme **aus** Spanien.*
 - **in** = en (lugar donde vives): *Ich wohne **in** Zürich.*
-- Algunos países llevan artículo: [[de:Ich komme aus der Schweiz.]] (lo verás a fondo en el tema 2).
+- Algunos países llevan artículo: [[de:Ich komme aus der Schweiz.::Soy de Suiza.]] (lo verás a fondo en el tema 2).
 
 ### Un diálogo completo
 
-> [[de:Guten Tag! Ich heiße Martin Keller. Wie heißen Sie?]]
-> [[de:Guten Tag, Herr Keller. Mein Name ist Laura García.]]
-> [[de:Freut mich, Frau García. Woher kommen Sie?]]
-> [[de:Ich komme aus Spanien, aus Granada. Und Sie?]]
-> [[de:Ich komme aus Deutschland. Aber ich wohne jetzt in Zürich.]]
+> [[de:Guten Tag! Ich heiße Martin Keller. Wie heißen Sie?::¡Buenos días! Me llamo Martin Keller. ¿Cómo se llama usted?]]
+> [[de:Guten Tag, Herr Keller. Mein Name ist Laura García.::Buenos días, señor Keller. Me llamo Laura García.]]
+> [[de:Freut mich, Frau García. Woher kommen Sie?::Encantado, señora García. ¿De dónde es usted?]]
+> [[de:Ich komme aus Spanien, aus Granada. Und Sie?::Soy de España, de Granada. ¿Y usted?]]
+> [[de:Ich komme aus Deutschland. Aber ich wohne jetzt in Zürich.::Soy de Alemania. Pero ahora vivo en Zúrich.]]
 
 *Herr* = señor, *Frau* = señora (y también "mujer"). Se usan siempre con el **apellido**: *Herr Keller*, nunca *Herr Martin*.
 
@@ -89,25 +89,25 @@ En el examen oral te pueden pedir que deletrees tu nombre: [[de:Wie schreibt man
 
 Además: **Ä** (*a-umlaut*, suena como *e* abierta), **Ö** (*o-umlaut*: di *e* con los labios de *o*), **Ü** (*u-umlaut*: di *i* con los labios de *u*) y **ß** (*es-tset*, una *s* fuerte).
 
-Ejemplo: [[de:López: El, O, Pe, E, Zett.]]
+Ejemplo: [[de:López: El, O, Pe, E, Zett.::López: ele, o, pe, e, zeta.]]
 
 ### Pronunciación: lo que más cambia respecto al español
 
 | Escritura | Suena | Ejemplo |
 |---|---|---|
-| **ei** | *ai* | [[de:mein, heißen]] |
-| **ie** | *i* larga | [[de:Sie, wie]] |
-| **eu / äu** | *oi* | [[de:Deutsch, Freut mich]] |
-| **w** | *v* inglesa (labios y dientes) | [[de:wohnen, wer, wo]] |
-| **v** | normalmente *f* | [[de:Vorname]] |
-| **z** | *ts* | [[de:Zürich]] |
-| **sch** | *sh* | [[de:tschüss, Schweiz]] |
-| **ch** tras a/o/u | jota suave | [[de:acht, Nacht]] |
-| **ch** tras e/i | como un siseo suave | [[de:ich, nicht]] |
-| **h** tras vocal | muda: alarga la vocal | [[de:gehen, Wohnung]] |
-| **j** | *y* | [[de:ja]] |
-| **s** + vocal | *s* sonora (zumbido) | [[de:Sie, sehr]] |
-| **st / sp** al inicio | *sht / shp* | [[de:Stadt, Spanien]] |
+| **ei** | *ai* | [[de:mein, heißen::mi, llamarse]] |
+| **ie** | *i* larga | [[de:Sie, wie::usted, cómo]] |
+| **eu / äu** | *oi* | [[de:Deutsch, Freut mich::alemán, encantado]] |
+| **w** | *v* inglesa (labios y dientes) | [[de:wohnen, wer, wo::vivir, quién, dónde]] |
+| **v** | normalmente *f* | [[de:Vorname::nombre de pila]] |
+| **z** | *ts* | [[de:Zürich::Zúrich]] |
+| **sch** | *sh* | [[de:tschüss, Schweiz::adiós, Suiza]] |
+| **ch** tras a/o/u | jota suave | [[de:acht, Nacht::ocho, noche]] |
+| **ch** tras e/i | como un siseo suave | [[de:ich, nicht::yo, no]] |
+| **h** tras vocal | muda: alarga la vocal | [[de:gehen, Wohnung::ir, piso]] |
+| **j** | *y* | [[de:ja::sí]] |
+| **s** + vocal | *s* sonora (zumbido) | [[de:Sie, sehr::usted, muy]] |
+| **st / sp** al inicio | *sht / shp* | [[de:Stadt, Spanien::ciudad, España]] |
 
 ## 5. Los pronombres personales
 
@@ -138,7 +138,7 @@ Cuidado con **sie**: con minúscula puede ser *ella* o *ellos*; el verbo te lo a
 | ihr | **seid** |
 | sie / Sie | **sind** |
 
-- [[de:Ich bin José.]] — Soy José.
+- [[de:Ich bin José.::Soy José.]] — Soy José.
 - [[de:Sie ist Lehrerin.]] — Ella es profesora. (¡sin artículo "una"!)
 - [[de:Wir sind im Deutschkurs.]] — Estamos en el curso de alemán.
 - [[de:Wie alt bist du?]] — ¿Cuántos años tienes? (en alemán la edad se dice con *sein*)
@@ -192,11 +192,11 @@ Las preguntas abiertas empiezan con una palabra interrogativa que casi siempre e
 
 | Palabra | Significa | Ejemplo |
 |---|---|---|
-| **wer** | quién | [[de:Wer ist das?]] |
-| **wie** | cómo | [[de:Wie heißt du?]] |
-| **woher** | de dónde | [[de:Woher kommen Sie?]] |
-| **wo** | dónde | [[de:Wo wohnt Anna?]] |
-| **was** | qué | [[de:Was machst du hier?]] |
+| **wer** | quién | [[de:Wer ist das?::¿Quién es?]] |
+| **wie** | cómo | [[de:Wie heißt du?::¿Cómo te llamas?]] |
+| **woher** | de dónde | [[de:Woher kommen Sie?::¿De dónde es usted?]] |
+| **wo** | dónde | [[de:Wo wohnt Anna?::¿Dónde vive Anna?]] |
+| **was** | qué | [[de:Was machst du hier?::¿Qué haces aquí?]] |
 
 - Ojo con el falso amigo: **wer** = *quién* (no "dónde"); **wo** = *dónde*.
 - **woher** (de dónde, origen) se contesta con **aus**; **wo** (dónde, lugar) se contesta con **in**.
