@@ -1,0 +1,558 @@
+{
+  "id": "a2-t07",
+  "level": "a2",
+  "topic": "t07",
+  "title": "Viajes y transporte",
+  "title_de": "Reisen und Verkehr",
+  "goals": [
+    "Comprar billetes y preguntar por conexiones en la estación",
+    "Reservar alojamiento y resolver problemas de viaje",
+    "Usar aus, von, nach, in, zu, bei para woher, wohin y wo",
+    "Pedir con cortesía con hätte, könnte y würde",
+    "Entender avisos de megafonía en estaciones y aeropuertos"
+  ],
+  "vocab": [
+    { "de": "der Bahnhof", "pl": "die Bahnhöfe", "es": "la estación de tren", "cat": "Transporte", "ex": "Wir treffen uns am Bahnhof.", "ex_es": "Quedamos en la estación." },
+    { "de": "das Gleis", "pl": "die Gleise", "es": "la vía, el andén", "cat": "Transporte", "ex": "Der Zug fährt auf Gleis 4 ab.", "ex_es": "El tren sale de la vía 4." },
+    { "de": "die Fahrkarte", "pl": "die Fahrkarten", "es": "el billete", "cat": "Transporte", "ex": "Hast du schon eine Fahrkarte?", "ex_es": "¿Ya tienes billete?" },
+    { "de": "hin und zurück", "es": "ida y vuelta", "cat": "Transporte", "ex": "Einmal Bern hin und zurück, bitte.", "ex_es": "Un billete a Berna de ida y vuelta, por favor." },
+    { "de": "einfach", "es": "solo ida; sencillo", "cat": "Transporte", "ex": "Nur einfach, bitte.", "ex_es": "Solo ida, por favor." },
+    { "de": "die Verbindung", "pl": "die Verbindungen", "es": "la conexión (de transporte)", "cat": "Transporte", "ex": "Gibt es eine direkte Verbindung nach Genf?", "ex_es": "¿Hay una conexión directa a Ginebra?" },
+    { "de": "umsteigen", "es": "hacer transbordo", "cat": "Transporte", "forms": "er steigt um, ist umgestiegen", "ex": "Sie müssen in Olten umsteigen.", "ex_es": "Tiene que hacer transbordo en Olten." },
+    { "de": "abfahren", "es": "salir (un vehículo)", "cat": "Transporte", "forms": "er fährt ab, ist abgefahren", "ex": "Der Bus fährt in fünf Minuten ab.", "ex_es": "El autobús sale en cinco minutos." },
+    { "de": "ankommen", "es": "llegar", "cat": "Transporte", "forms": "er kommt an, ist angekommen", "ex": "Wann kommt der Zug in Basel an?", "ex_es": "¿Cuándo llega el tren a Basilea?" },
+    { "de": "die Abfahrt / die Ankunft", "es": "la salida / la llegada", "cat": "Transporte", "ex": "Abfahrt ist um 9 Uhr, Ankunft um 11 Uhr.", "ex_es": "La salida es a las 9, la llegada a las 11." },
+    { "de": "die Verspätung", "pl": "die Verspätungen", "es": "el retraso", "cat": "Transporte", "ex": "Der Zug hat 20 Minuten Verspätung.", "ex_es": "El tren lleva 20 minutos de retraso." },
+    { "de": "ausfallen", "es": "cancelarse, no circular", "cat": "Transporte", "forms": "er fällt aus, ist ausgefallen", "ex": "Der Zug um 8 Uhr fällt heute aus.", "ex_es": "El tren de las 8 hoy no circula." },
+    { "de": "der Anschluss", "pl": "die Anschlüsse", "es": "el enlace (transbordo)", "cat": "Transporte", "ex": "Ich habe meinen Anschluss verpasst.", "ex_es": "He perdido el enlace." },
+    { "de": "verpassen", "es": "perder (un tren, una cita)", "cat": "Transporte", "forms": "er verpasst, hat verpasst", "ex": "Beeil dich, sonst verpassen wir den Bus!", "ex_es": "¡Date prisa o perdemos el autobús!" },
+    { "de": "die Haltestelle", "pl": "die Haltestellen", "es": "la parada", "cat": "Transporte", "ex": "Die Haltestelle ist gleich um die Ecke.", "ex_es": "La parada está justo a la vuelta de la esquina." },
+    { "de": "die Straßenbahn / das Tram", "es": "el tranvía", "cat": "Transporte", "ex": "In Zürich nehme ich meistens das Tram.", "ex_es": "En Zúrich suelo coger el tranvía." },
+    { "de": "der Flughafen", "pl": "die Flughäfen", "es": "el aeropuerto", "cat": "Transporte", "ex": "Wie komme ich zum Flughafen?", "ex_es": "¿Cómo llego al aeropuerto?" },
+    { "de": "der Flug", "pl": "die Flüge", "es": "el vuelo", "cat": "Transporte", "ex": "Der Flug nach Madrid dauert zwei Stunden.", "ex_es": "El vuelo a Madrid dura dos horas." },
+    { "de": "der Koffer", "pl": "die Koffer", "es": "la maleta", "cat": "Viaje", "ex": "Mein Koffer ist zu schwer.", "ex_es": "Mi maleta pesa demasiado." },
+    { "de": "das Gepäck", "es": "el equipaje", "cat": "Viaje", "ex": "Wo kann ich mein Gepäck lassen?", "ex_es": "¿Dónde puedo dejar mi equipaje?" },
+    { "de": "der Ausweis / der Reisepass", "es": "el carné de identidad / el pasaporte", "cat": "Viaje", "ex": "Vergiss deinen Ausweis nicht!", "ex_es": "¡No te olvides el carné!" },
+    { "de": "die Unterkunft", "pl": "die Unterkünfte", "es": "el alojamiento", "cat": "Viaje", "ex": "Wir suchen eine günstige Unterkunft.", "ex_es": "Buscamos un alojamiento barato." },
+    { "de": "die Jugendherberge", "pl": "die Jugendherbergen", "es": "el albergue juvenil", "cat": "Viaje", "ex": "Die Jugendherberge liegt direkt am See.", "ex_es": "El albergue está justo al lado del lago." },
+    { "de": "das Einzelzimmer / das Doppelzimmer", "es": "la habitación individual / doble", "cat": "Viaje", "ex": "Ein Doppelzimmer kostet 120 Franken.", "ex_es": "Una habitación doble cuesta 120 francos." },
+    { "de": "buchen", "es": "reservar, contratar", "cat": "Viaje", "forms": "er bucht, hat gebucht", "ex": "Ich habe den Flug online gebucht.", "ex_es": "He reservado el vuelo por internet." },
+    { "de": "stornieren", "es": "anular (una reserva)", "cat": "Viaje", "forms": "er storniert, hat storniert", "ex": "Kann ich die Buchung kostenlos stornieren?", "ex_es": "¿Puedo anular la reserva gratis?" },
+    { "de": "inbegriffen", "es": "incluido", "cat": "Viaje", "ex": "Das Frühstück ist im Preis inbegriffen.", "ex_es": "El desayuno está incluido en el precio." },
+    { "de": "die Rezeption", "es": "la recepción", "cat": "Viaje", "ex": "Den Schlüssel bekommen Sie an der Rezeption.", "ex_es": "La llave la recibe en recepción." },
+    { "de": "der Urlaub", "pl": "die Urlaube", "es": "las vacaciones", "cat": "Viaje", "ex": "Wohin fahrt ihr in den Urlaub?", "ex_es": "¿Adónde os vais de vacaciones?" },
+    { "de": "die Sehenswürdigkeit", "pl": "die Sehenswürdigkeiten", "es": "el lugar de interés, el monumento", "cat": "Viaje", "ex": "Welche Sehenswürdigkeiten gibt es in Luzern?", "ex_es": "¿Qué lugares de interés hay en Lucerna?" },
+    { "de": "ich hätte gern", "es": "querría, me gustaría tener", "cat": "Cortesía", "ex": "Ich hätte gern ein Zimmer mit Balkon.", "ex_es": "Querría una habitación con balcón." },
+    { "de": "könnten Sie …?", "es": "¿podría usted…?", "cat": "Cortesía", "ex": "Könnten Sie mir den Weg zeigen?", "ex_es": "¿Podría indicarme el camino?" },
+    { "de": "ich würde gern …", "es": "me gustaría…", "cat": "Cortesía", "ex": "Ich würde gern im Sommer nach Island fahren.", "ex_es": "Me gustaría ir a Islandia en verano." },
+    { "de": "woher / wohin", "es": "de dónde / adónde", "cat": "Preguntas", "ex": "Woher kommst du und wohin fährst du?", "ex_es": "¿De dónde vienes y adónde vas?" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "En la estación",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["das Gleis", "el andén"],
+        ["umsteigen", "hacer transbordo"],
+        ["die Verspätung", "el retraso"],
+        ["ausfallen", "cancelarse"],
+        ["hin und zurück", "ida y vuelta"],
+        ["der Anschluss", "el enlace"],
+        ["die Unterkunft", "el alojamiento"],
+        ["stornieren", "anular una reserva"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Woher, wohin o wo?",
+      "instructions": "Elige la preposición correcta.",
+      "items": [
+        { "q": "Im Sommer fliegen wir ___ Portugal.", "options": ["nach", "in", "zu"], "answer": 0 },
+        { "q": "Ich muss heute ___ Arzt.", "options": ["zum", "nach dem", "im"], "answer": 0 },
+        { "q": "Marco kommt ___ Italien.", "options": ["aus", "von", "nach"], "answer": 0 },
+        { "q": "Wir fahren nächste Woche ___ Schweiz.", "options": ["in die", "nach", "zur"], "answer": 0, "explain": "die Schweiz lleva artículo: in die Schweiz." },
+        { "q": "Ich bin heute Abend ___ Hause.", "options": ["zu", "nach", "bei"], "answer": 0 },
+        { "q": "Nach der Arbeit gehe ich ___ Hause.", "options": ["nach", "zu", "in"], "answer": 0 },
+        { "q": "Sie wohnt ___ ihren Eltern.", "options": ["bei", "zu", "mit"], "answer": 0 },
+        { "q": "Er kommt gerade ___ Supermarkt.", "options": ["vom", "aus", "zum"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Preposiciones y artículos",
+      "instructions": "Completa con la preposición contraída o el artículo correcto (zum, zur, beim, vom, ins, im, aus der…).",
+      "items": [
+        { "text": "Wie komme ich [[zum]] Bahnhof? (der Bahnhof, ¿adónde?)" },
+        { "text": "Ich gehe jetzt [[zur]] Post. (die Post, ¿adónde?)" },
+        { "text": "Paula ist gerade [[beim]] Friseur. (der Friseur, ¿dónde?)" },
+        { "text": "Am Samstag gehen wir [[ins]] Museum. (das Museum, ¿adónde?)" },
+        { "text": "Mein Kollege kommt [[aus der]] Türkei. (die Türkei, ¿de dónde?)" },
+        { "text": "Wir haben drei Tage [[in den]] Bergen gewandert. (die Berge, ¿dónde?)" },
+        { "text": "Im August fahren wir [[ans]] Meer. (das Meer, ¿adónde?)" },
+        { "text": "Ich hole dich um sechs [[vom]] Flughafen ab. (der Flughafen, ¿de dónde?)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "hätte, könnte, würde",
+      "instructions": "Completa con la forma correcta del Konjunktiv II.",
+      "items": [
+        { "text": "Ich [[hätte]] gern eine Fahrkarte nach Genf." },
+        { "text": "[[Könnten]] Sie mir bitte helfen?" },
+        { "text": "Wir [[würden]] gern ein Doppelzimmer buchen." },
+        { "text": "[[Hättest]] du morgen Zeit?" },
+        { "text": "[[Würdest]] du bitte das Fenster aufmachen?" },
+        { "text": "[[Könnte]] ich mit Karte bezahlen?" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "write",
+      "title": "Más educado, por favor",
+      "instructions": "Reescribe la frase de forma educada. Usa la forma indicada entre paréntesis.",
+      "items": [
+        { "prompt": "Ich will eine Fahrkarte nach Bern. (hätte gern)", "answers": ["Ich hätte gern eine Fahrkarte nach Bern."] },
+        { "prompt": "Helfen Sie mir! (Könnten Sie … ?)", "answers": ["Könnten Sie mir helfen?", "Könnten Sie mir bitte helfen?"] },
+        { "prompt": "Ich will im Sommer nach Wien fahren. (würde gern)", "answers": ["Ich würde gern im Sommer nach Wien fahren.", "Im Sommer würde ich gern nach Wien fahren."] },
+        { "prompt": "Kann ich mit Karte bezahlen? (Könnte …)", "answers": ["Könnte ich mit Karte bezahlen?"] },
+        { "prompt": "Schließen Sie das Fenster! (Würden Sie … ?)", "answers": ["Würden Sie das Fenster schließen?", "Würden Sie bitte das Fenster schließen?"] }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        { "words": ["Ich", "würde", "gern", "nach", "Wien", "fahren", "."], "answers": ["Ich würde gern nach Wien fahren."] },
+        { "words": ["Sie", "müssen", "in", "Olten", "umsteigen", "."], "answers": ["Sie müssen in Olten umsteigen."] },
+        { "words": ["Der", "Zug", "fährt", "um", "acht", "Uhr", "ab", "."], "answers": ["Der Zug fährt um acht Uhr ab."] },
+        { "words": ["Könnten", "Sie", "mir", "bitte", "helfen", "?"], "answers": ["Könnten Sie mir bitte helfen?"] },
+        { "words": ["Ich", "habe", "meinen", "Anschluss", "verpasst", "."], "answers": ["Ich habe meinen Anschluss verpasst."] }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "Avisos y conversaciones",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [{ "v": "m2", "t": "Achtung auf Gleis fünf: Der Intercity nach Genf hat circa fünfzehn Minuten Verspätung." }],
+          "q": "¿Cuánto retraso tiene el tren?", "options": ["5 minutos", "15 minutos", "50 minutos"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Ich hätte gern eine Fahrkarte nach Luzern." },
+            { "v": "m1", "t": "Einfach oder hin und zurück?" },
+            { "v": "f1", "t": "Hin und zurück, bitte. Ich habe ein Halbtax." }
+          ],
+          "q": "¿Qué billete compra?", "options": ["Solo ida", "Ida y vuelta", "Un abono mensual"], "answer": 1
+        },
+        {
+          "audio": [{ "v": "f2", "t": "Liebe Fahrgäste, wegen Bauarbeiten fällt die S-Bahn nach Winterthur heute aus. Bitte nehmen Sie den Bus vor dem Bahnhof." }],
+          "q": "¿Cómo se va hoy a Winterthur?", "options": ["En tren de cercanías", "En autobús", "En tranvía"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Guten Abend, ich habe ein Zimmer reserviert. Mein Name ist Ruiz." },
+            { "v": "f1", "t": "Herzlich willkommen, Herr Ruiz. Ein Einzelzimmer für zwei Nächte, mit Frühstück. Sie haben Zimmer 214." }
+          ],
+          "q": "¿Cuántas noches se queda?", "options": ["Una", "Dos", "Tres"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Wohin fahrt ihr dieses Jahr in den Urlaub?" },
+            { "v": "m2", "t": "Wir würden gern ans Meer, aber das ist zu teuer. Also fahren wir in die Berge." }
+          ],
+          "q": "¿Adónde van de vacaciones?", "options": ["Al mar", "A la montaña", "A una ciudad"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich hätte gern eine Fahrkarte nach Bern." }], "answers": ["Ich hätte gern eine Fahrkarte nach Bern."] },
+        { "audio": [{ "v": "m1", "t": "Der Zug hat zehn Minuten Verspätung." }], "answers": ["Der Zug hat zehn Minuten Verspätung.", "Der Zug hat 10 Minuten Verspätung."] },
+        { "audio": [{ "v": "f2", "t": "Wir fahren in die Schweiz." }], "answers": ["Wir fahren in die Schweiz."] },
+        { "audio": [{ "v": "m2", "t": "Könnten Sie mir bitte helfen?" }], "answers": ["Könnten Sie mir bitte helfen?"] },
+        { "audio": [{ "v": "f1", "t": "Ich gehe jetzt zum Bahnhof." }], "answers": ["Ich gehe jetzt zum Bahnhof."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "mc",
+      "title": "Situaciones de viaje",
+      "instructions": "¿Qué dices en esta situación?",
+      "items": [
+        { "q": "Quieres saber si tienes que cambiar de tren.", "options": ["Muss ich umsteigen?", "Muss ich aussteigen?", "Muss ich einsteigen?"], "answer": 0 },
+        { "q": "Quieres saber si el desayuno está incluido.", "options": ["Ist das Frühstück inbegriffen?", "Ist das Frühstück ausverkauft?", "Ist das Frühstück ausgefallen?"], "answer": 0 },
+        { "q": "Has perdido el enlace.", "options": ["Ich habe meinen Anschluss verpasst.", "Ich habe meinen Anschluss gebucht.", "Ich habe meinen Anschluss storniert."], "answer": 0 },
+        { "q": "Quieres anular la reserva.", "options": ["Ich möchte meine Buchung stornieren.", "Ich möchte meine Buchung umsteigen.", "Ich möchte meine Buchung verpassen."], "answer": 0 },
+        { "q": "Preguntas a qué hora llega el tren a Basilea.", "options": ["Wann kommt der Zug in Basel an?", "Wann fährt der Zug in Basel ab?", "Wann fällt der Zug in Basel aus?"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Soy de España, pero vivo en Suiza.", "answers": ["Ich komme aus Spanien, aber ich wohne in der Schweiz.", "Ich komme aus Spanien, aber ich lebe in der Schweiz."] },
+        { "prompt": "Voy al médico.", "answers": ["Ich gehe zum Arzt."] },
+        { "prompt": "Querría una habitación doble.", "answers": ["Ich hätte gern ein Doppelzimmer."] },
+        { "prompt": "¿Podría ayudarme?", "answers": ["Könnten Sie mir helfen?", "Könnten Sie mir bitte helfen?"] },
+        { "prompt": "El tren tiene veinte minutos de retraso.", "answers": ["Der Zug hat zwanzig Minuten Verspätung.", "Der Zug hat 20 Minuten Verspätung."] },
+        { "prompt": "Esta noche estoy en casa.", "answers": ["Heute Abend bin ich zu Hause.", "Ich bin heute Abend zu Hause."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Mit dem Nachtzug durch Europa",
+          "text": "Fliegen ist schnell, aber nicht gut für das Klima. Deshalb fahren immer mehr Menschen mit dem Nachtzug. Seit einigen Jahren gibt es wieder viele Verbindungen: Von Zürich kommt man zum Beispiel direkt nach Berlin, Hamburg, Amsterdam, Wien oder Prag. Man steigt am Abend ein, schläft im Zug und ist am Morgen am Ziel. „Man spart eine Nacht im Hotel und kommt ausgeschlafen an“, sagt Lea Bühler (34), die jeden Monat beruflich nach Berlin fährt. Es gibt Sitzplätze, Liegewagen mit sechs Betten und Schlafwagen mit einer eigenen Dusche. Ein Bett im Liegewagen kostet ab 60 Franken. Der Nachteil: Die Züge sind oft schon Wochen vorher ausgebucht, besonders im Sommer. Man sollte also früh buchen.",
+          "questions": [
+            { "q": "Warum fahren mehr Leute mit dem Nachtzug?", "options": ["Er ist schneller als das Flugzeug.", "Er ist besser für das Klima.", "Er ist immer billig."], "answer": 1 },
+            { "q": "Wohin kommt man von Zürich direkt?", "options": ["nach Paris", "nach Wien", "nach Rom"], "answer": 1 },
+            { "q": "Was ist für Lea ein Vorteil?", "options": ["Sie braucht kein Hotel.", "Sie kann im Zug arbeiten.", "Sie fährt gratis."], "answer": 0 },
+            { "q": "Was gibt es im Schlafwagen?", "options": ["sechs Betten", "eine eigene Dusche", "ein Restaurant"], "answer": 1 },
+            { "q": "Was ist das Problem?", "options": ["Die Züge haben oft Verspätung.", "Die Züge sind oft früh ausgebucht.", "Die Betten sind unbequem."], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Die Schweiz mit dem Generalabonnement",
+          "text": "Viele Schweizerinnen und Schweizer haben kein Auto, aber ein GA – ein Generalabonnement. Mit dem GA kann man ein ganzes Jahr lang alle Züge, Busse, Trams und viele Schiffe im ganzen Land benutzen, so oft man will. Das GA ist nicht billig: In der zweiten Klasse kostet es für Erwachsene etwa 3900 Franken im Jahr. Für Menschen, die jeden Tag zur Arbeit pendeln, lohnt es sich aber schnell. Wer weniger fährt, kauft lieber ein Halbtax-Abo für 190 Franken. Damit bezahlt man für jede Fahrkarte nur den halben Preis. Touristen können einen „Swiss Travel Pass“ für drei, vier, acht oder fünfzehn Tage kaufen. Er gilt auch für viele Museen.",
+          "questions": [
+            { "q": "Was kann man mit dem GA machen?", "options": ["nur Zug fahren", "alle öffentlichen Verkehrsmittel benutzen", "ein Auto mieten"], "answer": 1 },
+            { "q": "Wie lange gilt das GA?", "options": ["einen Monat", "ein Jahr", "fünfzehn Tage"], "answer": 1 },
+            { "q": "Für wen lohnt sich das GA?", "options": ["für Touristen", "für Menschen, die täglich zur Arbeit fahren", "für Kinder"], "answer": 1 },
+            { "q": "Was bekommt man mit dem Halbtax?", "options": ["Fahrkarten zum halben Preis", "Gratisfahrten am Wochenende", "einen Sitzplatz in der ersten Klasse"], "answer": 0 },
+            { "q": "Was ist beim Swiss Travel Pass auch inbegriffen?", "options": ["Hotels", "viele Museen", "Restaurants"], "answer": 1 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Hauptbahnhof – Wegweiser",
+          "text": "Untergeschoss: Shopping · Apotheke · Supermarkt (täglich 6–22 Uhr) · Gepäckschließfächer\nErdgeschoss: Gleise 3–18 · Reisezentrum (Fahrkarten, Reservierungen, Informationen) · Fundbüro\n1. Stock: Restaurants und Cafés · Lounge für Geschäftsreisende\nGleise 41–44 (unterirdisch): S-Bahn zum Flughafen\nAusgang Nord: Taxi · Tram 4, 11, 13 · Fahrradparking\nAusgang Süd: Bus 31 · Autovermietung",
+          "questions": [
+            { "q": "Sie möchten Ihren Koffer für ein paar Stunden lassen.", "options": ["Untergeschoss", "Erdgeschoss", "1. Stock"], "answer": 0 },
+            { "q": "Sie haben im Zug Ihre Jacke vergessen.", "options": ["Untergeschoss", "Erdgeschoss", "Ausgang Süd"], "answer": 1 },
+            { "q": "Sie möchten zum Flughafen fahren.", "options": ["Gleise 3–18", "Gleise 41–44", "Ausgang Nord"], "answer": 1 },
+            { "q": "Sie möchten ein Auto mieten.", "options": ["Ausgang Nord", "Ausgang Süd", "1. Stock"], "answer": 1 },
+            { "q": "Sie möchten eine Platzreservierung für morgen machen.", "options": ["Erdgeschoss", "1. Stock", "Untergeschoss"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Hotel Seeblick – Informationen für Gäste",
+          "text": "Rezeption: 24 Stunden geöffnet\nFrühstück: Restaurant im Erdgeschoss, 7–10 Uhr (Wochenende bis 11 Uhr)\nCheck-out: bis 11 Uhr. Später? Fragen Sie an der Rezeption (20 Franken)\nWellness: Sauna und Pool im Untergeschoss, 15–21 Uhr\nFahrräder: kostenlos für Gäste, an der Rezeption fragen\nSchiff: Anlegestelle 200 m vom Hotel, Fahrkarten am Kiosk\nParkplatz: Tiefgarage, 15 Franken pro Nacht",
+          "questions": [
+            { "q": "Sie möchten am Sonntag um 10.30 Uhr frühstücken. Geht das?", "options": ["ja", "nein", "nur mit Reservierung"], "answer": 0 },
+            { "q": "Sie möchten bis 13 Uhr im Zimmer bleiben.", "options": ["Das ist kostenlos.", "Das kostet extra.", "Das ist nicht möglich."], "answer": 1 },
+            { "q": "Sie möchten eine Radtour machen. Was kostet ein Fahrrad?", "options": ["nichts", "15 Franken", "20 Franken"], "answer": 0 },
+            { "q": "Sie möchten um 22 Uhr in die Sauna.", "options": ["Das geht.", "Das geht nicht.", "Nur am Wochenende."], "answer": 1 },
+            { "q": "Wo kauft man Fahrkarten für das Schiff?", "options": ["an der Rezeption", "am Kiosk", "auf dem Schiff"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Liebe Carmen,\n\nviele Grüße aus Wien! Die Reise war ein kleines Abenteuer: Mein Zug in Zürich hatte eine Stunde Verspätung, deshalb habe ich in Salzburg den Anschluss verpasst. Ich musste drei Stunden auf den nächsten Zug warten. Aber in Salzburg habe ich einen netten Mann aus Argentinien kennengelernt, und wir haben zusammen die Altstadt angeschaut. So war das Warten gar nicht schlimm!\nIn Wien wohne ich in einer kleinen Pension in der Nähe vom Stephansdom. Das Zimmer ist einfach, aber sauber, und das Frühstück ist super. Morgen möchte ich ins Schloss Schönbrunn gehen und am Abend in die Oper – ich habe noch eine Karte bekommen!\nAm Sonntag fahre ich zurück. Hoffentlich ohne Verspätung!\n\nBis bald\nIsabel",
+          "questions": [
+            { "q": "Warum hat Isabel den Anschluss verpasst?", "options": ["Sie hat verschlafen.", "Ihr erster Zug hatte Verspätung.", "Der Zug ist ausgefallen."], "answer": 1 },
+            { "q": "Was hat Isabel in Salzburg gemacht?", "options": ["Sie hat die Altstadt besucht.", "Sie hat im Hotel geschlafen.", "Sie hat am Bahnhof gelesen."], "answer": 0 },
+            { "q": "Wo wohnt Isabel in Wien?", "options": ["in einem großen Hotel", "in einer Pension", "bei einem Freund"], "answer": 1 },
+            { "q": "Was macht Isabel morgen Abend?", "options": ["Sie geht in die Oper.", "Sie besucht das Schloss.", "Sie fährt zurück."], "answer": 0 },
+            { "q": "Wann fährt sie nach Hause?", "options": ["morgen", "am Samstag", "am Sonntag"], "answer": 2 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Sehr geehrte Frau Weber,\n\nvielen Dank für Ihre Buchung im Hotel Alpenrose in Grindelwald. Hier noch einmal Ihre Reservierung: ein Doppelzimmer mit Balkon und Blick auf die Berge, vom 14. bis 18. Juli (vier Nächte), mit Halbpension. Der Preis ist 180 Franken pro Nacht.\nSie kommen mit dem Zug? Vom Bahnhof Grindelwald sind es nur fünf Minuten zu Fuß. Wenn Sie viel Gepäck haben, holen wir Sie gern kostenlos ab. Rufen Sie uns einfach kurz vor Ihrer Ankunft an.\nSie können die Reservierung bis sieben Tage vor der Ankunft kostenlos stornieren.\nWir freuen uns auf Ihren Besuch!\n\nFreundliche Grüße\nThomas Kunz, Rezeption",
+          "questions": [
+            { "q": "Was für ein Zimmer hat Frau Weber gebucht?", "options": ["ein Einzelzimmer", "ein Doppelzimmer mit Balkon", "ein Zimmer ohne Frühstück"], "answer": 1 },
+            { "q": "Wie viele Nächte bleibt sie?", "options": ["vier", "fünf", "sieben"], "answer": 0 },
+            { "q": "Wie weit ist das Hotel vom Bahnhof?", "options": ["fünf Minuten mit dem Bus", "fünf Minuten zu Fuß", "fünfzehn Minuten zu Fuß"], "answer": 1 },
+            { "q": "Was bietet das Hotel an?", "options": ["einen Gratis-Abholservice", "ein Gratis-Abendessen", "ein Gratis-Zugticket"], "answer": 0 },
+            { "q": "Bis wann kann sie gratis stornieren?", "options": ["bis zum Ankunftstag", "bis eine Woche vor der Ankunft", "gar nicht"], "answer": 1 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Mitfahrzentrale: Fahrten von Zürich nach München jeden Freitag, nur 35 Franken." },
+            { "key": "b", "text": "Velo-Verleih am Bahnhof Luzern: E-Bikes ab 30 Franken pro Tag." },
+            { "key": "c", "text": "Jugendherberge Interlaken: Betten ab 40 Franken, Gemeinschaftsküche." },
+            { "key": "d", "text": "Schifffahrt auf dem Vierwaldstättersee: Rundfahrten mit Mittagessen an Bord." },
+            { "key": "e", "text": "Reisebüro Sonnenschein: Last-Minute-Flüge ans Meer, Spanien und Griechenland." },
+            { "key": "f", "text": "Bergbahnen Engelberg: Wintersaison – Skipass für Familien 20 % günstiger." }
+          ],
+          "items": [
+            { "situation": "Tom möchte mit wenig Geld am Wochenende nach Deutschland fahren.", "answer": "a" },
+            { "situation": "Lara und Pia sind Studentinnen und suchen eine günstige Unterkunft in den Bergen.", "answer": "c" },
+            { "situation": "Familie Rossi möchte im Februar Ski fahren.", "answer": "f" },
+            { "situation": "Herr Kaufmann möchte am Sonntag auf einem Schiff essen.", "answer": "d" },
+            { "situation": "Frau Blum sucht eine Busreise nach Paris.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Autovermietung CityCar: Kleinwagen ab 49 Franken pro Tag, auch am Flughafen." },
+            { "key": "b", "text": "Sprachreisen: Zwei Wochen Englisch in London, mit Gastfamilie." },
+            { "key": "c", "text": "Camping am See: Plätze für Zelte und Wohnmobile, Mai bis September." },
+            { "key": "d", "text": "Reiseversicherung: Wenn Sie krank werden, bekommen Sie Ihr Geld zurück." },
+            { "key": "e", "text": "Stadtführungen in Bern: Jeden Samstag um 14 Uhr, auch auf Spanisch." },
+            { "key": "f", "text": "Koffer-Reparatur: Räder, Griffe, Schlösser – schnell und günstig." }
+          ],
+          "items": [
+            { "situation": "Ihre Eltern aus Spanien besuchen Sie und möchten Bern kennenlernen.", "answer": "e" },
+            { "situation": "Am Flughafen ist ein Rad von Ihrem Koffer kaputtgegangen.", "answer": "f" },
+            { "situation": "Sie möchten im Sommer mit dem Zelt Urlaub machen.", "answer": "c" },
+            { "situation": "Sie möchten Ihr Englisch verbessern.", "answer": "b" },
+            { "situation": "Sie suchen ein günstiges Hotel in Genf.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Von welchem Gleis fährt der Zug nach Bern?", "options": ["Gleis 7", "Gleis 11", "Gleis 17"], "answer": 1,
+          "audio": [{ "v": "m2", "t": "Achtung, eine Gleisänderung: Der Intercity nach Bern fährt heute nicht auf Gleis sieben, sondern auf Gleis elf ab." }]
+        },
+        {
+          "q": "Was sollen die Passagiere machen?", "options": ["zum Ausgang B gehen", "zum Ausgang D gehen", "an der Information warten"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Information für die Passagiere des Fluges LX 2026 nach Madrid: Ihr Flug startet heute vom Ausgang D vierzehn. Bitte gehen Sie sofort zum Ausgang D." }]
+        },
+        {
+          "q": "Wann kommt Pablo an?", "options": ["um 18.10 Uhr", "um 18.40 Uhr", "um 19.10 Uhr"], "answer": 2,
+          "audio": [{ "v": "m1", "t": "Hallo Anna, hier ist Pablo. Mein Zug hat Verspätung, ich habe den Anschluss in Olten verpasst. Ich komme nicht um achtzehn Uhr zehn, sondern erst um neunzehn Uhr zehn. Holst du mich trotzdem ab? Danke!" }]
+        },
+        {
+          "q": "Wie kommt man heute zum Flughafen?", "options": ["mit der S-Bahn", "mit dem Bus", "mit dem Tram"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Liebe Fahrgäste, wegen einer Störung fahren heute keine S-Bahnen zum Flughafen. Bitte benutzen Sie die Ersatzbusse vor dem Hauptbahnhof." }]
+        },
+        {
+          "q": "Was muss Herr Müller mitbringen?", "options": ["seinen Pass", "seine Kreditkarte", "die Buchungsnummer"], "answer": 0,
+          "audio": [{ "v": "f2", "t": "Guten Tag Herr Müller, hier ist das Hotel Sonne in Lugano. Ihre Reservierung ist bestätigt. Bitte bringen Sie bei der Ankunft Ihren Pass mit. Bezahlen können Sie bar oder mit Karte." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Lukas und Sofia. Wie fahren ihre Freunde und Verwandten in den Urlaub?",
+          "options": ["mit dem Zug", "mit dem Flugzeug", "mit dem Auto", "mit dem Fahrrad", "mit dem Schiff", "mit dem Bus", "zu Fuß", "mit dem Wohnmobil"],
+          "audio": [
+            { "v": "m1", "t": "Sofia, wohin fahren eigentlich deine Eltern im Sommer?" },
+            { "v": "f1", "t": "Nach Sardinien. Sie fahren mit dem Schiff von Genua, das dauert die ganze Nacht. Mein Vater liebt Schiffe!" },
+            { "v": "m1", "t": "Und deine Schwester?" },
+            { "v": "f1", "t": "Sie fliegt mit ihrem Freund nach Island. Und du, Lukas?" },
+            { "v": "m1", "t": "Ich fahre mit dem Velo von Basel bis an die Nordsee, ganz am Rhein entlang!" },
+            { "v": "f1", "t": "Wow! Und deine Großeltern?" },
+            { "v": "m1", "t": "Die haben letztes Jahr ein Wohnmobil gekauft und fahren damit durch Skandinavien. Und mein Bruder macht eine Wanderung in den Alpen, drei Wochen lang, von Hütte zu Hütte." }
+          ],
+          "items": [
+            { "q": "Sofias Eltern", "answer": 4 },
+            { "q": "Sofias Schwester", "answer": 1 },
+            { "q": "Lukas", "answer": 3 },
+            { "q": "Lukas' Großeltern", "answer": 7 },
+            { "q": "Lukas' Bruder", "answer": 6 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch im Reisebüro. Wo ist die Familie Keller an welchem Tag?",
+          "options": ["Berlin", "Hamburg", "Dresden", "München", "Köln", "Leipzig", "Frankfurt", "Nürnberg"],
+          "audio": [
+            { "v": "f2", "t": "Also, Frau Keller, Ihre Reise durch Deutschland. Am Montag fliegen Sie nach Hamburg und bleiben dort eine Nacht." },
+            { "v": "f1", "t": "Gut. Und am Dienstag geht es weiter nach Berlin?" },
+            { "v": "f2", "t": "Genau, mit dem Zug. In Berlin bleiben Sie zwei Nächte, also Dienstag und Mittwoch. Am Donnerstag fahren Sie nach Dresden." },
+            { "v": "f1", "t": "Ist Leipzig nicht schöner?" },
+            { "v": "f2", "t": "Das ist auch möglich, aber das Hotel in Dresden ist schon gebucht. Am Freitag geht es dann nach Nürnberg, und am Samstag nach München. Von dort fliegen Sie am Sonntag nach Hause." }
+          ],
+          "items": [
+            { "q": "Montag", "answer": 1 },
+            { "q": "Mittwoch", "answer": 0 },
+            { "q": "Donnerstag", "answer": 2 },
+            { "q": "Freitag", "answer": 7 },
+            { "q": "Samstag", "answer": 3 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was kauft die Frau?", "options": ["eine Fahrkarte nur für die Hinfahrt", "eine Fahrkarte hin und zurück", "eine Tageskarte"], "answer": 2,
+          "audio": [
+            { "v": "f1", "t": "Ich möchte heute mehrmals mit dem Tram fahren. Was ist am günstigsten?" },
+            { "v": "m1", "t": "Dann nehmen Sie eine Tageskarte. Die kostet neun Franken und gilt bis morgen früh um fünf." },
+            { "v": "f1", "t": "Gut, die nehme ich." }
+          ]
+        },
+        {
+          "q": "Wo treffen sich die beiden?", "options": ["am Gleis", "am Kiosk", "im Café"], "answer": 1,
+          "audio": [
+            { "v": "m2", "t": "Wo warten wir aufeinander? Am Gleis?" },
+            { "v": "f2", "t": "Da ist immer so viel los. Treffen wir uns lieber am Kiosk neben dem Reisezentrum." }
+          ]
+        },
+        {
+          "q": "Was ist das Problem?", "options": ["Der Koffer ist kaputt.", "Der Koffer ist nicht angekommen.", "Der Koffer ist zu schwer."], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Guten Tag, ich komme aus Lissabon, aber mein Koffer ist nicht auf dem Band." },
+            { "v": "f1", "t": "Das tut mir leid. Füllen Sie bitte dieses Formular aus. Wir schicken Ihnen den Koffer nach Hause." }
+          ]
+        },
+        {
+          "q": "Wie fährt der Mann zur Arbeit?", "options": ["mit dem Auto", "mit dem Fahrrad", "mit dem Zug"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Fährst du immer noch mit dem Auto ins Büro?" },
+            { "v": "m2", "t": "Nein, seit dem Frühling nehme ich das Fahrrad. Das ist gesünder und ich stehe nie im Stau." }
+          ]
+        },
+        {
+          "q": "Was möchte der Gast?", "options": ["ein ruhigeres Zimmer", "ein größeres Zimmer", "ein Zimmer mit Balkon"], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Entschuldigung, mein Zimmer liegt direkt an der Straße. Ich kann nicht schlafen. Hätten Sie vielleicht ein ruhigeres Zimmer?" },
+            { "v": "f1", "t": "Einen Moment … Ja, Zimmer 305 auf der anderen Seite ist frei." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit dem Lokführer Daniel Frei.",
+          "audio": [
+            { "v": "f1", "t": "Herr Frei, Sie sind seit fünfzehn Jahren Lokführer. War das immer Ihr Traumberuf?" },
+            { "v": "m1", "t": "Ja, schon als Kind wollte ich Züge fahren. Mein Großvater war auch Lokführer." },
+            { "v": "f1", "t": "Welche Strecke fahren Sie am liebsten?" },
+            { "v": "m1", "t": "Die Strecke über den Gotthard, durch die Berge. Die Landschaft ist einfach wunderschön." },
+            { "v": "f1", "t": "Was ist schwierig an Ihrem Beruf?" },
+            { "v": "m1", "t": "Die Arbeitszeiten. Manchmal beginne ich um vier Uhr morgens, manchmal arbeite ich bis Mitternacht. Und am Wochenende muss ich oft arbeiten." },
+            { "v": "f1", "t": "Und was sagen Sie zu Verspätungen?" },
+            { "v": "m1", "t": "Die mag ich auch nicht! Aber meistens kann ich nichts dafür, zum Beispiel bei schlechtem Wetter oder bei Bauarbeiten." }
+          ],
+          "statements": [
+            { "s": "Daniel wollte schon als Kind Lokführer werden.", "answer": true },
+            { "s": "Sein Vater war auch Lokführer.", "answer": false },
+            { "s": "Er fährt am liebsten durch die Berge.", "answer": true },
+            { "s": "Er arbeitet nie am Wochenende.", "answer": false },
+            { "s": "Verspätungen sind meistens nicht seine Schuld.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit der Reisebloggerin Nora Abt.",
+          "audio": [
+            { "v": "m2", "t": "Nora, du reist seit drei Jahren um die Welt. Wie viele Länder hast du schon besucht?" },
+            { "v": "f2", "t": "Ungefähr vierzig. Am längsten war ich in Südamerika, fast ein Jahr." },
+            { "v": "m2", "t": "Wie reist du am liebsten?" },
+            { "v": "f2", "t": "Mit dem Bus oder mit dem Zug. Da lernt man die Menschen kennen. Ich fliege nur, wenn es nicht anders geht." },
+            { "v": "m2", "t": "Und wo schläfst du?" },
+            { "v": "f2", "t": "Meistens in Hostels, manchmal bei Familien. Hotels sind mir zu teuer." },
+            { "v": "m2", "t": "Was ist dein Tipp für unsere Hörer?" },
+            { "v": "f2", "t": "Nehmt nicht zu viel Gepäck mit! Ich reise nur mit einem Rucksack von zehn Kilo." }
+          ],
+          "statements": [
+            { "s": "Nora war fast ein Jahr in Südamerika.", "answer": true },
+            { "s": "Sie fliegt am liebsten.", "answer": false },
+            { "s": "Im Bus lernt sie gern Leute kennen.", "answer": true },
+            { "s": "Sie schläft meistens in Hotels.", "answer": false },
+            { "s": "Sie reist mit wenig Gepäck.", "answer": true }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Ihr Zug hat Verspätung. Schreiben Sie Ihrer Freundin Julia eine SMS. Sie wartet am Bahnhof auf Sie.",
+          "points": ["Entschuldigen Sie sich.", "Warum kommen Sie später?", "Wann kommen Sie an?"],
+          "register": "informal (du)",
+          "model": "Hallo Julia, tut mir leid! Mein Zug hat eine Stunde Verspätung, weil es einen Unfall gegeben hat. Ich habe den Anschluss in Bern verpasst. Ich komme erst um 19.30 Uhr an. Wartest du im Café am Bahnhof? José"
+        },
+        {
+          "task": "Sie sind im Urlaub. Schreiben Sie Ihrem Kollegen Marc eine Nachricht.",
+          "points": ["Wo sind Sie?", "Wie ist das Wetter / die Unterkunft?", "Was machen Sie morgen?"],
+          "register": "informal (du)",
+          "model": "Hallo Marc! Viele Grüße aus Lissabon! Das Wetter ist super, 28 Grad und Sonne. Unser Hotel ist klein, aber sehr schön und liegt direkt im Zentrum. Morgen fahren wir mit dem Zug nach Sintra und besuchen die Schlösser. Bis bald! Laura"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie möchten im Hotel Bergblick in Zermatt ein Zimmer reservieren. Schreiben Sie an das Hotel.",
+          "points": ["Wann und wie lange möchten Sie bleiben?", "Was für ein Zimmer brauchen Sie?", "Fragen Sie nach dem Preis und dem Frühstück."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich würde gern vom 3. bis 6. August ein Doppelzimmer bei Ihnen reservieren. Wir sind zwei Personen und hätten gern ein ruhiges Zimmer mit Blick auf die Berge. Könnten Sie mir bitte sagen, wie viel das Zimmer kostet und ob das Frühstück inbegriffen ist?\n\nMit freundlichen Grüßen\nJosé López"
+        },
+        {
+          "task": "Sie haben bei einem Reisebüro eine Reise gebucht, aber Sie können nicht fahren. Schreiben Sie an Herrn Graf.",
+          "points": ["Welche Reise?", "Warum können Sie nicht fahren?", "Fragen Sie, ob Sie das Geld zurückbekommen."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrter Herr Graf,\n\nich habe bei Ihnen eine Reise nach Rom vom 10. bis 14. Mai gebucht. Leider kann ich nicht fahren, weil meine Mutter krank ist und ich nach Spanien fliegen muss. Ich möchte die Reise stornieren. Könnten Sie mir bitte sagen, ob ich das Geld zurückbekomme?\n\nMit freundlichen Grüßen\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Reisen", "word": "Urlaub", "question": "Wohin fährst du dieses Jahr in den Urlaub?", "answer": "Ich fahre im August nach Portugal." },
+        { "theme": "Reisen", "word": "Zug", "question": "Fährst du gern mit dem Zug?", "answer": "Ja, sehr gern. Man kann lesen oder aus dem Fenster schauen." },
+        { "theme": "Reisen", "word": "Hotel", "question": "Wo übernachtest du im Urlaub am liebsten?", "answer": "Am liebsten in einer kleinen Ferienwohnung." },
+        { "theme": "Reisen", "word": "Arbeit", "question": "Wie kommst du zur Arbeit?", "answer": "Ich fahre mit dem Tram, das dauert zwanzig Minuten." },
+        { "theme": "Reisen", "word": "Gepäck", "question": "Was nimmst du immer mit, wenn du reist?", "answer": "Mein Handy, ein Buch und meine Kopfhörer." },
+        { "theme": "Reisen", "word": "Traum", "question": "Wohin würdest du gern einmal reisen?", "answer": "Ich würde gern einmal nach Japan reisen." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie war Ihre letzte Reise?",
+          "prompts": ["Wohin?", "Mit wem?", "Verkehrsmittel?", "Was haben Sie gemacht?"],
+          "model": [{ "v": "m1", "t": "Meine letzte Reise war im Mai. Ich bin mit meiner Partnerin nach Wien gefahren, mit dem Nachtzug von Zürich. Das war sehr praktisch, weil wir im Zug geschlafen haben. In Wien haben wir in einer kleinen Pension im Zentrum gewohnt. Wir haben das Schloss Schönbrunn besucht, viel Kaffee getrunken und Sachertorte gegessen. Am letzten Abend waren wir in einem Konzert. Ich würde gern noch einmal hinfahren." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie bewegen Sie sich im Alltag?",
+          "prompts": ["Zur Arbeit?", "Auto / öffentliche Verkehrsmittel?", "Fahrrad?", "Was ist in Ihrer Stadt gut / schlecht?"],
+          "model": [{ "v": "f1", "t": "Ich habe kein Auto. Zur Arbeit fahre ich mit dem Tram, das dauert ungefähr fünfzehn Minuten. Wenn das Wetter schön ist, nehme ich das Fahrrad. In meiner Stadt sind die öffentlichen Verkehrsmittel sehr gut: Die Trams kommen alle sieben Minuten und sie sind fast immer pünktlich. Nicht so gut ist der Preis, die Fahrkarten sind ziemlich teuer. Aber ich habe ein Monatsabo, das ist günstiger." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie möchten mit Ihrem Partner / Ihrer Partnerin am Wochenende einen Ausflug nach Luzern machen. Planen Sie: Wann fahren Sie? Wie fahren Sie? Was machen Sie dort?",
+          "mine": ["Samstag: bis 10 Uhr Deutschkurs", "Samstag Nachmittag: frei", "Sonntag: frei", "Ich habe ein Halbtax."],
+          "partner": ["Samstag: frei", "Samstag ab 18 Uhr: Geburtstag Schwester", "Sonntag: bis 12 Uhr Fußball", "Ich habe ein Auto."],
+          "model": [
+            { "v": "f1", "t": "Wann fahren wir nach Luzern? Am Samstag?" },
+            { "v": "m1", "t": "Samstagvormittag habe ich Deutschkurs, bis zehn. Danach hätte ich Zeit." },
+            { "v": "f1", "t": "Am Samstagabend hat meine Schwester Geburtstag. Wir könnten um elf losfahren und am Nachmittag zurückkommen." },
+            { "v": "m1", "t": "Das ist ein bisschen kurz. Und am Sonntag?" },
+            { "v": "f1", "t": "Sonntagvormittag spiele ich Fußball, aber ab eins bin ich frei. Ich könnte mit dem Auto fahren." },
+            { "v": "m1", "t": "Ich würde lieber den Zug nehmen, ich habe ein Halbtax. Und in Luzern gibt es wenig Parkplätze." },
+            { "v": "f1", "t": "Okay, dann fahren wir am Sonntag um eins mit dem Zug. Und dort machen wir eine Schifffahrt auf dem See?" },
+            { "v": "m1", "t": "Super Idee!" }
+          ]
+        },
+        {
+          "task": "Ein Freund aus Spanien besucht Sie. Sie möchten ihn zusammen mit Ihrem Partner / Ihrer Partnerin am Flughafen abholen. Planen Sie: Wer holt ihn ab? Wie? Was machen Sie danach?",
+          "mine": ["Ankunft Flug: Freitag 16.30 Uhr", "Freitag: bis 17 Uhr Arbeit", "Kein Auto"],
+          "partner": ["Freitag: frei ab 14 Uhr", "Hat ein Auto", "Freitag 19 Uhr: Yoga"],
+          "model": [
+            { "v": "m2", "t": "Der Flug von Pedro kommt am Freitag um halb fünf an. Ich arbeite bis fünf. Könntest du ihn abholen?" },
+            { "v": "f2", "t": "Ja, ab zwei Uhr habe ich frei. Ich nehme das Auto, dann ist der Koffer kein Problem." },
+            { "v": "m2", "t": "Super. Dann kommt ihr direkt zu mir ins Büro? Es liegt auf dem Weg." },
+            { "v": "f2", "t": "Gute Idee. Um sieben habe ich aber Yoga." },
+            { "v": "m2", "t": "Kein Problem. Dann bringst du uns nach Hause, und ich koche für Pedro." },
+            { "v": "f2", "t": "Perfekt, und morgen zeigen wir ihm zusammen die Stadt." }
+          ]
+        }
+      ]
+    }
+  }
+}

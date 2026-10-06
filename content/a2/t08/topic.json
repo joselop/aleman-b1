@@ -1,0 +1,563 @@
+{
+  "id": "a2-t08",
+  "level": "a2",
+  "topic": "t08",
+  "title": "Fiestas y relaciones",
+  "title_de": "Feste und Beziehungen",
+  "goals": [
+    "Invitar, aceptar y rechazar invitaciones; felicitar",
+    "Hablar de regalos, fiestas y de las personas de tu vida",
+    "Usar los verbos con dativo (helfen, gefallen, gratulieren…)",
+    "Usar los pronombres en dativo y los verbos con dos complementos",
+    "Formular preguntas indirectas con ob y con palabras W"
+  ],
+  "vocab": [
+    { "de": "das Fest", "pl": "die Feste", "es": "la fiesta, la celebración", "cat": "Fiestas", "ex": "Das Dorffest ist im August.", "ex_es": "La fiesta del pueblo es en agosto." },
+    { "de": "feiern", "es": "celebrar, festejar", "cat": "Fiestas", "forms": "er feiert, hat gefeiert", "ex": "Wir feiern bis Mitternacht.", "ex_es": "Celebramos hasta medianoche." },
+    { "de": "die Einladung", "pl": "die Einladungen", "es": "la invitación", "cat": "Fiestas", "ex": "Vielen Dank für die Einladung!", "ex_es": "¡Muchas gracias por la invitación!" },
+    { "de": "einladen", "es": "invitar", "cat": "Fiestas", "forms": "er lädt ein, hat eingeladen", "ex": "Ich lade euch zum Essen ein.", "ex_es": "Os invito a comer." },
+    { "de": "der Gast", "pl": "die Gäste", "es": "el invitado", "cat": "Fiestas", "ex": "Wir haben zwanzig Gäste.", "ex_es": "Tenemos veinte invitados." },
+    { "de": "das Geschenk", "pl": "die Geschenke", "es": "el regalo", "cat": "Fiestas", "ex": "Das Geschenk ist für dich.", "ex_es": "El regalo es para ti." },
+    { "de": "schenken", "es": "regalar", "cat": "Fiestas", "forms": "er schenkt, hat geschenkt", "ex": "Was schenkst du deiner Mutter?", "ex_es": "¿Qué le regalas a tu madre?" },
+    { "de": "gratulieren", "es": "felicitar (+ dativo)", "cat": "Fiestas", "forms": "er gratuliert, hat gratuliert", "ex": "Ich gratuliere dir zum Geburtstag!", "ex_es": "¡Te felicito por tu cumpleaños!" },
+    { "de": "der Glückwunsch", "pl": "die Glückwünsche", "es": "la felicitación", "cat": "Fiestas", "ex": "Herzlichen Glückwunsch!", "ex_es": "¡Muchas felicidades!" },
+    { "de": "die Hochzeit", "pl": "die Hochzeiten", "es": "la boda", "cat": "Fiestas", "ex": "Die Hochzeit ist in einer kleinen Kirche.", "ex_es": "La boda es en una pequeña iglesia." },
+    { "de": "Weihnachten", "es": "Navidad", "cat": "Fiestas", "ex": "An Weihnachten fahre ich nach Spanien.", "ex_es": "En Navidad voy a España." },
+    { "de": "Silvester", "es": "Nochevieja", "cat": "Fiestas", "ex": "An Silvester gibt es ein Feuerwerk.", "ex_es": "En Nochevieja hay fuegos artificiales." },
+    { "de": "Ostern", "es": "Semana Santa, Pascua", "cat": "Fiestas", "ex": "An Ostern suchen die Kinder Eier.", "ex_es": "En Pascua los niños buscan huevos." },
+    { "de": "das Feuerwerk", "es": "los fuegos artificiales", "cat": "Fiestas", "ex": "Am 1. August gibt es überall Feuerwerk.", "ex_es": "El 1 de agosto hay fuegos artificiales en todas partes." },
+    { "de": "anstoßen", "es": "brindar", "cat": "Fiestas", "forms": "er stößt an, hat angestoßen", "ex": "Lass uns auf das Brautpaar anstoßen!", "ex_es": "¡Brindemos por los novios!" },
+    { "de": "mitbringen", "es": "traer, llevar (consigo)", "cat": "Fiestas", "forms": "er bringt mit, hat mitgebracht", "ex": "Soll ich einen Salat mitbringen?", "ex_es": "¿Llevo una ensalada?" },
+    { "de": "der Freund / die Freundin", "es": "el amigo / la amiga; el novio / la novia", "cat": "Relaciones", "ex": "Das ist meine Freundin Laura.", "ex_es": "Esta es mi novia (o amiga) Laura." },
+    { "de": "der Partner / die Partnerin", "es": "la pareja", "cat": "Relaciones", "ex": "Mein Partner kommt aus Bern.", "ex_es": "Mi pareja es de Berna." },
+    { "de": "verheiratet / ledig / geschieden", "es": "casado / soltero / divorciado", "cat": "Relaciones", "ex": "Meine Schwester ist seit zwei Jahren verheiratet.", "ex_es": "Mi hermana lleva dos años casada." },
+    { "de": "sich verlieben (in)", "es": "enamorarse (de)", "cat": "Relaciones", "forms": "er verliebt sich, hat sich verliebt", "ex": "Sie hat sich in einen Schweizer verliebt.", "ex_es": "Se enamoró de un suizo." },
+    { "de": "sich streiten", "es": "discutir, pelearse", "cat": "Relaciones", "forms": "er streitet sich, hat sich gestritten", "ex": "Meine Kinder streiten sich oft.", "ex_es": "Mis hijos se pelean a menudo." },
+    { "de": "der Nachbar / die Nachbarin", "pl": "die Nachbarn", "es": "el vecino / la vecina", "cat": "Relaciones", "ex": "Unsere Nachbarn sind sehr nett.", "ex_es": "Nuestros vecinos son muy majos." },
+    { "de": "kennenlernen", "es": "conocer (a alguien)", "cat": "Relaciones", "forms": "er lernt kennen, hat kennengelernt", "ex": "Wir haben uns im Deutschkurs kennengelernt.", "ex_es": "Nos conocimos en el curso de alemán." },
+    { "de": "helfen", "es": "ayudar (+ dativo)", "cat": "Verbos con dativo", "forms": "er hilft, hat geholfen", "ex": "Kannst du mir helfen?", "ex_es": "¿Me puedes ayudar?" },
+    { "de": "danken", "es": "agradecer (+ dativo)", "cat": "Verbos con dativo", "forms": "er dankt, hat gedankt", "ex": "Ich danke Ihnen für Ihre Hilfe.", "ex_es": "Le agradezco su ayuda." },
+    { "de": "gefallen", "es": "gustar (+ dativo)", "cat": "Verbos con dativo", "forms": "es gefällt, hat gefallen", "ex": "Die Party hat mir sehr gefallen.", "ex_es": "La fiesta me gustó mucho." },
+    { "de": "gehören", "es": "pertenecer, ser de (+ dativo)", "cat": "Verbos con dativo", "forms": "es gehört, hat gehört", "ex": "Wem gehört das Handy?", "ex_es": "¿De quién es el móvil?" },
+    { "de": "schmecken", "es": "saber (bien), gustar la comida (+ dativo)", "cat": "Verbos con dativo", "forms": "es schmeckt, hat geschmeckt", "ex": "Hat es euch geschmeckt?", "ex_es": "¿Os ha gustado la comida?" },
+    { "de": "fehlen", "es": "faltar; echar de menos (+ dativo)", "cat": "Verbos con dativo", "forms": "er fehlt, hat gefehlt", "ex": "Meine Familie fehlt mir.", "ex_es": "Echo de menos a mi familia." },
+    { "de": "leihen", "es": "prestar", "cat": "Verbos con dativo", "forms": "er leiht, hat geliehen", "ex": "Kannst du mir dein Fahrrad leihen?", "ex_es": "¿Me prestas tu bici?" },
+    { "de": "ob", "es": "si (pregunta indirecta, verbo al final)", "cat": "Conectores", "ex": "Ich weiß nicht, ob er kommt.", "ex_es": "No sé si viene." },
+    { "de": "wem", "es": "a quién (dativo)", "cat": "Conectores", "ex": "Wem schenkst du die Blumen?", "ex_es": "¿A quién le regalas las flores?" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Fiestas y relaciones",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["die Einladung", "la invitación"],
+        ["schenken", "regalar"],
+        ["die Hochzeit", "la boda"],
+        ["Silvester", "Nochevieja"],
+        ["anstoßen", "brindar"],
+        ["der Nachbar", "el vecino"],
+        ["sich streiten", "discutir"],
+        ["fehlen", "echar de menos"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "Pronombres en dativo",
+      "instructions": "Completa con el pronombre en dativo (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen).",
+      "items": [
+        { "text": "Kannst du [[mir]] helfen? (ich)" },
+        { "text": "Wie geht es [[dir]]? (du)" },
+        { "text": "Paul hat Geburtstag. Ich gratuliere [[ihm]]. (er)" },
+        { "text": "Das Kleid gefällt [[ihr]] sehr. (sie, singular)" },
+        { "text": "Hat es [[euch]] geschmeckt? (ihr)" },
+        { "text": "Die Kinder sind traurig. Ich lese [[ihnen]] eine Geschichte vor. (sie, plural)" },
+        { "text": "Frau Berger, ich danke [[Ihnen]] für die Einladung. (Sie)" },
+        { "text": "Unsere Nachbarn helfen [[uns]] oft. (wir)" }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "mc",
+      "title": "¿Acusativo o dativo?",
+      "instructions": "Elige la forma correcta.",
+      "items": [
+        { "q": "Ich helfe ___ beim Umzug.", "options": ["dir", "dich"], "answer": 0 },
+        { "q": "Ich besuche ___ am Sonntag.", "options": ["dich", "dir"], "answer": 0 },
+        { "q": "Gehört das Auto ___?", "options": ["Ihnen", "Sie"], "answer": 0 },
+        { "q": "Ich rufe ___ morgen an.", "options": ["ihn", "ihm"], "answer": 0 },
+        { "q": "Der Film hat ___ nicht gefallen.", "options": ["mir", "mich"], "answer": 0 },
+        { "q": "Wir laden ___ zur Hochzeit ein.", "options": ["euch", "euer"], "answer": 0 },
+        { "q": "Ich gratuliere ___ Mutter zum Geburtstag.", "options": ["meiner", "meine"], "answer": 0 },
+        { "q": "Wir danken ___ Gästen.", "options": ["den", "die"], "answer": 0, "explain": "danken + dativo plural: den Gästen." }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "¿Qué le regalas?",
+      "instructions": "Completa con el artículo o posesivo en dativo.",
+      "items": [
+        { "text": "Ich schenke [[meinem]] Vater eine Uhr. (mein Vater)" },
+        { "text": "Sie schenkt [[ihrer]] Schwester Blumen. (ihre Schwester)" },
+        { "text": "Wir geben [[dem]] Kind ein Eis. (das Kind)" },
+        { "text": "Er zeigt [[den]] Gästen die Wohnung. (die Gäste)" },
+        { "text": "Ich schicke [[meinen]] Eltern ein Foto. (meine Eltern)" },
+        { "text": "Kannst du [[der]] Lehrerin die E-Mail schicken? (die Lehrerin)" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "order",
+      "title": "Dos complementos",
+      "instructions": "Ordena la frase. Recuerda: dativo antes que acusativo; pero si la cosa es un pronombre, va primero.",
+      "items": [
+        { "words": ["Ich", "schenke", "meiner", "Mutter", "einen", "Schal", "."], "answers": ["Ich schenke meiner Mutter einen Schal."] },
+        { "words": ["Ich", "schenke", "ihr", "einen", "Schal", "."], "answers": ["Ich schenke ihr einen Schal."] },
+        { "words": ["Ich", "schenke", "ihn", "meiner", "Mutter", "."], "answers": ["Ich schenke ihn meiner Mutter."] },
+        { "words": ["Kannst", "du", "mir", "dein", "Auto", "leihen", "?"], "answers": ["Kannst du mir dein Auto leihen?"] },
+        { "words": ["Er", "zeigt", "es", "uns", "."], "answers": ["Er zeigt es uns."] }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "write",
+      "title": "Preguntas indirectas",
+      "instructions": "Transforma la pregunta: empieza con «Weißt du, …».",
+      "items": [
+        { "prompt": "Kommt Anna zur Party?", "answers": ["Weißt du, ob Anna zur Party kommt?"] },
+        { "prompt": "Wann beginnt das Fest?", "answers": ["Weißt du, wann das Fest beginnt?"] },
+        { "prompt": "Hat Paul ein Geschenk gekauft?", "answers": ["Weißt du, ob Paul ein Geschenk gekauft hat?"] },
+        { "prompt": "Wo wohnt Lisa?", "answers": ["Weißt du, wo Lisa wohnt?"] },
+        { "prompt": "Ist das Restaurant am Sonntag offen?", "answers": ["Weißt du, ob das Restaurant am Sonntag offen ist?"] }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "mc",
+      "title": "¿ob, wenn o dass?",
+      "instructions": "Elige la palabra correcta.",
+      "items": [
+        { "q": "Ich weiß nicht, ___ ich am Samstag Zeit habe.", "options": ["ob", "wenn", "dass"], "answer": 0 },
+        { "q": "___ du Zeit hast, komm doch vorbei!", "options": ["Wenn", "Ob", "Dass"], "answer": 0 },
+        { "q": "Ich finde, ___ die Party super war.", "options": ["dass", "ob", "wenn"], "answer": 0 },
+        { "q": "Sie fragt, ___ wir mitkommen.", "options": ["ob", "dass", "wenn"], "answer": 0 },
+        { "q": "Ich hoffe, ___ es euch gefällt.", "options": ["dass", "ob", "wenn"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "Invitaciones y fiestas",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Ich mache am Samstag eine Party. Kommst du?" },
+            { "v": "m1", "t": "Gern! Soll ich etwas mitbringen?" },
+            { "v": "f1", "t": "Ja, vielleicht einen Salat. Getränke habe ich schon." }
+          ],
+          "q": "¿Qué tiene que llevar él?", "options": ["Bebidas", "Una ensalada", "Un pastel"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Was schenkst du deiner Schwester zum Geburtstag?" },
+            { "v": "f2", "t": "Ich weiß noch nicht. Vielleicht Karten für ein Konzert, sie liebt Musik." }
+          ],
+          "q": "¿Qué le quiere regalar a su hermana?", "options": ["Un disco", "Entradas para un concierto", "Un libro"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Wie war die Hochzeit von Marco und Julia?" },
+            { "v": "m1", "t": "Wunderschön! Das Essen hat mir super geschmeckt, und wir haben bis drei Uhr morgens getanzt." }
+          ],
+          "q": "¿Hasta qué hora bailaron?", "options": ["Hasta la 1", "Hasta las 3", "Hasta las 5"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Weißt du, ob Lena am Freitag kommt?" },
+            { "v": "f2", "t": "Nein, sie kann leider nicht. Ihre Mutter hat Geburtstag." }
+          ],
+          "q": "¿Por qué no va Lena?", "options": ["Está enferma", "Es el cumpleaños de su madre", "Tiene que trabajar"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Wem gehört die blaue Jacke hier?" },
+            { "v": "m1", "t": "Die gehört meinem Bruder. Er hat sie gestern vergessen." }
+          ],
+          "q": "¿De quién es la chaqueta?", "options": ["De él", "De su hermano", "De su padre"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Herzlichen Glückwunsch zum Geburtstag!" }], "answers": ["Herzlichen Glückwunsch zum Geburtstag!"] },
+        { "audio": [{ "v": "m1", "t": "Kannst du mir helfen?" }], "answers": ["Kannst du mir helfen?"] },
+        { "audio": [{ "v": "f2", "t": "Das Geschenk gefällt mir sehr." }], "answers": ["Das Geschenk gefällt mir sehr."] },
+        { "audio": [{ "v": "m2", "t": "Ich weiß nicht, ob er kommt." }], "answers": ["Ich weiß nicht, ob er kommt."] },
+        { "audio": [{ "v": "f1", "t": "Danke für die Einladung!" }], "answers": ["Danke für die Einladung!"] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Te ayudo.", "answers": ["Ich helfe dir."] },
+        { "prompt": "El pastel me sabe muy bien.", "answers": ["Der Kuchen schmeckt mir sehr gut.", "Der Kuchen schmeckt mir sehr."] },
+        { "prompt": "Echo de menos a mi familia.", "answers": ["Meine Familie fehlt mir.", "Ich vermisse meine Familie."] },
+        { "prompt": "Le regalo un libro a mi hermano.", "answers": ["Ich schenke meinem Bruder ein Buch."] },
+        { "prompt": "¿Sabes si viene Anna?", "answers": ["Weißt du, ob Anna kommt?"] },
+        { "prompt": "Gracias por la invitación.", "answers": ["Danke für die Einladung.", "Vielen Dank für die Einladung."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Schweizer feiern den 1. August",
+          "text": "Am 1. August feiert die Schweiz ihren Nationalfeiertag. Das Datum erinnert an das Jahr 1291: Damals haben drei Kantone zusammen einen Bund gegründet. Heute ist der 1. August in der ganzen Schweiz ein freier Tag. Viele Gemeinden organisieren ein Fest mit Musik, Reden und Essen. Typisch sind Bratwurst vom Grill und das „1.-August-Weggli“, ein kleines Brot mit einer Schweizer Fahne. Am Abend brennen auf vielen Bergen große Feuer, und um zehn Uhr beginnt das Feuerwerk. Viele Familien machen auch einen „Buurezmorge“: Sie frühstücken am Morgen auf einem Bauernhof mit Brot, Käse, Butter und Milch direkt vom Bauern. Kinder laufen am Abend mit Lampions durch die Straßen.",
+          "questions": [
+            { "q": "Was feiert man am 1. August?", "options": ["den Nationalfeiertag", "Silvester", "den Sommeranfang"], "answer": 0 },
+            { "q": "Was ist 1291 passiert?", "options": ["Die Schweiz hat einen Krieg gewonnen.", "Drei Kantone haben einen Bund gegründet.", "Man hat das erste Feuerwerk gemacht."], "answer": 1 },
+            { "q": "Was ist typisch zu essen?", "options": ["Fondue", "Bratwurst", "Schokolade"], "answer": 1 },
+            { "q": "Was gibt es am Abend auf den Bergen?", "options": ["Konzerte", "große Feuer", "Märkte"], "answer": 1 },
+            { "q": "Was ist ein „Buurezmorge“?", "options": ["ein Frühstück auf einem Bauernhof", "ein Fest für Kinder", "ein Brot mit Fahne"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Freundschaft im neuen Land",
+          "text": "Wer in ein neues Land zieht, findet oft schnell Arbeit, aber nicht so schnell Freunde. Das sagt eine Umfrage unter 2000 Expats in der Schweiz. Fast die Hälfte findet es schwierig, Schweizer Freunde zu finden. „Die Schweizer sind freundlich, aber sie brauchen Zeit“, sagt die Spanierin Elena Ruiz, die seit vier Jahren in Basel lebt. „Am Anfang hatte ich nur Freunde aus anderen Ländern.“ Ihr Tipp: Mitglied in einem Verein werden. Elena singt seit zwei Jahren in einem Chor. „Nach den Proben gehen wir zusammen etwas trinken. Heute sind zwei Frauen aus dem Chor meine besten Freundinnen.“ Auch Sprachkurse helfen, sagen viele in der Umfrage: Wer Deutsch oder Schweizerdeutsch spricht, kommt leichter in Kontakt.",
+          "questions": [
+            { "q": "Was ist für viele Expats schwierig?", "options": ["Arbeit finden", "Schweizer Freunde finden", "eine Wohnung finden"], "answer": 1 },
+            { "q": "Wie sind die Schweizer laut Elena?", "options": ["unfreundlich", "freundlich, aber langsam", "sehr offen"], "answer": 1 },
+            { "q": "Wen kannte Elena am Anfang?", "options": ["nur Schweizer", "nur Spanier", "Leute aus anderen Ländern"], "answer": 2 },
+            { "q": "Was macht Elena in ihrer Freizeit?", "options": ["Sie singt in einem Chor.", "Sie spielt Fußball.", "Sie gibt Spanischkurse."], "answer": 0 },
+            { "q": "Was hilft laut der Umfrage auch?", "options": ["die Sprache lernen", "viel reisen", "ein Auto haben"], "answer": 0 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Restaurant Krone – Feiern bei uns",
+          "text": "Saal „Rose“ (EG): bis 30 Personen · ideal für Geburtstage und Familienfeste\nSaal „Linde“ (1. Stock): bis 80 Personen · Bühne und Musikanlage · für Hochzeiten\nTerrasse: Mai bis September · bis 40 Personen · Grillbuffet möglich\nKinderzimmer: Spielecke mit Betreuung (Samstag und Sonntag)\nMenüs: ab 45 Franken pro Person · vegetarische Menüs auf Anfrage\nTorten: Bestellung mindestens 3 Tage vorher\nReservierung: Tel. 044 123 45 67 oder fest@krone.ch",
+          "questions": [
+            { "q": "Sie möchten Ihre Hochzeit mit 70 Gästen feiern.", "options": ["Saal Rose", "Saal Linde", "Terrasse"], "answer": 1 },
+            { "q": "Sie möchten im Juli draußen grillen.", "options": ["Saal Rose", "Terrasse", "Kinderzimmer"], "answer": 1 },
+            { "q": "Ihre Kinder sollen während des Essens spielen.", "options": ["Kinderzimmer", "Saal Linde", "Terrasse"], "answer": 0 },
+            { "q": "Sie möchten eine Geburtstagstorte bestellen. Wann?", "options": ["am selben Tag", "drei Tage vorher", "eine Woche vorher"], "answer": 1 },
+            { "q": "Ein Gast isst kein Fleisch.", "options": ["Das ist kein Problem.", "Das ist nicht möglich.", "Er muss selbst Essen mitbringen."], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Kaufhaus Globus – Wegweiser",
+          "text": "Erdgeschoss: Parfüm und Kosmetik · Schmuck und Uhren · Geschenkservice (Geschenke schön verpacken)\n1. Stock: Damenmode · Taschen\n2. Stock: Herrenmode · Sportartikel\n3. Stock: Kinder · Spielwaren · Bücher\n4. Stock: Haushalt · Geschirr · Partyartikel (Ballons, Dekoration)\nUntergeschoss: Delikatessen · Wein · Schokolade",
+          "questions": [
+            { "q": "Sie suchen Ballons für eine Geburtstagsparty.", "options": ["Erdgeschoss", "3. Stock", "4. Stock"], "answer": 2 },
+            { "q": "Sie möchten Ihrer Partnerin eine Halskette schenken.", "options": ["Erdgeschoss", "1. Stock", "Untergeschoss"], "answer": 0 },
+            { "q": "Sie suchen ein Spiel für Ihren Neffen.", "options": ["2. Stock", "3. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie möchten Ihren Gastgebern eine gute Flasche Wein mitbringen.", "options": ["Erdgeschoss", "4. Stock", "Untergeschoss"], "answer": 2 },
+            { "q": "Ihr Vater braucht neue Laufschuhe.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Liebe Freundinnen und Freunde,\n\nwir haben eine große Neuigkeit: Wir heiraten! Die Hochzeit ist am Samstag, den 14. Juni, um 14 Uhr in der kleinen Kirche in Rapperswil. Danach feiern wir im Restaurant Seerose direkt am See – mit Essen, Musik und hoffentlich viel Tanz!\nBitte sagt uns bis Ende April, ob ihr kommen könnt und ob ihr vegetarisch esst. Kinder sind natürlich herzlich willkommen.\nIhr fragt euch, was ihr uns schenken könnt? Wir haben schon alles für die Wohnung. Wir würden uns über einen Beitrag für unsere Hochzeitsreise nach Japan freuen.\nWir freuen uns sehr auf euch!\n\nAnna und David",
+          "questions": [
+            { "q": "Wo ist die Hochzeit?", "options": ["in einem Restaurant", "in einer Kirche", "am See"], "answer": 1 },
+            { "q": "Bis wann sollen die Gäste antworten?", "options": ["bis Ende April", "bis zum 14. Juni", "bis Ende Mai"], "answer": 0 },
+            { "q": "Was sollen die Gäste noch sagen?", "options": ["ob sie tanzen", "ob sie vegetarisch essen", "ob sie mit dem Auto kommen"], "answer": 1 },
+            { "q": "Dürfen Kinder mitkommen?", "options": ["ja", "nein", "nur bis 14 Uhr"], "answer": 0 },
+            { "q": "Was wünschen sich Anna und David?", "options": ["Sachen für die Wohnung", "Geld für die Reise", "Bücher über Japan"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Hallo Tobias,\n\ndanke für deine Nachricht! Natürlich helfe ich dir bei der Party für Lisa. Sie hat ja keine Ahnung, oder? Ich finde die Idee mit der Überraschung super.\nIch kann am Samstag um vier Uhr kommen und die Wohnung dekorieren. Ballons und Kerzen habe ich noch von meinem Geburtstag. Ich backe auch gern einen Kuchen – weißt du, ob Lisa lieber Schokolade oder Früchte mag?\nWer bringt Lisa um sieben in die Wohnung? Ich glaube, Sara ist eine gute Idee. Sie kann ihr sagen, dass ihr zusammen ins Kino geht.\nUnd das Geschenk: Ich gebe gern 30 Franken für die Massage.\n\nBis Samstag!\nMira",
+          "questions": [
+            { "q": "Was planen Tobias und Mira?", "options": ["eine Überraschungsparty", "einen Kinoabend", "eine Reise"], "answer": 0 },
+            { "q": "Was macht Mira am Samstag um vier?", "options": ["Sie kauft Ballons.", "Sie dekoriert die Wohnung.", "Sie holt Lisa ab."], "answer": 1 },
+            { "q": "Was möchte Mira wissen?", "options": ["welchen Kuchen Lisa mag", "wann Lisa kommt", "wie viele Gäste kommen"], "answer": 0 },
+            { "q": "Wer soll Lisa in die Wohnung bringen?", "options": ["Tobias", "Mira", "Sara"], "answer": 2 },
+            { "q": "Was bekommt Lisa als Geschenk?", "options": ["Kinokarten", "eine Massage", "einen Kuchen"], "answer": 1 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Partyservice Mamma Mia: Pizza und Pasta für Feste ab 10 Personen, wir liefern." },
+            { "key": "b", "text": "DJ Max: Musik für Hochzeiten und Geburtstage, alle Stile." },
+            { "key": "c", "text": "Zauberer Fabio: Zaubershow für Kindergeburtstage, 45 Minuten." },
+            { "key": "d", "text": "Fotostudio Licht: Hochzeitsfotos und Familienfotos, auch draußen." },
+            { "key": "e", "text": "Blumen Rosa: Sträuße und Dekoration für jedes Fest – Lieferung am selben Tag." },
+            { "key": "f", "text": "Vermietung: Festzelt, Tische und Bänke für Gartenfeste bis 100 Personen." }
+          ],
+          "items": [
+            { "situation": "Ihr Sohn wird sieben. Sie suchen ein Programm für die Kinder.", "answer": "c" },
+            { "situation": "Sie feiern ein großes Fest im Garten, aber Sie haben nicht genug Tische.", "answer": "f" },
+            { "situation": "Sie möchten Ihrer Mutter heute noch Blumen schicken.", "answer": "e" },
+            { "situation": "Sie möchten auf Ihrer Party tanzen.", "answer": "b" },
+            { "situation": "Sie suchen einen Raum für eine Party mit 50 Personen.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Stammtisch für Spanischsprechende: jeden Donnerstag im Café Central, alle willkommen." },
+            { "key": "b", "text": "Paartherapie und Beratung: Hilfe bei Problemen in der Beziehung." },
+            { "key": "c", "text": "Speed-Dating für Singles 30–45: Am Freitag im Hotel Schweizerhof." },
+            { "key": "d", "text": "Babysitter-Vermittlung: zuverlässige Babysitter für Ihre Abende zu zweit." },
+            { "key": "e", "text": "Nachbarschaftshilfe: Wir helfen älteren Menschen beim Einkaufen und im Haushalt." },
+            { "key": "f", "text": "Tandem-Partner gesucht: Ich spreche Deutsch und möchte Spanisch lernen." }
+          ],
+          "items": [
+            { "situation": "Ana und Tom möchten am Samstag allein essen gehen, aber sie haben zwei kleine Kinder.", "answer": "d" },
+            { "situation": "Carlos möchte Deutsch üben und kann Spanisch unterrichten.", "answer": "f" },
+            { "situation": "Herr Meier ist 85 und braucht Hilfe beim Einkaufen.", "answer": "e" },
+            { "situation": "Lucía ist neu in der Stadt und möchte Leute aus Lateinamerika kennenlernen.", "answer": "a" },
+            { "situation": "Sandra sucht einen Kochkurs für Paare.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Was soll Paul mitbringen?", "options": ["Getränke", "einen Kuchen", "Teller"], "answer": 2,
+          "audio": [{ "v": "f1", "t": "Hallo Paul, hier ist Sabine. Für das Grillfest morgen haben wir genug Getränke und Kuchen. Aber kannst du mir vielleicht noch ein paar Teller mitbringen? Wir haben nicht genug. Danke!" }]
+        },
+        {
+          "q": "Wann beginnt die Party?", "options": ["um 19 Uhr", "um 20 Uhr", "um 21 Uhr"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Hi Lara, hier ist Ben. Kleine Änderung: Die Party fängt nicht um sieben an, sondern erst um acht. Mein Bruder kommt später aus Bern. Bis dann!" }]
+        },
+        {
+          "q": "Was schenken die Kollegen Frau Huber?", "options": ["Blumen", "einen Gutschein", "eine Reise"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Liebe Kolleginnen und Kollegen, Frau Huber geht nächsten Monat in Pension. Wir möchten ihr einen Gutschein für ein Wellnesshotel schenken. Bitte gebt mir bis Freitag zwanzig Franken." }]
+        },
+        {
+          "q": "Wo ist das Fest?", "options": ["im Park", "im Gemeindesaal", "in der Schule"], "answer": 1,
+          "audio": [{ "v": "m2", "t": "Liebe Nachbarn, wegen des Regens findet unser Quartierfest am Samstag nicht im Park statt, sondern im Gemeindesaal neben der Kirche. Wir freuen uns auf euch!" }]
+        },
+        {
+          "q": "Was ist das Problem?", "options": ["Marta ist krank.", "Marta hat den Zug verpasst.", "Marta hat das Geschenk vergessen."], "answer": 0,
+          "audio": [{ "v": "f1", "t": "Hallo Julia, hier ist Marta. Es tut mir so leid, aber ich kann heute Abend nicht zu deiner Party kommen. Ich habe Fieber und liege im Bett. Ich wünsche dir einen tollen Abend! Mein Geschenk bringe ich dir nächste Woche." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Eva und Jonas. Was schenkt Eva wem zu Weihnachten?",
+          "options": ["ein Buch", "einen Schal", "Schokolade", "ein Parfüm", "einen Gutschein", "Konzertkarten", "ein Spiel", "eine Pflanze"],
+          "audio": [
+            { "v": "m1", "t": "Eva, hast du schon alle Weihnachtsgeschenke?" },
+            { "v": "f1", "t": "Fast. Meiner Mutter schenke ich einen warmen Schal, sie friert immer. Mein Vater liest so gern, er bekommt den neuen Roman von Martin Suter." },
+            { "v": "m1", "t": "Und deine Schwester?" },
+            { "v": "f1", "t": "Ihr schenke ich zwei Karten für ein Konzert von Adele. Dann können wir zusammen gehen!" },
+            { "v": "m1", "t": "Clever! Und deine Oma?" },
+            { "v": "f1", "t": "Oma hat schon alles. Sie bekommt Schweizer Schokolade, die mag sie sehr. Und meinem Neffen schenke ich ein Brettspiel." },
+            { "v": "m1", "t": "Und mir?" },
+            { "v": "f1", "t": "Das sage ich dir nicht!" }
+          ],
+          "items": [
+            { "q": "Mutter", "answer": 1 },
+            { "q": "Vater", "answer": 0 },
+            { "q": "Schwester", "answer": 5 },
+            { "q": "Oma", "answer": 2 },
+            { "q": "Neffe", "answer": 6 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch zwischen Tim und Laura. Sie bereiten eine Party vor. Wer macht was?",
+          "options": ["einkaufen", "kochen", "Musik organisieren", "dekorieren", "Getränke bringen", "Fotos machen", "aufräumen", "Einladungen schreiben"],
+          "audio": [
+            { "v": "f2", "t": "Tim, wir müssen die Party planen. Wer macht was?" },
+            { "v": "m2", "t": "Also, Max kennt viele DJs. Er kümmert sich um die Musik." },
+            { "v": "f2", "t": "Gut. Ich koche, das mache ich gern. Kannst du mit mir einkaufen gehen?" },
+            { "v": "m2", "t": "Nein, ich schreibe heute die Einladungen. Frag doch Sophie, sie hat ein Auto." },
+            { "v": "f2", "t": "Okay, Sophie geht einkaufen. Und Ben? Er hat eine tolle Kamera." },
+            { "v": "m2", "t": "Dann soll er Fotos machen. Und nach der Party räumen alle zusammen auf!" }
+          ],
+          "items": [
+            { "q": "Max", "answer": 2 },
+            { "q": "Laura", "answer": 1 },
+            { "q": "Tim", "answer": 7 },
+            { "q": "Sophie", "answer": 0 },
+            { "q": "Ben", "answer": 5 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was hat dem Mann an der Party nicht gefallen?", "options": ["das Essen", "die Musik", "die Leute"], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Wie hat dir die Party gefallen?" },
+            { "v": "m1", "t": "Das Essen war super und die Leute sehr nett. Aber die Musik war viel zu laut." }
+          ]
+        },
+        {
+          "q": "Was möchte die Frau wissen?", "options": ["ob Paul kommt", "wann die Party beginnt", "wo die Party ist"], "answer": 0,
+          "audio": [
+            { "v": "f2", "t": "Weißt du, ob Paul am Samstag auch kommt?" },
+            { "v": "m2", "t": "Ich glaube ja, aber erst später. Er arbeitet bis acht." }
+          ]
+        },
+        {
+          "q": "Wie haben sich die beiden kennengelernt?", "options": ["im Deutschkurs", "bei der Arbeit", "auf einer Party"], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Wo habt ihr euch eigentlich kennengelernt?" },
+            { "v": "f1", "t": "Im Deutschkurs vor fünf Jahren. Er saß neben mir und hat mir immer bei der Grammatik geholfen." }
+          ]
+        },
+        {
+          "q": "Was schenkt der Mann seiner Frau?", "options": ["Blumen", "ein Abendessen im Restaurant", "eine Reise"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Was schenkst du deiner Frau zum Hochzeitstag?" },
+            { "v": "m2", "t": "Ich lade sie in ein schönes Restaurant am See ein. Blumen bekommt sie jedes Jahr." }
+          ]
+        },
+        {
+          "q": "Warum ist die Frau traurig?", "options": ["Ihre Familie fehlt ihr.", "Sie hat Streit mit ihrem Freund.", "Sie hat kein Geschenk bekommen."], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Du siehst traurig aus. Was ist los?" },
+            { "v": "f1", "t": "Ach, an Weihnachten fehlt mir meine Familie in Mexiko immer sehr." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit Herrn und Frau Brunner. Sie sind seit fünfzig Jahren verheiratet.",
+          "audio": [
+            { "v": "f2", "t": "Herr und Frau Brunner, herzlichen Glückwunsch zur goldenen Hochzeit! Wie haben Sie sich kennengelernt?" },
+            { "v": "m1", "t": "Beim Tanzen! In einem kleinen Dorf im Emmental. Ich habe sie sofort gefragt, ob sie mit mir tanzt." },
+            { "v": "f1", "t": "Und ich habe nein gesagt! Erst beim dritten Mal habe ich ja gesagt." },
+            { "v": "f2", "t": "Was ist Ihr Geheimnis nach fünfzig Jahren?" },
+            { "v": "f1", "t": "Viel reden und viel lachen. Und jeder braucht auch Zeit für sich. Mein Mann geht jeden Mittwoch mit seinen Freunden wandern." },
+            { "v": "m1", "t": "Und sie spielt am Donnerstag Karten mit ihren Freundinnen." },
+            { "v": "f2", "t": "Wie feiern Sie heute?" },
+            { "v": "m1", "t": "Mit unseren drei Kindern und sieben Enkeln in einem Restaurant. Und am Abend tanzen wir natürlich!" }
+          ],
+          "statements": [
+            { "s": "Herr und Frau Brunner haben sich beim Tanzen kennengelernt.", "answer": true },
+            { "s": "Frau Brunner hat sofort ja gesagt.", "answer": false },
+            { "s": "Frau Brunner findet, dass jeder Zeit für sich braucht.", "answer": true },
+            { "s": "Herr Brunner spielt am Mittwoch Karten.", "answer": false },
+            { "s": "Sie haben sieben Enkel.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit Sandra Keller. Sie organisiert Hochzeiten.",
+          "audio": [
+            { "v": "m2", "t": "Frau Keller, Sie sind Hochzeitsplanerin. Was machen Sie genau?" },
+            { "v": "f2", "t": "Ich helfe Paaren, ihre Hochzeit zu planen: den Ort, das Essen, die Musik, die Blumen. Am Hochzeitstag bin ich auch dabei und kontrolliere alles." },
+            { "v": "m2", "t": "Wie viel kostet eine Hochzeit in der Schweiz?" },
+            { "v": "f2", "t": "Im Durchschnitt etwa 35 000 Franken. Das Teuerste ist meistens das Essen." },
+            { "v": "m2", "t": "Was ist im Moment Trend?" },
+            { "v": "f2", "t": "Kleine Hochzeiten mit dreißig oder vierzig Gästen, gern draußen, in den Bergen oder auf einem Bauernhof." },
+            { "v": "m2", "t": "Was war Ihre schönste Hochzeit?" },
+            { "v": "f2", "t": "Eine Hochzeit auf einem Schiff auf dem Genfersee. Leider hat es den ganzen Tag geregnet, aber alle haben getanzt und gelacht." }
+          ],
+          "statements": [
+            { "s": "Frau Keller ist am Hochzeitstag nicht dabei.", "answer": false },
+            { "s": "Eine Hochzeit kostet in der Schweiz im Durchschnitt 35 000 Franken.", "answer": true },
+            { "s": "Am teuersten sind meistens die Blumen.", "answer": false },
+            { "s": "Viele Paare möchten heute kleine Hochzeiten.", "answer": true },
+            { "s": "Bei ihrer schönsten Hochzeit war das Wetter super.", "answer": false }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Ihr Freund Mario hat Geburtstag. Sie können nicht zu seiner Party kommen. Schreiben Sie ihm eine SMS.",
+          "points": ["Gratulieren Sie.", "Warum können Sie nicht kommen?", "Machen Sie einen Vorschlag für ein anderes Treffen."],
+          "register": "informal (du)",
+          "model": "Lieber Mario, herzlichen Glückwunsch zum Geburtstag! Leider kann ich heute Abend nicht kommen, weil ich krank bin. Ich habe ein kleines Geschenk für dich. Wollen wir nächste Woche zusammen essen gehen? Ich lade dich ein! José"
+        },
+        {
+          "task": "Sie machen am Samstag ein Grillfest. Schreiben Sie Ihrer Nachbarin Frau Steiner eine Nachricht.",
+          "points": ["Laden Sie sie ein.", "Wann und wo?", "Bitten Sie sie um etwas (z. B. Stühle)."],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Steiner, am Samstag um 18 Uhr machen wir ein Grillfest im Garten. Wir würden uns freuen, wenn Sie auch kommen! Könnten Sie uns vielleicht vier Stühle leihen? Viele Grüße, Laura García (2. Stock)"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Ihre Kollegin Frau Lehmann hat Sie zu ihrer Hochzeit eingeladen. Antworten Sie ihr.",
+          "points": ["Bedanken Sie sich für die Einladung.", "Sagen Sie, dass Sie kommen.", "Fragen Sie nach einem Geschenkwunsch."],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Lehmann,\n\nvielen Dank für die Einladung zu Ihrer Hochzeit! Ich gratuliere Ihnen und Ihrem Partner ganz herzlich. Natürlich komme ich sehr gern, auch mit meinem Partner. Können Sie mir sagen, ob Sie einen Geschenkwunsch haben?\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Ihr Chef, Herr Wyss, hat Sie zum Sommerfest der Firma eingeladen. Sie können nicht kommen. Schreiben Sie ihm.",
+          "points": ["Bedanken Sie sich.", "Entschuldigen Sie sich und nennen Sie den Grund.", "Wünschen Sie ein schönes Fest."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrter Herr Wyss,\n\nvielen Dank für die Einladung zum Sommerfest. Leider kann ich nicht kommen, weil an diesem Wochenende meine Schwester in Madrid heiratet. Das tut mir sehr leid. Ich wünsche Ihnen und allen Kolleginnen und Kollegen ein schönes Fest!\n\nMit freundlichen Grüßen\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Feste und Beziehungen", "word": "Geburtstag", "question": "Wie feierst du deinen Geburtstag?", "answer": "Meistens mit einem Abendessen mit Freunden." },
+        { "theme": "Feste und Beziehungen", "word": "Geschenk", "question": "Was war dein schönstes Geschenk?", "answer": "Eine Reise nach Island von meinen Eltern." },
+        { "theme": "Feste und Beziehungen", "word": "Weihnachten", "question": "Wo feierst du Weihnachten?", "answer": "Bei meiner Familie in Spanien." },
+        { "theme": "Feste und Beziehungen", "word": "Freunde", "question": "Wo hast du deine besten Freunde kennengelernt?", "answer": "In der Schule und an der Universität." },
+        { "theme": "Feste und Beziehungen", "word": "Nachbarn", "question": "Kennst du deine Nachbarn?", "answer": "Ja, ein bisschen. Wir helfen uns manchmal." },
+        { "theme": "Feste und Beziehungen", "word": "Familie", "question": "Wer fehlt dir hier am meisten?", "answer": "Meine Mutter. Wir telefonieren jeden Sonntag." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Welches Fest feiern Sie am liebsten?",
+          "prompts": ["Welches Fest?", "Mit wem?", "Essen / Traditionen?", "Geschenke?"],
+          "model": [{ "v": "m1", "t": "Am liebsten feiere ich Weihnachten. Ich fahre jedes Jahr zu meiner Familie nach Spanien. Am 24. Dezember essen wir alle zusammen bei meinen Eltern, ungefähr fünfzehn Personen. Es gibt Fisch, Meeresfrüchte und als Dessert Turrón. Die Geschenke bekommen wir in Spanien traditionell erst am 6. Januar, am Dreikönigstag. Den Kindern gefällt das natürlich sehr! Hier in der Schweiz feiern alle schon am Heiligabend." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Erzählen Sie von einem guten Freund oder einer guten Freundin.",
+          "prompts": ["Wer?", "Seit wann kennen Sie sich?", "Was machen Sie zusammen?", "Warum ist er/sie wichtig für Sie?"],
+          "model": [{ "v": "f1", "t": "Meine beste Freundin heißt Marta. Wir kennen uns seit der Schule, also seit über zwanzig Jahren. Sie wohnt in Barcelona, ich in Zürich, aber wir telefonieren jede Woche. Wenn ich in Spanien bin, gehen wir zusammen essen oder an den Strand. Sie ist sehr wichtig für mich, weil sie mir immer hilft und mir ehrlich sagt, was sie denkt. Sie fehlt mir hier sehr." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Ihre Kollegin Petra hat nächste Woche Geburtstag. Sie und Ihr Partner / Ihre Partnerin möchten zusammen ein Geschenk kaufen. Planen Sie: Was schenken Sie? Wie viel kostet es? Wann kaufen Sie es?",
+          "mine": ["Petra mag Musik und Kochen", "Budget: max. 50 Franken", "Montag und Dienstag: keine Zeit", "Mittwoch: frei ab 17 Uhr"],
+          "partner": ["Petra liest gern und reist gern", "Budget: max. 40 Franken", "Montag: frei ab 18 Uhr", "Mittwoch: Elternabend"],
+          "model": [
+            { "v": "f1", "t": "Was schenken wir Petra? Sie kocht doch so gern. Vielleicht ein Kochbuch?" },
+            { "v": "m1", "t": "Gute Idee! Sie reist auch gern. Ein Kochbuch mit Rezepten aus Asien?" },
+            { "v": "f1", "t": "Perfekt. Wie viel möchtest du ausgeben? Ich könnte fünfzig Franken geben." },
+            { "v": "m1", "t": "Ich würde lieber nur vierzig Franken ausgeben. Zusammen sind das dann achtzig, das reicht. Dann kaufen wir noch Blumen dazu." },
+            { "v": "f1", "t": "Okay. Wann gehen wir einkaufen? Am Montag und Dienstag habe ich keine Zeit." },
+            { "v": "m1", "t": "Und am Mittwoch habe ich einen Elternabend. Weißt du, ob die Buchhandlung am Donnerstag lange offen hat?" },
+            { "v": "f1", "t": "Ja, bis acht Uhr. Dann gehen wir am Donnerstag nach der Arbeit." }
+          ]
+        },
+        {
+          "task": "Sie möchten mit Ihrem Partner / Ihrer Partnerin eine kleine Party für Ihren Deutschkurs organisieren. Planen Sie: Wann? Wo? Essen und Getränke?",
+          "mine": ["Freitag: frei ab 18 Uhr", "Samstag: Besuch von den Eltern", "Wohnung: klein (2 Zimmer)", "Ich koche gern."],
+          "partner": ["Freitag: frei", "Samstag: frei", "Großer Garten", "Ich habe keine Zeit zum Kochen."],
+          "model": [
+            { "v": "m2", "t": "Wann machen wir die Party? Am Samstag?" },
+            { "v": "f2", "t": "Da besuchen mich meine Eltern. Freitagabend würde mir besser passen." },
+            { "v": "m2", "t": "Freitag geht auch für mich. Und wo? Deine Wohnung ist zu klein für fünfzehn Leute, oder?" },
+            { "v": "f2", "t": "Ja, leider. Aber du hast doch einen großen Garten!" },
+            { "v": "m2", "t": "Stimmt, wir können im Garten feiern. Aber ich habe keine Zeit zum Kochen." },
+            { "v": "f2", "t": "Kein Problem, ich koche gern. Ich mache eine große Paella. Und jeder bringt ein Getränk mit." },
+            { "v": "m2", "t": "Super! Dann schreibe ich allen eine Einladung." }
+          ]
+        }
+      ]
+    }
+  }
+}

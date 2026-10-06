@@ -198,7 +198,7 @@
         },
         {
           "id": "t07",
-          "status": "planned",
+          "status": "ready",
           "title": "Viajes y transporte",
           "grammar": [
             "Preposiciones de lugar (aus, von, nach, in, zu)",
@@ -207,7 +207,7 @@
         },
         {
           "id": "t08",
-          "status": "planned",
+          "status": "ready",
           "title": "Fiestas y relaciones",
           "grammar": [
             "Verbos con dativo",
