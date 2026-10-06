@@ -359,7 +359,7 @@ async function route() {
   root.innerHTML = "";
   try {
     if (!parts.length) await viewHome(root);
-    else if (parts[0] === "repaso") await viewRepaso(root);
+    else if (parts[0] === "repaso") await viewRepaso(root, parts[1]);
     else if (parts[0] === "ajustes") viewAjustes(root);
     else if (parts.length === 1) await viewLevel(root, parts[0]);
     else if (parts[2] === "examen") await viewExam(root, parts[0], parts[1], parts[3] || "tema");
@@ -485,7 +485,8 @@ function renderVocab(body, topic) {
   body.append(
     h("div", { class: "card row" },
       h("p", {}, inSrs ? "Este vocabulario ya está en tu repaso diario." : "Añade estas palabras a tu repaso espaciado: te las preguntará en los días justos para no olvidarlas."),
-      inSrs ? h("a", { class: "btn", href: "#/repaso" }, "Ir al repaso") : h("button", { class: "btn", onclick: (e) => { srsAdd(topic); e.target.replaceWith(h("a", { class: "btn", href: "#/repaso" }, "Añadido · Ir al repaso")); updateRepasoBadge(); } }, "Añadir al repaso"))
+      inSrs ? h("a", { class: "btn", href: "#/repaso" }, "Ir al repaso") : h("button", { class: "btn", onclick: (e) => { srsAdd(topic); e.target.replaceWith(h("a", { class: "btn", href: "#/repaso" }, "Añadido · Ir al repaso")); updateRepasoBadge(); } }, "Añadir al repaso"),
+      " ", h("a", { class: "btn ghost", href: `#/repaso/${topic.id}` }, "Practicar este tema ahora"))
   );
   const cats = [...new Set(topic.vocab.map((v) => v.cat))];
   for (const cat of cats) {
@@ -1068,18 +1069,51 @@ ${text || "(vacío)"}
 }
 
 /* ------------------------------------------------------------------ repaso */
-async function viewRepaso(root) {
+async function viewRepaso(root, tid) {
+  if (tid) return viewPractica(root, tid);
   root.append(h("h1", {}, "Repaso de vocabulario"));
   const cards = await srsDue();
   const total = Object.keys(srsAll()).length;
   if (!total) {
-    root.append(h("div", { class: "card" }, h("p", {}, "Aún no has añadido vocabulario. Entra en un tema → Vocabulario → «Añadir al repaso»."), h("a", { class: "btn", href: "#/a1" }, "Ir a A1")));
-    return;
+    root.append(h("div", { class: "card" }, h("p", {}, "Aún no has añadido vocabulario al repaso diario. Entra en un tema → Vocabulario → «Añadir al repaso»."), h("a", { class: "btn", href: "#/a1" }, "Ir a A1")));
+  } else if (!cards.length) {
+    root.append(h("div", { class: "card" }, h("p", {}, `¡Repaso diario al día! Tienes ${total} palabras en el sistema; vuelve mañana. Mientras tanto, puedes practicar cualquier tema abajo.`)));
+  } else {
+    root.append(h("h2", {}, "Repaso diario"));
+    runFlashcards(root, cards, { srs: true });
   }
-  if (!cards.length) {
-    root.append(h("div", { class: "card" }, h("p", {}, `¡Todo al día! Tienes ${total} palabras en el sistema; vuelve mañana.`)));
-    return;
+  root.append(await practicaPicker());
+}
+
+// Práctica libre: repasar el vocabulario de un tema todas las veces que quieras, sin tocar el calendario del repaso diario.
+async function practicaPicker() {
+  const cur = await curriculum();
+  const sel = h("select", {});
+  for (const lvl of cur.levels) {
+    const ready = lvl.topics.filter((t) => t.status === "ready");
+    if (!ready.length) continue;
+    sel.append(h("optgroup", { label: lvl.id.toUpperCase() },
+      ready.map((t) => h("option", { value: `${lvl.id}-${t.id}` }, `${lvl.id.toUpperCase()} · Tema ${+t.id.slice(1)}: ${t.title}`))));
   }
+  const last = store.get("practicaLast", null);
+  if (last) sel.value = last;
+  return h("div", { class: "card" },
+    h("h2", {}, "Práctica libre por tema"),
+    h("p", { class: "muted" }, "Repasa todo el vocabulario de un tema las veces que quieras. No cambia el calendario del repaso diario."),
+    h("div", { class: "row" }, sel,
+      h("button", { class: "btn", type: "button", onclick: () => { store.set("practicaLast", sel.value); location.hash = `#/repaso/${sel.value}`; } }, "Practicar")));
+}
+
+async function viewPractica(root, tid) {
+  const [lvl, t] = tid.split("-");
+  const topic = await loadTopic(lvl, t);
+  root.append(h("p", {}, h("a", { href: "#/repaso" }, "← Repaso")),
+    h("h1", {}, `Práctica: ${topic.title}`));
+  const cards = topic.vocab.map((v) => ({ key: `${topic.id}|${v.de}`, v, topic }));
+  runFlashcards(root, shuffle(cards), { srs: false, again: () => { root.innerHTML = ""; viewPractica(root, tid); } });
+}
+
+function runFlashcards(root, cards, opts) {
   let dir = store.get("srsdir", "es-de");
   const stage = h("div", {});
   const dirSel = h("select", { onchange: (e) => { dir = e.target.value; store.set("srsdir", dir); show(); } },
@@ -1091,7 +1125,10 @@ async function viewRepaso(root) {
     stage.innerHTML = "";
     counter.textContent = `${Math.min(i + 1, cards.length)} / ${cards.length}`;
     if (i >= cards.length) {
-      stage.append(h("div", { class: "card" }, h("p", {}, "Sesión terminada. ¡Bien hecho!"), h("a", { class: "btn", href: "#/" }, "Inicio")));
+      stage.append(h("div", { class: "card" }, h("p", {}, "Sesión terminada. ¡Bien hecho!"),
+        h("div", { class: "actions" },
+          opts.again ? h("button", { class: "btn", type: "button", onclick: opts.again }, "Repetir este tema") : null,
+          h("a", { class: "btn ghost", href: "#/repaso" }, "Volver al repaso"))));
       updateRepasoBadge();
       return;
     }
@@ -1101,8 +1138,8 @@ async function viewRepaso(root) {
       h("div", { lang: "de", class: "fc-de" }, speakBtn([{ v: "f1", t: v.de }]), h("strong", {}, v.de), v.pl ? h("span", { class: "muted" }, ` · Pl. ${v.pl}`) : null),
       h("div", {}, v.es), v.ex ? h("div", { class: "muted", lang: "de" }, v.ex) : null,
       h("div", { class: "actions" },
-        h("button", { class: "btn ghost", type: "button", onclick: () => { srsGrade(key, false); cards.push(cards[i]); i++; show(); } }, "Otra vez"),
-        h("button", { class: "btn", type: "button", onclick: () => { srsGrade(key, true); i++; show(); } }, "Lo sabía")));
+        h("button", { class: "btn ghost", type: "button", onclick: () => { if (opts.srs) srsGrade(key, false); cards.push(cards[i]); i++; show(); } }, "Otra vez"),
+        h("button", { class: "btn", type: "button", onclick: () => { if (opts.srs) srsGrade(key, true); i++; show(); } }, "Lo sabía")));
     const reveal = h("button", { class: "btn", type: "button", onclick: () => { back.hidden = false; reveal.remove(); } }, "Mostrar respuesta");
     stage.append(h("div", { class: "card flashcard" }, front, reveal, back));
   }
