@@ -1,0 +1,565 @@
+{
+  "id": "a2-t05",
+  "level": "a2",
+  "topic": "t05",
+  "title": "Ropa y moda",
+  "title_de": "Kleidung und Mode",
+  "goals": [
+    "Describir ropa: materiales, estampados, tallas y estilo",
+    "Distinguir passen, stehen y gefallen",
+    "Declinar el adjetivo después de der, die, das (dieser, welcher)",
+    "Comparar con -er als, so … wie, y usar el superlativo am …-sten",
+    "Cambiar o devolver algo en una tienda"
+  ],
+  "vocab": [
+    { "de": "die Mode", "es": "la moda", "cat": "Moda", "ex": "Mode ist mir nicht so wichtig.", "ex_es": "La moda no me importa mucho." },
+    { "de": "der Stil", "pl": "die Stile", "es": "el estilo", "cat": "Moda", "ex": "Das ist nicht mein Stil.", "ex_es": "No es mi estilo." },
+    { "de": "modisch / modern", "es": "a la moda / moderno", "cat": "Moda", "ex": "Sie ist immer sehr modisch.", "ex_es": "Siempre va muy a la moda." },
+    { "de": "elegant", "es": "elegante", "cat": "Moda", "ex": "Im Anzug siehst du elegant aus.", "ex_es": "Con traje estás elegante." },
+    { "de": "sportlich", "es": "deportivo", "cat": "Moda", "ex": "Ich ziehe mich lieber sportlich an.", "ex_es": "Prefiero vestirme deportivo." },
+    { "de": "bequem", "es": "cómodo", "cat": "Moda", "ex": "Die Schuhe sind sehr bequem.", "ex_es": "Los zapatos son muy cómodos." },
+    { "de": "tragen", "es": "llevar puesto", "cat": "Moda", "forms": "er trägt, hat getragen", "ex": "Im Büro trägt er immer eine Krawatte.", "ex_es": "En la oficina siempre lleva corbata." },
+    { "de": "aussehen", "es": "parecer, tener aspecto", "cat": "Moda", "forms": "er sieht aus, hat ausgesehen", "ex": "Du siehst toll aus!", "ex_es": "¡Estás genial!" },
+    { "de": "stehen (+ Dat.)", "es": "favorecer, quedar bien", "cat": "Moda", "forms": "es steht, hat gestanden", "ex": "Die Farbe steht dir gut.", "ex_es": "El color te favorece." },
+    { "de": "der Anzug", "pl": "die Anzüge", "es": "el traje", "cat": "Prendas", "ex": "Für die Hochzeit kaufe ich einen Anzug.", "ex_es": "Para la boda me compro un traje." },
+    { "de": "die Krawatte", "pl": "die Krawatten", "es": "la corbata", "cat": "Prendas", "ex": "Die Krawatte passt zum Hemd.", "ex_es": "La corbata va con la camisa." },
+    { "de": "der Schal", "pl": "die Schals", "es": "la bufanda", "cat": "Prendas", "ex": "Im Winter trage ich einen Schal.", "ex_es": "En invierno llevo bufanda." },
+    { "de": "der Handschuh", "pl": "die Handschuhe", "es": "el guante", "cat": "Prendas", "ex": "Ich habe meine Handschuhe verloren.", "ex_es": "He perdido los guantes." },
+    { "de": "die Sonnenbrille", "pl": "die Sonnenbrillen", "es": "las gafas de sol", "cat": "Prendas", "ex": "Vergiss die Sonnenbrille nicht!", "ex_es": "¡No olvides las gafas de sol!" },
+    { "de": "der Gürtel", "pl": "die Gürtel", "es": "el cinturón", "cat": "Prendas", "ex": "Der Gürtel ist aus Leder.", "ex_es": "El cinturón es de cuero." },
+    { "de": "die Baumwolle", "es": "el algodón", "cat": "Materiales", "ex": "Das T-Shirt ist aus Baumwolle.", "ex_es": "La camiseta es de algodón." },
+    { "de": "die Wolle", "es": "la lana", "cat": "Materiales", "ex": "Ein Pullover aus Wolle ist warm.", "ex_es": "Un jersey de lana abriga." },
+    { "de": "das Leder", "es": "el cuero", "cat": "Materiales", "ex": "Die Tasche ist aus Leder.", "ex_es": "El bolso es de cuero." },
+    { "de": "gestreift", "es": "de rayas", "cat": "Materiales", "ex": "Er trägt ein gestreiftes Hemd.", "ex_es": "Lleva una camisa de rayas." },
+    { "de": "kariert", "es": "de cuadros", "cat": "Materiales", "ex": "Der Rock ist kariert.", "ex_es": "La falda es de cuadros." },
+    { "de": "einfarbig", "es": "liso, de un color", "cat": "Materiales", "ex": "Ich mag einfarbige Kleidung.", "ex_es": "Me gusta la ropa lisa." },
+    { "de": "hell / dunkel", "es": "claro / oscuro", "cat": "Materiales", "ex": "Haben Sie die Hose auch in Dunkelblau?", "ex_es": "¿Tiene el pantalón también en azul oscuro?" },
+    { "de": "umtauschen", "es": "cambiar (en una tienda)", "cat": "Tienda", "forms": "er tauscht um, hat umgetauscht", "ex": "Kann ich die Jacke umtauschen?", "ex_es": "¿Puedo cambiar la chaqueta?" },
+    { "de": "zurückgeben", "es": "devolver", "cat": "Tienda", "forms": "er gibt zurück, hat zurückgegeben", "ex": "Ich möchte die Schuhe zurückgeben.", "ex_es": "Quiero devolver los zapatos." },
+    { "de": "der Kassenbon", "pl": "die Kassenbons", "es": "el tique de compra", "cat": "Tienda", "ex": "Ohne Kassenbon kein Umtausch.", "ex_es": "Sin tique no hay cambio." },
+    { "de": "reklamieren", "es": "reclamar", "cat": "Tienda", "forms": "er reklamiert, hat reklamiert", "ex": "Ich möchte die Waschmaschine reklamieren.", "ex_es": "Quiero reclamar la lavadora." },
+    { "de": "das Loch", "pl": "die Löcher", "es": "el agujero", "cat": "Tienda", "ex": "Der Pullover hat ein Loch.", "ex_es": "El jersey tiene un agujero." },
+    { "de": "die Nummer", "pl": "die Nummern", "es": "la talla, el número", "cat": "Tienda", "ex": "Haben Sie die Schuhe eine Nummer kleiner?", "ex_es": "¿Tiene los zapatos un número menos?" },
+    { "de": "der Schlussverkauf", "es": "las rebajas", "cat": "Tienda", "ex": "Im Schlussverkauf ist alles billiger.", "ex_es": "En las rebajas todo es más barato." },
+    { "de": "bestellen", "es": "pedir, encargar", "cat": "Tienda", "forms": "er bestellt, hat bestellt", "ex": "Ich bestelle oft Kleidung im Internet.", "ex_es": "A menudo pido ropa por internet." },
+    { "de": "billiger / teurer", "es": "más barato / más caro", "cat": "Comparar", "ex": "Im Internet ist es billiger.", "ex_es": "En internet es más barato." },
+    { "de": "besser – am besten", "es": "mejor – lo mejor", "cat": "Comparar", "ex": "Welche Jacke gefällt dir am besten?", "ex_es": "¿Qué chaqueta te gusta más?" },
+    { "de": "mehr – am meisten", "es": "más – lo que más", "cat": "Comparar", "ex": "Frauen kaufen mehr Schuhe als Männer.", "ex_es": "Las mujeres compran más zapatos que los hombres." },
+    { "de": "als", "es": "que (en comparaciones)", "cat": "Comparar", "ex": "Der Mantel ist wärmer als die Jacke.", "ex_es": "El abrigo abriga más que la chaqueta." },
+    { "de": "so … wie", "es": "tan … como", "cat": "Comparar", "ex": "Der Rock ist so teuer wie das Kleid.", "ex_es": "La falda es tan cara como el vestido." },
+    { "de": "die Größe", "pl": "die Größen", "es": "la talla", "cat": "Comparar", "ex": "Welche Größe tragen Sie?", "ex_es": "¿Qué talla usa?" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Ropa y materiales",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["die Baumwolle", "el algodón"],
+        ["das Leder", "el cuero"],
+        ["gestreift", "de rayas"],
+        ["kariert", "de cuadros"],
+        ["umtauschen", "cambiar"],
+        ["der Kassenbon", "el tique"],
+        ["der Schal", "la bufanda"],
+        ["tragen", "llevar puesto"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "Adjetivo: -e o -en",
+      "instructions": "Escribe la terminación del adjetivo (solo la terminación: e o en).",
+      "items": [
+        { "text": "Der blau[[e]] Pullover ist schön. (nominativo)" },
+        { "text": "Ich nehme den blau[[en]] Pullover. (acusativo masculino)" },
+        { "text": "Die rot[[e]] Jacke kostet 80 Euro." },
+        { "text": "Wie findest du die rot[[e]] Jacke? (acusativo femenino)" },
+        { "text": "Das schwarz[[e]] Kleid gefällt mir." },
+        { "text": "Die neu[[en]] Schuhe sind bequem. (plural)" },
+        { "text": "Mit dem grün[[en]] Schal siehst du gut aus. (dativo)" },
+        { "text": "Ich kaufe das weiß[[e]] Hemd." }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "mc",
+      "title": "¿Qué forma es correcta?",
+      "instructions": "Elige el adjetivo con la terminación correcta.",
+      "items": [
+        { "q": "Welcher Mantel? – Der ___ Mantel.", "options": ["lange", "langen", "lang"], "answer": 0 },
+        { "q": "Ich trage heute den ___ Anzug.", "options": ["neue", "neuen", "neu"], "answer": 1 },
+        { "q": "Die Hose ist ___.", "options": ["kurze", "kurzen", "kurz"], "answer": 2, "explain": "Detrás del verbo el adjetivo no lleva terminación." },
+        { "q": "Gefallen dir die ___ Stiefel?", "options": ["braune", "braunen", "braun"], "answer": 1 },
+        { "q": "Ich gehe mit der ___ Tasche.", "options": ["kleine", "kleinen", "klein"], "answer": 1 },
+        { "q": "Dieses ___ Kleid ist teuer.", "options": ["elegante", "eleganten", "elegant"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "Comparativo",
+      "instructions": "Escribe el comparativo del adjetivo entre paréntesis.",
+      "items": [
+        { "text": "Die Jacke ist [[billiger]] als der Mantel. (billig)" },
+        { "text": "Im Winter ist es [[kälter]] als im Herbst. (kalt)" },
+        { "text": "Der Rock ist [[länger]] als das Kleid. (lang)" },
+        { "text": "Dieses Hemd gefällt mir [[besser]]. (gut)" },
+        { "text": "Das Kleid ist [[teurer]] als der Rock. (teuer)" },
+        { "text": "Ich trinke [[lieber]] Tee als Kaffee. (gern)" },
+        { "text": "Mein Bruder ist [[größer]] als ich. (groß)" },
+        { "text": "Sie kauft [[mehr]] Schuhe als ich. (viel)" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Superlativo",
+      "instructions": "Escribe el superlativo con am.",
+      "items": [
+        { "text": "Diese Schuhe sind [[am bequemsten]]. (bequem)" },
+        { "text": "Der Ledermantel ist [[am teuersten]]. (teuer)" },
+        { "text": "Welche Farbe gefällt dir [[am besten]]? (gut)" },
+        { "text": "[[Am liebsten]] trage ich Jeans. (gern)" },
+        { "text": "Im Januar ist es [[am kältesten]]. (kalt)" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "als o wie",
+      "instructions": "Elige als o wie.",
+      "items": [
+        { "q": "Die Jacke ist teurer ___ der Pullover.", "options": ["als", "wie"], "answer": 0 },
+        { "q": "Der Rock ist so schön ___ das Kleid.", "options": ["als", "wie"], "answer": 1 },
+        { "q": "Ich bin nicht so groß ___ mein Bruder.", "options": ["als", "wie"], "answer": 1 },
+        { "q": "Im Internet ist es billiger ___ im Geschäft.", "options": ["als", "wie"], "answer": 0 },
+        { "q": "Sie trägt lieber Röcke ___ Hosen.", "options": ["als", "wie"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "mc",
+      "title": "passen, stehen o gefallen",
+      "instructions": "Elige el verbo correcto.",
+      "items": [
+        { "q": "La talla es correcta: Die Hose ___ mir.", "options": ["passt", "steht", "gefällt"], "answer": 0 },
+        { "q": "El color te favorece: Die Farbe ___ dir gut.", "options": ["passt", "steht", "trägt"], "answer": 1 },
+        { "q": "Me gusta el estilo: Das Kleid ___ mir.", "options": ["gefällt", "steht", "passt"], "answer": 0 },
+        { "q": "Es demasiado pequeño: Die Schuhe ___ nicht.", "options": ["passen", "gefallen", "stehen"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "De compras",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Welche Jacke nimmst du? Die blaue oder die grüne?" },
+            { "v": "m1", "t": "Die grüne ist schöner, aber die blaue ist wärmer. Ich nehme die blaue." }
+          ],
+          "q": "¿Qué chaqueta se lleva?", "options": ["La verde", "La azul", "Ninguna"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Kann ich Ihnen helfen?" },
+            { "v": "f2", "t": "Ja, ich habe diesen Pullover gestern gekauft, aber er hat ein Loch. Ich möchte mein Geld zurück." }
+          ],
+          "q": "¿Qué problema tiene el jersey?", "options": ["Es pequeño", "Tiene un agujero", "No le gusta el color"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Das Kleid kostet neunzig Euro, der Rock nur fünfzig." },
+            { "v": "m1", "t": "Dann nimm doch den Rock. Er steht dir genauso gut wie das Kleid." }
+          ],
+          "q": "¿Qué le aconseja el hombre?", "options": ["El vestido", "La falda", "Los dos"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Haben Sie diese Schuhe eine Nummer größer?" },
+            { "v": "f2", "t": "In Schwarz leider nicht, nur noch in Braun." }
+          ],
+          "q": "¿De qué color hay zapatos un número más?", "options": ["Negro", "Marrón", "Blanco"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Was ziehst du zur Hochzeit an?" },
+            { "v": "m2", "t": "Meinen dunklen Anzug und das weiße Hemd. Und die rote Krawatte von dir!" }
+          ],
+          "q": "¿De qué color es la corbata?", "options": ["Blanca", "Oscura", "Roja"], "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena.",
+      "items": [
+        { "words": ["Die", "Jacke", "ist", "billiger", "als", "der", "Mantel", "."], "answers": ["Die Jacke ist billiger als der Mantel."] },
+        { "words": ["Ich", "nehme", "den", "schwarzen", "Pullover", "."], "answers": ["Ich nehme den schwarzen Pullover."] },
+        { "words": ["Die", "Farbe", "steht", "dir", "gut", "."], "answers": ["Die Farbe steht dir gut."] },
+        { "words": ["Am", "liebsten", "trage", "ich", "Jeans", "."], "answers": ["Am liebsten trage ich Jeans.", "Ich trage am liebsten Jeans."] },
+        { "words": ["Kann", "ich", "die", "Hose", "umtauschen", "?"], "answers": ["Kann ich die Hose umtauschen?"] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Me llevo el jersey azul.", "answers": ["Ich nehme den blauen Pullover."] },
+        { "prompt": "La chaqueta es más cara que el abrigo.", "answers": ["Die Jacke ist teurer als der Mantel."] },
+        { "prompt": "El color te queda bien.", "answers": ["Die Farbe steht dir gut.", "Die Farbe steht dir."] },
+        { "prompt": "¿Puedo cambiar los zapatos?", "answers": ["Kann ich die Schuhe umtauschen?"] },
+        { "prompt": "La falda es tan bonita como el vestido.", "answers": ["Der Rock ist so schön wie das Kleid."] },
+        { "prompt": "¿Qué chaqueta te gusta más?", "answers": ["Welche Jacke gefällt dir am besten?", "Welche Jacke gefällt dir besser?"] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Kleidung tauschen statt kaufen",
+          "text": "Jeden ersten Samstag im Monat ist im Gemeinschaftszentrum Wipkingen in Zürich etwas los: Kleidertausch! Jeder bringt bis zu zehn Kleidungsstücke mit, die er nicht mehr trägt – und nimmt andere mit nach Hause. Geld braucht man nicht. „Die Idee ist einfach“, sagt Organisatorin Lina Berger. „Viele Menschen haben volle Schränke, aber sie tragen nur einen kleinen Teil davon.“ Die Kleidung muss sauber und ganz sein, ohne Löcher. Besonders beliebt sind Jacken und Kinderkleidung. Was am Ende übrig bleibt, bekommt ein Secondhand-Laden für Menschen mit wenig Geld. Für Lina ist der Kleidertausch nicht nur gut für die Umwelt: „Man lernt auch nette Leute kennen und trinkt zusammen einen Kaffee.“",
+          "questions": [
+            { "q": "Wann ist der Kleidertausch?", "options": ["jeden Samstag", "jeden ersten Samstag im Monat", "einmal im Jahr"], "answer": 1 },
+            { "q": "Wie viele Kleidungsstücke darf man mitbringen?", "options": ["höchstens zehn", "genau zehn", "so viele man will"], "answer": 0 },
+            { "q": "Was kostet der Kleidertausch?", "options": ["zehn Franken", "nichts", "einen Kaffee"], "answer": 1 },
+            { "q": "Welche Kleidung darf man nicht bringen?", "options": ["Kinderkleidung", "Jacken", "kaputte Kleidung"], "answer": 2 },
+            { "q": "Was passiert mit der Kleidung am Ende?", "options": ["Sie kommt in den Müll.", "Sie geht an einen Secondhand-Laden.", "Lina nimmt sie mit."], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Online oder im Geschäft?",
+          "text": "Immer mehr Menschen kaufen ihre Kleidung im Internet. Nach einer neuen Umfrage bestellen 45 Prozent der Deutschen Mode online – vor fünf Jahren waren es nur 30 Prozent. Die Vorteile: Man kann jederzeit einkaufen, die Auswahl ist größer und oft sind die Preise niedriger als im Geschäft. Aber es gibt auch ein Problem: Fast die Hälfte der Kleidung geht wieder zurück, weil sie nicht passt oder nicht gefällt. Das ist teuer für die Firmen und schlecht für die Umwelt. Viele junge Leute machen es deshalb anders: Sie probieren die Kleidung im Geschäft an und bestellen sie dann billiger im Internet. Die Geschäfte in der Innenstadt finden das natürlich nicht gut.",
+          "questions": [
+            { "q": "Wie viele Deutsche kaufen Mode online?", "options": ["30 Prozent", "45 Prozent", "die Hälfte"], "answer": 1 },
+            { "q": "Was ist ein Vorteil vom Online-Shopping?", "options": ["Man kann die Kleidung anprobieren.", "Die Auswahl ist größer.", "Die Kleidung ist besser."], "answer": 1 },
+            { "q": "Warum schicken viele Leute Kleidung zurück?", "options": ["Sie ist kaputt.", "Sie passt nicht oder gefällt nicht.", "Sie ist zu teuer."], "answer": 1 },
+            { "q": "Was machen viele junge Leute?", "options": ["Sie kaufen nur im Geschäft.", "Sie probieren im Geschäft an und kaufen online.", "Sie kaufen keine neue Kleidung."], "answer": 1 },
+            { "q": "Was denken die Geschäfte darüber?", "options": ["Sie finden es gut.", "Sie finden es nicht gut.", "Das steht nicht im Text."], "answer": 1 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Kaufhaus Globus – Etagenplan",
+          "text": "Untergeschoss: Lebensmittel · Wein · Feinkost\nErdgeschoss: Kosmetik · Taschen · Schmuck · Sonnenbrillen\n1. Stock: Damenmode · Damenschuhe · Unterwäsche\n2. Stock: Herrenmode · Anzüge und Krawatten · Herrenschuhe\n3. Stock: Kindermode · Spielzeug · Sportbekleidung\n4. Stock: Haushalt · Bettwäsche · Restaurant mit Terrasse\nKundenservice und Umtausch: Erdgeschoss, neben dem Haupteingang",
+          "questions": [
+            { "q": "Sie brauchen einen Anzug für eine Hochzeit.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 1 },
+            { "q": "Sie möchten eine neue Sonnenbrille.", "options": ["Erdgeschoss", "1. Stock", "3. Stock"], "answer": 0 },
+            { "q": "Sie suchen eine Jacke zum Joggen.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 2 },
+            { "q": "Sie haben eine Hose gekauft und möchten sie umtauschen.", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 0 },
+            { "q": "Sie möchten nach dem Einkaufen etwas essen.", "options": ["Untergeschoss", "3. Stock", "4. Stock"], "answer": 2 }
+          ]
+        },
+        {
+          "title": "Einkaufszentrum Sihlcity – Geschäfte",
+          "text": "Ebene 0: Supermarkt · Apotheke · Schuhreparatur und Schlüsseldienst\nEbene 1: Mode für junge Leute (Jeans, T-Shirts, Sneakers) · Handyshop\nEbene 2: Elegante Mode · Brautmode · Schneiderei (Änderungen)\nEbene 3: Sport und Outdoor (Wanderschuhe, Skikleidung) · Buchhandlung\nEbene 4: Kino · Restaurants · Kinderspielplatz",
+          "questions": [
+            { "q": "Ihre Hose ist zu lang und soll kürzer werden.", "options": ["Ebene 0", "Ebene 2", "Ebene 3"], "answer": 1 },
+            { "q": "Sie brauchen Wanderschuhe.", "options": ["Ebene 1", "Ebene 2", "Ebene 3"], "answer": 2 },
+            { "q": "Ihre Lieblingsschuhe sind kaputt.", "options": ["Ebene 0", "Ebene 1", "Ebene 3"], "answer": 0 },
+            { "q": "Ihre Tochter (16) möchte neue Jeans.", "options": ["Ebene 1", "Ebene 2", "Ebene 4"], "answer": 0 },
+            { "q": "Sie heiraten und suchen ein Kleid.", "options": ["Ebene 1", "Ebene 2", "Ebene 3"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Hallo Svenja,\n\nich brauche deine Hilfe! Am Samstag ist die Hochzeit von meinem Bruder und ich habe nichts zum Anziehen. Gestern war ich im Einkaufszentrum und habe zwei Kleider anprobiert: ein langes, blaues Kleid und ein kurzes, rotes. Das blaue ist eleganter, aber es kostet 240 Euro – das ist mir zu teuer. Das rote ist billiger, aber ich weiß nicht, ob es zu einer Hochzeit passt. Du hast doch so einen guten Geschmack! Hast du morgen nach der Arbeit Zeit? Dann können wir zusammen hingehen. Ich lade dich danach auf eine Pizza ein.\n\nLiebe Grüße\nKatrin",
+          "questions": [
+            { "q": "Wer heiratet am Samstag?", "options": ["Katrin", "Svenja", "Katrins Bruder"], "answer": 2 },
+            { "q": "Welches Kleid ist teurer?", "options": ["das blaue", "das rote", "beide kosten gleich viel"], "answer": 0 },
+            { "q": "Was ist Katrins Problem mit dem roten Kleid?", "options": ["Es ist zu lang.", "Sie weiß nicht, ob es zur Hochzeit passt.", "Es passt ihr nicht."], "answer": 1 },
+            { "q": "Was möchte Katrin?", "options": ["Svenja soll mit ihr einkaufen gehen.", "Svenja soll ihr ein Kleid leihen.", "Svenja soll das Kleid bezahlen."], "answer": 0 },
+            { "q": "Was macht Katrin als Dankeschön?", "options": ["Sie kauft Svenja ein Kleid.", "Sie lädt Svenja zum Essen ein.", "Sie lädt Svenja zur Hochzeit ein."], "answer": 1 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Sehr geehrte Damen und Herren,\n\nam 3. März habe ich in Ihrem Online-Shop eine Winterjacke bestellt (Bestellnummer 48213), Größe L, Farbe Dunkelgrün. Gestern ist das Paket gekommen. Leider gibt es zwei Probleme: Die Jacke ist nicht grün, sondern grau, und der Reißverschluss ist kaputt. Ich schicke die Jacke heute zurück. Bitte senden Sie mir die richtige Jacke in Dunkelgrün. Wenn Sie diese Farbe nicht mehr haben, möchte ich mein Geld zurück. Die Rücksendung ist doch kostenlos, oder?\n\nMit freundlichen Grüßen\nMarco Rossi",
+          "questions": [
+            { "q": "Was hat Herr Rossi bestellt?", "options": ["eine Winterjacke", "einen Mantel", "eine Hose"], "answer": 0 },
+            { "q": "Welche Farbe hat die Jacke, die gekommen ist?", "options": ["dunkelgrün", "grau", "schwarz"], "answer": 1 },
+            { "q": "Was ist kaputt?", "options": ["die Tasche", "der Reißverschluss", "der Kragen"], "answer": 1 },
+            { "q": "Was möchte Herr Rossi zuerst?", "options": ["sein Geld zurück", "die richtige Jacke", "eine andere Größe"], "answer": 1 },
+            { "q": "Was fragt Herr Rossi am Ende?", "options": ["ob die Rücksendung kostenlos ist", "wann die Jacke kommt", "ob es die Jacke in Größe M gibt"], "answer": 0 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Secondhand-Laden Kleiderkiste: Markenkleidung zu kleinen Preisen." },
+            { "key": "b", "text": "Schneiderei Nadel & Faden: Änderungen in 24 Stunden – Hosen kürzen ab 15 Fr." },
+            { "key": "c", "text": "Brautmode Bella: Hochzeitskleider und Anzüge, Termin nach Vereinbarung." },
+            { "key": "d", "text": "Outdoor-Shop Gipfel: Regenjacken, Wanderschuhe, Skikleidung – Ausverkauf!" },
+            { "key": "e", "text": "Reinigung Express: Ihre Anzüge und Kleider sauber in 2 Stunden." },
+            { "key": "f", "text": "Nähkurs für Anfänger: Nähen Sie Ihr erstes T-Shirt selbst! 4 Abende." }
+          ],
+          "items": [
+            { "situation": "Lena möchte lernen, selbst Kleidung zu machen.", "answer": "f" },
+            { "situation": "Herr Marti hat Rotwein auf seinen Anzug geschüttet und braucht ihn heute Abend.", "answer": "e" },
+            { "situation": "Tim macht nächsten Monat eine Bergtour und braucht eine Regenjacke.", "answer": "d" },
+            { "situation": "Sara hat wenig Geld, möchte aber schöne Kleidung kaufen.", "answer": "a" },
+            { "situation": "Frau Kühn sucht ein Geschäft für Kinderschuhe.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Stilberatung: Welche Farben stehen Ihnen? Persönliche Beratung, 1 Stunde 90 Fr." },
+            { "key": "b", "text": "Schuhgeschäft Größe+: Schuhe in großen Größen (bis 50)." },
+            { "key": "c", "text": "Kleiderbörse: Wir kaufen Ihre gut erhaltene Kleidung an." },
+            { "key": "d", "text": "Kostümverleih Maskerade: Kostüme für Fasnacht und Partys mieten." },
+            { "key": "e", "text": "Strickcafé: Jeden Mittwoch stricken und Kaffee trinken, für alle." },
+            { "key": "f", "text": "Arbeitskleidung Profi: Kleidung für Küche, Werkstatt und Krankenhaus." }
+          ],
+          "items": [
+            { "situation": "Marco hat Schuhgröße 48 und findet nie passende Schuhe.", "answer": "b" },
+            { "situation": "Anna möchte ihre alten Kleider verkaufen.", "answer": "c" },
+            { "situation": "Für eine Party braucht Paul ein Piratenkostüm für einen Abend.", "answer": "d" },
+            { "situation": "Herr Ito beginnt als Koch und braucht Kleidung für die Arbeit.", "answer": "f" },
+            { "situation": "Frau Wolf sucht ein Geschäft für Brillen.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Was ist heute billiger?", "options": ["Wintermäntel", "Sommerkleider", "Schuhe"], "answer": 0,
+          "audio": [{ "v": "f1", "t": "Liebe Kundinnen und Kunden, nur heute: alle Wintermäntel dreißig Prozent billiger! Sie finden sie im ersten Stock, gleich neben der Rolltreppe." }]
+        },
+        {
+          "q": "Was soll Max mitbringen?", "options": ["einen Anzug", "eine Krawatte", "Schuhe"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Hallo Max, hier ist Tim. Kannst du mir für morgen eine Krawatte leihen? Ich habe ein Vorstellungsgespräch und meine einzige Krawatte ist kaputt. Danke dir!" }]
+        },
+        {
+          "q": "Wann ist die Hose fertig?", "options": ["heute Abend", "morgen", "am Freitag"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Guten Tag, Frau Novak, hier ist die Schneiderei Nadel. Ihre Hose ist leider heute noch nicht fertig. Sie können sie morgen ab zehn Uhr abholen." }]
+        },
+        {
+          "q": "Wo ist der Kundenservice?", "options": ["im Erdgeschoss", "im ersten Stock", "im vierten Stock"], "answer": 0,
+          "audio": [{ "v": "m2", "t": "Sie möchten etwas umtauschen? Unser Kundenservice ist ab heute im Erdgeschoss, neben dem Haupteingang." }]
+        },
+        {
+          "q": "Was empfiehlt das Radio?", "options": ["eine Jacke mitnehmen", "eine Sonnenbrille tragen", "einen Schal anziehen"], "answer": 0,
+          "audio": [{ "v": "f1", "t": "Das Wetter für morgen: Am Vormittag ist es sonnig, aber am Nachmittag regnet es. Nehmen Sie lieber eine Regenjacke mit!" }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Julia und ihrem Freund Leon. Sie packen für den Skiurlaub. Wer bekommt welche Kleidung?",
+          "options": ["Mütze", "Handschuhe", "Skijacke", "Schal", "Pullover", "Sonnenbrille", "Skihose", "Socken"],
+          "audio": [
+            { "v": "f1", "t": "Leon, wir müssen auch für die Kinder packen. Was braucht Mia noch?" },
+            { "v": "m1", "t": "Mia hat ihre Mütze verloren. Wir haben gestern eine neue gekauft, die rote." },
+            { "v": "f1", "t": "Gut. Und Ben? Seine Skijacke ist doch zu klein." },
+            { "v": "m1", "t": "Ja, Ben bekommt die alte Skijacke von seinem Cousin." },
+            { "v": "f1", "t": "Und deine Mutter kommt auch mit. Sie friert immer so." },
+            { "v": "m1", "t": "Für Oma kaufe ich einen dicken Pullover aus Wolle. Und du? Was brauchst du?" },
+            { "v": "f1", "t": "Ich brauche eine Sonnenbrille, meine alte ist kaputt. Und du brauchst neue Handschuhe, deine haben Löcher!" },
+            { "v": "m1", "t": "Stimmt. Und Oma hat nach warmen Socken gefragt, aber die strickt sie selbst." }
+          ],
+          "items": [
+            { "q": "Mia", "answer": 0 },
+            { "q": "Ben", "answer": 2 },
+            { "q": "Oma", "answer": 4 },
+            { "q": "Julia", "answer": 5 },
+            { "q": "Leon", "answer": 1 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch zwischen Frau Berg und einer Verkäuferin. Wie viel kosten die Sachen?",
+          "options": ["19 €", "25 €", "39 €", "45 €", "59 €", "79 €", "99 €", "120 €"],
+          "audio": [
+            { "v": "f2", "t": "Guten Tag, ich suche ein paar Sachen für meinen Mann. Was kostet dieser Pullover?" },
+            { "v": "f1", "t": "Der Pullover aus Wolle kostet neunundfünfzig Euro." },
+            { "v": "f2", "t": "Und das Hemd hier?" },
+            { "v": "f1", "t": "Das Hemd ist im Angebot, nur neununddreißig Euro statt neunundvierzig." },
+            { "v": "f2", "t": "Und die Lederjacke? Die gefällt mir sehr." },
+            { "v": "f1", "t": "Die ist leider teuer, hundertzwanzig Euro. Aber sie ist sehr gute Qualität." },
+            { "v": "f2", "t": "Hm. Und der Gürtel?" },
+            { "v": "f1", "t": "Fünfundzwanzig Euro. Und die Socken, drei Paar, kosten neunzehn Euro." }
+          ],
+          "items": [
+            { "q": "Pullover", "answer": 4 },
+            { "q": "Hemd", "answer": 2 },
+            { "q": "Lederjacke", "answer": 7 },
+            { "q": "Gürtel", "answer": 1 },
+            { "q": "Socken", "answer": 0 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Welche Größe braucht die Frau?", "options": ["36", "38", "40"], "answer": 2,
+          "audio": [
+            { "v": "m1", "t": "Passt die Hose?" },
+            { "v": "f1", "t": "Nein, achtunddreißig ist zu eng. Haben Sie sie in vierzig?" }
+          ]
+        },
+        {
+          "q": "Was kauft der Mann?", "options": ["den grauen Mantel", "den schwarzen Mantel", "keinen Mantel"], "answer": 0,
+          "audio": [
+            { "v": "f2", "t": "Der schwarze Mantel steht Ihnen sehr gut." },
+            { "v": "m2", "t": "Ja, aber der graue ist wärmer. Ich nehme den grauen." }
+          ]
+        },
+        {
+          "q": "Warum gibt die Frau die Schuhe zurück?", "options": ["Sie sind zu klein.", "Sie sind kaputt.", "Sie gefallen ihr nicht."], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Ich möchte diese Schuhe zurückgeben. Nach einer Woche ist die Sohle schon kaputt." },
+            { "v": "m1", "t": "Das tut mir leid. Haben Sie den Kassenbon?" }
+          ]
+        },
+        {
+          "q": "Wo kauft der Mann am liebsten Kleidung?", "options": ["im Internet", "im Kaufhaus", "auf dem Flohmarkt"], "answer": 2,
+          "audio": [
+            { "v": "f2", "t": "Kaufst du deine Kleidung im Internet?" },
+            { "v": "m2", "t": "Manchmal. Aber am liebsten gehe ich auf den Flohmarkt. Da ist alles billiger und es gibt tolle alte Sachen." }
+          ]
+        },
+        {
+          "q": "Was ist für die Frau am wichtigsten?", "options": ["der Preis", "die Farbe", "dass die Kleidung bequem ist"], "answer": 2,
+          "audio": [
+            { "v": "m1", "t": "Was ist dir beim Einkaufen am wichtigsten? Der Preis?" },
+            { "v": "f1", "t": "Nein, für mich muss Kleidung vor allem bequem sein. Die Farbe und der Preis sind nicht so wichtig." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit der Modedesignerin Aylin Demir.",
+          "audio": [
+            { "v": "m1", "t": "Frau Demir, Sie haben ein eigenes Modelabel in Wien. Wie hat alles angefangen?" },
+            { "v": "f1", "t": "Schon als Kind habe ich Kleider für meine Puppen genäht. Meine Großmutter war Schneiderin, sie hat mir alles gezeigt." },
+            { "v": "m1", "t": "Was ist besonders an Ihrer Mode?" },
+            { "v": "f1", "t": "Ich arbeite nur mit alten Stoffen, zum Beispiel aus Vorhängen oder alten Hemden. Das ist besser für die Umwelt als neue Stoffe." },
+            { "v": "m1", "t": "Ist Ihre Kleidung teuer?" },
+            { "v": "f1", "t": "Sie ist teurer als im Kaufhaus, weil jedes Stück ein Einzelstück ist. Aber man trägt sie viel länger." },
+            { "v": "m1", "t": "Und was tragen Sie selbst am liebsten?" },
+            { "v": "f1", "t": "Ganz ehrlich: Jeans und einen alten Pullover. Bei der Arbeit muss es bequem sein!" }
+          ],
+          "statements": [
+            { "s": "Frau Demirs Großmutter hat ihr das Nähen gezeigt.", "answer": true },
+            { "s": "Frau Demir arbeitet nur mit neuen Stoffen.", "answer": false },
+            { "s": "Ihre Kleidung ist billiger als im Kaufhaus.", "answer": false },
+            { "s": "Jedes Kleidungsstück gibt es nur einmal.", "answer": true },
+            { "s": "Bei der Arbeit trägt sie elegante Kleider.", "answer": false }
+          ]
+        },
+        {
+          "intro": "Sie hören eine Umfrage auf der Straße. Ein Reporter spricht mit Thomas, 45.",
+          "audio": [
+            { "v": "f2", "t": "Entschuldigung, darf ich Sie etwas fragen? Wir machen eine Umfrage zum Thema Mode. Ist Mode wichtig für Sie?" },
+            { "v": "m2", "t": "Nicht so sehr. Ich kaufe nur, was ich wirklich brauche, vielleicht drei- oder viermal im Jahr." },
+            { "v": "f2", "t": "Kaufen Sie selbst ein oder Ihre Frau?" },
+            { "v": "m2", "t": "Früher hat meine Frau viel für mich gekauft. Jetzt mache ich das selbst, meistens im Internet." },
+            { "v": "f2", "t": "Was tragen Sie bei der Arbeit?" },
+            { "v": "m2", "t": "Ich bin Lehrer, da trage ich meistens Hemd und Jeans. Einen Anzug ziehe ich nur zu Hochzeiten an." },
+            { "v": "f2", "t": "Und Ihr letzter Kauf?" },
+            { "v": "m2", "t": "Wanderschuhe! Die waren teuer, aber für mich sind gute Schuhe wichtiger als ein schönes Hemd." }
+          ],
+          "statements": [
+            { "s": "Thomas kauft sehr oft Kleidung.", "answer": false },
+            { "s": "Heute kauft er seine Kleidung selbst.", "answer": true },
+            { "s": "Bei der Arbeit trägt er einen Anzug.", "answer": false },
+            { "s": "Er ist Lehrer.", "answer": true },
+            { "s": "Gute Schuhe sind ihm wichtiger als ein schönes Hemd.", "answer": true }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie sind im Kaufhaus und sehen eine Jacke für Ihre Freundin Lisa. Schreiben Sie ihr eine SMS.",
+          "points": ["Wie ist die Jacke (Farbe, Material)?", "Was kostet sie?", "Fragen Sie: Soll ich sie kaufen?"],
+          "register": "informal (du)",
+          "model": "Hi Lisa! Ich bin im Kaufhaus und hier gibt es eine tolle Jacke für dich: dunkelblau, aus Leder. Sie kostet nur 89 Euro! Soll ich sie in Größe M kaufen? Laura"
+        },
+        {
+          "task": "Ihr Freund Tom hat Ihnen einen Pullover zum Geburtstag geschenkt. Er ist zu klein. Schreiben Sie Tom eine SMS.",
+          "points": ["Danken Sie für das Geschenk.", "Was ist das Problem?", "Fragen Sie nach dem Kassenbon."],
+          "register": "informal (du)",
+          "model": "Danke für den schönen Pullover, Tom! Die Farbe gefällt mir sehr. Leider ist er mir zu klein. Hast du noch den Kassenbon? Dann tausche ich ihn um. José"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben im Online-Shop „ModaWeb“ Schuhe bestellt. Sie sind zu groß. Schreiben Sie dem Kundenservice.",
+          "points": ["Was haben Sie bestellt?", "Was ist das Problem?", "Was möchten Sie?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe letzte Woche bei Ihnen schwarze Lederschuhe in Größe 42 bestellt (Bestellnummer 55217). Leider sind sie mir zu groß. Ich möchte sie gern gegen Größe 41 umtauschen. Wie kann ich die Schuhe zurückschicken?\n\nMit freundlichen Grüßen\nJosé López"
+        },
+        {
+          "task": "Sie gehen zu einer Hochzeit und wissen nicht, was man dort trägt. Schreiben Sie Ihrer Kollegin, Frau Huber.",
+          "points": ["Erzählen Sie von der Hochzeit.", "Fragen Sie nach der richtigen Kleidung.", "Bitten Sie um einen Tipp für ein Geschäft."],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Huber,\n\nnächsten Samstag gehe ich zur Hochzeit von einem Schweizer Freund. Es ist meine erste Hochzeit in der Schweiz und ich weiß nicht, was man da trägt. Muss ich einen Anzug anziehen? Und kennen Sie ein gutes Geschäft, das nicht zu teuer ist?\n\nViele Grüße\nPablo Ruiz"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Kleidung", "word": "Lieblingskleidung", "question": "Was trägst du am liebsten?", "answer": "Am liebsten trage ich Jeans und Pullover." },
+        { "theme": "Kleidung", "word": "Einkaufen", "question": "Wo kaufst du deine Kleidung?", "answer": "Meistens im Internet, manchmal im Kaufhaus." },
+        { "theme": "Kleidung", "word": "Farbe", "question": "Welche Farbe steht dir am besten?", "answer": "Ich glaube, Dunkelblau steht mir am besten." },
+        { "theme": "Kleidung", "word": "Arbeit", "question": "Was ziehst du zur Arbeit an?", "answer": "Hemd und Jeans, es ist nicht so formell." },
+        { "theme": "Kleidung", "word": "Mode", "question": "Ist Mode wichtig für dich?", "answer": "Nicht sehr, bequem ist mir wichtiger." },
+        { "theme": "Kleidung", "word": "Geld", "question": "Wie viel Geld gibst du für Kleidung aus?", "answer": "Nicht viel, vielleicht fünfzig Franken im Monat." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Was ziehen Sie gern an?",
+          "prompts": ["Alltag?", "Arbeit?", "Feste?", "Lieblingsstück?"],
+          "model": [{ "v": "m1", "t": "Im Alltag trage ich am liebsten Jeans und T-Shirts, weil sie bequem sind. Zur Arbeit ziehe ich meistens ein Hemd an, aber keine Krawatte. Für Feste wie Hochzeiten habe ich einen dunkelblauen Anzug. Mein Lieblingsstück ist eine alte Lederjacke von meinem Vater. Sie ist schon zwanzig Jahre alt, aber sie gefällt mir besser als jede neue Jacke." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie kaufen Sie ein?",
+          "prompts": ["Geschäft oder Internet?", "Wie oft?", "Allein oder mit Freunden?", "Was ist wichtig?"],
+          "model": [{ "v": "f1", "t": "Ich kaufe lieber im Geschäft als im Internet, weil ich die Kleidung gern anprobiere. Ich gehe ungefähr einmal im Monat einkaufen, am liebsten im Schlussverkauf, weil dann alles billiger ist. Meistens gehe ich mit meiner Schwester, sie hat einen guten Geschmack. Am wichtigsten ist für mich, dass die Kleidung gute Qualität hat." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Ihre Freundin hat Geburtstag. Sie möchten zusammen mit Ihrem Partner / Ihrer Partnerin ein Geschenk kaufen (eine Tasche). Die Geschäfte sind bis 19 Uhr offen, samstags bis 17 Uhr. Finden Sie einen Termin.",
+          "mine": ["Donnerstag: bis 18 Uhr Arbeit", "Freitag: 16–18 Uhr Kurs", "Freitag ab 18 Uhr: frei", "Samstag Vormittag: Fußball", "Samstag ab 13 Uhr: frei"],
+          "partner": ["Donnerstag: ab 17 Uhr frei", "Freitag: bis 17 Uhr Arbeit", "Freitag Abend: Essen mit Eltern", "Samstag: 9–14 Uhr frei", "Samstag ab 15 Uhr: Party vorbereiten"],
+          "model": [
+            { "v": "f1", "t": "Gehen wir am Donnerstag nach der Arbeit?" },
+            { "v": "m1", "t": "Am Donnerstag arbeite ich bis sechs. Dann haben wir nur eine Stunde. Wie wäre es am Freitag ab sechs?" },
+            { "v": "f1", "t": "Freitagabend esse ich mit meinen Eltern. Und Samstag?" },
+            { "v": "m1", "t": "Samstagvormittag spiele ich Fußball, aber ab eins habe ich Zeit." },
+            { "v": "f1", "t": "Ich habe bis zwei Uhr Zeit. Dann treffen wir uns um eins vor dem Kaufhaus, das reicht für eine Tasche." },
+            { "v": "m1", "t": "Super, bis Samstag!" }
+          ]
+        },
+        {
+          "task": "Sie möchten mit Ihrem Partner / Ihrer Partnerin zum Kleidertausch gehen. Er ist am Samstag von 10 bis 15 Uhr und am Sonntag von 11 bis 14 Uhr. Finden Sie eine Zeit.",
+          "mine": ["Samstag 9–11 Uhr: Joggen", "Samstag 12–16 Uhr: frei", "Sonntag Vormittag: frei", "Sonntag 13 Uhr: Mittagessen bei Freunden"],
+          "partner": ["Samstag Vormittag: frei", "Samstag ab 13 Uhr: Arbeit", "Sonntag: 10–12 Uhr frei", "Sonntag Nachmittag: Besuch"],
+          "model": [
+            { "v": "m2", "t": "Wollen wir am Samstagvormittag zum Kleidertausch?" },
+            { "v": "f2", "t": "Da gehe ich bis elf joggen. Ab zwölf hätte ich Zeit." },
+            { "v": "m2", "t": "Ab eins arbeite ich leider. Wie ist es am Sonntag?" },
+            { "v": "f2", "t": "Am Sonntag um eins esse ich bei Freunden. Aber vorher habe ich Zeit." },
+            { "v": "m2", "t": "Ich auch, bis zwölf. Dann gehen wir am Sonntag um elf, wenn es aufmacht." },
+            { "v": "f2", "t": "Perfekt!" }
+          ]
+        }
+      ]
+    }
+  }
+}

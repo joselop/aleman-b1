@@ -1,0 +1,556 @@
+{
+  "id": "a2-t06",
+  "level": "a2",
+  "topic": "t06",
+  "title": "Tiempo libre y medios",
+  "title_de": "Freizeit und Medien",
+  "goals": [
+    "Hablar de series, películas, redes sociales, radio y prensa",
+    "Recomendar actividades culturales y de ocio",
+    "Declinar el adjetivo después de ein, kein y los posesivos (ein neuer Film, ein neues Buch)",
+    "Expresar condiciones y hábitos con wenn y colocar bien los verbos",
+    "Dar ventajas e inconvenientes de los medios"
+  ],
+  "vocab": [
+    { "de": "die Medien", "es": "los medios de comunicación", "cat": "Medios", "ex": "Welche Medien nutzt du?", "ex_es": "¿Qué medios utilizas?" },
+    { "de": "die Sendung", "pl": "die Sendungen", "es": "el programa (de radio o tele)", "cat": "Medios", "ex": "Die Sendung beginnt um 20 Uhr.", "ex_es": "El programa empieza a las 20 h." },
+    { "de": "die Serie", "pl": "die Serien", "es": "la serie", "cat": "Medios", "ex": "Ich schaue gerade eine spanische Serie.", "ex_es": "Ahora estoy viendo una serie española." },
+    { "de": "die Folge", "pl": "die Folgen", "es": "el episodio", "cat": "Medios", "ex": "Hast du die letzte Folge gesehen?", "ex_es": "¿Has visto el último episodio?" },
+    { "de": "die Nachrichten", "es": "las noticias", "cat": "Medios", "ex": "Ich höre die Nachrichten im Radio.", "ex_es": "Escucho las noticias en la radio." },
+    { "de": "der Krimi", "pl": "die Krimis", "es": "la (novela o película) policíaca", "cat": "Medios", "ex": "Am Sonntag schaue ich immer einen Krimi.", "ex_es": "Los domingos siempre veo una policíaca." },
+    { "de": "die Komödie", "pl": "die Komödien", "es": "la comedia", "cat": "Medios", "ex": "Die Komödie war sehr lustig.", "ex_es": "La comedia fue muy divertida." },
+    { "de": "der Dokumentarfilm", "pl": "die Dokumentarfilme", "es": "el documental", "cat": "Medios", "ex": "Ich mag Dokumentarfilme über Tiere.", "ex_es": "Me gustan los documentales de animales." },
+    { "de": "die Werbung", "es": "la publicidad", "cat": "Medios", "ex": "Im Fernsehen gibt es zu viel Werbung.", "ex_es": "En la tele hay demasiada publicidad." },
+    { "de": "die Zeitung", "pl": "die Zeitungen", "es": "el periódico", "cat": "Medios", "ex": "Liest du noch eine Zeitung aus Papier?", "ex_es": "¿Aún lees el periódico en papel?" },
+    { "de": "die Zeitschrift", "pl": "die Zeitschriften", "es": "la revista", "cat": "Medios", "ex": "Im Wartezimmer liegen Zeitschriften.", "ex_es": "En la sala de espera hay revistas." },
+    { "de": "der Podcast", "pl": "die Podcasts", "es": "el pódcast", "cat": "Medios", "ex": "Ich höre Podcasts auf dem Weg zur Arbeit.", "ex_es": "Escucho pódcasts de camino al trabajo." },
+    { "de": "die sozialen Netzwerke", "es": "las redes sociales", "cat": "Medios", "ex": "Sie postet jeden Tag in den sozialen Netzwerken.", "ex_es": "Publica todos los días en redes sociales." },
+    { "de": "posten", "es": "publicar (en redes)", "cat": "Medios", "forms": "er postet, hat gepostet", "ex": "Ich poste keine Fotos von meinen Kindern.", "ex_es": "No publico fotos de mis hijos." },
+    { "de": "herunterladen", "es": "descargar", "cat": "Medios", "forms": "er lädt herunter, hat heruntergeladen", "ex": "Ich habe die App heruntergeladen.", "ex_es": "He descargado la aplicación." },
+    { "de": "streamen", "es": "ver o escuchar en streaming", "cat": "Medios", "forms": "er streamt, hat gestreamt", "ex": "Wir streamen Filme am Wochenende.", "ex_es": "Vemos películas en streaming los fines de semana." },
+    { "de": "das Mitglied", "pl": "die Mitglieder", "es": "el socio, el miembro", "cat": "Ocio", "ex": "Ich bin Mitglied im Tennisclub.", "ex_es": "Soy socio del club de tenis." },
+    { "de": "der Verein", "pl": "die Vereine", "es": "el club, la asociación", "cat": "Ocio", "ex": "In der Schweiz gibt es viele Vereine.", "ex_es": "En Suiza hay muchas asociaciones." },
+    { "de": "die Ausstellung", "pl": "die Ausstellungen", "es": "la exposición", "cat": "Ocio", "ex": "Die Ausstellung ist bis Ende Mai.", "ex_es": "La exposición dura hasta finales de mayo." },
+    { "de": "das Theater", "pl": "die Theater", "es": "el teatro", "cat": "Ocio", "ex": "Wir gehen heute Abend ins Theater.", "ex_es": "Esta noche vamos al teatro." },
+    { "de": "die Eintrittskarte / die Karte", "pl": "die Eintrittskarten", "es": "la entrada", "cat": "Ocio", "ex": "Ich habe zwei Karten für das Konzert.", "ex_es": "Tengo dos entradas para el concierto." },
+    { "de": "ausverkauft", "es": "agotado (entradas)", "cat": "Ocio", "ex": "Das Konzert ist leider ausverkauft.", "ex_es": "El concierto está agotado, por desgracia." },
+    { "de": "der Eintritt", "es": "la entrada (precio, acceso)", "cat": "Ocio", "ex": "Der Eintritt ist frei.", "ex_es": "La entrada es gratuita." },
+    { "de": "sich interessieren (für)", "es": "interesarse (por)", "cat": "Ocio", "forms": "er interessiert sich, hat sich interessiert", "ex": "Ich interessiere mich für Geschichte.", "ex_es": "Me interesa la historia." },
+    { "de": "verbringen", "es": "pasar (tiempo)", "cat": "Ocio", "forms": "er verbringt, hat verbracht", "ex": "Ich verbringe viel Zeit mit meiner Familie.", "ex_es": "Paso mucho tiempo con mi familia." },
+    { "de": "die Freizeit", "es": "el tiempo libre", "cat": "Ocio", "ex": "In meiner Freizeit spiele ich Schach.", "ex_es": "En mi tiempo libre juego al ajedrez." },
+    { "de": "wenn", "es": "cuando, si (verbo al final)", "cat": "Conectores", "ex": "Wenn ich Zeit habe, lese ich.", "ex_es": "Cuando tengo tiempo, leo." },
+    { "de": "spannend", "es": "emocionante, intrigante", "cat": "Adjetivos", "ex": "Das ist ein spannender Film.", "ex_es": "Es una película emocionante." },
+    { "de": "langweilig", "es": "aburrido", "cat": "Adjetivos", "ex": "Die Sendung ist total langweilig.", "ex_es": "El programa es aburridísimo." },
+    { "de": "lustig", "es": "divertido, gracioso", "cat": "Adjetivos", "ex": "Ich kenne eine lustige Serie.", "ex_es": "Conozco una serie divertida." },
+    { "de": "interessant", "es": "interesante", "cat": "Adjetivos", "ex": "Das war ein interessanter Artikel.", "ex_es": "Fue un artículo interesante." },
+    { "de": "der Vorteil / der Nachteil", "pl": "die Vorteile / die Nachteile", "es": "la ventaja / el inconveniente", "cat": "Opinión", "ex": "Ein Vorteil vom Internet ist, dass es schnell ist.", "ex_es": "Una ventaja de internet es que es rápido." },
+    { "de": "nutzen", "es": "usar, utilizar", "cat": "Opinión", "forms": "er nutzt, hat genutzt", "ex": "Wie oft nutzt du das Internet?", "ex_es": "¿Cada cuánto usas internet?" },
+    { "de": "abhängig", "es": "dependiente, enganchado", "cat": "Opinión", "ex": "Viele Jugendliche sind vom Handy abhängig.", "ex_es": "Muchos jóvenes están enganchados al móvil." }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Medios y ocio",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["die Sendung", "el programa"],
+        ["die Folge", "el episodio"],
+        ["die Werbung", "la publicidad"],
+        ["herunterladen", "descargar"],
+        ["ausverkauft", "agotado"],
+        ["das Mitglied", "el socio"],
+        ["die Ausstellung", "la exposición"],
+        ["der Nachteil", "el inconveniente"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "Adjetivo después de ein",
+      "instructions": "Escribe la terminación: er, es, e o en.",
+      "items": [
+        { "text": "Das ist ein spannend[[er]] Film. (der Film, nominativo)" },
+        { "text": "Ich habe einen spannend[[en]] Film gesehen. (acusativo)" },
+        { "text": "Sie hat ein neu[[es]] Handy. (das Handy)" },
+        { "text": "Wir suchen eine gut[[e]] Serie. (die Serie)" },
+        { "text": "Er spielt in einem klein[[en]] Verein. (dativo)" },
+        { "text": "Das ist kein gut[[es]] Programm. (das Programm)" },
+        { "text": "Ich lese gerade ein interessant[[es]] Buch." },
+        { "text": "Mein best[[er]] Freund heißt Paul. (der Freund)" }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "mc",
+      "title": "¿Qué terminación?",
+      "instructions": "Elige la forma correcta.",
+      "items": [
+        { "q": "Ich habe ___ Laptop.", "options": ["einen neuen", "einen neuer", "ein neues"], "answer": 0 },
+        { "q": "Das ist ___ Idee!", "options": ["eine gute", "eine guten", "ein gutes"], "answer": 0 },
+        { "q": "Wir wohnen in ___ Stadt.", "options": ["einer kleinen", "einer kleine", "eine kleine"], "answer": 0 },
+        { "q": "Das ist ___ Fahrrad.", "options": ["mein altes", "mein alte", "meinen alten"], "answer": 0 },
+        { "q": "Hast du keine ___ Fotos?", "options": ["neuen", "neue", "neues"], "answer": 0 },
+        { "q": "Er trinkt gern ___ Kaffee.", "options": ["schwarzen", "schwarzer", "schwarz"], "answer": 0, "explain": "Sin artículo, el adjetivo toma la terminación del artículo: den → schwarzen." }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "order",
+      "title": "Oraciones con wenn",
+      "instructions": "Ordena la frase. Recuerda: verbo al final en la subordinada; si empieza por wenn, «verbo, verbo».",
+      "items": [
+        { "words": ["Wenn", "ich", "Zeit", "habe", ",", "gehe", "ich", "ins", "Kino", "."], "answers": ["Wenn ich Zeit habe, gehe ich ins Kino."] },
+        { "words": ["Ich", "lese", ",", "wenn", "ich", "nicht", "schlafen", "kann", "."], "answers": ["Ich lese, wenn ich nicht schlafen kann."] },
+        { "words": ["Wenn", "es", "regnet", ",", "bleiben", "wir", "zu", "Hause", "."], "answers": ["Wenn es regnet, bleiben wir zu Hause."] },
+        { "words": ["Wenn", "du", "müde", "bist", ",", "solltest", "du", "schlafen", "."], "answers": ["Wenn du müde bist, solltest du schlafen."] },
+        { "words": ["Ich", "rufe", "dich", "an", ",", "wenn", "ich", "zu", "Hause", "bin", "."], "answers": ["Ich rufe dich an, wenn ich zu Hause bin."] }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "write",
+      "title": "Empieza con wenn",
+      "instructions": "Reescribe la frase empezando por Wenn.",
+      "items": [
+        { "prompt": "Ich gehe joggen, wenn das Wetter schön ist.", "answers": ["Wenn das Wetter schön ist, gehe ich joggen."] },
+        { "prompt": "Wir schauen einen Film, wenn die Kinder schlafen.", "answers": ["Wenn die Kinder schlafen, schauen wir einen Film."] },
+        { "prompt": "Ich höre Podcasts, wenn ich mit dem Zug fahre.", "answers": ["Wenn ich mit dem Zug fahre, höre ich Podcasts."] },
+        { "prompt": "Sie ruft an, wenn sie Zeit hat.", "answers": ["Wenn sie Zeit hat, ruft sie an."] }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "¿wenn o wann?",
+      "instructions": "Elige la palabra correcta.",
+      "items": [
+        { "q": "___ beginnt der Film?", "options": ["Wann", "Wenn"], "answer": 0 },
+        { "q": "___ ich Zeit habe, lese ich.", "options": ["Wann", "Wenn"], "answer": 1 },
+        { "q": "Weißt du, ___ das Konzert ist?", "options": ["wann", "wenn"], "answer": 0 },
+        { "q": "Ruf mich an, ___ du da bist.", "options": ["wann", "wenn"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "Planes y medios",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Was machst du heute Abend?" },
+            { "v": "m1", "t": "Wenn das Wetter schön ist, gehe ich ins Open-Air-Kino. Sonst schaue ich eine Serie zu Hause." }
+          ],
+          "q": "¿Qué hará si hace buen tiempo?", "options": ["Ver una serie", "Ir al cine al aire libre", "Ir al teatro"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Wie viele Stunden bist du am Tag am Handy?" },
+            { "v": "f2", "t": "Leider zu viele, ungefähr vier. Vor allem abends im Bett." }
+          ],
+          "q": "¿Cuántas horas usa el móvil?", "options": ["Dos", "Cuatro", "Seis"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Hast du Karten für das Konzert bekommen?" },
+            { "v": "m1", "t": "Nein, es ist schon ausverkauft. Aber am Sonntag gibt es ein Konzert im Park, und der Eintritt ist frei." }
+          ],
+          "q": "¿Cuánto cuesta el concierto del domingo?", "options": ["Nada", "10 euros", "Está agotado"], "answer": 0
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Liest du noch eine Zeitung?" },
+            { "v": "f2", "t": "Nur am Wochenende, die aus Papier. Unter der Woche lese ich die Nachrichten auf dem Handy." }
+          ],
+          "q": "¿Cuándo lee el periódico de papel?", "options": ["Todos los días", "Los fines de semana", "Nunca"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Kannst du mir eine gute Serie empfehlen?" },
+            { "v": "m1", "t": "Ja, „Dark“! Das ist eine spannende deutsche Serie. Aber schau sie nicht allein in der Nacht!" }
+          ],
+          "q": "¿Cómo es la serie que recomienda?", "options": ["Divertida", "Emocionante", "Aburrida"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Das ist ein spannender Film." }], "answers": ["Das ist ein spannender Film."] },
+        { "audio": [{ "v": "m1", "t": "Wenn ich Zeit habe, lese ich." }], "answers": ["Wenn ich Zeit habe, lese ich."] },
+        { "audio": [{ "v": "f2", "t": "Das Konzert ist ausverkauft." }], "answers": ["Das Konzert ist ausverkauft."] },
+        { "audio": [{ "v": "m2", "t": "Ich habe ein neues Handy." }], "answers": ["Ich habe ein neues Handy."] },
+        { "audio": [{ "v": "f1", "t": "Ich interessiere mich für Musik." }], "answers": ["Ich interessiere mich für Musik."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "gap",
+      "title": "Un mensaje",
+      "instructions": "Completa con la terminación correcta del adjetivo (e, en, er, es).",
+      "items": [
+        { "text": "Hallo Tom, gestern habe ich einen super[[en]] Film gesehen." },
+        { "text": "Es ist ein deutsch[[er]] Krimi mit einem toll[[en]] Ende." },
+        { "text": "Die Schauspielerin hat eine wichtig[[e]] Rolle." },
+        { "text": "Kommst du mit? Ich habe zwei neu[[e]] Karten für Samstag." },
+        { "text": "Danach können wir in ein klein[[es]] Café gehen." }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "He visto una película genial.", "answers": ["Ich habe einen tollen Film gesehen.", "Ich habe einen super Film gesehen."] },
+        { "prompt": "Cuando tengo tiempo, voy al cine.", "answers": ["Wenn ich Zeit habe, gehe ich ins Kino."] },
+        { "prompt": "Tengo un móvil nuevo.", "answers": ["Ich habe ein neues Handy."] },
+        { "prompt": "Me interesa la fotografía.", "answers": ["Ich interessiere mich für Fotografie."] },
+        { "prompt": "La entrada es gratuita.", "answers": ["Der Eintritt ist frei.", "Der Eintritt ist kostenlos."] },
+        { "prompt": "Paso demasiado tiempo con el móvil.", "answers": ["Ich verbringe zu viel Zeit am Handy.", "Ich verbringe zu viel Zeit mit dem Handy."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Eine Woche ohne Handy",
+          "text": "Kann man heute noch ohne Smartphone leben? Die Klasse 9b einer Schule in Graz hat es ausprobiert: Eine Woche lang durften die 22 Schülerinnen und Schüler kein Handy benutzen. „Am ersten Tag war es schrecklich“, erzählt die 15-jährige Hanna. „Ich wollte immer wissen, was meine Freunde posten.“ Aber schon nach drei Tagen wurde es besser. Die Jugendlichen haben mehr miteinander gesprochen, Karten gespielt und Bücher gelesen. Viele haben auch besser geschlafen. Nur eine Sache war schwierig: Verabredungen. „Wir mussten uns genau ausmachen, wann und wo wir uns treffen“, sagt Leon. Nach dem Projekt nutzen viele ihr Handy weniger als vorher. Die Lehrerin möchte das Projekt nächstes Jahr wiederholen.",
+          "questions": [
+            { "q": "Wie lange war die Klasse ohne Handy?", "options": ["einen Tag", "drei Tage", "eine Woche"], "answer": 2 },
+            { "q": "Wie war der erste Tag für Hanna?", "options": ["sehr schwer", "ganz normal", "lustig"], "answer": 0 },
+            { "q": "Was haben die Jugendlichen in der Woche gemacht?", "options": ["mehr ferngesehen", "mehr miteinander gesprochen", "mehr Sport gemacht"], "answer": 1 },
+            { "q": "Was war schwierig?", "options": ["schlafen", "sich verabreden", "Hausaufgaben machen"], "answer": 1 },
+            { "q": "Was möchte die Lehrerin?", "options": ["Das Projekt nächstes Jahr wiederholen.", "Handys in der Schule verbieten.", "Ein Buch über das Projekt schreiben."], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Das Radio ist nicht tot",
+          "text": "Streaming, Podcasts, YouTube – und trotzdem hören noch viele Menschen Radio. Laut einer neuen Studie schalten in der Schweiz jeden Tag drei von vier Personen das Radio ein, im Durchschnitt fast zwei Stunden lang. Die meisten hören morgens beim Frühstück oder im Auto. „Das Radio ist wie ein Freund, der einen durch den Tag begleitet“, sagt die Moderatorin Sandra Keller von Radio SRF. Besonders beliebt sind Nachrichten, Verkehrsinformationen und das Wetter. Junge Menschen hören allerdings weniger Radio als ältere: Nur jeder zweite unter 25 Jahren schaltet täglich ein. Sie hören lieber Musik auf ihrem Handy oder Podcasts zu ihren Lieblingsthemen.",
+          "questions": [
+            { "q": "Wie viele Schweizer hören jeden Tag Radio?", "options": ["die Hälfte", "drei von vier", "fast alle"], "answer": 1 },
+            { "q": "Wann hören die meisten Menschen Radio?", "options": ["am Abend", "am Morgen", "in der Mittagspause"], "answer": 1 },
+            { "q": "Was ist im Radio besonders beliebt?", "options": ["Hörspiele", "Nachrichten und Wetter", "Werbung"], "answer": 1 },
+            { "q": "Junge Leute …", "options": ["hören mehr Radio als ältere.", "hören weniger Radio als ältere.", "hören kein Radio."], "answer": 1 },
+            { "q": "Was machen junge Leute lieber?", "options": ["fernsehen", "Zeitung lesen", "Musik und Podcasts auf dem Handy hören"], "answer": 2 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Kulturzentrum Rote Fabrik – Programm diese Woche",
+          "text": "Montag: geschlossen\nDienstag 19.30: Literatur – Lesung mit der Autorin Petra Lang\nMittwoch 20.00: Kino – „Das Leben der Anderen“ (Deutsch mit englischen Untertiteln)\nDonnerstag 18.00: Workshop Fotografie für Anfänger (Anmeldung nötig)\nFreitag 21.00: Konzert – Jazz-Trio Bern\nSamstag 14.00: Kindertheater „Der kleine Drache“\nSonntag 11.00: Flohmarkt mit Brunch im Café",
+          "questions": [
+            { "q": "Sie möchten Musik hören. Wann gehen Sie?", "options": ["Dienstag", "Freitag", "Sonntag"], "answer": 1 },
+            { "q": "Sie möchten lernen, bessere Fotos zu machen.", "options": ["Mittwoch", "Donnerstag", "Samstag"], "answer": 1 },
+            { "q": "Sie möchten mit Ihren Kindern etwas unternehmen.", "options": ["Dienstag", "Samstag", "Freitag"], "answer": 1 },
+            { "q": "Sie möchten einen Film sehen.", "options": ["Montag", "Mittwoch", "Sonntag"], "answer": 1 },
+            { "q": "Sie möchten gebrauchte Sachen kaufen und frühstücken.", "options": ["Dienstag", "Samstag", "Sonntag"], "answer": 2 }
+          ]
+        },
+        {
+          "title": "Stadtbibliothek – Wo finde ich was?",
+          "text": "Erdgeschoss: Ausleihe und Rückgabe · Zeitungen und Zeitschriften · Café\n1. Stock: Romane und Krimis · Hörbücher\n2. Stock: Sachbücher (Geschichte, Natur, Technik) · Reiseführer\n3. Stock: Kinder- und Jugendbücher · Spiele\n4. Stock: Sprachen lernen · Filme auf DVD · Computerplätze mit Internet",
+          "questions": [
+            { "q": "Sie möchten ein Buch über die Geschichte der Schweiz.", "options": ["1. Stock", "2. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie möchten einen Krimi lesen.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 0 },
+            { "q": "Sie möchten ein Buch zurückbringen.", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 0 },
+            { "q": "Sie suchen ein Lehrbuch für Deutsch B1.", "options": ["2. Stock", "3. Stock", "4. Stock"], "answer": 2 },
+            { "q": "Sie fahren nach Italien und möchten einen Reiseführer.", "options": ["1. Stock", "2. Stock", "4. Stock"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Hallo Chiara,\n\nwie war dein Wochenende? Ich war am Samstag mit Paul im Theater – endlich! Wir hatten die Karten schon seit drei Monaten. Das Stück war eine moderne Komödie über eine verrückte Familie. Am Anfang war es ein bisschen langweilig, aber nach der Pause haben alle viel gelacht. Die Schauspieler waren toll! Nach dem Theater waren wir noch in einem kleinen italienischen Restaurant. Das musst du auch mal probieren.\nÜbrigens: Am Donnerstag zeigt das Kino Riffraff einen alten Film mit Sophia Loren. Wenn du Lust hast, können wir zusammen hingehen. Ich kaufe die Karten!\n\nLiebe Grüße\nMarta",
+          "questions": [
+            { "q": "Seit wann hatte Marta die Karten?", "options": ["seit drei Wochen", "seit drei Monaten", "seit Samstag"], "answer": 1 },
+            { "q": "Was für ein Stück war es?", "options": ["eine Komödie", "ein Krimi", "eine Oper"], "answer": 0 },
+            { "q": "Wie war der Anfang?", "options": ["sehr lustig", "etwas langweilig", "sehr spannend"], "answer": 1 },
+            { "q": "Was haben Marta und Paul nach dem Theater gemacht?", "options": ["Sie sind nach Hause gegangen.", "Sie haben gegessen.", "Sie waren im Kino."], "answer": 1 },
+            { "q": "Was schlägt Marta vor?", "options": ["Am Donnerstag ins Kino gehen", "Am Samstag ins Theater gehen", "Zusammen Pizza kochen"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Lieber Opa,\n\ndanke für dein Geburtstagsgeschenk! Mit dem Geld habe ich mir ein neues Tablet gekauft. Jetzt kann ich endlich mit dir und Oma Videoanrufe machen. Ich zeige euch, wie das geht, wenn ich euch nächsten Sonntag besuche. Es ist ganz einfach: Ihr braucht nur ein Handy mit Internet und eine kleine App. Dann können wir uns jede Woche sehen, auch wenn ich in Berlin studiere. Mama sagt, dass ihr nicht so gern mit Technik arbeitet. Aber keine Angst – ich habe viel Geduld!\nIch freue mich auf Sonntag und auf Omas Apfelkuchen.\n\nDein Jonas",
+          "questions": [
+            { "q": "Was hat Jonas vom Opa bekommen?", "options": ["ein Tablet", "Geld", "ein Handy"], "answer": 1 },
+            { "q": "Was möchte Jonas mit Oma und Opa machen?", "options": ["Videoanrufe", "Fotos posten", "Filme streamen"], "answer": 0 },
+            { "q": "Wann besucht Jonas die Großeltern?", "options": ["morgen", "nächsten Sonntag", "in Berlin"], "answer": 1 },
+            { "q": "Was brauchen die Großeltern?", "options": ["einen Computer", "ein Handy mit Internet und eine App", "ein neues Tablet"], "answer": 1 },
+            { "q": "Was sagt Jonas' Mutter über die Großeltern?", "options": ["Sie mögen Technik nicht so sehr.", "Sie haben kein Internet.", "Sie haben keine Zeit."], "answer": 0 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Chor „Stimmen der Welt“ sucht neue Sängerinnen und Sänger – Proben Mittwochabend." },
+            { "key": "b", "text": "Schachclub: Spielen Sie gegen Gegner aus der ganzen Stadt. Anfänger willkommen." },
+            { "key": "c", "text": "Filmclub: Jeden Freitag ein Klassiker, danach Diskussion bei einem Glas Wein." },
+            { "key": "d", "text": "Computerkurs 60+: Smartphone und Internet für Senioren, langsam und mit Geduld." },
+            { "key": "e", "text": "Kletterhalle: Klettern für Familien und Kinder ab 6 Jahren, Material kann man mieten." },
+            { "key": "f", "text": "Theatergruppe sucht Schauspieler/innen für ein neues Stück. Keine Erfahrung nötig." }
+          ],
+          "items": [
+            { "situation": "Frau Meier (72) möchte lernen, wie man Videoanrufe macht.", "answer": "d" },
+            { "situation": "Pablo singt gern und hat am Mittwochabend Zeit.", "answer": "a" },
+            { "situation": "Familie Huber sucht eine sportliche Aktivität für den Sonntag mit den Kindern.", "answer": "e" },
+            { "situation": "Lukas sieht gern alte Filme und spricht gern darüber.", "answer": "c" },
+            { "situation": "Anna möchte einen Kurs für Fotografie besuchen.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Hörbücher für unterwegs: über 1000 Titel, erster Monat gratis." },
+            { "key": "b", "text": "Lokalradio sucht Praktikanten für die Redaktion, ab September." },
+            { "key": "c", "text": "Gaming-Abend im Jugendzentrum: Jeden Samstag für Jugendliche 12–18." },
+            { "key": "d", "text": "Zeitung im Abo: 3 Monate digital zum halben Preis." },
+            { "key": "e", "text": "Handy kaputt? Reparatur in 1 Stunde – Display, Akku, Kamera." },
+            { "key": "f", "text": "Podcast-Workshop: Lernen Sie, Ihren eigenen Podcast zu machen. 2 Samstage." }
+          ],
+          "items": [
+            { "situation": "Maria fährt jeden Tag eine Stunde Zug und möchte Geschichten hören.", "answer": "a" },
+            { "situation": "Das Display von Toms Handy ist kaputt.", "answer": "e" },
+            { "situation": "Sara studiert Journalismus und sucht ein Praktikum.", "answer": "b" },
+            { "situation": "Herr Graf möchte die Nachrichten jeden Tag online lesen.", "answer": "d" },
+            { "situation": "Frau Lopes sucht einen Tanzkurs für Erwachsene.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wann beginnt der Film?", "options": ["um 20 Uhr", "um 20:15 Uhr", "um 20:30 Uhr"], "answer": 2,
+          "audio": [{ "v": "m1", "t": "Hallo Sara, hier ist Ben. Der Film beginnt heute nicht um zwanzig Uhr, sondern erst um halb neun. Treffen wir uns um zwanzig nach acht vor dem Kino? Bis später!" }]
+        },
+        {
+          "q": "Was gibt es heute Abend im Fernsehen?", "options": ["einen Krimi", "ein Fußballspiel", "einen Dokumentarfilm"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Liebe Zuschauerinnen und Zuschauer, wegen des Fußballspiels Schweiz gegen Italien zeigen wir heute Abend den Krimi nicht. Der Krimi kommt morgen um zwanzig Uhr fünfzehn." }]
+        },
+        {
+          "q": "Was kostet der Eintritt für Kinder?", "options": ["nichts", "5 Franken", "10 Franken"], "answer": 0,
+          "audio": [{ "v": "m2", "t": "Am Sonntag ist Familientag im Museum! Erwachsene bezahlen nur zehn Franken, Kinder unter sechzehn Jahren haben freien Eintritt." }]
+        },
+        {
+          "q": "Wohin soll Lisa gehen?", "options": ["zur Kasse", "zum Eingang", "in den Saal 2"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Hallo Lisa, hier ist Mama. Ich stehe schon am Eingang vom Theater, gleich neben der Kasse. Ich habe die Karten. Komm direkt zum Eingang, ja? Tschüss!" }]
+        },
+        {
+          "q": "Was ist am Freitag?", "options": ["ein Konzert", "eine Lesung", "ein Flohmarkt"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Die Stadtbibliothek lädt ein: Am Freitag um neunzehn Uhr liest der Autor Martin Suter aus seinem neuen Krimi. Der Eintritt kostet fünf Franken." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Nina und Tim. Sie planen das Wochenende. Was machen sie wann?",
+          "options": ["ins Kino gehen", "eine Serie schauen", "ins Museum gehen", "zum Konzert gehen", "Freunde treffen", "wandern", "ins Theater gehen", "lesen"],
+          "audio": [
+            { "v": "f1", "t": "Tim, was machen wir am Wochenende? Ich habe so viele Ideen!" },
+            { "v": "m1", "t": "Am Freitagabend bin ich müde. Da möchte ich nur auf dem Sofa liegen und die neue Folge von unserer Serie sehen." },
+            { "v": "f1", "t": "Okay. Und am Samstagvormittag? Im Kunstmuseum gibt es eine neue Ausstellung über Picasso." },
+            { "v": "m1", "t": "Gute Idee. Und am Samstagabend sind wir bei Anna und Max eingeladen, vergiss das nicht." },
+            { "v": "f1", "t": "Ach ja, stimmt! Und am Sonntag? Wenn das Wetter schön ist, könnten wir auf den Uetliberg wandern." },
+            { "v": "m1", "t": "Ja, am Sonntagvormittag. Und am Sonntagabend gehen wir ins Kino, ich habe schon Karten für den neuen Film mit Tom Hanks." }
+          ],
+          "items": [
+            { "q": "Freitagabend", "answer": 1 },
+            { "q": "Samstagvormittag", "answer": 2 },
+            { "q": "Samstagabend", "answer": 4 },
+            { "q": "Sonntagvormittag", "answer": 5 },
+            { "q": "Sonntagabend", "answer": 0 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch in einer Familie. Welche Medien nutzen die Familienmitglieder am meisten?",
+          "options": ["Zeitung", "Radio", "Fernsehen", "Podcasts", "Computerspiele", "Bücher", "soziale Netzwerke", "Hörbücher"],
+          "audio": [
+            { "v": "m2", "t": "Für die Schule müssen wir eine Umfrage machen: Welche Medien nutzt ihr am meisten? Papa?" },
+            { "v": "m1", "t": "Ich? Ich lese jeden Morgen die Zeitung, schon seit dreißig Jahren." },
+            { "v": "m2", "t": "Und du, Mama?" },
+            { "v": "f1", "t": "Ich höre beim Joggen und im Auto immer Podcasts, vor allem über Geschichte." },
+            { "v": "m2", "t": "Und Oma hört den ganzen Tag Radio, das weiß ich schon. Lena, und du?" },
+            { "v": "f2", "t": "Ich bin am meisten in den sozialen Netzwerken, Instagram und so." },
+            { "v": "m2", "t": "Und ich spiele am liebsten Computerspiele. Aber das schreibe ich nicht auf!" }
+          ],
+          "items": [
+            { "q": "Papa", "answer": 0 },
+            { "q": "Mama", "answer": 3 },
+            { "q": "Oma", "answer": 1 },
+            { "q": "Lena", "answer": 6 },
+            { "q": "der Sohn", "answer": 4 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wie fand die Frau den Film?", "options": ["spannend", "langweilig", "lustig"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Und, wie war der Film?" },
+            { "v": "f1", "t": "Ehrlich gesagt, total langweilig. Ich bin fast eingeschlafen." }
+          ]
+        },
+        {
+          "q": "Was macht der Mann, wenn er nicht schlafen kann?", "options": ["Er liest.", "Er hört Musik.", "Er schaut fern."], "answer": 0,
+          "audio": [
+            { "v": "f2", "t": "Was machst du, wenn du nicht schlafen kannst?" },
+            { "v": "m2", "t": "Ich lese ein Buch. Fernsehen macht mich nur noch wacher." }
+          ]
+        },
+        {
+          "q": "Wo hat die Frau von dem Konzert gehört?", "options": ["im Radio", "in der Zeitung", "von einer Freundin"], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Woher weißt du von dem Konzert?" },
+            { "v": "f1", "t": "Ich habe es heute Morgen im Radio gehört. Es gibt noch Karten!" }
+          ]
+        },
+        {
+          "q": "Was ist der Mann?", "options": ["Mitglied in einem Fußballverein", "Mitglied in einem Chor", "Mitglied in einem Schachclub"], "answer": 2,
+          "audio": [
+            { "v": "f2", "t": "Was machst du am Dienstagabend?" },
+            { "v": "m2", "t": "Da gehe ich immer in meinen Schachclub. Ich bin seit zehn Jahren Mitglied." }
+          ]
+        },
+        {
+          "q": "Was ist das Problem?", "options": ["Das Internet funktioniert nicht.", "Das Handy ist kaputt.", "Der Fernseher ist zu alt."], "answer": 0,
+          "audio": [
+            { "v": "f1", "t": "Ich kann die Serie nicht streamen." },
+            { "v": "m1", "t": "Ja, seit heute Morgen geht das Internet nicht. Ich rufe die Firma an." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit der YouTuberin Mia Steiner.",
+          "audio": [
+            { "v": "m1", "t": "Mia, du hast über 200 000 Abonnenten auf YouTube. Was machst du in deinen Videos?" },
+            { "v": "f2", "t": "Ich koche! Ich zeige einfache und günstige Rezepte für Studenten. Alles in maximal zwanzig Minuten." },
+            { "v": "m1", "t": "Wie hast du angefangen?" },
+            { "v": "f2", "t": "Vor vier Jahren, als Studentin. Ich hatte wenig Geld und habe meine Rezepte für Freunde gefilmt. Dann haben immer mehr Leute zugeschaut." },
+            { "v": "m1", "t": "Kannst du davon leben?" },
+            { "v": "f2", "t": "Seit einem Jahr ja. Vorher habe ich neben dem Studium in einem Café gearbeitet." },
+            { "v": "m1", "t": "Was ist schwierig an deinem Job?" },
+            { "v": "f2", "t": "Man arbeitet viel mehr, als man denkt. Für ein Video von zehn Minuten brauche ich einen ganzen Tag. Und manche Kommentare sind nicht sehr nett." }
+          ],
+          "statements": [
+            { "s": "Mia zeigt in ihren Videos Rezepte.", "answer": true },
+            { "s": "Ihre Rezepte sind teuer.", "answer": false },
+            { "s": "Sie hat als Studentin angefangen.", "answer": true },
+            { "s": "Sie arbeitet noch in einem Café.", "answer": false },
+            { "s": "Für ein Video braucht sie einen ganzen Tag.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit dem Bibliothekar Peter Arnold.",
+          "audio": [
+            { "v": "f1", "t": "Herr Arnold, gehen die Leute heute noch in die Bibliothek?" },
+            { "v": "m2", "t": "Ja, sogar mehr als früher! Aber sie kommen nicht nur, um Bücher auszuleihen." },
+            { "v": "f1", "t": "Sondern?" },
+            { "v": "m2", "t": "Viele Studenten kommen zum Lernen, weil es hier ruhig ist. Und ältere Leute lesen bei uns die Zeitung und trinken einen Kaffee." },
+            { "v": "f1", "t": "Was ist bei den Kindern am beliebtesten?" },
+            { "v": "m2", "t": "Die Comics! Und am Mittwochnachmittag lesen wir den Kindern Geschichten vor. Da kommen immer zwanzig oder dreißig Kinder." },
+            { "v": "f1", "t": "Kann man auch E-Books ausleihen?" },
+            { "v": "m2", "t": "Natürlich. Mit dem Bibliotheksausweis kann man E-Books und Hörbücher kostenlos herunterladen." }
+          ],
+          "statements": [
+            { "s": "Heute kommen weniger Leute in die Bibliothek als früher.", "answer": false },
+            { "s": "Studenten lernen gern in der Bibliothek.", "answer": true },
+            { "s": "Ältere Leute lesen in der Bibliothek die Zeitung.", "answer": true },
+            { "s": "Am Mittwochnachmittag gibt es ein Programm für Kinder.", "answer": true },
+            { "s": "E-Books kosten in der Bibliothek Geld.", "answer": false }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben zwei Karten für ein Konzert am Samstag. Schreiben Sie Ihrem Freund Luca eine SMS.",
+          "points": ["Laden Sie Luca ein.", "Was für ein Konzert ist es?", "Wann und wo treffen Sie sich?"],
+          "register": "informal (du)",
+          "model": "Hi Luca! Ich habe zwei Karten für ein Jazzkonzert am Samstag. Kommst du mit? Es spielt eine tolle Band aus Bern. Treffen wir uns um 19.30 Uhr vor dem Kulturzentrum? José"
+        },
+        {
+          "task": "Sie haben eine sehr gute Serie gesehen. Schreiben Sie Ihrer Freundin Emma eine SMS.",
+          "points": ["Wie heißt die Serie?", "Warum gefällt sie Ihnen?", "Wo kann Emma sie sehen?"],
+          "register": "informal (du)",
+          "model": "Hallo Emma! Du musst unbedingt „Babylon Berlin“ sehen. Das ist eine spannende Serie über Berlin in den 20er-Jahren. Die Musik ist super! Du findest sie auf Netflix. Laura"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie möchten in einem Sportverein mitmachen. Schreiben Sie an den Verein.",
+          "points": ["Welchen Sport möchten Sie machen?", "Haben Sie schon Erfahrung?", "Fragen Sie nach den Trainingszeiten und den Kosten."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich möchte gern in Ihrem Verein Volleyball spielen. Ich habe in Spanien fünf Jahre in einer Mannschaft gespielt. Wann ist das Training für Erwachsene und wie viel kostet die Mitgliedschaft?\n\nMit freundlichen Grüßen\nJosé López"
+        },
+        {
+          "task": "Sie haben im Kulturzentrum einen Workshop gebucht, aber Sie können nicht teilnehmen. Schreiben Sie an Frau Berger.",
+          "points": ["Welcher Workshop?", "Warum können Sie nicht kommen?", "Fragen Sie: Gibt es einen anderen Termin?"],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Berger,\n\nich habe mich für den Fotografie-Workshop am Donnerstag angemeldet. Leider kann ich nicht kommen, weil ich an diesem Abend arbeiten muss. Gibt es den Workshop auch an einem anderen Tag? Wenn nicht, möchte ich das Geld zurück.\n\nViele Grüße\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Freizeit und Medien", "word": "Serie", "question": "Welche Serie schaust du gerade?", "answer": "Ich schaue gerade eine spanische Krimiserie." },
+        { "theme": "Freizeit und Medien", "word": "Handy", "question": "Wie viele Stunden bist du am Tag am Handy?", "answer": "Ungefähr zwei Stunden, leider." },
+        { "theme": "Freizeit und Medien", "word": "Zeitung", "question": "Liest du Zeitung?", "answer": "Ja, aber nur online." },
+        { "theme": "Freizeit und Medien", "word": "Verein", "question": "Bist du Mitglied in einem Verein?", "answer": "Ja, in einem Wanderverein." },
+        { "theme": "Freizeit und Medien", "word": "Wochenende", "question": "Was machst du, wenn das Wetter schlecht ist?", "answer": "Dann lese ich oder ich gehe ins Kino." },
+        { "theme": "Freizeit und Medien", "word": "Buch", "question": "Was liest du gerade?", "answer": "Einen spannenden Roman von Martin Suter." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Was machen Sie in Ihrer Freizeit?",
+          "prompts": ["Unter der Woche?", "Am Wochenende?", "Allein / mit Freunden?", "Wenn das Wetter schlecht ist?"],
+          "model": [{ "v": "m1", "t": "Unter der Woche habe ich nicht viel Freizeit. Abends koche ich und manchmal schaue ich eine Serie. Am Wochenende gehe ich gern wandern, am liebsten in den Bergen. Meistens gehe ich mit meiner Partnerin oder mit Freunden. Wenn das Wetter schlecht ist, gehen wir ins Kino oder in ein Museum. Ich lese auch gern, vor allem spannende Krimis." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Welche Medien nutzen Sie?",
+          "prompts": ["Handy?", "Fernsehen?", "Zeitung / Radio?", "Vorteile / Nachteile?"],
+          "model": [{ "v": "f1", "t": "Ich nutze vor allem mein Handy: für Nachrichten, für WhatsApp mit meiner Familie in Spanien und für Musik. Fernsehen schaue ich nur selten, lieber streame ich Filme. Die Zeitung lese ich online, und im Auto höre ich Radio. Ein Vorteil vom Internet ist, dass man immer mit der Familie sprechen kann. Ein Nachteil ist, dass man zu viel Zeit am Handy verbringt." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie möchten mit Ihrem Partner / Ihrer Partnerin ins Kino gehen. Der Film läuft am Freitag um 18 Uhr und 21 Uhr, am Samstag um 15 Uhr und 20 Uhr. Finden Sie eine Vorstellung.",
+          "mine": ["Freitag: bis 18 Uhr Arbeit", "Freitag Abend: frei", "Samstag: 14–17 Uhr Geburtstag Neffe", "Samstag Abend: frei"],
+          "partner": ["Freitag: frei", "Freitag ab 20 Uhr: Abendessen mit Kollegen", "Samstag: bis 16 Uhr frei", "Samstag ab 19 Uhr: Theater"],
+          "model": [
+            { "v": "f1", "t": "Wann gehen wir ins Kino? Am Freitag um sechs?" },
+            { "v": "m1", "t": "Da arbeite ich noch. Aber um neun Uhr hätte ich Zeit." },
+            { "v": "f1", "t": "Freitag ab acht esse ich mit Kollegen. Und am Samstag um drei?" },
+            { "v": "m1", "t": "Samstagnachmittag hat mein Neffe Geburtstag. Und um acht?" },
+            { "v": "f1", "t": "Da bin ich im Theater. Hm, schwierig! Vielleicht kann ich das Abendessen am Freitag früher beenden. Dann gehen wir am Freitag um neun." },
+            { "v": "m1", "t": "Super, ich kaufe die Karten." }
+          ]
+        },
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen einen Kochkurs besuchen. Es gibt Kurse am Dienstag, Mittwoch und Donnerstag, jeweils 18–21 Uhr. Finden Sie einen Tag.",
+          "mine": ["Dienstag: 19 Uhr Chor", "Mittwoch: frei", "Donnerstag: bis 19 Uhr Arbeit"],
+          "partner": ["Dienstag: frei", "Mittwoch: 18 Uhr Elternabend", "Donnerstag: frei"],
+          "model": [
+            { "v": "m2", "t": "Welcher Tag passt dir? Dienstag?" },
+            { "v": "f2", "t": "Am Dienstag singe ich im Chor. Mittwoch habe ich frei." },
+            { "v": "m2", "t": "Mittwoch habe ich einen Elternabend in der Schule. Und Donnerstag?" },
+            { "v": "f2", "t": "Donnerstag arbeite ich bis sieben, der Kurs beginnt um sechs. Das geht leider nicht." },
+            { "v": "m2", "t": "Dann frage ich, ob ich den Elternabend verschieben kann. Dann nehmen wir den Mittwoch." },
+            { "v": "f2", "t": "Gute Idee!" }
+          ]
+        }
+      ]
+    }
+  }
+}
