@@ -1,0 +1,573 @@
+{
+  "id": "a2-t01",
+  "level": "a2",
+  "topic": "t01",
+  "title": "Mi historia",
+  "title_de": "Lebensgeschichten",
+  "goals": [
+    "Contar tu biografía: nacimiento, infancia, estudios, trabajo, mudanzas",
+    "Elegir bien entre haben y sein en el Perfekt",
+    "Usar los participios irregulares más frecuentes",
+    "Usar el Präteritum de los modales: konnte, musste, wollte, durfte, sollte, mochte",
+    "Situar hechos en el tiempo: früher, damals, vor, seit, mit 18 Jahren",
+    "Entender entrevistas y textos biográficos"
+  ],
+  "vocab": [
+    { "de": "das Leben", "es": "la vida", "cat": "Biografía", "ex": "Erzählen Sie von Ihrem Leben.", "ex_es": "Hable de su vida." },
+    { "de": "geboren sein", "es": "haber nacido", "cat": "Biografía", "forms": "ich bin geboren", "ex": "Ich bin 1998 in Granada geboren.", "ex_es": "Nací en 1998 en Granada." },
+    { "de": "aufwachsen", "es": "crecer, criarse", "cat": "Biografía", "forms": "er wächst auf, ist aufgewachsen", "ex": "Ich bin auf dem Land aufgewachsen.", "ex_es": "Me crié en el campo." },
+    { "de": "die Kindheit", "es": "la infancia", "cat": "Biografía", "ex": "Ich hatte eine schöne Kindheit.", "ex_es": "Tuve una infancia bonita." },
+    { "de": "die Jugend", "es": "la juventud", "cat": "Biografía", "ex": "In meiner Jugend habe ich viel Sport gemacht.", "ex_es": "En mi juventud hice mucho deporte." },
+    { "de": "das Dorf", "pl": "die Dörfer", "es": "el pueblo", "cat": "Biografía", "ex": "Das Dorf hat nur 1000 Einwohner.", "ex_es": "El pueblo solo tiene 1000 habitantes." },
+    { "de": "die Schule", "pl": "die Schulen", "es": "el colegio, la escuela", "cat": "Estudios", "ex": "Mit sechs bin ich in die Schule gekommen.", "ex_es": "Con seis años empecé el colegio." },
+    { "de": "das Abitur", "es": "el bachillerato (examen final)", "cat": "Estudios", "ex": "Sie hat 2016 Abitur gemacht.", "ex_es": "Terminó el bachillerato en 2016." },
+    { "de": "das Studium", "pl": "die Studien", "es": "la carrera, los estudios universitarios", "cat": "Estudios", "ex": "Nach dem Studium habe ich in Madrid gearbeitet.", "ex_es": "Después de la carrera trabajé en Madrid." },
+    { "de": "die Universität / die Uni", "pl": "die Universitäten", "es": "la universidad", "cat": "Estudios", "ex": "Er studiert an der Uni Zürich.", "ex_es": "Estudia en la Universidad de Zúrich." },
+    { "de": "der Abschluss", "pl": "die Abschlüsse", "es": "el título, la graduación", "cat": "Estudios", "ex": "Welchen Abschluss haben Sie?", "ex_es": "¿Qué titulación tiene?" },
+    { "de": "die Prüfung", "pl": "die Prüfungen", "es": "el examen", "cat": "Estudios", "ex": "Ich habe die Prüfung bestanden.", "ex_es": "He aprobado el examen." },
+    { "de": "bestehen", "es": "aprobar (un examen)", "cat": "Estudios", "forms": "er besteht, hat bestanden", "ex": "Hast du die Prüfung bestanden?", "ex_es": "¿Has aprobado el examen?" },
+    { "de": "die Stelle", "pl": "die Stellen", "es": "el puesto de trabajo", "cat": "Trabajo", "ex": "Ich habe eine neue Stelle gefunden.", "ex_es": "He encontrado un nuevo puesto." },
+    { "de": "anfangen", "es": "empezar", "cat": "Trabajo", "forms": "er fängt an, hat angefangen", "ex": "2022 habe ich mit der Arbeit angefangen.", "ex_es": "En 2022 empecé a trabajar." },
+    { "de": "der Umzug", "pl": "die Umzüge", "es": "la mudanza", "cat": "Mudanzas", "ex": "Der Umzug war sehr anstrengend.", "ex_es": "La mudanza fue agotadora." },
+    { "de": "umziehen", "es": "mudarse", "cat": "Mudanzas", "forms": "er zieht um, ist umgezogen", "ex": "Wir sind letztes Jahr umgezogen.", "ex_es": "Nos mudamos el año pasado." },
+    { "de": "ziehen (nach)", "es": "mudarse (a)", "cat": "Mudanzas", "forms": "er zieht, ist gezogen", "ex": "Sie ist nach Berlin gezogen.", "ex_es": "Se mudó a Berlín." },
+    { "de": "das Ausland", "es": "el extranjero", "cat": "Mudanzas", "ex": "Ich habe zwei Jahre im Ausland gelebt.", "ex_es": "Viví dos años en el extranjero." },
+    { "de": "kennenlernen", "es": "conocer (por primera vez)", "cat": "Relaciones", "forms": "er lernt kennen, hat kennengelernt", "ex": "Wo habt ihr euch kennengelernt?", "ex_es": "¿Dónde os conocisteis?" },
+    { "de": "heiraten", "es": "casarse", "cat": "Relaciones", "forms": "er heiratet, hat geheiratet", "ex": "Sie haben im Mai geheiratet.", "ex_es": "Se casaron en mayo." },
+    { "de": "sich trennen", "es": "separarse", "cat": "Relaciones", "forms": "er trennt sich, hat sich getrennt", "ex": "Meine Eltern haben sich getrennt.", "ex_es": "Mis padres se separaron." },
+    { "de": "ein Kind bekommen", "es": "tener un hijo", "cat": "Relaciones", "forms": "hat bekommen", "ex": "2021 haben wir ein Kind bekommen.", "ex_es": "En 2021 tuvimos un hijo." },
+    { "de": "sterben", "es": "morir", "cat": "Relaciones", "forms": "er stirbt, ist gestorben", "ex": "Mein Großvater ist vor zwei Jahren gestorben.", "ex_es": "Mi abuelo murió hace dos años." },
+    { "de": "werden", "es": "llegar a ser, convertirse en", "cat": "Verbos", "forms": "er wird, ist geworden", "ex": "Sie ist Ärztin geworden.", "ex_es": "Se hizo médica." },
+    { "de": "erzählen", "es": "contar, narrar", "cat": "Verbos", "forms": "er erzählt, hat erzählt", "ex": "Erzähl mal von deiner Kindheit!", "ex_es": "¡Cuéntame de tu infancia!" },
+    { "de": "erleben", "es": "vivir (una experiencia)", "cat": "Verbos", "forms": "er erlebt, hat erlebt", "ex": "Ich habe viel erlebt.", "ex_es": "He vivido muchas cosas." },
+    { "de": "verlieren", "es": "perder", "cat": "Verbos", "forms": "er verliert, hat verloren", "ex": "Ich habe meinen Pass verloren.", "ex_es": "He perdido el pasaporte." },
+    { "de": "vergessen", "es": "olvidar", "cat": "Verbos", "forms": "er vergisst, hat vergessen", "ex": "Das habe ich nie vergessen.", "ex_es": "Eso nunca lo olvidé." },
+    { "de": "sich erinnern (an)", "es": "acordarse (de)", "cat": "Verbos", "forms": "er erinnert sich, hat sich erinnert", "ex": "Ich erinnere mich gut an meine Schulzeit.", "ex_es": "Me acuerdo bien de mi época de colegio." },
+    { "de": "sollen", "es": "deber (por encargo de otro)", "cat": "Modales", "forms": "ich soll, er soll; Prät. sollte", "ex": "Ich soll den Chef anrufen.", "ex_es": "Tengo que llamar al jefe (me lo han pedido)." },
+    { "de": "konnte", "es": "podía, sabía (Prät. de können)", "cat": "Modales", "ex": "Als Kind konnte ich nicht schwimmen.", "ex_es": "De niño no sabía nadar." },
+    { "de": "musste", "es": "tenía que (Prät. de müssen)", "cat": "Modales", "ex": "Ich musste früh aufstehen.", "ex_es": "Tenía que levantarme temprano." },
+    { "de": "wollte", "es": "quería (Prät. de wollen)", "cat": "Modales", "ex": "Ich wollte Pilot werden.", "ex_es": "Quería ser piloto." },
+    { "de": "durfte", "es": "podía, tenía permiso (Prät. de dürfen)", "cat": "Modales", "ex": "Wir durften lange aufbleiben.", "ex_es": "Podíamos quedarnos despiertos hasta tarde." },
+    { "de": "früher", "es": "antes, en el pasado", "cat": "Tiempo", "ex": "Früher habe ich geraucht.", "ex_es": "Antes fumaba." },
+    { "de": "damals", "es": "entonces, en aquella época", "cat": "Tiempo", "ex": "Damals gab es noch keine Handys.", "ex_es": "Entonces aún no había móviles." },
+    { "de": "als Kind", "es": "de niño/a", "cat": "Tiempo", "ex": "Als Kind war ich oft krank.", "ex_es": "De niño estaba enfermo a menudo." },
+    { "de": "später", "es": "más tarde", "cat": "Tiempo", "ex": "Später bin ich nach Bern gezogen.", "ex_es": "Más tarde me mudé a Berna." },
+    { "de": "am Anfang", "es": "al principio", "cat": "Tiempo", "ex": "Am Anfang war alles schwer.", "ex_es": "Al principio todo era difícil." },
+    { "de": "schüchtern", "es": "tímido", "cat": "Adjetivos", "ex": "Als Kind war ich sehr schüchtern.", "ex_es": "De niño era muy tímido." },
+    { "de": "streng", "es": "estricto", "cat": "Adjetivos", "ex": "Meine Lehrerin war sehr streng.", "ex_es": "Mi profesora era muy estricta." },
+    { "de": "anstrengend", "es": "agotador", "cat": "Adjetivos", "ex": "Das Studium war anstrengend.", "ex_es": "La carrera fue agotadora." },
+    { "de": "glücklich", "es": "feliz", "cat": "Adjetivos", "ex": "Ich war ein glückliches Kind.", "ex_es": "Fui un niño feliz." },
+    { "de": "das Haustier", "pl": "die Haustiere", "es": "la mascota", "cat": "Adjetivos", "ex": "Hattest du als Kind ein Haustier?", "ex_es": "¿Tenías mascota de niño?" }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Etapas de la vida",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["aufwachsen", "crecer, criarse"],
+        ["umziehen", "mudarse"],
+        ["kennenlernen", "conocer (por primera vez)"],
+        ["heiraten", "casarse"],
+        ["die Kindheit", "la infancia"],
+        ["das Ausland", "el extranjero"],
+        ["bestehen", "aprobar"],
+        ["damals", "en aquella época"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿haben o sein?",
+      "instructions": "Elige el auxiliar correcto.",
+      "items": [
+        { "q": "Ich ___ in einem kleinen Dorf aufgewachsen.", "options": ["habe", "bin"], "answer": 1 },
+        { "q": "Wir ___ 2020 geheiratet.", "options": ["haben", "sind"], "answer": 0 },
+        { "q": "Sie ___ nach Wien umgezogen.", "options": ["hat", "ist"], "answer": 1 },
+        { "q": "Er ___ Lehrer geworden.", "options": ["hat", "ist"], "answer": 1 },
+        { "q": "Ich ___ meinen Mann im Urlaub kennengelernt.", "options": ["habe", "bin"], "answer": 0 },
+        { "q": "Mein Opa ___ 2019 gestorben.", "options": ["hat", "ist"], "answer": 1 },
+        { "q": "___ du die Prüfung bestanden?", "options": ["Hast", "Bist"], "answer": 0 },
+        { "q": "Wir ___ zwei Jahre in Italien geblieben.", "options": ["haben", "sind"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Participios irregulares",
+      "instructions": "Escribe el participio del verbo entre paréntesis.",
+      "items": [
+        { "text": "Ich habe 2018 mit dem Studium [[angefangen]]. (anfangen)" },
+        { "text": "Sie hat ihren Schlüssel [[verloren]]. (verlieren)" },
+        { "text": "Wir haben eine schöne Wohnung [[gefunden]]. (finden)" },
+        { "text": "Er ist in Österreich [[aufgewachsen]]. (aufwachsen)" },
+        { "text": "Hast du die Prüfung [[bestanden]]? (bestehen)" },
+        { "text": "Ich habe dir ein Geschenk [[mitgebracht]]. (mitbringen)" },
+        { "text": "Sie ist 2023 nach Basel [[umgezogen]]. (umziehen)" },
+        { "text": "Das habe ich nicht [[gewusst]]. (wissen)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "Modales en Präteritum",
+      "instructions": "Escribe el modal en Präteritum.",
+      "items": [
+        { "text": "Als Kind [[konnte]] ich nicht schwimmen. (können)" },
+        { "text": "Wir [[mussten]] jeden Tag um sieben aufstehen. (müssen)" },
+        { "text": "Ich [[wollte]] immer Ärztin werden. (wollen)" },
+        { "text": "Die Kinder [[durften]] abends nicht fernsehen. (dürfen)" },
+        { "text": "[[Konntest]] du gestern nicht kommen? (können)" },
+        { "text": "Früher [[mochte]] ich keinen Käse. (mögen)" },
+        { "text": "Er [[sollte]] um acht Uhr im Büro sein. (sollen)" },
+        { "text": "Ihr [[musstet]] nicht arbeiten, oder? (müssen)" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "¿Perfekt o Präteritum?",
+      "instructions": "Elige la forma más natural al hablar.",
+      "items": [
+        { "q": "De niño no podía salir solo.", "options": ["Als Kind habe ich nicht allein ausgehen gekonnt.", "Als Kind konnte ich nicht allein ausgehen."], "answer": 1 },
+        { "q": "Ayer estuve en el médico.", "options": ["Gestern war ich beim Arzt.", "Gestern bin ich beim Arzt gewesen gehabt."], "answer": 0 },
+        { "q": "El sábado visité a mi abuela.", "options": ["Am Samstag besuchte ich meine Oma.", "Am Samstag habe ich meine Oma besucht."], "answer": 1, "explain": "Al hablar, los verbos normales van en Perfekt; el Präteritum de besuchen suena a texto escrito." },
+        { "q": "Tenía que trabajar mucho.", "options": ["Ich musste viel arbeiten.", "Ich müsste viel arbeiten."], "answer": 0, "explain": "musste = tenía que; müsste (con diéresis) = tendría que." },
+        { "q": "No tenía tiempo.", "options": ["Ich hatte keine Zeit.", "Ich habe keine Zeit gehabt gehabt."], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "Biografía",
+      "instructions": "Ordena la frase.",
+      "items": [
+        { "words": ["Ich", "bin", "1998", "in", "Granada", "geboren", "."], "answers": ["Ich bin 1998 in Granada geboren.", "1998 bin ich in Granada geboren."] },
+        { "words": ["Mit", "18", "bin", "ich", "nach", "Madrid", "gezogen", "."], "answers": ["Mit 18 bin ich nach Madrid gezogen.", "Ich bin mit 18 nach Madrid gezogen."] },
+        { "words": ["Als", "Kind", "konnte", "ich", "nicht", "schwimmen", "."], "answers": ["Als Kind konnte ich nicht schwimmen.", "Ich konnte als Kind nicht schwimmen."] },
+        { "words": ["Wo", "habt", "ihr", "euch", "kennengelernt", "?"], "answers": ["Wo habt ihr euch kennengelernt?"] },
+        { "words": ["Nach", "dem", "Studium", "habe", "ich", "eine", "Stelle", "gefunden", "."], "answers": ["Nach dem Studium habe ich eine Stelle gefunden.", "Ich habe nach dem Studium eine Stelle gefunden."] },
+        { "words": ["Ich", "wollte", "immer", "Pilot", "werden", "."], "answers": ["Ich wollte immer Pilot werden."] }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "gap",
+      "title": "vor, seit, mit, von … bis",
+      "instructions": "Completa con vor, seit, mit, von o bis.",
+      "items": [
+        { "text": "Ich habe [[vor]] zehn Jahren Abitur gemacht. (hace)" },
+        { "text": "Ich wohne [[seit]] 2025 in Zürich. (desde)" },
+        { "text": "[[Mit]] sechs Jahren bin ich in die Schule gekommen. (a los)" },
+        { "text": "Ich habe [[von]] 2016 [[bis]] 2020 studiert." },
+        { "text": "Wir sind [[seit]] fünf Jahren verheiratet. (desde hace)" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "Biografías cortas",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [{ "v": "f1", "t": "Ich bin in Hamburg geboren, aber ich bin in München aufgewachsen. Mit zwanzig bin ich nach Wien gezogen." }],
+          "q": "¿Dónde creció la mujer?", "options": ["En Hamburgo", "En Múnich", "En Viena"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Wolltest du als Kind auch Lehrer werden?" },
+            { "v": "m2", "t": "Nein, ich wollte Pilot werden. Aber ich hatte schlechte Augen." }
+          ],
+          "q": "¿Qué quería ser de niño?", "options": ["Profesor", "Piloto", "Médico"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Wann habt ihr geheiratet?" },
+            { "v": "f1", "t": "Vor drei Jahren. Kennengelernt haben wir uns schon im Studium." }
+          ],
+          "q": "¿Cuándo se casaron?", "options": ["Hace tres años", "Durante la carrera", "Hace trece años"], "answer": 0
+        },
+        {
+          "audio": [{ "v": "m1", "t": "Als Kind musste ich jeden Tag zwei Stunden Klavier üben. Ich durfte erst danach spielen." }],
+          "q": "¿Qué tenía que hacer de niño?", "options": ["Estudiar dos horas", "Practicar piano", "Ayudar en casa"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Seit wann wohnst du in der Schweiz?" },
+            { "v": "f2", "t": "Seit vier Jahren. Vorher habe ich zwei Jahre in Frankreich gelebt." }
+          ],
+          "q": "¿Cuánto tiempo vivió en Francia?", "options": ["Cuatro años", "Dos años", "Seis años"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich bin auf dem Land aufgewachsen." }], "answers": ["Ich bin auf dem Land aufgewachsen."] },
+        { "audio": [{ "v": "m1", "t": "Als Kind konnte ich nicht schwimmen." }], "answers": ["Als Kind konnte ich nicht schwimmen."] },
+        { "audio": [{ "v": "f2", "t": "Wir sind letztes Jahr umgezogen." }], "answers": ["Wir sind letztes Jahr umgezogen."] },
+        { "audio": [{ "v": "m2", "t": "Ich musste viel lernen." }], "answers": ["Ich musste viel lernen."] },
+        { "audio": [{ "v": "f1", "t": "Sie hat die Prüfung bestanden." }], "answers": ["Sie hat die Prüfung bestanden."] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Nací en 1995 en Sevilla.", "answers": ["Ich bin 1995 in Sevilla geboren.", "1995 bin ich in Sevilla geboren."] },
+        { "prompt": "Crecí en un pueblo.", "answers": ["Ich bin in einem Dorf aufgewachsen."] },
+        { "prompt": "De niño quería ser médico.", "answers": ["Als Kind wollte ich Arzt werden.", "Ich wollte als Kind Arzt werden."] },
+        { "prompt": "Me mudé a Suiza hace dos años.", "answers": ["Ich bin vor zwei Jahren in die Schweiz gezogen.", "Ich bin vor zwei Jahren in die Schweiz umgezogen.", "Vor zwei Jahren bin ich in die Schweiz gezogen.", "Vor zwei Jahren bin ich in die Schweiz umgezogen."] },
+        { "prompt": "Tenía que trabajar los fines de semana.", "answers": ["Ich musste am Wochenende arbeiten.", "Am Wochenende musste ich arbeiten."] },
+        { "prompt": "Conocí a mi mujer en Madrid.", "answers": ["Ich habe meine Frau in Madrid kennengelernt."] },
+        { "prompt": "Vivo en Zúrich desde hace un año.", "answers": ["Ich wohne seit einem Jahr in Zürich.", "Seit einem Jahr wohne ich in Zürich."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Von Lima nach Luzern",
+          "text": "Carla Rojas ist 34 Jahre alt und kommt aus Peru. Sie ist in Lima aufgewachsen und hat dort Tourismus studiert. „Schon als Kind wollte ich die Welt sehen“, erzählt sie. Nach dem Studium hat sie zwei Jahre in einem Hotel in Madrid gearbeitet. Dort hat sie ihren Mann Jonas kennengelernt, einen Schweizer. 2019 sind die beiden nach Luzern gezogen. Am Anfang war es nicht leicht: Carla konnte kein Deutsch und hat lange keine Stelle gefunden. „Ich musste jeden Tag lernen, morgens im Kurs und abends zu Hause.“ Heute arbeitet sie an der Rezeption eines großen Hotels am See. Sie spricht Spanisch, Englisch und Deutsch – und jetzt lernt sie auch noch Französisch.",
+          "questions": [
+            { "q": "Carla hat in Lima …", "options": ["Tourismus studiert.", "in einem Hotel gearbeitet.", "ihren Mann kennengelernt."], "answer": 0 },
+            { "q": "Ihren Mann hat Carla …", "options": ["in Luzern kennengelernt.", "in Madrid kennengelernt.", "im Studium kennengelernt."], "answer": 1 },
+            { "q": "Am Anfang in Luzern …", "options": ["hat Carla sofort eine Stelle gefunden.", "konnte Carla schon gut Deutsch.", "hatte Carla keine Arbeit."], "answer": 2 },
+            { "q": "Heute arbeitet Carla …", "options": ["in einer Sprachschule.", "in einem Hotel.", "in einem Reisebüro."], "answer": 1 },
+            { "q": "Welche Sprache lernt Carla jetzt?", "options": ["Deutsch", "Englisch", "Französisch"], "answer": 2 }
+          ]
+        },
+        {
+          "title": "Mit 70 an die Uni",
+          "text": "Helmut Brandt aus Graz ist 72 Jahre alt – und Student. Früher war er Mechaniker. „Ich wollte immer studieren, aber das war damals nicht möglich“, sagt er. „Meine Familie hatte wenig Geld und ich musste mit 15 arbeiten.“ Als Rentner hat er endlich Zeit. Vor zwei Jahren hat er mit einem Geschichtsstudium angefangen. Dreimal pro Woche fährt er mit dem Fahrrad zur Universität. Die jungen Studenten finden ihn toll: Er erzählt oft von seinem Leben und von der Zeit nach dem Krieg. Seine Prüfungen hat er alle bestanden. Sein Traum: In vier Jahren möchte er seinen Abschluss machen.",
+          "questions": [
+            { "q": "Was war Herr Brandt von Beruf?", "options": ["Lehrer", "Mechaniker", "Student"], "answer": 1 },
+            { "q": "Warum konnte er früher nicht studieren?", "options": ["Er hatte keine Lust.", "Er war krank.", "Er musste Geld verdienen."], "answer": 2 },
+            { "q": "Wann hat er mit dem Studium angefangen?", "options": ["vor zwei Jahren", "vor vier Jahren", "mit 15 Jahren"], "answer": 0 },
+            { "q": "Die jungen Studenten …", "options": ["mögen ihn.", "helfen ihm bei den Prüfungen.", "fahren mit ihm Fahrrad."], "answer": 0 },
+            { "q": "Was möchte Herr Brandt?", "options": ["wieder als Mechaniker arbeiten", "einen Abschluss machen", "ein Buch schreiben"], "answer": 1 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Volkshochschule Bern – Wegweiser",
+          "text": "Erdgeschoss: Anmeldung und Information · Cafeteria · Kinderbetreuung\n1. Stock: Deutschkurse A1–A2 · Integrationskurse\n2. Stock: Deutschkurse B1–C1 · Prüfungszentrum (Goethe, telc)\n3. Stock: Computerkurse · Bewerbungstraining\n4. Stock: Kochen · Tanzen · Yoga\nUntergeschoss: Bibliothek und Lernzentrum (Selbstlernen)",
+          "questions": [
+            { "q": "Sie möchten sich für einen Kurs anmelden. Wohin gehen Sie?", "options": ["Erdgeschoss", "1. Stock", "2. Stock"], "answer": 0 },
+            { "q": "Sie möchten die Goethe-Prüfung B1 machen. Wohin gehen Sie?", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 1 },
+            { "q": "Sie brauchen Hilfe für Ihren Lebenslauf. Wohin gehen Sie?", "options": ["Erdgeschoss", "3. Stock", "Untergeschoss"], "answer": 1 },
+            { "q": "Sie möchten allein mit Büchern lernen. Wohin gehen Sie?", "options": ["Untergeschoss", "2. Stock", "4. Stock"], "answer": 0 },
+            { "q": "Sie haben ein kleines Kind. Jemand soll während des Kurses auf das Kind aufpassen. Wohin gehen Sie?", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Stadtmuseum – Ausstellung „100 Jahre Leben in unserer Stadt“",
+          "text": "Saal 1: Kindheit früher – Spielzeug und Schule von 1920 bis 1960\nSaal 2: Arbeit und Beruf – Fabriken, Handwerk, Büro\nSaal 3: Liebe und Familie – Hochzeitsfotos und Familienfeste\nSaal 4: Migration – Menschen aus aller Welt erzählen ihre Geschichte\nSaal 5: Kino – Filme über unsere Stadt (stündlich)\nMuseumsshop und Café: Eingang",
+          "questions": [
+            { "q": "Sie möchten alte Hochzeitsfotos sehen. In welchen Saal gehen Sie?", "options": ["Saal 1", "Saal 3", "Saal 4"], "answer": 1 },
+            { "q": "Sie interessieren sich für alte Schulen. In welchen Saal gehen Sie?", "options": ["Saal 1", "Saal 2", "Saal 5"], "answer": 0 },
+            { "q": "Sie möchten Geschichten von Menschen aus anderen Ländern hören.", "options": ["Saal 2", "Saal 4", "Saal 5"], "answer": 1 },
+            { "q": "Sie möchten ein Buch über die Ausstellung kaufen.", "options": ["Saal 5", "Saal 3", "Eingang"], "answer": 2 },
+            { "q": "Sie möchten wissen, wie die Menschen früher gearbeitet haben.", "options": ["Saal 2", "Saal 3", "Saal 4"], "answer": 0 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Liebe Tante Rosa,\n\nwie geht es dir? Ich habe lange nicht geschrieben, entschuldige! Die letzten Monate waren sehr anstrengend: Im Juni habe ich mein Studium abgeschlossen – endlich! Dann musste ich eine Wohnung suchen, denn ich habe eine Stelle in Basel bekommen. Am 1. September bin ich umgezogen. Die Wohnung ist klein, aber sie hat einen Balkon und ich kann zu Fuß zur Arbeit gehen. Meine Kollegen sind sehr nett. Nur mit dem Schweizerdeutsch habe ich noch Probleme – am Anfang konnte ich fast nichts verstehen!\nWeihnachten komme ich nach Hause. Kommst du auch zu Mama und Papa? Ich möchte dir dann alle Fotos zeigen.\n\nViele Grüße\ndeine Lena",
+          "questions": [
+            { "q": "Lena hat …", "options": ["im Juni ihr Studium beendet.", "im Juni eine Wohnung gefunden.", "im September Ferien gemacht."], "answer": 0 },
+            { "q": "Warum ist Lena nach Basel gezogen?", "options": ["Sie studiert dort.", "Sie hat dort eine Arbeit.", "Ihre Eltern wohnen dort."], "answer": 1 },
+            { "q": "Die Wohnung …", "options": ["ist groß.", "hat einen Balkon.", "ist weit von der Arbeit."], "answer": 1 },
+            { "q": "Was war am Anfang schwer?", "options": ["die Kollegen", "die Arbeit", "die Sprache"], "answer": 2 },
+            { "q": "Was möchte Lena an Weihnachten machen?", "options": ["Fotos zeigen", "Tante Rosa in Basel besuchen", "in Basel bleiben"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Hallo Sven,\n\nstell dir vor: Gestern habe ich auf dem Markt Maria getroffen – du weißt schon, Maria aus unserer Schulklasse! Wir haben uns seit fünfzehn Jahren nicht gesehen. Sie hat mir viel erzählt: Nach der Schule ist sie nach Kanada gegangen und hat dort Medizin studiert. Jetzt ist sie Kinderärztin und arbeitet seit drei Monaten wieder hier im Krankenhaus. Sie ist verheiratet und hat zwei Töchter. Wir wollten zusammen einen Kaffee trinken, aber sie hatte keine Zeit, sie musste ihre Kinder abholen. Am Samstag machen wir ein Klassentreffen bei mir. Kommst du auch? Bring bitte die alten Fotos mit!\n\nBis bald\nTim",
+          "questions": [
+            { "q": "Tim hat Maria …", "options": ["im Krankenhaus getroffen.", "auf dem Markt getroffen.", "in Kanada besucht."], "answer": 1 },
+            { "q": "Maria hat …", "options": ["in Kanada studiert.", "hier Medizin studiert.", "fünfzehn Jahre in Kanada gearbeitet."], "answer": 0 },
+            { "q": "Maria arbeitet …", "options": ["seit drei Monaten hier.", "seit fünfzehn Jahren hier.", "noch in Kanada."], "answer": 0 },
+            { "q": "Warum haben Tim und Maria keinen Kaffee getrunken?", "options": ["Tim musste arbeiten.", "Maria musste zu ihren Kindern.", "Das Café war geschlossen."], "answer": 1 },
+            { "q": "Was soll Sven am Samstag mitbringen?", "options": ["einen Kuchen", "Fotos", "seine Kinder"], "answer": 1 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Erzählcafé im Seniorenzentrum: Ältere Menschen erzählen aus ihrem Leben. Jeden Donnerstag 15 Uhr, Eintritt frei." },
+            { "key": "b", "text": "Schreibwerkstatt „Mein Leben“: Wir schreiben unsere Biografie. Kurs für Erwachsene, 6 Abende, 120 Fr." },
+            { "key": "c", "text": "Umzugsfirma Blitz: Wir bringen Ihre Möbel sicher in die neue Wohnung – in der ganzen Schweiz." },
+            { "key": "d", "text": "Klassentreffen organisieren? Wir finden Ihre alten Schulfreunde! www.schulfreunde-finden.ch" },
+            { "key": "e", "text": "Hochzeitsfotograf Meier: Schöne Fotos für Ihren großen Tag. Termine ab Mai frei." },
+            { "key": "f", "text": "Familienforschung: Wir suchen Ihre Großeltern und Urgroßeltern in alten Archiven." }
+          ],
+          "items": [
+            { "situation": "Martina möchte wissen, woher ihre Urgroßeltern kommen.", "answer": "f" },
+            { "situation": "Herr Keller möchte seine Lebensgeschichte aufschreiben.", "answer": "b" },
+            { "situation": "Paul zieht nach Genf und braucht Hilfe mit dem Sofa und dem Schrank.", "answer": "c" },
+            { "situation": "Luisa sucht eine Freundin aus der Grundschule.", "answer": "d" },
+            { "situation": "Sara und Tom möchten nach der Hochzeit eine Reise buchen.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Deutschkurs für Neuankömmlinge: Schnell ankommen in der Schweiz! Intensivkurs A1–A2, morgens." },
+            { "key": "b", "text": "Babysitter-Service: Erfahrene Babysitter für Kinder ab 6 Monaten, auch abends und am Wochenende." },
+            { "key": "c", "text": "Stammtisch Expats Zürich: Jeden Freitag treffen sich Leute aus aller Welt in der Bar Central." },
+            { "key": "d", "text": "Wohnungen für Familien: 4–5 Zimmer, mit Garten, ruhige Lage am Stadtrand." },
+            { "key": "e", "text": "Fahrschule Sicher: Führerschein in 6 Wochen – Kurse auch auf Englisch." },
+            { "key": "f", "text": "Second-Hand-Möbel: Günstige Möbel für Ihre erste Wohnung. Lieferung möglich." }
+          ],
+          "items": [
+            { "situation": "Ana ist neu in Zürich und möchte Leute aus anderen Ländern kennenlernen.", "answer": "c" },
+            { "situation": "Familie Ruiz hat drei Kinder und sucht ein größeres Zuhause.", "answer": "d" },
+            { "situation": "Kenji kann noch kein Deutsch und hat am Vormittag Zeit.", "answer": "a" },
+            { "situation": "Lukas zieht von zu Hause aus und hat nicht viel Geld für einen Tisch und ein Bett.", "answer": "f" },
+            { "situation": "Frau Novak sucht einen Job als Babysitterin.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wann ist der Vortrag?", "options": ["heute um 19 Uhr", "morgen um 19 Uhr", "morgen um 20 Uhr"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Hier ist die Stadtbibliothek. Morgen um neunzehn Uhr erzählt die Autorin Anna Weber aus ihrem Leben in Afrika. Der Eintritt ist frei. Wir freuen uns auf Sie!" }]
+        },
+        {
+          "q": "Was soll Paul mitbringen?", "options": ["alte Fotos", "einen Kuchen", "Getränke"], "answer": 0,
+          "audio": [{ "v": "f2", "t": "Hallo Paul, hier ist Mama. Am Sonntag hat Opa Geburtstag, er wird neunzig! Kannst du die alten Fotos von deiner Hochzeit mitbringen? Opa möchte sie so gern sehen. Kuchen mache ich. Tschüss!" }]
+        },
+        {
+          "q": "Wo ist die Ausstellung jetzt?", "options": ["im ersten Stock", "im Erdgeschoss", "im Keller"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Liebe Besucherinnen und Besucher, die Ausstellung „Kindheit früher“ ist ab heute nicht mehr im ersten Stock, sondern im Erdgeschoss, gleich neben dem Café." }]
+        },
+        {
+          "q": "Warum ruft Frau Graf an?", "options": ["Sie möchte einen Termin absagen.", "Herr López hat die Stelle bekommen.", "Herr López soll Unterlagen schicken."], "answer": 2,
+          "audio": [{ "v": "f1", "t": "Guten Tag, Herr López, hier ist Graf von der Firma Solartec. Vielen Dank für Ihre Bewerbung. Leider fehlt Ihr Lebenslauf. Können Sie ihn uns bitte noch per E-Mail schicken? Danke und auf Wiederhören." }]
+        },
+        {
+          "q": "Wann zieht Jan um?", "options": ["am Freitag", "am Samstag", "am Sonntag"], "answer": 1,
+          "audio": [{ "v": "m2", "t": "Hi Mia, hier ist Jan. Der Umzug ist jetzt doch nicht am Freitag, sondern am Samstag. Kannst du um neun Uhr kommen und mir helfen? Sonntag ist dann Pizza bei mir! Bis bald." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Lisa und ihrem Großvater. Was hat der Großvater in diesen Jahren gemacht?",
+          "options": ["geheiratet", "Abitur gemacht", "nach Bern gezogen", "eine Firma gegründet", "in Rente gegangen", "ein Haus gekauft", "eine Reise nach Amerika gemacht", "Vater geworden"],
+          "audio": [
+            { "v": "f2", "t": "Opa, für die Schule muss ich ein Interview machen. Erzählst du mir von deinem Leben?" },
+            { "v": "m2", "t": "Gern, Lisa. Also, ich bin 1950 geboren. 1969 habe ich Abitur gemacht. Danach habe ich in Zürich studiert." },
+            { "v": "f2", "t": "Und wann hast du Oma kennengelernt?" },
+            { "v": "m2", "t": "Im Studium. 1975 haben wir geheiratet, im Sommer, in einer kleinen Kirche." },
+            { "v": "f2", "t": "Und wann ist Papa geboren?" },
+            { "v": "m2", "t": "Dein Vater ist 1978 gekommen. Da war ich zum ersten Mal Vater, das war ein schönes Jahr." },
+            { "v": "f2", "t": "Du hattest doch auch eine Firma, oder?" },
+            { "v": "m2", "t": "Ja, 1985 habe ich mit einem Freund eine kleine Firma gegründet. Wir haben Fenster gebaut. Und 2015 bin ich dann in Rente gegangen. Seitdem reisen Oma und ich viel." }
+          ],
+          "items": [
+            { "q": "1969", "answer": 1 },
+            { "q": "1975", "answer": 0 },
+            { "q": "1978", "answer": 7 },
+            { "q": "1985", "answer": 3 },
+            { "q": "2015", "answer": 4 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch zwischen Nina und Ben über ihre alten Schulfreunde. Was machen die Freunde heute?",
+          "options": ["Lehrerin", "Koch", "lebt im Ausland", "studiert noch", "hat ein Hotel", "Ärztin", "arbeitet bei der Bank", "ist Musiker"],
+          "audio": [
+            { "v": "f1", "t": "Ben, kommst du auch zum Klassentreffen? Ich habe schon mit vielen gesprochen." },
+            { "v": "m1", "t": "Ja, klar. Erzähl mal, was machen die anderen heute? Was macht Sophie?" },
+            { "v": "f1", "t": "Sophie wollte immer Ärztin werden, aber jetzt ist sie Lehrerin an unserer alten Schule!" },
+            { "v": "m1", "t": "Echt? Und Marco? Er konnte immer so gut kochen." },
+            { "v": "f1", "t": "Marco ist nicht Koch geworden. Er arbeitet bei einer Bank in Zürich. Aber Felix ist Koch, in einem Restaurant in Bern." },
+            { "v": "m1", "t": "Und Julia?" },
+            { "v": "f1", "t": "Julia ist vor fünf Jahren nach Australien gegangen. Sie lebt immer noch dort. Und Tom spielt Gitarre in einer Band, er ist jetzt Musiker." }
+          ],
+          "items": [
+            { "q": "Sophie", "answer": 0 },
+            { "q": "Marco", "answer": 6 },
+            { "q": "Felix", "answer": 1 },
+            { "q": "Julia", "answer": 2 },
+            { "q": "Tom", "answer": 7 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was hat der Mann am Wochenende gemacht?", "options": ["Er ist umgezogen.", "Er hat gearbeitet.", "Er war bei seinen Eltern."], "answer": 0,
+          "audio": [
+            { "v": "f1", "t": "Du siehst müde aus! Was hast du am Wochenende gemacht?" },
+            { "v": "m1", "t": "Ich bin umgezogen. Wir mussten alle Möbel in den vierten Stock tragen, ohne Aufzug!" }
+          ]
+        },
+        {
+          "q": "Wo hat die Frau Deutsch gelernt?", "options": ["in der Schule", "in einem Kurs in der Schweiz", "an der Universität"], "answer": 1,
+          "audio": [
+            { "v": "m2", "t": "Sie sprechen sehr gut Deutsch! Haben Sie es in der Schule gelernt?" },
+            { "v": "f2", "t": "Nein, in der Schule hatte ich nur Englisch. Ich habe hier in der Schweiz einen Kurs gemacht, zwei Jahre lang." }
+          ]
+        },
+        {
+          "q": "Warum konnte Tom nicht zur Party kommen?", "options": ["Er war krank.", "Er musste arbeiten.", "Er hatte einen Termin."], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Tom, warum warst du gestern nicht auf meiner Party?" },
+            { "v": "m1", "t": "Tut mir leid! Ich wollte kommen, aber ich musste bis zehn Uhr im Restaurant arbeiten. Ein Kollege war krank." }
+          ]
+        },
+        {
+          "q": "Wie lange sind die beiden schon verheiratet?", "options": ["10 Jahre", "20 Jahre", "25 Jahre"], "answer": 2,
+          "audio": [
+            { "v": "m2", "t": "Herzlichen Glückwunsch zur Silberhochzeit! Fünfundzwanzig Jahre, toll!" },
+            { "v": "f2", "t": "Danke! Kennengelernt haben wir uns sogar vor dreißig Jahren." }
+          ]
+        },
+        {
+          "q": "Was wollte die Frau als Kind werden?", "options": ["Tänzerin", "Tierärztin", "Lehrerin"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Wolltest du schon immer Lehrerin werden?" },
+            { "v": "f1", "t": "Nein, als Kind wollte ich Tierärztin werden. Ich hatte drei Katzen und einen Hund. Aber dann habe ich gemerkt: Ich arbeite lieber mit Kindern." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit dem Koch Marco Bellini im Radio.",
+          "audio": [
+            { "v": "f1", "t": "Herzlich willkommen bei Radio Bern. Heute ist Marco Bellini bei uns, Chef im Restaurant Da Marco. Herr Bellini, Sie sind in Italien geboren?" },
+            { "v": "m1", "t": "Ja, in Neapel. Aber ich bin schon mit acht Jahren mit meinen Eltern in die Schweiz gekommen. Ich bin also hier aufgewachsen." },
+            { "v": "f1", "t": "Wollten Sie schon als Kind Koch werden?" },
+            { "v": "m1", "t": "Nein, gar nicht! Ich wollte Fußballspieler werden. Aber meine Mutter hat immer gekocht, und ich musste ihr in der Küche helfen. Mit sechzehn habe ich dann eine Ausbildung als Koch gemacht." },
+            { "v": "f1", "t": "Und wann haben Sie Ihr eigenes Restaurant aufgemacht?" },
+            { "v": "m1", "t": "Vor zehn Jahren. Am Anfang war es sehr schwer, wir hatten wenig Gäste und ich musste jeden Tag vierzehn Stunden arbeiten. Heute haben wir zum Glück viele Stammgäste." },
+            { "v": "f1", "t": "Und was kochen Sie zu Hause?" },
+            { "v": "m1", "t": "Zu Hause koche ich nie! Da kocht meine Frau. Sie ist Schweizerin und macht das beste Käsefondue der Welt." }
+          ],
+          "statements": [
+            { "s": "Herr Bellini ist in der Schweiz aufgewachsen.", "answer": true },
+            { "s": "Als Kind wollte er Koch werden.", "answer": false },
+            { "s": "Er hat mit sechzehn eine Ausbildung angefangen.", "answer": true },
+            { "s": "Das Restaurant hatte am Anfang viele Gäste.", "answer": false },
+            { "s": "Zu Hause kocht seine Frau.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit der Sportlerin Lea Huber.",
+          "audio": [
+            { "v": "m2", "t": "Lea Huber, Sie sind Skirennfahrerin und erst einundzwanzig Jahre alt. Wann haben Sie mit dem Skifahren angefangen?" },
+            { "v": "f2", "t": "Sehr früh, mit drei Jahren. Ich bin in einem kleinen Dorf in den Bergen aufgewachsen. Im Winter sind wir jeden Tag Ski gefahren." },
+            { "v": "m2", "t": "Und die Schule?" },
+            { "v": "f2", "t": "Ab vierzehn war ich in einer Sportschule. Wir mussten morgens trainieren und nachmittags lernen. Das war hart, aber ich habe das Abitur geschafft." },
+            { "v": "m2", "t": "Hatten Sie auch Probleme?" },
+            { "v": "f2", "t": "Ja. Vor zwei Jahren hatte ich einen Unfall. Ich konnte sechs Monate nicht trainieren. Da wollte ich fast aufhören." },
+            { "v": "m2", "t": "Aber Sie haben nicht aufgehört." },
+            { "v": "f2", "t": "Nein, zum Glück! Meine Familie hat mir sehr geholfen. Letztes Jahr habe ich mein erstes großes Rennen gewonnen." }
+          ],
+          "statements": [
+            { "s": "Lea hat mit drei Jahren mit dem Skifahren angefangen.", "answer": true },
+            { "s": "Sie ist in einer großen Stadt aufgewachsen.", "answer": false },
+            { "s": "In der Sportschule hatte sie nachmittags Unterricht.", "answer": true },
+            { "s": "Nach dem Unfall hat sie mit dem Sport aufgehört.", "answer": false },
+            { "s": "Letztes Jahr hat sie ein großes Rennen gewonnen.", "answer": true }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie sind umgezogen. Schreiben Sie Ihrem Freund Daniel eine SMS.",
+          "points": ["Wohin sind Sie umgezogen?", "Wie ist die neue Wohnung?", "Laden Sie Daniel ein."],
+          "register": "informal (du)",
+          "model": "Hallo Daniel! Ich bin letzte Woche nach Winterthur umgezogen. Die Wohnung ist klein, aber hell und hat einen Balkon. Komm doch am Samstag zum Essen! LG José"
+        },
+        {
+          "task": "Sie konnten gestern nicht zum Geburtstag Ihrer Freundin Eva kommen. Schreiben Sie ihr eine SMS.",
+          "points": ["Entschuldigen Sie sich.", "Warum konnten Sie nicht kommen?", "Schlagen Sie ein Treffen vor."],
+          "register": "informal (du)",
+          "model": "Liebe Eva, es tut mir so leid! Ich konnte gestern nicht kommen, ich musste lange arbeiten. Wollen wir am Freitag zusammen essen gehen? Ich lade dich ein! Laura"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben einen Deutschkurs an der Volkshochschule gemacht und möchten jetzt den nächsten Kurs besuchen. Schreiben Sie an die Kursleiterin, Frau Sommer.",
+          "points": ["Welchen Kurs haben Sie gemacht?", "Welchen Kurs möchten Sie jetzt machen?", "Fragen Sie: Wann beginnt der Kurs?"],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Sommer,\n\nich habe bis Juni Ihren Kurs A2.1 am Abend besucht. Er hat mir sehr gut gefallen. Jetzt möchte ich gern den Kurs A2.2 machen. Wann beginnt der Kurs und gibt es noch Plätze?\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Ihr ehemaliger Lehrer, Herr Wagner, organisiert ein Klassentreffen. Sie können nicht kommen. Schreiben Sie ihm.",
+          "points": ["Danken Sie für die Einladung.", "Warum können Sie nicht kommen?", "Erzählen Sie kurz, was Sie heute machen."],
+          "register": "formal (Sie)",
+          "model": "Lieber Herr Wagner,\n\nvielen Dank für die Einladung zum Klassentreffen! Leider kann ich nicht kommen, denn ich wohne jetzt in der Schweiz und muss an diesem Tag arbeiten. Ich bin Ingenieurin geworden und arbeite bei einer Firma in Basel.\n\nHerzliche Grüße\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Lebenslauf", "word": "Geburtsort", "question": "Wo bist du geboren?", "answer": "Ich bin in Granada geboren." },
+        { "theme": "Lebenslauf", "word": "Schule", "question": "Wie lange bist du in die Schule gegangen?", "answer": "Zwölf Jahre, bis ich achtzehn war." },
+        { "theme": "Lebenslauf", "word": "Umzug", "question": "Wann bist du in die Schweiz gezogen?", "answer": "Vor einem Jahr." },
+        { "theme": "Lebenslauf", "word": "Kindheit", "question": "Was wolltest du als Kind werden?", "answer": "Ich wollte Astronaut werden." },
+        { "theme": "Lebenslauf", "word": "Studium", "question": "Was hast du studiert?", "answer": "Ich habe Physik studiert." },
+        { "theme": "Lebenslauf", "word": "Sprachen", "question": "Seit wann lernst du Deutsch?", "answer": "Seit acht Monaten." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie war Ihre Kindheit?",
+          "prompts": ["Wo?", "Familie?", "Schule?", "Hobbys?"],
+          "model": [{ "v": "m1", "t": "Ich bin in einem kleinen Dorf in der Nähe von Granada aufgewachsen. Wir waren eine große Familie: meine Eltern, meine zwei Schwestern und ich. Meine Oma hat auch bei uns gewohnt. Ich bin gern in die Schule gegangen, Mathematik war mein Lieblingsfach. Aber manchmal musste ich nach der Schule meinem Vater helfen. In meiner Freizeit habe ich Fußball gespielt und ich konnte stundenlang lesen." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Warum sind Sie in dieses Land gekommen?",
+          "prompts": ["Wann?", "Arbeit / Studium?", "Am Anfang?", "Heute?"],
+          "model": [{ "v": "f1", "t": "Ich bin vor drei Jahren in die Schweiz gekommen. Ich habe eine Stelle als Ingenieurin in Basel bekommen. Am Anfang war es schwer: Ich konnte kaum Deutsch und kannte niemanden. Ich musste jeden Abend lernen. Heute habe ich viele Freunde und ich fühle mich hier zu Hause." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Ein Freund von Ihnen zieht am Samstag um. Sie möchten zusammen einen Tag finden, an dem Sie ein Geschenk für ihn kaufen. Finden Sie einen Termin.",
+          "mine": ["Montag: 8–17 Uhr Arbeit", "Dienstag: 18 Uhr Deutschkurs", "Mittwoch: Nachmittag frei", "Donnerstag: 19 Uhr Kino mit Anna", "Freitag: 15 Uhr Zahnarzt"],
+          "partner": ["Montag: abends Fußballtraining", "Dienstag: Nachmittag frei", "Mittwoch: 14–16 Uhr frei, dann Arbeit", "Donnerstag: ganzer Tag Arbeit", "Freitag: Vormittag frei"],
+          "model": [
+            { "v": "m1", "t": "Wann hast du Zeit? Wollen wir am Dienstag zusammen ein Geschenk kaufen?" },
+            { "v": "f2", "t": "Am Dienstag habe ich nachmittags Zeit. Und du?" },
+            { "v": "m1", "t": "Am Dienstag kann ich leider nicht, ich habe um sechs Deutschkurs und vorher arbeite ich. Geht es am Mittwochnachmittag?" },
+            { "v": "f2", "t": "Am Mittwoch habe ich von zwei bis vier Uhr Zeit." },
+            { "v": "m1", "t": "Super, dann treffen wir uns am Mittwoch um zwei Uhr vor dem Kaufhaus." },
+            { "v": "f2", "t": "Gut, bis Mittwoch!" }
+          ]
+        },
+        {
+          "task": "Sie möchten mit einer Kollegin zusammen das Klassentreffen vorbereiten. Finden Sie einen Termin für ein Treffen.",
+          "mine": ["Samstag 9–12 Uhr: Einkaufen", "Samstag 15 Uhr: Kaffee bei Oma", "Samstag ab 19 Uhr: frei", "Sonntag 10–13 Uhr: frei", "Sonntag Nachmittag: Ausflug"],
+          "partner": ["Samstag Vormittag: frei", "Samstag 14–20 Uhr: Arbeit", "Samstag Abend: Kino", "Sonntag Vormittag: frei", "Sonntag ab 15 Uhr: Besuch"],
+          "model": [
+            { "v": "f1", "t": "Wollen wir uns am Samstagvormittag treffen?" },
+            { "v": "m2", "t": "Das geht. Ich habe Samstagvormittag frei." },
+            { "v": "f1", "t": "Ach nein, Samstag muss ich bis zwölf einkaufen. Und am Abend?" },
+            { "v": "m2", "t": "Am Abend gehe ich ins Kino. Was machst du am Sonntagvormittag?" },
+            { "v": "f1", "t": "Da habe ich Zeit, von zehn bis eins." },
+            { "v": "m2", "t": "Prima, dann treffen wir uns am Sonntag um zehn bei mir." }
+          ]
+        }
+      ]
+    }
+  }
+}

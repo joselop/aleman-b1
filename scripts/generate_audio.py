@@ -101,11 +101,13 @@ def collect() -> dict[str, list[dict]]:
         for teil in exam.get("hoeren", {}).values():
             for it in teil:
                 add(it["audio"])
-        sp = exam.get("sprechen", {})
-        for it in sp.get("t1", []):
-            add(it.get("model"))
-        for it in sp.get("t2", []):
-            add([{"v": "f2", "t": it["question"]}, {"v": "m1", "t": it["answer"]}])
+        # Sprechen: cualquier ítem con "model" (audio) o con pregunta+respuesta (tarjetas)
+        for teil in exam.get("sprechen", {}).values():
+            for it in teil:
+                if it.get("model"):
+                    add(it["model"])
+                if it.get("question") and it.get("answer"):
+                    add([{"v": "f2", "t": it["question"]}, {"v": "m1", "t": it["answer"]}])
     return found
 
 

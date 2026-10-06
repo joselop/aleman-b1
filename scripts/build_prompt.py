@@ -20,9 +20,9 @@ CONTENT = ROOT / "content"
 N_VOCAB = {"a1": "40–60", "a2": "50–80", "b1": "70–100"}
 
 
-def example_for(kind: str, module: str, teil: str) -> str:
+def example_for(kind: str, module: str, teil: str, level: str = "*") -> str:
     """Busca un ítem de ejemplo de ese tipo en cualquier tema existente."""
-    for tp in sorted(CONTENT.glob("*/*/topic.json")):
+    for tp in sorted(CONTENT.glob(f"{level}/*/topic.json")):
         bank = json.loads(tp.read_text(encoding="utf-8")).get("exam", {}).get(module, {}).get(teil, [])
         if bank:
             return json.dumps(bank[0], ensure_ascii=False)
@@ -60,7 +60,7 @@ def main():
     for m in fmt.get("modules", []):
         for teil in m["teile"]:
             if teil.get("kind"):
-                ex = example_for(teil["kind"], m["key"], teil["key"])
+                ex = example_for(teil["kind"], m["key"], teil["key"], a.level)
                 fmt_lines.append(
                     f"- **{m['name']} Teil {teil['key'][1:]}** → `exam.{m['key']}.{teil['key']}`, tipo `{teil['kind']}`"
                     f" (examen del tema: {teil['n_tema']} ítem{'s' if teil['n_tema'] != 1 else ''}). {teil['es']}\n  Ejemplo: `{ex}`"

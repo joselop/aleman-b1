@@ -23,6 +23,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 VOICES = {"f1", "f2", "m1", "m2", "ch-f", "ch-m", "at-f", "at-m"}
+# Tareas largas (un texto o audio con varias preguntas): basta con un ítem de reserva.
+BIG_KINDS = {"read_mc", "read_match", "listen_match", "listen_yn", "speak_topic", "speak_plan", "write_free", "form", "read_tf", "speak_intro"}
 EX_TYPES = {"mc", "listen", "match", "gap", "order", "dictation", "write"}
 
 errors: list[str] = []
@@ -139,7 +141,7 @@ def check_topic(lvl, tid, fmt):
             T = f"{W} exam.{m['key']}.{teil['key']}"
             if len(bank) < teil.get("n_tema", 0):
                 err(T, f"el banco tiene {len(bank)} y el examen del tema pide {teil['n_tema']}")
-            elif len(bank) < teil.get("n_tema", 0) + 2:
+            elif len(bank) < teil.get("n_tema", 0) + (1 if kind in BIG_KINDS else 2):
                 warn(T, f"banco pequeño ({len(bank)}): los reintentos se repetirán mucho")
             for j, it in enumerate(bank):
                 I = f"{T}[{j}]"
@@ -173,6 +175,43 @@ def check_topic(lvl, tid, fmt):
                     for k in ("word", "question", "answer"):
                         if not it.get(k):
                             err(I, f"falta {k}")
+                elif kind == "read_mc":
+                    if not it.get("questions"):
+                        err(I, "read_mc necesita questions")
+                    for qi, qq in enumerate(it.get("questions", [])):
+                        check_mc(f"{I}.q{qi}", qq)
+                elif kind == "read_match":
+                    keys = {a.get("key") for a in it.get("ads", [])}
+                    answers = [x.get("answer") for x in it.get("items", [])]
+                    if not keys or not answers:
+                        err(I, "read_match necesita ads e items")
+                    for a in answers:
+                        if a not in keys | {"x"}:
+                            err(I, f"respuesta {a!r} no es ningún anuncio")
+                    used = [a for a in answers if a != "x"]
+                    if len(used) != len(set(used)):
+                        err(I, "dos situaciones apuntan al mismo anuncio")
+                    if "x" not in answers:
+                        warn(I, "ninguna situación tiene X (en el examen real hay una)")
+                elif kind == "listen_match":
+                    check_audio(I, it.get("audio"))
+                    n = len(it.get("options", []))
+                    for x in it.get("items", []):
+                        if not isinstance(x.get("answer"), int) or not 0 <= x["answer"] < n:
+                            err(I, f"answer fuera de rango en {x.get('q')!r}")
+                elif kind == "listen_yn":
+                    check_audio(I, it.get("audio"))
+                    for x in it.get("statements", []):
+                        if not isinstance(x.get("answer"), bool):
+                            err(I, f"answer no booleano en {x.get('s')!r}")
+                elif kind == "speak_topic":
+                    check_audio(I, it.get("model"))
+                    if len(it.get("prompts", [])) != 4 or not it.get("question"):
+                        err(I, "speak_topic necesita question y 4 prompts")
+                elif kind == "speak_plan":
+                    check_audio(I, it.get("model"))
+                    if not it.get("mine") or not it.get("partner") or not it.get("task"):
+                        err(I, "speak_plan necesita task, mine y partner")
     return topic
 
 

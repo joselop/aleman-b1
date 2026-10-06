@@ -243,3 +243,20 @@ textarea { width: 100%; resize: vertical; }
 blockquote .de.has-tr { display: flex; margin: 4px 0 8px; }
 li .de.has-tr + .de.has-tr, li .de.has-tr { margin-right: 4px; }
 blockquote .de.has-tr + br { display: none; }
+
+/* A2/B1: preguntas con varios apartados */
+.subq { padding: 6px 4px; border-radius: 6px; }
+.subq.ok { background: var(--ok-soft); }
+.subq.no { background: var(--no-soft); }
+.subq .fb { margin-left: 2.2em; font-size: .9rem; }
+.subq.ok .fb { color: var(--ok); }
+.subq.no .fb { color: var(--no); }
+.ads { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; margin: 6px 0 12px; }
+.ad { display: flex; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); font-size: .95rem; }
+.topiccard { display: grid; gap: 8px; justify-items: center; text-align: center; padding: 14px 18px; border: 2px solid var(--ink); border-radius: 10px; margin: 4px 0; }
+.topiccard strong { font-size: 1.15rem; }
+.agendas { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin: 8px 0; }
+.agenda { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--bg); }
+.agenda[hidden] { display: none; }
+.agenda ul { margin: 6px 0 0; padding-left: 1.1em; }
+.subq .n { display: inline-block; min-width: 2.2em; }

@@ -144,7 +144,7 @@
       "topics": [
         {
           "id": "t01",
-          "status": "planned",
+          "status": "ready",
           "title": "Mi historia",
           "grammar": [
             "Perfekt (repaso completo)",
@@ -480,7 +480,6 @@
     },
     "a2": {
       "passPercent": 60,
-      "note": "Formato de referencia para generar los temas de A2.",
       "modules": [
         {
           "key": "lesen",
@@ -489,19 +488,35 @@
           "teile": [
             {
               "key": "t1",
-              "es": "Artículo de periódico: elegir a, b o c."
+              "kind": "read_mc",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Lesen Sie den Text und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Artículo de periódico o revista: varias preguntas a, b o c."
             },
             {
               "key": "t2",
-              "es": "Tablón informativo / directorio: elegir a, b o c."
+              "kind": "read_mc",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sie sind in einem Kaufhaus / an einer Informationstafel. Lesen Sie die Aufgaben und die Informationstafel. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Tablón informativo o directorio: ¿adónde vas? a, b o c."
             },
             {
               "key": "t3",
-              "es": "Correo o carta: elegir a, b o c."
+              "kind": "read_mc",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Lesen Sie die E-Mail und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Correo personal: varias preguntas a, b o c."
             },
             {
               "key": "t4",
-              "es": "Emparejar personas con anuncios."
+              "kind": "read_match",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sechs Personen suchen im Internet nach Informationen. Lesen Sie die Aufgaben und die Anzeigen. Welche Anzeige passt? Für eine Aufgabe gibt es keine Lösung. Markieren Sie dann X.",
+              "es": "Emparejar personas con anuncios. Una persona no tiene anuncio: X."
             }
           ]
         },
@@ -512,19 +527,39 @@
           "teile": [
             {
               "key": "t1",
-              "es": "Anuncios y mensajes cortos (dos veces): a, b o c."
+              "kind": "listen_mc",
+              "plays": 2,
+              "n_tema": 3,
+              "n_global": 5,
+              "de": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Anuncios, radio y mensajes de contestador: a, b o c. Dos veces."
             },
             {
               "key": "t2",
-              "es": "Conversación larga: emparejar información (una vez)."
+              "kind": "listen_match",
+              "plays": 1,
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sie hören ein Gespräch. Sie hören den Text einmal. Was passt zu wem / wann? Wählen Sie die richtige Lösung.",
+              "es": "Conversación larga: empareja cada persona o día con su opción. Una sola vez."
             },
             {
               "key": "t3",
-              "es": "Diálogos cortos (dos veces): a, b o c."
+              "kind": "listen_mc",
+              "plays": 2,
+              "n_tema": 3,
+              "n_global": 5,
+              "de": "Sie hören fünf kurze Gespräche. Sie hören jeden Text zweimal. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Diálogos cortos de la vida diaria: a, b o c. Dos veces."
             },
             {
               "key": "t4",
-              "es": "Entrevista de radio (dos veces): sí o no."
+              "kind": "listen_yn",
+              "plays": 2,
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sie hören ein Interview. Sie hören den Text zweimal. Wählen Sie für die Aufgaben Ja oder Nein.",
+              "es": "Entrevista de radio: ¿sí o no? Dos veces."
             }
           ]
         },
@@ -535,11 +570,19 @@
           "teile": [
             {
               "key": "t1",
-              "es": "SMS informal (~20–30 palabras)."
+              "kind": "write_free",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Schreiben Sie eine SMS. Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 20–30 Wörter).",
+              "es": "SMS o mensaje informal a un amigo (20–30 palabras), tratando tres puntos."
             },
             {
               "key": "t2",
-              "es": "Correo semiformal (~30–40 palabras)."
+              "kind": "write_free",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Schreiben Sie eine E-Mail. Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30–40 Wörter).",
+              "es": "Correo semiformal (30–40 palabras): a un profesor, jefe, vecino…"
             }
           ]
         },
@@ -550,15 +593,27 @@
           "teile": [
             {
               "key": "t1",
-              "es": "Preguntas y respuestas con tarjetas."
+              "kind": "speak_cards",
+              "n_tema": 2,
+              "n_global": 4,
+              "de": "Fragen zur Person: Stellen Sie Fragen und antworten Sie.",
+              "es": "Con cada tarjeta, haz una pregunta a tu pareja y contesta la suya."
             },
             {
               "key": "t2",
-              "es": "Hablar de tu vida a partir de una tarjeta."
+              "kind": "speak_topic",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Erzählen Sie über Ihr Leben.",
+              "es": "Habla de tu vida a partir de una tarjeta con pregunta y cuatro ideas."
             },
             {
               "key": "t3",
-              "es": "Quedar con alguien usando dos agendas."
+              "kind": "speak_plan",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Etwas zusammen planen: Sie möchten sich mit Ihrem Partner / Ihrer Partnerin treffen. Finden Sie einen Termin.",
+              "es": "Quedar con alguien comparando dos agendas."
             }
           ]
         }
