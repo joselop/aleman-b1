@@ -73,21 +73,30 @@ En el examen oral te pueden pedir que deletrees tu nombre: [[de:Wie schreibt man
 
 | Letra | Se dice | | Letra | Se dice |
 |---|---|---|---|---|
-| A | *a* | | N | *en* |
-| B | *be* | | O | *o* |
-| C | *tse* | | P | *pe* |
-| D | *de* | | Q | *ku* |
-| E | *e* | | R | *er* |
-| F | *ef* | | S | *es* |
-| G | *gue* | | T | *te* |
-| H | *ha* | | U | *u* |
-| I | *i* | | V | *fau* |
-| J | *yot* | | W | *ve* (como la *v* inglesa) |
-| K | *ka* | | X | *iks* |
-| L | *el* | | Y | *ípsilon* |
-| M | *em* | | Z | *tset* |
+| **A** | [[de:Ah::a]] | | **N** | [[de:Enn::en]] |
+| **B** | [[de:Beh::be]] | | **O** | [[de:Oh::o]] |
+| **C** | [[de:Zeh::tse]] | | **P** | [[de:Peh::pe]] |
+| **D** | [[de:Deh::de]] | | **Q** | [[de:Kuh::ku]] |
+| **E** | [[de:Eh::e]] | | **R** | [[de:Err::er]] |
+| **F** | [[de:Eff::ef]] | | **S** | [[de:Ess::es]] |
+| **G** | [[de:Geh::gue]] | | **T** | [[de:Teh::te]] |
+| **H** | [[de:Hah::ha (h aspirada, casi una j muy suave)]] | | **U** | [[de:Uh::u]] |
+| **I** | [[de:Ih::i]] | | **V** | [[de:Fau::fau]] |
+| **J** | [[de:Jott::yot]] | | **W** | [[de:Weh::ve (v inglesa)]] |
+| **K** | [[de:Kah::ka]] | | **X** | [[de:Ix::iks]] |
+| **L** | [[de:Ell::el]] | | **Y** | [[de:Ypsilon::ípsilon]] |
+| **M** | [[de:Emm::em]] | | **Z** | [[de:Zett::tset]] |
 
-Además: **Ä** (*a-umlaut*, suena como *e* abierta), **Ö** (*o-umlaut*: di *e* con los labios de *o*), **Ü** (*u-umlaut*: di *i* con los labios de *u*) y **ß** (*es-tset*, una *s* fuerte).
+Además, las letras especiales:
+
+| Letra | Se dice |
+|---|---|
+| **Ä** | [[de:Äh::a-umlaut: una e abierta]] |
+| **Ö** | [[de:Öh::o-umlaut: di e con los labios de o]] |
+| **Ü** | [[de:Üh::u-umlaut: di i con los labios de u]] |
+| **ß** | [[de:Eszett::es-tset: una s fuerte]] |
+
+Pulsa 🔊 en cada letra para oírla. El nombre está escrito como se pronuncia en alemán (*Beh*, *Zeh*, *Jott*…), y debajo tienes una pista de cómo suena en español. Ojo con las que más se confunden: **E** (*Eh*) e **I** (*Ih*), **G** (*Geh*) y **J** (*Jott*), **V** (*Fau*) y **W** (*Weh*).
 
 Ejemplo: [[de:López: El, O, Pe, E, Zett.::López: ele, o, pe, e, zeta.]]
 
