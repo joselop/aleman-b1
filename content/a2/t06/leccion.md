@@ -35,7 +35,7 @@ Cuando el artículo **no muestra el género** (*ein* puede ser masculino o neutr
 | Acusativo | einen neu**en** Film | eine neu**e** Serie | ein neu**es** Buch | keine neu**en** Filme |
 | Dativo | einem neu**en** Film | einer neu**en** Serie | einem neu**en** Buch | keinen neu**en** Filme**n** |
 
-Compara con el tema 5: solo cambian **tres casillas**: *ein neu**er** Film*, *ein neu**es** Buch* (nominativo y acusativo neutro). El resto es igual que con *der/die/das*.
+Compara con el tema 5: solo cambian **tres casillas**: *ein neu**er** Film*, *ein neu**es** Buch* (nominativo masculino; nominativo y acusativo neutro). El resto es igual que con *der/die/das*.
 
 Truco: **-er** recuerda a *de**r***, **-es** recuerda a *da**s***. El adjetivo "copia" la letra final del artículo que falta.
 

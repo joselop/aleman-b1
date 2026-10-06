@@ -9,7 +9,7 @@ Curso de alemán **de cero al Goethe-Zertifikat B1**, explicado en español y pe
   Cada intento saca preguntas distintas del banco.
 - **Progreso** guardado en el navegador (exportable desde *Ajustes*).
 
-Estado actual: **A1 completo (12 temas)**. A2 y B1 están planificados en `content/curriculum.json`.
+Estado actual: **A1 completo (12 temas) y A2 completo (11 temas)**. B1 está planificado en `content/curriculum.json`.
 
 ## Publicarlo en GitHub Pages
 

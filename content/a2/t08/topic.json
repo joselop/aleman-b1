@@ -274,7 +274,7 @@
           "title": "E-Mail",
           "text": "Liebe Freundinnen und Freunde,\n\nwir haben eine große Neuigkeit: Wir heiraten! Die Hochzeit ist am Samstag, den 14. Juni, um 14 Uhr in der kleinen Kirche in Rapperswil. Danach feiern wir im Restaurant Seerose direkt am See – mit Essen, Musik und hoffentlich viel Tanz!\nBitte sagt uns bis Ende April, ob ihr kommen könnt und ob ihr vegetarisch esst. Kinder sind natürlich herzlich willkommen.\nIhr fragt euch, was ihr uns schenken könnt? Wir haben schon alles für die Wohnung. Wir würden uns über einen Beitrag für unsere Hochzeitsreise nach Japan freuen.\nWir freuen uns sehr auf euch!\n\nAnna und David",
           "questions": [
-            { "q": "Wo ist die Hochzeit?", "options": ["in einem Restaurant", "in einer Kirche", "am See"], "answer": 1 },
+            { "q": "Wo heiraten Anna und David?", "options": ["in einem Restaurant", "in einer Kirche", "am See"], "answer": 1 },
             { "q": "Bis wann sollen die Gäste antworten?", "options": ["bis Ende April", "bis zum 14. Juni", "bis Ende Mai"], "answer": 0 },
             { "q": "Was sollen die Gäste noch sagen?", "options": ["ob sie tanzen", "ob sie vegetarisch essen", "ob sie mit dem Auto kommen"], "answer": 1 },
             { "q": "Dürfen Kinder mitkommen?", "options": ["ja", "nein", "nur bis 14 Uhr"], "answer": 0 },
@@ -397,7 +397,7 @@
       ],
       "t3": [
         {
-          "q": "Was hat dem Mann an der Party nicht gefallen?", "options": ["das Essen", "die Musik", "die Leute"], "answer": 1,
+          "q": "Was hat dem Mann auf der Party nicht gefallen?", "options": ["das Essen", "die Musik", "die Leute"], "answer": 1,
           "audio": [
             { "v": "f1", "t": "Wie hat dir die Party gefallen?" },
             { "v": "m1", "t": "Das Essen war super und die Leute sehr nett. Aber die Musik war viel zu laut." }
@@ -537,7 +537,7 @@
             { "v": "f1", "t": "Was schenken wir Petra? Sie kocht doch so gern. Vielleicht ein Kochbuch?" },
             { "v": "m1", "t": "Gute Idee! Sie reist auch gern. Ein Kochbuch mit Rezepten aus Asien?" },
             { "v": "f1", "t": "Perfekt. Wie viel möchtest du ausgeben? Ich könnte fünfzig Franken geben." },
-            { "v": "m1", "t": "Ich würde lieber nur vierzig Franken ausgeben. Zusammen sind das dann achtzig, das reicht. Dann kaufen wir noch Blumen dazu." },
+            { "v": "m1", "t": "Ich würde lieber nur vierzig Franken ausgeben. Zusammen sind das dann neunzig, das reicht. Dann kaufen wir noch Blumen dazu." },
             { "v": "f1", "t": "Okay. Wann gehen wir einkaufen? Am Montag und Dienstag habe ich keine Zeit." },
             { "v": "m1", "t": "Und am Mittwoch habe ich einen Elternabend. Weißt du, ob die Buchhandlung am Donnerstag lange offen hat?" },
             { "v": "f1", "t": "Ja, bis acht Uhr. Dann gehen wir am Donnerstag nach der Arbeit." }

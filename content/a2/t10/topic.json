@@ -1,0 +1,560 @@
+{
+  "id": "a2-t10",
+  "level": "a2",
+  "topic": "t10",
+  "title": "Aprender y estudiar",
+  "title_de": "Lernen und Ausbildung",
+  "goals": [
+    "Contar tu formación: colegio, universidad, formación profesional",
+    "Explicar cómo aprendes un idioma y qué te cuesta",
+    "Pedir información sobre cursos y formación continua",
+    "Argumentar con deshalb y trotzdem (con inversión del verbo)",
+    "Usar el infinitivo con zu (keine Zeit, Lust, es ist wichtig…)"
+  ],
+  "vocab": [
+    { "de": "die Schule", "pl": "die Schulen", "es": "el colegio, la escuela", "cat": "Formación", "ex": "Meine Kinder gehen hier zur Schule.", "ex_es": "Mis hijos van al colegio aquí." },
+    { "de": "das Fach", "pl": "die Fächer", "es": "la asignatura", "cat": "Formación", "ex": "Welches Fach magst du am liebsten?", "ex_es": "¿Qué asignatura te gusta más?" },
+    { "de": "die Note", "pl": "die Noten", "es": "la nota", "cat": "Formación", "ex": "Sie hat eine Sechs in Mathe bekommen.", "ex_es": "Ha sacado un seis (la máxima nota suiza) en Matemáticas." },
+    { "de": "das Zeugnis", "pl": "die Zeugnisse", "es": "el boletín de notas; el certificado", "cat": "Formación", "ex": "Ich brauche eine Kopie von meinem Zeugnis.", "ex_es": "Necesito una copia de mi certificado." },
+    { "de": "die Prüfung", "pl": "die Prüfungen", "es": "el examen", "cat": "Formación", "ex": "Die Prüfung ist im Juni.", "ex_es": "El examen es en junio." },
+    { "de": "bestehen", "es": "aprobar", "cat": "Formación", "forms": "er besteht, hat bestanden", "ex": "Ich habe die B1-Prüfung bestanden!", "ex_es": "¡He aprobado el examen B1!" },
+    { "de": "durchfallen", "es": "suspender", "cat": "Formación", "forms": "er fällt durch, ist durchgefallen", "ex": "Er ist durch die Fahrprüfung gefallen.", "ex_es": "Ha suspendido el examen de conducir." },
+    { "de": "die Ausbildung / die Lehre", "es": "la formación profesional", "cat": "Formación", "ex": "Sie macht eine Lehre als Elektrikerin.", "ex_es": "Hace la FP de electricista." },
+    { "de": "das Studium", "es": "los estudios universitarios", "cat": "Formación", "ex": "Nach dem Studium bin ich in die Schweiz gezogen.", "ex_es": "Después de la carrera me mudé a Suiza." },
+    { "de": "studieren", "es": "estudiar (en la universidad)", "cat": "Formación", "forms": "er studiert, hat studiert", "ex": "Ich habe in Sevilla Biologie studiert.", "ex_es": "Estudié Biología en Sevilla." },
+    { "de": "der Abschluss", "pl": "die Abschlüsse", "es": "el título, la titulación", "cat": "Formación", "ex": "Ist mein Abschluss in der Schweiz gültig?", "ex_es": "¿Mi título es válido en Suiza?" },
+    { "de": "die Weiterbildung", "pl": "die Weiterbildungen", "es": "la formación continua", "cat": "Formación", "ex": "Die Firma bezahlt meine Weiterbildung.", "ex_es": "La empresa me paga la formación." },
+    { "de": "die Volkshochschule", "es": "la escuela de adultos", "cat": "Cursos", "ex": "Die Volkshochschule bietet viele Sprachkurse an.", "ex_es": "La escuela de adultos ofrece muchos cursos de idiomas." },
+    { "de": "der Kurs", "pl": "die Kurse", "es": "el curso", "cat": "Cursos", "ex": "Der Kurs findet zwei Mal pro Woche statt.", "ex_es": "El curso es dos veces por semana." },
+    { "de": "die Lektion", "pl": "die Lektionen", "es": "la clase, la lección (unidad de 45 min)", "cat": "Cursos", "ex": "Der Kurs hat 40 Lektionen.", "ex_es": "El curso tiene 40 clases." },
+    { "de": "das Niveau", "pl": "die Niveaus", "es": "el nivel", "cat": "Cursos", "ex": "Welches Niveau hast du?", "ex_es": "¿Qué nivel tienes?" },
+    { "de": "der Einstufungstest", "pl": "die Einstufungstests", "es": "la prueba de nivel", "cat": "Cursos", "ex": "Den Einstufungstest kann man online machen.", "ex_es": "La prueba de nivel se puede hacer en internet." },
+    { "de": "das Zertifikat", "pl": "die Zertifikate", "es": "el certificado", "cat": "Cursos", "ex": "Am Ende bekommen Sie ein Zertifikat.", "ex_es": "Al final recibe un certificado." },
+    { "de": "sich anmelden (für)", "es": "inscribirse (en)", "cat": "Cursos", "forms": "er meldet sich an, hat sich angemeldet", "ex": "Ich habe mich für den Kurs angemeldet.", "ex_es": "Me he inscrito en el curso." },
+    { "de": "üben", "es": "practicar", "cat": "Aprender", "forms": "er übt, hat geübt", "ex": "Ich übe jeden Tag die Aussprache.", "ex_es": "Practico la pronunciación todos los días." },
+    { "de": "wiederholen", "es": "repasar, repetir", "cat": "Aprender", "forms": "er wiederholt, hat wiederholt", "ex": "Können Sie das bitte wiederholen?", "ex_es": "¿Puede repetirlo, por favor?" },
+    { "de": "die Vokabel", "pl": "die Vokabeln", "es": "la palabra (de vocabulario)", "cat": "Aprender", "ex": "Ich lerne die Vokabeln mit einer App.", "ex_es": "Estudio el vocabulario con una app." },
+    { "de": "der Fehler", "pl": "die Fehler", "es": "el error", "cat": "Aprender", "ex": "Fehler sind normal.", "ex_es": "Los errores son normales." },
+    { "de": "die Aussprache", "es": "la pronunciación", "cat": "Aprender", "ex": "Die Aussprache von „ü“ ist schwer.", "ex_es": "La pronunciación de la «ü» es difícil." },
+    { "de": "versuchen", "es": "intentar", "cat": "Aprender", "forms": "er versucht, hat versucht", "ex": "Ich versuche, jeden Tag Deutsch zu sprechen.", "ex_es": "Intento hablar alemán todos los días." },
+    { "de": "anfangen / aufhören", "es": "empezar / dejar de", "cat": "Aprender", "forms": "er fängt an, hat angefangen / er hört auf, hat aufgehört", "ex": "Ich habe angefangen, Italienisch zu lernen.", "ex_es": "He empezado a aprender italiano." },
+    { "de": "vergessen", "es": "olvidar", "cat": "Aprender", "forms": "er vergisst, hat vergessen", "ex": "Ich habe vergessen, die Hausaufgaben zu machen.", "ex_es": "Me olvidé de hacer los deberes." },
+    { "de": "deshalb", "es": "por eso (verbo detrás)", "cat": "Conectores", "ex": "Ich will in Zürich arbeiten. Deshalb lerne ich Deutsch.", "ex_es": "Quiero trabajar en Zúrich. Por eso aprendo alemán." },
+    { "de": "trotzdem", "es": "aun así, sin embargo (verbo detrás)", "cat": "Conectores", "ex": "Es regnet. Trotzdem gehe ich joggen.", "ex_es": "Llueve. Aun así, salgo a correr." },
+    { "de": "darum / deswegen", "es": "por eso (= deshalb)", "cat": "Conectores", "ex": "Ich war krank, darum war ich nicht im Kurs.", "ex_es": "Estaba enfermo; por eso no fui a clase." },
+    { "de": "Lust haben (zu)", "es": "tener ganas (de)", "cat": "Expresiones", "ex": "Ich habe keine Lust, heute zu lernen.", "ex_es": "Hoy no tengo ganas de estudiar." },
+    { "de": "Es ist wichtig, … zu …", "es": "es importante…", "cat": "Expresiones", "ex": "Es ist wichtig, viel zu sprechen.", "ex_es": "Es importante hablar mucho." }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Formación",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["bestehen", "aprobar"],
+        ["durchfallen", "suspender"],
+        ["das Fach", "la asignatura"],
+        ["das Zeugnis", "el certificado"],
+        ["die Lehre", "la formación profesional"],
+        ["wiederholen", "repasar"],
+        ["die Aussprache", "la pronunciación"],
+        ["der Abschluss", "el título"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿deshalb o trotzdem?",
+      "instructions": "Elige el conector correcto.",
+      "items": [
+        { "q": "Ich arbeite in Basel. ___ lerne ich Deutsch.", "options": ["Deshalb", "Trotzdem"], "answer": 0 },
+        { "q": "Der Kurs ist sehr teuer. ___ mache ich ihn.", "options": ["Trotzdem", "Deshalb"], "answer": 0 },
+        { "q": "Ich habe viel gelernt. ___ habe ich die Prüfung bestanden.", "options": ["Deshalb", "Trotzdem"], "answer": 0 },
+        { "q": "Ich habe viel gelernt. ___ bin ich durchgefallen.", "options": ["Trotzdem", "Deshalb"], "answer": 0 },
+        { "q": "Sie war krank. ___ ist sie zu Hause geblieben.", "options": ["Deshalb", "Trotzdem"], "answer": 0 },
+        { "q": "Es regnet. ___ gehen wir wandern.", "options": ["Trotzdem", "Deshalb"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "order",
+      "title": "Verbo en posición 2",
+      "instructions": "Ordena la segunda frase. Recuerda: después de deshalb/trotzdem va el verbo.",
+      "items": [
+        { "words": ["Deshalb", "lerne", "ich", "jeden", "Tag", "Vokabeln", "."], "answers": ["Deshalb lerne ich jeden Tag Vokabeln."] },
+        { "words": ["Trotzdem", "bin", "ich", "zum", "Kurs", "gegangen", "."], "answers": ["Trotzdem bin ich zum Kurs gegangen."] },
+        { "words": ["Deshalb", "habe", "ich", "die", "Prüfung", "bestanden", "."], "answers": ["Deshalb habe ich die Prüfung bestanden."] },
+        { "words": ["Trotzdem", "spricht", "er", "sehr", "gut", "Deutsch", "."], "answers": ["Trotzdem spricht er sehr gut Deutsch."] },
+        { "words": ["Ich", "mache", "trotzdem", "weiter", "."], "answers": ["Ich mache trotzdem weiter.", "Trotzdem mache ich weiter."] }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "write",
+      "title": "Une las frases",
+      "instructions": "Une las dos frases con el conector entre paréntesis. Empieza la segunda frase con el conector.",
+      "items": [
+        { "prompt": "Ich will in der Schweiz studieren. Ich mache einen Deutschkurs. (deshalb)", "answers": ["Ich will in der Schweiz studieren. Deshalb mache ich einen Deutschkurs."] },
+        { "prompt": "Die Grammatik ist schwer. Ich lerne gern Deutsch. (trotzdem)", "answers": ["Die Grammatik ist schwer. Trotzdem lerne ich gern Deutsch."] },
+        { "prompt": "Ich habe keine Zeit. Ich höre Podcasts im Zug. (deshalb)", "answers": ["Ich habe keine Zeit. Deshalb höre ich Podcasts im Zug."] },
+        { "prompt": "Er hat nicht gelernt. Er hat die Prüfung bestanden. (trotzdem)", "answers": ["Er hat nicht gelernt. Trotzdem hat er die Prüfung bestanden."] }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Infinitivo con zu",
+      "instructions": "Completa con el verbo entre paréntesis en infinitivo con zu (ojo con los separables).",
+      "items": [
+        { "text": "Ich habe keine Zeit, Hausaufgaben [[zu machen]]. (machen)" },
+        { "text": "Es ist wichtig, jeden Tag [[zu üben]]. (üben)" },
+        { "text": "Hast du Lust, mit mir ins Kino [[zu gehen]]? (gehen)" },
+        { "text": "Ich habe vergessen, dich [[anzurufen]]. (anrufen)" },
+        { "text": "Es ist nicht leicht, früh [[aufzustehen]]. (aufstehen)" },
+        { "text": "Es macht Spaß, neue Leute [[kennenzulernen]]. (kennenlernen)" },
+        { "text": "Ich versuche, mehr Deutsch [[zu sprechen]]. (sprechen)" },
+        { "text": "Wann hast du angefangen, Gitarre [[zu spielen]]? (spielen)" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "¿Con zu o sin zu?",
+      "instructions": "Elige la forma correcta.",
+      "items": [
+        { "q": "Ich muss heute ___.", "options": ["lernen", "zu lernen"], "answer": 0, "explain": "Después de un verbo modal no se usa zu." },
+        { "q": "Ich habe keine Lust, heute ___.", "options": ["zu lernen", "lernen"], "answer": 0 },
+        { "q": "Kannst du gut ___?", "options": ["schwimmen", "zu schwimmen"], "answer": 0 },
+        { "q": "Es ist schwer, die Artikel ___.", "options": ["zu lernen", "lernen"], "answer": 0 },
+        { "q": "Ich möchte im Herbst einen Kurs ___.", "options": ["machen", "zu machen"], "answer": 0 },
+        { "q": "Vergiss nicht, die Tür ___!", "options": ["abzuschließen", "zu abschließen"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "Cursos y estudios",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Was hast du studiert?" },
+            { "v": "m1", "t": "Ich habe in Valencia Architektur studiert. Aber hier arbeite ich im Moment als Zeichner." }
+          ],
+          "q": "¿Qué estudió?", "options": ["Arquitectura", "Diseño", "Bellas Artes"], "answer": 0
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Hast du die Prüfung bestanden?" },
+            { "v": "f2", "t": "Leider nicht. Im Hören war ich gut, aber das Schreiben war zu schwer. Im Dezember versuche ich es noch einmal." }
+          ],
+          "q": "¿Qué parte le salió mal?", "options": ["La comprensión auditiva", "La expresión escrita", "La oral"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Gibt es auch Abendkurse?" },
+            { "v": "m1", "t": "Ja, am Dienstag und Donnerstag von 18.30 bis 20.45 Uhr. Der Kurs beginnt am 3. September." }
+          ],
+          "q": "¿Qué días es el curso de tarde?", "options": ["Lunes y miércoles", "Martes y jueves", "Solo el sábado"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Wie lernst du Vokabeln?" },
+            { "v": "f2", "t": "Mit einer App auf dem Handy, jeden Morgen im Tram. Das sind nur fünfzehn Minuten, aber jeden Tag." }
+          ],
+          "q": "¿Cuándo estudia vocabulario?", "options": ["Por la noche", "En el tranvía por la mañana", "Los fines de semana"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Warum lernst du eigentlich Deutsch?" },
+            { "v": "m1", "t": "Meine Freundin ist Schweizerin, und ich möchte mit ihrer Familie sprechen. Deshalb mache ich jetzt einen Intensivkurs." }
+          ],
+          "q": "¿Por qué aprende alemán?", "options": ["Por el trabajo", "Por la familia de su novia", "Para estudiar"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich habe die Prüfung bestanden." }], "answers": ["Ich habe die Prüfung bestanden."] },
+        { "audio": [{ "v": "m1", "t": "Deshalb lerne ich Deutsch." }], "answers": ["Deshalb lerne ich Deutsch."] },
+        { "audio": [{ "v": "f2", "t": "Trotzdem gehe ich zum Kurs." }], "answers": ["Trotzdem gehe ich zum Kurs."] },
+        { "audio": [{ "v": "m2", "t": "Ich habe keine Zeit, Hausaufgaben zu machen." }], "answers": ["Ich habe keine Zeit, Hausaufgaben zu machen."] },
+        { "audio": [{ "v": "f1", "t": "Es ist wichtig, jeden Tag zu üben." }], "answers": ["Es ist wichtig, jeden Tag zu üben."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "write",
+      "title": "Completa con zu",
+      "instructions": "Escribe la frase completa con infinitivo + zu.",
+      "items": [
+        { "prompt": "Ich habe keine Lust … (heute kochen)", "answers": ["Ich habe keine Lust, heute zu kochen."] },
+        { "prompt": "Es ist schwer … (die Artikel lernen)", "answers": ["Es ist schwer, die Artikel zu lernen."] },
+        { "prompt": "Ich habe vergessen … (meine Mutter anrufen)", "answers": ["Ich habe vergessen, meine Mutter anzurufen."] },
+        { "prompt": "Hast du Zeit … (mir helfen)?", "answers": ["Hast du Zeit, mir zu helfen?"] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "He aprobado el examen.", "answers": ["Ich habe die Prüfung bestanden."] },
+        { "prompt": "Trabajo en Suiza. Por eso aprendo alemán.", "answers": ["Ich arbeite in der Schweiz. Deshalb lerne ich Deutsch.", "Ich arbeite in der Schweiz. Darum lerne ich Deutsch.", "Ich arbeite in der Schweiz. Deswegen lerne ich Deutsch."] },
+        { "prompt": "El curso es caro. Aun así, lo hago.", "answers": ["Der Kurs ist teuer. Trotzdem mache ich ihn."] },
+        { "prompt": "No tengo tiempo de estudiar.", "answers": ["Ich habe keine Zeit zu lernen.", "Ich habe keine Zeit, zu lernen."] },
+        { "prompt": "Es importante hablar mucho.", "answers": ["Es ist wichtig, viel zu sprechen."] },
+        { "prompt": "Me he inscrito en un curso.", "answers": ["Ich habe mich für einen Kurs angemeldet.", "Ich habe mich zu einem Kurs angemeldet."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Lehre statt Universität",
+          "text": "In vielen Ländern gehen die meisten jungen Leute nach der Schule an die Universität. In der Schweiz ist das anders: Etwa zwei Drittel der Jugendlichen machen nach der obligatorischen Schule eine Lehre. Sie arbeiten drei oder vier Tage pro Woche in einer Firma und gehen ein oder zwei Tage in die Berufsschule. Es gibt über 200 Berufe, vom Koch bis zur Informatikerin. Die Lernenden bekommen schon während der Lehre einen kleinen Lohn. „Ich wollte nicht mehr nur in der Schule sitzen, ich wollte etwas Praktisches machen“, sagt Luca (17), der eine Lehre als Elektroniker macht. Nach der Lehre ist der Weg nicht zu Ende: Viele machen später eine Weiterbildung oder studieren an einer Fachhochschule. Deshalb ist die Lehre in der Schweiz kein „Plan B“, sondern für viele die erste Wahl.",
+          "questions": [
+            { "q": "Was machen die meisten Jugendlichen in der Schweiz nach der Schule?", "options": ["Sie studieren.", "Sie machen eine Lehre.", "Sie reisen."], "answer": 1 },
+            { "q": "Wo lernen die Lernenden?", "options": ["nur in der Firma", "nur in der Schule", "in der Firma und in der Berufsschule"], "answer": 2 },
+            { "q": "Was bekommen sie während der Lehre?", "options": ["einen Lohn", "nichts", "ein Stipendium von der Universität"], "answer": 0 },
+            { "q": "Warum hat Luca eine Lehre gewählt?", "options": ["Er wollte etwas Praktisches machen.", "Seine Noten waren schlecht.", "Seine Eltern wollten es."], "answer": 0 },
+            { "q": "Was kann man nach der Lehre machen?", "options": ["nichts mehr", "eine Weiterbildung oder ein Studium", "nur im gleichen Beruf arbeiten"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Nie zu alt zum Lernen",
+          "text": "Maria Steiner ist 74 Jahre alt und geht jeden Montag in die Volkshochschule. Dort lernt sie Spanisch. „Meine Enkelin wohnt mit ihrem Mann in Málaga, und ich möchte mit seiner Familie sprechen“, erzählt sie. Am Anfang war es nicht leicht. „Ich habe die Vokabeln schnell wieder vergessen. Trotzdem habe ich nicht aufgehört.“ Ihr Tipp: jeden Tag ein bisschen lernen, nicht viel auf einmal. Sie schreibt neue Wörter auf kleine Zettel und klebt sie in der Küche an die Wand. Außerdem schaut sie spanische Serien mit Untertiteln. Forscher sagen, dass Lernen im Alter sehr gesund für das Gehirn ist. Und es macht Spaß: Im Kurs hat Maria auch neue Freundinnen gefunden. Im Frühling fliegt sie nach Málaga – und möchte nur Spanisch sprechen.",
+          "questions": [
+            { "q": "Warum lernt Maria Spanisch?", "options": ["für die Familie vom Mann ihrer Enkelin", "für ihren Beruf", "für eine Prüfung"], "answer": 0 },
+            { "q": "Was war am Anfang schwierig?", "options": ["Sie hat die Wörter oft vergessen.", "Die Lehrerin war streng.", "Der Kurs war teuer."], "answer": 0 },
+            { "q": "Was ist Marias Tipp?", "options": ["jeden Tag ein bisschen lernen", "einmal pro Woche viel lernen", "nur mit Serien lernen"], "answer": 0 },
+            { "q": "Wo hängen ihre Zettel?", "options": ["im Schlafzimmer", "in der Küche", "im Kursraum"], "answer": 1 },
+            { "q": "Was sagen die Forscher?", "options": ["Lernen im Alter ist zu schwer.", "Lernen ist gut für das Gehirn.", "Ältere Leute lernen schneller."], "answer": 1 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Volkshochschule – Kursprogramm Herbst",
+          "text": "Sprachen: Deutsch A1–C1 (Abendkurse und Intensivkurse) · Englisch · Italienisch · Japanisch für Anfänger\nComputer: Excel für den Beruf · Fotos bearbeiten · Sicher im Internet (60+)\nKreativ: Malen und Zeichnen · Nähen · Töpfern\nGesundheit: Yoga · Rückengymnastik · Gesund kochen\nBeruf: Bewerbungstraining · Präsentieren mit Erfolg\nAnmeldung: online oder im Sekretariat (Mo–Fr 9–12 Uhr)",
+          "questions": [
+            { "q": "Sie möchten lernen, eine gute Bewerbung zu schreiben.", "options": ["Sprachen", "Computer", "Beruf"], "answer": 2 },
+            { "q": "Sie haben oft Rückenschmerzen.", "options": ["Gesundheit", "Kreativ", "Beruf"], "answer": 0 },
+            { "q": "Ihr Großvater möchte sicher im Internet einkaufen.", "options": ["Computer", "Beruf", "Sprachen"], "answer": 0 },
+            { "q": "Sie möchten selbst Kleidung machen.", "options": ["Gesundheit", "Kreativ", "Computer"], "answer": 1 },
+            { "q": "Wann kann man sich im Sekretariat anmelden?", "options": ["am Vormittag", "am Abend", "am Wochenende"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Universität – Gebäudeplan Hauptgebäude",
+          "text": "Erdgeschoss: Information · Mensa · Studierendenberatung\n1. Stock: Bibliothek · Lernräume (ruhig)\n2. Stock: Sprachenzentrum (Kurse für Studierende) · Computerraum\n3. Stock: Sekretariat Wirtschaft · Büros der Professoren\n4. Stock: Aula (große Vorlesungen) · Sportbüro (Anmeldung Unisport)",
+          "questions": [
+            { "q": "Sie möchten in Ruhe für eine Prüfung lernen.", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie möchten zu Mittag essen.", "options": ["Erdgeschoss", "2. Stock", "3. Stock"], "answer": 0 },
+            { "q": "Sie möchten einen Französischkurs machen.", "options": ["1. Stock", "2. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie möchten Volleyball an der Uni spielen.", "options": ["Erdgeschoss", "3. Stock", "4. Stock"], "answer": 2 },
+            { "q": "Sie haben eine Frage an Ihren Professor für Wirtschaft.", "options": ["2. Stock", "3. Stock", "4. Stock"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Sehr geehrte Frau López,\n\nvielen Dank für Ihr Interesse an unseren Deutschkursen. Nach Ihrem Einstufungstest empfehlen wir Ihnen den Kurs B1.1. Der nächste Abendkurs beginnt am Montag, 7. Oktober, und findet jeden Montag und Mittwoch von 18.30 bis 20.30 Uhr statt. Der Kurs dauert zehn Wochen und kostet 690 Franken, das Buch ist nicht im Preis inbegriffen.\nWenn Sie lieber am Vormittag lernen, gibt es auch einen Intensivkurs: vier Wochen lang, jeden Tag von 9 bis 12 Uhr.\nBitte melden Sie sich bis zum 30. September an. Am Ende des Kurses bekommen Sie eine Teilnahmebestätigung. Die offizielle Goethe-Prüfung können Sie bei uns im Dezember machen.\n\nFreundliche Grüße\nThomas Bühler, Sprachschule Lingua",
+          "questions": [
+            { "q": "Welchen Kurs empfiehlt die Schule?", "options": ["A2.2", "B1.1", "B1.2"], "answer": 1 },
+            { "q": "Wann ist der Abendkurs?", "options": ["Montag und Mittwoch", "Dienstag und Donnerstag", "jeden Abend"], "answer": 0 },
+            { "q": "Was kostet extra?", "options": ["die Prüfung", "das Buch", "der Einstufungstest"], "answer": 1 },
+            { "q": "Wie lange dauert der Intensivkurs?", "options": ["zehn Wochen", "vier Wochen", "einen Monat am Abend"], "answer": 1 },
+            { "q": "Bis wann muss Frau López sich anmelden?", "options": ["bis 30. September", "bis 7. Oktober", "bis Dezember"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Hallo Pablo,\n\nwie geht's dir mit deinem Deutsch? Ich habe große Neuigkeiten: Ich habe die B1-Prüfung bestanden! Im Lesen und Hören war ich sehr gut, im Schreiben nur okay. Das Sprechen hat mir am meisten Spaß gemacht, meine Partnerin in der Prüfung war sehr nett.\nDu fragst, wie ich gelernt habe. Ehrlich gesagt: Ich hatte nicht viel Zeit, weil ich Vollzeit arbeite. Deshalb habe ich jeden Tag im Zug gelernt, mit Podcasts und einer App. Am Wochenende habe ich alte Prüfungen gemacht. Und ich habe angefangen, mit meinen Kollegen in der Mittagspause nur Deutsch zu sprechen. Am Anfang war das komisch, aber es hat sehr geholfen!\nJetzt möchte ich den B2-Kurs machen. Hast du Lust, mitzumachen?\n\nViele Grüße\nElena",
+          "questions": [
+            { "q": "Welcher Teil war für Elena am schwierigsten?", "options": ["Lesen", "Schreiben", "Sprechen"], "answer": 1 },
+            { "q": "Was hat ihr am besten gefallen?", "options": ["das Sprechen", "das Hören", "das Lesen"], "answer": 0 },
+            { "q": "Wo hat Elena unter der Woche gelernt?", "options": ["im Zug", "in der Bibliothek", "im Kurs"], "answer": 0 },
+            { "q": "Was hat sie in der Mittagspause gemacht?", "options": ["Vokabeln gelernt", "mit Kollegen Deutsch gesprochen", "Podcasts gehört"], "answer": 1 },
+            { "q": "Was fragt Elena Pablo?", "options": ["ob er mit ihr den B2-Kurs macht", "ob er ihr hilft", "ob er die Prüfung bestanden hat"], "answer": 0 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Nachhilfe Mathe und Physik: Studentin hilft Schülern der Sekundarschule, 30 Fr./Stunde." },
+            { "key": "b", "text": "Konversationskurs Deutsch: Nur sprechen, keine Grammatik! Kleine Gruppen, Samstagvormittag." },
+            { "key": "c", "text": "Fahrschule Tempo: Theorie und Praxis, Kurse auch auf Spanisch." },
+            { "key": "d", "text": "Online-Uni: Studieren Sie neben dem Beruf – Wirtschaft, Informatik, Psychologie." },
+            { "key": "e", "text": "Kinderuni: Professoren erklären Kindern von 8 bis 12 Jahren die Welt. Gratis." },
+            { "key": "f", "text": "Gitarrenunterricht für Erwachsene: Anfänger und Fortgeschrittene, auch zu Hause." }
+          ],
+          "items": [
+            { "situation": "Ihr Sohn (14) hat schlechte Noten in Mathe.", "answer": "a" },
+            { "situation": "Sie arbeiten Vollzeit und möchten trotzdem noch einen Abschluss machen.", "answer": "d" },
+            { "situation": "Sie verstehen die Grammatik, aber Sie haben Angst zu sprechen.", "answer": "b" },
+            { "situation": "Ihre Tochter (10) interessiert sich für Wissenschaft.", "answer": "e" },
+            { "situation": "Sie möchten Klavier spielen lernen.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Bibliothek: Sprachcafé jeden Donnerstag – üben Sie Deutsch mit Freiwilligen." },
+            { "key": "b", "text": "Anerkennung von Diplomen: Beratung für Personen mit ausländischem Abschluss." },
+            { "key": "c", "text": "Kochkurs „Italienisch für Anfänger“: Pasta und Pizza selbst machen." },
+            { "key": "d", "text": "Lerncoaching: Wir helfen Ihnen, besser und schneller zu lernen. Für Prüfungen aller Art." },
+            { "key": "e", "text": "Prüfungszentrum: Goethe-Zertifikate A1 bis C2, Termine jeden Monat." },
+            { "key": "f", "text": "Spielgruppe für Kinder ab 3 Jahren: spielerisch Deutsch lernen." }
+          ],
+          "items": [
+            { "situation": "Sie möchten die offizielle B1-Prüfung machen.", "answer": "e" },
+            { "situation": "Sie haben in Spanien Krankenpflege studiert und möchten hier als Pflegerin arbeiten.", "answer": "b" },
+            { "situation": "Sie möchten kostenlos Deutsch sprechen üben.", "answer": "a" },
+            { "situation": "Ihr Kind ist drei und spricht noch kein Deutsch.", "answer": "f" },
+            { "situation": "Sie suchen einen Englischkurs am Abend.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "In welchem Raum ist der Kurs heute?", "options": ["in Raum 12", "in Raum 21", "in Raum 31"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Liebe Teilnehmerinnen und Teilnehmer vom Deutschkurs B1: Heute findet der Kurs nicht in Raum zwölf statt, sondern in Raum einundzwanzig im zweiten Stock." }]
+        },
+        {
+          "q": "Was soll Jan mitbringen?", "options": ["sein Zeugnis", "ein Foto", "seinen Pass"], "answer": 0,
+          "audio": [{ "v": "m1", "t": "Hallo Jan, hier ist Herr Brunner von der Firma Elektro Weber. Wir möchten dich gern zu einem Gespräch für die Lehrstelle einladen, am Freitag um zehn. Bitte bring dein letztes Zeugnis mit." }]
+        },
+        {
+          "q": "Warum fällt der Kurs aus?", "options": ["Die Lehrerin ist krank.", "Es ist ein Feiertag.", "Es gibt zu wenige Teilnehmer."], "answer": 0,
+          "audio": [{ "v": "f2", "t": "Guten Tag, hier ist die Volkshochschule. Leider ist Frau Kälin krank, deshalb fällt der Italienischkurs heute Abend aus. Die Stunde holen wir am Ende des Kurses nach." }]
+        },
+        {
+          "q": "Wann bekommt Sofia das Resultat?", "options": ["in einer Woche", "in drei Wochen", "in sechs Wochen"], "answer": 1,
+          "audio": [{ "v": "m2", "t": "Hallo Sofia, hier ist Marco. Wie war die Prüfung? Ich habe gehört, dass man die Resultate erst in drei Wochen bekommt. Ruf mich an, wenn du Zeit hast!" }]
+        },
+        {
+          "q": "Wie viel kostet der Kurs für Studenten?", "options": ["50 Franken", "80 Franken", "100 Franken"], "answer": 0,
+          "audio": [{ "v": "f1", "t": "Neu an der Uni: Ein Fotografie-Workshop an drei Samstagen. Für Studierende kostet der Workshop nur fünfzig Franken, für alle anderen hundert Franken." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Julia und Tom. Welches Lieblingsfach hatten sie und ihre Freunde in der Schule?",
+          "options": ["Mathe", "Deutsch", "Englisch", "Sport", "Musik", "Geschichte", "Biologie", "Kunst"],
+          "audio": [
+            { "v": "f1", "t": "Tom, was war eigentlich dein Lieblingsfach in der Schule?" },
+            { "v": "m1", "t": "Ganz klar Sport! In Mathe war ich schrecklich. Und du?" },
+            { "v": "f1", "t": "Ich mochte Geschichte, ich habe alles über die Römer gelesen. Meine Schwester war das Gegenteil, sie liebte Zahlen, also Mathe." },
+            { "v": "m1", "t": "Und dein Freund Paul? Er ist doch Arzt geworden." },
+            { "v": "f1", "t": "Ja, er fand Biologie immer am spannendsten. Und Lisa hat schon in der Schule gemalt, ihr Lieblingsfach war Kunst." },
+            { "v": "m1", "t": "Mein Bruder hat Musik geliebt, er spielt heute in einem Orchester." }
+          ],
+          "items": [
+            { "q": "Tom", "answer": 3 },
+            { "q": "Julia", "answer": 5 },
+            { "q": "Julias Schwester", "answer": 0 },
+            { "q": "Paul", "answer": 6 },
+            { "q": "Toms Bruder", "answer": 4 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch in einem Deutschkurs. Wie lernen die Teilnehmer am liebsten?",
+          "options": ["mit einer App", "mit Serien", "mit Musik", "mit einem Tandempartner", "mit Büchern", "mit Podcasts", "mit Karteikarten", "im Sprachcafé"],
+          "audio": [
+            { "v": "f2", "t": "Heute sprechen wir über das Lernen. Wie lernen Sie am liebsten? Ahmed?" },
+            { "v": "m1", "t": "Ich schaue deutsche Serien, am Anfang mit Untertiteln, jetzt ohne." },
+            { "v": "f2", "t": "Sehr gut. Und Sie, Ana?" },
+            { "v": "f1", "t": "Ich treffe jede Woche eine Schweizerin. Ich helfe ihr mit Portugiesisch und sie mir mit Deutsch." },
+            { "v": "f2", "t": "Ein Tandem, super! Kenji?" },
+            { "v": "m2", "t": "Ich schreibe alle neuen Wörter auf kleine Karten und wiederhole sie jeden Abend." },
+            { "v": "f2", "t": "Und Laura?" },
+            { "v": "f1", "t": "Ich höre beim Joggen Podcasts. Und Pedro singt deutsche Lieder unter der Dusche, das hat er mir erzählt!" }
+          ],
+          "items": [
+            { "q": "Ahmed", "answer": 1 },
+            { "q": "Ana", "answer": 3 },
+            { "q": "Kenji", "answer": 6 },
+            { "q": "Laura", "answer": 5 },
+            { "q": "Pedro", "answer": 2 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Warum macht die Frau den Kurs?", "options": ["für ihre Arbeit", "für eine Reise", "für ihre Kinder"], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Warum machst du einen Excel-Kurs?" },
+            { "v": "f1", "t": "Ich habe eine neue Stelle in der Buchhaltung. Deshalb muss ich gut mit Excel arbeiten können." }
+          ]
+        },
+        {
+          "q": "Was findet der Mann am schwierigsten?", "options": ["die Artikel", "die Aussprache", "die Verben"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Was ist für dich am schwierigsten beim Deutschlernen?" },
+            { "v": "m2", "t": "Die Artikel lerne ich einfach auswendig. Aber die Aussprache! „Ü“ und „ö“ sind für mich ein Albtraum." }
+          ]
+        },
+        {
+          "q": "Was macht die Frau heute Abend?", "options": ["Sie lernt.", "Sie geht ins Kino.", "Sie arbeitet."], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Hast du Lust, heute Abend ins Kino zu gehen?" },
+            { "v": "f1", "t": "Lust schon, aber morgen habe ich eine Prüfung. Ich muss noch viel wiederholen. Vielleicht am Wochenende?" }
+          ]
+        },
+        {
+          "q": "Welche Note hat er bekommen?", "options": ["eine 4", "eine 5", "eine 6"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Und, wie war die Matheprüfung?" },
+            { "v": "m2", "t": "Gut! Ich habe eine Fünf bekommen. Nicht eine Sechs, aber trotzdem bin ich zufrieden." }
+          ]
+        },
+        {
+          "q": "Was hat der Mann vergessen?", "options": ["sein Buch", "sein Heft", "seinen Kuli"], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Haben alle die Hausaufgaben gemacht?" },
+            { "v": "m1", "t": "Entschuldigung, ich habe sie gemacht, aber ich habe vergessen, das Heft mitzubringen." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit Sven Meier. Er ist Lehrer an einer Berufsschule.",
+          "audio": [
+            { "v": "f1", "t": "Herr Meier, Sie unterrichten an einer Berufsschule. Wer sind Ihre Schüler?" },
+            { "v": "m1", "t": "Jugendliche zwischen fünfzehn und zwanzig. Sie machen eine Lehre als Koch, Bäcker oder Konditor. Sie arbeiten vier Tage im Betrieb und kommen einen Tag zu uns." },
+            { "v": "f1", "t": "Was unterrichten Sie?" },
+            { "v": "m1", "t": "Deutsch und Allgemeinbildung, also auch Politik und Wirtschaft. Die Fachkunde unterrichten andere Lehrer." },
+            { "v": "f1", "t": "Sind die Jugendlichen motiviert?" },
+            { "v": "m1", "t": "Die meisten ja. Sie sind oft müde, weil sie in der Küche früh anfangen. Trotzdem machen sie gut mit. Sie sehen, dass das Gelernte wichtig für ihren Beruf ist." },
+            { "v": "f1", "t": "Was gefällt Ihnen an Ihrem Beruf?" },
+            { "v": "m1", "t": "Ich sehe, wie die jungen Leute in drei Jahren erwachsen werden. Und manchmal bringen sie mir Kuchen mit!" }
+          ],
+          "statements": [
+            { "s": "Die Schüler gehen einen Tag pro Woche in die Berufsschule.", "answer": true },
+            { "s": "Herr Meier unterrichtet Kochen.", "answer": false },
+            { "s": "Die Schüler sind oft müde.", "answer": true },
+            { "s": "Die meisten Schüler sind nicht motiviert.", "answer": false },
+            { "s": "Herr Meier findet es schön, die Entwicklung der Jugendlichen zu sehen.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit Fatima Ali. Sie hat mit 40 Jahren angefangen zu studieren.",
+          "audio": [
+            { "v": "m2", "t": "Frau Ali, Sie haben mit vierzig angefangen, Pflege zu studieren. Warum so spät?" },
+            { "v": "f2", "t": "Ich habe früher in Syrien als Lehrerin gearbeitet. Hier in der Schweiz hat man mein Diplom nicht anerkannt. Ich wollte aber unbedingt mit Menschen arbeiten." },
+            { "v": "m2", "t": "War es schwer?" },
+            { "v": "f2", "t": "Sehr! Zuerst musste ich Deutsch bis zum Niveau C1 lernen, das hat drei Jahre gedauert. Und ich habe drei Kinder." },
+            { "v": "m2", "t": "Wie haben Sie das organisiert?" },
+            { "v": "f2", "t": "Mein Mann hat viel geholfen. Und ich habe immer nachts gelernt, wenn die Kinder geschlafen haben." },
+            { "v": "m2", "t": "Und jetzt?" },
+            { "v": "f2", "t": "Im Juni habe ich den Abschluss gemacht. Seit August arbeite ich in einem Spital in Bern, und ich bin sehr glücklich." }
+          ],
+          "statements": [
+            { "s": "Frau Ali war in Syrien Krankenschwester.", "answer": false },
+            { "s": "Sie musste zuerst Deutsch lernen.", "answer": true },
+            { "s": "Sie hat drei Kinder.", "answer": true },
+            { "s": "Sie hat meistens am Vormittag gelernt.", "answer": false },
+            { "s": "Jetzt arbeitet sie in einem Krankenhaus.", "answer": true }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie können heute nicht zum Deutschkurs kommen. Schreiben Sie Ihrer Kurskollegin Maria eine Nachricht.",
+          "points": ["Warum können Sie nicht kommen?", "Bitten Sie um die Hausaufgaben.", "Bieten Sie etwas an."],
+          "register": "informal (du)",
+          "model": "Hallo Maria! Ich kann heute leider nicht in den Kurs kommen, weil mein Sohn krank ist. Kannst du mir bitte die Hausaufgaben schicken? Dafür lade ich dich nächste Woche zu einem Kaffee ein. Danke! José"
+        },
+        {
+          "task": "Sie haben Ihre Prüfung bestanden. Schreiben Sie Ihrem Freund Daniel eine Nachricht.",
+          "points": ["Welche Prüfung?", "Wie war sie?", "Laden Sie ihn zum Feiern ein."],
+          "register": "informal (du)",
+          "model": "Hallo Daniel! Ich habe die A2-Prüfung bestanden! Das Lesen war leicht, aber das Hören war ziemlich schwer. Trotzdem habe ich 85 Punkte bekommen. Das müssen wir feiern! Hast du Lust, am Samstag essen zu gehen? Laura"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben eine Anzeige für einen Deutschkurs gelesen. Schreiben Sie an die Sprachschule.",
+          "points": ["Welches Niveau haben Sie?", "Wann haben Sie Zeit?", "Fragen Sie nach dem Preis und dem Zertifikat."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für einen Deutschkurs bei Ihnen. Ich habe das Niveau A2 und möchte im nächsten Jahr die B1-Prüfung machen. Ich arbeite tagsüber, deshalb suche ich einen Abendkurs. Könnten Sie mir bitte sagen, wie viel der Kurs kostet und ob ich am Ende ein Zertifikat bekomme?\n\nMit freundlichen Grüßen\nJosé López"
+        },
+        {
+          "task": "Ihre Firma bietet eine Weiterbildung an. Schreiben Sie an Ihre Chefin, Frau Moser.",
+          "points": ["Welche Weiterbildung möchten Sie machen?", "Warum ist sie wichtig für Ihre Arbeit?", "Fragen Sie, ob die Firma sie bezahlt."],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Moser,\n\nich habe gesehen, dass es im Frühling einen Kurs für Projektmanagement gibt. Ich würde diesen Kurs gern besuchen. Ich leite immer mehr Projekte, deshalb ist es wichtig für mich, mehr darüber zu lernen. Könnte die Firma die Kosten für den Kurs übernehmen?\n\nViele Grüße\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Lernen und Ausbildung", "word": "Schule", "question": "Was war dein Lieblingsfach in der Schule?", "answer": "Geschichte. Ich hatte einen tollen Lehrer." },
+        { "theme": "Lernen und Ausbildung", "word": "Studium", "question": "Was hast du studiert?", "answer": "Ich habe in Madrid Ingenieurwesen studiert." },
+        { "theme": "Lernen und Ausbildung", "word": "Deutsch", "question": "Warum lernst du Deutsch?", "answer": "Ich wohne in der Schweiz, deshalb brauche ich Deutsch." },
+        { "theme": "Lernen und Ausbildung", "word": "Fehler", "question": "Was ist für dich am schwierigsten auf Deutsch?", "answer": "Die Artikel und die Endungen." },
+        { "theme": "Lernen und Ausbildung", "word": "Prüfung", "question": "Hast du Angst vor Prüfungen?", "answer": "Ein bisschen, aber ich lerne immer gut." },
+        { "theme": "Lernen und Ausbildung", "word": "Kurs", "question": "Möchtest du noch einen anderen Kurs machen?", "answer": "Ja, ich habe Lust, Kochen zu lernen." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie lernen Sie Deutsch?",
+          "prompts": ["Kurs?", "Zu Hause?", "Was ist schwer / leicht?", "Ihre Tipps?"],
+          "model": [{ "v": "m1", "t": "Ich mache seit einem Jahr einen Abendkurs, zwei Mal pro Woche. Zu Hause lerne ich mit einer Webseite und höre Podcasts im Zug. Am schwierigsten finde ich die Artikel und die Aussprache. Das Lesen ist für mich leichter, weil viele Wörter ähnlich wie im Englischen sind. Mein Tipp: Es ist wichtig, jeden Tag ein bisschen zu lernen und keine Angst vor Fehlern zu haben. Ich spreche mit meinen Kollegen Deutsch, auch wenn ich Fehler mache." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Erzählen Sie von Ihrer Schulzeit.",
+          "prompts": ["Wo?", "Lieblingsfach?", "Lehrer?", "Was war anders als in der Schweiz?"],
+          "model": [{ "v": "f1", "t": "Ich bin in Sevilla zur Schule gegangen, in eine öffentliche Schule. Mein Lieblingsfach war Biologie, deshalb habe ich später auch Biologie studiert. Ich hatte eine sehr gute Lehrerin, sie hat uns oft in die Natur mitgenommen. In Spanien sind die Schultage lang, wir hatten bis drei Uhr Unterricht. In der Schweiz gehen die Kinder am Mittag oft nach Hause. Und hier machen viele Jugendliche eine Lehre, das ist in Spanien nicht so häufig." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen einen Kurs besuchen. Planen Sie: Welchen Kurs? Wann? Wie viel darf er kosten?",
+          "mine": ["Interesse: Kochen oder Tanzen", "Zeit: Dienstag- und Donnerstagabend", "Budget: max. 300 Franken"],
+          "partner": ["Interesse: Tanzen oder Fotografie", "Zeit: Montag- und Donnerstagabend", "Budget: max. 250 Franken"],
+          "model": [
+            { "v": "f1", "t": "Welchen Kurs machen wir? Ich hätte Lust, kochen zu lernen." },
+            { "v": "m1", "t": "Kochen interessiert mich nicht so sehr. Und Tanzen?" },
+            { "v": "f1", "t": "Tanzen finde ich auch super! Salsa vielleicht?" },
+            { "v": "m1", "t": "Ja, gern. Wann hast du Zeit? Ich kann am Montag oder am Donnerstag." },
+            { "v": "f1", "t": "Montag geht bei mir nicht, aber Donnerstag passt." },
+            { "v": "m1", "t": "Perfekt. Und der Preis? Ich möchte nicht mehr als zweihundertfünfzig Franken ausgeben." },
+            { "v": "f1", "t": "Okay. Ich habe einen Salsakurs für zweihundertvierzig Franken gesehen, jeden Donnerstag um sieben." },
+            { "v": "m1", "t": "Super, dann melde ich uns heute noch an." }
+          ]
+        },
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin haben bald eine Deutschprüfung. Sie möchten zusammen lernen. Planen Sie: Wann? Wo? Was lernen Sie?",
+          "mine": ["Prüfung: in zwei Wochen", "Frei: Samstagvormittag, Mittwochabend", "Problem: Schreiben"],
+          "partner": ["Frei: Samstag den ganzen Tag, Sonntagabend", "Problem: Sprechen", "Hat eine große Wohnung"],
+          "model": [
+            { "v": "m2", "t": "Wollen wir zusammen für die Prüfung lernen? Wann hast du Zeit?" },
+            { "v": "f2", "t": "Am Samstagvormittag und am Mittwochabend. Und du?" },
+            { "v": "m2", "t": "Am Samstag habe ich den ganzen Tag frei. Mittwoch arbeite ich leider." },
+            { "v": "f2", "t": "Dann treffen wir uns am Samstag um neun. Wo? Die Bibliothek ist am Samstag voll." },
+            { "v": "m2", "t": "Komm doch zu mir, meine Wohnung ist groß und ruhig." },
+            { "v": "f2", "t": "Gern. Ich habe Probleme mit dem Schreiben. Kannst du meine Texte lesen?" },
+            { "v": "m2", "t": "Klar. Und ich muss mehr sprechen üben. Wir können die Sprechaufgaben zusammen machen." },
+            { "v": "f2", "t": "Perfekt, so lernen wir beide etwas!" }
+          ]
+        }
+      ]
+    }
+  }
+}

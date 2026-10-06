@@ -91,7 +91,7 @@
         { "text": "Paula ist gerade [[beim]] Friseur. (der Friseur, ¿dónde?)" },
         { "text": "Am Samstag gehen wir [[ins]] Museum. (das Museum, ¿adónde?)" },
         { "text": "Mein Kollege kommt [[aus der]] Türkei. (die Türkei, ¿de dónde?)" },
-        { "text": "Wir haben drei Tage [[in den]] Bergen gewandert. (die Berge, ¿dónde?)" },
+        { "text": "Wir sind drei Tage [[in den]] Bergen gewandert. (die Berge, ¿dónde?)" },
         { "text": "Im August fahren wir [[ans]] Meer. (das Meer, ¿adónde?)" },
         { "text": "Ich hole dich um sechs [[vom]] Flughafen ab. (der Flughafen, ¿de dónde?)" }
       ]
@@ -231,7 +231,7 @@
         },
         {
           "title": "Die Schweiz mit dem Generalabonnement",
-          "text": "Viele Schweizerinnen und Schweizer haben kein Auto, aber ein GA – ein Generalabonnement. Mit dem GA kann man ein ganzes Jahr lang alle Züge, Busse, Trams und viele Schiffe im ganzen Land benutzen, so oft man will. Das GA ist nicht billig: In der zweiten Klasse kostet es für Erwachsene etwa 3900 Franken im Jahr. Für Menschen, die jeden Tag zur Arbeit pendeln, lohnt es sich aber schnell. Wer weniger fährt, kauft lieber ein Halbtax-Abo für 190 Franken. Damit bezahlt man für jede Fahrkarte nur den halben Preis. Touristen können einen „Swiss Travel Pass“ für drei, vier, acht oder fünfzehn Tage kaufen. Er gilt auch für viele Museen.",
+          "text": "Viele Schweizerinnen und Schweizer haben kein Auto, aber ein GA – ein Generalabonnement. Mit dem GA kann man ein ganzes Jahr lang alle Züge, Busse, Trams und viele Schiffe im ganzen Land benutzen, so oft man will. Das GA ist nicht billig: In der zweiten Klasse kostet es für Erwachsene etwa 3900 Franken im Jahr. Für Menschen, die jeden Tag zur Arbeit pendeln, lohnt es sich aber schnell. Wer weniger fährt, kauft lieber ein Halbtax-Abo für 190 Franken. Damit bezahlt man für jede Fahrkarte nur den halben Preis. Touristen können einen „Swiss Travel Pass“ für drei, vier, sechs, acht oder fünfzehn Tage kaufen. Er gilt auch für viele Museen.",
           "questions": [
             { "q": "Was kann man mit dem GA machen?", "options": ["nur Zug fahren", "alle öffentlichen Verkehrsmittel benutzen", "ein Auto mieten"], "answer": 1 },
             { "q": "Wie lange gilt das GA?", "options": ["einen Monat", "ein Jahr", "fünfzehn Tage"], "answer": 1 },

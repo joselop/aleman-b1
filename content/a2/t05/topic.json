@@ -386,7 +386,7 @@
             { "v": "f2", "t": "Und das Hemd hier?" },
             { "v": "f1", "t": "Das Hemd ist im Angebot, nur neununddreißig Euro statt neunundvierzig." },
             { "v": "f2", "t": "Und die Lederjacke? Die gefällt mir sehr." },
-            { "v": "f1", "t": "Die ist leider teuer, hundertzwanzig Euro. Aber sie ist sehr gute Qualität." },
+            { "v": "f1", "t": "Die ist leider teuer, hundertzwanzig Euro. Aber sie hat sehr gute Qualität." },
             { "v": "f2", "t": "Hm. Und der Gürtel?" },
             { "v": "f1", "t": "Fünfundzwanzig Euro. Und die Socken, drei Paar, kosten neunzehn Euro." }
           ],
@@ -458,7 +458,7 @@
           ]
         },
         {
-          "intro": "Sie hören eine Umfrage auf der Straße. Ein Reporter spricht mit Thomas, 45.",
+          "intro": "Sie hören eine Umfrage auf der Straße. Eine Reporterin spricht mit Thomas, 45.",
           "audio": [
             { "v": "f2", "t": "Entschuldigung, darf ich Sie etwas fragen? Wir machen eine Umfrage zum Thema Mode. Ist Mode wichtig für Sie?" },
             { "v": "m2", "t": "Nicht so sehr. Ich kaufe nur, was ich wirklich brauche, vielleicht drei- oder viermal im Jahr." },

@@ -1,0 +1,567 @@
+{
+  "id": "a2-t09",
+  "level": "a2",
+  "topic": "t09",
+  "title": "Banco, correos y trámites",
+  "title_de": "Bank, Post und Ämter",
+  "goals": [
+    "Resolver gestiones en el banco y en correos",
+    "Pedir citas, rellenar formularios y entender avisos de oficinas",
+    "Quejarse de una factura o un servicio por teléfono y por escrito",
+    "Usar verbos con preposición fija (warten auf, sich kümmern um…)",
+    "Usar da- / wo- (darauf, worauf) y preposición + pronombre para personas"
+  ],
+  "vocab": [
+    { "de": "das Konto", "pl": "die Konten", "es": "la cuenta (bancaria)", "cat": "Banco", "ex": "Ich möchte ein Konto eröffnen.", "ex_es": "Quiero abrir una cuenta." },
+    { "de": "eröffnen", "es": "abrir (una cuenta, un negocio)", "cat": "Banco", "forms": "er eröffnet, hat eröffnet", "ex": "Sie hat ein Café eröffnet.", "ex_es": "Ha abierto una cafetería." },
+    { "de": "abheben", "es": "sacar (dinero)", "cat": "Banco", "forms": "er hebt ab, hat abgehoben", "ex": "Ich hebe 100 Franken ab.", "ex_es": "Saco 100 francos." },
+    { "de": "einzahlen", "es": "ingresar (dinero)", "cat": "Banco", "forms": "er zahlt ein, hat eingezahlt", "ex": "Ich zahle das Geld am Schalter ein.", "ex_es": "Ingreso el dinero en ventanilla." },
+    { "de": "überweisen", "es": "transferir", "cat": "Banco", "forms": "er überweist, hat überwiesen", "ex": "Ich überweise die Miete am Monatsanfang.", "ex_es": "Transfiero el alquiler a principios de mes." },
+    { "de": "die Überweisung", "pl": "die Überweisungen", "es": "la transferencia", "cat": "Banco", "ex": "Die Überweisung dauert zwei Tage.", "ex_es": "La transferencia tarda dos días." },
+    { "de": "der Geldautomat", "pl": "die Geldautomaten", "es": "el cajero automático", "cat": "Banco", "ex": "Der Geldautomat ist kaputt.", "ex_es": "El cajero está estropeado." },
+    { "de": "die Gebühr", "pl": "die Gebühren", "es": "la tasa, la comisión", "cat": "Banco", "ex": "Kostet das eine Gebühr?", "ex_es": "¿Eso tiene comisión?" },
+    { "de": "die Rechnung", "pl": "die Rechnungen", "es": "la factura", "cat": "Banco", "ex": "Die Rechnung ist zu hoch.", "ex_es": "La factura es demasiado alta." },
+    { "de": "die Mahnung", "pl": "die Mahnungen", "es": "el recordatorio de pago", "cat": "Banco", "ex": "Ich habe eine Mahnung bekommen.", "ex_es": "He recibido un aviso de impago." },
+    { "de": "bar", "es": "en efectivo", "cat": "Banco", "ex": "Kann ich bar bezahlen?", "ex_es": "¿Puedo pagar en efectivo?" },
+    { "de": "sperren", "es": "bloquear", "cat": "Banco", "forms": "er sperrt, hat gesperrt", "ex": "Bitte sperren Sie meine Karte!", "ex_es": "¡Bloqueen mi tarjeta, por favor!" },
+    { "de": "das Paket", "pl": "die Pakete", "es": "el paquete", "cat": "Correos", "ex": "Das Paket wiegt drei Kilo.", "ex_es": "El paquete pesa tres kilos." },
+    { "de": "der Brief", "pl": "die Briefe", "es": "la carta", "cat": "Correos", "ex": "Der Brief ist heute angekommen.", "ex_es": "La carta ha llegado hoy." },
+    { "de": "die Briefmarke", "pl": "die Briefmarken", "es": "el sello", "cat": "Correos", "ex": "Eine Briefmarke für die A-Post, bitte.", "ex_es": "Un sello para correo urgente, por favor." },
+    { "de": "der Absender / der Empfänger", "es": "el remitente / el destinatario", "cat": "Correos", "ex": "Schreiben Sie den Absender oben links.", "ex_es": "Escriba el remitente arriba a la izquierda." },
+    { "de": "abholen", "es": "recoger", "cat": "Correos", "forms": "er holt ab, hat abgeholt", "ex": "Ich hole das Paket morgen ab.", "ex_es": "Mañana recojo el paquete." },
+    { "de": "der Schalter", "pl": "die Schalter", "es": "la ventanilla", "cat": "Correos", "ex": "Gehen Sie bitte zu Schalter 3.", "ex_es": "Vaya a la ventanilla 3, por favor." },
+    { "de": "das Amt", "pl": "die Ämter", "es": "la oficina pública", "cat": "Trámites", "ex": "Das Amt ist am Montag geschlossen.", "ex_es": "La oficina está cerrada el lunes." },
+    { "de": "die Gemeinde", "pl": "die Gemeinden", "es": "el municipio, el ayuntamiento", "cat": "Trámites", "ex": "Ich habe mich bei der Gemeinde angemeldet.", "ex_es": "Me he empadronado en el ayuntamiento." },
+    { "de": "sich anmelden / abmelden", "es": "registrarse, darse de alta / de baja", "cat": "Trámites", "forms": "er meldet sich an, hat sich angemeldet", "ex": "Sie müssen sich innerhalb von 14 Tagen anmelden.", "ex_es": "Tiene que empadronarse en 14 días." },
+    { "de": "das Formular", "pl": "die Formulare", "es": "el formulario", "cat": "Trámites", "ex": "Das Formular finden Sie online.", "ex_es": "El formulario lo encuentra en internet." },
+    { "de": "ausfüllen", "es": "rellenar", "cat": "Trámites", "forms": "er füllt aus, hat ausgefüllt", "ex": "Füllen Sie bitte das Formular aus.", "ex_es": "Rellene el formulario, por favor." },
+    { "de": "unterschreiben", "es": "firmar", "cat": "Trámites", "forms": "er unterschreibt, hat unterschrieben", "ex": "Bitte unterschreiben Sie hier.", "ex_es": "Firme aquí, por favor." },
+    { "de": "der Antrag", "pl": "die Anträge", "es": "la solicitud", "cat": "Trámites", "ex": "Der Antrag kostet 65 Franken.", "ex_es": "La solicitud cuesta 65 francos." },
+    { "de": "beantragen", "es": "solicitar (oficialmente)", "cat": "Trámites", "forms": "er beantragt, hat beantragt", "ex": "Ich habe einen neuen Pass beantragt.", "ex_es": "He solicitado un nuevo pasaporte." },
+    { "de": "die Unterlagen", "es": "los documentos, la documentación", "cat": "Trámites", "ex": "Bringen Sie alle Unterlagen mit.", "ex_es": "Traiga toda la documentación." },
+    { "de": "gültig / abgelaufen", "es": "válido / caducado", "cat": "Trámites", "ex": "Ist Ihr Pass noch gültig?", "ex_es": "¿Su pasaporte sigue siendo válido?" },
+    { "de": "die Frist", "pl": "die Fristen", "es": "el plazo", "cat": "Trámites", "ex": "Die Frist endet am 31. März.", "ex_es": "El plazo termina el 31 de marzo." },
+    { "de": "warten auf (+ Akk)", "es": "esperar (a algo / alguien)", "cat": "Verbos con preposición", "ex": "Ich warte auf deine Antwort.", "ex_es": "Espero tu respuesta." },
+    { "de": "sich kümmern um (+ Akk)", "es": "ocuparse de", "cat": "Verbos con preposición", "forms": "er kümmert sich, hat sich gekümmert", "ex": "Wer kümmert sich um die Katze?", "ex_es": "¿Quién se ocupa del gato?" },
+    { "de": "sich ärgern über (+ Akk)", "es": "enfadarse por", "cat": "Verbos con preposición", "forms": "er ärgert sich, hat sich geärgert", "ex": "Ich ärgere mich über die Verspätung.", "ex_es": "Me enfado por el retraso." },
+    { "de": "sich beschweren über (+ Akk)", "es": "quejarse de", "cat": "Verbos con preposición", "forms": "er beschwert sich, hat sich beschwert", "ex": "Die Nachbarn beschweren sich über den Lärm.", "ex_es": "Los vecinos se quejan del ruido." },
+    { "de": "sich freuen auf / über (+ Akk)", "es": "tener ganas de / alegrarse de", "cat": "Verbos con preposición", "forms": "er freut sich, hat sich gefreut", "ex": "Ich freue mich auf das Wochenende.", "ex_es": "Tengo ganas de que llegue el fin de semana." },
+    { "de": "sich erinnern an (+ Akk)", "es": "acordarse de", "cat": "Verbos con preposición", "forms": "er erinnert sich, hat sich erinnert", "ex": "Erinnerst du dich an unseren ersten Tag?", "ex_es": "¿Te acuerdas de nuestro primer día?" },
+    { "de": "teilnehmen an (+ Dat)", "es": "participar en", "cat": "Verbos con preposición", "forms": "er nimmt teil, hat teilgenommen", "ex": "Ich nehme an einem Infoabend teil.", "ex_es": "Participo en una sesión informativa." },
+    { "de": "Angst haben vor (+ Dat)", "es": "tener miedo de", "cat": "Verbos con preposición", "ex": "Viele haben Angst vor der Steuererklärung.", "ex_es": "Mucha gente le tiene miedo a la declaración de la renta." }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Banco, correos y oficina",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["abheben", "sacar dinero"],
+        ["überweisen", "transferir"],
+        ["die Gebühr", "la comisión"],
+        ["die Briefmarke", "el sello"],
+        ["ausfüllen", "rellenar"],
+        ["unterschreiben", "firmar"],
+        ["die Frist", "el plazo"],
+        ["abgelaufen", "caducado"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Qué preposición?",
+      "instructions": "Elige la preposición correcta.",
+      "items": [
+        { "q": "Ich warte ___ den Bus.", "options": ["auf", "für", "an"], "answer": 0 },
+        { "q": "Wir freuen uns ___ die Ferien.", "options": ["auf", "an", "um"], "answer": 0 },
+        { "q": "Er kümmert sich ___ seine Mutter.", "options": ["um", "für", "über"], "answer": 0 },
+        { "q": "Sie ärgert sich ___ die hohe Rechnung.", "options": ["über", "auf", "von"], "answer": 0 },
+        { "q": "Ich interessiere mich ___ Kunst.", "options": ["für", "an", "in"], "answer": 0 },
+        { "q": "Denk bitte ___ den Termin!", "options": ["an", "auf", "um"], "answer": 0 },
+        { "q": "Nimmst du ___ dem Kurs teil?", "options": ["an", "in", "bei"], "answer": 0 },
+        { "q": "Mein Sohn hat Angst ___ dem Hund.", "options": ["vor", "von", "über"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Preposición y artículo",
+      "instructions": "Completa con la preposición y el artículo correctos.",
+      "items": [
+        { "text": "Ich beschwere mich [[über den]] Service. (der Service)" },
+        { "text": "Wir warten schon lange [[auf die]] Antwort. (die Antwort)" },
+        { "text": "Erinnerst du dich [[an den]] Namen? (der Name)" },
+        { "text": "Ich spreche morgen [[mit dem]] Chef. (der Chef)" },
+        { "text": "Sie fragt [[nach dem]] Weg. (der Weg)" },
+        { "text": "Ich freue mich sehr [[über das]] Geschenk. (das Geschenk)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "da- o wo-",
+      "instructions": "Completa con la palabra da- o wo- correcta (darauf, worauf, daran…).",
+      "items": [
+        { "text": "[[Worauf]] wartest du? – Auf das Paket." },
+        { "text": "Wartest du auf das Paket? – Ja, ich warte schon lange [[darauf]]." },
+        { "text": "[[Worüber]] ärgerst du dich? – Über die Rechnung." },
+        { "text": "Hast du an den Termin gedacht? – Ja, ich habe [[daran]] gedacht." },
+        { "text": "Wer kümmert sich um die Papiere? – Ich kümmere mich [[darum]]." },
+        { "text": "[[Wofür]] interessierst du dich? – Für Musik." }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "¿Cosa o persona?",
+      "instructions": "Elige la respuesta correcta.",
+      "items": [
+        { "q": "Wartest du auf Lisa? – Ja, ich warte ___.", "options": ["auf sie", "darauf"], "answer": 0, "explain": "Lisa es una persona: preposición + pronombre." },
+        { "q": "Wartest du auf den Brief? – Ja, ich warte ___.", "options": ["darauf", "auf ihn"], "answer": 0 },
+        { "q": "___ hast du gesprochen? – Mit meiner Nachbarin.", "options": ["Mit wem", "Womit"], "answer": 0 },
+        { "q": "___ schreibst du? – Mit einem Kuli.", "options": ["Womit", "Mit wem"], "answer": 0 },
+        { "q": "Denkst du oft an deine Oma? – Ja, ich denke oft ___.", "options": ["an sie", "daran"], "answer": 0 },
+        { "q": "Freust du dich auf den Urlaub? – Ja, ich freue mich sehr ___.", "options": ["darauf", "auf ihn"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        { "words": ["Ich", "möchte", "ein", "Konto", "eröffnen", "."], "answers": ["Ich möchte ein Konto eröffnen."] },
+        { "words": ["Füllen", "Sie", "bitte", "das", "Formular", "aus", "."], "answers": ["Füllen Sie bitte das Formular aus."] },
+        { "words": ["Ich", "warte", "seit", "einer", "Woche", "auf", "das", "Paket", "."], "answers": ["Ich warte seit einer Woche auf das Paket."] },
+        { "words": ["Worüber", "ärgerst", "du", "dich", "?"], "answers": ["Worüber ärgerst du dich?"] },
+        { "words": ["Wir", "kümmern", "uns", "darum", "."], "answers": ["Wir kümmern uns darum."] }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "En el banco y en correos",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "m1", "t": "Guten Tag, ich möchte dieses Paket nach Spanien schicken." },
+            { "v": "f1", "t": "Gern. Das Paket wiegt vier Kilo, das kostet 42 Franken. Es ist in etwa einer Woche da." }
+          ],
+          "q": "¿Cuánto tarda el paquete?", "options": ["Dos días", "Una semana", "Dos semanas"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Hallo, meine Bankkarte ist weg. Ich glaube, jemand hat sie gestohlen." },
+            { "v": "m2", "t": "Dann sperren wir die Karte sofort. Sie bekommen in fünf Tagen eine neue." }
+          ],
+          "q": "¿Qué hace el banco?", "options": ["Bloquea la tarjeta", "Le da dinero", "Llama a la policía"], "answer": 0
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Was brauche ich für die Anmeldung bei der Gemeinde?" },
+            { "v": "f1", "t": "Ihren Pass, den Mietvertrag und ein Passfoto." }
+          ],
+          "q": "¿Qué NO necesita?", "options": ["El pasaporte", "El contrato de alquiler", "El contrato de trabajo"], "answer": 2
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Worüber ärgerst du dich so?" },
+            { "v": "m2", "t": "Über meine Handyrechnung! Sie ist doppelt so hoch wie im letzten Monat." }
+          ],
+          "q": "¿Por qué está enfadado?", "options": ["Por la factura del móvil", "Por el alquiler", "Por el banco"], "answer": 0
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Ich möchte Geld abheben, aber der Automat nimmt meine Karte nicht." },
+            { "v": "m1", "t": "Gehen Sie am besten zum Schalter. Dort können Sie auch ohne Karte Geld abheben, mit Ihrem Ausweis." }
+          ],
+          "q": "¿Qué necesita en la ventanilla?", "options": ["La tarjeta", "Su documento de identidad", "Un formulario"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich möchte Geld abheben." }], "answers": ["Ich möchte Geld abheben."] },
+        { "audio": [{ "v": "m1", "t": "Ich warte auf das Paket." }], "answers": ["Ich warte auf das Paket."] },
+        { "audio": [{ "v": "f2", "t": "Bitte unterschreiben Sie hier." }], "answers": ["Bitte unterschreiben Sie hier."] },
+        { "audio": [{ "v": "m2", "t": "Ich freue mich auf das Wochenende." }], "answers": ["Ich freue mich auf das Wochenende."] },
+        { "audio": [{ "v": "f1", "t": "Wir kümmern uns darum." }], "answers": ["Wir kümmern uns darum."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "write",
+      "title": "Pregunta por la parte subrayada",
+      "instructions": "Haz la pregunta con wo- (cosa) o preposición + wen/wem (persona).",
+      "items": [
+        { "prompt": "Ich warte auf den Zug.", "answers": ["Worauf wartest du?", "Worauf warten Sie?"] },
+        { "prompt": "Ich warte auf meine Freundin.", "answers": ["Auf wen wartest du?", "Auf wen warten Sie?"] },
+        { "prompt": "Sie ärgert sich über den Lärm.", "answers": ["Worüber ärgert sie sich?"] },
+        { "prompt": "Er spricht mit dem Vermieter.", "answers": ["Mit wem spricht er?"] },
+        { "prompt": "Wir interessieren uns für Geschichte.", "answers": ["Wofür interessiert ihr euch?", "Wofür interessieren Sie sich?"] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Quiero abrir una cuenta.", "answers": ["Ich möchte ein Konto eröffnen."] },
+        { "prompt": "Espero el autobús.", "answers": ["Ich warte auf den Bus."] },
+        { "prompt": "Tengo ganas de que lleguen las vacaciones.", "answers": ["Ich freue mich auf den Urlaub.", "Ich freue mich auf die Ferien."] },
+        { "prompt": "¿Me puede ayudar con el formulario?", "answers": ["Können Sie mir mit dem Formular helfen?", "Könnten Sie mir mit dem Formular helfen?", "Können Sie mir beim Formular helfen?", "Könnten Sie mir beim Formular helfen?"] },
+        { "prompt": "Nos ocupamos de ello.", "answers": ["Wir kümmern uns darum."] },
+        { "prompt": "Mi tarjeta está bloqueada.", "answers": ["Meine Karte ist gesperrt."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Bezahlen ohne Bargeld",
+          "text": "Vor zehn Jahren haben die meisten Schweizer im Laden noch bar bezahlt. Heute ist das anders: Über 70 Prozent bezahlen im Supermarkt mit der Karte oder mit dem Handy. Besonders beliebt ist die App TWINT. Mit ihr kann man nicht nur im Geschäft bezahlen, sondern auch Freunden Geld schicken, zum Beispiel nach einem Abendessen im Restaurant. „Ich habe fast nie Bargeld dabei“, sagt die Studentin Nina Graf (23). Aber nicht alle finden das gut. Viele ältere Menschen bezahlen lieber bar, weil sie so besser wissen, wie viel Geld sie ausgeben. Und manche haben Angst vor Betrug im Internet. Die Banken sagen: Bargeld bleibt in der Schweiz wichtig. Es gibt immer noch über 7000 Geldautomaten im Land.",
+          "questions": [
+            { "q": "Wie bezahlen heute die meisten Schweizer im Supermarkt?", "options": ["bar", "mit Karte oder Handy", "mit Schecks"], "answer": 1 },
+            { "q": "Was kann man mit TWINT machen?", "options": ["nur im Geschäft bezahlen", "auch Freunden Geld schicken", "Geld abheben"], "answer": 1 },
+            { "q": "Was sagt Nina?", "options": ["Sie hat selten Bargeld.", "Sie bezahlt immer bar.", "Sie hat kein Handy."], "answer": 0 },
+            { "q": "Warum bezahlen viele ältere Menschen lieber bar?", "options": ["Sie haben keine Karte.", "Sie behalten besser den Überblick über ihr Geld.", "Bargeld ist billiger."], "answer": 1 },
+            { "q": "Was sagen die Banken?", "options": ["Bargeld gibt es bald nicht mehr.", "Bargeld bleibt wichtig.", "Es gibt immer weniger Geldautomaten."], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Neu in der Schweiz? Das müssen Sie erledigen",
+          "text": "Wer in die Schweiz zieht, muss einige Dinge schnell erledigen. Zuerst müssen Sie sich innerhalb von 14 Tagen bei Ihrer Gemeinde anmelden. Bringen Sie Ihren Pass, den Mietvertrag und, wenn Sie schon einen haben, den Arbeitsvertrag mit. Dann bekommen Sie Ihre Aufenthaltsbewilligung. Wichtig: In der Schweiz ist eine Krankenversicherung Pflicht. Sie haben drei Monate Zeit, eine Krankenkasse zu wählen. Vergleichen Sie die Preise im Internet, denn sie sind sehr unterschiedlich. Für den Alltag brauchen Sie außerdem ein Bankkonto, weil viele Arbeitgeber den Lohn nur auf ein Schweizer Konto überweisen. Und noch ein Tipp: Melden Sie sich für den Abfallkalender Ihrer Gemeinde an. So wissen Sie immer, wann die Müllabfuhr kommt.",
+          "questions": [
+            { "q": "Bis wann muss man sich bei der Gemeinde anmelden?", "options": ["in zwei Wochen", "in drei Monaten", "in einem Jahr"], "answer": 0 },
+            { "q": "Was muss man zur Anmeldung mitbringen?", "options": ["den Pass und den Mietvertrag", "nur ein Foto", "einen Kontoauszug"], "answer": 0 },
+            { "q": "Was sagt der Text über die Krankenkasse?", "options": ["Sie ist freiwillig.", "Sie ist Pflicht.", "Sie ist überall gleich teuer."], "answer": 1 },
+            { "q": "Warum braucht man ein Schweizer Konto?", "options": ["für die Miete", "für den Lohn", "für die Steuern"], "answer": 1 },
+            { "q": "Wofür ist der Abfallkalender?", "options": ["Man weiß, wann die Müllabfuhr kommt.", "Man bekommt Rabatte.", "Man kann Termine bei der Gemeinde buchen."], "answer": 0 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Post Zürich-Oerlikon – Öffnungszeiten und Service",
+          "text": "Schalter: Mo–Fr 7.30–18.30 · Sa 8.00–16.00 · So geschlossen\nMy Post 24-Automat (vor dem Eingang): Pakete abholen und verschicken, 24 Stunden\nBriefmarken: auch im Kiosk und in der Post-App\nBargeld abheben: PostFinance-Automat, 24 Stunden\nEinschreiben: nur am Schalter\nZoll: Pakete aus dem Ausland – Formulare am Schalter 5\nAdressänderung bei Umzug: online auf post.ch",
+          "questions": [
+            { "q": "Sie möchten am Sonntag ein Paket abholen.", "options": ["am Schalter", "am My Post 24-Automaten", "Das geht nicht."], "answer": 1 },
+            { "q": "Sie möchten einen Brief per Einschreiben schicken.", "options": ["am Schalter", "im Kiosk", "in der App"], "answer": 0 },
+            { "q": "Sie ziehen um. Wo melden Sie Ihre neue Adresse?", "options": ["am Schalter 5", "online", "beim Kiosk"], "answer": 1 },
+            { "q": "Sie haben ein Paket aus den USA. Sie müssen ein Zollformular ausfüllen.", "options": ["Schalter 5", "Automat", "post.ch"], "answer": 0 },
+            { "q": "Wann ist der Schalter am Samstag geöffnet?", "options": ["7.30–18.30", "8.00–16.00", "gar nicht"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Stadthaus – Wegweiser",
+          "text": "Erdgeschoss: Empfang · Einwohnerkontrolle (An- und Abmeldung, Adressänderung)\n1. Stock: Pass- und Ausweisbüro (Termin nötig) · Fundbüro\n2. Stock: Steueramt (Steuererklärung, Fragen zu Steuern)\n3. Stock: Sozialamt · Familienberatung · Kita-Anmeldung\n4. Stock: Bauamt · Parkkarten für Anwohner",
+          "questions": [
+            { "q": "Sie sind neu in der Stadt und möchten sich anmelden.", "options": ["Erdgeschoss", "1. Stock", "2. Stock"], "answer": 0 },
+            { "q": "Ihr Pass ist abgelaufen.", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie haben eine Frage zu Ihrer Steuererklärung.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 1 },
+            { "q": "Sie suchen einen Platz in einer Kita für Ihre Tochter.", "options": ["2. Stock", "3. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie brauchen eine Parkkarte für Ihre Straße.", "options": ["Erdgeschoss", "3. Stock", "4. Stock"], "answer": 2 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Sehr geehrter Herr López,\n\nvielen Dank für Ihre Nachricht vom 3. März. Sie schreiben, dass Sie die Rechnung für Februar zwei Mal bezahlt haben. Wir haben das kontrolliert: Sie haben recht. Wir entschuldigen uns für den Fehler.\nWir überweisen Ihnen die 89 Franken in den nächsten fünf Arbeitstagen zurück auf Ihr Konto. Sie müssen nichts mehr machen.\nAußerdem möchten wir Ihnen ein Angebot machen: Wenn Sie die Rechnung in Zukunft per E-Mail statt per Post bekommen möchten, sparen Sie jeden Monat 2 Franken Gebühren. Sie können das ganz einfach in Ihrem Kundenkonto auf unserer Webseite ändern.\nBei Fragen sind wir montags bis freitags von 8 bis 18 Uhr für Sie da.\n\nFreundliche Grüße\nIhr Kundenservice Swisscall",
+          "questions": [
+            { "q": "Worüber hat Herr López geschrieben?", "options": ["Er hat zwei Mal bezahlt.", "Er hat keine Rechnung bekommen.", "Sein Handy ist kaputt."], "answer": 0 },
+            { "q": "Was macht die Firma?", "options": ["Sie schickt eine neue Rechnung.", "Sie überweist das Geld zurück.", "Sie schickt einen Gutschein."], "answer": 1 },
+            { "q": "Was muss Herr López jetzt machen?", "options": ["anrufen", "ein Formular ausfüllen", "nichts"], "answer": 2 },
+            { "q": "Wie kann er Geld sparen?", "options": ["Rechnung per E-Mail bekommen", "Rechnung jährlich bezahlen", "bar bezahlen"], "answer": 0 },
+            { "q": "Wann ist der Kundenservice erreichbar?", "options": ["jeden Tag", "von Montag bis Freitag", "nur am Vormittag"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Liebe Paula,\n\ndu hast mich gefragt, wie es mit meinen Papieren läuft. Also: Die Anmeldung bei der Gemeinde war kein Problem. Ich habe eine Nummer gezogen, zwanzig Minuten gewartet und nach zehn Minuten war alles fertig. Die Frau am Schalter war sehr freundlich und hat sogar ein bisschen Spanisch gesprochen!\nSchwieriger war die Bank. Für das Konto musste ich eine Bestätigung von meinem Arbeitgeber mitbringen, und die hatte ich nicht dabei. Also musste ich zwei Mal hingehen. Jetzt habe ich das Konto, aber die Karte kommt erst nächste Woche per Post.\nUm die Krankenkasse kümmere ich mich am Wochenende. Es gibt so viele! Kannst du mir eine empfehlen?\n\nLiebe Grüße\nAndrés",
+          "questions": [
+            { "q": "Wie war die Anmeldung bei der Gemeinde?", "options": ["einfach", "sehr kompliziert", "teuer"], "answer": 0 },
+            { "q": "Was war besonders an der Frau am Schalter?", "options": ["Sie konnte etwas Spanisch.", "Sie war unfreundlich.", "Sie kam aus Spanien."], "answer": 0 },
+            { "q": "Warum musste Andrés zwei Mal zur Bank?", "options": ["Die Bank war geschlossen.", "Ihm fehlte ein Dokument.", "Er hatte keinen Termin."], "answer": 1 },
+            { "q": "Wann bekommt er seine Karte?", "options": ["heute", "nächste Woche", "nächsten Monat"], "answer": 1 },
+            { "q": "Was möchte Andrés von Paula?", "options": ["einen Tipp für eine Krankenkasse", "Hilfe bei der Bank", "Geld"], "answer": 0 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Steuerberatung für Privatpersonen: Wir machen Ihre Steuererklärung, ab 120 Franken." },
+            { "key": "b", "text": "Übersetzungsbüro: Offizielle Übersetzungen von Dokumenten (Geburtsurkunde, Diplome)." },
+            { "key": "c", "text": "Umzugsfirma Blitz: Umzüge in der ganzen Schweiz, mit Reinigung." },
+            { "key": "d", "text": "Bank Linth: Konto für junge Leute bis 26 – ohne Gebühren." },
+            { "key": "e", "text": "Infoabend für Neuzuzüger: Alles über Schule, Abfall, Steuern und Vereine in unserer Gemeinde." },
+            { "key": "f", "text": "Fotoautomat im Bahnhof: Passfotos in 3 Minuten." }
+          ],
+          "items": [
+            { "situation": "Sie brauchen für Ihren Antrag ein neues Passfoto.", "answer": "f" },
+            { "situation": "Ihr spanisches Diplom muss auf Deutsch übersetzt werden.", "answer": "b" },
+            { "situation": "Sie haben keine Zeit für Ihre Steuererklärung.", "answer": "a" },
+            { "situation": "Ihre Tochter ist 19 und möchte ein günstiges Bankkonto.", "answer": "d" },
+            { "situation": "Sie möchten Euro in Franken wechseln.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Schlüsseldienst 24 h: Tür zu, Schlüssel weg? Wir kommen in 30 Minuten." },
+            { "key": "b", "text": "Paketshop im Kiosk Bahnhofstraße: Pakete abgeben und abholen bis 21 Uhr." },
+            { "key": "c", "text": "Rechtsberatung für Mieter: Probleme mit dem Vermieter? Erste Beratung gratis." },
+            { "key": "d", "text": "Deutschkurs „Briefe und Formulare“: Lernen Sie, offizielle Briefe zu verstehen." },
+            { "key": "e", "text": "Handyshop: Neue Verträge, günstige Abos und Reparaturen." },
+            { "key": "f", "text": "Geldwechsel am Flughafen: Über 50 Währungen, auch am Sonntag." }
+          ],
+          "items": [
+            { "situation": "Sie verstehen die Briefe von den Ämtern oft nicht.", "answer": "d" },
+            { "situation": "Ihr Vermieter möchte die Kaution nicht zurückzahlen.", "answer": "c" },
+            { "situation": "Sie kommen spät von der Arbeit und möchten heute noch ein Paket abholen.", "answer": "b" },
+            { "situation": "Sie fliegen am Sonntag nach Japan und brauchen Yen.", "answer": "f" },
+            { "situation": "Sie suchen eine Versicherung für Ihr Auto.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wann soll Herr Meier zur Bank kommen?", "options": ["am Montag", "am Dienstag", "am Mittwoch"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Guten Tag Herr Meier, hier ist Frau Studer von der Kantonalbank. Ihre neue Karte ist da. Sie können sie am Dienstag ab neun Uhr am Schalter abholen. Bitte bringen Sie Ihren Ausweis mit." }]
+        },
+        {
+          "q": "Was ist heute geschlossen?", "options": ["die Post", "das Steueramt", "die Bank"], "answer": 1,
+          "audio": [{ "v": "m2", "t": "Information der Stadtverwaltung: Das Steueramt ist heute wegen einer Weiterbildung geschlossen. Alle anderen Büros sind normal geöffnet." }]
+        },
+        {
+          "q": "Was muss Frau Rossi tun?", "options": ["ein Formular unterschreiben", "Geld überweisen", "einen Termin machen"], "answer": 0,
+          "audio": [{ "v": "f2", "t": "Hallo Frau Rossi, hier ist das Einwohneramt. Bei Ihrer Anmeldung fehlt noch Ihre Unterschrift auf dem Formular. Könnten Sie bitte diese Woche noch kurz vorbeikommen? Ein Termin ist nicht nötig." }]
+        },
+        {
+          "q": "Wo kann Lukas das Paket abholen?", "options": ["bei der Nachbarin", "auf der Post", "im Kiosk"], "answer": 0,
+          "audio": [{ "v": "m1", "t": "Hallo Lukas, ich bin's, Tom. Der Postbote war heute da, aber du warst nicht zu Hause. Frau Keller aus dem dritten Stock hat dein Paket genommen. Du kannst es heute Abend bei ihr abholen." }]
+        },
+        {
+          "q": "Welche Taste muss man drücken, um eine Karte zu sperren?", "options": ["die 1", "die 2", "die 3"], "answer": 2,
+          "audio": [{ "v": "f1", "t": "Willkommen bei der PostFinance. Für Fragen zu Ihrem Konto drücken Sie die Eins. Für Fragen zu Rechnungen drücken Sie die Zwei. Möchten Sie Ihre Karte sperren, drücken Sie die Drei." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Martin und seiner Frau Clara. Wer kümmert sich um was?",
+          "options": ["Steuererklärung", "Krankenkasse", "Paket abholen", "Rechnungen bezahlen", "Termin beim Passbüro", "Bank", "Umzug melden", "Formular für die Kita"],
+          "audio": [
+            { "v": "f1", "t": "Martin, wir haben so viel Papierkram diese Woche. Wir müssen das aufteilen." },
+            { "v": "m1", "t": "Okay. Die Steuererklärung mache ich, wie jedes Jahr." },
+            { "v": "f1", "t": "Gut. Ich fülle das Formular für die Kita aus, Ben fängt ja im August an." },
+            { "v": "m1", "t": "Und die Rechnungen? Die Stromrechnung ist schon seit zwei Wochen da." },
+            { "v": "f1", "t": "Die bezahlt meine Mutter, sie wohnt ja bei uns und es ist ihr Monat. Und dein Bruder Felix hat gesagt, er holt unser Paket auf der Post ab, er wohnt ja direkt daneben." },
+            { "v": "m1", "t": "Super. Und Sofia braucht einen neuen Pass. Machst du den Termin beim Passbüro?" },
+            { "v": "f1", "t": "Nein, das kann Sofia selbst machen, sie ist ja schon sechzehn." }
+          ],
+          "items": [
+            { "q": "Martin", "answer": 0 },
+            { "q": "Clara", "answer": 7 },
+            { "q": "Claras Mutter", "answer": 3 },
+            { "q": "Felix", "answer": 2 },
+            { "q": "Sofia", "answer": 4 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch zwischen Ana und einem Kollegen. Wo hat Ana an welchem Tag etwas erledigt?",
+          "options": ["auf der Post", "bei der Bank", "bei der Gemeinde", "beim Arzt", "bei der Krankenkasse", "beim Vermieter", "im Handyshop", "im Passbüro"],
+          "audio": [
+            { "v": "m2", "t": "Ana, du warst diese Woche jeden Tag früher weg. Alles okay?" },
+            { "v": "f2", "t": "Ja, ja, nur Papierkram! Am Montag war ich bei der Gemeinde und habe mich angemeldet." },
+            { "v": "m2", "t": "Ah, du bist ja umgezogen." },
+            { "v": "f2", "t": "Genau. Am Dienstag habe ich beim Vermieter den Mietvertrag unterschrieben, und am Mittwoch war ich bei der Bank, weil ich meine Adresse ändern musste." },
+            { "v": "m2", "t": "Und gestern?" },
+            { "v": "f2", "t": "Gestern, also am Donnerstag, war ich im Handyshop. Mein Internet in der neuen Wohnung geht noch nicht. Und heute muss ich noch auf die Post, ein Paket für meine Schwester abschicken." }
+          ],
+          "items": [
+            { "q": "Montag", "answer": 2 },
+            { "q": "Dienstag", "answer": 5 },
+            { "q": "Mittwoch", "answer": 1 },
+            { "q": "Donnerstag", "answer": 6 },
+            { "q": "Freitag", "answer": 0 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was möchte die Frau?", "options": ["Geld wechseln", "ein Konto eröffnen", "Geld überweisen"], "answer": 0,
+          "audio": [
+            { "v": "f1", "t": "Guten Tag, ich fahre nächste Woche nach Italien. Kann ich hier 300 Franken in Euro wechseln?" },
+            { "v": "m1", "t": "Natürlich. Möchten Sie große oder kleine Scheine?" }
+          ]
+        },
+        {
+          "q": "Wie viel kostet der Brief?", "options": ["1.10 Franken", "1.20 Franken", "2.50 Franken"], "answer": 2,
+          "audio": [
+            { "v": "m2", "t": "Was kostet ein Brief nach Spanien?" },
+            { "v": "f2", "t": "Normal kostet er 1.90, aber mit A-Post 2.50 Franken." },
+            { "v": "m2", "t": "Dann A-Post, bitte. Es ist wichtig." }
+          ]
+        },
+        {
+          "q": "Worauf wartet der Mann?", "options": ["auf seine Bankkarte", "auf ein Paket", "auf eine Antwort vom Amt"], "answer": 2,
+          "audio": [
+            { "v": "f1", "t": "Du siehst nervös aus. Worauf wartest du?" },
+            { "v": "m1", "t": "Auf eine Antwort vom Migrationsamt. Ich habe den Antrag vor zwei Monaten geschickt." }
+          ]
+        },
+        {
+          "q": "Was ist das Problem?", "options": ["Der Pass ist abgelaufen.", "Das Foto ist nicht gut.", "Es fehlt ein Formular."], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Es tut mir leid, aber dieses Foto können wir nicht nehmen. Sie lächeln, und der Hintergrund ist nicht weiß." },
+            { "v": "m2", "t": "Oh nein. Gibt es hier in der Nähe einen Fotoautomaten?" }
+          ]
+        },
+        {
+          "q": "Was macht die Frau jetzt?", "options": ["Sie zieht eine Nummer.", "Sie geht nach Hause.", "Sie macht online einen Termin."], "answer": 0,
+          "audio": [
+            { "v": "f1", "t": "Entschuldigung, wo muss ich mich anstellen?" },
+            { "v": "m1", "t": "Nirgends. Ziehen Sie bitte dort am Automaten eine Nummer und warten Sie, bis sie auf dem Bildschirm erscheint." },
+            { "v": "f1", "t": "Ah, okay, danke." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit Herrn Bauer. Er ist Berater bei einer Bank.",
+          "audio": [
+            { "v": "f1", "t": "Herr Bauer, viele Ausländer eröffnen bei Ihnen ein Konto. Was brauchen sie dafür?" },
+            { "v": "m1", "t": "Einen Pass, die Aufenthaltsbewilligung und eine Adresse in der Schweiz. Viele denken, man braucht auch einen Arbeitsvertrag, aber das stimmt nicht." },
+            { "v": "f1", "t": "Wie lange dauert das?" },
+            { "v": "m1", "t": "Das Gespräch dauert etwa dreißig Minuten. Die Karte bekommt man dann nach ungefähr einer Woche per Post." },
+            { "v": "f1", "t": "Welche Fragen hören Sie am häufigsten?" },
+            { "v": "m1", "t": "Die Leute fragen oft nach den Gebühren. Und viele möchten wissen, wie sie günstig Geld in ihr Heimatland schicken können." },
+            { "v": "f1", "t": "Und was ist Ihr Tipp?" },
+            { "v": "m1", "t": "Lesen Sie die Briefe von der Bank genau! Und geben Sie Ihre PIN nie am Telefon oder per E-Mail weiter." }
+          ],
+          "statements": [
+            { "s": "Für ein Konto braucht man einen Arbeitsvertrag.", "answer": false },
+            { "s": "Das Gespräch in der Bank dauert etwa eine halbe Stunde.", "answer": true },
+            { "s": "Die Karte bekommt man sofort.", "answer": false },
+            { "s": "Viele Kunden fragen nach den Gebühren.", "answer": true },
+            { "s": "Herr Bauer sagt: Man soll die PIN nie am Telefon sagen.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit Sabine Kunz. Sie ist Pöstlerin (Briefträgerin) in einem Dorf.",
+          "audio": [
+            { "v": "m2", "t": "Frau Kunz, Sie bringen seit zwanzig Jahren die Post. Was hat sich verändert?" },
+            { "v": "f2", "t": "Sehr viel! Früher habe ich vor allem Briefe gebracht. Heute sind es viel weniger Briefe, aber sehr viele Pakete, weil alle online einkaufen." },
+            { "v": "m2", "t": "Wann beginnt Ihr Arbeitstag?" },
+            { "v": "f2", "t": "Um sechs Uhr morgens. Zuerst sortiere ich die Post, und um acht fahre ich los, mit einem Elektroroller." },
+            { "v": "m2", "t": "Was gefällt Ihnen an Ihrem Beruf?" },
+            { "v": "f2", "t": "Der Kontakt mit den Menschen. Im Dorf kenne ich alle. Manche ältere Leute warten richtig auf mich, weil ich die einzige Person bin, mit der sie am Tag sprechen." },
+            { "v": "m2", "t": "Und was ist schwierig?" },
+            { "v": "f2", "t": "Der Winter! Wenn viel Schnee liegt, brauche ich doppelt so lange." }
+          ],
+          "statements": [
+            { "s": "Heute bringt Frau Kunz mehr Pakete als früher.", "answer": true },
+            { "s": "Ihr Arbeitstag beginnt um acht Uhr.", "answer": false },
+            { "s": "Sie fährt mit dem Auto.", "answer": false },
+            { "s": "Manche ältere Leute freuen sich sehr auf sie.", "answer": true },
+            { "s": "Im Winter arbeitet sie schneller.", "answer": false }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie warten zu Hause auf ein Paket, aber Sie müssen plötzlich weg. Schreiben Sie Ihrem Nachbarn Herrn Vogel eine Nachricht.",
+          "points": ["Erklären Sie die Situation.", "Bitten Sie ihn, das Paket zu nehmen.", "Wann holen Sie es ab?"],
+          "register": "formal (Sie)",
+          "model": "Lieber Herr Vogel, ich warte heute auf ein Paket, aber ich muss leider dringend zur Arbeit. Könnten Sie das Paket für mich nehmen? Ich hole es heute Abend um 19 Uhr bei Ihnen ab. Vielen Dank! José López (3. Stock)"
+        },
+        {
+          "task": "Ihre Freundin Lea ist neu in Zürich und muss sich bei der Gemeinde anmelden. Schreiben Sie ihr eine Nachricht.",
+          "points": ["Wo ist das Amt?", "Was muss sie mitbringen?", "Bieten Sie Hilfe an."],
+          "register": "informal (du)",
+          "model": "Hallo Lea! Für die Anmeldung musst du ins Stadthaus am Werdmühleplatz, Erdgeschoss. Nimm deinen Pass, den Mietvertrag und ein Foto mit. Wenn du willst, komme ich am Montag mit, ich habe frei. Liebe Grüße, Laura"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben eine Rechnung von Ihrer Internetfirma bekommen. Die Rechnung ist zu hoch. Schreiben Sie an den Kundenservice.",
+          "points": ["Welche Rechnung?", "Was ist das Problem?", "Was soll die Firma tun?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe heute die Rechnung für Mai bekommen (Kundennummer 33851). Die Rechnung ist 120 Franken, aber mein Abo kostet nur 59 Franken im Monat. Ich habe keine extra Leistungen bestellt. Könnten Sie die Rechnung bitte kontrollieren und mir eine neue schicken?\n\nMit freundlichen Grüßen\nJosé López"
+        },
+        {
+          "task": "Sie haben bei der Gemeinde einen Termin für Ihren Ausweis. Sie können nicht kommen. Schreiben Sie an das Passbüro.",
+          "points": ["Welcher Termin?", "Warum können Sie nicht kommen?", "Bitten Sie um einen neuen Termin."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe am Donnerstag, 12. Oktober, um 10 Uhr einen Termin für meinen neuen Ausweis. Leider kann ich nicht kommen, weil ich an diesem Tag auf einer Geschäftsreise bin. Könnten Sie mir bitte einen neuen Termin geben? Am liebsten in der nächsten Woche am Vormittag.\n\nVielen Dank und freundliche Grüße\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Bank, Post und Ämter", "word": "Bank", "question": "Wie bezahlst du meistens?", "answer": "Meistens mit der Karte oder mit TWINT." },
+        { "theme": "Bank, Post und Ämter", "word": "Paket", "question": "Bestellst du oft Pakete im Internet?", "answer": "Ja, ungefähr zwei Mal im Monat." },
+        { "theme": "Bank, Post und Ämter", "word": "Brief", "question": "Wann hast du zum letzten Mal einen Brief geschrieben?", "answer": "Vor einem Jahr, an meine Großmutter." },
+        { "theme": "Bank, Post und Ämter", "word": "Formular", "question": "Füllst du gern Formulare aus?", "answer": "Nein, überhaupt nicht! Sie sind oft kompliziert." },
+        { "theme": "Bank, Post und Ämter", "word": "ärgern", "question": "Worüber ärgerst du dich oft?", "answer": "Über Verspätungen und laute Nachbarn." },
+        { "theme": "Bank, Post und Ämter", "word": "freuen", "question": "Worauf freust du dich?", "answer": "Auf meinen Urlaub in Spanien im Sommer." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Welche Erfahrungen haben Sie mit Ämtern und Papieren gemacht?",
+          "prompts": ["Welches Amt?", "Was mussten Sie machen?", "Was war einfach / schwierig?", "Unterschied zu Ihrem Land?"],
+          "model": [{ "v": "m1", "t": "Am Anfang in der Schweiz musste ich viele Papiere erledigen. Zuerst habe ich mich bei der Gemeinde angemeldet. Das war ganz einfach und schnell. Schwieriger war die Krankenkasse: Es gibt so viele, und ich habe die Briefe am Anfang nicht verstanden. Eine Kollegin hat mir geholfen. In Spanien muss man oft lange auf einen Termin warten. Hier geht alles schneller, aber man muss sehr genau sein und an alle Fristen denken." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie organisieren Sie Ihre Finanzen?",
+          "prompts": ["Bank / Konto?", "Bar oder mit Karte?", "Online-Banking?", "Sparen?"],
+          "model": [{ "v": "f1", "t": "Ich habe ein Konto bei einer Bank hier in der Schweiz und noch ein altes Konto in Spanien. Ich bezahle fast immer mit der Karte oder mit dem Handy, Bargeld habe ich selten dabei. Meine Rechnungen bezahle ich online, das geht schnell. Ich kümmere mich am Monatsanfang um alles: Miete, Krankenkasse, Handy. Jeden Monat spare ich ein bisschen Geld für den Urlaub." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin ziehen um. Sie müssen diese Woche viele Dinge erledigen: Adresse bei der Post ändern, Gemeinde, Bank, Internet. Planen Sie: Wer macht was und wann?",
+          "mine": ["Montag: frei ab 16 Uhr", "Dienstag: Arbeit bis 19 Uhr", "Mittwoch: frei", "Gemeinde: Mo–Fr 8–12 Uhr"],
+          "partner": ["Montag: Arbeit bis 18 Uhr", "Dienstag: frei am Vormittag", "Mittwoch: Zahnarzt 10 Uhr", "Bank: Mo–Fr 9–17 Uhr"],
+          "model": [
+            { "v": "f1", "t": "Wer geht zur Gemeinde? Sie ist nur am Vormittag offen." },
+            { "v": "m1", "t": "Ich kann am Mittwoch gehen, da habe ich frei." },
+            { "v": "f1", "t": "Gut. Ich habe am Dienstagvormittag frei. Ich könnte zur Bank gehen." },
+            { "v": "m1", "t": "Super. Und die Adresse bei der Post ändern wir online, das kann ich heute Abend machen." },
+            { "v": "f1", "t": "Und das Internet? Wer kümmert sich darum?" },
+            { "v": "m1", "t": "Am Montag bin ich ab vier Uhr frei. Dann rufe ich die Firma an." },
+            { "v": "f1", "t": "Perfekt, dann haben wir alles!" }
+          ]
+        },
+        {
+          "task": "Ihre Freundin aus Spanien hat Geburtstag. Sie und Ihr Partner / Ihre Partnerin möchten ihr ein Paket mit Schweizer Spezialitäten schicken. Planen Sie: Was schicken Sie? Wann und wo geben Sie das Paket auf?",
+          "mine": ["Geburtstag: nächsten Freitag", "Paket nach Spanien: 5–7 Tage", "Heute: Arbeit bis 18 Uhr", "Morgen: frei"],
+          "partner": ["Kennt einen guten Käseladen", "Heute: frei ab 14 Uhr", "Morgen: Arbeit bis 20 Uhr", "Hat noch einen großen Karton"],
+          "model": [
+            { "v": "m2", "t": "Was schicken wir Carmen? Schokolade natürlich!" },
+            { "v": "f2", "t": "Ja, und vielleicht Käse? Ich kenne einen guten Käseladen." },
+            { "v": "m2", "t": "Gute Idee. Aber das Paket braucht fünf bis sieben Tage, und ihr Geburtstag ist schon nächsten Freitag." },
+            { "v": "f2", "t": "Dann müssen wir es heute schicken! Ich habe ab zwei Uhr frei. Ich kaufe den Käse und die Schokolade." },
+            { "v": "m2", "t": "Und ich arbeite bis sechs. Die Post am Bahnhof ist bis halb sieben offen, oder?" },
+            { "v": "f2", "t": "Ja. Ich bringe den Karton mit, und wir treffen uns um Viertel nach sechs an der Post." },
+            { "v": "m2", "t": "Perfekt, dann schreibe ich noch eine Karte." }
+          ]
+        }
+      ]
+    }
+  }
+}

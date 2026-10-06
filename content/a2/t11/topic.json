@@ -1,0 +1,553 @@
+{
+  "id": "a2-t11",
+  "level": "a2",
+  "topic": "t11",
+  "title": "Naturaleza y tiempo",
+  "title_de": "Natur und Wetter",
+  "goals": [
+    "Hablar del tiempo y entender un pronóstico meteorológico",
+    "Describir paisajes y planificar excursiones",
+    "Hablar del medio ambiente: reciclar, ahorrar energía, el clima",
+    "Hacer predicciones y promesas con el futuro (werden + infinitivo)",
+    "Reconocer y usar el genitivo básico (des Berges, wegen des Wetters)"
+  ],
+  "vocab": [
+    { "de": "das Wetter", "es": "el tiempo (meteorológico)", "cat": "Tiempo", "ex": "Wie wird das Wetter morgen?", "ex_es": "¿Qué tiempo hará mañana?" },
+    { "de": "der Wetterbericht", "pl": "die Wetterberichte", "es": "el parte meteorológico", "cat": "Tiempo", "ex": "Hast du den Wetterbericht gehört?", "ex_es": "¿Has oído el parte meteorológico?" },
+    { "de": "die Sonne / sonnig", "es": "el sol / soleado", "cat": "Tiempo", "ex": "Morgen wird es sonnig.", "ex_es": "Mañana hará sol." },
+    { "de": "der Regen / regnen", "es": "la lluvia / llover", "cat": "Tiempo", "ex": "Es hat die ganze Nacht geregnet.", "ex_es": "Ha llovido toda la noche." },
+    { "de": "der Schnee / schneien", "es": "la nieve / nevar", "cat": "Tiempo", "ex": "In den Bergen schneit es schon.", "ex_es": "En la montaña ya nieva." },
+    { "de": "die Wolke / bewölkt", "es": "la nube / nublado", "cat": "Tiempo", "ex": "Am Nachmittag ist es bewölkt.", "ex_es": "Por la tarde está nublado." },
+    { "de": "der Wind / windig", "es": "el viento / ventoso", "cat": "Tiempo", "ex": "Am See ist es oft windig.", "ex_es": "En el lago a menudo hace viento." },
+    { "de": "das Gewitter", "pl": "die Gewitter", "es": "la tormenta", "cat": "Tiempo", "ex": "Am Abend gibt es Gewitter.", "ex_es": "Por la noche habrá tormentas." },
+    { "de": "der Nebel / neblig", "es": "la niebla / con niebla", "cat": "Tiempo", "ex": "Im November ist es oft neblig.", "ex_es": "En noviembre suele haber niebla." },
+    { "de": "die Temperatur", "pl": "die Temperaturen", "es": "la temperatura", "cat": "Tiempo", "ex": "Die Temperaturen steigen auf 30 Grad.", "ex_es": "Las temperaturas suben a 30 grados." },
+    { "de": "der Grad", "pl": "die Grad", "es": "el grado", "cat": "Tiempo", "ex": "Es sind minus drei Grad.", "ex_es": "Hace tres bajo cero." },
+    { "de": "die Jahreszeit", "pl": "die Jahreszeiten", "es": "la estación del año", "cat": "Tiempo", "ex": "Der Herbst ist meine Lieblingsjahreszeit.", "ex_es": "El otoño es mi estación favorita." },
+    { "de": "der Berg", "pl": "die Berge", "es": "la montaña", "cat": "Naturaleza", "ex": "Am Wochenende fahren wir in die Berge.", "ex_es": "El fin de semana vamos a la montaña." },
+    { "de": "der Gipfel", "pl": "die Gipfel", "es": "la cima", "cat": "Naturaleza", "ex": "Wir sind um zehn Uhr auf dem Gipfel.", "ex_es": "A las diez estamos en la cima." },
+    { "de": "das Tal", "pl": "die Täler", "es": "el valle", "cat": "Naturaleza", "ex": "Das Dorf liegt in einem schönen Tal.", "ex_es": "El pueblo está en un valle precioso." },
+    { "de": "der See", "pl": "die Seen", "es": "el lago", "cat": "Naturaleza", "ex": "Im Sommer schwimmen wir im See.", "ex_es": "En verano nadamos en el lago." },
+    { "de": "der Fluss", "pl": "die Flüsse", "es": "el río", "cat": "Naturaleza", "ex": "Die Aare ist ein Fluss in Bern.", "ex_es": "El Aar es un río de Berna." },
+    { "de": "der Wald", "pl": "die Wälder", "es": "el bosque", "cat": "Naturaleza", "ex": "Ich gehe gern im Wald spazieren.", "ex_es": "Me gusta pasear por el bosque." },
+    { "de": "die Wiese", "pl": "die Wiesen", "es": "el prado", "cat": "Naturaleza", "ex": "Die Kinder spielen auf der Wiese.", "ex_es": "Los niños juegan en el prado." },
+    { "de": "die Aussicht", "es": "las vistas", "cat": "Naturaleza", "ex": "Von hier hat man eine tolle Aussicht.", "ex_es": "Desde aquí hay unas vistas increíbles." },
+    { "de": "das Tier", "pl": "die Tiere", "es": "el animal", "cat": "Naturaleza", "ex": "Welche Tiere leben in den Alpen?", "ex_es": "¿Qué animales viven en los Alpes?" },
+    { "de": "die Pflanze", "pl": "die Pflanzen", "es": "la planta", "cat": "Naturaleza", "ex": "Ich habe viele Pflanzen auf dem Balkon.", "ex_es": "Tengo muchas plantas en el balcón." },
+    { "de": "die Umwelt", "es": "el medio ambiente", "cat": "Medio ambiente", "ex": "Wir müssen die Umwelt schützen.", "ex_es": "Tenemos que proteger el medio ambiente." },
+    { "de": "der Klimawandel", "es": "el cambio climático", "cat": "Medio ambiente", "ex": "Der Klimawandel ist ein großes Problem.", "ex_es": "El cambio climático es un gran problema." },
+    { "de": "der Müll / der Abfall", "es": "la basura", "cat": "Medio ambiente", "ex": "Bring bitte den Müll raus!", "ex_es": "¡Saca la basura, por favor!" },
+    { "de": "trennen", "es": "separar", "cat": "Medio ambiente", "forms": "er trennt, hat getrennt", "ex": "Wir trennen Glas und Papier.", "ex_es": "Separamos vidrio y papel." },
+    { "de": "sparen", "es": "ahorrar", "cat": "Medio ambiente", "forms": "er spart, hat gespart", "ex": "So kann man Energie sparen.", "ex_es": "Así se puede ahorrar energía." },
+    { "de": "schützen", "es": "proteger", "cat": "Medio ambiente", "forms": "er schützt, hat geschützt", "ex": "Diese Tiere sind geschützt.", "ex_es": "Estos animales están protegidos." },
+    { "de": "umweltfreundlich", "es": "ecológico, respetuoso con el medio ambiente", "cat": "Medio ambiente", "ex": "Der Zug ist umweltfreundlicher als das Flugzeug.", "ex_es": "El tren es más ecológico que el avión." },
+    { "de": "der Gletscher", "pl": "die Gletscher", "es": "el glaciar", "cat": "Medio ambiente", "ex": "Der Gletscher ist in den letzten 100 Jahren viel kleiner geworden.", "ex_es": "El glaciar se ha hecho mucho más pequeño en 100 años." },
+    { "de": "werden (Futur)", "es": "futuro: werden + infinitivo", "cat": "Gramática", "forms": "ich werde, du wirst, er wird", "ex": "Morgen wird es schneien.", "ex_es": "Mañana nevará." },
+    { "de": "wegen (+ Gen)", "es": "a causa de, por", "cat": "Gramática", "ex": "Wegen des Wetters fällt das Fest aus.", "ex_es": "Por el tiempo se suspende la fiesta." },
+    { "de": "während (+ Gen)", "es": "durante", "cat": "Gramática", "ex": "Während des Sommers ist das Hotel voll.", "ex_es": "Durante el verano el hotel está lleno." }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Naturaleza y tiempo",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["bewölkt", "nublado"],
+        ["das Gewitter", "la tormenta"],
+        ["neblig", "con niebla"],
+        ["der Gipfel", "la cima"],
+        ["das Tal", "el valle"],
+        ["der See", "el lago"],
+        ["die Umwelt", "el medio ambiente"],
+        ["trennen", "separar"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Qué tiempo hace?",
+      "instructions": "Elige la palabra correcta.",
+      "items": [
+        { "q": "Die Sonne scheint. Es ist ___.", "options": ["sonnig", "neblig", "windig"], "answer": 0 },
+        { "q": "Ich sehe nichts! Es ist sehr ___.", "options": ["neblig", "sonnig", "warm"], "answer": 0 },
+        { "q": "Nimm einen Regenschirm mit, es ___.", "options": ["regnet", "schneit", "scheint"], "answer": 0 },
+        { "q": "Im Winter ___ es in den Bergen.", "options": ["schneit", "scheint", "gibt"], "answer": 0 },
+        { "q": "Es ist ___ kalt.", "options": ["sehr", "macht", "hat"], "answer": 0 },
+        { "q": "Heute sind es 30 ___.", "options": ["Grad", "Temperatur", "Wetter"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "werden",
+      "instructions": "Completa con la forma correcta de werden.",
+      "items": [
+        { "text": "Morgen [[wird]] es regnen." },
+        { "text": "Ich [[werde]] dich am Abend anrufen." },
+        { "text": "[[Wirst]] du im Sommer nach Spanien fahren?" },
+        { "text": "Wir [[werden]] nächstes Jahr umziehen." },
+        { "text": "[[Werdet]] ihr zur Party kommen?" },
+        { "text": "Die Temperaturen [[werden]] steigen." }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "order",
+      "title": "Frases en futuro",
+      "instructions": "Ordena la frase. Recuerda: werden en posición 2, infinitivo al final.",
+      "items": [
+        { "words": ["Morgen", "wird", "es", "schneien", "."], "answers": ["Morgen wird es schneien.", "Es wird morgen schneien."] },
+        { "words": ["Ich", "werde", "die", "Prüfung", "bestehen", "."], "answers": ["Ich werde die Prüfung bestehen."] },
+        { "words": ["Am", "Wochenende", "wird", "es", "warm", "sein", "."], "answers": ["Am Wochenende wird es warm sein.", "Es wird am Wochenende warm sein."] },
+        { "words": ["Wir", "werden", "mehr", "Energie", "sparen", "."], "answers": ["Wir werden mehr Energie sparen."] },
+        { "words": ["Wirst", "du", "mich", "besuchen", "?"], "answers": ["Wirst du mich besuchen?"] }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "write",
+      "title": "Del presente al futuro",
+      "instructions": "Escribe la frase en futuro con werden.",
+      "items": [
+        { "prompt": "Morgen regnet es.", "answers": ["Morgen wird es regnen."] },
+        { "prompt": "Ich lerne jeden Tag Deutsch.", "answers": ["Ich werde jeden Tag Deutsch lernen."] },
+        { "prompt": "Wir fahren mit dem Zug.", "answers": ["Wir werden mit dem Zug fahren."] },
+        { "prompt": "Am Nachmittag gibt es Gewitter.", "answers": ["Am Nachmittag wird es Gewitter geben."] }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "Genitivo",
+      "instructions": "Completa con el artículo o posesivo en genitivo (des, der, eines, meines, meiner…). Recuerda la -s en masculino y neutro.",
+      "items": [
+        { "text": "Das ist das Auto [[meines]] Vaters." },
+        { "text": "Der Gipfel [[des]] Berges ist sehr hoch." },
+        { "text": "Die Wohnung [[meiner]] Schwester ist groß." },
+        { "text": "Die Farbe [[der]] Blätter ist im Herbst rot." },
+        { "text": "Wegen [[des]] Regens bleiben wir zu Hause." },
+        { "text": "Während [[der]] Ferien bin ich in Spanien." }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "write",
+      "title": "De von + dativo a genitivo",
+      "instructions": "Escribe la frase con genitivo.",
+      "items": [
+        { "prompt": "das Haus von meinen Eltern", "answers": ["das Haus meiner Eltern"] },
+        { "prompt": "der Hund von Anna", "answers": ["Annas Hund"] },
+        { "prompt": "das Zimmer von dem Kind", "answers": ["das Zimmer des Kindes"] },
+        { "prompt": "die Freundin von meinem Bruder", "answers": ["die Freundin meines Bruders"] }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "Partes y excursiones",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [{ "v": "m2", "t": "Das Wetter für morgen: Am Vormittag ist es noch sonnig, am Nachmittag gibt es Gewitter. Die Temperaturen liegen bei 27 Grad." }],
+          "q": "¿Qué tiempo hará mañana por la tarde?", "options": ["Sol", "Tormentas", "Niebla"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Wollen wir am Sonntag auf den Pilatus wandern?" },
+            { "v": "m1", "t": "Gern, aber nur, wenn es nicht regnet. Ich schaue morgen den Wetterbericht." }
+          ],
+          "q": "¿De qué depende la excursión?", "options": ["Del tiempo", "Del dinero", "Del tren"], "answer": 0
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Wohin kommen die Flaschen?" },
+            { "v": "m2", "t": "Die PET-Flaschen bringst du in den Supermarkt, und die Glasflaschen kommen in den Container an der Ecke." }
+          ],
+          "q": "¿Adónde se llevan las botellas de PET?", "options": ["Al contenedor de la esquina", "Al supermercado", "A la basura normal"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Warum ist der Zug so voll?" },
+            { "v": "f1", "t": "Wegen des Schnees fahren heute viele Leute nicht mit dem Auto." }
+          ],
+          "q": "¿Por qué va el tren lleno?", "options": ["Por una huelga", "Por la nieve", "Por una fiesta"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Was ist deine Lieblingsjahreszeit?" },
+            { "v": "m2", "t": "Der Herbst. Die Farben im Wald sind wunderschön, und es ist nicht mehr so heiß." }
+          ],
+          "q": "¿Qué estación prefiere?", "options": ["La primavera", "El verano", "El otoño"], "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Morgen wird es regnen." }], "answers": ["Morgen wird es regnen."] },
+        { "audio": [{ "v": "m1", "t": "Es ist bewölkt und windig." }], "answers": ["Es ist bewölkt und windig."] },
+        { "audio": [{ "v": "f2", "t": "Wir trennen den Müll." }], "answers": ["Wir trennen den Müll."] },
+        { "audio": [{ "v": "m2", "t": "Von hier hat man eine tolle Aussicht." }], "answers": ["Von hier hat man eine tolle Aussicht."] },
+        { "audio": [{ "v": "f1", "t": "Wegen des Regens bleiben wir zu Hause." }], "answers": ["Wegen des Regens bleiben wir zu Hause."] }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Hace frío y está nublado.", "answers": ["Es ist kalt und bewölkt.", "Es ist kalt und es ist bewölkt."] },
+        { "prompt": "Mañana lloverá.", "answers": ["Morgen wird es regnen.", "Es wird morgen regnen."] },
+        { "prompt": "Separamos la basura.", "answers": ["Wir trennen den Müll.", "Wir trennen den Abfall."] },
+        { "prompt": "Es el coche de mi padre.", "answers": ["Das ist das Auto meines Vaters.", "Das ist das Auto von meinem Vater."] },
+        { "prompt": "Me gusta pasear por el bosque.", "answers": ["Ich gehe gern im Wald spazieren."] },
+        { "prompt": "Por la lluvia nos quedamos en casa.", "answers": ["Wegen des Regens bleiben wir zu Hause.", "Wegen dem Regen bleiben wir zu Hause."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Die Gletscher schmelzen",
+          "text": "Die Schweiz hat über 1400 Gletscher. Aber sie werden jedes Jahr kleiner. Im Sommer 2022 haben die Gletscher so viel Eis verloren wie noch nie: etwa sechs Prozent in nur einem Jahr. Der Grund ist der Klimawandel: Die Sommer werden immer heißer, und im Winter fällt weniger Schnee. Forscher sagen, dass bis zum Jahr 2100 fast alle Gletscher in den Alpen verschwinden werden. Das ist nicht nur traurig für Touristen. Die Gletscher sind auch wichtig für das Wasser: Im Sommer bringen sie Wasser in die Flüsse und Seen. Ohne Gletscher wird es in heißen Sommern weniger Wasser für die Landwirtschaft und für Kraftwerke geben. Einige Gemeinden decken ihre Gletscher im Sommer mit weißen Tüchern zu. So schmilzt das Eis langsamer.",
+          "questions": [
+            { "q": "Was ist im Sommer 2022 passiert?", "options": ["Die Gletscher sind gewachsen.", "Die Gletscher haben sehr viel Eis verloren.", "Es hat viel geschneit."], "answer": 1 },
+            { "q": "Warum werden die Gletscher kleiner?", "options": ["wegen des Klimawandels", "wegen der Touristen", "wegen der Kraftwerke"], "answer": 0 },
+            { "q": "Was sagen die Forscher?", "options": ["Bis 2100 gibt es kaum noch Gletscher.", "Die Gletscher werden wieder größer.", "Nur die kleinen Gletscher verschwinden."], "answer": 0 },
+            { "q": "Warum sind die Gletscher wichtig?", "options": ["Sie bringen im Sommer Wasser.", "Sie machen das Wetter kälter.", "Man kann dort Ski fahren."], "answer": 0 },
+            { "q": "Was machen einige Gemeinden?", "options": ["Sie bauen neue Kraftwerke.", "Sie decken die Gletscher mit Tüchern zu.", "Sie verbieten den Tourismus."], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Müll trennen in der Schweiz",
+          "text": "Wer neu in die Schweiz kommt, ist oft überrascht: Hier trennt man den Müll sehr genau. Für den normalen Abfall muss man spezielle Müllsäcke kaufen, die etwa zwei Franken pro Stück kosten. Deshalb trennen die meisten Leute alles, was sie recyceln können. PET-Flaschen bringt man in den Supermarkt, Glas in Container – nach Farben getrennt: weiß, braun und grün. Papier und Karton bindet man zusammen und stellt es an bestimmten Tagen auf die Straße. Für Grünabfälle wie Gemüse und Gras gibt es in vielen Gemeinden einen Kompostcontainer. Batterien, Elektrogeräte und alte Kleider kann man in den Geschäften zurückgeben. Wer seinen Müll ohne offiziellen Sack auf die Straße stellt, muss eine Strafe bezahlen – manchmal 200 Franken oder mehr.",
+          "questions": [
+            { "q": "Was muss man für den normalen Abfall kaufen?", "options": ["einen Container", "spezielle Müllsäcke", "eine Karte"], "answer": 1 },
+            { "q": "Wohin bringt man PET-Flaschen?", "options": ["in den Supermarkt", "in den Glascontainer", "auf die Straße"], "answer": 0 },
+            { "q": "Wie trennt man Glas?", "options": ["nach Größe", "nach Farben", "gar nicht"], "answer": 1 },
+            { "q": "Was kann man in den Geschäften zurückgeben?", "options": ["Gemüse", "Batterien", "Papier"], "answer": 1 },
+            { "q": "Was passiert, wenn man den Müll ohne offiziellen Sack auf die Straße stellt?", "options": ["Nichts.", "Man muss bezahlen.", "Die Nachbarn nehmen ihn."], "answer": 1 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Wetter Schweiz – die nächsten Tage",
+          "text": "Montag: Im Norden Nebel bis Mittag, dann sonnig. Im Süden (Tessin) sonnig, 22 Grad.\nDienstag: Überall bewölkt, am Abend Regen. 15 Grad.\nMittwoch: Regen, in den Bergen ab 1500 Metern Schnee. 10 Grad.\nDonnerstag: Starker Wind (Föhn) in den Alpentälern, sonst trocken. 18 Grad.\nFreitag: Sonnig und warm, am Abend Gewitter möglich. 24 Grad.\nSamstag: Sonnig, wenig Wind, ideales Wanderwetter. 21 Grad.",
+          "questions": [
+            { "q": "Sie möchten am Wochenende wandern. Welcher Tag ist ideal?", "options": ["Mittwoch", "Donnerstag", "Samstag"], "answer": 2 },
+            { "q": "Wann schneit es in den Bergen?", "options": ["am Dienstag", "am Mittwoch", "am Freitag"], "answer": 1 },
+            { "q": "Wo ist es am Montag am Vormittag neblig?", "options": ["im Norden", "im Tessin", "in den Bergen"], "answer": 0 },
+            { "q": "Wann ist es am wärmsten?", "options": ["Montag", "Freitag", "Samstag"], "answer": 1 },
+            { "q": "Sie möchten nicht im Regen nach Hause fahren. An welchem Abend nehmen Sie einen Schirm mit?", "options": ["Montag", "Dienstag", "Samstag"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Naturpark Gantrisch – Angebote",
+          "text": "Besucherzentrum: Informationen, Karten, Ausstellung über die Tiere des Parks\nSternwarte: Am Freitagabend Sterne beobachten (nur bei klarem Himmel)\nKräuterwanderung: Mit einer Expertin Pflanzen kennenlernen (Sonntag, 10 Uhr)\nNaturspielplatz: Für Kinder, mit Bach und Baumhaus\nMoorlandschaft: Rundweg 3 km, auch mit Kinderwagen\nAlpkäserei: Käse direkt vom Bauern kaufen, Mai bis Oktober",
+          "questions": [
+            { "q": "Sie möchten mehr über Pflanzen lernen.", "options": ["Kräuterwanderung", "Sternwarte", "Alpkäserei"], "answer": 0 },
+            { "q": "Sie haben ein Baby im Kinderwagen und möchten spazieren gehen.", "options": ["Sternwarte", "Moorlandschaft", "Naturspielplatz"], "answer": 1 },
+            { "q": "Sie interessieren sich für die Tiere im Park.", "options": ["Besucherzentrum", "Alpkäserei", "Moorlandschaft"], "answer": 0 },
+            { "q": "Sie möchten im Juli Käse kaufen.", "options": ["Besucherzentrum", "Alpkäserei", "Das geht nicht."], "answer": 1 },
+            { "q": "Wann kann man Sterne beobachten?", "options": ["jeden Abend", "am Freitagabend, wenn es klar ist", "am Sonntagmorgen"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Hallo Lucía,\n\nendlich habe ich Zeit, dir von unserem Wochenende in den Bergen zu erzählen! Am Samstag sind wir mit dem Zug nach Grindelwald gefahren und dann zu einer Berghütte auf 2200 Metern gewandert. Das Wetter war am Anfang super, aber nach zwei Stunden kam plötzlich Nebel. Wir haben fast nichts mehr gesehen! Zum Glück kannte Jonas den Weg. In der Hütte haben wir mit zwanzig anderen Wanderern in einem großen Zimmer geschlafen – nicht sehr ruhig! Aber am Sonntagmorgen war der Himmel ganz klar, und wir haben den Sonnenaufgang über dem Eiger gesehen. Das war der schönste Moment der Reise.\nIm September werden wir wieder gehen. Hast du Lust mitzukommen? Du brauchst nur gute Schuhe und warme Kleidung.\n\nLiebe Grüße\nSara",
+          "questions": [
+            { "q": "Wie sind Sara und Jonas nach Grindelwald gekommen?", "options": ["mit dem Auto", "mit dem Zug", "zu Fuß"], "answer": 1 },
+            { "q": "Was ist während der Wanderung passiert?", "options": ["Es hat geschneit.", "Es kam Nebel.", "Es gab ein Gewitter."], "answer": 1 },
+            { "q": "Wie war die Nacht in der Hütte?", "options": ["ruhig", "laut", "kalt"], "answer": 1 },
+            { "q": "Was war für Sara am schönsten?", "options": ["der Sonnenaufgang", "das Essen in der Hütte", "die Zugfahrt"], "answer": 0 },
+            { "q": "Was braucht Lucía für die nächste Wanderung?", "options": ["ein Zelt", "gute Schuhe und warme Kleidung", "einen Schlafsack"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Liebe Bewohnerinnen und Bewohner,\n\nam Samstag, den 22. April, findet unser jährlicher Umwelttag statt. Wir treffen uns um 9 Uhr beim Gemeindehaus. Zusammen sammeln wir Abfall im Wald, am Seeufer und auf den Spielplätzen. Handschuhe und Säcke bekommen Sie von uns, bitte bringen Sie gute Schuhe mit.\nUm 12 Uhr gibt es für alle Helferinnen und Helfer ein Mittagessen mit Suppe und Wurst vom Grill. Am Nachmittag zeigt Ihnen der Förster, welche Bäume im Wald krank sind und warum.\nWegen des Grillfeuers findet das Mittagessen bei Regen im Gemeindesaal statt. Die Aktion im Wald machen wir bei jedem Wetter.\nBitte melden Sie sich bis zum 15. April bei der Gemeinde an.\n\nIhre Umweltkommission",
+          "questions": [
+            { "q": "Was machen die Leute am Umwelttag?", "options": ["Bäume pflanzen", "Abfall sammeln", "Tiere zählen"], "answer": 1 },
+            { "q": "Was müssen die Helfer selbst mitbringen?", "options": ["Handschuhe", "Säcke", "gute Schuhe"], "answer": 2 },
+            { "q": "Was gibt es am Mittag?", "options": ["ein Picknick", "Suppe und Wurst", "nichts"], "answer": 1 },
+            { "q": "Was zeigt der Förster?", "options": ["kranke Bäume", "seltene Tiere", "einen neuen Weg"], "answer": 0 },
+            { "q": "Was passiert bei Regen?", "options": ["Der Umwelttag fällt aus.", "Das Essen ist im Gemeindesaal.", "Man arbeitet nur am Nachmittag."], "answer": 1 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Bergschule Alpin: Kletterkurse und geführte Hochtouren für Erfahrene." },
+            { "key": "b", "text": "Schneeschuhwanderung bei Vollmond: Mit Fondue in der Hütte, für alle." },
+            { "key": "c", "text": "Seebad Utoquai: Schwimmen im Zürichsee, Juni bis September." },
+            { "key": "d", "text": "Tierpark Dählhölzli: Bären, Wölfe und Luchse – Eintritt frei." },
+            { "key": "e", "text": "Gartenkurs: Gemüse auf dem Balkon anbauen – auch in kleinen Wohnungen." },
+            { "key": "f", "text": "Velotouren am Bodensee: Fahrräder mieten, Karten und Tipps." }
+          ],
+          "items": [
+            { "situation": "Sie möchten im Winter etwas Besonderes in der Natur erleben.", "answer": "b" },
+            { "situation": "Ihre Kinder möchten wilde Tiere sehen, aber Sie haben wenig Geld.", "answer": "d" },
+            { "situation": "Sie haben keinen Garten, aber Sie möchten eigene Tomaten.", "answer": "e" },
+            { "situation": "Es ist Juli und sehr heiß. Sie möchten sich abkühlen.", "answer": "c" },
+            { "situation": "Sie möchten einen Kurs für Vogelbeobachtung machen.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Repair-Café: Jeden ersten Samstag im Monat reparieren wir zusammen Ihre kaputten Sachen." },
+            { "key": "b", "text": "Solaranlagen für Ihr Dach: Kostenlose Beratung." },
+            { "key": "c", "text": "Unverpackt-Laden: Lebensmittel ohne Plastik – bringen Sie Ihre eigenen Gläser mit." },
+            { "key": "d", "text": "Carsharing Mobility: Auto mieten, wenn Sie es brauchen – über 3000 Autos in der Schweiz." },
+            { "key": "e", "text": "Second-Hand-Börse für Kinderkleider und Spielsachen: Samstag in der Turnhalle." },
+            { "key": "f", "text": "Wetter-App MeteoSwiss: Warnungen vor Gewitter, Hitze und Sturm direkt aufs Handy." }
+          ],
+          "items": [
+            { "situation": "Ihr Toaster ist kaputt, aber Sie möchten keinen neuen kaufen.", "answer": "a" },
+            { "situation": "Sie möchten beim Einkaufen weniger Plastik benutzen.", "answer": "c" },
+            { "situation": "Sie haben kein Auto, brauchen aber manchmal eins für Ausflüge.", "answer": "d" },
+            { "situation": "Sie möchten informiert sein, wenn ein Unwetter kommt.", "answer": "f" },
+            { "situation": "Sie möchten Ihre alten Möbel verkaufen.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wie wird das Wetter am Wochenende?", "options": ["sonnig", "regnerisch", "neblig"], "answer": 0,
+          "audio": [{ "v": "f1", "t": "Und nun das Wetter: Heute bleibt es noch regnerisch, aber ab Samstag wird es sonnig. Am Sonntag werden die Temperaturen auf fünfundzwanzig Grad steigen." }]
+        },
+        {
+          "q": "Was ist heute geschlossen?", "options": ["die Bergbahn", "das Restaurant", "der Wanderweg"], "answer": 0,
+          "audio": [{ "v": "m2", "t": "Information für unsere Gäste: Wegen des starken Windes fährt die Bergbahn heute nicht. Das Restaurant im Tal ist normal geöffnet." }]
+        },
+        {
+          "q": "Wann kommt die Müllabfuhr?", "options": ["am Montag", "am Dienstag", "am Mittwoch"], "answer": 2,
+          "audio": [{ "v": "f2", "t": "Hallo Herr Rossi, hier ist Ihre Nachbarin Frau Huber. Wegen des Feiertags am Montag kommt die Müllabfuhr diese Woche nicht am Dienstag, sondern erst am Mittwoch." }]
+        },
+        {
+          "q": "Wo treffen sie sich?", "options": ["am Bahnhof", "beim Parkplatz", "an der Bushaltestelle"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Hallo Mia, hier ist Leo. Für die Wanderung morgen: Wir fahren mit dem Auto. Treffen wir uns um sieben Uhr beim Parkplatz vor der Schule? Und nimm eine warme Jacke mit, oben wird es kalt sein." }]
+        },
+        {
+          "q": "Was sollen die Autofahrer tun?", "options": ["schneller fahren", "langsam fahren", "zu Hause bleiben"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Achtung Autofahrer: Auf der A1 zwischen Bern und Zürich gibt es dichten Nebel. Die Sicht ist unter fünfzig Meter. Bitte fahren Sie langsam und vorsichtig." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Nadia und Marc. Was machen ihre Freunde und Familie für die Umwelt?",
+          "options": ["Fahrrad fahren", "kein Fleisch essen", "Müll trennen", "weniger fliegen", "Second Hand kaufen", "Gemüse anbauen", "Energie sparen", "kein Auto haben"],
+          "audio": [
+            { "v": "f1", "t": "Marc, was macht deine Familie eigentlich für die Umwelt?" },
+            { "v": "m1", "t": "Meine Eltern haben ihr Auto verkauft. Sie fahren jetzt nur noch mit dem Zug und dem Bus." },
+            { "v": "f1", "t": "Toll! Und du?" },
+            { "v": "m1", "t": "Ich esse seit zwei Jahren vegetarisch. Und meine Schwester kauft ihre Kleider nur noch in Second-Hand-Läden." },
+            { "v": "f1", "t": "Bei uns hat mein Opa im Garten ein großes Gemüsebeet, wir kaufen fast kein Gemüse mehr. Und mein Mann macht im Haus überall das Licht aus und dreht die Heizung runter, er ist ein richtiger Energiesparer!" },
+            { "v": "m1", "t": "Und du selbst?" },
+            { "v": "f1", "t": "Ich fliege nicht mehr in den Urlaub. Dieses Jahr fahren wir mit dem Zug nach Italien." }
+          ],
+          "items": [
+            { "q": "Marcs Eltern", "answer": 7 },
+            { "q": "Marc", "answer": 1 },
+            { "q": "Marcs Schwester", "answer": 4 },
+            { "q": "Nadias Opa", "answer": 5 },
+            { "q": "Nadias Mann", "answer": 6 }
+          ]
+        },
+        {
+          "intro": "Sie hören den Wetterbericht für die Woche. Wie wird das Wetter an welchem Tag?",
+          "options": ["sonnig", "Regen", "Schnee", "Nebel", "Gewitter", "starker Wind", "bewölkt", "sehr heiß"],
+          "audio": [
+            { "v": "m2", "t": "Guten Morgen, hier ist das Wetter für die neue Woche. Am Montag liegt im Mittelland bis zum Mittag dichter Nebel." },
+            { "v": "m2", "t": "Am Dienstag wird es den ganzen Tag regnen, nehmen Sie einen Schirm mit." },
+            { "v": "m2", "t": "Am Mittwoch bleibt es trocken, aber der Himmel ist grau und bewölkt." },
+            { "v": "m2", "t": "Am Donnerstag kommt der Föhn: In den Alpentälern wird es sehr windig." },
+            { "v": "m2", "t": "Und am Freitag kommt endlich die Sonne. Ein perfekter Tag für einen Ausflug." }
+          ],
+          "items": [
+            { "q": "Montag", "answer": 3 },
+            { "q": "Dienstag", "answer": 1 },
+            { "q": "Mittwoch", "answer": 6 },
+            { "q": "Donnerstag", "answer": 5 },
+            { "q": "Freitag", "answer": 0 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was nimmt die Frau mit?", "options": ["eine Sonnencreme", "einen Regenschirm", "eine Mütze"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Brauchst du eine Sonnencreme?" },
+            { "v": "f1", "t": "Nein, im Wetterbericht haben sie Regen angesagt. Ich nehme lieber meinen Schirm mit." }
+          ]
+        },
+        {
+          "q": "Wohin fahren sie am Sonntag?", "options": ["an einen See", "in die Berge", "in die Stadt"], "answer": 0,
+          "audio": [
+            { "v": "f2", "t": "Fahren wir am Sonntag in die Berge?" },
+            { "v": "m2", "t": "Es wird über dreißig Grad heiß. Ich würde lieber an den See fahren und schwimmen." },
+            { "v": "f2", "t": "Okay, gute Idee." }
+          ]
+        },
+        {
+          "q": "Was ist das Problem?", "options": ["Der Glascontainer ist voll.", "Der Mann hat den Müll nicht getrennt.", "Der Müllsack ist zu teuer."], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Entschuldigung, in Ihrem Müllsack sind Glasflaschen und Papier." },
+            { "v": "m1", "t": "Oh, das tut mir leid. Ich bin neu hier. Wo kann ich das Glas hinbringen?" }
+          ]
+        },
+        {
+          "q": "Welches Tier hat die Frau gesehen?", "options": ["einen Steinbock", "ein Murmeltier", "einen Fuchs"], "answer": 1,
+          "audio": [
+            { "v": "m2", "t": "Hast du auf der Wanderung Tiere gesehen?" },
+            { "v": "f2", "t": "Ja! Ein Murmeltier, direkt neben dem Weg. Steinböcke haben wir leider keine gesehen." }
+          ]
+        },
+        {
+          "q": "Was wird der Mann im nächsten Jahr machen?", "options": ["ein Elektroauto kaufen", "mit dem Fahrrad zur Arbeit fahren", "umziehen"], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Fährst du immer noch mit dem Auto zur Arbeit?" },
+            { "v": "m1", "t": "Ja, aber nächstes Jahr werde ich mit dem Fahrrad fahren. Unsere Firma baut gerade Duschen für die Mitarbeiter." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit der Försterin Claudia Brand.",
+          "audio": [
+            { "v": "m1", "t": "Frau Brand, Sie sind Försterin. Was machen Sie genau?" },
+            { "v": "f1", "t": "Ich kümmere mich um den Wald unserer Gemeinde. Ich entscheide, welche Bäume man fällen muss und wo wir neue pflanzen." },
+            { "v": "m1", "t": "Wie geht es dem Schweizer Wald?" },
+            { "v": "f1", "t": "Nicht so gut. Wegen der trockenen Sommer sind viele Bäume krank, besonders die Fichten." },
+            { "v": "m1", "t": "Was tun Sie dagegen?" },
+            { "v": "f1", "t": "Wir pflanzen mehr Eichen und andere Bäume, die die Hitze besser aushalten." },
+            { "v": "m1", "t": "Was ist Ihr Tipp für Spaziergänger?" },
+            { "v": "f1", "t": "Bleiben Sie auf den Wegen, nehmen Sie Ihren Abfall wieder mit, und machen Sie im Sommer kein Feuer im Wald. Das ist sehr gefährlich." }
+          ],
+          "statements": [
+            { "s": "Frau Brand arbeitet für eine Gemeinde.", "answer": true },
+            { "s": "Dem Wald geht es sehr gut.", "answer": false },
+            { "s": "Viele Fichten sind krank.", "answer": true },
+            { "s": "Sie pflanzt jetzt mehr Fichten.", "answer": false },
+            { "s": "Im Sommer soll man im Wald kein Feuer machen.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit dem Meteorologen Felix Huber.",
+          "audio": [
+            { "v": "f2", "t": "Herr Huber, wie macht man eigentlich einen Wetterbericht?" },
+            { "v": "m2", "t": "Wir bekommen Daten von hunderten Wetterstationen und von Satelliten. Computer rechnen dann, wie das Wetter in den nächsten Tagen wird." },
+            { "v": "f2", "t": "Wie genau ist die Prognose?" },
+            { "v": "m2", "t": "Für morgen ist sie zu etwa neunzig Prozent richtig. Für in fünf Tagen nur noch zu siebzig Prozent." },
+            { "v": "f2", "t": "Warum ist das Wetter in der Schweiz so schwierig vorherzusagen?" },
+            { "v": "m2", "t": "Wegen der Berge! Auf der einen Seite der Alpen kann es regnen, und auf der anderen scheint die Sonne." },
+            { "v": "f2", "t": "Was wird sich in Zukunft ändern?" },
+            { "v": "m2", "t": "Wir werden mehr heiße Tage und mehr starke Gewitter haben. Und im Winter wird es in tiefen Lagen immer weniger Schnee geben." }
+          ],
+          "statements": [
+            { "s": "Für den Wetterbericht benutzt man Daten von Satelliten.", "answer": true },
+            { "s": "Die Prognose für morgen ist zu 70 Prozent richtig.", "answer": false },
+            { "s": "Die Berge machen die Prognose schwieriger.", "answer": true },
+            { "s": "In Zukunft wird es mehr heiße Tage geben.", "answer": true },
+            { "s": "Im Winter wird es in tiefen Lagen mehr Schnee geben.", "answer": false }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben mit Ihrem Freund Simon eine Wanderung für Samstag geplant. Der Wetterbericht ist schlecht. Schreiben Sie ihm eine Nachricht.",
+          "points": ["Wie wird das Wetter?", "Machen Sie einen anderen Vorschlag.", "Fragen Sie, ob er einverstanden ist."],
+          "register": "informal (du)",
+          "model": "Hallo Simon! Ich habe den Wetterbericht gesehen: Am Samstag wird es den ganzen Tag regnen und in den Bergen schneien. Wollen wir die Wanderung auf nächste Woche verschieben? Am Samstag könnten wir ins Museum gehen. Was meinst du? José"
+        },
+        {
+          "task": "Ihre Freundin Clara kommt bald zum ersten Mal in die Schweiz. Sie fragt, was sie mitbringen soll. Schreiben Sie ihr.",
+          "points": ["Wie ist das Wetter im Moment?", "Was soll sie mitbringen?", "Was machen Sie zusammen?"],
+          "register": "informal (du)",
+          "model": "Hallo Clara! Im Moment ist es hier ziemlich kalt, nur 8 Grad, und es regnet oft. Bring warme Kleidung, eine Regenjacke und gute Schuhe mit. Wenn das Wetter schön ist, fahren wir auf den Uetliberg, von dort hat man eine tolle Aussicht! Ich freue mich! Laura"
+        }
+      ],
+      "t2": [
+        {
+          "task": "In Ihrem Haus trennen einige Nachbarn den Müll nicht. Schreiben Sie an Ihre Hausverwaltung, Frau Kunz.",
+          "points": ["Was ist das Problem?", "Seit wann?", "Machen Sie einen Vorschlag."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Frau Kunz,\n\nich wohne im Haus Seestraße 12. Seit einigen Wochen trennen einige Nachbarn den Müll nicht: Im Keller stehen Glasflaschen und Karton neben den normalen Müllsäcken. Das ist nicht schön und es riecht schlecht. Könnten Sie bitte allen Bewohnern einen Brief mit den Regeln schicken? Vielleicht kann man auch ein Schild im Keller aufhängen.\n\nMit freundlichen Grüßen\nJosé López"
+        },
+        {
+          "task": "Sie haben im Internet eine geführte Wanderung gesehen. Schreiben Sie an das Tourismusbüro.",
+          "points": ["Welche Wanderung?", "Wie viele Personen?", "Fragen Sie: Was passiert bei schlechtem Wetter?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nauf Ihrer Webseite habe ich die geführte Wanderung zum Aletschgletscher am 15. Juli gesehen. Wir sind zwei Erwachsene und ein Kind von zwölf Jahren und möchten uns gern anmelden. Was passiert bei schlechtem Wetter? Bekommen wir dann das Geld zurück?\n\nMit freundlichen Grüßen\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Natur und Wetter", "word": "Jahreszeit", "question": "Was ist deine Lieblingsjahreszeit?", "answer": "Der Frühling, weil alles grün wird." },
+        { "theme": "Natur und Wetter", "word": "Wetter", "question": "Wie ist das Wetter in deiner Heimatstadt?", "answer": "Im Sommer sehr heiß, im Winter mild." },
+        { "theme": "Natur und Wetter", "word": "Berge", "question": "Gehst du gern in die Berge?", "answer": "Ja, ich wandere fast jedes Wochenende." },
+        { "theme": "Natur und Wetter", "word": "Müll", "question": "Trennst du deinen Müll?", "answer": "Ja, Papier, Glas, PET und Kompost." },
+        { "theme": "Natur und Wetter", "word": "Umwelt", "question": "Was machst du für die Umwelt?", "answer": "Ich fahre mit dem Fahrrad und kaufe regional ein." },
+        { "theme": "Natur und Wetter", "word": "Zukunft", "question": "Wo wirst du in zehn Jahren wohnen?", "answer": "Ich glaube, ich werde noch in der Schweiz wohnen." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Was machen Sie gern in der Natur?",
+          "prompts": ["Wo?", "Im Sommer?", "Im Winter?", "Mit wem?"],
+          "model": [{ "v": "m1", "t": "Hier in der Schweiz bin ich viel öfter in der Natur. Im Sommer wandere ich gern in den Bergen, am liebsten im Berner Oberland. Nach der Arbeit gehe ich manchmal im See schwimmen. Im Winter habe ich angefangen, Ski zu fahren, aber ich bin noch nicht sehr gut. Lieber mache ich Schneeschuhwanderungen. Meistens gehe ich mit meiner Partnerin oder mit Kollegen. In Madrid war ich fast nie in der Natur, das ist hier ganz anders." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Was tun Sie für die Umwelt?",
+          "prompts": ["Verkehr?", "Einkaufen?", "Zu Hause?", "Was möchten Sie noch ändern?"],
+          "model": [{ "v": "f1", "t": "Ich habe kein Auto, ich fahre mit dem Tram oder mit dem Fahrrad. Beim Einkaufen nehme ich immer meine eigene Tasche mit und kaufe Gemüse vom Markt. Zu Hause trennen wir den Müll, das ist in der Schweiz ganz normal. Was ich noch ändern möchte: Ich fliege zu oft nach Spanien zu meiner Familie. Nächstes Jahr werde ich öfter den Zug nehmen, auch wenn es länger dauert." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie möchten mit Ihrem Partner / Ihrer Partnerin am Wochenende einen Ausflug in die Natur machen. Lesen Sie den Wetterbericht und planen Sie: Wann? Wohin? Was nehmen Sie mit?",
+          "mine": ["Wetter: Samstag Regen, Sonntag sonnig", "Samstag: frei", "Sonntag: bis 10 Uhr Brunch mit Freunden", "Idee: Wanderung am See"],
+          "partner": ["Wetter: Sonntag bis 30 Grad", "Samstag: Arbeit bis 14 Uhr", "Sonntag: frei", "Idee: Berge (Bergbahn)"],
+          "model": [
+            { "v": "f1", "t": "Wann machen wir den Ausflug? Am Samstag soll es regnen." },
+            { "v": "m1", "t": "Ja, und am Samstag arbeite ich bis zwei. Sonntag ist besser, da wird es sonnig." },
+            { "v": "f1", "t": "Am Sonntag habe ich bis zehn einen Brunch mit Freunden. Danach habe ich Zeit." },
+            { "v": "m1", "t": "Gut, dann fahren wir um halb elf los. Ich würde gern in die Berge, mit der Bergbahn." },
+            { "v": "f1", "t": "Es wird sehr heiß, dreißig Grad. Und ein See? Da können wir auch schwimmen." },
+            { "v": "m1", "t": "In den Bergen ist es kühler. Wir können auch beides machen: Es gibt einen Bergsee mit Bergbahn." },
+            { "v": "f1", "t": "Super Idee! Dann nehmen wir Badesachen, Sonnencreme und viel Wasser mit." }
+          ]
+        },
+        {
+          "task": "In Ihrer Wohngemeinschaft möchten Sie mehr für die Umwelt tun. Planen Sie mit Ihrem Partner / Ihrer Partnerin: Was können Sie ändern? Wer macht was?",
+          "mine": ["Problem: viel Plastik beim Einkaufen", "Ich gehe am Samstag auf den Markt.", "Ich habe ein Lastenfahrrad."],
+          "partner": ["Problem: Heizung und Licht immer an", "Ich kenne mich mit dem Müll aus.", "Ich habe am Abend Zeit."],
+          "model": [
+            { "v": "m2", "t": "Was können wir in der WG für die Umwelt tun?" },
+            { "v": "f2", "t": "Wir kaufen zu viel Plastik. Ich gehe am Samstag sowieso auf den Markt, da kann ich Gemüse ohne Verpackung kaufen." },
+            { "v": "m2", "t": "Gute Idee. Und bei uns sind die Heizung und das Licht immer an. Ich werde am Abend kontrollieren, dass alles aus ist." },
+            { "v": "f2", "t": "Und der Müll? Die anderen trennen nicht richtig." },
+            { "v": "m2", "t": "Das kenne ich gut. Ich mache einen Plan und hänge ihn in der Küche auf." },
+            { "v": "f2", "t": "Super. Und das Altglas bringe ich mit meinem Lastenfahrrad weg." },
+            { "v": "m2", "t": "Perfekt, dann sind wir bald eine grüne WG!" }
+          ]
+        }
+      ]
+    }
+  }
+}

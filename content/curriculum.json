@@ -217,7 +217,7 @@
         },
         {
           "id": "t09",
-          "status": "planned",
+          "status": "ready",
           "title": "Banco, correos y trámites",
           "grammar": [
             "Verbos con preposición",
@@ -226,7 +226,7 @@
         },
         {
           "id": "t10",
-          "status": "planned",
+          "status": "ready",
           "title": "Aprender y estudiar",
           "grammar": [
             "deshalb / trotzdem",
@@ -235,7 +235,7 @@
         },
         {
           "id": "t11",
-          "status": "planned",
+          "status": "ready",
           "title": "Naturaleza y tiempo",
           "grammar": [
             "Genitivo (intro)",

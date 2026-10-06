@@ -193,7 +193,7 @@
       "title": "Un mensaje",
       "instructions": "Completa con la terminación correcta del adjetivo (e, en, er, es).",
       "items": [
-        { "text": "Hallo Tom, gestern habe ich einen super[[en]] Film gesehen." },
+        { "text": "Hallo Tom, gestern habe ich einen toll[[en]] Film gesehen." },
         { "text": "Es ist ein deutsch[[er]] Krimi mit einem toll[[en]] Ende." },
         { "text": "Die Schauspielerin hat eine wichtig[[e]] Rolle." },
         { "text": "Kommst du mit? Ich habe zwei neu[[e]] Karten für Samstag." },

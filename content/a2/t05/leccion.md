@@ -53,7 +53,7 @@ Recuerda: si el adjetivo va **detrás** del verbo (*Der Pullover ist blau*), **n
 | kurz | k**ü**rz**er** | am k**ü**rz**esten** |
 | alt | **ä**lt**er** | am **ä**lt**esten** |
 
-Muchos adjetivos cortos con *a, o, u* toman **diéresis**. Los terminados en *-t, -d, -z, -s, -ß* añaden **-esten**.
+Muchos adjetivos cortos con *a, o, u* toman **diéresis**. Los terminados en *-t, -d, -z, -s, -ß* añaden **-esten** (excepción: *groß → am größten*).
 
 **Irregulares** (¡de memoria!):
 
@@ -68,7 +68,7 @@ Para comparar:
 
 - **als** (más … que): [[de:Die Jacke ist teurer als der Mantel.::La chaqueta es más cara que el abrigo.]]
 - **so … wie** (tan … como): [[de:Der Rock ist so schön wie das Kleid.::La falda es tan bonita como el vestido.]]
-- **nicht so … wie** (no tan … como): [[de:Online-Shopping ist nicht so teuer wie im Geschäft.::Comprar por internet no es tan caro como en la tienda.]]
+- **nicht so … wie** (no tan … como): [[de:Online ist es nicht so teuer wie im Geschäft.::Comprar por internet no es tan caro como en la tienda.]]
 - Superlativo: [[de:Dieses Kleid ist am schönsten.::Este vestido es el más bonito.]] · [[de:Am liebsten trage ich Jeans.::Lo que más me gusta llevar son vaqueros.]]
 
 El superlativo también puede ir delante del sustantivo, con las terminaciones del punto 2: [[de:Das ist der schönste Mantel im Geschäft.::Es el abrigo más bonito de la tienda.]]

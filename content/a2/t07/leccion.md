@@ -12,7 +12,7 @@ En este tema planificas un viaje de principio a fin: elegir el transporte, compr
 | [[de:Ich nehme die Straßenbahn.]] | Cojo el tranvía. |
 | [[de:Der Zug hat zehn Minuten Verspätung.]] | El tren tiene diez minutos de retraso. |
 | [[de:Ich muss in Zürich umsteigen.]] | Tengo que hacer transbordo en Zúrich. |
-| [[de:Der Bus fährt von Gleis drei ab.]] | El autobús sale del andén tres. |
+| [[de:Der Zug fährt von Gleis drei ab.]] | El tren sale del andén tres. |
 | [[de:Der Flug ist annulliert.]] | El vuelo está cancelado. |
 
 Recuerda: **mit** + dativo para el medio (*mit dem Zug, mit der S-Bahn, mit dem Auto*), pero **zu Fuß** (a pie). *fahren* = ir en un vehículo; *gehen* = ir andando; *fliegen* = ir en avión.
@@ -42,7 +42,7 @@ Trucos:
 - **nach** solo para ciudades, países **sin** artículo y *nach Hause*. Para países con artículo (*die Schweiz, die Türkei, die USA*) se usa **in** + acusativo.
 - **zu** para personas y para sitios a los que vas "a" pero no necesariamente entras: *zur Post, zum Bahnhof, zur Haltestelle*.
 - **aus** y **von, zu, nach, bei** van **siempre con dativo**: *aus **dem** Haus, zu **der** → **zur** Post*.
-- Mar y montaña: [[de:ans Meer / am Meer::al mar / en el mar]] · [[de:in die Berge / in den Bergen::a la montaña / en la montaña]].
+- Mar y montaña: [[de:ans Meer / am Meer::al mar / junto al mar]] · [[de:in die Berge / in den Bergen::a la montaña / en la montaña]].
 
 ## 3. Konjunktiv II de cortesía
 
