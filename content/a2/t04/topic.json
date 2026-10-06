@@ -1,0 +1,569 @@
+{
+  "id": "a2-t04",
+  "level": "a2",
+  "topic": "t04",
+  "title": "Salud y médico",
+  "title_de": "Gesundheit und Arztbesuch",
+  "goals": [
+    "Describir síntomas, enfermedades y pequeños accidentes",
+    "Entender al médico y al farmacéutico y pedir una baja",
+    "Usar verbos reflexivos con mich, dich, sich… (y mir/dir con partes del cuerpo)",
+    "Dar consejos con sollte: Du solltest…, Sie sollten…",
+    "Hablar de hábitos de vida sana"
+  ],
+  "vocab": [
+    { "de": "die Gesundheit", "es": "la salud", "cat": "Salud", "ex": "Gesundheit ist das Wichtigste.", "ex_es": "La salud es lo más importante." },
+    { "de": "die Krankheit", "pl": "die Krankheiten", "es": "la enfermedad", "cat": "Salud", "ex": "Grippe ist eine Krankheit.", "ex_es": "La gripe es una enfermedad." },
+    { "de": "die Grippe", "es": "la gripe", "cat": "Salud", "ex": "Ich habe die Grippe.", "ex_es": "Tengo la gripe." },
+    { "de": "die Erkältung", "pl": "die Erkältungen", "es": "el resfriado", "cat": "Salud", "ex": "Gegen eine Erkältung hilft Tee.", "ex_es": "Contra el resfriado ayuda el té." },
+    { "de": "die Allergie", "pl": "die Allergien", "es": "la alergia", "cat": "Salud", "ex": "Ich habe eine Allergie gegen Katzen.", "ex_es": "Tengo alergia a los gatos." },
+    { "de": "allergisch (gegen)", "es": "alérgico (a)", "cat": "Salud", "ex": "Sie ist allergisch gegen Nüsse.", "ex_es": "Es alérgica a los frutos secos." },
+    { "de": "schwindelig", "es": "mareado (vértigo)", "cat": "Salud", "ex": "Mir ist schwindelig.", "ex_es": "Me da vueltas la cabeza." },
+    { "de": "Mir ist schlecht.", "es": "Estoy mareado / tengo náuseas.", "cat": "Salud", "ex": "Nach dem Essen ist mir schlecht.", "ex_es": "Después de comer tengo náuseas." },
+    { "de": "der Unfall", "pl": "die Unfälle", "es": "el accidente", "cat": "Salud", "ex": "Er hatte einen Unfall mit dem Fahrrad.", "ex_es": "Tuvo un accidente con la bici." },
+    { "de": "brechen", "es": "romper(se)", "cat": "Salud", "forms": "er bricht, hat gebrochen", "ex": "Ich habe mir den Arm gebrochen.", "ex_es": "Me he roto el brazo." },
+    { "de": "die Wunde", "pl": "die Wunden", "es": "la herida", "cat": "Salud", "ex": "Die Wunde ist nicht tief.", "ex_es": "La herida no es profunda." },
+    { "de": "die Krankmeldung", "pl": "die Krankmeldungen", "es": "el justificante de baja", "cat": "Médico", "ex": "Ich brauche eine Krankmeldung.", "ex_es": "Necesito un justificante de baja." },
+    { "de": "das Arztzeugnis", "pl": "die Arztzeugnisse", "es": "el certificado médico (Suiza)", "cat": "Médico", "ex": "Ab drei Tagen braucht man ein Arztzeugnis.", "ex_es": "A partir de tres días hace falta un certificado médico." },
+    { "de": "krankschreiben", "es": "dar la baja médica", "cat": "Médico", "forms": "er schreibt krank, hat krankgeschrieben", "ex": "Die Ärztin hat mich eine Woche krankgeschrieben.", "ex_es": "La médica me dio una semana de baja." },
+    { "de": "der Hausarzt / die Hausärztin", "pl": "die Hausärzte / die Hausärztinnen", "es": "el/la médico/a de cabecera", "cat": "Médico", "ex": "Mein Hausarzt heißt Dr. Frei.", "ex_es": "Mi médico de cabecera se llama Dr. Frei." },
+    { "de": "die Notaufnahme", "pl": "die Notaufnahmen", "es": "urgencias (del hospital)", "cat": "Médico", "ex": "Wir mussten in die Notaufnahme.", "ex_es": "Tuvimos que ir a urgencias." },
+    { "de": "untersuchen", "es": "examinar, reconocer", "cat": "Médico", "forms": "er untersucht, hat untersucht", "ex": "Der Arzt untersucht das Knie.", "ex_es": "El médico examina la rodilla." },
+    { "de": "das Rezept", "pl": "die Rezepte", "es": "la receta", "cat": "Médico", "ex": "Für das Medikament brauchen Sie ein Rezept.", "ex_es": "Para ese medicamento necesita receta." },
+    { "de": "rezeptfrei", "es": "sin receta", "cat": "Médico", "ex": "Diese Tabletten sind rezeptfrei.", "ex_es": "Estas pastillas se venden sin receta." },
+    { "de": "täglich", "es": "al día, diariamente", "cat": "Médico", "ex": "Nehmen Sie die Tropfen zweimal täglich.", "ex_es": "Tome las gotas dos veces al día." },
+    { "de": "die Salbe", "pl": "die Salben", "es": "la pomada", "cat": "Médico", "ex": "Die Salbe hilft gegen die Schmerzen.", "ex_es": "La pomada ayuda contra el dolor." },
+    { "de": "die Tropfen", "es": "las gotas", "cat": "Médico", "ex": "Diese Tropfen sind für die Nase.", "ex_es": "Estas gotas son para la nariz." },
+    { "de": "sich fühlen", "es": "sentirse", "cat": "Verbos reflexivos", "forms": "er fühlt sich, hat sich gefühlt", "ex": "Wie fühlst du dich heute?", "ex_es": "¿Cómo te sientes hoy?" },
+    { "de": "sich erkälten", "es": "resfriarse", "cat": "Verbos reflexivos", "forms": "er erkältet sich, hat sich erkältet", "ex": "Ich habe mich im Urlaub erkältet.", "ex_es": "Me resfrié en las vacaciones." },
+    { "de": "sich ausruhen", "es": "descansar", "cat": "Verbos reflexivos", "forms": "er ruht sich aus, hat sich ausgeruht", "ex": "Ruh dich ein bisschen aus!", "ex_es": "¡Descansa un poco!" },
+    { "de": "sich verletzen", "es": "hacerse daño, lesionarse", "cat": "Verbos reflexivos", "forms": "er verletzt sich, hat sich verletzt", "ex": "Sie hat sich beim Sport verletzt.", "ex_es": "Se lesionó haciendo deporte." },
+    { "de": "sich bewegen", "es": "moverse, hacer ejercicio", "cat": "Verbos reflexivos", "forms": "er bewegt sich, hat sich bewegt", "ex": "Du solltest dich mehr bewegen.", "ex_es": "Deberías moverte más." },
+    { "de": "sich ernähren", "es": "alimentarse", "cat": "Verbos reflexivos", "forms": "er ernährt sich, hat sich ernährt", "ex": "Wir ernähren uns gesund.", "ex_es": "Nos alimentamos de forma sana." },
+    { "de": "sich freuen (auf)", "es": "tener ganas (de algo futuro)", "cat": "Verbos reflexivos", "forms": "er freut sich, hat sich gefreut", "ex": "Ich freue mich auf das Wochenende.", "ex_es": "Tengo ganas de que llegue el fin de semana." },
+    { "de": "sich ärgern (über)", "es": "enfadarse (por)", "cat": "Verbos reflexivos", "forms": "er ärgert sich, hat sich geärgert", "ex": "Ärgere dich nicht!", "ex_es": "¡No te enfades!" },
+    { "de": "sich beeilen", "es": "darse prisa", "cat": "Verbos reflexivos", "forms": "er beeilt sich, hat sich beeilt", "ex": "Wir müssen uns beeilen.", "ex_es": "Tenemos que darnos prisa." },
+    { "de": "sich entspannen", "es": "relajarse", "cat": "Verbos reflexivos", "forms": "er entspannt sich, hat sich entspannt", "ex": "Beim Yoga entspanne ich mich.", "ex_es": "Con el yoga me relajo." },
+    { "de": "sich die Zähne putzen", "es": "lavarse los dientes", "cat": "Verbos reflexivos", "forms": "ich putze mir die Zähne", "ex": "Putz dir die Zähne!", "ex_es": "¡Lávate los dientes!" },
+    { "de": "sollte", "es": "debería", "cat": "Consejos", "forms": "ich sollte, du solltest, er sollte", "ex": "Du solltest zum Arzt gehen.", "ex_es": "Deberías ir al médico." },
+    { "de": "der Rat / der Tipp", "pl": "die Ratschläge / die Tipps", "es": "el consejo", "cat": "Consejos", "ex": "Hast du einen Tipp für mich?", "ex_es": "¿Tienes un consejo para mí?" },
+    { "de": "aufhören (mit)", "es": "dejar (de hacer algo)", "cat": "Vida sana", "forms": "er hört auf, hat aufgehört", "ex": "Er hat mit dem Rauchen aufgehört.", "ex_es": "Ha dejado de fumar." },
+    { "de": "die Ernährung", "es": "la alimentación", "cat": "Vida sana", "ex": "Eine gesunde Ernährung ist wichtig.", "ex_es": "Una alimentación sana es importante." },
+    { "de": "die Bewegung", "es": "el ejercicio, el movimiento", "cat": "Vida sana", "ex": "Bewegung ist gut gegen Stress.", "ex_es": "El ejercicio es bueno contra el estrés." },
+    { "de": "der Stress", "es": "el estrés", "cat": "Vida sana", "ex": "Ich habe im Moment viel Stress.", "ex_es": "Ahora mismo tengo mucho estrés." },
+    { "de": "das Gewicht", "es": "el peso", "cat": "Vida sana", "ex": "Der Arzt kontrolliert das Gewicht.", "ex_es": "El médico controla el peso." },
+    { "de": "fit", "es": "en forma", "cat": "Vida sana", "ex": "Ich möchte fit bleiben.", "ex_es": "Quiero mantenerme en forma." },
+    { "de": "müde", "es": "cansado", "cat": "Vida sana", "ex": "Ich bin immer müde.", "ex_es": "Siempre estoy cansado." }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Salud",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["sich erkälten", "resfriarse"],
+        ["sich verletzen", "hacerse daño"],
+        ["die Notaufnahme", "urgencias"],
+        ["rezeptfrei", "sin receta"],
+        ["Mir ist schwindelig.", "Me da vueltas la cabeza."],
+        ["die Salbe", "la pomada"],
+        ["sich ausruhen", "descansar"],
+        ["krankschreiben", "dar la baja médica"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "Pronombres reflexivos",
+      "instructions": "Completa con mich, dich, sich, uns o euch.",
+      "items": [
+        { "text": "Ich fühle [[mich]] heute nicht gut." },
+        { "text": "Hast du [[dich]] erkältet?" },
+        { "text": "Er hat [[sich]] beim Fußball verletzt." },
+        { "text": "Wir freuen [[uns]] auf die Ferien." },
+        { "text": "Kinder, beeilt [[euch]]! Der Bus kommt." },
+        { "text": "Wie fühlen Sie [[sich]], Frau Huber?" },
+        { "text": "Ruh [[dich]] aus!" },
+        { "text": "Die Kinder ärgern [[sich]] über das Wetter." }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "mc",
+      "title": "mich o mir",
+      "instructions": "Elige el pronombre correcto.",
+      "items": [
+        { "q": "Ich wasche ___ die Hände.", "options": ["mich", "mir"], "answer": 1, "explain": "Hay complemento directo (die Hände): reflexivo en dativo." },
+        { "q": "Ich wasche ___.", "options": ["mich", "mir"], "answer": 0 },
+        { "q": "Ich habe ___ das Bein gebrochen.", "options": ["mich", "mir"], "answer": 1 },
+        { "q": "Ich habe ___ am Bein verletzt.", "options": ["mich", "mir"], "answer": 0 },
+        { "q": "Putz ___ die Zähne!", "options": ["dich", "dir"], "answer": 1 },
+        { "q": "Zieh ___ warm an!", "options": ["dich", "dir"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "Consejos con sollte",
+      "instructions": "Completa con la forma correcta de sollte.",
+      "items": [
+        { "text": "Du [[solltest]] mehr Wasser trinken." },
+        { "text": "Sie [[sollten]] zwei Tage im Bett bleiben, Herr Keller." },
+        { "text": "Man [[sollte]] nicht so viel Zucker essen." },
+        { "text": "Ihr [[solltet]] früher ins Bett gehen." },
+        { "text": "Wir [[sollten]] öfter zu Fuß gehen." },
+        { "text": "Ich [[sollte]] mit dem Rauchen aufhören." }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena. Ojo con la posición del reflexivo.",
+      "items": [
+        { "words": ["Ich", "habe", "mich", "erkältet", "."], "answers": ["Ich habe mich erkältet."] },
+        { "words": ["Heute", "fühle", "ich", "mich", "besser", "."], "answers": ["Heute fühle ich mich besser.", "Ich fühle mich heute besser."] },
+        { "words": ["Du", "solltest", "dich", "ausruhen", "."], "answers": ["Du solltest dich ausruhen."] },
+        { "words": ["Ruh", "dich", "aus", "!"], "answers": ["Ruh dich aus!"] },
+        { "words": ["Sie", "sollten", "zum", "Arzt", "gehen", "."], "answers": ["Sie sollten zum Arzt gehen."] },
+        { "words": ["Ich", "freue", "mich", "auf", "den", "Urlaub", "."], "answers": ["Ich freue mich auf den Urlaub."] }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "¿Qué consejo das?",
+      "instructions": "Elige el consejo más adecuado.",
+      "items": [
+        { "q": "Ich bin immer so müde.", "options": ["Du solltest früher schlafen gehen.", "Du solltest mehr Kaffee kaufen.", "Du solltest später aufstehen und arbeiten."], "answer": 0 },
+        { "q": "Ich habe seit einer Woche Husten.", "options": ["Du solltest rauchen.", "Du solltest zum Arzt gehen.", "Du solltest Eis essen."], "answer": 1 },
+        { "q": "Ich habe viel Stress bei der Arbeit.", "options": ["Du solltest mehr arbeiten.", "Du solltest dich mehr entspannen.", "Du solltest dich mehr ärgern."], "answer": 1 },
+        { "q": "Mein Rücken tut weh, weil ich den ganzen Tag sitze.", "options": ["Du solltest dich mehr bewegen.", "Du solltest länger sitzen.", "Du solltest weniger trinken."], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "Médico y farmacia",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "m1", "t": "Was fehlt Ihnen?" },
+            { "v": "f1", "t": "Mir ist seit zwei Tagen schwindelig und ich habe keinen Appetit." }
+          ],
+          "q": "¿Qué le pasa a la mujer?", "options": ["Tiene fiebre", "Se marea y no tiene hambre", "Le duele la espalda"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Haben Sie etwas gegen Halsschmerzen?" },
+            { "v": "m2", "t": "Ja, diese Tabletten hier. Nehmen Sie alle drei Stunden eine. Sie sind rezeptfrei." }
+          ],
+          "q": "¿Cada cuánto tiene que tomar las pastillas?", "options": ["Cada tres horas", "Tres veces al día", "Por la noche"], "answer": 0
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Was ist denn mit deinem Arm passiert?" },
+            { "v": "f1", "t": "Ich bin beim Skifahren gestürzt. Er ist gebrochen." }
+          ],
+          "q": "¿Cómo se rompió el brazo?", "options": ["Montando en bici", "Esquiando", "Jugando al fútbol"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Wie lange bin ich krankgeschrieben?" },
+            { "v": "m2", "t": "Bis Mittwoch. Dann kommen Sie bitte noch einmal zur Kontrolle." }
+          ],
+          "q": "¿Hasta cuándo tiene la baja?", "options": ["Hasta el lunes", "Hasta el miércoles", "Hasta el viernes"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Ich schlafe so schlecht." },
+            { "v": "f1", "t": "Du solltest abends nicht so lange am Handy sein. Lies lieber ein Buch." }
+          ],
+          "q": "¿Qué le aconseja la mujer?", "options": ["Tomar una pastilla", "Usar menos el móvil por la noche", "Hacer deporte"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich fühle mich nicht wohl." }], "answers": ["Ich fühle mich nicht wohl."] },
+        { "audio": [{ "v": "m1", "t": "Du solltest dich ausruhen." }], "answers": ["Du solltest dich ausruhen."] },
+        { "audio": [{ "v": "f2", "t": "Mir ist schlecht." }], "answers": ["Mir ist schlecht."] },
+        { "audio": [{ "v": "m2", "t": "Er hat sich beim Sport verletzt." }], "answers": ["Er hat sich beim Sport verletzt."] },
+        { "audio": [{ "v": "f1", "t": "Ich brauche eine Krankmeldung." }], "answers": ["Ich brauche eine Krankmeldung."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "gap",
+      "title": "Perfekt de los reflexivos",
+      "instructions": "Completa con la forma de haben y el participio.",
+      "items": [
+        { "text": "Ich [[habe]] mich im Winter [[erkältet]]. (sich erkälten)" },
+        { "text": "Sie [[hat]] sich am Knie [[verletzt]]. (sich verletzen)" },
+        { "text": "Wir [[haben]] uns sehr über das Geschenk [[gefreut]]. (sich freuen)" },
+        { "text": "[[Hast]] du dich am Wochenende [[ausgeruht]]? (sich ausruhen)" },
+        { "text": "Er [[hat]] sich über den Chef [[geärgert]]. (sich ärgern)" }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "No me encuentro bien.", "answers": ["Ich fühle mich nicht wohl.", "Ich fühle mich nicht gut.", "Mir geht es nicht gut."] },
+        { "prompt": "Me he resfriado.", "answers": ["Ich habe mich erkältet."] },
+        { "prompt": "Deberías ir al médico.", "answers": ["Du solltest zum Arzt gehen.", "Du solltest zur Ärztin gehen."] },
+        { "prompt": "¡Descansa!", "answers": ["Ruh dich aus!", "Ruhe dich aus!"] },
+        { "prompt": "Me he roto el brazo.", "answers": ["Ich habe mir den Arm gebrochen."] },
+        { "prompt": "¿Tiene algo para el dolor de cabeza?", "answers": ["Haben Sie etwas gegen Kopfschmerzen?"] },
+        { "prompt": "Tengo ganas de que lleguen las vacaciones.", "answers": ["Ich freue mich auf den Urlaub.", "Ich freue mich auf die Ferien."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Zu wenig Schlaf: Ein Problem für viele",
+          "text": "Jeder dritte Erwachsene in der Schweiz schläft schlecht. Das zeigt eine neue Studie der Universität Bern. Die meisten Menschen schlafen nur sechs Stunden pro Nacht – Ärzte empfehlen sieben bis acht. Ein Grund ist das Handy: Viele Leute lesen im Bett noch Nachrichten oder schauen Videos. „Das helle Licht sagt dem Körper, dass es Tag ist“, erklärt die Schlafforscherin Dr. Eva Lang. Ihr Rat: Eine Stunde vor dem Schlafen sollte man das Handy weglegen. Auch Kaffee am Nachmittag und schweres Essen am Abend sind schlecht für den Schlaf. Besser sind ein Spaziergang, ein Buch oder eine warme Milch. Wer trotzdem lange nicht schlafen kann, sollte zum Arzt gehen.",
+          "questions": [
+            { "q": "Wie viele Erwachsene schlafen schlecht?", "options": ["jeder zweite", "jeder dritte", "jeder vierte"], "answer": 1 },
+            { "q": "Wie lange sollte man schlafen?", "options": ["sechs Stunden", "sieben bis acht Stunden", "zehn Stunden"], "answer": 1 },
+            { "q": "Warum ist das Handy im Bett schlecht?", "options": ["Es ist zu laut.", "Das Licht macht den Körper wach.", "Man telefoniert zu lange."], "answer": 1 },
+            { "q": "Was hilft beim Einschlafen?", "options": ["Kaffee am Nachmittag", "ein großes Abendessen", "ein Spaziergang"], "answer": 2 },
+            { "q": "Was soll man tun, wenn man lange nicht schlafen kann?", "options": ["zum Arzt gehen", "Sport am Abend machen", "Tabletten kaufen"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Treppe statt Aufzug",
+          "text": "Viele Menschen sitzen den ganzen Tag: im Büro, im Auto und am Abend vor dem Fernseher. Das ist schlecht für den Rücken und das Herz. Die Krankenkasse Vita startet deshalb eine neue Aktion: „10 000 Schritte am Tag“. Wer mitmacht, bekommt eine App für das Handy. Die App zählt die Schritte und gibt Tipps. Zum Beispiel: Treppe statt Aufzug nehmen, eine Haltestelle früher aussteigen oder in der Mittagspause spazieren gehen. Wer drei Monate lang jeden Tag 10 000 Schritte macht, bekommt 100 Franken zurück. Schon 5000 Menschen haben sich angemeldet. Die Krankenkasse hofft, dass ihre Kunden so gesünder werden – und weniger zum Arzt müssen.",
+          "questions": [
+            { "q": "Warum ist zu viel Sitzen ein Problem?", "options": ["Es ist schlecht für Rücken und Herz.", "Man wird müde.", "Man hat keine Zeit für Freunde."], "answer": 0 },
+            { "q": "Was macht die App?", "options": ["Sie zählt die Schritte.", "Sie bestellt Essen.", "Sie ruft den Arzt an."], "answer": 0 },
+            { "q": "Welcher Tipp steht NICHT im Text?", "options": ["Treppe nehmen", "früher aussteigen", "mit dem Fahrrad fahren"], "answer": 2 },
+            { "q": "Wer bekommt 100 Franken?", "options": ["alle Kunden", "wer drei Monate jeden Tag 10 000 Schritte macht", "die ersten 5000 Personen"], "answer": 1 },
+            { "q": "Was hofft die Krankenkasse?", "options": ["Dass mehr Leute die App kaufen.", "Dass die Kunden gesünder werden.", "Dass die Kunden mehr Sport im Fitnessstudio machen."], "answer": 1 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Ärztehaus am Bahnhof – Wegweiser",
+          "text": "Erdgeschoss: Apotheke · Labor (Blutabnahme) · Empfang\n1. Stock: Dr. Frei – Allgemeinmedizin (Hausarzt) · Dr. Kaya – Kinderärztin\n2. Stock: Dr. Bauer – Augenarzt · Dr. Moser – Hals-Nasen-Ohren\n3. Stock: Zahnarztpraxis Dr. Weiss · Physiotherapie Fit\n4. Stock: Dr. Novak – Frauenärztin · Psychologische Beratung",
+          "questions": [
+            { "q": "Ihre Tochter hat Fieber.", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie sehen nicht mehr gut und brauchen vielleicht eine Brille.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 1 },
+            { "q": "Nach einem Unfall brauchen Sie Übungen für Ihr Knie.", "options": ["1. Stock", "3. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie möchten ein Medikament mit Rezept kaufen.", "options": ["Erdgeschoss", "1. Stock", "2. Stock"], "answer": 0 },
+            { "q": "Sie haben seit Wochen Ohrenschmerzen.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Kantonsspital – Information",
+          "text": "Haus A: Notaufnahme (24 Stunden) · Röntgen\nHaus B: Geburtsabteilung · Kinderklinik\nHaus C: Chirurgie (Operationen) · Orthopädie (Knochen, Gelenke)\nHaus D: Besucherinformation · Cafeteria · Kiosk · Blumenladen\nHaus E: Verwaltung · Rechnungen · Patientenaufnahme",
+          "questions": [
+            { "q": "Ihr Sohn ist vom Fahrrad gefallen und hat starke Schmerzen. Es ist 23 Uhr.", "options": ["Haus A", "Haus B", "Haus C"], "answer": 0 },
+            { "q": "Sie möchten Blumen für eine Patientin kaufen.", "options": ["Haus B", "Haus D", "Haus E"], "answer": 1 },
+            { "q": "Ihre Schwester hat ein Baby bekommen. Sie möchten sie besuchen.", "options": ["Haus A", "Haus B", "Haus C"], "answer": 1 },
+            { "q": "Sie haben eine Frage zu Ihrer Rechnung.", "options": ["Haus C", "Haus D", "Haus E"], "answer": 2 },
+            { "q": "Sie haben einen Termin für eine Knieoperation.", "options": ["Haus A", "Haus C", "Haus E"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Liebe Sandra,\n\nvielen Dank für deine Blumen, ich habe mich sehr gefreut! Mir geht es schon viel besser. Du weißt ja, ich hatte vor zwei Wochen einen Unfall mit dem Fahrrad: Ein Auto ist plötzlich aus einer Garage gefahren. Ich habe mir das Handgelenk gebrochen und musste eine Nacht im Krankenhaus bleiben. Jetzt habe ich noch für drei Wochen einen Gips. Das Schlimmste: Ich kann nicht am Computer arbeiten und bin bis Ende des Monats krankgeschrieben. Zum Glück hilft mir mein Mann beim Kochen und Anziehen! Am Samstag mache ich meine erste Physiotherapie.\nWenn du Zeit hast, komm doch nächste Woche zum Kaffee vorbei. Ich langweile mich zu Hause!\n\nLiebe Grüße\nMonika",
+          "questions": [
+            { "q": "Warum schreibt Monika?", "options": ["Sie bedankt sich für die Blumen.", "Sie lädt zu einer Party ein.", "Sie braucht Hilfe."], "answer": 0 },
+            { "q": "Was ist bei dem Unfall passiert?", "options": ["Sie ist von der Treppe gefallen.", "Ein Auto ist aus einer Garage gekommen.", "Sie ist mit dem Auto gegen eine Garage gefahren."], "answer": 1 },
+            { "q": "Wie lange war Monika im Krankenhaus?", "options": ["eine Nacht", "zwei Wochen", "drei Wochen"], "answer": 0 },
+            { "q": "Wer hilft Monika zu Hause?", "options": ["Sandra", "ihr Mann", "eine Physiotherapeutin"], "answer": 1 },
+            { "q": "Was möchte Monika?", "options": ["Sandra soll sie besuchen.", "Sandra soll für sie kochen.", "Sandra soll sie zur Physiotherapie fahren."], "answer": 0 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Hallo Ben,\n\nwie geht es dir? Ich habe gehört, dass du wieder Rückenschmerzen hast. Das tut mir leid! Ich hatte das Problem letztes Jahr auch, weil ich den ganzen Tag am Schreibtisch sitze. Meine Ärztin hat mir drei Tipps gegeben, und sie haben wirklich geholfen: Erstens habe ich einen neuen Bürostuhl gekauft. Zweitens mache ich jede Stunde eine kurze Pause und laufe ein bisschen. Und drittens gehe ich zweimal pro Woche ins Schwimmbad. Schwimmen ist super für den Rücken! Am Donnerstagabend gehe ich wieder. Möchtest du mitkommen? Danach können wir zusammen essen gehen.\n\nViele Grüße\nNico",
+          "questions": [
+            { "q": "Woher weiß Nico von Bens Problem?", "options": ["Ben hat es ihm geschrieben.", "Er hat es gehört.", "Er hat Ben beim Arzt gesehen."], "answer": 1 },
+            { "q": "Warum hatte Nico Rückenschmerzen?", "options": ["Er hat zu viel Sport gemacht.", "Er sitzt viel.", "Er hatte einen Unfall."], "answer": 1 },
+            { "q": "Was macht Nico jede Stunde?", "options": ["Er trinkt Wasser.", "Er macht eine kurze Pause.", "Er schwimmt."], "answer": 1 },
+            { "q": "Wie oft geht Nico schwimmen?", "options": ["jeden Tag", "zweimal pro Woche", "am Wochenende"], "answer": 1 },
+            { "q": "Was schlägt Nico vor?", "options": ["Am Donnerstag zusammen schwimmen gehen", "Einen Stuhl kaufen", "Zur Ärztin gehen"], "answer": 0 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Yoga für Anfänger: Entspannung nach der Arbeit, Mo und Mi 19 Uhr." },
+            { "key": "b", "text": "Raucherberatung: In 6 Wochen rauchfrei – Kurs der Krankenkasse, kostenlos." },
+            { "key": "c", "text": "Kochkurs „Gesund und schnell“: Leckere Rezepte mit wenig Fett." },
+            { "key": "d", "text": "Zahnärztlicher Notdienst: Wochenende und Feiertage, Tel. 0848 33 44 55." },
+            { "key": "e", "text": "Rückenschule: Übungen für Menschen mit Bürojobs, 8 Termine." },
+            { "key": "f", "text": "Babyschwimmen: für Babys ab 4 Monaten mit Mama oder Papa." }
+          ],
+          "items": [
+            { "situation": "Herr Weber möchte endlich mit dem Rauchen aufhören.", "answer": "b" },
+            { "situation": "Lina hat am Sonntag starke Zahnschmerzen.", "answer": "d" },
+            { "situation": "Frau Kim hat viel Stress und möchte sich abends entspannen.", "answer": "a" },
+            { "situation": "Paul sitzt den ganzen Tag im Büro und sein Rücken tut weh.", "answer": "e" },
+            { "situation": "Maria sucht einen Augenarzt.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Apotheke am Markt: Heute Notdienst bis 22 Uhr." },
+            { "key": "b", "text": "Erste-Hilfe-Kurs: Was tun bei einem Unfall? Samstag 9–16 Uhr." },
+            { "key": "c", "text": "Wanderclub: Jeden Sonntag in die Berge, für alle Altersgruppen." },
+            { "key": "d", "text": "Ernährungsberatung: Abnehmen ohne Stress – persönliche Beratung." },
+            { "key": "e", "text": "Sauna und Wellness im Hallenbad: täglich bis 21 Uhr." },
+            { "key": "f", "text": "Hausarztpraxis sucht medizinische Praxisassistentin (80 %)." }
+          ],
+          "items": [
+            { "situation": "Frau Lopes möchte lernen, wie man bei einem Unfall hilft.", "answer": "b" },
+            { "situation": "Tom braucht am Abend um 20 Uhr ein Medikament.", "answer": "a" },
+            { "situation": "Herr Graf möchte sich mehr bewegen und gern in der Natur sein.", "answer": "c" },
+            { "situation": "Anna möchte ihr Gewicht verlieren und braucht Hilfe beim Essen.", "answer": "d" },
+            { "situation": "Ivo sucht einen Arzt, der Kinder untersucht.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wann ist der neue Termin?", "options": ["Montag 8:30", "Dienstag 8:30", "Dienstag 10:30"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Guten Tag, Herr Ruiz, hier ist die Praxis Dr. Frei. Ihr Termin am Montag fällt leider aus, weil die Ärztin krank ist. Können Sie am Dienstag um halb neun kommen? Bitte rufen Sie uns kurz an." }]
+        },
+        {
+          "q": "Was soll Lisa aus der Apotheke mitbringen?", "options": ["Hustensaft", "Nasentropfen", "Schmerztabletten"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Hallo Lisa, hier ist Tom. Ich habe mich total erkältet und bekomme keine Luft. Kannst du mir bitte Nasentropfen aus der Apotheke mitbringen? Hustensaft habe ich noch. Danke!" }]
+        },
+        {
+          "q": "Was ist heute im Schwimmbad?", "options": ["Es ist geschlossen.", "Es gibt einen Kurs für Rückengymnastik.", "Das Wasser ist kalt."], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Liebe Gäste, heute um achtzehn Uhr beginnt im kleinen Becken der Kurs Wassergymnastik für den Rücken. Es gibt noch freie Plätze. Melden Sie sich an der Kasse an." }]
+        },
+        {
+          "q": "Wer soll in Zimmer 3 kommen?", "options": ["Frau Kaya", "Herr Kaya", "Familie Kaya"], "answer": 0,
+          "audio": [{ "v": "m2", "t": "Frau Kaya, bitte in Zimmer drei. Frau Kaya, bitte. Die Ärztin wartet." }]
+        },
+        {
+          "q": "Was empfiehlt der Wetterdienst?", "options": ["viel trinken", "warm anziehen", "zu Hause bleiben"], "answer": 0,
+          "audio": [{ "v": "m1", "t": "Und jetzt das Wetter: Morgen wird es sehr heiß, bis zu sechsunddreißig Grad. Trinken Sie viel Wasser und bleiben Sie am Mittag im Schatten." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Elena und ihrem Freund Max. Was macht Elena an welchem Tag für ihre Gesundheit?",
+          "options": ["Yoga", "Schwimmen", "Physiotherapie", "Joggen", "Arzttermin", "gesund kochen", "früh schlafen gehen", "Fahrrad fahren"],
+          "audio": [
+            { "v": "m1", "t": "Elena, du siehst so fit aus! Was machst du?" },
+            { "v": "f1", "t": "Danke! Ich habe jetzt einen Plan für die Woche. Am Montag gehe ich nach der Arbeit schwimmen, eine Stunde." },
+            { "v": "m1", "t": "Und am Dienstag?" },
+            { "v": "f1", "t": "Dienstag ist Yoga mit meiner Kollegin. Das ist super gegen Stress." },
+            { "v": "m1", "t": "Und in der Mitte der Woche?" },
+            { "v": "f1", "t": "Am Mittwoch habe ich noch Physiotherapie für mein Knie, wegen dem Unfall im Winter. Am Donnerstag koche ich für die ganze Woche, viel Gemüse und wenig Fleisch." },
+            { "v": "m1", "t": "Und Freitag ist frei?" },
+            { "v": "f1", "t": "Nein, am Freitag fahre ich mit dem Fahrrad zur Arbeit und zurück. Das sind vierzig Kilometer!" }
+          ],
+          "items": [
+            { "q": "Montag", "answer": 1 },
+            { "q": "Dienstag", "answer": 0 },
+            { "q": "Mittwoch", "answer": 2 },
+            { "q": "Donnerstag", "answer": 5 },
+            { "q": "Freitag", "answer": 7 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch zwischen zwei Kolleginnen. Was hatten die Kollegen?",
+          "options": ["Grippe", "Rückenschmerzen", "Bein gebrochen", "Allergie", "Zahnschmerzen", "Magen-Darm-Infekt", "Kopfschmerzen", "Erkältung"],
+          "audio": [
+            { "v": "f2", "t": "Im Büro sind ja diese Woche so viele krank! Was hat Peter?" },
+            { "v": "f1", "t": "Peter hatte am Wochenende einen Skiunfall. Sein Bein ist gebrochen." },
+            { "v": "f2", "t": "Oh nein! Und Martina?" },
+            { "v": "f1", "t": "Martina hat die Grippe, mit hohem Fieber. Sie liegt seit Montag im Bett." },
+            { "v": "f2", "t": "Und warum war Jonas gestern nicht da?" },
+            { "v": "f1", "t": "Er musste zum Zahnarzt, er hatte schreckliche Zahnschmerzen." },
+            { "v": "f2", "t": "Und der Chef? Er niest die ganze Zeit." },
+            { "v": "f1", "t": "Das ist keine Erkältung, das ist seine Allergie. Im Frühling ist das immer so. Und Sabine hatte etwas Falsches gegessen, ihr Magen ist nicht in Ordnung." }
+          ],
+          "items": [
+            { "q": "Peter", "answer": 2 },
+            { "q": "Martina", "answer": 0 },
+            { "q": "Jonas", "answer": 4 },
+            { "q": "der Chef", "answer": 3 },
+            { "q": "Sabine", "answer": 5 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Was tut dem Mann weh?", "options": ["der Rücken", "das Knie", "die Schulter"], "answer": 1,
+          "audio": [
+            { "v": "f1", "t": "Warum gehst du so langsam?" },
+            { "v": "m1", "t": "Ich habe mich beim Fußball am Knie verletzt. Es tut noch weh." }
+          ]
+        },
+        {
+          "q": "Wie oft soll die Frau die Tabletten nehmen?", "options": ["einmal täglich", "zweimal täglich", "dreimal täglich"], "answer": 1,
+          "audio": [
+            { "v": "m2", "t": "Nehmen Sie die Tabletten morgens und abends, immer nach dem Essen." },
+            { "v": "f2", "t": "Also zweimal am Tag. Danke." }
+          ]
+        },
+        {
+          "q": "Was rät die Frau?", "options": ["einen Tee trinken", "zum Arzt gehen", "Sport machen"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Ich habe seit zwei Wochen Husten." },
+            { "v": "f1", "t": "Zwei Wochen? Dann solltest du wirklich zum Arzt gehen!" }
+          ]
+        },
+        {
+          "q": "Warum kann die Frau keinen Kuchen essen?", "options": ["Sie ist allergisch.", "Sie macht eine Diät.", "Sie hat keinen Hunger."], "answer": 0,
+          "audio": [
+            { "v": "m2", "t": "Möchtest du ein Stück Nusskuchen?" },
+            { "v": "f2", "t": "Nein danke, ich bin allergisch gegen Nüsse." }
+          ]
+        },
+        {
+          "q": "Wie fühlt sich der Mann heute?", "options": ["besser", "schlechter", "gleich"], "answer": 0,
+          "audio": [
+            { "v": "f1", "t": "Wie geht es dir heute?" },
+            { "v": "m1", "t": "Viel besser als gestern. Das Fieber ist weg, nur ein bisschen Husten habe ich noch." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit dem Hausarzt Dr. Martin Frei.",
+          "audio": [
+            { "v": "f1", "t": "Dr. Frei, es ist Herbst. Viele Menschen erkälten sich jetzt. Was kann man tun?" },
+            { "v": "m2", "t": "Das Wichtigste ist: oft die Hände waschen. Viele Viren kommen über die Hände, zum Beispiel im Bus oder im Büro." },
+            { "v": "f1", "t": "Helfen auch Vitamine?" },
+            { "v": "m2", "t": "Ja, aber man braucht keine Tabletten. Man sollte einfach viel Obst und Gemüse essen." },
+            { "v": "f1", "t": "Und wenn man schon erkältet ist?" },
+            { "v": "m2", "t": "Dann sollte man sich ausruhen und viel trinken, am besten warmen Tee. Und bitte nicht krank zur Arbeit gehen! Dann werden auch die Kollegen krank." },
+            { "v": "f1", "t": "Wann sollte man zum Arzt gehen?" },
+            { "v": "m2", "t": "Bei hohem Fieber, also über neununddreißig Grad, oder wenn man nach einer Woche immer noch krank ist." }
+          ],
+          "statements": [
+            { "s": "Dr. Frei sagt, man soll oft die Hände waschen.", "answer": true },
+            { "s": "Man sollte Vitamintabletten kaufen.", "answer": false },
+            { "s": "Bei einer Erkältung soll man viel trinken.", "answer": true },
+            { "s": "Mit einer Erkältung kann man normal arbeiten.", "answer": false },
+            { "s": "Bei Fieber über 39 Grad soll man zum Arzt gehen.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit Sara Novak. Sie hat 20 Kilo abgenommen.",
+          "audio": [
+            { "v": "m1", "t": "Frau Novak, Sie haben in einem Jahr zwanzig Kilo abgenommen. Wie haben Sie das geschafft?" },
+            { "v": "f2", "t": "Ohne Diät! Ich habe einfach meine Gewohnheiten geändert. Früher habe ich oft Fast Food gegessen, weil ich keine Zeit zum Kochen hatte." },
+            { "v": "m1", "t": "Und jetzt?" },
+            { "v": "f2", "t": "Jetzt koche ich am Sonntag für die ganze Woche. Und ich trinke keine Cola mehr, nur Wasser und Tee." },
+            { "v": "m1", "t": "Haben Sie auch Sport gemacht?" },
+            { "v": "f2", "t": "Am Anfang konnte ich keinen Sport machen, mein Knie hat zu sehr wehgetan. Deshalb bin ich viel spazieren gegangen. Jetzt gehe ich dreimal pro Woche schwimmen." },
+            { "v": "m1", "t": "Was ist Ihr Tipp für unsere Hörer?" },
+            { "v": "f2", "t": "Kleine Schritte! Man muss nicht alles an einem Tag ändern. Und man sollte sich auch mal ein Stück Schokolade erlauben." }
+          ],
+          "statements": [
+            { "s": "Frau Novak hat eine strenge Diät gemacht.", "answer": false },
+            { "s": "Früher hatte sie wenig Zeit zum Kochen.", "answer": true },
+            { "s": "Sie kocht jeden Abend frisch.", "answer": false },
+            { "s": "Am Anfang ist sie viel spazieren gegangen.", "answer": true },
+            { "s": "Sie isst nie mehr Schokolade.", "answer": false }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie sind krank und können heute Abend nicht ins Kino gehen. Schreiben Sie Ihrer Freundin Nora eine SMS.",
+          "points": ["Sagen Sie ab.", "Was haben Sie?", "Schlagen Sie einen neuen Termin vor."],
+          "register": "informal (du)",
+          "model": "Hallo Nora, leider kann ich heute nicht ins Kino kommen. Ich habe mich erkältet und habe Fieber. Wollen wir nächsten Freitag gehen? Liebe Grüße, Laura"
+        },
+        {
+          "task": "Ihr Freund Jan hatte einen Unfall. Schreiben Sie ihm eine SMS.",
+          "points": ["Wie geht es ihm?", "Wünschen Sie gute Besserung.", "Bieten Sie Hilfe an."],
+          "register": "informal (du)",
+          "model": "Hi Jan, ich habe von deinem Unfall gehört. Wie geht es dir? Gute Besserung! Soll ich für dich einkaufen? Ich kann morgen Abend vorbeikommen. José"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie sind krank und können diese Woche nicht zum Deutschkurs kommen. Schreiben Sie Ihrer Kursleiterin, Frau Weber.",
+          "points": ["Warum kommen Sie nicht?", "Wie lange sind Sie krank?", "Fragen Sie nach den Hausaufgaben."],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Weber,\n\nleider kann ich diese Woche nicht zum Kurs kommen, weil ich die Grippe habe. Die Ärztin hat mich bis Freitag krankgeschrieben. Könnten Sie mir bitte die Hausaufgaben per E-Mail schicken?\n\nViele Grüße\nJosé López"
+        },
+        {
+          "task": "Sie haben morgen einen Termin bei Dr. Kaya, aber Sie können nicht kommen. Schreiben Sie an die Praxis.",
+          "points": ["Sagen Sie den Termin ab.", "Warum können Sie nicht kommen?", "Bitten Sie um einen neuen Termin."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe morgen um 10 Uhr einen Termin bei Dr. Kaya. Leider muss ich den Termin absagen, weil ich beruflich nach Genf fahren muss. Haben Sie nächste Woche einen anderen Termin für mich, am liebsten am Nachmittag?\n\nMit freundlichen Grüßen\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Gesundheit", "word": "Sport", "question": "Wie oft machst du Sport?", "answer": "Zweimal pro Woche, ich gehe joggen." },
+        { "theme": "Gesundheit", "word": "Arzt", "question": "Wann warst du zum letzten Mal beim Arzt?", "answer": "Vor drei Monaten, zur Kontrolle." },
+        { "theme": "Gesundheit", "word": "Essen", "question": "Ernährst du dich gesund?", "answer": "Meistens schon, ich esse viel Gemüse." },
+        { "theme": "Gesundheit", "word": "Schlaf", "question": "Wie viele Stunden schläfst du?", "answer": "Ungefähr sieben Stunden." },
+        { "theme": "Gesundheit", "word": "Stress", "question": "Was machst du gegen Stress?", "answer": "Ich gehe spazieren oder mache Yoga." },
+        { "theme": "Gesundheit", "word": "krank", "question": "Was machst du bei einer Erkältung?", "answer": "Ich trinke viel Tee und ruhe mich aus." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Was machen Sie für Ihre Gesundheit?",
+          "prompts": ["Sport?", "Essen?", "Schlaf?", "Stress?"],
+          "model": [{ "v": "m1", "t": "Für meine Gesundheit mache ich einiges. Ich gehe zweimal pro Woche joggen und am Wochenende wandere ich in den Bergen. Ich ernähre mich ziemlich gesund, aber ich esse zu viel Schokolade. Ich schlafe leider nicht so viel, ungefähr sechs Stunden, weil ich abends oft lange arbeite. Gegen Stress hilft mir Musik: Ich spiele Gitarre." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Waren Sie schon einmal im Krankenhaus?",
+          "prompts": ["Wann?", "Warum?", "Wie lange?", "Wie war es?"],
+          "model": [{ "v": "f1", "t": "Ja, ich war vor fünf Jahren im Krankenhaus. Ich hatte einen Unfall mit dem Fahrrad und habe mir das Bein gebrochen. Ich musste eine Woche im Krankenhaus bleiben. Die Ärzte und die Krankenpfleger waren sehr nett, aber das Essen war nicht so gut. Danach brauchte ich noch zwei Monate Physiotherapie." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Ein Freund liegt im Krankenhaus. Sie möchten ihn zusammen mit Ihrem Partner / Ihrer Partnerin besuchen. Besuchszeit: 14–20 Uhr. Finden Sie einen Termin.",
+          "mine": ["Mittwoch: bis 17 Uhr Arbeit", "Mittwoch 18 Uhr: Zahnarzt", "Donnerstag: frei ab 15 Uhr", "Freitag: 16–19 Uhr Kurs", "Samstag: ganzer Tag frei"],
+          "partner": ["Mittwoch: Nachmittag frei", "Donnerstag: bis 18 Uhr Arbeit", "Freitag: ab 14 Uhr frei", "Samstag: 10–16 Uhr Arbeit", "Samstag Abend: frei"],
+          "model": [
+            { "v": "f2", "t": "Wollen wir Paul am Mittwochnachmittag besuchen?" },
+            { "v": "m1", "t": "Am Mittwoch arbeite ich bis fünf, und um sechs habe ich einen Termin beim Zahnarzt. Geht Donnerstag?" },
+            { "v": "f2", "t": "Donnerstag arbeite ich bis sechs. Dann wäre es halb sieben im Krankenhaus." },
+            { "v": "m1", "t": "Das ist okay, die Besuchszeit ist bis acht. Ich habe ab drei Uhr Zeit." },
+            { "v": "f2", "t": "Gut, dann treffen wir uns am Donnerstag um halb sieben am Eingang." },
+            { "v": "m1", "t": "Super. Ich kaufe vorher Blumen." }
+          ]
+        },
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen einen Erste-Hilfe-Kurs machen. Es gibt Kurse am Dienstag 18–21 Uhr, am Donnerstag 18–21 Uhr und am Samstag 9–16 Uhr. Finden Sie einen Kurs.",
+          "mine": ["Dienstag: ab 18 Uhr frei", "Donnerstag: 19 Uhr Volleyball", "Samstag: Vormittag frei, Nachmittag Geburtstag Oma"],
+          "partner": ["Dienstag: ab 18 Uhr frei", "Donnerstag: frei", "Samstag: frei"],
+          "model": [
+            { "v": "m2", "t": "Welchen Kurs nehmen wir? Am Samstag?" },
+            { "v": "f1", "t": "Samstag geht nicht, am Nachmittag hat meine Oma Geburtstag. Und am Donnerstag spiele ich Volleyball." },
+            { "v": "m2", "t": "Dann bleibt nur der Dienstag. Ich habe ab sechs Uhr Zeit." },
+            { "v": "f1", "t": "Ich auch. Also melden wir uns für Dienstag an." }
+          ]
+        }
+      ]
+    }
+  }
+}

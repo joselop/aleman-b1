@@ -1,0 +1,563 @@
+{
+  "id": "a2-t03",
+  "level": "a2",
+  "topic": "t03",
+  "title": "Trabajo y profesión",
+  "title_de": "Arbeit und Beruf",
+  "goals": [
+    "Describir tu trabajo: tareas, horarios, contrato y lo que te gusta o no",
+    "Entender ofertas de empleo y hablar de una candidatura",
+    "Llamar por teléfono a una oficina y dejar un recado",
+    "Dar razones con weil (y denn) y opiniones con dass, con el verbo al final",
+    "Expresar opinión: Ich finde, dass… / Für mich ist wichtig, dass…"
+  ],
+  "vocab": [
+    { "de": "der Arbeitgeber / die Arbeitgeberin", "pl": "die Arbeitgeber / die Arbeitgeberinnen", "es": "el/la empleador/a", "cat": "Trabajo", "ex": "Mein Arbeitgeber zahlt das Ticket.", "ex_es": "Mi empresa me paga el abono." },
+    { "de": "der Arbeitnehmer / die Arbeitnehmerin", "pl": "die Arbeitnehmer / die Arbeitnehmerinnen", "es": "el/la trabajador/a por cuenta ajena", "cat": "Trabajo", "ex": "Die Firma hat 200 Arbeitnehmer.", "ex_es": "La empresa tiene 200 empleados." },
+    { "de": "angestellt", "es": "empleado (contratado)", "cat": "Trabajo", "ex": "Ich bin bei einer Versicherung angestellt.", "ex_es": "Trabajo como empleado en una aseguradora." },
+    { "de": "selbstständig", "es": "autónomo", "cat": "Trabajo", "ex": "Meine Schwester ist selbstständig.", "ex_es": "Mi hermana es autónoma." },
+    { "de": "das Gehalt", "pl": "die Gehälter", "es": "el sueldo", "cat": "Trabajo", "ex": "Das Gehalt kommt am 25. des Monats.", "ex_es": "El sueldo llega el día 25 de cada mes." },
+    { "de": "verdienen", "es": "ganar (dinero)", "cat": "Trabajo", "forms": "er verdient, hat verdient", "ex": "Er verdient gut.", "ex_es": "Gana bien." },
+    { "de": "die Überstunde", "pl": "die Überstunden", "es": "la hora extra", "cat": "Trabajo", "ex": "Diese Woche habe ich zehn Überstunden gemacht.", "ex_es": "Esta semana he hecho diez horas extra." },
+    { "de": "der Vertrag", "pl": "die Verträge", "es": "el contrato", "cat": "Trabajo", "ex": "Mein Vertrag ist befristet.", "ex_es": "Mi contrato es temporal." },
+    { "de": "befristet / unbefristet", "es": "temporal / indefinido", "cat": "Trabajo", "ex": "Ich habe einen unbefristeten Vertrag.", "ex_es": "Tengo un contrato indefinido." },
+    { "de": "die Kündigung", "pl": "die Kündigungen", "es": "el despido; la baja voluntaria", "cat": "Trabajo", "ex": "Er hat die Kündigung bekommen.", "ex_es": "Le han despedido." },
+    { "de": "kündigen", "es": "despedir; dejar el trabajo", "cat": "Trabajo", "forms": "er kündigt, hat gekündigt", "ex": "Sie hat gekündigt.", "ex_es": "Ha dejado el trabajo." },
+    { "de": "der Schichtdienst", "es": "el trabajo por turnos", "cat": "Trabajo", "ex": "Im Krankenhaus gibt es Schichtdienst.", "ex_es": "En el hospital se trabaja por turnos." },
+    { "de": "das Homeoffice", "es": "el teletrabajo", "cat": "Trabajo", "ex": "Am Freitag bin ich im Homeoffice.", "ex_es": "Los viernes teletrabajo." },
+    { "de": "die Aufgabe", "pl": "die Aufgaben", "es": "la tarea", "cat": "Trabajo", "ex": "Was sind Ihre Aufgaben?", "ex_es": "¿Cuáles son sus tareas?" },
+    { "de": "verantwortlich (für)", "es": "responsable (de)", "cat": "Trabajo", "ex": "Ich bin für das Lager verantwortlich.", "ex_es": "Soy responsable del almacén." },
+    { "de": "der Kunde / die Kundin", "pl": "die Kunden / die Kundinnen", "es": "el/la cliente", "cat": "Trabajo", "ex": "Ich berate Kunden am Telefon.", "ex_es": "Asesoro a clientes por teléfono." },
+    { "de": "beraten", "es": "asesorar", "cat": "Trabajo", "forms": "er berät, hat beraten", "ex": "Wir beraten Sie gern.", "ex_es": "Le asesoramos con gusto." },
+    { "de": "die Besprechung", "pl": "die Besprechungen", "es": "la reunión", "cat": "Trabajo", "ex": "Die Besprechung dauert eine Stunde.", "ex_es": "La reunión dura una hora." },
+    { "de": "die Stellenanzeige", "pl": "die Stellenanzeigen", "es": "la oferta de empleo", "cat": "Buscar trabajo", "ex": "Ich habe eine interessante Stellenanzeige gelesen.", "ex_es": "He leído una oferta de empleo interesante." },
+    { "de": "die Bewerbung", "pl": "die Bewerbungen", "es": "la candidatura, la solicitud", "cat": "Buscar trabajo", "ex": "Ich schicke meine Bewerbung per E-Mail.", "ex_es": "Envío mi candidatura por correo electrónico." },
+    { "de": "sich bewerben (um)", "es": "presentarse (a un puesto)", "cat": "Buscar trabajo", "forms": "er bewirbt sich, hat sich beworben", "ex": "Sie bewirbt sich um eine Stelle als Lehrerin.", "ex_es": "Se presenta a un puesto de profesora." },
+    { "de": "der Lebenslauf", "pl": "die Lebensläufe", "es": "el currículum", "cat": "Buscar trabajo", "ex": "Bitte schicken Sie Ihren Lebenslauf.", "ex_es": "Envíe su currículum, por favor." },
+    { "de": "das Vorstellungsgespräch", "pl": "die Vorstellungsgespräche", "es": "la entrevista de trabajo", "cat": "Buscar trabajo", "ex": "Morgen habe ich ein Vorstellungsgespräch.", "ex_es": "Mañana tengo una entrevista de trabajo." },
+    { "de": "die Erfahrung", "pl": "die Erfahrungen", "es": "la experiencia", "cat": "Buscar trabajo", "ex": "Haben Sie Erfahrung im Verkauf?", "ex_es": "¿Tiene experiencia en ventas?" },
+    { "de": "die Voraussetzung", "pl": "die Voraussetzungen", "es": "el requisito", "cat": "Buscar trabajo", "ex": "Gute Deutschkenntnisse sind Voraussetzung.", "ex_es": "Buenos conocimientos de alemán son requisito." },
+    { "de": "ausrichten", "es": "dar un recado", "cat": "Teléfono", "forms": "er richtet aus, hat ausgerichtet", "ex": "Kann ich etwas ausrichten?", "ex_es": "¿Quiere dejar un recado?" },
+    { "de": "zurückrufen", "es": "devolver la llamada", "cat": "Teléfono", "forms": "er ruft zurück, hat zurückgerufen", "ex": "Ich rufe Sie morgen zurück.", "ex_es": "Le devuelvo la llamada mañana." },
+    { "de": "verbinden", "es": "pasar (una llamada), conectar", "cat": "Teléfono", "forms": "er verbindet, hat verbunden", "ex": "Ich verbinde Sie mit Frau Huber.", "ex_es": "Le paso con la señora Huber." },
+    { "de": "besetzt", "es": "comunicando, ocupado", "cat": "Teléfono", "ex": "Die Leitung ist besetzt.", "ex_es": "Está comunicando." },
+    { "de": "Auf Wiederhören!", "es": "¡Adiós! (al teléfono)", "cat": "Teléfono", "ex": "Danke, auf Wiederhören!", "ex_es": "Gracias, ¡adiós!" },
+    { "de": "weil", "es": "porque (verbo al final)", "cat": "Conectores", "ex": "Ich bin müde, weil ich viel gearbeitet habe.", "ex_es": "Estoy cansado porque he trabajado mucho." },
+    { "de": "denn", "es": "porque (verbo en posición 2)", "cat": "Conectores", "ex": "Ich komme nicht, denn ich bin krank.", "ex_es": "No vengo, porque estoy enfermo." },
+    { "de": "dass", "es": "que (verbo al final)", "cat": "Conectores", "ex": "Ich glaube, dass er recht hat.", "ex_es": "Creo que tiene razón." },
+    { "de": "glauben", "es": "creer", "cat": "Opinión", "forms": "er glaubt, hat geglaubt", "ex": "Ich glaube, dass das stimmt.", "ex_es": "Creo que es verdad." },
+    { "de": "hoffen", "es": "esperar (tener esperanza)", "cat": "Opinión", "forms": "er hofft, hat gehofft", "ex": "Ich hoffe, dass es klappt.", "ex_es": "Espero que salga bien." },
+    { "de": "meinen", "es": "opinar", "cat": "Opinión", "forms": "er meint, hat gemeint", "ex": "Was meinst du?", "ex_es": "¿Qué opinas?" },
+    { "de": "wichtig", "es": "importante", "cat": "Opinión", "ex": "Für mich ist wichtig, dass ich Zeit für die Familie habe.", "ex_es": "Para mí es importante tener tiempo para la familia." },
+    { "de": "zufrieden", "es": "satisfecho", "cat": "Opinión", "ex": "Ich bin mit meiner Arbeit zufrieden.", "ex_es": "Estoy contento con mi trabajo." },
+    { "de": "stressig", "es": "estresante", "cat": "Opinión", "ex": "Die Arbeit ist manchmal stressig.", "ex_es": "El trabajo a veces es estresante." },
+    { "de": "abwechslungsreich", "es": "variado", "cat": "Opinión", "ex": "Mein Job ist sehr abwechslungsreich.", "ex_es": "Mi trabajo es muy variado." }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "El mundo laboral",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["das Gehalt", "el sueldo"],
+        ["die Überstunden", "las horas extra"],
+        ["der Lebenslauf", "el currículum"],
+        ["das Vorstellungsgespräch", "la entrevista de trabajo"],
+        ["befristet", "temporal"],
+        ["selbstständig", "autónomo"],
+        ["zurückrufen", "devolver la llamada"],
+        ["abwechslungsreich", "variado"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "order",
+      "title": "weil: el verbo al final",
+      "instructions": "Ordena la subordinada con weil.",
+      "items": [
+        { "words": ["Ich", "lerne", "Deutsch", ",", "weil", "ich", "in", "Zürich", "arbeite", "."], "answers": ["Ich lerne Deutsch, weil ich in Zürich arbeite."] },
+        { "words": ["Er", "kommt", "nicht", ",", "weil", "er", "krank", "ist", "."], "answers": ["Er kommt nicht, weil er krank ist."] },
+        { "words": ["Ich", "bin", "müde", ",", "weil", "ich", "Überstunden", "gemacht", "habe", "."], "answers": ["Ich bin müde, weil ich Überstunden gemacht habe."] },
+        { "words": ["Sie", "ist", "zufrieden", ",", "weil", "sie", "im", "Homeoffice", "arbeiten", "kann", "."], "answers": ["Sie ist zufrieden, weil sie im Homeoffice arbeiten kann."] },
+        { "words": ["Ich", "stehe", "früh", "auf", ",", "weil", "die", "Arbeit", "um", "sieben", "anfängt", "."], "answers": ["Ich stehe früh auf, weil die Arbeit um sieben anfängt."] }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "order",
+      "title": "dass: el verbo al final",
+      "instructions": "Ordena la frase con dass.",
+      "items": [
+        { "words": ["Ich", "finde", ",", "dass", "mein", "Job", "interessant", "ist", "."], "answers": ["Ich finde, dass mein Job interessant ist."] },
+        { "words": ["Ich", "hoffe", ",", "dass", "ich", "die", "Stelle", "bekomme", "."], "answers": ["Ich hoffe, dass ich die Stelle bekomme."] },
+        { "words": ["Er", "sagt", ",", "dass", "er", "später", "kommt", "."], "answers": ["Er sagt, dass er später kommt."] },
+        { "words": ["Ich", "glaube", ",", "dass", "die", "Besprechung", "schon", "angefangen", "hat", "."], "answers": ["Ich glaube, dass die Besprechung schon angefangen hat."] },
+        { "words": ["Es", "ist", "wichtig", ",", "dass", "du", "pünktlich", "bist", "."], "answers": ["Es ist wichtig, dass du pünktlich bist."] }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "write",
+      "title": "Une las frases con weil",
+      "instructions": "Une las dos frases con weil. Escribe la frase completa.",
+      "items": [
+        { "prompt": "Ich suche eine neue Stelle. + Mein Chef ist unfreundlich.", "answers": ["Ich suche eine neue Stelle, weil mein Chef unfreundlich ist."] },
+        { "prompt": "Sie arbeitet Teilzeit. + Sie hat zwei kleine Kinder.", "answers": ["Sie arbeitet Teilzeit, weil sie zwei kleine Kinder hat."] },
+        { "prompt": "Ich komme zu spät. + Der Bus hatte Verspätung.", "answers": ["Ich komme zu spät, weil der Bus Verspätung hatte."] },
+        { "prompt": "Er ist glücklich. + Er hat die Prüfung bestanden.", "answers": ["Er ist glücklich, weil er die Prüfung bestanden hat."] },
+        { "prompt": "Wir können nicht kommen. + Wir müssen arbeiten.", "answers": ["Wir können nicht kommen, weil wir arbeiten müssen."] }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "¿weil o denn?",
+      "instructions": "Elige la frase correcta.",
+      "items": [
+        { "q": "Estoy cansado porque he trabajado mucho.", "options": ["Ich bin müde, weil ich habe viel gearbeitet.", "Ich bin müde, weil ich viel gearbeitet habe.", "Ich bin müde, denn ich viel gearbeitet habe."], "answer": 1 },
+        { "q": "No voy porque estoy enfermo.", "options": ["Ich komme nicht, denn ich bin krank.", "Ich komme nicht, denn ich krank bin.", "Ich komme nicht, weil ich bin krank."], "answer": 0 },
+        { "q": "Creo que tiene razón.", "options": ["Ich glaube, dass er hat recht.", "Ich glaube, dass er recht hat.", "Ich glaube, er recht hat."], "answer": 1 },
+        { "q": "Espero que el curso empiece pronto.", "options": ["Ich hoffe, dass der Kurs bald anfängt.", "Ich hoffe, dass der Kurs fängt bald an.", "Ich hoffe, dass der Kurs bald fängt an."], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "Al teléfono",
+      "instructions": "Completa la conversación con: ausrichten, zurückrufen, verbinde, Wiederhören, sprechen.",
+      "items": [
+        { "text": "Guten Tag, kann ich bitte mit Frau Huber [[sprechen]]?" },
+        { "text": "Einen Moment, ich [[verbinde]] Sie." },
+        { "text": "Frau Huber ist leider nicht da. Kann ich ihr etwas [[ausrichten]]?" },
+        { "text": "Ja, sie soll mich bitte [[zurückrufen]]." },
+        { "text": "Gut, ich sage es ihr. Auf [[Wiederhören]]!" }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "En el trabajo",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "f1", "t": "Warum möchtest du kündigen?" },
+            { "v": "m1", "t": "Weil ich jeden Tag zwei Stunden mit dem Zug fahre. Ich möchte eine Stelle in meiner Stadt." }
+          ],
+          "q": "¿Por qué quiere dejar el trabajo?", "options": ["Gana poco", "El viaje es muy largo", "No le gustan sus compañeros"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m2", "t": "Firma Solartec, guten Tag." },
+            { "v": "f2", "t": "Guten Tag, hier ist Ruiz. Ist Herr Bauer da?" },
+            { "v": "m2", "t": "Nein, er ist in einer Besprechung. Er ruft Sie um drei Uhr zurück." }
+          ],
+          "q": "¿Qué pasa con el señor Bauer?", "options": ["Está de vacaciones", "Está en una reunión", "Está enfermo"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Wie gefällt dir die neue Stelle?" },
+            { "v": "m2", "t": "Sehr gut! Ich finde toll, dass ich zweimal pro Woche im Homeoffice arbeiten kann." }
+          ],
+          "q": "¿Qué le gusta del nuevo trabajo?", "options": ["El sueldo", "Poder teletrabajar", "Los compañeros"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Was sind Ihre Aufgaben?" },
+            { "v": "f2", "t": "Ich beantworte E-Mails, plane Termine und berate Kunden am Telefon." }
+          ],
+          "q": "¿Qué NO menciona la mujer?", "options": ["Contestar correos", "Asesorar clientes", "Escribir informes"], "answer": 2
+        },
+        {
+          "audio": [
+            { "v": "f1", "t": "Hast du einen unbefristeten Vertrag?" },
+            { "v": "m1", "t": "Nein, leider nur befristet, für ein Jahr. Aber ich hoffe, dass ich danach bleiben kann." }
+          ],
+          "q": "¿Cómo es su contrato?", "options": ["Indefinido", "De un año", "De prácticas"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase. Ojo con la coma.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich bin müde, weil ich viel gearbeitet habe." }], "answers": ["Ich bin müde, weil ich viel gearbeitet habe."] },
+        { "audio": [{ "v": "m1", "t": "Ich hoffe, dass ich die Stelle bekomme." }], "answers": ["Ich hoffe, dass ich die Stelle bekomme."] },
+        { "audio": [{ "v": "f2", "t": "Kann ich etwas ausrichten?" }], "answers": ["Kann ich etwas ausrichten?"] },
+        { "audio": [{ "v": "m2", "t": "Mein Vertrag ist befristet." }], "answers": ["Mein Vertrag ist befristet."] },
+        { "audio": [{ "v": "f1", "t": "Ich arbeite gern hier, weil die Kollegen nett sind." }], "answers": ["Ich arbeite gern hier, weil die Kollegen nett sind."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "mc",
+      "title": "Una oferta de empleo",
+      "instructions": "Lee la oferta y contesta: «Wir suchen ab 1. März eine Verkäuferin (80 %) für unser Schuhgeschäft in Bern. Voraussetzungen: Erfahrung im Verkauf, gute Deutschkenntnisse, Französisch von Vorteil. Bewerbung mit Lebenslauf an: jobs@schuh-bern.ch»",
+      "items": [
+        { "q": "¿La jornada es completa?", "options": ["Sí", "No, es del 80 %", "No se dice"], "answer": 1 },
+        { "q": "¿Qué es imprescindible?", "options": ["Hablar francés", "Experiencia en ventas", "Vivir en Berna"], "answer": 1 },
+        { "q": "¿Cómo hay que presentarse?", "options": ["Por teléfono", "En la tienda", "Por correo electrónico con el currículum"], "answer": 2 },
+        { "q": "¿Qué significa «Französisch von Vorteil»?", "options": ["El francés es obligatorio", "Saber francés es una ventaja", "No hace falta saber francés"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Trabajo a media jornada porque tengo un hijo pequeño.", "answers": ["Ich arbeite Teilzeit, weil ich ein kleines Kind habe.", "Ich arbeite Teilzeit, weil ich einen kleinen Sohn habe.", "Ich arbeite Teilzeit, weil ich eine kleine Tochter habe."] },
+        { "prompt": "Creo que el jefe no viene hoy.", "answers": ["Ich glaube, dass der Chef heute nicht kommt.", "Ich glaube, der Chef kommt heute nicht."] },
+        { "prompt": "¿Puedo hablar con la señora Keller, por favor?", "answers": ["Kann ich bitte mit Frau Keller sprechen?", "Kann ich mit Frau Keller sprechen, bitte?", "Könnte ich bitte mit Frau Keller sprechen?"] },
+        { "prompt": "Le devuelvo la llamada mañana. (Sie)", "answers": ["Ich rufe Sie morgen zurück.", "Morgen rufe ich Sie zurück."] },
+        { "prompt": "Me parece bien que podamos teletrabajar.", "answers": ["Ich finde gut, dass wir im Homeoffice arbeiten können.", "Ich finde es gut, dass wir im Homeoffice arbeiten können."] },
+        { "prompt": "Me presento al puesto de enfermero.", "answers": ["Ich bewerbe mich um die Stelle als Krankenpfleger."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Vier Tage arbeiten, drei Tage frei?",
+          "text": "Immer mehr Firmen in Deutschland und der Schweiz testen die Vier-Tage-Woche. Die Angestellten arbeiten nur von Montag bis Donnerstag, bekommen aber das gleiche Gehalt. Die Softwarefirma Codex in Basel macht das seit einem Jahr. „Am Anfang hatten wir Angst, dass wir weniger schaffen“, sagt Chefin Sandra Moser. „Aber das Gegenteil ist passiert: Die Leute sind weniger krank und konzentrierter.“ Auch die Mitarbeiter sind zufrieden. Programmierer Luca, 31, sagt: „Am Freitag habe ich Zeit für meine Tochter. Das ist mir wichtiger als Geld.“ Nicht alle Firmen können das System einführen. In Krankenhäusern oder Restaurants braucht man jeden Tag Personal. Experten glauben aber, dass die Vier-Tage-Woche in Büros bald normal ist.",
+          "questions": [
+            { "q": "Bei der Vier-Tage-Woche …", "options": ["verdienen die Leute weniger.", "bekommen die Leute das gleiche Gehalt.", "arbeiten die Leute am Wochenende."], "answer": 1 },
+            { "q": "Was hat die Firma Codex beobachtet?", "options": ["Die Angestellten sind weniger krank.", "Die Firma schafft weniger.", "Viele Mitarbeiter kündigen."], "answer": 0 },
+            { "q": "Was macht Luca am Freitag?", "options": ["Er arbeitet im Homeoffice.", "Er verbringt Zeit mit seiner Tochter.", "Er hat einen zweiten Job."], "answer": 1 },
+            { "q": "Wo ist die Vier-Tage-Woche schwierig?", "options": ["in Büros", "in Softwarefirmen", "in Restaurants"], "answer": 2 },
+            { "q": "Was glauben die Experten?", "options": ["Die Idee funktioniert nicht.", "In Büros ist sie bald normal.", "Sie ist nur für Familien gut."], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Neu im Job – so klappt der Start",
+          "text": "Der erste Arbeitstag ist für viele Menschen aufregend. Die Karriereberaterin Julia Hofmann gibt Tipps. „Seien Sie pünktlich, am besten zehn Minuten zu früh“, sagt sie. „Und stellen Sie sich allen Kollegen vor, auch in der Kantine.“ Viele Neue haben Angst, Fragen zu stellen. „Das ist falsch. In den ersten Wochen darf man alles fragen. Schreiben Sie die Antworten auf, dann müssen Sie nicht zweimal fragen.“ Wichtig ist auch die Kleidung: Lieber etwas zu elegant als zu sportlich. Nach einer Woche kann man sehen, was die anderen tragen. Und nach dem ersten Monat? „Bitten Sie Ihren Chef um ein kurzes Gespräch. Fragen Sie, ob er zufrieden ist und was Sie besser machen können.“",
+          "questions": [
+            { "q": "Am ersten Tag soll man …", "options": ["etwas früher kommen.", "genau pünktlich kommen.", "in der Kantine warten."], "answer": 0 },
+            { "q": "Was sagt Frau Hofmann über Fragen?", "options": ["Man soll keine Fragen stellen.", "Man darf am Anfang viel fragen.", "Man soll nur den Chef fragen."], "answer": 1 },
+            { "q": "Warum soll man die Antworten aufschreiben?", "options": ["Damit man nicht noch einmal fragen muss.", "Weil der Chef das kontrolliert.", "Für den Lebenslauf."], "answer": 0 },
+            { "q": "Welche Kleidung empfiehlt sie am Anfang?", "options": ["sportliche Kleidung", "eher elegante Kleidung", "die Kleidung vom Vorstellungsgespräch"], "answer": 1 },
+            { "q": "Was soll man nach einem Monat machen?", "options": ["mit dem Chef sprechen", "eine Party machen", "mehr Gehalt verlangen"], "answer": 0 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Firma Solartec AG – Wegweiser",
+          "text": "Erdgeschoss: Empfang · Besucheranmeldung · Kantine\n1. Stock: Personalabteilung (Bewerbungen, Verträge, Urlaub) · Buchhaltung (Gehälter, Rechnungen)\n2. Stock: Verkauf und Kundenberatung · Marketing\n3. Stock: Technik und IT-Support · Entwicklung\n4. Stock: Geschäftsleitung · Konferenzräume A–D",
+          "questions": [
+            { "q": "Sie haben ein Vorstellungsgespräch und kommen gerade an. Wohin gehen Sie zuerst?", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 0 },
+            { "q": "Ihr Computer funktioniert nicht.", "options": ["2. Stock", "3. Stock", "4. Stock"], "answer": 1 },
+            { "q": "Sie möchten Ihren Urlaub beantragen.", "options": ["1. Stock", "2. Stock", "Erdgeschoss"], "answer": 0 },
+            { "q": "Ihr Gehalt ist nicht gekommen.", "options": ["1. Stock", "3. Stock", "4. Stock"], "answer": 0 },
+            { "q": "Sie haben um 10 Uhr eine Besprechung im Konferenzraum B.", "options": ["2. Stock", "3. Stock", "4. Stock"], "answer": 2 }
+          ]
+        },
+        {
+          "title": "Arbeitsamt / Regionales Arbeitsvermittlungszentrum – Information",
+          "text": "Schalter 1: Anmeldung als arbeitslos · Termine\nSchalter 2: Arbeitslosengeld · Formulare\nRaum 10: Beratung: Welcher Beruf passt zu mir?\nRaum 12: Bewerbungstraining (Lebenslauf, Vorstellungsgespräch)\nRaum 14: Deutschkurse für den Beruf · Weiterbildung\nRaum 20: Computer mit Internet: Stellenanzeigen selbst suchen",
+          "questions": [
+            { "q": "Sie haben Ihre Stelle verloren und möchten sich melden.", "options": ["Schalter 1", "Schalter 2", "Raum 10"], "answer": 0 },
+            { "q": "Sie möchten üben, wie man ein Vorstellungsgespräch führt.", "options": ["Raum 10", "Raum 12", "Raum 20"], "answer": 1 },
+            { "q": "Sie wissen nicht, welcher Beruf gut für Sie ist.", "options": ["Raum 10", "Raum 14", "Schalter 2"], "answer": 0 },
+            { "q": "Sie möchten selbst im Internet nach Stellen suchen.", "options": ["Raum 12", "Raum 14", "Raum 20"], "answer": 2 },
+            { "q": "Sie möchten Ihr Deutsch für die Arbeit verbessern.", "options": ["Raum 12", "Raum 14", "Schalter 1"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Hallo Mara,\n\nich habe tolle Neuigkeiten: Ich habe die Stelle bei der Bank bekommen! Das Vorstellungsgespräch war am Dienstag, und schon am Freitag hat die Personalchefin angerufen. Ich fange am 1. April an. Am Anfang arbeite ich 80 Prozent, weil ich am Freitag noch meinen Kurs habe. Der Vertrag ist erst einmal befristet, für ein Jahr, aber die Chefin hat gesagt, dass sie gute Leute gern behalten. Das Gehalt ist besser als in meinem alten Job, und ich kann zu Fuß ins Büro gehen!\nAm Samstag möchte ich das feiern. Hast du Zeit? Wir könnten ins Restaurant Sonne gehen, ich lade dich ein.\n\nLiebe Grüße\nIrina",
+          "questions": [
+            { "q": "Wann hat Irina die Antwort bekommen?", "options": ["am Dienstag", "am Freitag", "am Samstag"], "answer": 1 },
+            { "q": "Warum arbeitet Irina am Anfang nur 80 Prozent?", "options": ["Sie hat am Freitag einen Kurs.", "Die Bank hat keine Vollzeitstelle.", "Sie hat ein kleines Kind."], "answer": 0 },
+            { "q": "Der Vertrag …", "options": ["ist unbefristet.", "gilt ein Jahr.", "beginnt im Mai."], "answer": 1 },
+            { "q": "Was ist besser als im alten Job?", "options": ["die Kollegen", "die Arbeitszeit", "das Gehalt"], "answer": 2 },
+            { "q": "Was möchte Irina am Samstag machen?", "options": ["mit Mara essen gehen", "arbeiten", "einen Kurs besuchen"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Liebe Kolleginnen und Kollegen,\n\nwie Sie wissen, ziehen wir im Juni in das neue Bürogebäude am Bahnhof. Hier die wichtigsten Informationen: Am Freitag, 14. Juni, ist das Büro geschlossen, weil an diesem Tag die Umzugsfirma kommt. Bitte packen Sie bis Donnerstagabend Ihre Sachen in die Kisten. Die Kisten stehen ab Montag im Flur. Computer und Telefone packt die IT-Abteilung, das müssen Sie nicht machen. Am Montag, 17. Juni, arbeiten wir dann schon im neuen Büro. Parkplätze gibt es dort leider nur wenige, deshalb bitten wir Sie, mit Bus oder Bahn zu kommen.\n\nViele Grüße\nThomas Weber, Geschäftsleitung",
+          "questions": [
+            { "q": "Warum ist das Büro am 14. Juni geschlossen?", "options": ["Es ist ein Feiertag.", "Die Umzugsfirma kommt.", "Die IT-Abteilung arbeitet."], "answer": 1 },
+            { "q": "Bis wann sollen die Mitarbeiter packen?", "options": ["bis Montag", "bis Donnerstagabend", "bis Freitag"], "answer": 1 },
+            { "q": "Wer packt die Computer?", "options": ["die Mitarbeiter", "die Umzugsfirma", "die IT-Abteilung"], "answer": 2 },
+            { "q": "Ab wann arbeiten alle im neuen Büro?", "options": ["ab 14. Juni", "ab 17. Juni", "ab Juli"], "answer": 1 },
+            { "q": "Warum sollen die Mitarbeiter nicht mit dem Auto kommen?", "options": ["Es gibt wenige Parkplätze.", "Der Bahnhof ist nah.", "Parken ist teuer."], "answer": 0 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Restaurant am See sucht Kellner/in für Sommer (Juni–September), auch Studenten." },
+            { "key": "b", "text": "Pflegeheim Sonnenhof: Pflegehelfer/in gesucht, 60–100 %, Nachtdienst möglich." },
+            { "key": "c", "text": "Büro-Allrounder/in (100 %): gute Deutsch- und Englischkenntnisse, Erfahrung mit Computer." },
+            { "key": "d", "text": "Nachhilfelehrer/in für Mathematik, nachmittags, 30 Fr. pro Stunde." },
+            { "key": "e", "text": "Fahrer/in mit Führerschein für Lieferungen, Montag bis Freitag, früh morgens." },
+            { "key": "f", "text": "Kinderbetreuung: Wir suchen eine liebevolle Person für unsere Kita, Teilzeit." }
+          ],
+          "items": [
+            { "situation": "Anna studiert und sucht einen Ferienjob im Sommer.", "answer": "a" },
+            { "situation": "Herr Okafor möchte gern nachts arbeiten und alten Menschen helfen.", "answer": "b" },
+            { "situation": "Lea ist Mathematikstudentin und hat nachmittags Zeit.", "answer": "d" },
+            { "situation": "Ivo hat einen Führerschein und möchte am Morgen arbeiten.", "answer": "e" },
+            { "situation": "Frau Silva sucht eine Stelle als Friseurin.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Bewerbungsfotos in 10 Minuten – Fotostudio Klick, ohne Termin." },
+            { "key": "b", "text": "Deutsch für den Beruf B1: Telefonieren, E-Mails, Besprechungen. Abendkurs." },
+            { "key": "c", "text": "Übersetzungsbüro: Wir übersetzen Ihre Zeugnisse und Diplome." },
+            { "key": "d", "text": "Coworking Space: Arbeitsplatz mit Internet, ab 20 Fr. pro Tag." },
+            { "key": "e", "text": "Computerkurs für Anfänger: Word, Excel und E-Mails, Samstagvormittag." },
+            { "key": "f", "text": "Bewerbungscoaching: Wir helfen bei Lebenslauf und Anschreiben." }
+          ],
+          "items": [
+            { "situation": "Pedro möchte im Büro arbeiten, aber er kann noch nicht gut mit dem Computer arbeiten.", "answer": "e" },
+            { "situation": "Ewa braucht ein schönes Foto für ihren Lebenslauf.", "answer": "a" },
+            { "situation": "Mehmet möchte seine Diplome aus der Türkei auf Deutsch.", "answer": "c" },
+            { "situation": "Sara ist selbstständig und sucht einen Platz zum Arbeiten außerhalb ihrer Wohnung.", "answer": "d" },
+            { "situation": "Tim möchte bei einer Firma Kinder betreuen.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Was soll Herr López tun?", "options": ["einen Lebenslauf schicken", "zurückrufen", "am Montag kommen"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Guten Tag, Herr López, hier ist Martina Frei von der Personalabteilung der Firma Techno. Wir möchten Sie gern zu einem Vorstellungsgespräch einladen. Bitte rufen Sie mich zurück, dann finden wir zusammen einen Termin. Meine Nummer ist null vier vier, zwei drei vier, fünf sechs, sieben acht." }]
+        },
+        {
+          "q": "Warum kommt Tom später?", "options": ["Er hat verschlafen.", "Er hat einen Arzttermin.", "Der Zug hat Verspätung."], "answer": 2,
+          "audio": [{ "v": "m1", "t": "Hallo Sabine, hier ist Tom. Ich komme heute etwa eine halbe Stunde später ins Büro, weil mein Zug Verspätung hat. Kannst du bitte der Chefin Bescheid sagen? Danke!" }]
+        },
+        {
+          "q": "Wann ist die Besprechung jetzt?", "options": ["Dienstag um 9 Uhr", "Dienstag um 14 Uhr", "Mittwoch um 9 Uhr"], "answer": 1,
+          "audio": [{ "v": "m2", "t": "Liebe Kollegen, die Teambesprechung ist nicht am Dienstagmorgen um neun, sondern am Dienstagnachmittag um vierzehn Uhr. Ort: Konferenzraum B." }]
+        },
+        {
+          "q": "Was ist in der Kantine heute anders?", "options": ["Sie ist geschlossen.", "Es gibt nur kaltes Essen.", "Sie öffnet später."], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Eine Information für alle Mitarbeiter: Heute gibt es in der Kantine nur Salate und Sandwiches, weil die Küche kaputt ist. Morgen gibt es wieder warmes Essen." }]
+        },
+        {
+          "q": "Wo findet der Informationstag statt?", "options": ["im Rathaus", "in der Berufsschule", "im Arbeitsamt"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Sie wissen nicht, welche Ausbildung zu Ihnen passt? Kommen Sie am Samstag zum Informationstag in die Berufsschule am Marktplatz. Von zehn bis sechzehn Uhr stellen sich über fünfzig Firmen vor." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen zwei Kollegen. Wer macht was in der neuen Woche?",
+          "options": ["ist im Urlaub", "arbeitet im Homeoffice", "hat ein Vorstellungsgespräch", "ist auf Geschäftsreise", "macht eine Weiterbildung", "ist krank", "fängt neu an", "macht Überstunden"],
+          "audio": [
+            { "v": "f1", "t": "Paul, kannst du mir kurz sagen, wer nächste Woche da ist? Ich muss die Besprechung planen." },
+            { "v": "m1", "t": "Klar. Also, Sandra ist ab Montag eine Woche in Spanien, sie hat Urlaub." },
+            { "v": "f1", "t": "Und Michael?" },
+            { "v": "m1", "t": "Michael fliegt am Dienstag nach Hamburg zu einem Kunden. Er kommt erst am Freitag zurück." },
+            { "v": "f1", "t": "Und die Neue, Frau Kim?" },
+            { "v": "m1", "t": "Die beginnt am Montag bei uns, das ist ihr erster Tag. Und Jonas macht von Mittwoch bis Freitag einen Kurs in Projektmanagement." },
+            { "v": "f1", "t": "Und Lena? Kommt sie ins Büro?" },
+            { "v": "m1", "t": "Nein, ihr Sohn ist krank, deshalb arbeitet sie die ganze Woche von zu Hause." }
+          ],
+          "items": [
+            { "q": "Sandra", "answer": 0 },
+            { "q": "Michael", "answer": 3 },
+            { "q": "Frau Kim", "answer": 6 },
+            { "q": "Jonas", "answer": 4 },
+            { "q": "Lena", "answer": 1 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch zwischen Selin und ihrer Freundin über die Familie von Selin. Welchen Beruf haben die Personen?",
+          "options": ["Krankenpfleger/in", "Busfahrer/in", "Lehrer/in", "Ingenieur/in", "Koch / Köchin", "Verkäufer/in", "Polizist/in", "Rentner/in"],
+          "audio": [
+            { "v": "f2", "t": "Selin, was macht eigentlich deine Familie beruflich?" },
+            { "v": "f1", "t": "Mein Vater fährt seit zwanzig Jahren Bus in Zürich. Er kennt jede Straße." },
+            { "v": "f2", "t": "Und deine Mutter?" },
+            { "v": "f1", "t": "Sie hat lange in einem Krankenhaus gearbeitet, aber seit letztem Jahr ist sie in Rente." },
+            { "v": "f2", "t": "Und dein Bruder? Studiert er noch?" },
+            { "v": "f1", "t": "Nein, Emre ist schon fertig. Er ist Ingenieur und baut Brücken. Meine Schwester Ayla arbeitet in einem Schuhgeschäft." },
+            { "v": "f2", "t": "Und dein Onkel, der mit dem Restaurant?" },
+            { "v": "f1", "t": "Onkel Murat? Ja, er kocht in seinem eigenen Restaurant. Das Essen ist fantastisch!" }
+          ],
+          "items": [
+            { "q": "Vater", "answer": 1 },
+            { "q": "Mutter", "answer": 7 },
+            { "q": "Emre", "answer": 3 },
+            { "q": "Ayla", "answer": 5 },
+            { "q": "Murat", "answer": 4 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Warum kann die Frau morgen nicht?", "options": ["Sie hat ein Vorstellungsgespräch.", "Sie arbeitet.", "Sie ist krank."], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Kommst du morgen mit zum Mittagessen?" },
+            { "v": "f1", "t": "Leider nicht, ich habe um zwölf ein Vorstellungsgespräch bei einer Versicherung." }
+          ]
+        },
+        {
+          "q": "Was gefällt dem Mann an seinem Job nicht?", "options": ["die Kollegen", "die Überstunden", "das Gehalt"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Und, bist du zufrieden mit deiner Arbeit?" },
+            { "v": "m2", "t": "Eigentlich schon. Das Gehalt ist gut und die Kollegen sind nett. Aber ich muss zu viele Überstunden machen." }
+          ]
+        },
+        {
+          "q": "Mit wem möchte die Frau sprechen?", "options": ["mit Herrn Bauer", "mit Frau Graf", "mit der Personalabteilung"], "answer": 1,
+          "audio": [
+            { "v": "m1", "t": "Firma Bauer und Söhne, guten Tag." },
+            { "v": "f2", "t": "Guten Tag, hier ist Silva. Können Sie mich bitte mit Frau Graf verbinden?" },
+            { "v": "m1", "t": "Einen Moment bitte." }
+          ]
+        },
+        {
+          "q": "Wie viele Stunden arbeitet der Mann pro Woche?", "options": ["32", "40", "42"], "answer": 2,
+          "audio": [
+            { "v": "f1", "t": "Arbeitest du Vollzeit?" },
+            { "v": "m2", "t": "Ja, zweiundvierzig Stunden pro Woche. In der Schweiz ist das normal." }
+          ]
+        },
+        {
+          "q": "Was soll der Mann mitbringen?", "options": ["seine Zeugnisse", "ein Foto", "seinen Pass"], "answer": 0,
+          "audio": [
+            { "v": "f2", "t": "Bitte bringen Sie zum Gespräch Ihre Zeugnisse mit." },
+            { "v": "m1", "t": "Und einen Lebenslauf?" },
+            { "v": "f2", "t": "Den haben wir schon, danke." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit Pia Baumann. Sie arbeitet als Försterin.",
+          "audio": [
+            { "v": "m1", "t": "Frau Baumann, Sie sind Försterin. Was macht man da eigentlich?" },
+            { "v": "f1", "t": "Ich kümmere mich um den Wald. Ich kontrolliere, ob die Bäume gesund sind, und plane, wo neue Bäume wachsen sollen." },
+            { "v": "m1", "t": "Sind Sie den ganzen Tag draußen?" },
+            { "v": "f1", "t": "Leider nicht. Etwa die Hälfte der Zeit sitze ich im Büro und schreibe Berichte oder beantworte E-Mails." },
+            { "v": "m1", "t": "Warum haben Sie diesen Beruf gewählt?" },
+            { "v": "f1", "t": "Weil ich schon als Kind gern im Wald war. Mein Großvater war auch Förster, er hat mich oft mitgenommen." },
+            { "v": "m1", "t": "Und was ist schwierig an Ihrem Job?" },
+            { "v": "f1", "t": "Das Wetter! Im Winter ist es manchmal minus fünfzehn Grad. Aber ich finde, dass es kein schöneres Büro gibt als den Wald." }
+          ],
+          "statements": [
+            { "s": "Frau Baumann kontrolliert, ob die Bäume gesund sind.", "answer": true },
+            { "s": "Sie arbeitet immer draußen.", "answer": false },
+            { "s": "Ihr Großvater hatte den gleichen Beruf.", "answer": true },
+            { "s": "Sie findet die Arbeit im Winter einfach.", "answer": false },
+            { "s": "Sie mag ihren Beruf sehr.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit Ahmed Nouri. Er hat ein eigenes Café.",
+          "audio": [
+            { "v": "f2", "t": "Herr Nouri, Sie haben vor zwei Jahren das Café Mondo eröffnet. Was haben Sie vorher gemacht?" },
+            { "v": "m2", "t": "Ich war zehn Jahre bei einer Bank angestellt. Die Arbeit war gut bezahlt, aber sie hat mir keinen Spaß gemacht." },
+            { "v": "f2", "t": "Und warum ein Café?" },
+            { "v": "m2", "t": "Weil ich gern koche und gern mit Menschen spreche. Und weil ich mein eigener Chef sein wollte." },
+            { "v": "f2", "t": "Wie viele Stunden arbeiten Sie?" },
+            { "v": "m2", "t": "Viel mehr als früher, ungefähr sechzig pro Woche. Montag ist mein einziger freier Tag." },
+            { "v": "f2", "t": "Haben Sie Mitarbeiter?" },
+            { "v": "m2", "t": "Ja, drei. Zwei Studentinnen arbeiten am Wochenende, und mein Bruder hilft in der Küche." }
+          ],
+          "statements": [
+            { "s": "Herr Nouri hat früher bei einer Bank gearbeitet.", "answer": true },
+            { "s": "Die Arbeit bei der Bank hat ihm gut gefallen.", "answer": false },
+            { "s": "Er wollte selbstständig sein.", "answer": true },
+            { "s": "Heute arbeitet er weniger als früher.", "answer": false },
+            { "s": "Sein Bruder arbeitet im Café.", "answer": true }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben morgen ein Vorstellungsgespräch. Schreiben Sie Ihrer Freundin Julia eine SMS.",
+          "points": ["Wo ist das Gespräch?", "Warum sind Sie nervös?", "Bitten Sie Julia um etwas."],
+          "register": "informal (du)",
+          "model": "Hallo Julia! Morgen habe ich das Vorstellungsgespräch bei der Bank. Ich bin nervös, weil mein Deutsch noch nicht so gut ist. Kannst du heute Abend mit mir üben? LG Laura"
+        },
+        {
+          "task": "Sie kommen heute zu spät zur Arbeit. Schreiben Sie Ihrem Kollegen Marco eine SMS.",
+          "points": ["Sie kommen später.", "Warum?", "Bitten Sie Marco um Hilfe."],
+          "register": "informal (du)",
+          "model": "Hi Marco, ich komme heute eine Stunde später, weil mein Kind krank ist und ich zum Arzt muss. Kannst du bitte die Besprechung um neun für mich übernehmen? Danke! José"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben eine Stellenanzeige gelesen: Ein Hotel sucht eine Rezeptionistin / einen Rezeptionisten. Schreiben Sie an Frau Keller.",
+          "points": ["Warum interessieren Sie sich für die Stelle?", "Welche Erfahrung haben Sie?", "Fragen Sie nach den Arbeitszeiten."],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Frau Keller,\n\nich interessiere mich für die Stelle an der Rezeption, weil ich gern mit Menschen arbeite und vier Sprachen spreche. Ich habe drei Jahre in einem Hotel in Madrid gearbeitet. Könnten Sie mir bitte sagen, wie die Arbeitszeiten sind?\n\nMit freundlichen Grüßen\nLaura García"
+        },
+        {
+          "task": "Sie können morgen nicht zur Arbeit kommen. Schreiben Sie Ihrer Chefin, Frau Moser.",
+          "points": ["Warum können Sie nicht kommen?", "Was ist mit Ihren Aufgaben?", "Wann kommen Sie wieder?"],
+          "register": "formal (Sie)",
+          "model": "Liebe Frau Moser,\n\nleider kann ich morgen nicht ins Büro kommen, weil ich Fieber habe. Die Präsentation für den Kunden ist fertig, sie liegt in unserem Ordner. Ich hoffe, dass ich am Donnerstag wieder arbeiten kann.\n\nViele Grüße\nJosé López"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Arbeit", "word": "Beruf", "question": "Was bist du von Beruf?", "answer": "Ich bin Physiker und arbeite an der Universität." },
+        { "theme": "Arbeit", "word": "Arbeitszeit", "question": "Wann fängt deine Arbeit an?", "answer": "Meistens um halb neun." },
+        { "theme": "Arbeit", "word": "Kollegen", "question": "Verstehst du dich gut mit deinen Kollegen?", "answer": "Ja, sehr gut. Wir essen oft zusammen." },
+        { "theme": "Arbeit", "word": "Homeoffice", "question": "Arbeitest du auch im Homeoffice?", "answer": "Ja, einmal pro Woche." },
+        { "theme": "Arbeit", "word": "Traumberuf", "question": "Was ist dein Traumberuf?", "answer": "Ich möchte gern Lehrer werden, weil ich gern erkläre." },
+        { "theme": "Arbeit", "word": "Weg", "question": "Wie kommst du zur Arbeit?", "answer": "Mit dem Fahrrad, das dauert zehn Minuten." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Was arbeiten Sie?",
+          "prompts": ["Beruf?", "Aufgaben?", "Arbeitszeiten?", "Was gefällt Ihnen (nicht)?"],
+          "model": [{ "v": "m1", "t": "Ich bin Physiker und arbeite als Forscher an einer Universität in Zürich. Meine Aufgaben sind Experimente planen, Daten analysieren und Artikel schreiben. Ich habe flexible Arbeitszeiten, meistens arbeite ich von neun bis sechs. Mir gefällt, dass meine Arbeit sehr abwechslungsreich ist. Aber manchmal ist es stressig, weil wir viele Termine haben." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Was ist für Sie bei der Arbeit wichtig?",
+          "prompts": ["Geld?", "Kollegen?", "Zeit?", "Weg zur Arbeit?"],
+          "model": [{ "v": "f1", "t": "Für mich ist Geld nicht das Wichtigste. Ich finde, dass nette Kollegen viel wichtiger sind, weil man jeden Tag mit ihnen zusammen ist. Ich möchte auch genug Zeit für meine Familie haben, deshalb arbeite ich achtzig Prozent. Und der Weg zur Arbeit soll nicht zu lang sein: Ich fahre nur fünfzehn Minuten mit dem Fahrrad." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Ein Kollege hört bald auf zu arbeiten. Sie möchten mit Ihrem Partner / Ihrer Partnerin ein Abschiedsgeschenk kaufen. Finden Sie einen Termin in der Mittagspause.",
+          "mine": ["Montag 12–13 Uhr: Besprechung", "Dienstag: Mittagspause frei", "Mittwoch: Homeoffice", "Donnerstag 12 Uhr: Essen mit Kunde", "Freitag: Mittagspause frei"],
+          "partner": ["Montag: Mittagspause frei", "Dienstag 12–14 Uhr: Kurs", "Mittwoch: Mittagspause frei", "Donnerstag: Mittagspause frei", "Freitag: Mittagspause frei"],
+          "model": [
+            { "v": "m1", "t": "Wann wollen wir das Geschenk kaufen? Am Montag in der Mittagspause?" },
+            { "v": "f2", "t": "Am Montag habe ich Zeit. Und du?" },
+            { "v": "m1", "t": "Leider nicht, da habe ich eine Besprechung. Wie wäre es am Dienstag?" },
+            { "v": "f2", "t": "Dienstag habe ich einen Kurs bis zwei Uhr. Geht Mittwoch?" },
+            { "v": "m1", "t": "Am Mittwoch arbeite ich im Homeoffice. Aber am Freitag habe ich frei." },
+            { "v": "f2", "t": "Ich auch. Dann treffen wir uns am Freitag um zwölf am Eingang." }
+          ]
+        },
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen für ein Vorstellungsgespräch üben. Finden Sie einen Termin.",
+          "mine": ["Samstag 9–11 Uhr: Sport", "Samstag Nachmittag: frei", "Samstag Abend: Party", "Sonntag Vormittag: frei", "Sonntag ab 15 Uhr: Familie"],
+          "partner": ["Samstag Vormittag: frei", "Samstag 13–18 Uhr: Arbeit", "Samstag Abend: frei", "Sonntag 10–12 Uhr: frei", "Sonntag Nachmittag: frei"],
+          "model": [
+            { "v": "f1", "t": "Hast du am Samstagnachmittag Zeit zum Üben?" },
+            { "v": "m2", "t": "Nein, da arbeite ich bis sechs. Und am Samstagvormittag?" },
+            { "v": "f1", "t": "Da mache ich bis elf Sport. Was ist mit Sonntagvormittag?" },
+            { "v": "m2", "t": "Sonntag passt gut, ich habe von zehn bis zwölf Zeit." },
+            { "v": "f1", "t": "Super, dann komme ich um zehn zu dir." }
+          ]
+        }
+      ]
+    }
+  }
+}

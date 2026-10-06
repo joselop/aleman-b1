@@ -153,7 +153,7 @@
         },
         {
           "id": "t02",
-          "status": "planned",
+          "status": "ready",
           "title": "Mudanzas y vivienda",
           "grammar": [
             "Preposiciones de dos casos",
@@ -162,7 +162,7 @@
         },
         {
           "id": "t03",
-          "status": "planned",
+          "status": "ready",
           "title": "Trabajo y profesión",
           "grammar": [
             "Subordinadas con weil / dass",
@@ -171,7 +171,7 @@
         },
         {
           "id": "t04",
-          "status": "planned",
+          "status": "ready",
           "title": "Salud y médico",
           "grammar": [
             "Verbos reflexivos",

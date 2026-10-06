@@ -1,0 +1,580 @@
+{
+  "id": "a2-t02",
+  "level": "a2",
+  "topic": "t02",
+  "title": "Mudanzas y vivienda",
+  "title_de": "Umziehen und Wohnen",
+  "goals": [
+    "Buscar piso, preguntar por el alquiler y entender un contrato y la Hausordnung",
+    "Usar las preposiciones de dos casos con dativo (wo?) y acusativo (wohin?)",
+    "Distinguir stellen/stehen, legen/liegen, hängen y setzen/sitzen",
+    "Describir dónde están los muebles y objetos de una casa",
+    "Hablar con vecinos y con el casero"
+  ],
+  "vocab": [
+    { "de": "der Vermieter / die Vermieterin", "pl": "die Vermieter / die Vermieterinnen", "es": "el/la casero/a", "cat": "Alquiler", "ex": "Der Vermieter wohnt im Erdgeschoss.", "ex_es": "El casero vive en la planta baja." },
+    { "de": "der Mieter / die Mieterin", "pl": "die Mieter / die Mieterinnen", "es": "el/la inquilino/a", "cat": "Alquiler", "ex": "Die neuen Mieter sind sehr nett.", "ex_es": "Los nuevos inquilinos son muy simpáticos." },
+    { "de": "der Mietvertrag", "pl": "die Mietverträge", "es": "el contrato de alquiler", "cat": "Alquiler", "ex": "Ich habe den Mietvertrag unterschrieben.", "ex_es": "He firmado el contrato de alquiler." },
+    { "de": "die Kaution", "pl": "die Kautionen", "es": "la fianza", "cat": "Alquiler", "ex": "Die Kaution beträgt 3000 Franken.", "ex_es": "La fianza es de 3000 francos." },
+    { "de": "die Besichtigung", "pl": "die Besichtigungen", "es": "la visita (a un piso)", "cat": "Alquiler", "ex": "Die Besichtigung ist am Montag um 17 Uhr.", "ex_es": "La visita es el lunes a las 17 h." },
+    { "de": "unterschreiben", "es": "firmar", "cat": "Alquiler", "forms": "er unterschreibt, hat unterschrieben", "ex": "Bitte unterschreiben Sie hier.", "ex_es": "Firme aquí, por favor." },
+    { "de": "einziehen", "es": "instalarse (en un piso)", "cat": "Mudanza", "forms": "er zieht ein, ist eingezogen", "ex": "Wir ziehen am 1. Mai ein.", "ex_es": "Nos instalamos el 1 de mayo." },
+    { "de": "ausziehen", "es": "dejar un piso; desvestirse", "cat": "Mudanza", "forms": "er zieht aus, ist ausgezogen", "ex": "Mit 19 bin ich bei meinen Eltern ausgezogen.", "ex_es": "Con 19 me fui de casa de mis padres." },
+    { "de": "einrichten", "es": "amueblar, decorar", "cat": "Mudanza", "forms": "er richtet ein, hat eingerichtet", "ex": "Wir haben die Wohnung modern eingerichtet.", "ex_es": "Hemos decorado el piso de forma moderna." },
+    { "de": "streichen", "es": "pintar (paredes)", "cat": "Mudanza", "forms": "er streicht, hat gestrichen", "ex": "Wir streichen das Schlafzimmer blau.", "ex_es": "Pintamos el dormitorio de azul." },
+    { "de": "reparieren", "es": "arreglar, reparar", "cat": "Mudanza", "forms": "er repariert, hat repariert", "ex": "Der Hausmeister repariert die Heizung.", "ex_es": "El conserje arregla la calefacción." },
+    { "de": "der Hausmeister / die Hausmeisterin", "pl": "die Hausmeister / die Hausmeisterinnen", "es": "el/la conserje", "cat": "Comunidad", "ex": "Rufen Sie bitte den Hausmeister an.", "ex_es": "Llame al conserje, por favor." },
+    { "de": "die Hausordnung", "pl": "die Hausordnungen", "es": "las normas de la comunidad", "cat": "Comunidad", "ex": "Die Hausordnung hängt im Flur.", "ex_es": "Las normas están colgadas en el pasillo." },
+    { "de": "die Nachtruhe", "es": "el horario de silencio nocturno", "cat": "Comunidad", "ex": "Ab 22 Uhr ist Nachtruhe.", "ex_es": "A partir de las 22 h hay que guardar silencio." },
+    { "de": "der Müll", "es": "la basura", "cat": "Comunidad", "ex": "Bitte bring den Müll runter.", "ex_es": "Baja la basura, por favor." },
+    { "de": "trennen", "es": "separar", "cat": "Comunidad", "forms": "er trennt, hat getrennt", "ex": "In der Schweiz trennt man den Müll.", "ex_es": "En Suiza se separa la basura." },
+    { "de": "die Waschküche", "pl": "die Waschküchen", "es": "la lavandería (de la comunidad)", "cat": "Comunidad", "ex": "Die Waschküche ist im Keller.", "ex_es": "La lavandería está en el sótano." },
+    { "de": "die Heizung", "pl": "die Heizungen", "es": "la calefacción", "cat": "Comunidad", "ex": "Die Heizung funktioniert nicht.", "ex_es": "La calefacción no funciona." },
+    { "de": "das Paket", "pl": "die Pakete", "es": "el paquete", "cat": "Comunidad", "ex": "Können Sie mein Paket annehmen?", "ex_es": "¿Puede recoger mi paquete?" },
+    { "de": "die Wand", "pl": "die Wände", "es": "la pared", "cat": "Casa", "ex": "Das Bild hängt an der Wand.", "ex_es": "El cuadro está colgado en la pared." },
+    { "de": "die Decke", "pl": "die Decken", "es": "el techo; la manta", "cat": "Casa", "ex": "Die Lampe hängt an der Decke.", "ex_es": "La lámpara cuelga del techo." },
+    { "de": "der Boden", "pl": "die Böden", "es": "el suelo", "cat": "Casa", "ex": "Der Teppich liegt auf dem Boden.", "ex_es": "La alfombra está en el suelo." },
+    { "de": "das Fenster", "pl": "die Fenster", "es": "la ventana", "cat": "Casa", "ex": "Stell die Pflanze ans Fenster!", "ex_es": "¡Pon la planta junto a la ventana!" },
+    { "de": "die Tür", "pl": "die Türen", "es": "la puerta", "cat": "Casa", "ex": "Der Schrank steht hinter der Tür.", "ex_es": "El armario está detrás de la puerta." },
+    { "de": "der Spiegel", "pl": "die Spiegel", "es": "el espejo", "cat": "Casa", "ex": "Der Spiegel hängt im Bad.", "ex_es": "El espejo está en el baño." },
+    { "de": "das Bild", "pl": "die Bilder", "es": "el cuadro, la imagen", "cat": "Casa", "ex": "Ich hänge das Bild über das Sofa.", "ex_es": "Cuelgo el cuadro encima del sofá." },
+    { "de": "die Pflanze", "pl": "die Pflanzen", "es": "la planta", "cat": "Casa", "ex": "Die Pflanzen stehen auf dem Balkon.", "ex_es": "Las plantas están en el balcón." },
+    { "de": "das Kissen", "pl": "die Kissen", "es": "el cojín, la almohada", "cat": "Casa", "ex": "Die Kissen liegen auf dem Sofa.", "ex_es": "Los cojines están en el sofá." },
+    { "de": "die Schublade", "pl": "die Schubladen", "es": "el cajón", "cat": "Casa", "ex": "Der Schlüssel liegt in der Schublade.", "ex_es": "La llave está en el cajón." },
+    { "de": "der Schreibtisch", "pl": "die Schreibtische", "es": "el escritorio", "cat": "Casa", "ex": "Der Schreibtisch steht am Fenster.", "ex_es": "El escritorio está junto a la ventana." },
+    { "de": "stellen", "es": "poner (de pie)", "cat": "Verbos de posición", "forms": "er stellt, hat gestellt", "ex": "Ich stelle die Flasche in den Kühlschrank.", "ex_es": "Meto la botella en la nevera." },
+    { "de": "stehen", "es": "estar (de pie)", "cat": "Verbos de posición", "forms": "er steht, hat gestanden", "ex": "Die Flasche steht im Kühlschrank.", "ex_es": "La botella está en la nevera." },
+    { "de": "legen", "es": "poner (tumbado)", "cat": "Verbos de posición", "forms": "er legt, hat gelegt", "ex": "Leg das Handy auf den Tisch.", "ex_es": "Deja el móvil en la mesa." },
+    { "de": "liegen", "es": "estar (tumbado)", "cat": "Verbos de posición", "forms": "er liegt, hat gelegen", "ex": "Das Handy liegt auf dem Tisch.", "ex_es": "El móvil está en la mesa." },
+    { "de": "hängen", "es": "colgar / estar colgado", "cat": "Verbos de posición", "forms": "er hängt, hat gehängt / hat gehangen", "ex": "Die Jacke hängt an der Tür.", "ex_es": "La chaqueta está colgada en la puerta." },
+    { "de": "sich setzen / sitzen", "es": "sentarse / estar sentado", "cat": "Verbos de posición", "forms": "er setzt sich / er sitzt, hat gesessen", "ex": "Setz dich! – Ich sitze schon.", "ex_es": "¡Siéntate! – Ya estoy sentado." },
+    { "de": "unter", "es": "debajo de", "cat": "Preposiciones", "ex": "Die Katze schläft unter dem Bett.", "ex_es": "El gato duerme debajo de la cama." },
+    { "de": "über", "es": "encima de (sin tocar)", "cat": "Preposiciones", "ex": "Die Lampe hängt über dem Tisch.", "ex_es": "La lámpara cuelga encima de la mesa." },
+    { "de": "hinter", "es": "detrás de", "cat": "Preposiciones", "ex": "Der Garten ist hinter dem Haus.", "ex_es": "El jardín está detrás de la casa." },
+    { "de": "vor", "es": "delante de", "cat": "Preposiciones", "ex": "Das Auto steht vor dem Haus.", "ex_es": "El coche está delante de la casa." },
+    { "de": "zwischen", "es": "entre", "cat": "Preposiciones", "ex": "Das Regal steht zwischen den Fenstern.", "ex_es": "La estantería está entre las ventanas." },
+    { "de": "an", "es": "junto a, en (superficie vertical)", "cat": "Preposiciones", "ex": "Das Bild hängt an der Wand.", "ex_es": "El cuadro está en la pared." },
+    { "de": "auf", "es": "sobre, encima de (tocando)", "cat": "Preposiciones", "ex": "Die Vase steht auf dem Tisch.", "ex_es": "El jarrón está sobre la mesa." }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Vivienda y mudanza",
+      "instructions": "Relaciona.",
+      "pairs": [
+        ["der Vermieter", "el casero"],
+        ["die Kaution", "la fianza"],
+        ["einziehen", "instalarse en un piso"],
+        ["die Hausordnung", "las normas de la comunidad"],
+        ["die Schublade", "el cajón"],
+        ["die Wand", "la pared"],
+        ["streichen", "pintar paredes"],
+        ["die Heizung", "la calefacción"]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿wo? o ¿wohin?",
+      "instructions": "Elige el artículo correcto. Pregúntate: ¿dónde está (dativo) o adónde va (acusativo)?",
+      "items": [
+        { "q": "Das Buch liegt auf ___ Tisch.", "options": ["dem", "den"], "answer": 0 },
+        { "q": "Ich lege das Buch auf ___ Tisch.", "options": ["dem", "den"], "answer": 1 },
+        { "q": "Wir gehen in ___ Küche.", "options": ["der", "die"], "answer": 1 },
+        { "q": "Wir sind in ___ Küche.", "options": ["der", "die"], "answer": 0 },
+        { "q": "Das Bild hängt an ___ Wand.", "options": ["der", "die"], "answer": 0 },
+        { "q": "Häng das Bild an ___ Wand!", "options": ["der", "die"], "answer": 1 },
+        { "q": "Die Katze springt auf ___ Sofa.", "options": ["dem", "das"], "answer": 1 },
+        { "q": "Die Katze schläft auf ___ Sofa.", "options": ["dem", "das"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "im, ins, am, ans",
+      "instructions": "Completa con im, ins, am o ans.",
+      "items": [
+        { "text": "Ich bin [[im]] Bad. (wo?)" },
+        { "text": "Ich gehe [[ins]] Bad. (wohin?)" },
+        { "text": "Der Schreibtisch steht [[am]] Fenster. (wo?)" },
+        { "text": "Stell den Schreibtisch [[ans]] Fenster! (wohin?)" },
+        { "text": "Das Fahrrad steht [[im]] Keller. (wo?)" },
+        { "text": "Bring das Fahrrad bitte [[ins]] Haus. (wohin?)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "stellen, legen, hängen…",
+      "instructions": "Elige el verbo correcto.",
+      "items": [
+        { "q": "Ich ___ die Flasche in den Kühlschrank.", "options": ["stelle", "stehe", "liege"], "answer": 0 },
+        { "q": "Die Flasche ___ im Kühlschrank.", "options": ["stellt", "steht", "legt"], "answer": 1 },
+        { "q": "Ich ___ den Schlüssel in die Schublade.", "options": ["lege", "liege", "stehe"], "answer": 0 },
+        { "q": "Der Schlüssel ___ in der Schublade.", "options": ["legt", "liegt", "stellt"], "answer": 1 },
+        { "q": "Die Jacke ___ an der Tür.", "options": ["hängt", "legt", "stellt"], "answer": 0 },
+        { "q": "Wir ___ uns auf die Bank.", "options": ["sitzen", "setzen", "stehen"], "answer": 1 },
+        { "q": "Der Teppich ___ vor dem Sofa.", "options": ["liegt", "steht", "hängt"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "Dativo o acusativo",
+      "instructions": "Completa con el artículo (dem, der, den, das, die).",
+      "items": [
+        { "text": "Die Lampe steht neben [[dem]] Sofa. (das Sofa)" },
+        { "text": "Ich stelle die Lampe neben [[das]] Sofa. (das Sofa)" },
+        { "text": "Der Teppich liegt unter [[dem]] Tisch. (der Tisch)" },
+        { "text": "Leg den Teppich unter [[den]] Tisch! (der Tisch)" },
+        { "text": "Das Regal steht zwischen [[den]] Fenstern. (die Fenster, plural)" },
+        { "text": "Der Spiegel hängt über [[der]] Kommode. (die Kommode)" },
+        { "text": "Das Auto steht hinter [[dem]] Haus. (das Haus)" },
+        { "text": "Fahr das Auto hinter [[das]] Haus! (das Haus)" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "¿Dónde lo pongo?",
+      "instructions": "Ordena la frase.",
+      "items": [
+        { "words": ["Ich", "hänge", "das", "Bild", "an", "die", "Wand", "."], "answers": ["Ich hänge das Bild an die Wand."] },
+        { "words": ["Das", "Bild", "hängt", "an", "der", "Wand", "."], "answers": ["Das Bild hängt an der Wand."] },
+        { "words": ["Wohin", "stellen", "wir", "das", "Sofa", "?"], "answers": ["Wohin stellen wir das Sofa?"] },
+        { "words": ["Der", "Schlüssel", "liegt", "in", "der", "Schublade", "."], "answers": ["Der Schlüssel liegt in der Schublade."] },
+        { "words": ["Leg", "das", "Handy", "auf", "den", "Tisch", "!"], "answers": ["Leg das Handy auf den Tisch!"] },
+        { "words": ["Wann", "kann", "ich", "die", "Wohnung", "besichtigen", "?"], "answers": ["Wann kann ich die Wohnung besichtigen?"] }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "La mudanza",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            { "v": "m1", "t": "Wohin stellen wir das Sofa?" },
+            { "v": "f1", "t": "Vor das Fenster, dann haben wir Licht zum Lesen." }
+          ],
+          "q": "¿Dónde ponen el sofá?", "options": ["Delante de la ventana", "Junto a la puerta", "Detrás de la mesa"], "answer": 0
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Wo sind die Schlüssel für den Keller?" },
+            { "v": "m2", "t": "Sie hängen neben der Tür, am Haken." }
+          ],
+          "q": "¿Dónde están las llaves?", "options": ["En el cajón", "Colgadas junto a la puerta", "En el sótano"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Wie hoch ist die Miete?" },
+            { "v": "f1", "t": "Tausendvierhundert Franken, plus zweihundert Franken Nebenkosten. Die Kaution sind drei Monatsmieten." }
+          ],
+          "q": "¿Cuánto son los gastos?", "options": ["1400 francos", "200 francos", "3 meses"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "f2", "t": "Entschuldigung, wo ist die Waschküche?" },
+            { "v": "m2", "t": "Im Keller, links neben dem Fahrradraum. Ihr Waschtag ist der Donnerstag." }
+          ],
+          "q": "¿Qué día puede lavar la mujer?", "options": ["Martes", "Jueves", "Sábado"], "answer": 1
+        },
+        {
+          "audio": [
+            { "v": "m1", "t": "Wo ist die Katze schon wieder?" },
+            { "v": "f1", "t": "Sie liegt auf dem Schrank im Schlafzimmer. Da schläft sie am liebsten." }
+          ],
+          "q": "¿Dónde está el gato?", "options": ["Debajo de la cama", "Encima del armario", "En el salón"], "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Das Bild hängt an der Wand." }], "answers": ["Das Bild hängt an der Wand."] },
+        { "audio": [{ "v": "m1", "t": "Ich stelle die Lampe neben das Bett." }], "answers": ["Ich stelle die Lampe neben das Bett."] },
+        { "audio": [{ "v": "f2", "t": "Wir ziehen am Samstag ein." }], "answers": ["Wir ziehen am Samstag ein."] },
+        { "audio": [{ "v": "m2", "t": "Die Heizung funktioniert nicht." }], "answers": ["Die Heizung funktioniert nicht."] },
+        { "audio": [{ "v": "f1", "t": "Der Teppich liegt unter dem Tisch." }], "answers": ["Der Teppich liegt unter dem Tisch."] }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "gap",
+      "title": "Una nota de la Hausordnung",
+      "instructions": "Completa el aviso con las palabras: Nachtruhe, Müll, Keller, Waschküche, Flur.",
+      "items": [
+        { "text": "Von 22 bis 7 Uhr ist [[Nachtruhe]]." },
+        { "text": "Bitte trennen Sie den [[Müll]]: Papier, Glas und Plastik." },
+        { "text": "Fahrräder gehören in den [[Keller]]." },
+        { "text": "Im [[Flur]] dürfen keine Schuhe stehen." },
+        { "text": "Die [[Waschküche]] können Sie nach Plan benutzen." }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "El libro está sobre la mesa.", "answers": ["Das Buch liegt auf dem Tisch."] },
+        { "prompt": "Pongo la botella en la nevera.", "answers": ["Ich stelle die Flasche in den Kühlschrank."] },
+        { "prompt": "Cuelgo el cuadro en la pared.", "answers": ["Ich hänge das Bild an die Wand."] },
+        { "prompt": "Voy a la cocina.", "answers": ["Ich gehe in die Küche."] },
+        { "prompt": "Estoy en la cocina.", "answers": ["Ich bin in der Küche."] },
+        { "prompt": "¿Cuándo puedo ver el piso?", "answers": ["Wann kann ich die Wohnung besichtigen?", "Wann kann ich die Wohnung sehen?"] },
+        { "prompt": "Nos instalamos el sábado.", "answers": ["Wir ziehen am Samstag ein.", "Am Samstag ziehen wir ein."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Wohnen in der Stadt: Immer mehr junge Leute leben in WGs",
+          "text": "In Zürich, Berlin oder Wien sind Wohnungen sehr teuer. Deshalb wohnen immer mehr junge Leute in einer Wohngemeinschaft (WG). Eine von ihnen ist Mira, 27. Sie teilt eine Fünfzimmerwohnung mit vier Leuten. „Allein könnte ich mir keine Wohnung im Zentrum leisten“, sagt sie. Ihr Zimmer kostet 850 Franken im Monat. Küche, Bad und Wohnzimmer benutzen alle zusammen. Es gibt einen Putzplan an der Kühlschranktür: Jede Woche ist eine andere Person für die Küche verantwortlich. Streit gibt es selten, nur manchmal wegen des Abwaschs. Am Sonntag kochen alle zusammen. „Für mich ist die WG wie eine kleine Familie“, sagt Mira. Aber nicht alle finden das gut: Ein Drittel der jungen Leute möchte lieber allein wohnen, wenn sie genug Geld haben.",
+          "questions": [
+            { "q": "Warum wohnen viele junge Leute in WGs?", "options": ["Die Wohnungen sind zu groß.", "Die Mieten sind hoch.", "Sie möchten nicht arbeiten."], "answer": 1 },
+            { "q": "Mira wohnt …", "options": ["mit vier anderen Personen zusammen.", "allein in fünf Zimmern.", "bei ihrer Familie."], "answer": 0 },
+            { "q": "Wo hängt der Putzplan?", "options": ["im Bad", "an der Kühlschranktür", "im Wohnzimmer"], "answer": 1 },
+            { "q": "Worüber streiten die Mitbewohner manchmal?", "options": ["über die Miete", "über das Geschirr", "über die Musik"], "answer": 1 },
+            { "q": "Was möchte ein Drittel der jungen Leute?", "options": ["in einer WG leben", "allein wohnen", "bei den Eltern bleiben"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Ärger im Treppenhaus",
+          "text": "Schuhe, Kinderwagen, Fahrräder: In vielen Mehrfamilienhäusern steht im Treppenhaus alles Mögliche. Das ist oft verboten. „Das Treppenhaus ist ein Fluchtweg“, erklärt Peter Gerber vom Mieterverband. „Bei einem Feuer müssen alle schnell hinaus können.“ Fahrräder gehören deshalb in den Keller oder in den Fahrradraum. Bei Kinderwagen ist es anders: Wenn es keinen anderen Platz gibt, dürfen Eltern ihn meistens im Erdgeschoss abstellen. Und die Schuhe vor der Tür? „Ein Paar Schuhe auf der Fußmatte ist normalerweise kein Problem“, sagt Gerber. „Aber ein ganzes Schuhregal im Flur – das geht zu weit.“ Sein Tipp: Erst mit den Nachbarn sprechen, dann mit dem Vermieter.",
+          "questions": [
+            { "q": "Warum darf im Treppenhaus nicht viel stehen?", "options": ["Es ist zu dunkel.", "Man muss bei Feuer schnell hinaus.", "Der Hausmeister putzt dort."], "answer": 1 },
+            { "q": "Wohin gehören Fahrräder?", "options": ["in den Keller", "ins Treppenhaus", "in die Wohnung"], "answer": 0 },
+            { "q": "Kinderwagen …", "options": ["sind immer verboten.", "dürfen oft im Erdgeschoss stehen.", "müssen in den Keller."], "answer": 1 },
+            { "q": "Ein Paar Schuhe vor der Tür ist …", "options": ["meistens kein Problem.", "immer verboten.", "nur im Winter erlaubt."], "answer": 0 },
+            { "q": "Was soll man bei Problemen zuerst tun?", "options": ["den Vermieter anrufen", "mit den Nachbarn sprechen", "den Mieterverband fragen"], "answer": 1 }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Möbelhaus Wohnwelt – Wegweiser",
+          "text": "Erdgeschoss: Küchen · Esszimmer · Kasse · Lieferservice\n1. Stock: Wohnzimmer (Sofas, Sessel, Regale) · Teppiche · Lampen\n2. Stock: Schlafzimmer · Betten und Matratzen · Kinderzimmer\n3. Stock: Büromöbel · Badezimmer · Spiegel\n4. Stock: Restaurant · Spielparadies für Kinder\nUntergeschoss: Pflanzen · Dekoration · Bilder und Rahmen",
+          "questions": [
+            { "q": "Sie brauchen ein neues Bett.", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": 1 },
+            { "q": "Sie suchen einen Schreibtisch für Ihr Arbeitszimmer.", "options": ["Erdgeschoss", "2. Stock", "3. Stock"], "answer": 2 },
+            { "q": "Sie möchten Ihre neuen Möbel nach Hause bringen lassen.", "options": ["Erdgeschoss", "1. Stock", "4. Stock"], "answer": 0 },
+            { "q": "Sie möchten einen Rahmen für ein Foto kaufen.", "options": ["Untergeschoss", "1. Stock", "3. Stock"], "answer": 0 },
+            { "q": "Sie suchen eine Lampe für das Wohnzimmer.", "options": ["Erdgeschoss", "1. Stock", "Untergeschoss"], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Bürgerbüro der Stadt – Wer hilft Ihnen?",
+          "text": "Zimmer 101: Anmeldung und Abmeldung der Wohnung · Adressänderung\nZimmer 102: Pässe und Personalausweise\nZimmer 103: Führerscheine · Autos anmelden\nZimmer 110: Parkausweise für Anwohner\nZimmer 201: Wohngeld und Hilfe bei der Miete\nZimmer 202: Müllabfuhr · Sperrmüll (alte Möbel abholen lassen)",
+          "questions": [
+            { "q": "Sie sind umgezogen und müssen Ihre neue Adresse melden.", "options": ["Zimmer 101", "Zimmer 102", "Zimmer 201"], "answer": 0 },
+            { "q": "Ihr altes Sofa soll abgeholt werden.", "options": ["Zimmer 103", "Zimmer 201", "Zimmer 202"], "answer": 2 },
+            { "q": "Sie brauchen eine Erlaubnis zum Parken vor Ihrem Haus.", "options": ["Zimmer 103", "Zimmer 110", "Zimmer 202"], "answer": 1 },
+            { "q": "Sie haben wenig Geld und brauchen Hilfe für die Miete.", "options": ["Zimmer 101", "Zimmer 201", "Zimmer 110"], "answer": 1 },
+            { "q": "Ihr Pass ist abgelaufen.", "options": ["Zimmer 101", "Zimmer 102", "Zimmer 103"], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "title": "E-Mail",
+          "text": "Liebe Frau Kaufmann,\n\nich bin seit zwei Wochen Ihre neue Nachbarin im zweiten Stock. Leider habe ich ein Problem: Am Samstag kommt mein neues Sofa, zwischen 8 und 12 Uhr, aber ich muss an diesem Vormittag arbeiten. Könnten Sie die Lieferanten in meine Wohnung lassen? Der Hausmeister hat mir gesagt, dass Sie einen Schlüssel für Notfälle haben. Das Sofa soll ins Wohnzimmer, an die Wand gegenüber vom Fenster. Die Firma hat schon alles bezahlt bekommen. Als Dankeschön möchte ich Sie am Sonntag zum Kaffee einladen – ich backe einen Apfelkuchen!\n\nVielen Dank und herzliche Grüße\nSofia Marques",
+          "questions": [
+            { "q": "Sofia wohnt …", "options": ["schon lange im Haus.", "seit zwei Wochen im Haus.", "im Erdgeschoss."], "answer": 1 },
+            { "q": "Was ist das Problem?", "options": ["Das Sofa ist kaputt.", "Sofia ist am Samstag nicht zu Hause.", "Die Lieferung ist zu teuer."], "answer": 1 },
+            { "q": "Frau Kaufmann …", "options": ["hat einen Schlüssel von Sofias Wohnung.", "soll das Sofa bezahlen.", "arbeitet am Samstag."], "answer": 0 },
+            { "q": "Wohin soll das Sofa?", "options": ["ins Schlafzimmer", "vor das Fenster", "an die Wand gegenüber vom Fenster"], "answer": 2 },
+            { "q": "Was möchte Sofia am Sonntag machen?", "options": ["Frau Kaufmann einladen", "einen Kuchen kaufen", "das Sofa aufbauen"], "answer": 0 }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Hallo Jonas,\n\nendlich wohne ich in meiner eigenen Wohnung! Der Umzug war chaotisch: Der Lastwagen ist zu spät gekommen und wir mussten alles ohne Aufzug in den vierten Stock tragen. Aber jetzt ist (fast) alles fertig. Das Wohnzimmer habe ich gelb gestrichen, das sieht super aus. Mein Bett steht direkt unter dem Fenster, so sehe ich morgens die Berge. Nur in der Küche fehlt noch ein Tisch – hast du nicht einen alten Tisch im Keller? Nächsten Samstag mache ich eine Einweihungsparty. Kommst du? Bring gern deine Freundin mit!\n\nLiebe Grüße\nTimo",
+          "questions": [
+            { "q": "Was war beim Umzug ein Problem?", "options": ["Der Lastwagen war zu klein.", "Es gab keinen Aufzug.", "Timo war krank."], "answer": 1 },
+            { "q": "Welche Farbe hat das Wohnzimmer jetzt?", "options": ["weiß", "gelb", "blau"], "answer": 1 },
+            { "q": "Wo steht Timos Bett?", "options": ["unter dem Fenster", "neben der Tür", "in der Küche"], "answer": 0 },
+            { "q": "Was braucht Timo noch?", "options": ["einen Küchentisch", "ein Bett", "einen Kühlschrank"], "answer": 0 },
+            { "q": "Warum schreibt Timo?", "options": ["Er braucht Hilfe beim Umzug.", "Er lädt Jonas zu einer Party ein.", "Er sucht eine Wohnung."], "answer": 1 }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "ads": [
+            { "key": "a", "text": "Möblierte 1-Zimmer-Wohnung im Zentrum, ideal für Studenten, ab sofort, 980 Fr. warm." },
+            { "key": "b", "text": "Umzugshilfe: Zwei starke Männer mit Lieferwagen, 60 Fr. pro Stunde, auch am Wochenende." },
+            { "key": "c", "text": "Familienwohnung, 4,5 Zimmer, Garten, Spielplatz im Hof, Nähe Schule, 2600 Fr." },
+            { "key": "d", "text": "Malerarbeiten: Wir streichen Ihre Wohnung schnell und sauber. Gratis-Offerte!" },
+            { "key": "e", "text": "Zu verschenken: Kühlschrank und Waschmaschine, funktionieren gut, nur abholen." },
+            { "key": "f", "text": "WG-Zimmer frei: nette Dreier-WG sucht Mitbewohnerin, Haustiere willkommen." }
+          ],
+          "items": [
+            { "situation": "Clara möchte nicht allein wohnen und hat eine Katze.", "answer": "f" },
+            { "situation": "Familie Weber hat zwei kleine Kinder und sucht eine größere Wohnung.", "answer": "c" },
+            { "situation": "Ali zieht am Samstag um und hat kein Auto.", "answer": "b" },
+            { "situation": "Frau Huber möchte ihre Wohnung neu streichen lassen.", "answer": "d" },
+            { "situation": "Peter sucht ein günstiges Sofa.", "answer": "x" }
+          ]
+        },
+        {
+          "ads": [
+            { "key": "a", "text": "Schlüsseldienst 24 Stunden: Tür zu? Wir kommen in 30 Minuten!" },
+            { "key": "b", "text": "Reinigungsfirma Blitzblank: Endreinigung beim Auszug mit Abnahmegarantie." },
+            { "key": "c", "text": "Garage zu vermieten, Nähe Bahnhof, 150 Fr. pro Monat." },
+            { "key": "d", "text": "Mieterverband: Beratung bei Problemen mit dem Vermieter, Di und Do 17–19 Uhr." },
+            { "key": "e", "text": "Lagerraum mieten: Platz für Möbel und Kisten, ab 50 Fr. pro Monat." },
+            { "key": "f", "text": "Elektriker Strom & Co.: Lampen montieren, Reparaturen, schnell und günstig." }
+          ],
+          "items": [
+            { "situation": "Ivan hat seinen Schlüssel in der Wohnung vergessen.", "answer": "a" },
+            { "situation": "Maria zieht aus und die Wohnung muss sauber sein.", "answer": "b" },
+            { "situation": "Herr Stein hat Streit mit seinem Vermieter wegen der Kaution.", "answer": "d" },
+            { "situation": "Lena möchte eine Lampe an die Decke hängen, aber sie kann das nicht.", "answer": "f" },
+            { "situation": "Familie Rossi sucht ein Haus mit Garten.", "answer": "x" }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "q": "Wann kommt der Techniker?", "options": ["heute Nachmittag", "morgen Vormittag", "am Freitag"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Guten Tag, Frau Ruiz, hier ist die Hausverwaltung. Der Techniker repariert Ihre Heizung morgen Vormittag, zwischen acht und zwölf Uhr. Bitte sind Sie dann zu Hause. Danke!" }]
+        },
+        {
+          "q": "Was soll Anna mitbringen?", "options": ["Kisten", "Werkzeug", "Essen"], "answer": 0,
+          "audio": [{ "v": "f2", "t": "Hallo Anna, hier ist Paula. Danke, dass du mir am Samstag beim Umzug hilfst! Kannst du noch ein paar Kisten mitbringen? Ich habe zu wenig. Für Pizza und Getränke sorge ich. Bis Samstag!" }]
+        },
+        {
+          "q": "Wo findet man Sofas?", "options": ["im Erdgeschoss", "im ersten Stock", "im zweiten Stock"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Liebe Kunden, heute im Angebot: alle Sofas und Sessel dreißig Prozent billiger! Sie finden sie im ersten Stock, gleich neben den Teppichen." }]
+        },
+        {
+          "q": "Was ist am Montag?", "options": ["Die Wasserleitung wird repariert.", "Der Aufzug funktioniert nicht.", "Die Müllabfuhr kommt nicht."], "answer": 0,
+          "audio": [{ "v": "m2", "t": "Liebe Bewohnerinnen und Bewohner, am Montag gibt es von neun bis fünfzehn Uhr kein Wasser im Haus. Wir reparieren die Wasserleitung. Vielen Dank für Ihr Verständnis." }]
+        },
+        {
+          "q": "Wohin soll Herr Kraus das Paket bringen?", "options": ["in den Keller", "zu Frau Weber im dritten Stock", "zum Hausmeister"], "answer": 1,
+          "audio": [{ "v": "f2", "t": "Hallo, Herr Kraus, hier ist Weber aus dem dritten Stock. Sie haben ein Paket für mich angenommen, danke! Können Sie es heute Abend zu mir hochbringen? Ich bin ab sieben zu Hause." }]
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie hören ein Gespräch zwischen Leo und Sara. Sie ziehen in eine neue Wohnung. Wohin kommen die Möbel?",
+          "options": ["ins Schlafzimmer", "in die Küche", "ins Wohnzimmer", "in den Keller", "auf den Balkon", "ins Arbeitszimmer", "in den Flur", "ins Bad"],
+          "audio": [
+            { "v": "m1", "t": "So, Sara, der Lastwagen ist da. Was machen wir mit dem alten Sofa? Ins Wohnzimmer?" },
+            { "v": "f1", "t": "Nein, im Wohnzimmer steht das neue Sofa. Das alte kommt in dein Arbeitszimmer." },
+            { "v": "m1", "t": "Gut. Und der große Spiegel? Ins Bad?" },
+            { "v": "f1", "t": "Der ist zu groß für das Bad. Häng ihn in den Flur, neben die Tür." },
+            { "v": "m1", "t": "Und die Pflanzen?" },
+            { "v": "f1", "t": "Die stellen wir auf den Balkon, da haben sie viel Sonne." },
+            { "v": "m1", "t": "Der kleine Tisch aus Holz?" },
+            { "v": "f1", "t": "Der kommt in die Küche. Und die Kisten mit den Winterkleidern bringen wir in den Keller." }
+          ],
+          "items": [
+            { "q": "das alte Sofa", "answer": 5 },
+            { "q": "der Spiegel", "answer": 6 },
+            { "q": "die Pflanzen", "answer": 4 },
+            { "q": "der kleine Tisch", "answer": 1 },
+            { "q": "die Kisten mit Winterkleidern", "answer": 3 }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Gespräch zwischen Frau Lang und dem Hausmeister. Wann ist im Haus was?",
+          "options": ["Müllabfuhr", "Waschtag von Frau Lang", "Treppenhaus putzen", "Hausversammlung", "Fenster werden geputzt", "kein Strom", "Gartenfest", "Heizung wird kontrolliert"],
+          "audio": [
+            { "v": "f2", "t": "Guten Tag, Herr Meier. Ich bin neu im Haus. Können Sie mir sagen, wie das hier funktioniert?" },
+            { "v": "m2", "t": "Gern, Frau Lang. Also, der Müll wird am Montag abgeholt. Stellen Sie ihn bitte am Sonntagabend vor das Haus." },
+            { "v": "f2", "t": "Und wann darf ich waschen?" },
+            { "v": "m2", "t": "Ihr Waschtag ist der Mittwoch. Am Dienstag wäscht Familie Huber." },
+            { "v": "f2", "t": "Muss ich auch das Treppenhaus putzen?" },
+            { "v": "m2", "t": "Ja, jede Wohnung einmal im Monat, immer am Samstag. Ach ja, und am Donnerstag kommt der Techniker und kontrolliert die Heizungen. Bitte lassen Sie ihn rein." },
+            { "v": "f2", "t": "Gibt es auch mal ein Treffen mit allen Nachbarn?" },
+            { "v": "m2", "t": "Ja, die Hausversammlung ist am Freitag um sieben im Gemeinschaftsraum. Kommen Sie doch, dann lernen Sie alle kennen." }
+          ],
+          "items": [
+            { "q": "Montag", "answer": 0 },
+            { "q": "Mittwoch", "answer": 1 },
+            { "q": "Donnerstag", "answer": 7 },
+            { "q": "Freitag", "answer": 3 },
+            { "q": "Samstag", "answer": 2 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "q": "Wo ist das Handy?", "options": ["auf dem Sofa", "in der Jacke", "unter dem Kissen"], "answer": 2,
+          "audio": [
+            { "v": "m1", "t": "Hast du mein Handy gesehen? Es liegt nicht auf dem Sofa." },
+            { "v": "f1", "t": "Doch, schau mal unter das Kissen. Da liegt es!" }
+          ]
+        },
+        {
+          "q": "Was kostet die Wohnung warm?", "options": ["1200 €", "1350 €", "1500 €"], "answer": 1,
+          "audio": [
+            { "v": "f2", "t": "Die Miete ist zwölfhundert Euro, oder?" },
+            { "v": "m2", "t": "Kalt, ja. Mit Nebenkosten sind es dreizehnhundertfünfzig Euro." }
+          ]
+        },
+        {
+          "q": "Wann ist die Besichtigung?", "options": ["Montag 17 Uhr", "Dienstag 17 Uhr", "Dienstag 18 Uhr"], "answer": 2,
+          "audio": [
+            { "v": "f1", "t": "Kann ich die Wohnung am Montag um siebzehn Uhr sehen?" },
+            { "v": "m1", "t": "Am Montag geht es leider nicht. Aber am Dienstag um achtzehn Uhr." },
+            { "v": "f1", "t": "Gut, Dienstag um sechs." }
+          ]
+        },
+        {
+          "q": "Warum ist der Nachbar unzufrieden?", "options": ["Die Musik ist zu laut.", "Das Fahrrad steht im Flur.", "Der Müll ist nicht getrennt."], "answer": 1,
+          "audio": [
+            { "v": "m2", "t": "Entschuldigung, gehört das Fahrrad im Flur Ihnen?" },
+            { "v": "f2", "t": "Ja, warum?" },
+            { "v": "m2", "t": "Fahrräder gehören in den Keller. Im Flur ist zu wenig Platz." }
+          ]
+        },
+        {
+          "q": "Wohin stellen sie den Schreibtisch?", "options": ["ans Fenster", "neben die Tür", "ins Schlafzimmer"], "answer": 0,
+          "audio": [
+            { "v": "m1", "t": "Stellen wir den Schreibtisch neben die Tür?" },
+            { "v": "f1", "t": "Lieber ans Fenster. Da ist mehr Licht zum Arbeiten." },
+            { "v": "m1", "t": "Okay, du hast recht." }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Sie hören ein Interview mit Herrn und Frau Graf. Sie wohnen in einem Mehrgenerationenhaus.",
+          "audio": [
+            { "v": "f1", "t": "Willkommen bei „Wohnen heute“. Bei mir sind Elisabeth und Karl Graf. Sie wohnen seit drei Jahren in einem Mehrgenerationenhaus. Was ist das genau?" },
+            { "v": "m2", "t": "In unserem Haus wohnen junge Familien, Studenten und ältere Leute wie wir. Jeder hat seine eigene Wohnung, aber es gibt auch einen großen Gemeinschaftsraum und einen Garten für alle." },
+            { "v": "f1", "t": "Warum sind Sie dort eingezogen?" },
+            { "v": "f2", "t": "Unser Haus auf dem Land war zu groß für uns, und unsere Kinder wohnen weit weg. Wir wollten nicht allein sein." },
+            { "v": "f1", "t": "Und wie ist das Zusammenleben?" },
+            { "v": "m2", "t": "Sehr schön. Ich helfe den Kindern nachmittags bei den Hausaufgaben. Und die Studenten tragen uns die Einkäufe in den dritten Stock." },
+            { "v": "f1", "t": "Gibt es auch Probleme?" },
+            { "v": "f2", "t": "Natürlich, manchmal ist es laut, vor allem am Wochenende. Aber dann sprechen wir in der Hausversammlung darüber. Das ist einmal im Monat." }
+          ],
+          "statements": [
+            { "s": "Herr und Frau Graf wohnen seit drei Jahren im Mehrgenerationenhaus.", "answer": true },
+            { "s": "Alle Bewohner teilen sich eine große Wohnung.", "answer": false },
+            { "s": "Das alte Haus war zu klein für sie.", "answer": false },
+            { "s": "Herr Graf hilft Kindern bei den Hausaufgaben.", "answer": true },
+            { "s": "Die Hausversammlung ist jede Woche.", "answer": false }
+          ]
+        },
+        {
+          "intro": "Sie hören ein Interview mit der Innenarchitektin Nora Steiner.",
+          "audio": [
+            { "v": "m1", "t": "Frau Steiner, viele Menschen haben eine kleine Wohnung. Haben Sie Tipps für sie?" },
+            { "v": "f2", "t": "Ja, viele! Das Wichtigste ist Licht. Stellen Sie keine großen Möbel vor das Fenster. Und helle Farben an den Wänden machen ein Zimmer größer." },
+            { "v": "m1", "t": "Und wohin mit all den Sachen?" },
+            { "v": "f2", "t": "Nutzen Sie den Platz unter dem Bett. Dort kann man viele Kisten verstecken. Und Regale bis zur Decke sind sehr praktisch." },
+            { "v": "m1", "t": "Was halten Sie von Spiegeln?" },
+            { "v": "f2", "t": "Spiegel sind super! Hängen Sie einen großen Spiegel gegenüber vom Fenster an die Wand. Dann ist der Raum viel heller." },
+            { "v": "m1", "t": "Und wo kaufen Sie selbst Ihre Möbel?" },
+            { "v": "f2", "t": "Ehrlich gesagt: oft auf dem Flohmarkt. Alte Möbel haben eine Geschichte, und sie sind billiger." }
+          ],
+          "statements": [
+            { "s": "Große Möbel soll man nicht vor das Fenster stellen.", "answer": true },
+            { "s": "Dunkle Farben machen ein Zimmer größer.", "answer": false },
+            { "s": "Unter dem Bett kann man Kisten aufbewahren.", "answer": true },
+            { "s": "Frau Steiner sagt: Hängen Sie den Spiegel neben das Fenster.", "answer": false },
+            { "s": "Frau Steiner kauft gern gebrauchte Möbel.", "answer": true }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie ziehen am Samstag um. Schreiben Sie Ihrem Freund Max eine SMS.",
+          "points": ["Bitten Sie Max um Hilfe.", "Wann und wo?", "Was gibt es danach?"],
+          "register": "informal (du)",
+          "model": "Hallo Max! Ich ziehe am Samstag um. Kannst du mir helfen? Wir fangen um 9 Uhr in der Bahnhofstraße 5 an. Danach gibt es Pizza und Bier für alle! LG José"
+        },
+        {
+          "task": "Ihre Nachbarin hat ein Paket für Sie angenommen. Schreiben Sie ihr eine SMS.",
+          "points": ["Danken Sie.", "Wann holen Sie das Paket ab?", "Bieten Sie Ihre Hilfe an."],
+          "register": "informal (du)",
+          "model": "Hallo Petra, vielen Dank für das Paket! Ich komme heute um 19 Uhr vorbei und hole es ab. Wenn du mal Hilfe brauchst, sag einfach Bescheid! Liebe Grüße, Laura"
+        }
+      ],
+      "t2": [
+        {
+          "task": "In Ihrer Wohnung funktioniert die Heizung nicht. Schreiben Sie Ihrem Vermieter, Herrn Bauer.",
+          "points": ["Was ist das Problem?", "Seit wann?", "Wann kann der Techniker kommen?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrter Herr Bauer,\n\nin meiner Wohnung funktioniert die Heizung nicht. Sie ist seit Montag kalt und es sind nur 15 Grad im Wohnzimmer. Könnte der Techniker bitte bald kommen? Ich bin jeden Tag ab 16 Uhr zu Hause.\n\nMit freundlichen Grüßen\nJosé López"
+        },
+        {
+          "task": "Sie haben eine Wohnungsanzeige gelesen. Schreiben Sie an die Hausverwaltung.",
+          "points": ["Stellen Sie sich kurz vor.", "Fragen Sie nach der Miete und den Nebenkosten.", "Sie möchten die Wohnung besichtigen: Wann?"],
+          "register": "formal (Sie)",
+          "model": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für die 2-Zimmer-Wohnung in der Seestraße. Ich bin 34 Jahre alt und arbeite als Ingenieurin in Basel. Wie hoch sind die Miete und die Nebenkosten? Ich möchte die Wohnung gern besichtigen, am besten abends nach 17 Uhr.\n\nMit freundlichen Grüßen\nLaura García"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        { "theme": "Wohnen", "word": "Zimmer", "question": "Wie viele Zimmer hat deine Wohnung?", "answer": "Drei Zimmer, eine Küche und ein Bad." },
+        { "theme": "Wohnen", "word": "Lieblingsort", "question": "Wo bist du am liebsten in deiner Wohnung?", "answer": "Auf dem Balkon, da ist es ruhig." },
+        { "theme": "Wohnen", "word": "Nachbarn", "question": "Wie sind deine Nachbarn?", "answer": "Sie sind sehr nett und ruhig." },
+        { "theme": "Wohnen", "word": "Umzug", "question": "Wann bist du zum letzten Mal umgezogen?", "answer": "Vor einem Jahr, nach Zürich." },
+        { "theme": "Wohnen", "word": "Miete", "question": "Ist die Miete in deiner Stadt teuer?", "answer": "Ja, sehr teuer, vor allem im Zentrum." },
+        { "theme": "Wohnen", "word": "Möbel", "question": "Wo kaufst du deine Möbel?", "answer": "Meistens im Möbelhaus, manchmal auf dem Flohmarkt." }
+      ],
+      "t2": [
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie wohnen Sie?",
+          "prompts": ["Wo?", "Wie groß?", "Mit wem?", "Was gefällt Ihnen (nicht)?"],
+          "model": [{ "v": "m1", "t": "Ich wohne in Zürich, in einem Altbau im Kreis sechs. Meine Wohnung hat zwei Zimmer, eine kleine Küche und ein Bad. Ich wohne zusammen mit meiner Partnerin. Mir gefällt der Balkon, dort frühstücken wir im Sommer. Was mir nicht gefällt: Die Miete ist sehr hoch und die Straße ist manchmal laut." }]
+        },
+        {
+          "theme": "Erzählen Sie über Ihr Leben",
+          "question": "Wie haben Sie als Kind gewohnt?",
+          "prompts": ["Haus / Wohnung?", "Eigenes Zimmer?", "Garten?", "Nachbarn?"],
+          "model": [{ "v": "f1", "t": "Als Kind habe ich in einem Haus am Stadtrand von Valencia gewohnt. Ich hatte kein eigenes Zimmer, ich musste es mit meiner Schwester teilen. Hinter dem Haus hatten wir einen kleinen Garten mit Orangenbäumen. Unsere Nachbarn waren wie eine Familie: Wir haben oft zusammen gegessen." }]
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen ein Regal für die neue Wohnung kaufen und aufbauen. Finden Sie einen Termin am Wochenende.",
+          "mine": ["Samstag 8–10 Uhr: Joggen", "Samstag 10–14 Uhr: frei", "Samstag 15 Uhr: Fußballspiel", "Sonntag Vormittag: Frühstück bei den Eltern", "Sonntag ab 14 Uhr: frei"],
+          "partner": ["Samstag Vormittag: Arbeit bis 12 Uhr", "Samstag 12–17 Uhr: frei", "Samstag Abend: Geburtstagsparty", "Sonntag 9–13 Uhr: frei", "Sonntag ab 15 Uhr: Kino"],
+          "model": [
+            { "v": "f1", "t": "Wann wollen wir das Regal kaufen? Am Samstagvormittag?" },
+            { "v": "m1", "t": "Da arbeite ich bis zwölf Uhr. Aber danach habe ich Zeit." },
+            { "v": "f1", "t": "Super, ich habe bis zwei Uhr frei. Dann treffen wir uns um halb eins am Möbelhaus." },
+            { "v": "m1", "t": "Und wann bauen wir es auf? Am Sonntag?" },
+            { "v": "f1", "t": "Am Sonntag kann ich erst ab vierzehn Uhr." },
+            { "v": "m1", "t": "Ich gehe um drei ins Kino. Dann bauen wir es lieber am Samstag gleich nach dem Kaufen auf, bis zwei Uhr." },
+            { "v": "f1", "t": "Gute Idee, so machen wir es!" }
+          ]
+        },
+        {
+          "task": "Ein Nachbar hat Sie gebeten, beim Streichen seiner Wohnung zu helfen. Finden Sie zusammen mit Ihrem Partner / Ihrer Partnerin einen Termin.",
+          "mine": ["Montag: bis 18 Uhr Arbeit", "Dienstag: 19 Uhr Yoga", "Mittwoch: ab 17 Uhr frei", "Donnerstag: Abend frei", "Freitag: Essen mit Freunden"],
+          "partner": ["Montag: ab 18 Uhr frei", "Dienstag: frei", "Mittwoch: 18 Uhr Deutschkurs", "Donnerstag: ab 18 Uhr frei", "Freitag: frei"],
+          "model": [
+            { "v": "m2", "t": "Hast du am Montagabend Zeit?" },
+            { "v": "f2", "t": "Ich arbeite bis sechs. Danach bin ich müde. Wie wäre es am Mittwoch?" },
+            { "v": "m2", "t": "Mittwoch habe ich um sechs Deutschkurs. Geht Donnerstag?" },
+            { "v": "f2", "t": "Ja, Donnerstagabend habe ich frei." },
+            { "v": "m2", "t": "Ich auch, ab sechs. Dann treffen wir uns am Donnerstag um halb sieben bei unserem Nachbarn." }
+          ]
+        }
+      ]
+    }
+  }
+}
