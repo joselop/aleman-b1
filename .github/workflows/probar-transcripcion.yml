@@ -1,0 +1,20 @@
+name: Probar transcripción
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar dependencias
+        run: |
+          pip install edge-tts playwright
+          python -m playwright install --with-deps chromium
+      - name: Transcribir una frase de prueba
+        run: python scripts/tests/test_transcripcion.py

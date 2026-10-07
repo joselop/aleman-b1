@@ -135,7 +135,7 @@ getJSON("audio/manifest.json")
   .then((m) => (manifest = new Set(m.files || [])))
   .catch(() => {});
 
-window.__dsfs = { audioKey: (l) => audioKey(l) }; // útil para depurar
+window.__dsfs = { audioKey: (l) => audioKey(l), transcribe: (b, cb) => transcribe(b, cb) }; // útil para depurar y para las pruebas
 
 const settings = () => ({ rate: 0.9, ...store.get("settings", {}) });
 
@@ -726,15 +726,112 @@ async function buildExam(cur, lvlId, tid, mode) {
   return { modules, topicIds };
 }
 
-function recorder() {
+/* ------------------------------------------------------------------ transcripción (Whisper en el navegador) */
+// Se usa Transformers.js con un modelo Whisper. El audio no sale del navegador: el modelo se descarga
+// una vez desde Hugging Face y queda en la caché del navegador.
+const TRANSFORMERS_URL = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3";
+const ASR_MODELS = {
+  tiny: { id: "Xenova/whisper-tiny", label: "Rápido (~40 MB, menos preciso)" },
+  base: { id: "Xenova/whisper-base", label: "Equilibrado (~80 MB, recomendado)" },
+  small: { id: "Xenova/whisper-small", label: "Preciso (~250 MB, más lento)" },
+};
+const asrCache = {};
+function getASR(onProgress) {
+  const key = ASR_MODELS[settings().asr] ? settings().asr : "base";
+  if (!asrCache[key]) {
+    asrCache[key] = (async () => {
+      const T = await import(TRANSFORMERS_URL);
+      const files = {};
+      return T.pipeline("automatic-speech-recognition", ASR_MODELS[key].id, {
+        progress_callback: (p) => {
+          if (p.status === "progress" && p.total) {
+            files[p.file] = [p.loaded, p.total];
+            const [l, t] = Object.values(files).reduce((a, [x, y]) => [a[0] + x, a[1] + y], [0, 0]);
+            onProgress?.(`Descargando el modelo de transcripción (solo la primera vez)… ${Math.round((100 * l) / t)} %`);
+          }
+        },
+      });
+    })();
+    asrCache[key].catch(() => delete asrCache[key]);
+  }
+  return asrCache[key];
+}
+// Decodifica la grabación y la remuestrea a 16 kHz mono, que es lo que espera Whisper.
+async function blobTo16k(blob) {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  const ctx = new AC();
+  const decoded = await ctx.decodeAudioData(await blob.arrayBuffer());
+  ctx.close?.();
+  const off = new OfflineAudioContext(1, Math.ceil(decoded.duration * 16000), 16000);
+  const src = off.createBufferSource();
+  src.buffer = decoded;
+  src.connect(off.destination);
+  src.start();
+  return (await off.startRendering()).getChannelData(0);
+}
+async function transcribe(blob, onProgress) {
+  onProgress?.("Preparando la transcripción…");
+  const [asr, audio] = await Promise.all([getASR(onProgress), blobTo16k(blob)]);
+  onProgress?.("Transcribiendo…");
+  const out = await asr(audio, { language: "german", task: "transcribe", chunk_length_s: 30, stride_length_s: 5 });
+  return (out.text || "").trim();
+}
+
+function speakingPrompt(ctx, text) {
+  const lvl = ctx.lvl || { exam: "Goethe-Zertifikat", name: "" };
+  return `Eres examinador del ${lvl.exam}. Corrige la parte oral (Sprechen) de un estudiante hispanohablante de nivel ${lvl.name}.
+El texto es una transcripción automática (Whisper) de lo que dijo en voz alta: la puntuación y las mayúsculas no son suyas, y algunas palabras raras pueden ser fallos de reconocimiento o de pronunciación (si sospechas eso, coméntalo).
+
+Tarea:
+${ctx.task}
+
+Transcripción:
+"""
+${text || "(vacío)"}
+"""
+
+1. Valora la respuesta según los criterios del Goethe ${lvl.name} para Sprechen (cumplimiento de la tarea, fluidez y coherencia, vocabulario, corrección gramatical) y di si aprobaría.
+2. Lista cada error con su corrección y explica la regla en español en una línea.
+3. Dame una versión mejorada que pueda decir yo, manteniendo mi nivel, y 2–3 frases útiles para la próxima vez.`;
+}
+
+function recorder(ctx = {}) {
   const box = h("div", { class: "recorder" });
   if (!navigator.mediaDevices || !window.MediaRecorder) {
     box.append(h("p", { class: "muted small" }, "Tu navegador no permite grabar. Habla en voz alta igualmente."));
     return box;
   }
-  let rec = null, chunks = [];
+  let rec = null, chunks = [], blob = null;
   const btn = h("button", { class: "btn ghost", type: "button" }, "● Grabar");
   const player = h("audio", { controls: true, hidden: true });
+  const status = h("p", { class: "muted small", hidden: true });
+  const ta = h("textarea", { rows: 5, lang: "de", spellcheck: "false", hidden: true, placeholder: "Aquí aparecerá lo que has dicho. Puedes corregir fallos del reconocimiento." });
+  const copy = h("button", { class: "btn ghost", type: "button", hidden: true, onclick: (e) => {
+    const prompt = speakingPrompt(ctx, ta.value);
+    navigator.clipboard?.writeText(prompt).then(() => (e.target.textContent = "Copiado ✓ — pégalo en Claude"),
+      () => e.target.replaceWith(h("textarea", { rows: 8, readonly: true }, prompt)));
+  } }, "Copiar para corregir con Claude");
+  const tbtn = h("button", { class: "btn ghost", type: "button", hidden: true }, "✍ Transcribir a texto");
+  tbtn.onclick = async () => {
+    if (!blob) return;
+    tbtn.disabled = true;
+    status.hidden = false;
+    try {
+      const text = await transcribe(blob, (m) => (status.textContent = m));
+      ta.value = text;
+      ta.hidden = false;
+      copy.hidden = false;
+      copy.textContent = "Copiar para corregir con Claude";
+      status.textContent = text ? "Transcripción lista. Revísala y cópiala para que Claude la corrija." : "No se ha reconocido nada. Prueba a hablar más cerca del micrófono.";
+    } catch (err) {
+      console.error(err);
+      status.textContent = "No se pudo transcribir (hace falta conexión a internet la primera vez para descargar el modelo). Puedes escribir tú lo que dijiste aquí abajo.";
+      ta.hidden = false;
+      copy.hidden = false;
+    }
+    tbtn.disabled = false;
+    tbtn.textContent = "✍ Transcribir de nuevo";
+  };
   btn.onclick = async () => {
     if (rec && rec.state === "recording") { rec.stop(); return; }
     try {
@@ -744,10 +841,14 @@ function recorder() {
       rec.ondataavailable = (e) => chunks.push(e.data);
       rec.onstop = () => {
         stream.getTracks().forEach((t) => t.stop());
-        player.src = URL.createObjectURL(new Blob(chunks, { type: rec.mimeType }));
+        blob = new Blob(chunks, { type: rec.mimeType });
+        player.src = URL.createObjectURL(blob);
         player.hidden = false;
+        tbtn.hidden = false;
+        tbtn.textContent = "✍ Transcribir a texto";
         btn.textContent = "● Grabar de nuevo";
         btn.classList.remove("rec");
+        if (settings().autoTranscribe) tbtn.click();
       };
       rec.start();
       btn.textContent = "■ Parar";
@@ -756,7 +857,7 @@ function recorder() {
       box.append(h("p", { class: "muted small" }, "No se pudo acceder al micrófono."));
     }
   };
-  box.append(btn, player);
+  box.append(h("div", { class: "row" }, btn, tbtn), player, status, ta, copy);
   return box;
 }
 
@@ -883,10 +984,10 @@ async function viewExam(root, lvlId, tid, mode) {
             h("button", { class: "btn ghost", type: "button", onclick: (e) => copyForClaude(e.target, it, ta.value, lvl) }, "Copiar para corregir con Claude"),
           ] });
         } else if (teil.kind === "speak_intro") {
-          el.append(h("p", { lang: "de" }, "Stellen Sie sich vor:"), h("div", { class: "keywords", lang: "de" }, it.keywords.map((k) => h("span", { class: "kw" }, k))), h("p", { class: "muted small", lang: "de" }, it.extra), recorder());
+          el.append(h("p", { lang: "de" }, "Stellen Sie sich vor:"), h("div", { class: "keywords", lang: "de" }, it.keywords.map((k) => h("span", { class: "kw" }, k))), h("p", { class: "muted small", lang: "de" }, it.extra), recorder({ lvl, task: `Presentarse (Sprechen Teil 1). Palabras clave: ${it.keywords.join(", ")}. ${it.extra || ""}` }));
           selfEval.push({ module: "sprechen", el, weight: 1, checks: [...it.keywords.map((k) => `He dicho «${k}»`), "He deletreado mi nombre sin errores", "He hablado con frases completas (sujeto + verbo)"], extra: () => [h("div", { class: "model" }, h("strong", {}, "Modelo "), speakBtn(it.model), h("p", { lang: "de" }, it.model.map((l) => l.t).join(" ")))] });
         } else if (teil.kind === "speak_cards") {
-          el.append(h("div", { class: "cardword" }, h("small", {}, `Thema: ${it.theme}`), h("strong", { lang: "de" }, it.word)), h("p", { class: "muted small" }, "Haz una pregunta con esta palabra y contéstala tú mismo (o con tu pareja de estudio)."), recorder());
+          el.append(h("div", { class: "cardword" }, h("small", {}, `Thema: ${it.theme}`), h("strong", { lang: "de" }, it.word)), h("p", { class: "muted small" }, "Haz una pregunta con esta palabra y contéstala tú mismo (o con tu pareja de estudio)."), recorder({ lvl, task: `Tarjeta del Sprechen. Tema: ${it.theme}. Palabra: ${it.word}. El estudiante hace una pregunta con esa palabra y la contesta.` }));
           selfEval.push({ module: "sprechen", el, weight: 1, checks: ["Mi pregunta es correcta", "Mi respuesta es correcta"], extra: () => [h("div", { class: "model" }, speakBtn([{ v: "f2", t: it.question }, { v: "m1", t: it.answer }]), h("span", { lang: "de" }, `${it.question} – ${it.answer}`))] });
         } else if (teil.kind === "read_mc" || teil.kind === "listen_mc_multi") {
           // Un texto (o audio) con varias preguntas a/b/c
@@ -971,7 +1072,7 @@ async function viewExam(root, lvlId, tid, mode) {
           // A2/B1 Sprechen: hablar de tu vida a partir de una tarjeta con una pregunta y 4 palabras clave
           el.append(h("div", { class: "topiccard" }, h("small", {}, it.theme || ""), h("strong", { lang: "de" }, it.question),
             h("div", { class: "keywords", lang: "de" }, it.prompts.map((k) => h("span", { class: "kw" }, k)))),
-            h("p", { class: "muted small" }, "Habla 1–2 minutos contestando a la pregunta. Usa las cuatro palabras como guía."), recorder());
+            h("p", { class: "muted small" }, "Habla 1–2 minutos contestando a la pregunta. Usa las cuatro palabras como guía."), recorder({ lvl, task: `${it.theme || "Sprechen"}: «${it.question}». Debe hablar 1–2 minutos usando estos puntos: ${it.prompts.join(" / ")}.` }));
           selfEval.push({ module: "sprechen", el, weight: 1, checks: [...it.prompts.map((k) => `He hablado de «${k}»`), "He usado conectores (und, aber, weil, dann…)", "Casi todas las frases son correctas"],
             extra: () => [h("div", { class: "model" }, h("strong", {}, "Modelo "), speakBtn(it.model), h("p", { lang: "de" }, it.model.map((l) => l.t).join(" ")))] });
         } else if (teil.kind === "speak_plan") {
@@ -981,7 +1082,7 @@ async function viewExam(root, lvlId, tid, mode) {
             h("div", { class: "agendas" },
               h("div", { class: "agenda" }, h("strong", {}, "Tu agenda"), h("ul", { lang: "de" }, it.mine.map((x) => h("li", {}, x)))), partner),
             h("button", { class: "btn ghost", type: "button", onclick: (e) => { partner.hidden = !partner.hidden; e.target.textContent = partner.hidden ? "Ver la agenda de tu pareja" : "Ocultar la agenda de tu pareja"; } }, "Ver la agenda de tu pareja"),
-            h("p", { class: "muted small" }, "Si practicas con alguien, que cada uno mire solo su agenda. Si practicas solo, abre las dos y haz los dos papeles."), recorder());
+            h("p", { class: "muted small" }, "Si practicas con alguien, que cada uno mire solo su agenda. Si practicas solo, abre las dos y haz los dos papeles."), recorder({ lvl, task: `Planificar algo juntos: ${it.task}\nAgenda del estudiante: ${it.mine.join("; ")}\nAgenda de la pareja: ${it.partner.join("; ")}\n(La transcripción puede incluir las dos voces si practicó solo haciendo los dos papeles.)` }));
           selfEval.push({ module: "sprechen", el, weight: 1, checks: ["He propuesto horas y días concretos", "He reaccionado a las propuestas (aceptar / rechazar con motivo)", "Hemos encontrado una hora que va bien a los dos"],
             extra: () => [h("div", { class: "model" }, h("strong", {}, "Diálogo modelo "), speakBtn(it.model), h("div", { lang: "de", html: it.model.map((l) => esc(l.t)).join("<br>") }))] });
         }
@@ -1156,7 +1257,12 @@ function viewAjustes(root) {
   root.append(
     h("div", { class: "card" }, h("h3", {}, "Audio"), h("label", {}, "Velocidad: ", rate),
       h("p", { class: "muted small" }, `Audios pregenerados disponibles: ${manifest.size}. Si falta alguno se usa la voz del navegador. Voces alemanas del navegador: ${voices}.`),
-      h("button", { class: "btn ghost", type: "button", onclick: () => play([{ v: "f1", t: "Hallo! Ich heiße Anna." }, { v: "m1", t: "Freut mich! Ich bin Jonas." }]) }, "Probar voces")),
+      h("button", { class: "btn ghost", type: "button", onclick: () => play([{ v: "f1", t: "Hallo! Ich heiße Andrea." }, { v: "m1", t: "Freut mich! Ich bin Jonas." }]) }, "Probar voces")),
+    h("div", { class: "card" }, h("h3", {}, "Transcripción de la parte oral"),
+      h("p", { class: "muted small" }, "Al grabarte en el Sprechen puedes pasar el audio a texto con Whisper, un modelo de reconocimiento de voz que funciona dentro de tu navegador: la grabación no se envía a ningún servidor. El modelo se descarga la primera vez y luego queda guardado."),
+      h("label", {}, "Modelo: ", h("select", { onchange: (e) => store.set("settings", { ...settings(), asr: e.target.value }) },
+        Object.entries(ASR_MODELS).map(([k, m]) => h("option", { value: k, selected: (s.asr || "base") === k }, m.label)))),
+      h("label", { class: "opt" }, h("input", { type: "checkbox", checked: !!s.autoTranscribe, onchange: (e) => store.set("settings", { ...settings(), autoTranscribe: e.target.checked }) }), " Transcribir automáticamente al parar la grabación")),
     h("div", { class: "card" }, h("h3", {}, "Tu progreso"), h("p", { class: "muted small" }, "El progreso se guarda en este navegador. Expórtalo para pasarlo a otro dispositivo."),
       h("div", { class: "actions" },
         h("button", { class: "btn ghost", type: "button", onclick: () => {
