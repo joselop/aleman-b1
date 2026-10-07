@@ -21,7 +21,7 @@ async def main():
         pg.on("console", lambda m: print("::notice::[console] " + m.text.replace("\n", " ")[:300]))
         pg.on("pageerror", lambda e: print("::error::[pageerror] " + str(e)[:500]))
         await pg.goto("http://127.0.0.1:8765/#/ajustes")
-        await pg.wait_for_function("window.__dsfs && window.__dsfs.transcribe")
+        await pg.wait_for_function("() => !!(window.__dsfs && window.__dsfs.transcribe)")
         for model in ["base", "tiny"]:
             await pg.evaluate(f"localStorage.setItem('dsfs:settings', JSON.stringify({{asr: '{model}'}}))")
             text = await pg.evaluate("""async () => {
