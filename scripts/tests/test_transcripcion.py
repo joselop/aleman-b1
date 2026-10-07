@@ -18,7 +18,7 @@ async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch()
         pg = await b.new_page()
-        pg.on("console", lambda m: print("::notice::[console] " + m.text.replace("\n", " ")[:300]))
+        pg.on("console", lambda m: print("[console] " + m.text.replace("\n", " ")[:300]))
         pg.on("pageerror", lambda e: print("::error::[pageerror] " + str(e)[:500]))
         await pg.goto("http://127.0.0.1:8765/#/ajustes")
         await pg.wait_for_function("() => !!(window.__dsfs && window.__dsfs.transcribe)")
