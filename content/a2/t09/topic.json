@@ -275,11 +275,11 @@
       "t3": [
         {
           "title": "E-Mail",
-          "text": "Sehr geehrter Herr López,\n\nvielen Dank für Ihre Nachricht vom 3. März. Sie schreiben, dass Sie die Rechnung für Februar zwei Mal bezahlt haben. Wir haben das kontrolliert: Sie haben recht. Wir entschuldigen uns für den Fehler.\nWir überweisen Ihnen die 89 Franken in den nächsten fünf Arbeitstagen zurück auf Ihr Konto. Sie müssen nichts mehr machen.\nAußerdem möchten wir Ihnen ein Angebot machen: Wenn Sie die Rechnung in Zukunft per E-Mail statt per Post bekommen möchten, sparen Sie jeden Monat 2 Franken Gebühren. Sie können das ganz einfach in Ihrem Kundenkonto auf unserer Webseite ändern.\nBei Fragen sind wir montags bis freitags von 8 bis 18 Uhr für Sie da.\n\nFreundliche Grüße\nIhr Kundenservice Swisscall",
+          "text": "Sehr geehrter Herr Romero,\n\nvielen Dank für Ihre Nachricht vom 3. März. Sie schreiben, dass Sie die Rechnung für Februar zwei Mal bezahlt haben. Wir haben das kontrolliert: Sie haben recht. Wir entschuldigen uns für den Fehler.\nWir überweisen Ihnen die 89 Franken in den nächsten fünf Arbeitstagen zurück auf Ihr Konto. Sie müssen nichts mehr machen.\nAußerdem möchten wir Ihnen ein Angebot machen: Wenn Sie die Rechnung in Zukunft per E-Mail statt per Post bekommen möchten, sparen Sie jeden Monat 2 Franken Gebühren. Sie können das ganz einfach in Ihrem Kundenkonto auf unserer Webseite ändern.\nBei Fragen sind wir montags bis freitags von 8 bis 18 Uhr für Sie da.\n\nFreundliche Grüße\nIhr Kundenservice Swisscall",
           "questions": [
-            { "q": "Worüber hat Herr López geschrieben?", "options": ["Er hat zwei Mal bezahlt.", "Er hat keine Rechnung bekommen.", "Sein Handy ist kaputt."], "answer": 0 },
+            { "q": "Worüber hat Herr Romero geschrieben?", "options": ["Er hat zwei Mal bezahlt.", "Er hat keine Rechnung bekommen.", "Sein Handy ist kaputt."], "answer": 0 },
             { "q": "Was macht die Firma?", "options": ["Sie schickt eine neue Rechnung.", "Sie überweist das Geld zurück.", "Sie schickt einen Gutschein."], "answer": 1 },
-            { "q": "Was muss Herr López jetzt machen?", "options": ["anrufen", "ein Formular ausfüllen", "nichts"], "answer": 2 },
+            { "q": "Was muss Herr Romero jetzt machen?", "options": ["anrufen", "ein Formular ausfüllen", "nichts"], "answer": 2 },
             { "q": "Wie kann er Geld sparen?", "options": ["Rechnung per E-Mail bekommen", "Rechnung jährlich bezahlen", "bar bezahlen"], "answer": 0 },
             { "q": "Wann ist der Kundenservice erreichbar?", "options": ["jeden Tag", "von Montag bis Freitag", "nur am Vormittag"], "answer": 1 }
           ]
@@ -485,7 +485,7 @@
           "task": "Sie warten zu Hause auf ein Paket, aber Sie müssen plötzlich weg. Schreiben Sie Ihrem Nachbarn Herrn Vogel eine Nachricht.",
           "points": ["Erklären Sie die Situation.", "Bitten Sie ihn, das Paket zu nehmen.", "Wann holen Sie es ab?"],
           "register": "formal (Sie)",
-          "model": "Lieber Herr Vogel, ich warte heute auf ein Paket, aber ich muss leider dringend zur Arbeit. Könnten Sie das Paket für mich nehmen? Ich hole es heute Abend um 19 Uhr bei Ihnen ab. Vielen Dank! José López (3. Stock)"
+          "model": "Lieber Herr Vogel, ich warte heute auf ein Paket, aber ich muss leider dringend zur Arbeit. Könnten Sie das Paket für mich nehmen? Ich hole es heute Abend um 19 Uhr bei Ihnen ab. Vielen Dank! José Romero (3. Stock)"
         },
         {
           "task": "Ihre Freundin Lea ist neu in Zürich und muss sich bei der Gemeinde anmelden. Schreiben Sie ihr eine Nachricht.",
@@ -499,13 +499,13 @@
           "task": "Sie haben eine Rechnung von Ihrer Internetfirma bekommen. Die Rechnung ist zu hoch. Schreiben Sie an den Kundenservice.",
           "points": ["Welche Rechnung?", "Was ist das Problem?", "Was soll die Firma tun?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich habe heute die Rechnung für Mai bekommen (Kundennummer 33851). Die Rechnung ist 120 Franken, aber mein Abo kostet nur 59 Franken im Monat. Ich habe keine extra Leistungen bestellt. Könnten Sie die Rechnung bitte kontrollieren und mir eine neue schicken?\n\nMit freundlichen Grüßen\nJosé López"
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe heute die Rechnung für Mai bekommen (Kundennummer 33851). Die Rechnung ist 120 Franken, aber mein Abo kostet nur 59 Franken im Monat. Ich habe keine extra Leistungen bestellt. Könnten Sie die Rechnung bitte kontrollieren und mir eine neue schicken?\n\nMit freundlichen Grüßen\nJosé Romero"
         },
         {
           "task": "Sie haben bei der Gemeinde einen Termin für Ihren Ausweis. Sie können nicht kommen. Schreiben Sie an das Passbüro.",
           "points": ["Welcher Termin?", "Warum können Sie nicht kommen?", "Bitten Sie um einen neuen Termin."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich habe am Donnerstag, 12. Oktober, um 10 Uhr einen Termin für meinen neuen Ausweis. Leider kann ich nicht kommen, weil ich an diesem Tag auf einer Geschäftsreise bin. Könnten Sie mir bitte einen neuen Termin geben? Am liebsten in der nächsten Woche am Vormittag.\n\nVielen Dank und freundliche Grüße\nLaura García"
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe am Donnerstag, 12. Oktober, um 10 Uhr einen Termin für meinen neuen Ausweis. Leider kann ich nicht kommen, weil ich an diesem Tag auf einer Geschäftsreise bin. Könnten Sie mir bitte einen neuen Termin geben? Am liebsten in der nächsten Woche am Vormittag.\n\nVielen Dank und freundliche Grüße\nAndrea Navarro"
         }
       ]
     },

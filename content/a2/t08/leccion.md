@@ -72,6 +72,7 @@ Orden: si las dos son sustantivos, **dativo antes que acusativo**. Si la cosa es
 - [[de:Ich schenke meinem Bruder ein Buch.::Le regalo un libro a mi hermano.]]
 - [[de:Ich schenke ihm ein Buch.::Le regalo un libro.]]
 - [[de:Ich schenke es meinem Bruder.::Se lo regalo a mi hermano.]]
+- [[de:José schenkt Andrea zum Geburtstag Karten für ein Konzert. Sie gefallen ihr sehr.::José le regala a Andrea entradas para un concierto por su cumpleaños. Le gustan mucho.]]
 - [[de:Ich schenke es ihm.::Se lo regalo.]]
 
 Dativo plural: el sustantivo añade **-n** (*den Kinder**n**, meinen Freunde**n***).

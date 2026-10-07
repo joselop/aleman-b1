@@ -6,7 +6,7 @@ Empiezas A2 contando tu vida: dónde naciste, cómo fue tu infancia, qué estudi
 
 | Alemán | Español |
 |---|---|
-| [[de:Ich bin 1998 in Granada geboren.]] | Nací en 1998 en Granada. |
+| [[de:Ich bin 1997 in Córdoba geboren.]] | Nací en 1997 en Córdoba. |
 | [[de:Ich bin in einem kleinen Dorf aufgewachsen.]] | Crecí en un pueblo pequeño. |
 | [[de:Ich bin mit sechs Jahren in die Schule gekommen.]] | Empecé el colegio con seis años. |
 | [[de:Ich habe das Abitur gemacht.]] | Hice el bachillerato (el examen final). |
@@ -97,12 +97,13 @@ Y repasa **war / hatte**: [[de:Als Kind war ich sehr schüchtern und hatte viele
 
 ## 4. Contar tu vida (modelo para el Sprechen)
 
-> [[de:Ich heiße José und bin 1998 in Granada geboren.::Me llamo José y nací en 1998 en Granada.]]
-> [[de:Ich bin in einem kleinen Dorf in der Nähe von Granada aufgewachsen.::Crecí en un pueblo pequeño cerca de Granada.]]
+> [[de:Ich heiße José und bin 1997 in Córdoba geboren.::Me llamo José y nací en 1997 en Córdoba.]]
+> [[de:Ich bin in einem kleinen Dorf in der Nähe von Córdoba aufgewachsen.::Crecí en un pueblo pequeño cerca de Córdoba.]]
 > [[de:Als Kind konnte ich stundenlang Fußball spielen, aber ich musste auch viel lernen.::De niño podía pasarme horas jugando al fútbol, pero también tenía que estudiar mucho.]]
-> [[de:Nach dem Abitur habe ich in Granada Physik studiert.::Después del bachillerato estudié Física en Granada.]]
-> [[de:2022 habe ich mit meiner Doktorarbeit angefangen.::En 2022 empecé la tesis doctoral.]]
+> [[de:Nach dem Abitur habe ich in Córdoba Physik studiert.::Después del bachillerato estudié Física en Córdoba.]]
+> [[de:2021 habe ich mit meiner Doktorarbeit angefangen.::En 2021 empecé la tesis doctoral.]]
 > [[de:Letztes Jahr bin ich in die Schweiz gezogen. Am Anfang war alles neu und ich konnte kaum Deutsch.::El año pasado me mudé a Suiza. Al principio todo era nuevo y apenas sabía alemán.]]
+> [[de:Meine Freundin Andrea ist mit mir nach Zürich gekommen. Sie hat eine Stelle bei einer Pharmafirma gefunden.::Mi novia Andrea vino conmigo a Zúrich. Encontró trabajo en una farmacéutica.]]
 > [[de:Jetzt lerne ich jeden Tag und es geht schon viel besser.::Ahora estudio todos los días y ya va mucho mejor.]]
 
 Fíjate en cómo se alternan los tiempos: **Perfekt** para las acciones (*habe studiert, bin gezogen*), **Präteritum** para *sein, haben* y los modales (*war, konnte, musste*), y **presente** para hoy.
@@ -113,7 +114,7 @@ Fíjate en cómo se alternan los tiempos: **Perfekt** para las acciones (*habe s
 2. **Formar el Perfekt de los modales:** *~~Ich habe nicht schwimmen gekonnt~~* → *Ich **konnte** nicht schwimmen.*
 3. **Poner diéresis en el Präteritum:** *~~ich müsste~~* (eso es otra cosa: "debería") → *ich **musste***.
 4. **Confundir *kennen* y *kennenlernen*:** *kennenlernen* = conocer por primera vez: *Ich habe sie 2019 **kennengelernt**.*
-5. **Traducir "nací" con el presente:** *~~Ich bin geboren 1998~~* → *Ich **bin** 1998 **geboren**.* (verbo en posición 2, participio al final).
+5. **Traducir "nací" con el presente:** *~~Ich bin geboren 1997~~* → *Ich **bin** 1997 **geboren**.* (verbo en posición 2, participio al final).
 6. **Usar *vor* y *seit* al revés:** *vor drei Jahren* = hace tres años (algo terminado); *seit drei Jahren* = desde hace tres años (sigue ahora).
 
 ## Resumen para el examen

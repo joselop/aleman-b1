@@ -37,6 +37,7 @@ El alemán distingue tres preguntas, y cada una tiene sus preposiciones:
 - [[de:Ich gehe jetzt zum Bahnhof.::Ahora voy a la estación.]]
 - [[de:Sie kommt gerade vom Zahnarzt.::Viene ahora del dentista.]]
 - [[de:Am Abend fahre ich nach Hause.::Por la tarde me voy a casa.]]
+- [[de:Im Sommer fliegen José und Andrea nach Spanien, zuerst nach Córdoba zu Josés Eltern und dann ans Meer nach Almería.::En verano José y Andrea vuelan a España, primero a Córdoba a casa de los padres de José y luego a la playa, a Almería.]]
 
 Trucos:
 - **nach** solo para ciudades, países **sin** artículo y *nach Hause*. Para países con artículo (*die Schweiz, die Türkei, die USA*) se usa **in** + acusativo.
@@ -76,7 +77,7 @@ Para pedir algo de forma educada (en la estación, en un hotel, por teléfono) e
 > [[de:Nein, der Zug fährt direkt. Er fährt um 10:05 Uhr von Gleis 7 ab.::No, el tren es directo. Sale a las 10:05 del andén 7.]]
 > [[de:Danke. Könnte ich einen Platz reservieren?::Gracias. ¿Podría reservar un asiento?]]
 
-En el hotel: [[de:Ich habe ein Zimmer auf den Namen López reserviert.::Tengo una habitación reservada a nombre de López.]] · [[de:Ist das Frühstück im Preis inbegriffen?::¿El desayuno está incluido en el precio?]] · [[de:Bis wann muss ich das Zimmer verlassen?::¿Hasta qué hora tengo que dejar la habitación?]]
+En el hotel: [[de:Ich habe ein Zimmer auf den Namen Romero reserviert.::Tengo una habitación reservada a nombre de Romero.]] · [[de:Ist das Frühstück im Preis inbegriffen?::¿El desayuno está incluido en el precio?]] · [[de:Bis wann muss ich das Zimmer verlassen?::¿Hasta qué hora tengo que dejar la habitación?]]
 
 Palabras útiles: **das Einzelzimmer / Doppelzimmer** · **mit Halbpension** (media pensión) · **die Rezeption** · **die Unterkunft** (alojamiento) · **die Jugendherberge** (albergue) · **buchen** (reservar) · **stornieren** (anular una reserva).
 

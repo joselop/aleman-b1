@@ -50,6 +50,16 @@ Sigue **exactamente** el esquema de `content/a1/t01/topic.json` (y `docs/esquema
 
 {{FORMATO_EXAMEN}}
 
+## Personajes recurrentes
+
+En algunos ejemplos (no en todos) usa a estos dos personajes, siempre con estos datos:
+
+- **José Romero**, 29 años, de Córdoba. Físico, trabaja como postdoc en la universidad.
+- **Andrea Navarro**, 27 años, de Almería. Trabaja en una farmacéutica organizando ensayos clínicos.
+- Son pareja y viven juntos en Zúrich. No están casados ni tienen hijos.
+
+Puedes usarlos en frases de la lección, en algunos ejercicios y como remitentes de los modelos de Schreiben. Para personajes con otros datos (otra edad, profesión o familia) usa otros nombres.
+
 ## Reglas de calidad (obligatorias)
 
 1. **Nada de vocabulario ni gramática de temas posteriores** en ejercicios y preguntas. Excepción: en los textos y audios del examen puede aparecer como mucho un 5 % de palabras desconocidas si no son necesarias para responder (igual que en el examen real).

@@ -1538,7 +1538,7 @@
             "Wie ist Ihre Telefonnummer?"
           ],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich heiße José López und bin 28 Jahre alt. Ich komme aus Spanien. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Ich suche einen Tandempartner. Meine Telefonnummer ist 079 123 45 67.\n\nViele Grüße\nJosé López"
+          "model": "Sehr geehrte Damen und Herren,\n\nich heiße José Romero und bin 29 Jahre alt. Ich komme aus Spanien. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Ich suche einen Tandempartner. Meine Telefonnummer ist 079 123 45 67.\n\nViele Grüße\nJosé Romero"
         },
         {
           "task": "Ihre Freundin Nina fragt: Wer ist der neue Kollege? Schreiben Sie Nina über Ihren Kollegen Luca.",
@@ -1558,7 +1558,7 @@
             "Fragen Sie: Gibt es einen Kurs am Abend?"
           ],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nmein Name ist Laura García. Ich komme aus Spanien und wohne in Zürich. Ich spreche Spanisch, Englisch und Deutsch. Jetzt möchte ich Französisch lernen. Gibt es einen Kurs am Abend?\n\nViele Grüße\nLaura García"
+          "model": "Sehr geehrte Damen und Herren,\n\nmein Name ist Andrea Navarro. Ich komme aus Spanien und wohne in Zürich. Ich spreche Spanisch, Englisch und Deutsch. Jetzt möchte ich Französisch lernen. Gibt es einen Kurs am Abend?\n\nViele Grüße\nAndrea Navarro"
         }
       ]
     },
@@ -1576,7 +1576,7 @@
           "model": [
             {
               "v": "m1",
-              "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig Jahre alt. Ich komme aus Spanien und wohne jetzt in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Telefonnummer ist null, sieben, neun, eins, zwei, drei, fünfundvierzig, siebenundsechzig."
+              "t": "Guten Tag! Mein Name ist José Romero. Ich bin neunundzwanzig Jahre alt. Ich komme aus Spanien und wohne jetzt in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Telefonnummer ist null, sieben, neun, eins, zwei, drei, fünfundvierzig, siebenundsechzig."
             }
           ]
         },
@@ -1591,7 +1591,7 @@
           "model": [
             {
               "v": "f1",
-              "t": "Hallo! Ich heiße Laura García. Ich bin vierunddreißig. Ich komme aus Spanien, aus Valencia. Ich spreche Spanisch, Englisch und Deutsch. Meine Muttersprache ist Spanisch."
+              "t": "Hallo! Ich heiße Andrea Navarro. Ich bin siebenundzwanzig. Ich komme aus Spanien, aus Almería. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Muttersprache ist Spanisch."
             }
           ]
         },
@@ -1646,7 +1646,7 @@
           "theme": "Person",
           "word": "Land",
           "question": "Kommst du aus Spanien?",
-          "answer": "Ja, ich komme aus Spanien, aus Granada."
+          "answer": "Ja, ich komme aus Spanien, aus Córdoba."
         }
       ]
     }

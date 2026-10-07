@@ -32,7 +32,7 @@
     { "de": "der Urlaub", "es": "las vacaciones (del trabajo)", "cat": "Trabajo", "ex": "Im August habe ich Urlaub.", "ex_es": "En agosto tengo vacaciones." },
     { "de": "Vollzeit / Teilzeit", "es": "jornada completa / parcial", "cat": "Trabajo", "ex": "Ich arbeite Teilzeit.", "ex_es": "Trabajo a media jornada." },
     { "de": "als", "es": "como, de (profesión)", "cat": "Trabajo", "ex": "Ich arbeite als Kellner.", "ex_es": "Trabajo de camarero." },
-    { "de": "studieren", "es": "estudiar (en la universidad)", "cat": "Trabajo", "forms": "er studiert, hat studiert", "ex": "Ich habe in Granada studiert.", "ex_es": "Estudié en Granada." },
+    { "de": "studieren", "es": "estudiar (en la universidad)", "cat": "Trabajo", "forms": "er studiert, hat studiert", "ex": "Ich habe in Córdoba studiert.", "ex_es": "Estudié en Córdoba." },
     { "de": "der Monat", "pl": "die Monate", "es": "el mes", "cat": "Fechas", "ex": "Das Jahr hat zwölf Monate.", "ex_es": "El año tiene doce meses." },
     { "de": "Januar, Februar, März …", "es": "enero, febrero, marzo…", "cat": "Fechas", "ex": "Im Januar ist es kalt.", "ex_es": "En enero hace frío." },
     { "de": "der Frühling", "es": "la primavera", "cat": "Fechas", "ex": "Im Frühling ist es schön.", "ex_es": "En primavera se está bien." },
@@ -42,7 +42,7 @@
     { "de": "das Datum", "pl": "die Daten", "es": "la fecha", "cat": "Fechas", "ex": "Welches Datum ist heute?", "ex_es": "¿Qué fecha es hoy?" },
     { "de": "der Geburtstag", "pl": "die Geburtstage", "es": "el cumpleaños", "cat": "Fechas", "ex": "Wann hast du Geburtstag?", "ex_es": "¿Cuándo es tu cumpleaños?" },
     { "de": "erste / dritte / siebte", "es": "primero / tercero / séptimo", "cat": "Fechas", "ex": "Heute ist der erste Mai.", "ex_es": "Hoy es uno de mayo." },
-    { "de": "geboren", "es": "nacido", "cat": "Fechas", "ex": "Ich bin 1998 geboren.", "ex_es": "Nací en 1998." },
+    { "de": "geboren", "es": "nacido", "cat": "Fechas", "ex": "Ich bin 1997 geboren.", "ex_es": "Nací en 1997." },
     { "de": "gestern", "es": "ayer", "cat": "Tiempo", "ex": "Gestern habe ich viel gearbeitet.", "ex_es": "Ayer trabajé mucho." },
     { "de": "vorgestern", "es": "anteayer", "cat": "Tiempo", "ex": "Vorgestern hat sie angerufen.", "ex_es": "Anteayer llamó ella." },
     { "de": "letzte Woche", "es": "la semana pasada", "cat": "Tiempo", "ex": "Letzte Woche habe ich Urlaub gemacht.", "ex_es": "La semana pasada estuve de vacaciones." },
@@ -306,8 +306,8 @@
       ],
       "t3": [
         {
-          "q": "Wann soll Frau López zum Gespräch kommen?", "options": ["am 5. Mai", "am 15. Mai", "am 5. März"], "answer": 1,
-          "audio": [{ "v": "m1", "t": "Guten Tag, Frau López, hier ist Peter Graf von der Firma Techno. Wir haben Ihre Bewerbung gelesen. Können Sie am fünfzehnten Mai um zehn Uhr zu einem Gespräch kommen? Bitte rufen Sie mich an." }]
+          "q": "Wann soll Frau Navarro zum Gespräch kommen?", "options": ["am 5. Mai", "am 15. Mai", "am 5. März"], "answer": 1,
+          "audio": [{ "v": "m1", "t": "Guten Tag, Frau Navarro, hier ist Peter Graf von der Firma Techno. Wir haben Ihre Bewerbung gelesen. Können Sie am fünfzehnten Mai um zehn Uhr zu einem Gespräch kommen? Bitte rufen Sie mich an." }]
         },
         {
           "q": "Was hat Sara vergessen?", "options": ["ihren Schlüssel", "ihr Handy", "ihre Tasche"], "answer": 1,
@@ -422,7 +422,7 @@
           "task": "Sie haben eine Stellenanzeige gelesen: Ein Hotel sucht eine Rezeptionistin / einen Rezeptionisten. Schreiben Sie dem Hotel.",
           "points": ["Stellen Sie sich vor (Beruf, Sprachen).", "Ab wann können Sie arbeiten?", "Fragen Sie: Ist die Stelle Vollzeit oder Teilzeit?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich habe Ihre Anzeige gelesen. Ich heiße Laura García und bin Hotelfachfrau. Ich spreche Spanisch, Englisch und Deutsch. Ich kann ab dem 1. Juni arbeiten. Ist die Stelle Vollzeit oder Teilzeit?\n\nMit freundlichen Grüßen\nLaura García"
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe Ihre Anzeige gelesen. Ich heiße Carmen Ruiz und bin Hotelfachfrau. Ich spreche Spanisch, Englisch und Deutsch. Ich kann ab dem 1. Juni arbeiten. Ist die Stelle Vollzeit oder Teilzeit?\n\nMit freundlichen Grüßen\nCarmen Ruiz"
         },
         {
           "task": "Ihr Kollege Martin hat bald Geburtstag. Schreiben Sie den Kolleginnen und Kollegen.",
@@ -437,7 +437,7 @@
         {
           "keywords": ["Name?", "Alter?", "Land?", "Wohnort?", "Sprachen?", "Beruf?", "Hobby?"],
           "extra": "Der Prüfer fragt dann: Wann haben Sie Geburtstag?",
-          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig Jahre alt und komme aus Spanien, aus Granada. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Ich bin Physiker und arbeite an der ETH. Mein Hobby ist Wandern. Ich habe am vierzehnten Februar Geburtstag." }]
+          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José Romero. Ich bin neunundzwanzig Jahre alt und komme aus Spanien, aus Córdoba. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Ich bin Physiker und arbeite an der ETH. Mein Hobby ist Wandern. Ich habe am vierzehnten Februar Geburtstag." }]
         },
         {
           "keywords": ["Name?", "Beruf?", "Seit wann?", "Wochenende?"],

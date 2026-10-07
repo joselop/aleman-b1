@@ -49,7 +49,7 @@ Desear que se mejore: [[de:Gute Besserung!]] — ¡Que te mejores!
 | [[de:der Notfall]] | la urgencia |
 
 > [[de:Praxis Dr. Weber, guten Morgen.::Consulta del Dr. Weber, buenos días.]]
-> [[de:Guten Morgen, hier ist José López. Ich brauche einen Termin. Ich habe seit drei Tagen Fieber und Halsschmerzen.::Buenos días, soy José López. Necesito una cita. Llevo tres días con fiebre y dolor de garganta.]]
+> [[de:Guten Morgen, hier ist José Romero. Ich brauche einen Termin. Ich habe seit drei Tagen Fieber und Halsschmerzen.::Buenos días, soy José Romero. Necesito una cita. Llevo tres días con fiebre y dolor de garganta.]]
 > [[de:Können Sie heute um 11 Uhr kommen?::¿Puede venir hoy a las 11?]]
 > [[de:Ja, das geht. Vielen Dank!::Sí, me va bien. ¡Muchas gracias!]]
 > [[de:Bringen Sie bitte Ihre Versichertenkarte mit.::Traiga su tarjeta sanitaria, por favor.]]

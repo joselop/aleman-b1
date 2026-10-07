@@ -44,7 +44,7 @@ En el examen A1, con el examinador usas *Sie*; con tu compañero de examen puede
 | Pregunta formal | Pregunta informal | Respuesta |
 |---|---|---|
 | [[de:Wie heißen Sie?::¿Cómo se llama usted?]] | [[de:Wie heißt du?::¿Cómo te llamas?]] | [[de:Ich heiße José.::Me llamo José.]] / [[de:Ich bin José.::Soy José.]] |
-| [[de:Wie ist Ihr Name?::¿Cuál es su nombre?]] | [[de:Wie ist dein Name?::¿Cuál es tu nombre?]] | [[de:Mein Name ist López.::Mi apellido es López.]] |
+| [[de:Wie ist Ihr Name?::¿Cuál es su nombre?]] | [[de:Wie ist dein Name?::¿Cuál es tu nombre?]] | [[de:Mein Name ist Romero.::Mi apellido es Romero.]] |
 | [[de:Woher kommen Sie?::¿De dónde es usted?]] | [[de:Woher kommst du?::¿De dónde eres?]] | [[de:Ich komme aus Spanien.::Soy de España.]] |
 | [[de:Wo wohnen Sie?::¿Dónde vive usted?]] | [[de:Wo wohnst du?::¿Dónde vives?]] | [[de:Ich wohne in Zürich.::Vivo en Zúrich.]] |
 | [[de:Was machen Sie hier?::¿Qué hace usted aquí?]] | [[de:Was machst du hier?::¿Qué haces aquí?]] | [[de:Ich lerne Deutsch.::Aprendo alemán.]] / [[de:Ich arbeite hier.::Trabajo aquí.]] |
@@ -60,9 +60,9 @@ Fíjate en las preposiciones, que no se traducen igual que en español:
 ### Un diálogo completo
 
 > [[de:Guten Tag! Ich heiße Martin Keller. Wie heißen Sie?::¡Buenos días! Me llamo Martin Keller. ¿Cómo se llama usted?]]
-> [[de:Guten Tag, Herr Keller. Mein Name ist Laura García.::Buenos días, señor Keller. Me llamo Laura García.]]
-> [[de:Freut mich, Frau García. Woher kommen Sie?::Encantado, señora García. ¿De dónde es usted?]]
-> [[de:Ich komme aus Spanien, aus Granada. Und Sie?::Soy de España, de Granada. ¿Y usted?]]
+> [[de:Guten Tag, Herr Keller. Mein Name ist Andrea Navarro.::Buenos días, señor Keller. Me llamo Andrea Navarro.]]
+> [[de:Freut mich, Frau Navarro. Woher kommen Sie?::Encantado, señora Navarro. ¿De dónde es usted?]]
+> [[de:Ich komme aus Spanien, aus Almería. Und Sie?::Soy de España, de Almería. ¿Y usted?]]
 > [[de:Ich komme aus Deutschland. Aber ich wohne jetzt in Zürich.::Soy de Alemania. Pero ahora vivo en Zúrich.]]
 
 *Herr* = señor, *Frau* = señora (y también "mujer"). Se usan siempre con el **apellido**: *Herr Keller*, nunca *Herr Martin*.
@@ -98,7 +98,7 @@ Además, las letras especiales:
 
 Pulsa 🔊 en cada letra para oírla. El nombre está escrito como se pronuncia en alemán (*Beh*, *Zeh*, *Jott*…), y debajo tienes una pista de cómo suena en español. Ojo con las que más se confunden: **E** (*Eh*) e **I** (*Ih*), **G** (*Geh*) y **J** (*Jott*), **V** (*Fau*) y **W** (*Weh*).
 
-Ejemplo: [[de:López: El, O, Pe, E, Zett.::López: ele, o, pe, e, zeta.]]
+Ejemplo: [[de:Romero: Err, Oh, Emm, Eh, Err, Oh.::Romero: erre, o, eme, e, erre, o.]]
 
 ### Pronunciación: lo que más cambia respecto al español
 
@@ -218,7 +218,7 @@ Las preguntas abiertas empiezan con una palabra interrogativa que casi siempre e
 3. **Escribir *sie* en vez de *Sie*** cuando hablas de usted.
 4. **Confundir *wer* y *wo*:** *wer* = quién, *wo* = dónde.
 5. **Poner el sujeto antes del verbo tras otro elemento:** *~~Hier ich lerne Deutsch~~* → *Hier lerne ich Deutsch.*
-6. **Usar *Herr/Frau* con el nombre de pila:** *Frau García*, no *Frau Laura*.
+6. **Usar *Herr/Frau* con el nombre de pila:** *Frau Navarro*, no *Frau Andrea*.
 7. **Decir *Gute Nacht* al llegar por la noche:** al llegar es *Guten Abend*.
 
 ## Resumen para el examen

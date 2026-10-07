@@ -14,7 +14,7 @@
   ],
   "vocab": [
     { "de": "das Leben", "es": "la vida", "cat": "Biografía", "ex": "Erzählen Sie von Ihrem Leben.", "ex_es": "Hable de su vida." },
-    { "de": "geboren sein", "es": "haber nacido", "cat": "Biografía", "forms": "ich bin geboren", "ex": "Ich bin 1998 in Granada geboren.", "ex_es": "Nací en 1998 en Granada." },
+    { "de": "geboren sein", "es": "haber nacido", "cat": "Biografía", "forms": "ich bin geboren", "ex": "Ich bin 1997 in Córdoba geboren.", "ex_es": "Nací en 1997 en Córdoba." },
     { "de": "aufwachsen", "es": "crecer, criarse", "cat": "Biografía", "forms": "er wächst auf, ist aufgewachsen", "ex": "Ich bin auf dem Land aufgewachsen.", "ex_es": "Me crié en el campo." },
     { "de": "die Kindheit", "es": "la infancia", "cat": "Biografía", "ex": "Ich hatte eine schöne Kindheit.", "ex_es": "Tuve una infancia bonita." },
     { "de": "die Jugend", "es": "la juventud", "cat": "Biografía", "ex": "In meiner Jugend habe ich viel Sport gemacht.", "ex_es": "En mi juventud hice mucho deporte." },
@@ -143,7 +143,7 @@
       "title": "Biografía",
       "instructions": "Ordena la frase.",
       "items": [
-        { "words": ["Ich", "bin", "1998", "in", "Granada", "geboren", "."], "answers": ["Ich bin 1998 in Granada geboren.", "1998 bin ich in Granada geboren."] },
+        { "words": ["Ich", "bin", "1997", "in", "Córdoba", "geboren", "."], "answers": ["Ich bin 1997 in Córdoba geboren.", "1997 bin ich in Córdoba geboren."] },
         { "words": ["Mit", "18", "bin", "ich", "nach", "Madrid", "gezogen", "."], "answers": ["Mit 18 bin ich nach Madrid gezogen.", "Ich bin mit 18 nach Madrid gezogen."] },
         { "words": ["Als", "Kind", "konnte", "ich", "nicht", "schwimmen", "."], "answers": ["Als Kind konnte ich nicht schwimmen.", "Ich konnte als Kind nicht schwimmen."] },
         { "words": ["Wo", "habt", "ihr", "euch", "kennengelernt", "?"], "answers": ["Wo habt ihr euch kennengelernt?"] },
@@ -356,8 +356,8 @@
           "audio": [{ "v": "m1", "t": "Liebe Besucherinnen und Besucher, die Ausstellung „Kindheit früher“ ist ab heute nicht mehr im ersten Stock, sondern im Erdgeschoss, gleich neben dem Café." }]
         },
         {
-          "q": "Warum ruft Frau Graf an?", "options": ["Sie möchte einen Termin absagen.", "Herr López hat die Stelle bekommen.", "Herr López soll Unterlagen schicken."], "answer": 2,
-          "audio": [{ "v": "f1", "t": "Guten Tag, Herr López, hier ist Graf von der Firma Solartec. Vielen Dank für Ihre Bewerbung. Leider fehlt Ihr Lebenslauf. Können Sie ihn uns bitte noch per E-Mail schicken? Danke und auf Wiederhören." }]
+          "q": "Warum ruft Frau Graf an?", "options": ["Sie möchte einen Termin absagen.", "Herr Romero hat die Stelle bekommen.", "Herr Romero soll Unterlagen schicken."], "answer": 2,
+          "audio": [{ "v": "f1", "t": "Guten Tag, Herr Romero, hier ist Graf von der Firma Solartec. Vielen Dank für Ihre Bewerbung. Leider fehlt Ihr Lebenslauf. Können Sie ihn uns bitte noch per E-Mail schicken? Danke und auf Wiederhören." }]
         },
         {
           "q": "Wann zieht Jan um?", "options": ["am Freitag", "am Samstag", "am Sonntag"], "answer": 1,
@@ -507,19 +507,19 @@
           "task": "Sie haben einen Deutschkurs an der Volkshochschule gemacht und möchten jetzt den nächsten Kurs besuchen. Schreiben Sie an die Kursleiterin, Frau Sommer.",
           "points": ["Welchen Kurs haben Sie gemacht?", "Welchen Kurs möchten Sie jetzt machen?", "Fragen Sie: Wann beginnt der Kurs?"],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Sommer,\n\nich habe bis Juni Ihren Kurs A2.1 am Abend besucht. Er hat mir sehr gut gefallen. Jetzt möchte ich gern den Kurs A2.2 machen. Wann beginnt der Kurs und gibt es noch Plätze?\n\nViele Grüße\nJosé López"
+          "model": "Liebe Frau Sommer,\n\nich habe bis Juni Ihren Kurs A2.1 am Abend besucht. Er hat mir sehr gut gefallen. Jetzt möchte ich gern den Kurs A2.2 machen. Wann beginnt der Kurs und gibt es noch Plätze?\n\nViele Grüße\nJosé Romero"
         },
         {
           "task": "Ihr ehemaliger Lehrer, Herr Wagner, organisiert ein Klassentreffen. Sie können nicht kommen. Schreiben Sie ihm.",
           "points": ["Danken Sie für die Einladung.", "Warum können Sie nicht kommen?", "Erzählen Sie kurz, was Sie heute machen."],
           "register": "formal (Sie)",
-          "model": "Lieber Herr Wagner,\n\nvielen Dank für die Einladung zum Klassentreffen! Leider kann ich nicht kommen, denn ich wohne jetzt in der Schweiz und muss an diesem Tag arbeiten. Ich bin Ingenieurin geworden und arbeite bei einer Firma in Basel.\n\nHerzliche Grüße\nLaura García"
+          "model": "Lieber Herr Wagner,\n\nvielen Dank für die Einladung zum Klassentreffen! Leider kann ich nicht kommen, denn ich wohne jetzt in der Schweiz und muss an diesem Tag arbeiten. Ich arbeite jetzt bei einer Pharmafirma in Zürich, in klinischen Studien.\n\nHerzliche Grüße\nAndrea Navarro"
         }
       ]
     },
     "sprechen": {
       "t1": [
-        { "theme": "Lebenslauf", "word": "Geburtsort", "question": "Wo bist du geboren?", "answer": "Ich bin in Granada geboren." },
+        { "theme": "Lebenslauf", "word": "Geburtsort", "question": "Wo bist du geboren?", "answer": "Ich bin in Córdoba geboren." },
         { "theme": "Lebenslauf", "word": "Schule", "question": "Wie lange bist du in die Schule gegangen?", "answer": "Zwölf Jahre, bis ich achtzehn war." },
         { "theme": "Lebenslauf", "word": "Umzug", "question": "Wann bist du in die Schweiz gezogen?", "answer": "Vor einem Jahr." },
         { "theme": "Lebenslauf", "word": "Kindheit", "question": "Was wolltest du als Kind werden?", "answer": "Ich wollte Astronaut werden." },
@@ -531,7 +531,7 @@
           "theme": "Erzählen Sie über Ihr Leben",
           "question": "Wie war Ihre Kindheit?",
           "prompts": ["Wo?", "Familie?", "Schule?", "Hobbys?"],
-          "model": [{ "v": "m1", "t": "Ich bin in einem kleinen Dorf in der Nähe von Granada aufgewachsen. Wir waren eine große Familie: meine Eltern, meine zwei Schwestern und ich. Meine Oma hat auch bei uns gewohnt. Ich bin gern in die Schule gegangen, Mathematik war mein Lieblingsfach. Aber manchmal musste ich nach der Schule meinem Vater helfen. In meiner Freizeit habe ich Fußball gespielt und ich konnte stundenlang lesen." }]
+          "model": [{ "v": "m1", "t": "Ich bin in einem kleinen Dorf in der Nähe von Córdoba aufgewachsen. Wir waren eine große Familie: meine Eltern, meine zwei Schwestern und ich. Meine Oma hat auch bei uns gewohnt. Ich bin gern in die Schule gegangen, Mathematik war mein Lieblingsfach. Aber manchmal musste ich nach der Schule meinem Vater helfen. In meiner Freizeit habe ich Fußball gespielt und ich konnte stundenlang lesen." }]
         },
         {
           "theme": "Erzählen Sie über Ihr Leben",

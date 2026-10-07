@@ -418,7 +418,7 @@
           "task": "Sie möchten einen Yogakurs machen. Schreiben Sie der Yogaschule.",
           "points": ["Sie sind Anfänger/in.", "Fragen Sie: Wann ist der Kurs?", "Fragen Sie: Was kostet der Kurs?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich möchte gern Yoga lernen. Ich bin Anfängerin. Wann ist der Kurs für Anfänger? Und was kostet der Kurs?\n\nViele Grüße\nLaura García"
+          "model": "Sehr geehrte Damen und Herren,\n\nich möchte gern Yoga lernen. Ich bin Anfängerin. Wann ist der Kurs für Anfänger? Und was kostet der Kurs?\n\nViele Grüße\nAndrea Navarro"
         },
         {
           "task": "Sie gehen am Freitag ins Kino. Schreiben Sie Ihrer Kollegin Nina.",
@@ -433,7 +433,7 @@
         {
           "keywords": ["Name?", "Alter?", "Land?", "Wohnort?", "Sprachen?", "Hobby?"],
           "extra": "Der Prüfer fragt dann: Was machen Sie am Wochenende?",
-          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig Jahre alt und komme aus Spanien. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Hobbys sind Lesen und Wandern. Am Wochenende wandere ich gern in den Bergen." }]
+          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José Romero. Ich bin neunundzwanzig Jahre alt und komme aus Spanien. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und ein bisschen Deutsch. Meine Hobbys sind Lesen und Wandern. Am Wochenende wandere ich gern in den Bergen." }]
         },
         {
           "keywords": ["Name?", "Familie?", "Beruf?", "Hobby?"],

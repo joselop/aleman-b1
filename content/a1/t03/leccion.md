@@ -111,6 +111,7 @@ Los posesivos de *wir, ihr, sie* (unser, euer, ihr) los verás en el tema 10.
 > [[de:Mein Vater ist 62 und meine Mutter ist 58.::Mi padre tiene 62 años y mi madre 58.]]
 > [[de:Ich habe eine Schwester. Ihr Name ist Elena. Sie ist verheiratet und hat zwei Kinder.::Tengo una hermana. Se llama Elena. Está casada y tiene dos hijos.]]
 > [[de:Ich bin ledig, aber ich habe eine Freundin. Sie heißt Andrea.::Estoy soltero, pero tengo novia. Se llama Andrea.]]
+> [[de:Andrea kommt aus Almería. Wir wohnen zusammen in Zürich.::Andrea es de Almería. Vivimos juntos en Zúrich.]]
 
 Frases útiles para preguntar:
 

@@ -332,8 +332,8 @@
     "hoeren": {
       "t1": [
         {
-          "q": "Was soll Herr López tun?", "options": ["einen Lebenslauf schicken", "zurückrufen", "am Montag kommen"], "answer": 1,
-          "audio": [{ "v": "f1", "t": "Guten Tag, Herr López, hier ist Martina Frei von der Personalabteilung der Firma Techno. Wir möchten Sie gern zu einem Vorstellungsgespräch einladen. Bitte rufen Sie mich zurück, dann finden wir zusammen einen Termin. Meine Nummer ist null vier vier, zwei drei vier, fünf sechs, sieben acht." }]
+          "q": "Was soll Herr Romero tun?", "options": ["einen Lebenslauf schicken", "zurückrufen", "am Montag kommen"], "answer": 1,
+          "audio": [{ "v": "f1", "t": "Guten Tag, Herr Romero, hier ist Martina Frei von der Personalabteilung der Firma Techno. Wir möchten Sie gern zu einem Vorstellungsgespräch einladen. Bitte rufen Sie mich zurück, dann finden wir zusammen einen Termin. Meine Nummer ist null vier vier, zwei drei vier, fünf sechs, sieben acht." }]
         },
         {
           "q": "Warum kommt Tom später?", "options": ["Er hat verschlafen.", "Er hat einen Arzttermin.", "Der Zug hat Verspätung."], "answer": 2,
@@ -498,13 +498,13 @@
           "task": "Sie haben eine Stellenanzeige gelesen: Ein Hotel sucht eine Rezeptionistin / einen Rezeptionisten. Schreiben Sie an Frau Keller.",
           "points": ["Warum interessieren Sie sich für die Stelle?", "Welche Erfahrung haben Sie?", "Fragen Sie nach den Arbeitszeiten."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Frau Keller,\n\nich interessiere mich für die Stelle an der Rezeption, weil ich gern mit Menschen arbeite und vier Sprachen spreche. Ich habe drei Jahre in einem Hotel in Madrid gearbeitet. Könnten Sie mir bitte sagen, wie die Arbeitszeiten sind?\n\nMit freundlichen Grüßen\nLaura García"
+          "model": "Sehr geehrte Frau Keller,\n\nich interessiere mich für die Stelle an der Rezeption, weil ich gern mit Menschen arbeite und vier Sprachen spreche. Ich habe drei Jahre in einem Hotel in Madrid gearbeitet. Könnten Sie mir bitte sagen, wie die Arbeitszeiten sind?\n\nMit freundlichen Grüßen\nCarmen Ruiz"
         },
         {
           "task": "Sie können morgen nicht zur Arbeit kommen. Schreiben Sie Ihrer Chefin, Frau Moser.",
           "points": ["Warum können Sie nicht kommen?", "Was ist mit Ihren Aufgaben?", "Wann kommen Sie wieder?"],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Moser,\n\nleider kann ich morgen nicht ins Büro kommen, weil ich Fieber habe. Die Präsentation für den Kunden ist fertig, sie liegt in unserem Ordner. Ich hoffe, dass ich am Donnerstag wieder arbeiten kann.\n\nViele Grüße\nJosé López"
+          "model": "Liebe Frau Moser,\n\nleider kann ich morgen nicht ins Büro kommen, weil ich Fieber habe. Die Präsentation für den Kunden ist fertig, sie liegt in unserem Ordner. Ich hoffe, dass ich am Donnerstag wieder arbeiten kann.\n\nViele Grüße\nJosé Romero"
         }
       ]
     },

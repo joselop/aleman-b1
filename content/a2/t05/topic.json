@@ -499,7 +499,7 @@
           "task": "Sie haben im Online-Shop „ModaWeb“ Schuhe bestellt. Sie sind zu groß. Schreiben Sie dem Kundenservice.",
           "points": ["Was haben Sie bestellt?", "Was ist das Problem?", "Was möchten Sie?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich habe letzte Woche bei Ihnen schwarze Lederschuhe in Größe 42 bestellt (Bestellnummer 55217). Leider sind sie mir zu groß. Ich möchte sie gern gegen Größe 41 umtauschen. Wie kann ich die Schuhe zurückschicken?\n\nMit freundlichen Grüßen\nJosé López"
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe letzte Woche bei Ihnen schwarze Lederschuhe in Größe 42 bestellt (Bestellnummer 55217). Leider sind sie mir zu groß. Ich möchte sie gern gegen Größe 41 umtauschen. Wie kann ich die Schuhe zurückschicken?\n\nMit freundlichen Grüßen\nJosé Romero"
         },
         {
           "task": "Sie gehen zu einer Hochzeit und wissen nicht, was man dort trägt. Schreiben Sie Ihrer Kollegin, Frau Huber.",

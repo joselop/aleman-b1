@@ -505,13 +505,13 @@
           "task": "Sie sind krank und können diese Woche nicht zum Deutschkurs kommen. Schreiben Sie Ihrer Kursleiterin, Frau Weber.",
           "points": ["Warum kommen Sie nicht?", "Wie lange sind Sie krank?", "Fragen Sie nach den Hausaufgaben."],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Weber,\n\nleider kann ich diese Woche nicht zum Kurs kommen, weil ich die Grippe habe. Die Ärztin hat mich bis Freitag krankgeschrieben. Könnten Sie mir bitte die Hausaufgaben per E-Mail schicken?\n\nViele Grüße\nJosé López"
+          "model": "Liebe Frau Weber,\n\nleider kann ich diese Woche nicht zum Kurs kommen, weil ich die Grippe habe. Die Ärztin hat mich bis Freitag krankgeschrieben. Könnten Sie mir bitte die Hausaufgaben per E-Mail schicken?\n\nViele Grüße\nJosé Romero"
         },
         {
           "task": "Sie haben morgen einen Termin bei Dr. Kaya, aber Sie können nicht kommen. Schreiben Sie an die Praxis.",
           "points": ["Sagen Sie den Termin ab.", "Warum können Sie nicht kommen?", "Bitten Sie um einen neuen Termin."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich habe morgen um 10 Uhr einen Termin bei Dr. Kaya. Leider muss ich den Termin absagen, weil ich beruflich nach Genf fahren muss. Haben Sie nächste Woche einen anderen Termin für mich, am liebsten am Nachmittag?\n\nMit freundlichen Grüßen\nLaura García"
+          "model": "Sehr geehrte Damen und Herren,\n\nich habe morgen um 10 Uhr einen Termin bei Dr. Kaya. Leider muss ich den Termin absagen, weil ich beruflich nach Genf fahren muss. Haben Sie nächste Woche einen anderen Termin für mich, am liebsten am Nachmittag?\n\nMit freundlichen Grüßen\nAndrea Navarro"
         }
       ]
     },

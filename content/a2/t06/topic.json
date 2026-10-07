@@ -490,13 +490,13 @@
           "task": "Sie möchten in einem Sportverein mitmachen. Schreiben Sie an den Verein.",
           "points": ["Welchen Sport möchten Sie machen?", "Haben Sie schon Erfahrung?", "Fragen Sie nach den Trainingszeiten und den Kosten."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich möchte gern in Ihrem Verein Volleyball spielen. Ich habe in Spanien fünf Jahre in einer Mannschaft gespielt. Wann ist das Training für Erwachsene und wie viel kostet die Mitgliedschaft?\n\nMit freundlichen Grüßen\nJosé López"
+          "model": "Sehr geehrte Damen und Herren,\n\nich möchte gern in Ihrem Verein Volleyball spielen. Ich habe in Spanien fünf Jahre in einer Mannschaft gespielt. Wann ist das Training für Erwachsene und wie viel kostet die Mitgliedschaft?\n\nMit freundlichen Grüßen\nJosé Romero"
         },
         {
           "task": "Sie haben im Kulturzentrum einen Workshop gebucht, aber Sie können nicht teilnehmen. Schreiben Sie an Frau Berger.",
           "points": ["Welcher Workshop?", "Warum können Sie nicht kommen?", "Fragen Sie: Gibt es einen anderen Termin?"],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Berger,\n\nich habe mich für den Fotografie-Workshop am Donnerstag angemeldet. Leider kann ich nicht kommen, weil ich an diesem Abend arbeiten muss. Gibt es den Workshop auch an einem anderen Tag? Wenn nicht, möchte ich das Geld zurück.\n\nViele Grüße\nLaura García"
+          "model": "Liebe Frau Berger,\n\nich habe mich für den Fotografie-Workshop am Donnerstag angemeldet. Leider kann ich nicht kommen, weil ich an diesem Abend arbeiten muss. Gibt es den Workshop auch an einem anderen Tag? Wenn nicht, möchte ich das Geld zurück.\n\nViele Grüße\nAndrea Navarro"
         }
       ]
     },

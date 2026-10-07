@@ -165,8 +165,8 @@
       "pl": "die Namen",
       "es": "el nombre",
       "cat": "Persona",
-      "ex": "Mein Name ist Laura García.",
-      "ex_es": "Me llamo Laura García."
+      "ex": "Mein Name ist Andrea Navarro.",
+      "ex_es": "Me llamo Andrea Navarro."
     },
     {
       "de": "der Vorname",
@@ -181,8 +181,8 @@
       "pl": "die Familiennamen",
       "es": "el apellido",
       "cat": "Persona",
-      "ex": "Mein Familienname ist López.",
-      "ex_es": "Mi apellido es López."
+      "ex": "Mein Familienname ist Romero.",
+      "ex_es": "Mi apellido es Romero."
     },
     {
       "de": "der Herr",
@@ -197,8 +197,8 @@
       "pl": "die Frauen",
       "es": "la señora; la mujer",
       "cat": "Persona",
-      "ex": "Guten Tag, Frau García!",
-      "ex_es": "¡Buenos días, señora García!"
+      "ex": "Guten Tag, Frau Navarro!",
+      "ex_es": "¡Buenos días, señora Navarro!"
     },
     {
       "de": "der Lehrer / die Lehrerin",
@@ -1615,7 +1615,7 @@
             "Wo wohnen und arbeiten Sie?"
           ],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Frei,\n\nich heiße José López. Ich bin neu im Deutschkurs. Ich komme aus Spanien, aus Granada. Jetzt wohne ich in Zürich. Ich arbeite hier an der Universität.\n\nViele Grüße\nJosé López"
+          "model": "Liebe Frau Frei,\n\nich heiße José Romero. Ich bin neu im Deutschkurs. Ich komme aus Spanien, aus Córdoba. Jetzt wohne ich in Zürich. Ich arbeite hier an der Universität.\n\nViele Grüße\nJosé Romero"
         },
         {
           "task": "Sie haben eine neue Kollegin, Lena. Schreiben Sie Lena eine kurze Nachricht.",
@@ -1635,7 +1635,7 @@
             "Was machen Sie hier (arbeiten / lernen)?"
           ],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Huber,\n\nich bin Laura García und ich wohne jetzt hier. Ich komme aus Spanien, aus Valencia. Ich arbeite in Zürich und ich lerne Deutsch.\n\nViele Grüße\nLaura García"
+          "model": "Liebe Frau Huber,\n\nich bin Andrea Navarro und ich wohne jetzt hier. Ich komme aus Spanien, aus Almería. Ich arbeite in Zürich und ich lerne Deutsch.\n\nViele Grüße\nAndrea Navarro"
         }
       ]
     },
@@ -1651,7 +1651,7 @@
           "model": [
             {
               "v": "m1",
-              "t": "Guten Tag! Mein Name ist José López. Ich komme aus Spanien, aus Granada. Jetzt wohne ich in Zürich. Ich arbeite hier und ich lerne Deutsch. López: El, O, Pe, E, Zett."
+              "t": "Guten Tag! Mein Name ist José Romero. Ich komme aus Spanien, aus Córdoba. Jetzt wohne ich in Zürich. Ich arbeite hier und ich lerne Deutsch. Romero: Err, Oh, Emm, Eh, Err, Oh."
             }
           ]
         },
@@ -1665,7 +1665,7 @@
           "model": [
             {
               "v": "f1",
-              "t": "Hallo! Ich heiße Laura García. Ich komme aus Spanien, aus Valencia. Ich wohne jetzt in Bern. Bern: Be, E, Er, En."
+              "t": "Hallo! Ich heiße Andrea Navarro. Ich komme aus Spanien, aus Almería. Ich wohne jetzt in Zürich. Zürich: Zett, Üh, Err, Ih, Zeh, Hah."
             }
           ]
         },

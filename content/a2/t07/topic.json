@@ -490,13 +490,13 @@
           "task": "Sie möchten im Hotel Bergblick in Zermatt ein Zimmer reservieren. Schreiben Sie an das Hotel.",
           "points": ["Wann und wie lange möchten Sie bleiben?", "Was für ein Zimmer brauchen Sie?", "Fragen Sie nach dem Preis und dem Frühstück."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich würde gern vom 3. bis 6. August ein Doppelzimmer bei Ihnen reservieren. Wir sind zwei Personen und hätten gern ein ruhiges Zimmer mit Blick auf die Berge. Könnten Sie mir bitte sagen, wie viel das Zimmer kostet und ob das Frühstück inbegriffen ist?\n\nMit freundlichen Grüßen\nJosé López"
+          "model": "Sehr geehrte Damen und Herren,\n\nich würde gern vom 3. bis 6. August ein Doppelzimmer bei Ihnen reservieren. Wir sind zwei Personen und hätten gern ein ruhiges Zimmer mit Blick auf die Berge. Könnten Sie mir bitte sagen, wie viel das Zimmer kostet und ob das Frühstück inbegriffen ist?\n\nMit freundlichen Grüßen\nJosé Romero"
         },
         {
           "task": "Sie haben bei einem Reisebüro eine Reise gebucht, aber Sie können nicht fahren. Schreiben Sie an Herrn Graf.",
           "points": ["Welche Reise?", "Warum können Sie nicht fahren?", "Fragen Sie, ob Sie das Geld zurückbekommen."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrter Herr Graf,\n\nich habe bei Ihnen eine Reise nach Rom vom 10. bis 14. Mai gebucht. Leider kann ich nicht fahren, weil meine Mutter krank ist und ich nach Spanien fliegen muss. Ich möchte die Reise stornieren. Könnten Sie mir bitte sagen, ob ich das Geld zurückbekomme?\n\nMit freundlichen Grüßen\nLaura García"
+          "model": "Sehr geehrter Herr Graf,\n\nich habe bei Ihnen eine Reise nach Rom vom 10. bis 14. Mai gebucht. Leider kann ich nicht fahren, weil meine Mutter krank ist und ich nach Spanien fliegen muss. Ich möchte die Reise stornieren. Könnten Sie mir bitte sagen, ob ich das Geld zurückbekomme?\n\nMit freundlichen Grüßen\nAndrea Navarro"
         }
       ]
     },

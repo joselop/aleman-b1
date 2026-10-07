@@ -391,10 +391,10 @@
           ]
         },
         {
-          "context": "Sie melden sich für die Weihnachtsfeier Ihrer Firma an. Sie kommen mit Ihrer Partnerin. Sie essen kein Fleisch. Ihr Name ist José López, Abteilung Forschung.",
+          "context": "Sie melden sich für die Weihnachtsfeier Ihrer Firma an. Sie kommen mit Ihrer Partnerin. Sie essen kein Fleisch. Ihr Name ist José Romero, Abteilung Forschung.",
           "title": "Anmeldung Weihnachtsfeier",
           "fields": [
-            { "label": "Name", "given": "José López" },
+            { "label": "Name", "given": "José Romero" },
             { "label": "Abteilung", "answers": ["Forschung"] },
             { "label": "Personen", "answers": ["2", "zwei"] },
             { "label": "Essen (mit Fleisch / vegetarisch)", "answers": ["vegetarisch"] }
@@ -438,7 +438,7 @@
         {
           "keywords": ["Name?", "Alter?", "Land?", "Wohnort?", "Sprachen?", "Beruf?", "Hobby?"],
           "extra": "Der Prüfer fragt dann: Wo waren Sie im letzten Urlaub?",
-          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José López. Ich bin achtundzwanzig und komme aus Spanien. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und Deutsch. Ich bin Physiker. Meine Hobbys sind Wandern und Reisen. Im letzten Urlaub war ich in Portugal. Ich bin nach Lissabon geflogen." }]
+          "model": [{ "v": "m1", "t": "Guten Tag! Mein Name ist José Romero. Ich bin neunundzwanzig und komme aus Spanien. Ich wohne in Zürich. Ich spreche Spanisch, Englisch und Deutsch. Ich bin Physiker. Meine Hobbys sind Wandern und Reisen. Im letzten Urlaub war ich in Portugal. Ich bin nach Lissabon geflogen." }]
         },
         {
           "keywords": ["Name?", "Familie?", "Feste?"],

@@ -23,12 +23,13 @@ Palabras clave: **der Arbeitgeber** (empleador) · **der Arbeitnehmer** (emplead
 - [[de:die Stellenanzeige::la oferta de empleo]] · [[de:die Bewerbung::la candidatura]] · [[de:der Lebenslauf::el currículum]] · [[de:das Vorstellungsgespräch::la entrevista de trabajo]]
 - [[de:Ich bewerbe mich um die Stelle als Verkäufer.::Me presento al puesto de dependiente.]]
 - [[de:Ich habe drei Jahre Berufserfahrung.::Tengo tres años de experiencia profesional.]]
+- [[de:Andrea arbeitet bei einer Pharmafirma in Zürich. Sie hat zwei Jahre Berufserfahrung in klinischen Studien.::Andrea trabaja en una farmacéutica de Zúrich. Tiene dos años de experiencia en ensayos clínicos.]]
 - [[de:Ich habe eine Einladung zum Vorstellungsgespräch bekommen.::Me han invitado a una entrevista de trabajo.]]
 
 ## 3. Al teléfono en la oficina
 
 > [[de:Firma Techno, Sie sprechen mit Anna Keller. Was kann ich für Sie tun?::Empresa Techno, le atiende Anna Keller. ¿En qué puedo ayudarle?]]
-> [[de:Guten Tag, mein Name ist López. Kann ich bitte mit Herrn Graf sprechen?::Buenos días, me llamo López. ¿Puedo hablar con el señor Graf, por favor?]]
+> [[de:Guten Tag, mein Name ist Romero. Kann ich bitte mit Herrn Graf sprechen?::Buenos días, me llamo Romero. ¿Puedo hablar con el señor Graf, por favor?]]
 > [[de:Herr Graf ist leider nicht im Haus. Kann ich ihm etwas ausrichten?::El señor Graf no está, lo siento. ¿Quiere dejarle algún recado?]]
 > [[de:Ja, er soll mich bitte zurückrufen. Meine Nummer ist 079 123 45 67.::Sí, que me devuelva la llamada, por favor. Mi número es el 079 123 45 67.]]
 > [[de:Gut, ich sage es ihm. Auf Wiederhören!::Bien, se lo digo. ¡Adiós!]]

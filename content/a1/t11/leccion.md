@@ -24,6 +24,8 @@ La forma femenina casi siempre se hace con **-in** (y a veces con diéresis: *Ar
 - [[de:Ich bin Ingenieur.]] — **sin artículo**, igual que en español ("soy ingeniero").
 - [[de:Ich arbeite als Krankenpflegerin im Krankenhaus.::Trabajo de enfermera en el hospital.]] (*als* = como)
 - [[de:Ich arbeite bei Siemens.::Trabajo en Siemens.]] (*bei* + empresa)
+- [[de:José ist Physiker. Er arbeitet als Postdoc an der Universität.::José es físico. Trabaja como posdoc en la universidad.]]
+- [[de:Andrea arbeitet bei einer Pharmafirma. Sie organisiert klinische Studien.::Andrea trabaja en una farmacéutica. Organiza ensayos clínicos.]]
 - [[de:Ich bin arbeitslos.::Estoy en paro.]] · [[de:Ich studiere Medizin.::Estudio Medicina.]] · [[de:Ich mache eine Ausbildung.::Hago una formación profesional.]] (formación profesional)
 
 Palabras del trabajo: [[de:die Firma]] (la empresa) · [[de:das Büro]] (la oficina) · [[de:der Chef::el jefe]] / [[de:die Chefin::la jefa]] · [[de:der Kollege::el compañero de trabajo]] / [[de:die Kollegin::la compañera de trabajo]] · [[de:die Arbeit::el trabajo]] · [[de:der Job::el trabajo, el empleo]] · [[de:Vollzeit]] / [[de:Teilzeit]] (jornada completa / parcial) · [[de:das Praktikum]] (las prácticas) · [[de:der Urlaub]] (las vacaciones).
@@ -56,7 +58,7 @@ En la escritura, un **punto** detrás del número indica que es ordinal: *3.* = 
 - ¿Cuándo? con **am** y el ordinal acabado en **-en**: [[de:am dritten Mai::el 3 de mayo]] · [[de:am ersten Januar::el 1 de enero]]
 - [[de:Wann hast du Geburtstag? – Am zwölften März.::¿Cuándo es tu cumpleaños? – El 12 de marzo.]]
 - Por escrito: *Zürich, 15.10.2026* (= *den fünfzehnten Oktober*).
-- Los años: *1998* = [[de:neunzehnhundertachtundneunzig::mil novecientos noventa y ocho]]; *2026* = [[de:zweitausendsechsundzwanzig::dos mil veintiséis]]. Se dicen **solos** o con **im Jahr**: *Ich bin 1998 geboren.* (nunca ~~in 1998~~).
+- Los años: *1997* = [[de:neunzehnhundertsiebenundneunzig::mil novecientos noventa y siete]]; *2026* = [[de:zweitausendsechsundzwanzig::dos mil veintiséis]]. Se dicen **solos** o con **im Jahr**: *Ich bin 1997 geboren.* (nunca ~~in 1997~~).
 
 ## 4. Preposiciones de tiempo (resumen)
 

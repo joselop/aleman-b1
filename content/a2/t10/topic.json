@@ -267,13 +267,13 @@
       "t3": [
         {
           "title": "E-Mail",
-          "text": "Sehr geehrte Frau López,\n\nvielen Dank für Ihr Interesse an unseren Deutschkursen. Nach Ihrem Einstufungstest empfehlen wir Ihnen den Kurs B1.1. Der nächste Abendkurs beginnt am Montag, 7. Oktober, und findet jeden Montag und Mittwoch von 18.30 bis 20.30 Uhr statt. Der Kurs dauert zehn Wochen und kostet 690 Franken, das Buch ist nicht im Preis inbegriffen.\nWenn Sie lieber am Vormittag lernen, gibt es auch einen Intensivkurs: vier Wochen lang, jeden Tag von 9 bis 12 Uhr.\nBitte melden Sie sich bis zum 30. September an. Am Ende des Kurses bekommen Sie eine Teilnahmebestätigung. Die offizielle Goethe-Prüfung können Sie bei uns im Dezember machen.\n\nFreundliche Grüße\nThomas Bühler, Sprachschule Lingua",
+          "text": "Sehr geehrte Frau Navarro,\n\nvielen Dank für Ihr Interesse an unseren Deutschkursen. Nach Ihrem Einstufungstest empfehlen wir Ihnen den Kurs B1.1. Der nächste Abendkurs beginnt am Montag, 7. Oktober, und findet jeden Montag und Mittwoch von 18.30 bis 20.30 Uhr statt. Der Kurs dauert zehn Wochen und kostet 690 Franken, das Buch ist nicht im Preis inbegriffen.\nWenn Sie lieber am Vormittag lernen, gibt es auch einen Intensivkurs: vier Wochen lang, jeden Tag von 9 bis 12 Uhr.\nBitte melden Sie sich bis zum 30. September an. Am Ende des Kurses bekommen Sie eine Teilnahmebestätigung. Die offizielle Goethe-Prüfung können Sie bei uns im Dezember machen.\n\nFreundliche Grüße\nThomas Bühler, Sprachschule Lingua",
           "questions": [
             { "q": "Welchen Kurs empfiehlt die Schule?", "options": ["A2.2", "B1.1", "B1.2"], "answer": 1 },
             { "q": "Wann ist der Abendkurs?", "options": ["Montag und Mittwoch", "Dienstag und Donnerstag", "jeden Abend"], "answer": 0 },
             { "q": "Was kostet extra?", "options": ["die Prüfung", "das Buch", "der Einstufungstest"], "answer": 1 },
             { "q": "Wie lange dauert der Intensivkurs?", "options": ["zehn Wochen", "vier Wochen", "einen Monat am Abend"], "answer": 1 },
-            { "q": "Bis wann muss Frau López sich anmelden?", "options": ["bis 30. September", "bis 7. Oktober", "bis Dezember"], "answer": 0 }
+            { "q": "Bis wann muss Frau Navarro sich anmelden?", "options": ["bis 30. September", "bis 7. Oktober", "bis Dezember"], "answer": 0 }
           ]
         },
         {
@@ -490,13 +490,13 @@
           "task": "Sie haben eine Anzeige für einen Deutschkurs gelesen. Schreiben Sie an die Sprachschule.",
           "points": ["Welches Niveau haben Sie?", "Wann haben Sie Zeit?", "Fragen Sie nach dem Preis und dem Zertifikat."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für einen Deutschkurs bei Ihnen. Ich habe das Niveau A2 und möchte im nächsten Jahr die B1-Prüfung machen. Ich arbeite tagsüber, deshalb suche ich einen Abendkurs. Könnten Sie mir bitte sagen, wie viel der Kurs kostet und ob ich am Ende ein Zertifikat bekomme?\n\nMit freundlichen Grüßen\nJosé López"
+          "model": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für einen Deutschkurs bei Ihnen. Ich habe das Niveau A2 und möchte im nächsten Jahr die B1-Prüfung machen. Ich arbeite tagsüber, deshalb suche ich einen Abendkurs. Könnten Sie mir bitte sagen, wie viel der Kurs kostet und ob ich am Ende ein Zertifikat bekomme?\n\nMit freundlichen Grüßen\nJosé Romero"
         },
         {
           "task": "Ihre Firma bietet eine Weiterbildung an. Schreiben Sie an Ihre Chefin, Frau Moser.",
           "points": ["Welche Weiterbildung möchten Sie machen?", "Warum ist sie wichtig für Ihre Arbeit?", "Fragen Sie, ob die Firma sie bezahlt."],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Moser,\n\nich habe gesehen, dass es im Frühling einen Kurs für Projektmanagement gibt. Ich würde diesen Kurs gern besuchen. Ich leite immer mehr Projekte, deshalb ist es wichtig für mich, mehr darüber zu lernen. Könnte die Firma die Kosten für den Kurs übernehmen?\n\nViele Grüße\nLaura García"
+          "model": "Liebe Frau Moser,\n\nich habe gesehen, dass es im Frühling einen Kurs für Projektmanagement gibt. Ich würde diesen Kurs gern besuchen. Ich leite immer mehr klinische Studien, deshalb ist es wichtig für mich, mehr darüber zu lernen. Könnte die Firma die Kosten für den Kurs übernehmen?\n\nViele Grüße\nAndrea Navarro"
         }
       ]
     },

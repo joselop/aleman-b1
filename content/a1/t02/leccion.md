@@ -55,6 +55,8 @@ En 21, 31, 41… se dice **ein**und-, no *eins*und-: *einundzwanzig*.
 
 - [[de:Wie alt bist du?]] · [[de:Wie alt sind Sie?]] — ¿Cuántos años tienes / tiene?
 - [[de:Ich bin 28 Jahre alt.::Tengo 28 años.]] o simplemente [[de:Ich bin 28.::Tengo 28.]]
+- [[de:Andrea ist siebenundzwanzig und José ist neunundzwanzig.::Andrea tiene veintisiete años y José veintinueve.]]
+- [[de:Andrea kommt aus Almería, José kommt aus Córdoba. Beide wohnen jetzt in Zürich.::Andrea es de Almería y José de Córdoba. Los dos viven ahora en Zúrich.]]
 
 Recuerda: la edad se dice con **sein** (*ich bin*), no con "tener".
 

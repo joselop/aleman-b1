@@ -1160,7 +1160,7 @@
           "audio": [
             {
               "v": "m1",
-              "t": "Guten Tag, Frau López, hier ist die Praxis Dr. Berger. Ihr Termin am Dienstag geht leider nicht. Kommen Sie bitte am Donnerstag um neun Uhr. Danke!"
+              "t": "Guten Tag, Frau Navarro, hier ist die Praxis Dr. Berger. Ihr Termin am Dienstag geht leider nicht. Kommen Sie bitte am Donnerstag um neun Uhr. Danke!"
             }
           ]
         },
@@ -1514,7 +1514,7 @@
             "Fragen Sie nach den Hausaufgaben."
           ],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Wolf,\n\nich komme morgen leider nicht zum Kurs. Ich habe um 18 Uhr einen Termin beim Arzt. Was sind die Hausaufgaben?\n\nViele Grüße\nJosé López"
+          "model": "Liebe Frau Wolf,\n\nich komme morgen leider nicht zum Kurs. Ich habe um 18 Uhr einen Termin beim Arzt. Was sind die Hausaufgaben?\n\nViele Grüße\nJosé Romero"
         },
         {
           "task": "Ein neuer Kollege fragt: Wie ist dein Arbeitstag? Schreiben Sie ihm.",

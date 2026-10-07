@@ -41,8 +41,8 @@
       "de": "die Eltern",
       "es": "los padres (solo plural)",
       "cat": "Familia",
-      "ex": "Meine Eltern wohnen in Granada.",
-      "ex_es": "Mis padres viven en Granada."
+      "ex": "Meine Eltern wohnen in Córdoba.",
+      "ex_es": "Mis padres viven en Córdoba."
     },
     {
       "de": "der Sohn",
@@ -1453,7 +1453,7 @@
             "Wo wohnt Ihre Familie?"
           ],
           "register": "informal (du)",
-          "model": "Hallo Martina,\n\ndanke für deine Frage! Ich bin nicht verheiratet, aber ich habe eine Partnerin. Sie heißt Andrea. Wir haben keine Kinder. Ich habe einen Bruder und eine Schwester. Meine Familie wohnt in Spanien, in Granada.\n\nLiebe Grüße\nJosé"
+          "model": "Hallo Martina,\n\ndanke für deine Frage! Ich bin nicht verheiratet, aber ich habe eine Partnerin. Sie heißt Andrea. Wir haben keine Kinder. Ich habe einen Bruder und eine Schwester. Meine Familie wohnt in Spanien, in Córdoba.\n\nLiebe Grüße\nJosé"
         },
         {
           "task": "Ihre Freundin Julia hat ein Baby. Schreiben Sie ihr eine Karte.",
@@ -1491,7 +1491,7 @@
           "model": [
             {
               "v": "m1",
-              "t": "Guten Tag! Ich heiße José López und bin achtundzwanzig. Ich komme aus Spanien und wohne in Zürich. Ich bin nicht verheiratet, aber ich habe eine Partnerin. Meine Eltern wohnen in Granada. Ich habe eine Schwester."
+              "t": "Guten Tag! Ich heiße José Romero und bin neunundzwanzig. Ich komme aus Spanien und wohne in Zürich. Ich bin nicht verheiratet, aber ich habe eine Partnerin. Meine Eltern wohnen in Córdoba. Ich habe eine Schwester."
             }
           ]
         },
@@ -1502,11 +1502,11 @@
             "Familienstand?",
             "Kinder?"
           ],
-          "extra": "Der Prüfer fragt dann: Wie heißen Ihre Kinder?",
+          "extra": "Der Prüfer fragt dann: Wie heißt Ihr Partner?",
           "model": [
             {
               "v": "f1",
-              "t": "Hallo! Mein Name ist Laura García. Ich komme aus Spanien. Ich bin verheiratet, mein Mann heißt Tom. Wir haben zwei Kinder, einen Sohn und eine Tochter. Sie heißen Leo und Sara."
+              "t": "Hallo! Mein Name ist Andrea Navarro. Ich komme aus Spanien. Ich bin nicht verheiratet, aber ich habe einen Partner. Er heißt José. Wir haben noch keine Kinder. Ich habe zwei Brüder, sie heißen Javier und Pablo."
             }
           ]
         },

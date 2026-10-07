@@ -514,13 +514,13 @@
           "task": "In Ihrer Wohnung funktioniert die Heizung nicht. Schreiben Sie Ihrem Vermieter, Herrn Bauer.",
           "points": ["Was ist das Problem?", "Seit wann?", "Wann kann der Techniker kommen?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrter Herr Bauer,\n\nin meiner Wohnung funktioniert die Heizung nicht. Sie ist seit Montag kalt und es sind nur 15 Grad im Wohnzimmer. Könnte der Techniker bitte bald kommen? Ich bin jeden Tag ab 16 Uhr zu Hause.\n\nMit freundlichen Grüßen\nJosé López"
+          "model": "Sehr geehrter Herr Bauer,\n\nin meiner Wohnung funktioniert die Heizung nicht. Sie ist seit Montag kalt und es sind nur 15 Grad im Wohnzimmer. Könnte der Techniker bitte bald kommen? Ich bin jeden Tag ab 16 Uhr zu Hause.\n\nMit freundlichen Grüßen\nJosé Romero"
         },
         {
           "task": "Sie haben eine Wohnungsanzeige gelesen. Schreiben Sie an die Hausverwaltung.",
           "points": ["Stellen Sie sich kurz vor.", "Fragen Sie nach der Miete und den Nebenkosten.", "Sie möchten die Wohnung besichtigen: Wann?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für die 2-Zimmer-Wohnung in der Seestraße. Ich bin 34 Jahre alt und arbeite als Ingenieurin in Basel. Wie hoch sind die Miete und die Nebenkosten? Ich möchte die Wohnung gern besichtigen, am besten abends nach 17 Uhr.\n\nMit freundlichen Grüßen\nLaura García"
+          "model": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für die 2-Zimmer-Wohnung in der Seestraße. Ich bin 27 Jahre alt und arbeite bei einer Pharmafirma in Zürich. Wie hoch sind die Miete und die Nebenkosten? Ich möchte die Wohnung gern besichtigen, am besten abends nach 17 Uhr.\n\nMit freundlichen Grüßen\nAndrea Navarro"
         }
       ]
     },

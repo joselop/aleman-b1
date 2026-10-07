@@ -105,7 +105,8 @@
         { "text": "Wir geben [[dem]] Kind ein Eis. (das Kind)" },
         { "text": "Er zeigt [[den]] Gästen die Wohnung. (die Gäste)" },
         { "text": "Ich schicke [[meinen]] Eltern ein Foto. (meine Eltern)" },
-        { "text": "Kannst du [[der]] Lehrerin die E-Mail schicken? (die Lehrerin)" }
+        { "text": "Kannst du [[der]] Lehrerin die E-Mail schicken? (die Lehrerin)" },
+        { "text": "José schenkt [[seiner]] Freundin Andrea Blumen. (seine Freundin)" }
       ]
     },
     {
@@ -487,7 +488,7 @@
           "task": "Sie machen am Samstag ein Grillfest. Schreiben Sie Ihrer Nachbarin Frau Steiner eine Nachricht.",
           "points": ["Laden Sie sie ein.", "Wann und wo?", "Bitten Sie sie um etwas (z. B. Stühle)."],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Steiner, am Samstag um 18 Uhr machen wir ein Grillfest im Garten. Wir würden uns freuen, wenn Sie auch kommen! Könnten Sie uns vielleicht vier Stühle leihen? Viele Grüße, Laura García (2. Stock)"
+          "model": "Liebe Frau Steiner, am Samstag um 18 Uhr machen wir ein Grillfest im Garten. Wir würden uns freuen, wenn Sie auch kommen! Könnten Sie uns vielleicht vier Stühle leihen? Viele Grüße, Andrea Navarro (2. Stock)"
         }
       ],
       "t2": [
@@ -495,13 +496,13 @@
           "task": "Ihre Kollegin Frau Lehmann hat Sie zu ihrer Hochzeit eingeladen. Antworten Sie ihr.",
           "points": ["Bedanken Sie sich für die Einladung.", "Sagen Sie, dass Sie kommen.", "Fragen Sie nach einem Geschenkwunsch."],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Lehmann,\n\nvielen Dank für die Einladung zu Ihrer Hochzeit! Ich gratuliere Ihnen und Ihrem Partner ganz herzlich. Natürlich komme ich sehr gern, auch mit meinem Partner. Können Sie mir sagen, ob Sie einen Geschenkwunsch haben?\n\nViele Grüße\nJosé López"
+          "model": "Liebe Frau Lehmann,\n\nvielen Dank für die Einladung zu Ihrer Hochzeit! Ich gratuliere Ihnen und Ihrem Partner ganz herzlich. Natürlich komme ich sehr gern, auch mit meinem Partner. Können Sie mir sagen, ob Sie einen Geschenkwunsch haben?\n\nViele Grüße\nJosé Romero"
         },
         {
           "task": "Ihr Chef, Herr Wyss, hat Sie zum Sommerfest der Firma eingeladen. Sie können nicht kommen. Schreiben Sie ihm.",
           "points": ["Bedanken Sie sich.", "Entschuldigen Sie sich und nennen Sie den Grund.", "Wünschen Sie ein schönes Fest."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrter Herr Wyss,\n\nvielen Dank für die Einladung zum Sommerfest. Leider kann ich nicht kommen, weil an diesem Wochenende meine Schwester in Madrid heiratet. Das tut mir sehr leid. Ich wünsche Ihnen und allen Kolleginnen und Kollegen ein schönes Fest!\n\nMit freundlichen Grüßen\nLaura García"
+          "model": "Sehr geehrter Herr Wyss,\n\nvielen Dank für die Einladung zum Sommerfest. Leider kann ich nicht kommen, weil an diesem Wochenende meine Schwester in Madrid heiratet. Das tut mir sehr leid. Ich wünsche Ihnen und allen Kolleginnen und Kollegen ein schönes Fest!\n\nMit freundlichen Grüßen\nAndrea Navarro"
         }
       ]
     },

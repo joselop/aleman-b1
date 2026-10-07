@@ -485,13 +485,13 @@
           "task": "In Ihrem Haus trennen einige Nachbarn den Müll nicht. Schreiben Sie an Ihre Hausverwaltung, Frau Kunz.",
           "points": ["Was ist das Problem?", "Seit wann?", "Machen Sie einen Vorschlag."],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Frau Kunz,\n\nich wohne im Haus Seestraße 12. Seit einigen Wochen trennen einige Nachbarn den Müll nicht: Im Keller stehen Glasflaschen und Karton neben den normalen Müllsäcken. Das ist nicht schön und es riecht schlecht. Könnten Sie bitte allen Bewohnern einen Brief mit den Regeln schicken? Vielleicht kann man auch ein Schild im Keller aufhängen.\n\nMit freundlichen Grüßen\nJosé López"
+          "model": "Sehr geehrte Frau Kunz,\n\nich wohne im Haus Seestraße 12. Seit einigen Wochen trennen einige Nachbarn den Müll nicht: Im Keller stehen Glasflaschen und Karton neben den normalen Müllsäcken. Das ist nicht schön und es riecht schlecht. Könnten Sie bitte allen Bewohnern einen Brief mit den Regeln schicken? Vielleicht kann man auch ein Schild im Keller aufhängen.\n\nMit freundlichen Grüßen\nJosé Romero"
         },
         {
           "task": "Sie haben im Internet eine geführte Wanderung gesehen. Schreiben Sie an das Tourismusbüro.",
           "points": ["Welche Wanderung?", "Wie viele Personen?", "Fragen Sie: Was passiert bei schlechtem Wetter?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nauf Ihrer Webseite habe ich die geführte Wanderung zum Aletschgletscher am 15. Juli gesehen. Wir sind zwei Erwachsene und ein Kind von zwölf Jahren und möchten uns gern anmelden. Was passiert bei schlechtem Wetter? Bekommen wir dann das Geld zurück?\n\nMit freundlichen Grüßen\nLaura García"
+          "model": "Sehr geehrte Damen und Herren,\n\nauf Ihrer Webseite habe ich die geführte Wanderung zum Aletschgletscher am 15. Juli gesehen. Wir sind zwei Erwachsene und möchten uns gern anmelden. Was passiert bei schlechtem Wetter? Bekommen wir dann das Geld zurück?\n\nMit freundlichen Grüßen\nAndrea Navarro"
         }
       ]
     },

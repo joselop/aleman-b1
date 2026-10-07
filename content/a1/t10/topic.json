@@ -305,7 +305,7 @@
       "t3": [
         {
           "q": "Wann ist der neue Termin?", "options": ["Mittwoch, 14 Uhr", "Donnerstag, 14 Uhr", "Donnerstag, 16 Uhr"], "answer": 1,
-          "audio": [{ "v": "f2", "t": "Guten Tag, Herr López, hier ist die Zahnarztpraxis Dr. Sommer. Ihr Termin am Mittwoch geht leider nicht. Können Sie am Donnerstag um vierzehn Uhr kommen? Bitte rufen Sie uns an." }]
+          "audio": [{ "v": "f2", "t": "Guten Tag, Herr Romero, hier ist die Zahnarztpraxis Dr. Sommer. Ihr Termin am Mittwoch geht leider nicht. Können Sie am Donnerstag um vierzehn Uhr kommen? Bitte rufen Sie uns an." }]
         },
         {
           "q": "Was soll Paul kaufen?", "options": ["Tabletten", "Hustensaft", "Tee"], "answer": 1,
@@ -412,7 +412,7 @@
           "task": "Sie sind krank und können morgen nicht zur Arbeit. Schreiben Sie Ihrem Chef, Herrn Graf.",
           "points": ["Was haben Sie?", "Sie gehen zum Arzt.", "Wann kommen Sie wieder?"],
           "register": "formal (Sie)",
-          "model": "Sehr geehrter Herr Graf,\n\nich bin leider krank. Ich habe Fieber und Halsschmerzen. Morgen gehe ich zum Arzt. Ich kann erst am Montag wieder arbeiten.\n\nViele Grüße\nJosé López"
+          "model": "Sehr geehrter Herr Graf,\n\nich bin leider krank. Ich habe Fieber und Halsschmerzen. Morgen gehe ich zum Arzt. Ich kann erst am Montag wieder arbeiten.\n\nViele Grüße\nJosé Romero"
         },
         {
           "task": "Ihre Freundin Marta ist krank. Schreiben Sie ihr.",
@@ -433,7 +433,7 @@
         {
           "keywords": ["Name?", "Alter?", "Sport?", "Gesundheit?"],
           "extra": "Der Prüfer fragt dann: Sind Sie oft krank?",
-          "model": [{ "v": "m1", "t": "Guten Tag! Ich heiße José und bin achtundzwanzig. Ich laufe dreimal in der Woche. Ich bin meistens gesund, aber im Winter bin ich oft erkältet. Dann trinke ich viel Tee und bleibe zu Hause." }]
+          "model": [{ "v": "m1", "t": "Guten Tag! Ich heiße José und bin neunundzwanzig. Ich laufe dreimal in der Woche. Ich bin meistens gesund, aber im Winter bin ich oft erkältet. Dann trinke ich viel Tee und bleibe zu Hause." }]
         },
         {
           "keywords": ["Name?", "Familie?", "Arzt?"],

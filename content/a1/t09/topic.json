@@ -1086,7 +1086,7 @@
           "audio": [
             {
               "v": "f1",
-              "t": "Guten Tag, Herr López, hier ist Frau Graf. Unser Büro ist jetzt in der Marktgasse, gegenüber vom Rathaus. Bis Montag!"
+              "t": "Guten Tag, Herr Romero, hier ist Frau Graf. Unser Büro ist jetzt in der Marktgasse, gegenüber vom Rathaus. Bis Montag!"
             }
           ]
         },
@@ -1439,7 +1439,7 @@
             "Wann sind Sie im Büro?"
           ],
           "register": "formal (Sie)",
-          "model": "Liebe Frau Keller,\n\nich komme heute leider später. Mein Zug hat eine Stunde Verspätung. Ich bin um halb zehn im Büro.\n\nViele Grüße\nLaura García"
+          "model": "Liebe Frau Keller,\n\nich komme heute leider später. Mein Zug hat eine Stunde Verspätung. Ich bin um halb zehn im Büro.\n\nViele Grüße\nAndrea Navarro"
         },
         {
           "task": "Sie fahren heute mit dem Bus. Ihre Jacke liegt jetzt noch im Bus. Schreiben Sie an das Fundbüro.",
@@ -1466,7 +1466,7 @@
           "model": [
             {
               "v": "m1",
-              "t": "Guten Tag! Ich heiße José und wohne seit einem Jahr in Zürich. Ich arbeite an der ETH. Ich fahre mit der Straßenbahn zur Arbeit, das dauert zwanzig Minuten. Im Sommer fahre ich auch mit dem Fahrrad."
+              "t": "Guten Tag! Ich heiße José und wohne seit einem Jahr in Zürich. Ich arbeite an der Universität. Ich fahre mit der Straßenbahn zur Arbeit, das dauert zwanzig Minuten. Im Sommer fahre ich auch mit dem Fahrrad."
             }
           ]
         },
