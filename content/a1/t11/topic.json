@@ -55,7 +55,7 @@
     { "de": "trinken – getrunken", "es": "beber – bebido", "cat": "Participios", "forms": "hat getrunken", "ex": "Ich habe zu viel Kaffee getrunken.", "ex_es": "He tomado demasiado café." },
     { "de": "sehen – gesehen", "es": "ver – visto", "cat": "Participios", "forms": "hat gesehen", "ex": "Hast du den Film gesehen?", "ex_es": "¿Has visto la película?" },
     { "de": "schreiben – geschrieben", "es": "escribir – escrito", "cat": "Participios", "forms": "hat geschrieben", "ex": "Ich habe eine E-Mail geschrieben.", "ex_es": "He escrito un correo." },
-    { "de": "treffen – getroffen", "es": "quedar con – quedado", "cat": "Participios", "forms": "hat getroffen", "ex": "Ich habe Anna getroffen.", "ex_es": "He quedado con Anna." },
+    { "de": "treffen – getroffen", "es": "quedar con – quedado", "cat": "Participios", "forms": "hat getroffen", "ex": "Ich habe Andrea getroffen.", "ex_es": "He quedado con Andrea." },
     { "de": "anrufen – angerufen", "es": "llamar – llamado", "cat": "Participios", "forms": "hat angerufen", "ex": "Hast du deine Mutter angerufen?", "ex_es": "¿Has llamado a tu madre?" },
     { "de": "einkaufen – eingekauft", "es": "hacer la compra – hecho la compra", "cat": "Participios", "forms": "hat eingekauft", "ex": "Ich habe schon eingekauft.", "ex_es": "Ya he hecho la compra." },
     { "de": "bezahlen – bezahlt", "es": "pagar – pagado", "cat": "Participios", "forms": "hat bezahlt", "ex": "Hast du die Rechnung bezahlt?", "ex_es": "¿Has pagado la factura?" }
@@ -143,7 +143,7 @@
       "items": [
         { "text": "Ich [[habe]] gestern viel [[gearbeitet]]. (arbeiten)" },
         { "text": "Was [[hast]] du am Wochenende [[gemacht]]? (machen)" },
-        { "text": "Anna [[hat]] ein Buch [[gelesen]]. (lesen)" },
+        { "text": "Andrea [[hat]] ein Buch [[gelesen]]. (lesen)" },
         { "text": "Wir [[haben]] Pizza [[gegessen]]. (essen)" },
         { "text": "[[Habt]] ihr schon [[eingekauft]]? (einkaufen)" },
         { "text": "Meine Eltern [[haben]] mich [[angerufen]]. (anrufen)" },
@@ -275,7 +275,7 @@
           ]
         },
         {
-          "q": "Was hat Anna gestern gekauft?", "options": ["einen Rock", "Schuhe", "eine Jacke"], "answer": 2,
+          "q": "Was hat Andrea gestern gekauft?", "options": ["einen Rock", "Schuhe", "eine Jacke"], "answer": 2,
           "audio": [
             { "v": "m2", "t": "Hast du gestern Schuhe gekauft?" },
             { "v": "f1", "t": "Nein, die Schuhe haben zu viel gekostet. Aber ich habe eine Jacke gekauft. Sie ist sehr schön!" }

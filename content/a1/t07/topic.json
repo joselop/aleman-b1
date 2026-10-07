@@ -82,7 +82,7 @@
       "items": [
         { "text": "[[Fährst]] du gern Rad? (fahren)" },
         { "text": "Mein Bruder [[liest]] sehr viel. (lesen)" },
-        { "text": "Am Sonntag [[schläft]] Anna lange. (schlafen)" },
+        { "text": "Am Sonntag [[schläft]] Andrea lange. (schlafen)" },
         { "text": "[[Siehst]] du oft Filme? (sehen)" },
         { "text": "Er [[läuft]] jeden Tag zehn Kilometer. (laufen)" },
         { "text": "Sie [[trifft]] am Freitag ihre Freundin. (treffen)" },
@@ -141,7 +141,7 @@
         { "q": "Hast du Lust? Wir gehen heute ins Kino.", "options": ["Ja, gern! Wann?", "Ja, ich habe Kino.", "Doch, gern."], "answer": 0 },
         { "q": "Wollen wir am Samstag wandern? (No puedes.)", "options": ["Gute Idee!", "Leider kann ich am Samstag nicht.", "Ich will wandern."], "answer": 1 },
         { "q": "Wann treffen wir uns?", "options": ["Vor dem Kino.", "Um acht Uhr.", "Ja, gern."], "answer": 1 },
-        { "q": "Wo treffen wir uns?", "options": ["Am Bahnhof.", "Am Samstag.", "Mit Anna."], "answer": 0 },
+        { "q": "Wo treffen wir uns?", "options": ["Am Bahnhof.", "Am Samstag.", "Mit Andrea."], "answer": 0 },
         { "q": "Kommst du mit?", "options": ["Ja, ich komme mit.", "Ja, ich mitkomme.", "Ja, ich komme."], "answer": 0 }
       ]
     },
@@ -264,9 +264,9 @@
           ]
         },
         {
-          "q": "Was macht Anna am liebsten?", "options": ["lesen", "fotografieren", "kochen"], "answer": 1,
+          "q": "Was macht Andrea am liebsten?", "options": ["lesen", "fotografieren", "kochen"], "answer": 1,
           "audio": [
-            { "v": "m1", "t": "Anna, du liest viel, oder?" },
+            { "v": "m1", "t": "Andrea, du liest viel, oder?" },
             { "v": "f1", "t": "Ja, und ich koche gern. Aber am liebsten fotografiere ich." }
           ]
         },

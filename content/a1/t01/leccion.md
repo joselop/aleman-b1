@@ -49,7 +49,7 @@ En el examen A1, con el examinador usas *Sie*; con tu compañero de examen puede
 | [[de:Wo wohnen Sie?::¿Dónde vive usted?]] | [[de:Wo wohnst du?::¿Dónde vives?]] | [[de:Ich wohne in Zürich.::Vivo en Zúrich.]] |
 | [[de:Was machen Sie hier?::¿Qué hace usted aquí?]] | [[de:Was machst du hier?::¿Qué haces aquí?]] | [[de:Ich lerne Deutsch.::Aprendo alemán.]] / [[de:Ich arbeite hier.::Trabajo aquí.]] |
 
-Presentar a otra persona: [[de:Das ist Anna. Sie kommt aus Österreich.::Esta es Anna. Es de Austria.]] — y la respuesta típica: [[de:Freut mich!]] (¡Encantado/a!).
+Presentar a otra persona: [[de:Das ist Nora. Sie kommt aus Österreich.::Esta es Nora. Es de Austria.]] — y la respuesta típica: [[de:Freut mich!]] (¡Encantado/a!).
 
 Fíjate en las preposiciones, que no se traducen igual que en español:
 
@@ -204,7 +204,7 @@ Las preguntas abiertas empiezan con una palabra interrogativa que casi siempre e
 | **wer** | quién | [[de:Wer ist das?::¿Quién es?]] |
 | **wie** | cómo | [[de:Wie heißt du?::¿Cómo te llamas?]] |
 | **woher** | de dónde | [[de:Woher kommen Sie?::¿De dónde es usted?]] |
-| **wo** | dónde | [[de:Wo wohnt Anna?::¿Dónde vive Anna?]] |
+| **wo** | dónde | [[de:Wo wohnt Andrea?::¿Dónde vive Andrea?]] |
 | **was** | qué | [[de:Was machst du hier?::¿Qué haces aquí?]] |
 
 - Ojo con el falso amigo: **wer** = *quién* (no "dónde"); **wo** = *dónde*.

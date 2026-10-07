@@ -128,7 +128,7 @@
       "title": "Preguntas indirectas",
       "instructions": "Transforma la pregunta: empieza con «Weißt du, …».",
       "items": [
-        { "prompt": "Kommt Anna zur Party?", "answers": ["Weißt du, ob Anna zur Party kommt?"] },
+        { "prompt": "Kommt Andrea zur Party?", "answers": ["Weißt du, ob Andrea zur Party kommt?"] },
         { "prompt": "Wann beginnt das Fest?", "answers": ["Weißt du, wann das Fest beginnt?"] },
         { "prompt": "Hat Paul ein Geschenk gekauft?", "answers": ["Weißt du, ob Paul ein Geschenk gekauft hat?"] },
         { "prompt": "Wo wohnt Lisa?", "answers": ["Weißt du, wo Lisa wohnt?"] },
@@ -215,7 +215,7 @@
         { "prompt": "El pastel me sabe muy bien.", "answers": ["Der Kuchen schmeckt mir sehr gut.", "Der Kuchen schmeckt mir sehr."] },
         { "prompt": "Echo de menos a mi familia.", "answers": ["Meine Familie fehlt mir.", "Ich vermisse meine Familie."] },
         { "prompt": "Le regalo un libro a mi hermano.", "answers": ["Ich schenke meinem Bruder ein Buch."] },
-        { "prompt": "¿Sabes si viene Anna?", "answers": ["Weißt du, ob Anna kommt?"] },
+        { "prompt": "¿Sabes si viene Andrea?", "answers": ["Weißt du, ob Andrea kommt?"] },
         { "prompt": "Gracias por la invitación.", "answers": ["Danke für die Einladung.", "Vielen Dank für die Einladung."] }
       ]
     }
@@ -273,13 +273,13 @@
       "t3": [
         {
           "title": "E-Mail",
-          "text": "Liebe Freundinnen und Freunde,\n\nwir haben eine große Neuigkeit: Wir heiraten! Die Hochzeit ist am Samstag, den 14. Juni, um 14 Uhr in der kleinen Kirche in Rapperswil. Danach feiern wir im Restaurant Seerose direkt am See – mit Essen, Musik und hoffentlich viel Tanz!\nBitte sagt uns bis Ende April, ob ihr kommen könnt und ob ihr vegetarisch esst. Kinder sind natürlich herzlich willkommen.\nIhr fragt euch, was ihr uns schenken könnt? Wir haben schon alles für die Wohnung. Wir würden uns über einen Beitrag für unsere Hochzeitsreise nach Japan freuen.\nWir freuen uns sehr auf euch!\n\nAnna und David",
+          "text": "Liebe Freundinnen und Freunde,\n\nwir haben eine große Neuigkeit: Wir heiraten! Die Hochzeit ist am Samstag, den 14. Juni, um 14 Uhr in der kleinen Kirche in Rapperswil. Danach feiern wir im Restaurant Seerose direkt am See – mit Essen, Musik und hoffentlich viel Tanz!\nBitte sagt uns bis Ende April, ob ihr kommen könnt und ob ihr vegetarisch esst. Kinder sind natürlich herzlich willkommen.\nIhr fragt euch, was ihr uns schenken könnt? Wir haben schon alles für die Wohnung. Wir würden uns über einen Beitrag für unsere Hochzeitsreise nach Japan freuen.\nWir freuen uns sehr auf euch!\n\nClara und David",
           "questions": [
-            { "q": "Wo heiraten Anna und David?", "options": ["in einem Restaurant", "in einer Kirche", "am See"], "answer": 1 },
+            { "q": "Wo heiraten Clara und David?", "options": ["in einem Restaurant", "in einer Kirche", "am See"], "answer": 1 },
             { "q": "Bis wann sollen die Gäste antworten?", "options": ["bis Ende April", "bis zum 14. Juni", "bis Ende Mai"], "answer": 0 },
             { "q": "Was sollen die Gäste noch sagen?", "options": ["ob sie tanzen", "ob sie vegetarisch essen", "ob sie mit dem Auto kommen"], "answer": 1 },
             { "q": "Dürfen Kinder mitkommen?", "options": ["ja", "nein", "nur bis 14 Uhr"], "answer": 0 },
-            { "q": "Was wünschen sich Anna und David?", "options": ["Sachen für die Wohnung", "Geld für die Reise", "Bücher über Japan"], "answer": 1 }
+            { "q": "Was wünschen sich Clara und David?", "options": ["Sachen für die Wohnung", "Geld für die Reise", "Bücher über Japan"], "answer": 1 }
           ]
         },
         {
@@ -322,7 +322,7 @@
             { "key": "f", "text": "Tandem-Partner gesucht: Ich spreche Deutsch und möchte Spanisch lernen." }
           ],
           "items": [
-            { "situation": "Ana und Tom möchten am Samstag allein essen gehen, aber sie haben zwei kleine Kinder.", "answer": "d" },
+            { "situation": "Sara und Tom möchten am Samstag allein essen gehen, aber sie haben zwei kleine Kinder.", "answer": "d" },
             { "situation": "Carlos möchte Deutsch üben und kann Spanisch unterrichten.", "answer": "f" },
             { "situation": "Herr Meier ist 85 und braucht Hilfe beim Einkaufen.", "answer": "e" },
             { "situation": "Lucía ist neu in der Stadt und möchte Leute aus Lateinamerika kennenlernen.", "answer": "a" },

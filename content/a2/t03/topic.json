@@ -303,7 +303,7 @@
             { "key": "f", "text": "Kinderbetreuung: Wir suchen eine liebevolle Person für unsere Kita, Teilzeit." }
           ],
           "items": [
-            { "situation": "Anna studiert und sucht einen Ferienjob im Sommer.", "answer": "a" },
+            { "situation": "Sara studiert und sucht einen Ferienjob im Sommer.", "answer": "a" },
             { "situation": "Herr Okafor möchte gern nachts arbeiten und alten Menschen helfen.", "answer": "b" },
             { "situation": "Lea ist Mathematikstudentin und hat nachmittags Zeit.", "answer": "d" },
             { "situation": "Ivo hat einen Führerschein und möchte am Morgen arbeiten.", "answer": "e" },

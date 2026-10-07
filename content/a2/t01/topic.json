@@ -332,7 +332,7 @@
             { "key": "f", "text": "Second-Hand-Möbel: Günstige Möbel für Ihre erste Wohnung. Lieferung möglich." }
           ],
           "items": [
-            { "situation": "Ana ist neu in Zürich und möchte Leute aus anderen Ländern kennenlernen.", "answer": "c" },
+            { "situation": "Andrea ist neu in Zürich und möchte Leute aus anderen Ländern kennenlernen.", "answer": "c" },
             { "situation": "Familie Ruiz hat drei Kinder und sucht ein größeres Zuhause.", "answer": "d" },
             { "situation": "Kenji kann noch kein Deutsch und hat am Vormittag Zeit.", "answer": "a" },
             { "situation": "Lukas zieht von zu Hause aus und hat nicht viel Geld für einen Tisch und ein Bett.", "answer": "f" },
@@ -345,7 +345,7 @@
       "t1": [
         {
           "q": "Wann ist der Vortrag?", "options": ["heute um 19 Uhr", "morgen um 19 Uhr", "morgen um 20 Uhr"], "answer": 1,
-          "audio": [{ "v": "f1", "t": "Hier ist die Stadtbibliothek. Morgen um neunzehn Uhr erzählt die Autorin Anna Weber aus ihrem Leben in Afrika. Der Eintritt ist frei. Wir freuen uns auf Sie!" }]
+          "audio": [{ "v": "f1", "t": "Hier ist die Stadtbibliothek. Morgen um neunzehn Uhr erzählt die Autorin Petra Weber aus ihrem Leben in Afrika. Der Eintritt ist frei. Wir freuen uns auf Sie!" }]
         },
         {
           "q": "Was soll Paul mitbringen?", "options": ["alte Fotos", "einen Kuchen", "Getränke"], "answer": 0,
@@ -543,7 +543,7 @@
       "t3": [
         {
           "task": "Ein Freund von Ihnen zieht am Samstag um. Sie möchten zusammen einen Tag finden, an dem Sie ein Geschenk für ihn kaufen. Finden Sie einen Termin.",
-          "mine": ["Montag: 8–17 Uhr Arbeit", "Dienstag: 18 Uhr Deutschkurs", "Mittwoch: Nachmittag frei", "Donnerstag: 19 Uhr Kino mit Anna", "Freitag: 15 Uhr Zahnarzt"],
+          "mine": ["Montag: 8–17 Uhr Arbeit", "Dienstag: 18 Uhr Deutschkurs", "Mittwoch: Nachmittag frei", "Donnerstag: 19 Uhr Kino mit Andrea", "Freitag: 15 Uhr Zahnarzt"],
           "partner": ["Montag: abends Fußballtraining", "Dienstag: Nachmittag frei", "Mittwoch: 14–16 Uhr frei, dann Arbeit", "Donnerstag: ganzer Tag Arbeit", "Freitag: Vormittag frei"],
           "model": [
             { "v": "m1", "t": "Wann hast du Zeit? Wollen wir am Dienstag zusammen ein Geschenk kaufen?" },

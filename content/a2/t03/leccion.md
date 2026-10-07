@@ -28,7 +28,7 @@ Palabras clave: **der Arbeitgeber** (empleador) · **der Arbeitnehmer** (emplead
 
 ## 3. Al teléfono en la oficina
 
-> [[de:Firma Techno, Sie sprechen mit Anna Keller. Was kann ich für Sie tun?::Empresa Techno, le atiende Anna Keller. ¿En qué puedo ayudarle?]]
+> [[de:Firma Techno, Sie sprechen mit Sara Keller. Was kann ich für Sie tun?::Empresa Techno, le atiende Sara Keller. ¿En qué puedo ayudarle?]]
 > [[de:Guten Tag, mein Name ist Romero. Kann ich bitte mit Herrn Graf sprechen?::Buenos días, me llamo Romero. ¿Puedo hablar con el señor Graf, por favor?]]
 > [[de:Herr Graf ist leider nicht im Haus. Kann ich ihm etwas ausrichten?::El señor Graf no está, lo siento. ¿Quiere dejarle algún recado?]]
 > [[de:Ja, er soll mich bitte zurückrufen. Meine Nummer ist 079 123 45 67.::Sí, que me devuelva la llamada, por favor. Mi número es el 079 123 45 67.]]

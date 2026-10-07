@@ -78,7 +78,7 @@ Los pronombres siguen el **género gramatical**, no el sexo: *Das Kind* → **es
 
 - [[de:Ich habe zwei Kinder.::Tengo dos hijos.]]
 - [[de:Hast du Geschwister?::¿Tienes hermanos?]]
-- [[de:Anna hat drei Brüder.::Anna tiene tres hermanos.]]
+- [[de:Clara hat drei Brüder.::Clara tiene tres hermanos.]]
 - [[de:Wir haben keine Kinder.::No tenemos hijos.]]
 
 Con un sustantivo **masculino en singular**, detrás de *haben* el artículo cambia: **ein → einen**, **kein → keinen**: [[de:Ich habe einen Bruder.::Tengo un hermano.]] Apréndelo de momento como bloque; en el tema 4 verás el porqué (el acusativo). Con femeninos, neutros y plurales no cambia nada: *Ich habe **eine** Schwester / **ein** Kind / **zwei** Kinder.*
@@ -100,7 +100,7 @@ La terminación funciona igual que *ein / eine*: sin terminación con masculino 
 El español dice "su" para todo; el alemán distingue **de quién** es:
 
 - [[de:Das ist Peter. Sein Sohn heißt Max.::Este es Peter. Su hijo se llama Max.]] (el hijo **de Peter**)
-- [[de:Das ist Anna. Ihr Sohn heißt Max.::Esta es Anna. Su hijo se llama Max.]] (el hijo **de Anna**)
+- [[de:Das ist Eva. Ihr Sohn heißt Max.::Esta es Eva. Su hijo se llama Max.]] (el hijo **de Eva**)
 - [[de:Herr Keller, wie heißt Ihr Sohn?::Señor Keller, ¿cómo se llama su hijo?]] (el hijo **de usted**)
 
 Los posesivos de *wir, ihr, sie* (unser, euer, ihr) los verás en el tema 10.
@@ -126,7 +126,7 @@ Fíjate en **Das ist** (singular) y **Das sind** (plural): *Das **sind** meine E
 
 1. **Aprender el sustantivo sin artículo:** apunta siempre *das Kind*, *die Tochter*, *der Bruder*.
 2. **Traducir el género del español:** *~~die Mädchen~~* (una chica) → *das Mädchen*.
-3. **Confundir *sein* y *ihr* (su):** "Anna y **su** marido" → *Anna und **ihr** Mann* (no *~~sein Mann~~*).
+3. **Confundir *sein* y *ihr* (su):** "Nora y **su** marido" → *Nora und **ihr** Mann* (no *~~sein Mann~~*).
 4. **Olvidar la -e del femenino:** *~~mein Mutter~~* → *meine Mutter*; *~~dein Eltern~~* → *deine Eltern*.
 5. **Negar con *nicht* un sustantivo con *ein*:** *~~Ich habe nicht Kinder~~* → *Ich habe keine Kinder.*
 6. **Usar *Parientes* como "padres":** *Eltern* = padres; *Verwandte* = parientes.

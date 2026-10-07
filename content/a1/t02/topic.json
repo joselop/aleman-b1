@@ -81,8 +81,8 @@
       "de": "dreißig",
       "es": "treinta",
       "cat": "Números",
-      "ex": "Anna ist dreißig.",
-      "ex_es": "Anna tiene treinta años."
+      "ex": "Nora ist dreißig.",
+      "ex_es": "Nora tiene treinta años."
     },
     {
       "de": "sechzig",
@@ -264,8 +264,8 @@
       "de": "Portugal",
       "es": "Portugal",
       "cat": "Países e idiomas",
-      "ex": "Ana kommt aus Portugal, aus Lissabon.",
-      "ex_es": "Ana es de Portugal, de Lisboa."
+      "ex": "Sofia kommt aus Portugal, aus Lissabon.",
+      "ex_es": "Sofia es de Portugal, de Lisboa."
     },
     {
       "de": "Mexiko",
@@ -712,13 +712,13 @@
         {
           "words": [
             "Wohnt",
-            "Anna",
+            "Andrea",
             "in",
             "Wien",
             "?"
           ],
           "answers": [
-            "Wohnt Anna in Wien?"
+            "Wohnt Andrea in Wien?"
           ]
         },
         {
@@ -1210,7 +1210,7 @@
           "audio": [
             {
               "v": "f1",
-              "t": "Hallo Anna, hier ist Lena. Kommst du am Samstag? Mein Opa hat Geburtstag. Er ist fünfundsiebzig! Tschüss!"
+              "t": "Hallo Andrea, hier ist Lena. Kommst du am Samstag? Mein Opa hat Geburtstag. Er ist fünfundsiebzig! Tschüss!"
             }
           ]
         }

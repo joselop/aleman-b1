@@ -530,7 +530,7 @@
           "text": "Was [[isst]] du zum Frühstück? (essen)"
         },
         {
-          "text": "Anna [[isst]] kein Fleisch. (essen)"
+          "text": "Andrea [[isst]] kein Fleisch. (essen)"
         },
         {
           "text": "Ich [[nehme]] das Hähnchen. (nehmen)"
@@ -1195,7 +1195,7 @@
           "audio": [
             {
               "v": "f2",
-              "t": "Hallo Paul, hier ist Anna. Kaufst du bitte noch Milch und sechs Eier? Brot und Käse haben wir noch. Danke!"
+              "t": "Hallo Paul, hier ist Sara. Kaufst du bitte noch Milch und sechs Eier? Brot und Käse haben wir noch. Danke!"
             }
           ]
         },
@@ -1428,7 +1428,7 @@
     "schreiben": {
       "t1": [
         {
-          "context": "Sie organisieren das Kursfest. Eva bringt einen Kuchen. Paul bringt Brot und Käse. Mehmet bringt Getränke: Wasser und Saft. Anna bringt einen Salat. Das Fest ist am Freitag.",
+          "context": "Sie organisieren das Kursfest. Eva bringt einen Kuchen. Paul bringt Brot und Käse. Mehmet bringt Getränke: Wasser und Saft. Andrea bringt einen Salat. Das Fest ist am Freitag.",
           "title": "Kursfest – Wer bringt was?",
           "fields": [
             {
@@ -1453,7 +1453,7 @@
               ]
             },
             {
-              "label": "Anna",
+              "label": "Andrea",
               "answers": [
                 "Salat",
                 "einen Salat"

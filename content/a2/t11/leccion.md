@@ -79,7 +79,7 @@ Masculino y neutro: el artículo es **des** y el sustantivo añade **-s** o **-e
 - [[de:Das ist das Auto meines Vaters. = Das ist das Auto von meinem Vater.::Es el coche de mi padre.]]
 - [[de:Der Gipfel des Berges ist 3000 Meter hoch.::La cima de la montaña tiene 3000 metros.]]
 - [[de:Die Farbe der Blätter ändert sich im Herbst.::El color de las hojas cambia en otoño.]]
-- **Nombres propios**: solo **-s** delante, sin apóstrofo: [[de:Annas Hund::el perro de Anna]] · [[de:Zürichs Seen::los lagos de Zúrich]].
+- **Nombres propios**: solo **-s** delante, sin apóstrofo: [[de:Noras Hund::el perro de Nora]] · [[de:Zürichs Seen::los lagos de Zúrich]].
 
 Preposiciones con genitivo (en la lengua hablada a menudo con dativo):
 - **wegen** (por, a causa de): [[de:Wegen des Regens bleiben wir zu Hause.::Por la lluvia nos quedamos en casa.]]
@@ -95,7 +95,7 @@ Para preguntar por el poseedor: **wessen?** (¿de quién?): *Wessen Rucksack ist
 3. **Confundir *wird* (se vuelve / futuro) con *wir* (nosotros).**
 4. **Traducir *hace frío* con *machen*:** *~~Es macht kalt~~* → *Es **ist** kalt.*
 5. **Olvidar la -s del genitivo:** *~~das Auto des Vater~~* → *des Vater**s***.
-6. **Poner apóstrofo:** *~~Anna's Hund~~* → *Annas Hund*.
+6. **Poner apóstrofo:** *~~Nora's Hund~~* → *Noras Hund*.
 7. **Confundir *der See* (el lago) y *die See* (el mar).**
 
 ## Resumen para el examen

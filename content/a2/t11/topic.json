@@ -137,7 +137,7 @@
       "instructions": "Escribe la frase con genitivo.",
       "items": [
         { "prompt": "das Haus von meinen Eltern", "answers": ["das Haus meiner Eltern"] },
-        { "prompt": "der Hund von Anna", "answers": ["Annas Hund"] },
+        { "prompt": "der Hund von Nora", "answers": ["Noras Hund"] },
         { "prompt": "das Zimmer von dem Kind", "answers": ["das Zimmer des Kindes"] },
         { "prompt": "die Freundin von meinem Bruder", "answers": ["die Freundin meines Bruders"] }
       ]

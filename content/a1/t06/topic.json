@@ -869,11 +869,11 @@
     {
       "id": "e09",
       "type": "gap",
-      "title": "La rutina de Anna",
+      "title": "La rutina de Andrea",
       "instructions": "Completa el texto con la forma correcta de los verbos entre paréntesis.",
       "items": [
         {
-          "text": "Anna [[steht]] um halb sieben [[auf]]. (aufstehen)"
+          "text": "Andrea [[steht]] um halb sieben [[auf]]. (aufstehen)"
         },
         {
           "text": "Zuerst [[duscht]] sie. (duschen)"
@@ -1135,7 +1135,7 @@
       ],
       "t3": [
         {
-          "q": "Wann kommt Anna?",
+          "q": "Wann kommt Andrea?",
           "options": [
             "um 18:00",
             "um 18:30",
@@ -1145,7 +1145,7 @@
           "audio": [
             {
               "v": "f2",
-              "t": "Hallo Tom, hier ist Anna. Ich komme heute später. Die Arbeit dauert bis sechs. Ich bin um halb sieben bei dir. Bis dann!"
+              "t": "Hallo Tom, hier ist Andrea. Ich komme heute später. Die Arbeit dauert bis sechs. Ich bin um halb sieben bei dir. Bis dann!"
             }
           ]
         },

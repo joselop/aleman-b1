@@ -82,7 +82,7 @@ El **Perfekt** es el pasado que se usa al hablar (en España equivale tanto a "h
 | Pos. 1 | Pos. 2 (haben) | … | Final (participio) |
 |---|---|---|---|
 | Ich | habe | gestern acht Stunden | **gearbeitet**. |
-| Gestern | hat | Anna ein Buch | **gelesen**. |
+| Gestern | hat | Andrea ein Buch | **gelesen**. |
 | Was | hast | du am Wochenende | **gemacht**? |
 | | Hast | du schon | **gegessen**? |
 

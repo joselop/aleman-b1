@@ -17,8 +17,8 @@
       "de": "Hallo!",
       "es": "¡Hola!",
       "cat": "Saludos",
-      "ex": "Hallo, ich bin Anna.",
-      "ex_es": "Hola, soy Anna."
+      "ex": "Hallo, ich bin Andrea.",
+      "ex_es": "Hola, soy Andrea."
     },
     {
       "de": "Guten Morgen!",
@@ -59,8 +59,8 @@
       "de": "Tschüss!",
       "es": "¡Chao! (informal)",
       "cat": "Saludos",
-      "ex": "Tschüss, Anna!",
-      "ex_es": "¡Chao, Anna!"
+      "ex": "Tschüss, Andrea!",
+      "ex_es": "¡Chao, Andrea!"
     },
     {
       "de": "Bis bald!",
@@ -136,8 +136,8 @@
       "de": "Freut mich!",
       "es": "¡Encantado/a!",
       "cat": "Cortesía",
-      "ex": "Das ist Anna. – Freut mich!",
-      "ex_es": "Esta es Anna. – ¡Encantado!"
+      "ex": "Das ist Andrea. – Freut mich!",
+      "ex_es": "Esta es Andrea. – ¡Encantado!"
     },
     {
       "de": "Entschuldigung!",
@@ -321,8 +321,8 @@
       "de": "wo?",
       "es": "¿dónde?",
       "cat": "Preguntas",
-      "ex": "Wo wohnt Anna?",
-      "ex_es": "¿Dónde vive Anna?"
+      "ex": "Wo wohnt Andrea?",
+      "ex_es": "¿Dónde vive Andrea?"
     },
     {
       "de": "was?",
@@ -391,8 +391,8 @@
       "de": "Österreich",
       "es": "Austria",
       "cat": "Países",
-      "ex": "Anna kommt aus Österreich, aus Wien.",
-      "ex_es": "Anna es de Austria, de Viena."
+      "ex": "Nora kommt aus Österreich, aus Wien.",
+      "ex_es": "Nora es de Austria, de Viena."
     },
     {
       "de": "die Schweiz",
@@ -600,7 +600,7 @@
           "text": "Wir [[sind]] im Deutschkurs."
         },
         {
-          "text": "Ihr [[seid]] Anna und Tom, richtig?"
+          "text": "Ihr [[seid]] Eva und Tom, richtig?"
         },
         {
           "text": "[[Sind]] Sie Frau Frei?"
@@ -630,7 +630,7 @@
           "note": "En Suiza se escribe ss en lugar de ß; aceptamos las dos."
         },
         {
-          "text": "Anna [[lernt]] Deutsch. (lernen)"
+          "text": "Andrea [[lernt]] Deutsch. (lernen)"
         },
         {
           "text": "Wo [[arbeitest]] du? (arbeiten)"
@@ -930,11 +930,11 @@
       "instructions": "Escribe la frase en alemán. Se aceptan pequeñas variantes; fíjate en las mayúsculas.",
       "items": [
         {
-          "prompt": "Me llamo Ana.",
+          "prompt": "Me llamo Andrea.",
           "answers": [
-            "Ich heiße Ana.",
-            "Ich bin Ana.",
-            "Mein Name ist Ana."
+            "Ich heiße Andrea.",
+            "Ich bin Andrea.",
+            "Mein Name ist Andrea."
           ]
         },
         {
@@ -986,8 +986,8 @@
         {
           "q": "Wie heißt die Frau?",
           "options": [
-            "Anna Berger",
-            "Anna Schmidt",
+            "Clara Berger",
+            "Clara Schmidt",
             "Thomas Schmidt"
           ],
           "answer": 1,
@@ -998,7 +998,7 @@
             },
             {
               "v": "f1",
-              "t": "Guten Tag, Herr Berger. Ich heiße Anna Schmidt."
+              "t": "Guten Tag, Herr Berger. Ich heiße Clara Schmidt."
             }
           ]
         },
@@ -1228,7 +1228,7 @@
           "audio": [
             {
               "v": "f2",
-              "t": "Hallo Lukas, hier ist Mia. Ich bin jetzt in Berlin! Ich wohne bei Anna. Tschüss, bis bald!"
+              "t": "Hallo Lukas, hier ist Mia. Ich bin jetzt in Berlin! Ich wohne bei Nora. Tschüss, bis bald!"
             }
           ]
         },
@@ -1524,7 +1524,7 @@
           ]
         },
         {
-          "context": "Das ist Stefan Gruber. Er kommt aus Österreich, aus Graz. Er wohnt jetzt in Deutschland, in Berlin. Stefan lernt Spanisch. Seine Kursleiterin heißt Ana López.",
+          "context": "Das ist Stefan Gruber. Er kommt aus Österreich, aus Graz. Er wohnt jetzt in Deutschland, in Berlin. Stefan lernt Spanisch. Seine Kursleiterin heißt Marta López.",
           "title": "Anmeldung – Sprachschule Berlin-Mitte",
           "fields": [
             {

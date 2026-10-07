@@ -374,7 +374,7 @@
           "audio": [
             { "v": "f2", "t": "Heute sprechen wir über das Lernen. Wie lernen Sie am liebsten? Ahmed?" },
             { "v": "m1", "t": "Ich schaue deutsche Serien, am Anfang mit Untertiteln, jetzt ohne." },
-            { "v": "f2", "t": "Sehr gut. Und Sie, Ana?" },
+            { "v": "f2", "t": "Sehr gut. Und Sie, Sofia?" },
             { "v": "f1", "t": "Ich treffe jede Woche eine Schweizerin. Ich helfe ihr mit Portugiesisch und sie mir mit Deutsch." },
             { "v": "f2", "t": "Ein Tandem, super! Kenji?" },
             { "v": "m2", "t": "Ich schreibe alle neuen Wörter auf kleine Karten und wiederhole sie jeden Abend." },
@@ -383,7 +383,7 @@
           ],
           "items": [
             { "q": "Ahmed", "answer": 1 },
-            { "q": "Ana", "answer": 3 },
+            { "q": "Sofia", "answer": 3 },
             { "q": "Kenji", "answer": 6 },
             { "q": "Laura", "answer": 5 },
             { "q": "Pedro", "answer": 2 }

@@ -68,7 +68,7 @@ Contracciones muy frecuentes:
 | **nach** | a (ciudades y países sin artículo); después de | [[de:Ich fahre nach Berlin.::Voy a Berlín.]] · [[de:nach dem Kurs::después del curso]] |
 | **seit** | desde (hace) | [[de:Ich wohne seit drei Jahren in Zürich.::Vivo en Zúrich desde hace tres años.]] |
 | **von** | de (procedencia, de quién) | [[de:Das ist das Auto von meinem Vater.::Este es el coche de mi padre.]] |
-| **zu** | a (personas y lugares con artículo) | [[de:Ich gehe zum Arzt.::Voy al médico.]] · [[de:Ich gehe zu Anna.::Voy a casa de Anna.]] |
+| **zu** | a (personas y lugares con artículo) | [[de:Ich gehe zum Arzt.::Voy al médico.]] · [[de:Ich gehe zu Andrea.::Voy a casa de Andrea.]] |
 
 ¿**nach** o **zu**? *nach* para ciudades y países (*nach Wien, nach Spanien*) y en la expresión **nach Hause** (a casa); *zu* para personas, tiendas, edificios (*zum Bahnhof, zu meiner Mutter*). "Estoy en casa" es **zu Hause**.
 
@@ -124,7 +124,7 @@ Cómo se forma:
 ## 6. Errores típicos de hispanohablantes
 
 1. **Olvidar el dativo tras *mit*:** *~~mit der Bus~~* → *mit dem Bus*; *~~mit die U-Bahn~~* → *mit der U-Bahn.*
-2. **Usar *nach* con personas o tiendas:** *~~nach dem Arzt~~* → *zum Arzt*; *~~nach Anna~~* → *zu Anna.*
+2. **Usar *nach* con personas o tiendas:** *~~nach dem Arzt~~* → *zum Arzt*; *~~nach Andrea~~* → *zu Andrea.*
 3. **Confundir *nach Hause* y *zu Hause*:** voy a casa = *nach Hause*; estoy en casa = *zu Hause*.
 4. **Decir "en autobús" con *in*:** *~~in dem Bus fahren~~* → *mit dem Bus fahren.*
 5. **Mantener la -st en el imperativo:** *~~Kommst!~~* → *Komm!*

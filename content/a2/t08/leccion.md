@@ -1,6 +1,6 @@
 # Fiestas y relaciones
 
-En este tema hablas de **fiestas, regalos e invitaciones** (cumpleaños, bodas, Navidad, fiestas suizas) y de las **personas de tu vida**: amigos, pareja, vecinos, compañeros. La gramática gira en torno al **dativo de persona**: los **verbos con dativo** (*helfen, gefallen, gratulieren…*), los **pronombres en dativo** (*mir, dir, ihm, ihr…*), los verbos con **dos complementos** (*Ich schenke **meiner Mutter** **einen Schal***) y las **preguntas indirectas con *ob*** (*Weißt du, **ob** Anna kommt?*). En el examen A2 salen invitaciones, respuestas a invitaciones y planificar una fiesta o un regalo en pareja.
+En este tema hablas de **fiestas, regalos e invitaciones** (cumpleaños, bodas, Navidad, fiestas suizas) y de las **personas de tu vida**: amigos, pareja, vecinos, compañeros. La gramática gira en torno al **dativo de persona**: los **verbos con dativo** (*helfen, gefallen, gratulieren…*), los **pronombres en dativo** (*mir, dir, ihm, ihr…*), los verbos con **dos complementos** (*Ich schenke **meiner Mutter** **einen Schal***) y las **preguntas indirectas con *ob*** (*Weißt du, **ob** Andrea kommt?*). En el examen A2 salen invitaciones, respuestas a invitaciones y planificar una fiesta o un regalo en pareja.
 
 ## 1. Fiestas y celebraciones
 
@@ -81,7 +81,7 @@ Dativo plural: el sustantivo añade **-n** (*den Kinder**n**, meinen Freunde**n*
 
 Cuando una pregunta va dentro de otra frase (*¿Sabes si…?*, *No sé cuándo…*), el **verbo va al final**, como con *weil, dass, wenn*:
 
-- Pregunta de sí/no → **ob** (= si): [[de:Kommt Anna? → Weißt du, ob Anna kommt?::¿Viene Anna? → ¿Sabes si viene Anna?]]
+- Pregunta de sí/no → **ob** (= si): [[de:Kommt Andrea? → Weißt du, ob Andrea kommt?::¿Viene Andrea? → ¿Sabes si viene Andrea?]]
 - Pregunta con W → se mantiene la palabra W: [[de:Wann beginnt die Party? → Weißt du, wann die Party beginnt?::¿Cuándo empieza la fiesta? → ¿Sabes cuándo empieza la fiesta?]]
 
 Más ejemplos:

@@ -142,7 +142,7 @@
         { "text": "Kinder, [[trinkt]] viel Wasser! (trinken, ihr)" },
         { "text": "Frau Keller, [[nehmen Sie]] das Rezept mit! (nehmen, Sie)" },
         { "text": "[[Sei]] nicht so laut, das Baby schläft! (sein, du)" },
-        { "text": "Anna und Tim, [[seid]] leise! (sein, ihr)" }
+        { "text": "Lea und Tim, [[seid]] leise! (sein, ihr)" }
       ]
     },
     {
@@ -309,7 +309,7 @@
         },
         {
           "q": "Was soll Paul kaufen?", "options": ["Tabletten", "Hustensaft", "Tee"], "answer": 1,
-          "audio": [{ "v": "f1", "t": "Hallo Paul, hier ist Anna. Ich bin erkältet und habe starken Husten. Kannst du mir bitte Hustensaft aus der Apotheke mitbringen? Danke!" }]
+          "audio": [{ "v": "f1", "t": "Hallo Paul, hier ist Andrea. Ich bin erkältet und habe starken Husten. Kannst du mir bitte Hustensaft aus der Apotheke mitbringen? Danke!" }]
         },
         {
           "q": "Warum kommt Tim nicht zur Arbeit?", "options": ["Er hat Fieber.", "Er hat Rückenschmerzen.", "Sein Kind ist krank."], "answer": 1,
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "text": "Praxis Dr. med. Anna Sommer – Allgemeinmedizin\n\nSprechstunden: Mo, Di, Do 8–12 und 14–18 Uhr, Mi und Fr 8–12 Uhr.\nBitte bringen Sie immer Ihre Versichertenkarte mit.\nTermine nur nach Anruf: 044 321 00 11.\nIm Notfall: Tel. 144.",
+          "text": "Praxis Dr. med. Petra Sommer – Allgemeinmedizin\n\nSprechstunden: Mo, Di, Do 8–12 und 14–18 Uhr, Mi und Fr 8–12 Uhr.\nBitte bringen Sie immer Ihre Versichertenkarte mit.\nTermine nur nach Anruf: 044 321 00 11.\nIm Notfall: Tel. 144.",
           "statements": [
             { "s": "Am Mittwochnachmittag ist die Praxis geschlossen.", "answer": true },
             { "s": "Am Donnerstag kann man um 15 Uhr kommen.", "answer": true },

@@ -103,7 +103,7 @@
         { "text": "Ich [[bin]] im Sommer nach Spanien [[geflogen]]. (fliegen)" },
         { "text": "Wir [[sind]] mit dem Zug nach Wien [[gefahren]]. (fahren)" },
         { "text": "Wann [[bist]] du [[angekommen]]? (ankommen)" },
-        { "text": "Anna [[ist]] ins Kino [[gegangen]]. (gehen)" },
+        { "text": "Andrea [[ist]] ins Kino [[gegangen]]. (gehen)" },
         { "text": "Was [[ist]] [[passiert]]? (passieren)" },
         { "text": "Die Kinder [[sind]] zu Hause [[geblieben]]. (bleiben)" },
         { "text": "[[Seid]] ihr früh [[aufgestanden]]? (aufstehen)" }
@@ -215,7 +215,7 @@
       "title": "Una respuesta a una invitación",
       "instructions": "Completa el mensaje con: Einladung, leider, kann, wünsche, war.",
       "items": [
-        { "text": "Liebe Anna, vielen Dank für die [[Einladung]]!" },
+        { "text": "Liebe Andrea, vielen Dank für die [[Einladung]]!" },
         { "text": "Aber [[leider]] habe ich am Samstag keine Zeit." },
         { "text": "Ich [[kann]] nicht kommen, ich fahre nach Bern." },
         { "text": "Ich [[wünsche]] dir eine schöne Party!" },
@@ -265,7 +265,7 @@
         {
           "q": "Wann ist die Hochzeit?", "options": ["im Mai", "im Juni", "im Juli"], "answer": 1,
           "audio": [
-            { "v": "f2", "t": "Wann heiraten Anna und Tom? Im Mai?" },
+            { "v": "f2", "t": "Wann heiraten Eva und Tom? Im Mai?" },
             { "v": "m2", "t": "Nein, im Juni. Am zwanzigsten Juni." }
           ]
         },
@@ -420,10 +420,10 @@
           "model": "Lieber Daniel,\n\nvielen Dank für die Einladung! Leider kann ich am Samstag nicht kommen. Meine Eltern besuchen mich. Wollen wir am Sonntag zusammen essen gehen? Alles Gute zum Geburtstag!\n\nViele Grüße\nJosé"
         },
         {
-          "task": "Sie sind im Urlaub. Schreiben Sie Ihrer Kollegin Anna eine Postkarte.",
+          "task": "Sie sind im Urlaub. Schreiben Sie Ihrer Kollegin Andrea eine Postkarte.",
           "points": ["Wo sind Sie?", "Wie ist das Wetter?", "Was haben Sie schon gemacht?"],
           "register": "informal (du)",
-          "model": "Liebe Anna,\n\nviele Grüße aus Italien! Ich bin in Rom. Das Wetter ist super, jeden Tag Sonne. Ich habe schon viele Museen besichtigt und jeden Tag Pizza gegessen. Am Freitag fliege ich zurück.\n\nBis bald!\nLaura"
+          "model": "Liebe Andrea,\n\nviele Grüße aus Italien! Ich bin in Rom. Das Wetter ist super, jeden Tag Sonne. Ich habe schon viele Museen besichtigt und jeden Tag Pizza gegessen. Am Freitag fliege ich zurück.\n\nBis bald!\nLaura"
         },
         {
           "task": "Sie möchten im Hotel Alpenblick ein Zimmer reservieren. Schreiben Sie eine E-Mail.",

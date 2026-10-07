@@ -220,10 +220,10 @@
       "t1": [
         {
           "title": "Eine Woche ohne Handy",
-          "text": "Kann man heute noch ohne Smartphone leben? Die Klasse 9b einer Schule in Graz hat es ausprobiert: Eine Woche lang durften die 22 Schülerinnen und Schüler kein Handy benutzen. „Am ersten Tag war es schrecklich“, erzählt die 15-jährige Hanna. „Ich wollte immer wissen, was meine Freunde posten.“ Aber schon nach drei Tagen wurde es besser. Die Jugendlichen haben mehr miteinander gesprochen, Karten gespielt und Bücher gelesen. Viele haben auch besser geschlafen. Nur eine Sache war schwierig: Verabredungen. „Wir mussten uns genau ausmachen, wann und wo wir uns treffen“, sagt Leon. Nach dem Projekt nutzen viele ihr Handy weniger als vorher. Die Lehrerin möchte das Projekt nächstes Jahr wiederholen.",
+          "text": "Kann man heute noch ohne Smartphone leben? Die Klasse 9b einer Schule in Graz hat es ausprobiert: Eine Woche lang durften die 22 Schülerinnen und Schüler kein Handy benutzen. „Am ersten Tag war es schrecklich“, erzählt die 15-jährige Nora. „Ich wollte immer wissen, was meine Freunde posten.“ Aber schon nach drei Tagen wurde es besser. Die Jugendlichen haben mehr miteinander gesprochen, Karten gespielt und Bücher gelesen. Viele haben auch besser geschlafen. Nur eine Sache war schwierig: Verabredungen. „Wir mussten uns genau ausmachen, wann und wo wir uns treffen“, sagt Leon. Nach dem Projekt nutzen viele ihr Handy weniger als vorher. Die Lehrerin möchte das Projekt nächstes Jahr wiederholen.",
           "questions": [
             { "q": "Wie lange war die Klasse ohne Handy?", "options": ["einen Tag", "drei Tage", "eine Woche"], "answer": 2 },
-            { "q": "Wie war der erste Tag für Hanna?", "options": ["sehr schwer", "ganz normal", "lustig"], "answer": 0 },
+            { "q": "Wie war der erste Tag für Nora?", "options": ["sehr schwer", "ganz normal", "lustig"], "answer": 0 },
             { "q": "Was haben die Jugendlichen in der Woche gemacht?", "options": ["mehr ferngesehen", "mehr miteinander gesprochen", "mehr Sport gemacht"], "answer": 1 },
             { "q": "Was war schwierig?", "options": ["schlafen", "sich verabreden", "Hausaufgaben machen"], "answer": 1 },
             { "q": "Was möchte die Lehrerin?", "options": ["Das Projekt nächstes Jahr wiederholen.", "Handys in der Schule verbieten.", "Ein Buch über das Projekt schreiben."], "answer": 0 }
@@ -304,7 +304,7 @@
             { "situation": "Pablo singt gern und hat am Mittwochabend Zeit.", "answer": "a" },
             { "situation": "Familie Huber sucht eine sportliche Aktivität für den Sonntag mit den Kindern.", "answer": "e" },
             { "situation": "Lukas sieht gern alte Filme und spricht gern darüber.", "answer": "c" },
-            { "situation": "Anna möchte einen Kurs für Fotografie besuchen.", "answer": "x" }
+            { "situation": "Andrea möchte einen Kurs für Fotografie besuchen.", "answer": "x" }
           ]
         },
         {
@@ -357,7 +357,7 @@
             { "v": "f1", "t": "Tim, was machen wir am Wochenende? Ich habe so viele Ideen!" },
             { "v": "m1", "t": "Am Freitagabend bin ich müde. Da möchte ich nur auf dem Sofa liegen und die neue Folge von unserer Serie sehen." },
             { "v": "f1", "t": "Okay. Und am Samstagvormittag? Im Kunstmuseum gibt es eine neue Ausstellung über Picasso." },
-            { "v": "m1", "t": "Gute Idee. Und am Samstagabend sind wir bei Anna und Max eingeladen, vergiss das nicht." },
+            { "v": "m1", "t": "Gute Idee. Und am Samstagabend sind wir bei Julia und Max eingeladen, vergiss das nicht." },
             { "v": "f1", "t": "Ach ja, stimmt! Und am Sonntag? Wenn das Wetter schön ist, könnten wir auf den Uetliberg wandern." },
             { "v": "m1", "t": "Ja, am Sonntagvormittag. Und am Sonntagabend gehen wir ins Kino, ich habe schon Karten für den neuen Film mit Tom Hanks." }
           ],

@@ -406,7 +406,7 @@
           "text": "Ich fahre mit [[dem]] Bus. (der Bus)"
         },
         {
-          "text": "Anna fährt mit [[der]] U-Bahn. (die U-Bahn)"
+          "text": "Andrea fährt mit [[der]] U-Bahn. (die U-Bahn)"
         },
         {
           "text": "Wir fahren mit [[dem]] Auto. (das Auto)"
@@ -1091,7 +1091,7 @@
           ]
         },
         {
-          "q": "Was soll Anna nehmen?",
+          "q": "Was soll Lea nehmen?",
           "options": [
             "den Bus 5",
             "die Straßenbahn 5",
@@ -1101,7 +1101,7 @@
           "audio": [
             {
               "v": "m2",
-              "t": "Hallo Anna, hier ist Papa. Nimm vom Bahnhof die Straßenbahn Nummer fünf. Steig an der Haltestelle Uni aus. Ich warte dort. Bis gleich!"
+              "t": "Hallo Lea, hier ist Papa. Nimm vom Bahnhof die Straßenbahn Nummer fünf. Steig an der Haltestelle Uni aus. Ich warte dort. Bis gleich!"
             }
           ]
         }

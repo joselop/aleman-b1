@@ -124,7 +124,7 @@ En el tema 1 viste que en las preguntas con W- el verbo va en posición 2. En la
 |---|---|---|
 | **Kommst** | du | aus Spanien? |
 | **Sprechen** | Sie | Englisch? |
-| **Wohnt** | Anna | in der Schweiz? |
+| **Wohnt** | Andrea | in der Schweiz? |
 | **Bist** | du | 30? |
 
 Respuestas:

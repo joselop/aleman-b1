@@ -294,8 +294,8 @@
       "de": "ihr / ihre",
       "es": "su (de ella)",
       "cat": "Verbos y palabras útiles",
-      "ex": "Anna und ihr Mann",
-      "ex_es": "Anna y su marido"
+      "ex": "Nora und ihr Mann",
+      "ex_es": "Nora y su marido"
     },
     {
       "de": "Ihr / Ihre",
@@ -471,7 +471,7 @@
       "instructions": "Completa con ein, eine, kein o keine.",
       "items": [
         {
-          "text": "Das ist [[ein]] Foto von Anna."
+          "text": "Das ist [[ein]] Foto von Andrea."
         },
         {
           "text": "Ist das [[eine]] Katze? – Nein, das ist [[keine]] Katze. Das ist ein Hund."
@@ -503,7 +503,7 @@
           "text": "[[Hast]] du Geschwister?"
         },
         {
-          "text": "Anna [[hat]] eine Tochter."
+          "text": "Clara [[hat]] eine Tochter."
         },
         {
           "text": "Wir [[haben]] keine Katze."
@@ -535,7 +535,7 @@
           "text": "Peter und [[seine]] Frau wohnen in Bern. (su, de Peter)"
         },
         {
-          "text": "Anna und [[ihr]] Mann kommen aus Wien. (su, de Anna)"
+          "text": "Nora und [[ihr]] Mann kommen aus Wien. (su, de Nora)"
         },
         {
           "text": "Herr Keller, wie alt ist [[Ihr]] Sohn? (su, de usted)"
@@ -885,9 +885,9 @@
           ]
         },
         {
-          "prompt": "Anna y su marido viven en Berna.",
+          "prompt": "Nora y su marido viven en Berna.",
           "answers": [
-            "Anna und ihr Mann wohnen in Bern."
+            "Nora und ihr Mann wohnen in Bern."
           ]
         },
         {
@@ -1117,7 +1117,7 @@
           "audio": [
             {
               "v": "f1",
-              "t": "Hallo Anna, hier ist Lisa. Meine Eltern kommen am Samstag aus Spanien! Hast du am Sonntag Zeit? Dann kochen wir zusammen. Bis bald!"
+              "t": "Hallo Andrea, hier ist Lisa. Meine Eltern kommen am Samstag aus Spanien! Hast du am Sonntag Zeit? Dann kochen wir zusammen. Bis bald!"
             }
           ]
         },
@@ -1473,7 +1473,7 @@
             "Fragen Sie: Wann ist das Training?"
           ],
           "register": "formal (Sie)",
-          "model": "Sehr geehrte Damen und Herren,\n\nmein Name ist Ana Silva. Mein Sohn heißt Tiago und ist sechs Jahre alt. Er möchte gern Fußball spielen. Wann ist das Training?\n\nViele Grüße\nAna Silva"
+          "model": "Sehr geehrte Damen und Herren,\n\nmein Name ist Sofia Silva. Mein Sohn heißt Tiago und ist sechs Jahre alt. Er möchte gern Fußball spielen. Wann ist das Training?\n\nViele Grüße\nSofia Silva"
         }
       ]
     },

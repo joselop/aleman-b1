@@ -324,7 +324,7 @@
           ],
           "items": [
             { "situation": "Marco hat Schuhgröße 48 und findet nie passende Schuhe.", "answer": "b" },
-            { "situation": "Anna möchte ihre alten Kleider verkaufen.", "answer": "c" },
+            { "situation": "Andrea möchte ihre alten Kleider verkaufen.", "answer": "c" },
             { "situation": "Für eine Party braucht Paul ein Piratenkostüm für einen Abend.", "answer": "d" },
             { "situation": "Herr Ito beginnt als Koch und braucht Kleidung für die Arbeit.", "answer": "f" },
             { "situation": "Frau Wolf sucht ein Geschäft für Brillen.", "answer": "x" }
