@@ -18,7 +18,8 @@ async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch()
         pg = await b.new_page()
-        pg.on("console", lambda m: print("[console]", m.text))
+        pg.on("console", lambda m: print("::notice::[console] " + m.text.replace("\n", " ")[:300]))
+        pg.on("pageerror", lambda e: print("::error::[pageerror] " + str(e)[:500]))
         await pg.goto("http://127.0.0.1:8765/#/ajustes")
         await pg.wait_for_function("window.__dsfs && window.__dsfs.transcribe")
         for model in ["base", "tiny"]:
@@ -28,9 +29,16 @@ async def main():
                 return await window.__dsfs.transcribe(blob, (m) => console.log(m));
             }""")
             ratio = difflib.SequenceMatcher(None, SENTENCE.lower(), text.lower()).ratio()
-            print(f"MODEL {model}: {text!r}  similitud={ratio:.2f}")
+            print(f"::notice::MODEL {model}: {text!r}  similitud={ratio:.2f}")
             if model == "base" and ratio < 0.7:
                 sys.exit("La transcripción no se parece a la frase original")
         await b.close()
 
-asyncio.run(main())
+try:
+    asyncio.run(main())
+except SystemExit:
+    raise
+except Exception as e:  # que el error se vea como anotación en GitHub
+    import traceback
+    print("::error::" + traceback.format_exc().replace("\n", " | ")[-1500:])
+    sys.exit(1)
