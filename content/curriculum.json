@@ -253,7 +253,7 @@
       "topics": [
         {
           "id": "t01",
-          "status": "planned",
+          "status": "ready",
           "title": "Infancia y recuerdos",
           "grammar": [
             "Präteritum",
@@ -263,7 +263,7 @@
         },
         {
           "id": "t02",
-          "status": "planned",
+          "status": "ready",
           "title": "Mundo laboral y candidaturas",
           "grammar": [
             "Oraciones de relativo",
@@ -272,7 +272,7 @@
         },
         {
           "id": "t03",
-          "status": "planned",
+          "status": "ready",
           "title": "Vivienda y vecindario",
           "grammar": [
             "Pasiva presente y Präteritum"
@@ -280,7 +280,7 @@
         },
         {
           "id": "t04",
-          "status": "planned",
+          "status": "ready",
           "title": "Salud y alimentación",
           "grammar": [
             "um…zu / damit",
@@ -289,7 +289,7 @@
         },
         {
           "id": "t05",
-          "status": "planned",
+          "status": "ready",
           "title": "Medios y tecnología",
           "grammar": [
             "Konjunktiv II presente y pasado",
@@ -298,7 +298,7 @@
         },
         {
           "id": "t06",
-          "status": "planned",
+          "status": "ready",
           "title": "Viajes y movilidad",
           "grammar": [
             "Preposiciones con genitivo",
@@ -307,7 +307,7 @@
         },
         {
           "id": "t07",
-          "status": "planned",
+          "status": "ready",
           "title": "Medio ambiente",
           "grammar": [
             "Pasiva con modales",
@@ -316,7 +316,7 @@
         },
         {
           "id": "t08",
-          "status": "planned",
+          "status": "ready",
           "title": "Relaciones y familia",
           "grammar": [
             "Verbos con preposición (avanzado)",
@@ -325,7 +325,7 @@
         },
         {
           "id": "t09",
-          "status": "planned",
+          "status": "ready",
           "title": "Consumo y dinero",
           "grammar": [
             "Conectores dobles (sowohl…als auch, weder…noch, je…desto)"
@@ -333,7 +333,7 @@
         },
         {
           "id": "t10",
-          "status": "planned",
+          "status": "ready",
           "title": "Formación y aprendizaje",
           "grammar": [
             "Nominalización",
@@ -342,7 +342,7 @@
         },
         {
           "id": "t11",
-          "status": "planned",
+          "status": "ready",
           "title": "Cultura y ocio",
           "grammar": [
             "Relativo con preposición",
@@ -351,7 +351,7 @@
         },
         {
           "id": "t12",
-          "status": "planned",
+          "status": "ready",
           "title": "Sociedad y actualidad",
           "grammar": [
             "Participio como adjetivo",
@@ -621,7 +621,6 @@
     },
     "b1": {
       "passPercent": 60,
-      "note": "Formato de referencia para generar los temas de B1.",
       "modules": [
         {
           "key": "lesen",
@@ -630,23 +629,43 @@
           "teile": [
             {
               "key": "t1",
-              "es": "Entrada de blog: richtig / falsch."
+              "kind": "read_tf",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Lesen Sie den Text und die Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+              "es": "Entrada de un blog o correo personal largo: seis afirmaciones, ¿verdadero o falso?"
             },
             {
               "key": "t2",
-              "es": "Dos artículos de prensa: a, b o c."
+              "kind": "read_mc",
+              "n_tema": 1,
+              "n_global": 2,
+              "de": "Lesen Sie den Text aus der Presse und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Artículo de prensa: tres preguntas a, b o c (en el examen real hay dos artículos)."
             },
             {
               "key": "t3",
-              "es": "Emparejar situaciones con anuncios."
+              "kind": "read_match",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Lesen Sie die Situationen und die Anzeigen. Welche Anzeige passt zu welcher Person? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige. Markieren Sie in diesem Fall X (im Original: 0).",
+              "es": "Siete situaciones y diez anuncios: ¿qué anuncio le sirve a cada persona? Una no tiene anuncio (X)."
             },
             {
               "key": "t4",
-              "es": "Opiniones de lectores: ¿a favor o en contra?"
+              "kind": "read_yn",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Lesen Sie die Texte. Wählen Sie: Ist die Person für das Thema oder nicht?",
+              "es": "Siete comentarios de lectores: ¿la persona está a favor (Ja) o en contra (Nein)?"
             },
             {
               "key": "t5",
-              "es": "Normas o instrucciones: a, b o c."
+              "kind": "read_mc",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Lesen Sie die Aufgaben und den Text dazu. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Normas, instrucciones o reglamento: cuatro preguntas a, b o c."
             }
           ]
         },
@@ -657,19 +676,43 @@
           "teile": [
             {
               "key": "t1",
-              "es": "Mensajes y anuncios (dos veces): richtig/falsch + a, b o c."
+              "kind": "listen_pair",
+              "plays": 2,
+              "n_tema": 3,
+              "n_global": 5,
+              "de": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+              "es": "Textos cortos (radio, anuncios, contestador): por cada uno, una afirmación verdadera/falsa y una pregunta a, b o c. Dos veces."
             },
             {
               "key": "t2",
-              "es": "Visita guiada o charla (una vez): a, b o c."
+              "kind": "listen_mc_multi",
+              "plays": 1,
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+              "es": "Una visita guiada o una charla: cinco preguntas a, b o c. Solo una vez."
             },
             {
               "key": "t3",
-              "es": "Conversación informal (una vez): richtig / falsch."
+              "kind": "listen_yn",
+              "plays": 1,
+              "labels": [
+                "Richtig",
+                "Falsch"
+              ],
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+              "es": "Una conversación informal: siete afirmaciones, ¿verdadero o falso? Solo una vez."
             },
             {
               "key": "t4",
-              "es": "Debate de radio (dos veces): ¿quién dice qué?"
+              "kind": "listen_match",
+              "plays": 2,
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+              "es": "Debate de radio: ¿quién dice cada cosa (moderador/a o uno de los dos invitados)? Dos veces."
             }
           ]
         },
@@ -680,15 +723,27 @@
           "teile": [
             {
               "key": "t1",
-              "es": "Correo informal (~80 palabras)."
+              "kind": "write_free",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Schreiben Sie eine E-Mail (circa 80 Wörter). Schreiben Sie etwas zu allen drei Punkten. Denken Sie an eine passende Einleitung und einen passenden Schluss.",
+              "es": "Correo informal a un amigo (unas 80 palabras) con tres puntos."
             },
             {
               "key": "t2",
-              "es": "Opinión en un foro (~80 palabras)."
+              "kind": "write_free",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Sie haben im Fernsehen / in einem Online-Forum eine Diskussion gesehen. Schreiben Sie Ihre Meinung (circa 80 Wörter).",
+              "es": "Comentario de opinión en un foro (unas 80 palabras), reaccionando a otro comentario."
             },
             {
               "key": "t3",
-              "es": "Correo formal corto (~40 palabras)."
+              "kind": "write_free",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Schreiben Sie eine Nachricht (circa 40 Wörter). Vergessen Sie nicht die Anrede und den Gruß am Schluss.",
+              "es": "Mensaje formal breve (unas 40 palabras): disculparse, pedir algo, cancelar…"
             }
           ]
         },
@@ -699,15 +754,19 @@
           "teile": [
             {
               "key": "t1",
-              "es": "Planificar algo juntos."
+              "kind": "speak_points",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Gemeinsam etwas planen. Sprechen Sie über die Punkte unten, machen Sie Vorschläge und reagieren Sie auf die Vorschläge Ihres Gesprächspartners / Ihrer Gesprächspartnerin. Planen und entscheiden Sie gemeinsam, was Sie tun möchten.",
+              "es": "Planificar algo con tu pareja de examen (unos 3 minutos): proponer, reaccionar y decidir."
             },
             {
               "key": "t2",
-              "es": "Presentar un tema (5 diapositivas)."
-            },
-            {
-              "key": "t3",
-              "es": "Reaccionar a la presentación del otro."
+              "kind": "speak_present",
+              "n_tema": 1,
+              "n_global": 1,
+              "de": "Ein Thema präsentieren. Sie sollen Ihren Zuhörern ein aktuelles Thema präsentieren. Dazu finden Sie hier fünf Folien. Folgen Sie den Anweisungen links und schreiben Sie Ihre Notizen und Ideen rechts daneben. Danach: Über das Thema sprechen (Teil 3).",
+              "es": "Presentar un tema con cinco diapositivas (unos 3 minutos) y después contestar una pregunta sobre él (Teil 3)."
             }
           ]
         }

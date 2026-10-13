@@ -1,0 +1,2130 @@
+{
+  "id": "b1-t10",
+  "level": "b1",
+  "topic": "t10",
+  "title": "Formación y aprendizaje",
+  "title_de": "Bildung und Lernen",
+  "goals": [
+    "Hablar del sistema educativo suizo, alemán y español: Lehre, Gymnasium, Matura, Hochschule y formación continua",
+    "Contar cómo aprendes (métodos, dificultades, progresos) y dar consejos para aprender idiomas",
+    "Sustantivar verbos y adjetivos: das Lernen, beim Lesen, zum Üben, etwas Neues, das Wichtigste",
+    "Formar sustantivos con -ung, -heit y -keit (prüfen → die Prüfung, möglich → die Möglichkeit)",
+    "Presentar un tema con las cinco diapositivas de Sprechen Teil 2 y responder preguntas (Teil 3)",
+    "Entender anuncios de cursos, normas de una escuela y debates sobre estudios y formación profesional"
+  ],
+  "vocab": [
+    {
+      "de": "die Hochschule",
+      "pl": "die Hochschulen",
+      "es": "la universidad, la escuela superior",
+      "cat": "Estudios",
+      "ex": "Nach der Matura möchte sie an einer Hochschule studieren.",
+      "ex_es": "Después del bachillerato quiere estudiar en una universidad."
+    },
+    {
+      "de": "die Fachhochschule (FH)",
+      "pl": "die Fachhochschulen",
+      "es": "la universidad de ciencias aplicadas",
+      "cat": "Estudios",
+      "ex": "An der Fachhochschule ist das Studium sehr praxisnah.",
+      "ex_es": "En la Fachhochschule los estudios son muy prácticos."
+    },
+    {
+      "de": "das Gymnasium",
+      "pl": "die Gymnasien",
+      "es": "el instituto (de bachillerato)",
+      "cat": "Estudios",
+      "ex": "Nur ein Fünftel der Jugendlichen in Zürich geht ins Gymnasium.",
+      "ex_es": "Solo una quinta parte de los jóvenes de Zúrich va al Gymnasium."
+    },
+    {
+      "de": "die Matura",
+      "es": "el bachillerato (título, en Suiza y Austria)",
+      "cat": "Estudios",
+      "ex": "Mit der Matura kann man an jeder Universität studieren.",
+      "ex_es": "Con la Matura se puede estudiar en cualquier universidad."
+    },
+    {
+      "de": "der Lehrling",
+      "pl": "die Lehrlinge",
+      "es": "el/la aprendiz",
+      "cat": "Estudios",
+      "ex": "Unsere Firma bildet jedes Jahr zwei Lehrlinge aus.",
+      "ex_es": "Nuestra empresa forma cada año a dos aprendices."
+    },
+    {
+      "de": "die Berufsschule",
+      "pl": "die Berufsschulen",
+      "es": "la escuela de formación profesional",
+      "cat": "Estudios",
+      "ex": "Ein Tag pro Woche ist sie in der Berufsschule.",
+      "ex_es": "Un día a la semana va a la escuela de FP."
+    },
+    {
+      "de": "das Semester",
+      "pl": "die Semester",
+      "es": "el semestre",
+      "cat": "Estudios",
+      "ex": "Er ist jetzt im dritten Semester.",
+      "ex_es": "Ahora está en el tercer semestre."
+    },
+    {
+      "de": "die Vorlesung",
+      "pl": "die Vorlesungen",
+      "es": "la clase magistral (en la universidad)",
+      "cat": "Estudios",
+      "ex": "Die Vorlesung beginnt um Viertel nach acht.",
+      "ex_es": "La clase empieza a las ocho y cuarto."
+    },
+    {
+      "de": "das Seminar",
+      "pl": "die Seminare",
+      "es": "el seminario",
+      "cat": "Estudios",
+      "ex": "Im Seminar müssen alle eine Präsentation halten.",
+      "ex_es": "En el seminario todos tienen que hacer una presentación."
+    },
+    {
+      "de": "der Studiengang",
+      "pl": "die Studiengänge",
+      "es": "la carrera, el programa de estudios",
+      "cat": "Estudios",
+      "ex": "Welchen Studiengang hast du gewählt?",
+      "ex_es": "¿Qué carrera has elegido?"
+    },
+    {
+      "de": "das Stipendium",
+      "pl": "die Stipendien",
+      "es": "la beca",
+      "cat": "Estudios",
+      "ex": "Ohne Stipendium hätte ich nicht im Ausland studieren können.",
+      "ex_es": "Sin beca no habría podido estudiar en el extranjero."
+    },
+    {
+      "de": "die Studiengebühren (Pl.)",
+      "es": "las tasas universitarias",
+      "cat": "Estudios",
+      "ex": "Die Studiengebühren an der ETH sind relativ niedrig.",
+      "ex_es": "Las tasas de la ETH son relativamente bajas."
+    },
+    {
+      "de": "das Diplom",
+      "pl": "die Diplome",
+      "es": "el diploma, el título",
+      "cat": "Estudios",
+      "ex": "Nach drei Jahren bekommt man ein Diplom.",
+      "ex_es": "Al cabo de tres años te dan un título."
+    },
+    {
+      "de": "der Dozent / die Dozentin",
+      "pl": "die Dozenten / die Dozentinnen",
+      "es": "el/la profesor/a (de universidad o de adultos)",
+      "cat": "Estudios",
+      "ex": "Unsere Dozentin erklärt die Grammatik sehr gut.",
+      "ex_es": "Nuestra profesora explica muy bien la gramática."
+    },
+    {
+      "de": "der Unterricht",
+      "es": "las clases, la enseñanza",
+      "cat": "Estudios",
+      "ex": "Der Unterricht fällt heute aus.",
+      "ex_es": "Hoy no hay clase."
+    },
+    {
+      "de": "unterrichten",
+      "es": "dar clase, enseñar",
+      "cat": "Estudios",
+      "forms": "er unterrichtet, unterrichtete, hat unterrichtet",
+      "ex": "Sie unterrichtet Deutsch für Erwachsene.",
+      "ex_es": "Da clases de alemán para adultos."
+    },
+    {
+      "de": "das Fernstudium",
+      "pl": "die Fernstudien",
+      "es": "los estudios a distancia",
+      "cat": "Estudios",
+      "ex": "Neben dem Job macht er ein Fernstudium.",
+      "ex_es": "Además del trabajo, estudia a distancia."
+    },
+    {
+      "de": "die Fortbildung",
+      "pl": "die Fortbildungen",
+      "es": "el curso de perfeccionamiento (profesional)",
+      "cat": "Estudios",
+      "ex": "Die Firma bezahlt mir eine Fortbildung in Projektmanagement.",
+      "ex_es": "La empresa me paga un curso de gestión de proyectos."
+    },
+    {
+      "de": "sich weiterbilden",
+      "es": "seguir formándose",
+      "cat": "Estudios",
+      "forms": "er bildet sich weiter, bildete sich weiter, hat sich weitergebildet",
+      "ex": "Wer sich weiterbildet, hat bessere Chancen im Beruf.",
+      "ex_es": "Quien sigue formándose tiene mejores oportunidades en su profesión."
+    },
+    {
+      "de": "die Anmeldung",
+      "pl": "die Anmeldungen",
+      "es": "la inscripción",
+      "cat": "Estudios",
+      "ex": "Die Anmeldung ist bis zum 15. März möglich.",
+      "ex_es": "La inscripción es posible hasta el 15 de marzo."
+    },
+    {
+      "de": "die Teilnahme",
+      "es": "la participación, la asistencia",
+      "cat": "Estudios",
+      "ex": "Die Teilnahme am Infoabend ist kostenlos.",
+      "ex_es": "La asistencia a la sesión informativa es gratuita."
+    },
+    {
+      "de": "abschließen",
+      "es": "terminar, acabar (unos estudios)",
+      "cat": "Estudios",
+      "forms": "er schließt ab, schloss ab, hat abgeschlossen",
+      "ex": "Sie hat ihr Studium letztes Jahr abgeschlossen.",
+      "ex_es": "Terminó la carrera el año pasado."
+    },
+    {
+      "de": "die Kenntnisse (Pl.)",
+      "es": "los conocimientos",
+      "cat": "Aprender",
+      "ex": "Für die Stelle braucht man gute Deutschkenntnisse.",
+      "ex_es": "Para el puesto se necesitan buenos conocimientos de alemán."
+    },
+    {
+      "de": "die Fähigkeit",
+      "pl": "die Fähigkeiten",
+      "es": "la capacidad, la habilidad",
+      "cat": "Aprender",
+      "ex": "Teamfähigkeit ist heute sehr wichtig.",
+      "ex_es": "La capacidad de trabajar en equipo es hoy muy importante."
+    },
+    {
+      "de": "die Fremdsprache",
+      "pl": "die Fremdsprachen",
+      "es": "la lengua extranjera",
+      "cat": "Aprender",
+      "ex": "In der Schule habe ich zwei Fremdsprachen gelernt.",
+      "ex_es": "En el colegio aprendí dos lenguas extranjeras."
+    },
+    {
+      "de": "die Motivation",
+      "es": "la motivación",
+      "cat": "Aprender",
+      "ex": "Ohne Motivation lernt man nichts.",
+      "ex_es": "Sin motivación no se aprende nada."
+    },
+    {
+      "de": "motiviert",
+      "es": "motivado",
+      "cat": "Aprender",
+      "ex": "Am Anfang war ich sehr motiviert.",
+      "ex_es": "Al principio estaba muy motivado."
+    },
+    {
+      "de": "sich konzentrieren (auf + Akk.)",
+      "es": "concentrarse (en)",
+      "cat": "Aprender",
+      "forms": "er konzentriert sich, konzentrierte sich, hat sich konzentriert",
+      "ex": "Im Großraumbüro kann ich mich nicht konzentrieren.",
+      "ex_es": "En la oficina diáfana no me puedo concentrar."
+    },
+    {
+      "de": "sich verbessern",
+      "es": "mejorar (uno mismo)",
+      "cat": "Aprender",
+      "forms": "er verbessert sich, verbesserte sich, hat sich verbessert",
+      "ex": "Mein Deutsch hat sich durch das Tandem stark verbessert.",
+      "ex_es": "Mi alemán ha mejorado mucho gracias al tándem."
+    },
+    {
+      "de": "die Übung",
+      "pl": "die Übungen",
+      "es": "el ejercicio, la práctica",
+      "cat": "Aprender",
+      "ex": "Übung macht den Meister.",
+      "ex_es": "La práctica hace al maestro."
+    },
+    {
+      "de": "auswendig lernen",
+      "es": "aprender de memoria",
+      "cat": "Aprender",
+      "forms": "er lernt auswendig, lernte auswendig, hat auswendig gelernt",
+      "ex": "Die Artikel muss man leider auswendig lernen.",
+      "ex_es": "Los artículos, por desgracia, hay que aprenderlos de memoria."
+    },
+    {
+      "de": "nachschlagen",
+      "es": "consultar (en un diccionario, un libro)",
+      "cat": "Aprender",
+      "forms": "er schlägt nach, schlug nach, hat nachgeschlagen",
+      "ex": "Unbekannte Wörter schlage ich im Wörterbuch nach.",
+      "ex_es": "Las palabras desconocidas las busco en el diccionario."
+    },
+    {
+      "de": "das Wörterbuch",
+      "pl": "die Wörterbücher",
+      "es": "el diccionario",
+      "cat": "Aprender",
+      "ex": "In der Prüfung darf man kein Wörterbuch benutzen.",
+      "ex_es": "En el examen no se puede usar diccionario."
+    },
+    {
+      "de": "der Lernstoff",
+      "es": "la materia (que hay que estudiar)",
+      "cat": "Aprender",
+      "ex": "Vor der Prüfung wiederhole ich den ganzen Lernstoff.",
+      "ex_es": "Antes del examen repaso toda la materia."
+    },
+    {
+      "de": "das Ziel",
+      "pl": "die Ziele",
+      "es": "el objetivo, la meta",
+      "cat": "Aprender",
+      "ex": "Mein Ziel ist das B1-Zertifikat im Juni.",
+      "ex_es": "Mi objetivo es el certificado B1 en junio."
+    },
+    {
+      "de": "der Fortschritt",
+      "pl": "die Fortschritte",
+      "es": "el progreso",
+      "cat": "Aprender",
+      "ex": "Du machst große Fortschritte!",
+      "ex_es": "¡Estás progresando mucho!"
+    },
+    {
+      "de": "der Erfolg",
+      "pl": "die Erfolge",
+      "es": "el éxito",
+      "cat": "Aprender",
+      "ex": "Viel Erfolg bei der Prüfung!",
+      "ex_es": "¡Mucho éxito en el examen!"
+    },
+    {
+      "de": "schwerfallen",
+      "es": "costar (trabajo)",
+      "cat": "Aprender",
+      "forms": "es fällt schwer, fiel schwer, ist schwergefallen",
+      "ex": "Das Sprechen fällt mir noch schwer.",
+      "ex_es": "Hablar todavía me cuesta."
+    },
+    {
+      "de": "leichtfallen",
+      "es": "resultar fácil",
+      "cat": "Aprender",
+      "forms": "es fällt leicht, fiel leicht, ist leichtgefallen",
+      "ex": "Das Lesen fällt mir leicht.",
+      "ex_es": "Leer me resulta fácil."
+    },
+    {
+      "de": "die Methode",
+      "pl": "die Methoden",
+      "es": "el método",
+      "cat": "Aprender",
+      "ex": "Jeder muss seine eigene Methode finden.",
+      "ex_es": "Cada uno tiene que encontrar su propio método."
+    },
+    {
+      "de": "fleißig",
+      "es": "trabajador, aplicado",
+      "cat": "Aprender",
+      "ex": "Sie ist sehr fleißig und lernt jeden Tag.",
+      "ex_es": "Es muy aplicada y estudia todos los días."
+    },
+    {
+      "de": "die Präsentation",
+      "pl": "die Präsentationen",
+      "es": "la presentación",
+      "cat": "Presentar",
+      "ex": "Meine Präsentation hat fünf Teile.",
+      "ex_es": "Mi presentación tiene cinco partes."
+    },
+    {
+      "de": "der Vortrag",
+      "pl": "die Vorträge",
+      "es": "la charla, la conferencia",
+      "cat": "Presentar",
+      "ex": "Morgen halte ich einen Vortrag über mein Projekt.",
+      "ex_es": "Mañana doy una charla sobre mi proyecto."
+    },
+    {
+      "de": "die Folie",
+      "pl": "die Folien",
+      "es": "la diapositiva",
+      "cat": "Presentar",
+      "ex": "Auf der nächsten Folie sehen Sie eine Grafik.",
+      "ex_es": "En la siguiente diapositiva ven un gráfico."
+    },
+    {
+      "de": "die Zuhörer (Pl.)",
+      "es": "el público, los oyentes",
+      "cat": "Presentar",
+      "ex": "Die Zuhörer haben viele Fragen gestellt.",
+      "ex_es": "El público hizo muchas preguntas."
+    },
+    {
+      "de": "zusammenfassen",
+      "es": "resumir",
+      "cat": "Presentar",
+      "forms": "er fasst zusammen, fasste zusammen, hat zusammengefasst",
+      "ex": "Zum Schluss fasse ich das Wichtigste zusammen.",
+      "ex_es": "Para terminar, resumo lo más importante."
+    },
+    {
+      "de": "die Aufmerksamkeit",
+      "es": "la atención",
+      "cat": "Presentar",
+      "ex": "Vielen Dank für Ihre Aufmerksamkeit!",
+      "ex_es": "¡Muchas gracias por su atención!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Estudios y aprendizaje",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "die Vorlesung",
+          "la clase magistral"
+        ],
+        [
+          "das Stipendium",
+          "la beca"
+        ],
+        [
+          "der Lehrling",
+          "el aprendiz"
+        ],
+        [
+          "die Berufsschule",
+          "la escuela de FP"
+        ],
+        [
+          "nachschlagen",
+          "consultar (un diccionario)"
+        ],
+        [
+          "auswendig lernen",
+          "aprender de memoria"
+        ],
+        [
+          "der Fortschritt",
+          "el progreso"
+        ],
+        [
+          "schwerfallen",
+          "costar (trabajo)"
+        ],
+        [
+          "die Folie",
+          "la diapositiva"
+        ],
+        [
+          "zusammenfassen",
+          "resumir"
+        ]
+      ],
+      "items": []
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "beim, zum, vom + infinitivo",
+      "instructions": "Elige la preposición correcta.",
+      "items": [
+        {
+          "q": "___ Lernen höre ich keine Musik. (mientras estudio)",
+          "options": [
+            "Zum",
+            "Beim",
+            "Vom"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Ich brauche das Wörterbuch ___ Übersetzen. (para traducir)",
+          "options": [
+            "zum",
+            "beim",
+            "vom"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Ich bin ganz müde ___ Lernen. (de tanto estudiar)",
+          "options": [
+            "zum",
+            "beim",
+            "vom"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "___ Kochen hört Andrea gern Podcasts.",
+          "options": [
+            "Beim",
+            "Zum",
+            "Vom"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Diese App ist perfekt ___ Wiederholen von Vokabeln.",
+          "options": [
+            "beim",
+            "vom",
+            "zum"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "José hat ___ Lesen Kopfschmerzen bekommen. (mientras leía)",
+          "options": [
+            "beim",
+            "zum",
+            "vom"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Hast du Papier ___ Schreiben?",
+          "options": [
+            "vom",
+            "zum",
+            "beim"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "El verbo como sustantivo",
+      "instructions": "Escribe el verbo entre paréntesis como sustantivo (¡con mayúscula!), con artículo o preposición si hace falta.",
+      "items": [
+        {
+          "text": "[[Das Lernen]] macht mir mit der App mehr Spaß. (das + lernen)"
+        },
+        {
+          "text": "Beim [[Sprechen]] mache ich noch viele Fehler. (sprechen)"
+        },
+        {
+          "text": "Zum [[Wiederholen]] benutze ich Karteikarten. (wiederholen)"
+        },
+        {
+          "text": "[[Lesen]] ist die beste Methode, um neue Wörter zu lernen. (lesen, sin artículo)"
+        },
+        {
+          "text": "Das [[Schreiben]] fällt mir am schwersten. (schreiben)"
+        },
+        {
+          "text": "Ich bin müde vom vielen [[Sitzen]]. (sitzen)"
+        },
+        {
+          "text": "Beim [[Zuhören]] mache ich mir Notizen. (zuhören)"
+        },
+        {
+          "text": "Das [[Aufstehen]] am Morgen ist für mich das Schlimmste. (aufstehen)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "write",
+      "title": "De wenn a beim",
+      "instructions": "Reescribe la frase con beim + infinitivo sustantivado.",
+      "items": [
+        {
+          "prompt": "Wenn ich lerne, trinke ich viel Tee.",
+          "answers": [
+            "Beim Lernen trinke ich viel Tee."
+          ]
+        },
+        {
+          "prompt": "Wenn ich lese, markiere ich wichtige Wörter.",
+          "answers": [
+            "Beim Lesen markiere ich wichtige Wörter."
+          ]
+        },
+        {
+          "prompt": "Wenn er kocht, hört er Radio.",
+          "answers": [
+            "Beim Kochen hört er Radio."
+          ]
+        },
+        {
+          "prompt": "Wenn wir Sport machen, sprechen wir nur Deutsch.",
+          "answers": [
+            "Beim Sport sprechen wir nur Deutsch.",
+            "Beim Sportmachen sprechen wir nur Deutsch."
+          ]
+        },
+        {
+          "prompt": "Wenn ich jogge, höre ich Podcasts.",
+          "answers": [
+            "Beim Joggen höre ich Podcasts."
+          ]
+        },
+        {
+          "prompt": "Wenn sie schreibt, benutzt sie ein Wörterbuch.",
+          "answers": [
+            "Beim Schreiben benutzt sie ein Wörterbuch."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "El adjetivo como sustantivo",
+      "instructions": "Completa con el adjetivo sustantivado (mayúscula y terminación correcta).",
+      "items": [
+        {
+          "text": "Im Kurs lerne ich jeden Tag etwas [[Neues]]. (neu)"
+        },
+        {
+          "text": "Das [[Wichtigste]] ist, jeden Tag ein bisschen zu üben. (wichtig, superlativo)"
+        },
+        {
+          "text": "Gestern im Unterricht ist nichts [[Besonderes]] passiert. (besonders)"
+        },
+        {
+          "text": "Ich wünsche dir alles [[Gute]] für die Prüfung! (gut)"
+        },
+        {
+          "text": "Das [[Schwierigste]] am Deutschen sind die Artikel. (schwierig, superlativo)"
+        },
+        {
+          "text": "Hast du schon etwas [[Interessantes]] über den Kurs gehört? (interessant)"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "-ung, -heit, -keit",
+      "instructions": "Elige el sustantivo correcto.",
+      "items": [
+        {
+          "q": "prüfen → ___",
+          "options": [
+            "die Prüfheit",
+            "die Prüfung",
+            "das Prüfkeit"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "möglich → ___",
+          "options": [
+            "die Möglichkeit",
+            "die Möglichung",
+            "die Möglichheit"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "frei → ___",
+          "options": [
+            "die Freiung",
+            "die Freikeit",
+            "die Freiheit"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "anmelden → ___",
+          "options": [
+            "die Anmeldheit",
+            "die Anmeldung",
+            "der Anmeldung"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "fähig → ___",
+          "options": [
+            "die Fähigkeit",
+            "die Fähigheit",
+            "die Fähigung"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "gesund → ___",
+          "options": [
+            "die Gesundung",
+            "die Gesundkeit",
+            "die Gesundheit"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Frases para presentar",
+      "instructions": "Ordena las frases típicas de la presentación (Sprechen Teil 2).",
+      "items": [
+        {
+          "words": [
+            "Mein",
+            "Thema",
+            "heute",
+            "ist",
+            "„Lernen",
+            "mit",
+            "Apps“",
+            "."
+          ],
+          "answers": [
+            "Mein Thema heute ist „Lernen mit Apps“.",
+            "Heute ist mein Thema „Lernen mit Apps“."
+          ]
+        },
+        {
+          "words": [
+            "Zuerst",
+            "erzähle",
+            "ich",
+            "von",
+            "meinen",
+            "Erfahrungen",
+            "."
+          ],
+          "answers": [
+            "Zuerst erzähle ich von meinen Erfahrungen."
+          ]
+        },
+        {
+          "words": [
+            "Danach",
+            "spreche",
+            "ich",
+            "über",
+            "die",
+            "Situation",
+            "in",
+            "Spanien",
+            "."
+          ],
+          "answers": [
+            "Danach spreche ich über die Situation in Spanien."
+          ]
+        },
+        {
+          "words": [
+            "Ein",
+            "Vorteil",
+            "ist",
+            ",",
+            "dass",
+            "man",
+            "flexibel",
+            "lernen",
+            "kann",
+            "."
+          ],
+          "answers": [
+            "Ein Vorteil ist, dass man flexibel lernen kann."
+          ]
+        },
+        {
+          "words": [
+            "Damit",
+            "komme",
+            "ich",
+            "zum",
+            "Schluss",
+            "."
+          ],
+          "answers": [
+            "Damit komme ich zum Schluss."
+          ]
+        },
+        {
+          "words": [
+            "Vielen",
+            "Dank",
+            "für",
+            "Ihre",
+            "Aufmerksamkeit",
+            "!"
+          ],
+          "answers": [
+            "Vielen Dank für Ihre Aufmerksamkeit!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "mc",
+      "title": "¿En qué diapositiva?",
+      "instructions": "¿En qué parte de la presentación usas esta frase?",
+      "items": [
+        {
+          "q": "Meine Präsentation hat fünf Teile.",
+          "options": [
+            "Introducción y estructura",
+            "Experiencia personal",
+            "Cierre"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Als ich in Zürich angekommen bin, habe ich …",
+          "options": [
+            "Situación en España",
+            "Experiencia personal",
+            "Ventajas e inconvenientes"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "In meinem Heimatland ist das ganz anders: Dort …",
+          "options": [
+            "Introducción y estructura",
+            "Cierre",
+            "Situación en España"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Auf der einen Seite …, auf der anderen Seite …",
+          "options": [
+            "Ventajas, inconvenientes y opinión",
+            "Introducción y estructura",
+            "Experiencia personal"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Ich komme jetzt zum Schluss und fasse kurz zusammen.",
+          "options": [
+            "Situación en España",
+            "Cierre",
+            "Experiencia personal"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Meiner Meinung nach überwiegen die Vorteile.",
+          "options": [
+            "Introducción y estructura",
+            "Situación en España",
+            "Ventajas, inconvenientes y opinión"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "listen",
+      "title": "Escucha: aprender",
+      "instructions": "Escucha y elige la respuesta correcta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Was fällt dir beim Deutschlernen am schwersten?"
+            },
+            {
+              "v": "m1",
+              "t": "Das Hören. Beim Lesen verstehe ich fast alles, aber die Schweizer sprechen so schnell!"
+            }
+          ],
+          "q": "¿Qué le cuesta más?",
+          "options": [
+            "Leer",
+            "Entender lo que oye",
+            "Escribir"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Zum Vokabellernen benutze ich eine App, und zum Sprechen treffe ich mich jeden Mittwoch mit meiner Tandempartnerin."
+            }
+          ],
+          "q": "¿Para qué usa la app?",
+          "options": [
+            "Para aprender vocabulario",
+            "Para hablar",
+            "Para la gramática"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Das Wichtigste ist, dass du jeden Tag ein bisschen übst. Lieber zehn Minuten täglich als drei Stunden am Sonntag."
+            }
+          ],
+          "q": "¿Qué consejo da?",
+          "options": [
+            "Estudiar mucho el fin de semana",
+            "Practicar un poco cada día",
+            "Estudiar tres horas al día"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Ich mache neben dem Job ein Fernstudium. Das Lernen am Abend ist anstrengend, aber ich bin sehr motiviert."
+            }
+          ],
+          "q": "¿Cuándo estudia ella?",
+          "options": [
+            "Por la mañana",
+            "En el trabajo",
+            "Por la noche"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Andrea, ich habe heute in der Vorlesung nichts Neues gelernt. Alles war Wiederholung."
+            },
+            {
+              "v": "f1",
+              "t": "Dann hast du wenigstens alles verstanden!"
+            }
+          ],
+          "q": "¿Cómo fue la clase de José?",
+          "options": [
+            "Aprendió mucho",
+            "No entendió nada",
+            "Todo era repaso"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Liebe Teilnehmende, beim Hören dürfen Sie keine Notizen machen, beim Lesen schon."
+            }
+          ],
+          "q": "¿Cuándo se pueden tomar notas?",
+          "options": [
+            "Durante la lectura",
+            "Durante la audición",
+            "Nunca"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Beim Lernen höre ich keine Musik."
+            }
+          ],
+          "answers": [
+            "Beim Lernen höre ich keine Musik."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Das Sprechen fällt mir noch schwer."
+            }
+          ],
+          "answers": [
+            "Das Sprechen fällt mir noch schwer."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Im Kurs lerne ich jeden Tag etwas Neues."
+            }
+          ],
+          "answers": [
+            "Im Kurs lerne ich jeden Tag etwas Neues."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Zum Schluss fasse ich das Wichtigste zusammen."
+            }
+          ],
+          "answers": [
+            "Zum Schluss fasse ich das Wichtigste zusammen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Die Anmeldung ist bis Ende März möglich."
+            }
+          ],
+          "answers": [
+            "Die Anmeldung ist bis Ende März möglich."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán usando un sustantivo.",
+      "items": [
+        {
+          "prompt": "Leer me resulta fácil. (das Lesen)",
+          "answers": [
+            "Das Lesen fällt mir leicht.",
+            "Lesen fällt mir leicht."
+          ]
+        },
+        {
+          "prompt": "Mientras cocino, escucho pódcasts. (beim)",
+          "answers": [
+            "Beim Kochen höre ich Podcasts."
+          ]
+        },
+        {
+          "prompt": "Necesito un diccionario para traducir. (zum)",
+          "answers": [
+            "Ich brauche ein Wörterbuch zum Übersetzen.",
+            "Zum Übersetzen brauche ich ein Wörterbuch."
+          ]
+        },
+        {
+          "prompt": "Lo más importante es la motivación.",
+          "answers": [
+            "Das Wichtigste ist die Motivation.",
+            "Die Motivation ist das Wichtigste."
+          ]
+        },
+        {
+          "prompt": "¿Has aprendido algo nuevo hoy?",
+          "answers": [
+            "Hast du heute etwas Neues gelernt?"
+          ]
+        },
+        {
+          "prompt": "¡Mucho éxito en el examen!",
+          "answers": [
+            "Viel Erfolg bei der Prüfung!",
+            "Viel Erfolg in der Prüfung!",
+            "Viel Erfolg für die Prüfung!"
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Mit 41 noch einmal Student",
+          "text": "Liebe Leserinnen und Leser,\n\nviele von euch haben gefragt, wie es mit meinem Studium läuft. Heute endlich ein Update!\n\nZur Erinnerung: Ich habe nach der Schule eine Lehre als Elektroniker gemacht und danach zwanzig Jahre lang in einer Firma in Aarau gearbeitet. Die Arbeit war gut, aber irgendwann hatte ich das Gefühl, dass ich nichts Neues mehr lerne. Mein Traum war schon immer Informatik. Deshalb habe ich mich letzten Herbst für ein Teilzeitstudium an der Fachhochschule angemeldet. Die Matura hatte ich nicht, aber mit meiner Berufserfahrung und einer Aufnahmeprüfung ging es trotzdem.\n\nDas erste Semester war hart, das muss ich zugeben. Ich arbeite weiterhin 60 Prozent, und zweimal pro Woche sitze ich abends in der Vorlesung. Am Anfang fiel mir besonders die Mathematik schwer. Beim Lösen der Aufgaben habe ich oft gedacht: Was mache ich hier eigentlich? Meine jüngeren Kommilitonen haben mir aber sehr geholfen. Inzwischen haben wir eine Lerngruppe, die sich jeden Samstagvormittag in der Bibliothek trifft.\n\nUnd das Positive? Ich merke, dass ich anders lerne als mit zwanzig. Ich bin geduldiger und weiß genau, warum ich das alles mache. Außerdem kann ich viele Dinge aus der Praxis erklären, die die anderen nur aus Büchern kennen. Das macht mich auch ein bisschen stolz.\n\nNatürlich ist das Studium nicht billig. Meine Firma bezahlt zum Glück die Hälfte der Studiengebühren, weil sie später einen Informatiker im Team braucht.\n\nIm nächsten Beitrag erzähle ich euch, wie ich Familie, Job und Lernen organisiere.\n\nEuer Marcel",
+          "statements": [
+            {
+              "s": "Marcel hat direkt nach der Schule studiert.",
+              "answer": false
+            },
+            {
+              "s": "Marcel konnte ohne Matura an der Fachhochschule anfangen.",
+              "answer": true
+            },
+            {
+              "s": "Marcel arbeitet während des Studiums nicht mehr.",
+              "answer": false
+            },
+            {
+              "s": "Die Lerngruppe trifft sich am Wochenende.",
+              "answer": true
+            },
+            {
+              "s": "Marcel findet, dass er heute geduldiger lernt als früher.",
+              "answer": true
+            },
+            {
+              "s": "Marcel muss die Studiengebühren ganz allein bezahlen.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "title": "E-Mail von Elif",
+          "text": "Liebe Sophie,\n\nwie geht es dir in Hamburg? Ich hoffe, die neue Stelle gefällt dir! Bei mir gibt es große Neuigkeiten: Ich habe die B1-Prüfung bestanden!\n\nDu weißt ja, wie nervös ich war. Vor einem Jahr konnte ich kaum einen Satz sagen, ohne Fehler zu machen. Meine Lehrerin in der Migros Klubschule hat mir dann einen Tipp gegeben, der mir sehr geholfen hat: Ich sollte jeden Tag eine Viertelstunde laut sprechen, auch wenn niemand zuhört. Also habe ich beim Kochen und beim Putzen mit mir selbst geredet – meine Nachbarn denken jetzt bestimmt, dass ich ein bisschen verrückt bin!\n\nAm meisten Angst hatte ich vor dem Sprechen, aber am Ende war das der beste Teil. Meine Partnerin und ich mussten zusammen einen Ausflug planen, das hatten wir im Kurs oft geübt. Bei der Präsentation habe ich über Online-Kurse gesprochen. Die Prüferin hat mir danach eine Frage gestellt, die ich zuerst nicht verstanden habe. Ich habe einfach höflich nachgefragt, und dann war alles klar.\n\nSchwieriger war das Hören. Beim dritten Teil war ich kurz unkonzentriert und habe zwei Antworten verpasst. Zum Glück hat es trotzdem gereicht: Ich habe insgesamt 78 Prozent!\n\nJetzt kann ich mich endlich für die Stelle als Pflegefachfrau bewerben, denn dafür braucht man mindestens B1. Und im Herbst möchte ich mit B2 weitermachen.\n\nKommst du mich bald besuchen? Dann feiern wir zusammen!\n\nGanz liebe Grüße\nElif",
+          "statements": [
+            {
+              "s": "Elif hat auf Rat ihrer Lehrerin jeden Tag laut gesprochen.",
+              "answer": true
+            },
+            {
+              "s": "Elif hat den Tipp von ihren Nachbarn bekommen.",
+              "answer": false
+            },
+            {
+              "s": "Das Sprechen war für Elif am Ende der beste Teil, obwohl sie davor Angst hatte.",
+              "answer": true
+            },
+            {
+              "s": "Bei einer Frage der Prüferin hat Elif nicht reagiert.",
+              "answer": false
+            },
+            {
+              "s": "Im Hören hat Elif alle Antworten richtig gehabt.",
+              "answer": false
+            },
+            {
+              "s": "Für ihre neue Stelle braucht Elif das B1-Zertifikat.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Lehre statt Gymnasium: Das Erfolgsmodell der Schweiz",
+          "text": "Bern – In vielen Ländern Europas gilt ein Studium als der beste Weg zu einem guten Job. In der Schweiz ist das anders: Rund zwei Drittel der Jugendlichen entscheiden sich nach der obligatorischen Schulzeit für eine Berufslehre. Sie arbeiten drei oder vier Tage pro Woche in einem Betrieb und besuchen an den anderen Tagen die Berufsschule. Mehr als 240 Berufe kann man so lernen, vom Koch über die Informatikerin bis zum Polymechaniker.\n\n„Das System hat einen großen Vorteil: Die jungen Leute lernen nicht nur Theorie, sondern sind von Anfang an Teil eines Teams“, sagt Regula Bachmann, die in einer Maschinenbaufirma in Aarau Lehrlinge ausbildet. Außerdem verdienen Lernende schon während der Ausbildung Geld, je nach Beruf und Lehrjahr zwischen 500 und 1500 Franken im Monat. Die Jugendarbeitslosigkeit ist in der Schweiz deshalb deutlich niedriger als im Durchschnitt der EU.\n\nWichtig ist auch, dass eine Lehre keine Sackgasse ist. Wer zusätzlich die Berufsmaturität macht, kann später an einer Fachhochschule studieren. Viele Manager großer Schweizer Firmen haben ihre Karriere als Lehrling begonnen.\n\nProbleme gibt es trotzdem. In manchen Branchen, zum Beispiel in der Gastronomie und im Bau, bleiben jedes Jahr Lehrstellen frei, weil sich zu wenige Jugendliche dafür interessieren. Gleichzeitig ist die Konkurrenz um beliebte Lehrstellen bei Banken oder Versicherungen groß. Berufsberaterinnen empfehlen deshalb, früh zu schnuppern: In einer Schnupperlehre können Schülerinnen und Schüler ein paar Tage in einem Betrieb mitarbeiten und herausfinden, ob der Beruf zu ihnen passt.",
+          "questions": [
+            {
+              "q": "In diesem Text geht es darum, …",
+              "options": [
+                "warum in der Schweiz viele Jugendliche eine Lehre machen.",
+                "warum Schweizer Jugendliche lieber studieren.",
+                "wie man in der Schweiz an eine Universität kommt."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Lernende in der Schweiz …",
+              "options": [
+                "bekommen erst nach der Ausbildung einen Lohn.",
+                "verdienen schon während der Lehre Geld.",
+                "arbeiten nur einen Tag pro Woche im Betrieb."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was empfehlen Berufsberaterinnen?",
+              "options": [
+                "Sich nur bei Banken und Versicherungen zu bewerben.",
+                "Zuerst die Berufsmaturität zu machen.",
+                "Einige Tage in einem Betrieb einen Beruf auszuprobieren."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Mit der Hand lernt man besser",
+          "text": "Oslo / Wien – Laptop oder Papier? An vielen Schulen und Universitäten schreiben Studierende ihre Notizen heute fast nur noch am Computer. Eine Studie aus Norwegen zeigt aber, dass das Schreiben mit der Hand beim Lernen Vorteile hat. Die Forscherinnen und Forscher haben die Gehirnaktivität von 36 Studierenden gemessen, während diese Wörter entweder mit der Hand schrieben oder auf einer Tastatur tippten. Beim Schreiben mit der Hand waren deutlich mehr Bereiche im Gehirn aktiv, die für das Erinnern wichtig sind.\n\nDas passt zu anderen Ergebnissen: Wer mit dem Laptop mitschreibt, notiert oft fast jedes Wort, ohne viel nachzudenken. Mit der Hand ist man langsamer und muss deshalb das Wichtigste auswählen und mit eigenen Worten zusammenfassen. Genau das hilft dem Gedächtnis.\n\n„Das heißt nicht, dass Computer schlecht für das Lernen sind“, sagt die Wiener Bildungsforscherin Petra Hollauf. „Zum Recherchieren oder zum Üben von Vokabeln sind digitale Werkzeuge sehr nützlich.“ Problematisch ist vor allem die Ablenkung: Wer mit dem Laptop in der Vorlesung sitzt, liest nebenbei schnell E-Mails oder Nachrichten.\n\nIn Schweden, wo Schulen vor einigen Jahren fast komplett auf Tablets gesetzt hatten, gibt es inzwischen wieder mehr gedruckte Schulbücher. Hollauf empfiehlt eine Mischung: „Je jünger die Kinder sind, desto wichtiger sind Stift und Papier. Später kann man digitale Medien gezielt einsetzen.“",
+          "questions": [
+            {
+              "q": "Was hat die Studie aus Norwegen gezeigt?",
+              "options": [
+                "Studierende schreiben lieber mit der Hand.",
+                "Beim Schreiben mit der Hand arbeitet das Gehirn intensiver.",
+                "Mit der Tastatur schreibt man weniger Fehler."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Warum lernt man mit Notizen auf Papier besser?",
+              "options": [
+                "Weil man das Wichtige auswählen muss.",
+                "Weil man jedes Wort notieren kann.",
+                "Weil man schneller schreibt."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Petra Hollauf meint, dass …",
+              "options": [
+                "Kinder keine Tablets benutzen sollten.",
+                "Computer beim Lernen nicht helfen.",
+                "digitale Medien für bestimmte Aufgaben gut sind."
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Deutsch intensiv B1: Vormittagskurs, Montag bis Freitag, 8.30–11.45 Uhr. Mit Prüfungsvorbereitung für das Goethe-Zertifikat. Kinderbetreuung im Haus."
+            },
+            {
+              "key": "b",
+              "text": "Abendkurs „Deutsch im Beruf“ (B1/B2): E-Mails, Telefonate und Besprechungen. Dienstag und Donnerstag, 18.30–20.30 Uhr, in der Nähe vom Hauptbahnhof."
+            },
+            {
+              "key": "c",
+              "text": "Fernstudium Betriebswirtschaft: Studieren Sie online und in Ihrem eigenen Tempo. Bachelor in drei bis vier Jahren, nur vier Präsenzwochenenden pro Jahr."
+            },
+            {
+              "key": "d",
+              "text": "Sprachcafé im Gemeinschaftszentrum: Jeden Freitag ab 17 Uhr treffen sich Menschen aus aller Welt zum Plaudern auf Deutsch. Ohne Anmeldung, gratis."
+            },
+            {
+              "key": "e",
+              "text": "Zertifikatskurs Projektmanagement: berufsbegleitende Weiterbildung für Führungskräfte, sechs Monate, jeweils Freitagnachmittag und Samstag."
+            },
+            {
+              "key": "f",
+              "text": "Computerkurs für Seniorinnen und Senioren: E-Mail, Internet und Videotelefonie mit den Enkeln – in kleinen Gruppen und mit viel Geduld."
+            },
+            {
+              "key": "g",
+              "text": "Nachhilfe Mathematik und Physik: Studentin der ETH gibt Nachhilfe für Gymnasium und Berufsschule, auch online. 40 Franken pro Stunde."
+            },
+            {
+              "key": "h",
+              "text": "Infoabend der Pädagogischen Hochschule: Lehrerin oder Lehrer werden – auch als Quereinsteiger mit Berufserfahrung. Donnerstag, 19 Uhr, Aula."
+            },
+            {
+              "key": "i",
+              "text": "Spanisch für Anfänger: Lernen Sie mit einer Muttersprachlerin aus Sevilla. Samstagvormittag, 10 Termine, kleine Gruppe."
+            },
+            {
+              "key": "j",
+              "text": "Schreibwerkstatt: Bewerbungen und Lebenslauf auf Deutsch – wir korrigieren Ihre Unterlagen und üben Vorstellungsgespräche. Einzeltermine nach Vereinbarung."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Nadia hat ein Kind im Kindergartenalter und möchte sich vormittags auf die B1-Prüfung vorbereiten.",
+              "answer": "a"
+            },
+            {
+              "situation": "Kemal arbeitet tagsüber in einem Büro und möchte sein Deutsch für die Arbeit verbessern.",
+              "answer": "b"
+            },
+            {
+              "situation": "Frau Lanz ist seit 15 Jahren Bankangestellte und möchte gern an einer Schule unterrichten.",
+              "answer": "h"
+            },
+            {
+              "situation": "Der Sohn von Herrn Meier hat im Gymnasium schlechte Noten in Mathe.",
+              "answer": "g"
+            },
+            {
+              "situation": "Rosa möchte ohne Kosten und ohne festen Kurs mit anderen Leuten Deutsch sprechen.",
+              "answer": "d"
+            },
+            {
+              "situation": "Tim sucht eine Stelle und möchte, dass jemand seine Bewerbungsunterlagen auf Fehler kontrolliert.",
+              "answer": "j"
+            },
+            {
+              "situation": "Laura möchte am Wochenende einen Kochkurs mit spanischen Rezepten machen.",
+              "answer": "x"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Noten in der Primarschule?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Noten in der Primarschule.",
+          "question": "Ist die Person für Noten in der Primarschule?",
+          "comments": [
+            {
+              "name": "Rahel, 38, Winterthur",
+              "text": "Meine Tochter ist in der vierten Klasse und bekommt seit diesem Jahr Noten. Ich sehe, dass sie unter Druck steht und vor jeder Prüfung schlecht schläft. Früher hat sie gern gelernt, heute fragt sie nur noch: „Kommt das in der Prüfung?“ Ein ausführliches Gespräch mit der Lehrerin sagt mir viel mehr als eine Zahl. Ich wünsche mir eine Schule ohne Noten.",
+              "answer": false
+            },
+            {
+              "name": "Bernhard, 55, Linz",
+              "text": "Ich bin seit dreißig Jahren Lehrer. Natürlich können Noten nicht alles zeigen, was ein Kind kann. Trotzdem sind sie für Eltern und Kinder klar und verständlich. Ohne Noten wissen viele Eltern gar nicht, wo ihr Kind steht, und am Ende ist die Überraschung groß. Kinder müssen auch lernen, mit einer schlechten Note umzugehen. Deshalb sollten wir sie beibehalten.",
+              "answer": true
+            },
+            {
+              "name": "Svetlana, 33, Basel",
+              "text": "In meiner Heimat gab es schon in der ersten Klasse Noten, und ich war immer die Beste. Das klingt gut, aber ich habe nur für die Noten gelernt, nicht aus Interesse. Heute arbeite ich als Lehrerin und sehe, dass Kinder mit persönlichen Rückmeldungen viel motivierter sind. Für kleine Kinder braucht es meiner Meinung nach keine Noten.",
+              "answer": false
+            },
+            {
+              "name": "Florian, 42, Zürich",
+              "text": "Einerseits verstehe ich die Kritik: Eine schlechte Note kann ein Kind traurig machen. Andererseits ist das Leben auch nicht immer fair, und eine Note ist ehrlich. Mein Sohn will sich verbessern, wenn er eine Vier bekommt, und freut sich riesig über eine Sechs. Das motiviert ihn mehr als jedes Lob. Ich finde, die Noten sollten bleiben.",
+              "answer": true
+            },
+            {
+              "name": "Dana, 29, Bern",
+              "text": "Ich mache gerade meine Ausbildung zur Primarlehrerin. In meinem Praktikum habe ich eine Klasse ohne Noten erlebt, und ehrlich gesagt war ich zuerst skeptisch. Aber die Kinder haben sich gegenseitig geholfen statt sich zu vergleichen, und die Gespräche mit den Eltern waren viel konstruktiver. Seitdem bin ich überzeugt, dass Noten in der Primarschule keinen Sinn machen.",
+              "answer": false
+            },
+            {
+              "name": "Konrad, 61, Salzburg",
+              "text": "Ohne Noten hätte ich als Kind wahrscheinlich gar nichts gelernt, das gebe ich zu. Ich habe mich immer erst angestrengt, wenn ein Test kam. Und später, bei der Lehrstellensuche, schauen die Firmen sowieso auf das Zeugnis. Wer in der Primarschule keine Noten kennt, hat dann einen Schock. Lieber früh daran gewöhnen, sage ich.",
+              "answer": true
+            },
+            {
+              "name": "Isabel, 47, St. Gallen",
+              "text": "Ich bin Kinderärztin, und in meine Praxis kommen immer mehr Kinder mit Bauchschmerzen und Schlafproblemen wegen der Schule. Zwar sind die Noten nicht der einzige Grund, aber sie spielen eine große Rolle. Ich verstehe die Eltern, die eine klare Bewertung möchten, trotzdem: Die Gesundheit der Kinder ist wichtiger. Deshalb unterstütze ich die Idee, die Noten in den ersten Jahren abzuschaffen.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Kursreglement der Sprachschule Lingua Zürich",
+          "text": "1. Anmeldung\nDie Anmeldung ist online oder am Empfang möglich. Sie gilt erst, wenn die Kursgebühr bezahlt ist. Vor dem ersten Kurs machen alle neuen Teilnehmenden einen kostenlosen Einstufungstest.\n\n2. Bezahlung\nDie Kursgebühr muss spätestens zehn Tage vor Kursbeginn auf unserem Konto sein. Bei Kursen ab 800 Franken ist eine Zahlung in zwei Raten möglich. Lehrmittel sind nicht im Kurspreis inbegriffen.\n\n3. Abmeldung\nBei einer Abmeldung bis 14 Tage vor Kursbeginn erhalten Sie die ganze Kursgebühr zurück, abzüglich 50 Franken Bearbeitungsgebühr. Bei einer späteren Abmeldung wird die Hälfte zurückerstattet. Nach Kursbeginn ist keine Rückzahlung mehr möglich, außer bei Krankheit mit Arztzeugnis.\n\n4. Verpasste Lektionen\nVerpasste Lektionen können nicht nachgeholt werden. Bitte informieren Sie Ihre Kursleitung, wenn Sie nicht kommen können. Die Unterlagen der verpassten Lektion finden Sie auf unserer Lernplattform.\n\n5. Kursbestätigung\nAm Ende des Kurses erhalten Sie eine Kursbestätigung, wenn Sie mindestens 80 Prozent der Lektionen besucht haben. Für Prüfungen wie das Goethe-Zertifikat müssen Sie sich separat anmelden; die Prüfungsgebühr ist nicht in der Kursgebühr enthalten.\n\n6. Kursausfall\nWenn sich weniger als fünf Personen anmelden, kann die Schule einen Kurs absagen. In diesem Fall erhalten Sie die ganze Kursgebühr zurück oder können in einen anderen Kurs wechseln.",
+          "questions": [
+            {
+              "q": "Wann ist Ihre Anmeldung gültig?",
+              "options": [
+                "Wenn Sie den Einstufungstest gemacht haben.",
+                "Wenn Sie das Formular online ausgefüllt haben.",
+                "Wenn Sie den Kurs bezahlt haben."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Sie melden sich eine Woche vor Kursbeginn ab. Was bekommen Sie zurück?",
+              "options": [
+                "Die Hälfte der Kursgebühr.",
+                "Die ganze Kursgebühr ohne Abzug.",
+                "Nichts."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was gilt für verpasste Lektionen?",
+              "options": [
+                "Man kann sie in einem anderen Kurs nachholen.",
+                "Man kann die Materialien online finden.",
+                "Man bekommt dafür Geld zurück."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wann bekommt man eine Kursbestätigung?",
+              "options": [
+                "Wenn man die Prüfung bestanden hat.",
+                "Wenn man mindestens 80 Prozent der Lektionen besucht hat.",
+                "Wenn man den ganzen Kurs bezahlt hat."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Liebe Besucherinnen und Besucher der Zentralbibliothek, bitte beachten Sie: Wegen Bauarbeiten schließt die Bibliothek heute bereits um 18 Uhr, nicht wie üblich um 22 Uhr. Der Lesesaal im dritten Stock bleibt ab morgen für zwei Wochen geschlossen. Ruhige Arbeitsplätze finden Sie in dieser Zeit im Erdgeschoss und in der Bibliothek am Campus Irchel. Ausgeliehene Bücher können Sie wie immer am Rückgabeautomaten beim Eingang zurückgeben."
+            }
+          ],
+          "statement": "Die Bibliothek ist heute länger geöffnet als normal.",
+          "tf": false,
+          "q": "Wo kann man in den nächsten zwei Wochen ruhig arbeiten?",
+          "options": [
+            "Im Lesesaal im dritten Stock.",
+            "Im Erdgeschoss.",
+            "Beim Rückgabeautomaten."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Grüezi Frau Navarro, hier ist Thomas Gisler von der Sprachschule Lingua. Ich rufe wegen Ihres Konversationskurses am Mittwochabend an. Leider haben sich nur drei Personen angemeldet, deshalb kann der Kurs nicht stattfinden. Wir können Ihnen aber zwei Möglichkeiten anbieten: Entweder bekommen Sie das Geld zurück, oder Sie wechseln in den Kurs am Montagabend, der hat noch Plätze frei. Bitte rufen Sie uns bis Freitag an. Danke!"
+            }
+          ],
+          "statement": "Der Kurs am Mittwoch fällt aus.",
+          "tf": true,
+          "q": "Was soll Frau Navarro tun?",
+          "options": [
+            "Sich bis Freitag bei der Schule melden.",
+            "Am Mittwoch in die Schule kommen.",
+            "Einen anderen Kurs online buchen."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Und hier die Meldungen aus Bildung und Beruf. Im Kanton Zürich sind zwei Monate vor Lehrbeginn noch über tausend Lehrstellen frei. Besonders gesucht werden Lernende in der Gastronomie, im Detailhandel und auf dem Bau. Die Berufsberatung des Kantons bietet deshalb am kommenden Samstag einen Lehrstellen-Markt im Hauptbahnhof an. Jugendliche können dort direkt mit Firmen sprechen und sich für Schnuppertage anmelden. Eine Anmeldung ist nicht nötig."
+            }
+          ],
+          "statement": "Für den Lehrstellen-Markt muss man sich vorher anmelden.",
+          "tf": false,
+          "q": "In welchen Bereichen fehlen besonders viele Lernende?",
+          "options": [
+            "In Banken und Versicherungen.",
+            "In der Informatik.",
+            "In Restaurants, Geschäften und auf dem Bau."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Hallo Jakob, hier ist Verena. Du, ich habe gerade gesehen, dass die Volkshochschule einen Kurs „Präsentieren ohne Angst“ anbietet. Das wäre doch was für dich, wegen deines Vortrags im Juni! Der Kurs ist an vier Samstagen im Mai, immer vormittags, und kostet hundertzwanzig Euro. Ich würde auch mitmachen. Die Anmeldung ist nur noch bis Donnerstag möglich. Sag mir einfach Bescheid, dann melde ich uns beide an."
+            }
+          ],
+          "statement": "Verena möchte den Kurs zusammen mit Jakob machen.",
+          "tf": true,
+          "q": "Wann findet der Kurs statt?",
+          "options": [
+            "An vier Abenden im Juni.",
+            "An vier Samstagvormittagen im Mai.",
+            "Jeden Donnerstag."
+          ],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung über den Campus einer Hochschule teil.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Herzlich willkommen am Infotag der Hochschule! Ich bin Nina, studiere im fünften Semester Umweltingenieurwesen und zeige Ihnen heute unseren Campus. Die Führung dauert ungefähr eine Stunde."
+            },
+            {
+              "v": "f1",
+              "t": "Wir stehen hier vor dem Hauptgebäude. Hier finden die meisten Vorlesungen der ersten Semester statt. Im Erdgeschoss ist auch das Studierendensekretariat. Dort bekommen Sie Ihren Studierendenausweis und können alle Fragen zur Anmeldung stellen."
+            },
+            {
+              "v": "f1",
+              "t": "Gehen wir weiter zur Bibliothek. Sie ist von Montag bis Samstag bis 22 Uhr geöffnet. Ein Tipp von mir: Während der Prüfungszeit ist sie sehr voll. Wer einen Platz will, muss früh kommen oder online einen Arbeitsplatz reservieren. Beim Lernen hilft mir die Bibliothek sehr, zu Hause kann ich mich nicht so gut konzentrieren."
+            },
+            {
+              "v": "f1",
+              "t": "Und hier ist die Mensa. Ein Mittagessen kostet für Studierende zwischen sechs und neun Franken. Es gibt jeden Tag auch ein vegetarisches und ein veganes Menü. Am Freitagabend wird die Mensa übrigens oft zur Partyzone, dann organisieren die Studierendenvereine Feste."
+            },
+            {
+              "v": "f1",
+              "t": "Viele von Ihnen fragen sich sicher, wie man das Studium finanziert. Die Studiengebühren betragen pro Semester etwa achthundert Franken. Wer wenig Geld hat, kann beim Kanton ein Stipendium beantragen. Außerdem arbeiten viele Studierende nebenbei, zum Beispiel als Hilfsassistentinnen hier an der Hochschule."
+            },
+            {
+              "v": "f1",
+              "t": "Zum Schluss noch etwas Wichtiges: Für die Bachelorstudiengänge auf Deutsch brauchen Sie ein Sprachniveau C1. Wenn Sie das noch nicht haben, bietet das Sprachenzentrum vor Semesterbeginn Intensivkurse an."
+            },
+            {
+              "v": "f1",
+              "t": "So, jetzt gehen wir zum Labor, dort zeigen Ihnen zwei Professoren ihre Forschungsprojekte. Danach können Sie im Foyer mit Studierenden aus allen Studiengängen sprechen."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was kann man im Studierendensekretariat machen?",
+              "options": [
+                "Vorlesungen besuchen.",
+                "Den Studierendenausweis abholen.",
+                "Ein Stipendium bekommen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was rät Nina für die Prüfungszeit?",
+              "options": [
+                "Früh in die Bibliothek kommen oder einen Platz reservieren.",
+                "Zu Hause lernen.",
+                "Bis 22 Uhr in der Mensa lernen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was gibt es in der Mensa?",
+              "options": [
+                "Nur vegetarisches Essen.",
+                "Jeden Abend Partys.",
+                "Täglich auch Menüs ohne Fleisch."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Wie können Studierende mit wenig Geld ihr Studium finanzieren?",
+              "options": [
+                "Die Hochschule bezahlt die Studiengebühren.",
+                "Sie können ein Stipendium vom Kanton bekommen.",
+                "Sie bekommen in der Mensa gratis Essen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Welches Sprachniveau braucht man für einen Bachelor auf Deutsch?",
+              "options": [
+                "B1.",
+                "B2.",
+                "C1."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "intro": "Sie hören die Begrüßung am ersten Tag eines Deutschkurses.",
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Guten Morgen und herzlich willkommen zum Kurs Deutsch B1! Ich heiße Markus Feldmann und bin in den nächsten zehn Wochen Ihr Kursleiter. Bevor wir mit dem Unterricht anfangen, möchte ich Ihnen ein paar organisatorische Dinge erklären."
+            },
+            {
+              "v": "m2",
+              "t": "Der Kurs findet dreimal pro Woche statt, am Montag, Mittwoch und Freitag, immer von neun bis zwölf Uhr. Um halb elf machen wir eine Pause von fünfzehn Minuten. Kaffee und Tee gibt es gratis im Raum neben dem Sekretariat."
+            },
+            {
+              "v": "m2",
+              "t": "Unser Lehrbuch heißt „Netzwerk neu B1“. Wer es noch nicht hat, kann es im Sekretariat kaufen. Bitte bringen Sie außerdem ein Heft für Vokabeln mit. Ich weiß, viele lernen heute lieber mit Apps, und das ist auch in Ordnung. Aber beim Aufschreiben mit der Hand merkt man sich Wörter oft besser."
+            },
+            {
+              "v": "m2",
+              "t": "Am Ende des Kurses können Sie die Goethe-Prüfung B1 hier bei uns ablegen. Die Prüfung ist nicht obligatorisch, und die Anmeldung müssen Sie selbst machen, spätestens sechs Wochen vor dem Termin. Ich empfehle allen, die eine Stelle suchen oder einen Antrag beim Migrationsamt stellen wollen, die Prüfung zu machen."
+            },
+            {
+              "v": "m2",
+              "t": "Zum Lernen zu Hause gebe ich Ihnen jeden Tag Hausaufgaben, aber nicht zu viele: Rechnen Sie mit etwa einer halben Stunde. Wichtiger als die Hausaufgaben ist, dass Sie im Alltag so viel wie möglich Deutsch sprechen."
+            },
+            {
+              "v": "m2",
+              "t": "Wenn Sie einmal nicht kommen können, schreiben Sie mir bitte eine kurze E-Mail. Meine Adresse steht auf dem Blatt, das ich gleich verteile. Und jetzt möchte ich Sie kennenlernen. Bitte stellen Sie sich zu zweit gegenseitig vor."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wann ist die Kurspause?",
+              "options": [
+                "Um halb elf.",
+                "Um neun Uhr.",
+                "Um zwölf Uhr."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was sollen die Teilnehmenden mitbringen?",
+              "options": [
+                "Eine Vokabel-App.",
+                "Ein Heft für Vokabeln.",
+                "Ein Wörterbuch."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was sagt der Kursleiter über die Prüfung?",
+              "options": [
+                "Alle müssen die Prüfung machen.",
+                "Die Schule meldet alle automatisch an.",
+                "Man muss sich selbst anmelden."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Wie viel Zeit sollen die Hausaufgaben ungefähr dauern?",
+              "options": [
+                "Etwa dreißig Minuten.",
+                "Etwa eine Stunde.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was sollen die Teilnehmenden machen, wenn sie nicht kommen können?",
+              "options": [
+                "Im Sekretariat anrufen.",
+                "Dem Kursleiter eine E-Mail schreiben.",
+                "Die Hausaufgaben doppelt machen."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hey, Leonie! Du siehst müde aus."
+            },
+            {
+              "v": "f1",
+              "t": "Hallo, Samir. Bin ich auch. Ich habe bis zwei Uhr nachts gelernt. Nächste Woche ist meine B1-Prüfung."
+            },
+            {
+              "v": "m1",
+              "t": "Ach so, stimmt! Und, bist du gut vorbereitet?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich weiß nicht. Das Lesen und das Schreiben fallen mir leicht, aber vor dem Hören habe ich Angst. Man hört manche Texte nur einmal!"
+            },
+            {
+              "v": "m1",
+              "t": "Das kenne ich. Bei mir war das Hören auch der schwierigste Teil. Weißt du, was mir geholfen hat? Ich habe jeden Tag Radio gehört, beim Frühstück und beim Kochen."
+            },
+            {
+              "v": "f1",
+              "t": "Radio? Aber da sprechen sie so schnell."
+            },
+            {
+              "v": "m1",
+              "t": "Am Anfang schon. Aber nach ein paar Wochen versteht man immer mehr. Und für die Prüfung gibt es auf der Goethe-Webseite Übungstests mit Audios."
+            },
+            {
+              "v": "f1",
+              "t": "Die habe ich schon alle gemacht. Zweimal sogar."
+            },
+            {
+              "v": "m1",
+              "t": "Dann bist du doch gut vorbereitet! Und das Sprechen? Mit wem machst du die Prüfung?"
+            },
+            {
+              "v": "f1",
+              "t": "Das weiß man vorher nicht, der Partner ist zufällig. Ich hoffe, dass es jemand Nettes ist."
+            },
+            {
+              "v": "m1",
+              "t": "Bestimmt. Mein Tipp für die Präsentation: Sprich langsam und schau die Prüfer an, nicht nur deine Notizen."
+            },
+            {
+              "v": "f1",
+              "t": "Gute Idee. Ich lese immer zu viel ab."
+            },
+            {
+              "v": "m1",
+              "t": "Und lern nicht mehr bis zwei Uhr nachts! Am Tag vor der Prüfung solltest du gar nichts mehr lernen, sondern dich entspannen."
+            },
+            {
+              "v": "f1",
+              "t": "Das sagt meine Lehrerin auch. Vielleicht gehe ich am Abend vorher ins Kino."
+            },
+            {
+              "v": "m1",
+              "t": "Super. Und danach feiern wir, egal wie es läuft!"
+            },
+            {
+              "v": "f1",
+              "t": "Abgemacht. Danke, Samir!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Leonie hat in der Nacht lange gelernt.",
+              "answer": true
+            },
+            {
+              "s": "Leonie findet das Schreiben am schwierigsten.",
+              "answer": false
+            },
+            {
+              "s": "Samir hat zum Üben oft Radio gehört.",
+              "answer": true
+            },
+            {
+              "s": "Leonie hat die Übungstests noch nicht gemacht.",
+              "answer": false
+            },
+            {
+              "s": "Leonie kennt ihre Partnerin für die mündliche Prüfung schon.",
+              "answer": false
+            },
+            {
+              "s": "Samir rät Leonie, bei der Präsentation die Prüfer anzusehen.",
+              "answer": true
+            },
+            {
+              "s": "Leonie will am Tag vor der Prüfung noch einmal alles wiederholen.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind in der S-Bahn und hören, wie sich zwei Kollegen unterhalten.",
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Sag mal, Dominik, stimmt es, dass du im Herbst eine Weiterbildung anfängst?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, genau. Einen Lehrgang in Projektmanagement. Ein Jahr lang, immer am Freitag und jeden zweiten Samstag."
+            },
+            {
+              "v": "ch-m",
+              "t": "Am Samstag auch? Das ist aber viel. Und wer bezahlt das?"
+            },
+            {
+              "v": "m2",
+              "t": "Die Firma bezahlt achtzig Prozent. Den Rest bezahle ich selbst. Aber ich muss danach mindestens zwei Jahre bei der Firma bleiben, sonst muss ich einen Teil zurückzahlen."
+            },
+            {
+              "v": "ch-m",
+              "t": "Das ist fair, finde ich. Und den Freitag musst du nicht als Ferientag nehmen?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, der Freitag gilt als Arbeitszeit. Das war mir wichtig, sonst hätte ich es nicht gemacht. Ich habe ja zwei kleine Kinder."
+            },
+            {
+              "v": "ch-m",
+              "t": "Und was sagt deine Frau dazu?"
+            },
+            {
+              "v": "m2",
+              "t": "Sie unterstützt mich. Sie hat letztes Jahr selbst eine Fortbildung gemacht, jetzt bin ich dran."
+            },
+            {
+              "v": "ch-m",
+              "t": "Ich überlege auch schon lange, ob ich etwas machen soll. Vielleicht Englisch. Bei den Besprechungen mit den Kunden aus London fehlen mir oft die Wörter."
+            },
+            {
+              "v": "m2",
+              "t": "Frag doch mal Frau Keller in der Personalabteilung. Sie hat mir sehr gut erklärt, welche Kurse die Firma bezahlt."
+            },
+            {
+              "v": "ch-m",
+              "t": "Mache ich. Aber ehrlich gesagt habe ich Angst, dass ich zu alt bin. Ich habe seit zwanzig Jahren keine Prüfung mehr gemacht."
+            },
+            {
+              "v": "m2",
+              "t": "Ach was! In meinem Lehrgang sind Leute zwischen fünfundzwanzig und sechzig. Und das Lernen fällt einem leichter, wenn man weiß, wofür man es macht."
+            },
+            {
+              "v": "ch-m",
+              "t": "Da hast du recht. Ich schreibe ihr gleich heute eine E-Mail."
+            },
+            {
+              "v": "m2",
+              "t": "Gut so! Und wenn du willst, können wir in der Mittagspause zusammen lernen. Ich muss auch viel lesen."
+            }
+          ],
+          "statements": [
+            {
+              "s": "Dominiks Weiterbildung dauert ein Jahr.",
+              "answer": true
+            },
+            {
+              "s": "Dominik muss die Weiterbildung ganz selbst bezahlen.",
+              "answer": false
+            },
+            {
+              "s": "Wenn Dominik die Firma früh verlässt, muss er Geld zurückzahlen.",
+              "answer": true
+            },
+            {
+              "s": "Dominik muss für die Kurstage am Freitag Ferien nehmen.",
+              "answer": false
+            },
+            {
+              "s": "Dominiks Frau hat selbst schon eine Fortbildung gemacht.",
+              "answer": true
+            },
+            {
+              "s": "Der Kollege braucht Englisch für die Arbeit mit Kunden.",
+              "answer": true
+            },
+            {
+              "s": "Der Kollege möchte zuerst mit seinem Chef sprechen.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Der Moderator der Radiosendung „Forum Bildung“ diskutiert mit der Berufsberaterin Martina Wyss und dem Studenten Luca Bernasconi über das Thema „Studium oder Lehre – was ist der bessere Weg?“",
+          "options": [
+            "Moderator",
+            "Martina Wyss",
+            "Luca Bernasconi"
+          ],
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Abend und willkommen bei „Forum Bildung“. Jedes Jahr müssen sich Tausende Jugendliche entscheiden: Gymnasium und Studium oder eine Lehre? Darüber spreche ich heute mit der Berufsberaterin Martina Wyss und mit Luca Bernasconi, der Medizin studiert. Frau Wyss, mit welchen Fragen kommen die Jugendlichen zu Ihnen?"
+            },
+            {
+              "v": "f1",
+              "t": "Oft kommen sie gar nicht allein, sondern mit den Eltern. Und häufig wollen eher die Eltern, dass das Kind ins Gymnasium geht. Viele denken, dass man nur mit einem Studium Karriere machen kann. Das stimmt in der Schweiz aber einfach nicht."
+            },
+            {
+              "v": "m1",
+              "t": "Herr Bernasconi, Sie haben sich fürs Studium entschieden. Warum?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich wollte schon als Kind Arzt werden. Dafür gibt es keinen anderen Weg als das Studium. Bei mir war die Entscheidung also einfach."
+            },
+            {
+              "v": "f1",
+              "t": "Und das ist genau der Punkt: Wer ein klares Ziel hat, für das man studieren muss, soll natürlich ins Gymnasium. Aber viele Jugendliche gehen ins Gymnasium, weil sie noch nicht wissen, was sie wollen."
+            },
+            {
+              "v": "m2",
+              "t": "Das sehe ich ein bisschen anders. Mit fünfzehn weiß man doch nicht, was man sein ganzes Leben machen will. Im Gymnasium lernt man von allem etwas und hat Zeit, sich zu entscheiden."
+            },
+            {
+              "v": "f1",
+              "t": "Ja, aber auch eine Lehre ist keine Entscheidung für das ganze Leben. Mit der Berufsmaturität kann man später an eine Fachhochschule, und mit einer Zusatzprüfung sogar an die Universität."
+            },
+            {
+              "v": "m1",
+              "t": "Wie sieht es denn mit dem Geld aus? Lernende verdienen ja schon während der Ausbildung."
+            },
+            {
+              "v": "m2",
+              "t": "Das ist ein echter Nachteil für Studierende. Ich bin jetzt fünfundzwanzig und habe noch nie einen richtigen Lohn bekommen. Meine Freunde mit Lehre haben schon eine eigene Wohnung und ein Auto."
+            },
+            {
+              "v": "f1",
+              "t": "Und sie haben Berufserfahrung. Das ist ein Vorteil, den man nicht unterschätzen darf. Firmen suchen Leute, die praktisch arbeiten können."
+            },
+            {
+              "v": "m1",
+              "t": "Gibt es denn auch Jugendliche, die ihre Entscheidung bereuen?"
+            },
+            {
+              "v": "f1",
+              "t": "Natürlich. Manche brechen das Gymnasium ab, weil der Druck zu groß ist. Andere merken in der Lehre, dass der Beruf nicht passt. Mein wichtigster Rat ist deshalb: Schnuppern! Mehrere Tage in verschiedenen Betrieben mitarbeiten, bevor man sich entscheidet."
+            },
+            {
+              "v": "m2",
+              "t": "Da bin ich einverstanden. Ich habe vor dem Studium ein Praktikum im Spital gemacht. Danach wusste ich: Das ist wirklich mein Beruf."
+            },
+            {
+              "v": "m1",
+              "t": "Zum Schluss noch eine Frage an Sie beide: Was ist wichtiger, der Abschluss oder die Motivation?"
+            },
+            {
+              "v": "m2",
+              "t": "Für mich ganz klar die Motivation. Ohne sie hätte ich die schweren Prüfungen im ersten Jahr nicht geschafft."
+            },
+            {
+              "v": "f1",
+              "t": "Ich sage: Die Freude am Beruf. Wer gern arbeitet, ist gut, egal ob mit Lehre oder Studium."
+            },
+            {
+              "v": "m1",
+              "t": "Vielen Dank Ihnen beiden. Liebe Hörerinnen und Hörer, schreiben Sie uns Ihre Erfahrungen auf unserer Webseite."
+            }
+          ],
+          "items": [
+            {
+              "q": "Oft möchten eher die Eltern, dass ihr Kind studiert.",
+              "answer": 1
+            },
+            {
+              "q": "Für diesen Beruf muss man unbedingt studieren.",
+              "answer": 2
+            },
+            {
+              "q": "Mit fünfzehn Jahren ist man zu jung für eine Entscheidung über den Beruf.",
+              "answer": 2
+            },
+            {
+              "q": "Auch nach einer Lehre kann man noch studieren.",
+              "answer": 1
+            },
+            {
+              "q": "Lernende verdienen schon Geld, während sie ausgebildet werden.",
+              "answer": 0
+            },
+            {
+              "q": "Freunde mit einer Lehre können sich schon mehr leisten.",
+              "answer": 2
+            },
+            {
+              "q": "Man sollte vor der Entscheidung in mehreren Betrieben schnuppern.",
+              "answer": 1
+            },
+            {
+              "q": "Die Zuhörer können ihre Erfahrungen online mitteilen.",
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben vor einem Monat einen neuen Kurs angefangen (z. B. einen Sprach-, Koch- oder Computerkurs). Ihr Freund Benedikt möchte wissen, wie es Ihnen dort gefällt. Schreiben Sie Benedikt eine E-Mail.",
+          "points": [
+            "Beschreiben Sie den Kurs: Was lernen Sie dort?",
+            "Erzählen Sie: Was gefällt Ihnen, was ist schwierig?",
+            "Fragen Sie Benedikt, ob er beim nächsten Kurs mitmachen möchte."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Benedikt,\n\ndanke für deine Nachricht! Seit einem Monat mache ich jeden Dienstagabend einen Fotografiekurs an der Volkshochschule. Wir lernen dort, wie man mit der Kamera richtig umgeht, und am Wochenende fotografieren wir zusammen in der Stadt.\n\nDas Fotografieren draußen macht mir großen Spaß, und unser Kursleiter erklärt alles sehr geduldig. Schwierig finde ich nur das Bearbeiten am Computer, da brauche ich noch viel Übung.\n\nIm Frühling gibt es einen Kurs für Fortgeschrittene. Hast du Lust mitzumachen? Dann könnten wir zusammen hingehen!\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Ihre Freundin Mareike möchte Spanisch lernen und fragt Sie um Rat, weil Sie selbst gerade Deutsch lernen. Schreiben Sie Mareike eine E-Mail.",
+          "points": [
+            "Erzählen Sie, wie Sie selbst Deutsch lernen.",
+            "Geben Sie Mareike zwei Tipps.",
+            "Machen Sie ein Angebot, wie Sie ihr helfen können."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Mareike,\n\nwie schön, dass du Spanisch lernen möchtest! Ich lerne ja seit zwei Jahren Deutsch: Ich besuche einen Abendkurs, und zum Vokabellernen benutze ich eine App.\n\nMeine Tipps: Das Wichtigste ist, jeden Tag ein bisschen zu üben, lieber kurz als gar nicht. Und hab keine Angst vor dem Sprechen! Fehler sind ganz normal.\n\nWie wäre es mit einem Tandem? Wir könnten uns einmal pro Woche treffen: eine halbe Stunde sprechen wir Spanisch, eine halbe Stunde Deutsch. Beim Kaffeetrinken geht das Lernen bestimmt leichter!\n\nLiebe Grüße\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Lebenslanges Lernen – muss das sein?“ gelesen.",
+          "quote": "Überall hört man, dass man sein ganzes Leben lang lernen muss. Ich bin 52 und habe meinen Beruf gut gelernt. Warum soll ich jetzt noch Kurse machen? Nach der Arbeit will ich mich ausruhen und nicht schon wieder auf der Schulbank sitzen. – Werner, 52",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Reagieren Sie auf Werners Beitrag."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich kann Werner zum Teil verstehen: Nach einem langen Arbeitstag ist das Ausruhen wichtig. Trotzdem finde ich, dass man nie aufhören sollte zu lernen. Die Arbeitswelt verändert sich sehr schnell, besonders durch die Digitalisierung. Wer sich nicht weiterbildet, hat später vielleicht Probleme im Beruf. Außerdem muss Lernen nicht immer auf der Schulbank stattfinden. Ich lerne zum Beispiel beim Lesen, mit Podcasts oder in einem Tanzkurs. Etwas Neues zu lernen, hält den Kopf jung und macht Spaß – auch mit 52! Vielleicht findet Werner ja einen Kurs, der ihm wirklich gefällt."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Online-Kurse statt Unterricht im Klassenzimmer?“ gesehen. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:",
+          "quote": "Ich mache seit einem Jahr nur noch Online-Kurse. Ich spare mir den Weg, kann lernen, wann ich will, und die Kurse sind oft billiger. Und wenn ich etwas nicht verstehe, schaue ich das Video einfach noch einmal an. Für mich ist der klassische Unterricht im Klassenzimmer ein Modell von gestern. – Jana, 31",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Berichten Sie von Ihren Erfahrungen."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Jana hat recht, dass Online-Kurse sehr flexibel sind. Ich habe während der Pandemie auch einen Deutschkurs online gemacht. Das war praktisch, weil ich keine Zeit im Zug verloren habe. Aber beim Sprechen hatte ich große Probleme: Die Verbindung war oft schlecht, und alle haben gleichzeitig geredet. Außerdem fehlte mir der Kontakt zu den anderen Teilnehmenden. Heute besuche ich wieder einen Kurs im Klassenzimmer, und ich lerne viel mehr. Meiner Meinung nach sind Online-Kurse gut zum Wiederholen, aber nicht als Ersatz für echten Unterricht."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie besuchen einen Deutschkurs. Morgen können Sie nicht in den Unterricht kommen. Schreiben Sie Ihrer Kursleiterin, Frau Brunner, eine Nachricht.",
+          "points": [
+            "Entschuldigen Sie sich und nennen Sie den Grund.",
+            "Fragen Sie nach den Hausaufgaben."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Liebe Frau Brunner,\n\nleider kann ich morgen nicht in den Unterricht kommen, weil ich einen wichtigen Termin beim Migrationsamt habe. Es tut mir sehr leid. Könnten Sie mir bitte sagen, welche Hausaufgaben wir machen sollen? Dann kann ich den Lernstoff zu Hause nachholen.\n\nFreundliche Grüße\nAndrea Navarro"
+        },
+        {
+          "task": "Sie haben sich für einen Abendkurs an der Volkshochschule angemeldet. Wegen Ihrer neuen Arbeitszeiten können Sie aber nicht mehr am Kurs teilnehmen. Schreiben Sie an das Sekretariat (Herr Weber).",
+          "points": [
+            "Erklären Sie Ihre Situation.",
+            "Bitten Sie um einen Wechsel in einen anderen Kurs oder um Rückzahlung."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Weber,\n\nich habe mich für den Spanischkurs am Donnerstagabend angemeldet. Leider habe ich seit dieser Woche neue Arbeitszeiten und kann donnerstags nicht mehr teilnehmen. Wäre es möglich, in den Kurs am Samstagvormittag zu wechseln? Wenn nicht, bitte ich Sie um die Rückzahlung der Kursgebühr.\n\nMit freundlichen Grüßen\nJosé Romero"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Sie und Ihr Partner / Ihre Partnerin besuchen einen Deutschkurs. In sechs Wochen ist die B1-Prüfung. Sie möchten zusammen eine Lerngruppe organisieren. Planen Sie zusammen.",
+          "points": [
+            "Wann und wie oft treffen?",
+            "Wo lernen?",
+            "Was üben?",
+            "Wer noch?"
+          ],
+          "model": [
+            {
+              "v": "m1",
+              "t": "Hallo! Die Prüfung ist ja schon in sechs Wochen. Wollen wir zusammen eine Lerngruppe machen?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, gern! Allein fällt mir das Lernen schwer. Wann hättest du Zeit?"
+            },
+            {
+              "v": "m1",
+              "t": "Unter der Woche arbeite ich bis sechs. Wie wäre es mit Dienstagabend, um sieben?"
+            },
+            {
+              "v": "f2",
+              "t": "Dienstag passt mir leider nicht, da habe ich Sport. Was hältst du von Samstagvormittag? Dann sind wir nicht so müde."
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee. Dann treffen wir uns jeden Samstag um zehn. Und wo? Bei mir zu Hause ist es ein bisschen eng."
+            },
+            {
+              "v": "f2",
+              "t": "In der Bibliothek gibt es Gruppenräume. Die kann man gratis reservieren."
+            },
+            {
+              "v": "m1",
+              "t": "Super, das mache ich. Was sollen wir üben? Ich finde, das Sprechen ist am wichtigsten."
+            },
+            {
+              "v": "f2",
+              "t": "Einverstanden. Wir könnten jede Woche eine Präsentation üben. Aber ich möchte auch das Schreiben trainieren."
+            },
+            {
+              "v": "m1",
+              "t": "Dann machen wir es so: Die erste Stunde sprechen wir, in der zweiten Stunde schreiben wir eine E-Mail und korrigieren sie gegenseitig."
+            },
+            {
+              "v": "f2",
+              "t": "Perfekt. Sollen wir noch jemanden fragen? Zu zweit kann man nicht so gut diskutieren."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt. Ich frage Pedro und Yuki aus unserem Kurs. Mehr als vier Personen sollten wir aber nicht sein."
+            },
+            {
+              "v": "f2",
+              "t": "Genau. Dann bis Samstag in der Bibliothek!"
+            }
+          ]
+        },
+        {
+          "task": "Ihr Deutschkurs ist bald zu Ende. Sie möchten zusammen mit Ihrem Partner / Ihrer Partnerin ein kleines Abschlussfest für die Klasse und die Kursleiterin organisieren. Planen Sie zusammen.",
+          "points": [
+            "Wann und wo feiern?",
+            "Essen und Getränke?",
+            "Geschenk für die Kursleiterin?",
+            "Wer macht was?"
+          ],
+          "model": [
+            {
+              "v": "f1",
+              "t": "Unser Kurs endet ja nächsten Freitag. Ich finde, wir sollten ein kleines Fest machen."
+            },
+            {
+              "v": "m2",
+              "t": "Ja, unbedingt! Sollen wir in ein Restaurant gehen?"
+            },
+            {
+              "v": "f1",
+              "t": "Das ist für manche vielleicht zu teuer. Ich schlage vor, wir feiern direkt nach der letzten Lektion im Kursraum."
+            },
+            {
+              "v": "m2",
+              "t": "Gute Idee, dann kann jeder kommen. Ich frage im Sekretariat, ob das erlaubt ist."
+            },
+            {
+              "v": "f1",
+              "t": "Und das Essen? Jeder könnte etwas aus seinem Heimatland mitbringen."
+            },
+            {
+              "v": "m2",
+              "t": "Super! Dann mache ich eine Tortilla. Und die Getränke? Alkohol ist in der Schule bestimmt verboten."
+            },
+            {
+              "v": "f1",
+              "t": "Dann nehmen wir Säfte und Mineralwasser. Die kann ich kaufen."
+            },
+            {
+              "v": "m2",
+              "t": "Danke. Und für Frau Huber? Sie war wirklich eine tolle Lehrerin."
+            },
+            {
+              "v": "f1",
+              "t": "Wie wäre es mit Blumen und einer Karte? Auf die Karte schreibt jeder einen Satz auf Deutsch."
+            },
+            {
+              "v": "m2",
+              "t": "Das finde ich sehr persönlich. Vielleicht noch einen Gutschein für eine Buchhandlung? Sie liest doch so gern."
+            },
+            {
+              "v": "f1",
+              "t": "Ja, das passt. Dann sammle ich morgen fünf Franken pro Person, und du kaufst den Gutschein."
+            },
+            {
+              "v": "m2",
+              "t": "Abgemacht. Und ich schreibe heute Abend allen eine Nachricht in unsere Gruppe."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Sprachen lernen mit Apps – sinnvoll oder nicht?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Guten Tag! Das Thema meiner Präsentation ist „Sprachen lernen mit Apps – sinnvoll oder nicht?“. Zuerst erzähle ich von meinen eigenen Erfahrungen. Danach spreche ich über die Situation in Spanien. Dann nenne ich die Vorteile und Nachteile und sage meine Meinung. Zum Schluss fasse ich das Wichtigste kurz zusammen."
+            },
+            {
+              "v": "f1",
+              "t": "Als ich nach Zürich gekommen bin, habe ich mit einer App angefangen, Deutsch zu lernen. Für das Lernen von Vokabeln war das wirklich gut, weil ich jeden Tag im Tram üben konnte. Beim Sprechen hat mir die App aber kaum geholfen. Das habe ich erst im Kurs und mit meiner Tandempartnerin gelernt."
+            },
+            {
+              "v": "f1",
+              "t": "In Spanien sind Sprach-Apps sehr beliebt, vor allem für Englisch. Viele Leute lernen damit in ihrer Freizeit. In den Schulen benutzt man sie manchmal auch, aber der normale Unterricht ist immer noch wichtiger."
+            },
+            {
+              "v": "f1",
+              "t": "Ein großer Vorteil ist, dass man flexibel und oft kostenlos lernen kann. Außerdem motivieren die Spiele und Punkte. Ein Nachteil ist aber, dass man mit einer App kaum echte Gespräche führt. Und viele Leute hören nach ein paar Wochen wieder auf. Meiner Meinung nach sind Apps eine gute Ergänzung, aber sie ersetzen keinen Kurs."
+            },
+            {
+              "v": "f1",
+              "t": "Ich komme jetzt zum Schluss: Apps sind gut zum Wiederholen, für das Sprechen braucht man aber Menschen. Vielen Dank für Ihre Aufmerksamkeit! Haben Sie Fragen?"
+            }
+          ],
+          "question": "Welche App würden Sie einem Anfänger empfehlen, und wie lange sollte man jeden Tag damit üben?",
+          "answer": "Ich würde eine App mit Karteikarten empfehlen, weil man damit Vokabeln gut wiederholen kann. Zehn bis fünfzehn Minuten am Tag reichen. Das Wichtigste ist, jeden Tag ein bisschen zu üben."
+        },
+        {
+          "title": "Studium oder Lehre – was ist besser?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Hallo zusammen! Ich möchte heute über die Frage sprechen: Studium oder Lehre – was ist besser? Meine Präsentation hat vier Teile: meine Erfahrungen, die Situation in Spanien, Vorteile und Nachteile und zum Schluss meine Meinung."
+            },
+            {
+              "v": "m1",
+              "t": "Ich selbst habe in Córdoba Physik studiert und arbeite jetzt an der Universität in Zürich. Das Studium war für mich die richtige Entscheidung, aber es war lang: Bis zum Doktorat habe ich fast zehn Jahre gebraucht. In dieser Zeit habe ich kaum Geld verdient."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien gehen sehr viele junge Leute an die Universität. Eine Berufsausbildung hat leider einen schlechteren Ruf als hier. Deshalb haben viele junge Spanier einen Universitätsabschluss, finden aber trotzdem keine passende Stelle. In der Schweiz ist die Lehre dagegen sehr angesehen."
+            },
+            {
+              "v": "m1",
+              "t": "Eine Lehre hat viele Vorteile: Man verdient früh Geld und sammelt praktische Erfahrung. Mit einem Studium hat man dagegen oft mehr Möglichkeiten und später einen höheren Lohn. Der Nachteil ist, dass das Studium lange dauert und sehr theoretisch ist. Ich finde, dass beide Wege gut sind. Das Wichtigste ist, dass der Beruf zu einem passt."
+            },
+            {
+              "v": "m1",
+              "t": "Damit bin ich am Ende meiner Präsentation. Mein Fazit: Es gibt keinen besseren Weg, sondern nur einen passenden. Vielen Dank fürs Zuhören! Ich freue mich auf Ihre Fragen."
+            }
+          ],
+          "question": "Würden Sie heute noch einmal studieren, oder würden Sie lieber eine Lehre machen?",
+          "answer": "Ich würde wieder studieren, weil ich die Forschung liebe. Aber wenn ich noch einmal fünfzehn wäre, würde ich vorher in ein paar Betrieben schnuppern. So hätte ich mehr über andere Berufe erfahren."
+        }
+      ]
+    }
+  }
+}

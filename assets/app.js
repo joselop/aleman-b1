@@ -923,6 +923,7 @@ async function viewExam(root, lvlId, tid, mode) {
           });
         } else if (teil.kind === "read_tf") {
           q--; // la numeración va por afirmación, no por texto
+          if (it.title) el.append(h("div", { class: "ftitle", lang: "de" }, it.title));
           el.append(h("div", { class: it.sign ? "sign" : "text", lang: "de" }, it.text));
           const rows = it.statements.map((st) => {
             q++;
@@ -977,7 +978,7 @@ async function viewExam(root, lvlId, tid, mode) {
           const ta = h("textarea", { rows: 7, lang: "de", spellcheck: "false", placeholder: "Schreiben Sie hier…" });
           const wc = h("span", { class: "muted small" }, "0 Wörter");
           ta.addEventListener("input", () => (wc.textContent = `${(ta.value.match(/\S+/g) || []).length} Wörter`));
-          el.append(h("p", { lang: "de" }, it.task), h("ul", { lang: "de" }, it.points.map((p) => h("li", {}, p))), h("p", { class: "muted small" }, `Registro: ${it.register}`), ta, wc);
+          el.append(h("p", { lang: "de" }, it.task), it.quote ? h("div", { class: "text", lang: "de" }, it.quote) : null, h("ul", { lang: "de" }, it.points.map((p) => h("li", {}, p))), h("p", { class: "muted small" }, `Registro: ${it.register}${it.words ? ` · unas ${it.words} palabras` : ""}`), ta, wc);
           const checks = [...it.points.map((p) => `Respondo a: «${p}»`), "Saludo y despedida adecuados al registro", "Casi todas las frases son correctas (verbo en posición 2, conjugación)"];
           selfEval.push({ module: "schreiben", el, weight: 2, checks, extra: () => [
             h("div", { class: "model" }, h("strong", {}, "Texto modelo"), h("pre", { lang: "de" }, it.model)),
@@ -993,7 +994,9 @@ async function viewExam(root, lvlId, tid, mode) {
           // Un texto (o audio) con varias preguntas a/b/c
           q--;
           if (it.title) el.append(h("div", { class: "ftitle", lang: "de" }, it.title));
+          if (it.intro) el.append(h("p", { lang: "de" }, it.intro));
           if (it.text) el.append(h("div", { class: "text", lang: "de" }, it.text));
+          if (it.audio) el.append(listenControl(it.audio, teil.plays || 1));
           const rows = it.questions.map((orig) => {
             q++;
             const qq = shuffleOptions(orig);
@@ -1011,6 +1014,7 @@ async function viewExam(root, lvlId, tid, mode) {
               if (r) ok++;
               mark(row, r ? "ok" : "no", r ? "✓" : `✗ ${esc(qq.options[qq.answer])}`);
             }
+            if (it.audio) el.append(h("div", { class: "transcript", lang: "de" }, h("strong", {}, "Transcripción: "), h("span", { html: it.audio.map((l) => esc(l.t)).join("<br>") })));
             return [ok, rows.length];
           });
         } else if (teil.kind === "read_match") {
@@ -1045,8 +1049,8 @@ async function viewExam(root, lvlId, tid, mode) {
             const n = `q${q}`;
             let input;
             if (yn) {
-              input = h("span", {}, h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: "1" }), "Ja"), " ",
-                h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: "0" }), "Nein"));
+              input = h("span", {}, h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: "1" }), (teil.labels || ["Ja", "Nein"])[0]), " ",
+                h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: "0" }), (teil.labels || ["Ja", "Nein"])[1]));
             } else {
               input = h("select", {}, h("option", { value: "" }, "—"), it.options.map((o, i) => h("option", { value: i }, o)));
             }
@@ -1063,7 +1067,7 @@ async function viewExam(root, lvlId, tid, mode) {
                 r = sel && (sel.value === "1") === sub.answer;
               } else r = input.value !== "" && +input.value === sub.answer;
               if (r) ok++;
-              mark(row, r ? "ok" : "no", r ? "✓" : `✗ ${yn ? (sub.answer ? "Ja" : "Nein") : esc(it.options[sub.answer])}`);
+              mark(row, r ? "ok" : "no", r ? "✓" : `✗ ${yn ? (teil.labels || ["Ja", "Nein"])[sub.answer ? 0 : 1] : esc(it.options[sub.answer])}`);
             }
             el.append(h("div", { class: "transcript", lang: "de" }, h("strong", {}, "Transcripción: "), h("span", { html: it.audio.map((l) => esc(l.t)).join("<br>") })));
             return [ok, rows.length];
@@ -1085,6 +1089,76 @@ async function viewExam(root, lvlId, tid, mode) {
             h("p", { class: "muted small" }, "Si practicas con alguien, que cada uno mire solo su agenda. Si practicas solo, abre las dos y haz los dos papeles."), recorder({ lvl, task: `Planificar algo juntos: ${it.task}\nAgenda del estudiante: ${it.mine.join("; ")}\nAgenda de la pareja: ${it.partner.join("; ")}\n(La transcripción puede incluir las dos voces si practicó solo haciendo los dos papeles.)` }));
           selfEval.push({ module: "sprechen", el, weight: 1, checks: ["He propuesto horas y días concretos", "He reaccionado a las propuestas (aceptar / rechazar con motivo)", "Hemos encontrado una hora que va bien a los dos"],
             extra: () => [h("div", { class: "model" }, h("strong", {}, "Diálogo modelo "), speakBtn(it.model), h("div", { lang: "de", html: it.model.map((l) => esc(l.t)).join("<br>") }))] });
+        } else if (teil.kind === "read_yn") {
+          // B1 Lesen Teil 4: varias opiniones de lectores; ¿está la persona a favor? Ja / Nein
+          q--;
+          if (it.title) el.append(h("div", { class: "ftitle", lang: "de" }, it.title));
+          if (it.intro) el.append(h("p", { lang: "de" }, it.intro));
+          el.append(h("p", { class: "q", lang: "de" }, h("strong", {}, it.question)));
+          const rows = it.comments.map((c) => {
+            q++;
+            const n = `q${q}`;
+            const row = h("div", { class: "subq comment" },
+              h("div", { class: "text", lang: "de" }, h("strong", {}, `${q}. ${c.name}: `), c.text),
+              h("div", { class: "opts" }, h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: "1" }), "Ja"), " ",
+                h("label", { class: "opt" }, h("input", { type: "radio", name: n, value: "0" }), "Nein")));
+            el.append(row);
+            return { row, c };
+          });
+          graders[m.key].push(() => {
+            let ok = 0;
+            for (const { row, c } of rows) {
+              const sel = row.querySelector("input:checked");
+              const r = sel && (sel.value === "1") === c.answer;
+              if (r) ok++;
+              mark(row, r ? "ok" : "no", r ? "✓" : `✗ ${c.answer ? "Ja" : "Nein"}`);
+            }
+            return [ok, rows.length];
+          });
+        } else if (teil.kind === "listen_pair") {
+          // B1 Hören Teil 1: un texto corto con dos preguntas (richtig/falsch + a/b/c)
+          q--;
+          el.append(listenControl(it.audio, teil.plays));
+          const n1 = `q${++q}`;
+          const r1 = h("div", { class: "subq" }, h("div", { class: "q" }, h("span", { class: "n" }, `${q}.`), h("span", { lang: "de" }, it.statement)),
+            h("div", { class: "opts" }, ["Richtig", "Falsch"].map((o, i) => h("label", { class: "opt" }, h("input", { type: "radio", name: n1, value: i }), o))));
+          const qq = shuffleOptions({ options: it.options, answer: it.answer });
+          const n2 = `q${++q}`;
+          const r2 = h("div", { class: "subq" }, h("div", { class: "q" }, h("span", { class: "n" }, `${q}.`), h("span", { lang: "de" }, it.q)),
+            h("div", { class: "opts" }, qq.options.map((o, i) => h("label", { class: "opt" }, h("input", { type: "radio", name: n2, value: i }), h("span", { lang: "de" }, `${"abc"[i]}) ${o}`)))));
+          el.append(r1, r2);
+          graders[m.key].push(() => {
+            const s1 = r1.querySelector("input:checked"), s2 = r2.querySelector("input:checked");
+            const ok1 = s1 && (+s1.value === 0) === it.tf, ok2 = s2 && +s2.value === qq.answer;
+            mark(r1, ok1 ? "ok" : "no", ok1 ? "✓" : `✗ ${it.tf ? "Richtig" : "Falsch"}`);
+            mark(r2, ok2 ? "ok" : "no", ok2 ? "✓" : `✗ ${esc(qq.options[qq.answer])}`);
+            el.append(h("div", { class: "transcript", lang: "de" }, h("strong", {}, "Transcripción: "), h("span", { html: it.audio.map((l) => esc(l.t)).join("<br>") })));
+            return [(ok1 ? 1 : 0) + (ok2 ? 1 : 0), 2];
+          });
+        } else if (teil.kind === "speak_points") {
+          // B1 Sprechen Teil 1: planificar algo juntos a partir de unos puntos
+          el.append(h("p", { lang: "de" }, it.task), h("ul", { lang: "de" }, it.points.map((x) => h("li", {}, x))),
+            h("p", { class: "muted small" }, "Habla unos 3 minutos. Si practicas solo, haz los dos papeles: propón, reacciona a las propuestas y llegad a un acuerdo."),
+            recorder({ lvl, task: `Planificar algo juntos (Sprechen Teil 1): ${it.task}\nPuntos que hay que tratar: ${it.points.join(" / ")}\n(La transcripción puede incluir las dos voces si practicó solo.)` }));
+          selfEval.push({ module: "sprechen", el, weight: 1, checks: [...it.points.map((x) => `Hemos hablado de «${x}»`), "He hecho propuestas (Wir könnten…, Was hältst du von…?)", "He reaccionado a las propuestas del otro y hemos llegado a un acuerdo"],
+            extra: () => [h("div", { class: "model" }, h("strong", {}, "Diálogo modelo "), speakBtn(it.model), h("div", { lang: "de", html: it.model.map((l) => esc(l.t)).join("<br>") }))] });
+        } else if (teil.kind === "speak_present") {
+          // B1 Sprechen Teil 2 (presentar un tema con 5 diapositivas) + Teil 3 (pregunta sobre la presentación)
+          const slides = it.slides || [
+            `${it.title}\nStellen Sie Ihr Thema vor. Erklären Sie den Inhalt und die Struktur Ihrer Präsentation.`,
+            `${it.title}\nBerichten Sie von Ihrer Situation oder einem Erlebnis im Zusammenhang mit dem Thema.`,
+            `${it.title}\nBerichten Sie von der Situation in Ihrem Heimatland und geben Sie Beispiele.`,
+            `${it.title}\nNennen Sie die Vor- und Nachteile und sagen Sie dazu Ihre Meinung. Geben Sie auch Beispiele.`,
+            `${it.title}\nBeenden Sie Ihre Präsentation und bedanken Sie sich bei den Zuhörern.`,
+          ];
+          el.append(h("div", { class: "slides" }, slides.map((sl, i) => h("div", { class: "slide", lang: "de" }, h("small", {}, `Folie ${i + 1}`), ...sl.split("\n").map((line, j) => (j === 0 ? h("strong", {}, line) : h("p", {}, line)))))),
+            h("p", { class: "muted small" }, "Presenta el tema unos 3 minutos siguiendo las cinco diapositivas."),
+            recorder({ lvl, task: `Presentar un tema (Sprechen Teil 2), unos 3 minutos, con 5 diapositivas: introducción y estructura / experiencia personal / situación en su país / ventajas, inconvenientes y opinión / conclusión y agradecimiento. Tema: «${it.title}».` }),
+            h("div", { class: "topiccard" }, h("small", {}, "Teil 3 · Pregunta del examinador o de tu pareja"), h("strong", { lang: "de" }, it.question), speakBtn([{ v: "f2", t: it.question }])),
+            recorder({ lvl, task: `Sprechen Teil 3: responder a una pregunta sobre su presentación «${it.title}». Pregunta: «${it.question}».` }));
+          selfEval.push({ module: "sprechen", el, weight: 2, checks: ["He presentado el tema y la estructura", "He contado una experiencia personal", "He hablado de la situación en mi país", "He dado ventajas, inconvenientes y mi opinión", "He cerrado y dado las gracias", "He contestado a la pregunta de forma clara"],
+            extra: () => [h("div", { class: "model" }, h("strong", {}, "Presentación modelo "), speakBtn(it.model), h("p", { lang: "de" }, it.model.map((l) => l.t).join(" "))),
+              h("div", { class: "model" }, h("strong", {}, "Respuesta modelo "), speakBtn([{ v: "f2", t: it.question }, { v: "m1", t: it.answer }]), h("p", { lang: "de" }, it.answer))] });
         }
         tsec.append(el);
       }

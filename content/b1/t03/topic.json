@@ -1,0 +1,2141 @@
+{
+  "id": "b1-t03",
+  "level": "b1",
+  "topic": "t03",
+  "title": "Vivienda y vecindario",
+  "title_de": "Wohnen und Nachbarschaft",
+  "goals": [
+    "Describir tu barrio, tu edificio y la ubicación de tu vivienda",
+    "Hablar de la convivencia con los vecinos y resolver conflictos con educación",
+    "Comunicar una avería y pedir una reparación a la administración",
+    "Usar la pasiva en presente (wird gemacht) y en Präteritum (wurde gemacht)",
+    "Decir quién realiza la acción con von + dativo",
+    "Entender una Hausordnung y unas condiciones de alquiler (Lesen Teil 5)",
+    "Escribir un mensaje formal breve al casero o a la Hausverwaltung (Schreiben Teil 3)"
+  ],
+  "vocab": [
+    {
+      "de": "die Nachbarschaft",
+      "pl": "die Nachbarschaften",
+      "es": "el vecindario; los vecinos",
+      "cat": "Barrio",
+      "ex": "In unserer Nachbarschaft kennt man sich.",
+      "ex_es": "En nuestro vecindario la gente se conoce."
+    },
+    {
+      "de": "das Stadtviertel",
+      "pl": "die Stadtviertel",
+      "es": "el barrio",
+      "cat": "Barrio",
+      "ex": "Kreis 4 ist ein lebendiges Stadtviertel.",
+      "ex_es": "El distrito 4 es un barrio con mucha vida."
+    },
+    {
+      "de": "die Gegend",
+      "pl": "die Gegenden",
+      "es": "la zona",
+      "cat": "Barrio",
+      "ex": "Die Gegend ist ruhig und grün.",
+      "ex_es": "La zona es tranquila y verde."
+    },
+    {
+      "de": "die Umgebung",
+      "pl": "die Umgebungen",
+      "es": "los alrededores, el entorno",
+      "cat": "Barrio",
+      "ex": "In der Umgebung gibt es zwei Supermärkte.",
+      "ex_es": "En los alrededores hay dos supermercados."
+    },
+    {
+      "de": "die Lage",
+      "pl": "die Lagen",
+      "es": "la ubicación, la situación",
+      "cat": "Barrio",
+      "ex": "Die Wohnung hat eine sehr gute Lage.",
+      "ex_es": "El piso tiene muy buena ubicación."
+    },
+    {
+      "de": "der Vorort",
+      "pl": "die Vororte",
+      "es": "la población de la periferia",
+      "cat": "Barrio",
+      "ex": "Viele Familien wohnen in einem Vorort von Zürich.",
+      "ex_es": "Muchas familias viven en una población de las afueras de Zúrich."
+    },
+    {
+      "de": "der Stadtrand",
+      "pl": "die Stadtränder",
+      "es": "las afueras de la ciudad",
+      "cat": "Barrio",
+      "ex": "Am Stadtrand sind die Mieten günstiger.",
+      "ex_es": "En las afueras los alquileres son más baratos."
+    },
+    {
+      "de": "der Spielplatz",
+      "pl": "die Spielplätze",
+      "es": "el parque infantil",
+      "cat": "Barrio",
+      "ex": "Hinter dem Haus ist ein Spielplatz.",
+      "ex_es": "Detrás de la casa hay un parque infantil."
+    },
+    {
+      "de": "der Altbau",
+      "pl": "die Altbauten",
+      "es": "el edificio antiguo",
+      "cat": "Edificio",
+      "ex": "Wir wohnen in einem Altbau von 1905.",
+      "ex_es": "Vivimos en un edificio antiguo de 1905."
+    },
+    {
+      "de": "der Neubau",
+      "pl": "die Neubauten",
+      "es": "el edificio nuevo",
+      "cat": "Edificio",
+      "ex": "Im Neubau gibt es einen Lift.",
+      "ex_es": "En el edificio nuevo hay ascensor."
+    },
+    {
+      "de": "das Hochhaus",
+      "pl": "die Hochhäuser",
+      "es": "el rascacielos, la torre de pisos",
+      "cat": "Edificio",
+      "ex": "Er wohnt im 14. Stock eines Hochhauses.",
+      "ex_es": "Vive en el piso 14 de una torre."
+    },
+    {
+      "de": "das Treppenhaus",
+      "pl": "die Treppenhäuser",
+      "es": "la escalera (del edificio)",
+      "cat": "Edificio",
+      "ex": "Das Treppenhaus wird jeden Freitag geputzt.",
+      "ex_es": "La escalera se limpia cada viernes."
+    },
+    {
+      "de": "der Eingang",
+      "pl": "die Eingänge",
+      "es": "la entrada",
+      "cat": "Edificio",
+      "ex": "Die Briefkästen sind neben dem Eingang.",
+      "ex_es": "Los buzones están junto a la entrada."
+    },
+    {
+      "de": "der Hof",
+      "pl": "die Höfe",
+      "es": "el patio",
+      "cat": "Edificio",
+      "ex": "Im Hof spielen die Kinder.",
+      "ex_es": "Los niños juegan en el patio."
+    },
+    {
+      "de": "die Klingel",
+      "pl": "die Klingeln",
+      "es": "el timbre",
+      "cat": "Edificio",
+      "ex": "Die Klingel ist kaputt, bitte ruf an.",
+      "ex_es": "El timbre está roto, llama por teléfono."
+    },
+    {
+      "de": "der Briefkasten",
+      "pl": "die Briefkästen",
+      "es": "el buzón",
+      "cat": "Edificio",
+      "ex": "Ich habe den Zettel in deinen Briefkasten gelegt.",
+      "ex_es": "He dejado la nota en tu buzón."
+    },
+    {
+      "de": "die Hausverwaltung",
+      "pl": "die Hausverwaltungen",
+      "es": "la administración de fincas",
+      "cat": "Alquiler",
+      "ex": "Die Hausverwaltung hat uns einen Brief geschickt.",
+      "ex_es": "La administración nos ha mandado una carta."
+    },
+    {
+      "de": "der Eigentümer / die Eigentümerin",
+      "pl": "die Eigentümer / die Eigentümerinnen",
+      "es": "el propietario / la propietaria",
+      "cat": "Alquiler",
+      "ex": "Die Eigentümerin wohnt im Erdgeschoss.",
+      "ex_es": "La propietaria vive en la planta baja."
+    },
+    {
+      "de": "die Eigentumswohnung",
+      "pl": "die Eigentumswohnungen",
+      "es": "el piso en propiedad",
+      "cat": "Alquiler",
+      "ex": "In der Schweiz ist eine Eigentumswohnung sehr teuer.",
+      "ex_es": "En Suiza un piso en propiedad es muy caro."
+    },
+    {
+      "de": "die Wohnfläche",
+      "pl": "die Wohnflächen",
+      "es": "la superficie (útil) del piso",
+      "cat": "Alquiler",
+      "ex": "Die Wohnfläche beträgt 68 Quadratmeter.",
+      "ex_es": "La superficie es de 68 metros cuadrados."
+    },
+    {
+      "de": "möbliert",
+      "es": "amueblado",
+      "cat": "Alquiler",
+      "ex": "Wir suchen eine möblierte Wohnung für sechs Monate.",
+      "ex_es": "Buscamos un piso amueblado para seis meses."
+    },
+    {
+      "de": "der Nachmieter / die Nachmieterin",
+      "pl": "die Nachmieter / die Nachmieterinnen",
+      "es": "el nuevo inquilino (que sigue a otro)",
+      "cat": "Alquiler",
+      "ex": "Wir müssen einen Nachmieter finden.",
+      "ex_es": "Tenemos que encontrar a alguien que se quede el piso."
+    },
+    {
+      "de": "vermieten",
+      "es": "alquilar (como propietario)",
+      "cat": "Alquiler",
+      "forms": "er vermietet, vermietete, hat vermietet",
+      "ex": "Sie vermietet ein Zimmer an Studenten.",
+      "ex_es": "Alquila una habitación a estudiantes."
+    },
+    {
+      "de": "der Bewohner / die Bewohnerin",
+      "pl": "die Bewohner / die Bewohnerinnen",
+      "es": "el / la residente",
+      "cat": "Barrio",
+      "ex": "Alle Bewohner sind zum Hoffest eingeladen.",
+      "ex_es": "Todos los residentes están invitados a la fiesta del patio."
+    },
+    {
+      "de": "der Lärm",
+      "es": "el ruido",
+      "cat": "Convivencia",
+      "ex": "Der Lärm von der Baustelle ist schrecklich.",
+      "ex_es": "El ruido de la obra es horrible."
+    },
+    {
+      "de": "stören",
+      "es": "molestar",
+      "cat": "Convivencia",
+      "forms": "er stört, störte, hat gestört",
+      "ex": "Stört es Sie, wenn wir im Garten grillen?",
+      "ex_es": "¿Le molesta si hacemos barbacoa en el jardín?"
+    },
+    {
+      "de": "die Beschwerde",
+      "pl": "die Beschwerden",
+      "es": "la queja",
+      "cat": "Convivencia",
+      "ex": "Es gab eine Beschwerde wegen der lauten Musik.",
+      "ex_es": "Hubo una queja por la música alta."
+    },
+    {
+      "de": "die Rücksicht",
+      "es": "la consideración, el respeto",
+      "cat": "Convivencia",
+      "ex": "Bitte nehmen Sie Rücksicht auf Ihre Nachbarn.",
+      "ex_es": "Por favor, tenga consideración con sus vecinos."
+    },
+    {
+      "de": "rücksichtsvoll",
+      "es": "considerado, respetuoso",
+      "cat": "Convivencia",
+      "ex": "Unsere Nachbarn sind sehr rücksichtsvoll.",
+      "ex_es": "Nuestros vecinos son muy considerados."
+    },
+    {
+      "de": "gießen",
+      "es": "regar",
+      "cat": "Convivencia",
+      "forms": "er gießt, goss, hat gegossen",
+      "ex": "Kannst du meine Blumen gießen?",
+      "ex_es": "¿Puedes regar mis plantas?"
+    },
+    {
+      "de": "annehmen",
+      "es": "aceptar; recoger (un paquete)",
+      "cat": "Convivencia",
+      "forms": "er nimmt an, nahm an, hat angenommen",
+      "ex": "Die Nachbarin hat das Paket für uns angenommen.",
+      "ex_es": "La vecina ha recogido el paquete por nosotros."
+    },
+    {
+      "de": "grillen",
+      "es": "hacer barbacoa",
+      "cat": "Convivencia",
+      "forms": "er grillt, grillte, hat gegrillt",
+      "ex": "Auf dem Balkon wird nicht gegrillt.",
+      "ex_es": "En el balcón no se hace barbacoa."
+    },
+    {
+      "de": "die Mülltonne",
+      "pl": "die Mülltonnen",
+      "es": "el contenedor de basura",
+      "cat": "Convivencia",
+      "ex": "Die Mülltonnen stehen im Hof.",
+      "ex_es": "Los contenedores están en el patio."
+    },
+    {
+      "de": "das Altpapier",
+      "es": "el papel para reciclar",
+      "cat": "Convivencia",
+      "ex": "Das Altpapier wird am Mittwoch abgeholt.",
+      "ex_es": "El papel se recoge el miércoles."
+    },
+    {
+      "de": "entsorgen",
+      "es": "deshacerse de, tirar (correctamente)",
+      "cat": "Convivencia",
+      "forms": "er entsorgt, entsorgte, hat entsorgt",
+      "ex": "Alte Möbel muss man beim Recyclinghof entsorgen.",
+      "ex_es": "Los muebles viejos hay que llevarlos al punto limpio."
+    },
+    {
+      "de": "der Schaden",
+      "pl": "die Schäden",
+      "es": "el daño, la avería",
+      "cat": "Reparaciones",
+      "ex": "Den Schaden müssen Sie sofort melden.",
+      "ex_es": "Tiene que comunicar el daño enseguida."
+    },
+    {
+      "de": "der Handwerker / die Handwerkerin",
+      "pl": "die Handwerker / die Handwerkerinnen",
+      "es": "el / la operario/a, el técnico",
+      "cat": "Reparaciones",
+      "ex": "Der Handwerker kommt am Montag um acht.",
+      "ex_es": "El técnico viene el lunes a las ocho."
+    },
+    {
+      "de": "der Wasserhahn",
+      "pl": "die Wasserhähne",
+      "es": "el grifo",
+      "cat": "Reparaciones",
+      "ex": "Der Wasserhahn in der Küche tropft.",
+      "ex_es": "El grifo de la cocina gotea."
+    },
+    {
+      "de": "tropfen",
+      "es": "gotear",
+      "cat": "Reparaciones",
+      "forms": "er tropft, tropfte, hat getropft",
+      "ex": "Es tropft von der Decke!",
+      "ex_es": "¡Gotea del techo!"
+    },
+    {
+      "de": "verstopft",
+      "es": "atascado",
+      "cat": "Reparaciones",
+      "ex": "Die Toilette ist schon wieder verstopft.",
+      "ex_es": "El váter está otra vez atascado."
+    },
+    {
+      "de": "das Waschbecken",
+      "pl": "die Waschbecken",
+      "es": "el lavabo",
+      "cat": "Reparaciones",
+      "ex": "Das Waschbecken hat einen Riss.",
+      "ex_es": "El lavabo tiene una grieta."
+    },
+    {
+      "de": "die Steckdose",
+      "pl": "die Steckdosen",
+      "es": "el enchufe",
+      "cat": "Reparaciones",
+      "ex": "Neben dem Bett gibt es keine Steckdose.",
+      "ex_es": "Junto a la cama no hay enchufe."
+    },
+    {
+      "de": "der Strom",
+      "es": "la electricidad, la corriente",
+      "cat": "Reparaciones",
+      "ex": "Im ganzen Haus gab es keinen Strom.",
+      "ex_es": "En todo el edificio no había luz."
+    },
+    {
+      "de": "der Schlüssel",
+      "pl": "die Schlüssel",
+      "es": "la llave",
+      "cat": "Reparaciones",
+      "ex": "Ein Ersatzschlüssel liegt bei der Nachbarin.",
+      "ex_es": "La vecina tiene una llave de repuesto."
+    },
+    {
+      "de": "renovieren",
+      "es": "renovar, reformar",
+      "cat": "Reparaciones",
+      "forms": "er renoviert, renovierte, hat renoviert",
+      "ex": "Das Bad wurde 2022 renoviert.",
+      "ex_es": "El baño se reformó en 2022."
+    },
+    {
+      "de": "ersetzen",
+      "es": "sustituir, reemplazar",
+      "cat": "Reparaciones",
+      "forms": "er ersetzt, ersetzte, hat ersetzt",
+      "ex": "Die alte Waschmaschine wird durch eine neue ersetzt.",
+      "ex_es": "La lavadora vieja se sustituye por una nueva."
+    },
+    {
+      "de": "bauen",
+      "es": "construir",
+      "cat": "Edificio",
+      "forms": "er baut, baute, hat gebaut",
+      "ex": "Das Haus wurde 1960 gebaut.",
+      "ex_es": "La casa se construyó en 1960."
+    },
+    {
+      "de": "betragen",
+      "es": "ascender a, ser de (una cantidad)",
+      "cat": "Alquiler",
+      "forms": "es beträgt, betrug, hat betragen",
+      "ex": "Die Miete beträgt 2100 Franken.",
+      "ex_es": "El alquiler es de 2100 francos."
+    },
+    {
+      "de": "vorbeikommen",
+      "es": "pasar (por casa de alguien)",
+      "cat": "Reparaciones",
+      "forms": "er kommt vorbei, kam vorbei, ist vorbeigekommen",
+      "ex": "Der Hausmeister kommt heute Nachmittag vorbei.",
+      "ex_es": "El conserje pasa esta tarde."
+    },
+    {
+      "de": "werden + Partizip II (Passiv)",
+      "es": "la voz pasiva: ser + participio / se + verbo",
+      "cat": "Gramática",
+      "ex": "Die Heizung wird repariert. Die Heizung wurde repariert.",
+      "ex_es": "Se repara la calefacción. Se reparó la calefacción."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Vivienda y barrio",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "die Umgebung",
+          "los alrededores"
+        ],
+        [
+          "der Altbau",
+          "el edificio antiguo"
+        ],
+        [
+          "das Treppenhaus",
+          "la escalera del edificio"
+        ],
+        [
+          "die Hausverwaltung",
+          "la administración de fincas"
+        ],
+        [
+          "der Wasserhahn",
+          "el grifo"
+        ],
+        [
+          "verstopft",
+          "atascado"
+        ],
+        [
+          "stören",
+          "molestar"
+        ],
+        [
+          "gießen",
+          "regar"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Qué es werden aquí?",
+      "instructions": "Mira el final de la frase y decide: ¿verbo «volverse», futuro o pasiva?",
+      "items": [
+        {
+          "q": "Die Miete wird nächstes Jahr teurer.",
+          "options": [
+            "werden = volverse",
+            "futuro",
+            "pasiva"
+          ],
+          "answer": 0,
+          "explain": "werden + adjetivo (teurer)."
+        },
+        {
+          "q": "Die Fenster werden morgen geputzt.",
+          "options": [
+            "werden = volverse",
+            "futuro",
+            "pasiva"
+          ],
+          "answer": 2,
+          "explain": "werden + Partizip II (geputzt)."
+        },
+        {
+          "q": "Wir werden im Sommer umziehen.",
+          "options": [
+            "werden = volverse",
+            "futuro",
+            "pasiva"
+          ],
+          "answer": 1,
+          "explain": "werden + infinitivo (umziehen)."
+        },
+        {
+          "q": "Der Müll wird am Montag abgeholt.",
+          "options": [
+            "werden = volverse",
+            "futuro",
+            "pasiva"
+          ],
+          "answer": 2,
+          "explain": "abgeholt es participio."
+        },
+        {
+          "q": "Mein Nachbar wird bald Vater.",
+          "options": [
+            "werden = volverse",
+            "futuro",
+            "pasiva"
+          ],
+          "answer": 0,
+          "explain": "werden + sustantivo: se va a convertir en padre."
+        },
+        {
+          "q": "Ich werde die Hausverwaltung anrufen.",
+          "options": [
+            "werden = volverse",
+            "futuro",
+            "pasiva"
+          ],
+          "answer": 1,
+          "explain": "anrufen es infinitivo."
+        },
+        {
+          "q": "Im Hof wird nicht geraucht.",
+          "options": [
+            "werden = volverse",
+            "futuro",
+            "pasiva"
+          ],
+          "answer": 2,
+          "explain": "Pasiva sin sujeto con geraucht."
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Pasiva en presente: werden",
+      "instructions": "Escribe la forma correcta de werden en presente.",
+      "items": [
+        {
+          "text": "Die Heizung [[wird]] heute repariert."
+        },
+        {
+          "text": "Die Wände [[werden]] weiß gestrichen."
+        },
+        {
+          "text": "Am Freitag [[wird]] das Treppenhaus geputzt."
+        },
+        {
+          "text": "Ihr [[werdet]] am Bahnhof abgeholt."
+        },
+        {
+          "text": "Ich [[werde]] oft von meinen Nachbarn zum Essen eingeladen."
+        },
+        {
+          "text": "Wann [[werden]] die neuen Fenster eingebaut?"
+        },
+        {
+          "text": "Du [[wirst]] am Telefon verlangt!",
+          "note": "verlangen = pedir por alguien (al teléfono)."
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "El participio",
+      "instructions": "Escribe el Partizip II del verbo entre paréntesis.",
+      "items": [
+        {
+          "text": "Das Altpapier wird jeden zweiten Mittwoch [[abgeholt]]. (abholen)"
+        },
+        {
+          "text": "Die Blumen werden von der Nachbarin [[gegossen]]. (gießen)"
+        },
+        {
+          "text": "Die Küche wurde letztes Jahr [[renoviert]]. (renovieren)"
+        },
+        {
+          "text": "Das Haus wurde im 19. Jahrhundert [[gebaut]]. (bauen)"
+        },
+        {
+          "text": "Unser Paket wurde vom Hausmeister [[angenommen]]. (annehmen)"
+        },
+        {
+          "text": "Die alte Klingel wird durch eine neue [[ersetzt]]. (ersetzen)"
+        },
+        {
+          "text": "In der Waschküche wird am Sonntag nicht [[gewaschen]]. (waschen)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "write",
+      "title": "De activa a pasiva (presente)",
+      "instructions": "Escribe la frase en pasiva, sin «man».",
+      "items": [
+        {
+          "prompt": "Man repariert den Wasserhahn.",
+          "answers": [
+            "Der Wasserhahn wird repariert."
+          ]
+        },
+        {
+          "prompt": "Man streicht die Wände.",
+          "answers": [
+            "Die Wände werden gestrichen."
+          ]
+        },
+        {
+          "prompt": "Man trennt den Müll.",
+          "answers": [
+            "Der Müll wird getrennt."
+          ]
+        },
+        {
+          "prompt": "Man putzt das Treppenhaus jeden Freitag.",
+          "answers": [
+            "Das Treppenhaus wird jeden Freitag geputzt.",
+            "Jeden Freitag wird das Treppenhaus geputzt."
+          ]
+        },
+        {
+          "prompt": "Man holt die Mülltonnen am Dienstag ab.",
+          "answers": [
+            "Die Mülltonnen werden am Dienstag abgeholt.",
+            "Am Dienstag werden die Mülltonnen abgeholt."
+          ]
+        },
+        {
+          "prompt": "Man vermietet die Wohnung möbliert.",
+          "answers": [
+            "Die Wohnung wird möbliert vermietet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "Pasiva en Präteritum",
+      "instructions": "Completa con wurde, wurdest, wurden o wurdet.",
+      "items": [
+        {
+          "text": "Das Haus [[wurde]] 1958 gebaut."
+        },
+        {
+          "text": "Die alten Fenster [[wurden]] letzten Sommer ersetzt."
+        },
+        {
+          "text": "Wir [[wurden]] zum Hoffest eingeladen."
+        },
+        {
+          "text": "Gestern [[wurde]] im Hof bis Mitternacht gefeiert."
+        },
+        {
+          "text": "[[Wurdest]] du auch über die Renovierung informiert?"
+        },
+        {
+          "text": "Ihr [[wurdet]] nicht gefragt? Das ist unfair!"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "mc",
+      "title": "¿Quién lo hace? von + dativo",
+      "instructions": "Elige la forma correcta.",
+      "items": [
+        {
+          "q": "Die Heizung wird ___ Hausmeister kontrolliert.",
+          "options": [
+            "von der",
+            "vom",
+            "von den"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Die Mieter wurden ___ Hausverwaltung informiert.",
+          "options": [
+            "von der",
+            "vom",
+            "von die"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Der Garten wird ___ Bewohnern gepflegt.",
+          "options": [
+            "von die",
+            "vom",
+            "von den"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Das Fest wurde ___ Quartierverein organisiert.",
+          "options": [
+            "vom",
+            "von der",
+            "von den"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Die Wohnung wurde ___ Architektin geplant.",
+          "options": [
+            "von einem",
+            "von einer",
+            "von eine"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Das Haus wurde ___ Feuer beschädigt.",
+          "options": [
+            "für ein",
+            "durch ein",
+            "mit einem"
+          ],
+          "answer": 1,
+          "explain": "Causa no personal: durch + acusativo (también es posible von einem Feuer). «mit» se usa para el instrumento que alguien utiliza, no para la causa."
+        },
+        {
+          "q": "Die Wohnung wurde ___ Vermieter renoviert.",
+          "options": [
+            "für den",
+            "bei dem",
+            "vom"
+          ],
+          "answer": 2,
+          "explain": "«por» del agente = von + dativo."
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "order",
+      "title": "Ordena la frase pasiva",
+      "instructions": "Ordena las palabras: werden en posición 2, participio al final.",
+      "items": [
+        {
+          "words": [
+            "Die",
+            "Heizung",
+            "wird",
+            "morgen",
+            "repariert",
+            "."
+          ],
+          "answers": [
+            "Die Heizung wird morgen repariert.",
+            "Morgen wird die Heizung repariert."
+          ]
+        },
+        {
+          "words": [
+            "Das",
+            "Haus",
+            "wurde",
+            "1912",
+            "gebaut",
+            "."
+          ],
+          "answers": [
+            "Das Haus wurde 1912 gebaut.",
+            "1912 wurde das Haus gebaut."
+          ]
+        },
+        {
+          "words": [
+            "Im",
+            "Treppenhaus",
+            "wird",
+            "nicht",
+            "geraucht",
+            "."
+          ],
+          "answers": [
+            "Im Treppenhaus wird nicht geraucht."
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "Pakete",
+            "werden",
+            "vom",
+            "Hausmeister",
+            "angenommen",
+            "."
+          ],
+          "answers": [
+            "Die Pakete werden vom Hausmeister angenommen.",
+            "Vom Hausmeister werden die Pakete angenommen."
+          ]
+        },
+        {
+          "words": [
+            "Wann",
+            "wird",
+            "der",
+            "Müll",
+            "abgeholt",
+            "?"
+          ],
+          "answers": [
+            "Wann wird der Müll abgeholt?"
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "Mieter",
+            "wurden",
+            "von",
+            "der",
+            "Hausverwaltung",
+            "informiert",
+            "."
+          ],
+          "answers": [
+            "Die Mieter wurden von der Hausverwaltung informiert.",
+            "Von der Hausverwaltung wurden die Mieter informiert."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "listen",
+      "title": "Avisos y conversaciones en el edificio",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Liebe Bewohnerinnen und Bewohner, am Donnerstag wird das Wasser von acht bis zwölf Uhr abgestellt. Die Leitungen im Keller werden erneuert. Vielen Dank für Ihr Verständnis."
+            }
+          ],
+          "q": "¿Qué pasa el jueves por la mañana?",
+          "options": [
+            "No hay electricidad",
+            "No hay agua",
+            "No funciona el ascensor"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Grüezi Frau Brunner. Haben Sie auch keinen Strom?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Doch, alles funktioniert. Vielleicht ist bei Ihnen die Sicherung raus. Der Kasten ist im Keller."
+            }
+          ],
+          "q": "¿Dónde está el problema?",
+          "options": [
+            "En todo el edificio",
+            "Solo en el piso del hombre",
+            "En el sótano"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Andrea, weißt du, wann das Altpapier abgeholt wird?"
+            },
+            {
+              "v": "f2",
+              "t": "Jeden zweiten Mittwoch. Das nächste Mal am fünfzehnten. Du musst es gebündelt an die Straße stellen."
+            }
+          ],
+          "q": "¿Cuándo se recoge el papel?",
+          "options": [
+            "Cada miércoles",
+            "Cada dos miércoles",
+            "El quince de cada mes"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Unser Haus wurde 1910 gebaut. Die Küche und das Bad wurden aber vor zwei Jahren komplett renoviert. Nur die Fenster sind noch alt."
+            }
+          ],
+          "q": "¿Qué se renovó hace dos años?",
+          "options": [
+            "Las ventanas",
+            "Todo el edificio",
+            "La cocina y el baño"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hallo, hier ist Herr Weber von der Hausverwaltung. Der Handwerker kann leider nicht am Dienstag kommen. Er kommt jetzt am Freitag um halb acht. Bitte rufen Sie zurück, wenn das nicht geht."
+            }
+          ],
+          "q": "¿Cuándo viene ahora el técnico?",
+          "options": [
+            "El martes a las 7:30",
+            "El viernes a las 7:30",
+            "El viernes a las 8:30"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Die Heizung wird morgen repariert."
+            }
+          ],
+          "answers": [
+            "Die Heizung wird morgen repariert."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Das Haus wurde vor hundert Jahren gebaut."
+            }
+          ],
+          "answers": [
+            "Das Haus wurde vor hundert Jahren gebaut.",
+            "Das Haus wurde vor 100 Jahren gebaut."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Im Treppenhaus wird nicht geraucht."
+            }
+          ],
+          "answers": [
+            "Im Treppenhaus wird nicht geraucht."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Der Wasserhahn in der Küche tropft."
+            }
+          ],
+          "answers": [
+            "Der Wasserhahn in der Küche tropft."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wir wurden von unseren Nachbarn eingeladen."
+            }
+          ],
+          "answers": [
+            "Wir wurden von unseren Nachbarn eingeladen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán usando la pasiva.",
+      "items": [
+        {
+          "prompt": "La basura se recoge el lunes.",
+          "answers": [
+            "Der Müll wird am Montag abgeholt.",
+            "Am Montag wird der Müll abgeholt."
+          ]
+        },
+        {
+          "prompt": "Las ventanas se limpian mañana.",
+          "answers": [
+            "Die Fenster werden morgen geputzt.",
+            "Morgen werden die Fenster geputzt."
+          ]
+        },
+        {
+          "prompt": "La cocina se renovó el año pasado.",
+          "answers": [
+            "Die Küche wurde letztes Jahr renoviert.",
+            "Letztes Jahr wurde die Küche renoviert.",
+            "Die Küche wurde im letzten Jahr renoviert.",
+            "Im letzten Jahr wurde die Küche renoviert."
+          ]
+        },
+        {
+          "prompt": "La casa se construyó en 1960.",
+          "answers": [
+            "Das Haus wurde 1960 gebaut.",
+            "1960 wurde das Haus gebaut."
+          ]
+        },
+        {
+          "prompt": "En el balcón no se hace barbacoa.",
+          "answers": [
+            "Auf dem Balkon wird nicht gegrillt.",
+            "Es wird auf dem Balkon nicht gegrillt."
+          ]
+        },
+        {
+          "prompt": "La fiesta la organizó la administración (la fiesta fue organizada por la administración).",
+          "answers": [
+            "Das Fest wurde von der Hausverwaltung organisiert.",
+            "Die Party wurde von der Hausverwaltung organisiert."
+          ]
+        },
+        {
+          "prompt": "Nos invitaron a la fiesta (fuimos invitados a la fiesta).",
+          "answers": [
+            "Wir wurden zum Fest eingeladen.",
+            "Wir wurden zur Party eingeladen.",
+            "Wir wurden zu dem Fest eingeladen.",
+            "Wir wurden zu der Party eingeladen."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Neu im Quartier – mein erstes Jahr in Wiedikon",
+          "text": "Vor einem Jahr bin ich mit meinem Freund Tobias von Bern nach Zürich gezogen. Die Wohnungssuche war ein Albtraum: Wir haben über dreißig Besichtigungen gemacht, und bei manchen standen fünfzig Leute vor der Tür. Am Ende hatten wir dann doch Glück. Eine Kollegin von Tobias bekam eine Stelle in Basel, und wir wurden von der Hausverwaltung als Nachmieter akzeptiert.\n\nUnsere Wohnung liegt in einem Altbau aus dem Jahr 1928. Sie hat drei Zimmer, hohe Decken und einen kleinen Balkon zum Hof. Die Küche ist ziemlich alt, aber das Bad wurde kurz vor unserem Einzug renoviert. Die Miete ist für Zürcher Verhältnisse fair, auch wenn wir mehr bezahlen als früher in Bern.\n\nAm Anfang kannten wir niemanden im Haus. Das hat sich im Juni geändert: Da wurde im Hof ein Fest für alle Bewohner organisiert, und jeder hat etwas zu essen mitgebracht. Seitdem grüßen wir uns im Treppenhaus, und die alte Frau Meier aus dem Erdgeschoss gießt unsere Pflanzen, wenn wir in den Ferien sind. Dafür tragen wir ihr manchmal die Einkäufe nach oben.\n\nNatürlich ist nicht alles perfekt. Die Waschküche wird von acht Parteien benutzt, und man muss sich genau an den Plan halten. Und der Nachbar über uns hörte am Anfang gern spät abends laute Musik. Wir haben zweimal freundlich mit ihm gesprochen, und jetzt ist es viel besser.\n\nWas mir an unserem Quartier am besten gefällt? Alles ist zu Fuß erreichbar: der Markt am Samstag, kleine Cafés und Bäckereien, und in zwanzig Minuten bin ich am See. Ich möchte hier nicht mehr weg.\n\nLaura",
+          "statements": [
+            {
+              "s": "Laura und Tobias haben schnell eine Wohnung gefunden.",
+              "answer": false
+            },
+            {
+              "s": "Sie haben die Wohnung von einer Kollegin von Tobias übernommen.",
+              "answer": true
+            },
+            {
+              "s": "Das Bad wurde vor kurzem renoviert.",
+              "answer": true
+            },
+            {
+              "s": "Die Miete ist niedriger als in Bern.",
+              "answer": false
+            },
+            {
+              "s": "Eine Nachbarin hilft dem Paar, wenn es verreist.",
+              "answer": true
+            },
+            {
+              "s": "Mit dem Nachbarn über ihnen gibt es immer noch große Probleme.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "title": "Baustelle zu Hause",
+          "text": "Liebe Svenja,\n\nentschuldige, dass ich so lange nicht geschrieben habe. Bei uns ist im Moment das reine Chaos. Seit Anfang September wird unser ganzes Haus renoviert, und José und ich wohnen mitten auf einer Baustelle. Die Hausverwaltung hatte uns schon im Frühling informiert, aber dass es so laut wird, haben wir nicht erwartet.\n\nZuerst wurden die alten Fenster ersetzt. Das ging zum Glück schnell, nach zwei Tagen war alles fertig. Jetzt wird die Fassade gestrichen, und vor unserem Schlafzimmer steht ein Gerüst. Jeden Morgen um sieben Uhr beginnen die Arbeiter. Nur am Wochenende ist es ruhig.\n\nDas Schlimmste war aber letzte Woche: Da wurde im ganzen Haus für einen Tag das Wasser abgestellt. José hat bei einem Kollegen geduscht, und ich bin ins Büro gefahren, weil ich zu Hause nicht einmal einen Kaffee kochen konnte.\n\nEs gibt aber auch gute Nachrichten. Wegen der Bauarbeiten bekommen alle Mieter für drei Monate zehn Prozent Mietreduktion. Und unsere Nachbarn sind toll. Wir treffen uns jetzt oft abends im Hof und schimpfen gemeinsam über den Lärm – so haben wir endlich auch die Leute aus dem vierten Stock kennengelernt.\n\nIm November soll alles fertig sein. Dann bekommen wir auch einen neuen Lift. Darüber freut sich vor allem Frau Gerber aus dem fünften Stock, die schon 85 ist.\n\nHast du Lust, uns im Dezember zu besuchen? Dann ist die Baustelle weg, und wir können zusammen auf den Weihnachtsmarkt im Niederdorf gehen. Ein Gästebett haben wir!\n\nLiebe Grüße\nAndrea",
+          "statements": [
+            {
+              "s": "Andrea und José wussten vorher nicht, dass das Haus renoviert wird.",
+              "answer": false
+            },
+            {
+              "s": "Die Fenster wurden in kurzer Zeit ausgetauscht.",
+              "answer": true
+            },
+            {
+              "s": "Auch am Samstag wird am Haus gearbeitet.",
+              "answer": false
+            },
+            {
+              "s": "Am Tag ohne Wasser hat Andrea nicht zu Hause gearbeitet.",
+              "answer": true
+            },
+            {
+              "s": "Während der Bauarbeiten bezahlen die Mieter weniger.",
+              "answer": true
+            },
+            {
+              "s": "Andrea lädt Svenja ein, im November nach Zürich zu kommen.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Wohnen in der Genossenschaft: günstig, aber schwer zu bekommen",
+          "text": "In der Stadt Zürich ist fast jede vierte Wohnung eine Genossenschaftswohnung. Die Idee ist alt: Schon vor über hundert Jahren wurden die ersten Genossenschaften von Arbeitern gegründet, weil die Mieten in der Stadt viel zu hoch waren. Bis heute gilt das Prinzip der „Kostenmiete“: Die Genossenschaften machen keinen Gewinn, die Mieter bezahlen nur so viel, wie das Haus wirklich kostet. Deshalb ist eine Genossenschaftswohnung oft 20 bis 30 Prozent günstiger als eine vergleichbare Wohnung auf dem freien Markt.\n\nWer in einer Genossenschaft wohnen möchte, muss Mitglied werden und Anteilscheine kaufen – meistens für einige tausend Franken. Dieses Geld bekommt man zurück, wenn man wieder auszieht. Außerdem gibt es Regeln: In vielen Genossenschaften muss die Zahl der Zimmer zur Zahl der Bewohner passen. Wenn die Kinder ausziehen, müssen die Eltern oft in eine kleinere Wohnung wechseln.\n\nDas größte Problem ist die Nachfrage. „Für eine freie Wohnung bekommen wir manchmal 500 Bewerbungen“, sagt Regula Steiner von der Genossenschaft „Sonnhalde“. Viele Genossenschaften führen deshalb keine Wartelisten mehr, sondern verlosen ihre Wohnungen.\n\nTrotzdem schätzen die Bewohner nicht nur den Preis. In den Siedlungen gibt es Gemeinschaftsräume, Gärten und Feste, und viele Nachbarn helfen sich gegenseitig. „Hier kennt man sich noch“, sagt Marco Gisler, der seit zwölf Jahren in der „Sonnhalde“ wohnt. „Das findet man in der Stadt sonst selten.“",
+          "questions": [
+            {
+              "q": "Warum sind Genossenschaftswohnungen günstiger?",
+              "options": [
+                "Sie werden von der Stadt bezahlt.",
+                "Die Genossenschaften wollen keinen Gewinn machen.",
+                "Sie sind kleiner als andere Wohnungen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was passiert mit dem Geld für die Anteilscheine?",
+              "options": [
+                "Man bekommt es beim Auszug zurück.",
+                "Man muss es jedes Jahr neu bezahlen.",
+                "Es wird für die Feste in der Siedlung benutzt."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wie vergeben viele Genossenschaften heute ihre Wohnungen?",
+              "options": [
+                "Nach einer langen Warteliste.",
+                "Familien mit Kindern bekommen sie zuerst.",
+                "Sie werden verlost."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Nachbarn helfen Nachbarn: Eine App verbindet das Quartier",
+          "text": "Eine Bohrmaschine für einen Nachmittag, jemand, der die Katze füttert, oder Hilfe beim Umzug: In Winterthur werden solche Dinge seit zwei Jahren über die App „Hallo Nachbar“ organisiert. Die Idee stammt von zwei Studentinnen, Lea Frei und Nora Baumann. „Wir haben gemerkt, dass in unserem Haus jeder seine eigene Bohrmaschine hat, aber niemand braucht sie öfter als zweimal im Jahr“, erzählt Lea Frei.\n\nHeute nutzen über 6000 Menschen die App. Wer sich anmeldet, sieht nur die Angebote aus seinem eigenen Quartier. Man kann Dinge ausleihen oder verschenken, Hilfe anbieten oder um Hilfe bitten. Geld wird dabei nicht bezahlt; wer etwas bekommt, bedankt sich oft mit einem Kuchen oder einer Einladung zum Kaffee.\n\nBesonders aktiv sind ältere Menschen. „Viele von ihnen wohnen allein und möchten trotzdem etwas für andere tun“, sagt Nora Baumann. Die 78-jährige Elsbeth Huber zum Beispiel hilft Schulkindern bei den Hausaufgaben. Dafür werden ihr von einem jungen Nachbarn die Einkäufe nach Hause gebracht.\n\nNicht alles funktioniert perfekt. Manche Nutzer melden sich an und sind dann nie aktiv, und in einigen Quartieren gibt es fast keine Angebote. Die Stadt Winterthur unterstützt das Projekt deshalb seit diesem Jahr mit 20 000 Franken. Mit dem Geld werden Informationsabende in den Quartieren organisiert. Ab Herbst soll die App auch in Schaffhausen starten.",
+          "questions": [
+            {
+              "q": "Wie ist die Idee für die App entstanden?",
+              "options": [
+                "Die Stadt Winterthur wollte eine App für Nachbarn.",
+                "Die Gründerinnen sahen, dass viele Geräte nur selten benutzt werden.",
+                "Zwei Studentinnen brauchten Hilfe bei ihrem Umzug."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was bekommt man, wenn man über die App hilft?",
+              "options": [
+                "Eine kleine Summe Geld.",
+                "Punkte, die man später benutzen kann.",
+                "Kein Geld, aber manchmal ein kleines Dankeschön."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was macht die Stadt Winterthur?",
+              "options": [
+                "Sie bezahlt Informationsabende in den Quartieren.",
+                "Sie kontrolliert alle Angebote in der App.",
+                "Sie bringt die App nach Schaffhausen."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Umzüge Keller & Söhne: Wir transportieren Ihre Möbel sicher in der ganzen Schweiz – auch am Samstag. Kostenlose Offerte unter 044 271 33 80."
+            },
+            {
+              "key": "b",
+              "text": "Möblierte 1-Zimmer-Wohnung in Zürich-Oerlikon, 32 m², ab sofort für 3 bis 12 Monate. Ideal für Praktikanten und Expats. CHF 1650 inkl. Nebenkosten."
+            },
+            {
+              "key": "c",
+              "text": "Sanitär-Notdienst Rohrblitz: Verstopfte Abflüsse, Wasserschäden, tropfende Wasserhähne – wir sind 24 Stunden für Sie da, auch am Wochenende."
+            },
+            {
+              "key": "d",
+              "text": "Elektro Studer: Wir montieren Lampen, installieren neue Steckdosen und reparieren Ihre Geräte. Termine von Montag bis Freitag."
+            },
+            {
+              "key": "e",
+              "text": "4,5-Zimmer-Wohnung in Uster mit Garten, in der Nähe von Schule und Bahnhof. Ideal für Familien. Haustiere erlaubt. CHF 2900."
+            },
+            {
+              "key": "f",
+              "text": "Gemeinschaftsgarten Wipkingen sucht neue Mitglieder: Gemüse anbauen, zusammen gärtnern und Leute aus dem Quartier kennenlernen. Jahresbeitrag CHF 50."
+            },
+            {
+              "key": "g",
+              "text": "Malerin mit 20 Jahren Erfahrung streicht Ihre Wände und Decken – schnell, sauber und zu fairen Preisen."
+            },
+            {
+              "key": "h",
+              "text": "Reinigungsfirma Blitzblank: Endreinigung mit Abnahmegarantie. Wir sind dabei, wenn die Verwaltung Ihre alte Wohnung kontrolliert."
+            },
+            {
+              "key": "i",
+              "text": "Mieterverband Zürich: Rechtsberatung bei Problemen mit dem Vermieter, zum Beispiel bei Mieterhöhungen oder Kündigungen. Für Mitglieder kostenlos."
+            },
+            {
+              "key": "j",
+              "text": "Schlüsseldienst City: Haben Sie sich ausgesperrt? Wir öffnen Ihre Tür in 30 Minuten – Tag und Nacht."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Sandro bemerkt am Sonntagabend, dass das Wasser im Bad nicht mehr abläuft und schon auf den Boden fließt.",
+              "answer": "c"
+            },
+            {
+              "situation": "Familie Rossi möchte ihr Wohnzimmer renovieren. Die Wände sollen eine neue Farbe bekommen.",
+              "answer": "g"
+            },
+            {
+              "situation": "Yasmin zieht nächste Woche aus. Sie hat keine Zeit zum Putzen, aber die Wohnung muss bei der Übergabe perfekt sauber sein.",
+              "answer": "h"
+            },
+            {
+              "situation": "Der Vermieter von Herrn Lang will die Miete um 300 Franken erhöhen. Herr Lang glaubt, dass das nicht erlaubt ist.",
+              "answer": "i"
+            },
+            {
+              "situation": "Mia kommt für ein halbes Jahr als Praktikantin nach Zürich und hat keine eigenen Möbel.",
+              "answer": "b"
+            },
+            {
+              "situation": "Frau Hess zieht in eine kleine Seniorenwohnung und möchte ihre alten Möbel verkaufen.",
+              "answer": "x"
+            },
+            {
+              "situation": "Kenji wohnt allein. Er möchte in seiner Freizeit draußen etwas tun und dabei Nachbarn treffen.",
+              "answer": "f"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Strenge Hausregeln – ja oder nein?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Hausordnungen in Mehrfamilienhäusern.",
+          "question": "Ist die Person für strenge Regeln im Haus?",
+          "comments": [
+            {
+              "name": "Lukas, 34, Graz",
+              "text": "Ich wohne in einem großen Haus mit vierzig Wohnungen. Am Anfang fand ich die Hausordnung übertrieben: Ruhe ab 22 Uhr, ein fester Waschplan, kein Grillen auf dem Balkon. Inzwischen sehe ich das anders. Wenn so viele Menschen zusammenwohnen, braucht man klare Regeln, sonst gibt es ständig Streit. Und wer sich nicht daran hält, muss auch mit Konsequenzen rechnen.",
+              "answer": true
+            },
+            {
+              "name": "Sabine, 51, Luzern",
+              "text": "Ich habe drei Kinder, und Kinder machen nun mal Lärm. In unserem Haus wird man schon kritisiert, wenn die Kinder um sieben Uhr abends im Hof spielen. Einerseits verstehe ich, dass ältere Nachbarn Ruhe brauchen. Andererseits ist ein Wohnhaus kein Museum. Mehr Toleranz statt immer neue Verbote – das wünsche ich mir.",
+              "answer": false
+            },
+            {
+              "name": "Dragan, 28, Stuttgart",
+              "text": "Ich arbeite im Schichtdienst und muss oft tagsüber schlafen. Deshalb bin ich froh, dass es in unserem Haus auch am Mittag eine Ruhezeit gibt. Viele finden das altmodisch, aber für Leute wie mich ist das die einzige Möglichkeit, genug Schlaf zu bekommen. Ehrlich gesagt wünsche ich mir sogar, dass die Verwaltung die Regeln noch öfter kontrolliert.",
+              "answer": true
+            },
+            {
+              "name": "Monika, 63, Basel",
+              "text": "Ich bin seit dreißig Jahren Hauswartin, und früher habe ich selbst auf jede Kleinigkeit geachtet. Heute denke ich: Die meisten Probleme kann man mit einem kurzen Gespräch lösen. Ein Zettel im Treppenhaus mit zehn Verboten macht die Stimmung nur schlechter. Ein paar Grundregeln wie die Nachtruhe sind nötig, klar – aber alles andere ist gesunder Menschenverstand.",
+              "answer": false
+            },
+            {
+              "name": "Felix, 39, Wien",
+              "text": "Ich mag eigentlich keine Verbote. Aber ich habe erlebt, was passiert, wenn es keine Regeln gibt: In meinem alten Haus wurde der Müll einfach im Hof abgestellt, Fahrräder standen im Treppenhaus, und niemand fühlte sich verantwortlich. Seit ich in einem Haus mit einer genauen Hausordnung wohne, ist alles sauber und ruhig. Ich möchte nie wieder zurück.",
+              "answer": true
+            },
+            {
+              "name": "Elif, 25, Zürich",
+              "text": "Ich bin Studentin und wohne in einer WG. Unser Vermieter hat uns verboten, Gäste einzuladen – sogar am Samstag um neun Uhr abends. Nach zehn Uhr sind wir sowieso leise. Ich finde, Erwachsene können selbst entscheiden, wann sie Besuch haben. Solche Regeln passen einfach nicht mehr in unsere Zeit.",
+              "answer": false
+            },
+            {
+              "name": "Reto, 45, Bern",
+              "text": "Bei uns im Haus gibt es kaum Regeln, nur die Nachtruhe. Und es funktioniert wunderbar. Wir haben einen Gruppenchat, und wer ein Fest macht, sagt es vorher. Natürlich hängt viel von den Menschen ab, die im Haus wohnen. Aber ich glaube, zu viele Vorschriften machen aus Nachbarn Polizisten. Vertrauen bringt mehr als Kontrolle.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Hausordnung der Siedlung Rosengarten",
+          "text": "1. Ruhezeiten\nDie Nachtruhe gilt von 22 bis 7 Uhr. Auch über Mittag (12 bis 13 Uhr) und an Sonn- und Feiertagen bitten wir um Rücksicht. Laute Arbeiten wie Bohren oder Hämmern sind nur von Montag bis Samstag von 8 bis 12 und von 13 bis 19 Uhr erlaubt.\n\n2. Waschküche\nDie Waschküche wird nach dem Waschplan benutzt. Wer seinen Waschtag nicht braucht, darf ihn mit anderen Mietern tauschen. Nach dem Waschen werden die Maschinen und der Boden von den Mietern selbst gereinigt. Am Sonntag bleibt die Waschküche geschlossen.\n\n3. Abfall\nHausmüll wird nur in offiziellen Gebührensäcken in den Containern beim Eingang entsorgt. Altpapier und Karton werden gebündelt und am Abfuhrtag bis 7 Uhr an die Straße gestellt. Alte Möbel und andere große Gegenstände dürfen nicht im Keller abgestellt werden.\n\n4. Treppenhaus\nDas Treppenhaus ist ein Fluchtweg. Schuhe, Fahrräder und Kinderwagen gehören nicht ins Treppenhaus. Für Kinderwagen gibt es einen Raum neben dem Eingang.\n\n5. Balkon\nAuf den Balkonen wird nur mit Elektro- oder Gasgrills gegrillt. Holzkohlegrills sind verboten.\n\n6. Haustiere\nKleintiere wie Fische oder Hamster sind erlaubt. Für Hunde und Katzen braucht man vorher die schriftliche Erlaubnis der Verwaltung.\n\nDie Verwaltung",
+          "questions": [
+            {
+              "q": "Wann darf man in der Wohnung ein Loch in die Wand bohren?",
+              "options": [
+                "Am Sonntag nach 13 Uhr.",
+                "Jeden Tag bis 22 Uhr.",
+                "Am Samstag um 15 Uhr."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was gilt für die Waschküche?",
+              "options": [
+                "Am Sonntag kann man ohne Plan waschen.",
+                "Man darf seinen Waschtag mit anderen Mietern tauschen.",
+                "Die Maschinen werden von der Verwaltung gereinigt."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was macht man mit dem Altpapier?",
+              "options": [
+                "Man wirft es in den Container beim Eingang.",
+                "Man stellt es gebündelt an die Straße.",
+                "Man bringt es in den Keller."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Familie Koch möchte eine Katze. Was muss sie tun?",
+              "options": [
+                "Vorher eine schriftliche Erlaubnis bei der Verwaltung holen.",
+                "Die Nachbarn um Erlaubnis fragen.",
+                "Nichts, denn alle Haustiere sind erlaubt."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Guten Tag, Frau Ochsner, hier spricht Daniel Frey von der Hausverwaltung Immopark. Sie haben uns wegen Ihrer Heizung geschrieben. Ein Techniker kommt am Mittwoch zwischen acht und zehn Uhr vorbei. Falls Sie nicht zu Hause sind, kann der Hauswart die Tür öffnen. Dafür brauchen wir aber vorher Ihr Einverständnis per E-Mail. Vielen Dank und einen schönen Tag noch."
+            }
+          ],
+          "statement": "Der Techniker kommt am Mittwochnachmittag.",
+          "tf": false,
+          "q": "Was soll Frau Ochsner tun, wenn sie nicht zu Hause ist?",
+          "options": [
+            "Den Termin verschieben.",
+            "Der Hausverwaltung eine E-Mail schreiben.",
+            "Den Schlüssel bei einem Nachbarn abgeben."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Und nun die Nachrichten aus der Region. Die Mieten in der Stadt Zürich sind im letzten Jahr erneut gestiegen. Laut dem Statistischen Amt kostet eine Dreizimmerwohnung jetzt durchschnittlich 2350 Franken pro Monat, fünf Prozent mehr als im Vorjahr. Besonders stark wurden die Mieten in Neubauten erhöht. Die Stadt will in den nächsten zehn Jahren 3000 günstige Wohnungen bauen."
+            }
+          ],
+          "statement": "Die Mieten in Zürich sind um fünf Prozent gestiegen.",
+          "tf": true,
+          "q": "Wo sind die Mieten besonders stark gestiegen?",
+          "options": [
+            "In neuen Häusern.",
+            "In alten Häusern.",
+            "In Genossenschaftswohnungen."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Liebe Kundinnen und Kunden, heute ist bei uns im Möbelhaus Aktionstag! Alle Lampen sind um zwanzig Prozent reduziert. Und wer heute Möbel für mehr als 500 Franken kauft, bekommt die Lieferung nach Hause gratis. Unser Montageservice baut Ihre neuen Möbel gegen einen kleinen Aufpreis auch gleich auf. Fragen Sie einfach an der Information im Erdgeschoss."
+            }
+          ],
+          "statement": "Heute werden Möbel kostenlos aufgebaut.",
+          "tf": false,
+          "q": "Was bekommt man bei einem Einkauf über 500 Franken?",
+          "options": [
+            "Zwanzig Prozent Rabatt.",
+            "Einen Gutschein für Lampen.",
+            "Eine kostenlose Lieferung."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Hallo Herr Romero, hier ist Silvia Ammann aus dem zweiten Stock. Ich habe heute Mittag ein Paket für Sie angenommen, es ist ziemlich schwer. Ich bin heute Abend ab sieben zu Hause. Wenn es Ihnen heute nicht passt, können Sie es auch morgen früh vor acht holen. Sonst lege ich Ihnen einen Zettel in den Briefkasten. Bis dann!"
+            }
+          ],
+          "statement": "Frau Ammann hat ein Paket für Herrn Romero angenommen.",
+          "tf": true,
+          "q": "Wann kann Herr Romero das Paket abholen?",
+          "options": [
+            "Heute Mittag.",
+            "Heute ab 19 Uhr.",
+            "Morgen nach acht Uhr."
+          ],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung durch eine neue Wohnsiedlung in Zürich teil.",
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Herzlich willkommen in der Siedlung Am Bach! Mein Name ist Claudia Wyss. Ich bin hier die Siedlungsleiterin und wohne selbst seit drei Jahren hier. Die Führung dauert etwa eine Stunde, und am Ende gibt es im Gemeinschaftsraum Kaffee und Kuchen."
+            },
+            {
+              "v": "ch-f",
+              "t": "Die Siedlung wurde 2021 fertig gebaut. Früher stand hier eine alte Fabrik. Ein Teil der Fabrik wurde nicht abgerissen, sondern renoviert: Wo früher Maschinen standen, sind heute ein Café, eine Kita und mehrere Ateliers für Künstler."
+            },
+            {
+              "v": "ch-f",
+              "t": "Insgesamt gibt es 180 Wohnungen, von der kleinen Studiowohnung bis zur Wohnung mit sechs Zimmern für große Familien. Rund 450 Menschen wohnen hier. Die jüngste Bewohnerin ist zwei Wochen alt, der älteste Bewohner ist 94."
+            },
+            {
+              "v": "ch-f",
+              "t": "Wir gehen jetzt in den Innenhof. Hier sehen Sie unseren Gemeinschaftsgarten. Jede Familie kann ein kleines Beet mieten. Das Gemüse wird von den Bewohnern selbst angebaut, und im Herbst feiern wir zusammen ein großes Erntefest."
+            },
+            {
+              "v": "ch-f",
+              "t": "Eine Besonderheit der Siedlung: Es gibt keine Tiefgarage. Wer hier einzieht, verspricht, kein eigenes Auto zu haben. Dafür stehen im Keller über 600 Veloparkplätze, und die Tramhaltestelle ist nur zwei Minuten entfernt. Für Ausflüge können die Bewohner zwei Elektroautos teilen."
+            },
+            {
+              "v": "ch-f",
+              "t": "Hier links ist unsere Waschküche. Anders als in vielen Häusern gibt es keinen festen Waschplan. Man reserviert die Maschinen einfach über eine App."
+            },
+            {
+              "v": "ch-f",
+              "t": "Und zum Schluss die Frage, die mir bei jeder Führung gestellt wird: Gibt es freie Wohnungen? Leider nein. Im Moment haben wir eine Warteliste mit über 2000 Namen. Wenn Sie sich trotzdem anmelden möchten, finden Sie das Formular auf unserer Website."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was war früher an diesem Ort?",
+              "options": [
+                "Eine Fabrik.",
+                "Ein Park.",
+                "Eine Schule."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wie viele Menschen wohnen in der Siedlung?",
+              "options": [
+                "180.",
+                "Etwa 450.",
+                "Über 2000."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wer baut das Gemüse im Garten an?",
+              "options": [
+                "Die Kinder aus der Kita.",
+                "Ein Gärtner der Siedlung.",
+                "Die Bewohner selbst."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was gilt für Autos in der Siedlung?",
+              "options": [
+                "Die Bewohner haben keine eigenen Autos.",
+                "Die Autos parken in der Tiefgarage.",
+                "Jede Familie bekommt ein Elektroauto."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wie wird die Waschküche organisiert?",
+              "options": [
+                "Mit einem festen Waschplan.",
+                "Über eine App.",
+                "Die Siedlungsleiterin verteilt die Termine."
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind bei einem Informationsabend der Stadt Zürich für neue Einwohnerinnen und Einwohner.",
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Abend und herzlich willkommen in Zürich! Mein Name ist Martin Egli, ich arbeite bei der Stadtverwaltung. Heute Abend möchte ich Ihnen ein paar Tipps zum Wohnen in unserer Stadt geben. Ihre Fragen können Sie am Ende stellen."
+            },
+            {
+              "v": "m1",
+              "t": "Zuerst zur Wohnungssuche. Sie wissen es wahrscheinlich schon: Sie ist nicht einfach. Weniger als ein Prozent der Wohnungen in Zürich ist frei. Mein Tipp: Erzählen Sie allen Kollegen und Bekannten, dass Sie eine Wohnung suchen. Viele Wohnungen werden nie im Internet angeboten, sondern direkt an Nachmieter weitergegeben."
+            },
+            {
+              "v": "m1",
+              "t": "Zur Besichtigung bringen Sie am besten schon alle Unterlagen für die Bewerbung mit: eine Kopie Ihres Ausweises, eine Bestätigung von Ihrem Arbeitgeber und einen Auszug aus dem Betreibungsregister. Wer das Dossier sofort abgibt, hat bessere Chancen."
+            },
+            {
+              "v": "m1",
+              "t": "Wenn Sie eine Wohnung gefunden haben, wird beim Einzug ein Protokoll gemacht. Kontrollieren Sie alles genau und schreiben Sie jeden Schaden auf, auch kleine Kratzer im Boden. Sonst müssen Sie beim Auszug vielleicht dafür bezahlen."
+            },
+            {
+              "v": "m1",
+              "t": "Ein Thema, das viele Neuzuzüger überrascht, ist der Abfall. In Zürich wird der Hausmüll nur in den offiziellen Züri-Säcken abgeholt. Die Säcke sind ziemlich teuer, weil die Gebühr schon im Preis ist. Papier, Karton, Glas und Metall entsorgen Sie dagegen gratis."
+            },
+            {
+              "v": "m1",
+              "t": "Und zum Schluss: die Nachbarn. Schweizer gelten als ein bisschen zurückhaltend. Aber ein kleiner Trick hilft fast immer: Stellen Sie sich nach dem Einzug bei Ihren Nachbarn vor, oder hängen Sie einen Zettel ins Treppenhaus und laden Sie alle zu einem Apéro ein. So wird aus dem Fremden schnell ein Nachbar."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was empfiehlt Herr Egli für die Wohnungssuche?",
+              "options": [
+                "Nur im Internet suchen.",
+                "Mit vielen Leuten über die Suche sprechen.",
+                "Eine Wohnung außerhalb der Stadt suchen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was sollte man zur Besichtigung mitbringen?",
+              "options": [
+                "Die Unterlagen für die Bewerbung.",
+                "Die erste Miete in bar.",
+                "Einen Brief vom alten Vermieter."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Warum ist das Protokoll beim Einzug wichtig?",
+              "options": [
+                "Man bekommt dann schneller den Schlüssel.",
+                "Die Miete wird dadurch billiger.",
+                "Man muss später nicht für alte Schäden bezahlen."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was kostet in Zürich Geld?",
+              "options": [
+                "Das Entsorgen von Glas.",
+                "Die offiziellen Abfallsäcke.",
+                "Das Abholen von Karton."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wie lernt man laut Herrn Egli die Nachbarn am besten kennen?",
+              "options": [
+                "Man wartet, bis sie sich vorstellen.",
+                "Man fragt den Hauswart nach ihren Namen.",
+                "Man lädt sie zu einem Apéro ein."
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Tram und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hey Lena! Lange nicht gesehen. Wie geht's?"
+            },
+            {
+              "v": "f1",
+              "t": "Hallo Jonas! Gut, aber ein bisschen müde. Wir sind letzte Woche umgezogen."
+            },
+            {
+              "v": "m2",
+              "t": "Ach, wirklich? Wohin denn?"
+            },
+            {
+              "v": "f1",
+              "t": "Nach Oerlikon. Wir haben eine Vierzimmerwohnung in einem Neubau gefunden. Mit Balkon und sogar mit Lift!"
+            },
+            {
+              "v": "m2",
+              "t": "Super. Und wie ist die Miete?"
+            },
+            {
+              "v": "f1",
+              "t": "Na ja, nicht billig. Aber wir sind jetzt zu dritt in der WG, deshalb geht das schon. Meine Mitbewohnerin Sarah ist im Mai dazugekommen."
+            },
+            {
+              "v": "m2",
+              "t": "Und die Nachbarn? Ich habe nämlich gerade richtig Ärger mit meinen."
+            },
+            {
+              "v": "f1",
+              "t": "Oh nein. Was ist denn passiert?"
+            },
+            {
+              "v": "m2",
+              "t": "Über mir wohnt seit zwei Monaten ein junges Paar. Die sind eigentlich nett, aber sie haben einen Hund, und der bellt den ganzen Tag, wenn sie arbeiten."
+            },
+            {
+              "v": "f1",
+              "t": "Den ganzen Tag? Das ist ja furchtbar. Du arbeitest doch oft im Homeoffice."
+            },
+            {
+              "v": "m2",
+              "t": "Genau, drei Tage pro Woche. Ich habe ihnen schon einen Zettel in den Briefkasten gelegt, aber es hat sich nichts geändert."
+            },
+            {
+              "v": "f1",
+              "t": "Und hast du nicht direkt mit ihnen gesprochen?"
+            },
+            {
+              "v": "m2",
+              "t": "Noch nicht. Ehrlich gesagt bin ich nicht so gut in solchen Gesprächen."
+            },
+            {
+              "v": "f1",
+              "t": "Ich würde einfach mal klingeln. Vielleicht wissen sie gar nicht, dass der Hund so laut ist. Sie sind ja nie da, wenn er bellt."
+            },
+            {
+              "v": "m2",
+              "t": "Stimmt eigentlich. Und wenn das nichts hilft, schreibe ich der Hausverwaltung."
+            },
+            {
+              "v": "f1",
+              "t": "Genau. Oh, ich muss hier aussteigen. Komm doch nächsten Samstag zu unserer Einweihungsparty!"
+            },
+            {
+              "v": "m2",
+              "t": "Gern! Ich bringe was zu trinken mit."
+            }
+          ],
+          "statements": [
+            {
+              "s": "Lena ist vor kurzem umgezogen.",
+              "answer": true
+            },
+            {
+              "s": "Lenas neue Wohnung liegt in einem alten Haus.",
+              "answer": false
+            },
+            {
+              "s": "Lena wohnt allein.",
+              "answer": false
+            },
+            {
+              "s": "Der Hund der Nachbarn bellt, wenn er allein ist.",
+              "answer": true
+            },
+            {
+              "s": "Jonas arbeitet jeden Tag im Büro.",
+              "answer": false
+            },
+            {
+              "s": "Jonas hat schon persönlich mit den Nachbarn gesprochen.",
+              "answer": false
+            },
+            {
+              "s": "Lena lädt Jonas zu einem Fest ein.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Du, José, hast du den Brief von der Hausverwaltung gelesen?"
+            },
+            {
+              "v": "m1",
+              "t": "Nur kurz, Andrea. Es geht um die Renovierung, oder?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja. Nächstes Jahr wird die ganze Fassade isoliert, und die Fenster werden auch ersetzt."
+            },
+            {
+              "v": "m1",
+              "t": "Endlich! Im Winter ist es im Schlafzimmer immer so kalt."
+            },
+            {
+              "v": "f2",
+              "t": "Stimmt. Aber hör mal: Die Miete wird danach um 120 Franken erhöht."
+            },
+            {
+              "v": "m1",
+              "t": "Was? Pro Monat? Das ist ziemlich viel."
+            },
+            {
+              "v": "f2",
+              "t": "Ja, aber dafür sparen wir Heizkosten. Die Verwaltung schreibt, dass die Nebenkosten um etwa 40 Franken sinken."
+            },
+            {
+              "v": "m1",
+              "t": "Hm. Dann sind es eigentlich nur 80 Franken mehr. Und wann beginnen die Arbeiten?"
+            },
+            {
+              "v": "f2",
+              "t": "Im April. Sie dauern ungefähr drei Monate."
+            },
+            {
+              "v": "m1",
+              "t": "Drei Monate Lärm … Zum Glück bin ich tagsüber fast immer im Institut."
+            },
+            {
+              "v": "f2",
+              "t": "Ich arbeite ja zweimal pro Woche im Homeoffice. Vielleicht frage ich meine Chefin, ob ich in der Zeit öfter ins Büro kommen kann."
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee. Gibt es noch eine Versammlung für die Mieter?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, am 12. März im Gemeinschaftsraum. Da werden alle Fragen beantwortet."
+            },
+            {
+              "v": "m1",
+              "t": "Da gehe ich hin. Ich möchte wissen, ob wir während der Arbeiten den Balkon benutzen dürfen."
+            },
+            {
+              "v": "f2",
+              "t": "Und ich frage, ob die Wohnung danach geputzt wird. Bei Frau Gerber im Nachbarhaus war nach der Renovierung alles voller Staub."
+            },
+            {
+              "v": "m1",
+              "t": "Okay, dann schreiben wir unsere Fragen heute Abend auf."
+            }
+          ],
+          "statements": [
+            {
+              "s": "Die Fenster im Haus werden ersetzt.",
+              "answer": true
+            },
+            {
+              "s": "José findet die Wohnung im Winter zu warm.",
+              "answer": false
+            },
+            {
+              "s": "Die Miete steigt um 120 Franken pro Monat.",
+              "answer": true
+            },
+            {
+              "s": "Die Nebenkosten werden nach der Renovierung höher.",
+              "answer": false
+            },
+            {
+              "s": "Die Bauarbeiten dauern etwa drei Monate.",
+              "answer": true
+            },
+            {
+              "s": "Andrea arbeitet nie von zu Hause aus.",
+              "answer": false
+            },
+            {
+              "s": "Die Mieterversammlung findet im Gemeinschaftsraum statt.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung \"Wohnen heute\" diskutiert mit dem Familienvater Sebastian Huber und der Stadtplanerin Nadja Keller über das Thema \"Wohnen in der Stadt oder auf dem Land?\".",
+          "options": [
+            "Moderatorin",
+            "Sebastian Huber, Familienvater",
+            "Nadja Keller, Stadtplanerin"
+          ],
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Herzlich willkommen zu „Wohnen heute“. Immer mehr Familien ziehen aus der Stadt aufs Land. Ist das die Zukunft? Darüber diskutiere ich heute mit Sebastian Huber, der vor drei Jahren mit seiner Familie von Zürich in ein Dorf im Toggenburg gezogen ist, und mit der Stadtplanerin Nadja Keller. Herr Huber, warum haben Sie die Stadt verlassen?"
+            },
+            {
+              "v": "m2",
+              "t": "Ganz einfach: Wir haben in Zürich keine bezahlbare Wohnung mit vier Zimmern gefunden. Auf dem Land haben wir jetzt ein Haus mit Garten – und wir bezahlen weniger als früher für unsere kleine Wohnung."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Keller, verstehen Sie diese Entscheidung?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Natürlich. Aber man muss die ganze Rechnung machen. Wer auf dem Land wohnt, braucht meistens ein Auto, oft sogar zwei. Und das kostet auch viel Geld."
+            },
+            {
+              "v": "m2",
+              "t": "Das stimmt, wir haben jetzt zwei Autos. Aber ich arbeite drei Tage pro Woche im Homeoffice. Ich fahre also nur zweimal pro Woche nach Zürich."
+            },
+            {
+              "v": "f1",
+              "t": "Viele sagen, auf dem Land ist das Leben ruhiger. Ist das so?"
+            },
+            {
+              "v": "m2",
+              "t": "Für die Kinder auf jeden Fall. Sie spielen draußen im Wald, und im Dorf kennt jeder jeden. In der Stadt hatten wir immer Angst, weil so viel Verkehr war."
+            },
+            {
+              "v": "ch-f",
+              "t": "Ich sehe das ein bisschen anders. Auch in der Stadt gibt es heute viele autofreie Siedlungen mit großen Innenhöfen. Und die Kinder können allein zur Schule, zum Sport oder in die Musikschule gehen. Auf dem Land müssen die Eltern sie überall hinfahren."
+            },
+            {
+              "v": "m2",
+              "t": "Hm, da haben Sie nicht ganz unrecht. Meine Frau ist manchmal mehr Taxifahrerin als alles andere."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Keller, was bedeutet es für die Umwelt, wenn so viele Menschen aufs Land ziehen?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Das ist für mich das größte Problem. Jedes neue Einfamilienhaus braucht viel Platz. Wiesen und Felder werden zugebaut. Wenn die Menschen dicht zusammen in der Stadt wohnen, ist das viel besser für die Natur."
+            },
+            {
+              "v": "f1",
+              "t": "Und was sollte die Politik tun?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Die Städte müssen mehr günstige Wohnungen für Familien bauen. Dann muss niemand wegziehen, nur weil die Miete zu hoch ist."
+            },
+            {
+              "v": "m2",
+              "t": "Da bin ich einverstanden. Ehrlich gesagt sind wir nicht wegen der Natur weggezogen, sondern wegen der Miete."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Huber, möchten Sie irgendwann wieder in die Stadt ziehen?"
+            },
+            {
+              "v": "m2",
+              "t": "Im Moment nicht. Aber wenn die Kinder groß sind, vielleicht. Meine Frau und ich vermissen manchmal die Kinos und die Restaurants."
+            },
+            {
+              "v": "f1",
+              "t": "Vielen Dank Ihnen beiden für das Gespräch."
+            }
+          ],
+          "items": [
+            {
+              "q": "Immer mehr Familien verlassen die Stadt.",
+              "answer": 0
+            },
+            {
+              "q": "Das Haus auf dem Land kostet weniger als die alte Wohnung in der Stadt.",
+              "answer": 1
+            },
+            {
+              "q": "Auf dem Land braucht man meistens ein Auto.",
+              "answer": 2
+            },
+            {
+              "q": "Für Kinder ist das Leben im Dorf besser.",
+              "answer": 1
+            },
+            {
+              "q": "Auch in der Stadt können Kinder selbstständig unterwegs sein.",
+              "answer": 2
+            },
+            {
+              "q": "Neue Häuser auf dem Land nehmen der Natur Platz weg.",
+              "answer": 2
+            },
+            {
+              "q": "Der wichtigste Grund für den Umzug war das Geld.",
+              "answer": 1
+            },
+            {
+              "q": "Fragt, was die Politik tun sollte.",
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie sind vor zwei Wochen in eine neue Wohnung umgezogen. Ihre Freundin Carina konnte beim Umzug nicht helfen. Schreiben Sie Carina eine E-Mail.",
+          "points": [
+            "Beschreiben Sie die neue Wohnung und das Viertel.",
+            "Erzählen Sie, wie der Umzug war.",
+            "Laden Sie Carina zu einer Einweihungsparty ein und nennen Sie einen Termin."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Carina,\n\nwie geht es dir? Wir haben es geschafft: Seit zwei Wochen wohnen Andrea und ich in unserer neuen Wohnung in Wipkingen! Sie hat drei Zimmer und einen großen Balkon mit Blick auf den Fluss. Das Viertel gefällt uns sehr, es gibt viele Cafés und jeden Samstag einen Markt.\n\nDer Umzug war ziemlich anstrengend. Es regnete den ganzen Tag, und der Lift war kaputt. Zum Glück wurden die schweren Möbel von einer Firma getragen.\n\nAm 14. Juni machen wir eine Einweihungsparty. Hast du Zeit? Du kannst gern auch deinen Freund mitbringen.\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "Ihr Freund Stefan bekommt eine Stelle in Zürich und sucht dort eine Wohnung. Schreiben Sie ihm eine E-Mail.",
+          "points": [
+            "Geben Sie Tipps für die Wohnungssuche.",
+            "Welches Viertel empfehlen Sie und warum?",
+            "Bieten Sie Ihre Hilfe an."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Stefan,\n\nsuper, dass du nach Zürich kommst! Die Wohnungssuche ist hier leider nicht einfach. Mein Tipp: Erzähl allen Kollegen, dass du eine Wohnung suchst, denn viele Wohnungen werden nur privat weitergegeben. Zur Besichtigung solltest du alle Unterlagen schon mitbringen.\n\nIch empfehle dir Kreis 3 oder Kreis 6. Dort gibt es viele schöne Altbauten, die nicht zu teuer sind, und mit dem Tram bist du schnell im Zentrum.\n\nWenn du willst, kannst du am Anfang ein paar Tage bei uns wohnen. Wir haben ein Gästezimmer.\n\nBis bald und viele Grüße\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Nachbarschaft heute – braucht man noch Kontakt zu den Nachbarn?“ gelesen.",
+          "quote": "Ich wohne seit acht Jahren in meinem Haus und kenne meine Nachbarn kaum. Ehrlich gesagt finde ich das gut. Ich habe Freunde, Familie und Kollegen – warum soll ich auch noch mit den Nachbarn Kaffee trinken? Ein freundliches „Hallo“ im Treppenhaus reicht mir völlig.\n– Patrick, Winterthur",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Berichten Sie von Ihren Erfahrungen mit Nachbarn."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich verstehe Patrick, aber ich sehe das anders. Ich finde, dass gute Nachbarn sehr wichtig sind. Als wir nach Zürich gezogen sind, kannten wir niemanden. Unsere Nachbarin hat uns gezeigt, wie die Waschküche funktioniert und wann der Müll abgeholt wird. Heute gießen wir gegenseitig die Blumen, wenn jemand in den Ferien ist. Natürlich muss man nicht mit allen befreundet sein. Aber im Notfall, zum Beispiel wenn man den Schlüssel verloren hat, ist es gut, wenn man jemanden im Haus kennt. Deshalb lade ich neue Nachbarn immer zu einem Kaffee ein."
+        },
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Ferienwohnungen in Wohnhäusern“ gelesen.",
+          "quote": "In unserem Haus werden inzwischen drei Wohnungen an Touristen vermietet. Jede Woche kommen neue Leute mit Koffern, die nachts laut sind und den Müll nicht trennen. Für uns Mieter ist das schrecklich. Ich finde, die Städte müssen das endlich verbieten!\n– Beatrice, Luzern",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Nennen Sie Vorteile oder Nachteile von Ferienwohnungen in Wohnhäusern."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich kann Beatrice gut verstehen. In Städten wie Zürich oder Luzern gibt es zu wenige Wohnungen, und jede Wohnung, die an Touristen vermietet wird, fehlt den Menschen, die hier leben und arbeiten. Außerdem ist es für die Nachbarn nicht angenehm, wenn jede Woche fremde Leute im Haus sind. Natürlich gibt es auch Vorteile: Touristen bringen Geld in die Stadt, und Familien können mit einer Ferienwohnung günstiger reisen. Trotzdem finde ich, dass die Städte klare Regeln brauchen, zum Beispiel höchstens 90 Nächte pro Jahr."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben morgen um 17 Uhr einen Termin bei Herrn Graf. Sie möchten eine Wohnung besichtigen, die er vermietet. Sie können aber nicht kommen. Schreiben Sie Herrn Graf eine Nachricht.",
+          "points": [
+            "Entschuldigen Sie sich.",
+            "Nennen Sie den Grund.",
+            "Schlagen Sie einen neuen Termin vor."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Graf,\n\nleider kann ich morgen um 17 Uhr nicht zur Besichtigung der Wohnung kommen, weil ich kurzfristig eine Dienstreise nach Genf machen muss. Das tut mir sehr leid. Wäre am Donnerstag oder Freitag nach 18 Uhr ein anderer Termin möglich?\n\nMit freundlichen Grüßen\nJosé Romero"
+        },
+        {
+          "task": "Ihre Nachbarin, Frau Lüthi, hat sich bei Ihnen über den Lärm von Ihrer Party am Samstag beschwert. Schreiben Sie ihr eine Nachricht.",
+          "points": [
+            "Entschuldigen Sie sich.",
+            "Erklären Sie die Situation.",
+            "Machen Sie ein Angebot."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Lüthi,\n\nes tut mir sehr leid, dass es am Samstag so laut war. Wir haben den Geburtstag meiner Partnerin gefeiert und leider nicht auf die Uhr geschaut. Das kommt nicht wieder vor. Als kleine Entschuldigung möchte ich Sie gern zu Kaffee und Kuchen einladen. Passt Ihnen Sonntagnachmittag?\n\nFreundliche Grüße\nJosé Romero"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "In Ihrem Haus wohnen viele Menschen, die sich kaum kennen. Sie möchten zusammen mit Ihrem Nachbarn / Ihrer Nachbarin ein Hoffest für alle Bewohner organisieren.",
+          "points": [
+            "Wann? (Tag und Uhrzeit)",
+            "Wo genau?",
+            "Essen und Getränke?",
+            "Wie informieren Sie die anderen Bewohner?"
+          ],
+          "model": [
+            {
+              "v": "f1",
+              "t": "Du, Marco, wir wohnen jetzt schon zwei Jahre hier und kennen kaum jemanden. Wollen wir nicht ein Hoffest organisieren?"
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee! Wann sollen wir das machen? Vielleicht an einem Samstag im Juni?"
+            },
+            {
+              "v": "f1",
+              "t": "Ja, Samstag ist gut. Wie wäre es mit dem 21. Juni? Da sind noch keine Sommerferien."
+            },
+            {
+              "v": "m1",
+              "t": "Einverstanden. Und um welche Uhrzeit? Ich schlage 16 Uhr vor, dann können auch die Familien mit kleinen Kindern kommen."
+            },
+            {
+              "v": "f1",
+              "t": "Perfekt. Aber um 22 Uhr müssen wir fertig sein, dann beginnt die Nachtruhe."
+            },
+            {
+              "v": "m1",
+              "t": "Klar. Machen wir das Fest im Hof oder im Gemeinschaftsraum?"
+            },
+            {
+              "v": "f1",
+              "t": "Im Hof natürlich, da ist mehr Platz. Und wenn es regnet, gehen wir in den Gemeinschaftsraum."
+            },
+            {
+              "v": "m1",
+              "t": "Gut. Und das Essen? Sollen wir alles kaufen?"
+            },
+            {
+              "v": "f1",
+              "t": "Das wird zu teuer. Ich finde, jeder bringt etwas mit, einen Salat oder einen Kuchen. Wir kümmern uns um den Grill und die Getränke."
+            },
+            {
+              "v": "m1",
+              "t": "Super. Und wie informieren wir die Nachbarn? Ich könnte eine Einladung schreiben und im Treppenhaus aufhängen."
+            },
+            {
+              "v": "f1",
+              "t": "Ja, und zusätzlich legen wir in jeden Briefkasten einen Zettel. So wird niemand vergessen."
+            },
+            {
+              "v": "m1",
+              "t": "Prima. Dann schreibe ich heute Abend die Einladung, und du fragst die Hausverwaltung, ob wir den Grill benutzen dürfen."
+            }
+          ]
+        },
+        {
+          "task": "Ein gemeinsamer Freund, Daniel, zieht Ende Mai um und hat Sie beide um Hilfe gebeten. Planen Sie zusammen, wie Sie ihm helfen.",
+          "points": [
+            "Wann?",
+            "Transport (Auto, Firma …)?",
+            "Wer hilft noch?",
+            "Essen und Getränke?"
+          ],
+          "model": [
+            {
+              "v": "m2",
+              "t": "Hast du gehört? Daniel zieht Ende Mai um und braucht unsere Hilfe."
+            },
+            {
+              "v": "f2",
+              "t": "Ja, er hat mich auch gefragt. Wann genau zieht er denn um?"
+            },
+            {
+              "v": "m2",
+              "t": "Er muss die alte Wohnung bis zum 31. Mai abgeben. Ich schlage Samstag, den 24., vor. Dann hat er noch eine Woche für die Endreinigung."
+            },
+            {
+              "v": "f2",
+              "t": "Gute Idee. Und wie transportieren wir die Möbel? Mit unseren Autos geht das nicht."
+            },
+            {
+              "v": "m2",
+              "t": "Wir könnten einen Transporter mieten. Das kostet ungefähr 150 Franken pro Tag."
+            },
+            {
+              "v": "f2",
+              "t": "Hm, oder wir fragen eine Umzugsfirma. Dann werden die schweren Sachen von Profis getragen."
+            },
+            {
+              "v": "m2",
+              "t": "Das ist aber viel teurer, und Daniel hat nicht so viel Geld. Ich finde, ein Transporter reicht."
+            },
+            {
+              "v": "f2",
+              "t": "Na gut, einverstanden. Aber dann brauchen wir mehr Leute. Zu zweit schaffen wir das nicht."
+            },
+            {
+              "v": "m2",
+              "t": "Ich frage meinen Bruder und zwei Kollegen. Die helfen bestimmt."
+            },
+            {
+              "v": "f2",
+              "t": "Prima. Und ich kümmere mich um das Essen. Ich mache Sandwiches, und am Abend bestellen wir Pizza."
+            },
+            {
+              "v": "m2",
+              "t": "Und die Getränke bringe ich mit: Wasser, Kaffee und am Ende ein paar Bier."
+            },
+            {
+              "v": "f2",
+              "t": "Super. Dann sagen wir Daniel heute noch Bescheid."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Wohnen in der Stadt oder auf dem Land?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Ich möchte heute über das Thema „Wohnen in der Stadt oder auf dem Land“ sprechen. Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich über die Situation in Spanien. Danach nenne ich Vor- und Nachteile und sage meine Meinung. Am Ende gibt es eine kurze Zusammenfassung."
+            },
+            {
+              "v": "m1",
+              "t": "Ich komme aus Córdoba, das ist eine mittelgroße Stadt in Andalusien. Als Kind verbrachte ich aber jeden Sommer bei meinen Großeltern in einem kleinen Dorf. Heute wohne ich mit meiner Partnerin in Zürich, in einem Altbau im Kreis 4."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien wohnen die meisten Menschen in Städten, oft in Wohnungen, die sie gekauft haben. Viele Dörfer, vor allem im Landesinneren, werden immer leerer, weil die jungen Leute dort keine Arbeit finden."
+            },
+            {
+              "v": "m1",
+              "t": "Die Stadt hat viele Vorteile: Man braucht kein Auto, und es gibt Arbeit, Kultur und Restaurants. Ein Nachteil ist, dass die Mieten sehr hoch sind und es oft laut ist. Auf dem Land ist es ruhiger und günstiger, aber man ist oft lange unterwegs. Für mich ist die Stadt im Moment die bessere Wahl, weil ich mit dem Velo zur Arbeit fahren kann."
+            },
+            {
+              "v": "m1",
+              "t": "Zusammenfassend kann man sagen: Beide haben Vor- und Nachteile, und die richtige Entscheidung hängt von der Lebenssituation ab. Vielen Dank für Ihre Aufmerksamkeit. Haben Sie noch Fragen?"
+            }
+          ],
+          "question": "Sie sagen, dass die Stadt im Moment besser für Sie ist. Möchten Sie später einmal auf dem Land wohnen?",
+          "answer": "Vielleicht, wenn wir Kinder haben. Dann ist ein Haus mit Garten natürlich schön. Aber das Dorf muss eine gute Zugverbindung nach Zürich haben, weil ich nicht jeden Tag Auto fahren möchte."
+        },
+        {
+          "title": "Wohngemeinschaft – auch für Erwachsene eine gute Idee?",
+          "model": [
+            {
+              "v": "f2",
+              "t": "In meiner Präsentation geht es um das Thema „Wohngemeinschaften für Erwachsene“. Ich spreche zuerst über meine eigenen Erfahrungen und dann über die Situation in Spanien. Danach zeige ich Vor- und Nachteile und sage meine Meinung. Zum Schluss fasse ich alles kurz zusammen."
+            },
+            {
+              "v": "f2",
+              "t": "Während meines Studiums in Granada wohnte ich vier Jahre in einer WG mit drei anderen Studentinnen. Wir kochten oft zusammen, und ich habe dort Freundinnen gefunden, die ich bis heute habe. Natürlich gab es auch Streit, meistens wegen der Küche."
+            },
+            {
+              "v": "f2",
+              "t": "In Spanien wohnen viele junge Leute lange bei ihren Eltern, weil die Mieten im Vergleich zu den Gehältern sehr hoch sind. WGs gibt es vor allem für Studenten. Bei Erwachsenen über 35 ist das eher selten. In der Schweiz ist das anders: Hier wohnen auch viele Berufstätige in einer WG."
+            },
+            {
+              "v": "f2",
+              "t": "Ein großer Vorteil einer WG ist, dass man Geld spart und nicht allein ist. Ein Nachteil ist, dass man wenig Privatsphäre hat und viel diskutieren muss, zum Beispiel über das Putzen. Ich finde, eine WG ist auch für Erwachsene eine gute Lösung, wenn die Mitbewohner gut zusammenpassen und es klare Regeln gibt."
+            },
+            {
+              "v": "f2",
+              "t": "Das war meine Präsentation. Zusammengefasst: Eine WG ist nicht nur etwas für Studenten. Ich hoffe, das Thema war interessant für Sie. Vielen Dank fürs Zuhören!"
+            }
+          ],
+          "question": "Können Sie sich vorstellen, heute wieder in einer WG zu wohnen?",
+          "answer": "Eher nicht, weil ich jetzt mit meinem Partner zusammenwohne. Aber ich finde Mehrgenerationenhäuser sehr interessant. Dort wohnen junge und alte Menschen zusammen und helfen sich gegenseitig."
+        }
+      ]
+    }
+  }
+}

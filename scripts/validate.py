@@ -24,7 +24,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 VOICES = {"f1", "f2", "m1", "m2", "ch-f", "ch-m", "at-f", "at-m"}
 # Tareas largas (un texto o audio con varias preguntas): basta con un ítem de reserva.
-BIG_KINDS = {"read_mc", "read_match", "listen_match", "listen_yn", "speak_topic", "speak_plan", "write_free", "form", "read_tf", "speak_intro"}
+BIG_KINDS = {"read_mc", "read_match", "listen_match", "listen_yn", "speak_topic", "speak_plan", "write_free", "form", "read_tf", "speak_intro",
+             "read_yn", "listen_mc_multi", "speak_points", "speak_present"}
 EX_TYPES = {"mc", "listen", "match", "gap", "order", "dictation", "write"}
 
 errors: list[str] = []
@@ -208,6 +209,34 @@ def check_topic(lvl, tid, fmt):
                     check_audio(I, it.get("model"))
                     if len(it.get("prompts", [])) != 4 or not it.get("question"):
                         err(I, "speak_topic necesita question y 4 prompts")
+                elif kind == "read_yn":
+                    if not it.get("question") or len(it.get("comments", [])) < 5:
+                        err(I, "read_yn necesita question y al menos 5 comments")
+                    for c in it.get("comments", []):
+                        if not c.get("name") or not c.get("text") or not isinstance(c.get("answer"), bool):
+                            err(I, f"comentario incompleto: {c.get('name')!r}")
+                    if all(c.get("answer") for c in it.get("comments", [])) or not any(c.get("answer") for c in it.get("comments", [])):
+                        warn(I, "todas las respuestas de read_yn son iguales")
+                elif kind == "listen_pair":
+                    check_audio(I, it.get("audio"))
+                    if not it.get("statement") or not isinstance(it.get("tf"), bool):
+                        err(I, "listen_pair necesita statement y tf true/false")
+                    check_mc(I, it)
+                elif kind == "listen_mc_multi":
+                    check_audio(I, it.get("audio"))
+                    if not it.get("questions"):
+                        err(I, "listen_mc_multi necesita questions")
+                    for qi, qq in enumerate(it.get("questions", [])):
+                        check_mc(f"{I}.q{qi}", qq)
+                elif kind == "speak_points":
+                    check_audio(I, it.get("model"))
+                    if not it.get("task") or len(it.get("points", [])) < 3:
+                        err(I, "speak_points necesita task y al menos 3 points")
+                elif kind == "speak_present":
+                    check_audio(I, it.get("model"))
+                    for k in ("title", "question", "answer"):
+                        if not it.get(k):
+                            err(I, f"speak_present: falta {k}")
                 elif kind == "speak_plan":
                     check_audio(I, it.get("model"))
                     if not it.get("mine") or not it.get("partner") or not it.get("task"):
@@ -234,7 +263,19 @@ def wordlist_coverage(lvl, topics):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--strict", action="store_true")
+    ap.add_argument("--only", help="valida solo estos temas aunque no estén «ready», p. ej. b1/t01,b1/t02 (no regenera el bundle)")
     args = ap.parse_args()
+    if args.only:
+        cur = json.loads((CONTENT / "curriculum.json").read_text(encoding="utf-8"))
+        for spec in args.only.split(","):
+            lvl, tid = spec.strip().split("/")
+            check_topic(lvl, tid, cur["examFormats"].get(lvl, {}))
+        for w in warnings:
+            print(w)
+        for e in errors:
+            print(e)
+        print("Errores:", len(errors), "· Avisos:", len(warnings))
+        sys.exit(1 if errors else 0)
     cur = json.loads((CONTENT / "curriculum.json").read_text(encoding="utf-8"))
     n = 0
     for lvl in cur["levels"]:

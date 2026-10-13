@@ -1,0 +1,2217 @@
+{
+  "id": "b1-t11",
+  "level": "b1",
+  "topic": "t11",
+  "title": "Cultura y ocio",
+  "title_de": "Kultur und Freizeit",
+  "goals": [
+    "Hablar de teatro, conciertos, museos, festivales, libros y aficiones con detalle",
+    "Dar tu opinión sobre una película, una exposición o un libro y recomendarlos",
+    "Unir ideas con oraciones de relativo con preposición (der Freund, mit dem…; die Stadt, in der…)",
+    "Entender y usar el adjetivo en genitivo (der Regisseur des neuen Films)",
+    "Planificar una salida con otra persona: proponer, reaccionar y llegar a un acuerdo (Sprechen Teil 1)",
+    "Entender programas culturales, anuncios de cursos y visitas guiadas (Lesen Teil 3, Hören Teil 2)"
+  ],
+  "vocab": [
+    {
+      "de": "die Aufführung",
+      "pl": "die Aufführungen",
+      "es": "la representación, la función",
+      "cat": "Teatro y música",
+      "ex": "Die Aufführung beginnt um 19.30 Uhr.",
+      "ex_es": "La función empieza a las 19:30."
+    },
+    {
+      "de": "die Vorstellung",
+      "pl": "die Vorstellungen",
+      "es": "la sesión, la función",
+      "cat": "Teatro y música",
+      "ex": "Für die Vorstellung am Freitag gibt es noch Karten.",
+      "ex_es": "Para la sesión del viernes todavía hay entradas."
+    },
+    {
+      "de": "das Publikum",
+      "es": "el público",
+      "cat": "Teatro y música",
+      "ex": "Das Publikum war begeistert.",
+      "ex_es": "El público estaba entusiasmado."
+    },
+    {
+      "de": "die Bühne",
+      "pl": "die Bühnen",
+      "es": "el escenario",
+      "cat": "Teatro y música",
+      "ex": "Die Band stand zwei Stunden auf der Bühne.",
+      "ex_es": "El grupo estuvo dos horas en el escenario."
+    },
+    {
+      "de": "der Schauspieler / die Schauspielerin",
+      "pl": "die Schauspieler / die Schauspielerinnen",
+      "es": "el actor / la actriz",
+      "cat": "Teatro y música",
+      "ex": "Die Schauspielerin hat einen Preis gewonnen.",
+      "ex_es": "La actriz ha ganado un premio."
+    },
+    {
+      "de": "der Regisseur / die Regisseurin",
+      "pl": "die Regisseure / die Regisseurinnen",
+      "es": "el director / la directora (de cine o teatro)",
+      "cat": "Teatro y música",
+      "ex": "Der Regisseur des Films kommt aus Basel.",
+      "ex_es": "El director de la película es de Basilea."
+    },
+    {
+      "de": "der Chor",
+      "pl": "die Chöre",
+      "es": "el coro",
+      "cat": "Teatro y música",
+      "ex": "Andrea singt in einem Chor.",
+      "ex_es": "Andrea canta en un coro."
+    },
+    {
+      "de": "das Orchester",
+      "pl": "die Orchester",
+      "es": "la orquesta",
+      "cat": "Teatro y música",
+      "ex": "Das Orchester spielt heute Mozart.",
+      "ex_es": "La orquesta toca hoy Mozart."
+    },
+    {
+      "de": "die Oper",
+      "pl": "die Opern",
+      "es": "la ópera",
+      "cat": "Teatro y música",
+      "ex": "Wart ihr schon mal in der Oper?",
+      "ex_es": "¿Habéis estado alguna vez en la ópera?"
+    },
+    {
+      "de": "das Instrument",
+      "pl": "die Instrumente",
+      "es": "el instrumento",
+      "cat": "Teatro y música",
+      "ex": "Spielst du ein Instrument?",
+      "ex_es": "¿Tocas algún instrumento?"
+    },
+    {
+      "de": "der Saal",
+      "pl": "die Säle",
+      "es": "la sala",
+      "cat": "Teatro y música",
+      "ex": "Der Saal war bis zum letzten Platz besetzt.",
+      "ex_es": "La sala estaba llena hasta el último asiento."
+    },
+    {
+      "de": "applaudieren",
+      "es": "aplaudir",
+      "cat": "Teatro y música",
+      "forms": "er applaudiert, applaudierte, hat applaudiert",
+      "ex": "Am Ende haben alle laut applaudiert.",
+      "ex_es": "Al final todos aplaudieron fuerte."
+    },
+    {
+      "de": "die Kunst",
+      "pl": "die Künste",
+      "es": "el arte",
+      "cat": "Arte y literatura",
+      "ex": "Ich interessiere mich für moderne Kunst.",
+      "ex_es": "Me interesa el arte moderno."
+    },
+    {
+      "de": "der Künstler / die Künstlerin",
+      "pl": "die Künstler / die Künstlerinnen",
+      "es": "el / la artista",
+      "cat": "Arte y literatura",
+      "ex": "Die Künstlerin malt vor allem Landschaften.",
+      "ex_es": "La artista pinta sobre todo paisajes."
+    },
+    {
+      "de": "das Gemälde",
+      "pl": "die Gemälde",
+      "es": "el cuadro, la pintura",
+      "cat": "Arte y literatura",
+      "ex": "Das Gemälde ist über 300 Jahre alt.",
+      "ex_es": "El cuadro tiene más de 300 años."
+    },
+    {
+      "de": "die Sammlung",
+      "pl": "die Sammlungen",
+      "es": "la colección",
+      "cat": "Arte y literatura",
+      "ex": "Das Kunsthaus hat eine große Sammlung von Bildern.",
+      "ex_es": "El Kunsthaus tiene una gran colección de cuadros."
+    },
+    {
+      "de": "die Führung",
+      "pl": "die Führungen",
+      "es": "la visita guiada",
+      "cat": "Arte y literatura",
+      "ex": "Die Führung dauert etwa eine Stunde.",
+      "ex_es": "La visita guiada dura una hora aproximadamente."
+    },
+    {
+      "de": "der Roman",
+      "pl": "die Romane",
+      "es": "la novela",
+      "cat": "Arte y literatura",
+      "ex": "Ich lese gerade einen Roman von Martin Suter.",
+      "ex_es": "Estoy leyendo una novela de Martin Suter."
+    },
+    {
+      "de": "der Autor / die Autorin",
+      "pl": "die Autoren / die Autorinnen",
+      "es": "el autor / la autora",
+      "cat": "Arte y literatura",
+      "ex": "Die Autorin liest heute aus ihrem neuen Buch.",
+      "ex_es": "La autora lee hoy fragmentos de su nuevo libro."
+    },
+    {
+      "de": "die Lesung",
+      "pl": "die Lesungen",
+      "es": "la lectura pública (de un autor)",
+      "cat": "Arte y literatura",
+      "ex": "Nach der Lesung kann man Fragen stellen.",
+      "ex_es": "Después de la lectura se pueden hacer preguntas."
+    },
+    {
+      "de": "die Handlung",
+      "pl": "die Handlungen",
+      "es": "el argumento, la trama",
+      "cat": "Arte y literatura",
+      "ex": "Die Handlung des Films war ziemlich kompliziert.",
+      "ex_es": "La trama de la película era bastante complicada."
+    },
+    {
+      "de": "die Kritik",
+      "pl": "die Kritiken",
+      "es": "la crítica (reseña)",
+      "cat": "Arte y literatura",
+      "ex": "Der Film hat sehr gute Kritiken bekommen.",
+      "ex_es": "La película ha recibido muy buenas críticas."
+    },
+    {
+      "de": "berühmt",
+      "es": "famoso",
+      "cat": "Opinar",
+      "ex": "Die Sängerin ist in der ganzen Schweiz berühmt.",
+      "ex_es": "La cantante es famosa en toda Suiza."
+    },
+    {
+      "de": "sehenswert",
+      "es": "que merece la pena ver",
+      "cat": "Opinar",
+      "ex": "Die neue Ausstellung ist wirklich sehenswert.",
+      "ex_es": "La nueva exposición merece mucho la pena."
+    },
+    {
+      "de": "beeindrucken",
+      "es": "impresionar",
+      "cat": "Opinar",
+      "forms": "es beeindruckt, beeindruckte, hat beeindruckt",
+      "ex": "Die Musik hat mich sehr beeindruckt.",
+      "ex_es": "La música me impresionó mucho."
+    },
+    {
+      "de": "begeistert (von)",
+      "es": "entusiasmado (con)",
+      "cat": "Opinar",
+      "ex": "Wir waren von dem Konzert begeistert.",
+      "ex_es": "Estábamos entusiasmados con el concierto."
+    },
+    {
+      "de": "empfehlen",
+      "es": "recomendar",
+      "cat": "Opinar",
+      "forms": "er empfiehlt, empfahl, hat empfohlen",
+      "ex": "Kannst du mir ein gutes Buch empfehlen?",
+      "ex_es": "¿Me puedes recomendar un buen libro?"
+    },
+    {
+      "de": "die Veranstaltung",
+      "pl": "die Veranstaltungen",
+      "es": "el evento, el acto",
+      "cat": "Eventos",
+      "ex": "Die Veranstaltung findet im Freien statt.",
+      "ex_es": "El evento se celebra al aire libre."
+    },
+    {
+      "de": "stattfinden",
+      "es": "celebrarse, tener lugar",
+      "cat": "Eventos",
+      "forms": "es findet statt, fand statt, hat stattgefunden",
+      "ex": "Das Festival findet jedes Jahr im August statt.",
+      "ex_es": "El festival se celebra todos los años en agosto."
+    },
+    {
+      "de": "das Festival",
+      "pl": "die Festivals",
+      "es": "el festival",
+      "cat": "Eventos",
+      "ex": "Im Sommer gibt es am See ein großes Festival.",
+      "ex_es": "En verano hay un gran festival junto al lago."
+    },
+    {
+      "de": "der Besucher / die Besucherin",
+      "pl": "die Besucher / die Besucherinnen",
+      "es": "el / la visitante",
+      "cat": "Eventos",
+      "ex": "Das Museum hatte letztes Jahr 300 000 Besucher.",
+      "ex_es": "El museo tuvo el año pasado 300 000 visitantes."
+    },
+    {
+      "de": "ermäßigt",
+      "es": "con descuento, reducido",
+      "cat": "Eventos",
+      "ex": "Für Studierende ist der Eintritt ermäßigt.",
+      "ex_es": "Para estudiantes la entrada tiene descuento."
+    },
+    {
+      "de": "reservieren",
+      "es": "reservar",
+      "cat": "Eventos",
+      "forms": "er reserviert, reservierte, hat reserviert",
+      "ex": "Ich habe zwei Plätze in der dritten Reihe reserviert.",
+      "ex_es": "He reservado dos asientos en la tercera fila."
+    },
+    {
+      "de": "die Reihe",
+      "pl": "die Reihen",
+      "es": "la fila",
+      "cat": "Eventos",
+      "ex": "Wir sitzen in der ersten Reihe.",
+      "ex_es": "Nos sentamos en la primera fila."
+    },
+    {
+      "de": "das Abonnement (das Abo)",
+      "pl": "die Abonnements",
+      "es": "el abono, la suscripción",
+      "cat": "Eventos",
+      "ex": "Mit dem Abo kann ich sechs Konzerte besuchen.",
+      "ex_es": "Con el abono puedo ir a seis conciertos."
+    },
+    {
+      "de": "die Tradition",
+      "pl": "die Traditionen",
+      "es": "la tradición",
+      "cat": "Eventos",
+      "ex": "Die Fasnacht in Basel hat eine lange Tradition.",
+      "ex_es": "El carnaval de Basilea tiene una larga tradición."
+    },
+    {
+      "de": "das Brettspiel",
+      "pl": "die Brettspiele",
+      "es": "el juego de mesa",
+      "cat": "Ocio",
+      "ex": "Am Sonntag spielen wir oft ein Brettspiel.",
+      "ex_es": "Los domingos jugamos a menudo a un juego de mesa."
+    },
+    {
+      "de": "der Wettbewerb",
+      "pl": "die Wettbewerbe",
+      "es": "el concurso, la competición",
+      "cat": "Ocio",
+      "ex": "Er hat beim Fotowettbewerb den ersten Preis gewonnen.",
+      "ex_es": "Ganó el primer premio en el concurso de fotografía."
+    },
+    {
+      "de": "gewinnen",
+      "es": "ganar",
+      "cat": "Ocio",
+      "forms": "er gewinnt, gewann, hat gewonnen",
+      "ex": "Unser Team hat das Quiz gewonnen.",
+      "ex_es": "Nuestro equipo ganó el concurso de preguntas."
+    },
+    {
+      "de": "basteln",
+      "es": "hacer manualidades",
+      "cat": "Ocio",
+      "forms": "er bastelt, bastelte, hat gebastelt",
+      "ex": "Mit den Kindern basteln wir Laternen.",
+      "ex_es": "Con los niños hacemos farolillos."
+    },
+    {
+      "de": "sammeln",
+      "es": "coleccionar, recoger",
+      "cat": "Ocio",
+      "forms": "er sammelt, sammelte, hat gesammelt",
+      "ex": "Mein Onkel sammelt alte Schallplatten.",
+      "ex_es": "Mi tío colecciona discos de vinilo antiguos."
+    },
+    {
+      "de": "die Unterhaltung",
+      "pl": "die Unterhaltungen",
+      "es": "el entretenimiento; la conversación",
+      "cat": "Ocio",
+      "ex": "Die Show war gute Unterhaltung für die ganze Familie.",
+      "ex_es": "El espectáculo fue un buen entretenimiento para toda la familia."
+    },
+    {
+      "de": "ehrenamtlich",
+      "es": "voluntario, sin cobrar",
+      "cat": "Ocio",
+      "ex": "Sie arbeitet ehrenamtlich in einer Bibliothek.",
+      "ex_es": "Trabaja como voluntaria en una biblioteca."
+    },
+    {
+      "de": "sich engagieren (für)",
+      "es": "comprometerse (con), colaborar (en)",
+      "cat": "Ocio",
+      "forms": "er engagiert sich, engagierte sich, hat sich engagiert",
+      "ex": "Viele Menschen engagieren sich in einem Verein.",
+      "ex_es": "Mucha gente colabora en una asociación."
+    },
+    {
+      "de": "der Vorschlag",
+      "pl": "die Vorschläge",
+      "es": "la propuesta",
+      "cat": "Planificar",
+      "ex": "Hast du einen besseren Vorschlag?",
+      "ex_es": "¿Tienes una propuesta mejor?"
+    },
+    {
+      "de": "vorschlagen",
+      "es": "proponer",
+      "cat": "Planificar",
+      "forms": "er schlägt vor, schlug vor, hat vorgeschlagen",
+      "ex": "Ich schlage vor, dass wir den Zug nehmen.",
+      "ex_es": "Propongo que cojamos el tren."
+    },
+    {
+      "de": "einverstanden",
+      "es": "de acuerdo",
+      "cat": "Planificar",
+      "ex": "Bist du damit einverstanden?",
+      "ex_es": "¿Estás de acuerdo con eso?"
+    },
+    {
+      "de": "übernehmen",
+      "es": "encargarse de, asumir",
+      "cat": "Planificar",
+      "forms": "er übernimmt, übernahm, hat übernommen",
+      "ex": "Ich übernehme die Getränke.",
+      "ex_es": "Yo me encargo de las bebidas."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Cultura y ocio",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "die Aufführung",
+          "la representación"
+        ],
+        [
+          "das Publikum",
+          "el público"
+        ],
+        [
+          "die Bühne",
+          "el escenario"
+        ],
+        [
+          "das Gemälde",
+          "el cuadro"
+        ],
+        [
+          "die Führung",
+          "la visita guiada"
+        ],
+        [
+          "die Handlung",
+          "la trama"
+        ],
+        [
+          "ermäßigt",
+          "con descuento"
+        ],
+        [
+          "stattfinden",
+          "celebrarse"
+        ],
+        [
+          "sehenswert",
+          "que merece la pena ver"
+        ],
+        [
+          "der Vorschlag",
+          "la propuesta"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "Relativo con preposición",
+      "instructions": "Elige la forma correcta. Piensa: ¿qué caso pide la preposición? ¿Qué género tiene la palabra?",
+      "items": [
+        {
+          "q": "Das ist der Kollege, mit ___ ich im Chor singe.",
+          "options": [
+            "den",
+            "dem",
+            "der"
+          ],
+          "answer": 1,
+          "explain": "mit + dativo; der Kollege es masculino → dem."
+        },
+        {
+          "q": "Zürich ist die Stadt, in ___ ich seit zwei Jahren wohne.",
+          "options": [
+            "der",
+            "die",
+            "dem"
+          ],
+          "answer": 0,
+          "explain": "in (¿dónde?) + dativo; die Stadt es femenino → der."
+        },
+        {
+          "q": "Das sind die Freunde, mit ___ ich wandern gehe.",
+          "options": [
+            "den",
+            "die",
+            "denen"
+          ],
+          "answer": 2,
+          "explain": "mit + dativo plural → denen."
+        },
+        {
+          "q": "Der Film, über ___ alle sprechen, läuft jetzt im Kino.",
+          "options": [
+            "dem",
+            "den",
+            "der"
+          ],
+          "answer": 1,
+          "explain": "sprechen über + acusativo; der Film → den."
+        },
+        {
+          "q": "Das Buch, auf ___ ich so lange gewartet habe, ist endlich da.",
+          "options": [
+            "das",
+            "dem",
+            "die"
+          ],
+          "answer": 0,
+          "explain": "warten auf + acusativo; das Buch → das."
+        },
+        {
+          "q": "Die Künstlerin, von ___ ich dir erzählt habe, stellt jetzt im Kunsthaus aus.",
+          "options": [
+            "die",
+            "der",
+            "dem"
+          ],
+          "answer": 1,
+          "explain": "von + dativo; die Künstlerin → der."
+        },
+        {
+          "q": "Der Kurs, für ___ ich mich angemeldet habe, beginnt im Mai.",
+          "options": [
+            "dem",
+            "der",
+            "den"
+          ],
+          "answer": 2,
+          "explain": "sich anmelden für + acusativo; der Kurs → den."
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Completa el relativo",
+      "instructions": "Escribe el pronombre relativo (dem, den, der, die, das, denen).",
+      "items": [
+        {
+          "text": "Das ist das Theater, in [[dem]] wir „Wilhelm Tell“ gesehen haben."
+        },
+        {
+          "text": "Die Band, für [[die]] sich mein Bruder interessiert, spielt am Samstag in Bern."
+        },
+        {
+          "text": "Die Nachbarn, mit [[denen]] wir Brettspiele spielen, kommen aus Wien."
+        },
+        {
+          "text": "Der Regisseur, mit [[dem]] Andrea gesprochen hat, war sehr nett."
+        },
+        {
+          "text": "Das Festival, über [[das]] die Zeitung berichtet hat, war ein großer Erfolg."
+        },
+        {
+          "text": "Die Ausstellung, auf [[die]] ich mich so gefreut habe, ist leider schon vorbei."
+        },
+        {
+          "text": "Der Verein, in [[dem]] José Volleyball spielt, sucht neue Mitglieder."
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena las palabras. La preposición va delante del relativo y el verbo, al final.",
+      "items": [
+        {
+          "words": [
+            "Das",
+            "ist",
+            "die",
+            "Freundin",
+            ",",
+            "mit",
+            "der",
+            "ich",
+            "ins",
+            "Kino",
+            "gehe",
+            "."
+          ],
+          "answers": [
+            "Das ist die Freundin, mit der ich ins Kino gehe."
+          ]
+        },
+        {
+          "words": [
+            "Wie",
+            "heißt",
+            "das",
+            "Museum",
+            ",",
+            "in",
+            "dem",
+            "du",
+            "warst",
+            "?"
+          ],
+          "answers": [
+            "Wie heißt das Museum, in dem du warst?"
+          ]
+        },
+        {
+          "words": [
+            "Der",
+            "Roman",
+            ",",
+            "von",
+            "dem",
+            "alle",
+            "sprechen",
+            ",",
+            "ist",
+            "sehr",
+            "spannend",
+            "."
+          ],
+          "answers": [
+            "Der Roman, von dem alle sprechen, ist sehr spannend."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "kenne",
+            "die",
+            "Leute",
+            ",",
+            "mit",
+            "denen",
+            "du",
+            "Theater",
+            "spielst",
+            "."
+          ],
+          "answers": [
+            "Ich kenne die Leute, mit denen du Theater spielst."
+          ]
+        },
+        {
+          "words": [
+            "Das",
+            "ist",
+            "etwas",
+            ",",
+            "worüber",
+            "ich",
+            "mich",
+            "sehr",
+            "freue",
+            "."
+          ],
+          "answers": [
+            "Das ist etwas, worüber ich mich sehr freue."
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "Stadt",
+            ",",
+            "in",
+            "der",
+            "das",
+            "Festival",
+            "stattfindet",
+            ",",
+            "ist",
+            "klein",
+            "."
+          ],
+          "answers": [
+            "Die Stadt, in der das Festival stattfindet, ist klein."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "write",
+      "title": "Une las dos frases",
+      "instructions": "Une las dos frases con un relativo con preposición. La segunda frase se convierte en la oración de relativo.",
+      "items": [
+        {
+          "prompt": "Das ist mein Freund Marco. Ich gehe mit ihm ins Konzert.",
+          "answers": [
+            "Das ist mein Freund Marco, mit dem ich ins Konzert gehe."
+          ]
+        },
+        {
+          "prompt": "Das ist die Bibliothek. Ich arbeite in der Bibliothek ehrenamtlich.",
+          "answers": [
+            "Das ist die Bibliothek, in der ich ehrenamtlich arbeite."
+          ]
+        },
+        {
+          "prompt": "Wie heißt der Film? Du hast von dem Film erzählt.",
+          "answers": [
+            "Wie heißt der Film, von dem du erzählt hast?"
+          ]
+        },
+        {
+          "prompt": "Das sind meine Kolleginnen. Ich mache mit ihnen einen Töpferkurs.",
+          "answers": [
+            "Das sind meine Kolleginnen, mit denen ich einen Töpferkurs mache."
+          ]
+        },
+        {
+          "prompt": "Das Konzert war super. Wir haben lange auf das Konzert gewartet.",
+          "answers": [
+            "Das Konzert, auf das wir lange gewartet haben, war super."
+          ]
+        },
+        {
+          "prompt": "Die Malerin kommt aus Luzern. Ich interessiere mich für die Malerin.",
+          "answers": [
+            "Die Malerin, für die ich mich interessiere, kommt aus Luzern."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "mc",
+      "title": "Adjetivo en genitivo",
+      "instructions": "Elige la forma correcta en genitivo.",
+      "items": [
+        {
+          "q": "Der Regisseur ___ kommt aus Basel.",
+          "options": [
+            "des neuen Films",
+            "des neue Films",
+            "dem neuen Film"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Die Bilder ___ hängen im ersten Stock.",
+          "options": [
+            "die junge Künstlerin",
+            "der jungen Künstlerin",
+            "der junge Künstlerin"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Trotz ___ kamen 5000 Besucher.",
+          "options": [
+            "des schlechte Wetters",
+            "dem schlechten Wetter",
+            "des schlechten Wetters"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Das Ende ___ war eine Überraschung.",
+          "options": [
+            "des spannenden Romans",
+            "des spannenden Roman",
+            "der spannenden Romans"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Die Preise ___ sind sehr hoch.",
+          "options": [
+            "der alten Gemälden",
+            "der alten Gemälde",
+            "die alten Gemälde"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Während ___ durfte man nicht fotografieren.",
+          "options": [
+            "der lange Vorstellung",
+            "die lange Vorstellung",
+            "der langen Vorstellung"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Der Titel ___ ist auf Spanisch.",
+          "options": [
+            "meines neuen Buches",
+            "meines neues Buches",
+            "meinem neuen Buch"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "gap",
+      "title": "Terminaciones de genitivo",
+      "instructions": "Completa las terminaciones del artículo, del adjetivo y del sustantivo.",
+      "note": "En genitivo, el adjetivo detrás de artículo termina siempre en -en. Masculino y neutro: el sustantivo añade -s / -es.",
+      "items": [
+        {
+          "text": "Die Musik de[[s]] neu[[en]] Musical[[s]] ist fantastisch."
+        },
+        {
+          "text": "Das ist das Haus ein[[es]] berühmt[[en]] Autor[[s]]."
+        },
+        {
+          "text": "Die Lieder de[[r]] bekannt[[en]] Sängerin kennt jeder."
+        },
+        {
+          "text": "Wegen de[[s]] stark[[en]] Regen[[s]] fand das Konzert im Saal statt."
+        },
+        {
+          "text": "Am Ende de[[r]] lang[[en]] Führung waren alle müde."
+        },
+        {
+          "text": "Die Fotos unser[[er]] letzt[[en]] Reise sind im Album."
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "Planes culturales",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Gehen wir am Freitag ins Theater?"
+            },
+            {
+              "v": "m1",
+              "t": "Am Freitag kann ich leider nicht, da habe ich Chorprobe. Wie wäre es mit Samstag?"
+            },
+            {
+              "v": "f1",
+              "t": "Samstag ist super. Ich reserviere die Karten."
+            }
+          ],
+          "q": "¿Por qué no puede ir él el viernes?",
+          "options": [
+            "Tiene que trabajar.",
+            "Tiene ensayo con el coro.",
+            "No le gusta el teatro."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Wie war die Ausstellung?"
+            },
+            {
+              "v": "f2",
+              "t": "Die Bilder waren toll, aber die Führung war viel zu lang. Nach zwei Stunden konnte ich nicht mehr stehen."
+            }
+          ],
+          "q": "¿Qué no le gustó de la exposición?",
+          "options": [
+            "Los cuadros",
+            "El precio",
+            "La duración de la visita guiada"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Der Eintritt kostet zwanzig Franken. Für Studierende und Personen mit AHV-Ausweis ist er ermäßigt: zwölf Franken. Kinder unter sechzehn haben freien Eintritt."
+            }
+          ],
+          "q": "¿Cuánto paga un estudiante?",
+          "options": [
+            "12 francos",
+            "16 francos",
+            "20 francos"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Kennst du das Buch, über das gerade alle reden?"
+            },
+            {
+              "v": "f1",
+              "t": "Ja, ich habe es letzte Woche gelesen. Die Handlung ist spannend, aber das Ende hat mir nicht gefallen."
+            }
+          ],
+          "q": "¿Qué opina ella del libro?",
+          "options": [
+            "Todo le gustó.",
+            "La trama es aburrida.",
+            "No le gustó el final."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Das Open-Air-Konzert findet trotz des schlechten Wetters statt. Bitte nehmen Sie eine Regenjacke mit, Schirme sind auf dem Gelände nicht erlaubt."
+            }
+          ],
+          "q": "¿Qué pasa con el concierto?",
+          "options": [
+            "Se suspende.",
+            "Se celebra igualmente.",
+            "Se traslada a una sala."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Was machst du eigentlich in deiner Freizeit?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich engagiere mich ehrenamtlich in einem Sportverein. Ich trainiere jeden Mittwoch eine Kindermannschaft."
+            }
+          ],
+          "q": "¿Qué hace él en su tiempo libre?",
+          "options": [
+            "Entrena gratis a un equipo infantil.",
+            "Juega en un equipo de fútbol.",
+            "Trabaja en un gimnasio."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Das ist der Freund, mit dem ich ins Konzert gehe."
+            }
+          ],
+          "answers": [
+            "Das ist der Freund, mit dem ich ins Konzert gehe."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Die Aufführung hat mich sehr beeindruckt."
+            }
+          ],
+          "answers": [
+            "Die Aufführung hat mich sehr beeindruckt."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Das Festival findet jedes Jahr im August statt."
+            }
+          ],
+          "answers": [
+            "Das Festival findet jedes Jahr im August statt."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Der Regisseur des neuen Films kommt aus Basel."
+            }
+          ],
+          "answers": [
+            "Der Regisseur des neuen Films kommt aus Basel."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Wie wäre es, wenn wir ins Museum gehen?"
+            }
+          ],
+          "answers": [
+            "Wie wäre es, wenn wir ins Museum gehen?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "title": "Planificar juntos (Sprechen Teil 1)",
+      "instructions": "Elige la reacción más adecuada.",
+      "items": [
+        {
+          "q": "„Wie wäre es, wenn wir am Sonntag wandern gehen?“ – Quieres rechazar con un motivo.",
+          "options": [
+            "Nein.",
+            "Keine schlechte Idee, aber am Sonntag soll es regnen.",
+            "Ja, gern, das machen wir!"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quieres proponer otra cosa.",
+          "options": [
+            "Ich hätte einen anderen Vorschlag.",
+            "Das ist mir egal.",
+            "Fassen wir zusammen."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quieres repartir tareas.",
+          "options": [
+            "Wie wäre es mit Samstag?",
+            "Ich weiß nicht so recht.",
+            "Ich kümmere mich um die Tickets, und du reservierst einen Tisch."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Quieres resumir el plan al final.",
+          "options": [
+            "Darf ich kurz etwas sagen?",
+            "Also, dann machen wir es so: Wir treffen uns um sieben am Bahnhof.",
+            "Was hältst du davon?"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quieres saber la opinión de tu compañero.",
+          "options": [
+            "Was hältst du davon?",
+            "Einverstanden.",
+            "Das übernehme ich."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Aceptas la propuesta.",
+          "options": [
+            "Lieber nicht.",
+            "Das ist ziemlich teuer.",
+            "Einverstanden, das passt mir gut."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Es la ciudad en la que viven José y Andrea.",
+          "answers": [
+            "Das ist die Stadt, in der José und Andrea wohnen.",
+            "Es ist die Stadt, in der José und Andrea wohnen.",
+            "Das ist die Stadt, in der José und Andrea leben.",
+            "Das ist die Stadt, wo José und Andrea wohnen."
+          ]
+        },
+        {
+          "prompt": "La exposición merece mucho la pena.",
+          "answers": [
+            "Die Ausstellung ist sehr sehenswert.",
+            "Die Ausstellung ist wirklich sehenswert."
+          ]
+        },
+        {
+          "prompt": "El concierto se celebra en la Tonhalle.",
+          "answers": [
+            "Das Konzert findet in der Tonhalle statt."
+          ]
+        },
+        {
+          "prompt": "El final de la novela me sorprendió.",
+          "answers": [
+            "Das Ende des Romans hat mich überrascht.",
+            "Das Ende des Romans überraschte mich."
+          ]
+        },
+        {
+          "prompt": "¿Me puedes recomendar un buen libro?",
+          "answers": [
+            "Kannst du mir ein gutes Buch empfehlen?"
+          ]
+        },
+        {
+          "prompt": "Propongo que compremos las entradas por internet.",
+          "answers": [
+            "Ich schlage vor, dass wir die Tickets online kaufen.",
+            "Ich schlage vor, dass wir die Karten online kaufen.",
+            "Ich schlage vor, dass wir die Eintrittskarten online kaufen.",
+            "Ich schlage vor, dass wir die Tickets im Internet kaufen.",
+            "Ich schlage vor, dass wir die Karten im Internet kaufen."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Mein erstes Mal auf der Bühne",
+          "text": "Liebe Leserinnen und Leser,\n\nheute erzähle ich euch von einem Abenteuer, an das ich vor einem Jahr noch nicht einmal gedacht hätte: Ich habe Theater gespielt! Alles begann im letzten Herbst. Meine Kollegin Sabine, mit der ich jeden Mittag in der Kantine sitze, spielt seit Jahren in einer Laientheatergruppe in Winterthur. Eines Tages erzählte sie mir, dass der Gruppe ein Schauspieler fehlte. „Du redest doch so gern“, sagte sie lachend. Zuerst wollte ich nicht, denn ich hatte seit der Schule nie mehr auf einer Bühne gestanden. Aber dann bin ich doch zu einer Probe mitgegangen.\n\nDie Gruppe hat mich sofort gut aufgenommen. Wir haben zweimal pro Woche geprobt, immer am Dienstag- und Donnerstagabend in einem alten Saal hinter der Kirche. Meine Rolle war nicht groß: Ich spielte einen Briefträger, der in jeder Szene etwas Falsches bringt. Trotzdem musste ich viel Text lernen. Das habe ich meistens im Zug auf dem Weg zur Arbeit gemacht, sehr zur Freude der anderen Fahrgäste.\n\nDie Premiere war im März. Ich war so nervös, dass ich am Nachmittag nichts essen konnte. Der Saal war voll, in der ersten Reihe saßen meine Eltern. Und dann passierte es: In der zweiten Szene habe ich meinen Text vergessen. Zum Glück hat mir Sabine leise geholfen, und das Publikum hat nichts gemerkt. Am Ende haben alle lange applaudiert.\n\nInzwischen haben wir das Stück zwölfmal gespielt. Im Herbst beginnen die Proben für ein neues Stück, und ich bin wieder dabei. Diesmal möchte ich eine größere Rolle!\n\nEuer Florian",
+          "statements": [
+            {
+              "s": "Florian hatte vor diesem Projekt noch nie auf einer Bühne gestanden.",
+              "answer": false
+            },
+            {
+              "s": "Florian hat über eine Arbeitskollegin von der Theatergruppe erfahren.",
+              "answer": true
+            },
+            {
+              "s": "Die Gruppe hat am Wochenende geprobt.",
+              "answer": false
+            },
+            {
+              "s": "Florian hat seinen Text oft unterwegs gelernt.",
+              "answer": true
+            },
+            {
+              "s": "Bei der Premiere hat das Publikum Florians Fehler bemerkt.",
+              "answer": false
+            },
+            {
+              "s": "Florian möchte auch beim nächsten Stück mitspielen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "title": "Ein Wochenende in Luzern",
+          "text": "Liebe Carla,\n\nwie geht es dir? Ich muss dir unbedingt von unserem Wochenende in Luzern erzählen. Du weißt ja, dass Malik ein großer Fan von klassischer Musik ist. Zu seinem Geburtstag habe ich ihm Karten für ein Konzert beim Lucerne Festival geschenkt, das jedes Jahr im Sommer stattfindet. Die Karten waren nicht billig, aber für ihn hat es sich gelohnt.\n\nWir sind am Samstagmorgen mit dem Zug von Zürich nach Luzern gefahren. Das dauert nur eine Dreiviertelstunde. Zuerst haben wir eine Stadtführung gemacht. Die Führerin, eine ältere Dame mit viel Humor, hat uns die Kapellbrücke gezeigt und erzählt, dass ein großer Teil der Brücke 1993 bei einem Brand zerstört wurde. Das wusste ich nicht! Danach haben wir am See zu Mittag gegessen.\n\nDas Konzert war am Abend im KKL, dem Kultur- und Kongresszentrum direkt am Wasser. Der Konzertsaal ist unglaublich: ganz hell und mit einem fantastischen Klang. Ein Orchester aus Wien hat Beethoven gespielt. Ehrlich gesagt kenne ich mich mit klassischer Musik nicht so gut aus, und im zweiten Teil bin ich fast eingeschlafen. Malik dagegen war total begeistert und hat sogar ein bisschen geweint.\n\nAm Sonntag hat es leider den ganzen Tag geregnet. Deshalb sind wir nicht wie geplant auf den Pilatus gefahren, sondern ins Verkehrshaus gegangen, ein Museum über Züge, Autos und Flugzeuge. Das hat mir fast besser gefallen als das Konzert!\n\nHast du im September Zeit? Dann könnten wir zusammen etwas unternehmen.\n\nLiebe Grüße\nNina",
+          "statements": [
+            {
+              "s": "Nina hat die Konzertkarten für Malik gekauft.",
+              "answer": true
+            },
+            {
+              "s": "Die Zugfahrt von Zürich nach Luzern ist ziemlich lang.",
+              "answer": false
+            },
+            {
+              "s": "Nina hat in der Stadtführung etwas Neues gelernt.",
+              "answer": true
+            },
+            {
+              "s": "Nina war vom ganzen Konzert begeistert.",
+              "answer": false
+            },
+            {
+              "s": "Am Sonntag sind Nina und Malik auf einen Berg gefahren.",
+              "answer": false
+            },
+            {
+              "s": "Das Museum hat Nina sehr gut gefallen.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Museumsnacht: Kultur bis zwei Uhr morgens",
+          "text": "Zürich – Am vergangenen Samstag fand die Zürcher Museumsnacht statt, und die Veranstalter sind mehr als zufrieden: Über 30 000 Besucherinnen und Besucher kamen in die 45 Museen der Stadt, so viele wie noch nie. Von 19 Uhr bis 2 Uhr morgens konnte man mit einem einzigen Ticket für 25 Franken alle Museen besuchen. Zwischen den Häusern fuhren Shuttlebusse, die im Ticket inbegriffen waren.\n\nViele Museen hatten ein besonderes Programm vorbereitet. Im Landesmuseum gab es Führungen mit Taschenlampe, im Kunsthaus konnten die Gäste selbst malen, und im Zoologischen Museum erzählte ein Schauspieler Geschichten über die Tiere der Sammlung. Auch an Familien hatte man gedacht: Bis 22 Uhr gab es in vielen Häusern spezielle Angebote für Kinder. Besonders beliebt war ein kleines Museum, das sonst nur wenige Leute kennen: das Museum für Uhren, in dem man um Mitternacht eine Uhr aus dem 17. Jahrhundert schlagen hören konnte.\n\n„Wir wollen vor allem Menschen erreichen, die sonst nie ins Museum gehen“, sagt die Organisatorin Laura Wyss. Und das scheint zu funktionieren: Laut einer Umfrage war fast die Hälfte der Gäste unter 30 Jahre alt. Ein Problem gab es allerdings: Vor einigen Museen mussten die Gäste bis zu einer Stunde warten. Nächstes Jahr will man deshalb die Öffnungszeiten der beliebtesten Häuser verlängern.",
+          "questions": [
+            {
+              "q": "In diesem Text geht es darum, …",
+              "options": [
+                "dass die Museumsnacht ein großer Erfolg war.",
+                "dass die Museen in Zürich zu teuer sind.",
+                "dass die Museumsnacht nächstes Jahr nicht mehr stattfindet."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was bekam man mit dem Ticket?",
+              "options": [
+                "Eintritt in ein Museum nach Wahl.",
+                "Eintritt in alle Museen und Fahrten mit den Shuttlebussen.",
+                "Eine Führung im Landesmuseum."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was will man im nächsten Jahr ändern?",
+              "options": [
+                "Das Ticket wird billiger.",
+                "Es gibt mehr Shuttlebusse.",
+                "Einige Museen haben länger offen."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Brettspiele sind wieder in",
+          "text": "Lange galten sie als altmodisch, doch jetzt sind sie zurück: Brettspiele. In Deutschland, Österreich und der Schweiz werden so viele Spiele verkauft wie seit Jahrzehnten nicht mehr. Allein in der Schweiz sind es über drei Millionen pro Jahr. Und es sind längst nicht mehr nur Familien mit Kindern, die spielen.\n\n„Unsere Kundschaft ist in den letzten Jahren deutlich jünger geworden“, erzählt Reto Baumann, der in Bern ein Spielecafé führt. Für sechs Franken pro Person kann man bei ihm den ganzen Abend aus über 800 Spielen wählen. An den Wochenenden muss man einen Tisch reservieren, sonst bekommt man keinen Platz. Viele Gäste kommen nach der Arbeit mit Kollegen, andere treffen hier Leute, die sie noch gar nicht kennen. „Jeden Donnerstag haben wir einen Abend für Singles“, sagt Baumann lachend.\n\nWarum sind Brettspiele heute so beliebt? Eine Psychologin der Universität Wien erklärt es so: Viele Menschen verbringen den ganzen Tag vor dem Bildschirm. Beim Spielen sitzt man dagegen zusammen an einem Tisch, man lacht, diskutiert und schaut sich in die Augen. Außerdem sind die Spiele heute viel besser als früher. Moderne Spiele erzählen oft spannende Geschichten, und ein Spiel dauert manchmal mehrere Stunden. Billig sind sie allerdings nicht: Ein gutes Spiel kostet oft zwischen 40 und 80 Franken. Dafür spielt man es aber auch viele Male.",
+          "questions": [
+            {
+              "q": "Wer spielt heute Brettspiele?",
+              "options": [
+                "Vor allem Familien mit kleinen Kindern.",
+                "Immer mehr junge Erwachsene.",
+                "Hauptsächlich ältere Menschen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Im Spielecafé von Reto Baumann …",
+              "options": [
+                "kostet jedes Spiel sechs Franken.",
+                "kann man am Wochenende ohne Reservierung spielen.",
+                "kann man auch neue Leute kennenlernen."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Warum sind Brettspiele laut der Psychologin so beliebt?",
+              "options": [
+                "Weil man dabei mit anderen Menschen direkt zusammen ist.",
+                "Weil sie billiger sind als Computerspiele.",
+                "Weil sie schneller gehen als früher."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Fotokurs für Anfänger: Lernen Sie an vier Samstagvormittagen, wie Sie mit Ihrer Kamera oder Ihrem Handy bessere Bilder machen. Volkshochschule Winterthur, 240 Fr."
+            },
+            {
+              "key": "b",
+              "text": "Chor „Stimmen am See“ sucht Männerstimmen! Notenkenntnisse nicht nötig. Probe jeden Montag, 19.30–21.30 Uhr, im Kirchgemeindehaus Wollishofen."
+            },
+            {
+              "key": "c",
+              "text": "Kinderführung im Landesmuseum: Ritter, Burgen und Schwerter. Für Kinder von 6 bis 10 Jahren, jeden Sonntag 14 Uhr. Eltern warten im Museumscafé."
+            },
+            {
+              "key": "d",
+              "text": "Zürcher Kammerorchester: Abo „Sechs Sonntage“ – sechs Konzerte am Sonntagnachmittag zum Spezialpreis. Studierende 50 % Rabatt."
+            },
+            {
+              "key": "e",
+              "text": "Spieleabend im Quartierzentrum Aussersihl: Jeden ersten Freitag im Monat, 19 Uhr. Eintritt frei, Spiele vorhanden – einfach vorbeikommen!"
+            },
+            {
+              "key": "f",
+              "text": "Theater für alle: Unsere Laiengruppe sucht Erwachsene, die gern auf der Bühne stehen. Keine Erfahrung nötig. Proben am Mittwochabend in Oerlikon."
+            },
+            {
+              "key": "g",
+              "text": "Literaturhaus Zürich: Lesung mit der Autorin Dana Grigorcea aus ihrem neuen Roman. Anschließend Gespräch mit dem Publikum. Donnerstag, 20 Uhr."
+            },
+            {
+              "key": "h",
+              "text": "Ehrenamtliche Helferinnen und Helfer gesucht für das Open-Air-Kino am Zürichhorn: Kasse, Bar, Aufbau. Als Dank gratis Eintritt an allen Abenden."
+            },
+            {
+              "key": "i",
+              "text": "Fotoausstellung „Alpen im Wandel“: Bilder von Gletschern damals und heute. Kunsthalle Bern, bis 30. November, Di–So 11–18 Uhr."
+            },
+            {
+              "key": "j",
+              "text": "Salsa für Paare: Anfängerkurs in der Tanzschule Bailamos, 8 Abende jeweils dienstags, 20–21.30 Uhr. Anmeldung nur zu zweit."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Gregor singt gern und sucht eine Gruppe. Montags hat er abends immer frei.",
+              "answer": "b"
+            },
+            {
+              "situation": "Mia und ihr Freund möchten zusammen einen Tanzkurs machen. Sie haben noch nie getanzt.",
+              "answer": "j"
+            },
+            {
+              "situation": "Herr Keller möchte im Sommer etwas Sinnvolles tun und dabei Filme sehen, ohne zu bezahlen.",
+              "answer": "h"
+            },
+            {
+              "situation": "Ilaria ist neu im Quartier, hat wenig Geld und möchte am Abend in lockerer Atmosphäre Leute kennenlernen.",
+              "answer": "e"
+            },
+            {
+              "situation": "Frau Moser sucht für ihren achtjährigen Enkel ein Programm am Wochenende, bei dem er etwas über Geschichte lernt.",
+              "answer": "c"
+            },
+            {
+              "situation": "Tobias liest gern und möchte eine Schriftstellerin persönlich hören und ihr Fragen stellen.",
+              "answer": "g"
+            },
+            {
+              "situation": "Selin möchte lernen, wie man professionelle Videos schneidet.",
+              "answer": "x"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Sollen Museen gratis sein?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über kostenlosen Eintritt in Museen.",
+          "question": "Ist die Person für kostenlosen Eintritt in Museen?",
+          "comments": [
+            {
+              "name": "Lukas, 34, Graz",
+              "text": "Ich bin Lehrer und gehe mit meinen Klassen oft ins Museum. Jedes Mal muss ich bei den Eltern Geld einsammeln, und einige Familien können sich das einfach nicht leisten. Kultur darf keine Frage des Geldbeutels sein. In London sind die großen Museen seit Jahren kostenlos, und das funktioniert sehr gut. Warum sollte das bei uns nicht möglich sein?",
+              "answer": true
+            },
+            {
+              "name": "Corinne, 51, Basel",
+              "text": "Ein Museum kostet viel Geld: Personal, Heizung, Versicherung für die Kunstwerke. Wenn die Besucher nichts mehr bezahlen, muss der Staat alles übernehmen, also wir alle mit unseren Steuern, auch die Leute, die nie ins Museum gehen. Ich finde, wer ein Museum besucht, kann dafür auch etwas bezahlen. Für Kinder und Studierende gibt es ja schon Rabatte.",
+              "answer": false
+            },
+            {
+              "name": "Tarik, 27, Zürich",
+              "text": "Einerseits verstehe ich, dass Museen Einnahmen brauchen. Andererseits zahle ich für einen Museumsbesuch oft über 20 Franken, und dann habe ich manchmal nur eine Stunde Zeit. Wäre der Eintritt frei, würde ich öfter kurz vorbeischauen, zum Beispiel in der Mittagspause. Ich bin sicher, dass viele so denken. Am Ende würden die Museen sogar mehr im Café und im Shop verdienen.",
+              "answer": true
+            },
+            {
+              "name": "Helga, 68, Innsbruck",
+              "text": "Was nichts kostet, ist nichts wert, sagte schon meine Großmutter. Wenn der Eintritt gratis ist, kommen die Leute nur, um sich aufzuwärmen oder ein Selfie zu machen. Ich war letzten Sommer in einem kostenlosen Museum in Italien: Es war so voll und laut, dass ich die Bilder kaum sehen konnte. Da bezahle ich lieber und habe meine Ruhe.",
+              "answer": false
+            },
+            {
+              "name": "Jonas, 19, Freiburg",
+              "text": "Als Student habe ich wenig Geld, und auch mit Ermäßigung überlege ich mir genau, ob ich ins Museum gehe oder nicht. Ein Kompromiss wäre ein kostenloser Tag pro Woche. Das gibt es schon in einigen Städten, aber nicht bei uns. Grundsätzlich wäre mir freier Eintritt aber am liebsten, denn Museen sind für alle da, nicht nur für die, die es sich leisten können.",
+              "answer": true
+            },
+            {
+              "name": "Patrizia, 42, Lugano",
+              "text": "Ich arbeite selbst in einem kleinen Museum. Natürlich hätten wir gern mehr Besucher. Aber ohne die Einnahmen aus den Tickets müssten wir wahrscheinlich Personal entlassen oder die Öffnungszeiten reduzieren. Die Politik verspricht zwar immer mehr Geld für die Kultur, aber am Ende kommt davon wenig an. Solange das so bleibt, kann ich gratis Eintritt nicht unterstützen.",
+              "answer": false
+            },
+            {
+              "name": "Dominik, 38, Luzern",
+              "text": "Ich gebe zu: Am Anfang war ich skeptisch. Aber seit unser Stadtmuseum keinen Eintritt mehr verlangt, gehe ich mit meinen Kindern fast jeden Monat hin, manchmal nur für eine halbe Stunde. Die Kinder kennen inzwischen jeden Raum. So entsteht Interesse an Kunst und Geschichte, das man nicht mit Geld bezahlen kann. Andere Städte sollten diesem Beispiel folgen.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Stadtbibliothek – Benutzungsordnung (Auszug)",
+          "text": "1. Ausweis: Für die Ausleihe brauchen Sie einen Bibliotheksausweis. Sie erhalten ihn an der Information gegen Vorlage eines amtlichen Ausweises. Für Erwachsene kostet der Jahresausweis 50 Franken, Kinder und Jugendliche bis 18 Jahre erhalten ihn kostenlos.\n\n2. Ausleihe: Bücher und Hörbücher können Sie vier Wochen ausleihen, DVDs und Zeitschriften zwei Wochen. Die Leihfrist kann zweimal online oder am Telefon verlängert werden, wenn keine andere Person das Medium reserviert hat.\n\n3. Rückgabe: Medien können Sie während der Öffnungszeiten an den Automaten im Erdgeschoss zurückgeben. Außerhalb der Öffnungszeiten benutzen Sie bitte den Rückgabekasten neben dem Haupteingang. Für jede Woche Verspätung zahlen Sie 2 Franken pro Medium.\n\n4. Verlust und Schäden: Bitte behandeln Sie die Medien sorgfältig. Wenn Sie ein Medium verlieren oder beschädigen, müssen Sie den Neupreis und eine Bearbeitungsgebühr von 10 Franken bezahlen.\n\n5. Aufenthalt: In den Lesesälen bitten wir um Ruhe. Telefonieren ist nur im Eingangsbereich erlaubt. Getränke in geschlossenen Flaschen sind erlaubt, Essen ist nur in der Cafeteria im 1. Stock gestattet.\n\n6. Internet: Mit Ihrem Ausweis können Sie unser WLAN kostenlos nutzen. Die Computer in der Bibliothek dürfen Sie höchstens zwei Stunden pro Tag benutzen.",
+          "questions": [
+            {
+              "q": "Wer bekommt den Bibliotheksausweis gratis?",
+              "options": [
+                "Alle Personen mit einem amtlichen Ausweis.",
+                "Personen unter 18 Jahren.",
+                "Studierende."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Sie möchten ein Buch länger behalten.",
+              "options": [
+                "Das ist immer möglich, auch mehrmals.",
+                "Das ist nur möglich, wenn Sie in die Bibliothek kommen.",
+                "Das ist nicht möglich, wenn jemand anders das Buch reserviert hat."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Sie bringen eine DVD eine Woche zu spät zurück. Was passiert?",
+              "options": [
+                "Sie zahlen 2 Franken.",
+                "Sie zahlen 10 Franken.",
+                "Sie müssen den Neupreis bezahlen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was ist in den Lesesälen erlaubt?",
+              "options": [
+                "Ein Sandwich essen.",
+                "Wasser aus einer geschlossenen Flasche trinken.",
+                "Leise telefonieren."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hallo Daniel, hier ist Melanie. Du, ich habe schlechte Nachrichten: Das Konzert heute Abend im Volkshaus fällt aus, die Sängerin ist krank. Das Geld für die Tickets bekommen wir zurück, ich kümmere mich darum. Aber wir könnten stattdessen ins Kino gehen. Im Riffraff läuft um acht der neue Film von Wes Anderson. Ruf mich doch bitte kurz zurück, dann reserviere ich zwei Plätze."
+            }
+          ],
+          "statement": "Das Konzert findet heute nicht statt.",
+          "tf": true,
+          "q": "Was schlägt Melanie vor?",
+          "options": [
+            "Das Konzert an einem anderen Tag zu besuchen.",
+            "Einen Film anzusehen.",
+            "Die Sängerin zu besuchen."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Liebe Besucherinnen und Besucher, das Kunsthaus schließt in fünfzehn Minuten. Bitte begeben Sie sich langsam zum Ausgang. Wir weisen Sie darauf hin, dass unser Museumsshop heute ausnahmsweise bis neunzehn Uhr geöffnet ist. Am Donnerstag ist das Museum wie jede Woche bis zwanzig Uhr geöffnet, die Führung durch die neue Ausstellung beginnt dann um achtzehn Uhr dreißig."
+            }
+          ],
+          "statement": "Der Museumsshop schließt heute früher als sonst.",
+          "tf": false,
+          "q": "Wann beginnt die Führung am Donnerstag?",
+          "options": [
+            "Um 18.30 Uhr.",
+            "Um 19 Uhr.",
+            "Um 20 Uhr."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Und hier noch ein Kulturtipp für das Wochenende: In Winterthur findet von Freitag bis Sonntag das Afro-Pfingsten-Festival statt. Auf drei Bühnen spielen Bands aus über zwanzig Ländern. Die Konzerte in der Altstadt sind gratis, nur für die Abendkonzerte in der Halle braucht man ein Ticket. Und das Wetter spielt mit: Es wird sonnig und warm, bis zu siebenundzwanzig Grad."
+            }
+          ],
+          "statement": "Für alle Konzerte des Festivals muss man bezahlen.",
+          "tf": false,
+          "q": "Wie wird das Wetter am Wochenende?",
+          "options": [
+            "Regnerisch.",
+            "Kühl und bewölkt.",
+            "Sonnig und warm."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Grüß Gott, Herr Steiner, hier spricht Frau Lechner vom Volksbildungshaus. Sie haben sich für den Töpferkurs am Samstag angemeldet. Leider ist der Raum, in dem der Kurs stattfinden sollte, wegen eines Wasserschadens geschlossen. Der Kurs wird deshalb um eine Woche verschoben. Wenn Ihnen der neue Termin nicht passt, bekommen Sie die Kursgebühr natürlich zurück. Bitte melden Sie sich bis Mittwoch bei uns."
+            }
+          ],
+          "statement": "Der Töpferkurs beginnt eine Woche später.",
+          "tf": true,
+          "q": "Was soll Herr Steiner tun?",
+          "options": [
+            "Einen anderen Kurs wählen.",
+            "Sich bis Mittwoch melden.",
+            "Die Kursgebühr bezahlen."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Achtung, eine Information für alle Zuschauerinnen und Zuschauer der Vorstellung „Die Physiker“: Wegen einer technischen Störung beginnt die Aufführung heute nicht um neunzehn Uhr dreißig, sondern erst um zwanzig Uhr. Die Pause wird verkürzt. Getränke an der Bar gibt es bis Vorstellungsbeginn zum halben Preis. Wir bitten um Ihr Verständnis."
+            }
+          ],
+          "statement": "Die Vorstellung beginnt eine halbe Stunde später.",
+          "tf": true,
+          "q": "Was bekommen die Zuschauer?",
+          "options": [
+            "Billigere Getränke.",
+            "Ein Gratis-Programmheft.",
+            "Eine längere Pause."
+          ],
+          "answer": 0
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung durch das Opernhaus Zürich teil.",
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Guten Tag, meine Damen und Herren, und herzlich willkommen im Opernhaus Zürich! Mein Name ist Regula Frei, und ich begleite Sie in der nächsten Stunde hinter die Kulissen. Bitte bleiben Sie immer in der Gruppe, denn auf der Bühne wird heute für die Vorstellung am Abend gearbeitet."
+            },
+            {
+              "v": "ch-f",
+              "t": "Das Gebäude, in dem wir uns befinden, wurde 1891 eröffnet. Damals hat man es in nur zwei Jahren gebaut, das wäre heute fast unmöglich. Der Zuschauersaal hat etwa elfhundert Plätze. Das ist für ein Opernhaus eher klein, aber dafür sieht und hört man von jedem Platz aus sehr gut."
+            },
+            {
+              "v": "ch-f",
+              "t": "Wir gehen jetzt in die Werkstätten. Hier entstehen alle Kostüme und Dekorationen für unsere Produktionen. Über sechshundert Menschen arbeiten am Opernhaus, aber nur etwa ein Viertel davon steht wirklich auf der Bühne. Die anderen arbeiten als Schneiderinnen, Techniker, Maler oder in der Verwaltung."
+            },
+            {
+              "v": "ch-f",
+              "t": "Ein Kostüm für eine große Oper braucht oft mehr als hundert Arbeitsstunden. Die Kostüme werden nach der letzten Vorstellung nicht weggeworfen. Wir haben ein riesiges Lager außerhalb der Stadt, und einmal im Jahr verkaufen wir alte Kostüme an das Publikum. Das ist sehr beliebt, besonders vor der Fasnacht."
+            },
+            {
+              "v": "ch-f",
+              "t": "Viele Leute denken, die Oper ist nur etwas für ältere und reiche Menschen. Das stimmt nicht. Für Personen unter dreißig gibt es Last-Minute-Tickets für zwanzig Franken, und am Eröffnungsfest im September ist der Eintritt für alle frei."
+            },
+            {
+              "v": "ch-f",
+              "t": "Gleich gehen wir auf die Bühne. Bitte fotografieren Sie dort nicht, und schalten Sie Ihre Handys aus. Am Ende der Führung können Sie im Foyer noch einen Kaffee trinken. Mit Ihrem Führungsticket bekommen Sie zehn Prozent Rabatt im Opernshop."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Warum soll die Gruppe zusammenbleiben?",
+              "options": [
+                "Weil das Gebäude sehr groß ist.",
+                "Weil auf der Bühne gerade gearbeitet wird.",
+                "Weil gleich eine Vorstellung beginnt."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was sagt Frau Frei über den Zuschauersaal?",
+              "options": [
+                "Man sieht von überall gut.",
+                "Er ist der größte der Schweiz.",
+                "Er wurde vor Kurzem renoviert."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wie viele Personen am Opernhaus stehen auf der Bühne?",
+              "options": [
+                "Die meisten.",
+                "Etwa die Hälfte.",
+                "Ungefähr ein Viertel."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was passiert mit alten Kostümen?",
+              "options": [
+                "Sie werden weggeworfen.",
+                "Man kann sie kaufen.",
+                "Man kann sie für die Fasnacht ausleihen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was bekommen die Teilnehmer der Führung?",
+              "options": [
+                "Einen Gratis-Kaffee.",
+                "Ein Last-Minute-Ticket.",
+                "Eine Ermäßigung im Shop."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "intro": "Sie nehmen an einem Rundgang durch die Altstadt von Bern teil.",
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Herzlich willkommen in Bern, der Bundesstadt der Schweiz! Ich bin Matthias und zeige Ihnen heute in etwa neunzig Minuten die wichtigsten Orte der Altstadt. Keine Sorge, wir gehen langsam, und es gibt unterwegs zwei Pausen."
+            },
+            {
+              "v": "m2",
+              "t": "Wir stehen hier vor dem Zytglogge, dem berühmten Uhrturm. Er war früher ein Stadttor. Jede Stunde, kurz vor der vollen Stunde, bewegen sich oben die Figuren. Das dauert nur wenige Minuten, also schauen Sie gut hin! Es gibt übrigens auch Führungen in den Turm hinein, die muss man aber im Voraus buchen."
+            },
+            {
+              "v": "m2",
+              "t": "Unter diesen Arkaden, den Lauben, kann man fast sechs Kilometer lang einkaufen, ohne nass zu werden. Viele Geschäfte liegen auch im Keller: Man sieht von der Straße nur die Kellertüren. Dort finden Sie kleine Läden, Bars und sogar Theater."
+            },
+            {
+              "v": "m2",
+              "t": "In dem Haus, vor dem wir jetzt stehen, hat Albert Einstein von 1903 bis 1905 gewohnt. Hier hat er einen Teil der Relativitätstheorie entwickelt. Damals arbeitete er nicht an der Universität, sondern im Patentamt. Heute ist die Wohnung ein kleines Museum."
+            },
+            {
+              "v": "m2",
+              "t": "Unser Rundgang endet am Bärenpark. Bären sind das Symbol der Stadt. Früher lebten die Tiere in einem engen Graben, heute haben sie einen großen Park direkt am Fluss, an der Aare. Im Sommer schwimmen viele Bernerinnen und Berner übrigens in der Aare, mitten durch die Stadt."
+            },
+            {
+              "v": "m2",
+              "t": "Wenn Sie noch Zeit haben, empfehle ich Ihnen den Rosengarten oben auf dem Hügel. Von dort hat man den schönsten Blick auf die Altstadt, und das Restaurant ist auch nicht schlecht. Vielen Dank und einen schönen Tag in Bern!"
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wie lange dauert der Rundgang?",
+              "options": [
+                "Eine Stunde.",
+                "Anderthalb Stunden.",
+                "Zwei Stunden."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was muss man für eine Führung im Zytglogge tun?",
+              "options": [
+                "Vorher reservieren.",
+                "Zur vollen Stunde kommen.",
+                "Ein Ticket am Turm kaufen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was findet man in den Kellern der Altstadt?",
+              "options": [
+                "Nur Wohnungen.",
+                "Geschäfte und Lokale.",
+                "Alte Stadttore."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was hat Einstein in Bern gemacht?",
+              "options": [
+                "Er hat an der Universität unterrichtet.",
+                "Er hat ein Museum gegründet.",
+                "Er hat im Patentamt gearbeitet."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was empfiehlt Matthias zum Schluss?",
+              "options": [
+                "Im Fluss zu schwimmen.",
+                "Zum Rosengarten zu gehen.",
+                "Den Bärenpark zu besuchen."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen über das letzte Wochenende unterhalten.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hey, Kevin! Na, wie war dein Wochenende?"
+            },
+            {
+              "v": "m1",
+              "t": "Hallo, Jessica! Ziemlich anstrengend, aber schön. Ich war am Samstag am Open Air in Frauenfeld."
+            },
+            {
+              "v": "f1",
+              "t": "Echt? Das ist doch dieses riesige Hip-Hop-Festival, oder?"
+            },
+            {
+              "v": "m1",
+              "t": "Genau. Eigentlich wollte ich mit meinem Bruder hin, aber der musste kurzfristig arbeiten. Also bin ich mit zwei Kollegen vom Fußball gegangen."
+            },
+            {
+              "v": "f1",
+              "t": "Und, hat es sich gelohnt? Die Tickets sind doch total teuer."
+            },
+            {
+              "v": "m1",
+              "t": "Ja, ein Tagesticket kostet über hundert Franken. Aber die Stimmung war unglaublich. Das Problem war eher das Wetter."
+            },
+            {
+              "v": "f1",
+              "t": "Hat es geregnet? Bei uns in Zürich war es den ganzen Tag schön."
+            },
+            {
+              "v": "m1",
+              "t": "Nein, im Gegenteil, es war viel zu heiß. Fast fünfunddreißig Grad und kaum Schatten. Ich habe sicher vier Liter Wasser getrunken."
+            },
+            {
+              "v": "f1",
+              "t": "Oh je. Ich hätte das nicht ausgehalten. Ich war am Samstag lieber im Schauspielhaus."
+            },
+            {
+              "v": "m1",
+              "t": "Im Theater? Was hast du denn gesehen?"
+            },
+            {
+              "v": "f1",
+              "t": "Ein modernes Stück über eine Familie, die zusammen ein Restaurant führt. Meine Schwester hat mich eingeladen, sie hatte zwei Karten über ihre Firma bekommen."
+            },
+            {
+              "v": "m1",
+              "t": "Und? War es gut?"
+            },
+            {
+              "v": "f1",
+              "t": "Die Schauspieler waren super, aber die Handlung fand ich ein bisschen verwirrend. In der Pause haben wir lange diskutiert, was der Regisseur eigentlich sagen wollte."
+            },
+            {
+              "v": "m1",
+              "t": "Das klingt nach meinem letzten Theaterbesuch. Seitdem gehe ich lieber ins Kino."
+            },
+            {
+              "v": "f1",
+              "t": "Du, apropos Kino: Am Donnerstag gibt es im Kino Xenix einen spanischen Film mit Untertiteln. Kommst du mit?"
+            },
+            {
+              "v": "m1",
+              "t": "Donnerstag habe ich Training, aber das fängt erst um halb acht an. Wann beginnt der Film?"
+            },
+            {
+              "v": "f1",
+              "t": "Um halb neun."
+            },
+            {
+              "v": "m1",
+              "t": "Dann schaffe ich es nach dem Training knapp. Ich komme mit!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Kevin ist mit seinem Bruder zum Festival gefahren.",
+              "answer": false
+            },
+            {
+              "s": "Kevin findet, dass sich das teure Ticket gelohnt hat.",
+              "answer": true
+            },
+            {
+              "s": "In Frauenfeld war es am Samstag sehr heiß.",
+              "answer": true
+            },
+            {
+              "s": "Jessica hat die Theaterkarten selbst gekauft.",
+              "answer": false
+            },
+            {
+              "s": "Jessica fand das Theaterstück leicht zu verstehen.",
+              "answer": false
+            },
+            {
+              "s": "Kevin geht seit einem schlechten Theaterbesuch lieber ins Kino.",
+              "answer": true
+            },
+            {
+              "s": "Kevin kann am Donnerstag nicht ins Kino, weil er Training hat.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind in der Straßenbahn und hören, wie sich zwei Personen über ihre Hobbys unterhalten.",
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Sag mal, Simone, du hast doch früher so viel gemalt. Machst du das noch?"
+            },
+            {
+              "v": "f2",
+              "t": "Kaum noch. Ich habe einfach keine Zeit mehr, seit ich die neue Stelle habe. Aber ich habe ein neues Hobby, das nicht so viel Zeit braucht."
+            },
+            {
+              "v": "m2",
+              "t": "Ach ja? Was denn?"
+            },
+            {
+              "v": "f2",
+              "t": "Ich singe in einem Chor. Einmal pro Woche, am Dienstagabend, direkt nach der Arbeit."
+            },
+            {
+              "v": "m2",
+              "t": "Du? In einem Chor? Ich wusste gar nicht, dass du singen kannst."
+            },
+            {
+              "v": "f2",
+              "t": "Kann ich auch nicht besonders gut. Aber in diesem Chor muss man keine Noten lesen können. Die Leiterin bringt uns alles bei."
+            },
+            {
+              "v": "m2",
+              "t": "Und was singt ihr so? Kirchenlieder?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, gar nicht. Vor allem Popsongs, aber auch Volkslieder aus verschiedenen Ländern. Letzte Woche haben wir sogar ein Lied auf Spanisch geübt."
+            },
+            {
+              "v": "m2",
+              "t": "Das klingt lustig. Habt ihr auch Auftritte?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, im Dezember geben wir ein Konzert in der Kirche Enge. Ich bin jetzt schon nervös. Kommst du?"
+            },
+            {
+              "v": "m2",
+              "t": "Klar, wenn ich da bin. Im Dezember fliege ich vielleicht nach Kanada, zu meiner Schwester. Das ist noch nicht ganz sicher."
+            },
+            {
+              "v": "f2",
+              "t": "Und du? Machst du noch Fotos?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, mehr als je zuvor. Ich habe mir letztes Jahr eine richtig gute Kamera gekauft. Und stell dir vor: Ich habe bei einem Wettbewerb von einer Zeitung den zweiten Platz gemacht."
+            },
+            {
+              "v": "f2",
+              "t": "Wow, gratuliere! Mit welchem Bild?"
+            },
+            {
+              "v": "m2",
+              "t": "Mit einem Foto vom Nebel über dem Zürichsee, früh am Morgen. Dafür bin ich um fünf Uhr aufgestanden."
+            },
+            {
+              "v": "f2",
+              "t": "Um fünf? Am Wochenende? Dafür wäre ich viel zu faul."
+            }
+          ],
+          "statements": [
+            {
+              "s": "Simone malt noch genauso viel wie früher.",
+              "answer": false
+            },
+            {
+              "s": "Simone geht dienstags nach der Arbeit zur Chorprobe.",
+              "answer": true
+            },
+            {
+              "s": "Im Chor muss man Noten lesen können.",
+              "answer": false
+            },
+            {
+              "s": "Der Chor hat schon einmal ein spanisches Lied geprobt.",
+              "answer": true
+            },
+            {
+              "s": "Der Mann weiß noch nicht sicher, ob er zum Konzert kommen kann.",
+              "answer": true
+            },
+            {
+              "s": "Der Mann hat einen Fotowettbewerb gewonnen.",
+              "answer": false
+            },
+            {
+              "s": "Das Foto hat er am frühen Morgen gemacht.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Treffpunkt“ diskutiert mit der Musiklehrerin Claudia Brunner und dem Vater Marco Gerber über das Thema „Freizeitstress bei Kindern – zu viele Hobbys?“",
+          "options": [
+            "Moderatorin",
+            "Claudia Brunner",
+            "Marco Gerber"
+          ],
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Willkommen bei „Treffpunkt“. Fußball am Montag, Klavier am Dienstag, Schwimmen am Mittwoch: Viele Kinder haben heute einen vollen Terminkalender. Ist das gut für sie? Frau Brunner, Sie unterrichten seit zwanzig Jahren Klavier. Wie sehen Sie das?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Ich sehe, dass die Kinder heute viel müder in den Unterricht kommen als früher. Manche kommen direkt vom Training und müssen danach noch zum Englischkurs. Da bleibt keine Energie mehr, um wirklich etwas zu lernen."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Gerber, Sie haben drei Kinder. Wie viele Hobbys haben die denn?"
+            },
+            {
+              "v": "m1",
+              "t": "Meine Tochter spielt Handball und Geige, die Jungs machen Judo und sind bei den Pfadfindern. Das klingt viel, aber die Kinder haben sich das alles selbst ausgesucht. Wir zwingen niemanden."
+            },
+            {
+              "v": "ch-f",
+              "t": "Das glaube ich Ihnen. Aber Kinder wollen oft alles gleichzeitig. Die Eltern müssen auch mal Nein sagen. Ein Hobby, das man richtig macht, bringt mehr als vier, die man nur halb macht."
+            },
+            {
+              "v": "m1",
+              "t": "Da bin ich anderer Meinung. Durch die verschiedenen Hobbys lernen meine Kinder ganz unterschiedliche Leute kennen. Im Verein haben sie Freunde, die sie in der Schule nie getroffen hätten."
+            },
+            {
+              "v": "f1",
+              "t": "Eine Hörerin hat uns geschrieben, dass ihre Kinder nur noch im Auto zu Hause sind, weil sie ständig von einem Termin zum nächsten fahren. Kennen Sie das, Herr Gerber?"
+            },
+            {
+              "v": "m1",
+              "t": "Ehrlich gesagt, ja. Meine Frau und ich sind manchmal wie ein Taxiunternehmen. Deshalb haben wir eine Regel: Der Sonntag ist frei, da gibt es keine Termine."
+            },
+            {
+              "v": "ch-f",
+              "t": "Das finde ich eine sehr gute Idee. Kinder brauchen auch Zeit, in der nichts geplant ist. Wenn ihnen langweilig ist, werden sie kreativ. Das ist wissenschaftlich bewiesen."
+            },
+            {
+              "v": "f1",
+              "t": "Und wie ist es mit den Kosten? Hobbys sind ja nicht billig."
+            },
+            {
+              "v": "m1",
+              "t": "Das stimmt. Der Geigenunterricht allein kostet uns über hundert Franken im Monat. Aber für uns ist das eine Investition in die Zukunft der Kinder."
+            },
+            {
+              "v": "ch-f",
+              "t": "Leider können sich das nicht alle Familien leisten. Deshalb bieten wir an unserer Musikschule auch günstigere Gruppenkurse an. Die sind oft sogar lustiger als der Einzelunterricht."
+            },
+            {
+              "v": "f1",
+              "t": "Zum Schluss: Was raten Sie Eltern, die unsicher sind?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Schauen Sie Ihr Kind an. Wenn es oft müde oder schlecht gelaunt ist, sind es wahrscheinlich zu viele Termine."
+            },
+            {
+              "v": "m1",
+              "t": "Und sprechen Sie mit dem Kind. Fragen Sie, welches Hobby ihm wirklich Spaß macht. Die Kinder wissen das meistens sehr genau."
+            },
+            {
+              "v": "f1",
+              "t": "Vielen Dank an Sie beide für das spannende Gespräch."
+            }
+          ],
+          "items": [
+            {
+              "q": "Kinder sind heute im Unterricht oft müder als früher.",
+              "answer": 1
+            },
+            {
+              "q": "Die Kinder haben ihre Hobbys selbst gewählt.",
+              "answer": 2
+            },
+            {
+              "q": "Eltern sollten nicht alle Wünsche der Kinder erfüllen.",
+              "answer": 1
+            },
+            {
+              "q": "Im Verein findet man andere Freunde als in der Schule.",
+              "answer": 2
+            },
+            {
+              "q": "Viele Kinder haben heute an mehreren Tagen pro Woche feste Termine.",
+              "answer": 0
+            },
+            {
+              "q": "Langeweile ist gut für die Kreativität.",
+              "answer": 1
+            },
+            {
+              "q": "Hobbys für Kinder sind eine Investition.",
+              "answer": 2
+            },
+            {
+              "q": "Gruppenunterricht ist eine billigere Möglichkeit.",
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie waren am Wochenende auf einem Konzert. Ihr Freund Jan konnte nicht mitkommen. Schreiben Sie Jan eine E-Mail.",
+          "points": [
+            "Beschreiben Sie: Wie war das Konzert?",
+            "Begründen Sie: Mit wem waren Sie dort und warum?",
+            "Machen Sie einen Vorschlag für ein Treffen."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Jan,\n\nschade, dass du am Samstag nicht dabei warst! Das Konzert in der Tonhalle war fantastisch. Das Orchester hat Musik aus Filmen gespielt, und am Ende hat das Publikum zehn Minuten lang applaudiert. Ich war mit Andrea dort, weil sie die Karten von ihrer Firma bekommen hat. Den Abend musst du unbedingt nachholen: Im Dezember gibt es ein ähnliches Konzert, für das ich schon Karten reservieren kann. Wie wäre es, wenn wir vorher zusammen essen gehen? Sag mir einfach Bescheid.\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Ihre Freundin Lea besucht Sie nächsten Monat für ein Wochenende in Zürich. Schreiben Sie Lea eine E-Mail.",
+          "points": [
+            "Bedanken Sie sich für die Nachricht und sagen Sie, dass Sie sich freuen.",
+            "Schlagen Sie ein Kulturprogramm vor.",
+            "Fragen Sie, was Lea besonders interessiert."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Lea,\n\nvielen Dank für deine Nachricht! Ich freue mich riesig, dass du uns besuchst. Ich habe schon ein paar Ideen: Am Samstag könnten wir ins Kunsthaus gehen, in dem gerade eine Ausstellung über Frida Kahlo zu sehen ist. Am Abend gibt es am See ein kleines Festival mit Live-Musik, das gratis ist. Am Sonntag schlage ich eine Schifffahrt nach Rapperswil vor, wenn das Wetter schön ist. Was interessiert dich am meisten? Gehst du lieber ins Museum oder bist du lieber draußen?\n\nBis bald und liebe Grüße\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Kino oder Streaming?“ gelesen.",
+          "quote": "Ich gehe schon seit Jahren nicht mehr ins Kino. Zu Hause habe ich einen großen Fernseher, ich kann die Pause machen, wann ich will, und niemand isst neben mir laut Popcorn. Außerdem kostet ein Streaming-Abo im Monat weniger als ein einziges Kinoticket. Kinos braucht man heute nicht mehr. (Benjamin, 31)",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Reagieren Sie auf Benjamins Beitrag."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich kann Benjamin teilweise verstehen: Streaming ist bequem und viel billiger als das Kino. Trotzdem bin ich nicht seiner Meinung, dass man Kinos nicht mehr braucht. Für mich ist ein Kinobesuch ein Erlebnis, das man zu Hause nicht hat: die große Leinwand, der Ton und das Gefühl, mit anderen Menschen zusammen zu lachen. Außerdem gibt es in Zürich kleine Kinos, in denen man Filme aus der ganzen Welt sehen kann, die es auf keiner Plattform gibt. Deshalb gehe ich mindestens einmal im Monat ins Kino."
+        },
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Sollen alle Kinder ein Musikinstrument lernen?“ gelesen.",
+          "quote": "Meine Eltern haben mich jahrelang zum Klavierunterricht geschickt, obwohl ich es gehasst habe. Heute spiele ich nie mehr. Ich finde, Kinder sollten selbst entscheiden, was sie in ihrer Freizeit machen. Musik ist schön, aber man darf niemanden dazu zwingen. (Sabrina, 38)",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Berichten Sie von Ihren eigenen Erfahrungen."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich finde, dass alle Kinder die Chance haben sollten, ein Instrument zu lernen, aber Sabrina hat recht: Zwang bringt nichts. Ich selbst habe als Kind in Spanien Gitarre gelernt. Am Anfang hatte ich wenig Lust, aber mein Lehrer, mit dem ich bekannte Popsongs spielen durfte, hat mich motiviert. Heute spiele ich immer noch, und das macht mir viel Spaß. Meiner Meinung nach sollten Eltern ihr Kind ein Instrument ausprobieren lassen. Wenn es nach einem Jahr immer noch keine Freude daran hat, sollte es aufhören dürfen."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben sich für einen Salsakurs angemeldet, können aber nächste Woche nicht teilnehmen. Schreiben Sie der Kursleiterin, Frau Ramos.",
+          "points": [
+            "Entschuldigen Sie sich.",
+            "Erklären Sie, warum Sie nicht kommen können.",
+            "Fragen Sie, wie Sie das Verpasste nachholen können."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Liebe Frau Ramos,\n\nleider kann ich nächsten Dienstag nicht am Salsakurs teilnehmen, weil ich beruflich nach Genf muss. Es tut mir sehr leid. Könnte ich die Stunde vielleicht in einer anderen Gruppe nachholen?\n\nVielen Dank und freundliche Grüße\nJosé Romero"
+        },
+        {
+          "task": "Sie singen in einem Chor. Am Wochenende gibt es ein Konzert, aber Sie sind krank. Schreiben Sie dem Chorleiter, Herrn Wenger.",
+          "points": [
+            "Sagen Sie, dass Sie nicht singen können, und warum.",
+            "Entschuldigen Sie sich.",
+            "Bieten Sie Hilfe an."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Lieber Herr Wenger,\n\nleider habe ich eine starke Erkältung und kaum Stimme. Deshalb kann ich am Samstag beim Konzert nicht mitsingen. Das tut mir wirklich leid. Wenn Sie möchten, helfe ich aber gern an der Kasse oder beim Aufräumen.\n\nViele Grüße\nAndrea Navarro"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Ihr Deutschkurs möchte zum Kursende gemeinsam einen Kulturausflug machen. Planen Sie den Ausflug zusammen.",
+          "points": [
+            "Wann?",
+            "Wohin (Museum, Theater, Konzert …)?",
+            "Wie hinkommen?",
+            "Wer kümmert sich um was?"
+          ],
+          "model": [
+            {
+              "v": "f1",
+              "t": "Also, wir sollen einen Ausflug für den ganzen Kurs planen. Wann passt es dir am besten?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich schlage vor, dass wir es am Samstag nach der letzten Lektion machen. Unter der Woche arbeiten ja viele."
+            },
+            {
+              "v": "f1",
+              "t": "Gute Idee. Und wohin? Wie wäre es mit dem Theater?"
+            },
+            {
+              "v": "m1",
+              "t": "Hm, ich weiß nicht so recht. Im Theater versteht man als Deutschlernender oft nicht alles. Wir könnten lieber ins Landesmuseum gehen. Da gibt es Führungen in einfachem Deutsch."
+            },
+            {
+              "v": "f1",
+              "t": "Das stimmt, das ist besser für alle. Und danach könnten wir zusammen etwas essen."
+            },
+            {
+              "v": "m1",
+              "t": "Einverstanden. Wie kommen wir hin? Mit dem Tram?"
+            },
+            {
+              "v": "f1",
+              "t": "Das Museum ist doch direkt beim Hauptbahnhof. Wir treffen uns einfach dort, dann kann jeder selbst hinfahren."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt, das ist am einfachsten. Wer kümmert sich um die Führung?"
+            },
+            {
+              "v": "f1",
+              "t": "Das übernehme ich. Ich rufe am Montag im Museum an und reserviere eine Führung für zwölf Personen."
+            },
+            {
+              "v": "m1",
+              "t": "Super. Dann suche ich ein Restaurant in der Nähe und frage die anderen, wer mitkommt."
+            },
+            {
+              "v": "f1",
+              "t": "Gut, fassen wir zusammen: Samstag, Landesmuseum mit Führung, danach Essen. Treffpunkt beim Museum."
+            },
+            {
+              "v": "m1",
+              "t": "Perfekt, so machen wir es!"
+            }
+          ]
+        },
+        {
+          "task": "In Ihrem Haus wohnen viele neue Nachbarn. Sie möchten zusammen mit einem Nachbarn / einer Nachbarin einen Spieleabend für alle organisieren.",
+          "points": [
+            "Wann und wo?",
+            "Welche Spiele?",
+            "Essen und Getränke?",
+            "Wie informieren Sie die Nachbarn?"
+          ],
+          "model": [
+            {
+              "v": "m2",
+              "t": "Ich finde die Idee mit dem Spieleabend toll. Wann sollen wir ihn machen?"
+            },
+            {
+              "v": "f2",
+              "t": "Vielleicht an einem Freitagabend? Dann muss am nächsten Tag niemand früh aufstehen."
+            },
+            {
+              "v": "m2",
+              "t": "Freitag ist gut. Und wo? Meine Wohnung ist leider zu klein für zwanzig Leute."
+            },
+            {
+              "v": "f2",
+              "t": "Meine auch. Aber wir könnten den Gemeinschaftsraum im Erdgeschoss benutzen. Ich frage die Hausverwaltung."
+            },
+            {
+              "v": "m2",
+              "t": "Sehr gut. Was für Spiele nehmen wir? Ich habe zu Hause „Siedler von Catan“."
+            },
+            {
+              "v": "f2",
+              "t": "Das dauert aber ziemlich lange und ist kompliziert. Für den Anfang wären einfache Spiele besser, zum Beispiel Uno oder Activity."
+            },
+            {
+              "v": "m2",
+              "t": "Da hast du recht. Dann sagen wir einfach, jeder kann ein Spiel mitbringen."
+            },
+            {
+              "v": "f2",
+              "t": "Und das Essen? Sollen wir kochen?"
+            },
+            {
+              "v": "m2",
+              "t": "Das wird zu viel Arbeit. Ich hätte einen anderen Vorschlag: Jeder bringt etwas Kleines mit, und wir kaufen die Getränke."
+            },
+            {
+              "v": "f2",
+              "t": "Einverstanden. Und wie sagen wir es den Nachbarn? Ein Zettel im Treppenhaus?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, und zusätzlich werfen wir eine Einladung in jeden Briefkasten. Das übernehme ich."
+            },
+            {
+              "v": "f2",
+              "t": "Prima. Dann kümmere ich mich um den Raum und die Getränke."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Ehrenamtliche Arbeit – sollte sich jeder engagieren?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Mein Thema heute ist die ehrenamtliche Arbeit, also die Frage, ob sich jeder in seiner Freizeit ohne Bezahlung für andere engagieren sollte. Zuerst erzähle ich von meinen eigenen Erfahrungen, dann spreche ich über die Situation in Spanien, und danach über die Vorteile und Nachteile. Am Ende sage ich meine Meinung."
+            },
+            {
+              "v": "m1",
+              "t": "Ich selbst habe als Student in Córdoba zwei Jahre lang ehrenamtlich Kindern bei den Hausaufgaben geholfen. Das war eine Erfahrung, an die ich mich heute noch gern erinnere. Hier in Zürich habe ich leider weniger Zeit, aber ich helfe manchmal beim Quartierfest."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien engagieren sich weniger Menschen in Vereinen als in der Schweiz. Dafür hilft die Familie viel mehr, zum Beispiel bei der Betreuung von Kindern und älteren Menschen. Große Organisationen wie das Rote Kreuz haben aber auch in Spanien viele Freiwillige."
+            },
+            {
+              "v": "m1",
+              "t": "Ein großer Vorteil ist, dass die Gesellschaft ohne Ehrenamt nicht funktionieren würde: Sportvereine, Feuerwehren und viele kulturelle Veranstaltungen leben davon. Man lernt außerdem neue Leute kennen, was für Ausländer sehr wichtig ist. Ein Nachteil ist, dass viele Menschen schon mit Arbeit und Familie genug Stress haben. Meiner Meinung nach sollte das Ehrenamt freiwillig bleiben, aber man sollte es mehr anerkennen."
+            },
+            {
+              "v": "m1",
+              "t": "Damit bin ich am Ende meiner Präsentation. Vielen Dank für Ihre Aufmerksamkeit! Haben Sie noch Fragen?"
+            }
+          ],
+          "question": "Würden Sie auch in einem Verein in der Schweiz mitmachen, in dem nur Deutsch gesprochen wird?",
+          "answer": "Ja, sehr gern. Ich glaube, das ist eine der besten Möglichkeiten, um Deutsch zu üben und Schweizer kennenzulernen. Am Anfang wäre es sicher schwierig, aber in einem Verein haben alle das gleiche Hobby, und so findet man schnell Themen, über die man sprechen kann."
+        },
+        {
+          "title": "Kultur live oder am Bildschirm?",
+          "model": [
+            {
+              "v": "f2",
+              "t": "Hallo zusammen! Ich möchte heute über das Thema „Kultur live oder am Bildschirm?“ sprechen. Ich beginne mit meinen persönlichen Erfahrungen. Danach erkläre ich, wie die Situation in Spanien ist. Dann nenne ich Vor- und Nachteile und sage, was ich selbst denke."
+            },
+            {
+              "v": "f2",
+              "t": "Ich gehe sehr gern ins Theater und in Konzerte, zum Beispiel in die Tonhalle hier in Zürich, aber ehrlich gesagt sehe ich viel mehr Filme und Serien zu Hause. Während der Pandemie habe ich sogar Opern online gesehen, was ich vorher nie gemacht hatte."
+            },
+            {
+              "v": "f2",
+              "t": "In Spanien ist Kultur oft ein Teil des Straßenlebens. Im Sommer gibt es in fast jeder Stadt Konzerte und Kino unter freiem Himmel, und viele sind kostenlos. Trotzdem streamen auch in Spanien immer mehr Menschen, besonders die jungen."
+            },
+            {
+              "v": "f2",
+              "t": "Der größte Vorteil von Kultur am Bildschirm ist, dass sie billig und bequem ist. Man kann Aufführungen aus der ganzen Welt sehen. Außerdem ist das eine gute Möglichkeit für Menschen, die auf dem Land wohnen oder nicht mehr gut gehen können. Der Nachteil ist, dass man die Atmosphäre nicht erlebt: die Stimmung im Saal, den Applaus, das Gespräch danach. Ich finde, dass beides seine Berechtigung hat, aber ein Live-Erlebnis kann der Bildschirm nicht ersetzen."
+            },
+            {
+              "v": "f2",
+              "t": "Das war meine Präsentation. Vielen Dank fürs Zuhören! Ich freue mich auf Ihre Fragen."
+            }
+          ],
+          "question": "Was war das beste Live-Erlebnis, an das Sie sich erinnern?",
+          "answer": "Das war ein Flamenco-Abend in Almería, bei dem meine Cousine getanzt hat. Die Stimmung war unglaublich, und am Ende hat das ganze Publikum mitgesungen. So etwas kann man zu Hause vor dem Fernseher nicht erleben."
+        }
+      ]
+    }
+  }
+}

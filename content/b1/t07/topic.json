@@ -1,0 +1,2185 @@
+{
+  "id": "b1-t07",
+  "level": "b1",
+  "topic": "t07",
+  "title": "Medio ambiente",
+  "title_de": "Umwelt und Klima",
+  "goals": [
+    "Hablar de las causas y consecuencias del cambio climático",
+    "Explicar cómo se recicla y se ahorra energía en Suiza",
+    "Expresar normas y obligaciones con la pasiva con modales (Der Müll muss getrennt werden)",
+    "Hacer predicciones, promesas y suposiciones con el futuro I",
+    "Distinguir los tres usos de werden (volverse, pasiva, futuro)",
+    "Decidir si un comentario está a favor o en contra (Lesen Teil 4)",
+    "Proponer medidas para proteger el medio ambiente en un foro o una presentación"
+  ],
+  "vocab": [
+    {
+      "de": "der Umweltschutz",
+      "es": "la protección del medio ambiente",
+      "cat": "Clima y problemas",
+      "ex": "Umweltschutz ist für viele junge Leute sehr wichtig.",
+      "ex_es": "La protección del medio ambiente es muy importante para muchos jóvenes."
+    },
+    {
+      "de": "das Klima",
+      "es": "el clima",
+      "cat": "Clima y problemas",
+      "ex": "Das Klima in den Alpen verändert sich schnell.",
+      "ex_es": "El clima de los Alpes está cambiando rápido."
+    },
+    {
+      "de": "die Erderwärmung",
+      "es": "el calentamiento global",
+      "cat": "Clima y problemas",
+      "ex": "Die Erderwärmung ist eine große Gefahr für die Gletscher.",
+      "ex_es": "El calentamiento global es un gran peligro para los glaciares."
+    },
+    {
+      "de": "die Ursache",
+      "pl": "die Ursachen",
+      "es": "la causa",
+      "cat": "Clima y problemas",
+      "ex": "Was ist die Ursache für das Problem?",
+      "ex_es": "¿Cuál es la causa del problema?"
+    },
+    {
+      "de": "die Hitze",
+      "es": "el calor (intenso)",
+      "cat": "Clima y problemas",
+      "ex": "Bei dieser Hitze kann ich nicht schlafen.",
+      "ex_es": "Con este calor no puedo dormir."
+    },
+    {
+      "de": "die Trockenheit",
+      "es": "la sequía",
+      "cat": "Clima y problemas",
+      "ex": "Wegen der Trockenheit ist das Grillen im Wald verboten.",
+      "ex_es": "Por la sequía está prohibido hacer barbacoas en el bosque."
+    },
+    {
+      "de": "die Überschwemmung",
+      "pl": "die Überschwemmungen",
+      "es": "la inundación",
+      "cat": "Clima y problemas",
+      "ex": "Nach dem Gewitter gab es Überschwemmungen im Dorf.",
+      "ex_es": "Después de la tormenta hubo inundaciones en el pueblo."
+    },
+    {
+      "de": "die Katastrophe",
+      "pl": "die Katastrophen",
+      "es": "la catástrofe",
+      "cat": "Clima y problemas",
+      "ex": "Für die Bauern war der trockene Sommer eine Katastrophe.",
+      "ex_es": "Para los agricultores, el verano seco fue una catástrofe."
+    },
+    {
+      "de": "die Luft",
+      "es": "el aire",
+      "cat": "Clima y problemas",
+      "ex": "In den Bergen ist die Luft viel sauberer.",
+      "ex_es": "En la montaña el aire está mucho más limpio."
+    },
+    {
+      "de": "verschmutzen",
+      "es": "contaminar, ensuciar",
+      "cat": "Clima y problemas",
+      "forms": "er verschmutzt, hat verschmutzt",
+      "ex": "Die Fabrik hat den Fluss verschmutzt.",
+      "ex_es": "La fábrica ha contaminado el río."
+    },
+    {
+      "de": "die Verschmutzung",
+      "pl": "die Verschmutzungen",
+      "es": "la contaminación",
+      "cat": "Clima y problemas",
+      "ex": "Die Verschmutzung der Meere ist ein großes Problem.",
+      "ex_es": "La contaminación de los mares es un gran problema."
+    },
+    {
+      "de": "das Abgas",
+      "pl": "die Abgase",
+      "es": "el gas de escape",
+      "cat": "Clima y problemas",
+      "ex": "Die Abgase der Autos sind schlecht für die Gesundheit.",
+      "ex_es": "Los gases de escape de los coches son malos para la salud."
+    },
+    {
+      "de": "schaden (+ Dat.)",
+      "es": "perjudicar, dañar",
+      "cat": "Clima y problemas",
+      "forms": "er schadet, hat geschadet",
+      "ex": "Zu viel Fleisch schadet der Umwelt.",
+      "ex_es": "Demasiada carne perjudica al medio ambiente."
+    },
+    {
+      "de": "umweltschädlich",
+      "es": "perjudicial para el medio ambiente",
+      "cat": "Clima y problemas",
+      "ex": "Kurze Flüge sind besonders umweltschädlich.",
+      "ex_es": "Los vuelos cortos son especialmente perjudiciales para el medio ambiente."
+    },
+    {
+      "de": "steigen",
+      "es": "subir, aumentar",
+      "cat": "Clima y problemas",
+      "forms": "er steigt, stieg, ist gestiegen",
+      "ex": "Die Temperaturen sind in den letzten Jahren gestiegen.",
+      "ex_es": "Las temperaturas han subido en los últimos años."
+    },
+    {
+      "de": "sinken",
+      "es": "bajar, disminuir",
+      "cat": "Clima y problemas",
+      "forms": "er sinkt, sank, ist gesunken",
+      "ex": "Der Wasserstand im See ist stark gesunken.",
+      "ex_es": "El nivel del agua del lago ha bajado mucho."
+    },
+    {
+      "de": "die Art",
+      "pl": "die Arten",
+      "es": "la especie; el tipo",
+      "cat": "Clima y problemas",
+      "ex": "In diesem Wald leben viele seltene Arten.",
+      "ex_es": "En este bosque viven muchas especies raras."
+    },
+    {
+      "de": "aussterben",
+      "es": "extinguirse",
+      "cat": "Clima y problemas",
+      "forms": "er stirbt aus, starb aus, ist ausgestorben",
+      "ex": "Ohne Schutz wird diese Vogelart aussterben.",
+      "ex_es": "Sin protección esta especie de pájaro se extinguirá."
+    },
+    {
+      "de": "die Natur",
+      "es": "la naturaleza",
+      "cat": "Clima y problemas",
+      "ex": "Am Wochenende sind wir gern in der Natur.",
+      "ex_es": "El fin de semana nos gusta estar en la naturaleza."
+    },
+    {
+      "de": "die Energie",
+      "pl": "die Energien",
+      "es": "la energía",
+      "cat": "Energía",
+      "ex": "Wir müssen Energie sparen.",
+      "ex_es": "Tenemos que ahorrar energía."
+    },
+    {
+      "de": "der Strom",
+      "es": "la electricidad, la corriente",
+      "cat": "Energía",
+      "ex": "Unser Strom kommt aus Wasserkraft.",
+      "ex_es": "Nuestra electricidad viene de la energía hidráulica."
+    },
+    {
+      "de": "verbrauchen",
+      "es": "consumir, gastar",
+      "cat": "Energía",
+      "forms": "er verbraucht, hat verbraucht",
+      "ex": "Ein alter Kühlschrank verbraucht viel Strom.",
+      "ex_es": "Una nevera vieja consume mucha electricidad."
+    },
+    {
+      "de": "der Verbrauch",
+      "es": "el consumo",
+      "cat": "Energía",
+      "ex": "Der Verbrauch von Wasser ist im Sommer höher.",
+      "ex_es": "El consumo de agua es más alto en verano."
+    },
+    {
+      "de": "erneuerbar",
+      "es": "renovable",
+      "cat": "Energía",
+      "ex": "Die Schweiz will mehr erneuerbare Energie produzieren.",
+      "ex_es": "Suiza quiere producir más energía renovable."
+    },
+    {
+      "de": "die Solaranlage",
+      "pl": "die Solaranlagen",
+      "es": "la instalación solar",
+      "cat": "Energía",
+      "ex": "Auf dem Dach der Schule wurde eine Solaranlage gebaut.",
+      "ex_es": "En el tejado del colegio se construyó una instalación solar."
+    },
+    {
+      "de": "das Kraftwerk",
+      "pl": "die Kraftwerke",
+      "es": "la central eléctrica",
+      "cat": "Energía",
+      "ex": "Das Kraftwerk produziert Strom für die ganze Region.",
+      "ex_es": "La central produce electricidad para toda la región."
+    },
+    {
+      "de": "ausschalten",
+      "es": "apagar (un aparato)",
+      "cat": "Energía",
+      "forms": "er schaltet aus, hat ausgeschaltet",
+      "ex": "Schalte bitte das Licht aus, wenn du gehst.",
+      "ex_es": "Apaga la luz, por favor, cuando te vayas."
+    },
+    {
+      "de": "heizen",
+      "es": "calentar, poner la calefacción",
+      "cat": "Energía",
+      "forms": "er heizt, hat geheizt",
+      "ex": "Im Winter heizen wir nur bis 20 Grad.",
+      "ex_es": "En invierno ponemos la calefacción solo hasta 20 grados."
+    },
+    {
+      "de": "recyceln",
+      "es": "reciclar",
+      "cat": "Reciclaje",
+      "forms": "er recycelt, hat recycelt",
+      "ex": "Glas und Papier kann man gut recyceln.",
+      "ex_es": "El vidrio y el papel se reciclan bien."
+    },
+    {
+      "de": "wegwerfen",
+      "es": "tirar (a la basura)",
+      "cat": "Reciclaje",
+      "forms": "er wirft weg, warf weg, hat weggeworfen",
+      "ex": "Wir werfen zu viele Lebensmittel weg.",
+      "ex_es": "Tiramos demasiada comida."
+    },
+    {
+      "de": "entsorgen",
+      "es": "deshacerse de, eliminar (residuos)",
+      "cat": "Reciclaje",
+      "forms": "er entsorgt, hat entsorgt",
+      "ex": "Alte Farben muss man bei der Sammelstelle entsorgen.",
+      "ex_es": "Las pinturas viejas hay que llevarlas al punto de recogida."
+    },
+    {
+      "de": "die Verpackung",
+      "pl": "die Verpackungen",
+      "es": "el envase, el embalaje",
+      "cat": "Reciclaje",
+      "ex": "Im Supermarkt gibt es viel zu viele Verpackungen.",
+      "ex_es": "En el supermercado hay demasiados envases."
+    },
+    {
+      "de": "die Plastiktüte",
+      "pl": "die Plastiktüten",
+      "es": "la bolsa de plástico",
+      "cat": "Reciclaje",
+      "ex": "Ich nehme keine Plastiktüte, ich habe meinen Rucksack dabei.",
+      "ex_es": "No cojo bolsa de plástico, llevo mi mochila."
+    },
+    {
+      "de": "die Batterie",
+      "pl": "die Batterien",
+      "es": "la pila, la batería",
+      "cat": "Reciclaje",
+      "ex": "Leere Batterien bringe ich in den Supermarkt zurück.",
+      "ex_es": "Las pilas gastadas las devuelvo al supermercado."
+    },
+    {
+      "de": "die Sammelstelle",
+      "pl": "die Sammelstellen",
+      "es": "el punto de recogida (de residuos)",
+      "cat": "Reciclaje",
+      "ex": "Die Sammelstelle ist samstags von 8 bis 12 Uhr offen.",
+      "ex_es": "El punto de recogida abre los sábados de 8 a 12."
+    },
+    {
+      "de": "der Container",
+      "pl": "die Container",
+      "es": "el contenedor",
+      "cat": "Reciclaje",
+      "ex": "Der Altglascontainer steht neben dem Bahnhof.",
+      "ex_es": "El contenedor de vidrio está al lado de la estación."
+    },
+    {
+      "de": "der Kompost",
+      "es": "el compost",
+      "cat": "Reciclaje",
+      "ex": "Kaffeesatz und Gemüsereste kommen auf den Kompost.",
+      "ex_es": "Los posos de café y los restos de verdura van al compost."
+    },
+    {
+      "de": "die Strafe",
+      "pl": "die Strafen",
+      "es": "la multa, el castigo",
+      "cat": "Reciclaje",
+      "ex": "Für Müll im Wald gibt es eine hohe Strafe.",
+      "ex_es": "Por tirar basura en el bosque hay una multa alta."
+    },
+    {
+      "de": "nachhaltig",
+      "es": "sostenible",
+      "cat": "Consumo responsable",
+      "ex": "Wir möchten nachhaltiger leben.",
+      "ex_es": "Queremos vivir de forma más sostenible."
+    },
+    {
+      "de": "regional",
+      "es": "regional, de la zona",
+      "cat": "Consumo responsable",
+      "ex": "Auf dem Markt kaufe ich regionales Gemüse.",
+      "ex_es": "En el mercado compro verdura de la zona."
+    },
+    {
+      "de": "saisonal",
+      "es": "de temporada",
+      "cat": "Consumo responsable",
+      "ex": "Erdbeeren im Dezember sind nicht saisonal.",
+      "ex_es": "Las fresas en diciembre no son de temporada."
+    },
+    {
+      "de": "vermeiden",
+      "es": "evitar",
+      "cat": "Consumo responsable",
+      "forms": "er vermeidet, vermied, hat vermieden",
+      "ex": "Ich versuche, Plastik zu vermeiden.",
+      "ex_es": "Intento evitar el plástico."
+    },
+    {
+      "de": "verzichten (auf + Akk.)",
+      "es": "renunciar (a), prescindir (de)",
+      "cat": "Consumo responsable",
+      "forms": "er verzichtet, hat verzichtet",
+      "ex": "Seit einem Jahr verzichten wir auf das Auto.",
+      "ex_es": "Desde hace un año prescindimos del coche."
+    },
+    {
+      "de": "reduzieren",
+      "es": "reducir",
+      "cat": "Consumo responsable",
+      "forms": "er reduziert, hat reduziert",
+      "ex": "Die Firma will ihren CO₂-Ausstoß bis 2030 reduzieren.",
+      "ex_es": "La empresa quiere reducir sus emisiones de CO₂ de aquí a 2030."
+    },
+    {
+      "de": "die öffentlichen Verkehrsmittel",
+      "es": "el transporte público",
+      "cat": "Consumo responsable",
+      "ex": "In Zürich sind die öffentlichen Verkehrsmittel sehr gut.",
+      "ex_es": "En Zúrich el transporte público es muy bueno."
+    },
+    {
+      "de": "das Elektroauto",
+      "pl": "die Elektroautos",
+      "es": "el coche eléctrico",
+      "cat": "Consumo responsable",
+      "ex": "Mein Nachbar hat sich ein Elektroauto gekauft.",
+      "ex_es": "Mi vecino se ha comprado un coche eléctrico."
+    },
+    {
+      "de": "die Zukunft",
+      "es": "el futuro",
+      "cat": "Futuro y medidas",
+      "ex": "In Zukunft werden wir weniger Auto fahren.",
+      "ex_es": "En el futuro iremos menos en coche."
+    },
+    {
+      "de": "die Generation",
+      "pl": "die Generationen",
+      "es": "la generación",
+      "cat": "Futuro y medidas",
+      "ex": "Wir müssen an die nächsten Generationen denken.",
+      "ex_es": "Tenemos que pensar en las próximas generaciones."
+    },
+    {
+      "de": "die Maßnahme",
+      "pl": "die Maßnahmen",
+      "es": "la medida",
+      "cat": "Futuro y medidas",
+      "ex": "Die Stadt plant neue Maßnahmen gegen den Verkehr.",
+      "ex_es": "La ciudad planea nuevas medidas contra el tráfico."
+    },
+    {
+      "de": "das Verbot",
+      "pl": "die Verbote",
+      "es": "la prohibición",
+      "cat": "Futuro y medidas",
+      "ex": "Was hältst du von einem Verbot von Plastiktüten?",
+      "ex_es": "¿Qué te parece una prohibición de las bolsas de plástico?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Medio ambiente",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "die Ursache",
+          "la causa"
+        ],
+        [
+          "die Trockenheit",
+          "la sequía"
+        ],
+        [
+          "die Überschwemmung",
+          "la inundación"
+        ],
+        [
+          "verschmutzen",
+          "contaminar"
+        ],
+        [
+          "aussterben",
+          "extinguirse"
+        ],
+        [
+          "der Strom",
+          "la electricidad"
+        ],
+        [
+          "erneuerbar",
+          "renovable"
+        ],
+        [
+          "wegwerfen",
+          "tirar a la basura"
+        ],
+        [
+          "die Verpackung",
+          "el envase"
+        ],
+        [
+          "nachhaltig",
+          "sostenible"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "Vocabulario en contexto",
+      "instructions": "Elige la palabra que falta.",
+      "items": [
+        {
+          "q": "Alte Batterien darf man nicht in den normalen Müll ___.",
+          "options": [
+            "verbrauchen",
+            "werfen",
+            "heizen"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Zu viele Abgase ___ der Gesundheit.",
+          "options": [
+            "schaden",
+            "sparen",
+            "sinken"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Seit einem Jahr verzichten wir ___ Fleisch.",
+          "options": [
+            "über",
+            "für",
+            "auf"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Im Winter ___ wir die Wohnung nur bis 20 Grad.",
+          "options": [
+            "recyceln",
+            "steigen",
+            "heizen"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Die Temperaturen sind im letzten Sommer stark ___.",
+          "options": [
+            "gestiegen",
+            "gesunken",
+            "gestorben"
+          ],
+          "answer": 0,
+          "explain": "Si hace más calor, las temperaturas suben: steigen, ist gestiegen."
+        },
+        {
+          "q": "Ich kaufe Erdbeeren nur im Juni, weil ich ___ Obst kaufen will.",
+          "options": [
+            "umweltschädliches",
+            "saisonales",
+            "erneuerbares"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "mc",
+      "title": "¿Qué werden es?",
+      "instructions": "¿Qué función tiene werden en cada frase: verbo pleno («volverse»), pasiva o futuro?",
+      "items": [
+        {
+          "q": "Das Altglas wird jeden Dienstag abgeholt.",
+          "options": [
+            "volverse",
+            "pasiva",
+            "futuro"
+          ],
+          "answer": 1,
+          "explain": "werden + participio II (abgeholt) = pasiva."
+        },
+        {
+          "q": "Die Winter werden immer wärmer.",
+          "options": [
+            "volverse",
+            "pasiva",
+            "futuro"
+          ],
+          "answer": 0,
+          "explain": "werden + adjetivo = volverse."
+        },
+        {
+          "q": "Bis 2050 wird es in den Alpen viel weniger Schnee geben.",
+          "options": [
+            "volverse",
+            "pasiva",
+            "futuro"
+          ],
+          "answer": 2,
+          "explain": "werden + infinitivo (geben) = futuro."
+        },
+        {
+          "q": "Ich werde ab Montag mit dem Velo fahren.",
+          "options": [
+            "volverse",
+            "pasiva",
+            "futuro"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Mein Bruder wird Umweltingenieur.",
+          "options": [
+            "volverse",
+            "pasiva",
+            "futuro"
+          ],
+          "answer": 0,
+          "explain": "werden + profesión = llegar a ser."
+        },
+        {
+          "q": "Plastik muss vermieden werden.",
+          "options": [
+            "volverse",
+            "pasiva",
+            "futuro"
+          ],
+          "answer": 1,
+          "explain": "participio (vermieden) + werden = pasiva con modal."
+        },
+        {
+          "q": "Andrea ist noch nicht da. Sie wird wohl im Stau stehen.",
+          "options": [
+            "volverse",
+            "pasiva",
+            "futuro"
+          ],
+          "answer": 2,
+          "explain": "Futuro con wohl = suposición sobre el presente."
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "gap",
+      "title": "Pasiva con modales",
+      "instructions": "Escribe el participio II del verbo entre paréntesis.",
+      "items": [
+        {
+          "text": "Der Müll muss [[getrennt]] werden. (trennen)"
+        },
+        {
+          "text": "Glasflaschen können [[recycelt]] werden. (recyceln)"
+        },
+        {
+          "text": "Das Licht sollte am Abend [[ausgeschaltet]] werden. (ausschalten)"
+        },
+        {
+          "text": "Batterien dürfen nicht in den Hausmüll [[geworfen]] werden. (werfen)"
+        },
+        {
+          "text": "Unnötige Verpackungen sollten [[vermieden]] werden. (vermeiden)"
+        },
+        {
+          "text": "Alte Elektrogeräte können bei der Sammelstelle [[abgegeben]] werden. (abgeben)"
+        },
+        {
+          "text": "Der Energieverbrauch muss [[reduziert]] werden. (reduzieren)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "order",
+      "title": "Ordena la frase en pasiva",
+      "instructions": "Ordena las palabras. Recuerda: modal en posición 2 y «participio + werden» al final.",
+      "items": [
+        {
+          "words": [
+            "Der",
+            "Müll",
+            "muss",
+            "getrennt",
+            "werden",
+            "."
+          ],
+          "answers": [
+            "Der Müll muss getrennt werden."
+          ]
+        },
+        {
+          "words": [
+            "Im",
+            "Wald",
+            "darf",
+            "kein",
+            "Feuer",
+            "gemacht",
+            "werden",
+            "."
+          ],
+          "answers": [
+            "Im Wald darf kein Feuer gemacht werden.",
+            "Kein Feuer darf im Wald gemacht werden."
+          ]
+        },
+        {
+          "words": [
+            "Mehr",
+            "Fahrradwege",
+            "sollten",
+            "gebaut",
+            "werden",
+            "."
+          ],
+          "answers": [
+            "Mehr Fahrradwege sollten gebaut werden."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "weiß",
+            ",",
+            "dass",
+            "Karton",
+            "gebündelt",
+            "werden",
+            "muss",
+            "."
+          ],
+          "answers": [
+            "Ich weiß, dass Karton gebündelt werden muss."
+          ]
+        },
+        {
+          "words": [
+            "Früher",
+            "musste",
+            "der",
+            "Müll",
+            "nicht",
+            "getrennt",
+            "werden",
+            "."
+          ],
+          "answers": [
+            "Früher musste der Müll nicht getrennt werden."
+          ]
+        },
+        {
+          "words": [
+            "Wo",
+            "können",
+            "alte",
+            "Batterien",
+            "abgegeben",
+            "werden",
+            "?"
+          ],
+          "answers": [
+            "Wo können alte Batterien abgegeben werden?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "write",
+      "title": "De «man» a pasiva",
+      "instructions": "Transforma la frase activa con man en pasiva con modal.",
+      "items": [
+        {
+          "prompt": "Man muss das Glas nach Farben trennen.",
+          "answers": [
+            "Das Glas muss nach Farben getrennt werden."
+          ]
+        },
+        {
+          "prompt": "Man kann PET-Flaschen im Supermarkt zurückgeben.",
+          "answers": [
+            "PET-Flaschen können im Supermarkt zurückgegeben werden.",
+            "Im Supermarkt können PET-Flaschen zurückgegeben werden."
+          ]
+        },
+        {
+          "prompt": "Man soll Energie sparen.",
+          "answers": [
+            "Energie soll gespart werden."
+          ]
+        },
+        {
+          "prompt": "Man darf hier keinen Müll abstellen.",
+          "answers": [
+            "Hier darf kein Müll abgestellt werden.",
+            "Kein Müll darf hier abgestellt werden."
+          ]
+        },
+        {
+          "prompt": "Man sollte die Heizung im Sommer ausschalten.",
+          "answers": [
+            "Die Heizung sollte im Sommer ausgeschaltet werden.",
+            "Im Sommer sollte die Heizung ausgeschaltet werden."
+          ]
+        },
+        {
+          "prompt": "Man musste das alte Kraftwerk schließen.",
+          "answers": [
+            "Das alte Kraftwerk musste geschlossen werden."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "gap",
+      "title": "El futuro I",
+      "instructions": "Completa con la forma correcta de werden.",
+      "items": [
+        {
+          "text": "Experten sagen, die Gletscher [[werden]] bis 2100 fast ganz verschwinden."
+        },
+        {
+          "text": "Ich [[werde]] ab jetzt weniger fliegen, das verspreche ich dir!"
+        },
+        {
+          "text": "[[Wirst]] du wirklich auf dein Auto verzichten?"
+        },
+        {
+          "text": "Es [[wird]] morgen den ganzen Tag regnen."
+        },
+        {
+          "text": "Wir [[werden]] im Herbst eine Solaranlage auf das Dach bauen."
+        },
+        {
+          "text": "Ihr [[werdet]] sehen: In zehn Jahren fahren alle elektrisch."
+        },
+        {
+          "text": "Jonas ist nicht ans Telefon gegangen. Er [[wird]] wohl noch schlafen."
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "order",
+      "title": "Frases en futuro",
+      "instructions": "Ordena la frase. En la subordinada, werden va al final.",
+      "items": [
+        {
+          "words": [
+            "Die",
+            "Temperaturen",
+            "werden",
+            "weiter",
+            "steigen",
+            "."
+          ],
+          "answers": [
+            "Die Temperaturen werden weiter steigen."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "werde",
+            "nächstes",
+            "Jahr",
+            "nicht",
+            "mehr",
+            "fliegen",
+            "."
+          ],
+          "answers": [
+            "Ich werde nächstes Jahr nicht mehr fliegen.",
+            "Nächstes Jahr werde ich nicht mehr fliegen."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "glaube",
+            ",",
+            "dass",
+            "es",
+            "weniger",
+            "Schnee",
+            "geben",
+            "wird",
+            "."
+          ],
+          "answers": [
+            "Ich glaube, dass es weniger Schnee geben wird."
+          ]
+        },
+        {
+          "words": [
+            "Er",
+            "wird",
+            "wohl",
+            "krank",
+            "sein",
+            "."
+          ],
+          "answers": [
+            "Er wird wohl krank sein."
+          ]
+        },
+        {
+          "words": [
+            "Wann",
+            "wird",
+            "die",
+            "neue",
+            "Tramlinie",
+            "fertig",
+            "sein",
+            "?"
+          ],
+          "answers": [
+            "Wann wird die neue Tramlinie fertig sein?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "write",
+      "title": "Promesas y predicciones",
+      "instructions": "Escribe la frase en alemán usando el futuro I (werden + infinitivo).",
+      "items": [
+        {
+          "prompt": "Mañana lloverá en toda Suiza.",
+          "answers": [
+            "Morgen wird es in der ganzen Schweiz regnen.",
+            "Es wird morgen in der ganzen Schweiz regnen."
+          ]
+        },
+        {
+          "prompt": "Te prometo que separaré la basura. (du)",
+          "answers": [
+            "Ich verspreche dir, dass ich den Müll trennen werde.",
+            "Ich verspreche dir, ich werde den Müll trennen."
+          ]
+        },
+        {
+          "prompt": "Muchas especies se extinguirán.",
+          "answers": [
+            "Viele Arten werden aussterben."
+          ]
+        },
+        {
+          "prompt": "José estará todavía en la universidad. (suposición con wohl)",
+          "answers": [
+            "José wird wohl noch an der Uni sein.",
+            "José wird wohl noch an der Universität sein."
+          ]
+        },
+        {
+          "prompt": "Creo que el agua será más cara.",
+          "answers": [
+            "Ich glaube, dass das Wasser teurer sein wird.",
+            "Ich glaube, dass das Wasser teurer werden wird.",
+            "Ich glaube, das Wasser wird teurer sein.",
+            "Ich glaube, das Wasser wird teurer werden."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "listen",
+      "title": "Noticias y avisos",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Liebe Bewohnerinnen und Bewohner, ab nächstem Monat muss Karton separat gesammelt werden. Er wird jeden zweiten Mittwoch abgeholt."
+            }
+          ],
+          "q": "¿Qué cambia el mes que viene?",
+          "options": [
+            "El cartón se debe recoger aparte.",
+            "La basura se recoge cada miércoles.",
+            "El cartón ya no se recoge."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Und jetzt das Wetter: Morgen wird es sonnig und sehr heiß. Am Nachmittag werden bis zu 35 Grad erwartet. Wegen der Trockenheit darf im Wald nicht gegrillt werden."
+            }
+          ],
+          "q": "¿Qué no se puede hacer mañana?",
+          "options": [
+            "Bañarse en el lago",
+            "Hacer barbacoa en el bosque",
+            "Ir al bosque"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wo ist eigentlich Lukas?"
+            },
+            {
+              "v": "m2",
+              "t": "Keine Ahnung. Er wird wohl noch bei der Sammelstelle sein. Er wollte die alten Möbel entsorgen."
+            }
+          ],
+          "q": "¿Dónde está Lukas, probablemente?",
+          "options": [
+            "En casa",
+            "En el supermercado",
+            "En el punto de recogida"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Ich habe beschlossen: Ab Januar werde ich auf mein Auto verzichten. Ich werde mit dem Zug zur Arbeit fahren und am Wochenende ein Auto teilen."
+            }
+          ],
+          "q": "¿Qué va a hacer la mujer a partir de enero?",
+          "options": [
+            "Comprar un coche eléctrico",
+            "Ir al trabajo en tren",
+            "Trabajar desde casa"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Die Stadt Graz informiert: Alte Elektrogeräte dürfen nicht auf die Straße gestellt werden. Sie können kostenlos im Recyclingcenter abgegeben werden."
+            }
+          ],
+          "q": "¿Qué hay que hacer con los aparatos eléctricos viejos?",
+          "options": [
+            "Dejarlos en la calle",
+            "Llevarlos al centro de reciclaje",
+            "Pagar una tasa"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Der Müll muss getrennt werden."
+            }
+          ],
+          "answers": [
+            "Der Müll muss getrennt werden."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Die Temperaturen werden weiter steigen."
+            }
+          ],
+          "answers": [
+            "Die Temperaturen werden weiter steigen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Plastik sollte vermieden werden."
+            }
+          ],
+          "answers": [
+            "Plastik sollte vermieden werden."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Ich werde weniger Fleisch essen."
+            }
+          ],
+          "answers": [
+            "Ich werde weniger Fleisch essen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Wir verbrauchen zu viel Strom."
+            }
+          ],
+          "answers": [
+            "Wir verbrauchen zu viel Strom."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "gap",
+      "title": "Un correo a la comunidad",
+      "instructions": "Completa el aviso de la administración del edificio con werden, el modal o el participio que falta.",
+      "items": [
+        {
+          "text": "Liebe Mieterinnen und Mieter, ab 1. März [[muss/soll]] der Biomüll in die grüne Tonne geworfen werden."
+        },
+        {
+          "text": "Der Karton kann jeden zweiten Freitag vor das Haus gestellt [[werden]]."
+        },
+        {
+          "text": "Fahrräder dürfen nicht im Treppenhaus [[abgestellt]] werden. (abstellen)"
+        },
+        {
+          "text": "Im Waschraum soll nach 22 Uhr nicht mehr gewaschen [[werden]]."
+        },
+        {
+          "text": "Wir [[werden]] im Frühling neue Container für Altglas aufstellen."
+        },
+        {
+          "text": "Wir hoffen, dass die neuen Regeln von allen beachtet [[werden]]."
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Mein Jahr (fast) ohne Plastik",
+          "text": "Hallo zusammen!\n\nVor genau einem Jahr habe ich hier geschrieben, dass ich ein Jahr lang möglichst ohne Plastik leben will. Viele von euch haben damals gelacht – auch mein Freund Daniel. Heute kann ich sagen: Ganz ohne Plastik ging es nicht, aber ich habe viel mehr geschafft, als ich gedacht hatte.\n\nAm schwierigsten war der Anfang. Im normalen Supermarkt ist fast alles verpackt: Käse, Fleisch, sogar Gurken. Deshalb kaufe ich jetzt einmal pro Woche auf dem Markt ein und bringe meine eigenen Dosen und Stofftaschen mit. Die Verkäuferinnen und Verkäufer kennen mich inzwischen und füllen alles direkt in meine Behälter. Für Nudeln, Reis und Müsli gehe ich in einen Unverpackt-Laden in der Nähe vom Bahnhof. Dort ist es leider ein bisschen teurer, aber ich kaufe nur noch, was ich wirklich brauche, und werfe deshalb fast nichts mehr weg.\n\nIm Badezimmer habe ich Duschgel und Shampoo durch feste Seife ersetzt. Das war einfacher als gedacht. Nur bei der Zahnpasta habe ich nach drei Versuchen aufgegeben – die Zahnputztabletten haben mir überhaupt nicht geschmeckt.\n\nDas Beste an diesem Jahr: Unser Kehrichtsack ist nur noch alle drei Wochen voll, früher war es jede Woche. Wir sparen also auch Geld für die Gebührensäcke. Und Daniel? Er lacht nicht mehr. Seit dem Sommer nimmt er sogar seinen eigenen Becher ins Café mit.\n\nWie geht es weiter? Ich werde auf jeden Fall weitermachen. Im nächsten Jahr möchte ich auch beim Kleiderkauf nachhaltiger werden: weniger Neues, mehr Secondhand. Habt ihr Tipps für gute Secondhand-Läden in Basel? Schreibt sie mir in die Kommentare!\n\nEure Carla",
+          "statements": [
+            {
+              "s": "Carla hat es geschafft, ein ganzes Jahr ohne Plastik zu leben.",
+              "answer": false
+            },
+            {
+              "s": "Auf dem Markt bekommt Carla die Lebensmittel in ihre eigenen Behälter.",
+              "answer": true
+            },
+            {
+              "s": "Im Unverpackt-Laden bezahlt Carla weniger als im Supermarkt.",
+              "answer": false
+            },
+            {
+              "s": "Mit der Zahnpasta ohne Plastik war Carla nicht zufrieden.",
+              "answer": true
+            },
+            {
+              "s": "Carla und Daniel brauchen heute weniger Kehrichtsäcke als früher.",
+              "answer": true
+            },
+            {
+              "s": "Daniel fand Carlas Idee von Anfang an gut.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "title": "E-Mail von Moritz",
+          "text": "Liebe Sara,\n\ndanke für deine lange Mail! Schön, dass es dir in Hamburg so gut gefällt. Bei mir gibt es auch Neuigkeiten: Letzten Samstag habe ich zum ersten Mal beim Clean-up-Day am Zürichsee mitgemacht. Das ist eine Aktion, bei der Freiwillige einen Tag lang Abfall in der Natur einsammeln. Meine Kollegin Ramona hat mich überredet – ehrlich gesagt hatte ich zuerst keine große Lust, weil ich am Samstag lieber ausschlafe.\n\nWir haben uns um neun Uhr beim Hafen getroffen. Die Organisatoren haben uns Handschuhe, Säcke und Greifzangen gegeben, und dann ging es los. Ich hätte nie gedacht, wie viel Müll da herumliegt! In nur drei Stunden haben wir über 200 Kilo gesammelt: Flaschen, Verpackungen, sogar ein altes Velo aus dem Wasser. Am meisten haben mich aber die Zigarettenstummel geschockt. Ein einziger Stummel kann bis zu 40 Liter Wasser verschmutzen, hat uns ein Organisator erklärt.\n\nZum Schluss gab es für alle ein Gratis-Mittagessen und Musik. Ich habe viele nette Leute kennengelernt, unter anderem eine Gruppe aus Spanien, die auch in Zürich arbeitet. Mit zwei von ihnen gehe ich nächste Woche klettern.\n\nIm September wird es wieder einen Clean-up-Day geben, diesmal im Wald am Uetliberg. Ich werde auf jeden Fall wieder dabei sein. Du kommst doch im September zu Besuch, oder? Vielleicht hast du ja Lust mitzumachen? Danach könnten wir zusammen grillen – natürlich ohne Plastikgeschirr!\n\nLiebe Grüße aus Zürich\nMoritz",
+          "statements": [
+            {
+              "s": "Moritz wollte von Anfang an beim Clean-up-Day mitmachen.",
+              "answer": false
+            },
+            {
+              "s": "Die Teilnehmer mussten ihr Material nicht selbst mitbringen.",
+              "answer": true
+            },
+            {
+              "s": "Die Gruppe hat auch etwas aus dem See geholt.",
+              "answer": true
+            },
+            {
+              "s": "Am meisten hat Moritz die vielen Flaschen überrascht.",
+              "answer": false
+            },
+            {
+              "s": "Moritz hat beim Clean-up-Day Leute für ein gemeinsames Hobby gefunden.",
+              "answer": true
+            },
+            {
+              "s": "Der nächste Clean-up-Day findet wieder am See statt.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Überraschungstüten gegen Foodwaste",
+          "text": "In der Schweiz landen jedes Jahr rund 2,8 Millionen Tonnen Lebensmittel im Abfall – etwa ein Drittel aller produzierten Lebensmittel. Eine App will das ändern: Restaurants, Bäckereien und Supermärkte bieten am Abend Essen, das sie nicht verkauft haben, zu einem günstigen Preis an. Die Kunden reservieren eine „Überraschungstüte“ in der App und holen sie kurz vor Ladenschluss ab.\n\nDas Prinzip ist einfach, und es funktioniert. Seit dem Start vor fünf Jahren haben in der Schweiz über zwei Millionen Menschen die App heruntergeladen. „Am Anfang waren es vor allem Studierende, die günstig essen wollten“, erzählt Sabine Kälin, die eine Bäckerei in Luzern führt. „Heute kommen auch Familien und Rentner.“ Für drei bis fünf Franken bekommen sie Brot und Gebäck, das normalerweise zwölf bis fünfzehn Franken kosten würde. Was am Abend übrig blieb, musste die Bäckerei früher wegwerfen oder einem Bauern für seine Tiere geben.\n\nKritik gibt es trotzdem. Umweltorganisationen sagen, dass die App das Problem nur am Ende der Kette löst. Der größte Teil der Lebensmittel wird nämlich nicht in Geschäften, sondern in Privathaushalten und bei der Produktion weggeworfen. „Die App ist ein guter Anfang, aber jeder muss auch zu Hause besser planen“, meint Kälin. Ihr Tipp: nicht hungrig einkaufen gehen und vorher eine Liste schreiben.",
+          "questions": [
+            {
+              "q": "Was können die Kunden mit der App machen?",
+              "options": [
+                "Lebensmittel nach Hause bestellen.",
+                "Lebensmittel, die nicht verkauft wurden, günstig kaufen.",
+                "Ihre eigenen Reste an andere verschenken."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was hat sich bei den Kunden der Bäckerei verändert?",
+              "options": [
+                "Sie bezahlen heute mehr für eine Tüte.",
+                "Es kommen heute fast nur noch Studierende.",
+                "Heute nutzen auch andere Gruppen die App."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was kritisieren Umweltorganisationen?",
+              "options": [
+                "Die meisten Lebensmittel werden nicht in Geschäften weggeworfen.",
+                "Die Überraschungstüten sind zu teuer.",
+                "Die Bäckereien verdienen mit der App zu wenig."
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "title": "Weiße Decken für den Rhonegletscher",
+          "text": "Wer im Sommer zum Rhonegletscher im Wallis fährt, sieht ein seltsames Bild: Ein Teil des Gletschers ist mit großen weißen Tüchern bedeckt. Die Tücher sollen das Sonnenlicht reflektieren und so verhindern, dass das Eis zu schnell schmilzt. Seit vielen Jahren wird diese Methode hier eingesetzt – und sie funktioniert: Unter den Decken schmilzt deutlich weniger Eis als daneben.\n\nDer Grund für den großen Aufwand ist allerdings nicht nur der Naturschutz. Im Gletscher gibt es eine Eisgrotte, die jedes Jahr Tausende Touristen besuchen. Für das Hotel und das Restaurant an der Passstraße ist die Grotte die wichtigste Attraktion. Jedes Frühjahr muss der Tunnel im Eis neu gegraben werden, weil sich der Gletscher bewegt. Viele Besucher sind trotzdem enttäuscht: Sie hatten sich den Gletscher viel größer vorgestellt.\n\nWissenschaftler sind skeptisch. „Die Decken können einen kleinen Teil des Gletschers schützen, aber nicht den ganzen Gletscher retten“, sagt die Glaziologin Regula Imhof. Die Methode ist außerdem teuer und kann nur auf kleinen Flächen benutzt werden. Für alle Gletscher der Alpen wäre das unmöglich.\n\nDie Zahlen sind deutlich: Seit 1850 ist der Rhonegletscher um mehr als 1,5 Kilometer kürzer geworden. Experten rechnen damit, dass bis Ende des Jahrhunderts in der Schweiz nur noch wenige kleine Gletscher übrig sein werden – wenn die Erderwärmung nicht deutlich gebremst wird.",
+          "questions": [
+            {
+              "q": "Warum wird der Gletscher mit Tüchern bedeckt?",
+              "options": [
+                "Damit weniger Eis schmilzt.",
+                "Damit die Touristen ihn besser sehen.",
+                "Damit er sich nicht mehr bewegt."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Warum ist die Eisgrotte so wichtig?",
+              "options": [
+                "Dort wird das Wetter gemessen.",
+                "Wissenschaftler forschen dort.",
+                "Sie bringt Gäste für die Betriebe in der Nähe."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was meint Regula Imhof?",
+              "options": [
+                "Man sollte alle Gletscher mit Decken schützen.",
+                "Die Decken helfen nur an wenigen Stellen.",
+                "Die Decken schaden dem Gletscher."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Repair-Café Wiedikon: Jeden ersten Samstag im Monat reparieren Freiwillige kostenlos Ihre Elektrogeräte, Kleider und Velos. Ohne Anmeldung."
+            },
+            {
+              "key": "b",
+              "text": "Kleidertausch im Quartierzentrum: Bringen Sie bis zu zehn gut erhaltene Kleidungsstücke und nehmen Sie andere mit. Nur Damen- und Kinderkleidung."
+            },
+            {
+              "key": "c",
+              "text": "Velokurs für Erwachsene: Sicher Velofahren in der Stadt – drei Abende, auch für Personen, die noch nie auf einem Velo gesessen haben."
+            },
+            {
+              "key": "d",
+              "text": "Gemeinschaftsgarten „Grüne Ecke“ sucht neue Mitglieder: eigenes Beet, Werkzeug ist vorhanden. Jahresbeitrag 60 Franken."
+            },
+            {
+              "key": "e",
+              "text": "Energieberatung der Stadt: Unsere Fachleute kommen zu Ihnen nach Hause und zeigen Ihnen, wo Sie Strom und Heizkosten sparen können. Kostenlos für Mieter und Eigentümer."
+            },
+            {
+              "key": "f",
+              "text": "Unverpackt-Laden „Füllbar“: Nudeln, Reis, Öl und Putzmittel ohne Verpackung. Bitte eigene Behälter mitbringen. Montag bis Samstag geöffnet."
+            },
+            {
+              "key": "g",
+              "text": "AutoTeilen Schweiz: Über 3000 Autos in der ganzen Schweiz, stundenweise mieten. Ideal für alle, die nur selten ein Auto brauchen."
+            },
+            {
+              "key": "h",
+              "text": "Exkursion „Gletscher im Wandel“: geführte Wanderung zum Morteratschgletscher mit einer Glaziologin. Samstag, ca. vier Stunden, gute Kondition nötig."
+            },
+            {
+              "key": "i",
+              "text": "Brockenhaus Sihlfeld: Wir holen Ihre alten Möbel gratis ab und verkaufen sie günstig weiter. Große Auswahl an Tischen, Stühlen und Schränken."
+            },
+            {
+              "key": "j",
+              "text": "Vortrag „Klimafreundlich kochen – geht das auch günstig?“: Eine Ernährungsberaterin gibt Tipps für die Familienküche. Donnerstag, 19 Uhr, Volkshochschule."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Ihr Toaster funktioniert nicht mehr, aber Sie möchten keinen neuen kaufen.",
+              "answer": "a"
+            },
+            {
+              "situation": "Sie ziehen um und möchten Ihr altes Sofa loswerden, ohne es wegzuwerfen.",
+              "answer": "i"
+            },
+            {
+              "situation": "Ihre Stromrechnung war sehr hoch, und Sie möchten wissen, warum.",
+              "answer": "e"
+            },
+            {
+              "situation": "Ein Kollege möchte gern eigenes Gemüse anbauen, hat aber keinen Balkon.",
+              "answer": "d"
+            },
+            {
+              "situation": "Ihre Freundin hat als Kind nie Velofahren gelernt und möchte jetzt mit dem Velo zur Arbeit fahren.",
+              "answer": "c"
+            },
+            {
+              "situation": "Sie möchten Ihre alten Herrenhemden gegen andere Kleidung tauschen.",
+              "answer": "x"
+            },
+            {
+              "situation": "Sie möchten am Wochenende wandern und dabei etwas über den Klimawandel in den Bergen lernen.",
+              "answer": "h"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Autofreie Innenstadt?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über ein Verbot von Autos in der Innenstadt.",
+          "question": "Ist die Person für ein Autoverbot in der Innenstadt?",
+          "comments": [
+            {
+              "name": "Lukas, 34, Graz",
+              "text": "Ich wohne direkt an einer großen Straße im Zentrum. Im Sommer kann ich nachts das Fenster nicht öffnen, weil es so laut ist, und mein Sohn hat Asthma. Natürlich werden einige Leute sagen, dass sie ihr Auto brauchen. Aber in der Innenstadt gibt es Straßenbahnen, Busse und Radwege. Wer wirklich ein Auto braucht, kann am Stadtrand parken. Ich finde, es ist höchste Zeit.",
+              "answer": true
+            },
+            {
+              "name": "Brigitte, 61, Winterthur",
+              "text": "Ich habe ein Geschäft für Haushaltswaren in der Altstadt. Schon heute kommen viele Kunden nicht mehr zu mir, sondern bestellen im Internet. Wenn man nicht mehr mit dem Auto in die Stadt fahren darf, wer kauft dann noch einen schweren Topf oder eine Stehlampe bei mir? Ich bin auch für saubere Luft, aber so ein Verbot würde die kleinen Läden kaputtmachen.",
+              "answer": false
+            },
+            {
+              "name": "Selin, 27, Basel",
+              "text": "Einerseits verstehe ich die Ladenbesitzer, die Angst haben, Kunden zu verlieren. Andererseits zeigen Beispiele aus anderen Städten, dass mehr Menschen ins Zentrum kommen, wenn es dort ruhiger und grüner ist. Die Leute bleiben länger, sitzen in Cafés und kaufen mehr ein. Ein autofreies Zentrum ist gut für die Umwelt und am Ende auch für die Geschäfte.",
+              "answer": true
+            },
+            {
+              "name": "Konrad, 72, Innsbruck",
+              "text": "Ich bin nicht mehr so gut zu Fuß. Viele denken deshalb, dass ich gegen ein Autoverbot bin. Das Gegenteil ist richtig: Ich habe jedes Mal Angst, wenn ich eine Straße überqueren muss, weil die Autos so schnell fahren. Wichtig ist nur, dass genug Busse fahren und dass Taxis für ältere Menschen erlaubt bleiben. Dann lebe ich gern in einem Zentrum ohne Autos.",
+              "answer": true
+            },
+            {
+              "name": "Nadine, 39, Luzern",
+              "text": "Ich arbeite im Schichtdienst im Spital und fange manchmal um fünf Uhr morgens an. Um diese Zeit fährt kein Bus. Natürlich wäre es schön, wenn es in der Stadt ruhiger wäre, und in meiner Freizeit fahre ich fast nur Velo. Aber man darf nicht nur an die Leute denken, die von neun bis fünf im Büro sitzen. Für Menschen wie mich ist so ein Verbot einfach unrealistisch.",
+              "answer": false
+            },
+            {
+              "name": "Tobias, 45, Freiburg",
+              "text": "Ich habe selbst lange gedacht, dass ich ohne Auto nicht leben kann. Dann ist es kaputtgegangen, und drei Monate lang hatte ich kein Geld für ein neues. Und wissen Sie was? Es ging ohne Probleme. Mit dem Lastenrad bringe ich sogar meine zwei Kinder in den Kindergarten. Deshalb meine ich: Die Innenstadt sollte den Fußgängern und Radfahrern gehören.",
+              "answer": true
+            },
+            {
+              "name": "Melanie, 30, St. Gallen",
+              "text": "Saubere Luft, weniger Lärm – das klingt alles toll, und gegen mehr Grün in der Stadt hat sicher niemand etwas. Aber ein komplettes Verbot geht mir zu weit. Ich wohne auf dem Land, und der Bus fährt bei uns nur einmal pro Stunde. Wie soll ich da mit zwei kleinen Kindern zum Einkaufen oder zum Arzt in die Stadt kommen? Besser wären höhere Parkgebühren und günstigere Tickets.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Abfall richtig entsorgen – Merkblatt der Gemeinde Oberwilen",
+          "text": "1. Hauskehricht: Hauskehricht darf nur in den offiziellen, gebührenpflichtigen Kehrichtsäcken der Gemeinde bereitgestellt werden. Die Säcke können in allen Lebensmittelgeschäften der Gemeinde gekauft werden. Die Abfuhr ist jeden Dienstag. Die Säcke dürfen frühestens am Vorabend ab 19 Uhr an die Straße gestellt werden.\n\n2. Papier und Karton: Papier und Karton werden einmal im Monat abgeholt (siehe Abfallkalender). Sie müssen getrennt gebündelt und mit einer Schnur zusammengebunden werden. Papier in Plastiksäcken oder Kartonschachteln wird nicht mitgenommen.\n\n3. Grüngut: Garten- und Küchenabfälle gehören in den grünen Container. Die Container-Vignette kostet 80 Franken pro Jahr und kann bei der Gemeindeverwaltung bestellt werden. Fleisch- und Fischreste dürfen nicht ins Grüngut.\n\n4. Sammelstelle Werkhof: Glas, Metall, Altöl, Elektrogeräte und Sperrgut können während der Öffnungszeiten (Mittwoch 14–18 Uhr, Samstag 9–12 Uhr) beim Werkhof abgegeben werden. Elektrogeräte werden gratis angenommen, für Sperrgut wie Möbel oder Matratzen wird eine Gebühr von 5 Franken pro Stück verlangt.\n\n5. Verstöße: Wer Abfall illegal entsorgt oder im Garten verbrennt, muss mit einer Busse von bis zu 500 Franken rechnen.\n\n6. Fragen: Weitere Informationen erhalten Sie bei der Gemeindeverwaltung oder im Abfallkalender, der jedes Jahr im Dezember an alle Haushalte verschickt wird.",
+          "questions": [
+            {
+              "q": "Wann darf man den Kehrichtsack an die Straße stellen?",
+              "options": [
+                "Am Montag ab 19 Uhr.",
+                "Am Dienstag ab 19 Uhr.",
+                "An jedem Tag der Woche."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was passiert mit Altpapier in einem Plastiksack?",
+              "options": [
+                "Es wird kostenlos abgeholt.",
+                "Es wird nicht mitgenommen.",
+                "Es kommt in den Hauskehricht."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was gilt für das Grüngut?",
+              "options": [
+                "Die Vignette ist gratis.",
+                "Fischreste dürfen auch hinein.",
+                "Für den Container braucht man eine Vignette."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Wie viel kostet es, einen alten Fernseher und eine alte Matratze beim Werkhof abzugeben?",
+              "options": [
+                "10 Franken.",
+                "5 Franken.",
+                "Nichts."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Und nun die Nachrichten. Die Stadt Zürich will bis 2040 klimaneutral werden. Dafür sollen in den nächsten Jahren alle Ölheizungen in städtischen Gebäuden ersetzt werden. Außerdem werden auf mehr als hundert Schuldächern Solaranlagen gebaut. Die Kosten liegen bei rund 300 Millionen Franken. Die Bevölkerung wird im Juni über das Projekt abstimmen."
+            }
+          ],
+          "statement": "Die Stadt will Solaranlagen auf Schulen bauen.",
+          "tf": true,
+          "q": "Was passiert im Juni?",
+          "options": [
+            "Die Bauarbeiten beginnen.",
+            "Die Menschen stimmen über das Projekt ab.",
+            "Die Ölheizungen werden verboten."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Guten Tag, Herr Brunner, hier ist Petra Koller von der Hausverwaltung. Es geht um den Kompost im Hof. Einige Nachbarn haben sich beschwert, dass es dort stark riecht. Bitte werfen Sie keine Fleischreste mehr hinein, die gehören in den normalen Kehricht. Morgen kommt außerdem der Hauswart und bringt einen neuen Deckel. Bei Fragen erreichen Sie mich bis 17 Uhr. Danke und auf Wiederhören!"
+            }
+          ],
+          "statement": "Frau Koller ruft an, weil Herr Brunner sich beschwert hat.",
+          "tf": false,
+          "q": "Was passiert morgen?",
+          "options": [
+            "Der Kompost wird geleert.",
+            "Frau Koller kommt vorbei.",
+            "Der Kompost bekommt einen neuen Deckel."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hier noch eine wichtige Information des Amts für Umwelt: Wegen der starken Hitze sind die Ozonwerte in der ganzen Region sehr hoch. Zwischen 12 und 18 Uhr sollte kein Sport im Freien gemacht werden. Besonders ältere Menschen und kleine Kinder sollten am Nachmittag in der Wohnung bleiben. Autofahrer werden gebeten, das Auto stehen zu lassen. Auf der Autobahn gilt heute bis 22 Uhr Tempo 80."
+            }
+          ],
+          "statement": "Am Nachmittag soll man draußen keinen Sport machen.",
+          "tf": true,
+          "q": "Was gilt heute auf der Autobahn?",
+          "options": [
+            "Man darf höchstens 80 km/h fahren.",
+            "Lastwagen dürfen nicht fahren.",
+            "Die Autobahn ist bis 22 Uhr gesperrt."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Liebe Kundinnen und Kunden! Ab dem 1. Mai gibt es in unserem Markt an der Kasse keine Plastiksackerl mehr. Bringen Sie bitte Ihre eigene Tasche mit oder kaufen Sie unsere praktische Stofftasche für 1,50 Euro. Und noch ein Tipp: In der Obstabteilung bekommen Sie diese Woche alle Äpfel aus der Steiermark zum halben Preis. Vielen Dank für Ihren Einkauf!"
+            }
+          ],
+          "statement": "Ab Mai kostet ein Plastiksackerl 1,50 Euro.",
+          "tf": false,
+          "q": "Was ist diese Woche billiger?",
+          "options": [
+            "Stofftaschen.",
+            "Bananen.",
+            "Äpfel aus Österreich."
+          ],
+          "answer": 2
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung durch eine Kehrichtverbrennungsanlage in Zürich teil.",
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Grüezi miteinander und herzlich willkommen in unserer Kehrichtverbrennungsanlage! Mein Name ist Reto Baumann, ich arbeite seit zwölf Jahren hier als Techniker und führe Sie heute durch die Anlage. Die Führung dauert etwa eine Stunde. Bitte bleiben Sie immer bei der Gruppe und ziehen Sie den Helm nicht aus."
+            },
+            {
+              "v": "ch-m",
+              "t": "Zuerst ein paar Zahlen: Jeden Tag kommen hier rund 120 Lastwagen an. Sie bringen den Abfall aus der Stadt Zürich und aus zwanzig Gemeinden in der Umgebung. Pro Jahr verbrennen wir etwa 230 000 Tonnen Kehricht."
+            },
+            {
+              "v": "ch-m",
+              "t": "Viele Leute denken, dass der Abfall hier einfach verschwindet. Das stimmt aber nicht. Beim Verbrennen entsteht sehr viel Wärme. Mit dieser Wärme wird Wasser erhitzt, und das heiße Wasser fließt durch Leitungen in rund 30 000 Wohnungen. So werden diese Wohnungen geheizt. Außerdem produzieren wir Strom für etwa 20 000 Haushalte."
+            },
+            {
+              "v": "ch-m",
+              "t": "Hier vorne sehen Sie den Bunker. Er ist so hoch wie ein Haus mit zehn Stockwerken. Der Kranführer mischt den Abfall, damit er gleichmäßig brennt. Das ist eine anspruchsvolle Arbeit, dafür braucht man eine spezielle Ausbildung."
+            },
+            {
+              "v": "ch-m",
+              "t": "Ein großes Thema ist natürlich die Luft. Die Abgase werden in mehreren Stufen gereinigt. Was am Ende aus dem Kamin kommt, ist zum größten Teil Wasserdampf. Die Werte werden rund um die Uhr kontrolliert."
+            },
+            {
+              "v": "ch-m",
+              "t": "Und was bleibt übrig? Die Schlacke, also die Asche. Daraus holen wir heute sogar Metalle zurück, zum Beispiel Eisen, Kupfer und ein bisschen Gold. Letztes Jahr waren es über zehn Kilo Gold!"
+            },
+            {
+              "v": "ch-m",
+              "t": "Trotzdem gilt: Der beste Abfall ist der, der gar nicht entsteht. Glas, Papier und PET gehören nicht in den Kehrichtsack, denn sie können recycelt werden. So, jetzt gehen wir in den Kontrollraum. Dort dürfen Sie gern Fragen stellen."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was müssen die Besucher während der Führung tun?",
+              "options": [
+                "Fotos machen.",
+                "Den Helm tragen.",
+                "Fragen aufschreiben."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Woher kommt der Abfall?",
+              "options": [
+                "Nur aus der Stadt Zürich.",
+                "Aus der ganzen Schweiz.",
+                "Aus Zürich und Gemeinden in der Nähe."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Wofür wird die Wärme genutzt?",
+              "options": [
+                "Zum Heizen von Wohnungen.",
+                "Für Gewächshäuser.",
+                "Für ein Schwimmbad."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was sagt Herr Baumann über die Arbeit am Kran?",
+              "options": [
+                "Sie ist ganz einfach.",
+                "Man braucht dafür eine Ausbildung.",
+                "Sie wird von Computern gemacht."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was wird aus der Asche gewonnen?",
+              "options": [
+                "Glas.",
+                "Strom.",
+                "Metall."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "intro": "Sie machen eine geführte Wanderung zum Gletscher Pasterze in Österreich.",
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Guten Morgen und willkommen am Gletscherweg Pasterze! Ich bin Theresa, ich bin Nationalparkführerin und begleite Sie heute auf der Wanderung. Wir gehen ungefähr drei Stunden, mit ein paar Pausen. Der Weg ist teilweise steil und steinig, also passen Sie bitte gut auf."
+            },
+            {
+              "v": "at-f",
+              "t": "Die Pasterze ist der größte Gletscher Österreichs. Aber sie wird jedes Jahr kleiner. Zurzeit verliert sie im Durchschnitt etwa fünfzig Meter Länge pro Jahr. In manchen heißen Sommern war es sogar noch mehr."
+            },
+            {
+              "v": "at-f",
+              "t": "Sehen Sie die Schilder mit den Jahreszahlen am Weg? Sie zeigen, wo das Eis früher war. Hier, wo wir jetzt stehen, lag im Jahr 1960 noch fast hundert Meter dickes Eis. Viele Besucher können das kaum glauben."
+            },
+            {
+              "v": "at-f",
+              "t": "Wenn das Eis verschwindet, entsteht neue Landschaft. Auf den Steinen wachsen zuerst kleine Pflanzen, zum Beispiel Moos. Nach einigen Jahrzehnten kommen Blumen und später auch kleine Bäume. Für Forscher ist das sehr interessant."
+            },
+            {
+              "v": "at-f",
+              "t": "Der Rückgang der Gletscher hat aber auch Folgen für die Menschen. Im Sommer liefern die Gletscher Wasser für die Flüsse, für die Landwirtschaft und für die Wasserkraftwerke. Wenn die Gletscher weg sind, wird das Wasser in heißen Sommern knapp werden."
+            },
+            {
+              "v": "at-f",
+              "t": "Auch für den Tourismus ist das ein Problem. Früher sind die Besucher vom Parkplatz direkt auf den Gletscher gegangen. Heute muss man fast eine Stunde laufen, bis man das Eis erreicht."
+            },
+            {
+              "v": "at-f",
+              "t": "Gleich machen wir unsere erste Pause bei der kleinen Hütte. Dort gibt es Toiletten und Getränke. Und bitte nehmen Sie Ihren Müll wieder mit ins Tal – hier oben gibt es keine Mülleimer. Danke!"
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wie lange dauert die Wanderung?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa drei Stunden.",
+                "Den ganzen Tag."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was zeigen die Schilder am Weg?",
+              "options": [
+                "Wie dick das Eis heute ist.",
+                "Die Namen der Berge.",
+                "Wo der Gletscher früher war."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was passiert, wenn das Eis verschwindet?",
+              "options": [
+                "Zuerst wachsen kleine Pflanzen.",
+                "Sofort wachsen Bäume.",
+                "Es bleibt für immer nur Stein."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Welche Folge für die Menschen nennt Theresa?",
+              "options": [
+                "Es wird mehr Lawinen geben.",
+                "Im Sommer kann das Wasser fehlen.",
+                "Die Flüsse werden zu groß."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Worum bittet Theresa die Gruppe?",
+              "options": [
+                "Den Abfall wieder mitzunehmen.",
+                "Getränke zu kaufen.",
+                "Am Parkplatz zu warten."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hey, Felix! Du fährst ja Bus! Wo ist denn dein Auto?"
+            },
+            {
+              "v": "m2",
+              "t": "Hallo, Jana! Das Auto haben wir verkauft. Seit zwei Wochen sind wir eine autofreie Familie."
+            },
+            {
+              "v": "f1",
+              "t": "Echt? Mit zwei Kindern? Wie kam es denn dazu?"
+            },
+            {
+              "v": "m2",
+              "t": "Na ja, das Auto hat die meiste Zeit nur in der Garage gestanden. Und wir haben ausgerechnet, dass es uns fast 600 Franken im Monat gekostet hat, mit Versicherung, Parkplatz und allem."
+            },
+            {
+              "v": "f1",
+              "t": "Wow, das ist viel. Aber wie macht ihr das jetzt mit dem Einkaufen?"
+            },
+            {
+              "v": "m2",
+              "t": "Unter der Woche kaufe ich auf dem Heimweg ein, und den großen Einkauf lassen wir uns einmal im Monat liefern."
+            },
+            {
+              "v": "f1",
+              "t": "Und die Ferien? Ihr fahrt doch immer nach Italien."
+            },
+            {
+              "v": "m2",
+              "t": "Diesen Sommer nehmen wir den Zug nach Genua. Die Kinder freuen sich schon, sie finden Zugfahren viel spannender als Autofahren."
+            },
+            {
+              "v": "f1",
+              "t": "Und wenn ihr doch mal ein Auto braucht?"
+            },
+            {
+              "v": "m2",
+              "t": "Dann mieten wir eins beim Carsharing. Der nächste Standort ist nur fünf Minuten von uns entfernt."
+            },
+            {
+              "v": "f1",
+              "t": "Ich weiß nicht … Ich glaube, ich könnte das nicht. Ich wohne ja in Uster, und zum Reiten am Wochenende brauche ich das Auto."
+            },
+            {
+              "v": "m2",
+              "t": "Das verstehe ich. Bei uns in der Stadt ist es natürlich einfacher. Und ehrlich gesagt: Meine Frau war am Anfang auch skeptisch."
+            },
+            {
+              "v": "f1",
+              "t": "Und jetzt?"
+            },
+            {
+              "v": "m2",
+              "t": "Jetzt fährt sie mit dem E-Bike zur Arbeit und sagt, sie fühlt sich viel fitter."
+            },
+            {
+              "v": "f1",
+              "t": "Vielleicht sollte ich auch mal über ein E-Bike nachdenken. Oh, ich muss hier aussteigen. Bis morgen!"
+            },
+            {
+              "v": "m2",
+              "t": "Tschüss, Jana!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Felix hat sein Auto vor zwei Wochen verkauft.",
+              "answer": true
+            },
+            {
+              "s": "Die Familie hat das Auto jeden Tag benutzt.",
+              "answer": false
+            },
+            {
+              "s": "Felix lässt sich den großen Einkauf nach Hause bringen.",
+              "answer": true
+            },
+            {
+              "s": "Die Familie fliegt diesen Sommer nach Italien.",
+              "answer": false
+            },
+            {
+              "s": "Die Kinder freuen sich auf die Reise mit dem Zug.",
+              "answer": true
+            },
+            {
+              "s": "Jana braucht das Auto für ihr Hobby.",
+              "answer": true
+            },
+            {
+              "s": "Felix' Frau fand die Idee von Anfang an gut.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind im Tram und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Simon! Lange nicht gesehen! Wohnst du nicht mehr in Oerlikon?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Hoi, Lea! Doch, aber in einer neuen Wohnung. Wir sind im März umgezogen, in ein Minergie-Haus."
+            },
+            {
+              "v": "f2",
+              "t": "Minergie? Was ist das genau?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Ein Haus, das sehr wenig Energie braucht. Die Fenster sind super isoliert, und geheizt wird mit einer Wärmepumpe. Im Winter mussten wir die Heizung fast nie aufdrehen."
+            },
+            {
+              "v": "f2",
+              "t": "Klingt toll. Ist die Miete nicht viel teurer?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Schon, etwa 200 Franken mehr als vorher. Aber dafür sind die Nebenkosten viel niedriger. Am Ende zahlen wir fast gleich viel."
+            },
+            {
+              "v": "f2",
+              "t": "Bei uns sind die Nebenkosten dieses Jahr extrem gestiegen. Deshalb haben wir jetzt ein kleines Solarmodul auf dem Balkon."
+            },
+            {
+              "v": "ch-m",
+              "t": "Echt? Darf man das als Mieter überhaupt?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, wir mussten nur den Vermieter fragen. Er hatte nichts dagegen. Das Modul produziert genug Strom für den Kühlschrank und den Router, mehr nicht."
+            },
+            {
+              "v": "ch-m",
+              "t": "Das ist ja praktisch. Hat das viel gekostet?"
+            },
+            {
+              "v": "f2",
+              "t": "Etwa 600 Franken. In fünf, sechs Jahren haben wir das Geld wieder drin."
+            },
+            {
+              "v": "ch-m",
+              "t": "Vielleicht wäre das auch was für meine Eltern. Die haben einen großen Balkon nach Süden."
+            },
+            {
+              "v": "f2",
+              "t": "Ich kann dir den Link vom Shop schicken. Aber Achtung: Im Moment muss man ein paar Wochen auf die Lieferung warten."
+            },
+            {
+              "v": "ch-m",
+              "t": "Kein Problem, sie haben Zeit. Oh, die nächste Haltestelle ist meine. Schick mir den Link, ja?"
+            },
+            {
+              "v": "f2",
+              "t": "Mach ich. Tschüss!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Simon wohnt jetzt in einem anderen Stadtteil.",
+              "answer": false
+            },
+            {
+              "s": "Simons neue Wohnung wird mit einer Wärmepumpe geheizt.",
+              "answer": true
+            },
+            {
+              "s": "Simon bezahlt für die neue Wohnung insgesamt viel mehr als früher.",
+              "answer": false
+            },
+            {
+              "s": "Lea musste für das Solarmodul den Vermieter um Erlaubnis bitten.",
+              "answer": true
+            },
+            {
+              "s": "Mit dem Strom vom Balkon kann Lea die ganze Wohnung versorgen.",
+              "answer": false
+            },
+            {
+              "s": "Der Balkon von Simons Eltern bekommt viel Sonne.",
+              "answer": true
+            },
+            {
+              "s": "Man kann das Solarmodul sofort bekommen.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Thema am Abend“ diskutiert mit Thomas Egger, Inhaber eines Reisebüros, und der Umweltwissenschaftlerin Sandra Huber über das Thema „Sollte Fliegen teurer werden?“.",
+          "options": [
+            "Moderatorin",
+            "Thomas Egger (Reisebüro)",
+            "Sandra Huber (Umweltwissenschaftlerin)"
+          ],
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Abend und willkommen bei „Thema am Abend“. Heute geht es um eine Frage, die viele beschäftigt: Sollten Flugtickets teurer werden? Bei mir im Studio sind Thomas Egger, der ein Reisebüro in Luzern führt, und Sandra Huber, Umweltwissenschaftlerin an der Universität Bern. Frau Huber, warum sollte Fliegen teurer werden?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Ganz einfach: Fliegen ist im Moment viel zu billig. Ein Flug nach Barcelona kostet manchmal weniger als die Zugfahrt von Zürich nach Genf. Dabei ist das Flugzeug eines der umweltschädlichsten Verkehrsmittel überhaupt."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Egger, Sie verkaufen Flugreisen. Was sagen Sie dazu?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich verstehe das Argument, aber ich sehe es anders. Wenn Fliegen teurer wird, können sich nur noch reiche Leute Ferien im Ausland leisten. Eine Familie mit wenig Geld wird dann zu Hause bleiben müssen."
+            },
+            {
+              "v": "ch-f",
+              "t": "Das stimmt so nicht. Die meisten Flüge machen Menschen, die sehr oft fliegen, also Geschäftsleute und Leute mit viel Geld. Eine Familie, die einmal im Jahr in die Ferien fliegt, ist nicht das Problem."
+            },
+            {
+              "v": "f1",
+              "t": "Wie könnte so eine Abgabe denn konkret aussehen?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Zum Beispiel so: Auf jedes Ticket kommt eine Abgabe von 30 bis 120 Franken, abhängig von der Distanz. Und das Geld wird an die Bevölkerung zurückgegeben. Wer wenig fliegt, bekommt am Ende mehr zurück, als er bezahlt hat."
+            },
+            {
+              "v": "m2",
+              "t": "Das klingt in der Theorie schön. Aber in der Praxis fahren die Leute dann einfach nach Mailand oder München und fliegen von dort. Dann verdient die Schweiz weniger, und für das Klima ist nichts gewonnen."
+            },
+            {
+              "v": "f1",
+              "t": "Ein wichtiger Punkt. Frau Huber, gibt es denn genug Alternativen zum Flugzeug?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Es werden immer mehr. Es gibt wieder Nachtzüge nach Amsterdam, Berlin oder Rom. Aber natürlich muss die Bahn noch billiger und schneller werden."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Egger, sehen Sie das auch so?"
+            },
+            {
+              "v": "m2",
+              "t": "Da bin ich ganz Ihrer Meinung. Wir verkaufen übrigens auch immer mehr Zugreisen. Viele Kunden fragen inzwischen danach, besonders junge Leute."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Egger, was würden Sie denn vorschlagen?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich bin für eine Lösung in ganz Europa, zum Beispiel eine Steuer auf Kerosin in allen Ländern. Eine Schweizer Lösung allein bringt wenig."
+            },
+            {
+              "v": "ch-f",
+              "t": "Darauf können wir aber nicht zwanzig Jahre warten. Die Schweiz sollte jetzt anfangen und ein Vorbild für andere Länder sein."
+            },
+            {
+              "v": "f1",
+              "t": "Unsere Zeit ist leider schon um. Ich danke Ihnen beiden für die spannende Diskussion. Und Sie, liebe Hörerinnen und Hörer, können uns Ihre Meinung auf unserer Webseite schreiben."
+            }
+          ],
+          "items": [
+            {
+              "q": "Ein Flug ist manchmal billiger als eine Zugfahrt innerhalb der Schweiz.",
+              "answer": 2
+            },
+            {
+              "q": "Höhere Preise würden vor allem Familien mit wenig Geld treffen.",
+              "answer": 1
+            },
+            {
+              "q": "Das Geld aus der Abgabe soll an die Menschen zurückgehen.",
+              "answer": 2
+            },
+            {
+              "q": "Viele Reisende würden dann von Flughäfen im Ausland abfliegen.",
+              "answer": 1
+            },
+            {
+              "q": "Junge Kunden interessieren sich immer mehr für Reisen mit dem Zug.",
+              "answer": 1
+            },
+            {
+              "q": "Die Zuhörer können ihre Meinung im Internet sagen.",
+              "answer": 0
+            },
+            {
+              "q": "Die Schweiz sollte nicht auf andere Länder warten.",
+              "answer": 2
+            },
+            {
+              "q": "Nur eine Lösung für ganz Europa hilft wirklich.",
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben letztes Wochenende bei einer Aufräumaktion im Wald mitgemacht. Ihr Freund Marco konnte nicht dabei sein. Schreiben Sie Marco eine E-Mail.",
+          "points": [
+            "Beschreiben Sie: Was haben Sie gemacht?",
+            "Begründen Sie: Warum finden Sie solche Aktionen wichtig?",
+            "Machen Sie einen Vorschlag für die nächste Aktion."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Marco,\n\nschade, dass du am Samstag nicht dabei sein konntest! Wir waren etwa dreißig Leute und haben vier Stunden lang im Wald am Uetliberg Abfall gesammelt: Flaschen, Dosen und sogar einen alten Reifen. Am Ende hatten wir zwanzig volle Säcke.\n\nIch finde solche Aktionen wichtig, weil viele Leute gar nicht wissen, wie viel Müll in der Natur liegt. Außerdem macht es Spaß, zusammen etwas Sinnvolles zu tun.\n\nIm Oktober wird es wieder eine Aktion geben, diesmal am See. Komm doch mit! Danach könnten wir zusammen essen gehen.\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Ihre Freundin Lena möchte nachhaltiger leben und hat Sie um Tipps gebeten. Schreiben Sie Lena eine E-Mail.",
+          "points": [
+            "Was machen Sie selbst für die Umwelt?",
+            "Was war für Sie am Anfang schwierig?",
+            "Geben Sie Lena einen Tipp für den Anfang."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Lena,\n\ntoll, dass du nachhaltiger leben möchtest! José und ich versuchen das auch schon seit einiger Zeit. Wir haben kein Auto, fahren mit dem Velo oder mit dem Tram und kaufen fast nur regionales Gemüse auf dem Markt.\n\nAm Anfang war es für mich schwierig, auf Plastik zu verzichten. Im Supermarkt ist ja fast alles verpackt. Inzwischen gehe ich in einen Unverpackt-Laden und nehme meine eigenen Gläser mit.\n\nMein Tipp: Fang mit kleinen Dingen an, zum Beispiel mit einer Stofftasche und einer Trinkflasche. Du wirst sehen, das ist ganz einfach!\n\nLiebe Grüße\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Plastiktüten verbieten?“ gesehen. Im Forum finden Sie folgende Meinung:",
+          "quote": "Ich finde ein Verbot von Plastiktüten übertrieben. Ich benutze jede Tüte mehrmals und am Ende als Müllbeutel. Das Problem sind doch die vielen Verpackungen im Supermarkt, nicht die paar Tüten an der Kasse. Statt Verbote sollte man den Leuten lieber erklären, wie man richtig recycelt. – Günter, 58",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Gehen Sie auf den Beitrag von Günter ein.",
+            "Machen Sie einen eigenen Vorschlag."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich kann Günter teilweise verstehen, denn auch ich benutze meine Tüten mehrmals. Trotzdem bin ich für ein Verbot. Viele Menschen benutzen eine Plastiktüte nur einmal und werfen sie dann weg, und viele Tüten landen in der Natur oder im Meer. Günter hat aber recht: Die Verpackungen im Supermarkt sind ein großes Problem. Deshalb sollten auch unnötige Verpackungen verboten werden, zum Beispiel bei Obst und Gemüse. Mein Vorschlag: Supermärkte könnten einen Rabatt geben, wenn man eigene Taschen und Dosen mitbringt. Ich glaube, dann werden sich viele Leute schnell umstellen."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Fleisch essen – schlecht für das Klima?“ gesehen. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:",
+          "quote": "Fleisch gehört für mich einfach zu einem guten Essen. Ich kaufe mein Fleisch beim Metzger im Dorf, und die Tiere kommen von Bauernhöfen aus der Region. Ich verstehe nicht, warum man uns immer sagen will, was wir essen sollen. Jeder sollte selbst entscheiden dürfen. – Sabrina, 42",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Gehen Sie auf den Beitrag von Sabrina ein.",
+            "Erzählen Sie von Ihren eigenen Essgewohnheiten."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich finde es gut, dass Sabrina ihr Fleisch beim Metzger in ihrem Dorf kauft. Regionales Fleisch ist sicher besser als Fleisch aus Südamerika. Trotzdem bin ich der Meinung, dass wir alle weniger Fleisch essen sollten. Für die Produktion von Fleisch werden sehr viel Wasser und Land gebraucht, und das schadet dem Klima. Natürlich muss jeder selbst entscheiden, was er isst. Bei uns zu Hause gibt es nur noch zweimal pro Woche Fleisch, und die vegetarischen Gerichte schmecken uns sehr gut. Ich glaube, in Zukunft werden immer mehr Menschen so leben."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben sich für den Workshop „Nachhaltig im Alltag“ an der Volkshochschule angemeldet, können aber am Samstag nicht kommen. Schreiben Sie an die Kursleiterin, Frau Ammann.",
+          "points": [
+            "Entschuldigen Sie sich höflich.",
+            "Nennen Sie den Grund.",
+            "Fragen Sie nach einem anderen Termin."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Ammann,\n\nleider kann ich am Samstag nicht an Ihrem Workshop „Nachhaltig im Alltag“ teilnehmen, weil ich an diesem Tag beruflich nach Basel fahren muss. Das tut mir sehr leid. Wird der Workshop noch einmal angeboten? Ich würde gern an einem anderen Termin teilnehmen.\n\nMit freundlichen Grüßen\nJosé Romero"
+        },
+        {
+          "task": "In Ihrem Haus wird der Müll oft falsch getrennt. Schreiben Sie an Ihren Hauswart, Herrn Keller.",
+          "points": [
+            "Beschreiben Sie das Problem.",
+            "Machen Sie einen Vorschlag.",
+            "Bitten Sie um eine Antwort."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Keller,\n\nin unserem Müllraum wird der Abfall leider oft falsch getrennt: Im Papiercontainer liegen Plastiktüten und sogar Glas. Könnten im Müllraum Schilder mit den Regeln aufgehängt werden? Vielleicht wäre auch ein Brief an alle Mieter hilfreich. Ich freue mich auf Ihre Antwort.\n\nFreundliche Grüße\nAndrea Navarro"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Ihr Deutschkurs möchte einen Kleidertausch-Nachmittag organisieren. Planen Sie zusammen, was Sie tun müssen.",
+          "points": [
+            "Wann und wo?",
+            "Wer wird eingeladen?",
+            "Was muss vorbereitet werden?",
+            "Essen und Getränke?"
+          ],
+          "model": [
+            {
+              "v": "f1",
+              "t": "Also, wir sollen den Kleidertausch planen. Wann passt es dir denn am besten?"
+            },
+            {
+              "v": "m1",
+              "t": "Wie wäre es mit einem Samstagnachmittag? Da haben die meisten Leute Zeit."
+            },
+            {
+              "v": "f1",
+              "t": "Gute Idee. Und wo? Vielleicht in unserem Kursraum?"
+            },
+            {
+              "v": "m1",
+              "t": "Der ist leider zu klein. Ich schlage vor, dass wir den Saal im Quartierzentrum mieten. Der kostet nur 50 Franken."
+            },
+            {
+              "v": "f1",
+              "t": "Einverstanden. Wen laden wir ein? Nur die Leute aus dem Kurs?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich fände es schöner, wenn auch Freunde und Nachbarn kommen könnten. Dann gibt es auch mehr Kleider zum Tauschen."
+            },
+            {
+              "v": "f1",
+              "t": "Stimmt. Dann müssen Plakate gemacht werden. Das kann ich übernehmen."
+            },
+            {
+              "v": "m1",
+              "t": "Super. Außerdem müssen Kleiderständer organisiert werden. Ich frage mal im Quartierzentrum, ob sie welche haben."
+            },
+            {
+              "v": "f1",
+              "t": "Und was ist mit Essen und Getränken? Sollen wir etwas verkaufen?"
+            },
+            {
+              "v": "m1",
+              "t": "Hm, verkaufen ist kompliziert. Jeder könnte einfach einen Kuchen mitbringen."
+            },
+            {
+              "v": "f1",
+              "t": "Ja, und Kaffee und Tee machen wir dort. Aber bitte mit richtigen Tassen, nicht mit Plastikbechern!"
+            },
+            {
+              "v": "m1",
+              "t": "Natürlich, das passt ja zum Thema. Also: Samstag im Quartierzentrum, du machst die Plakate, und ich kümmere mich um die Kleiderständer."
+            }
+          ]
+        },
+        {
+          "task": "Die Mieter in Ihrem Haus möchten im Hinterhof einen kleinen Gemeinschaftsgarten anlegen. Planen Sie zusammen mit einer Nachbarin das erste Treffen.",
+          "points": [
+            "Wann anfangen?",
+            "Was pflanzen?",
+            "Werkzeug und Kosten?",
+            "Wer gießt in den Ferien?"
+          ],
+          "model": [
+            {
+              "v": "ch-f",
+              "t": "Ich finde die Idee mit dem Garten super! Wann wollen wir anfangen?"
+            },
+            {
+              "v": "m2",
+              "t": "Am besten im April, dann ist es nicht mehr so kalt. Wie wäre es mit dem ersten Samstag im April?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Da kann ich leider nicht, da bin ich bei meiner Familie in Chur. Geht auch der Sonntag danach?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, Sonntag passt mir auch. Was sollen wir denn pflanzen?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Ich würde Salat, Tomaten und Kräuter vorschlagen. Das ist einfach und wächst schnell."
+            },
+            {
+              "v": "m2",
+              "t": "Gut, und vielleicht auch ein paar Blumen für die Bienen?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Schöne Idee. Aber wir brauchen auch Werkzeug. Wer bezahlt das?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich habe schon eine Schaufel und eine Gießkanne. Den Rest könnten wir zusammen kaufen. Wenn jeder zehn Franken gibt, reicht das sicher."
+            },
+            {
+              "v": "ch-f",
+              "t": "Einverstanden. Und was machen wir in den Sommerferien? Die Pflanzen müssen ja jeden Tag gegossen werden."
+            },
+            {
+              "v": "m2",
+              "t": "Wir könnten eine Liste machen. Jede Woche ist eine andere Familie verantwortlich."
+            },
+            {
+              "v": "ch-f",
+              "t": "Perfekt. Dann schreibe ich eine Nachricht an alle im Haus und lade sie zum Treffen ein."
+            },
+            {
+              "v": "m2",
+              "t": "Prima, und ich bringe Kaffee und Gipfeli mit."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Auto oder öffentliche Verkehrsmittel?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Ich möchte heute über das Thema „Auto oder öffentliche Verkehrsmittel?“ sprechen. Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich über die Situation in meinem Heimatland Spanien. Danach nenne ich Vor- und Nachteile und sage meine Meinung. Zum Schluss fasse ich alles kurz zusammen."
+            },
+            {
+              "v": "m1",
+              "t": "Ich wohne in Zürich und habe kein Auto. Ich fahre jeden Tag mit dem Tram zur Universität, und am Wochenende nehmen meine Freundin und ich oft den Zug in die Berge. Ich brauche wirklich kein Auto, weil die Verbindungen hier sehr gut sind."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien ist die Situation anders. In meiner Heimatstadt Córdoba haben fast alle Familien ein Auto, oft sogar zwei. Die Busse fahren nicht so oft, und in den Dörfern gibt es manchmal nur zwei Busse am Tag. Zwischen den großen Städten gibt es aber sehr schnelle Züge."
+            },
+            {
+              "v": "m1",
+              "t": "Das Auto hat natürlich Vorteile: Man ist flexibel und kann auch schwere Sachen transportieren. Ein großer Nachteil ist aber, dass Autos viel Platz brauchen und der Umwelt schaden. Öffentliche Verkehrsmittel sind besser für das Klima, und man kann während der Fahrt lesen oder arbeiten. Meiner Meinung nach sollten in den Städten mehr Busse und Trams angeboten werden, und Autofahren sollte teurer werden."
+            },
+            {
+              "v": "m1",
+              "t": "Damit komme ich zum Schluss. Ich glaube, dass in Zukunft immer weniger Menschen in der Stadt ein eigenes Auto haben werden. Vielen Dank für Ihre Aufmerksamkeit. Haben Sie noch Fragen?"
+            }
+          ],
+          "question": "Sie haben gesagt, dass Autofahren teurer werden sollte. Was ist dann mit den Menschen, die auf dem Land wohnen?",
+          "answer": "Das ist ein wichtiger Punkt. Auf dem Land muss zuerst das Angebot an Bussen und Zügen verbessert werden. Bis dahin könnte es für diese Menschen günstigere Preise geben."
+        },
+        {
+          "title": "Regionale Lebensmittel kaufen – Vor- und Nachteile",
+          "model": [
+            {
+              "v": "f2",
+              "t": "Mein Thema heute ist „Regionale Lebensmittel kaufen“. Ich spreche zuerst über meine persönlichen Erfahrungen. Dann erzähle ich, wie die Situation in Spanien ist. Danach zeige ich Vor- und Nachteile und sage meine Meinung, und am Ende komme ich zu einem kurzen Fazit."
+            },
+            {
+              "v": "f2",
+              "t": "Seit ich in der Schweiz wohne, kaufe ich mein Gemüse meistens auf dem Wochenmarkt. Dort weiß ich genau, woher die Produkte kommen, und oft kann ich direkt mit den Bauern sprechen. Im Winter ist die Auswahl allerdings ziemlich klein: viele Kartoffeln, Kohl und Äpfel."
+            },
+            {
+              "v": "f2",
+              "t": "In Spanien, besonders in meiner Heimatregion Almería, ist das ganz anders. Dort gibt es riesige Gewächshäuser. Darin werden das ganze Jahr Tomaten, Paprika und Gurken produziert. Ein großer Teil davon wird nach Deutschland und in die Schweiz exportiert. Für viele Schweizer ist der Salat im Winter also spanisch!"
+            },
+            {
+              "v": "f2",
+              "t": "Regionale Lebensmittel haben viele Vorteile: Die Transportwege sind kurz, die Produkte sind frisch, und man unterstützt die Bauern aus der Region. Ein Nachteil ist, dass sie in der Schweiz oft teurer sind. Außerdem ist regional nicht immer besser für das Klima, zum Beispiel wenn Tomaten im Winter in einem Gewächshaus wachsen, das geheizt werden muss. Ich finde deshalb, man sollte vor allem saisonal einkaufen."
+            },
+            {
+              "v": "f2",
+              "t": "Zum Schluss: Wer regional und saisonal einkauft, tut etwas Gutes für die Umwelt und für die Region. Vielen Dank für Ihre Aufmerksamkeit! Haben Sie Fragen?"
+            }
+          ],
+          "question": "Kaufen Sie im Winter auch Tomaten aus Spanien?",
+          "answer": "Ehrlich gesagt, manchmal schon, weil sie mich an meine Heimat erinnern. Aber ich versuche, im Winter mehr Gemüse aus der Region zu essen, zum Beispiel Kohl oder Karotten."
+        }
+      ]
+    }
+  }
+}

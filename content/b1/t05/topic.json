@@ -1,0 +1,2236 @@
+{
+  "id": "b1-t05",
+  "level": "b1",
+  "topic": "t05",
+  "title": "Medios y tecnología",
+  "title_de": "Medien und Technik",
+  "goals": [
+    "Hablar de tus hábitos con el móvil, el ordenador, las redes sociales y las noticias",
+    "Describir un problema técnico y pedir ayuda al servicio de atención al cliente",
+    "Formar el Konjunktiv II presente (würde, wäre, hätte, könnte, sollte, müsste) para hipótesis, deseos y consejos",
+    "Hablar de lo que pudo ser y no fue con el Konjunktiv II pasado (hätte … gemacht, wäre … gegangen, hätte … machen sollen)",
+    "Expresar, matizar y defender una opinión y reaccionar a la de otros",
+    "Reconocer si una persona está a favor o en contra en Lesen Teil 4 y escribir un comentario de foro (Schreiben Teil 2)"
+  ],
+  "vocab": [
+    {
+      "de": "das Gerät",
+      "pl": "die Geräte",
+      "es": "el aparato, el dispositivo",
+      "cat": "Tecnología",
+      "ex": "Wie viele digitale Geräte habt ihr zu Hause?",
+      "ex_es": "¿Cuántos dispositivos digitales tenéis en casa?"
+    },
+    {
+      "de": "der Bildschirm",
+      "pl": "die Bildschirme",
+      "es": "la pantalla",
+      "cat": "Tecnología",
+      "ex": "Ich sitze acht Stunden am Tag vor dem Bildschirm.",
+      "ex_es": "Paso ocho horas al día delante de la pantalla."
+    },
+    {
+      "de": "die Tastatur",
+      "pl": "die Tastaturen",
+      "es": "el teclado",
+      "cat": "Tecnología",
+      "ex": "Die Schweizer Tastatur hat kein ß.",
+      "ex_es": "El teclado suizo no tiene ß."
+    },
+    {
+      "de": "der Akku",
+      "pl": "die Akkus",
+      "es": "la batería (recargable)",
+      "cat": "Tecnología",
+      "ex": "Mein Akku hält nur noch einen halben Tag.",
+      "ex_es": "Mi batería ya solo dura medio día."
+    },
+    {
+      "de": "aufladen",
+      "es": "cargar (la batería)",
+      "cat": "Tecnología",
+      "forms": "er lädt auf, lud auf, hat aufgeladen",
+      "ex": "Ich lade das Handy nachts auf.",
+      "ex_es": "Cargo el móvil por la noche."
+    },
+    {
+      "de": "das Ladegerät",
+      "pl": "die Ladegeräte",
+      "es": "el cargador",
+      "cat": "Tecnología",
+      "ex": "Ich habe mein Ladegerät im Büro vergessen.",
+      "ex_es": "Me he dejado el cargador en la oficina."
+    },
+    {
+      "de": "das Passwort",
+      "pl": "die Passwörter",
+      "es": "la contraseña",
+      "cat": "Internet",
+      "ex": "Du solltest nicht überall dasselbe Passwort benutzen.",
+      "ex_es": "No deberías usar la misma contraseña en todas partes."
+    },
+    {
+      "de": "sich einloggen",
+      "es": "iniciar sesión",
+      "cat": "Internet",
+      "forms": "er loggt sich ein, hat sich eingeloggt",
+      "ex": "Ich kann mich nicht in mein Konto einloggen.",
+      "ex_es": "No puedo iniciar sesión en mi cuenta."
+    },
+    {
+      "de": "speichern",
+      "es": "guardar (un archivo)",
+      "cat": "Tecnología",
+      "forms": "er speichert, hat gespeichert",
+      "ex": "Hast du das Dokument gespeichert?",
+      "ex_es": "¿Has guardado el documento?"
+    },
+    {
+      "de": "löschen",
+      "es": "borrar",
+      "cat": "Tecnología",
+      "forms": "er löscht, hat gelöscht",
+      "ex": "Ich habe aus Versehen alle Fotos gelöscht.",
+      "ex_es": "He borrado sin querer todas las fotos."
+    },
+    {
+      "de": "die Datei",
+      "pl": "die Dateien",
+      "es": "el archivo (informático)",
+      "cat": "Tecnología",
+      "ex": "Die Datei ist zu groß für eine E-Mail.",
+      "ex_es": "El archivo es demasiado grande para un correo."
+    },
+    {
+      "de": "der Anhang",
+      "pl": "die Anhänge",
+      "es": "el archivo adjunto",
+      "cat": "Internet",
+      "ex": "Im Anhang finden Sie meinen Lebenslauf.",
+      "ex_es": "Adjunto encontrará mi currículum."
+    },
+    {
+      "de": "installieren",
+      "es": "instalar",
+      "cat": "Tecnología",
+      "forms": "er installiert, hat installiert",
+      "ex": "Ich habe eine neue App installiert.",
+      "ex_es": "He instalado una aplicación nueva."
+    },
+    {
+      "de": "das Update",
+      "pl": "die Updates",
+      "es": "la actualización",
+      "cat": "Tecnología",
+      "ex": "Nach dem Update ist das Handy sehr langsam.",
+      "ex_es": "Después de la actualización el móvil va muy lento."
+    },
+    {
+      "de": "funktionieren",
+      "es": "funcionar",
+      "cat": "Tecnología",
+      "forms": "er funktioniert, hat funktioniert",
+      "ex": "Der Drucker funktioniert schon wieder nicht.",
+      "ex_es": "La impresora vuelve a no funcionar."
+    },
+    {
+      "de": "der Kundendienst",
+      "es": "el servicio de atención al cliente",
+      "cat": "Tecnología",
+      "ex": "Der Kundendienst ist nur bis 18 Uhr erreichbar.",
+      "ex_es": "El servicio de atención al cliente solo está disponible hasta las 18 h."
+    },
+    {
+      "de": "der Empfang",
+      "es": "la cobertura (del móvil); la recepción",
+      "cat": "Tecnología",
+      "ex": "In den Bergen hatten wir keinen Empfang.",
+      "ex_es": "En la montaña no teníamos cobertura."
+    },
+    {
+      "de": "das WLAN",
+      "es": "el wifi",
+      "cat": "Internet",
+      "ex": "Gibt es im Hotel kostenloses WLAN?",
+      "ex_es": "¿Hay wifi gratis en el hotel?"
+    },
+    {
+      "de": "die Daten",
+      "es": "los datos",
+      "cat": "Internet",
+      "ex": "Die App sammelt viele persönliche Daten.",
+      "ex_es": "La aplicación recopila muchos datos personales."
+    },
+    {
+      "de": "der Datenschutz",
+      "es": "la protección de datos",
+      "cat": "Internet",
+      "ex": "In der Schweiz ist der Datenschutz sehr wichtig.",
+      "ex_es": "En Suiza la protección de datos es muy importante."
+    },
+    {
+      "de": "die Sicherheit",
+      "es": "la seguridad",
+      "cat": "Internet",
+      "ex": "Für mehr Sicherheit brauchen Sie ein neues Passwort.",
+      "ex_es": "Para más seguridad necesita una contraseña nueva."
+    },
+    {
+      "de": "der Nutzer / die Nutzerin",
+      "pl": "die Nutzer / die Nutzerinnen",
+      "es": "el usuario / la usuaria",
+      "cat": "Internet",
+      "ex": "Die App hat über eine Million Nutzer.",
+      "ex_es": "La aplicación tiene más de un millón de usuarios."
+    },
+    {
+      "de": "das Abonnement / das Abo",
+      "pl": "die Abonnements / die Abos",
+      "es": "la suscripción, el abono",
+      "cat": "Medios",
+      "ex": "Ich habe mein Zeitungsabo gekündigt.",
+      "ex_es": "He cancelado mi suscripción al periódico."
+    },
+    {
+      "de": "die Bewertung",
+      "pl": "die Bewertungen",
+      "es": "la valoración, la reseña",
+      "cat": "Internet",
+      "ex": "Bevor ich etwas kaufe, lese ich die Bewertungen.",
+      "ex_es": "Antes de comprar algo leo las valoraciones."
+    },
+    {
+      "de": "der Bericht",
+      "pl": "die Berichte",
+      "es": "el reportaje, el informe",
+      "cat": "Medios",
+      "ex": "Im Fernsehen kam ein Bericht über Handysucht.",
+      "ex_es": "En la tele salió un reportaje sobre la adicción al móvil."
+    },
+    {
+      "de": "berichten (über)",
+      "es": "informar (sobre)",
+      "cat": "Medios",
+      "forms": "er berichtet, hat berichtet",
+      "ex": "Die Zeitung berichtet über den Streik.",
+      "ex_es": "El periódico informa sobre la huelga."
+    },
+    {
+      "de": "der Artikel",
+      "pl": "die Artikel",
+      "es": "el artículo (de prensa)",
+      "cat": "Medios",
+      "ex": "Hast du den Artikel über KI gelesen?",
+      "ex_es": "¿Has leído el artículo sobre la IA?"
+    },
+    {
+      "de": "der Journalist / die Journalistin",
+      "pl": "die Journalisten / die Journalistinnen",
+      "es": "el/la periodista",
+      "cat": "Medios",
+      "ex": "Die Journalistin hat mit vielen Jugendlichen gesprochen.",
+      "ex_es": "La periodista ha hablado con muchos jóvenes."
+    },
+    {
+      "de": "die Quelle",
+      "pl": "die Quellen",
+      "es": "la fuente (de información)",
+      "cat": "Medios",
+      "ex": "Man sollte immer die Quelle prüfen.",
+      "ex_es": "Siempre habría que comprobar la fuente."
+    },
+    {
+      "de": "die Falschmeldung",
+      "pl": "die Falschmeldungen",
+      "es": "la noticia falsa, el bulo",
+      "cat": "Medios",
+      "ex": "Diese Falschmeldung haben Tausende geteilt.",
+      "ex_es": "Miles de personas han compartido este bulo."
+    },
+    {
+      "de": "die Meinung",
+      "pl": "die Meinungen",
+      "es": "la opinión",
+      "cat": "Opinar",
+      "ex": "Meiner Meinung nach brauchen Kinder kein Smartphone.",
+      "ex_es": "En mi opinión, los niños no necesitan un smartphone."
+    },
+    {
+      "de": "die Ansicht",
+      "pl": "die Ansichten",
+      "es": "el punto de vista, la opinión",
+      "cat": "Opinar",
+      "ex": "Ich bin der Ansicht, dass das zu teuer ist.",
+      "ex_es": "Opino que es demasiado caro."
+    },
+    {
+      "de": "zustimmen (+ Dat)",
+      "es": "estar de acuerdo (con alguien)",
+      "cat": "Opinar",
+      "forms": "er stimmt zu, stimmte zu, hat zugestimmt",
+      "ex": "Da stimme ich dir völlig zu.",
+      "ex_es": "En eso estoy totalmente de acuerdo contigo."
+    },
+    {
+      "de": "widersprechen (+ Dat)",
+      "es": "contradecir, llevar la contraria",
+      "cat": "Opinar",
+      "forms": "er widerspricht, widersprach, hat widersprochen",
+      "ex": "Da muss ich dir widersprechen.",
+      "ex_es": "Ahí tengo que llevarte la contraria."
+    },
+    {
+      "de": "behaupten",
+      "es": "afirmar (sin pruebas)",
+      "cat": "Opinar",
+      "forms": "er behauptet, hat behauptet",
+      "ex": "Er behauptet, dass er nie am Handy ist.",
+      "ex_es": "Afirma que nunca está con el móvil."
+    },
+    {
+      "de": "überzeugen",
+      "es": "convencer",
+      "cat": "Opinar",
+      "forms": "er überzeugt, hat überzeugt",
+      "ex": "Das Argument hat mich nicht überzeugt.",
+      "ex_es": "El argumento no me ha convencido."
+    },
+    {
+      "de": "die Entwicklung",
+      "pl": "die Entwicklungen",
+      "es": "el desarrollo, la evolución",
+      "cat": "Tecnología",
+      "ex": "Die Entwicklung der KI geht sehr schnell.",
+      "ex_es": "El desarrollo de la IA va muy rápido."
+    },
+    {
+      "de": "entwickeln",
+      "es": "desarrollar",
+      "cat": "Tecnología",
+      "forms": "er entwickelt, hat entwickelt",
+      "ex": "Die Firma entwickelt Apps für Schulen.",
+      "ex_es": "La empresa desarrolla aplicaciones para colegios."
+    },
+    {
+      "de": "die Erfindung",
+      "pl": "die Erfindungen",
+      "es": "el invento",
+      "cat": "Tecnología",
+      "ex": "Das Internet ist eine wichtige Erfindung.",
+      "ex_es": "Internet es un invento importante."
+    },
+    {
+      "de": "erfinden",
+      "es": "inventar",
+      "cat": "Tecnología",
+      "forms": "er erfindet, erfand, hat erfunden",
+      "ex": "Wer hat das Telefon erfunden?",
+      "ex_es": "¿Quién inventó el teléfono?"
+    },
+    {
+      "de": "die künstliche Intelligenz (KI)",
+      "es": "la inteligencia artificial (IA)",
+      "cat": "Tecnología",
+      "ex": "Viele Studierende nutzen KI für ihre Hausarbeiten.",
+      "ex_es": "Muchos estudiantes usan la IA para sus trabajos."
+    },
+    {
+      "de": "digital",
+      "es": "digital",
+      "cat": "Tecnología",
+      "ex": "Die Rechnung kommt nur noch digital.",
+      "ex_es": "La factura ya solo llega en formato digital."
+    },
+    {
+      "de": "erreichbar",
+      "es": "localizable, disponible",
+      "cat": "Medios",
+      "ex": "Im Urlaub bin ich nicht erreichbar.",
+      "ex_es": "En vacaciones no estoy localizable."
+    },
+    {
+      "de": "ständig",
+      "es": "constantemente, todo el rato",
+      "cat": "Medios",
+      "ex": "Mein Handy klingelt ständig.",
+      "ex_es": "Mi móvil suena todo el rato."
+    },
+    {
+      "de": "süchtig (nach)",
+      "es": "adicto (a)",
+      "cat": "Medios",
+      "ex": "Manche Jugendliche sind fast süchtig nach ihrem Handy.",
+      "ex_es": "Algunos jóvenes son casi adictos al móvil."
+    },
+    {
+      "de": "abschalten",
+      "es": "apagar; desconectar (descansar)",
+      "cat": "Medios",
+      "forms": "er schaltet ab, hat abgeschaltet",
+      "ex": "Am Wochenende schalte ich das Handy ab.",
+      "ex_es": "El fin de semana apago el móvil."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Tecnología e internet",
+      "instructions": "Relaciona.",
+      "pairs": [
+        [
+          "das Ladegerät",
+          "el cargador"
+        ],
+        [
+          "speichern",
+          "guardar"
+        ],
+        [
+          "löschen",
+          "borrar"
+        ],
+        [
+          "der Anhang",
+          "el archivo adjunto"
+        ],
+        [
+          "der Empfang",
+          "la cobertura"
+        ],
+        [
+          "sich einloggen",
+          "iniciar sesión"
+        ],
+        [
+          "der Bildschirm",
+          "la pantalla"
+        ],
+        [
+          "die Falschmeldung",
+          "el bulo"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "Formas del Konjunktiv II",
+      "instructions": "Elige la forma correcta del Konjunktiv II.",
+      "items": [
+        {
+          "q": "Wenn ich mehr Geld ___, würde ich ein neues Handy kaufen.",
+          "options": [
+            "hatte",
+            "hätte",
+            "habe"
+          ],
+          "answer": 1,
+          "explain": "haben → hätte (con Umlaut). «hatte» es Präteritum: pasado real."
+        },
+        {
+          "q": "Es ___ toll, wenn das WLAN im Zug besser funktionieren würde.",
+          "options": [
+            "wäre",
+            "war",
+            "würde"
+          ],
+          "answer": 0,
+          "explain": "sein → wäre."
+        },
+        {
+          "q": "___ du mir bitte kurz helfen? Mein Laptop startet nicht.",
+          "options": [
+            "Kannst",
+            "Konntest",
+            "Könntest"
+          ],
+          "answer": 2,
+          "explain": "Petición cortés: könntest."
+        },
+        {
+          "q": "Du ___ dein Passwort öfter ändern.",
+          "options": [
+            "solltest",
+            "söllest",
+            "sollst"
+          ],
+          "answer": 0,
+          "explain": "Consejo: solltest. sollte no lleva Umlaut."
+        },
+        {
+          "q": "Wenn ich du wäre, ___ ich das Abo kündigen.",
+          "options": [
+            "werde",
+            "würde",
+            "wurde"
+          ],
+          "answer": 1,
+          "explain": "würde + infinitivo. «wurde» es Präteritum de werden."
+        },
+        {
+          "q": "Wir ___ eigentlich früher aufstehen, aber wir haben keine Lust.",
+          "options": [
+            "müssen",
+            "mussten",
+            "müssten"
+          ],
+          "answer": 2,
+          "explain": "müssen → müssten (deberíamos, en teoría)."
+        },
+        {
+          "q": "Wenn Kinder kein Handy ___, würden sie mehr draußen spielen.",
+          "options": [
+            "hätten",
+            "würden",
+            "haben würden"
+          ],
+          "answer": 0,
+          "explain": "Con haben se usa la forma corta: hätten."
+        },
+        {
+          "q": "Ohne Navi ___ ich in Zürich nie den Weg finden.",
+          "options": [
+            "wäre",
+            "würde",
+            "hätte"
+          ],
+          "answer": 1,
+          "explain": "Verbo normal (finden) → würde + infinitivo."
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Si yo fuera…",
+      "instructions": "Completa con el Konjunktiv II del verbo entre paréntesis.",
+      "items": [
+        {
+          "text": "Wenn ich nicht so viel am Handy [[wäre]], hätte ich mehr Zeit. (sein)"
+        },
+        {
+          "text": "Wenn wir einen Drucker [[hätten]], müssten wir nicht in den Copyshop gehen. (haben)"
+        },
+        {
+          "text": "Wenn du mich [[fragen würdest/fragtest]], würde ich dir helfen. (fragen)"
+        },
+        {
+          "text": "Wenn Andrea mehr Zeit hätte, [[würde]] sie eine Serie auf Deutsch schauen. (werden)"
+        },
+        {
+          "text": "Wenn das Internet ausfallen würde, [[könnte]] José nicht arbeiten. (können)"
+        },
+        {
+          "text": "An deiner Stelle [[würde]] ich die App löschen. (werden)"
+        },
+        {
+          "text": "Ihr [[solltet]] nicht alles glauben, was im Internet steht. (sollen)"
+        },
+        {
+          "text": "Es [[wäre]] besser, wenn die Kinder um 20 Uhr das Tablet abgeben würden. (sein)"
+        }
+      ],
+      "note": "Con sein, haben y los modales se usa la forma corta (wäre, hätte, könnte…); con los demás verbos, würde + infinitivo."
+    },
+    {
+      "id": "e04",
+      "type": "write",
+      "title": "Imagina…",
+      "instructions": "Escribe la frase en Konjunktiv II con los elementos indicados.",
+      "items": [
+        {
+          "prompt": "Si tuviera más tiempo, leería más libros. (Wenn ich … Zeit haben / mehr Bücher lesen)",
+          "answers": [
+            "Wenn ich mehr Zeit hätte, würde ich mehr Bücher lesen."
+          ]
+        },
+        {
+          "prompt": "Si no hubiera internet, la vida sería más tranquila. (Wenn es … kein Internet geben / das Leben ruhiger sein)",
+          "answers": [
+            "Wenn es kein Internet gäbe, wäre das Leben ruhiger.",
+            "Wenn es kein Internet geben würde, wäre das Leben ruhiger."
+          ]
+        },
+        {
+          "prompt": "Deberías cargar el móvil. (du / das Handy aufladen / sollen)",
+          "answers": [
+            "Du solltest das Handy aufladen.",
+            "Du solltest dein Handy aufladen."
+          ]
+        },
+        {
+          "prompt": "¿Podría ayudarme, por favor? (Sie / mir helfen / können / bitte)",
+          "answers": [
+            "Könnten Sie mir bitte helfen?",
+            "Könnten Sie mir helfen, bitte?",
+            "Bitte, könnten Sie mir helfen?"
+          ]
+        },
+        {
+          "prompt": "Yo en tu lugar no publicaría la foto. (An deiner Stelle / das Foto nicht posten)",
+          "answers": [
+            "An deiner Stelle würde ich das Foto nicht posten."
+          ]
+        },
+        {
+          "prompt": "Estaría bien que vinieras. (Es / schön sein / wenn du kommen)",
+          "answers": [
+            "Es wäre schön, wenn du kommen würdest.",
+            "Es wäre schön, wenn du kämest.",
+            "Es wäre schön, wenn du kämst."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "mc",
+      "title": "¿hätte o wäre?",
+      "instructions": "Konjunktiv II pasado: elige el auxiliar correcto (como en el Perfekt).",
+      "items": [
+        {
+          "q": "Ich ___ fast die falsche Datei geschickt.",
+          "options": [
+            "hätte",
+            "wäre"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Wir ___ gestern lieber zu Hause geblieben.",
+          "options": [
+            "hätten",
+            "wären"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Wenn du früher losgefahren ___, wärst du pünktlich gewesen.",
+          "options": [
+            "hättest",
+            "wärst"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Wenn er die Quelle geprüft ___, hätte er die Falschmeldung nicht geteilt.",
+          "options": [
+            "hätte",
+            "wäre"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Ohne deine Hilfe ___ ich das Problem nie gelöst.",
+          "options": [
+            "hätte",
+            "wäre"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Sie ___ gern mitgekommen, aber sie war krank.",
+          "options": [
+            "hätte",
+            "wäre"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Du ___ mich anrufen sollen!",
+          "options": [
+            "hättest",
+            "wärst"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "gap",
+      "title": "Lo que pudo ser",
+      "instructions": "Completa con hätte/wäre (conjugado) o con el participio.",
+      "items": [
+        {
+          "text": "Wenn ich das Update installiert [[hätte]], wäre das nicht passiert."
+        },
+        {
+          "text": "Wenn wir den Zug nicht verpasst hätten, [[wären]] wir pünktlich angekommen."
+        },
+        {
+          "text": "José hätte die Fotos besser in der Cloud [[gespeichert]]. (speichern)"
+        },
+        {
+          "text": "Ich [[wäre]] gern zur Party gegangen, aber ich musste arbeiten."
+        },
+        {
+          "text": "Du [[hättest]] mir sagen sollen, dass du kein Ladegerät hast."
+        },
+        {
+          "text": "Wenn sie den Artikel gelesen hätte, hätte sie das nicht [[behauptet]]. (behaupten)"
+        },
+        {
+          "text": "Ohne das Navi hätten wir den Weg nie [[gefunden]]. (finden)"
+        },
+        {
+          "text": "Ihr [[hättet]] das Abo rechtzeitig kündigen müssen."
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Konjunktiv II pasado",
+      "instructions": "Ordena la frase.",
+      "items": [
+        {
+          "words": [
+            "Ich",
+            "hätte",
+            "das",
+            "Foto",
+            "nicht",
+            "gepostet",
+            "."
+          ],
+          "answers": [
+            "Ich hätte das Foto nicht gepostet."
+          ]
+        },
+        {
+          "words": [
+            "Wir",
+            "wären",
+            "lieber",
+            "ins",
+            "Kino",
+            "gegangen",
+            "."
+          ],
+          "answers": [
+            "Wir wären lieber ins Kino gegangen."
+          ]
+        },
+        {
+          "words": [
+            "Du",
+            "hättest",
+            "mich",
+            "anrufen",
+            "sollen",
+            "."
+          ],
+          "answers": [
+            "Du hättest mich anrufen sollen."
+          ]
+        },
+        {
+          "words": [
+            "Wenn",
+            "ich",
+            "das",
+            "gewusst",
+            "hätte",
+            ",",
+            "wäre",
+            "ich",
+            "gekommen",
+            "."
+          ],
+          "answers": [
+            "Wenn ich das gewusst hätte, wäre ich gekommen."
+          ]
+        },
+        {
+          "words": [
+            "Andrea",
+            "hätte",
+            "die",
+            "Daten",
+            "speichern",
+            "können",
+            "."
+          ],
+          "answers": [
+            "Andrea hätte die Daten speichern können."
+          ]
+        },
+        {
+          "words": [
+            "Ohne",
+            "Handy",
+            "wären",
+            "wir",
+            "nicht",
+            "pünktlich",
+            "angekommen",
+            "."
+          ],
+          "answers": [
+            "Ohne Handy wären wir nicht pünktlich angekommen.",
+            "Wir wären ohne Handy nicht pünktlich angekommen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "match",
+      "title": "Opinar y reaccionar",
+      "instructions": "Relaciona cada expresión con su traducción.",
+      "pairs": [
+        [
+          "Meiner Meinung nach …",
+          "En mi opinión…"
+        ],
+        [
+          "Da stimme ich dir zu.",
+          "Estoy de acuerdo contigo."
+        ],
+        [
+          "Das sehe ich anders.",
+          "Yo lo veo de otra manera."
+        ],
+        [
+          "Das kommt darauf an.",
+          "Depende."
+        ],
+        [
+          "Ich bin dafür.",
+          "Estoy a favor."
+        ],
+        [
+          "Ich bin dagegen.",
+          "Estoy en contra."
+        ],
+        [
+          "Da hast du recht.",
+          "Tienes razón."
+        ],
+        [
+          "Einerseits …, andererseits …",
+          "Por un lado…, por otro…"
+        ]
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "mc",
+      "title": "Fórmulas de opinión",
+      "instructions": "Elige la opción correcta.",
+      "items": [
+        {
+          "q": "Meiner Meinung nach ___ soziale Netzwerke gefährlich.",
+          "options": [
+            "sind",
+            "es sind",
+            "dass sind"
+          ],
+          "answer": 0,
+          "explain": "Meiner Meinung nach ocupa la posición 1: el verbo va justo después."
+        },
+        {
+          "q": "Da bin ich ___ Meinung.",
+          "options": [
+            "andere",
+            "anderer",
+            "anderen"
+          ],
+          "answer": 1,
+          "explain": "Expresión fija en genitivo: anderer Meinung."
+        },
+        {
+          "q": "Ich bin der Meinung, ___ man die Quellen prüfen sollte.",
+          "options": [
+            "weil",
+            "ob",
+            "dass"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Da stimme ich ___ zu.",
+          "options": [
+            "dir",
+            "dich",
+            "du"
+          ],
+          "answer": 0,
+          "explain": "zustimmen + dativo."
+        },
+        {
+          "q": "Ich bin ___, dass Handys in der Schule verboten sind.",
+          "options": [
+            "dagegen",
+            "gegen",
+            "gegen das"
+          ],
+          "answer": 0,
+          "explain": "dafür / dagegen + dass-Satz."
+        },
+        {
+          "q": "Das Argument hat mich nicht ___.",
+          "options": [
+            "überzeugen",
+            "überzeugt",
+            "geüberzeugt"
+          ],
+          "answer": 1,
+          "explain": "Los verbos con über- inseparable no llevan ge-."
+        },
+        {
+          "q": "___ ist KI praktisch, andererseits macht sie Fehler.",
+          "options": [
+            "Einseitig",
+            "Einerseits",
+            "Erstens"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "listen",
+      "title": "Conversaciones sobre tecnología",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Kommst du heute Abend mit ins Kino?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich würde gern mitkommen, aber ich muss noch eine Präsentation fertig machen. Wenn ich sie gestern gespeichert hätte, wäre ich jetzt schon fertig."
+            }
+          ],
+          "q": "¿Por qué no va al cine?",
+          "options": [
+            "Porque no le apetece",
+            "Porque tiene que terminar una presentación",
+            "Porque ya ha visto la película"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Mein Handy ist schon wieder so langsam."
+            },
+            {
+              "v": "f2",
+              "t": "An deiner Stelle würde ich ein paar Apps löschen. Du hast viel zu viele."
+            }
+          ],
+          "q": "¿Qué le aconseja ella?",
+          "options": [
+            "Comprar un móvil nuevo",
+            "Instalar una actualización",
+            "Borrar algunas aplicaciones"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Wie findest du die Idee, Handys an Schulen zu verbieten?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Einerseits verstehe ich die Lehrer. Andererseits lernen die Kinder so nicht, wie man das Handy vernünftig nutzt. Deshalb bin ich eher dagegen."
+            }
+          ],
+          "q": "¿Qué opina él de prohibir los móviles?",
+          "options": [
+            "Está más bien en contra",
+            "Está totalmente a favor",
+            "No tiene opinión"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hast du gehört? Laura hat ihr ganzes Handy verloren, mit allen Fotos."
+            },
+            {
+              "v": "m1",
+              "t": "Oh nein! Sie hätte die Fotos in der Cloud speichern sollen."
+            }
+          ],
+          "q": "¿Qué piensa él?",
+          "options": [
+            "Laura debería haber guardado las fotos en la nube",
+            "Laura debería comprarse otro móvil",
+            "Laura tiene las fotos en la nube"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Wenn ich noch einmal zwanzig wäre, würde ich Informatik studieren. Damals war das für mich kein Thema."
+            }
+          ],
+          "q": "¿Qué haría si tuviera veinte años?",
+          "options": [
+            "Trabajaría en una empresa informática",
+            "Estudiaría Informática",
+            "Viajaría por el mundo"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Sollen wir das Zeitungsabo kündigen? Wir lesen sowieso alles online."
+            },
+            {
+              "v": "f2",
+              "t": "Das sehe ich anders. Am Sonntag lese ich die Zeitung so gern auf Papier."
+            }
+          ],
+          "q": "¿Qué opina ella?",
+          "options": [
+            "Está de acuerdo en cancelar la suscripción",
+            "Quiere leerlo todo en internet",
+            "No quiere cancelar la suscripción"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wenn ich mehr Zeit hätte, würde ich mehr lesen."
+            }
+          ],
+          "answers": [
+            "Wenn ich mehr Zeit hätte, würde ich mehr lesen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Du solltest dein Passwort ändern."
+            }
+          ],
+          "answers": [
+            "Du solltest dein Passwort ändern."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Meiner Meinung nach ist das gefährlich."
+            }
+          ],
+          "answers": [
+            "Meiner Meinung nach ist das gefährlich."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Ich hätte das Foto nicht gepostet."
+            }
+          ],
+          "answers": [
+            "Ich hätte das Foto nicht gepostet."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Im Zug habe ich keinen Empfang."
+            }
+          ],
+          "answers": [
+            "Im Zug habe ich keinen Empfang."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Da bin ich anderer Meinung."
+            }
+          ],
+          "answers": [
+            "Da bin ich anderer Meinung."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Deberías apagar el móvil por la noche.",
+          "answers": [
+            "Du solltest das Handy nachts abschalten.",
+            "Du solltest dein Handy nachts abschalten.",
+            "Du solltest das Handy nachts ausschalten.",
+            "Du solltest dein Handy nachts ausschalten.",
+            "Du solltest nachts das Handy abschalten.",
+            "Du solltest nachts dein Handy abschalten.",
+            "Du solltest nachts das Handy ausschalten.",
+            "Du solltest nachts dein Handy ausschalten."
+          ]
+        },
+        {
+          "prompt": "Sería genial tener wifi en el tren. (Es … toll, … WLAN im Zug …)",
+          "answers": [
+            "Es wäre toll, WLAN im Zug zu haben.",
+            "Es wäre toll, im Zug WLAN zu haben.",
+            "Es wäre toll, wenn es im Zug WLAN gäbe.",
+            "Es wäre toll, wenn es WLAN im Zug gäbe.",
+            "Es wäre toll, wenn wir im Zug WLAN hätten."
+          ]
+        },
+        {
+          "prompt": "Si lo hubiera sabido, habría venido. (wissen / kommen)",
+          "answers": [
+            "Wenn ich das gewusst hätte, wäre ich gekommen.",
+            "Wenn ich es gewusst hätte, wäre ich gekommen."
+          ]
+        },
+        {
+          "prompt": "En mi opinión, los niños pasan demasiado tiempo delante de la pantalla. (verbringen)",
+          "answers": [
+            "Meiner Meinung nach verbringen Kinder zu viel Zeit vor dem Bildschirm.",
+            "Meiner Meinung nach verbringen die Kinder zu viel Zeit vor dem Bildschirm."
+          ]
+        },
+        {
+          "prompt": "Estoy de acuerdo contigo.",
+          "answers": [
+            "Ich stimme dir zu.",
+            "Da stimme ich dir zu.",
+            "Ich bin mit dir einverstanden.",
+            "Ich bin deiner Meinung.",
+            "Da bin ich deiner Meinung."
+          ]
+        },
+        {
+          "prompt": "Deberías haberme llamado.",
+          "answers": [
+            "Du hättest mich anrufen sollen."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Blog: Eine Woche ohne Smartphone",
+          "text": "Hallo zusammen!\n\nLetzten Monat habe ich etwas gemacht, was ich nie für möglich gehalten hätte: Ich habe mein Smartphone eine Woche lang in eine Schublade gelegt. Die Idee kam von meiner Chefin. Sie hatte einen Artikel über Handysucht gelesen und im Team gefragt, wer mitmachen würde. Nur zwei Kolleginnen und ich haben Ja gesagt.\n\nDie ersten zwei Tage waren schrecklich. Morgens im Tram wusste ich nicht, was ich mit meinen Händen machen sollte, und ich habe ständig in meine Tasche gegriffen. Außerdem hatte ich Angst, etwas Wichtiges zu verpassen. Meine Mutter war ziemlich sauer, weil sie mich am Dienstag den ganzen Tag nicht erreichen konnte. Ich hätte ihr vorher Bescheid sagen sollen!\n\nAb dem dritten Tag wurde es besser. Ich habe im Tram wieder Bücher gelesen, und abends bin ich viel früher eingeschlafen. Für die Arbeit hatte ich ja meinen Computer, das war also kein Problem. Schwierig war nur das Bezahlen: Sonst bezahle ich fast alles mit dem Handy, und plötzlich musste ich wieder Bargeld mitnehmen. Und einmal habe ich mich in der Altstadt verlaufen, weil ich keine Karte hatte. Ich musste tatsächlich einen Passanten nach dem Weg fragen!\n\nWürde ich es wieder machen? Ja, aber nicht eine ganze Woche. Seit dem Experiment schalte ich mein Handy jeden Abend um 21 Uhr ab, und am Sonntag lasse ich es zu Hause. Wenn ihr es auch ausprobieren wollt, dann sagt euren Freunden und eurer Familie vorher Bescheid!\n\nMiriam",
+          "statements": [
+            {
+              "s": "Die Idee für das Experiment hatte Miriam selbst.",
+              "answer": false
+            },
+            {
+              "s": "Nicht alle Personen im Team haben beim Experiment mitgemacht.",
+              "answer": true
+            },
+            {
+              "s": "Miriams Mutter hat sich geärgert, weil sie Miriam nicht erreichen konnte.",
+              "answer": true
+            },
+            {
+              "s": "Bei der Arbeit hatte Miriam ohne Handy große Probleme.",
+              "answer": false
+            },
+            {
+              "s": "Ohne Handy musste Miriam wieder mit Bargeld bezahlen.",
+              "answer": true
+            },
+            {
+              "s": "Heute benutzt Miriam ihr Handy am Sonntag nur noch für Notfälle.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Lieber Tobias,\n\ndanke für deine Nachricht! Entschuldige, dass ich erst jetzt antworte, aber die letzten Wochen waren total verrückt. Du wirst nicht glauben, was passiert ist: Meine Oma ist jetzt online!\n\nDu weißt ja, dass sie seit dem Tod von Opa allein in ihrem Haus in Chur wohnt. Wir haben uns lange Sorgen gemacht, weil sie oft einsam war. Zu ihrem 82. Geburtstag haben meine Geschwister und ich ihr deshalb ein Tablet geschenkt. Am Anfang war sie gar nicht begeistert. „Was soll ich denn mit so einem Ding?“, hat sie gesagt. Zwei Wochen lang hat sie das Tablet nicht einmal aus der Schachtel genommen.\n\nDann hat ihr eine Nachbarin von einem Kurs in der Stadtbibliothek erzählt. Dort zeigen Jugendliche älteren Menschen, wie man mit einem Smartphone oder Tablet umgeht. Der Kurs kostet nichts und findet jeden Mittwochnachmittag statt. Oma ist hingegangen, und jetzt ist sie total begeistert! Sie schreibt uns jeden Tag Nachrichten, schaut Kochvideos, und letzte Woche hat sie zum ersten Mal mit meinem Bruder in Kanada telefoniert – mit Video! Sie hat fast geweint vor Freude.\n\nNur mit den Passwörtern hat sie noch Probleme. Sie schreibt alle auf einen Zettel und klebt ihn hinten auf das Tablet. Ich habe ihr schon dreimal erklärt, dass das keine gute Idee ist …\n\nUnd wie geht's dir? Hast du die neue Stelle bekommen? Wenn du im Dezember nach Zürich kommst, könnten wir zusammen essen gehen.\n\nLiebe Grüße\nSelina",
+          "statements": [
+            {
+              "s": "Selina entschuldigt sich, weil sie spät antwortet.",
+              "answer": true
+            },
+            {
+              "s": "Selinas Großmutter lebt zusammen mit ihrem Mann in Chur.",
+              "answer": false
+            },
+            {
+              "s": "Die Großmutter hat das Tablet sofort ausprobiert.",
+              "answer": false
+            },
+            {
+              "s": "Im Kurs helfen junge Leute älteren Menschen.",
+              "answer": true
+            },
+            {
+              "s": "Für den Kurs muss man nichts bezahlen.",
+              "answer": true
+            },
+            {
+              "s": "Selina findet es gut, dass ihre Oma die Passwörter aufschreibt.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Handyverbot an der Schule: eine erste Bilanz",
+          "text": "Seit einem Jahr gilt an der Sekundarschule Am Bach in Winterthur ein strenges Handyverbot: Die rund 400 Schülerinnen und Schüler müssen ihre Smartphones am Morgen in einen Schrank im Klassenzimmer legen und bekommen sie erst nach dem Unterricht zurück. Auch in den Pausen ist das Handy tabu. Jetzt hat die Schule eine erste Bilanz gezogen – und die ist überwiegend positiv.\n\n„In den Pausen ist es viel lauter geworden“, sagt Schulleiter Daniel Frei und lacht. „Die Jugendlichen spielen wieder Fußball, reden miteinander oder streiten sich auch mal. Früher saßen alle still in einer Ecke und haben auf ihre Bildschirme geschaut.“ Auch die Lehrpersonen berichten, dass sich die Klassen im Unterricht besser konzentrieren.\n\nNicht alle waren von Anfang an begeistert. Einige Eltern hatten sich beschwert, weil sie ihre Kinder tagsüber nicht erreichen konnten. Die Schule hat deshalb eine Lösung gefunden: Im Sekretariat gibt es jetzt ein Telefon, über das Eltern ihre Kinder in Notfällen jederzeit erreichen. Auch die Jugendlichen sehen das Verbot unterschiedlich. „Am Anfang fand ich es furchtbar“, erzählt die 14-jährige Leonie. „Aber jetzt bin ich eigentlich froh, dass ich in der Pause mal nicht an Instagram denke.“\n\nFür den Informatikunterricht benutzen die Jugendlichen weiterhin Tablets, die der Schule gehören. Mehrere Schulen im Kanton wollen das Modell nun übernehmen.",
+          "questions": [
+            {
+              "q": "Was sagt der Schulleiter über die Pausen?",
+              "options": [
+                "Die Jugendlichen sind ruhiger als früher.",
+                "Die Jugendlichen sind aktiver als früher.",
+                "Die Jugendlichen streiten nicht mehr."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wie hat die Schule auf die Kritik der Eltern reagiert?",
+              "options": [
+                "Eltern können ihre Kinder im Notfall über das Sekretariat erreichen.",
+                "Die Kinder dürfen in Notfällen ihr eigenes Handy benutzen.",
+                "Das Verbot gilt jetzt nur noch im Unterricht."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Im Informatikunterricht …",
+              "options": [
+                "dürfen die Jugendlichen ihre eigenen Smartphones benutzen.",
+                "arbeiten die Jugendlichen ganz ohne digitale Geräte.",
+                "arbeiten die Jugendlichen mit Geräten der Schule."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Künstliche Intelligenz im Büro: Hilfe oder Gefahr?",
+          "text": "Mehr als die Hälfte der Angestellten in der Schweiz nutzt bei der Arbeit inzwischen Programme mit künstlicher Intelligenz. Das zeigt eine neue Umfrage einer Hochschule in Luzern mit 1500 Teilnehmenden. Am häufigsten lassen sich die Befragten von der KI E-Mails schreiben oder Texte übersetzen. Auch für Zusammenfassungen von langen Dokumenten wird die Technik gern genutzt.\n\nInteressant ist: Viele Angestellte benutzen die Programme, ohne dass ihre Vorgesetzten davon wissen. Nur ein Drittel der Firmen hat klare Regeln dafür. „Das ist ein Problem für den Datenschutz“, sagt die Studienleiterin Petra Kälin. „Wenn Mitarbeitende Kundendaten in ein kostenloses Programm kopieren, wissen sie oft nicht, wo diese Daten am Ende landen.“ Sie rät den Firmen, eigene Regeln zu schreiben und ihre Mitarbeitenden zu schulen.\n\nAngst um ihren Job haben übrigens weniger Menschen, als man vielleicht denken würde: Nur 18 Prozent der Befragten glauben, dass eine KI ihre Arbeit in den nächsten zehn Jahren übernehmen könnte. Die meisten sehen die Programme eher als eine Art Assistenten, der ihnen langweilige Aufgaben abnimmt. Jüngere Angestellte sind dabei deutlich offener als ältere: Bei den unter 30-Jährigen nutzen fast 80 Prozent regelmäßig KI, bei den über 50-Jährigen nur ein Drittel. Die Hochschule möchte die Umfrage im nächsten Jahr wiederholen, um die Entwicklung genauer zu beobachten.",
+          "questions": [
+            {
+              "q": "Wofür nutzen die Befragten KI am häufigsten?",
+              "options": [
+                "Sie lassen sich lange Dokumente zusammenfassen.",
+                "Sie lassen sich E-Mails schreiben und Texte übersetzen.",
+                "Sie suchen damit Informationen über Kunden."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was kritisiert Petra Kälin?",
+              "options": [
+                "Die Programme sind für kleine Firmen zu teuer.",
+                "Die Programme machen zu viele Fehler.",
+                "Viele Firmen haben keine klaren Regeln für KI."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was denken die meisten Befragten?",
+              "options": [
+                "KI hilft ihnen bei langweiligen Aufgaben.",
+                "KI wird bald ihre Arbeit übernehmen.",
+                "Ältere Angestellte sollten keine KI nutzen."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Handy-Reparatur Express: Display kaputt? Akku schwach? Wir reparieren alle Marken in einer Stunde. Langstrasse 120, Zürich, Mo–Sa 9–19 Uhr."
+            },
+            {
+              "key": "b",
+              "text": "Computerkurs ab 60: E-Mails schreiben, Fotos verschicken, sicher im Internet. Kleine Gruppen, sechs Nachmittage im Gemeinschaftszentrum Wipkingen."
+            },
+            {
+              "key": "c",
+              "text": "Programmieren für Kinder von 8 bis 12 Jahren: Entwickle dein eigenes Computerspiel! Samstagvormittag, Laptops sind vorhanden."
+            },
+            {
+              "key": "d",
+              "text": "Gebrauchte Laptops und Tablets mit einem Jahr Garantie – bis zu 60 % günstiger als neu. Online-Shop mit Lieferung in die ganze Schweiz."
+            },
+            {
+              "key": "e",
+              "text": "Fotokurs mit dem Smartphone: Schönere Bilder ohne teure Kamera. Abendkurs für Erwachsene, dienstags, vier Termine."
+            },
+            {
+              "key": "f",
+              "text": "IT-Hilfe zu Hause: Wir kommen zu Ihnen und richten Computer, Drucker und WLAN ein. Auch am Wochenende, im ganzen Kanton Zürich."
+            },
+            {
+              "key": "g",
+              "text": "Lernen Sie uns kennen: drei Monate Zeitung digital für nur 9 Franken. Danach jederzeit kündbar."
+            },
+            {
+              "key": "h",
+              "text": "Wie viel Bildschirmzeit ist gut für mein Kind? Gratis-Vortrag mit Diskussion für Eltern, Mittwoch, 19.30 Uhr, Schulhaus Letten."
+            },
+            {
+              "key": "i",
+              "text": "Podcast-Workshop: eigene Sendung planen, aufnehmen und veröffentlichen. Wochenendkurs für Erwachsene, Mikrofone sind vorhanden."
+            },
+            {
+              "key": "j",
+              "text": "Festplatte kaputt? Fotos gelöscht? Wir retten Ihre Daten – auch von alten Geräten. Die erste Analyse ist kostenlos."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Ihr Nachbar (72) möchte lernen, wie er seinen Enkeln Fotos per E-Mail schicken kann.",
+              "answer": "b"
+            },
+            {
+              "situation": "Ihre Kollegin hat aus Versehen alle Fotos von ihrer Hochzeit von der Festplatte gelöscht.",
+              "answer": "j"
+            },
+            {
+              "situation": "Ein Freund braucht einen Laptop für sein Studium, hat aber wenig Geld.",
+              "answer": "d"
+            },
+            {
+              "situation": "Ihre Schwester macht sich Sorgen, weil ihr Sohn jeden Abend stundenlang am Tablet spielt.",
+              "answer": "h"
+            },
+            {
+              "situation": "Sie haben einen neuen Drucker gekauft und kennen sich mit Technik nicht aus. Jemand soll Ihnen bei der Installation helfen.",
+              "answer": "f"
+            },
+            {
+              "situation": "Ihre Nichte (10) spielt gern am Computer und möchte selbst ein Spiel machen.",
+              "answer": "c"
+            },
+            {
+              "situation": "Ein Bekannter sucht einen Abendkurs, in dem er lernt, Videos für YouTube zu schneiden.",
+              "answer": "x"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Das erste Smartphone – schon in der Primarschule?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Smartphones für Kinder unter zwölf Jahren.",
+          "question": "Ist die Person dafür, dass Kinder unter zwölf Jahren ein eigenes Smartphone haben?",
+          "comments": [
+            {
+              "name": "Lukas, 38, Winterthur",
+              "text": "Meine Tochter ist zehn und fährt jeden Tag allein mit dem Bus zum Training. Ohne Handy hätte ich keine ruhige Minute. Natürlich haben wir klare Regeln: kein Handy beim Essen, und um 20 Uhr kommt es in die Küche. Ich verstehe die Eltern, die Angst vor Social Media haben. Aber das Problem ist nicht das Gerät, sondern wie man es nutzt. Wenn Eltern ihre Kinder begleiten, spricht nichts dagegen.",
+              "answer": true
+            },
+            {
+              "name": "Beatrice, 45, Bern",
+              "text": "Ich bin Lehrerin und sehe jeden Tag, was passiert: Kinder, die nachts chatten und morgens müde in die Schule kommen, Streit in Klassenchats, Videos, die nicht für Kinder gemacht sind. Natürlich sagen alle Eltern, dass sie ihre Kinder kontrollieren. In Wirklichkeit schafft das kaum jemand. Wer erreichbar sein will, braucht nur ein einfaches Telefon ohne Internet. Ein Smartphone gehört für mich in die Hände von Jugendlichen.",
+              "answer": false
+            },
+            {
+              "name": "Murat, 29, Basel",
+              "text": "Ich habe selbst noch keine Kinder, aber ich arbeite als Informatiker. Einerseits verstehe ich die Sorgen vieler Eltern. Andererseits leben wir nun mal in einer digitalen Welt. Wenn Kinder erst mit vierzehn ein Smartphone bekommen, lernen sie den richtigen Umgang damit zu spät. Ich hätte mir als Kind gewünscht, dass mir jemand zeigt, wie man sicher im Internet surft. Deshalb: lieber früh, aber mit Begleitung.",
+              "answer": true
+            },
+            {
+              "name": "Sabine, 51, Innsbruck",
+              "text": "Bei unserem Sohn haben wir einen Fehler gemacht: Mit neun hatte er ein Smartphone, weil angeblich alle anderen auch eins hatten. Ein Jahr später hat er kaum noch gelesen und war ständig nervös. Bei unserer Tochter haben wir es anders gemacht: Sie hat ihr erstes Smartphone mit dreizehn bekommen und sich nie beschwert. Wenn ich die Zeit zurückdrehen könnte, würde ich auch beim Sohn warten.",
+              "answer": false
+            },
+            {
+              "name": "Jonas, 16, Luzern",
+              "text": "Hier schreiben viele Erwachsene, aber niemand fragt uns Jugendliche. Ich hatte mein erstes Smartphone mit elf, und ich finde nicht, dass es mir geschadet hat. Klar, manchmal war ich zu lange am Handy. Aber ich habe damit auch Englisch gelernt und Freunde gefunden. Ein Kind ohne Smartphone ist in der Klasse heute leider schnell ein Außenseiter. Verbote bringen nichts – Gespräche schon.",
+              "answer": true
+            },
+            {
+              "name": "Claudia, 34, Zürich",
+              "text": "Unsere Kinder sind sieben und neun, und natürlich wünschen sie sich schon ein Handy. Ich verstehe das, denn viele Freunde haben schon eins. Trotzdem bleiben wir hart. Für Notfälle hat die Ältere eine Smartwatch, mit der sie uns anrufen kann. Das reicht völlig. Kinder sollten auf Bäume klettern und sich auch mal langweilen, anstatt stundenlang Videos zu schauen.",
+              "answer": false
+            },
+            {
+              "name": "Peter, 63, Graz",
+              "text": "Als Großvater von fünf Enkeln sehe ich beide Seiten. Es ist praktisch, wenn man mit den Kleinen per Video telefonieren kann, und ich freue mich über jedes Foto. Aber man muss ehrlich sein: Die Firmen hinter den Apps wollen, dass Kinder möglichst viel Zeit am Bildschirm verbringen. Ein zehnjähriges Kind hat dagegen keine Chance. Videoanrufe kann man auch mit dem Tablet der Eltern machen.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Computer und WLAN in der Bibliothek – Regeln für Besucherinnen und Besucher",
+          "text": "1. WLAN: Das WLAN „Bibliothek-Gast“ ist für alle Besucherinnen und Besucher kostenlos. Den Zugangscode erhalten Sie an der Information, wenn Sie einen Ausweis zeigen. Der Code gilt jeweils für einen Tag.\n\n2. Computerplätze: Im ersten Stock stehen zehn Computer zur Verfügung. Mitglieder der Bibliothek können einen Platz online oder an der Information reservieren. Die Nutzung ist auf zwei Stunden pro Tag begrenzt. Personen ohne Bibliotheksausweis dürfen die Computer nur benutzen, wenn ein Platz frei ist, und höchstens 30 Minuten.\n\n3. Drucken und Scannen: Ausdrucke kosten 20 Rappen pro Seite (schwarz-weiß) bzw. 1 Franken (farbig). Bezahlt wird an der Information. Das Scannen ist gratis.\n\n4. Speichern: Bitte speichern Sie Ihre Dateien auf einem eigenen USB-Stick oder in Ihrer Cloud. Alle Daten auf den Computern werden beim Abmelden automatisch gelöscht.\n\n5. Ruhe: In den Arbeitsräumen ist Telefonieren nicht erlaubt. Für Videokonferenzen können Sie kostenlos einen der beiden Gruppenräume im Erdgeschoss buchen.\n\n6. Kinder unter 12 Jahren dürfen die Computer nur zusammen mit einer erwachsenen Person benutzen.\n\nBei technischen Problemen wenden Sie sich bitte an das Personal an der Information. Vielen Dank für Ihr Verständnis!",
+          "questions": [
+            {
+              "q": "Was braucht man, um das WLAN zu benutzen?",
+              "options": [
+                "einen Bibliotheksausweis",
+                "einen Code von der Information",
+                "ein Passwort, das jede Woche wechselt"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wer keinen Bibliotheksausweis hat, …",
+              "options": [
+                "kann einen Computerplatz online reservieren.",
+                "darf die Computer gar nicht benutzen.",
+                "darf höchstens eine halbe Stunde an einem Computer arbeiten."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was passiert mit Dateien, die man auf einem Computer der Bibliothek speichert?",
+              "options": [
+                "Sie werden gelöscht, wenn man sich abmeldet.",
+                "Sie bleiben einen Tag lang gespeichert.",
+                "Man kann sie an der Information auf einen USB-Stick kopieren lassen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Sie möchten in der Bibliothek an einer Videokonferenz teilnehmen. Was tun Sie?",
+              "options": [
+                "Sie telefonieren leise im ersten Stock.",
+                "Sie reservieren einen Gruppenraum.",
+                "Sie bezahlen an der Information eine Gebühr."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Guten Tag, Frau Keller, hier spricht Marco Brunner vom Kundendienst der Firma TeleNet. Ihr Laptop ist repariert. Der Akku war defekt, wir haben ihn ausgetauscht. Die Reparatur ist noch in der Garantie, Sie müssen also nichts bezahlen. Sie können das Gerät ab Donnerstag in unserem Geschäft am Bahnhofplatz abholen. Bitte bringen Sie den Abholschein mit. Wir sind Montag bis Freitag bis 18.30 Uhr für Sie da."
+            }
+          ],
+          "statement": "Frau Keller muss für die Reparatur bezahlen.",
+          "tf": false,
+          "q": "Wann kann Frau Keller ihren Laptop abholen?",
+          "options": [
+            "ab Montag",
+            "ab Donnerstag",
+            "nur am Samstag"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Und nun die Nachrichten aus der Region. Gestern Abend sind in der Stadt Zürich für fast drei Stunden Internet und Telefon ausgefallen. Betroffen waren rund 50 000 Haushalte. Auch die Notrufnummern waren zeitweise nicht erreichbar. Grund für den Ausfall war ein Fehler bei einem Update. Die Firma hat sich bei ihren Kunden entschuldigt und will ihnen die Gebühren für einen Monat zurückzahlen."
+            }
+          ],
+          "statement": "Internet und Telefon haben fast drei Stunden lang nicht funktioniert.",
+          "tf": true,
+          "q": "Was war der Grund für das Problem?",
+          "options": [
+            "ein Sturm",
+            "Bauarbeiten in der Stadt",
+            "ein Fehler bei einem Update"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Liebe Kundinnen und Kunden, nur heute in unserer Elektronikabteilung im zweiten Stock: Alle Kopfhörer sind 30 Prozent günstiger. Und wenn Sie ein neues Smartphone kaufen, bekommen Sie eine Schutzhülle gratis dazu. Unsere Mitarbeiterinnen und Mitarbeiter übertragen außerdem Ihre alten Daten kostenlos auf Ihr neues Gerät. Kommen Sie vorbei – das Angebot gilt nur bis 20 Uhr!"
+            }
+          ],
+          "statement": "Die Aktion gilt die ganze Woche.",
+          "tf": false,
+          "q": "Was bekommt man gratis, wenn man ein Smartphone kauft?",
+          "options": [
+            "eine Schutzhülle",
+            "Kopfhörer",
+            "ein Ladegerät"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Hoi Jana, hier ist Flurin. Du, ich habe ein Problem: Ich muss morgen meine Bachelorarbeit abgeben, und mein Laptop ist gerade abgestürzt. Zum Glück habe ich gestern alles auf einem USB-Stick gespeichert. Könnte ich heute Abend bei dir vorbeikommen und deinen Computer benutzen? Ich müsste nur noch die Literaturliste fertig machen und dann alles drucken. Ruf mich doch bitte zurück!"
+            }
+          ],
+          "statement": "Flurin hat eine Kopie von seiner Arbeit.",
+          "tf": true,
+          "q": "Was möchte Flurin?",
+          "options": [
+            "Janas Laptop für ein paar Tage ausleihen",
+            "seine Arbeit in einem Copyshop drucken",
+            "bei Jana zu Hause ihren Computer benutzen"
+          ],
+          "answer": 2
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung durch ein Technikmuseum teil.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Herzlich willkommen im Museum! Mein Name ist Corinne Baumann, und ich begleite Sie heute durch unsere Ausstellung „Vom Brief zum Smartphone“. Die Führung dauert etwa eine Stunde. Bitte lassen Sie Ihre Jacken und großen Taschen in den Schließfächern beim Eingang."
+            },
+            {
+              "v": "f2",
+              "t": "Wir beginnen hier im Erdgeschoss mit der Geschichte der Post. Vor zweihundert Jahren brauchte ein Brief von Zürich nach Genf noch mehrere Tage. Er wurde mit der Postkutsche transportiert. Hier sehen Sie eine echte Postkutsche aus dem Jahr 1850. Sie dürfen gern einsteigen und ein Foto machen."
+            },
+            {
+              "v": "f2",
+              "t": "Im ersten Stock geht es um das Telefon. Viele Besucher sind überrascht, wie schwer die ersten Telefone waren. Und früher konnte man nicht einfach eine Nummer wählen. Man musste zuerst mit einer Telefonistin sprechen, und sie hat dann die Verbindung hergestellt."
+            },
+            {
+              "v": "f2",
+              "t": "Der zweite Stock ist der Lieblingsraum unserer jüngeren Gäste. Dort stehen alte Computer und Spielkonsolen aus den Achtziger- und Neunzigerjahren, und auf allen kann man sogar spielen. Viele Eltern erzählen ihren Kindern dann, wie sie selbst früher gespielt haben."
+            },
+            {
+              "v": "f2",
+              "t": "Zum Schluss kommen wir in unseren neuesten Raum. Hier geht es um die Zukunft: Wie kommunizieren wir in zwanzig Jahren? Sie können mit einem Roboter sprechen, der von einer künstlichen Intelligenz gesteuert wird. Er beantwortet Ihre Fragen auf Deutsch, Französisch, Italienisch und Englisch."
+            },
+            {
+              "v": "f2",
+              "t": "Nach der Führung können Sie gern noch allein durch das Museum gehen. Unser Café im Erdgeschoss ist bis 17 Uhr geöffnet. Und noch ein Tipp: Mit Ihrem Eintrittsticket bekommen Sie im Museumsshop zehn Prozent Rabatt. So, jetzt geht es los. Bitte folgen Sie mir!"
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was sollen die Besucher vor der Führung machen?",
+              "options": [
+                "Jacken und Taschen in ein Schließfach legen",
+                "ihre Tickets an der Kasse zeigen",
+                "ihre Handys ausschalten"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was dürfen die Besucher im Erdgeschoss machen?",
+              "options": [
+                "einen Brief schreiben",
+                "in die Postkutsche einsteigen",
+                "alte Telefone ausprobieren"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wie hat man früher telefoniert?",
+              "options": [
+                "Man hat die Nummer selbst gewählt.",
+                "Man konnte nur in der Post telefonieren.",
+                "Eine Telefonistin hat die Verbindung hergestellt."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was gibt es im zweiten Stock?",
+              "options": [
+                "einen Roboter mit künstlicher Intelligenz",
+                "alte Computer und Spielkonsolen",
+                "eine Ausstellung über Briefe"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was bekommen die Besucher mit ihrem Ticket?",
+              "options": [
+                "einen Kaffee gratis",
+                "eine zweite Führung gratis",
+                "Rabatt im Museumsshop"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "intro": "Sie besuchen an der Volkshochschule einen Vortrag zum Thema „Sicher im Internet“.",
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Guten Abend, meine Damen und Herren. Ich heiße Stefan Wyss und arbeite seit zwölf Jahren bei der Kantonspolizei, die letzten fünf Jahre in der Abteilung für Internetkriminalität. Heute möchte ich Ihnen zeigen, wie Sie sich im Internet besser schützen können."
+            },
+            {
+              "v": "m1",
+              "t": "Fangen wir mit den Passwörtern an. Die meisten Menschen benutzen viel zu einfache Passwörter, zum Beispiel ihren Namen oder ihr Geburtsdatum. Ein gutes Passwort ist lang, mindestens zwölf Zeichen. Am besten nehmen Sie einen ganzen Satz, den Sie sich gut merken können. Und ganz wichtig: Benutzen Sie für jedes Konto ein anderes Passwort."
+            },
+            {
+              "v": "m1",
+              "t": "Das zweite Thema sind falsche E-Mails und SMS. Letzte Woche hat eine Frau bei uns angerufen. Sie hatte eine SMS bekommen: Ein Paket wartet auf Sie, bitte bezahlen Sie zwei Franken. Sie hat auf den Link geklickt und ihre Kreditkartennummer eingegeben. Am nächsten Tag fehlten 800 Franken auf ihrem Konto."
+            },
+            {
+              "v": "m1",
+              "t": "Wenn Sie so eine Nachricht bekommen, klicken Sie auf keinen Fall auf den Link. Rufen Sie lieber direkt bei der Firma an, aber nicht mit der Nummer aus der Nachricht, sondern mit der Nummer von der offiziellen Webseite."
+            },
+            {
+              "v": "m1",
+              "t": "Mein dritter Tipp: Machen Sie regelmäßig Updates. Viele Leute klicken immer auf „später“, weil sie gerade keine Zeit haben. Aber die Updates machen Ihre Geräte sicherer."
+            },
+            {
+              "v": "m1",
+              "t": "Und falls doch etwas passiert ist: Schämen Sie sich nicht! Das kann jedem passieren, auch sehr intelligenten Menschen. Informieren Sie sofort Ihre Bank und gehen Sie zur Polizei."
+            },
+            {
+              "v": "m1",
+              "t": "So, und jetzt haben Sie Zeit für Fragen. Nach dem Vortrag liegen hinten am Ausgang Broschüren mit allen Tipps für Sie bereit."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wo arbeitet Herr Wyss?",
+              "options": [
+                "bei einer Bank",
+                "bei der Polizei",
+                "bei einer Informatikfirma"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wie sollte ein gutes Passwort sein?",
+              "options": [
+                "kurz und leicht zu merken",
+                "für alle Konten gleich",
+                "lang, zum Beispiel ein ganzer Satz"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was ist der Frau passiert, die bei der Polizei angerufen hat?",
+              "options": [
+                "Sie hat Geld verloren.",
+                "Ihr Paket ist nicht angekommen.",
+                "Jemand hat ihr Handy gestohlen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was soll man bei einer verdächtigen SMS tun?",
+              "options": [
+                "die Nummer aus der SMS anrufen",
+                "die Firma über die offizielle Nummer anrufen",
+                "auf den Link klicken und das Passwort ändern"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was bekommen die Zuhörer nach dem Vortrag?",
+              "options": [
+                "Broschüren mit Tipps",
+                "einen Kurs am Computer",
+                "einen Termin bei ihrer Bank"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Zug und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hey Reto! Ist hier noch frei?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Klar, setz dich! Fährst du auch nach Zürich?"
+            },
+            {
+              "v": "f1",
+              "t": "Ja, ich habe heute ein Meeting im Büro. Normalerweise arbeite ich montags ja im Homeoffice. Was ist das denn an deinem Arm? Eine neue Uhr?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Eine Smartwatch. Die habe ich von meiner Frau zum Geburtstag bekommen. Sie zählt meine Schritte und misst, wie gut ich schlafe."
+            },
+            {
+              "v": "f1",
+              "t": "Und? Schläfst du gut?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Leider nicht. Seit ich die Uhr habe, schaue ich jeden Morgen auf die Zahlen und ärgere mich. Ehrlich gesagt hätte ich lieber ein Buch bekommen."
+            },
+            {
+              "v": "f1",
+              "t": "Ha, das kenne ich. Ich überlege gerade, ob ich Instagram löschen soll."
+            },
+            {
+              "v": "ch-m",
+              "t": "Wirklich? Du postest doch so schöne Fotos von deinen Wanderungen."
+            },
+            {
+              "v": "f1",
+              "t": "Ja, aber ich verbringe jeden Tag fast zwei Stunden in der App. Wenn ich diese Zeit hätte, könnte ich endlich mein Italienisch verbessern."
+            },
+            {
+              "v": "ch-m",
+              "t": "Du könntest die App ja auch nur am Wochenende benutzen."
+            },
+            {
+              "v": "f1",
+              "t": "Das habe ich schon versucht. Hat nicht funktioniert. Am Montag war ich schon wieder drin."
+            },
+            {
+              "v": "ch-m",
+              "t": "Und was sagen deine Freunde dazu?"
+            },
+            {
+              "v": "f1",
+              "t": "Meine Schwester findet die Idee super. Sie hat schon vor einem Jahr alles gelöscht und sagt, sie ist viel entspannter. Aber meine Freundinnen organisieren alle Treffen über Instagram. Ich hätte Angst, dass ich dann nichts mehr mitbekomme."
+            },
+            {
+              "v": "ch-m",
+              "t": "Dann sag ihnen einfach, sie sollen dir eine SMS schreiben. Wie früher."
+            },
+            {
+              "v": "f1",
+              "t": "Wie früher, genau! Du klingst wie mein Vater."
+            },
+            {
+              "v": "ch-m",
+              "t": "Danke! Oh, wir sind schon in Oerlikon. Hier muss ich aussteigen. Viel Glück mit Instagram!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Die Frau arbeitet montags normalerweise zu Hause.",
+              "answer": true
+            },
+            {
+              "s": "Reto hat sich die Smartwatch selbst gekauft.",
+              "answer": false
+            },
+            {
+              "s": "Reto ist mit seiner Smartwatch zufrieden.",
+              "answer": false
+            },
+            {
+              "s": "Die Frau verbringt täglich ungefähr zwei Stunden auf Instagram.",
+              "answer": true
+            },
+            {
+              "s": "Die Frau hat schon versucht, Instagram nur am Wochenende zu nutzen.",
+              "answer": true
+            },
+            {
+              "s": "Die Schwester der Frau benutzt Instagram noch jeden Tag.",
+              "answer": false
+            },
+            {
+              "s": "Reto steigt in Oerlikon aus.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Und, hat der Kundendienst angerufen?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, heute Morgen. Die Festplatte ist kaputt. Sie können den Laptop reparieren, aber die Daten sind weg."
+            },
+            {
+              "v": "f1",
+              "t": "Oh nein! Auch deine Daten für das Projekt?"
+            },
+            {
+              "v": "m1",
+              "t": "Zum Glück nicht. Die sind auf dem Server der Uni. Aber die Fotos von unserer Reise nach Norwegen waren nur auf dem Laptop."
+            },
+            {
+              "v": "f1",
+              "t": "Alle? Ich hätte sie dir doch auf eine Festplatte kopieren können. Warum hast du nichts gesagt?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich weiß, ich weiß. Ich hätte schon längst eine Sicherheitskopie machen sollen."
+            },
+            {
+              "v": "f1",
+              "t": "Na ja, ein paar Fotos habe ich auch auf meinem Handy. Und meine Mutter hat die schönsten bestimmt ausgedruckt."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt, deine Mutter druckt alles aus! Apropos, wann kommen deine Eltern eigentlich?"
+            },
+            {
+              "v": "f1",
+              "t": "Am Freitag in zwei Wochen. Mein Vater möchte unbedingt hier ein neues Handy kaufen, weil die Geräte in der Schweiz angeblich billiger sind."
+            },
+            {
+              "v": "m1",
+              "t": "Billiger als in Spanien? Das glaube ich nicht."
+            },
+            {
+              "v": "f1",
+              "t": "Ich auch nicht. Aber er hat das in irgendeinem Artikel gelesen. Ich habe ihm gesagt, er soll zuerst die Preise vergleichen."
+            },
+            {
+              "v": "m1",
+              "t": "Sag mal, meinst du, ich sollte meinen alten Laptop reparieren lassen oder einen neuen kaufen?"
+            },
+            {
+              "v": "f1",
+              "t": "Was kostet denn die Reparatur?"
+            },
+            {
+              "v": "m1",
+              "t": "Ungefähr 300 Franken. Und der Laptop ist schon sechs Jahre alt."
+            },
+            {
+              "v": "f1",
+              "t": "Dann würde ich einen neuen kaufen. Für 300 Franken bekommst du fast schon einen gebrauchten mit Garantie."
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee. Ich schaue heute Abend mal online. Oh, unsere Haltestelle! Komm, wir müssen raus."
+            }
+          ],
+          "statements": [
+            {
+              "s": "Der Mann hat seine Daten für die Arbeit verloren.",
+              "answer": false
+            },
+            {
+              "s": "Die Fotos aus Norwegen waren nur auf dem Laptop des Mannes gespeichert.",
+              "answer": true
+            },
+            {
+              "s": "Die Frau hat die Fotos schon auf eine Festplatte kopiert.",
+              "answer": false
+            },
+            {
+              "s": "Die Mutter der Frau hat wahrscheinlich einige Fotos auf Papier.",
+              "answer": true
+            },
+            {
+              "s": "Die Eltern der Frau kommen nächsten Freitag.",
+              "answer": false
+            },
+            {
+              "s": "Die Frau glaubt nicht, dass Handys in der Schweiz billiger sind.",
+              "answer": true
+            },
+            {
+              "s": "Die Frau rät dem Mann, einen neuen Laptop zu kaufen.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Treffpunkt Gesellschaft“ diskutiert mit dem Arbeitspsychologen Thomas Huber und der Unternehmerin Sandra Meier über das Thema „Ständig erreichbar – E-Mails auch nach Feierabend?“",
+          "options": [
+            "Moderatorin",
+            "Thomas Huber",
+            "Sandra Meier"
+          ],
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Abend und herzlich willkommen bei „Treffpunkt Gesellschaft“. Laut einer neuen Studie liest fast jeder zweite Angestellte in der Schweiz auch abends und am Wochenende berufliche E-Mails. Darüber spreche ich heute mit dem Arbeitspsychologen Thomas Huber und mit Sandra Meier, die eine Softwarefirma mit 40 Mitarbeitenden leitet. Herr Huber, ist das ein Problem?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, ein großes. Unser Gehirn braucht Pausen. Wer abends noch schnell die E-Mails checkt, schaltet nie richtig ab. Viele Menschen, die zu mir in die Beratung kommen, schlafen schlecht, weil sie im Bett noch an die Arbeit denken."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Meier, Sie sehen das anders?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Teilweise. Ich glaube, es kommt darauf an, wie man arbeitet. Bei uns können alle ihre Arbeitszeit frei einteilen. Manche bringen am Nachmittag die Kinder zum Fußball und arbeiten dafür am Abend noch eine Stunde. Das ist doch eine Freiheit und keine Belastung."
+            },
+            {
+              "v": "m2",
+              "t": "Das stimmt, solange es freiwillig ist. Aber viele fühlen sich unter Druck, sofort zu antworten, auch wenn niemand das verlangt."
+            },
+            {
+              "v": "f1",
+              "t": "In Frankreich gibt es ja schon ein Gesetz, das Angestellten ein Recht auf Abschalten gibt. Bräuchten wir so etwas auch in der Schweiz?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich wäre sofort dafür. Ein Gesetz würde ein klares Signal geben: Nach Feierabend ist Feierabend."
+            },
+            {
+              "v": "ch-f",
+              "t": "Da muss ich widersprechen. Ein Gesetz ist viel zu starr, und jede Firma ist anders. Ich würde lieber auf klare Absprachen im Team setzen. Bei uns gilt zum Beispiel: Wer abends eine E-Mail schreibt, erwartet keine Antwort vor dem nächsten Morgen."
+            },
+            {
+              "v": "f1",
+              "t": "Und halten sich alle daran?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Ehrlich gesagt nicht immer. Ich selbst bin wahrscheinlich das schlechteste Beispiel. Früher habe ich oft um Mitternacht noch E-Mails verschickt. Heute weiß ich, das hätte ich nicht tun sollen, denn mein Team hat sich dadurch unter Druck gefühlt. Jetzt plane ich den Versand für den nächsten Morgen."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Huber, was raten Sie unseren Hörerinnen und Hörern ganz konkret?"
+            },
+            {
+              "v": "m2",
+              "t": "Erstens: Trennen Sie das private und das berufliche Handy, wenn es irgendwie geht. Zweitens: Schalten Sie die Benachrichtigungen ab. Niemand muss jede Nachricht sofort sehen."
+            },
+            {
+              "v": "f1",
+              "t": "Ich muss gestehen, ich habe die Benachrichtigungen auch immer an. Vielleicht sollte ich das heute Abend ändern."
+            },
+            {
+              "v": "ch-f",
+              "t": "Noch ein Tipp von mir: Sprechen Sie mit Ihrer Chefin oder Ihrem Chef darüber. Die meisten Vorgesetzten wissen gar nicht, dass sich ihre Mitarbeitenden gestresst fühlen."
+            },
+            {
+              "v": "m2",
+              "t": "Da stimme ich Frau Meier völlig zu. Reden hilft fast immer."
+            },
+            {
+              "v": "f1",
+              "t": "Eine schöne Einigkeit zum Schluss! Vielen Dank Ihnen beiden für das Gespräch."
+            }
+          ],
+          "items": [
+            {
+              "q": "Viele Menschen schlafen schlecht, weil sie abends noch an die Arbeit denken.",
+              "answer": 1
+            },
+            {
+              "q": "Flexible Arbeitszeiten können auch ein Vorteil sein.",
+              "answer": 2
+            },
+            {
+              "q": "In einem anderen Land gibt es schon ein Gesetz zu diesem Thema.",
+              "answer": 0
+            },
+            {
+              "q": "Ein Gesetz wäre ein deutliches Zeichen.",
+              "answer": 1
+            },
+            {
+              "q": "Jede Firma sollte eigene Regeln im Team finden.",
+              "answer": 2
+            },
+            {
+              "q": "Ich habe früher selbst mitten in der Nacht E-Mails geschrieben.",
+              "answer": 2
+            },
+            {
+              "q": "Man sollte die Benachrichtigungen auf dem Handy ausschalten.",
+              "answer": 1
+            },
+            {
+              "q": "Ich sollte meine Handy-Einstellungen vielleicht auch ändern.",
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben sich ein neues Smartphone gekauft, aber Sie sind nicht zufrieden. Ihr Freund Lorenz kennt sich gut mit Technik aus. Schreiben Sie ihm eine E-Mail.",
+          "points": [
+            "Beschreiben Sie das Problem.",
+            "Was hätten Sie anders machen sollen?",
+            "Bitten Sie Lorenz um Hilfe und schlagen Sie einen Termin vor."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Lorenz,\n\nwie geht's dir? Ich brauche dringend deine Hilfe! Letzte Woche habe ich mir ein neues Smartphone gekauft, aber leider bin ich gar nicht zufrieden. Der Akku hält nur einen halben Tag, und die Kamera macht ziemlich dunkle Fotos. Ich hätte vorher die Bewertungen im Internet lesen sollen, aber das Angebot war so günstig! Könntest du dir das Handy mal anschauen? Vielleicht muss ich nur etwas einstellen. Hättest du am Samstagnachmittag Zeit? Ich würde dich natürlich zum Kaffee einladen.\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Ihre Freundin Carla hat Ihnen geschrieben, dass sie überlegt, alle ihre sozialen Netzwerke zu löschen. Antworten Sie ihr.",
+          "points": [
+            "Was denken Sie über ihre Idee?",
+            "Erzählen Sie von Ihren eigenen Erfahrungen mit sozialen Netzwerken.",
+            "Machen Sie Carla einen Vorschlag."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Carla,\n\nvielen Dank für deine Nachricht! Ich finde deine Idee mutig, und ich verstehe dich gut. Ich verbringe auch viel zu viel Zeit auf Instagram. Letztes Jahr habe ich die App für einen Monat gelöscht. Am Anfang war es komisch, aber danach hatte ich viel mehr Zeit zum Lesen. Allerdings habe ich auch ein paar Einladungen verpasst. An deiner Stelle würde ich nicht alles löschen, sondern die Apps nur noch am Wochenende benutzen. Wollen wir es zusammen probieren?\n\nLiebe Grüße\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Handyverbot an Schulen“ gelesen.",
+          "quote": "Ich finde, Handys haben in der Schule nichts zu suchen. Die Kinder sollen lernen und in der Pause miteinander reden, nicht chatten. Ein Verbot ist die einzige Lösung, denn freiwillig legt niemand das Handy weg. Das sehe ich jeden Tag bei meinen eigenen Kindern. – Markus, 47",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Gehen Sie auf den Beitrag von Markus ein."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Hallo zusammen,\n\nich habe den Beitrag von Markus gelesen und verstehe seinen Standpunkt. Natürlich sollten Kinder im Unterricht nicht ständig auf ihr Handy schauen, da hat er recht. Trotzdem bin ich gegen ein komplettes Verbot. Meiner Meinung nach müssen Kinder lernen, wie man ein Smartphone vernünftig benutzt, und das geht nicht, wenn man es einfach verbietet. Es wäre besser, wenn die Schulen klare Regeln machen würden: im Unterricht nur mit Erlaubnis der Lehrperson, in der Pause erlaubt. So lernen die Kinder Verantwortung.\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Künstliche Intelligenz im Alltag“ gesehen. Im Online-Gästebuch der Sendung lesen Sie folgende Meinung:",
+          "quote": "KI ist eine tolle Erfindung! Ich lasse mir von einem Programm meine E-Mails schreiben, meine Reisen planen und sogar Rezepte vorschlagen. So habe ich viel mehr Freizeit. Wer heute noch keine KI benutzt, verpasst wirklich etwas. Ich verstehe die Angst vieler Leute nicht. – Sophie, 31",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Nennen Sie Vor- und Nachteile von KI im Alltag."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Hallo Sophie,\n\nich benutze auch manchmal KI, zum Beispiel wenn ich einen Text auf Deutsch kontrollieren möchte. Das ist wirklich praktisch und spart Zeit. Trotzdem sehe ich das Thema etwas kritischer als du. Ein großer Nachteil ist der Datenschutz: Viele Programme speichern alles, was man eingibt. Außerdem machen sie Fehler, und man glaubt ihnen oft zu schnell. Ich würde einer KI nie persönliche Daten geben. Meiner Meinung nach ist KI eine gute Hilfe, aber man sollte selbst weiter denken.\n\nViele Grüße\nAndrea"
+        }
+      ],
+      "t3": [
+        {
+          "task": "Morgen soll ein Techniker Ihres Internetanbieters zu Ihnen nach Hause kommen. Sie können aber nicht zu Hause sein. Schreiben Sie Herrn Steiner vom Kundendienst.",
+          "points": [
+            "Entschuldigen Sie sich und sagen Sie, warum Sie nicht da sein können.",
+            "Schlagen Sie einen neuen Termin vor."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Steiner,\n\nleider muss ich den Termin morgen um 10 Uhr absagen, weil ich kurzfristig eine wichtige Besprechung im Büro habe. Es tut mir sehr leid. Könnte der Techniker vielleicht am Donnerstag nach 17 Uhr kommen? Mein Internet funktioniert nämlich immer noch nicht.\n\nMit freundlichen Grüßen\nJosé Romero"
+        },
+        {
+          "task": "Sie besuchen einen Computerkurs an der Volkshochschule. Nächste Woche können Sie nicht kommen. Schreiben Sie Ihrer Kursleiterin, Frau Brunner.",
+          "points": [
+            "Entschuldigen Sie sich und nennen Sie den Grund.",
+            "Bitten Sie um die Unterlagen der Stunde."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Liebe Frau Brunner,\n\nleider kann ich nächsten Dienstag nicht zum Kurs kommen, weil ich für meine Firma zu einer Konferenz nach Basel fahren muss. Das tut mir sehr leid. Wäre es möglich, dass Sie mir die Unterlagen per E-Mail schicken? Dann könnte ich die Übungen zu Hause machen.\n\nFreundliche Grüße\nAndrea Navarro"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Ihr Großvater wird bald 80 und hat noch kein Smartphone und kein Tablet. Sie möchten ihm zusammen mit Ihrem Bruder / Ihrer Schwester ein Tablet schenken und ihm zeigen, wie es funktioniert. Planen Sie gemeinsam.",
+          "points": [
+            "Welches Gerät? Neu oder gebraucht?",
+            "Wer erklärt ihm das Gerät? Wann?",
+            "Welche Apps installieren?",
+            "Was, wenn er keine Lust hat?"
+          ],
+          "model": [
+            {
+              "v": "f2",
+              "t": "Du, Opa wird ja im März 80. Wie wäre es, wenn wir ihm ein Tablet schenken würden?"
+            },
+            {
+              "v": "m2",
+              "t": "Gute Idee! Dann könnte er mit uns per Video telefonieren. Sollen wir ein neues kaufen?"
+            },
+            {
+              "v": "f2",
+              "t": "Ein neues ist ziemlich teuer. Ich würde lieber ein gebrauchtes mit Garantie nehmen. Die gibt es online schon für 200 Franken."
+            },
+            {
+              "v": "m2",
+              "t": "Einverstanden. Aber wer erklärt ihm, wie das Tablet funktioniert? Ich wohne ja in Bern und bin nicht so oft bei ihm."
+            },
+            {
+              "v": "f2",
+              "t": "Das kann ich machen. Ich könnte ihn in den ersten Wochen jeden Sonntag besuchen."
+            },
+            {
+              "v": "m2",
+              "t": "Super. Und welche Apps installieren wir? Am Anfang nur ganz wenige, sonst ist es zu kompliziert."
+            },
+            {
+              "v": "f2",
+              "t": "Da hast du recht. Vielleicht eine App für Videoanrufe, das Wetter und die Zeitung. Er liest doch so gern Zeitung."
+            },
+            {
+              "v": "m2",
+              "t": "Die Zeitung? Ich weiß nicht, er liebt seine Zeitung auf Papier. Wir sollten lieber Fotos von uns auf das Tablet laden."
+            },
+            {
+              "v": "f2",
+              "t": "Stimmt, darüber freut er sich bestimmt mehr. Und was machen wir, wenn er keine Lust auf das Tablet hat?"
+            },
+            {
+              "v": "m2",
+              "t": "Dann könnte er in der Bibliothek einen Kurs für Senioren machen. Mit Leuten in seinem Alter macht es vielleicht mehr Spaß."
+            },
+            {
+              "v": "f2",
+              "t": "Gute Idee. Also: ein gebrauchtes Tablet, ich besuche ihn sonntags, und wir laden Fotos und eine Video-App drauf."
+            },
+            {
+              "v": "m2",
+              "t": "Perfekt. Ich suche heute Abend ein Tablet und schicke dir ein paar Angebote."
+            }
+          ]
+        },
+        {
+          "task": "Sie und Ihr Kollege / Ihre Kollegin sollen für Ihr Team einen Workshop zum Thema „Weniger Stress durch E-Mails“ organisieren. Planen Sie gemeinsam.",
+          "points": [
+            "Wann und wie lange?",
+            "Wo? Im Büro oder extern?",
+            "Wer leitet den Workshop?",
+            "Essen und Getränke?"
+          ],
+          "model": [
+            {
+              "v": "m1",
+              "t": "Also, wir sollen diesen Workshop organisieren. Wann würde es dir am besten passen?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich würde einen Freitagnachmittag vorschlagen. Da gibt es meistens weniger Termine."
+            },
+            {
+              "v": "m1",
+              "t": "Freitagnachmittag finde ich nicht so gut. Viele Kollegen arbeiten am Freitag im Homeoffice. Wie wäre es mit Mittwochvormittag?"
+            },
+            {
+              "v": "f1",
+              "t": "Okay, das passt. Und wie lange? Ein ganzer Tag wäre zu viel, oder?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, drei Stunden reichen. Sollen wir den Workshop hier im Büro machen?"
+            },
+            {
+              "v": "f1",
+              "t": "Lieber nicht. Hier schauen doch alle nur wieder auf ihre E-Mails. Wir könnten einen Raum im Gemeinschaftszentrum mieten."
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee, das ist auch nicht teuer. Und wer könnte den Workshop leiten? Sollen wir das selbst machen?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich glaube, eine externe Person wäre besser. Meine Schwester kennt eine Trainerin, die solche Kurse gibt. Ich könnte sie fragen."
+            },
+            {
+              "v": "m1",
+              "t": "Super, frag sie bitte. Und was machen wir mit dem Essen?"
+            },
+            {
+              "v": "f1",
+              "t": "Bei drei Stunden reichen Kaffee, Wasser und ein paar Brötchen in der Pause."
+            },
+            {
+              "v": "m1",
+              "t": "Einverstanden. Dann frage ich im Gemeinschaftszentrum nach einem Raum, und du schreibst der Trainerin."
+            },
+            {
+              "v": "f1",
+              "t": "Perfekt. Wir sprechen morgen noch mal darüber."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Soziale Netzwerke – Vorteile und Nachteile",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Ich möchte heute über das Thema „Soziale Netzwerke – Vorteile und Nachteile“ sprechen. Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich über die Situation in meinem Heimatland Spanien. Danach nenne ich Vor- und Nachteile und sage meine Meinung, und am Ende komme ich zum Schluss."
+            },
+            {
+              "v": "m1",
+              "t": "Ich selbst benutze vor allem WhatsApp und Instagram. Seit ich in Zürich wohne, sind die sozialen Netzwerke für mich sehr wichtig, weil ich so jeden Tag sehe, was meine Familie und meine Freunde in Córdoba machen. Aber ich merke auch, dass ich abends oft zu lange am Handy bin."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien sind soziale Netzwerke sehr beliebt, besonders WhatsApp. Fast alle Familien haben eine eigene Gruppe, und auch die Großeltern sind dabei. Viele junge Leute lesen keine Zeitung mehr, sondern informieren sich nur noch über soziale Netzwerke."
+            },
+            {
+              "v": "m1",
+              "t": "Ein großer Vorteil ist, dass man einfach und gratis Kontakt halten kann. Ein Nachteil ist, dass sich Falschmeldungen sehr schnell verbreiten. Außerdem können die Apps süchtig machen. Meiner Meinung nach sind soziale Netzwerke nützlich, aber man sollte die Zeit begrenzen. Wenn ich weniger Zeit am Handy verbringen würde, könnte ich zum Beispiel mehr lesen."
+            },
+            {
+              "v": "m1",
+              "t": "Damit bin ich am Ende meiner Präsentation. Vielen Dank für Ihre Aufmerksamkeit! Haben Sie noch Fragen?"
+            }
+          ],
+          "question": "Sie sagen, dass sich Falschmeldungen schnell verbreiten. Wie erkennen Sie, ob eine Nachricht stimmt?",
+          "answer": "Ich prüfe immer zuerst die Quelle. Wenn eine Nachricht nur auf einer unbekannten Seite steht, glaube ich sie nicht. Dann suche ich lieber einen Artikel in einer seriösen Zeitung."
+        },
+        {
+          "title": "Künstliche Intelligenz in der Schule",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Mein Thema heute ist „Künstliche Intelligenz in der Schule“. Ich beginne mit meinen persönlichen Erfahrungen. Danach erzähle ich, wie die Situation in Spanien ist. Dann spreche ich über Vor- und Nachteile und sage meine Meinung. Zum Schluss fasse ich alles kurz zusammen."
+            },
+            {
+              "v": "f1",
+              "t": "Als ich in der Schule war, gab es noch keine KI. Heute benutze ich sie manchmal bei der Arbeit, zum Beispiel wenn ich eine E-Mail auf Deutsch schreiben muss. Meine Nichte ist fünfzehn und benutzt KI fast jeden Tag für ihre Hausaufgaben."
+            },
+            {
+              "v": "f1",
+              "t": "In Spanien wird gerade viel über dieses Thema diskutiert. Manche Schulen haben KI-Programme verboten, andere benutzen sie im Unterricht. Viele Lehrerinnen und Lehrer wissen noch nicht genau, wie sie damit umgehen sollen."
+            },
+            {
+              "v": "f1",
+              "t": "Ein Vorteil ist, dass Schülerinnen und Schüler schnell Erklärungen bekommen, auch wenn ihnen zu Hause niemand helfen kann. Ein Nachteil ist, dass manche ihre Hausaufgaben einfach von der KI schreiben lassen und dabei nichts lernen. Ich finde, KI sollte in der Schule erlaubt sein, aber die Lehrpersonen sollten zeigen, wie man sie richtig benutzt. Wenn man sie verbieten würde, würden die Jugendlichen sie trotzdem zu Hause benutzen."
+            },
+            {
+              "v": "f1",
+              "t": "Zusammengefasst: KI ist eine nützliche Hilfe, aber man muss trotzdem selbst denken. Ich bin gespannt auf Ihre Fragen. Vielen Dank fürs Zuhören!"
+            }
+          ],
+          "question": "Würden Sie Ihrer Nichte erlauben, ihre Hausaufgaben mit KI zu machen?",
+          "answer": "Ja, aber nur für Erklärungen. Die Texte sollte sie selbst schreiben, sonst lernt sie nichts. Ich würde ihr auch zeigen, wie man kontrolliert, ob die Antworten stimmen."
+        }
+      ]
+    }
+  }
+}

@@ -260,3 +260,11 @@ blockquote .de.has-tr + br { display: none; }
 .agenda[hidden] { display: none; }
 .agenda ul { margin: 6px 0 0; padding-left: 1.1em; }
 .subq .n { display: inline-block; min-width: 2.2em; }
+/* B1: diapositivas de la presentación y comentarios de lectores */
+.slides { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 8px 0; }
+.slide { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--bg); min-height: 120px; }
+.slide small { display: block; color: var(--muted); margin-bottom: 4px; }
+.slide strong { display: block; margin-bottom: 6px; }
+.slide p { margin: 0; font-size: 0.92rem; }
+.subq.comment .text { margin-bottom: 6px; }
+[hidden] { display: none !important; }

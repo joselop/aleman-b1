@@ -1,0 +1,589 @@
+{
+  "id": "b1-t04",
+  "level": "b1",
+  "topic": "t04",
+  "title": "Salud y alimentación",
+  "title_de": "Gesundheit und Ernährung",
+  "goals": [
+    "Hablar de tus hábitos de alimentación: qué comes, qué evitas y qué compras",
+    "Hablar de cómo cuidas tu salud: revisiones, vacunas, deporte, sueño y estrés",
+    "Expresar finalidad con um … zu cuando el sujeto es el mismo (Ich jogge, um fit zu bleiben)",
+    "Expresar finalidad con damit cuando los sujetos son distintos (…, damit die Kinder gesund essen)",
+    "Distinguir Wozu? (para qué) de Warum? (por qué) y usar con soltura el infinitivo con zu tras versuchen, vorhaben, Lust haben, es ist wichtig…",
+    "Planear algo con tu compañero en el Sprechen Teil 1 (proponer, rechazar con motivo, acordar)",
+    "Entender textos y debates sobre dietas, sueño y prevención (Lesen Teil 4, Hören Teil 4)"
+  ],
+  "vocab": [
+    { "de": "das Lebensmittel", "pl": "die Lebensmittel", "es": "el alimento; (pl.) los alimentos", "cat": "Alimentación", "ex": "Wir kaufen unsere Lebensmittel meistens bei Coop.", "ex_es": "Solemos comprar los alimentos en Coop." },
+    { "de": "die Zutat", "pl": "die Zutaten", "es": "el ingrediente", "cat": "Alimentación", "ex": "Für dieses Rezept brauchst du nur fünf Zutaten.", "ex_es": "Para esta receta solo necesitas cinco ingredientes." },
+    { "de": "das Vollkornbrot", "pl": "die Vollkornbrote", "es": "el pan integral", "cat": "Alimentación", "ex": "Zum Frühstück esse ich Vollkornbrot mit Käse.", "ex_es": "En el desayuno como pan integral con queso." },
+    { "de": "das Fett", "pl": "die Fette", "es": "la grasa", "cat": "Alimentación", "ex": "Dieser Joghurt hat nur ein Prozent Fett.", "ex_es": "Este yogur solo tiene un uno por ciento de grasa." },
+    { "de": "fettig", "es": "grasiento", "cat": "Alimentación", "ex": "Die Pommes waren mir zu fettig.", "ex_es": "Las patatas fritas me resultaron demasiado grasientas." },
+    { "de": "der Zucker", "es": "el azúcar", "cat": "Alimentación", "ex": "Ich trinke meinen Kaffee ohne Zucker.", "ex_es": "Me tomo el café sin azúcar." },
+    { "de": "die Kalorie", "pl": "die Kalorien", "es": "la caloría", "cat": "Alimentación", "ex": "Ein Glas Cola hat ungefähr 100 Kalorien.", "ex_es": "Un vaso de cola tiene unas 100 calorías." },
+    { "de": "der Nährwert", "pl": "die Nährwerte", "es": "el valor nutricional", "cat": "Alimentación", "ex": "Die Nährwerte stehen auf der Rückseite der Packung.", "ex_es": "Los valores nutricionales están en la parte de atrás del envase." },
+    { "de": "vegetarisch", "es": "vegetariano", "cat": "Alimentación", "ex": "Unter der Woche kochen wir meistens vegetarisch.", "ex_es": "Entre semana solemos cocinar vegetariano." },
+    { "de": "vegan", "es": "vegano", "cat": "Alimentación", "ex": "In der Kantine gibt es jeden Tag ein veganes Menü.", "ex_es": "En el comedor hay todos los días un menú vegano." },
+    { "de": "der Vegetarier / die Vegetarierin", "pl": "die Vegetarier / die Vegetarierinnen", "es": "el / la vegetariano/a", "cat": "Alimentación", "ex": "Meine Schwester ist seit zehn Jahren Vegetarierin.", "ex_es": "Mi hermana es vegetariana desde hace diez años." },
+    { "de": "das Fertiggericht", "pl": "die Fertiggerichte", "es": "el plato precocinado", "cat": "Alimentación", "ex": "Fertiggerichte enthalten oft viel Salz.", "ex_es": "Los platos precocinados suelen tener mucha sal." },
+    { "de": "die Mahlzeit", "pl": "die Mahlzeiten", "es": "la comida (cada una del día)", "cat": "Alimentación", "ex": "Eine warme Mahlzeit am Tag ist mir wichtig.", "ex_es": "Para mí es importante una comida caliente al día." },
+    { "de": "die Portion", "pl": "die Portionen", "es": "la ración", "cat": "Alimentación", "ex": "Die Portionen in diesem Restaurant sind riesig.", "ex_es": "Las raciones de este restaurante son enormes." },
+    { "de": "die Süßigkeit", "pl": "die Süßigkeiten", "es": "el dulce, la golosina", "cat": "Alimentación", "ex": "Abends verzichte ich auf Süßigkeiten.", "ex_es": "Por las noches renuncio a los dulces." },
+    { "de": "der Bioladen", "pl": "die Bioläden", "es": "la tienda ecológica", "cat": "Alimentación", "ex": "Im Bioladen ist das Gemüse teurer, aber es kommt aus der Region.", "ex_es": "En la tienda ecológica la verdura es más cara, pero es de la zona." },
+    { "de": "roh", "es": "crudo", "cat": "Alimentación", "ex": "Karotten esse ich am liebsten roh.", "ex_es": "Las zanahorias me gustan más crudas." },
+    { "de": "satt", "es": "lleno, saciado", "cat": "Alimentación", "ex": "Danke, ich bin satt.", "ex_es": "Gracias, estoy lleno." },
+    { "de": "der Appetit", "es": "el apetito", "cat": "Alimentación", "ex": "Wenn ich krank bin, habe ich keinen Appetit.", "ex_es": "Cuando estoy enfermo no tengo apetito." },
+    { "de": "enthalten", "es": "contener", "cat": "Alimentación", "forms": "es enthält, enthielt, hat enthalten", "ex": "Eine Dose Eistee enthält fast zehn Stück Zucker.", "ex_es": "Una lata de té helado contiene casi diez terrones de azúcar." },
+    { "de": "abnehmen", "es": "adelgazar", "cat": "Alimentación", "forms": "er nimmt ab, nahm ab, hat abgenommen", "ex": "Seit ich mehr Gemüse esse, habe ich drei Kilo abgenommen.", "ex_es": "Desde que como más verdura he adelgazado tres kilos." },
+    { "de": "zunehmen", "es": "engordar", "cat": "Alimentación", "forms": "er nimmt zu, nahm zu, hat zugenommen", "ex": "Im Winter nehme ich immer ein bisschen zu.", "ex_es": "En invierno siempre engordo un poco." },
+    { "de": "die Diät", "pl": "die Diäten", "es": "la dieta (para adelgazar)", "cat": "Alimentación", "ex": "Sie macht schon wieder eine Diät.", "ex_es": "Otra vez está haciendo dieta." },
+    { "de": "das Übergewicht", "es": "el sobrepeso", "cat": "Salud", "ex": "Übergewicht ist schlecht für das Herz.", "ex_es": "El sobrepeso es malo para el corazón." },
+    { "de": "die Waage", "pl": "die Waagen", "es": "la báscula", "cat": "Salud", "ex": "Ich stelle mich jeden Montag auf die Waage.", "ex_es": "Me peso todos los lunes." },
+    { "de": "die Vorsorgeuntersuchung", "pl": "die Vorsorgeuntersuchungen", "es": "la revisión médica (preventiva)", "cat": "Salud", "ex": "Ich gehe einmal im Jahr zur Vorsorgeuntersuchung.", "ex_es": "Voy una vez al año a la revisión médica." },
+    { "de": "der Blutdruck", "es": "la tensión arterial", "cat": "Salud", "ex": "Ihr Blutdruck ist ein bisschen zu hoch.", "ex_es": "Tiene la tensión un poco alta." },
+    { "de": "messen", "es": "medir", "cat": "Salud", "forms": "er misst, maß, hat gemessen", "ex": "Die Ärztin hat meinen Blutdruck gemessen.", "ex_es": "La médica me ha tomado la tensión." },
+    { "de": "impfen", "es": "vacunar", "cat": "Salud", "forms": "er impft, impfte, hat geimpft", "ex": "Gegen Grippe lasse ich mich jedes Jahr impfen.", "ex_es": "Me vacuno contra la gripe todos los años." },
+    { "de": "die Impfung", "pl": "die Impfungen", "es": "la vacuna, la vacunación", "cat": "Salud", "ex": "Die Impfung bekommen Sie auch in der Apotheke.", "ex_es": "La vacuna también se la ponen en la farmacia." },
+    { "de": "die Grundversicherung", "pl": "die Grundversicherungen", "es": "el seguro médico básico (CH)", "cat": "Salud", "ex": "In der Schweiz ist die Grundversicherung obligatorisch.", "ex_es": "En Suiza el seguro médico básico es obligatorio." },
+    { "de": "die Franchise", "pl": "die Franchisen", "es": "la franquicia del seguro (CH)", "cat": "Salud", "ex": "Ich habe eine hohe Franchise, deshalb ist meine Prämie günstig.", "ex_es": "Tengo una franquicia alta, por eso mi prima es barata." },
+    { "de": "schädlich", "es": "perjudicial, dañino", "cat": "Salud", "ex": "Rauchen ist sehr schädlich für die Gesundheit.", "ex_es": "Fumar es muy perjudicial para la salud." },
+    { "de": "der Schlaf", "es": "el sueño (dormir)", "cat": "Salud", "ex": "Um gesund zu bleiben, braucht man genug Schlaf.", "ex_es": "Para mantenerse sano se necesita dormir lo suficiente." },
+    { "de": "abbauen", "es": "reducir, eliminar (estrés)", "cat": "Salud", "forms": "er baut ab, baute ab, hat abgebaut", "ex": "Sport hilft mir, Stress abzubauen.", "ex_es": "El deporte me ayuda a reducir el estrés." },
+    { "de": "der Muskel", "pl": "die Muskeln", "es": "el músculo", "cat": "Deporte", "ex": "Nach dem Training tun mir alle Muskeln weh.", "ex_es": "Después del entrenamiento me duelen todos los músculos." },
+    { "de": "das Fitnessstudio", "pl": "die Fitnessstudios", "es": "el gimnasio", "cat": "Deporte", "ex": "Zweimal pro Woche gehe ich ins Fitnessstudio.", "ex_es": "Dos veces por semana voy al gimnasio." },
+    { "de": "das Training", "pl": "die Trainings", "es": "el entrenamiento", "cat": "Deporte", "ex": "Das Training beginnt um sieben Uhr.", "ex_es": "El entrenamiento empieza a las siete." },
+    { "de": "trainieren", "es": "entrenar", "cat": "Deporte", "forms": "er trainiert, trainierte, hat trainiert", "ex": "Andrea trainiert für einen Stadtlauf.", "ex_es": "Andrea entrena para una carrera popular." },
+    { "de": "die Gewohnheit", "pl": "die Gewohnheiten", "es": "la costumbre, el hábito", "cat": "Hábitos", "ex": "Jeden Abend ein Glas Wein – das ist keine gute Gewohnheit.", "ex_es": "Una copa de vino cada noche: no es un buen hábito." },
+    { "de": "sich vornehmen", "es": "proponerse", "cat": "Hábitos", "forms": "er nimmt sich vor, nahm sich vor, hat sich vorgenommen", "ex": "Ich habe mir vorgenommen, weniger Kaffee zu trinken.", "ex_es": "Me he propuesto beber menos café." },
+    { "de": "vorhaben", "es": "tener previsto, planear", "cat": "Hábitos", "forms": "er hat vor, hatte vor, hat vorgehabt", "ex": "Hast du vor, nächstes Jahr einen Marathon zu laufen?", "ex_es": "¿Tienes previsto correr un maratón el año que viene?" },
+    { "de": "ausprobieren", "es": "probar (algo nuevo)", "cat": "Hábitos", "forms": "er probiert aus, probierte aus, hat ausprobiert", "ex": "Es macht mir Spaß, neue Rezepte auszuprobieren.", "ex_es": "Me divierte probar recetas nuevas." },
+    { "de": "um … zu + Infinitiv", "es": "para + infinitivo (mismo sujeto)", "cat": "Gramática", "ex": "Ich jogge jeden Morgen, um fit zu bleiben.", "ex_es": "Corro cada mañana para mantenerme en forma." },
+    { "de": "damit", "es": "para que (sujetos distintos)", "cat": "Gramática", "ex": "Ich koche viel Gemüse, damit die Kinder gesund essen.", "ex_es": "Cocino mucha verdura para que los niños coman sano." },
+    { "de": "wozu?", "es": "¿para qué?", "cat": "Gramática", "ex": "Wozu brauchst du die Waage? – Um mein Gewicht zu kontrollieren.", "ex_es": "¿Para qué necesitas la báscula? – Para controlar mi peso." }
+  ],
+  "exercises": [
+    {
+      "id": "e01", "type": "match", "title": "Salud y alimentación", "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        ["die Mahlzeit", "la comida (cada una del día)"],
+        ["satt", "lleno, saciado"],
+        ["abnehmen", "adelgazar"],
+        ["zunehmen", "engordar"],
+        ["das Fertiggericht", "el plato precocinado"],
+        ["die Vorsorgeuntersuchung", "la revisión médica"],
+        ["der Blutdruck", "la tensión arterial"],
+        ["schädlich", "perjudicial"]
+      ]
+    },
+    {
+      "id": "e02", "type": "mc", "title": "¿um … zu o damit?", "instructions": "Elige la única continuación correcta. Piensa: ¿es el mismo sujeto?",
+      "items": [
+        { "q": "Ich gehe jeden Tag zu Fuß zur Arbeit, ___.", "options": ["um fit zu bleiben", "damit fit bleiben", "um ich fit bleibe"], "answer": 0, "explain": "Mismo sujeto (ich): um … zu + infinitivo, sin sujeto propio." },
+        { "q": "Die Ärztin erklärt alles ganz genau, ___.", "options": ["damit versteht der Patient alles", "damit der Patient alles versteht", "um der Patient alles versteht"], "answer": 1, "explain": "Sujetos distintos (die Ärztin / der Patient): damit + verbo conjugado al final." },
+        { "q": "Wir stellen Obst ins Büro, ___.", "options": ["um unsere Kollegen weniger Schokolade zu essen", "damit essen unsere Kollegen weniger Schokolade", "damit unsere Kollegen weniger Schokolade essen"], "answer": 2, "explain": "Los que comen son los compañeros, no nosotros: damit … essen." },
+        { "q": "Ich lüfte abends das Schlafzimmer, ___.", "options": ["damit besser schlafen", "um besser zu schlafen", "um besser schlafen"], "answer": 1, "explain": "Mismo sujeto: um … zu schlafen. Sin zu es incorrecto." },
+        { "q": "José kocht am Sonntag für die ganze Woche, ___.", "options": ["damit er unter der Woche keine Fertiggerichte isst", "um unter der Woche keine Fertiggerichte essen", "damit er isst unter der Woche keine Fertiggerichte"], "answer": 0, "explain": "Con damit el verbo conjugado (isst) va al final. A la opción con um le falta zu." },
+        { "q": "Die Eltern kochen viel Gemüse, ___.", "options": ["um die Kinder gesund zu essen", "damit essen die Kinder gesund", "damit die Kinder gesund essen"], "answer": 2, "explain": "Dos sujetos (die Eltern / die Kinder): solo damit, con el verbo al final." },
+        { "q": "Sie isst weniger Süßigkeiten, ___.", "options": ["um abzunehmen", "um zu abnehmen", "damit abnehmen"], "answer": 0, "explain": "Con verbos separables zu va en medio: abzunehmen." }
+      ]
+    },
+    {
+      "id": "e03", "type": "gap", "title": "El infinitivo con zu", "instructions": "Escribe el infinitivo con zu del verbo entre paréntesis. Cuidado con los separables.",
+      "items": [
+        { "text": "Ich jogge jeden Morgen, um fit [[zu bleiben]]. (bleiben)" },
+        { "text": "Sie isst abends nur Salat, um [[abzunehmen]]. (abnehmen)" },
+        { "text": "Ich gehe früh ins Bett, um morgens früh [[aufzustehen]]. (aufstehen)" },
+        { "text": "Yoga hilft mir, Stress [[abzubauen]]. (abbauen)" },
+        { "text": "Wir gehen auf den Markt, um frisches Gemüse [[zu kaufen]]. (kaufen)" },
+        { "text": "Ich habe mir vorgenommen, jede Woche ein neues Rezept [[auszuprobieren]]. (ausprobieren)" },
+        { "text": "Der Arzt hat mir empfohlen, regelmäßig meinen Blutdruck [[zu messen]]. (messen)" }
+      ]
+    },
+    {
+      "id": "e04", "type": "write", "title": "Une las frases con um … zu", "instructions": "Une las dos frases con um … zu. La segunda frase dice la finalidad; quita el modal.",
+      "items": [
+        { "prompt": "Ich gehe ins Fitnessstudio. Ich will stärker werden.", "answers": ["Ich gehe ins Fitnessstudio, um stärker zu werden.", "Um stärker zu werden, gehe ich ins Fitnessstudio."] },
+        { "prompt": "Wir kaufen im Bioladen ein. Wir wollen regionale Produkte bekommen.", "answers": ["Wir kaufen im Bioladen ein, um regionale Produkte zu bekommen.", "Um regionale Produkte zu bekommen, kaufen wir im Bioladen ein."] },
+        { "prompt": "Andrea macht Yoga. Sie möchte sich entspannen.", "answers": ["Andrea macht Yoga, um sich zu entspannen.", "Um sich zu entspannen, macht Andrea Yoga."] },
+        { "prompt": "Ich trinke abends keinen Kaffee. Ich will gut schlafen.", "answers": ["Ich trinke abends keinen Kaffee, um gut zu schlafen.", "Um gut zu schlafen, trinke ich abends keinen Kaffee."] },
+        { "prompt": "José fährt mit dem Velo zur Arbeit. Er will sich mehr bewegen.", "answers": ["José fährt mit dem Velo zur Arbeit, um sich mehr zu bewegen.", "Um sich mehr zu bewegen, fährt José mit dem Velo zur Arbeit."] },
+        { "prompt": "Ich esse weniger Zucker. Ich möchte abnehmen.", "answers": ["Ich esse weniger Zucker, um abzunehmen.", "Um abzunehmen, esse ich weniger Zucker."] }
+      ]
+    },
+    {
+      "id": "e05", "type": "write", "title": "Une las frases con damit", "instructions": "Los sujetos son distintos: une las frases con damit. Quita sollen y pon el verbo conjugado al final.",
+      "items": [
+        { "prompt": "Ich koche jeden Abend frisch. Meine Kinder sollen gesund essen.", "answers": ["Ich koche jeden Abend frisch, damit meine Kinder gesund essen.", "Damit meine Kinder gesund essen, koche ich jeden Abend frisch."] },
+        { "prompt": "Die Ärztin spricht langsam. Der Patient soll alles verstehen.", "answers": ["Die Ärztin spricht langsam, damit der Patient alles versteht.", "Damit der Patient alles versteht, spricht die Ärztin langsam."] },
+        { "prompt": "Wir stellen Obst ins Büro. Die Kollegen sollen weniger Süßigkeiten essen.", "answers": ["Wir stellen Obst ins Büro, damit die Kollegen weniger Süßigkeiten essen.", "Damit die Kollegen weniger Süßigkeiten essen, stellen wir Obst ins Büro."] },
+        { "prompt": "Ich mache das Fenster auf. Frische Luft soll ins Zimmer kommen.", "answers": ["Ich mache das Fenster auf, damit frische Luft ins Zimmer kommt.", "Damit frische Luft ins Zimmer kommt, mache ich das Fenster auf."] },
+        { "prompt": "Andrea erinnert José jeden Tag. Er soll seine Tabletten nicht vergessen.", "answers": ["Andrea erinnert José jeden Tag, damit er seine Tabletten nicht vergisst.", "Damit José seine Tabletten nicht vergisst, erinnert Andrea ihn jeden Tag.", "Damit er seine Tabletten nicht vergisst, erinnert Andrea José jeden Tag."] },
+        { "prompt": "Der Trainer erklärt die Übung genau. Niemand soll sich verletzen.", "answers": ["Der Trainer erklärt die Übung genau, damit sich niemand verletzt.", "Der Trainer erklärt die Übung genau, damit niemand sich verletzt.", "Damit sich niemand verletzt, erklärt der Trainer die Übung genau.", "Damit niemand sich verletzt, erklärt der Trainer die Übung genau."] }
+      ]
+    },
+    {
+      "id": "e06", "type": "order", "title": "Ordena la frase", "instructions": "Ordena las fichas. Recuerda: con um … zu el infinitivo va al final; con damit, el verbo conjugado.",
+      "items": [
+        { "words": ["Ich", "trinke", "viel", "Wasser", ",", "um", "nicht", "so", "oft", "Hunger", "zu", "haben", "."], "answers": ["Ich trinke viel Wasser, um nicht so oft Hunger zu haben.", "Um nicht so oft Hunger zu haben, trinke ich viel Wasser."] },
+        { "words": ["Um", "gesund", "zu", "bleiben", ",", "braucht", "man", "genug", "Schlaf", "."], "answers": ["Um gesund zu bleiben, braucht man genug Schlaf.", "Man braucht genug Schlaf, um gesund zu bleiben."] },
+        { "words": ["Ich", "stelle", "den", "Wecker", ",", "damit", "ich", "das", "Training", "nicht", "verpasse", "."], "answers": ["Ich stelle den Wecker, damit ich das Training nicht verpasse.", "Damit ich das Training nicht verpasse, stelle ich den Wecker."] },
+        { "words": ["Wir", "benutzen", "wenig", "Öl", ",", "damit", "das", "Essen", "nicht", "so", "fettig", "wird", "."], "answers": ["Wir benutzen wenig Öl, damit das Essen nicht so fettig wird.", "Damit das Essen nicht so fettig wird, benutzen wir wenig Öl."] },
+        { "words": ["Sie", "geht", "zum", "Arzt", ",", "um", "ihren", "Blutdruck", "messen", "zu", "lassen", "."], "answers": ["Sie geht zum Arzt, um ihren Blutdruck messen zu lassen.", "Um ihren Blutdruck messen zu lassen, geht sie zum Arzt."] },
+        { "words": ["Ich", "habe", "keine", "Lust", ",", "heute", "Abend", "zu", "kochen", "."], "answers": ["Ich habe keine Lust, heute Abend zu kochen."] }
+      ]
+    },
+    {
+      "id": "e07", "type": "mc", "title": "¿zu, um … zu o sin zu?", "instructions": "Elige la forma correcta.",
+      "items": [
+        { "q": "Ich versuche, weniger Zucker ___.", "options": ["zu essen", "essen", "um zu essen"], "answer": 0, "explain": "Tras versuchen: infinitivo con zu (sin um)." },
+        { "q": "Ich muss weniger Zucker ___.", "options": ["zu essen", "essen", "um zu essen"], "answer": 1, "explain": "Tras un modal (müssen) el infinitivo va sin zu." },
+        { "q": "Ich esse viel Obst, ___ gesund zu bleiben.", "options": ["für", "damit", "um"], "answer": 2, "explain": "Finalidad con el mismo sujeto: um … zu. Für solo va con sustantivo." },
+        { "q": "Es ist wichtig, genug Wasser ___.", "options": ["trinken", "zu trinken", "um zu trinken"], "answer": 1, "explain": "Es ist wichtig, … + infinitivo con zu." },
+        { "q": "Wir gehen am Samstag ___.", "options": ["schwimmen", "zu schwimmen", "um zu schwimmen"], "answer": 0, "explain": "Tras gehen el infinitivo va sin zu." },
+        { "q": "Hast du Zeit, mit mir ins Fitnessstudio ___?", "options": ["gehen", "um zu gehen", "zu gehen"], "answer": 2, "explain": "Zeit haben + infinitivo con zu." },
+        { "q": "___ brauchst du die Waage? – Um mein Gewicht zu kontrollieren.", "options": ["Wozu", "Wann", "Woher"], "answer": 0, "explain": "La respuesta es una finalidad (um … zu): la pregunta es Wozu? (¿para qué?)." },
+        { "q": "Warum isst du kein Fleisch? – ___ ich Tiere liebe.", "options": ["Damit", "Weil", "Um"], "answer": 1, "explain": "Warum pregunta por la causa: se responde con weil." }
+      ]
+    },
+    {
+      "id": "e08", "type": "gap", "title": "Infinitivo con zu… ¿o sin zu?", "instructions": "Completa con el verbo entre paréntesis: con zu o sin zu, según lo que vaya delante.",
+      "items": [
+        { "text": "Ich habe vergessen, Milch [[zu kaufen]]. (kaufen)" },
+        { "text": "Es macht mir Spaß, mit Freunden [[zu kochen]]. (kochen)" },
+        { "text": "Ich habe vor, nächsten Monat mit dem Training [[anzufangen]]. (anfangen)" },
+        { "text": "Andrea kann heute nicht [[mitkommen]], sie hat zu viel Arbeit. (mitkommen)", "note": "Tras un modal (können) el infinitivo va sin zu." },
+        { "text": "Es ist ungesund, spät abends viel [[zu essen]]. (essen)" },
+        { "text": "Wir gehen heute Abend [[schwimmen]]. (schwimmen)", "note": "Tras gehen, sin zu." },
+        { "text": "Hast du Lust, am Wochenende etwas Neues [[auszuprobieren]]? (ausprobieren)" }
+      ]
+    },
+    {
+      "id": "e09", "type": "listen", "title": "En la consulta, en el súper, en casa", "instructions": "Escucha y contesta.",
+      "items": [
+        { "q": "¿Para qué tiene que volver el paciente a la consulta?", "audio": [{ "v": "f1", "t": "Ihr Blutdruck ist ein bisschen zu hoch, Herr Keller. Kommen Sie bitte in zwei Wochen wieder, damit ich ihn noch einmal messen kann." }, { "v": "m1", "t": "In Ordnung. Soll ich bis dahin etwas ändern?" }, { "v": "f1", "t": "Ja. Essen Sie weniger Salz und bewegen Sie sich mehr." }], "options": ["Para hacerse un análisis de sangre", "Para volver a tomarse la tensión", "Para vacunarse"], "answer": 1 },
+        { "q": "¿Por qué va Andrea al gimnasio por la mañana?", "audio": [{ "v": "m1", "t": "Andrea, warum stehst du denn schon um sechs auf?" }, { "v": "f2", "t": "Ich gehe vor der Arbeit ins Fitnessstudio. Abends habe ich nie Zeit, und morgens ist es dort schön ruhig." }], "options": ["Porque por la tarde nunca tiene tiempo", "Porque por la mañana es más barato", "Porque José va con ella"], "answer": 0 },
+        { "q": "¿Qué se puede hacer el sábado?", "audio": [{ "v": "ch-m", "t": "Liebe Kundinnen und Kunden, diese Woche finden Sie alle regionalen Äpfel und Birnen zum halben Preis. Und am Samstag können Sie an unserem Stand beim Eingang gratis vegane Gerichte probieren." }], "options": ["Comprar fruta a mitad de precio", "Hablar con una nutricionista", "Probar gratis platos veganos"], "answer": 2 },
+        { "q": "¿Qué cena ahora el hombre?", "audio": [{ "v": "f1", "t": "Und, wie läuft deine Diät?" }, { "v": "m2", "t": "Ganz gut! Ich habe schon vier Kilo abgenommen. Abends esse ich nur noch Suppe oder Salat, und auf Süßigkeiten verzichte ich ganz." }], "options": ["Nada", "Fruta y yogur", "Solo sopa o ensalada"], "answer": 2 },
+        { "q": "¿Qué tiene que llevar a la cita?", "audio": [{ "v": "at-f", "t": "Grüß Gott, hier ist die Praxis Doktor Wallner. Ihre Grippeimpfung ist am Donnerstag um neun Uhr dreißig. Bitte bringen Sie Ihren Impfausweis mit, damit wir die Impfung eintragen können." }], "options": ["La tarjeta del seguro", "La cartilla de vacunación", "Una receta"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "e10", "type": "dictation", "title": "Dictado", "instructions": "Escucha y escribe la frase.",
+      "items": [
+        { "audio": [{ "v": "f1", "t": "Ich jogge jeden Morgen, um fit zu bleiben." }], "answers": ["Ich jogge jeden Morgen, um fit zu bleiben."] },
+        { "audio": [{ "v": "m1", "t": "Sie isst weniger Süßigkeiten, um abzunehmen." }], "answers": ["Sie isst weniger Süßigkeiten, um abzunehmen."] },
+        { "audio": [{ "v": "f2", "t": "Wir kochen frisch, damit die Kinder gesund essen." }], "answers": ["Wir kochen frisch, damit die Kinder gesund essen."] },
+        { "audio": [{ "v": "m2", "t": "Ich habe mir vorgenommen, mehr zu schlafen." }], "answers": ["Ich habe mir vorgenommen, mehr zu schlafen."] },
+        { "audio": [{ "v": "ch-f", "t": "Rauchen ist sehr schädlich für die Gesundheit." }], "answers": ["Rauchen ist sehr schädlich für die Gesundheit."] }
+      ]
+    },
+    {
+      "id": "e11", "type": "write", "title": "Traduce al alemán", "instructions": "Escribe la frase en alemán.",
+      "items": [
+        { "prompt": "Voy al gimnasio para reducir el estrés.", "answers": ["Ich gehe ins Fitnessstudio, um Stress abzubauen.", "Ich gehe ins Fitnessstudio, um den Stress abzubauen.", "Um Stress abzubauen, gehe ich ins Fitnessstudio.", "Um den Stress abzubauen, gehe ich ins Fitnessstudio."] },
+        { "prompt": "Vamos al mercado para comprar verdura fresca.", "answers": ["Wir gehen auf den Markt, um frisches Gemüse zu kaufen.", "Wir gehen zum Markt, um frisches Gemüse zu kaufen.", "Um frisches Gemüse zu kaufen, gehen wir auf den Markt.", "Um frisches Gemüse zu kaufen, gehen wir zum Markt."] },
+        { "prompt": "Hablo despacio para que me entiendas.", "answers": ["Ich spreche langsam, damit du mich verstehst.", "Damit du mich verstehst, spreche ich langsam."] },
+        { "prompt": "Mi médico me ha recomendado comer menos sal.", "answers": ["Mein Arzt hat mir empfohlen, weniger Salz zu essen.", "Mein Arzt hat mir geraten, weniger Salz zu essen.", "Mein Hausarzt hat mir empfohlen, weniger Salz zu essen.", "Mein Hausarzt hat mir geraten, weniger Salz zu essen."] },
+        { "prompt": "Intento comer menos dulces.", "answers": ["Ich versuche, weniger Süßigkeiten zu essen.", "Ich versuche weniger Süßigkeiten zu essen.", "Ich versuche, weniger Süßes zu essen.", "Ich versuche weniger Süßes zu essen."] },
+        { "prompt": "Hoy no me apetece cocinar.", "answers": ["Ich habe heute keine Lust zu kochen.", "Ich habe heute keine Lust, zu kochen.", "Heute habe ich keine Lust zu kochen.", "Heute habe ich keine Lust, zu kochen.", "Ich habe keine Lust, heute zu kochen."] },
+        { "prompt": "Andrea se vacuna contra la gripe todos los años.", "answers": ["Andrea lässt sich jedes Jahr gegen Grippe impfen.", "Andrea lässt sich jedes Jahr gegen die Grippe impfen.", "Jedes Jahr lässt sich Andrea gegen Grippe impfen.", "Jedes Jahr lässt sich Andrea gegen die Grippe impfen.", "Andrea lässt sich jährlich gegen Grippe impfen.", "Andrea lässt sich jährlich gegen die Grippe impfen."] }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Mein Experiment: Vier Wochen ohne Zucker",
+          "text": "Vor einem Monat habe ich etwas gemacht, was ich schon lange vorhatte: Ich habe vier Wochen lang auf Zucker verzichtet. Der Grund war nicht mein Gewicht, sondern meine Energie. Jeden Nachmittag um drei Uhr war ich im Büro so müde, dass ich mich kaum konzentrieren konnte. Dann habe ich meistens Schokolade gegessen, um wieder wach zu werden – aber eine halbe Stunde später war ich noch müder.\n\nDie erste Woche war wirklich hart. Ich hatte Kopfschmerzen und war schlecht gelaunt. Mein Freund Luca hat gesagt, dass er mich so noch nie erlebt hat. Am schwierigsten war es im Supermarkt: Fast alle Fertiggerichte, viele Joghurts und sogar manche Brotsorten enthalten Zucker. Ich habe deshalb angefangen, jedes Etikett genau zu lesen, und koche jetzt fast jeden Abend selbst.\n\nAb der zweiten Woche wurde es besser. Ich frühstücke jetzt Haferflocken mit Nüssen und frischem Obst, und mittags nehme ich Reste vom Abendessen mit ins Büro. Das Tief am Nachmittag ist fast verschwunden. Außerdem schlafe ich besser – das hatte ich gar nicht erwartet. Und zwei Kilo habe ich auch abgenommen, obwohl das gar nicht mein Ziel war.\n\nGanz ohne Zucker möchte ich aber nicht für immer leben. Am Wochenende esse ich wieder ein Stück Kuchen, wenn ich mit Freunden im Café sitze, und das genieße ich jetzt viel mehr als früher. Unter der Woche bleibe ich aber bei meinen neuen Gewohnheiten.\n\nMein Tipp für alle, die es auch probieren wollen: Fangt nicht an einem stressigen Tag an, und sagt euren Kollegen Bescheid. Sonst bringt garantiert jemand Gipfeli mit ins Büro!\n\nCarla",
+          "statements": [
+            { "s": "Carla wollte mit dem Experiment vor allem abnehmen.", "answer": false },
+            { "s": "Die Schokolade am Nachmittag hat Carla nicht wirklich geholfen.", "answer": true },
+            { "s": "In der ersten Woche ging es Carla körperlich gut.", "answer": false },
+            { "s": "Viele Produkte im Supermarkt enthalten Zucker.", "answer": true },
+            { "s": "Carla schläft jetzt besser als vorher.", "answer": true },
+            { "s": "Carla isst auch am Wochenende keinen Kuchen mehr.", "answer": false }
+          ]
+        },
+        {
+          "title": "Ich trainiere für einen Lauf!",
+          "text": "Liebe Miriam,\n\nvielen Dank für deine Nachricht und die Fotos aus Hamburg! Bei uns gibt es auch Neuigkeiten: Stell dir vor, ich trainiere für einen Lauf! Im Dezember gibt es in Zürich den Silvesterlauf durch die Altstadt, und meine Kollegin Petra hat mich überredet, mitzumachen. Die Strecke ist nur gut fünf Kilometer lang, aber für mich ist das viel – vor drei Monaten konnte ich nicht einmal zehn Minuten ohne Pause laufen.\n\nJetzt gehe ich dreimal pro Woche joggen, meistens abends nach der Arbeit am See entlang. Am Samstag trainieren Petra und ich zusammen, damit keine von uns eine Ausrede findet. Ich habe mir auch neue Laufschuhe gekauft, weil meine alten Turnschuhe gar nicht dafür gemacht sind. Mein Ziel ist nicht, schnell zu sein. Ich will einfach ankommen, ohne zwischendurch zu gehen.\n\nJosé macht leider nicht mit. Er sagt, dass Laufen langweilig ist, und fährt lieber Velo. Aber er hat auch etwas für seine Gesundheit getan: Letzte Woche war er zum ersten Mal seit Jahren bei einer Vorsorgeuntersuchung. Zum Glück war alles in Ordnung, nur sein Blutdruck war ein bisschen hoch. Die Ärztin hat ihm geraten, weniger Kaffee zu trinken und mehr zu schlafen. Du kennst ihn ja: Das mit dem Kaffee wird schwierig!\n\nHast du nicht Lust, uns im Dezember zu besuchen? Dann kannst du mich beim Lauf anfeuern, und danach trinken wir zusammen einen Glühwein auf dem Weihnachtsmarkt. Ein Gästebett haben wir.\n\nGanz liebe Grüße\nAndrea",
+          "statements": [
+            { "s": "Eine Kollegin hat Andrea zu dem Lauf motiviert.", "answer": true },
+            { "s": "Andrea konnte schon immer lange ohne Pause laufen.", "answer": false },
+            { "s": "Am Samstag läuft Andrea nicht allein.", "answer": true },
+            { "s": "Andrea möchte beim Lauf eine sehr gute Zeit erreichen.", "answer": false },
+            { "s": "José fährt lieber Fahrrad, als zu laufen.", "answer": true },
+            { "s": "Bei Josés Untersuchung hat die Ärztin ein ernstes Problem gefunden.", "answer": false }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Weniger Fleisch auf dem Teller",
+          "text": "Fleisch ist in der Schweiz immer weniger beliebt. Laut einer neuen Umfrage leben heute rund fünf Prozent der Bevölkerung vegetarisch und etwa ein Prozent vegan. Noch größer ist aber eine andere Gruppe: Fast ein Viertel der Befragten bezeichnet sich als „Flexitarier“. Diese Menschen essen nicht ganz ohne Fleisch, aber deutlich weniger als früher – oft nur am Wochenende.\n\nDie Gründe sind unterschiedlich. Jüngere Menschen nennen vor allem den Tierschutz und das Klima. Ältere Befragte sagen dagegen häufiger, dass sie weniger Fleisch essen, um gesund zu bleiben. „Wer jeden Tag Wurst und rotes Fleisch isst, hat ein höheres Risiko für Herzkrankheiten“, erklärt die Ernährungsberaterin Simone Kälin aus Luzern. „Aber auch Vegetarier müssen aufpassen. Wer Fleisch einfach durch Käse und Fertiggerichte ersetzt, isst nicht automatisch gesünder.“ Sie empfiehlt, regelmäßig Linsen, Bohnen oder Kichererbsen zu essen, damit der Körper genug Eiweiß bekommt.\n\nDie Lebensmittelindustrie hat auf die neue Nachfrage reagiert. In den Supermärkten gibt es heute eine große Auswahl an Ersatzprodukten aus Soja oder Erbsen, und der Umsatz ist in den letzten fünf Jahren stark gestiegen. Allerdings sind diese Produkte oft teurer als Fleisch, und manche enthalten viel Salz.\n\nAuch die traditionellen Metzgereien spüren die Veränderung. Einige haben ihr Angebot deshalb angepasst: Sie verkaufen weniger, aber dafür nur Fleisch von Tieren aus der Region. „Unsere Kunden essen seltener Fleisch, aber sie wollen gute Qualität“, sagt der Metzger Thomas Baumgartner aus Burgdorf.",
+          "questions": [
+            { "q": "Welche Gruppe ist laut der Umfrage am größten?", "options": ["Die Vegetarier.", "Die Veganer.", "Die Menschen, die weniger Fleisch essen als früher."], "answer": 2 },
+            { "q": "Was sagt Simone Kälin über Vegetarier?", "options": ["Sie essen immer gesünder als andere Menschen.", "Sie sollten genau überlegen, was sie statt Fleisch essen.", "Sie brauchen kein Eiweiß."], "answer": 1 },
+            { "q": "Wie reagieren einige Metzgereien?", "options": ["Sie bieten nur noch Fleisch aus der Region an.", "Sie verkaufen jetzt auch Produkte aus Soja.", "Sie haben ihre Preise gesenkt."], "answer": 0 }
+          ]
+        },
+        {
+          "title": "Zu wenig Schlaf: ein unterschätztes Problem",
+          "text": "Jeder dritte Erwachsene in der Schweiz schläft schlecht. Das zeigt eine Studie der Universität Bern, für die 3000 Personen befragt wurden. Viele brauchen abends lange, um einzuschlafen, andere wachen nachts mehrmals auf. Die Folgen spürt man am nächsten Tag: Man ist müde, kann sich schlecht konzentrieren und ist schneller gereizt.\n\n„Viele Menschen nehmen das Problem nicht ernst“, sagt der Schlafforscher Martin Rüegg. „Sie trinken einfach mehr Kaffee, um den Tag zu schaffen.“ Langfristig ist zu wenig Schlaf aber gefährlich. Wer über Jahre weniger als sechs Stunden pro Nacht schläft, nimmt leichter zu und wird häufiger krank.\n\nAls einen der wichtigsten Gründe nennt die Studie das Handy. Fast 70 Prozent der Befragten schauen noch im Bett auf ihr Smartphone. Das helle Licht des Bildschirms sagt dem Gehirn, dass es noch Tag ist. Rüegg rät deshalb, das Handy eine Stunde vor dem Schlafengehen wegzulegen und es am besten gar nicht mit ins Schlafzimmer zu nehmen. Wer morgens geweckt werden muss, sollte einen ganz normalen Wecker benutzen.\n\nAuch andere Gewohnheiten helfen: jeden Tag zur gleichen Zeit ins Bett gehen, abends nicht zu schwer essen und das Schlafzimmer kühl halten – ideal sind 16 bis 18 Grad. Schlaftabletten empfiehlt der Experte dagegen nur in Ausnahmefällen. „Sie lösen das Problem nicht, und man gewöhnt sich schnell an sie.“ Wer länger als drei Monate schlecht schläft, sollte mit seinem Hausarzt sprechen.",
+          "questions": [
+            { "q": "Was zeigt die Studie?", "options": ["Die meisten Schweizer schlafen zu viel.", "Ein Drittel der Erwachsenen hat Probleme mit dem Schlaf.", "Junge Menschen schlafen schlechter als ältere."], "answer": 1 },
+            { "q": "Was empfiehlt Martin Rüegg?", "options": ["Das Handy nicht mit ins Schlafzimmer nehmen.", "Morgens mehr Kaffee trinken.", "Das Handy als Wecker benutzen."], "answer": 0 },
+            { "q": "Was sagt der Experte über Schlaftabletten?", "options": ["Sie sind die beste Lösung bei Schlafproblemen.", "Man bekommt sie nur in einem Schlafzentrum.", "Man sollte sie nur in Ausnahmefällen nehmen."], "answer": 2 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            { "key": "a", "text": "Kochkurs „Schnell und gesund“: An vier Abenden lernen Sie, in 30 Minuten gesunde Gerichte für die ganze Woche vorzubereiten. Volkshochschule Oerlikon, dienstags 18.30 Uhr." },
+            { "key": "b", "text": "Yoga für Anfänger im Studio Lotus: kleine Gruppen, ruhige Atmosphäre – ideal, um nach der Arbeit Stress abzubauen. Probestunde gratis." },
+            { "key": "c", "text": "Fitnessstudio PowerGym: täglich von 6 bis 23 Uhr geöffnet. Persönlicher Trainingsplan mit unseren Trainern inklusive. Jetzt drei Monate zum halben Preis!" },
+            { "key": "d", "text": "Ernährungsberatung Dr. Kunz: Sie möchten abnehmen oder vertragen bestimmte Lebensmittel nicht? Wir finden zusammen den richtigen Ernährungsplan. Viele Krankenkassen bezahlen einen Teil." },
+            { "key": "e", "text": "Bioladen Grünzeug: Gemüse, Obst und Brot von Bauernhöfen aus der Region. Jeden Freitag bringen wir Ihre Bestellung mit dem Velo zu Ihnen nach Hause." },
+            { "key": "f", "text": "Lauftreff Zürichberg: Wir joggen jeden Samstag um 9 Uhr gemeinsam durch den Wald – in drei Gruppen, für Anfänger und Fortgeschrittene. Kostenlos und ohne Anmeldung." },
+            { "key": "g", "text": "Restaurant Krautgarten: vegetarisches und veganes Buffet, Sie bezahlen nach Gewicht. Montag bis Freitag von 11 bis 14 Uhr." },
+            { "key": "h", "text": "Apotheke am Bahnhof: Grippeimpfung ohne Termin, auch am Samstag. Bitte bringen Sie Ihre Versichertenkarte mit." },
+            { "key": "i", "text": "Schwimmkurs für Erwachsene: Sie haben nie schwimmen gelernt? In kleinen Gruppen lernen Sie es ohne Stress in zehn Lektionen. Hallenbad City, mittwochs 19 Uhr." },
+            { "key": "j", "text": "Rückenschule im Gesundheitszentrum Wiedikon: Übungen gegen Rückenschmerzen für alle, die viel am Computer sitzen. Kurs mit Physiotherapeutin, acht Abende." }
+          ],
+          "items": [
+            { "situation": "Martin arbeitet den ganzen Tag im Büro am Bildschirm und hat seit Wochen Schmerzen im Rücken.", "answer": "j" },
+            { "situation": "Beatriz möchte sich gegen Grippe impfen lassen, hat aber unter der Woche keine Zeit für einen Arzttermin.", "answer": "h" },
+            { "situation": "Familie Moser möchte Lebensmittel aus der Region essen, hat aber keine Zeit, jede Woche einkaufen zu gehen.", "answer": "e" },
+            { "situation": "Tobias möchte mit anderen Leuten zusammen Sport machen, aber kein Geld dafür ausgeben.", "answer": "f" },
+            { "situation": "Leonie arbeitet oft bis spät abends. Sie möchte früh am Morgen trainieren und braucht Hilfe bei der Planung.", "answer": "c" },
+            { "situation": "Herr Brunner sucht einen Kurs am Wochenende, um mit seinen Enkeln Kuchen backen zu lernen.", "answer": "x" },
+            { "situation": "Selin verträgt seit einiger Zeit keine Milch mehr und weiß nicht, was sie noch essen darf.", "answer": "d" }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Eine Zuckersteuer für Limonaden?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über eine Steuer auf Getränke mit viel Zucker.",
+          "question": "Ist die Person für eine Steuer auf Getränke mit viel Zucker?",
+          "comments": [
+            { "name": "Miriam, 41, Basel", "text": "Als Zahnärztin sehe ich jeden Tag, was Zucker anrichtet, besonders bei Kindern. Viele Eltern wissen gar nicht, wie viel Zucker in einer Flasche Eistee steckt. Natürlich kann eine Steuer allein das Problem nicht lösen. Aber in Großbritannien haben die Firmen danach weniger Zucker in ihre Getränke getan. Wenn das bei uns auch passiert, hat sich die Steuer schon gelohnt.", "answer": true },
+            { "name": "Patrick, 52, Winterthur", "text": "Ich trinke selbst kaum Limonade, aber ich finde es falsch, wenn der Staat den Menschen vorschreibt, was sie essen und trinken sollen. Heute ist es der Zucker, morgen das Fleisch oder der Wein. Erwachsene können selbst entscheiden. Viel sinnvoller wäre es, in den Schulen mehr über gesunde Ernährung zu informieren.", "answer": false },
+            { "name": "Sevgi, 29, Stuttgart", "text": "Einerseits trifft so eine Steuer vor allem Familien mit wenig Geld, und das ist nicht fair. Andererseits haben gerade diese Familien oft mehr Probleme mit Übergewicht und können sich teure Sportangebote nicht leisten. Wenn man das Geld aus der Steuer zum Beispiel für kostenlosen Sport für Kinder verwendet, bin ich klar dafür.", "answer": true },
+            { "name": "Bruno, 67, Innsbruck", "text": "Ich hatte vierzig Jahre lang ein Lebensmittelgeschäft. Glauben Sie mir: Wenn die Cola zwanzig Cent mehr kostet, kaufen die Leute sie trotzdem. Die Steuer bringt dem Staat Geld, aber gesünder wird dadurch niemand. Man sollte lieber dafür sorgen, dass Obst und Gemüse billiger werden. Das würde den Familien wirklich helfen.", "answer": false },
+            { "name": "Jana, 19, Zürich", "text": "In meiner Klasse trinken viele jeden Tag zwei oder drei Energydrinks, um wach zu bleiben. Ich habe das früher auch gemacht. Erst als mein Taschengeld knapp wurde, habe ich damit aufgehört – und ich fühle mich viel besser. Deshalb glaube ich, dass höhere Preise wirklich etwas ändern können, gerade bei jungen Leuten.", "answer": true },
+            { "name": "Daniel, 45, Freiburg", "text": "Ich verstehe die Idee, und zu viel Zucker ist sicher ein großes Problem. Aber warum nur Getränke? Kuchen, Schokolade und Fertiggerichte enthalten genauso viel Zucker. Eine Steuer nur auf Limonade ist ungerecht und bringt am Ende wenig. Ich bin überzeugt, dass klare Informationen auf der Verpackung mehr helfen als neue Steuern.", "answer": false },
+            { "name": "Ursula, 58, Luzern", "text": "Ich war lange skeptisch, weil ich neue Steuern grundsätzlich nicht mag. Dann habe ich gelesen, wie viel die Krankenkassen jedes Jahr für Krankheiten wie Diabetes bezahlen. Diese Kosten tragen wir alle mit unseren Prämien. Wer viel Zucker konsumiert, soll deshalb auch einen Teil davon bezahlen. Heute finde ich die Idee richtig.", "answer": true }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Benutzungsordnung – Fitnesscenter Sihlpark",
+          "text": "1. Öffnungszeiten\nDas Fitnesscenter ist von Montag bis Freitag von 6 bis 22 Uhr geöffnet, am Wochenende von 8 bis 20 Uhr. Eine halbe Stunde vor Schluss werden keine Gäste mehr eingelassen.\n\n2. Zutritt\nDer Eintritt ist nur mit der persönlichen Mitgliedskarte möglich. Die Karte darf nicht an andere Personen weitergegeben werden. Wer seine Karte verliert, bezahlt für eine neue 20 Franken. Jugendliche unter 16 Jahren dürfen nur in Begleitung eines Erwachsenen trainieren.\n\n3. Im Trainingsbereich\nBitte trainieren Sie nur mit sauberen Hallenschuhen und benutzen Sie immer ein Handtuch. Nach dem Training werden die Geräte von den Mitgliedern selbst gereinigt; ein Desinfektionsmittel finden Sie neben jedem Gerät. Zwischen 17 und 20 Uhr darf jedes Gerät höchstens 20 Minuten benutzt werden.\n\n4. Kurse\nDie Teilnahme an den Gruppenkursen ist im Mitgliederbeitrag enthalten. Da die Zahl der Plätze begrenzt ist, ist eine Anmeldung über die App nötig. Wer dreimal nicht erscheint, ohne sich abzumelden, kann zwei Wochen lang keine Kurse buchen.\n\n5. Garderobe\nDie Schränke dürfen nur während des Trainings benutzt werden. Am Abend werden alle Schränke geöffnet und geleert. Für Wertsachen übernehmen wir keine Haftung.\n\n6. Pause bei Krankheit\nBei Krankheit oder nach einem Unfall kann die Mitgliedschaft mit einem Arztzeugnis für mindestens einen und höchstens sechs Monate unterbrochen werden.\n\nIhr Sihlpark-Team",
+          "questions": [
+            { "q": "Sie möchten an einem Samstag um 19.45 Uhr trainieren. Was gilt?", "options": ["Das ist kein Problem, das Fitnesscenter ist bis 22 Uhr offen.", "Sie kommen nicht mehr hinein.", "Sie dürfen jedes Gerät nur 20 Minuten benutzen."], "answer": 1 },
+            { "q": "Was müssen die Mitglieder nach dem Training tun?", "options": ["Die Geräte selbst sauber machen.", "Das Handtuch an der Rezeption abgeben.", "Ihre Mitgliedskarte zeigen."], "answer": 0 },
+            { "q": "Was passiert, wenn man mehrmals ohne Abmeldung nicht zu einem Kurs kommt?", "options": ["Man muss für die Kurse extra bezahlen.", "Man verliert seine Mitgliedskarte.", "Man kann eine Zeit lang keine Kurse reservieren."], "answer": 2 },
+            { "q": "Sie haben sich das Bein gebrochen. Was können Sie tun?", "options": ["Die Mitgliedschaft sofort kündigen.", "Die Mitgliedschaft mit einem Arztzeugnis unterbrechen.", "Die Karte einer anderen Person geben."], "answer": 1 }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [{ "v": "f1", "t": "Und nun der Pollenbericht für die Deutschschweiz. Wegen des warmen Wetters fliegen ab morgen besonders viele Birkenpollen. Allergiker sollten die Fenster tagsüber geschlossen halten und nur am frühen Morgen lüften. Ab Freitag wird es regnerisch und kühler, dann sind deutlich weniger Pollen in der Luft." }],
+          "statement": "Ab morgen gibt es weniger Pollen in der Luft.",
+          "tf": false,
+          "q": "Wann sollten Allergiker lüften?",
+          "options": ["Am frühen Morgen.", "Am Mittag.", "Am Abend."],
+          "answer": 0
+        },
+        {
+          "audio": [{ "v": "ch-f", "t": "Grüezi Herr Romero, hier ist die Praxis Doktor Meili. Sie haben morgen um zehn Uhr einen Termin für Ihre Blutuntersuchung. Bitte kommen Sie nüchtern, das heißt: ab zweiundzwanzig Uhr heute Abend nichts mehr essen. Wasser und ungesüßten Tee dürfen Sie aber trinken. Wenn Sie den Termin verschieben müssen, rufen Sie uns bitte bis achtzehn Uhr an. Danke und auf Wiederhören." }],
+          "statement": "Herr Romero darf vor dem Termin Wasser trinken.",
+          "tf": true,
+          "q": "Bis wann soll Herr Romero anrufen, wenn er nicht kommen kann?",
+          "options": ["Bis morgen um 10 Uhr.", "Bis heute um 18 Uhr.", "Bis heute um 22 Uhr."],
+          "answer": 1
+        },
+        {
+          "audio": [{ "v": "m2", "t": "Liebe Kundinnen und Kunden, besuchen Sie heute unseren Stand in der Gemüseabteilung! Unser Koch zeigt Ihnen, wie Sie in nur fünfzehn Minuten ein gesundes Mittagessen für das Büro zubereiten. Alle Zutaten bekommen Sie heute mit zwanzig Prozent Rabatt. Und das Heft mit allen Rezepten erhalten Sie gratis an der Kasse." }],
+          "statement": "Der Koch zeigt, wie man ein schnelles Abendessen kocht.",
+          "tf": false,
+          "q": "Was bekommt man kostenlos?",
+          "options": ["Die Zutaten.", "Ein Mittagessen.", "Ein Heft mit Rezepten."],
+          "answer": 2
+        },
+        {
+          "audio": [{ "v": "m1", "t": "Zürich. Ab nächster Woche bekommen die Kinder in allen Schulhäusern der Stadt ein kostenloses, gesundes Znüni. In der großen Pause gibt es Obst, Gemüse und Vollkornbrot. Die Stadt möchte damit erreichen, dass weniger Kinder Süßigkeiten in die Schule mitbringen. Das Projekt läuft zuerst ein Jahr lang. Danach wird entschieden, ob es weitergeht." }],
+          "statement": "Das Projekt dauert zuerst ein Jahr.",
+          "tf": true,
+          "q": "Was bekommen die Kinder?",
+          "options": ["Eine warme Mahlzeit am Mittag.", "Obst, Gemüse und Brot in der Pause.", "Süßigkeiten als Belohnung."],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung über einen Bio-Bauernhof in der Nähe von Zürich teil.",
+          "audio": [
+            { "v": "ch-m", "t": "Grüezi mitenand und herzlich willkommen auf dem Hof Sonnenberg! Ich bin Reto Gisler. Ich führe den Hof zusammen mit meiner Frau, vorher haben ihn meine Eltern und meine Großeltern geführt. Die Führung dauert ungefähr eine Stunde, und am Schluss dürfen Sie in unserem Hofladen probieren." },
+            { "v": "ch-m", "t": "Seit 2005 arbeiten wir biologisch. Am Anfang war das schwierig: Wir hatten eine kleinere Ernte, und viele Nachbarn haben uns ausgelacht. Heute machen in unserem Dorf schon vier Höfe mit." },
+            { "v": "ch-m", "t": "Hier links sehen Sie unsere Kühe. Wir haben dreißig Tiere, und im Sommer sind sie jeden Tag draußen auf der Weide. Ihr Futter kommt fast ganz von unseren eigenen Wiesen." },
+            { "v": "ch-m", "t": "Jetzt kommen wir zum Gemüsegarten. Wir bauen über vierzig Sorten an, zum Beispiel alte Tomatensorten, die Sie im Supermarkt nicht finden. Gegen Schädlinge benutzen wir keine Chemie, sondern Insekten, die die Schädlinge fressen." },
+            { "v": "ch-m", "t": "Eine Frage höre ich fast bei jeder Führung: Warum ist Bio so teuer? Die Antwort ist einfach: Wir brauchen viel mehr Handarbeit. Das Unkraut zum Beispiel wird bei uns nicht gespritzt, sondern von Hand entfernt. Im Sommer helfen uns dabei sechs Saisonarbeiter." },
+            { "v": "ch-m", "t": "Den größten Teil unserer Produkte verkaufen wir direkt: hier im Hofladen und jeden Samstag auf dem Markt in Winterthur. Außerdem bekommen über hundert Familien jede Woche unser Gemüseabo – eine Kiste mit dem Gemüse der Saison." },
+            { "v": "ch-m", "t": "So, jetzt sind wir wieder beim Hofladen. Hier können Sie unseren Käse und unser Brot probieren. Und wer möchte, kann sich gleich für das Gemüseabo anmelden. Vielen Dank fürs Zuhören!" }
+          ],
+          "questions": [
+            { "q": "Seit wann arbeitet der Hof biologisch?", "options": ["Seit der Zeit der Großeltern.", "Seit 2005.", "Seit vier Jahren."], "answer": 1 },
+            { "q": "Was sagt Herr Gisler über die Kühe?", "options": ["Sie sind im Sommer jeden Tag draußen.", "Ihr Futter kommt aus dem Ausland.", "Es sind über hundert Tiere."], "answer": 0 },
+            { "q": "Was macht der Hof gegen Schädlinge?", "options": ["Er benutzt chemische Mittel.", "Er pflanzt nur alte Sorten.", "Er setzt Insekten ein."], "answer": 2 },
+            { "q": "Warum sind Bio-Produkte teurer?", "options": ["Weil die Tiere mehr Futter brauchen.", "Weil man viel mehr von Hand arbeiten muss.", "Weil der Hof nur wenig verkauft."], "answer": 1 },
+            { "q": "Was ist das Gemüseabo?", "options": ["Ein Kurs im Gemüsegarten.", "Ein Rabatt im Hofladen.", "Eine Kiste mit Gemüse der Saison jede Woche."], "answer": 2 }
+          ]
+        },
+        {
+          "intro": "Sie hören in Ihrer Firma einen Vortrag zum Thema „Gesund arbeiten im Büro“.",
+          "audio": [
+            { "v": "f2", "t": "Guten Tag zusammen, schön, dass so viele gekommen sind. Mein Name ist Katrin Vogel, ich bin Physiotherapeutin. In den nächsten zwanzig Minuten möchte ich Ihnen zeigen, wie Sie im Büro etwas für Ihre Gesundheit tun können – ohne viel Zeit und ohne Fitnessstudio." },
+            { "v": "f2", "t": "Das größte Problem ist das lange Sitzen. Viele von Ihnen sitzen acht oder neun Stunden pro Tag, und am Abend dann noch vor dem Fernseher. Das ist schlecht für den Rücken, aber auch für das Herz. Mein wichtigster Tipp: Stehen Sie mindestens einmal pro Stunde auf." },
+            { "v": "f2", "t": "Das geht ganz einfach. Telefonieren Sie im Stehen, nehmen Sie die Treppe und nicht den Lift, und bringen Sie Ihren Kollegen eine Information persönlich, anstatt eine E-Mail zu schreiben." },
+            { "v": "f2", "t": "Auch Ihr Arbeitsplatz ist wichtig. Der Bildschirm sollte so stehen, dass die obere Kante auf der Höhe Ihrer Augen ist. Und Ihre Füße sollten ganz auf dem Boden stehen. Wenn Sie einen Tisch haben, den man höher und tiefer stellen kann: Benutzen Sie ihn! Am besten wechseln Sie mehrmals am Tag zwischen Sitzen und Stehen." },
+            { "v": "f2", "t": "Viele vergessen im Büro außerdem zu trinken. Stellen Sie sich am Morgen eine große Flasche Wasser auf den Schreibtisch. Dann sehen Sie am Abend sofort, ob Sie genug getrunken haben." },
+            { "v": "f2", "t": "Und zum Schluss die Mittagspause: Essen Sie bitte nicht vor dem Computer! Gehen Sie lieber zehn Minuten nach draußen. Das Tageslicht und die Bewegung helfen Ihnen, am Nachmittag konzentriert zu bleiben." },
+            { "v": "f2", "t": "Jetzt zeige ich Ihnen noch drei einfache Übungen für den Nacken, die Sie direkt am Schreibtisch machen können. Bitte stehen Sie alle einmal auf!" }
+          ],
+          "questions": [
+            { "q": "Was ist laut Frau Vogel das größte Problem im Büro?", "options": ["Zu wenig Licht.", "Zu langes Sitzen.", "Zu viele E-Mails."], "answer": 1 },
+            { "q": "Wie oft sollte man aufstehen?", "options": ["Mindestens einmal pro Stunde.", "Zweimal am Tag.", "Nur in der Mittagspause."], "answer": 0 },
+            { "q": "Wo sollte die obere Kante des Bildschirms sein?", "options": ["Unter der Höhe des Tisches.", "Etwas über dem Kopf.", "Auf der Höhe der Augen."], "answer": 2 },
+            { "q": "Was empfiehlt Frau Vogel zum Trinken?", "options": ["Morgens eine Flasche Wasser auf den Tisch stellen.", "Jede Stunde einen Kaffee trinken.", "Nur in der Pause trinken."], "answer": 0 },
+            { "q": "Was sollte man in der Mittagspause machen?", "options": ["Am Computer essen, um Zeit zu sparen.", "Kurz nach draußen gehen.", "Übungen für den Nacken machen."], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            { "v": "m2", "t": "Hallo Nora! Du siehst aber gut aus. Warst du im Urlaub?" },
+            { "v": "f1", "t": "Hallo Felix! Nein, leider nicht. Aber danke! Ich mache seit zwei Monaten jeden Morgen Sport." },
+            { "v": "m2", "t": "Jeden Morgen? Wie schaffst du das denn? Ich komme morgens kaum aus dem Bett." },
+            { "v": "f1", "t": "Am Anfang war es schwer. Aber jetzt stehe ich um halb sechs auf und gehe eine halbe Stunde joggen, bevor die Kinder aufwachen." },
+            { "v": "m2", "t": "Respekt. Ich wollte eigentlich auch mehr Sport machen. Ich habe mich sogar im Fitnessstudio angemeldet." },
+            { "v": "f1", "t": "Und? Wie oft gehst du hin?" },
+            { "v": "m2", "t": "Ehrlich gesagt … seit März war ich dreimal dort. Und ich bezahle jeden Monat achtzig Franken." },
+            { "v": "f1", "t": "Oje. Vielleicht ist das Fitnessstudio einfach nicht das Richtige für dich." },
+            { "v": "m2", "t": "Kann sein. Drinnen auf dem Laufband ist es so langweilig." },
+            { "v": "f1", "t": "Dann komm doch mal mit zu unserer Laufgruppe! Wir treffen uns jeden Sonntag um neun im Wald, und danach trinken wir zusammen Kaffee." },
+            { "v": "m2", "t": "Am Sonntag um neun? Hm, das ist früh. Aber mit anderen zusammen ist es bestimmt leichter." },
+            { "v": "f1", "t": "Genau. Man will die anderen nicht enttäuschen, deshalb geht man auch, wenn es regnet." },
+            { "v": "m2", "t": "Und isst du jetzt auch anders?" },
+            { "v": "f1", "t": "Ein bisschen. Ich koche mehr selbst und nehme mein Mittagessen mit ins Büro. Aber auf Schokolade verzichte ich nicht!" },
+            { "v": "m2", "t": "Sehr gut. Okay, ich komme am Sonntag mit. Schick mir bitte die Adresse." },
+            { "v": "f1", "t": "Mach ich. Und vergiss deine Laufschuhe nicht!" }
+          ],
+          "statements": [
+            { "s": "Nora war vor kurzem im Urlaub.", "answer": false },
+            { "s": "Nora joggt morgens, bevor ihre Kinder wach sind.", "answer": true },
+            { "s": "Felix geht regelmäßig ins Fitnessstudio.", "answer": false },
+            { "s": "Felix bezahlt jeden Monat für das Fitnessstudio.", "answer": true },
+            { "s": "Die Laufgruppe trifft sich am Samstagmorgen.", "answer": false },
+            { "s": "Nora isst keine Süßigkeiten mehr.", "answer": false },
+            { "s": "Felix will am Sonntag mit in die Laufgruppe kommen.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie sind im Tram und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            { "v": "f2", "t": "José, hast du heute schon etwas gegessen? Du siehst so müde aus." },
+            { "v": "m1", "t": "Nein, nur einen Kaffee. Ich habe heute Morgen verschlafen." },
+            { "v": "f2", "t": "Schon wieder? Du gehst in letzter Zeit viel zu spät ins Bett." },
+            { "v": "m1", "t": "Ich weiß. Ich muss den Artikel bis Freitag fertig schreiben. Gestern habe ich bis zwei Uhr nachts gearbeitet." },
+            { "v": "f2", "t": "Das ist doch nicht gesund. Übrigens, in meiner Firma gibt es nächsten Donnerstag einen Gesundheitstag." },
+            { "v": "m1", "t": "Einen Gesundheitstag? Was macht man da?" },
+            { "v": "f2", "t": "Man kann sich den Blutdruck messen lassen, und eine Ernährungsberaterin hält einen Vortrag. Partner dürfen auch mitkommen." },
+            { "v": "m1", "t": "Hm, am Donnerstag habe ich um vier noch ein Seminar. Wann fängt der Vortrag denn an?" },
+            { "v": "f2", "t": "Um halb sechs. Das schaffst du." },
+            { "v": "m1", "t": "Okay, dann komme ich. Meine Ärztin hat mir sowieso geraten, meinen Blutdruck regelmäßig kontrollieren zu lassen." },
+            { "v": "f2", "t": "Siehst du. Und ich habe noch eine Idee: Wir kochen am Sonntag für die ganze Woche vor. Dann müssen wir mittags nicht immer Pizza holen." },
+            { "v": "m1", "t": "Gute Idee, Andrea. Aber dann gehen wir am Samstag auf den Markt, um frisches Gemüse zu kaufen. Im Supermarkt ist alles in Plastik verpackt." },
+            { "v": "f2", "t": "Einverstanden. Und du gehst heute vor elf ins Bett, ja?" },
+            { "v": "m1", "t": "Versprochen. Aber zuerst esse ich etwas – ich habe einen Riesenhunger!" }
+          ],
+          "statements": [
+            { "s": "José hat heute noch nichts gegessen.", "answer": true },
+            { "s": "José hat gestern bis spät in die Nacht gearbeitet.", "answer": true },
+            { "s": "Der Gesundheitstag findet in Josés Institut statt.", "answer": false },
+            { "s": "Beim Gesundheitstag kann man den Blutdruck messen lassen.", "answer": true },
+            { "s": "José kann nicht zum Vortrag kommen, weil er ein Seminar hat.", "answer": false },
+            { "s": "Andrea möchte am Sonntag Essen für die ganze Woche kochen.", "answer": true },
+            { "s": "José möchte das Gemüse im Supermarkt kaufen.", "answer": false }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Gesund leben“ diskutiert mit der Ernährungsberaterin Sabine Roth und dem Metzger und Koch Thomas Berger über das Thema „Weniger Fleisch essen – muss das sein?“.",
+          "options": ["Moderatorin", "Sabine Roth, Ernährungsberaterin", "Thomas Berger, Metzger und Koch"],
+          "audio": [
+            { "v": "f1", "t": "Herzlich willkommen zu „Gesund leben“. Unser Thema heute: Weniger Fleisch essen – muss das sein? Bei mir im Studio sind die Ernährungsberaterin Sabine Roth und Thomas Berger, Metzger und Koch aus Salzburg. Frau Roth, essen wir zu viel Fleisch?" },
+            { "v": "ch-f", "t": "Ja, eindeutig. In der Schweiz isst jede Person im Durchschnitt fast ein Kilo Fleisch pro Woche. Für die Gesundheit würden zwei- bis dreihundert Gramm völlig reichen." },
+            { "v": "f1", "t": "Herr Berger, als Metzger hören Sie das wahrscheinlich nicht so gern." },
+            { "v": "at-m", "t": "Doch, ehrlich gesagt bin ich gar nicht dagegen. Ich sage meinen Kunden auch: lieber seltener Fleisch, aber dafür gutes Fleisch von Tieren aus der Region." },
+            { "v": "ch-f", "t": "Da sind wir uns einig. Das Problem ist nicht das Steak am Sonntag, sondern die Wurst und der Schinken jeden Tag. Die enthalten viel Salz und Fett." },
+            { "v": "f1", "t": "Viele Leute sagen aber: Ohne Fleisch fehlt mir etwas. Ist eine vegetarische Ernährung überhaupt gesund?" },
+            { "v": "ch-f", "t": "Wenn sie abwechslungsreich ist, auf jeden Fall. Man muss nur darauf achten, genug Eiweiß zu essen, zum Beispiel aus Linsen, Bohnen oder Eiern." },
+            { "v": "at-m", "t": "Da bin ich skeptisch. In meinen Kochkursen sehe ich viele junge Leute, die vegetarisch leben, aber eigentlich nur Nudeln und Pizza essen. Das ist auch nicht gesünder." },
+            { "v": "f1", "t": "Herr Berger, Sie geben ja Kochkurse. Was lernen die Leute bei Ihnen?" },
+            { "v": "at-m", "t": "Vor allem, dass man das ganze Tier verwenden kann, nicht nur das Filet. Früher hat man aus allem etwas gekocht. Heute werfen wir viel zu viel weg." },
+            { "v": "f1", "t": "Frau Roth, was ist mit den Kindern? Brauchen sie Fleisch, um gut zu wachsen?" },
+            { "v": "ch-f", "t": "Nicht unbedingt. Aber bei kleinen Kindern sollten sich die Eltern gut informieren und vielleicht mit dem Kinderarzt sprechen." },
+            { "v": "at-m", "t": "Also, meine Kinder essen zweimal pro Woche Fleisch, und sonst kochen wir vegetarisch. Für mich ist das ein guter Kompromiss." },
+            { "v": "f1", "t": "Und was halten Sie von Ersatzprodukten, zum Beispiel Burgern aus Soja?" },
+            { "v": "at-m", "t": "Davon halte ich gar nichts. Da steht eine lange Liste mit Zusatzstoffen auf der Packung. Dann lieber ein gutes Gemüsegericht." },
+            { "v": "ch-f", "t": "Ich sehe das etwas offener. Für Menschen, die den Geschmack von Fleisch mögen, können solche Produkte ein guter Anfang sein. Man sollte nur das Etikett lesen." },
+            { "v": "f1", "t": "Zum Schluss: Haben Sie einen Tipp für unsere Hörerinnen und Hörer?" },
+            { "v": "ch-f", "t": "Probieren Sie einen fleischfreien Tag pro Woche. Das ist einfach und macht schon einen Unterschied." },
+            { "v": "at-m", "t": "Und wenn Sie Fleisch kaufen, fragen Sie beim Metzger, woher es kommt." },
+            { "v": "f1", "t": "Vielen Dank Ihnen beiden für das Gespräch!" }
+          ],
+          "items": [
+            { "q": "Ist eine vegetarische Ernährung überhaupt gesund?", "answer": 0 },
+            { "q": "Wir essen viel mehr Fleisch, als wir brauchen.", "answer": 1 },
+            { "q": "Fleisch von Tieren aus der Region ist die bessere Wahl.", "answer": 2 },
+            { "q": "Wurst und Schinken sind ein größeres Problem als ein Steak ab und zu.", "answer": 1 },
+            { "q": "Viele junge Vegetarier essen nicht wirklich gesund.", "answer": 2 },
+            { "q": "Kleine Kinder brauchen nicht unbedingt Fleisch, aber die Eltern sollten sich informieren.", "answer": 1 },
+            { "q": "Ersatzprodukte aus Soja enthalten zu viele Zusatzstoffe.", "answer": 2 },
+            { "q": "Beim Kauf sollte man fragen, woher das Fleisch kommt.", "answer": 2 }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Ihr Freund Jonas hat Ihnen geschrieben, dass er gesünder leben möchte, aber nie Zeit dafür hat. Schreiben Sie Jonas eine E-Mail.",
+          "points": ["Was machen Sie selbst für Ihre Gesundheit?", "Geben Sie Jonas Tipps.", "Schlagen Sie eine gemeinsame Aktivität vor."],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Jonas,\n\ndanke für deine Mail! Ich verstehe dich gut, ich hatte früher das gleiche Problem. Heute fahre ich jeden Tag mit dem Velo zur Arbeit, um mich mehr zu bewegen, und am Sonntag kochen Andrea und ich für die ganze Woche vor.\n\nMein Tipp: Fang mit kleinen Dingen an. Nimm die Treppe und nicht den Lift, und nimm dein Mittagessen mit ins Büro, damit du nicht jeden Tag Pizza isst.\n\nHast du Lust, am Samstag mit mir am See joggen zu gehen? Danach können wir zusammen frühstücken.\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Ihre Freundin Svenja hat Sie am Samstag zum Abendessen eingeladen. Sie essen seit einem Monat kein Fleisch mehr. Schreiben Sie Svenja eine E-Mail.",
+          "points": ["Bedanken Sie sich für die Einladung.", "Erklären Sie, warum Sie kein Fleisch mehr essen.", "Machen Sie einen Vorschlag, was Sie mitbringen können."],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Svenja,\n\nvielen Dank für deine Einladung! Ich komme am Samstag sehr gern.\n\nIch muss dir aber etwas sagen: Seit einem Monat esse ich kein Fleisch mehr. Ich habe einen Dokumentarfilm über Tiere in großen Ställen gesehen, und danach wollte ich das nicht mehr. Außerdem fühle ich mich jetzt fitter.\n\nDu musst aber nichts Besonderes kochen! Ich bringe einen großen Salat mit Linsen und Feta mit, damit du nicht so viel Arbeit hast. Für die anderen kannst du ja trotzdem Fleisch machen.\n\nBis Samstag und liebe Grüße\nClara"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Fitness-Apps und Schrittzähler – sinnvoll oder nicht?“ gelesen.",
+          "quote": "Seit einem Jahr trage ich eine Fitnessuhr. Sie zählt meine Schritte, misst meinen Schlaf und erinnert mich ans Trinken. Seitdem bewege ich mich viel mehr und habe sechs Kilo abgenommen. Ich kann so eine Uhr wirklich allen empfehlen!\n– Melanie, Bern",
+          "points": ["Schreiben Sie Ihre Meinung zum Thema.", "Berichten Sie von Ihren eigenen Erfahrungen."],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich finde Fitness-Apps nützlich, aber man sollte sie nicht zu ernst nehmen. Ich habe selbst ein halbes Jahr lang einen Schrittzähler benutzt, um mich mehr zu bewegen. Am Anfang hat das gut funktioniert: Ich bin oft zu Fuß zur Arbeit gegangen, damit ich meine 10 000 Schritte schaffe. Aber nach einiger Zeit hatte ich Stress, wenn ich mein Ziel nicht erreicht habe. Deshalb benutze ich die App heute nicht mehr. Ich glaube, es ist wichtiger, auf den eigenen Körper zu hören, als jeden Tag Zahlen zu kontrollieren."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Süßigkeiten in der Schule verbieten?“ gesehen. Im Online-Gästebuch der Sendung finden Sie diesen Kommentar:",
+          "quote": "Ich bin Lehrer an einer Mittelschule. Viele Schüler essen in der Pause nur Chips und trinken Energydrinks. Danach können sie sich im Unterricht nicht konzentrieren. Das sehe ich jeden Tag. Ich finde, Schulen müssen Süßigkeiten und Limonade endlich verbieten!\n– Herbert, Linz",
+          "points": ["Schreiben Sie Ihre Meinung zum Thema.", "Was können Schulen und Eltern tun, damit Kinder gesünder essen?"],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich verstehe Herbert, aber ich bin gegen ein Verbot. Die Kinder kaufen die Süßigkeiten dann einfach auf dem Schulweg. Ich finde es besser, wenn die Schulen den Kindern zeigen, wie man gesund isst. In meiner Schule in Spanien hatten wir zum Beispiel einen Schulgarten, und wir haben im Unterricht selbst gekocht. Das hat allen Spaß gemacht. Auch die Eltern können viel tun: Sie können ihren Kindern ein gesundes Znüni mitgeben, damit sie in der Pause nicht zum Kiosk gehen. Verbote allein helfen nicht."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben morgen um 9 Uhr einen Termin für eine Vorsorgeuntersuchung bei Ihrer Hausärztin, Frau Dr. Bachmann. Sie können aber nicht kommen. Schreiben Sie der Praxis eine Nachricht.",
+          "points": ["Entschuldigen Sie sich.", "Nennen Sie den Grund.", "Bitten Sie um einen neuen Termin."],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Dr. Bachmann,\n\nleider kann ich morgen um 9 Uhr nicht zur Vorsorgeuntersuchung kommen, weil ich kurzfristig für meine Firma nach Basel fahren muss. Das tut mir sehr leid. Könnten Sie mir bitte einen neuen Termin geben? Am besten passt mir nächste Woche ein Termin am Vormittag.\n\nMit freundlichen Grüßen\nAndrea Navarro"
+        },
+        {
+          "task": "Sie haben sich an der Volkshochschule für den Kochkurs „Gesund kochen“ angemeldet. Am ersten Abend sind Sie krank. Schreiben Sie der Kursleiterin, Frau Wenger, eine Nachricht.",
+          "points": ["Entschuldigen Sie sich.", "Erklären Sie, warum Sie nicht kommen.", "Fragen Sie, wie Sie die Informationen vom ersten Abend bekommen können."],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Wenger,\n\nleider kann ich heute Abend nicht zum Kochkurs kommen, weil ich eine starke Erkältung habe. Es tut mir sehr leid, dass ich gleich den ersten Abend verpasse. Könnten Sie mir bitte die Rezepte per E-Mail schicken, damit ich zu Hause üben kann?\n\nVielen Dank und freundliche Grüße\nJosé Romero"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Eine Kollegin von Ihnen, Petra, hatte einen Skiunfall und liegt seit einer Woche im Krankenhaus. Sie möchten sie zusammen besuchen. Planen Sie den Besuch.",
+          "points": ["Wann besuchen?", "Wie hinfahren?", "Was mitbringen?", "Wer kommt noch mit?"],
+          "model": [
+            { "v": "m1", "t": "Hast du gehört? Petra hatte einen Skiunfall und liegt im Krankenhaus. Wollen wir sie zusammen besuchen?" },
+            { "v": "f1", "t": "Ja, unbedingt! Wann passt es dir? Ich schlage Mittwochabend vor." },
+            { "v": "m1", "t": "Mittwoch ist schlecht, da habe ich bis sieben eine Besprechung. Wie wäre es mit Samstagnachmittag?" },
+            { "v": "f1", "t": "Gute Idee. Am Wochenende haben wir mehr Zeit, und die Besuchszeit ist bis acht Uhr abends." },
+            { "v": "m1", "t": "Und wie fahren wir hin? Das Kantonsspital ist ziemlich weit weg." },
+            { "v": "f1", "t": "Wir könnten mit meinem Auto fahren, um schneller dort zu sein." },
+            { "v": "m1", "t": "Hm, beim Spital gibt es kaum Parkplätze. Ich finde, wir nehmen lieber das Tram. Die Haltestelle ist direkt vor dem Eingang." },
+            { "v": "f1", "t": "Stimmt, einverstanden. Und was bringen wir ihr mit? Blumen?" },
+            { "v": "m1", "t": "Blumen sind in manchen Spitälern nicht erlaubt. Wir könnten ihr Zeitschriften und frisches Obst kaufen." },
+            { "v": "f1", "t": "Ja, und ein Buch, damit sie sich nicht langweilt. Sie liest doch so gern Krimis." },
+            { "v": "m1", "t": "Super. Sollen wir noch die anderen Kollegen fragen?" },
+            { "v": "f1", "t": "Lieber nicht alle auf einmal, das wird zu anstrengend für sie. Ich frage nur Lukas, er ist ihr bester Freund im Team." },
+            { "v": "m1", "t": "Gut. Also: Samstagnachmittag mit dem Tram, mit Obst, Zeitschriften und einem Krimi. Ich kaufe das Obst, und du kümmerst dich um das Buch." }
+          ]
+        },
+        {
+          "task": "Sie möchten zusammen mit einem Freund / einer Freundin eine Woche lang gesünder leben. Planen Sie die Woche.",
+          "points": ["Essen: Was ändern?", "Sport: Was und wann?", "Schlaf?", "Wer kauft ein und kocht?"],
+          "model": [
+            { "v": "f2", "t": "Du, ich habe gelesen, dass viele Leute im Januar eine gesunde Woche machen. Wollen wir das auch probieren?" },
+            { "v": "m2", "t": "Warum nicht? Ich esse sowieso zu viel Fast Food. Was schlägst du beim Essen vor?" },
+            { "v": "f2", "t": "Keine Fertiggerichte und keine Süßigkeiten. Und jeden Tag mindestens dreimal Obst oder Gemüse." },
+            { "v": "m2", "t": "Einverstanden. Aber ganz ohne Schokolade? Das schaffe ich nicht. Wie findest du die Idee, am Wochenende ein Stück zu erlauben?" },
+            { "v": "f2", "t": "Okay, das ist ein guter Kompromiss. Und Sport? Ich würde gern jeden Morgen joggen gehen." },
+            { "v": "m2", "t": "Jeden Morgen um sechs? Das finde ich zu viel, morgens bin ich total müde. Lass uns lieber dreimal pro Woche nach der Arbeit schwimmen gehen." },
+            { "v": "f2", "t": "Gut, dann Montag, Mittwoch und Freitag ins Hallenbad. Und was machen wir mit dem Schlaf?" },
+            { "v": "m2", "t": "Ich schlage vor, dass wir um elf das Handy ausschalten, um besser einzuschlafen." },
+            { "v": "f2", "t": "Sehr gut. Und wer kauft ein und kocht?" },
+            { "v": "m2", "t": "Ich kaufe am Samstag auf dem Markt ein. Kannst du am Sonntag für die ersten Tage vorkochen?" },
+            { "v": "f2", "t": "Klar, das mache ich gern. Dann müssen wir unter der Woche nicht jeden Abend kochen." },
+            { "v": "m2", "t": "Perfekt. Also: gesund essen, dreimal schwimmen, um elf Handy aus – und am Wochenende ein bisschen Schokolade!" }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Vegetarisch leben – eine gute Idee?",
+          "model": [
+            { "v": "m1", "t": "Ich möchte heute über das Thema „Vegetarisch leben – eine gute Idee?“ sprechen. Zuerst erzähle ich von meinen eigenen Erfahrungen. Dann berichte ich über die Situation in Spanien. Danach nenne ich Vor- und Nachteile und sage meine Meinung. Am Ende fasse ich alles kurz zusammen." },
+            { "v": "m1", "t": "Ich bin in Córdoba aufgewachsen, und bei uns gab es fast jeden Tag Fleisch oder Schinken. Seit ich in Zürich wohne, esse ich viel weniger Fleisch. Meine Partnerin und ich kochen unter der Woche meistens vegetarisch, um gesünder zu essen und Geld zu sparen. Nur am Wochenende gibt es manchmal ein Stück Fleisch." },
+            { "v": "m1", "t": "In Spanien ist Fleisch ein wichtiger Teil der Kultur. Denken Sie nur an den Schinken! Vegetarier waren früher selten, und in kleinen Dörfern ist es immer noch schwierig, im Restaurant ein vegetarisches Gericht zu finden. In großen Städten wie Madrid oder Barcelona gibt es aber heute viele vegetarische und vegane Restaurants." },
+            { "v": "m1", "t": "Eine vegetarische Ernährung hat viele Vorteile: Sie ist gut für das Herz, für die Tiere und für das Klima. Ein Nachteil ist, dass man gut planen muss, damit der Körper genug Eiweiß und Eisen bekommt. Außerdem ist es manchmal kompliziert, wenn man bei Freunden eingeladen ist. Meine Meinung: Man muss nicht ganz vegetarisch leben, aber weniger Fleisch ist für alle eine gute Idee." },
+            { "v": "m1", "t": "Zusammenfassend kann man sagen: Vegetarisch essen ist gesund und gut für die Umwelt, wenn man es richtig macht. Vielen Dank für Ihre Aufmerksamkeit. Haben Sie noch Fragen?" }
+          ],
+          "question": "Sie sagen, dass Sie am Wochenende manchmal Fleisch essen. Warum leben Sie nicht ganz vegetarisch?",
+          "answer": "Weil ich gutes Fleisch ab und zu einfach gern esse, zum Beispiel beim Grillen mit Freunden. Ich finde, es ist wichtiger, weniger und dafür besseres Fleisch zu kaufen. Deshalb kaufen wir es beim Metzger und nicht im Supermarkt."
+        },
+        {
+          "title": "Stress im Alltag – was hilft?",
+          "model": [
+            { "v": "f2", "t": "In meiner Präsentation geht es um das Thema „Stress im Alltag – was hilft?“. Zuerst spreche ich über meine eigenen Erfahrungen und dann über die Situation in Spanien. Danach zeige ich Vor- und Nachteile von verschiedenen Strategien und sage meine Meinung. Zum Schluss fasse ich alles kurz zusammen." },
+            { "v": "f2", "t": "Ich arbeite in einer Pharmafirma und organisiere klinische Studien. Manchmal habe ich sehr viele Termine und Fristen gleichzeitig. Früher habe ich dann abends noch E-Mails gelesen und schlecht geschlafen. Heute mache ich zweimal pro Woche Yoga, um Stress abzubauen, und um zehn Uhr schalte ich das Handy aus." },
+            { "v": "f2", "t": "In Spanien sprechen die Menschen heute offener über Stress als früher. Viele arbeiten lange, und die Arbeitstage enden oft spät. Gleichzeitig ist das soziale Leben sehr wichtig: Man trifft sich abends mit Freunden auf einer Terrasse, und das hilft vielen, sich zu entspannen." },
+            { "v": "f2", "t": "Es gibt verschiedene Strategien gegen Stress. Sport ist sehr gut für Körper und Kopf, aber man braucht Zeit dafür. Entspannungs-Apps sind praktisch, aber dann ist man schon wieder am Handy. Gespräche mit Freunden helfen auch sehr, damit man die Probleme nicht allein tragen muss. Ich finde, jeder muss selbst herausfinden, was für ihn funktioniert. Für mich ist Bewegung an der frischen Luft am wichtigsten." },
+            { "v": "f2", "t": "Das war meine Präsentation. Zusammengefasst: Stress gehört zum Leben, aber wir können viel dagegen tun. Vielen Dank fürs Zuhören! Haben Sie noch Fragen?" }
+          ],
+          "question": "Sie machen Yoga gegen Stress. Hilft Ihnen das wirklich, oder ist es manchmal auch ein Termin mehr?",
+          "answer": "Am Anfang war es wirklich ein Termin mehr, und ich bin oft zu spät gekommen. Aber heute freue ich mich auf die Stunden, weil ich danach viel ruhiger bin. Ich gehe am Mittwoch und am Samstag, damit es nicht zu stressig wird."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2208 @@
+{
+  "id": "b1-t09",
+  "level": "b1",
+  "topic": "t09",
+  "title": "Consumo y dinero",
+  "title_de": "Konsum und Geld",
+  "goals": [
+    "Hablar de ingresos, gastos, ahorro, deudas y formas de pago (efectivo, tarjeta, TWINT)",
+    "Comprar y reclamar en tiendas y en internet: ofertas, descuentos, envíos, devoluciones y garantía",
+    "Unir ideas con conectores dobles: sowohl … als auch, weder … noch, entweder … oder, nicht nur … sondern auch, zwar … aber",
+    "Expresar proporciones con je … desto (Je mehr ich verdiene, desto mehr gebe ich aus)",
+    "Opinar sobre el consumo, la compra de segunda mano y el dinero sin efectivo",
+    "Leer condiciones de devolución y comentarios de lectores como en Lesen Teil 4 y 5"
+  ],
+  "vocab": [
+    {
+      "de": "das Einkommen",
+      "pl": "die Einkommen",
+      "es": "los ingresos, la renta",
+      "cat": "Dinero",
+      "ex": "Mit einem Einkommen allein ist das Leben in Zürich teuer.",
+      "ex_es": "Con un solo sueldo la vida en Zúrich es cara."
+    },
+    {
+      "de": "die Ausgabe",
+      "pl": "die Ausgaben",
+      "es": "el gasto",
+      "cat": "Dinero",
+      "ex": "Unsere größte Ausgabe ist die Miete.",
+      "ex_es": "Nuestro mayor gasto es el alquiler."
+    },
+    {
+      "de": "die Einnahme",
+      "pl": "die Einnahmen",
+      "es": "el ingreso (entrada de dinero)",
+      "cat": "Dinero",
+      "ex": "Ich schreibe alle Einnahmen und Ausgaben in eine App.",
+      "ex_es": "Apunto todos los ingresos y gastos en una app."
+    },
+    {
+      "de": "ausgeben",
+      "es": "gastar (dinero)",
+      "cat": "Dinero",
+      "forms": "er gibt aus, gab aus, hat ausgegeben",
+      "ex": "Wie viel gibst du im Monat für Essen aus?",
+      "ex_es": "¿Cuánto gastas al mes en comida?"
+    },
+    {
+      "de": "sich (Dat.) etwas leisten",
+      "es": "permitirse algo",
+      "cat": "Dinero",
+      "forms": "er leistet sich, leistete sich, hat sich geleistet",
+      "ex": "Ein neues Auto können wir uns im Moment nicht leisten.",
+      "ex_es": "Un coche nuevo no nos lo podemos permitir ahora mismo."
+    },
+    {
+      "de": "verschwenden",
+      "es": "derrochar, malgastar",
+      "cat": "Dinero",
+      "forms": "er verschwendet, verschwendete, hat verschwendet",
+      "ex": "Ich will kein Geld für unnötige Dinge verschwenden.",
+      "ex_es": "No quiero derrochar dinero en cosas innecesarias."
+    },
+    {
+      "de": "das Bargeld",
+      "es": "el dinero en efectivo",
+      "cat": "Dinero",
+      "ex": "Hast du Bargeld dabei?",
+      "ex_es": "¿Llevas efectivo?"
+    },
+    {
+      "de": "die Münze",
+      "pl": "die Münzen",
+      "es": "la moneda (pieza)",
+      "cat": "Dinero",
+      "ex": "Für den Parkautomaten brauche ich Münzen.",
+      "ex_es": "Para el parquímetro necesito monedas."
+    },
+    {
+      "de": "der Geldschein",
+      "pl": "die Geldscheine",
+      "es": "el billete",
+      "cat": "Dinero",
+      "ex": "Der Automat nimmt keine Geldscheine.",
+      "ex_es": "La máquina no acepta billetes."
+    },
+    {
+      "de": "die Kreditkarte",
+      "pl": "die Kreditkarten",
+      "es": "la tarjeta de crédito",
+      "cat": "Dinero",
+      "ex": "Kann ich mit Kreditkarte bezahlen?",
+      "ex_es": "¿Puedo pagar con tarjeta de crédito?"
+    },
+    {
+      "de": "der Kredit",
+      "pl": "die Kredite",
+      "es": "el préstamo, el crédito",
+      "cat": "Dinero",
+      "ex": "Für die Wohnung haben sie einen Kredit aufgenommen.",
+      "ex_es": "Para el piso pidieron un préstamo."
+    },
+    {
+      "de": "die Schulden (Pl.)",
+      "es": "las deudas",
+      "cat": "Dinero",
+      "ex": "Viele junge Leute haben Schulden wegen ihres Handys.",
+      "ex_es": "Muchos jóvenes tienen deudas por su móvil."
+    },
+    {
+      "de": "die Zinsen (Pl.)",
+      "es": "los intereses",
+      "cat": "Dinero",
+      "ex": "Auf dem Sparkonto bekommt man kaum noch Zinsen.",
+      "ex_es": "En la cuenta de ahorro ya casi no te dan intereses."
+    },
+    {
+      "de": "der Betrag",
+      "pl": "die Beträge",
+      "es": "el importe, la cantidad",
+      "cat": "Dinero",
+      "ex": "Bitte überweisen Sie den Betrag bis Ende Monat.",
+      "ex_es": "Por favor, transfiera el importe antes de fin de mes."
+    },
+    {
+      "de": "die Rate",
+      "pl": "die Raten",
+      "es": "el plazo (de un pago)",
+      "cat": "Dinero",
+      "ex": "Ich bezahle den Laptop in zwölf Raten.",
+      "ex_es": "Pago el portátil en doce plazos."
+    },
+    {
+      "de": "die Steuer",
+      "pl": "die Steuern",
+      "es": "el impuesto",
+      "cat": "Dinero",
+      "ex": "In der Schweiz zahlt man die Steuern selbst, nicht automatisch vom Lohn.",
+      "ex_es": "En Suiza uno paga los impuestos por su cuenta, no automáticamente del sueldo."
+    },
+    {
+      "de": "die Versicherung",
+      "pl": "die Versicherungen",
+      "es": "el seguro",
+      "cat": "Dinero",
+      "ex": "Die Versicherung bezahlt den Schaden.",
+      "ex_es": "El seguro paga los daños."
+    },
+    {
+      "de": "der Kontoauszug",
+      "pl": "die Kontoauszüge",
+      "es": "el extracto bancario",
+      "cat": "Dinero",
+      "ex": "Auf dem Kontoauszug sehe ich alle Zahlungen.",
+      "ex_es": "En el extracto veo todos los pagos."
+    },
+    {
+      "de": "der Dauerauftrag",
+      "pl": "die Daueraufträge",
+      "es": "la orden de transferencia periódica",
+      "cat": "Dinero",
+      "ex": "Die Miete bezahle ich mit einem Dauerauftrag.",
+      "ex_es": "El alquiler lo pago con una transferencia periódica."
+    },
+    {
+      "de": "das Trinkgeld",
+      "pl": "die Trinkgelder",
+      "es": "la propina",
+      "cat": "Dinero",
+      "ex": "In der Schweiz ist das Trinkgeld im Preis inbegriffen.",
+      "ex_es": "En Suiza la propina está incluida en el precio."
+    },
+    {
+      "de": "das Taschengeld",
+      "es": "la paga (de los niños)",
+      "cat": "Dinero",
+      "ex": "Mit zehn Jahren bekam ich fünf Franken Taschengeld pro Woche.",
+      "ex_es": "Con diez años recibía cinco francos de paga a la semana."
+    },
+    {
+      "de": "knapp",
+      "es": "escaso, justo",
+      "cat": "Dinero",
+      "ex": "Am Ende des Monats ist das Geld oft knapp.",
+      "ex_es": "A final de mes el dinero suele ir justo."
+    },
+    {
+      "de": "die Währung",
+      "pl": "die Währungen",
+      "es": "la moneda (divisa)",
+      "cat": "Dinero",
+      "ex": "Die Währung der Schweiz ist der Franken.",
+      "ex_es": "La moneda de Suiza es el franco."
+    },
+    {
+      "de": "der Lohn",
+      "pl": "die Löhne",
+      "es": "el sueldo, el salario",
+      "cat": "Dinero",
+      "ex": "Der Lohn kommt immer am 25. des Monats.",
+      "ex_es": "El sueldo llega siempre el día 25 del mes."
+    },
+    {
+      "de": "der Verbraucher / die Verbraucherin",
+      "pl": "die Verbraucher / die Verbraucherinnen",
+      "es": "el consumidor / la consumidora",
+      "cat": "Consumo",
+      "ex": "Viele Verbraucher kaufen heute online.",
+      "ex_es": "Muchos consumidores compran hoy por internet."
+    },
+    {
+      "de": "der Konsum",
+      "es": "el consumo",
+      "cat": "Consumo",
+      "ex": "Unser Konsum ist schlecht für die Umwelt.",
+      "ex_es": "Nuestro consumo es malo para el medio ambiente."
+    },
+    {
+      "de": "das Sonderangebot",
+      "pl": "die Sonderangebote",
+      "es": "la oferta especial",
+      "cat": "Consumo",
+      "ex": "Der Kaffee ist diese Woche im Sonderangebot.",
+      "ex_es": "El café está de oferta esta semana."
+    },
+    {
+      "de": "der Rabatt",
+      "pl": "die Rabatte",
+      "es": "el descuento",
+      "cat": "Consumo",
+      "ex": "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.",
+      "ex_es": "Con la tarjeta de cliente tiene un diez por ciento de descuento."
+    },
+    {
+      "de": "das Schnäppchen",
+      "pl": "die Schnäppchen",
+      "es": "la ganga",
+      "cat": "Consumo",
+      "ex": "Die Jacke war ein echtes Schnäppchen.",
+      "ex_es": "La chaqueta fue una auténtica ganga."
+    },
+    {
+      "de": "die Quittung",
+      "pl": "die Quittungen",
+      "es": "el recibo, el tique",
+      "cat": "Consumo",
+      "ex": "Ohne Quittung können wir die Ware leider nicht umtauschen.",
+      "ex_es": "Sin tique, por desgracia, no podemos cambiar el artículo."
+    },
+    {
+      "de": "die Garantie",
+      "pl": "die Garantien",
+      "es": "la garantía",
+      "cat": "Consumo",
+      "ex": "Auf das Gerät haben Sie zwei Jahre Garantie.",
+      "ex_es": "El aparato tiene dos años de garantía."
+    },
+    {
+      "de": "die Lieferung",
+      "pl": "die Lieferungen",
+      "es": "la entrega, el envío",
+      "cat": "Consumo",
+      "ex": "Die Lieferung dauert drei bis fünf Werktage.",
+      "ex_es": "La entrega tarda de tres a cinco días laborables."
+    },
+    {
+      "de": "liefern",
+      "es": "entregar, suministrar",
+      "cat": "Consumo",
+      "forms": "er liefert, lieferte, hat geliefert",
+      "ex": "Das Sofa wird am Freitag geliefert.",
+      "ex_es": "El sofá se entrega el viernes."
+    },
+    {
+      "de": "die Versandkosten (Pl.)",
+      "es": "los gastos de envío",
+      "cat": "Consumo",
+      "ex": "Ab 50 Franken gibt es keine Versandkosten.",
+      "ex_es": "A partir de 50 francos no hay gastos de envío."
+    },
+    {
+      "de": "zurückschicken",
+      "es": "devolver (por correo)",
+      "cat": "Consumo",
+      "forms": "er schickt zurück, schickte zurück, hat zurückgeschickt",
+      "ex": "Die Schuhe sind zu klein, ich schicke sie zurück.",
+      "ex_es": "Los zapatos son pequeños, los devuelvo."
+    },
+    {
+      "de": "vergleichen",
+      "es": "comparar",
+      "cat": "Consumo",
+      "forms": "er vergleicht, verglich, hat verglichen",
+      "ex": "Vor dem Kauf vergleiche ich immer die Preise.",
+      "ex_es": "Antes de comprar siempre comparo precios."
+    },
+    {
+      "de": "die Qualität",
+      "pl": "die Qualitäten",
+      "es": "la calidad",
+      "cat": "Consumo",
+      "ex": "Die Qualität ist mir wichtiger als der Preis.",
+      "ex_es": "La calidad me importa más que el precio."
+    },
+    {
+      "de": "preiswert",
+      "es": "barato, a buen precio",
+      "cat": "Consumo",
+      "ex": "Im Ausverkauf findet man preiswerte Kleidung.",
+      "ex_es": "En las rebajas se encuentra ropa a buen precio."
+    },
+    {
+      "de": "sich lohnen",
+      "es": "merecer la pena, compensar",
+      "cat": "Consumo",
+      "forms": "es lohnt sich, lohnte sich, hat sich gelohnt",
+      "ex": "Es lohnt sich, die Preise zu vergleichen.",
+      "ex_es": "Merece la pena comparar precios."
+    },
+    {
+      "de": "kostenlos / gratis",
+      "es": "gratis",
+      "cat": "Consumo",
+      "ex": "Die Beratung ist kostenlos.",
+      "ex_es": "El asesoramiento es gratuito."
+    },
+    {
+      "de": "der Flohmarkt",
+      "pl": "die Flohmärkte",
+      "es": "el mercadillo (de segunda mano)",
+      "cat": "Consumo",
+      "ex": "Am Samstag ist Flohmarkt auf dem Bürkliplatz.",
+      "ex_es": "El sábado hay mercadillo en la Bürkliplatz."
+    },
+    {
+      "de": "nachhaltig",
+      "es": "sostenible",
+      "cat": "Consumo",
+      "ex": "Ich versuche, nachhaltiger einzukaufen.",
+      "ex_es": "Intento comprar de forma más sostenible."
+    },
+    {
+      "de": "die Marke",
+      "pl": "die Marken",
+      "es": "la marca",
+      "cat": "Consumo",
+      "ex": "Teure Marken sind nicht immer besser.",
+      "ex_es": "Las marcas caras no siempre son mejores."
+    },
+    {
+      "de": "das Abonnement / das Abo",
+      "pl": "die Abonnements / die Abos",
+      "es": "la suscripción, el abono",
+      "cat": "Consumo",
+      "ex": "Ich habe mein Streaming-Abo gekündigt.",
+      "ex_es": "He cancelado mi suscripción de streaming."
+    },
+    {
+      "de": "sowohl … als auch",
+      "es": "tanto … como",
+      "cat": "Conectores",
+      "ex": "Man kann sowohl bar als auch mit Karte bezahlen.",
+      "ex_es": "Se puede pagar tanto en efectivo como con tarjeta."
+    },
+    {
+      "de": "weder … noch",
+      "es": "ni … ni",
+      "cat": "Conectores",
+      "ex": "Ich habe weder Zeit noch Geld.",
+      "ex_es": "No tengo ni tiempo ni dinero."
+    },
+    {
+      "de": "entweder … oder",
+      "es": "o … o",
+      "cat": "Conectores",
+      "ex": "Entweder sparen wir jetzt, oder wir fahren nicht in den Urlaub.",
+      "ex_es": "O ahorramos ahora o no nos vamos de vacaciones."
+    },
+    {
+      "de": "nicht nur … sondern auch",
+      "es": "no solo … sino también",
+      "cat": "Conectores",
+      "ex": "Second-Hand ist nicht nur billig, sondern auch nachhaltig.",
+      "ex_es": "La segunda mano no solo es barata, sino también sostenible."
+    },
+    {
+      "de": "zwar … aber",
+      "es": "es verdad que … pero; si bien … pero",
+      "cat": "Conectores",
+      "ex": "Das Handy ist zwar teuer, aber es ist sehr gut.",
+      "ex_es": "Es verdad que el móvil es caro, pero es muy bueno."
+    },
+    {
+      "de": "je … desto / umso",
+      "es": "cuanto más … más",
+      "cat": "Conectores",
+      "ex": "Je mehr man verdient, desto mehr gibt man aus.",
+      "ex_es": "Cuanto más se gana, más se gasta."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Dinero y consumo",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "das Einkommen",
+          "los ingresos"
+        ],
+        [
+          "die Schulden",
+          "las deudas"
+        ],
+        [
+          "der Rabatt",
+          "el descuento"
+        ],
+        [
+          "die Quittung",
+          "el recibo"
+        ],
+        [
+          "das Schnäppchen",
+          "la ganga"
+        ],
+        [
+          "die Versandkosten",
+          "los gastos de envío"
+        ],
+        [
+          "das Trinkgeld",
+          "la propina"
+        ],
+        [
+          "sich etwas leisten",
+          "permitirse algo"
+        ],
+        [
+          "verschwenden",
+          "derrochar"
+        ],
+        [
+          "sich lohnen",
+          "merecer la pena"
+        ]
+      ],
+      "items": []
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Qué conector encaja?",
+      "instructions": "Elige el conector doble que da sentido a la frase.",
+      "items": [
+        {
+          "q": "Man kann ___ bar ___ mit Karte bezahlen. (las dos cosas son posibles)",
+          "options": [
+            "weder … noch",
+            "sowohl … als auch",
+            "je … desto"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Ich habe ___ Zeit ___ Geld für einen Urlaub. (no tengo ninguna de las dos)",
+          "options": [
+            "weder … noch",
+            "entweder … oder",
+            "nicht nur … sondern auch"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "___ wir kaufen jetzt ein Sofa, ___ wir sparen für den Urlaub. (solo una de las dos cosas)",
+          "options": [
+            "Sowohl … als auch",
+            "Zwar … aber",
+            "Entweder … oder"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Der Flohmarkt ist ___ billig, ___ auch nachhaltig.",
+          "options": [
+            "nicht nur … sondern",
+            "weder … noch",
+            "entweder … oder"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Die Jacke war ___ teuer, ___ die Qualität ist super.",
+          "options": [
+            "je … desto",
+            "zwar … aber",
+            "sowohl … als auch"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "___ länger man wartet, ___ billiger wird der Flug? Das stimmt leider nicht immer.",
+          "options": [
+            "Entweder … oder",
+            "Weder … noch",
+            "Je … desto"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "___ José ___ Andrea zahlen gern bar; beide benutzen lieber TWINT.",
+          "options": [
+            "Weder … noch",
+            "Sowohl … als auch",
+            "Nicht nur … sondern auch"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Das Abo ist ___ günstig, ___ ich benutze es fast nie.",
+          "options": [
+            "zwar … aber",
+            "entweder … oder",
+            "weder … noch"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Completa la pareja",
+      "instructions": "Escribe la segunda parte del conector (als auch, noch, oder, sondern auch, aber, desto/umso).",
+      "items": [
+        {
+          "text": "Im Supermarkt gibt es sowohl Bio-Produkte [[als auch]] billige Marken."
+        },
+        {
+          "text": "Ich habe weder eine Kreditkarte [[noch]] einen Kredit."
+        },
+        {
+          "text": "Entweder bezahlen Sie die Rechnung bis Freitag, [[oder]] Sie bekommen eine Mahnung."
+        },
+        {
+          "text": "Online-Shopping spart nicht nur Zeit, [[sondern auch]] Geld."
+        },
+        {
+          "text": "Der Laptop ist zwar alt, [[aber]] er funktioniert noch gut."
+        },
+        {
+          "text": "Je mehr Rabatt es gibt, [[desto/umso]] mehr kaufen die Leute."
+        },
+        {
+          "text": "Mein Bruder hat weder gespart [[noch]] eine Versicherung abgeschlossen."
+        },
+        {
+          "text": "Andrea vergleicht sowohl die Preise [[als auch]] die Qualität."
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "El orden con je … desto",
+      "instructions": "Elige la frase bien construida. Recuerda: je + verbo al final; desto + comparativo + verbo + sujeto.",
+      "items": [
+        {
+          "q": "Cuanto más trabajo, más gano.",
+          "options": [
+            "Je mehr ich arbeite, desto mehr ich verdiene.",
+            "Je mehr ich arbeite, desto mehr verdiene ich.",
+            "Je mehr arbeite ich, desto mehr verdiene ich."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Cuanto más barato es algo, más compramos.",
+          "options": [
+            "Je billiger etwas ist, desto mehr kaufen wir.",
+            "Je billiger ist etwas, desto mehr kaufen wir.",
+            "Je billig etwas ist, desto viel kaufen wir."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Cuanto antes reserves, más barato es el vuelo.",
+          "options": [
+            "Je früher du buchst, desto der Flug ist billiger.",
+            "Je früher buchst du, desto billiger ist der Flug.",
+            "Je früher du buchst, desto billiger ist der Flug."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Cuanto mejor es la calidad, más tiempo dura la ropa.",
+          "options": [
+            "Je gut die Qualität ist, desto lang hält die Kleidung.",
+            "Je besser die Qualität ist, desto länger hält die Kleidung.",
+            "Je besser die Qualität ist, desto länger die Kleidung hält."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Cuanto más tiempo paso en internet, más gasto.",
+          "options": [
+            "Je länger ich im Internet bin, umso mehr gebe ich aus.",
+            "Je länger bin ich im Internet, umso mehr ich gebe aus.",
+            "Je lang ich im Internet bin, umso viel gebe ich aus."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Cuantos más clientes hay, más larga es la cola.",
+          "options": [
+            "Je mehr Kunden kommen, desto die Schlange ist länger.",
+            "Je mehr Kunden kommen, desto länger ist die Schlange.",
+            "Je viele Kunden kommen, desto lang ist die Schlange."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "words": [
+            "Ich",
+            "habe",
+            "weder",
+            "Bargeld",
+            "noch",
+            "eine",
+            "Karte",
+            "dabei",
+            "."
+          ],
+          "answers": [
+            "Ich habe weder Bargeld noch eine Karte dabei."
+          ]
+        },
+        {
+          "words": [
+            "Wir",
+            "kaufen",
+            "sowohl",
+            "Obst",
+            "als",
+            "auch",
+            "Gemüse",
+            "auf",
+            "dem",
+            "Markt",
+            "."
+          ],
+          "answers": [
+            "Wir kaufen sowohl Obst als auch Gemüse auf dem Markt.",
+            "Wir kaufen auf dem Markt sowohl Obst als auch Gemüse."
+          ]
+        },
+        {
+          "words": [
+            "Je",
+            "mehr",
+            "ich",
+            "spare",
+            ",",
+            "desto",
+            "ruhiger",
+            "schlafe",
+            "ich",
+            "."
+          ],
+          "answers": [
+            "Je mehr ich spare, desto ruhiger schlafe ich."
+          ]
+        },
+        {
+          "words": [
+            "Das",
+            "Kleid",
+            "ist",
+            "zwar",
+            "schön",
+            ",",
+            "aber",
+            "es",
+            "ist",
+            "zu",
+            "teuer",
+            "."
+          ],
+          "answers": [
+            "Das Kleid ist zwar schön, aber es ist zu teuer."
+          ]
+        },
+        {
+          "words": [
+            "Entweder",
+            "zahlen",
+            "wir",
+            "bar",
+            ",",
+            "oder",
+            "wir",
+            "zahlen",
+            "mit",
+            "TWINT",
+            "."
+          ],
+          "answers": [
+            "Entweder zahlen wir bar, oder wir zahlen mit TWINT.",
+            "Entweder zahlen wir mit TWINT, oder wir zahlen bar."
+          ]
+        },
+        {
+          "words": [
+            "Der",
+            "Kurs",
+            "ist",
+            "nicht",
+            "nur",
+            "gratis",
+            ",",
+            "sondern",
+            "auch",
+            "sehr",
+            "gut",
+            "."
+          ],
+          "answers": [
+            "Der Kurs ist nicht nur gratis, sondern auch sehr gut."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "write",
+      "title": "Une las dos frases",
+      "instructions": "Une las frases con el conector indicado. Escribe una sola frase.",
+      "items": [
+        {
+          "prompt": "Ich habe keine Zeit. Ich habe kein Geld. (weder … noch)",
+          "answers": [
+            "Ich habe weder Zeit noch Geld."
+          ]
+        },
+        {
+          "prompt": "Man kann im Laden bestellen. Man kann online bestellen. (sowohl … als auch)",
+          "answers": [
+            "Man kann sowohl im Laden als auch online bestellen.",
+            "Man kann sowohl online als auch im Laden bestellen."
+          ]
+        },
+        {
+          "prompt": "Die Wohnung ist schön. Die Miete ist sehr hoch. (zwar … aber)",
+          "answers": [
+            "Die Wohnung ist zwar schön, aber die Miete ist sehr hoch."
+          ]
+        },
+        {
+          "prompt": "Second-Hand-Kleidung ist billig. Sie ist auch nachhaltig. (nicht nur … sondern auch)",
+          "answers": [
+            "Second-Hand-Kleidung ist nicht nur billig, sondern auch nachhaltig."
+          ]
+        },
+        {
+          "prompt": "Man verdient viel. Man gibt viel aus. (je … desto)",
+          "answers": [
+            "Je mehr man verdient, desto mehr gibt man aus.",
+            "Je mehr man verdient, umso mehr gibt man aus."
+          ]
+        },
+        {
+          "prompt": "Du bezahlst jetzt. Du bezahlst in drei Raten. (entweder … oder)",
+          "answers": [
+            "Entweder bezahlst du jetzt, oder du bezahlst in drei Raten.",
+            "Entweder du bezahlst jetzt, oder du bezahlst in drei Raten.",
+            "Du bezahlst entweder jetzt oder in drei Raten.",
+            "Entweder bezahlst du jetzt oder in drei Raten.",
+            "Du bezahlst entweder jetzt, oder du bezahlst in drei Raten."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "gap",
+      "title": "je … desto con comparativos",
+      "instructions": "Escribe el comparativo del adjetivo entre paréntesis.",
+      "items": [
+        {
+          "text": "Je [[früher]] man bucht, desto billiger ist das Hotel. (früh)"
+        },
+        {
+          "text": "Je teurer die Marke ist, desto [[besser]] ist die Qualität? Nicht immer! (gut)"
+        },
+        {
+          "text": "Je [[mehr]] Werbung ich sehe, desto mehr will ich kaufen. (viel)"
+        },
+        {
+          "text": "Je [[länger]] die Garantie ist, desto sicherer fühle ich mich. (lang)"
+        },
+        {
+          "text": "Je [[älter]] die Kinder sind, desto mehr Taschengeld bekommen sie. (alt)"
+        },
+        {
+          "text": "Je weniger ich ausgebe, desto [[glücklicher]] ist mein Konto. (glücklich)"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen",
+      "title": "Escucha: compras y dinero",
+      "instructions": "Escucha y elige la respuesta correcta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Zahlen Sie bar oder mit Karte?"
+            },
+            {
+              "v": "m1",
+              "t": "Weder noch, ich zahle mit TWINT, wenn das geht."
+            }
+          ],
+          "q": "¿Cómo quiere pagar el cliente?",
+          "options": [
+            "En efectivo",
+            "Con tarjeta",
+            "Con el móvil"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Die Schuhe sind zwar bequem, aber die Farbe gefällt mir nicht. Ich schicke sie zurück."
+            }
+          ],
+          "q": "¿Por qué devuelve los zapatos?",
+          "options": [
+            "Por el color",
+            "Porque no son cómodos",
+            "Porque son caros"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Bei uns bekommen Sie sowohl zehn Prozent Rabatt als auch kostenlose Lieferung, wenn Sie heute bestellen."
+            }
+          ],
+          "q": "¿Qué consigues si pides hoy?",
+          "options": [
+            "Solo el envío gratis",
+            "Descuento y envío gratis",
+            "Solo un descuento"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Je mehr ich verdiene, desto mehr gebe ich aus. Am Ende des Monats ist das Geld immer knapp."
+            }
+          ],
+          "q": "¿Qué le pasa a la mujer?",
+          "options": [
+            "Ahorra mucho",
+            "Gana poco",
+            "Gasta más cuando gana más"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Andrea, entweder kaufen wir jetzt das Sofa, oder wir fahren im Sommer nach Almería. Beides geht nicht."
+            },
+            {
+              "v": "f1",
+              "t": "Dann Almería. Das Sofa kann warten."
+            }
+          ],
+          "q": "¿Qué deciden?",
+          "options": [
+            "Comprar el sofá",
+            "Hacer las dos cosas",
+            "Viajar a Almería"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Der Flohmarkt ist nicht nur am Samstag, sondern auch am Sonntag geöffnet, jeweils von acht bis sechzehn Uhr."
+            }
+          ],
+          "q": "¿Cuándo abre el mercadillo?",
+          "options": [
+            "Solo el sábado",
+            "Sábado y domingo",
+            "Solo el domingo"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Ich habe weder Zeit noch Geld."
+            }
+          ],
+          "answers": [
+            "Ich habe weder Zeit noch Geld."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Die Lieferung ist zwar kostenlos, aber sie dauert lange."
+            }
+          ],
+          "answers": [
+            "Die Lieferung ist zwar kostenlos, aber sie dauert lange."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Je früher man bucht, desto billiger ist es."
+            }
+          ],
+          "answers": [
+            "Je früher man bucht, desto billiger ist es."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Wir vergleichen sowohl die Preise als auch die Qualität."
+            }
+          ],
+          "answers": [
+            "Wir vergleichen sowohl die Preise als auch die Qualität."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Ohne Quittung können Sie die Ware nicht umtauschen."
+            }
+          ],
+          "answers": [
+            "Ohne Quittung können Sie die Ware nicht umtauschen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "title": "¿Qué significa?",
+      "instructions": "Elige el significado correcto de la frase alemana.",
+      "items": [
+        {
+          "q": "Lukas hat weder ein Auto noch ein Fahrrad.",
+          "options": [
+            "Lukas tiene coche, pero no bici.",
+            "Lukas no tiene ni coche ni bici.",
+            "Lukas tiene coche y bici."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Der Laden ist zwar klein, aber er hat alles.",
+          "options": [
+            "La tienda es pequeña y por eso no tiene de todo.",
+            "La tienda es grande y lo tiene todo.",
+            "La tienda es pequeña, pero lo tiene todo."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Entweder du bezahlst, oder ich bezahle.",
+          "options": [
+            "Pagamos los dos.",
+            "Paga uno de los dos.",
+            "No paga nadie."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Sowohl der Preis als auch die Lieferung waren gut.",
+          "options": [
+            "El precio y la entrega estuvieron bien.",
+            "Solo el precio estuvo bien.",
+            "Ni el precio ni la entrega estuvieron bien."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Je mehr Rabatt, desto weniger Qualität.",
+          "options": [
+            "Con más descuento, más calidad.",
+            "El descuento no tiene nada que ver con la calidad.",
+            "Con más descuento, menos calidad."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Die App ist nicht nur praktisch, sondern auch kostenlos.",
+          "options": [
+            "La app es práctica y además gratis.",
+            "La app es práctica, pero cuesta dinero.",
+            "La app no es práctica, pero es gratis."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán con el conector doble.",
+      "items": [
+        {
+          "prompt": "No tengo ni tarjeta de crédito ni deudas.",
+          "answers": [
+            "Ich habe weder eine Kreditkarte noch Schulden.",
+            "Ich habe weder Kreditkarte noch Schulden."
+          ]
+        },
+        {
+          "prompt": "Andrea compra tanto en la tienda como por internet.",
+          "answers": [
+            "Andrea kauft sowohl im Geschäft als auch online ein.",
+            "Andrea kauft sowohl im Laden als auch online ein.",
+            "Andrea kauft sowohl im Geschäft als auch im Internet ein.",
+            "Andrea kauft sowohl im Laden als auch im Internet ein.",
+            "Andrea kauft sowohl im Geschäft als auch online.",
+            "Andrea kauft sowohl im Laden als auch online."
+          ]
+        },
+        {
+          "prompt": "Cuanto más se gana, más se gasta.",
+          "answers": [
+            "Je mehr man verdient, desto mehr gibt man aus.",
+            "Je mehr man verdient, umso mehr gibt man aus."
+          ]
+        },
+        {
+          "prompt": "El móvil es caro, es verdad, pero es muy bueno. (zwar … aber)",
+          "answers": [
+            "Das Handy ist zwar teuer, aber es ist sehr gut.",
+            "Das Handy ist zwar teuer, aber sehr gut."
+          ]
+        },
+        {
+          "prompt": "La segunda mano no solo es barata, sino también sostenible.",
+          "answers": [
+            "Second-Hand ist nicht nur billig, sondern auch nachhaltig.",
+            "Second-Hand ist nicht nur preiswert, sondern auch nachhaltig.",
+            "Secondhand ist nicht nur billig, sondern auch nachhaltig.",
+            "Secondhand ist nicht nur preiswert, sondern auch nachhaltig."
+          ]
+        },
+        {
+          "prompt": "O pagamos ahora o pagamos a plazos.",
+          "answers": [
+            "Entweder bezahlen wir jetzt, oder wir bezahlen in Raten.",
+            "Entweder zahlen wir jetzt, oder wir zahlen in Raten.",
+            "Wir bezahlen entweder jetzt oder in Raten.",
+            "Wir zahlen entweder jetzt oder in Raten.",
+            "Entweder wir bezahlen jetzt, oder wir bezahlen in Raten.",
+            "Entweder wir zahlen jetzt, oder wir zahlen in Raten."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Mein Jahr ohne neue Kleidung",
+          "text": "Hallo zusammen,\n\nvor genau einem Jahr habe ich hier im Blog ein Experiment angekündigt: zwölf Monate lang wollte ich keine neue Kleidung kaufen. Viele von euch haben damals geschrieben, dass ich das nie schaffe. Heute kann ich sagen: Es hat funktioniert – na ja, fast.\n\nAm Anfang war es schwieriger, als ich dachte. Ich arbeite in der Basler Innenstadt und gehe jeden Mittag an drei Kleidergeschäften vorbei. Früher bin ich oft einfach hineingegangen, weil ich mich nach einem stressigen Vormittag belohnen wollte. In den ersten Wochen habe ich deshalb einen anderen Weg zur Kantine genommen. Das klingt komisch, aber es hat geholfen.\n\nWas habe ich stattdessen gemacht? Ich habe sowohl Flohmärkte als auch Tauschpartys besucht. Bei einer Tauschparty bringt jeder Kleidung mit, die er nicht mehr trägt, und nimmt etwas anderes mit. Das ist nicht nur gratis, sondern macht auch richtig Spaß. Außerdem habe ich gelernt, kleine Löcher selbst zu reparieren. Meine Großmutter hat mir am Telefon erklärt, wie das geht.\n\nEinmal habe ich die Regel gebrochen: Im Februar ist mein Wintermantel kaputtgegangen, und auf dem Flohmarkt gab es keinen in meiner Größe. Ich habe dann einen neuen gekauft, aber einen von guter Qualität, der viele Jahre halten soll.\n\nUnd das Geld? Ich habe ungefähr 1800 Franken gespart. Die Hälfte davon habe ich für einen Kochkurs ausgegeben, den Rest habe ich auf mein Sparkonto gelegt.\n\nMacht ihr mit? Im Januar startet die nächste Runde!\n\nEure Svenja",
+          "statements": [
+            {
+              "s": "Svenja hat in diesem Jahr überhaupt keine neue Kleidung gekauft.",
+              "answer": false
+            },
+            {
+              "s": "Am Anfang ist Svenja einen anderen Weg gegangen, um nicht an den Geschäften vorbeizugehen.",
+              "answer": true
+            },
+            {
+              "s": "Bei einer Tauschparty muss man für die Kleidung bezahlen.",
+              "answer": false
+            },
+            {
+              "s": "Svenjas Großmutter hat ihr erklärt, wie man Kleidung repariert.",
+              "answer": true
+            },
+            {
+              "s": "Den neuen Mantel hat Svenja auf dem Flohmarkt gefunden.",
+              "answer": false
+            },
+            {
+              "s": "Svenja hat einen Teil des gesparten Geldes für einen Kurs benutzt.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "title": "E-Mail von Matteo",
+          "text": "Liebe Carla,\n\nentschuldige, dass ich mich so lange nicht gemeldet habe. Die letzten Wochen waren ziemlich chaotisch, und ich muss dir erzählen, warum.\n\nDu weißt ja, dass meine kleine Schwester Giulia seit Herbst in Luzern studiert. Sie wohnt in einer WG und arbeitet nebenbei zehn Stunden pro Woche in einem Café. Eigentlich sollte das Geld reichen. Vor einem Monat hat sie mich aber angerufen und geweint: Sie hatte fast 3000 Franken Schulden! Ich war total überrascht, denn sie hat nie teure Sachen gehabt.\n\nDas Problem waren viele kleine Beträge. Sie hat online oft mit „Jetzt kaufen, später bezahlen“ eingekauft – Kleidung, Konzertkarten, ein neues Handy in Raten. Jede einzelne Rechnung war nicht so hoch, aber zusammen war es zu viel. Dann kamen die ersten Mahnungen, und mit den Mahngebühren wurde alles noch teurer.\n\nZuerst wollte ich ihr das Geld einfach leihen. Mein Freund Reto, der bei einer Bank arbeitet, hat mir aber geraten, mit ihr zu einer Schuldenberatung zu gehen. Die Beratung war kostenlos und wirklich gut. Die Beraterin hat mit Giulia einen Plan gemacht: Jetzt bezahlt sie jeden Monat eine feste Rate und schreibt alle Ausgaben in eine App. Online-Shopping auf Rechnung ist für sie erst mal tabu.\n\nIch finde, sie hat viel gelernt. Seit zwei Wochen kocht sie sogar selbst, statt jeden Tag in der Mensa zu essen.\n\nUnd wie geht es dir? Kommst du im Dezember nach Zürich? Dann lade ich dich zum Fondue ein!\n\nLiebe Grüße\nMatteo",
+          "statements": [
+            {
+              "s": "Giulia arbeitet neben dem Studium.",
+              "answer": true
+            },
+            {
+              "s": "Giulia hatte Schulden, weil sie ein sehr teures Auto gekauft hat.",
+              "answer": false
+            },
+            {
+              "s": "Wegen der Mahnungen musste Giulia noch mehr bezahlen.",
+              "answer": true
+            },
+            {
+              "s": "Matteo hat Giulia am Ende das ganze Geld geliehen.",
+              "answer": false
+            },
+            {
+              "s": "Für die Schuldenberatung musste Giulia nichts bezahlen.",
+              "answer": true
+            },
+            {
+              "s": "Giulia isst jetzt jeden Tag in der Mensa.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Zahlen mit dem Handy: Verschwindet das Bargeld?",
+          "text": "Zürich – Ein Kaffee am Bahnhof, ein Ticket für das Tram, ein Glas Honig am Bauernmarkt: Immer mehr Menschen in der Schweiz bezahlen solche kleinen Beträge mit dem Smartphone. Laut einer Studie der Schweizerischen Nationalbank wurde 2017 noch bei sieben von zehn Einkäufen bar bezahlt, heute ist es nur noch ungefähr jeder dritte Einkauf. Besonders beliebt ist die Bezahl-App TWINT, die inzwischen von über sechs Millionen Menschen benutzt wird.\n\nFür viele Geschäfte ist das eine gute Nachricht. „Wir müssen abends weniger Geld zählen und nicht mehr so oft zur Bank fahren“, sagt Beat Hofstetter, der in Winterthur eine Bäckerei führt. Allerdings kostet jede Zahlung mit Karte oder App eine kleine Gebühr. „Bei einem Gipfeli für 1.80 Franken lohnt sich das für uns eigentlich nicht“, erklärt er.\n\nKritik kommt auch von Verbraucherschützern. Sie warnen, dass ältere Menschen und Personen ohne Smartphone benachteiligt werden, wenn Läden kein Bargeld mehr annehmen. Außerdem verliere man ohne Münzen und Scheine schneller den Überblick über die eigenen Ausgaben. „Wer bar bezahlt, sieht, wie das Portemonnaie leer wird. Beim Handy merkt man das viel weniger“, sagt die Budgetberaterin Ursula Kägi.\n\nDass das Bargeld ganz verschwindet, glauben Fachleute aber nicht. Die Nationalbank will weiterhin Münzen und Noten herausgeben, und eine Volksinitiative fordert sogar, das Bargeld in der Verfassung zu schützen. Die Schweizerinnen und Schweizer werden also wohl auch in Zukunft sowohl mit dem Handy als auch bar bezahlen können.",
+          "questions": [
+            {
+              "q": "In diesem Text geht es darum, …",
+              "options": [
+                "dass man in der Schweiz bald kein Bargeld mehr benutzen darf.",
+                "dass in der Schweiz immer weniger bar bezahlt wird.",
+                "dass TWINT in der Schweiz zu teuer geworden ist."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Der Bäcker Beat Hofstetter …",
+              "options": [
+                "findet Kartenzahlungen bei kleinen Beträgen nicht günstig.",
+                "nimmt in seiner Bäckerei kein Bargeld mehr an.",
+                "muss wegen der Kartenzahlungen öfter zur Bank fahren."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Ursula Kägi meint, dass man mit Bargeld …",
+              "options": [
+                "mehr Gebühren bezahlt.",
+                "leichter Geld verliert.",
+                "seine Ausgaben besser kontrollieren kann."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Reparieren statt wegwerfen",
+          "text": "Graz – Es ist Samstagvormittag im Stadtteilzentrum Lend, und vor der Tür warten schon zwanzig Menschen. Eine Frau hat eine Nähmaschine dabei, ein älterer Herr einen Toaster, ein Mädchen trägt einen Teddybären, dem ein Arm fehlt. Sie alle wollen ins Repair-Café, das hier einmal im Monat stattfindet.\n\nDie Idee kommt aus den Niederlanden: Freiwillige Helferinnen und Helfer reparieren zusammen mit den Besuchern kaputte Dinge. Die Reparatur selbst ist gratis, nur für Ersatzteile muss man bezahlen. Wer möchte, kann etwas in eine Spendenbox legen. „Uns ist wichtig, dass die Leute nicht nur zuschauen, sondern selbst mitmachen“, sagt Organisatorin Lisa Pammer. „Dann lernen sie, dass man vieles selbst reparieren kann.“\n\nDie Erfolgsquote ist hoch: Ungefähr sechzig Prozent der Geräte funktionieren nach dem Besuch wieder. Bei manchen modernen Geräten ist es aber schwierig. „Viele Handys und Laptops sind so gebaut, dass man sie zwar öffnen kann, aber man bekommt keine Ersatzteile“, kritisiert Elektriker Josef Gruber, der seit vier Jahren ehrenamtlich mitarbeitet.\n\nÖsterreich will das Reparieren deshalb attraktiver machen. Mit dem sogenannten Reparaturbonus übernimmt der Staat die Hälfte der Kosten, wenn man ein Elektrogerät in einem Fachbetrieb reparieren lässt, bis zu 200 Euro. Seit dem Start wurden schon über eine Million Geräte so gerettet. Je mehr Menschen das Angebot nutzen, desto weniger Elektroschrott entsteht – davon sind die Organisatoren in Graz überzeugt.",
+          "questions": [
+            {
+              "q": "Im Repair-Café in Graz …",
+              "options": [
+                "reparieren Fachleute die Geräte, während die Besucher warten.",
+                "bezahlt man nur für Teile, die man neu braucht.",
+                "muss jeder Besucher eine Spende geben."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Josef Gruber kritisiert, dass …",
+              "options": [
+                "es für viele moderne Geräte keine Ersatzteile gibt.",
+                "zu wenige Leute ins Repair-Café kommen.",
+                "man Handys und Laptops nicht öffnen kann."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Der Reparaturbonus in Österreich …",
+              "options": [
+                "bezahlt die ganze Reparatur in einem Fachbetrieb.",
+                "gilt nur für Reparaturen im Repair-Café.",
+                "bezahlt einen Teil der Reparaturkosten."
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Budgetberatung der Caritas Zürich: Wir helfen Ihnen kostenlos, einen Haushaltsplan zu machen. Termine nach Vereinbarung, auch abends."
+            },
+            {
+              "key": "b",
+              "text": "Kinderflohmarkt in der Turnhalle Oerlikon: Spielsachen, Bücher und Kinderkleidung. Jeden ersten Sonntag im Monat, 10–15 Uhr. Standplatz für Kinder gratis."
+            },
+            {
+              "key": "c",
+              "text": "Elektro Brunner, Winterthur: Reparatur von Waschmaschinen, Kühlschränken und Geschirrspülern aller Marken. Wir kommen innerhalb von 48 Stunden zu Ihnen nach Hause."
+            },
+            {
+              "key": "d",
+              "text": "Second-Hand-Boutique „Zweite Liebe“: Markenkleidung für Damen in Top-Qualität zu kleinen Preisen. Wir kaufen auch Ihre Kleidung an – bringen Sie sie vorbei!"
+            },
+            {
+              "key": "e",
+              "text": "Volkshochschule: Abendkurs „Steuererklärung leicht gemacht“ – in drei Abenden lernen Sie, Ihre Steuererklärung selbst auszufüllen. Kursgebühr: 120 Franken."
+            },
+            {
+              "key": "f",
+              "text": "Velo-Börse am Helvetiaplatz: Verkaufen oder kaufen Sie gebrauchte Fahrräder. Samstag, 12. April, 9–14 Uhr. Annahme der Velos ab 8 Uhr."
+            },
+            {
+              "key": "g",
+              "text": "Bank Linth: Ihr erstes Konto – für Jugendliche bis 20 Jahre ohne Kontoführungsgebühren, inklusive Debitkarte und App."
+            },
+            {
+              "key": "h",
+              "text": "Repair-Café Altstetten: Bringen Sie kaputte Lampen, Kleider, Spielzeug oder Kaffeemaschinen – wir reparieren gemeinsam. Gratis, jeden letzten Samstag im Monat."
+            },
+            {
+              "key": "i",
+              "text": "Möbelbörse Brockenhaus: Wir holen gut erhaltene Möbel bei Ihnen gratis ab und verkaufen sie günstig weiter. Anruf genügt: 044 123 45 67."
+            },
+            {
+              "key": "j",
+              "text": "Steuerbüro Keller: Wir machen Ihre Steuererklärung schnell und zuverlässig. Ab 150 Franken, auch auf Englisch und Spanisch."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Daniela zieht ins Ausland und möchte ihr altes Sofa und zwei Schränke loswerden. Sie hat kein Auto.",
+              "answer": "i"
+            },
+            {
+              "situation": "Patrick hat seit Monaten Probleme mit Rechnungen und weiß nicht, wie er sein Geld besser einteilen kann. Viel bezahlen kann er nicht.",
+              "answer": "a"
+            },
+            {
+              "situation": "Die Kaffeemaschine von Selin funktioniert nicht mehr. Sie möchte lernen, wie man sie selbst repariert.",
+              "answer": "h"
+            },
+            {
+              "situation": "Herr Dahinden hat keine Zeit und keine Lust, seine Steuererklärung selbst zu machen.",
+              "answer": "j"
+            },
+            {
+              "situation": "Luca ist 17 und hat seinen ersten Ferienjob. Er braucht ein Konto für seinen Lohn.",
+              "answer": "g"
+            },
+            {
+              "situation": "Frau Imhof hat viele schöne Kleider, die sie nicht mehr trägt, und möchte damit etwas Geld verdienen.",
+              "answer": "d"
+            },
+            {
+              "situation": "Familie Nussbaum möchte ihr altes Auto verkaufen und sucht dafür einen Käufer.",
+              "answer": "x"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Leben ohne Bargeld?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über das Bezahlen ohne Bargeld.",
+          "question": "Ist die Person für ein Leben ohne Bargeld?",
+          "comments": [
+            {
+              "name": "Lukas, 34, Graz",
+              "text": "Ich habe seit zwei Jahren kein Portemonnaie mehr. Mein Handy reicht völlig: Im Supermarkt, im Bus, sogar auf dem Bauernmarkt kann ich damit zahlen. Und am Ende des Monats sehe ich in der App genau, wofür ich mein Geld ausgegeben habe. Mit Bargeld hatte ich nie so einen guten Überblick. Von mir aus können die Münzen morgen verschwinden.",
+              "answer": true
+            },
+            {
+              "name": "Brigitte, 67, Bern",
+              "text": "Meine Enkel lachen mich aus, weil ich immer bar bezahle. Aber ich frage mich: Was passiert, wenn der Strom ausfällt oder das Internet nicht funktioniert? Dann kann man weder einkaufen noch tanken. Außerdem möchte ich nicht, dass meine Bank weiß, wo ich jeden Kaffee trinke. Bargeld ist für mich ein Stück Freiheit, und das soll so bleiben.",
+              "answer": false
+            },
+            {
+              "name": "Deniz, 29, Köln",
+              "text": "Ich arbeite als Kellner, und ehrlich gesagt war ich am Anfang skeptisch, weil ich Angst um mein Trinkgeld hatte. Inzwischen geben die Gäste mit Karte aber sogar mehr Trinkgeld, weil man es einfach mit einem Klick dazurechnen kann. Und ich muss abends keine schwere Kasse mehr zählen. Meinetwegen könnte unser Restaurant ganz auf Bargeld verzichten.",
+              "answer": true
+            },
+            {
+              "name": "Franziska, 41, Zürich",
+              "text": "Zwar bezahle ich im Alltag fast alles mit Karte, das ist praktisch. Aber meine Kinder bekommen ihr Taschengeld bar, denn nur so lernen sie, was Geld wert ist. Geld, das man nicht anfassen kann, ist für Kinder einfach zu abstrakt. Wenn die Münzen weg sind, können sie nicht mehr selbst sparen und zählen. Deshalb bin ich klar dagegen, das Bargeld abzuschaffen.",
+              "answer": false
+            },
+            {
+              "name": "Raphael, 23, Wien",
+              "text": "Ich verstehe die Diskussion nicht. In Schweden zahlt fast niemand mehr bar, und dort funktioniert alles. Bargeld ist schmutzig, unpraktisch und kostet den Staat viel Geld, weil Münzen und Scheine produziert und transportiert werden müssen. Ältere Menschen kann man mit einfachen Karten unterstützen. Für mich ist die Zukunft digital, je schneller, desto besser.",
+              "answer": true
+            },
+            {
+              "name": "Sabine, 52, Freiburg",
+              "text": "Einerseits finde ich digitale Zahlungen bequem, vor allem auf Reisen. Andererseits habe ich gesehen, wie schnell man den Überblick verliert. Meine Tochter hatte mit 19 Schulden, weil sie alles mit dem Handy bezahlt hat, ohne nachzudenken. Seitdem nehme ich wieder Bargeld mit, wenn ich einkaufen gehe. Ohne Münzen und Scheine möchte ich nicht leben.",
+              "answer": false
+            },
+            {
+              "name": "Tobias, 38, Luzern",
+              "text": "Ich besitze einen kleinen Kiosk. Die Gebühren für Kartenzahlungen waren für mich lange ein Ärgernis. Seit ich aber kein Bargeld mehr annehme, spare ich viel Zeit: Ich muss nicht mehr zur Bank, und es wurde auch nicht mehr eingebrochen. Unterm Strich lohnt es sich. Ich hoffe, dass bald alle Geschäfte so arbeiten.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Rückgabe und Umtausch – Bedingungen von ModeNetz.ch",
+          "text": "1. Rückgaberecht\nSie können bestellte Artikel innerhalb von 30 Tagen nach Erhalt der Lieferung ohne Angabe von Gründen zurückschicken. Die Ware muss ungetragen und ungewaschen sein, die Etiketten dürfen nicht entfernt werden. Unterwäsche, Badebekleidung und reduzierte Artikel aus dem Sale sind vom Umtausch ausgeschlossen.\n\n2. So funktioniert die Rücksendung\nMelden Sie die Rücksendung zuerst in Ihrem Kundenkonto unter „Meine Bestellungen“ an. Danach erhalten Sie per E-Mail ein Rücksendeetikett. Kleben Sie es auf das Paket und geben Sie es bei einer Poststelle oder einer unserer Partnerfilialen ab. Pakete ohne Etikett können wir leider nicht annehmen.\n\n3. Kosten\nDie Rücksendung ist für Kundinnen und Kunden mit einem Konto bei ModeNetz.ch kostenlos. Bei Bestellungen ohne Kundenkonto berechnen wir eine Gebühr von 7.90 Franken, die vom Rückzahlungsbetrag abgezogen wird.\n\n4. Rückzahlung\nSobald wir Ihre Rücksendung geprüft haben, erhalten Sie Ihr Geld innerhalb von 14 Tagen zurück. Die Rückzahlung erfolgt mit derselben Zahlungsart, die Sie bei der Bestellung gewählt haben. Haben Sie auf Rechnung bestellt und noch nicht bezahlt, wird die Rechnung entsprechend angepasst.\n\n5. Umtausch\nMöchten Sie einen Artikel in einer anderen Größe oder Farbe, schicken Sie ihn bitte zurück und bestellen Sie den gewünschten Artikel neu. Ein direkter Umtausch ist leider nicht möglich.\n\nFragen? Unser Kundenservice ist von Montag bis Samstag zwischen 8 und 20 Uhr telefonisch und im Chat erreichbar.",
+          "questions": [
+            {
+              "q": "Welchen Artikel kann man zurückschicken?",
+              "options": [
+                "Einen Bikini, den man nicht getragen hat.",
+                "Eine Hose, die nicht im Sale war, mit Etikett.",
+                "Ein reduziertes T-Shirt aus dem Sale."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was muss man zuerst tun, wenn man etwas zurückschicken möchte?",
+              "options": [
+                "Die Rücksendung im Kundenkonto anmelden.",
+                "Das Paket direkt zur Post bringen.",
+                "Den Kundenservice anrufen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wer muss für die Rücksendung bezahlen?",
+              "options": [
+                "Alle Kundinnen und Kunden.",
+                "Niemand, die Rücksendung ist immer gratis.",
+                "Kunden, die ohne Kundenkonto bestellt haben."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Sie möchten ein Hemd in einer anderen Größe. Was machen Sie?",
+              "options": [
+                "Sie schicken das Hemd zurück und bestellen es neu in der richtigen Größe.",
+                "Sie tauschen das Hemd in einer Partnerfiliale direkt um.",
+                "Sie schreiben die neue Größe auf das Rücksendeetikett."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Liebe Kundinnen und Kunden, nur noch heute: In unserer Elektronikabteilung im zweiten Stock erhalten Sie zwanzig Prozent Rabatt auf alle Kopfhörer und Lautsprecher. Und wer mehr als hundert Franken ausgibt, bekommt zusätzlich einen Gutschein über zehn Franken für unser Restaurant im fünften Stock. Das Angebot gilt nicht für bereits reduzierte Artikel. Wir wünschen Ihnen einen schönen Einkauf!"
+            }
+          ],
+          "statement": "Das Angebot gilt nur heute.",
+          "tf": true,
+          "q": "Was bekommt man, wenn man mehr als 100 Franken ausgibt?",
+          "options": [
+            "Einen Gutschein für das Restaurant.",
+            "Zwanzig Prozent Rabatt auf alles.",
+            "Kostenlose Kopfhörer."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Guten Tag, Frau Steiner, hier spricht Marco Rossi von der Zürcher Kantonalbank. Ich rufe wegen Ihres Termins am Donnerstag an. Wir wollten ja über Ihren Kredit für die Wohnung sprechen. Leider bin ich am Donnerstag krankgeschrieben. Meine Kollegin, Frau Wyss, kann Sie aber zur gleichen Zeit beraten. Wenn Ihnen das nicht passt, rufen Sie mich bitte zurück, dann suchen wir einen Termin in der nächsten Woche. Vielen Dank und auf Wiederhören."
+            }
+          ],
+          "statement": "Der Termin am Donnerstag fällt ganz aus.",
+          "tf": false,
+          "q": "Worüber will Frau Steiner bei der Bank sprechen?",
+          "options": [
+            "Über ein neues Konto.",
+            "Über einen Kredit.",
+            "Über ihre Kreditkarte."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Und nun zu den Wirtschaftsnachrichten. Die Krankenkassenprämien in der Schweiz steigen im nächsten Jahr erneut, im Durchschnitt um vier Prozent. Besonders stark ist der Anstieg in den Kantonen Tessin und Genf. Der Bundesrat empfiehlt allen Versicherten, die Angebote der verschiedenen Kassen zu vergleichen. Wer wechseln möchte, muss bis Ende November kündigen. Informationen gibt es auf der Internetseite des Bundesamts für Gesundheit."
+            }
+          ],
+          "statement": "Die Prämien steigen in allen Kantonen gleich stark.",
+          "tf": false,
+          "q": "Was sollen die Versicherten tun?",
+          "options": [
+            "Sofort die Krankenkasse wechseln.",
+            "Beim Bundesrat anrufen.",
+            "Die Angebote vergleichen."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hallo Andrea, hier ist Jonas. Du, am Samstag ist doch der große Flohmarkt auf dem Kanzleiareal. Ich habe einen Stand reserviert, aber Lea kann jetzt nicht mitkommen. Hast du Lust, mit mir zu verkaufen? Der Stand kostet zwar dreißig Franken, aber die teilen wir. Bring einfach mit, was du loswerden willst: Bücher, Kleider, Geschirr. Wir treffen uns um sieben Uhr beim Eingang. Ruf mich kurz an, ja?"
+            }
+          ],
+          "statement": "Jonas möchte am Samstag mit Andrea auf dem Flohmarkt verkaufen.",
+          "tf": true,
+          "q": "Wer bezahlt den Stand?",
+          "options": [
+            "Jonas allein.",
+            "Jonas und Andrea zusammen.",
+            "Lea."
+          ],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung durch ein Geldmuseum teil.",
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Grüezi miteinander und herzlich willkommen im Geldmuseum! Mein Name ist Daniel Huber, und ich begleite Sie in der nächsten Stunde durch unsere Ausstellung."
+            },
+            {
+              "v": "ch-m",
+              "t": "Bevor wir anfangen, ein paar Hinweise: Taschen und Jacken lassen Sie bitte in den Schließfächern neben der Kasse. Fotografieren ist erlaubt, aber bitte ohne Blitz, denn einige alte Münzen sind sehr empfindlich."
+            },
+            {
+              "v": "ch-m",
+              "t": "Wir beginnen im ersten Raum mit der Frage: Wie haben die Menschen bezahlt, bevor es Geld gab? Sie haben getauscht, zum Beispiel Getreide gegen Salz oder Felle gegen Werkzeuge. Hier in der Vitrine sehen Sie Muscheln, die in manchen Regionen lange als Zahlungsmittel benutzt wurden."
+            },
+            {
+              "v": "ch-m",
+              "t": "Im zweiten Raum geht es um die Geschichte des Schweizer Frankens. Vielleicht wissen Sie es nicht: Bis 1850 hatte fast jeder Kanton seine eigene Währung. Das war für Händler sehr kompliziert. Erst mit dem neuen Bundesstaat kam der Franken als gemeinsame Währung für die ganze Schweiz."
+            },
+            {
+              "v": "ch-m",
+              "t": "Besonders beliebt bei unseren Besuchern ist der dritte Raum. Dort können Sie an einem Computer selbst eine Banknote gestalten und sie dann als Postkarte ausdrucken. Die Postkarte dürfen Sie natürlich behalten – bezahlen kann man damit leider nicht."
+            },
+            {
+              "v": "ch-m",
+              "t": "Am Ende der Führung kommen wir in den Raum „Geld heute“. Dort zeigen wir, wie sich das Bezahlen durch Karten und Apps verändert hat, und Sie können an einem Quiz teilnehmen. Wer alle Fragen richtig beantwortet, bekommt im Museumsshop zehn Prozent Rabatt."
+            },
+            {
+              "v": "ch-m",
+              "t": "Noch eine Information zum Schluss: Unser Café im Erdgeschoss ist heute leider geschlossen. Sie bekommen aber Getränke und kleine Snacks am Automaten im Eingangsbereich. So, und jetzt folgen Sie mir bitte in den ersten Raum."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was dürfen die Besucher im Museum nicht machen?",
+              "options": [
+                "Mit Blitz fotografieren.",
+                "Ohne Blitz fotografieren.",
+                "Die Schließfächer benutzen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was sieht man im ersten Raum?",
+              "options": [
+                "Alte Schweizer Münzen.",
+                "Muscheln, mit denen man früher bezahlt hat.",
+                "Werkzeuge, die man in der Schweiz gefunden hat."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was war vor 1850 in der Schweiz anders?",
+              "options": [
+                "Man hat nur mit Salz bezahlt.",
+                "Es gab noch keine Händler.",
+                "Viele Kantone hatten ihr eigenes Geld."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was kann man im dritten Raum machen?",
+              "options": [
+                "Echte Banknoten kaufen.",
+                "Eine eigene Banknote als Postkarte machen.",
+                "Geld wechseln."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wie bekommt man Rabatt im Museumsshop?",
+              "options": [
+                "Man muss an der Führung teilnehmen.",
+                "Man muss im Café etwas bestellen.",
+                "Man muss alle Fragen des Quiz richtig beantworten."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "intro": "Sie hören einen Vortrag in der Volkshochschule zum Thema „Mein Budget im Griff“.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Abend, schön, dass Sie so zahlreich gekommen sind. Ich bin Katrin Vogel und arbeite seit zwölf Jahren als Budgetberaterin. Heute möchte ich Ihnen zeigen, wie Sie mit einfachen Mitteln den Überblick über Ihr Geld behalten."
+            },
+            {
+              "v": "f1",
+              "t": "Der erste Schritt ist immer gleich: Schreiben Sie einen Monat lang alle Ausgaben auf. Wirklich alle, auch den Kaffee am Bahnhof. Ob Sie dafür ein Heft oder eine App benutzen, ist egal. Die meisten Menschen sind am Ende überrascht, wie viel Geld für kleine Dinge weggeht."
+            },
+            {
+              "v": "f1",
+              "t": "Im zweiten Schritt teilen Sie Ihre Ausgaben in feste und variable Kosten. Feste Kosten sind zum Beispiel Miete, Krankenkasse und Handy-Abo. Die müssen Sie jeden Monat bezahlen. Variable Kosten sind Essen, Kleidung, Ausgang. Dort können Sie am leichtesten sparen."
+            },
+            {
+              "v": "f1",
+              "t": "Ein Tipp, den viele meiner Kundinnen und Kunden gut finden: Legen Sie am Anfang des Monats, also direkt nach dem Lohn, einen festen Betrag auf ein Sparkonto. Am besten mit einem Dauerauftrag. Was man nicht auf dem Konto sieht, gibt man auch nicht aus."
+            },
+            {
+              "v": "f1",
+              "t": "Vorsicht bei Abos! Streaming, Fitnessstudio, Zeitungen – jedes einzelne ist nicht teuer, aber zusammen sind das schnell hundert Franken im Monat. Kontrollieren Sie einmal im Jahr, welche Abos Sie wirklich nutzen, und kündigen Sie den Rest."
+            },
+            {
+              "v": "f1",
+              "t": "Und noch etwas: Wenn Sie merken, dass Sie Schulden haben und die Rechnungen nicht mehr bezahlen können, warten Sie nicht zu lange. Je früher Sie Hilfe holen, desto leichter finden wir eine Lösung. Die Beratung bei uns ist vertraulich und kostenlos."
+            },
+            {
+              "v": "f1",
+              "t": "Gleich verteile ich Ihnen eine Vorlage für einen Budgetplan. Nach der Pause rechnen wir zusammen ein Beispiel durch, und danach haben Sie Zeit für Ihre Fragen."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was sollen die Zuhörer zuerst machen?",
+              "options": [
+                "Eine Budget-App kaufen.",
+                "Einen Monat lang alle Ausgaben notieren.",
+                "Weniger Kaffee trinken."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wo kann man laut Frau Vogel am einfachsten sparen?",
+              "options": [
+                "Bei der Miete.",
+                "Bei der Krankenkasse.",
+                "Bei Essen und Kleidung."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Wann soll man Geld auf das Sparkonto legen?",
+              "options": [
+                "Direkt nachdem der Lohn gekommen ist.",
+                "Am Ende des Monats, wenn Geld übrig ist.",
+                "Einmal im Jahr."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was sagt Frau Vogel über Abos?",
+              "options": [
+                "Man sollte alle Abos sofort kündigen.",
+                "Zusammen können sie viel Geld kosten.",
+                "Ein Fitness-Abo lohnt sich immer."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was passiert nach der Pause?",
+              "options": [
+                "Die Teilnehmer bekommen eine Vorlage.",
+                "Frau Vogel beantwortet sofort Fragen.",
+                "Man rechnet zusammen ein Beispiel."
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hey, Nico! Was hast du denn da für ein riesiges Paket?"
+            },
+            {
+              "v": "m1",
+              "t": "Ach, hallo Lena. Das geht zurück zur Post. Schon wieder."
+            },
+            {
+              "v": "f2",
+              "t": "Schon wieder? Was ist es denn?"
+            },
+            {
+              "v": "m1",
+              "t": "Eine Winterjacke. Ich habe sie letzte Woche online bestellt, in zwei Größen, weil ich nicht sicher war. Die eine ist zu klein, die andere viel zu groß."
+            },
+            {
+              "v": "f2",
+              "t": "Und jetzt schickst du beide zurück?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja. Zum Glück ist die Rücksendung gratis. Aber ehrlich gesagt nervt es mich. Je öfter ich online bestelle, desto mehr Zeit verbringe ich auf der Post."
+            },
+            {
+              "v": "f2",
+              "t": "Ich kaufe Kleidung eigentlich nur noch im Geschäft. Da kann ich alles anprobieren, und ich weiß sofort, ob es passt."
+            },
+            {
+              "v": "m1",
+              "t": "Schon, aber in den Geschäften hier in Winterthur finde ich weder meine Größe noch die Marken, die mir gefallen."
+            },
+            {
+              "v": "f2",
+              "t": "Dann fahr doch mal nach Zürich. Ich gehe am Samstag sowieso in die Bahnhofstrasse, ich brauche neue Schuhe. Komm doch mit!"
+            },
+            {
+              "v": "m1",
+              "t": "Am Samstag? Da muss ich leider arbeiten. Aber am Sonntag hätte ich Zeit."
+            },
+            {
+              "v": "f2",
+              "t": "Am Sonntag sind die Läden doch zu! Außer am Bahnhof."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt, das vergesse ich immer. In Spanien war das anders, da habe ich ein Jahr gewohnt."
+            },
+            {
+              "v": "f2",
+              "t": "Weißt du was? Ich schaue am Samstag für dich, ob es die Jacke in deiner Größe gibt. Schick mir einfach ein Foto."
+            },
+            {
+              "v": "m1",
+              "t": "Echt? Das wäre super. Dann schicke ich das Paket heute zurück und warte, was du findest."
+            },
+            {
+              "v": "f2",
+              "t": "Abgemacht. Und als Dankeschön lädst du mich auf einen Kaffee ein."
+            },
+            {
+              "v": "m1",
+              "t": "Gern, sogar auf zwei! Oh, ich muss hier aussteigen. Bis bald!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Nico hat die Jacke in zwei verschiedenen Größen bestellt.",
+              "answer": true
+            },
+            {
+              "s": "Nico muss für die Rücksendung bezahlen.",
+              "answer": false
+            },
+            {
+              "s": "Lena kauft Kleidung lieber im Geschäft.",
+              "answer": true
+            },
+            {
+              "s": "In Winterthur findet Nico die Marken, die er mag.",
+              "answer": false
+            },
+            {
+              "s": "Nico kann am Samstag nicht nach Zürich fahren.",
+              "answer": true
+            },
+            {
+              "s": "Nico hat ein Jahr in Spanien gelebt.",
+              "answer": true
+            },
+            {
+              "s": "Nico behält die Jacke, bis Lena eine neue findet.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind in der Straßenbahn und hören, wie sich zwei Kolleginnen unterhalten.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Sag mal, Jasmin, fährst du dieses Jahr wieder nach Thailand?"
+            },
+            {
+              "v": "at-f",
+              "t": "Nein, leider nicht. Ich spare gerade für etwas anderes."
+            },
+            {
+              "v": "f1",
+              "t": "Ach, wofür denn?"
+            },
+            {
+              "v": "at-f",
+              "t": "Für ein E-Bike. Ich will im Frühling nicht mehr mit dem Auto zur Arbeit fahren. Das Benzin und das Parkhaus kosten mich jeden Monat fast zweihundert Franken."
+            },
+            {
+              "v": "f1",
+              "t": "Wow, so viel? Und wie viel kostet so ein E-Bike?"
+            },
+            {
+              "v": "at-f",
+              "t": "Ein gutes kostet zwischen zweitausendfünfhundert und dreitausend Franken. Ich könnte es zwar in Raten bezahlen, aber das will ich nicht. Ich möchte keine Schulden haben."
+            },
+            {
+              "v": "f1",
+              "t": "Verstehe ich. Und wie sparst du?"
+            },
+            {
+              "v": "at-f",
+              "t": "Ich habe einen Dauerauftrag eingerichtet: Jeden Monat gehen dreihundert Franken auf mein Sparkonto. Und ich habe zwei Streaming-Abos gekündigt."
+            },
+            {
+              "v": "f1",
+              "t": "Nur zwei? Ich habe, glaube ich, vier."
+            },
+            {
+              "v": "at-f",
+              "t": "Haha, dann kannst du ja auch sparen! Außerdem nehme ich jetzt das Mittagessen von zu Hause mit, statt in der Kantine zu essen."
+            },
+            {
+              "v": "f1",
+              "t": "Das mache ich auch manchmal. Hast du schon mal an ein gebrauchtes E-Bike gedacht? Mein Bruder hat seins auf einer Velobörse gekauft, für die Hälfte des Preises."
+            },
+            {
+              "v": "at-f",
+              "t": "Hm, daran habe ich noch nicht gedacht. Aber ist das nicht riskant, wegen der Batterie?"
+            },
+            {
+              "v": "f1",
+              "t": "Er hat es vorher in einem Fachgeschäft prüfen lassen. Das hat nur fünfzig Franken gekostet."
+            },
+            {
+              "v": "at-f",
+              "t": "Das ist eine gute Idee. Wann ist die nächste Velobörse?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich frage meinen Bruder und schreibe dir heute Abend."
+            },
+            {
+              "v": "at-f",
+              "t": "Super, danke! Vielleicht reicht das Geld dann ja doch noch für ein paar Tage Urlaub."
+            }
+          ],
+          "statements": [
+            {
+              "s": "Jasmin fährt dieses Jahr nach Thailand.",
+              "answer": false
+            },
+            {
+              "s": "Jasmin gibt jeden Monat viel Geld für das Auto aus.",
+              "answer": true
+            },
+            {
+              "s": "Jasmin will das E-Bike in Raten bezahlen.",
+              "answer": false
+            },
+            {
+              "s": "Jasmin legt jeden Monat automatisch Geld zur Seite.",
+              "answer": true
+            },
+            {
+              "s": "Jasmin isst mittags nicht mehr in der Kantine.",
+              "answer": true
+            },
+            {
+              "s": "Der Bruder der Kollegin hat sein E-Bike gebraucht gekauft.",
+              "answer": true
+            },
+            {
+              "s": "Jasmin weiß schon, wann die nächste Velobörse ist.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Thema am Abend“ diskutiert mit dem Konsumforscher Dr. Stefan Brandt und der Bloggerin Mia Kessler über das Thema „Kaufen wir zu viel?“",
+          "options": [
+            "Moderatorin",
+            "Stefan Brandt",
+            "Mia Kessler"
+          ],
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Guten Abend und willkommen bei „Thema am Abend“. Heute fragen wir: Kaufen wir zu viel? Bei mir im Studio sind der Konsumforscher Stefan Brandt und Mia Kessler, die seit drei Jahren einen Blog über ein Leben mit wenigen Dingen schreibt. Herr Brandt, stimmt es, dass wir heute mehr kaufen als früher?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, eindeutig. Eine Person in Deutschland kauft heute im Durchschnitt sechzig neue Kleidungsstücke pro Jahr. Vor zwanzig Jahren war es ungefähr die Hälfte. Und viele dieser Sachen tragen wir kaum."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Kessler, Sie haben vor drei Jahren radikal aussortiert. Warum?"
+            },
+            {
+              "v": "f2",
+              "t": "Ich bin damals umgezogen und habe gemerkt, dass ich achtzig Kisten packen musste. Achtzig! Und in den meisten waren Dinge, die ich jahrelang nicht benutzt hatte. Da wusste ich: So will ich nicht weiterleben."
+            },
+            {
+              "v": "f1",
+              "t": "Und was haben Sie gemacht?"
+            },
+            {
+              "v": "f2",
+              "t": "Ich habe sowohl Kleidung als auch Bücher und Küchengeräte verschenkt oder verkauft. Heute besitze ich ungefähr dreihundert Dinge. Und ich bin nicht nur entspannter, sondern habe auch viel mehr Geld auf dem Konto."
+            },
+            {
+              "v": "m1",
+              "t": "Das ist schön für Frau Kessler, aber man muss auch sagen: Das kann sich nicht jeder leisten. Wer wenig besitzt, muss im Notfall schnell etwas Neues kaufen können. Minimalismus ist oft ein Luxus von Menschen mit gutem Einkommen."
+            },
+            {
+              "v": "f2",
+              "t": "Das sehe ich anders. Weniger kaufen spart doch Geld. Gerade Familien mit wenig Geld profitieren davon, wenn sie gebraucht kaufen oder Dinge mit den Nachbarn teilen."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Brandt, warum fällt es uns denn so schwer, weniger zu kaufen?"
+            },
+            {
+              "v": "m1",
+              "t": "Weil Kaufen uns kurzfristig glücklich macht. Das Gehirn belohnt uns. Und die Werbung weiß das genau: Je persönlicher die Werbung im Internet ist, desto öfter klicken wir auf „Kaufen“."
+            },
+            {
+              "v": "f1",
+              "t": "Was raten Sie also unseren Hörerinnen und Hörern?"
+            },
+            {
+              "v": "m1",
+              "t": "Eine einfache Regel: Warten Sie bei allem, was mehr als fünfzig Franken kostet, zwei Tage. Wenn Sie es dann noch wollen, kaufen Sie es."
+            },
+            {
+              "v": "f2",
+              "t": "Ich würde noch weiter gehen: Fragen Sie sich vor jedem Kauf, ob Sie das Ding auch in einem Jahr noch brauchen. Meistens ist die Antwort Nein."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Kessler, gibt es denn etwas, wofür Sie gern Geld ausgeben?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, für Erlebnisse. Reisen, Konzerte, ein gutes Essen mit Freunden. Davon habe ich viel länger etwas als von einer neuen Tasche."
+            },
+            {
+              "v": "m1",
+              "t": "Da stimme ich zu. Studien zeigen, dass Erlebnisse uns länger glücklich machen als Dinge. Aber auch Reisen ist Konsum, und zwar einer, der oft schlecht für die Umwelt ist."
+            },
+            {
+              "v": "f1",
+              "t": "Ein gutes Stichwort: Über Reisen und Umwelt sprechen wir nächste Woche. Ich danke Ihnen beiden für das Gespräch."
+            }
+          ],
+          "items": [
+            {
+              "q": "Heute kaufen die Menschen etwa doppelt so viel Kleidung wie vor zwanzig Jahren.",
+              "answer": 1
+            },
+            {
+              "q": "Ein Umzug war der Grund, weniger zu besitzen.",
+              "answer": 2
+            },
+            {
+              "q": "Durch weniger Konsum hat diese Person mehr Geld gespart.",
+              "answer": 2
+            },
+            {
+              "q": "Nicht jeder kann es sich leisten, sehr wenig zu besitzen.",
+              "answer": 1
+            },
+            {
+              "q": "Persönliche Werbung im Internet bringt uns dazu, mehr zu kaufen.",
+              "answer": 1
+            },
+            {
+              "q": "Man sollte vor einem Kauf überlegen, ob man das Ding auch später noch braucht.",
+              "answer": 2
+            },
+            {
+              "q": "In der nächsten Sendung geht es um Reisen und Umwelt.",
+              "answer": 0
+            },
+            {
+              "q": "Auch Reisen kann der Umwelt schaden.",
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben am Wochenende auf einem Flohmarkt etwas sehr Schönes gekauft. Ihre Freundin Miriam interessiert sich auch für Second-Hand. Schreiben Sie Miriam eine E-Mail.",
+          "points": [
+            "Beschreiben Sie: Was haben Sie gekauft?",
+            "Begründen Sie: Warum kaufen Sie gern auf dem Flohmarkt?",
+            "Machen Sie einen Vorschlag für einen gemeinsamen Flohmarktbesuch."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Miriam,\n\nstell dir vor: Am Samstag war ich auf dem Flohmarkt am Bürkliplatz und habe eine alte Kaffeemaschine aus Italien gefunden! Sie ist zwar nicht mehr neu, aber sie funktioniert perfekt, und sie hat nur fünfzehn Franken gekostet.\n\nIch kaufe sehr gern auf dem Flohmarkt, weil die Sachen nicht nur billig, sondern auch nachhaltig sind. Außerdem findet man Dinge, die es in keinem Geschäft gibt.\n\nHast du Lust, nächsten Samstag mitzukommen? Wir könnten uns um neun Uhr treffen und danach zusammen frühstücken.\n\nLiebe Grüße\nAndrea"
+        },
+        {
+          "task": "Ihr Freund Samuel möchte sich einen neuen Laptop kaufen und hat Sie um Rat gefragt. Sie haben vor Kurzem selbst einen gekauft. Schreiben Sie Samuel eine E-Mail.",
+          "points": [
+            "Erzählen Sie von Ihrem Laptopkauf.",
+            "Geben Sie Samuel einen Tipp: Worauf soll er achten?",
+            "Schlagen Sie vor, zusammen in ein Geschäft zu gehen."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Hallo Samuel,\n\ndanke für deine Nachricht! Ich habe meinen Laptop im Oktober gekauft, im Sonderangebot mit zwanzig Prozent Rabatt. Ich habe vorher sowohl die Preise im Internet als auch die Angebote in den Geschäften verglichen. Das hat sich wirklich gelohnt.\n\nMein Tipp: Kauf weder den billigsten noch den teuersten. Achte lieber auf die Garantie und auf die Qualität der Batterie. Je länger die Garantie ist, desto besser.\n\nWenn du willst, komme ich am Samstag mit dir in den Media Markt. Dann können wir zusammen schauen.\n\nBis bald\nJosé"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Online einkaufen oder im Geschäft?“ gelesen.",
+          "quote": "Ich kaufe fast alles online: Kleidung, Bücher, sogar Lebensmittel. Das ist bequem, man kann die Preise vergleichen und spart Zeit. Die Geschäfte in der Innenstadt sind teuer und am Samstag total voll. Ich verstehe nicht, warum noch jemand im Laden einkauft. – Kevin, 26",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Reagieren Sie auf Kevins Beitrag."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Kevin hat zum Teil recht: Online-Shopping ist zwar bequem, aber ich sehe das nicht so einfach. Ich kaufe sowohl online als auch im Geschäft ein. Bücher und Technik bestelle ich im Internet, weil man dort die Preise gut vergleichen kann. Kleidung und Schuhe kaufe ich aber lieber im Laden, denn dort kann ich alles anprobieren und muss nichts zurückschicken. Außerdem finde ich es wichtig, die kleinen Geschäfte in meinem Viertel zu unterstützen. Je mehr Leute online kaufen, desto mehr Läden schließen, und dann wird die Stadt langweilig."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Sollen Kinder Taschengeld bekommen?“ gesehen. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:",
+          "quote": "Unsere Kinder bekommen kein Taschengeld. Wenn sie etwas brauchen, kaufen wir es ihnen. Kinder müssen sich nicht schon mit acht Jahren um Geld kümmern. Sie sollen spielen und Kind sein dürfen. Für Geld haben sie später im Leben noch genug Zeit. – Martina, 44",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Erzählen Sie von Ihren eigenen Erfahrungen."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich verstehe Martina, aber ich bin anderer Meinung. Ich finde, dass Kinder nicht nur Taschengeld bekommen, sondern auch selbst entscheiden sollten, was sie damit machen. Nur so lernen sie, dass man Geld weder einfach verschwenden noch alles sofort haben kann. Als ich klein war, bekam ich jede Woche zwei Euro. Zuerst habe ich alles für Süßigkeiten ausgegeben, später habe ich für ein Fahrrad gespart. Darauf war ich sehr stolz. Je früher Kinder lernen, mit Geld umzugehen, desto weniger Probleme haben sie später."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben morgen um 10 Uhr einen Beratungstermin bei Ihrer Bank, Herrn Lüthi. Sie können aber nicht kommen. Schreiben Sie Herrn Lüthi eine Nachricht.",
+          "points": [
+            "Entschuldigen Sie sich höflich.",
+            "Erklären Sie, warum Sie nicht kommen können.",
+            "Bitten Sie um einen neuen Termin."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Lüthi,\n\nleider kann ich morgen um 10 Uhr nicht zu unserem Termin kommen, weil ich kurzfristig eine wichtige Besprechung an der Universität habe. Das tut mir sehr leid. Könnten wir einen neuen Termin nächste Woche vereinbaren? Ich habe am Dienstag oder Donnerstag Zeit.\n\nMit freundlichen Grüßen\nJosé Romero"
+        },
+        {
+          "task": "Sie haben die Miete für diesen Monat zu spät überwiesen und eine Mahnung bekommen. Schreiben Sie Ihrer Vermieterin, Frau Gerber, eine Nachricht.",
+          "points": [
+            "Entschuldigen Sie sich.",
+            "Erklären Sie, was passiert ist.",
+            "Sagen Sie, was Sie in Zukunft anders machen."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Gerber,\n\nbitte entschuldigen Sie, dass die Miete diesen Monat zu spät gekommen ist. Ich war zwei Wochen in Spanien und habe die Überweisung leider vergessen. Gestern habe ich den Betrag überwiesen. In Zukunft bezahle ich die Miete mit einem Dauerauftrag, damit das nicht mehr passiert.\n\nFreundliche Grüße\nAndrea Navarro"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Sie möchten mit einer Freundin / einem Freund an einem Flohmarkt einen Stand haben und Dinge verkaufen, die Sie nicht mehr brauchen. Planen Sie zusammen.",
+          "points": [
+            "Welcher Flohmarkt und wann?",
+            "Was verkaufen?",
+            "Wie die Preise festlegen?",
+            "Was mit dem Geld machen?"
+          ],
+          "model": [
+            {
+              "v": "f1",
+              "t": "Du, ich habe so viele Sachen im Keller. Sollen wir zusammen auf einen Flohmarkt gehen und verkaufen?"
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee! Ich kenne den Flohmarkt am Kanzleiareal, der ist jeden Samstag. Wie wäre es mit dem nächsten Samstag?"
+            },
+            {
+              "v": "f1",
+              "t": "Nächsten Samstag geht es bei mir leider nicht, da besuche ich meine Eltern. Aber in zwei Wochen hätte ich Zeit."
+            },
+            {
+              "v": "m1",
+              "t": "Einverstanden, dann in zwei Wochen. Was möchtest du verkaufen?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich habe sowohl Kleidung als auch viele Bücher. Und du?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich habe Geschirr und ein paar alte Spiele. Möbel würde ich nicht mitnehmen, die sind zu schwer."
+            },
+            {
+              "v": "f1",
+              "t": "Da hast du recht. Und wie machen wir die Preise? Sollen wir auf jedes Ding einen Preis kleben?"
+            },
+            {
+              "v": "m1",
+              "t": "Das ist zwar ordentlich, aber es dauert sehr lange. Ich schlage vor, wir machen Kisten: alles in dieser Kiste zwei Franken, in der anderen fünf Franken."
+            },
+            {
+              "v": "f1",
+              "t": "Das finde ich super, so ist es einfacher. Und was machen wir mit dem Geld?"
+            },
+            {
+              "v": "m1",
+              "t": "Entweder teilen wir es, oder wir gehen davon zusammen schön essen."
+            },
+            {
+              "v": "f1",
+              "t": "Essen gehen! Je mehr wir verkaufen, desto besser wird das Restaurant."
+            },
+            {
+              "v": "m1",
+              "t": "Abgemacht. Dann reserviere ich heute noch den Stand."
+            }
+          ]
+        },
+        {
+          "task": "Ein Kollege / Eine Kollegin verlässt die Firma. Sie möchten zusammen mit dem Team ein Abschiedsgeschenk kaufen, aber das Budget ist klein. Planen Sie zusammen.",
+          "points": [
+            "Wie Geld sammeln?",
+            "Wie viel pro Person?",
+            "Was schenken?",
+            "Wer kauft das Geschenk?"
+          ],
+          "model": [
+            {
+              "v": "m2",
+              "t": "Hast du gehört? Claudia verlässt Ende Monat die Firma. Wir sollten ihr etwas schenken."
+            },
+            {
+              "v": "f2",
+              "t": "Ja, unbedingt. Aber wie sammeln wir das Geld? Mit einem Briefumschlag im Büro?"
+            },
+            {
+              "v": "m2",
+              "t": "Das geht zwar, aber viele arbeiten im Homeoffice. Ich schlage vor, alle schicken das Geld per TWINT an dich."
+            },
+            {
+              "v": "f2",
+              "t": "Gut, das ist praktisch. Wie viel soll jeder geben?"
+            },
+            {
+              "v": "m2",
+              "t": "Vielleicht zehn Franken? Wir sind fünfzehn Leute, dann haben wir hundertfünfzig Franken."
+            },
+            {
+              "v": "f2",
+              "t": "Zehn Franken finde ich ein bisschen viel für die Praktikanten. Wie wäre es mit freiwillig, zwischen fünf und zehn Franken?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, das ist fairer. Und was schenken wir ihr? Blumen und ein Buch?"
+            },
+            {
+              "v": "f2",
+              "t": "Blumen sind schön, aber sie halten nicht lange. Claudia kocht doch so gern. Wir könnten ihr einen Gutschein für einen Kochkurs schenken."
+            },
+            {
+              "v": "m2",
+              "t": "Das ist eine tolle Idee! Damit hat sie nicht nur ein Geschenk, sondern auch ein Erlebnis."
+            },
+            {
+              "v": "f2",
+              "t": "Genau. Wer kauft den Gutschein? Ich habe diese Woche leider kaum Zeit."
+            },
+            {
+              "v": "m2",
+              "t": "Kein Problem, ich mache das am Donnerstag. Kannst du dafür eine Karte organisieren, die alle unterschreiben?"
+            },
+            {
+              "v": "f2",
+              "t": "Klar, mache ich. Super, dann ist alles geplant."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Bargeld oder Karte – wie bezahlen wir in Zukunft?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! Mein Thema heute ist: Bargeld oder Karte – wie bezahlen wir in Zukunft? Zuerst erzähle ich von meinen eigenen Erfahrungen, dann spreche ich über die Situation in meinem Heimatland Spanien. Danach nenne ich Vorteile und Nachteile und sage meine Meinung."
+            },
+            {
+              "v": "m1",
+              "t": "Ich lebe seit drei Jahren in Zürich. Am Anfang hatte ich immer Bargeld dabei, weil ich das aus Spanien so kannte. Heute bezahle ich fast alles mit dem Handy, sowohl im Supermarkt als auch im Tram. Bargeld habe ich nur noch für den Bauernmarkt."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien ist die Situation ähnlich. Vor allem junge Leute bezahlen mit Karte oder Bizum, das ist eine App wie TWINT. Ältere Menschen und kleine Bars auf dem Land benutzen aber noch viel Bargeld."
+            },
+            {
+              "v": "m1",
+              "t": "Digitales Bezahlen hat viele Vorteile: Es ist schnell, sauber und man muss keine Münzen suchen. Ein Nachteil ist aber, dass man leicht den Überblick verliert. Außerdem kann man weder einkaufen noch bezahlen, wenn das Internet nicht funktioniert. Meiner Meinung nach sollte man zwar digital bezahlen können, aber das Bargeld darf nicht verschwinden."
+            },
+            {
+              "v": "m1",
+              "t": "Damit komme ich zum Schluss. Ich glaube, dass wir in Zukunft entweder mehr mit dem Handy bezahlen oder sogar mit der Uhr. Wichtig ist aber, dass alle Menschen mitkommen können. Vielen Dank für Ihre Aufmerksamkeit! Haben Sie Fragen?"
+            }
+          ],
+          "question": "Sie sagen, man verliert mit dem Handy leicht den Überblick. Wie kontrollieren Sie selbst Ihre Ausgaben?",
+          "answer": "Ich schaue jeden Sonntag in meine Banking-App und vergleiche meine Ausgaben mit meinem Budget. Außerdem habe ich einen Dauerauftrag für mein Sparkonto. So spare ich jeden Monat automatisch etwas."
+        },
+        {
+          "title": "Online-Shopping – Vorteile und Nachteile",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Hallo zusammen! Ich möchte heute über Online-Shopping sprechen. Meine Präsentation hat vier Teile: meine persönlichen Erfahrungen, die Situation in Spanien, die Vorteile und Nachteile und zum Schluss meine Meinung."
+            },
+            {
+              "v": "f1",
+              "t": "Ich selbst kaufe ziemlich oft online ein, vor allem Bücher und Kleidung für den Sport. Letztes Jahr habe ich aber gemerkt, dass ich fast jede Woche ein Paket zurückgeschickt habe. Das war nicht nur anstrengend, sondern auch schlecht für die Umwelt. Seitdem bestelle ich weniger und überlege vorher länger, ob ich etwas wirklich brauche."
+            },
+            {
+              "v": "f1",
+              "t": "In Spanien ist Online-Shopping in den letzten Jahren sehr beliebt geworden, besonders seit der Pandemie. Viele Leute bestellen sogar Lebensmittel im Internet. In meiner Stadt, Almería, haben deshalb einige kleine Geschäfte geschlossen, zum Beispiel eine Buchhandlung im Zentrum. Dort habe ich als Kind immer Comics gekauft."
+            },
+            {
+              "v": "f1",
+              "t": "Online-Shopping ist nicht nur bequem, sondern oft auch billiger, und man kann die Preise leicht vergleichen. Auf der anderen Seite gibt es viele Pakete, viel Verkehr und viel Verpackung. Außerdem kann man die Kleidung nicht anprobieren. Ich finde, dass Online-Shopping zwar praktisch ist, aber wir sollten auch die Läden in unserem Viertel unterstützen."
+            },
+            {
+              "v": "f1",
+              "t": "Zum Schluss möchte ich sagen: Je bewusster wir einkaufen, desto besser ist es für die Umwelt und für unsere Städte. Vielen Dank für Ihre Aufmerksamkeit! Ich beantworte gern Ihre Fragen."
+            }
+          ],
+          "question": "Was kaufen Sie nie online, und warum?",
+          "answer": "Schuhe kaufe ich nie online, weil ich sie immer anprobieren muss. Bei Schuhen passt die Größe fast nie, und dann muss ich sie zurückschicken. Das ist mir zu kompliziert."
+        }
+      ]
+    }
+  }
+}

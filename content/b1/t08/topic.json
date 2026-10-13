@@ -1,0 +1,2204 @@
+{
+  "id": "b1-t08",
+  "level": "b1",
+  "topic": "t08",
+  "title": "Relaciones y familia",
+  "title_de": "Beziehungen und Familie",
+  "goals": [
+    "Hablar de la familia ampliada y política (suegros, cuñados, sobrinos…)",
+    "Describir relaciones de pareja, amistad, conflictos y reconciliaciones",
+    "Usar los verbos con preposición de nivel B1 con el caso correcto",
+    "Anunciar una oración con da- + dass / zu (Ich freue mich darauf, dass…) y preguntar con wo- y preposición + wen/wem",
+    "Declinar los sustantivos de la declinación n (der Kollege → den Kollegen)",
+    "Planear algo juntos en el Sprechen Teil 1: proponer, aceptar, rechazar y acordar"
+  ],
+  "vocab": [
+    {
+      "de": "der/die Verwandte",
+      "pl": "die Verwandten",
+      "es": "el pariente / la pariente",
+      "cat": "Familia",
+      "ex": "Zu Weihnachten kommen alle Verwandten zu uns.",
+      "ex_es": "En Navidad viene toda la familia a nuestra casa."
+    },
+    {
+      "de": "der Schwager / die Schwägerin",
+      "pl": "die Schwäger / die Schwägerinnen",
+      "es": "el cuñado / la cuñada",
+      "cat": "Familia",
+      "ex": "Meine Schwägerin hilft uns beim Umzug.",
+      "ex_es": "Mi cuñada nos ayuda con la mudanza."
+    },
+    {
+      "de": "die Schwiegereltern",
+      "es": "los suegros",
+      "cat": "Familia",
+      "ex": "Am Sonntag essen wir bei meinen Schwiegereltern.",
+      "ex_es": "El domingo comemos en casa de mis suegros."
+    },
+    {
+      "de": "der Neffe / die Nichte",
+      "pl": "die Neffen / die Nichten",
+      "es": "el sobrino / la sobrina",
+      "cat": "Familia",
+      "ex": "Meine Nichte hat nächste Woche Geburtstag.",
+      "ex_es": "Mi sobrina cumple años la semana que viene."
+    },
+    {
+      "de": "der Cousin / die Cousine",
+      "pl": "die Cousins / die Cousinen",
+      "es": "el primo / la prima",
+      "cat": "Familia",
+      "ex": "Mein Cousin wohnt auch in Zürich.",
+      "ex_es": "Mi primo también vive en Zúrich."
+    },
+    {
+      "de": "der Enkel / die Enkelin",
+      "pl": "die Enkel / die Enkelinnen",
+      "es": "el nieto / la nieta",
+      "cat": "Familia",
+      "ex": "Oma passt jeden Mittwoch auf ihre Enkel auf.",
+      "ex_es": "La abuela cuida de sus nietos todos los miércoles."
+    },
+    {
+      "de": "der Lebensgefährte / die Lebensgefährtin",
+      "pl": "die Lebensgefährten / die Lebensgefährtinnen",
+      "es": "la pareja (sin estar casados)",
+      "cat": "Familia",
+      "ex": "Er wohnt mit seiner Lebensgefährtin in Bern.",
+      "ex_es": "Vive con su pareja en Berna."
+    },
+    {
+      "de": "die Ehe",
+      "pl": "die Ehen",
+      "es": "el matrimonio",
+      "cat": "Familia",
+      "ex": "Meine Großeltern hatten eine sehr glückliche Ehe.",
+      "ex_es": "Mis abuelos tuvieron un matrimonio muy feliz."
+    },
+    {
+      "de": "der Ehemann / die Ehefrau",
+      "pl": "die Ehemänner / die Ehefrauen",
+      "es": "el marido / la esposa",
+      "cat": "Familia",
+      "ex": "Ihr Ehemann arbeitet als Lehrer.",
+      "ex_es": "Su marido trabaja de profesor."
+    },
+    {
+      "de": "die Scheidung",
+      "pl": "die Scheidungen",
+      "es": "el divorcio",
+      "cat": "Familia",
+      "ex": "Nach der Scheidung blieben die Kinder bei der Mutter.",
+      "ex_es": "Después del divorcio los niños se quedaron con la madre."
+    },
+    {
+      "de": "sich scheiden lassen",
+      "es": "divorciarse",
+      "cat": "Familia",
+      "forms": "er lässt sich scheiden, ließ sich scheiden, hat sich scheiden lassen",
+      "ex": "Meine Eltern haben sich vor zehn Jahren scheiden lassen.",
+      "ex_es": "Mis padres se divorciaron hace diez años."
+    },
+    {
+      "de": "alleinerziehend",
+      "es": "que cría solo/a a sus hijos (madre/padre soltero)",
+      "cat": "Familia",
+      "ex": "Als alleinerziehende Mutter hat sie wenig Freizeit.",
+      "ex_es": "Como madre soltera tiene poco tiempo libre."
+    },
+    {
+      "de": "erziehen",
+      "es": "educar, criar",
+      "cat": "Familia",
+      "forms": "er erzieht, erzog, hat erzogen",
+      "ex": "Meine Eltern haben uns sehr frei erzogen.",
+      "ex_es": "Mis padres nos educaron con mucha libertad."
+    },
+    {
+      "de": "die Erziehung",
+      "es": "la educación (de los hijos), la crianza",
+      "cat": "Familia",
+      "ex": "Bei der Erziehung sind sich die beiden nicht immer einig.",
+      "ex_es": "En la crianza los dos no siempre están de acuerdo."
+    },
+    {
+      "de": "der Trauzeuge / die Trauzeugin",
+      "pl": "die Trauzeugen / die Trauzeuginnen",
+      "es": "el testigo / la testigo de boda",
+      "cat": "Familia",
+      "ex": "Mein bester Freund war mein Trauzeuge.",
+      "ex_es": "Mi mejor amigo fue mi testigo de boda."
+    },
+    {
+      "de": "der Jahrestag",
+      "pl": "die Jahrestage",
+      "es": "el aniversario",
+      "cat": "Familia",
+      "ex": "Zu unserem Jahrestag gehen wir schön essen.",
+      "ex_es": "Por nuestro aniversario vamos a cenar a un buen sitio."
+    },
+    {
+      "de": "zusammenziehen",
+      "es": "irse a vivir juntos",
+      "cat": "Familia",
+      "forms": "er zieht zusammen, zog zusammen, ist zusammengezogen",
+      "ex": "Nach einem Jahr sind wir zusammengezogen.",
+      "ex_es": "Al cabo de un año nos fuimos a vivir juntos."
+    },
+    {
+      "de": "die Beziehung",
+      "pl": "die Beziehungen",
+      "es": "la relación",
+      "cat": "Relaciones",
+      "ex": "Sie haben eine sehr gute Beziehung.",
+      "ex_es": "Tienen muy buena relación."
+    },
+    {
+      "de": "die Fernbeziehung",
+      "pl": "die Fernbeziehungen",
+      "es": "la relación a distancia",
+      "cat": "Relaciones",
+      "ex": "Eine Fernbeziehung ist nicht immer einfach.",
+      "ex_es": "Una relación a distancia no siempre es fácil."
+    },
+    {
+      "de": "das Verhältnis",
+      "pl": "die Verhältnisse",
+      "es": "la relación (trato)",
+      "cat": "Relaciones",
+      "ex": "Zu meinem Bruder habe ich ein enges Verhältnis.",
+      "ex_es": "Con mi hermano tengo una relación muy estrecha."
+    },
+    {
+      "de": "die Freundschaft",
+      "pl": "die Freundschaften",
+      "es": "la amistad",
+      "cat": "Relaciones",
+      "ex": "Unsere Freundschaft hält schon seit der Schulzeit.",
+      "ex_es": "Nuestra amistad dura desde el colegio."
+    },
+    {
+      "de": "die Liebe",
+      "es": "el amor",
+      "cat": "Relaciones",
+      "ex": "Für sie war es Liebe auf den ersten Blick.",
+      "ex_es": "Para ella fue amor a primera vista."
+    },
+    {
+      "de": "der/die Bekannte",
+      "pl": "die Bekannten",
+      "es": "el conocido / la conocida",
+      "cat": "Relaciones",
+      "ex": "Ein Bekannter hat mir die Wohnung empfohlen.",
+      "ex_es": "Un conocido me recomendó el piso."
+    },
+    {
+      "de": "der Mensch",
+      "pl": "die Menschen",
+      "es": "la persona, el ser humano",
+      "cat": "Relaciones",
+      "ex": "Ich habe viele interessante Menschen kennengelernt.",
+      "ex_es": "He conocido a mucha gente interesante."
+    },
+    {
+      "de": "das Vertrauen",
+      "es": "la confianza",
+      "cat": "Relaciones",
+      "ex": "Ohne Vertrauen funktioniert keine Beziehung.",
+      "ex_es": "Sin confianza no funciona ninguna relación."
+    },
+    {
+      "de": "vertrauen (+ Dat.)",
+      "es": "confiar (en alguien)",
+      "cat": "Relaciones",
+      "forms": "er vertraut, hat vertraut",
+      "ex": "Ich vertraue meiner Schwester total.",
+      "ex_es": "Confío totalmente en mi hermana."
+    },
+    {
+      "de": "vermissen",
+      "es": "echar de menos",
+      "cat": "Relaciones",
+      "forms": "er vermisst, hat vermisst",
+      "ex": "Ich vermisse meine Familie in Spanien.",
+      "ex_es": "Echo de menos a mi familia en España."
+    },
+    {
+      "de": "der Streit",
+      "es": "la pelea, la discusión",
+      "cat": "Relaciones",
+      "ex": "Nach dem Streit haben sie zwei Tage nicht miteinander gesprochen.",
+      "ex_es": "Después de la pelea no se hablaron en dos días."
+    },
+    {
+      "de": "eifersüchtig (auf + Akk.)",
+      "es": "celoso/a (de)",
+      "cat": "Relaciones",
+      "ex": "Mein kleiner Bruder war eifersüchtig auf das Baby.",
+      "ex_es": "Mi hermano pequeño tenía celos del bebé."
+    },
+    {
+      "de": "der Kompromiss",
+      "pl": "die Kompromisse",
+      "es": "el compromiso, la concesión mutua",
+      "cat": "Relaciones",
+      "ex": "Wir haben einen Kompromiss gefunden.",
+      "ex_es": "Hemos llegado a un acuerdo intermedio."
+    },
+    {
+      "de": "treu",
+      "es": "fiel",
+      "cat": "Relaciones",
+      "ex": "Unser Hund ist sehr treu.",
+      "ex_es": "Nuestro perro es muy fiel."
+    },
+    {
+      "de": "die Rücksicht (auf + Akk.)",
+      "es": "la consideración (hacia alguien)",
+      "cat": "Relaciones",
+      "ex": "In einer WG muss man Rücksicht auf die anderen nehmen.",
+      "ex_es": "En un piso compartido hay que tener consideración con los demás."
+    },
+    {
+      "de": "gemeinsam",
+      "es": "juntos, en común",
+      "cat": "Relaciones",
+      "ex": "Wir haben viele gemeinsame Hobbys.",
+      "ex_es": "Tenemos muchas aficiones en común."
+    },
+    {
+      "de": "der Praktikant / die Praktikantin",
+      "pl": "die Praktikanten / die Praktikantinnen",
+      "es": "el/la becario/a, el/la que hace prácticas",
+      "cat": "Relaciones",
+      "ex": "Wir haben einen neuen Praktikanten im Team.",
+      "ex_es": "Tenemos un becario nuevo en el equipo."
+    },
+    {
+      "de": "sich verlassen (auf + Akk.)",
+      "es": "contar con, fiarse de",
+      "cat": "Verbos con preposición",
+      "forms": "er verlässt sich, verließ sich, hat sich verlassen",
+      "ex": "Auf meine Freunde kann ich mich immer verlassen.",
+      "ex_es": "Siempre puedo contar con mis amigos."
+    },
+    {
+      "de": "sich gewöhnen (an + Akk.)",
+      "es": "acostumbrarse (a)",
+      "cat": "Verbos con preposición",
+      "forms": "er gewöhnt sich, hat sich gewöhnt",
+      "ex": "Ich habe mich an das Essen hier gewöhnt.",
+      "ex_es": "Me he acostumbrado a la comida de aquí."
+    },
+    {
+      "de": "sich verstehen (mit + Dat.)",
+      "es": "llevarse bien (con)",
+      "cat": "Verbos con preposición",
+      "forms": "er versteht sich, verstand sich, hat sich verstanden",
+      "ex": "Ich verstehe mich gut mit meiner Schwiegermutter.",
+      "ex_es": "Me llevo bien con mi suegra."
+    },
+    {
+      "de": "sich unterhalten (mit + Dat. / über + Akk.)",
+      "es": "conversar (con / sobre)",
+      "cat": "Verbos con preposición",
+      "forms": "er unterhält sich, unterhielt sich, hat sich unterhalten",
+      "ex": "Wir haben uns lange über unsere Kindheit unterhalten.",
+      "ex_es": "Estuvimos hablando mucho rato sobre nuestra infancia."
+    },
+    {
+      "de": "sich entschuldigen (bei + Dat. / für + Akk.)",
+      "es": "disculparse (con / por)",
+      "cat": "Verbos con preposición",
+      "forms": "er entschuldigt sich, hat sich entschuldigt",
+      "ex": "Er hat sich bei mir für den Streit entschuldigt.",
+      "ex_es": "Se disculpó conmigo por la pelea."
+    },
+    {
+      "de": "sich bedanken (bei + Dat. / für + Akk.)",
+      "es": "dar las gracias (a / por)",
+      "cat": "Verbos con preposición",
+      "forms": "er bedankt sich, hat sich bedankt",
+      "ex": "Ich möchte mich bei euch für die Hilfe bedanken.",
+      "ex_es": "Quiero daros las gracias por la ayuda."
+    },
+    {
+      "de": "sich verabreden (mit + Dat.)",
+      "es": "quedar (con alguien)",
+      "cat": "Verbos con preposición",
+      "forms": "er verabredet sich, hat sich verabredet",
+      "ex": "Ich habe mich mit Leonie zum Joggen verabredet.",
+      "ex_es": "He quedado con Leonie para correr."
+    },
+    {
+      "de": "sich beschäftigen (mit + Dat.)",
+      "es": "ocuparse (de), dedicarse (a)",
+      "cat": "Verbos con preposición",
+      "forms": "er beschäftigt sich, hat sich beschäftigt",
+      "ex": "Am Wochenende beschäftige ich mich viel mit meinen Kindern.",
+      "ex_es": "El fin de semana me dedico mucho a mis hijos."
+    },
+    {
+      "de": "sich Sorgen machen (um + Akk.)",
+      "es": "preocuparse (por)",
+      "cat": "Verbos con preposición",
+      "forms": "er macht sich Sorgen, hat sich Sorgen gemacht",
+      "ex": "Meine Mutter macht sich Sorgen um meinen Vater.",
+      "ex_es": "Mi madre se preocupa por mi padre."
+    },
+    {
+      "de": "bitten (um + Akk.)",
+      "es": "pedir (algo)",
+      "cat": "Verbos con preposición",
+      "forms": "er bittet, bat, hat gebeten",
+      "ex": "Darf ich Sie um einen Rat bitten?",
+      "ex_es": "¿Puedo pedirle un consejo?"
+    },
+    {
+      "de": "träumen (von + Dat.)",
+      "es": "soñar (con)",
+      "cat": "Verbos con preposición",
+      "forms": "er träumt, hat geträumt",
+      "ex": "Sie träumt von einer großen Hochzeit.",
+      "ex_es": "Sueña con una gran boda."
+    },
+    {
+      "de": "abhängen (von + Dat.)",
+      "es": "depender (de)",
+      "cat": "Verbos con preposición",
+      "forms": "es hängt ab, hing ab, hat abgehangen",
+      "ex": "Ob wir kommen, hängt von meiner Arbeit ab.",
+      "ex_es": "Si venimos depende de mi trabajo."
+    },
+    {
+      "de": "sich sehnen (nach + Dat.)",
+      "es": "añorar, anhelar",
+      "cat": "Verbos con preposición",
+      "forms": "er sehnt sich, hat sich gesehnt",
+      "ex": "Im Winter sehne ich mich nach der Sonne in Spanien.",
+      "ex_es": "En invierno añoro el sol de España."
+    },
+    {
+      "de": "achten (auf + Akk.)",
+      "es": "prestar atención (a), vigilar",
+      "cat": "Verbos con preposición",
+      "forms": "er achtet, hat geachtet",
+      "ex": "Achte bitte auf deinen kleinen Bruder!",
+      "ex_es": "¡Vigila a tu hermano pequeño, por favor!"
+    },
+    {
+      "de": "sich wundern (über + Akk.)",
+      "es": "sorprenderse, extrañarse (de)",
+      "cat": "Verbos con preposición",
+      "forms": "er wundert sich, hat sich gewundert",
+      "ex": "Ich wundere mich über seine Reaktion.",
+      "ex_es": "Me extraña su reacción."
+    },
+    {
+      "de": "denken (an + Akk.)",
+      "es": "pensar (en), acordarse (de)",
+      "cat": "Verbos con preposición",
+      "forms": "er denkt, dachte, hat gedacht",
+      "ex": "Denk bitte an das Geschenk für Opa!",
+      "ex_es": "¡Acuérdate, por favor, del regalo para el abuelo!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "La familia y las relaciones",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "die Schwiegereltern",
+          "los suegros"
+        ],
+        [
+          "der Schwager",
+          "el cuñado"
+        ],
+        [
+          "die Nichte",
+          "la sobrina"
+        ],
+        [
+          "der Enkel",
+          "el nieto"
+        ],
+        [
+          "die Scheidung",
+          "el divorcio"
+        ],
+        [
+          "die Fernbeziehung",
+          "la relación a distancia"
+        ],
+        [
+          "vermissen",
+          "echar de menos"
+        ],
+        [
+          "eifersüchtig",
+          "celoso"
+        ],
+        [
+          "der Trauzeuge",
+          "el testigo de boda"
+        ],
+        [
+          "das Vertrauen",
+          "la confianza"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Qué preposición?",
+      "instructions": "Elige la preposición correcta.",
+      "items": [
+        {
+          "q": "Ich verlasse mich ganz ___ meine Schwester.",
+          "options": [
+            "an",
+            "auf",
+            "mit"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Hast du dich schon ___ das Wetter in Zürich gewöhnt?",
+          "options": [
+            "an",
+            "über",
+            "für"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Andrea träumt ___ einem Haus mit Garten.",
+          "options": [
+            "mit",
+            "an",
+            "von"
+          ],
+          "answer": 2,
+          "explain": "En español «soñar con», en alemán träumen von + dativo."
+        },
+        {
+          "q": "Ich verstehe mich sehr gut ___ meinem Schwager.",
+          "options": [
+            "mit",
+            "bei",
+            "zu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Das hängt ___ dem Wetter ab.",
+          "options": [
+            "an",
+            "von",
+            "auf"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Im Winter sehnt sie sich ___ dem Meer.",
+          "options": [
+            "um",
+            "für",
+            "nach"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Darf ich dich ___ einen Gefallen bitten?",
+          "options": [
+            "um",
+            "für",
+            "auf"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Er hat sich ___ seiner Freundin für den Streit entschuldigt.",
+          "options": [
+            "mit",
+            "bei",
+            "an"
+          ],
+          "answer": 1,
+          "explain": "sich entschuldigen bei (persona) + für (motivo)."
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Preposición y artículo",
+      "instructions": "Completa con la preposición y, si falta, la terminación del artículo o posesivo.",
+      "items": [
+        {
+          "text": "Ich denke oft [[an]] meine Großeltern in Córdoba."
+        },
+        {
+          "text": "Wir haben uns lange über d[[ie]] Hochzeit unterhalten. (die Hochzeit)"
+        },
+        {
+          "text": "Mein Vater macht sich immer Sorgen [[um]] mich."
+        },
+        {
+          "text": "Bitte achte [[auf]] die Kinder, ich gehe kurz einkaufen."
+        },
+        {
+          "text": "Ich habe mich mit mein[[er]] Cousine zum Mittagessen verabredet. (die Cousine)"
+        },
+        {
+          "text": "Wir bedanken uns [[für]] die schönen Geschenke."
+        },
+        {
+          "text": "Opa beschäftigt sich gern mit sein[[en]] Enkeln. (Plural)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "¿da- o preposición + pronombre?",
+      "instructions": "Cosa → da(r)- + preposición. Persona → preposición + pronombre. Elige.",
+      "items": [
+        {
+          "q": "Wartest du noch auf das Paket? – Ja, ich warte schon seit Tagen ___.",
+          "options": [
+            "darauf",
+            "auf ihn",
+            "auf es"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Wartest du auf deinen Bruder? – Ja, ich warte ___.",
+          "options": [
+            "darauf",
+            "auf ihn",
+            "worauf"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Denkst du oft an deine Oma? – Ja, ich denke oft ___.",
+          "options": [
+            "daran",
+            "an ihr",
+            "an sie"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Hast du an den Termin gedacht? – Nein, ich habe nicht ___ gedacht.",
+          "options": [
+            "an ihn",
+            "daran",
+            "woran"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Verstehst du dich gut mit deinen Kollegen? – Ja, ich verstehe mich sehr gut ___.",
+          "options": [
+            "mit ihnen",
+            "damit",
+            "mit sie"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Freust du dich auf den Urlaub? – Ja, ich freue mich sehr ___.",
+          "options": [
+            "auf ihn",
+            "darauf",
+            "worauf"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "gap",
+      "title": "da- + dass / zu",
+      "instructions": "Escribe la palabra con da- que anuncia la oración (darauf, daran, davon, darüber, dafür…).",
+      "items": [
+        {
+          "text": "Ich freue mich [[darauf]], dich am Wochenende zu sehen."
+        },
+        {
+          "text": "Ich habe mich [[daran]] gewöhnt, dass die Geschäfte am Sonntag zu sind."
+        },
+        {
+          "text": "Es hängt [[davon]] ab, ob mein Chef mir freigibt."
+        },
+        {
+          "text": "Er hat sich [[dafür]] entschuldigt, dass er den Geburtstag vergessen hat."
+        },
+        {
+          "text": "Wir haben lange [[darüber]] gesprochen, wo wir Weihnachten feiern."
+        },
+        {
+          "text": "Andrea träumt [[davon]], ein Jahr in Japan zu leben."
+        },
+        {
+          "text": "Denk bitte [[daran]], die Schwiegereltern anzurufen!"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "write",
+      "title": "Une las frases",
+      "instructions": "Une las dos frases con la palabra con da- y dass o zu, como se indica.",
+      "items": [
+        {
+          "prompt": "Ich freue mich. Du kommst zu meiner Hochzeit. (darauf, dass)",
+          "answers": [
+            "Ich freue mich darauf, dass du zu meiner Hochzeit kommst."
+          ]
+        },
+        {
+          "prompt": "Ich freue mich. Ich sehe meine Familie bald. (darauf, zu)",
+          "answers": [
+            "Ich freue mich darauf, meine Familie bald zu sehen."
+          ]
+        },
+        {
+          "prompt": "Sie hat sich gewöhnt. Sie steht jeden Tag um sechs auf. (daran, zu)",
+          "answers": [
+            "Sie hat sich daran gewöhnt, jeden Tag um sechs aufzustehen."
+          ]
+        },
+        {
+          "prompt": "Er hat sich entschuldigt. Er ist zu spät gekommen. (dafür, dass)",
+          "answers": [
+            "Er hat sich dafür entschuldigt, dass er zu spät gekommen ist."
+          ]
+        },
+        {
+          "prompt": "Es hängt ab. Wir haben Zeit. (davon, ob)",
+          "answers": [
+            "Es hängt davon ab, ob wir Zeit haben."
+          ]
+        },
+        {
+          "prompt": "Meine Eltern haben sich gefreut. Wir haben sie besucht. (darüber, dass)",
+          "answers": [
+            "Meine Eltern haben sich darüber gefreut, dass wir sie besucht haben."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "words": [
+            "Ich",
+            "habe",
+            "mich",
+            "daran",
+            "gewöhnt",
+            ",",
+            "früh",
+            "aufzustehen",
+            "."
+          ],
+          "answers": [
+            "Ich habe mich daran gewöhnt, früh aufzustehen."
+          ]
+        },
+        {
+          "words": [
+            "Wir",
+            "freuen",
+            "uns",
+            "darauf",
+            ",",
+            "dass",
+            "ihr",
+            "kommt",
+            "."
+          ],
+          "answers": [
+            "Wir freuen uns darauf, dass ihr kommt."
+          ]
+        },
+        {
+          "words": [
+            "Worüber",
+            "habt",
+            "ihr",
+            "euch",
+            "gestritten",
+            "?"
+          ],
+          "answers": [
+            "Worüber habt ihr euch gestritten?"
+          ]
+        },
+        {
+          "words": [
+            "Mit",
+            "wem",
+            "verstehst",
+            "du",
+            "dich",
+            "am",
+            "besten",
+            "?"
+          ],
+          "answers": [
+            "Mit wem verstehst du dich am besten?"
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "weiß",
+            "nicht",
+            ",",
+            "worauf",
+            "er",
+            "wartet",
+            "."
+          ],
+          "answers": [
+            "Ich weiß nicht, worauf er wartet."
+          ]
+        },
+        {
+          "words": [
+            "Auf",
+            "meinen",
+            "Bruder",
+            "kann",
+            "ich",
+            "mich",
+            "verlassen",
+            "."
+          ],
+          "answers": [
+            "Auf meinen Bruder kann ich mich verlassen.",
+            "Ich kann mich auf meinen Bruder verlassen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "mc",
+      "title": "Preguntas con wo- y wen/wem",
+      "instructions": "Elige la palabra interrogativa correcta.",
+      "items": [
+        {
+          "q": "___ hast du dich gestritten? – Mit meinem Bruder.",
+          "options": [
+            "Worüber",
+            "Mit wem",
+            "Womit"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "___ habt ihr euch gestritten? – Über das Geld.",
+          "options": [
+            "Worüber",
+            "Über wen",
+            "Wofür"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "___ träumst du? – Von einer Reise nach Japan.",
+          "options": [
+            "Von wem",
+            "Woran",
+            "Wovon"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "___ machst du dir Sorgen? – Um meine Oma, sie ist krank.",
+          "options": [
+            "Worum",
+            "Um wen",
+            "Wofür"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "___ musst du dich noch gewöhnen? – An das frühe Abendessen.",
+          "options": [
+            "Woran",
+            "An wen",
+            "Worauf"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "___ hat er sich entschuldigt? – Bei seiner Chefin.",
+          "options": [
+            "Wofür",
+            "Bei wem",
+            "Wobei"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "gap",
+      "title": "La declinación n",
+      "instructions": "Escribe la terminación que falta (o nada, si no hace falta: escribe -).",
+      "items": [
+        {
+          "text": "Kennst du schon den neuen Kolleg[[en]]?"
+        },
+        {
+          "text": "Mein Neffe[[-]] ist gerade vier geworden.",
+          "note": "Nominativo singular: sin -n."
+        },
+        {
+          "text": "Wir haben unserem Neffe[[n]] ein Fahrrad geschenkt."
+        },
+        {
+          "text": "Ich habe mit dem Nachbar[[n]] über den Lärm gesprochen."
+        },
+        {
+          "text": "Die Firma sucht einen Praktikant[[en]] für sechs Monate."
+        },
+        {
+          "text": "Sehr geehrter Herr[[-]] Meier, …"
+        },
+        {
+          "text": "Bitte geben Sie das Paket Herr[[n]] Meier."
+        },
+        {
+          "text": "Sie ist ein sehr offener Mensch, und ich mag diesen Mensch[[en]] sehr."
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán. Cuidado con la declinación n.",
+      "items": [
+        {
+          "prompt": "He conocido al compañero nuevo.",
+          "answers": [
+            "Ich habe den neuen Kollegen kennengelernt."
+          ]
+        },
+        {
+          "prompt": "Ayudo a mi vecino. (helfen + dativo)",
+          "answers": [
+            "Ich helfe meinem Nachbarn."
+          ]
+        },
+        {
+          "prompt": "El becario es muy simpático.",
+          "answers": [
+            "Der Praktikant ist sehr nett.",
+            "Der Praktikant ist sehr sympathisch."
+          ]
+        },
+        {
+          "prompt": "Le hemos comprado un libro a nuestro sobrino.",
+          "answers": [
+            "Wir haben unserem Neffen ein Buch gekauft."
+          ]
+        },
+        {
+          "prompt": "Me llevo bien con mi cuñado.",
+          "answers": [
+            "Ich verstehe mich gut mit meinem Schwager."
+          ]
+        },
+        {
+          "prompt": "Te echo de menos. (du)",
+          "answers": [
+            "Ich vermisse dich."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "listen",
+      "title": "Conversaciones familiares",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Kommt dein Bruder am Samstag auch zum Fest?"
+            },
+            {
+              "v": "m1",
+              "t": "Das hängt davon ab, ob er einen Babysitter findet. Seine Frau arbeitet am Samstag."
+            }
+          ],
+          "q": "¿De qué depende que venga el hermano?",
+          "options": [
+            "Del trabajo de él",
+            "De encontrar a alguien que cuide a los niños",
+            "Del tiempo"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Wie geht's dir in Zürich?"
+            },
+            {
+              "v": "f2",
+              "t": "Gut! Nur an die Preise habe ich mich noch nicht gewöhnt. Und ich vermisse meine Freunde in Sevilla."
+            }
+          ],
+          "q": "¿A qué no se ha acostumbrado todavía?",
+          "options": [
+            "A los precios",
+            "Al idioma",
+            "Al tiempo"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Ich habe mich gestern mit meiner Schwester gestritten."
+            },
+            {
+              "v": "m1",
+              "t": "Worüber denn?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Darüber, wer sich um unsere Mutter kümmert. Sie ist seit ihrer Operation allein zu Hause."
+            }
+          ],
+          "q": "¿Por qué discutieron las hermanas?",
+          "options": [
+            "Por dinero",
+            "Por una operación",
+            "Por quién cuida de su madre"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hallo Andrea, hier ist José. Ich wollte mich nur dafür entschuldigen, dass ich gestern so schlecht gelaunt war. Ich hatte viel Stress im Labor. Heute koche ich für uns, versprochen!"
+            }
+          ],
+          "q": "¿Por qué se disculpa José?",
+          "options": [
+            "Por llegar tarde",
+            "Por estar de mal humor",
+            "Por no cocinar"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Unser neuer Praktikant ist wirklich super. Ich habe dem Praktikanten heute gleich ein eigenes Projekt gegeben."
+            },
+            {
+              "v": "at-m",
+              "t": "Echt? Schon am ersten Tag?"
+            }
+          ],
+          "q": "¿Qué ha hecho la mujer?",
+          "options": [
+            "Le ha dado un proyecto propio al becario",
+            "Ha contratado a un becario",
+            "Ha dejado su proyecto"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Ich freue mich darauf, dich zu sehen."
+            }
+          ],
+          "answers": [
+            "Ich freue mich darauf, dich zu sehen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Auf meine Freunde kann ich mich verlassen."
+            }
+          ],
+          "answers": [
+            "Auf meine Freunde kann ich mich verlassen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Kennst du den neuen Kollegen?"
+            }
+          ],
+          "answers": [
+            "Kennst du den neuen Kollegen?"
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Meine Eltern haben sich scheiden lassen."
+            }
+          ],
+          "answers": [
+            "Meine Eltern haben sich scheiden lassen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Ich vermisse meine Familie in Spanien."
+            }
+          ],
+          "answers": [
+            "Ich vermisse meine Familie in Spanien."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Zwei Jahre, 2300 Kilometer – unsere Fernbeziehung",
+          "text": "Vor zwei Jahren habe ich Tiago auf einer Konferenz in Lissabon kennengelernt. Ich wohne in Wien, er in Lissabon. Damals haben alle meine Freundinnen gesagt: „Eine Fernbeziehung? Das hält nie!“ Heute sind wir immer noch zusammen, und ich möchte euch erzählen, wie wir das machen.\n\nAm wichtigsten ist für uns die Kommunikation. Wir telefonieren jeden Abend per Video, auch wenn es manchmal nur zehn Minuten sind. Am Anfang haben wir oft gestritten, weil wir uns am Telefon falsch verstanden haben. Inzwischen haben wir gelernt, schwierige Themen lieber persönlich zu besprechen.\n\nWir sehen uns ungefähr einmal im Monat, meistens für ein langes Wochenende. Die Flüge sind leider nicht billig, deshalb buchen wir immer schon zwei Monate im Voraus. Einmal im Jahr machen wir zusammen Urlaub, letzten Sommer waren wir in Kroatien.\n\nNatürlich ist nicht alles schön. Am schwierigsten finde ich die Sonntagabende, wenn einer von uns wieder zum Flughafen muss. Und bei Familienfesten bin ich oft allein: Meine Oma fragt jedes Mal, ob es Tiago wirklich gibt!\n\nAber eine Fernbeziehung hat auch Vorteile. Wir streiten nie über Alltagsdinge wie den Abwasch, und jedes Wiedersehen ist etwas Besonderes. Außerdem habe ich in diesen zwei Jahren ziemlich gut Portugiesisch gelernt.\n\nUnd wie geht es weiter? Tiago hat sich bei einer Firma in Wien beworben, und nächste Woche hat er ein Vorstellungsgespräch. Ich freue mich so sehr darauf, dass wir vielleicht bald in derselben Stadt wohnen! Drückt uns die Daumen!\n\nEure Mirjam",
+          "statements": [
+            {
+              "s": "Mirjams Freundinnen haben am Anfang nicht an die Beziehung geglaubt.",
+              "answer": true
+            },
+            {
+              "s": "Mirjam und Tiago telefonieren nur am Wochenende.",
+              "answer": false
+            },
+            {
+              "s": "Über schwierige Themen sprechen die beiden heute lieber, wenn sie sich sehen.",
+              "answer": true
+            },
+            {
+              "s": "Die Flüge buchen sie immer kurz vorher, weil das billiger ist.",
+              "answer": false
+            },
+            {
+              "s": "Mirjams Oma hat Tiago schon oft getroffen.",
+              "answer": false
+            },
+            {
+              "s": "Tiago möchte vielleicht in Wien arbeiten.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "title": "E-Mail von Stefan",
+          "text": "Hallo Ali,\n\nlange nichts von dir gehört! Wie läuft es mit dem neuen Job in Hamburg? Bei mir ist in den letzten Wochen viel passiert, und ich muss dir unbedingt davon erzählen.\n\nDu weißt ja, dass mein Vater seit drei Jahren mit Monika zusammen ist. Am Samstag haben die beiden geheiratet! Es war nur eine kleine Feier im Garten, mit etwa dreißig Gästen. Ich war sogar Trauzeuge. Ehrlich gesagt war ich vorher ziemlich nervös, weil ich eine Rede halten musste. Aber es hat alles gut geklappt, und mein Vater hatte am Ende Tränen in den Augen.\n\nMonika hat zwei Kinder: Lina ist 14 und Jonas 17. Am Anfang war es für mich komisch, plötzlich zwei Stiefgeschwister zu haben. Mit Jonas verstehe ich mich inzwischen richtig gut, wir spielen zusammen Fußball im Verein. Lina ist noch etwas schüchtern, aber letzte Woche hat sie mich um Hilfe bei ihren Mathe-Hausaufgaben gebeten. Das war ein guter Anfang, finde ich.\n\nMeine Mutter war übrigens nicht bei der Hochzeit. Sie ist nicht wütend auf meinen Vater, aber sie meinte, dass es so für alle einfacher ist. Ich kann sie verstehen. Sie hat ja auch einen neuen Partner und ist sehr glücklich mit ihm.\n\nIm Sommer machen wir alle zusammen eine Woche Urlaub am Gardasee. Ich bin gespannt, ob das gut geht – sechs Leute in einem Ferienhaus! Hast du nicht Lust, uns ein paar Tage zu besuchen? Es gibt sogar ein Gästezimmer.\n\nViele Grüße\nStefan",
+          "statements": [
+            {
+              "s": "Stefans Vater und Monika haben mit einem großen Fest geheiratet.",
+              "answer": false
+            },
+            {
+              "s": "Stefan hatte bei der Hochzeit eine Aufgabe, die ihn nervös gemacht hat.",
+              "answer": true
+            },
+            {
+              "s": "Stefan und Jonas haben ein gemeinsames Hobby.",
+              "answer": true
+            },
+            {
+              "s": "Lina hat Stefan um Hilfe gebeten.",
+              "answer": true
+            },
+            {
+              "s": "Stefans Mutter ist nicht zur Hochzeit gekommen, weil sie sich über ihren Ex-Mann geärgert hat.",
+              "answer": false
+            },
+            {
+              "s": "Ali soll im Sommer ein Hotel am Gardasee buchen.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Ohne Oma und Opa geht es nicht",
+          "text": "In der Schweiz betreuen Großeltern ihre Enkelkinder jedes Jahr rund 160 Millionen Stunden lang – mehr als alle Kitas zusammen. Das zeigt eine neue Studie einer Hochschule in Luzern. Vor allem Familien mit zwei berufstätigen Eltern sind auf die Hilfe von Oma und Opa angewiesen. Ein Kitaplatz kostet in Zürich schnell 2500 Franken im Monat. Für viele Familien wäre das ohne die Großeltern kaum bezahlbar.\n\nFür viele Großeltern ist die Betreuung eine Freude. „Der Mittwoch mit meinen Enkeln ist der schönste Tag der Woche“, sagt die 68-jährige Verena Studer aus Kriens. Seit ihrer Pensionierung holt sie ihre zwei Enkel jede Woche von der Schule ab, kocht für sie und hilft bei den Hausaufgaben.\n\nDie Studie zeigt aber auch Probleme. Rund ein Viertel der Großeltern fühlt sich manchmal überfordert. Viele trauen sich nicht, Nein zu sagen, weil sie ihre Kinder nicht enttäuschen wollen. Konflikte gibt es vor allem bei der Erziehung: Die Großeltern sind oft großzügiger mit Süßigkeiten und Zeit am Bildschirm, als es den Eltern lieb ist.\n\nDie Autorinnen der Studie empfehlen deshalb klare Absprachen: Wie viele Tage pro Woche? Was passiert in den Ferien? Und welche Regeln gelten? „Wer früh darüber spricht, vermeidet später Streit“, sagt Studienleiterin Petra Keller.",
+          "questions": [
+            {
+              "q": "Was zeigt die Studie?",
+              "options": [
+                "Großeltern betreuen mehr Stunden als die Kitas.",
+                "Kitas sind in der Schweiz günstig.",
+                "Immer weniger Großeltern helfen ihren Kindern."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was erfahren wir über Verena Studer?",
+              "options": [
+                "Sie arbeitet in einer Kita.",
+                "Sie verbringt jeden Mittwoch mit ihren Enkeln.",
+                "Sie hilft ihrer Tochter im Haushalt."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Worüber gibt es oft Konflikte?",
+              "options": [
+                "Über das Geld für die Betreuung.",
+                "Über die Ferien der Großeltern.",
+                "Über die Regeln für die Kinder."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Neu in der Stadt: Wie Erwachsene Freunde finden",
+          "text": "Wer als Erwachsener in eine neue Stadt zieht, kennt das Problem: Die Kollegen sind nett, aber nach Feierabend gehen alle nach Hause. Laut einer Umfrage unter Zugezogenen in Zürich dauert es im Durchschnitt mehr als drei Jahre, bis man echte Freundschaften mit Einheimischen schließt.\n\nDie Psychologin Daniela Frey erklärt das so: „Als Kind oder als Student sieht man dieselben Menschen jeden Tag, ganz ohne Plan. Erwachsene haben dagegen volle Kalender, Familie und wenig Zeit. Freundschaften entstehen aber durch regelmäßigen Kontakt.“ Ihr Rat: sich nicht auf einzelne Treffen verlassen, sondern etwas Regelmäßiges suchen – einen Chor, einen Sportverein oder einen Sprachkurs.\n\nGenau das hat der Spanier Rubén Ortega gemacht. Als er vor zwei Jahren für seine Arbeit nach Zürich kam, kannte er niemanden. „Am Anfang habe ich mich nur mit anderen Expats getroffen, aber ich wollte auch Schweizer kennenlernen“, erzählt er. Heute spielt er jeden Dienstag Volleyball in einem Quartierverein. Am Anfang hat er nur wenig verstanden, denn im Team sprechen alle Schweizerdeutsch. „Nach dem Training gehen wir immer noch etwas trinken. Inzwischen haben mich zwei aus dem Team sogar zu ihren Familien eingeladen.“\n\nFrey rät außerdem zu Geduld: „Viele geben nach ein paar Monaten auf. Aber Freundschaft braucht Zeit – überall, nicht nur in der Schweiz.“",
+          "questions": [
+            {
+              "q": "Was sagt die Umfrage?",
+              "options": [
+                "Neue Einwohner finden in Zürich schnell Freunde.",
+                "Es dauert lange, bis man mit Einheimischen befreundet ist.",
+                "Aus Kollegen werden oft Freunde."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was empfiehlt Daniela Frey?",
+              "options": [
+                "Eine regelmäßige Aktivität in einer Gruppe.",
+                "Möglichst viele Partys besuchen.",
+                "Mehr Zeit mit den Kollegen verbringen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was erzählt Rubén Ortega?",
+              "options": [
+                "Er trifft sich bis heute nur mit anderen Expats.",
+                "Er hat in einem Sprachkurs Freunde gefunden.",
+                "Durch den Sport hat er Kontakt zu Schweizern bekommen."
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Familienberatung der Stadt: kostenlose Gespräche bei Konflikten in der Familie, zum Beispiel zwischen Eltern und Jugendlichen. Termine auch am Abend."
+            },
+            {
+              "key": "b",
+              "text": "Praxis Lehmann – Paartherapie: professionelle Hilfe für Paare in der Krise, auf Deutsch und Englisch. Die Krankenkasse übernimmt die Kosten nicht."
+            },
+            {
+              "key": "c",
+              "text": "Babysitter-Börse Zürich: Wir vermitteln zuverlässige Babysitter, auch kurzfristig. Babysitter-Kurse für Jugendliche ab 13 Jahren."
+            },
+            {
+              "key": "d",
+              "text": "Tandem-Treff: Deutsch gegen Spanisch, Italienisch, Englisch … Jeden Donnerstag im Café Sprachwerk. Lernen Sie neue Leute kennen!"
+            },
+            {
+              "key": "e",
+              "text": "Partyservice „Fest & Feier“: Wir organisieren Ihre Familienfeier – Hochzeit, Taufe oder runder Geburtstag. Essen, Dekoration und Musik aus einer Hand."
+            },
+            {
+              "key": "f",
+              "text": "Besuchsdienst für Senioren: Freiwillige besuchen ältere Menschen, die allein leben, einmal pro Woche zum Plaudern, Spazieren oder Spielen."
+            },
+            {
+              "key": "g",
+              "text": "Kurs „Gut streiten“: An zwei Samstagen lernen Paare, wie sie fair über Probleme sprechen. Volkshochschule, 120 Franken pro Paar."
+            },
+            {
+              "key": "h",
+              "text": "Spielgruppe „Zwergenhaus“: für Kinder von 3 bis 5 Jahren, zwei Vormittage pro Woche. Eltern lernen andere Eltern kennen."
+            },
+            {
+              "key": "i",
+              "text": "Fotostudio Licht: Familienfotos im Studio oder draußen – mit Großeltern, Kindern und Hund. Gutscheine als Geschenk erhältlich."
+            },
+            {
+              "key": "j",
+              "text": "Wandergruppe „Gemeinsam unterwegs“ für Singles zwischen 30 und 50: jeden zweiten Sonntag eine Tour in den Voralpen."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Sie möchten Ihren Großeltern zur goldenen Hochzeit etwas Besonderes schenken.",
+              "answer": "i"
+            },
+            {
+              "situation": "Ihre Nachbarin ist 82, lebt allein und bekommt fast nie Besuch.",
+              "answer": "f"
+            },
+            {
+              "situation": "Sie und Ihr Partner streiten oft. Sie möchten lernen, besser miteinander zu reden, aber keine Therapie machen.",
+              "answer": "g"
+            },
+            {
+              "situation": "Ihre Kollegin ist neu in Zürich, hat keinen Partner und möchte am Wochenende in der Natur Leute kennenlernen.",
+              "answer": "j"
+            },
+            {
+              "situation": "Ihr Sohn ist 15 und möchte als Babysitter Geld verdienen. Vorher möchte er aber etwas darüber lernen.",
+              "answer": "c"
+            },
+            {
+              "situation": "Ihre Schwester sucht für ihre einjährige Tochter einen Betreuungsplatz.",
+              "answer": "x"
+            },
+            {
+              "situation": "Ihre Tochter (16) und Ihr Mann streiten jeden Tag. Sie möchten mit einer Fachperson sprechen, aber es darf nichts kosten.",
+              "answer": "a"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Eltern pflegen – Aufgabe der Kinder?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über die Pflege von alten Eltern.",
+          "question": "Ist die Person dafür, dass erwachsene Kinder ihre alten Eltern selbst pflegen?",
+          "comments": [
+            {
+              "name": "Regula, 55, Aarau",
+              "text": "Ich habe meine Mutter drei Jahre lang zu Hause gepflegt, neben meinem Job. Am Ende war ich selbst krank vor Erschöpfung. Liebe allein reicht nicht, man braucht auch Fachwissen. Heute lebt meine Mutter in einem guten Pflegeheim, und ich besuche sie dreimal pro Woche. Unser Verhältnis ist jetzt viel besser als vorher. Ich kann niemandem raten, das allein zu machen.",
+              "answer": false
+            },
+            {
+              "name": "Emre, 38, Köln",
+              "text": "In meiner Familie ist es selbstverständlich, dass man sich um die Eltern kümmert. Meine Großmutter wohnt bei meinen Eltern, und wir Enkel helfen alle mit. Natürlich ist das manchmal anstrengend. Aber meine Oma hat sich ihr ganzes Leben um uns gekümmert, jetzt sind wir dran. In einem Heim wäre sie sehr einsam, davon bin ich überzeugt.",
+              "answer": true
+            },
+            {
+              "name": "Sabine, 47, Salzburg",
+              "text": "Einerseits verstehe ich jeden, der seine Eltern nicht ins Heim geben will. Andererseits muss man ehrlich sein: Die meisten von uns arbeiten Vollzeit und haben eigene Kinder. Wie soll das gehen? Ich finde, Pflege ist eine Aufgabe für Profis. Die Familie sollte für Besuche, Gespräche und Ausflüge da sein, nicht für das Waschen und die Medikamente.",
+              "answer": false
+            },
+            {
+              "name": "Walter, 70, Bern",
+              "text": "Ich bin selbst schon alt und denke viel über dieses Thema nach. Ins Heim möchte ich auf keinen Fall. Meine Tochter wohnt zum Glück im selben Dorf. Wir haben schon darüber gesprochen, und sie hat versprochen, sich später um mich zu kümmern, mit Unterstützung der Spitex. So eine Lösung finde ich ideal: Die Familie pflegt, und Fachleute helfen dabei.",
+              "answer": true
+            },
+            {
+              "name": "Paula, 29, Leipzig",
+              "text": "Meine Eltern sind noch fit, aber ich mache mir manchmal Gedanken. Ich wohne 500 Kilometer entfernt und habe nicht vor, zurückzuziehen. Ich liebe meine Eltern, aber ich habe mir hier mein eigenes Leben aufgebaut. Der Staat muss dafür sorgen, dass es genug gute und bezahlbare Heime gibt. Das ist fairer, als von den Kindern alles zu erwarten.",
+              "answer": false
+            },
+            {
+              "name": "Giulia, 41, Chur",
+              "text": "Als mein Vater nach seinem Schlaganfall nicht mehr allein leben konnte, haben wir lange diskutiert. Ein Heim war uns zu teuer und zu unpersönlich. Jetzt wohnt er bei uns, und meine Kinder verbringen viel Zeit mit ihrem Opa. Es gibt schwierige Tage, das will ich nicht verschweigen. Trotzdem würde ich mich immer wieder so entscheiden.",
+              "answer": true
+            },
+            {
+              "name": "Thomas, 52, Graz",
+              "text": "Pflege zu Hause klingt romantisch, aber in der Realität sind es fast immer die Töchter, die dafür ihren Job aufgeben. Das ist nicht gerecht. Meine Schwester hat für unsere Mutter ihre Stelle gekündigt, und heute bekommt sie kaum eine Rente. Ich bin sehr froh, dass wir für meinen Vater einen Platz in einem kleinen, familiären Heim gefunden haben.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Gemeinschaftsraum der Siedlung Sonnenhalde – Benutzungsregeln",
+          "text": "Der Gemeinschaftsraum im Erdgeschoss von Haus B kann von allen Mieterinnen und Mietern für private Feste (Geburtstage, Familienfeiern usw.) gemietet werden.\n\nReservierung: Reservierungen sind frühestens sechs Monate und spätestens zwei Wochen vor dem Fest möglich. Bitte reservieren Sie online über das Mieterportal. Jeder Haushalt kann den Raum höchstens viermal pro Jahr mieten.\n\nKosten: Die Miete beträgt 60 Franken pro Tag, inklusive Reinigung der Küche. Für Feiern mit mehr als 40 Personen wird ein Zuschlag von 30 Franken verlangt. Maximal dürfen sich 60 Personen im Raum aufhalten.\n\nSchlüssel: Den Schlüssel erhalten Sie am Vortag zwischen 18 und 19 Uhr beim Hauswart, Herrn Gashi. Er muss am Tag nach dem Fest bis 10 Uhr zurückgegeben werden.\n\nRuhezeiten: Ab 22 Uhr müssen Fenster und Türen geschlossen bleiben. Um 24 Uhr muss die Feier beendet sein. Rauchen ist im ganzen Raum und auf der Terrasse verboten.\n\nNach dem Fest: Tische und Stühle müssen gereinigt und wieder aufgestellt werden. Der Abfall muss getrennt und selbst entsorgt werden. Ist der Raum nicht sauber, wird eine zusätzliche Reinigung (mindestens 80 Franken) in Rechnung gestellt.\n\nSchäden: Schäden müssen sofort dem Hauswart gemeldet werden.",
+          "questions": [
+            {
+              "q": "Sie möchten Ihren Geburtstag am 20. Juni feiern. Bis wann müssen Sie spätestens reservieren?",
+              "options": [
+                "Bis zum 20. Mai.",
+                "Bis zum 6. Juni.",
+                "Bis zum 19. Juni."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Sie erwarten 50 Gäste. Wie viel kostet der Raum?",
+              "options": [
+                "60 Franken.",
+                "140 Franken.",
+                "90 Franken."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was gilt für die Feier?",
+              "options": [
+                "Um Mitternacht muss das Fest zu Ende sein.",
+                "Auf der Terrasse darf man rauchen.",
+                "Ab 22 Uhr darf keine Musik mehr laufen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was müssen die Mieter nach dem Fest machen?",
+              "options": [
+                "Den Schlüssel noch am selben Abend zurückgeben.",
+                "Den Abfall selbst wegbringen.",
+                "Die Küche putzen."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hallo Martin, hier ist Clara. Du, wegen Mamas Geburtstag am Sonntag: Wir treffen uns doch nicht bei mir, sondern im Restaurant Linde, um zwölf Uhr. Ich habe einen Tisch für acht Personen reserviert. Kannst du bitte die Torte beim Bäcker abholen? Bezahlt habe ich sie schon. Ruf mich kurz zurück, ja? Tschüss!"
+            }
+          ],
+          "statement": "Das Geburtstagsessen findet bei Clara zu Hause statt.",
+          "tf": false,
+          "q": "Was soll Martin machen?",
+          "options": [
+            "Die Torte abholen.",
+            "Einen Tisch reservieren.",
+            "Die Torte bezahlen."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Und nun zu unserem Thema heute Nachmittag: Großeltern. Immer mehr Großeltern kümmern sich regelmäßig um ihre Enkel. Wie ist das bei Ihnen? Ist das für Sie eine Freude oder manchmal auch Stress? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Die schönsten Geschichten lesen wir nach den Nachrichten um 16 Uhr vor."
+            }
+          ],
+          "statement": "Die Hörer können von ihren Erfahrungen mit Großeltern erzählen.",
+          "tf": true,
+          "q": "Was passiert nach den Nachrichten?",
+          "options": [
+            "Ein Experte spricht über Großeltern.",
+            "Einige Nachrichten der Hörer werden vorgelesen.",
+            "Es gibt ein Gewinnspiel."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Liebe Besucherinnen und Besucher, heute ist Familientag im Zoo: Kinder unter 16 Jahren haben in Begleitung eines Erwachsenen freien Eintritt. Um 14 Uhr können Sie im Elefantenpark bei der Fütterung zuschauen. Bitte beachten Sie: Der Spielplatz beim Haupteingang ist heute wegen Bauarbeiten geschlossen. Ein zweiter Spielplatz befindet sich beim Restaurant."
+            }
+          ],
+          "statement": "Heute müssen Kinder unter 16 Jahren keinen Eintritt bezahlen.",
+          "tf": true,
+          "q": "Was ist heute nicht möglich?",
+          "options": [
+            "Den Elefanten beim Fressen zuschauen.",
+            "Im Restaurant essen.",
+            "Auf dem Spielplatz am Eingang spielen."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Grüß Gott, Frau Berger, hier spricht Huber vom Standesamt Innsbruck. Es geht um Ihren Hochzeitstermin am 14. Juni. Leider fehlt uns noch die Geburtsurkunde Ihres Verlobten. Bitte bringen Sie sie bis spätestens Ende April vorbei. Die Trauzeugen brauchen übrigens keine Dokumente, nur einen Ausweis. Wir sind von Montag bis Freitag von 8 bis 12 Uhr für Sie da."
+            }
+          ],
+          "statement": "Die Trauzeugen müssen mehrere Dokumente mitbringen.",
+          "tf": false,
+          "q": "Was fehlt dem Standesamt noch?",
+          "options": [
+            "Der Ausweis von Frau Berger.",
+            "Ein Dokument von ihrem Partner.",
+            "Die Unterschrift der Trauzeugen."
+          ],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie sind bei einem Informationsabend im Familienzentrum Ihres Quartiers.",
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Guten Abend, liebe Eltern, und herzlich willkommen im Familienzentrum! Ich bin Barbara Graf und leite das Zentrum seit vier Jahren. Heute möchte ich Ihnen kurz zeigen, was wir alles anbieten. Danach haben Sie Zeit für Fragen, und es gibt Kaffee und Kuchen."
+            },
+            {
+              "v": "ch-f",
+              "t": "Das Familienzentrum ist ein Treffpunkt für alle Familien im Quartier, egal woher sie kommen und welche Sprache sie sprechen. Die meisten Angebote sind gratis. Nur für die Kurse bezahlen Sie einen kleinen Beitrag."
+            },
+            {
+              "v": "ch-f",
+              "t": "Jeden Morgen von neun bis elf ist unser Café offen. Hier treffen sich vor allem Mütter und Väter mit Babys und kleinen Kindern. Die Kinder spielen im Spielzimmer, und die Eltern können sich in Ruhe unterhalten. Viele Freundschaften haben hier angefangen."
+            },
+            {
+              "v": "ch-f",
+              "t": "Am Dienstagnachmittag gibt es die Elternberatung. Eine Pflegefachfrau beantwortet Fragen zu Schlaf, Essen oder zur Entwicklung Ihres Kindes. Dafür brauchen Sie keinen Termin, kommen Sie einfach vorbei."
+            },
+            {
+              "v": "ch-f",
+              "t": "Neu haben wir seit diesem Herbst einen Deutschkurs für Eltern. Der Kurs findet am Donnerstagvormittag statt, und während des Unterrichts werden die Kinder bei uns betreut. Es gibt noch drei freie Plätze."
+            },
+            {
+              "v": "ch-f",
+              "t": "Und dann suchen wir dringend Freiwillige! Für unseren Mittagstisch am Freitag brauchen wir Leute, die gern kochen. Sie müssen keine Profis sein. Wer Lust hat, kann sich heute Abend gleich in die Liste eintragen."
+            },
+            {
+              "v": "ch-f",
+              "t": "Zum Schluss noch etwas Wichtiges: Im Dezember bleibt das Zentrum wegen einer Renovierung zwei Wochen geschlossen. Die genauen Daten finden Sie auf unserer Webseite. So, jetzt freue ich mich auf Ihre Fragen."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was kosten die Angebote des Familienzentrums?",
+              "options": [
+                "Alle Angebote kosten etwas.",
+                "Die meisten Angebote sind kostenlos.",
+                "Nur das Café ist gratis."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was können Eltern im Café machen?",
+              "options": [
+                "Sich mit anderen Eltern unterhalten.",
+                "Einen Kurs besuchen.",
+                "Mit einer Beraterin sprechen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was gilt für die Elternberatung?",
+              "options": [
+                "Man muss sich vorher anmelden.",
+                "Sie findet am Freitag statt.",
+                "Man kann ohne Termin kommen."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was ist beim Deutschkurs besonders?",
+              "options": [
+                "Er ist schon ganz voll.",
+                "Die Kinder werden während des Kurses betreut.",
+                "Er findet am Abend statt."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wofür sucht das Zentrum Freiwillige?",
+              "options": [
+                "Für die Renovierung.",
+                "Für die Kinderbetreuung.",
+                "Zum Kochen."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "intro": "Sie nehmen in Wien an einer Stadtführung zum Thema „Liebe und Heiraten“ teil.",
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Herzlich willkommen zu unserer Führung „Liebe in Wien“! Mein Name ist Florian, und ich zeige Ihnen in den nächsten neunzig Minuten Orte, die mit berühmten Paaren und Hochzeiten zu tun haben. Wir gehen alles zu Fuß, die Wege sind kurz."
+            },
+            {
+              "v": "at-m",
+              "t": "Wir stehen hier vor dem Stephansdom. Hier hat Wolfgang Amadeus Mozart im Jahr 1782 seine Constanze geheiratet. Mozarts Vater war gegen die Ehe, und sein Brief mit der Erlaubnis kam erst einen Tag nach der Hochzeit an."
+            },
+            {
+              "v": "at-m",
+              "t": "Damals hat man meistens nicht aus Liebe geheiratet. In reichen Familien ging es vor allem um Geld und Macht. Oft haben die Eltern entschieden, wer wen heiratet. Eine Liebesheirat wie bei Mozart war eher die Ausnahme."
+            },
+            {
+              "v": "at-m",
+              "t": "Gehen wir weiter zur Hofburg. Hier hat Kaiserin Sisi gewohnt. Sie war erst sechzehn, als sie Kaiser Franz Joseph heiratete. Eigentlich sollte der Kaiser ihre ältere Schwester Helene heiraten, aber er hat sich in Sisi verliebt."
+            },
+            {
+              "v": "at-m",
+              "t": "Glücklich war die Ehe aber nicht. Sisi fühlte sich am Hof sehr einsam, und sie hatte oft Streit mit ihrer Schwiegermutter. Deshalb ist sie später viel gereist und war oft monatelang nicht in Wien."
+            },
+            {
+              "v": "at-m",
+              "t": "Und heute? Heute heiraten in Wien jedes Jahr Tausende Paare. Sehr beliebt ist das Standesamt im Schloss Schönbrunn, aber dort muss man oft ein Jahr im Voraus reservieren."
+            },
+            {
+              "v": "at-m",
+              "t": "Unsere letzte Station ist ein kleines Kaffeehaus hinter der Oper. Dort hat sich, so sagt man, schon so manches Paar verlobt. Bei einem Stück Sachertorte erzähle ich Ihnen noch ein paar lustige Geschichten. Die Torte ist übrigens im Preis inbegriffen!"
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wie bewegt sich die Gruppe durch die Stadt?",
+              "options": [
+                "Mit dem Bus.",
+                "Zu Fuß.",
+                "Mit der Straßenbahn."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was erfahren wir über Mozarts Hochzeit?",
+              "options": [
+                "Sie fand in der Hofburg statt.",
+                "Sein Vater war bei der Hochzeit.",
+                "Die Erlaubnis seines Vaters kam zu spät."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Warum hat man früher meistens geheiratet?",
+              "options": [
+                "Wegen Geld und Macht.",
+                "Aus Liebe.",
+                "Weil die Kirche es wollte."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was war Sisis Problem in Wien?",
+              "options": [
+                "Sie durfte nicht reisen.",
+                "Sie verstand sich nicht mit der Mutter ihres Mannes.",
+                "Sie hatte Streit mit ihrer Schwester."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was bekommen die Teilnehmer am Ende der Führung?",
+              "options": [
+                "Ein Stück Torte.",
+                "Einen Gutschein.",
+                "Ein Foto."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Markus! Na, wie geht's? Du siehst müde aus."
+            },
+            {
+              "v": "m1",
+              "t": "Ach, hallo Sophie. Ja, ich habe schlecht geschlafen. Ich habe mich gestern mit Laura gestritten."
+            },
+            {
+              "v": "f2",
+              "t": "Oh nein. Worüber denn?"
+            },
+            {
+              "v": "m1",
+              "t": "Über Weihnachten. Ihre Eltern wollen, dass wir zu ihnen nach Hamburg kommen. Und meine Mutter hat schon vor Wochen gesagt, dass sie mit uns rechnet."
+            },
+            {
+              "v": "f2",
+              "t": "Das kenne ich! Bei uns war das letztes Jahr genauso."
+            },
+            {
+              "v": "m1",
+              "t": "Und wie habt ihr das gelöst?"
+            },
+            {
+              "v": "f2",
+              "t": "Wir haben uns geeinigt: Ein Jahr feiern wir bei meiner Familie, ein Jahr bei seiner. Letztes Jahr waren wir bei meinen Eltern, dieses Jahr ist seine Familie dran."
+            },
+            {
+              "v": "m1",
+              "t": "Das ist eigentlich fair. Aber meine Mutter ist allein, seit mein Vater gestorben ist. Ich glaube, sie wäre sehr traurig."
+            },
+            {
+              "v": "f2",
+              "t": "Verstehe. Und wenn ihr deine Mutter einfach mitnehmt?"
+            },
+            {
+              "v": "m1",
+              "t": "Nach Hamburg? Hm … Sie fährt nicht gern so weit. Aber mit dem Zug wäre es vielleicht möglich."
+            },
+            {
+              "v": "f2",
+              "t": "Frag sie doch einfach. Vielleicht freut sie sich darüber, dass sie Lauras Familie besser kennenlernen kann."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt, die beiden Familien haben sich bis jetzt nur einmal gesehen, bei unserer Verlobung."
+            },
+            {
+              "v": "f2",
+              "t": "Na siehst du. Und Laura? Hätte sie etwas dagegen?"
+            },
+            {
+              "v": "m1",
+              "t": "Nein, ich glaube nicht. Sie versteht sich super mit meiner Mutter. Ich rufe Mama gleich in der Mittagspause an."
+            },
+            {
+              "v": "f2",
+              "t": "Gute Idee. Und danach entschuldigst du dich bei Laura, ja?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, ja, das mache ich. Danke, Sophie!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Markus hat sich mit seiner Freundin über Weihnachten gestritten.",
+              "answer": true
+            },
+            {
+              "s": "Lauras Eltern wohnen in Hamburg.",
+              "answer": true
+            },
+            {
+              "s": "Sophie feiert dieses Jahr Weihnachten bei ihren eigenen Eltern.",
+              "answer": false
+            },
+            {
+              "s": "Markus' Vater lebt nicht mehr.",
+              "answer": true
+            },
+            {
+              "s": "Markus' Mutter reist gern weit.",
+              "answer": false
+            },
+            {
+              "s": "Die beiden Familien kennen sich schon sehr gut.",
+              "answer": false
+            },
+            {
+              "s": "Markus will seine Mutter in der Mittagspause anrufen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind im Zug und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Jakob! Gratuliere! Ich habe gehört, du bist Vater geworden!"
+            },
+            {
+              "v": "m2",
+              "t": "Danke, Verena! Ja, unsere Tochter Mia ist jetzt drei Wochen alt."
+            },
+            {
+              "v": "at-f",
+              "t": "Wie schön! Und wie geht es euch? Schlaft ihr überhaupt?"
+            },
+            {
+              "v": "m2",
+              "t": "Ehrlich gesagt, nicht viel. Mia wacht jede Nacht drei- oder viermal auf. Aber man gewöhnt sich daran."
+            },
+            {
+              "v": "at-f",
+              "t": "Und bist du schon wieder voll im Büro?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, im Moment arbeite ich nur drei Tage pro Woche. Ab Januar nehme ich dann zwei Monate Elternzeit."
+            },
+            {
+              "v": "at-f",
+              "t": "Super! Das hätte ich mir von meinem Mann damals auch gewünscht. Der war nach einer Woche wieder im Büro."
+            },
+            {
+              "v": "m2",
+              "t": "Bei uns in der Firma machen das jetzt viele Väter. Mein Chef hat sogar selbst ein halbes Jahr Elternzeit genommen."
+            },
+            {
+              "v": "at-f",
+              "t": "Wirklich? Das ist ja toll. Und deine Frau? Geht sie bald wieder arbeiten?"
+            },
+            {
+              "v": "m2",
+              "t": "Ja, im März. Sie ist Lehrerin und fängt nach den Ferien wieder an, zuerst mit fünfzig Prozent."
+            },
+            {
+              "v": "at-f",
+              "t": "Und wer passt dann auf Mia auf?"
+            },
+            {
+              "v": "m2",
+              "t": "Zwei Tage geht sie in die Kita, und einen Tag kommt meine Schwiegermutter. Sie freut sich schon riesig darauf."
+            },
+            {
+              "v": "at-f",
+              "t": "Das ist praktisch. Wohnt sie in der Nähe?"
+            },
+            {
+              "v": "m2",
+              "t": "Nein, in Linz. Sie kommt am Abend vorher mit dem Zug und schläft bei uns."
+            },
+            {
+              "v": "at-f",
+              "t": "Na, dann habt ihr ja alles gut organisiert. Zeig mal ein Foto von Mia!"
+            },
+            {
+              "v": "m2",
+              "t": "Gern, schau, hier ist eins!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Jakobs Tochter ist drei Monate alt.",
+              "answer": false
+            },
+            {
+              "s": "Jakob schläft zurzeit wenig.",
+              "answer": true
+            },
+            {
+              "s": "Jakob arbeitet im Moment Teilzeit.",
+              "answer": true
+            },
+            {
+              "s": "Verenas Mann hat damals auch lange Elternzeit genommen.",
+              "answer": false
+            },
+            {
+              "s": "Jakobs Chef war selbst in Elternzeit.",
+              "answer": true
+            },
+            {
+              "s": "Jakobs Frau arbeitet ab März wieder Vollzeit.",
+              "answer": false
+            },
+            {
+              "s": "Jakobs Schwiegermutter wohnt in derselben Stadt wie Jakob.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Treffpunkt Familie“ diskutiert mit dem Familientherapeuten Martin Sutter und mit Nina Wolf, 27, über das Thema „Hotel Mama – wie lange bei den Eltern wohnen?“.",
+          "options": [
+            "Moderatorin",
+            "Martin Sutter (Familientherapeut)",
+            "Nina Wolf"
+          ],
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Willkommen bei „Treffpunkt Familie“! In Spanien oder Italien ist es ganz normal, dass junge Erwachsene bis dreißig bei den Eltern wohnen. In der Schweiz ziehen die meisten mit Anfang zwanzig aus. Heute fragen wir: Wie lange darf man im „Hotel Mama“ bleiben? Bei mir sind der Familientherapeut Martin Sutter und Nina Wolf, 27, die noch bei ihren Eltern wohnt. Frau Wolf, warum sind Sie noch nicht ausgezogen?"
+            },
+            {
+              "v": "f2",
+              "t": "Ganz ehrlich: weil es für mich die beste Lösung ist. Ich habe vor einem Jahr mein Studium beendet und verdiene noch nicht viel. Eine Wohnung in Zürich kostet schnell 2000 Franken. So kann ich Geld für später sparen."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Sutter, was sagen Sie dazu?"
+            },
+            {
+              "v": "m2",
+              "t": "Finanziell verstehe ich das gut. Aber ich sehe in meiner Praxis oft, dass junge Menschen, die lange zu Hause wohnen, weniger selbstständig sind. Wer nie allein gelebt hat, weiß zum Beispiel oft nicht, wie man eine Steuererklärung macht."
+            },
+            {
+              "v": "f2",
+              "t": "Das stimmt bei mir aber nicht. Ich zahle meinen Eltern Miete, ich koche zweimal pro Woche für alle und wasche meine Wäsche selbst. Wir leben eher wie in einer WG."
+            },
+            {
+              "v": "f1",
+              "t": "Das klingt sehr gut organisiert. Herr Sutter, ist das nicht eine gute Lösung?"
+            },
+            {
+              "v": "m2",
+              "t": "Wenn es so funktioniert, ja. Aber das ist leider nicht bei allen so."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Wolf, gibt es bei Ihnen denn keine Konflikte?"
+            },
+            {
+              "v": "f2",
+              "t": "Natürlich gibt es die manchmal. Meine Mutter will immer wissen, wann ich nach Hause komme. Sie musste sich erst daran gewöhnen, dass ich erwachsen bin."
+            },
+            {
+              "v": "m2",
+              "t": "Genau das ist der Punkt. Eltern und Kinder bleiben oft in ihren alten Rollen. Für eine gesunde Beziehung ist ein bisschen Distanz wichtig. Viele Familien verstehen sich besser, wenn die Kinder ausgezogen sind."
+            },
+            {
+              "v": "f1",
+              "t": "Herr Sutter, ab welchem Alter sollte man denn ausziehen?"
+            },
+            {
+              "v": "m2",
+              "t": "Ein festes Alter gibt es nicht. Es hängt davon ab, wie selbstständig jemand ist. Aber spätestens mit Mitte zwanzig sollte man es einmal ausprobiert haben, finde ich."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Wolf, haben Sie Pläne?"
+            },
+            {
+              "v": "f2",
+              "t": "Ja, mein Freund und ich suchen eine gemeinsame Wohnung. Ich freue mich darauf, aber ich bin auch dankbar für die Zeit zu Hause. Ich habe meine Eltern als Erwachsene noch einmal ganz neu kennengelernt."
+            },
+            {
+              "v": "m2",
+              "t": "Das ist ein schöner Gedanke. Wichtig ist, dass beide Seiten offen darüber sprechen, was sie voneinander erwarten."
+            },
+            {
+              "v": "f1",
+              "t": "Ein gutes Schlusswort. Vielen Dank Ihnen beiden! Und Sie, liebe Hörerinnen und Hörer, schreiben Sie uns: Wie lange haben Sie bei Ihren Eltern gewohnt?"
+            }
+          ],
+          "items": [
+            {
+              "q": "In südeuropäischen Ländern bleiben junge Leute oft länger bei den Eltern.",
+              "answer": 0
+            },
+            {
+              "q": "Mit dem Geld, das ich jetzt spare, plane ich meine Zukunft.",
+              "answer": 2
+            },
+            {
+              "q": "Wer lange zu Hause wohnt, lernt manche praktischen Dinge nicht.",
+              "answer": 1
+            },
+            {
+              "q": "Ich mache einen Teil der Hausarbeit.",
+              "answer": 2
+            },
+            {
+              "q": "Ein wenig Abstand tut der Beziehung zwischen Eltern und Kindern gut.",
+              "answer": 1
+            },
+            {
+              "q": "Ein bestimmtes Alter für den Auszug kann man nicht nennen.",
+              "answer": 1
+            },
+            {
+              "q": "Die Zeit bei den Eltern war für mich wertvoll.",
+              "answer": 2
+            },
+            {
+              "q": "Die Zuhörer sollen von ihren eigenen Erfahrungen berichten.",
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Ihre Freundin Carla hat geheiratet, aber Sie konnten nicht zur Hochzeit kommen. Schreiben Sie Carla eine E-Mail.",
+          "points": [
+            "Gratulieren Sie und entschuldigen Sie sich, dass Sie nicht da waren.",
+            "Fragen Sie nach der Feier.",
+            "Machen Sie einen Vorschlag für ein Treffen."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Carla,\n\nherzlichen Glückwunsch zu eurer Hochzeit! Ich wünsche euch beiden alles Liebe. Es tut mir wirklich leid, dass ich nicht dabei sein konnte. Ich hatte an diesem Wochenende eine wichtige Konferenz in Wien, aber ich habe die ganze Zeit an euch gedacht.\n\nWie war die Feier? Hat das Wetter mitgespielt? Ich freue mich schon darauf, die Fotos zu sehen!\n\nWollen wir uns bald treffen? Andrea und ich würden euch gern zum Abendessen einladen. Passt euch vielleicht der nächste Samstag?\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "Ihr Freund Daniel hat Ihnen geschrieben: Er hat Streit mit seiner Schwester und weiß nicht, was er tun soll. Antworten Sie Daniel.",
+          "points": [
+            "Zeigen Sie Verständnis.",
+            "Erzählen Sie von einer ähnlichen Erfahrung.",
+            "Geben Sie Daniel einen Rat."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Daniel,\n\ndanke für deine Nachricht. Es tut mir leid, dass du so viel Ärger mit deiner Schwester hast. Ich kann gut verstehen, dass dich das traurig macht.\n\nIch hatte vor ein paar Jahren etwas Ähnliches mit meiner Schwester. Wir haben uns wegen Geld gestritten und monatelang nicht miteinander gesprochen. Am Ende habe ich sie einfach angerufen, und wir haben uns beide entschuldigt.\n\nMein Rat: Warte nicht zu lange. Lade sie doch auf einen Kaffee ein und sprich offen mit ihr darüber, was dich stört.\n\nAlles Liebe\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Großeltern als Babysitter?“ gesehen. Im Forum finden Sie folgende Meinung:",
+          "quote": "Ich bin 66 und habe endlich Zeit für mich: Reisen, Sport, mein Chor. Meine Tochter erwartet, dass ich zwei Tage pro Woche auf meinen Enkel aufpasse. Ich liebe ihn sehr, aber ich möchte auch mein eigenes Leben haben. Bin ich deshalb eine schlechte Oma? – Brigitte, 66",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Gehen Sie auf den Beitrag von Brigitte ein.",
+            "Erzählen Sie von Ihren eigenen Erfahrungen."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Liebe Brigitte, Sie sind sicher keine schlechte Oma! Ich finde, Großeltern dürfen helfen, aber sie müssen nicht. Nach einem langen Arbeitsleben haben Sie das Recht, Ihre Freizeit zu genießen. Ich verstehe aber auch Ihre Tochter, denn Kitas sind in der Schweiz sehr teuer. Vielleicht können Sie einen Kompromiss finden, zum Beispiel einen Tag pro Woche statt zwei. In Spanien helfen die Großeltern fast immer, und meine Oma hat das sehr gern gemacht. Aber jede Familie ist anders. Wichtig ist, dass Sie offen mit Ihrer Tochter darüber sprechen."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Online-Dating – der richtige Weg zur Liebe?“ gesehen. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:",
+          "quote": "Ich habe meinen Mann vor fünf Jahren über eine Dating-App kennengelernt, und wir sind sehr glücklich. Ich verstehe nicht, warum viele Leute so negativ darüber denken. Im Alltag hat man doch kaum Zeit, neue Menschen kennenzulernen. – Jasmin, 34",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Gehen Sie auf den Beitrag von Jasmin ein.",
+            "Wie haben Sie selbst Ihren Partner / Ihre Partnerin oder Freunde kennengelernt?"
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich freue mich für Jasmin, dass sie über eine App ihren Mann gefunden hat. Ich glaube auch, dass Online-Dating für viele eine gute Möglichkeit ist, besonders für Leute mit wenig Zeit oder in einer neuen Stadt. Trotzdem sehe ich auch Probleme. Viele Profile sind nicht ehrlich, und manche Leute schreiben mit zehn Personen gleichzeitig. Ich persönlich habe meine Freundin in einem Sprachkurs kennengelernt, und das war viel spannender als jede App. Meiner Meinung nach sollte man beides ausprobieren: online suchen, aber auch im echten Leben offen für neue Menschen sein."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Ihre Chefin, Frau Brunner, hat Sie zu ihrer Geburtstagsfeier am Freitag eingeladen. Sie können aber nicht kommen. Schreiben Sie Frau Brunner eine Nachricht.",
+          "points": [
+            "Bedanken Sie sich für die Einladung.",
+            "Sagen Sie ab und nennen Sie den Grund.",
+            "Machen Sie einen Vorschlag."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Liebe Frau Brunner,\n\nvielen Dank für die Einladung zu Ihrer Geburtstagsfeier am Freitag. Leider kann ich nicht kommen, weil die Eltern meines Partners an diesem Wochenende aus Spanien zu Besuch kommen. Darf ich Sie stattdessen nächste Woche in der Mittagspause zu einem Kaffee einladen?\n\nHerzliche Grüße\nAndrea Navarro"
+        },
+        {
+          "task": "Ihr Nachbar, Herr Wyss, hat sich über den Lärm bei Ihrer Familienfeier am Samstag beschwert. Schreiben Sie ihm eine Nachricht.",
+          "points": [
+            "Entschuldigen Sie sich.",
+            "Erklären Sie die Situation.",
+            "Bieten Sie etwas an."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Wyss,\n\nes tut mir sehr leid, dass es am Samstagabend so laut war. Wir haben den 60. Geburtstag meines Vaters gefeiert und leider nicht auf die Uhrzeit geachtet. Das kommt nicht wieder vor. Als kleine Entschuldigung bringe ich Ihnen morgen ein Stück von unserer Torte vorbei.\n\nMit freundlichen Grüßen\nJosé Romero"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Ihre Großeltern feiern bald ihren 50. Hochzeitstag. Sie und Ihr Cousin / Ihre Cousine möchten ein Fest organisieren. Planen Sie zusammen.",
+          "points": [
+            "Wo feiern?",
+            "Wen einladen?",
+            "Was schenken?",
+            "Wer macht was?"
+          ],
+          "model": [
+            {
+              "v": "f2",
+              "t": "Du, Oma und Opa sind im Mai fünfzig Jahre verheiratet. Wir sollten unbedingt etwas organisieren!"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, das finde ich auch. Was hältst du davon, wenn wir im Garten von Tante Inge feiern?"
+            },
+            {
+              "v": "f2",
+              "t": "Hm, im Mai kann es noch ziemlich kalt sein. Wie wäre es mit einem Restaurant? Dann muss niemand kochen."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt, das ist praktischer. Opa mag doch das Restaurant am See so gern. Ich kann dort fragen, ob sie einen Raum für uns haben."
+            },
+            {
+              "v": "f2",
+              "t": "Super. Und wen laden wir ein? Nur die Familie?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich würde auch ihre alten Freunde aus dem Dorf einladen. Darüber freuen sie sich bestimmt."
+            },
+            {
+              "v": "f2",
+              "t": "Gute Idee, aber dann sind es schnell sechzig Personen. Sagen wir nur die engsten Freunde?"
+            },
+            {
+              "v": "m1",
+              "t": "Einverstanden. Und was schenken wir ihnen?"
+            },
+            {
+              "v": "f2",
+              "t": "Sie haben eigentlich schon alles. Ich schlage vor, dass wir ein Fotobuch mit Bildern aus den fünfzig Jahren machen."
+            },
+            {
+              "v": "m1",
+              "t": "Das ist wunderschön! Ich frage die Verwandten, ob sie alte Fotos haben."
+            },
+            {
+              "v": "f2",
+              "t": "Und ich kümmere mich um die Einladungen. Dann fassen wir zusammen: Restaurant am See, Familie und enge Freunde, ein Fotobuch."
+            },
+            {
+              "v": "m1",
+              "t": "Perfekt. Ich rufe gleich morgen im Restaurant an."
+            }
+          ]
+        },
+        {
+          "task": "Ihr Freund Paul hat Liebeskummer: Seine Freundin hat sich von ihm getrennt. Sie möchten ihn am Wochenende auf andere Gedanken bringen. Planen Sie zusammen.",
+          "points": [
+            "Was unternehmen?",
+            "Wann und wie lange?",
+            "Wer kommt noch mit?",
+            "Kosten?"
+          ],
+          "model": [
+            {
+              "v": "ch-m",
+              "t": "Paul geht es seit der Trennung wirklich schlecht. Wir sollten am Wochenende etwas mit ihm machen."
+            },
+            {
+              "v": "f1",
+              "t": "Ja, unbedingt. Wie wäre es mit einem Ausflug in die Berge? Paul wandert doch so gern."
+            },
+            {
+              "v": "ch-m",
+              "t": "Gute Idee! Wir könnten in einer Berghütte übernachten. Dann haben wir auch Zeit zum Reden."
+            },
+            {
+              "v": "f1",
+              "t": "Hm, ich bin nicht sicher, ob er schon reden will. Vielleicht braucht er eher Ablenkung."
+            },
+            {
+              "v": "ch-m",
+              "t": "Stimmt. Dann wandern wir einfach, und abends spielen wir Karten. Passt dir das nächste Wochenende?"
+            },
+            {
+              "v": "f1",
+              "t": "Samstag ja, aber am Sonntag muss ich um zwölf zurück sein. Meine Eltern kommen zum Mittagessen."
+            },
+            {
+              "v": "ch-m",
+              "t": "Kein Problem, dann fahren wir am Samstagmorgen los und am Sonntag früh zurück. Sollen wir noch jemanden fragen?"
+            },
+            {
+              "v": "f1",
+              "t": "Vielleicht seinen Kollegen Thomas. Die beiden verstehen sich sehr gut."
+            },
+            {
+              "v": "ch-m",
+              "t": "Einverstanden, ich schreibe Thomas. Und die Kosten? Paul hat gerade wenig Geld, die Wohnung ist jetzt teurer für ihn allein."
+            },
+            {
+              "v": "f1",
+              "t": "Ich schlage vor, dass wir ihn einladen. Wir drei teilen uns seinen Teil."
+            },
+            {
+              "v": "ch-m",
+              "t": "Das ist eine schöne Idee. Ich reserviere heute noch die Hütte."
+            },
+            {
+              "v": "f1",
+              "t": "Und ich rufe Paul an. Ich glaube, er wird sich darüber freuen."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Heiraten – ja oder nein?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Ich möchte heute über das Thema „Heiraten – ja oder nein?“ sprechen. Zuerst erzähle ich von meiner persönlichen Situation, danach spreche ich über die Situation in meinem Heimatland Spanien. Dann nenne ich Vor- und Nachteile und sage meine Meinung, und zum Schluss fasse ich alles zusammen."
+            },
+            {
+              "v": "m1",
+              "t": "Ich lebe mit meiner Freundin in Zürich zusammen, aber wir sind nicht verheiratet. Für uns ist das im Moment nicht so wichtig. Wir vertrauen uns, und wir haben auch ohne Trauschein eine sehr gute Beziehung. Meine Großmutter fragt allerdings bei jedem Telefonat, wann wir endlich heiraten."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien hat sich in den letzten Jahrzehnten viel verändert. Früher haben fast alle Paare kirchlich geheiratet. Heute heiraten die Menschen viel später, oft erst mit Mitte dreißig, und viele Paare leben ohne Trauschein zusammen. Trotzdem sind große Hochzeiten mit zweihundert Gästen immer noch sehr beliebt."
+            },
+            {
+              "v": "m1",
+              "t": "Heiraten hat Vorteile: Man zeigt, dass man zusammengehört, und rechtlich ist man besser abgesichert, zum Beispiel wenn der Partner krank wird. Ein Nachteil ist, dass eine Hochzeit sehr teuer sein kann. Außerdem ist eine Scheidung kompliziert und kostet viel Geld. Meiner Meinung nach ist die Liebe wichtiger als ein Papier. Aber wenn ein Paar Kinder bekommt, ist es sinnvoll zu heiraten."
+            },
+            {
+              "v": "m1",
+              "t": "Damit komme ich zum Schluss: Ob man heiratet oder nicht, muss jedes Paar selbst entscheiden. Vielen Dank für Ihre Aufmerksamkeit. Haben Sie noch Fragen?"
+            }
+          ],
+          "question": "Würden Sie selbst gern einmal heiraten? Und wenn ja, wie?",
+          "answer": "Ja, vielleicht in ein paar Jahren. Ich träume nicht von einer großen Feier, sondern von einem kleinen Fest mit unseren Familien und den engsten Freunden, am liebsten in Andalusien."
+        },
+        {
+          "title": "Weit weg von der Familie leben – Vor- und Nachteile",
+          "model": [
+            {
+              "v": "f2",
+              "t": "Mein Thema heute ist „Weit weg von der Familie leben“. Ich erzähle zuerst von meinen eigenen Erfahrungen. Danach spreche ich über die Situation in Spanien. Dann zeige ich Vor- und Nachteile und sage meine Meinung. Am Ende komme ich zu einem kurzen Fazit."
+            },
+            {
+              "v": "f2",
+              "t": "Ich komme aus Almería und lebe seit einigen Jahren in Zürich. Meine Eltern und meine Schwester sind in Spanien geblieben. Wir telefonieren fast jeden Tag per Video, und zwei- oder dreimal im Jahr fliege ich nach Hause. Am meisten vermisse ich die Sonntagsessen bei meiner Oma."
+            },
+            {
+              "v": "f2",
+              "t": "In Spanien ist die Familie sehr wichtig. Viele junge Leute wohnen lange bei den Eltern, und man trifft sich oft, auch mit Onkeln, Tanten und Cousins. Wegen der Wirtschaftskrise sind aber in den letzten fünfzehn Jahren viele junge Spanier ins Ausland gegangen, zum Beispiel nach Deutschland, England oder in die Schweiz."
+            },
+            {
+              "v": "f2",
+              "t": "Ein Vorteil ist, dass man selbstständiger wird und neue Kulturen kennenlernt. Man lernt auch, sich auf Freunde zu verlassen, und manche Freunde sind dann wie eine zweite Familie. Der größte Nachteil ist natürlich die Entfernung: Man ist nicht da, wenn jemand krank ist oder wenn ein Kind geboren wird. Ich finde, es lohnt sich trotzdem, aber man muss sich bewusst Zeit für die Familie nehmen."
+            },
+            {
+              "v": "f2",
+              "t": "Zum Schluss: Mit der Technik von heute ist es viel leichter als früher, den Kontakt zu halten. Aber eine Umarmung kann kein Video ersetzen. Vielen Dank für Ihre Aufmerksamkeit!"
+            }
+          ],
+          "question": "Könnten Sie sich vorstellen, für immer in der Schweiz zu bleiben?",
+          "answer": "Das hängt davon ab, wie sich meine Arbeit entwickelt. Im Moment gefällt es mir hier sehr gut, aber wenn meine Eltern älter werden, möchte ich vielleicht näher bei ihnen wohnen."
+        }
+      ]
+    }
+  }
+}

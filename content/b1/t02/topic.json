@@ -1,0 +1,558 @@
+{
+  "id": "b1-t02",
+  "level": "b1",
+  "topic": "t02",
+  "title": "Mundo laboral y candidaturas",
+  "title_de": "Arbeitswelt und Bewerbung",
+  "goals": [
+    "Describir tu trabajo, tu empresa, tus tareas y tus responsabilidades",
+    "Hablar de tus puntos fuertes, tus conocimientos y tu experiencia profesional",
+    "Entender ofertas de empleo y saber qué documentos lleva una candidatura en Suiza y Alemania",
+    "Formar oraciones de relativo en nominativo, acusativo y dativo (der, den, dem, denen…)",
+    "Escribir un correo formal con el saludo, el registro y la despedida correctos (Schreiben Teil 3)",
+    "Opinar sobre temas de trabajo como el Homeoffice, la jornada de cuatro días o el cambio de empleo"
+  ],
+  "vocab": [
+    { "de": "der Bewerber / die Bewerberin", "pl": "die Bewerber / die Bewerberinnen", "es": "el candidato / la candidata", "cat": "Candidatura", "ex": "Für die Stelle gab es über hundert Bewerber.", "ex_es": "Para el puesto hubo más de cien candidatos." },
+    { "de": "das Anschreiben", "pl": "die Anschreiben", "es": "la carta de presentación", "cat": "Candidatura", "ex": "Das Anschreiben sollte nicht länger als eine Seite sein.", "ex_es": "La carta de presentación no debería tener más de una página." },
+    { "de": "das Arbeitszeugnis", "pl": "die Arbeitszeugnisse", "es": "el certificado de trabajo (referencia de la empresa)", "cat": "Candidatura", "ex": "In der Schweiz ist ein gutes Arbeitszeugnis sehr wichtig.", "ex_es": "En Suiza un buen certificado de trabajo es muy importante." },
+    { "de": "die Qualifikation", "pl": "die Qualifikationen", "es": "la cualificación", "cat": "Candidatura", "ex": "Sie hat genau die Qualifikationen, die wir brauchen.", "ex_es": "Tiene exactamente la cualificación que necesitamos." },
+    { "de": "die Kenntnisse", "es": "los conocimientos", "cat": "Candidatura", "ex": "Gute Deutschkenntnisse sind Voraussetzung.", "ex_es": "Se requieren buenos conocimientos de alemán." },
+    { "de": "die Fähigkeit", "pl": "die Fähigkeiten", "es": "la capacidad, la habilidad", "cat": "Candidatura", "ex": "Welche Fähigkeiten bringen Sie für diese Stelle mit?", "ex_es": "¿Qué capacidades aporta para este puesto?" },
+    { "de": "die Stärke", "pl": "die Stärken", "es": "el punto fuerte", "cat": "Candidatura", "ex": "Meine Stärke ist, dass ich gut organisieren kann.", "ex_es": "Mi punto fuerte es que sé organizar bien." },
+    { "de": "die Schwäche", "pl": "die Schwächen", "es": "el punto débil", "cat": "Candidatura", "ex": "Eine Schwäche von mir ist, dass ich manchmal zu ungeduldig bin.", "ex_es": "Un punto débil mío es que a veces soy demasiado impaciente." },
+    { "de": "die Berufserfahrung", "es": "la experiencia profesional", "cat": "Candidatura", "ex": "Für die Stelle braucht man mindestens drei Jahre Berufserfahrung.", "ex_es": "Para el puesto hacen falta al menos tres años de experiencia profesional." },
+    { "de": "die Anforderung", "pl": "die Anforderungen", "es": "el requisito, la exigencia", "cat": "Candidatura", "ex": "Ich erfülle fast alle Anforderungen der Stelle.", "ex_es": "Cumplo casi todos los requisitos del puesto." },
+    { "de": "erfüllen", "es": "cumplir (requisitos, deseos)", "cat": "Candidatura", "forms": "er erfüllt, erfüllte, hat erfüllt", "ex": "Leider erfüllt er die Anforderungen nicht.", "ex_es": "Lamentablemente no cumple los requisitos." },
+    { "de": "die Zusage", "pl": "die Zusagen", "es": "la respuesta positiva, la aceptación", "cat": "Candidatura", "ex": "Ich habe heute die Zusage bekommen!", "ex_es": "¡Hoy me han dicho que sí!" },
+    { "de": "die Absage", "pl": "die Absagen", "es": "la respuesta negativa, el rechazo", "cat": "Candidatura", "ex": "Nach dem Gespräch kam leider eine Absage.", "ex_es": "Después de la entrevista llegó por desgracia un rechazo." },
+    { "de": "einstellen", "es": "contratar", "cat": "Candidatura", "forms": "er stellt ein, stellte ein, hat eingestellt", "ex": "Die Firma stellt dieses Jahr zehn neue Mitarbeiter ein.", "ex_es": "La empresa contrata este año a diez empleados nuevos." },
+    { "de": "sich vorstellen", "es": "presentarse", "cat": "Candidatura", "forms": "er stellt sich vor, stellte sich vor, hat sich vorgestellt", "ex": "Können Sie sich bitte kurz vorstellen?", "ex_es": "¿Puede presentarse brevemente, por favor?" },
+    { "de": "fließend", "es": "con fluidez", "cat": "Candidatura", "ex": "Sie spricht fließend Französisch.", "ex_es": "Habla francés con fluidez." },
+    { "de": "das Unternehmen", "pl": "die Unternehmen", "es": "la empresa", "cat": "Empresa", "ex": "Das Unternehmen hat Standorte in Zürich und Basel.", "ex_es": "La empresa tiene sedes en Zúrich y Basilea." },
+    { "de": "der Betrieb", "pl": "die Betriebe", "es": "la empresa, el negocio (sobre todo pequeño o mediano)", "cat": "Empresa", "ex": "Er macht seine Lehre in einem kleinen Betrieb.", "ex_es": "Hace su aprendizaje en una empresa pequeña." },
+    { "de": "die Abteilung", "pl": "die Abteilungen", "es": "el departamento", "cat": "Empresa", "ex": "In welcher Abteilung arbeiten Sie?", "ex_es": "¿En qué departamento trabaja?" },
+    { "de": "der Mitarbeiter / die Mitarbeiterin", "pl": "die Mitarbeiter / die Mitarbeiterinnen", "es": "el empleado / la empleada", "cat": "Empresa", "ex": "Unsere Firma hat zweihundert Mitarbeiter.", "ex_es": "Nuestra empresa tiene doscientos empleados." },
+    { "de": "der Leiter / die Leiterin", "pl": "die Leiter / die Leiterinnen", "es": "el jefe / la jefa (de un departamento o proyecto)", "cat": "Empresa", "ex": "Frau Brunner ist die Leiterin der Personalabteilung.", "ex_es": "La señora Brunner es la jefa del departamento de personal." },
+    { "de": "leiten", "es": "dirigir", "cat": "Empresa", "forms": "er leitet, leitete, hat geleitet", "ex": "Andrea leitet ein Team von vier Personen.", "ex_es": "Andrea dirige un equipo de cuatro personas." },
+    { "de": "das Team", "pl": "die Teams", "es": "el equipo", "cat": "Empresa", "ex": "Ich arbeite gern im Team.", "ex_es": "Me gusta trabajar en equipo." },
+    { "de": "die Branche", "pl": "die Branchen", "es": "el sector", "cat": "Empresa", "ex": "In der Pharmabranche gibt es in Basel viele Stellen.", "ex_es": "En el sector farmacéutico hay muchos puestos en Basilea." },
+    { "de": "der Arbeitsplatz", "pl": "die Arbeitsplätze", "es": "el puesto de trabajo; el lugar de trabajo", "cat": "Empresa", "ex": "Mein Arbeitsplatz ist direkt am Fenster.", "ex_es": "Mi puesto está justo al lado de la ventana." },
+    { "de": "das Arbeitsklima", "es": "el ambiente de trabajo", "cat": "Empresa", "ex": "Das Arbeitsklima in unserer Abteilung ist super.", "ex_es": "El ambiente de trabajo en nuestro departamento es estupendo." },
+    { "de": "die Probezeit", "pl": "die Probezeiten", "es": "el periodo de prueba", "cat": "Condiciones", "ex": "Die Probezeit dauert drei Monate.", "ex_es": "El periodo de prueba dura tres meses." },
+    { "de": "die Arbeitszeit", "pl": "die Arbeitszeiten", "es": "el horario de trabajo, la jornada", "cat": "Condiciones", "ex": "Wir haben flexible Arbeitszeiten.", "ex_es": "Tenemos horario flexible." },
+    { "de": "der Lohn", "pl": "die Löhne", "es": "el sueldo, el salario", "cat": "Condiciones", "ex": "In der Schweiz sind die Löhne hoch, aber das Leben ist teuer.", "ex_es": "En Suiza los sueldos son altos, pero la vida es cara." },
+    { "de": "der Feierabend", "pl": "die Feierabende", "es": "el final de la jornada laboral; el tiempo libre después del trabajo", "cat": "Condiciones", "ex": "Endlich Feierabend!", "ex_es": "¡Por fin se acabó el trabajo por hoy!" },
+    { "de": "der Nebenjob", "pl": "die Nebenjobs", "es": "el trabajo extra, el trabajillo", "cat": "Condiciones", "ex": "Während des Studiums hatte ich einen Nebenjob in einem Café.", "ex_es": "Durante la carrera tenía un trabajillo en una cafetería." },
+    { "de": "die Karriere", "pl": "die Karrieren", "es": "la carrera profesional", "cat": "Condiciones", "ex": "Für ihre Karriere ist sie nach Zürich gezogen.", "ex_es": "Se mudó a Zúrich por su carrera." },
+    { "de": "die Verantwortung", "es": "la responsabilidad", "cat": "Tareas", "ex": "In meiner neuen Stelle habe ich mehr Verantwortung.", "ex_es": "En mi nuevo puesto tengo más responsabilidad." },
+    { "de": "zuständig (für)", "es": "responsable (de), encargado (de)", "cat": "Tareas", "ex": "Wer ist hier für die Bewerbungen zuständig?", "ex_es": "¿Quién se encarga aquí de las candidaturas?" },
+    { "de": "der Auftrag", "pl": "die Aufträge", "es": "el encargo, el pedido", "cat": "Tareas", "ex": "Wir haben einen großen Auftrag aus Deutschland bekommen.", "ex_es": "Hemos recibido un gran pedido de Alemania." },
+    { "de": "erledigen", "es": "hacer, terminar (una tarea), resolver", "cat": "Tareas", "forms": "er erledigt, erledigte, hat erledigt", "ex": "Ich erledige das sofort.", "ex_es": "Lo hago enseguida." },
+    { "de": "vereinbaren", "es": "acordar, concertar", "cat": "Tareas", "forms": "er vereinbart, vereinbarte, hat vereinbart", "ex": "Ich möchte gern einen Termin vereinbaren.", "ex_es": "Quisiera concertar una cita." },
+    { "de": "entlassen", "es": "despedir (a un empleado)", "cat": "Tareas", "forms": "er entlässt, entließ, hat entlassen", "ex": "Die Firma hat letztes Jahr fünfzig Mitarbeiter entlassen.", "ex_es": "La empresa despidió el año pasado a cincuenta empleados." },
+    { "de": "zuverlässig", "es": "fiable, de confianza", "cat": "Cualidades", "ex": "Wir suchen eine zuverlässige Person für das Lager.", "ex_es": "Buscamos a una persona fiable para el almacén." },
+    { "de": "flexibel", "es": "flexible", "cat": "Cualidades", "ex": "Ich bin zeitlich flexibel und kann auch am Wochenende arbeiten.", "ex_es": "Tengo disponibilidad horaria y puedo trabajar también los fines de semana." },
+    { "de": "belastbar", "es": "resistente al estrés, capaz de trabajar bajo presión", "cat": "Cualidades", "ex": "In der Notaufnahme muss man sehr belastbar sein.", "ex_es": "En urgencias hay que aguantar mucha presión." },
+    { "de": "teamfähig", "es": "capaz de trabajar en equipo", "cat": "Cualidades", "ex": "Teamfähig zu sein ist in fast jedem Beruf wichtig.", "ex_es": "Saber trabajar en equipo es importante en casi cualquier profesión." },
+    { "de": "motiviert", "es": "motivado", "cat": "Cualidades", "ex": "Die neue Praktikantin ist sehr motiviert.", "ex_es": "La nueva becaria está muy motivada." },
+    { "de": "erreichbar", "es": "localizable", "cat": "Cualidades", "ex": "Am Nachmittag bin ich telefonisch erreichbar.", "ex_es": "Por la tarde estoy localizable por teléfono." },
+    { "de": "der Betreff", "pl": "die Betreffe", "es": "el asunto (de un correo o carta)", "cat": "Correo formal", "ex": "Im Betreff steht: Bewerbung als Laborassistent.", "ex_es": "En el asunto pone: candidatura a asistente de laboratorio." },
+    { "de": "die Anrede", "pl": "die Anreden", "es": "el saludo, la fórmula de tratamiento", "cat": "Correo formal", "ex": "Die Anrede in einem formellen Brief ist „Sehr geehrte …“.", "ex_es": "El saludo en una carta formal es «Sehr geehrte…»." },
+    { "de": "der Anhang", "pl": "die Anhänge", "es": "el archivo adjunto, el anexo", "cat": "Correo formal", "ex": "Im Anhang finden Sie meinen Lebenslauf.", "ex_es": "Adjunto encontrará mi CV." },
+    { "de": "Sehr geehrte Damen und Herren", "es": "Estimados señores", "cat": "Correo formal", "ex": "Sehr geehrte Damen und Herren, ich interessiere mich für die Stelle als Verkäuferin.", "ex_es": "Estimados señores: me interesa el puesto de dependienta." },
+    { "de": "Mit freundlichen Grüßen", "es": "Atentamente", "cat": "Correo formal", "ex": "Einen formellen Brief beende ich immer mit „Mit freundlichen Grüßen“.", "ex_es": "Una carta formal siempre la termino con «Atentamente»." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "match", "title": "El mundo laboral", "instructions": "Relaciona cada palabra con su traducción.", "pairs": [
+      ["die Probezeit", "el periodo de prueba"],
+      ["die Abteilung", "el departamento"],
+      ["einstellen", "contratar"],
+      ["entlassen", "despedir"],
+      ["zuverlässig", "fiable"],
+      ["die Zusage", "la respuesta positiva"],
+      ["der Anhang", "el archivo adjunto"],
+      ["der Feierabend", "el final de la jornada"],
+      ["zuständig für", "responsable de"]
+    ] },
+    { "id": "e02", "type": "mc", "title": "Relativo en nominativo", "instructions": "El pronombre relativo es el sujeto de la oración de relativo. Elige der, die o das según el sustantivo.", "items": [
+      { "q": "Wir suchen einen Koch, ___ auch am Wochenende arbeiten kann.", "options": ["der", "den", "dem"], "answer": 0, "explain": "der Koch (masculino) es el sujeto de «arbeiten kann» → der." },
+      { "q": "Ich habe eine Kollegin, ___ fünf Sprachen spricht.", "options": ["der", "die", "das"], "answer": 1, "explain": "die Kollegin (femenino), sujeto → die." },
+      { "q": "Das ist ein Job, ___ mir viel Spaß macht.", "options": ["der", "das", "den"], "answer": 0, "explain": "der Job (masculino), sujeto de «macht» → der." },
+      { "q": "Sie arbeitet für ein Unternehmen, ___ Schokolade herstellt.", "options": ["die", "der", "das"], "answer": 2, "explain": "das Unternehmen (neutro), sujeto → das." },
+      { "q": "Die Bewerber, ___ zum Gespräch kommen, bekommen eine E-Mail.", "options": ["die", "denen", "der"], "answer": 0, "explain": "Plural, sujeto → die." },
+      { "q": "Kennst du den Mann, ___ dort am Empfang steht?", "options": ["den", "der", "dem"], "answer": 1, "explain": "En la frase principal es acusativo (den Mann), pero en la relativa es el sujeto de «steht» → der." },
+      { "q": "Wir brauchen eine Software, ___ einfach zu benutzen ist.", "options": ["das", "der", "die"], "answer": 2, "explain": "die Software (femenino), sujeto → die." }
+    ] },
+    { "id": "e03", "type": "gap", "title": "Relativo en acusativo y dativo", "instructions": "Escribe el pronombre relativo. ¿Es el objeto directo (acusativo) o depende de un verbo con dativo (helfen, danken, gefallen, schicken a alguien…)?", "items": [
+      { "text": "Das ist der Lebenslauf, [[den]] ich geschickt habe." },
+      { "text": "Die Stelle, [[die]] Andrea gefunden hat, ist in Basel." },
+      { "text": "Der Chef, [[dem]] ich meine Idee erklärt habe, war begeistert." },
+      { "text": "Die Kundin, [[der]] ich geholfen habe, hat sich bedankt." },
+      { "text": "Das Buch, [[das]] du mir empfohlen hast, ist sehr nützlich." },
+      { "text": "Die Kollegen, [[denen]] ich vertraue, kenne ich seit Jahren." },
+      { "text": "Der Kurs, [[den]] José besucht, findet am Abend statt." },
+      { "text": "Das Team, [[dem]] ich die Ergebnisse gezeigt habe, war zufrieden." }
+    ] },
+    { "id": "e04", "type": "mc", "title": "¿Nominativo, acusativo o dativo?", "instructions": "Elige el pronombre relativo correcto.", "items": [
+      { "q": "Der Bewerber, ___ wir eingeladen haben, kommt morgen.", "options": ["der", "den", "dem"], "answer": 1, "explain": "wir haben ihn eingeladen → objeto directo, masculino → den." },
+      { "q": "Die Firma, ___ mir eine Zusage geschickt hat, ist in Zug.", "options": ["die", "der", "denen"], "answer": 0, "explain": "La empresa es el sujeto de «hat geschickt» → die." },
+      { "q": "Die Mitarbeiter, ___ das neue Büro nicht gefällt, arbeiten lieber zu Hause.", "options": ["die", "denen", "den"], "answer": 1, "explain": "gefallen pide dativo; plural → denen." },
+      { "q": "Ist das die Kollegin, ___ du gestern angerufen hast?", "options": ["der", "die", "das"], "answer": 1, "explain": "anrufen + acusativo; femenino → die." },
+      { "q": "Der Kunde, ___ ich das Angebot geschickt habe, hat noch nicht geantwortet.", "options": ["den", "der", "dem"], "answer": 2, "explain": "jemandem etwas schicken: la persona va en dativo → dem." },
+      { "q": "Das Projekt, ___ Andrea leitet, ist sehr wichtig.", "options": ["das", "dem", "die"], "answer": 0, "explain": "Andrea leitet das Projekt → acusativo neutro → das." },
+      { "q": "Die Frau, ___ dort sitzt, ist unsere neue Chefin.", "options": ["die", "der", "den"], "answer": 0, "explain": "Sujeto de «sitzt», femenino → die." },
+      { "q": "Meine Eltern, ___ ich jeden Sonntag schreibe, wohnen in Córdoba.", "options": ["die", "denen", "der"], "answer": 1, "explain": "jemandem schreiben → dativo plural → denen." }
+    ] },
+    { "id": "e05", "type": "order", "title": "Construye la frase", "instructions": "Ordena las palabras. En la oración de relativo el verbo conjugado va al final.", "items": [
+      { "words": ["Ich", "suche", "eine", "Stelle", ",", "die", "gut", "bezahlt", "ist", "."], "answers": ["Ich suche eine Stelle, die gut bezahlt ist."] },
+      { "words": ["Der", "Kollege", ",", "den", "ich", "gestern", "kennengelernt", "habe", ",", "kommt", "aus", "Graz", "."], "answers": ["Der Kollege, den ich gestern kennengelernt habe, kommt aus Graz."] },
+      { "words": ["Das", "ist", "die", "Chefin", ",", "der", "ich", "meinen", "Lebenslauf", "geschickt", "habe", "."], "answers": ["Das ist die Chefin, der ich meinen Lebenslauf geschickt habe."] },
+      { "words": ["Wir", "brauchen", "Mitarbeiter", ",", "die", "flexibel", "sind", "."], "answers": ["Wir brauchen Mitarbeiter, die flexibel sind."] },
+      { "words": ["Die", "Firma", ",", "die", "mich", "eingestellt", "hat", ",", "ist", "in", "Basel", "."], "answers": ["Die Firma, die mich eingestellt hat, ist in Basel."] },
+      { "words": ["Ich", "danke", "Ihnen", "für", "Ihre", "E-Mail", "."], "answers": ["Ich danke Ihnen für Ihre E-Mail.", "Für Ihre E-Mail danke ich Ihnen."] }
+    ] },
+    { "id": "e06", "type": "write", "title": "Une las frases", "instructions": "Une las dos frases con un pronombre relativo. Pon la oración de relativo justo detrás del sustantivo.", "items": [
+      { "prompt": "Ich habe einen neuen Chef. Er ist sehr nett.", "answers": ["Ich habe einen neuen Chef, der sehr nett ist."] },
+      { "prompt": "Das ist die Stelle. Ich habe die Stelle in der Zeitung gesehen.", "answers": ["Das ist die Stelle, die ich in der Zeitung gesehen habe."] },
+      { "prompt": "Wo ist der Brief? Ich habe den Brief gestern geschrieben.", "answers": ["Wo ist der Brief, den ich gestern geschrieben habe?"] },
+      { "prompt": "Die Kollegin heißt Laura. Ich helfe ihr oft.", "answers": ["Die Kollegin, der ich oft helfe, heißt Laura."] },
+      { "prompt": "Wir suchen Leute. Sie sprechen Französisch.", "answers": ["Wir suchen Leute, die Französisch sprechen."] },
+      { "prompt": "Die Kunden sind zufrieden. Wir haben ihnen ein neues Angebot gemacht.", "answers": ["Die Kunden, denen wir ein neues Angebot gemacht haben, sind zufrieden."] }
+    ] },
+    { "id": "e07", "type": "mc", "title": "El correo formal", "instructions": "Elige la opción correcta para un correo formal.", "items": [
+      { "q": "Escribes a una empresa y no sabes el nombre de la persona. ¿Cómo empiezas?", "options": ["Hallo zusammen,", "Sehr geehrte Damen und Herren,", "Liebe Firma,"], "answer": 1 },
+      { "q": "¿Cuál es la despedida de un correo formal?", "options": ["Mit freundlichen Grüßen", "Liebe Grüße", "Bis bald"], "answer": 0 },
+      { "q": "Escribes al señor Meier. ¿Qué saludo es correcto?", "options": ["Sehr geehrte Herr Meier,", "Sehr geehrter Herr Meier,", "Sehr geehrten Herr Meier,"], "answer": 1, "explain": "Herr es masculino: Sehr geehrter Herr …; Frau: Sehr geehrte Frau …" },
+      { "q": "¿Qué frase es correcta en un correo formal?", "options": ["Ich danke Ihnen für Ihre Antwort.", "Ich danke ihnen für ihre Antwort.", "Ich danke dir für deine Antwort."], "answer": 0, "explain": "Sie, Ihnen e Ihr van siempre con mayúscula cuando tratas a alguien de usted." },
+      { "q": "Quieres decir que adjuntas tu CV.", "options": ["Im Betreff finden Sie meinen Lebenslauf.", "In der Anrede finden Sie meinen Lebenslauf.", "Im Anhang finden Sie meinen Lebenslauf."], "answer": 2 },
+      { "q": "Después de «Sehr geehrte Frau Huber,», ¿cómo empieza la primera frase?", "options": ["Ich schreibe Ihnen, weil …", "ich schreibe Ihnen, weil …", "ich schreibe ihnen, weil …"], "answer": 1, "explain": "Después de la coma del saludo se sigue en minúscula; Ihnen siempre con mayúscula." }
+    ] },
+    { "id": "e08", "type": "gap", "title": "Una candidatura", "instructions": "Completa la candidatura de José con la palabra que falta (la pista en español está entre paréntesis).", "items": [
+      { "text": "Sehr [[geehrte]] Frau Steiner, (estimada)" },
+      { "text": "ich habe Ihre Anzeige gelesen und [[interessiere]] mich sehr für die Stelle. (me intereso)" },
+      { "text": "Ich arbeite seit drei Jahren in einem Labor, [[das]] neue Materialien testet. (que)" },
+      { "text": "Ich bin zeitlich [[flexibel]] und kann sofort anfangen. (flexible)" },
+      { "text": "Im [[Anhang]] finden Sie meinen Lebenslauf und meine Zeugnisse. (adjunto)" },
+      { "text": "Über eine Einladung zu einem Vorstellungsgespräch [[würde]] ich mich sehr freuen. (me alegraría)" },
+      { "text": "Mit [[freundlichen]] Grüßen (atentamente)" }
+    ] },
+    { "id": "e09", "type": "listen", "title": "En el trabajo", "instructions": "Escucha y contesta.", "items": [
+      { "audio": [{ "v": "f2", "t": "Guten Tag, Herr Romero, hier spricht Claudia Frei von der Personalabteilung der Firma Medilab. Vielen Dank für Ihre Bewerbung. Wir möchten Sie gern zu einem Vorstellungsgespräch einladen. Passt Ihnen Dienstag, der 14., um zehn Uhr?" }], "q": "¿Por qué llama Claudia Frei?", "options": ["Para rechazar la candidatura", "Para invitarle a una entrevista", "Para pedirle el CV"], "answer": 1 },
+      { "audio": [{ "v": "m1", "t": "Die Stelle, die ich jetzt habe, ist gut bezahlt. Aber das Arbeitsklima ist schlecht, deshalb suche ich etwas Neues." }], "q": "¿Por qué busca otro trabajo?", "options": ["Por el mal ambiente", "Porque gana poco", "Porque está muy lejos"], "answer": 0 },
+      { "audio": [{ "v": "f1", "t": "Und, wie war dein erster Tag?" }, { "v": "m2", "t": "Gut! Die Kollegin, die mir alles gezeigt hat, war sehr nett. Nur die Probezeit macht mich ein bisschen nervös. Sie dauert sechs Monate." }], "q": "¿Cuánto dura su periodo de prueba?", "options": ["Un mes", "Tres meses", "Seis meses"], "answer": 2 },
+      { "audio": [{ "v": "ch-m", "t": "Wir suchen für unser Restaurant in Luzern einen Koch oder eine Köchin. Sie müssen auch am Wochenende arbeiten können. Teilzeit ist möglich." }], "q": "¿Qué condición se pide?", "options": ["Trabajar también los fines de semana", "Haber trabajado antes en Lucerna", "Trabajar a jornada completa"], "answer": 0 },
+      { "audio": [{ "v": "m1", "t": "Hast du schon eine Antwort von der Bank bekommen?" }, { "v": "f1", "t": "Ja, leider eine Absage. Sie haben einen Bewerber genommen, der mehr Berufserfahrung hat." }], "q": "¿Por qué no la han cogido?", "options": ["Su alemán no era suficiente", "Otro candidato tenía más experiencia", "Pedía demasiado sueldo"], "answer": 1 },
+      { "audio": [{ "v": "at-f", "t": "Frau Wagner ist heute leider nicht im Büro. Sie ist morgen ab acht Uhr wieder erreichbar. Kann ich ihr etwas ausrichten?" }], "q": "¿Cuándo se puede localizar a la señora Wagner?", "options": ["Mañana a partir de las ocho", "Hoy por la tarde", "El lunes"], "answer": 0 }
+    ] },
+    { "id": "e10", "type": "dictation", "title": "Dictado", "instructions": "Escucha y escribe la frase.", "items": [
+      { "audio": [{ "v": "f1", "t": "Wir suchen eine Mitarbeiterin, die fließend Englisch spricht." }], "answers": ["Wir suchen eine Mitarbeiterin, die fließend Englisch spricht."] },
+      { "audio": [{ "v": "m1", "t": "Im Anhang finden Sie meinen Lebenslauf." }], "answers": ["Im Anhang finden Sie meinen Lebenslauf."] },
+      { "audio": [{ "v": "f2", "t": "Der Job, den ich gefunden habe, ist in Basel." }], "answers": ["Der Job, den ich gefunden habe, ist in Basel."] },
+      { "audio": [{ "v": "m2", "t": "Die Kollegen, denen ich helfe, sind sehr nett." }], "answers": ["Die Kollegen, denen ich helfe, sind sehr nett."] },
+      { "audio": [{ "v": "ch-f", "t": "Sehr geehrte Damen und Herren, vielen Dank für Ihre Antwort." }], "answers": ["Sehr geehrte Damen und Herren, vielen Dank für Ihre Antwort."] }
+    ] },
+    { "id": "e11", "type": "write", "title": "Traduce al alemán", "instructions": "Escribe la frase en alemán.", "items": [
+      { "prompt": "Busco un trabajo que sea interesante.", "answers": ["Ich suche einen Job, der interessant ist.", "Ich suche eine Stelle, die interessant ist.", "Ich suche eine Arbeit, die interessant ist."] },
+      { "prompt": "El compañero que conocí ayer es de Viena.", "answers": ["Der Kollege, den ich gestern kennengelernt habe, kommt aus Wien.", "Der Kollege, den ich gestern kennengelernt habe, ist aus Wien."] },
+      { "prompt": "La jefa a la que escribí no ha contestado.", "answers": ["Die Chefin, der ich geschrieben habe, hat nicht geantwortet.", "Die Chefin, der ich geschrieben habe, hat noch nicht geantwortet."] },
+      { "prompt": "Adjunto encontrará mi CV.", "answers": ["Im Anhang finden Sie meinen Lebenslauf."] },
+      { "prompt": "Soy fiable y flexible.", "answers": ["Ich bin zuverlässig und flexibel.", "Ich bin flexibel und zuverlässig."] },
+      { "prompt": "Los clientes a los que ayudamos están contentos.", "answers": ["Die Kunden, denen wir helfen, sind zufrieden.", "Die Kunden, denen wir geholfen haben, sind zufrieden.", "Die Kunden, denen wir helfen, sind froh."] }
+    ] }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Eine E-Mail von Valeria",
+          "text": "Liebe Nora,\n\ndu wirst es nicht glauben: Ich habe die Stelle bei der Stiftung „Kinderwelt“ bekommen! Gestern Abend hat mich Frau Ammann, die Leiterin, angerufen und mir die Zusage gegeben. Ich bin immer noch ganz aufgeregt.\n\nDu weißt ja, wie lange ich gesucht habe. Seit dem Frühling habe ich fast dreißig Bewerbungen geschrieben und nur Absagen bekommen. Am Anfang dachte ich, es liegt an meinem Deutsch. Dann hat mir eine Beraterin beim RAV gezeigt, dass mein Lebenslauf viel zu lang war. Ich hatte auf vier Seiten jeden kleinen Nebenjob aufgeschrieben, den ich als Studentin hatte! Jetzt ist er nur noch zwei Seiten lang, und plötzlich kamen die Einladungen.\n\nDas Vorstellungsgespräch war trotzdem nicht leicht. Ich musste mit drei Personen sprechen, und eine davon stellte alle Fragen auf Französisch, weil die Stiftung auch in der Westschweiz arbeitet. Zum Glück habe ich zwei Jahre in Lausanne gewohnt.\n\nIch fange am 1. Oktober an. Ich arbeite 80 Prozent, also habe ich jeden Freitag frei. Der Lohn ist nicht besonders hoch, aber die Arbeit ist genau das, was ich immer machen wollte: Projekte für Kinder organisieren, die gerade neu in die Schweiz gekommen sind.\n\nDas müssen wir feiern! Hast du nächsten Samstag Zeit? Ich lade dich zum Essen ein – du hast mir in den letzten Monaten so oft zugehört und mir Mut gemacht.\n\nGanz liebe Grüße\nValeria",
+          "statements": [
+            { "s": "Valeria hat die Zusage per Telefon bekommen.", "answer": true },
+            { "s": "Valeria hat schon im Frühling eine Stelle gefunden.", "answer": false },
+            { "s": "Valerias Lebenslauf war am Anfang zu lang.", "answer": true },
+            { "s": "Im Vorstellungsgespräch hat Valeria nur Deutsch gesprochen.", "answer": false },
+            { "s": "Valeria arbeitet ab Oktober Vollzeit.", "answer": false },
+            { "s": "Valeria möchte sich bei Nora bedanken.", "answer": true }
+          ]
+        },
+        {
+          "title": "Daniels Blog: Mein Jahr als Quereinsteiger",
+          "text": "Vor einem Jahr habe ich etwas gemacht, das viele meiner Freunde verrückt fanden: Ich habe meine sichere Stelle bei einer Bank in Frankfurt gekündigt und eine Ausbildung als Schreiner angefangen – mit 34 Jahren.\n\nZehn Jahre lang saß ich jeden Tag acht Stunden vor dem Computer. Der Lohn war gut, und meine Kollegen waren nett. Aber ich war abends immer müde und unzufrieden. Am glücklichsten war ich am Wochenende, wenn ich in der Garage Möbel für Freunde baute. Irgendwann sagte meine Frau: „Warum machst du das nicht beruflich?“\n\nDer Anfang war hart. Ich bin der älteste Auszubildende im Betrieb, und mein Chef ist jünger als ich. In der Berufsschule sitze ich neben Achtzehnjährigen, die mich am ersten Tag für den neuen Lehrer gehalten haben. Finanziell ist es auch nicht einfach: Als Auszubildender verdiene ich nur einen kleinen Teil von meinem alten Gehalt. Zum Glück hatten wir vorher etwas gespart, und meine Frau arbeitet Vollzeit.\n\nTrotzdem habe ich meine Entscheidung keinen Tag bereut. Ich sehe jeden Abend, was ich mit meinen Händen gemacht habe. Letzte Woche haben wir eine Küche für eine Familie gebaut, die sich riesig gefreut hat. So ein Gefühl hatte ich bei der Bank nie.\n\nViele Leserinnen und Leser fragen mich, ob sie auch den Beruf wechseln sollen. Meine Antwort: Probiert es zuerst aus! Ich habe vor meiner Kündigung zwei Wochen lang ein Praktikum in einer Schreinerei gemacht. Erst danach war ich mir sicher.",
+          "statements": [
+            { "s": "Daniels Freunde fanden seine Entscheidung gut.", "answer": false },
+            { "s": "Bei der Bank hat Daniel wenig verdient.", "answer": false },
+            { "s": "Daniel hat schon vor der Ausbildung in seiner Freizeit Möbel gebaut.", "answer": true },
+            { "s": "Einige Mitschüler dachten am Anfang, dass Daniel ihr Lehrer ist.", "answer": true },
+            { "s": "Daniel ist mit seiner Entscheidung zufrieden.", "answer": true },
+            { "s": "Daniel hat gekündigt, bevor er ein Praktikum gemacht hat.", "answer": false }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Lehrstellen: Betriebe suchen Nachwuchs",
+          "text": "Im Kanton Zürich sind zwei Monate vor Beginn des neuen Lehrjahres noch über 1500 Lehrstellen frei. Besonders schwierig ist die Situation in der Gastronomie, auf dem Bau und in der Pflege. „Früher bekamen wir auf eine Lehrstelle dreißig Bewerbungen, heute sind es manchmal nur zwei oder drei“, sagt Bruno Keller, der in Winterthur einen Malerbetrieb mit zwölf Mitarbeitern leitet.\n\nEin Grund dafür ist, dass immer mehr Jugendliche nach der Sekundarschule ins Gymnasium gehen. Viele Eltern glauben, dass ihre Kinder mit der Matura bessere Chancen haben. Fachleute sehen das anders: „Wer eine Lehre macht, kann sich später weiterbilden und sogar an einer Fachhochschule studieren“, erklärt die Berufsberaterin Sonja Meier. „Die Wege sind in der Schweiz sehr offen.“\n\nDie Betriebe reagieren auf die Situation. Manche bieten in den Ferien Schnupperlehren an: Die Jugendlichen können den Beruf dann ein paar Tage ausprobieren. Andere zahlen einen höheren Lohn oder schenken den Lernenden ein Abonnement für den öffentlichen Verkehr. Bruno Keller hat einen anderen Weg gefunden: Er geht selbst in die Schulen und erzählt von seinem Beruf. „Wenn die Jugendlichen sehen, dass ich meinen Job mit Leidenschaft mache, interessieren sich plötzlich viele dafür.“ In diesem Jahr hat er zum ersten Mal seit Langem alle drei Lehrstellen besetzt.",
+          "questions": [
+            { "q": "Was sagt Bruno Keller über die Bewerbungen?", "options": ["Er bekommt heute viel weniger Bewerbungen als früher.", "Die Bewerber sind heute schlechter qualifiziert.", "Er bekommt vor allem Bewerbungen aus der Gastronomie."], "answer": 0 },
+            { "q": "Was meint Sonja Meier?", "options": ["Jugendliche sollten lieber das Gymnasium besuchen.", "Auch nach einer Lehre kann man noch studieren.", "Eltern sollen den Beruf ihrer Kinder wählen."], "answer": 1 },
+            { "q": "Wie hat Bruno Keller seine Lehrstellen besetzt?", "options": ["Er bezahlt einen höheren Lohn.", "Er bietet Schnupperlehren an.", "Er stellt seinen Beruf in Schulen vor."], "answer": 2 }
+          ]
+        },
+        {
+          "title": "Bewerbung ohne Foto: Firmen testen anonyme Verfahren",
+          "text": "In Deutschland, Österreich und der Schweiz gehört ein Foto bis heute fast selbstverständlich zum Lebenslauf. In vielen anderen Ländern, etwa in Großbritannien oder den USA, ist das ganz anders: Dort schicken Bewerberinnen und Bewerber normalerweise kein Foto und kein Geburtsdatum mit. Jetzt testen auch bei uns immer mehr Unternehmen sogenannte anonyme Bewerbungen. Name, Alter, Geschlecht und Herkunft sieht die Personalabteilung dabei erst später.\n\nDie Idee dahinter: Alle sollen die gleiche Chance auf ein Vorstellungsgespräch haben. Studien zeigen nämlich, dass Personen mit einem ausländischen Namen bei gleicher Qualifikation seltener eingeladen werden.\n\nEin Versicherungsunternehmen in Köln hat das Verfahren ein Jahr lang ausprobiert. Das Ergebnis überraschte selbst die Personalchefin Petra Lorenz: „Wir haben deutlich mehr Frauen über 45 und mehr Menschen mit Migrationshintergrund eingeladen als vorher. Und viele von ihnen haben wir am Ende auch eingestellt.“\n\nKritik gibt es trotzdem. Kleinere Betriebe finden das Verfahren zu kompliziert und zu teuer, weil jemand die Unterlagen zuerst anonym machen muss. Und spätestens im Vorstellungsgespräch sieht man die Person ja doch. „Das stimmt“, sagt Lorenz, „aber dann hat die Person schon die erste Hürde geschafft. Und im Gespräch zählt dann vor allem, was jemand kann.“ Ihr Unternehmen will das Verfahren deshalb auch in Zukunft nutzen.",
+          "questions": [
+            { "q": "Was ist bei Bewerbungen in Großbritannien anders?", "options": ["Man braucht dort keinen Lebenslauf.", "Man muss dort immer das Alter angeben.", "Man schickt dort meistens kein Foto mit."], "answer": 2 },
+            { "q": "Was hat das Unternehmen in Köln erlebt?", "options": ["Es hat mehr unterschiedliche Personen eingeladen.", "Es hat weniger Bewerbungen als früher bekommen.", "Es hat vor allem junge Männer eingestellt."], "answer": 0 },
+            { "q": "Warum sind kleinere Betriebe skeptisch?", "options": ["Sie finden Fotos sehr wichtig.", "Das Verfahren kostet sie zu viel Zeit und Geld.", "Sie bekommen kaum Bewerbungen aus dem Ausland."], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            { "key": "a", "text": "Café Viadukt sucht Servicemitarbeiter/in für Samstag und Sonntag, 8–16 Uhr. Erfahrung nicht nötig, gute Deutschkenntnisse." },
+            { "key": "b", "text": "Spital Limmattal: Pflegefachfrau/-mann 80–100 %, Schichtdienst. Abgeschlossene Ausbildung in der Pflege erforderlich." },
+            { "key": "c", "text": "Bewerbungscoaching für Fremdsprachige: Wir prüfen Ihren Lebenslauf und Ihr Anschreiben und üben mit Ihnen das Vorstellungsgespräch. Auch abends." },
+            { "key": "d", "text": "Familie in Zürich-Wiedikon sucht Studentin oder Studenten für Mathe-Nachhilfe, zweimal pro Woche nachmittags." },
+            { "key": "e", "text": "Softwarefirma in Winterthur sucht Entwickler/in. Homeoffice an drei Tagen pro Woche. Sehr gute Englischkenntnisse, Deutsch ist ein Plus." },
+            { "key": "f", "text": "Abendkurs „Buchhaltung für Kleinunternehmen“: 10 Abende, Start im März, mit Zertifikat. Ideal für Selbstständige." },
+            { "key": "g", "text": "Umzugsfirma Kraft sucht für Samstage kräftige Helfer. Bezahlung bar, 30 Franken pro Stunde." },
+            { "key": "h", "text": "Sprachschule Lingua sucht Spanischlehrer/in mit Muttersprache Spanisch für Abendkurse für Erwachsene, 4–6 Lektionen pro Woche." },
+            { "key": "i", "text": "Kinderkrippe Sonnenschein sucht eine Praktikantin oder einen Praktikanten für ein Jahr. Start im August." },
+            { "key": "j", "text": "Übersetzungsbüro sucht freie Mitarbeiter für Texte aus dem Französischen ins Deutsche. Arbeit von zu Hause aus." }
+          ],
+          "items": [
+            { "situation": "Elena kommt aus Madrid. Sie möchte neben ihrer Arbeit am Abend etwas dazuverdienen – am liebsten mit ihrer Muttersprache.", "answer": "h" },
+            { "situation": "Tomás hat in Portugal Informatik studiert. Er spricht kaum Deutsch, aber sehr gut Englisch, und möchte teilweise von zu Hause arbeiten.", "answer": "e" },
+            { "situation": "Mira hat sich schon zwanzigmal beworben und nie eine Einladung bekommen. Sie möchte Hilfe bei ihren Unterlagen.", "answer": "c" },
+            { "situation": "Ihr Nachbar ist Koch und sucht eine feste Stelle in einem Hotel in den Bergen.", "answer": "x" },
+            { "situation": "Luca (20) möchte am Wochenende in einem Café oder Restaurant jobben. Erfahrung hat er keine.", "answer": "a" },
+            { "situation": "Sandra hat gerade eine kleine Firma gegründet und möchte lernen, wie sie ihre Finanzen richtig organisiert.", "answer": "f" },
+            { "situation": "Ein Bekannter möchte nach der Schule ein Jahr lang Erfahrungen mit kleinen Kindern sammeln.", "answer": "i" }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Die Vier-Tage-Woche",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über die Vier-Tage-Woche bei gleichem Lohn.",
+          "question": "Ist die Person für die Vier-Tage-Woche?",
+          "comments": [
+            { "name": "Tanja, 36, Luzern", "text": "Unser Unternehmen hat die Vier-Tage-Woche vor einem Jahr eingeführt, bei gleichem Lohn. Ich hatte Angst, dass wir dann an vier Tagen viel mehr Stress haben. Aber das Gegenteil ist passiert: Wir machen weniger unnötige Sitzungen und arbeiten konzentrierter. Am Freitag erledige ich Termine beim Arzt oder gehe mit meiner Tochter schwimmen. Ich möchte nie mehr zurück.", "answer": true },
+            { "name": "Reto, 52, St. Gallen", "text": "Ich habe eine Schreinerei mit acht Mitarbeitern. Unsere Kunden erwarten, dass wir von Montag bis Freitag erreichbar sind und die Aufträge pünktlich erledigen. Wenn alle nur noch vier Tage arbeiten, muss ich neue Leute einstellen – aber gute Fachkräfte findet man kaum. Für große Büros mag das funktionieren, für einen kleinen Betrieb wie meinen ist es unrealistisch.", "answer": false },
+            { "name": "Ayşe, 29, Köln", "text": "Einerseits mache ich mir Sorgen, weil zehn Stunden am Tag auch sehr anstrengend sein können. Andererseits sehe ich bei meiner Schwester, die schon so arbeitet, wie viel entspannter sie geworden ist. Sie hat endlich Zeit für ihre Hobbys und ist seltener krank. Deshalb möchte ich es sofort ausprobieren, wenn mein Chef es anbietet.", "answer": true },
+            { "name": "Michael, 44, Wien", "text": "Die Idee klingt natürlich toll. Aber wer bezahlt das am Ende? In der Pflege, wo ich arbeite, fehlen schon jetzt überall Leute. Wenn wir weniger arbeiten, müssen die Kolleginnen und Kollegen noch mehr Überstunden machen, oder die Patienten warten länger. Ich glaube, die Vier-Tage-Woche ist ein Luxus für wenige Branchen und macht die Unterschiede zwischen den Berufen nur größer.", "answer": false },
+            { "name": "Jana, 33, Zürich", "text": "Ich arbeite schon seit drei Jahren 80 Prozent, allerdings mit weniger Lohn. Für mich war das die beste Entscheidung meines Lebens. Wenn Firmen das in Zukunft ohne Lohnverlust anbieten, ist das ein großer Fortschritt. Viele Studien zeigen außerdem, dass die Leute in vier Tagen fast genauso viel schaffen wie in fünf. Warum also nicht?", "answer": true },
+            { "name": "Klaus, 61, Stuttgart", "text": "In meinem Arbeitsleben habe ich viele Trends kommen und gehen sehen. Am Anfang sind alle begeistert, und nach zwei Jahren merkt man, dass die Arbeit trotzdem erledigt werden muss. Ich bin nicht gegen Flexibilität, im Gegenteil. Aber eine feste Regel für alle halte ich für falsch. Jeder sollte mit seinem Arbeitgeber lieber eine eigene Lösung finden.", "answer": false },
+            { "name": "Sophie, 25, Graz", "text": "Ich habe gerade meine erste Stelle angefangen und merke, wie wenig Zeit nach der Arbeit bleibt. Meine Generation will nicht nur arbeiten. Natürlich verstehe ich, dass es nicht in jedem Beruf sofort geht. Aber Unternehmen, die vier Tage anbieten, finden leichter gute Mitarbeiter – das sehe ich bei meinen Freunden. Ich hoffe, mein Arbeitgeber macht bald mit.", "answer": true }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Alpina Versicherungen AG – Hinweise für Ihre Online-Bewerbung",
+          "text": "Vielen Dank für Ihr Interesse an einer Stelle bei der Alpina Versicherungen AG. Bitte bewerben Sie sich ausschließlich über unser Online-Portal. Bewerbungen per Post oder E-Mail können wir leider nicht berücksichtigen.\n\nUnterlagen: Laden Sie bitte ein Anschreiben, einen aktuellen Lebenslauf sowie Ihre Arbeitszeugnisse und Diplome hoch. Ein Foto ist nicht notwendig, und auch Ihr Geburtsdatum müssen Sie nicht angeben. Alle Dokumente müssen im PDF-Format sein; zusammen dürfen sie nicht größer als 10 MB sein.\n\nSprache: Sie können Ihre Unterlagen auf Deutsch, Französisch oder Englisch schicken. Zeugnisse in anderen Sprachen laden Sie bitte zusammen mit einer Übersetzung hoch.\n\nAblauf: Nach dem Absenden erhalten Sie automatisch eine Bestätigung per E-Mail. Bitte prüfen Sie auch Ihren Spam-Ordner. Innerhalb von drei Wochen meldet sich die zuständige Person aus der Personalabteilung bei Ihnen. Den Stand Ihrer Bewerbung sehen Sie jederzeit in Ihrem Konto.\n\nDatenschutz: Wir speichern Ihre Daten sechs Monate. Wenn wir Ihre Unterlagen länger behalten und Sie bei passenden Stellen kontaktieren sollen, aktivieren Sie bitte das entsprechende Feld in Ihrem Profil.\n\nFragen? Unser Team ist von Montag bis Freitag zwischen 9 und 12 Uhr unter 044 556 20 30 erreichbar.",
+          "questions": [
+            { "q": "Wie können Sie sich bei Alpina bewerben?", "options": ["Per E-Mail an die Personalabteilung.", "Nur über das Online-Portal der Firma.", "Per Post oder online."], "answer": 1 },
+            { "q": "Was müssen Sie bei den Unterlagen beachten?", "options": ["Alle Dateien zusammen dürfen höchstens 10 MB groß sein.", "Sie müssen ein Foto mitschicken.", "Alle Zeugnisse müssen auf Deutsch sein."], "answer": 0 },
+            { "q": "Was passiert nach dem Absenden?", "options": ["Die Personalabteilung ruft Sie am nächsten Tag an.", "Sie müssen Ihr Konto aktivieren.", "Sie bekommen sofort eine E-Mail."], "answer": 2 },
+            { "q": "Was gilt für Ihre Daten?", "options": ["Die Firma löscht sie sofort nach einer Absage.", "Sie können wählen, ob die Firma sie länger behält.", "Die Firma speichert sie automatisch für immer."], "answer": 1 }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [{ "v": "m2", "t": "Guten Tag, Frau Navarro, hier ist Markus Bühler von der Firma Roth Pharma. Wir hatten Ihr Vorstellungsgespräch für Donnerstag um 14 Uhr vereinbart. Leider ist meine Kollegin an diesem Tag krank. Können wir das Gespräch auf Freitag verschieben, gleiche Uhrzeit? Bitte rufen Sie mich kurz zurück, unter 061 234 56 78. Vielen Dank!" }],
+          "statement": "Das Vorstellungsgespräch findet wie geplant am Donnerstag statt.",
+          "tf": false,
+          "q": "Was soll Frau Navarro tun?",
+          "options": ["Eine E-Mail schreiben", "Herrn Bühler anrufen", "Am Freitag um 10 Uhr kommen"],
+          "answer": 1
+        },
+        {
+          "audio": [{ "v": "ch-f", "t": "Und nun zum Arbeitsmarkt: Die Arbeitslosigkeit in der Schweiz ist im September leicht gestiegen, auf 2,8 Prozent. Besonders betroffen sind der Bau und die Gastronomie, wo viele Saisonstellen enden. In der Informatik und im Gesundheitswesen suchen die Firmen dagegen weiterhin dringend Fachkräfte. Experten rechnen damit, dass die Zahlen im Winter noch etwas steigen." }],
+          "statement": "In der Informatik gibt es zu wenig Fachkräfte.",
+          "tf": true,
+          "q": "Was erwarten die Experten?",
+          "options": ["Dass es im Winter mehr Arbeitslose gibt.", "Dass die Gastronomie mehr Leute einstellt.", "Dass die Arbeitslosigkeit sofort sinkt."],
+          "answer": 0
+        },
+        {
+          "audio": [{ "v": "f1", "t": "Liebe Besucherinnen und Besucher der Jobmesse Zürich! Um 14 Uhr beginnt in Halle 2 der Workshop „Der perfekte Lebenslauf“. Wer seinen Lebenslauf mitbringt, kann ihn danach von unseren Expertinnen prüfen lassen. Die Teilnahme ist kostenlos, aber die Plätze sind begrenzt. Bitte melden Sie sich am Infostand beim Eingang an." }],
+          "statement": "Für den Workshop muss man bezahlen.",
+          "tf": false,
+          "q": "Wo meldet man sich für den Workshop an?",
+          "options": ["Online", "In Halle 2", "Am Infostand beim Eingang"],
+          "answer": 2
+        },
+        {
+          "audio": [{ "v": "at-m", "t": "Servus Lena, hier ist Thomas. Du, die Teambesprechung morgen ist nicht um neun, sondern erst um halb elf, weil der Chef noch bei einem Kunden in Linz ist. Kannst du bitte die Zahlen vom letzten Monat mitbringen? Die brauchen wir für die Präsentation. Danke und bis morgen!" }],
+          "statement": "Die Besprechung beginnt später als geplant.",
+          "tf": true,
+          "q": "Was soll Lena mitbringen?",
+          "options": ["Die Zahlen vom letzten Monat", "Ihren Laptop", "Kaffee für alle"],
+          "answer": 0
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie sind neu in einer Firma und nehmen an einem Einführungstag teil.",
+          "audio": [
+            { "v": "m1", "t": "Guten Morgen und herzlich willkommen bei Solartec! Ich bin Martin Graf, der Leiter der Personalabteilung. Heute ist Ihr erster Tag, und ich möchte Ihnen kurz erklären, wie bei uns alles funktioniert." },
+            { "v": "m1", "t": "Zuerst zur Arbeitszeit: Wir haben Gleitzeit. Das heißt, Sie können zwischen sieben und neun Uhr anfangen. Wichtig ist nur, dass Sie zwischen neun und fünfzehn Uhr im Haus sind, denn das ist unsere Kernzeit." },
+            { "v": "m1", "t": "Homeoffice ist bei uns an zwei Tagen pro Woche möglich, aber erst nach der Probezeit. Die dauert drei Monate. In dieser Zeit möchten wir, dass Sie Ihre Kolleginnen und Kollegen gut kennenlernen." },
+            { "v": "m1", "t": "Jede neue Mitarbeiterin und jeder neue Mitarbeiter bekommt einen Paten oder eine Patin. Das ist eine erfahrene Person aus dem Team, die Ihnen in den ersten Wochen bei allen Fragen hilft." },
+            { "v": "m1", "t": "Zum Essen: In der Kantine im Erdgeschoss gibt es jeden Tag zwei Menüs, eins davon vegetarisch. Mit Ihrem Mitarbeiterausweis bezahlen Sie nur acht Franken." },
+            { "v": "m1", "t": "Den Ausweis bekommen Sie heute Nachmittag am Empfang. Bitte bringen Sie dafür ein Foto mit, oder lassen Sie es direkt dort machen." },
+            { "v": "m1", "t": "Wenn Sie krank sind, informieren Sie bitte vor acht Uhr Ihre Teamleitung. Ab dem dritten Tag brauchen wir ein Arztzeugnis." },
+            { "v": "m1", "t": "Und noch etwas Schönes zum Schluss: Am Freitag ist unser Sommerfest auf der Dachterrasse. Das ist die beste Gelegenheit, alle kennenzulernen. Jetzt zeige ich Ihnen das Gebäude." }
+          ],
+          "questions": [
+            { "q": "Wann müssen die Mitarbeiter auf jeden Fall in der Firma sein?", "options": ["Von 7 bis 9 Uhr", "Von 9 bis 15 Uhr", "Von 8 bis 17 Uhr"], "answer": 1 },
+            { "q": "Was gilt für Homeoffice?", "options": ["Es ist in den ersten drei Monaten nicht möglich.", "Man kann jeden Tag zu Hause arbeiten.", "Es ist nur für Teamleiter möglich."], "answer": 0 },
+            { "q": "Was macht ein Pate oder eine Patin?", "options": ["Er oder sie organisiert das Sommerfest.", "Er oder sie kontrolliert die Arbeitszeit.", "Er oder sie hilft den Neuen am Anfang."], "answer": 2 },
+            { "q": "Was braucht man für den Mitarbeiterausweis?", "options": ["Ein Foto", "Ein Arztzeugnis", "Acht Franken"], "answer": 0 },
+            { "q": "Was muss man tun, wenn man krank ist?", "options": ["Sofort ein Arztzeugnis schicken", "Vor acht Uhr die Teamleitung informieren", "Die Personalabteilung anrufen"], "answer": 1 }
+          ]
+        },
+        {
+          "intro": "Sie hören auf einer Jobmesse einen Vortrag zum Thema „Das Vorstellungsgespräch“.",
+          "audio": [
+            { "v": "f2", "t": "Guten Tag zusammen! Mein Name ist Katrin Albrecht, ich bin seit fünfzehn Jahren Berufsberaterin. In den nächsten zwanzig Minuten gebe ich Ihnen Tipps für das Vorstellungsgespräch, die Sie sofort anwenden können." },
+            { "v": "f2", "t": "Der wichtigste Tipp zuerst: Informieren Sie sich vorher gründlich über das Unternehmen. Lesen Sie die Website, schauen Sie, welche Produkte die Firma herstellt und wer die Kunden sind. Nichts ist schlimmer als ein Bewerber, der nicht weiß, was die Firma eigentlich macht." },
+            { "v": "f2", "t": "Viele Menschen haben Angst vor der Frage nach den Schwächen. Mein Rat: Nennen Sie eine echte Schwäche, aber erklären Sie auch, was Sie dagegen tun. Zum Beispiel: Ich bin manchmal ungeduldig, deshalb plane ich meine Projekte jetzt genauer." },
+            { "v": "f2", "t": "Zur Kleidung: Sie müssen nicht immer einen Anzug tragen. Ziehen Sie sich so an wie die Mitarbeiter in dieser Branche – nur ein bisschen eleganter. In einer Bank ist das etwas anderes als in einer Werbeagentur." },
+            { "v": "f2", "t": "Ein Fehler, den ich oft sehe: Am Ende fragt die Firma: Haben Sie noch Fragen? Und der Bewerber sagt: Nein, danke. Bereiten Sie unbedingt zwei oder drei Fragen vor, zum Beispiel zum Team oder zu den Aufgaben in den ersten Monaten." },
+            { "v": "f2", "t": "Und das Thema Lohn? Warten Sie lieber, bis die Firma es anspricht. Wenn man Sie nach Ihren Erwartungen fragt, nennen Sie eine realistische Zahl. Informieren Sie sich vorher, was in Ihrer Branche üblich ist." },
+            { "v": "f2", "t": "Nach dem Gespräch dürfen Sie sich übrigens gern mit einer kurzen E-Mail bedanken. Das machen nur wenige, und es bleibt positiv in Erinnerung. Gibt es dazu schon Fragen?" }
+          ],
+          "questions": [
+            { "q": "Was ist laut Frau Albrecht der wichtigste Tipp?", "options": ["Pünktlich zum Gespräch kommen", "Sich vorher über die Firma informieren", "Einen Anzug tragen"], "answer": 1 },
+            { "q": "Wie soll man auf die Frage nach Schwächen antworten?", "options": ["Keine Schwäche nennen", "Eine Stärke als Schwäche präsentieren", "Eine echte Schwäche nennen und sagen, was man dagegen tut"], "answer": 2 },
+            { "q": "Was sagt sie zur Kleidung?", "options": ["Man soll sich an der Branche orientieren.", "Man muss immer einen Anzug tragen.", "Man soll möglichst bequeme Kleidung tragen."], "answer": 0 },
+            { "q": "Was sollen Bewerber am Ende des Gesprächs tun?", "options": ["Nach dem Lohn fragen", "Eigene Fragen stellen", "Ihre Zeugnisse zeigen"], "answer": 1 },
+            { "q": "Was empfiehlt sie nach dem Gespräch?", "options": ["Eine kurze Dankes-E-Mail schreiben", "Am nächsten Tag anrufen", "Ein kleines Geschenk schicken"], "answer": 0 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            { "v": "m1", "t": "Lara! Na, wie war dein Vorstellungsgespräch gestern?" },
+            { "v": "f1", "t": "Ach, Jonas, ich weiß nicht. Am Anfang lief es super. Die Personalchefin war total nett, und wir haben fast eine halbe Stunde über meine Projekte gesprochen." },
+            { "v": "m1", "t": "Das klingt doch gut! Was war dann das Problem?" },
+            { "v": "f1", "t": "Dann kam der Abteilungsleiter dazu. Der hat mir plötzlich Fragen auf Englisch gestellt. Damit hatte ich überhaupt nicht gerechnet." },
+            { "v": "m1", "t": "Aber dein Englisch ist doch gut." },
+            { "v": "f1", "t": "Schon, aber ich war so nervös, dass mir die einfachsten Wörter nicht eingefallen sind." },
+            { "v": "m1", "t": "Das passiert allen mal. Hast du denn gefragt, wann sie sich melden?" },
+            { "v": "f1", "t": "Ja, sie wollen bis Ende nächster Woche entscheiden. Es gibt noch zwei andere Bewerberinnen." },
+            { "v": "m1", "t": "Und möchtest du die Stelle denn wirklich?" },
+            { "v": "f1", "t": "Auf jeden Fall. Das Team ist jung, die Aufgaben sind spannend, und das Büro ist nur zehn Minuten von meiner Wohnung entfernt. Momentan fahre ich jeden Tag über eine Stunde nach Baden." },
+            { "v": "m1", "t": "Und das Gehalt?" },
+            { "v": "f1", "t": "Ungefähr wie jetzt, vielleicht ein bisschen weniger. Aber das ist mir egal, wenn ich jeden Tag zwei Stunden Zeit spare." },
+            { "v": "m1", "t": "Verstehe ich total. Weißt du was? Schreib ihnen heute noch eine kurze E-Mail und bedank dich für das Gespräch. Das macht einen guten Eindruck." },
+            { "v": "f1", "t": "Gute Idee. Und du? Bist du noch zufrieden in deiner Firma?" },
+            { "v": "m1", "t": "Na ja, mein neuer Chef ist ziemlich streng. Aber das erzähle ich dir ein anderes Mal – ich muss hier raus. Viel Glück!" },
+            { "v": "f1", "t": "Danke, Jonas! Tschüss!" }
+          ],
+          "statements": [
+            { "s": "Das Gespräch mit der Personalchefin war angenehm.", "answer": true },
+            { "s": "Lara hatte erwartet, dass sie im Gespräch auch Englisch sprechen muss.", "answer": false },
+            { "s": "Lara ist die einzige Bewerberin für die Stelle.", "answer": false },
+            { "s": "Der Weg zur neuen Stelle ist kürzer als der Weg zu ihrer jetzigen Arbeit.", "answer": true },
+            { "s": "In der neuen Stelle verdient Lara deutlich mehr.", "answer": false },
+            { "s": "Jonas rät Lara, sich bei der Firma zu bedanken.", "answer": true },
+            { "s": "Jonas ist mit seinem neuen Chef sehr zufrieden.", "answer": false }
+          ]
+        },
+        {
+          "intro": "Sie sind in der Straßenbahn und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            { "v": "m2", "t": "Hoi Corinne! Du fährst heute aber spät ins Büro." },
+            { "v": "ch-f", "t": "Ja, ich arbeite seit diesem Monat erst ab zehn. Ich habe mit meiner Chefin neue Arbeitszeiten vereinbart." },
+            { "v": "m2", "t": "Echt? Wie hast du das geschafft?" },
+            { "v": "ch-f", "t": "Ich habe ihr einfach erklärt, dass ich morgens meine Mutter zur Therapie bringen muss. Sie hat sofort Ja gesagt. Dafür arbeite ich jetzt abends bis sieben." },
+            { "v": "m2", "t": "Das ist fair. Bei uns ist das leider nicht so einfach. Seit wir den neuen Abteilungsleiter haben, gibt es für alles feste Regeln." },
+            { "v": "ch-f", "t": "Ist das der Deutsche, der vorher in München gearbeitet hat?" },
+            { "v": "m2", "t": "Genau. Fachlich ist er wirklich gut, das muss man sagen. Aber er kontrolliert alles. Letzte Woche wollte er sogar wissen, warum ich zehn Minuten länger Mittagspause gemacht habe." },
+            { "v": "ch-f", "t": "Oh je. Und was sagen die anderen im Team?" },
+            { "v": "m2", "t": "Zwei Kolleginnen suchen schon eine neue Stelle. Ich überlege auch." },
+            { "v": "ch-f", "t": "Hm, wir suchen gerade jemanden für die Buchhaltung. Das ist doch genau dein Bereich, oder?" },
+            { "v": "m2", "t": "Ja, schon. Ist die Stelle noch offen?" },
+            { "v": "ch-f", "t": "Ich glaube, bis Ende Monat. Ich schicke dir heute Abend den Link zur Anzeige." },
+            { "v": "m2", "t": "Super, danke! Aber sag bitte noch niemandem etwas." },
+            { "v": "ch-f", "t": "Natürlich nicht. Ich muss hier aussteigen. Bis bald, Simon!" }
+          ],
+          "statements": [
+            { "s": "Corinne fängt jetzt später mit der Arbeit an.", "answer": true },
+            { "s": "Corinnes Chefin war mit den neuen Arbeitszeiten nicht einverstanden.", "answer": false },
+            { "s": "Corinne arbeitet jetzt weniger Stunden als früher.", "answer": false },
+            { "s": "Simon findet, dass der neue Abteilungsleiter fachlich gut ist.", "answer": true },
+            { "s": "Der Abteilungsleiter hat Simon wegen einer langen Mittagspause gefragt.", "answer": true },
+            { "s": "Simon hat schon gekündigt.", "answer": false },
+            { "s": "Corinne schickt Simon Informationen über eine freie Stelle.", "answer": true }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Der Moderator der Radiosendung „Arbeit heute“ diskutiert mit der Personalchefin Ursula Brandt und dem Softwareentwickler Kevin Lehmann über das Thema „Wie oft sollte man die Stelle wechseln?“.",
+          "options": ["Daniel Frey, Moderator", "Ursula Brandt, Personalchefin", "Kevin Lehmann, Softwareentwickler"],
+          "audio": [
+            { "v": "m1", "t": "Willkommen bei „Arbeit heute“. Früher blieben viele Menschen ihr ganzes Leben in einer Firma. Heute wechseln besonders junge Leute oft schon nach zwei oder drei Jahren. Ist das gut oder schlecht? Darüber spreche ich mit Ursula Brandt, Personalchefin eines großen Versicherungsunternehmens, und mit Kevin Lehmann, Softwareentwickler. Herr Lehmann, Sie sind 31 und hatten schon vier Arbeitgeber. Warum?" },
+            { "v": "m2", "t": "Weil ich jedes Mal etwas Neues lernen wollte. In meiner Branche ändert sich die Technik so schnell. Wenn ich zehn Jahre am gleichen Projekt arbeite, bin ich danach nicht mehr interessant für den Arbeitsmarkt." },
+            { "v": "m1", "t": "Frau Brandt, wie sehen Sie das als Personalchefin?" },
+            { "v": "f2", "t": "Ich verstehe das Argument. Aber wenn ich einen Lebenslauf sehe, in dem jemand alle anderthalb Jahre wechselt, frage ich mich schon: Hält diese Person Schwierigkeiten aus? Oder geht sie beim ersten Problem?" },
+            { "v": "m2", "t": "Das finde ich ein bisschen unfair. Ich bin nie wegen Problemen gegangen, sondern immer wegen besserer Angebote." },
+            { "v": "f2", "t": "Das glaube ich Ihnen. Aber das sehe ich im Lebenslauf nicht. Deshalb ist es so wichtig, im Anschreiben die Gründe zu erklären." },
+            { "v": "m1", "t": "Was kostet es eine Firma eigentlich, wenn jemand geht?" },
+            { "v": "f2", "t": "Sehr viel. Wir müssen eine Anzeige schalten, Gespräche führen, die neue Person einarbeiten. Bis jemand wirklich produktiv ist, dauert es oft ein halbes Jahr." },
+            { "v": "m2", "t": "Dann müssen die Firmen eben mehr tun, damit die Leute bleiben. Bei meinem letzten Arbeitgeber gab es zum Beispiel keine Weiterbildung. Meine Kurse musste ich selbst bezahlen." },
+            { "v": "m1", "t": "Herr Lehmann, haben Sie beim Wechseln auch Nachteile erlebt?" },
+            { "v": "m2", "t": "Ehrlich gesagt, ja. Man muss jedes Mal neue Kollegen kennenlernen und sich an eine neue Kultur gewöhnen. Und in der Probezeit hat man natürlich weniger Sicherheit." },
+            { "v": "f2", "t": "Und man baut in der Firma kein Netzwerk auf. Bei uns bekommen meistens Leute die Führungspositionen, die das Unternehmen schon lange kennen." },
+            { "v": "m1", "t": "Gibt es denn eine ideale Zeit, die man in einer Stelle bleiben sollte?" },
+            { "v": "f2", "t": "Eine feste Regel gibt es nicht. Aber zwei bis drei Jahre sollten es mindestens sein. Sonst kann man kaum ein Projekt wirklich abschließen." },
+            { "v": "m2", "t": "In der IT halte ich zwei Jahre für völlig normal. Aber ich gebe zu: Bei meiner jetzigen Firma möchte ich länger bleiben. Hier passt einfach alles." },
+            { "v": "m1", "t": "Frau Brandt, Ihr Tipp zum Schluss für alle, die wechseln möchten?" },
+            { "v": "f2", "t": "Gehen Sie nie im Streit. Man trifft sich im Berufsleben immer zweimal, und ein gutes Arbeitszeugnis ist in der Schweiz Gold wert." },
+            { "v": "m1", "t": "Vielen Dank Ihnen beiden für die interessante Diskussion!" }
+          ],
+          "items": [
+            { "q": "Früher arbeiteten viele Menschen ein Leben lang in derselben Firma.", "answer": 0 },
+            { "q": "Häufige Wechsel halten das eigene Wissen aktuell.", "answer": 2 },
+            { "q": "Viele Wechsel im Lebenslauf machen misstrauisch.", "answer": 1 },
+            { "q": "Man sollte im Anschreiben erklären, warum man gewechselt hat.", "answer": 1 },
+            { "q": "Ein früherer Arbeitgeber hat keine Weiterbildung angeboten.", "answer": 2 },
+            { "q": "Bis neue Mitarbeiter richtig produktiv sind, dauert es lange.", "answer": 1 },
+            { "q": "In der jetzigen Firma möchte er länger bleiben.", "answer": 2 },
+            { "q": "Man sollte eine Firma nicht im Streit verlassen.", "answer": 1 }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie haben eine neue Stelle gefunden. Ihre Freundin Carmen hat Ihnen bei der Bewerbung geholfen. Schreiben Sie Carmen eine E-Mail.",
+          "points": ["Bedanken Sie sich für die Hilfe.", "Beschreiben Sie: Was ist an der neuen Stelle besonders gut?", "Laden Sie Carmen zum Essen ein und schlagen Sie einen Termin vor."],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Carmen,\n\nich habe die Stelle bei Novapharm bekommen! Vielen Dank für deine Hilfe. Die Tipps, die du mir für das Vorstellungsgespräch gegeben hast, waren wirklich super.\n\nDas Beste an der neuen Stelle ist das Team. Die Kolleginnen, die ich schon kennengelernt habe, sind sehr nett. Außerdem kann ich zwei Tage pro Woche im Homeoffice arbeiten, und das Büro ist nur fünf Minuten vom Bahnhof entfernt.\n\nIch möchte dich gern zum Essen einladen. Hast du am Freitagabend Zeit?\n\nLiebe Grüße\nAndrea"
+        },
+        {
+          "task": "Ihr Freund Lukas hat eine Absage für eine Stelle bekommen, die er unbedingt wollte. Schreiben Sie Lukas eine E-Mail.",
+          "points": ["Zeigen Sie Verständnis und trösten Sie ihn.", "Erzählen Sie von einer eigenen Erfahrung mit einer Absage.", "Machen Sie einen Vorschlag: Wie können Sie ihm helfen?"],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Lukas,\n\ndas tut mir wirklich leid! Ich weiß, wie sehr du dir diese Stelle gewünscht hast. Aber bitte sei nicht zu traurig. Eine Absage bedeutet nicht, dass du schlecht bist.\n\nAls ich nach Zürich kam, habe ich auch viele Absagen bekommen. Eine Firma, die ich besonders toll fand, hat mir nicht einmal geantwortet. Ein paar Monate später hatte ich dann eine bessere Stelle.\n\nWollen wir am Wochenende zusammen deine Unterlagen anschauen? Ich kann dir auch beim Anschreiben helfen.\n\nViele Grüße\nJosé"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Homeoffice für alle?“ gesehen. Im Forum finden Sie folgende Meinung:",
+          "quote": "Seit zwei Jahren arbeite ich nur noch zu Hause. Ich spare jeden Tag zwei Stunden Fahrzeit, und ich kann viel konzentrierter arbeiten als im Großraumbüro. Ich verstehe nicht, warum manche Firmen ihre Mitarbeiter jetzt wieder ins Büro holen wollen. (Stefanie, 38)",
+          "points": ["Schreiben Sie Ihre Meinung zum Thema.", "Nennen Sie Vor- und Nachteile aus Ihrer Erfahrung."],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich kann Stefanie gut verstehen. Auch ich arbeite gern zu Hause, weil ich dort ohne Unterbrechungen konzentriert arbeiten kann. Trotzdem glaube ich nicht, dass Homeoffice an allen Tagen die beste Lösung ist. Ein Kollege, der nur zu Hause arbeitet, verliert leicht den Kontakt zum Team. Viele Probleme kann man in fünf Minuten an der Kaffeemaschine lösen. Online braucht man dafür oft eine ganze Sitzung. Deshalb finde ich eine Mischung ideal: zwei oder drei Tage zu Hause und die anderen Tage im Büro."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Ist ein hohes Gehalt wichtiger als ein gutes Arbeitsklima?“ gesehen. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:",
+          "quote": "Ganz ehrlich: Ich gehe arbeiten, weil ich Geld brauche. Wenn mir eine andere Firma 500 Franken mehr im Monat zahlt, wechsle ich sofort. Freunde habe ich außerhalb der Arbeit genug, dafür brauche ich wirklich keine netten Kollegen im Büro. (Dario, 27)",
+          "points": ["Schreiben Sie Ihre Meinung zum Thema.", "Was ist für Sie bei einer Stelle am wichtigsten?"],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich sehe das anders als Dario. Natürlich ist der Lohn wichtig, besonders in einem teuren Land wie der Schweiz. Aber wir verbringen jede Woche über vierzig Stunden bei der Arbeit. Wenn das Arbeitsklima schlecht ist, nützt mir auch ein hohes Gehalt nichts. Ich hatte einmal einen Chef, der jeden Tag schlechte Laune hatte. Nach einem Jahr war ich total gestresst und habe gekündigt. Für mich sind deshalb ein gutes Team und interessante Aufgaben am wichtigsten. Das Gehalt muss fair sein, aber es ist nicht alles."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben eine Einladung zu einem Vorstellungsgespräch am Donnerstag um 10 Uhr bekommen. Sie können zu diesem Termin nicht kommen. Schreiben Sie an Frau Schneider von der Personalabteilung.",
+          "points": ["Bedanken Sie sich für die Einladung.", "Erklären Sie, warum Sie nicht kommen können.", "Schlagen Sie einen anderen Termin vor."],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Schneider,\n\nvielen Dank für die Einladung zum Vorstellungsgespräch. Leider kann ich am Donnerstag um 10 Uhr nicht kommen, weil ich an diesem Tag eine wichtige Prüfung an der Universität habe. Geht es vielleicht am Freitag oder am Montag? Ich bin an beiden Tagen flexibel.\n\nMit freundlichen Grüßen\nJosé Romero"
+        },
+        {
+          "task": "Sie sind krank und können morgen nicht zur Arbeit kommen. Morgen haben Sie eine wichtige Besprechung mit einem Kunden. Schreiben Sie Ihrer Chefin, Frau Imhof.",
+          "points": ["Entschuldigen Sie sich und erklären Sie die Situation.", "Schlagen Sie vor, wer die Besprechung übernehmen kann."],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Liebe Frau Imhof,\n\nleider bin ich krank und habe hohes Fieber. Deshalb kann ich morgen nicht ins Büro kommen. Das tut mir sehr leid, besonders wegen der Besprechung mit Herrn Keller. Mein Kollege Marc, der das Projekt gut kennt, kann den Termin übernehmen. Die Unterlagen schicke ich ihm heute noch.\n\nFreundliche Grüße\nAndrea Navarro"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Ihre Kollegin, Frau Huber, geht nach 25 Jahren in der Firma in Pension. Planen Sie zusammen eine Abschiedsfeier.",
+          "points": ["Wann und wo feiern?", "Wen einladen?", "Was schenken?", "Wer organisiert was?"],
+          "model": [
+            { "v": "f1", "t": "Frau Huber geht Ende Juni in Pension. Wir sollten eine schöne Abschiedsfeier für sie organisieren." },
+            { "v": "m1", "t": "Unbedingt! Wann machen wir das? Ich schlage ihren letzten Arbeitstag vor, also den 30. Juni." },
+            { "v": "f1", "t": "Das ist ein Freitag, oder? Dann können wir nach Feierabend feiern, so gegen 17 Uhr." },
+            { "v": "m1", "t": "Gut. Und wo? Im Besprechungsraum ist es ein bisschen ungemütlich." },
+            { "v": "f1", "t": "Was hältst du von der Dachterrasse? Wenn das Wetter schön ist, ist das perfekt." },
+            { "v": "m1", "t": "Gute Idee. Und wenn es regnet, gehen wir in die Kantine. Wen laden wir ein?" },
+            { "v": "f1", "t": "Natürlich die ganze Abteilung. Und auch die Kolleginnen, die schon in Pension sind und lange mit ihr zusammengearbeitet haben." },
+            { "v": "m1", "t": "Schön. Und als Geschenk? Sie hat doch erzählt, dass sie mehr reisen möchte." },
+            { "v": "f1", "t": "Genau. Kaufen wir doch einen Reisegutschein! Jeder gibt zwanzig Franken." },
+            { "v": "m1", "t": "Einverstanden. Und ich frage Thomas, der so gut fotografiert. Er kann ein Album mit Fotos aus der Firma machen." },
+            { "v": "f1", "t": "Super. Dann kümmere ich mich um das Essen und die Getränke, und du sammelst das Geld." },
+            { "v": "m1", "t": "Abgemacht. Ich schreibe heute noch eine E-Mail an alle." }
+          ]
+        },
+        {
+          "task": "Ihre Abteilung macht im September einen Betriebsausflug. Ihr Chef hat Sie und eine Kollegin / einen Kollegen gebeten, den Ausflug zu planen.",
+          "points": ["Wohin?", "Wie hinfahren?", "Was machen?", "Wo essen?"],
+          "model": [
+            { "v": "m2", "t": "Also, wir sollen den Betriebsausflug planen. Hast du schon eine Idee, wohin wir fahren können?" },
+            { "v": "f2", "t": "Ich habe an den Vierwaldstättersee gedacht. Da kann man eine Schifffahrt machen, das gefällt fast allen." },
+            { "v": "m2", "t": "Hm, eine Schifffahrt finde ich ein bisschen langweilig. Was hältst du von einer Wanderung in den Bergen?" },
+            { "v": "f2", "t": "Eine Wanderung ist schwierig. Wir haben Kollegen, die nicht so gut zu Fuß sind, zum Beispiel Herr Brunner mit seinem Knie." },
+            { "v": "m2", "t": "Stimmt, daran habe ich nicht gedacht. Dann machen wir doch beides: zuerst mit dem Schiff nach Brunnen und dort einen kurzen Spaziergang am See." },
+            { "v": "f2", "t": "Perfekt. Und wie fahren wir hin? Mit dem Zug oder mit einem Bus?" },
+            { "v": "m2", "t": "Mit dem Zug. Das ist umweltfreundlicher, und wir können unterwegs schon zusammen Kaffee trinken." },
+            { "v": "f2", "t": "Einverstanden. Und zum Mittagessen? Ein Restaurant für dreißig Personen müssen wir früh reservieren." },
+            { "v": "m2", "t": "Ich kenne ein Restaurant in Brunnen, das eine schöne Terrasse hat. Ich rufe dort morgen an." },
+            { "v": "f2", "t": "Super. Vergiss nicht, nach vegetarischen Menüs zu fragen. Wir haben mehrere Kolleginnen, die kein Fleisch essen." },
+            { "v": "m2", "t": "Mache ich. Schreibst du dann den Plan und schickst ihn an den Chef?" },
+            { "v": "f2", "t": "Ja, gern. Bis Freitag ist er fertig." }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Homeoffice – Vorteile und Nachteile",
+          "model": [
+            { "v": "m1", "t": "Ich möchte heute über das Thema „Homeoffice – Vorteile und Nachteile“ sprechen. Zuerst erzähle ich von meinen persönlichen Erfahrungen. Danach spreche ich über die Situation in meinem Heimatland Spanien. Dann nenne ich Vor- und Nachteile und sage meine Meinung, und am Ende fasse ich kurz zusammen." },
+            { "v": "m1", "t": "Ich arbeite als Postdoc an der Universität und kann zwei Tage pro Woche zu Hause arbeiten. An diesen Tagen schreibe ich Artikel und analysiere Daten. Für die Experimente muss ich natürlich ins Labor. Am Anfang war es schwierig, zu Hause konzentriert zu bleiben, aber jetzt habe ich eine feste Routine." },
+            { "v": "m1", "t": "In Spanien war Homeoffice vor der Pandemie nicht sehr verbreitet. Viele Chefs wollten ihre Mitarbeiter im Büro sehen. Heute arbeiten mehr Leute von zu Hause aus, aber weniger als in der Schweiz oder in Deutschland." },
+            { "v": "m1", "t": "Der größte Vorteil ist, dass man keine Zeit für den Arbeitsweg verliert. Man ist flexibler und kann Arbeit und Familie besser verbinden. Ein Nachteil ist, dass man weniger Kontakt zu den Kollegen hat. Außerdem hören manche Menschen zu Hause nie auf zu arbeiten. Meiner Meinung nach ist eine Mischung aus Büro und Homeoffice die beste Lösung." },
+            { "v": "m1", "t": "Zum Schluss kann ich sagen: Homeoffice hat viele Vorteile, aber es passt nicht zu jedem Beruf und zu jeder Person. Vielen Dank für Ihre Aufmerksamkeit!" }
+          ],
+          "question": "Sie haben gesagt, dass man zu Hause weniger Kontakt zu den Kollegen hat. Wie lösen Sie dieses Problem?",
+          "answer": "Ich gehe an drei Tagen pro Woche ins Institut und esse dann immer mit meinen Kollegen zu Mittag. Außerdem haben wir jeden Montag eine Teambesprechung. So bin ich immer gut informiert."
+        },
+        {
+          "title": "Teilzeit arbeiten – eine gute Idee?",
+          "model": [
+            { "v": "f1", "t": "In meiner Präsentation geht es um das Thema Teilzeitarbeit. Ich beginne mit meinen eigenen Erfahrungen und erkläre dann, wie die Situation in Spanien ist. Danach spreche ich über Vor- und Nachteile und sage meine Meinung. Zum Schluss fasse ich alles zusammen." },
+            { "v": "f1", "t": "Ich arbeite bei einer Pharmafirma in Zürich und organisiere klinische Studien. Ich arbeite hundert Prozent, aber viele Kolleginnen und auch einige Kollegen arbeiten achtzig oder sechzig Prozent. Das hat mich am Anfang sehr überrascht, denn so etwas kannte ich aus Spanien kaum." },
+            { "v": "f1", "t": "In Spanien arbeiten viel weniger Menschen Teilzeit, und meistens nicht freiwillig. Oft finden sie einfach keine Vollzeitstelle. In der Schweiz ist Teilzeit dagegen ganz normal, auch in guten Positionen." },
+            { "v": "f1", "t": "Ein Vorteil ist, dass man mehr Zeit für Familie, Hobbys oder eine Weiterbildung hat. Viele Menschen sind dadurch gesünder und motivierter. Ein Nachteil ist natürlich der niedrigere Lohn, und später bekommt man auch weniger Rente. Außerdem muss man in weniger Zeit oft fast die gleiche Arbeit schaffen. Ich finde Teilzeit eine gute Möglichkeit, aber man sollte die finanziellen Folgen genau planen." },
+            { "v": "f1", "t": "Zusammenfassend kann man sagen: Teilzeit bringt mehr Lebensqualität, aber weniger Geld. Jeder muss selbst entscheiden, was für ihn wichtiger ist, und das kann sich im Leben auch ändern. Vielen Dank fürs Zuhören!" }
+          ],
+          "question": "Möchten Sie selbst später Teilzeit arbeiten?",
+          "answer": "Ja, vielleicht achtzig Prozent. Dann habe ich einen Tag pro Woche für meine Hobbys und kann endlich einen Töpferkurs machen. Aber im Moment ist mir meine Karriere noch sehr wichtig."
+        }
+      ]
+    }
+  }
+}

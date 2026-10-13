@@ -1,0 +1,561 @@
+{
+  "id": "b1-t01",
+  "level": "b1",
+  "topic": "t01",
+  "title": "Infancia y recuerdos",
+  "title_de": "Kindheit und Erinnerungen",
+  "goals": [
+    "Hablar de tu infancia, el colegio, los juegos y la educación que recibiste",
+    "Contar una anécdota del pasado con orden: situación, sucesos y final",
+    "Entender y usar el Präteritum de los verbos regulares e irregulares más frecuentes",
+    "Expresar lo que había pasado antes con el Plusquamperfekt y nachdem",
+    "Distinguir als (una vez) y wenn (cada vez) en el pasado",
+    "Escribir un correo informal a un amigo contándole un recuerdo (Schreiben Teil 1)"
+  ],
+  "vocab": [
+    { "de": "die Erinnerung", "pl": "die Erinnerungen", "es": "el recuerdo; la memoria", "cat": "Recuerdos", "ex": "Ich habe schöne Erinnerungen an meine Kindheit.", "ex_es": "Tengo bonitos recuerdos de mi infancia." },
+    { "de": "das Erlebnis", "pl": "die Erlebnisse", "es": "la vivencia, la experiencia", "cat": "Recuerdos", "ex": "Die erste Reise allein war ein tolles Erlebnis.", "ex_es": "El primer viaje solo fue una experiencia genial." },
+    { "de": "das Ereignis", "pl": "die Ereignisse", "es": "el acontecimiento", "cat": "Recuerdos", "ex": "Die Hochzeit meiner Tante war ein großes Ereignis im Dorf.", "ex_es": "La boda de mi tía fue un gran acontecimiento en el pueblo." },
+    { "de": "die Vergangenheit", "es": "el pasado", "cat": "Recuerdos", "ex": "Mein Opa spricht gern über die Vergangenheit.", "ex_es": "A mi abuelo le gusta hablar del pasado." },
+    { "de": "die Generation", "pl": "die Generationen", "es": "la generación", "cat": "Recuerdos", "ex": "Meine Generation ist ohne Smartphone aufgewachsen.", "ex_es": "Mi generación creció sin smartphone." },
+    { "de": "das Abenteuer", "pl": "die Abenteuer", "es": "la aventura", "cat": "Recuerdos", "ex": "Jeder Sommer im Dorf war ein Abenteuer.", "ex_es": "Cada verano en el pueblo era una aventura." },
+    { "de": "das Geheimnis", "pl": "die Geheimnisse", "es": "el secreto", "cat": "Recuerdos", "ex": "Das war unser Geheimnis.", "ex_es": "Eso era nuestro secreto." },
+    { "de": "der Enkel / die Enkelin", "pl": "die Enkel / die Enkelinnen", "es": "el nieto / la nieta", "cat": "Familia", "ex": "Meine Oma hat sieben Enkel.", "ex_es": "Mi abuela tiene siete nietos." },
+    { "de": "die Erziehung", "es": "la educación (de los padres), la crianza", "cat": "Familia", "ex": "Die Erziehung war damals viel strenger.", "ex_es": "La educación era entonces mucho más estricta." },
+    { "de": "erziehen", "es": "educar, criar", "cat": "Familia", "forms": "er erzieht, erzog, hat erzogen", "ex": "Meine Großeltern haben mich erzogen.", "ex_es": "Me criaron mis abuelos." },
+    { "de": "erlauben", "es": "permitir", "cat": "Familia", "forms": "er erlaubt, erlaubte, hat erlaubt", "ex": "Meine Eltern erlaubten mir nicht, allein in die Stadt zu fahren.", "ex_es": "Mis padres no me permitían ir solo a la ciudad." },
+    { "de": "verbieten", "es": "prohibir", "cat": "Familia", "forms": "er verbietet, verbot, hat verboten", "ex": "Mein Vater verbot uns, im Haus Fußball zu spielen.", "ex_es": "Mi padre nos prohibía jugar al fútbol dentro de casa." },
+    { "de": "die Strafe", "pl": "die Strafen", "es": "el castigo", "cat": "Familia", "ex": "Als Strafe durfte ich eine Woche nicht fernsehen.", "ex_es": "Como castigo no pude ver la tele durante una semana." },
+    { "de": "der Streit", "pl": "die Streitigkeiten", "es": "la pelea, la discusión", "cat": "Familia", "ex": "Zwischen meinem Bruder und mir gab es oft Streit.", "ex_es": "Entre mi hermano y yo había a menudo peleas." },
+    { "de": "das Taschengeld", "es": "la paga (de los niños)", "cat": "Familia", "ex": "Ich bekam jede Woche zwei Euro Taschengeld.", "ex_es": "Recibía dos euros de paga cada semana." },
+    { "de": "der Kindergarten", "pl": "die Kindergärten", "es": "la guardería, el parvulario", "cat": "Escuela", "ex": "Im Kindergarten habe ich meinen besten Freund kennengelernt.", "ex_es": "En el parvulario conocí a mi mejor amigo." },
+    { "de": "die Grundschule / die Primarschule", "pl": "die Grundschulen", "es": "la escuela primaria (Alemania / Suiza)", "cat": "Escuela", "ex": "In der Schweiz dauert die Primarschule sechs Jahre.", "ex_es": "En Suiza la primaria dura seis años." },
+    { "de": "der Mitschüler / die Mitschülerin", "pl": "die Mitschüler / die Mitschülerinnen", "es": "el compañero / la compañera de clase", "cat": "Escuela", "ex": "Mit einigen Mitschülern habe ich noch Kontakt.", "ex_es": "Con algunos compañeros de clase todavía tengo contacto." },
+    { "de": "die Pause", "pl": "die Pausen", "es": "el recreo, el descanso", "cat": "Escuela", "ex": "In der Pause spielten wir immer Fußball.", "ex_es": "En el recreo siempre jugábamos al fútbol." },
+    { "de": "der Spielplatz", "pl": "die Spielplätze", "es": "el parque infantil", "cat": "Juegos", "ex": "Nach der Schule gingen wir auf den Spielplatz.", "ex_es": "Después del colegio íbamos al parque." },
+    { "de": "das Spielzeug", "pl": "die Spielzeuge", "es": "el juguete; los juguetes", "cat": "Juegos", "ex": "Mein Spielzeug liegt noch auf dem Dachboden meiner Eltern.", "ex_es": "Mis juguetes siguen en el desván de mis padres." },
+    { "de": "die Puppe", "pl": "die Puppen", "es": "la muñeca", "cat": "Juegos", "ex": "Meine Schwester hatte eine Puppe mit langen Haaren.", "ex_es": "Mi hermana tenía una muñeca con el pelo largo." },
+    { "de": "das Märchen", "pl": "die Märchen", "es": "el cuento (de hadas)", "cat": "Juegos", "ex": "Mein Lieblingsmärchen war „Hänsel und Gretel“.", "ex_es": "Mi cuento favorito era «Hansel y Gretel»." },
+    { "de": "vorlesen", "es": "leer en voz alta", "cat": "Juegos", "forms": "er liest vor, las vor, hat vorgelesen", "ex": "Mein Vater las mir jeden Abend eine Geschichte vor.", "ex_es": "Mi padre me leía un cuento cada noche." },
+    { "de": "sammeln", "es": "coleccionar, reunir", "cat": "Juegos", "forms": "er sammelt, sammelte, hat gesammelt", "ex": "Als Kind sammelte ich Briefmarken.", "ex_es": "De niño coleccionaba sellos." },
+    { "de": "klettern", "es": "trepar, escalar", "cat": "Juegos", "forms": "er klettert, kletterte, ist geklettert", "ex": "Wir kletterten auf jeden Baum im Garten.", "ex_es": "Nos subíamos a todos los árboles del jardín." },
+    { "de": "sich verstecken", "es": "esconderse", "cat": "Juegos", "forms": "er versteckt sich, versteckte sich, hat sich versteckt", "ex": "Ich versteckte mich immer unter dem Bett.", "ex_es": "Siempre me escondía debajo de la cama." },
+    { "de": "der Bauernhof", "pl": "die Bauernhöfe", "es": "la granja", "cat": "Lugares", "ex": "Meine Großeltern hatten einen Bauernhof mit Kühen.", "ex_es": "Mis abuelos tenían una granja con vacas." },
+    { "de": "die Ferien", "es": "las vacaciones (escolares)", "cat": "Lugares", "ex": "In den Sommerferien waren wir immer am Meer.", "ex_es": "En las vacaciones de verano siempre estábamos en la playa." },
+    { "de": "das Ferienlager", "pl": "die Ferienlager", "es": "el campamento de verano", "cat": "Lugares", "ex": "Mit zwölf war ich zum ersten Mal im Ferienlager.", "ex_es": "Con doce años fui por primera vez a un campamento." },
+    { "de": "das Heimweh", "es": "la morriña, la nostalgia de casa", "cat": "Sentimientos", "ex": "Im Ferienlager hatte ich am Anfang großes Heimweh.", "ex_es": "En el campamento al principio tenía mucha morriña." },
+    { "de": "vermissen", "es": "echar de menos", "cat": "Sentimientos", "forms": "er vermisst, vermisste, hat vermisst", "ex": "Ich vermisse das Essen meiner Mutter.", "ex_es": "Echo de menos la comida de mi madre." },
+    { "de": "träumen (von)", "es": "soñar (con)", "cat": "Sentimientos", "forms": "er träumt, träumte, hat geträumt", "ex": "Als Kind träumte ich davon, Astronaut zu werden.", "ex_es": "De niño soñaba con ser astronauta." },
+    { "de": "der Traum", "pl": "die Träume", "es": "el sueño (deseo o al dormir)", "cat": "Sentimientos", "ex": "Mein Traum war ein eigenes Pferd.", "ex_es": "Mi sueño era tener un caballo propio." },
+    { "de": "der Wunsch", "pl": "die Wünsche", "es": "el deseo", "cat": "Sentimientos", "ex": "Zu Weihnachten schrieb ich eine lange Liste mit Wünschen.", "ex_es": "Por Navidad escribía una larga lista de deseos." },
+    { "de": "erschrecken", "es": "asustarse", "cat": "Sentimientos", "forms": "er erschrickt, erschrak, ist erschrocken", "ex": "Ich erschrak, als plötzlich das Licht ausging.", "ex_es": "Me asusté cuando de repente se apagó la luz." },
+    { "de": "weinen", "es": "llorar", "cat": "Sentimientos", "forms": "er weint, weinte, hat geweint", "ex": "Am ersten Schultag weinte ich den ganzen Morgen.", "ex_es": "El primer día de colegio lloré toda la mañana." },
+    { "de": "neugierig", "es": "curioso", "cat": "Carácter", "ex": "Als Kind war ich sehr neugierig und fragte immer „Warum?“.", "ex_es": "De niño era muy curioso y siempre preguntaba «¿Por qué?»." },
+    { "de": "frech", "es": "descarado, travieso", "cat": "Carácter", "ex": "Mein kleiner Bruder war ziemlich frech.", "ex_es": "Mi hermano pequeño era bastante descarado." },
+    { "de": "brav", "es": "bueno, obediente (niño)", "cat": "Carácter", "ex": "Wenn wir brav waren, bekamen wir ein Eis.", "ex_es": "Cuando nos portábamos bien, nos daban un helado." },
+    { "de": "ängstlich", "es": "miedoso", "cat": "Carácter", "ex": "Sie war ein ängstliches Kind und schlief nur mit Licht.", "ex_es": "Era una niña miedosa y solo dormía con la luz encendida." },
+    { "de": "aufregend", "es": "emocionante, excitante", "cat": "Carácter", "ex": "Der erste Flug war sehr aufregend für mich.", "ex_es": "El primer vuelo fue muy emocionante para mí." },
+    { "de": "wachsen", "es": "crecer", "cat": "Verbos", "forms": "er wächst, wuchs, ist gewachsen", "ex": "In einem Jahr wuchs ich zehn Zentimeter.", "ex_es": "En un año crecí diez centímetros." },
+    { "de": "sich verändern", "es": "cambiar (uno mismo)", "cat": "Verbos", "forms": "er verändert sich, veränderte sich, hat sich verändert", "ex": "Mein Dorf hat sich sehr verändert.", "ex_es": "Mi pueblo ha cambiado mucho." },
+    { "de": "plötzlich", "es": "de repente", "cat": "Narrar", "ex": "Plötzlich begann es zu regnen.", "ex_es": "De repente empezó a llover." },
+    { "de": "eines Tages", "es": "un día", "cat": "Narrar", "ex": "Eines Tages fanden wir eine kleine Katze im Garten.", "ex_es": "Un día encontramos un gatito en el jardín." },
+    { "de": "jedes Mal", "es": "cada vez", "cat": "Narrar", "ex": "Jedes Mal, wenn wir zu Oma fuhren, wurde mir im Auto schlecht.", "ex_es": "Cada vez que íbamos a casa de la abuela, me mareaba en el coche." },
+    { "de": "nachdem", "es": "después de que", "cat": "Narrar", "ex": "Nachdem wir gegessen hatten, gingen wir spazieren.", "ex_es": "Después de comer, fuimos a pasear." },
+    { "de": "bevor", "es": "antes de que", "cat": "Narrar", "ex": "Bevor ich zur Schule ging, frühstückte ich immer mit meinem Opa.", "ex_es": "Antes de ir al colegio, siempre desayunaba con mi abuelo." },
+    { "de": "schließlich", "es": "finalmente, al final", "cat": "Narrar", "ex": "Wir suchten stundenlang und fanden den Hund schließlich im Wald.", "ex_es": "Buscamos durante horas y al final encontramos al perro en el bosque." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "match", "title": "Recuerdos de infancia", "instructions": "Relaciona cada palabra con su traducción.", "pairs": [
+      ["die Erinnerung", "el recuerdo"],
+      ["das Taschengeld", "la paga"],
+      ["das Heimweh", "la morriña"],
+      ["vorlesen", "leer en voz alta"],
+      ["sich verstecken", "esconderse"],
+      ["neugierig", "curioso"],
+      ["der Bauernhof", "la granja"],
+      ["erschrecken", "asustarse"],
+      ["vermissen", "echar de menos"]
+    ] },
+    { "id": "e02", "type": "gap", "title": "Präteritum: verbos regulares", "instructions": "Escribe el verbo entre paréntesis en Präteritum. Recuerda: raíz + -te (y -ete después de t/d).", "items": [
+      { "text": "Als Kind [[spielte]] ich jeden Tag mit den Nachbarskindern. (spielen)" },
+      { "text": "Meine Mutter [[arbeitete]] damals in einer Bäckerei. (arbeiten)" },
+      { "text": "Wir [[wohnten]] in einem kleinen Haus am Rand des Dorfes. (wohnen)" },
+      { "text": "[[Sammeltest]] du als Kind auch Fußballbilder? (sammeln)" },
+      { "text": "Ihr [[wartetet]] eine Stunde auf den Bus. (warten)" },
+      { "text": "Meine Großeltern [[erzählten]] uns viele Geschichten von früher. (erzählen)" },
+      { "text": "José [[machte]] nach der Schule immer zuerst die Hausaufgaben. (machen)" }
+    ] },
+    { "id": "e03", "type": "mc", "title": "Präteritum: verbos irregulares", "instructions": "Elige la forma correcta del Präteritum.", "items": [
+      { "q": "Gestern ___ ich meinen alten Lehrer in der Stadt. (treffen)", "options": ["traf", "treffte", "trafte"], "answer": 0, "explain": "treffen es irregular: traf, sin -te. Ich y er no llevan terminación." },
+      { "q": "Als Kind ___ Andrea jeden Sommer zu ihrer Tante nach Granada. (fahren)", "options": ["fahrte", "fuhrt", "fuhr"], "answer": 2, "explain": "fahren → fuhr. En la 3.ª persona del Präteritum irregular no hay -t." },
+      { "q": "Früher ___ es in unserem Dorf kein Kino. (geben)", "options": ["gab", "gibt", "gebte"], "answer": 0, "explain": "es gab = había. gibt es presente." },
+      { "q": "Wir ___ jeden Abend um acht Uhr ins Bett. (gehen)", "options": ["gangen", "gingen", "gehten"], "answer": 1, "explain": "gehen → ging, wir gingen." },
+      { "q": "Mein Bruder ___ immer das größte Stück Kuchen. (nehmen)", "options": ["nehmte", "nahm", "nahmt"], "answer": 1, "explain": "nehmen → nahm." },
+      { "q": "Ich ___ nicht, wo meine Eltern das Geschenk versteckt hatten. (wissen)", "options": ["wusste", "wisste", "weißte"], "answer": 0, "explain": "wissen es mixto: cambia la vocal y lleva -te: wusste." },
+      { "q": "Ihr ___ damals jeden Sonntag bei euren Großeltern. (essen)", "options": ["esst", "aßet", "aßt"], "answer": 2, "explain": "essen → aß; ihr aßt. «esst» es presente." },
+      { "q": "Sie ___ oft an ihren ersten Schultag. (denken)", "options": ["denkte", "dachte", "dachtet"], "answer": 1, "explain": "denken es mixto: dachte." }
+    ] },
+    { "id": "e04", "type": "gap", "title": "Una historia en la playa", "instructions": "Completa la historia con el Präteritum del verbo entre paréntesis.", "items": [
+      { "text": "Im Sommer 2008 [[fuhr]] ich mit meinen Eltern ans Meer. (fahren)" },
+      { "text": "Wir [[kamen]] spät in der Nacht im Hotel an. (ankommen)" },
+      { "text": "Am nächsten Morgen [[lief]] ich sofort zum Strand. (laufen)" },
+      { "text": "Dort [[fand]] ich einen schönen weißen Stein. (finden)" },
+      { "text": "Plötzlich [[sah]] ich meine Eltern nicht mehr. (sehen)" },
+      { "text": "Ich [[bekam]] Angst und [[rief]] laut nach meiner Mutter. (bekommen, rufen)" },
+      { "text": "Ein freundlicher Mann [[brachte]] mich zu meiner Familie zurück. (bringen)" },
+      { "text": "Danach [[blieb]] ich immer in der Nähe meiner Eltern. (bleiben)" }
+    ] },
+    { "id": "e05", "type": "mc", "title": "¿als, wenn o wann?", "instructions": "Elige la palabra correcta.", "items": [
+      { "q": "___ ich sechs Jahre alt war, kam ich in die Schule.", "options": ["Als", "Wenn", "Wann"], "answer": 0, "explain": "Una sola vez en el pasado → als." },
+      { "q": "Immer ___ es ein Gewitter gab, versteckte sich unser Hund unter dem Tisch.", "options": ["als", "wenn", "wann"], "answer": 1, "explain": "Algo repetido en el pasado (immer) → wenn." },
+      { "q": "___ bist du nach Zürich gezogen?", "options": ["Als", "Wenn", "Wann"], "answer": 2, "explain": "Pregunta (¿cuándo?) → wann." },
+      { "q": "___ ich am Wochenende Zeit habe, rufe ich meine Oma an.", "options": ["Wann", "Wenn", "Als"], "answer": 1, "explain": "Presente → siempre wenn." },
+      { "q": "Wir waren sehr glücklich, ___ wir unseren ersten Hund bekamen.", "options": ["als", "wenn", "wann"], "answer": 0, "explain": "Un momento único del pasado → als." },
+      { "q": "Jedes Mal, ___ ich bei meinen Großeltern war, durfte ich lange aufbleiben.", "options": ["als", "wann", "wenn"], "answer": 2, "explain": "jedes Mal = repetición → wenn." },
+      { "q": "___ José seine Doktorarbeit beendete, feierte die ganze Familie.", "options": ["Wenn", "Als", "Wann"], "answer": 1, "explain": "Ocurrió una sola vez → als." }
+    ] },
+    { "id": "e06", "type": "gap", "title": "Plusquamperfekt: hatte o war", "instructions": "Escribe la forma correcta de haben o sein en Präteritum (hatte/war…).", "items": [
+      { "text": "Als ich am Bahnhof ankam, [[war]] der Zug schon abgefahren." },
+      { "text": "Ich [[hatte]] meine Hausaufgaben nicht gemacht, deshalb war der Lehrer böse." },
+      { "text": "Nachdem wir den ganzen Tag gewandert [[waren]], schliefen wir sofort ein." },
+      { "text": "Die beiden [[hatten]] sich schon im Kindergarten kennengelernt." },
+      { "text": "Nachdem Andrea ihr Studium beendet [[hatte]], zog sie in die Schweiz." },
+      { "text": "Wir [[waren]] noch nie geflogen, deshalb waren wir sehr aufgeregt." },
+      { "text": "[[Hattest]] du die Geschichte schon vorher gehört?" }
+    ] },
+    { "id": "e07", "type": "order", "title": "Ordenar en el tiempo", "instructions": "Ordena la frase. Recuerda: als, wenn, nachdem y bevor mandan el verbo al final.", "items": [
+      { "words": ["Nachdem", "ich", "gegessen", "hatte", ",", "ging", "ich", "auf", "den", "Spielplatz", "."], "answers": ["Nachdem ich gegessen hatte, ging ich auf den Spielplatz.", "Ich ging auf den Spielplatz, nachdem ich gegessen hatte."] },
+      { "words": ["Als", "ich", "klein", "war", ",", "wohnten", "wir", "in", "Sevilla", "."], "answers": ["Als ich klein war, wohnten wir in Sevilla.", "Wir wohnten in Sevilla, als ich klein war."] },
+      { "words": ["Wenn", "meine", "Oma", "kam", ",", "backte", "sie", "immer", "Kuchen", "."], "answers": ["Wenn meine Oma kam, backte sie immer Kuchen.", "Sie backte immer Kuchen, wenn meine Oma kam."] },
+      { "words": ["Der", "Film", "hatte", "schon", "angefangen", ",", "als", "wir", "ins", "Kino", "kamen", "."], "answers": ["Der Film hatte schon angefangen, als wir ins Kino kamen.", "Als wir ins Kino kamen, hatte der Film schon angefangen."] },
+      { "words": ["Ich", "erinnere", "mich", "gern", "an", "meine", "erste", "Lehrerin", "."], "answers": ["Ich erinnere mich gern an meine erste Lehrerin.", "An meine erste Lehrerin erinnere ich mich gern.", "Gern erinnere ich mich an meine erste Lehrerin."] },
+      { "words": ["Bevor", "wir", "losfuhren", ",", "packten", "wir", "die", "Koffer", "."], "answers": ["Bevor wir losfuhren, packten wir die Koffer.", "Wir packten die Koffer, bevor wir losfuhren."] }
+    ] },
+    { "id": "e08", "type": "write", "title": "Del Perfekt al Präteritum", "instructions": "Escribe la misma frase en Präteritum.", "items": [
+      { "prompt": "Ich bin jeden Tag zur Schule gegangen.", "answers": ["Ich ging jeden Tag zur Schule."] },
+      { "prompt": "Wir haben viel draußen gespielt.", "answers": ["Wir spielten viel draußen."] },
+      { "prompt": "Meine Mutter hat mir oft Märchen vorgelesen.", "answers": ["Meine Mutter las mir oft Märchen vor."] },
+      { "prompt": "Er hat seinen Freund im Park getroffen.", "answers": ["Er traf seinen Freund im Park."] },
+      { "prompt": "Ich habe nicht gewusst, wo er wohnt.", "answers": ["Ich wusste nicht, wo er wohnt.", "Ich wusste nicht, wo er wohnte."] },
+      { "prompt": "Sie sind im Sommer ans Meer gefahren.", "answers": ["Sie fuhren im Sommer ans Meer.", "Im Sommer fuhren sie ans Meer."] }
+    ] },
+    { "id": "e09", "type": "listen", "title": "Recuerdos", "instructions": "Escucha y contesta.", "items": [
+      { "audio": [{ "v": "f1", "t": "Als ich klein war, wohnten wir direkt neben einem Bauernhof. Jeden Morgen weckten mich die Kühe." }], "q": "¿Qué la despertaba por las mañanas?", "options": ["El despertador", "Las vacas", "Su hermano"], "answer": 1 },
+      { "audio": [{ "v": "m1", "t": "Nachdem ich mein Taschengeld bekommen hatte, kaufte ich immer sofort Comics. Am Ende der Woche hatte ich nie Geld." }], "q": "¿Qué hacía con la paga?", "options": ["Comprar cómics", "Ahorrarla", "Comprar golosinas"], "answer": 0 },
+      { "audio": [{ "v": "f2", "t": "Warst du als Kind oft im Ferienlager?" }, { "v": "m2", "t": "Nur einmal, mit neun. Ich hatte so großes Heimweh, dass meine Eltern mich nach drei Tagen abholten." }], "q": "¿Qué pasó en el campamento?", "options": ["Se divirtió mucho", "Se hizo amigo de todos", "Sus padres lo recogieron pronto"], "answer": 2 },
+      { "audio": [{ "v": "ch-f", "t": "Jedes Mal, wenn wir Ferien hatten, fuhren wir zu meiner Tante nach Graubünden. Dort lernte ich Ski fahren." }], "q": "¿Dónde aprendió a esquiar?", "options": ["En casa de su tía", "En un campamento", "Con el colegio"], "answer": 0 },
+      { "audio": [{ "v": "m1", "t": "Wann hast du eigentlich Deutsch gelernt?" }, { "v": "f1", "t": "Als ich nach Zürich kam, sprach ich kein Wort. Ich hatte vorher nur ein bisschen Englisch gelernt." }], "q": "¿Qué sabía ella antes de llegar a Zúrich?", "options": ["Un poco de alemán", "Un poco de inglés", "Nada de idiomas"], "answer": 1 },
+      { "audio": [{ "v": "at-m", "t": "Mein Opa erzählte oft, dass es früher in seinem Dorf nur ein Telefon gab. Es stand in der Post." }], "q": "Según el abuelo, ¿dónde estaba el único teléfono del pueblo?", "options": ["En la escuela", "En la iglesia", "En la oficina de correos"], "answer": 2 }
+    ] },
+    { "id": "e10", "type": "dictation", "title": "Dictado", "instructions": "Escucha y escribe la frase.", "items": [
+      { "audio": [{ "v": "f1", "t": "Als Kind ging ich jeden Tag zu Fuß zur Schule." }], "answers": ["Als Kind ging ich jeden Tag zu Fuß zur Schule."] },
+      { "audio": [{ "v": "m1", "t": "Meine Großeltern hatten einen kleinen Bauernhof." }], "answers": ["Meine Großeltern hatten einen kleinen Bauernhof."] },
+      { "audio": [{ "v": "f2", "t": "Nachdem wir gegessen hatten, spielten wir im Garten." }], "answers": ["Nachdem wir gegessen hatten, spielten wir im Garten."] },
+      { "audio": [{ "v": "m2", "t": "Wenn es schneite, bauten wir einen Schneemann." }], "answers": ["Wenn es schneite, bauten wir einen Schneemann."] },
+      { "audio": [{ "v": "ch-m", "t": "Ich erinnere mich noch gut an meinen ersten Schultag." }], "answers": ["Ich erinnere mich noch gut an meinen ersten Schultag."] }
+    ] },
+    { "id": "e11", "type": "write", "title": "Traduce al alemán", "instructions": "Escribe la frase en alemán. Usa el Präteritum para el pasado.", "items": [
+      { "prompt": "Cuando era pequeño, vivía en un pueblo.", "answers": ["Als ich klein war, wohnte ich in einem Dorf.", "Als ich klein war, lebte ich in einem Dorf.", "Als ich ein Kind war, wohnte ich in einem Dorf.", "Als ich ein Kind war, lebte ich in einem Dorf.", "Als Kind wohnte ich in einem Dorf.", "Als Kind lebte ich in einem Dorf."] },
+      { "prompt": "Cada vez que llovía, leíamos cuentos.", "answers": ["Wenn es regnete, lasen wir Märchen.", "Immer wenn es regnete, lasen wir Märchen.", "Jedes Mal, wenn es regnete, lasen wir Märchen.", "Wenn es regnete, lasen wir Geschichten.", "Immer wenn es regnete, lasen wir Geschichten.", "Jedes Mal, wenn es regnete, lasen wir Geschichten."] },
+      { "prompt": "Ya había hecho los deberes.", "answers": ["Ich hatte die Hausaufgaben schon gemacht.", "Ich hatte meine Hausaufgaben schon gemacht.", "Ich hatte schon die Hausaufgaben gemacht.", "Ich hatte schon meine Hausaufgaben gemacht."] },
+      { "prompt": "Echo de menos a mis abuelos.", "answers": ["Ich vermisse meine Großeltern.", "Ich vermisse meine Oma und meinen Opa.", "Ich vermisse meinen Opa und meine Oma."] },
+      { "prompt": "De repente oímos a nuestra madre.", "answers": ["Plötzlich hörten wir unsere Mutter.", "Auf einmal hörten wir unsere Mutter."] },
+      { "prompt": "Mis padres no me permitían ver la tele.", "answers": ["Meine Eltern erlaubten mir nicht, fernzusehen.", "Meine Eltern erlaubten mir nicht fernzusehen.", "Ich durfte nicht fernsehen."] }
+    ] }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Miriams Blog: Zwanzig Jahre später",
+          "text": "Letzten Monat war ich zum ersten Mal seit zwanzig Jahren wieder in Bernau, dem kleinen Dorf im Schwarzwald, in dem ich aufgewachsen bin. Meine Eltern waren 2005 nach Freiburg gezogen, weil mein Vater dort eine neue Stelle gefunden hatte. Ich war damals zwölf und fand den Umzug schrecklich.\n\nAls ich aus dem Bus stieg, erkannte ich zuerst fast nichts. Wo früher die kleine Bäckerei von Frau Kaltenbach war, gibt es heute ein modernes Café. Der Spielplatz hinter der Kirche existiert nicht mehr; dort stehen jetzt drei neue Häuser. Aber dann sah ich die alte Grundschule – sie hatte sich kaum verändert. Sogar der große Baum stand noch im Hof. In jeder Pause kletterten wir auf diesen Baum. Das war eigentlich streng verboten, aber das war uns egal. Wenn uns die Lehrerin sah, mussten wir zur Strafe nach dem Unterricht den Hof aufräumen.\n\nAm Nachmittag besuchte ich meine frühere Nachbarin, Frau Gerber. Sie ist inzwischen 84 Jahre alt, aber sie erkannte mich sofort. „Du bist doch die Kleine, die immer meine Kirschen gestohlen hat!“, sagte sie und lachte. Wir tranken Kaffee, und sie zeigte mir alte Fotos vom Dorffest. Auf einem Bild waren auch meine Eltern, jung und glücklich.\n\nAuf der Rückfahrt war ich ein bisschen traurig, aber auch froh. Ich hatte immer gedacht, dass ich keine Verbindung mehr zu diesem Ort habe. Jetzt weiß ich: Ein Teil von mir ist dort geblieben. Nächsten Sommer möchte ich mit meinen Kindern noch einmal hinfahren und ihnen alles zeigen.\n\nEure Miriam",
+          "statements": [
+            { "s": "Miriams Familie zog wegen der Arbeit des Vaters nach Freiburg.", "answer": true },
+            { "s": "Miriam freute sich damals auf das Leben in der Stadt.", "answer": false },
+            { "s": "Die Bäckerei von Frau Kaltenbach gibt es heute noch.", "answer": false },
+            { "s": "Die Kinder durften in der Pause auf den Baum klettern.", "answer": false },
+            { "s": "Frau Gerber wusste sofort, wer Miriam ist.", "answer": true },
+            { "s": "Miriam möchte das Dorf mit ihrer Familie besuchen.", "answer": true }
+          ]
+        },
+        {
+          "title": "Eine E-Mail von Tobias",
+          "text": "Liebe Lea,\n\nentschuldige, dass ich so lange nicht geschrieben habe. Die letzten Wochen waren total chaotisch: Meine Eltern haben ihr Haus in Winterthur verkauft und sind in eine kleine Wohnung in der Altstadt gezogen. Ich habe ihnen zwei Wochenenden lang beim Packen geholfen.\n\nAuf dem Dachboden habe ich etwas Lustiges gefunden: eine alte Schuhschachtel mit meinen Sachen aus der Primarschulzeit. Meine Mutter hatte sie die ganze Zeit aufbewahrt, ohne mir etwas davon zu sagen. Darin waren Zeichnungen, Briefe und mein erstes Tagebuch. Ich hatte völlig vergessen, dass ich mit acht Jahren Tagebuch geschrieben habe!\n\nNatürlich habe ich sofort angefangen zu lesen. Meistens ging es um ganz normale Dinge: was es zum Mittagessen gab, welche Mitschüler nett waren und welche nicht. Aber ein Eintrag hat mich besonders berührt. Damals war unser Hund Bello gestorben, und ich schrieb: „Heute war der schlimmste Tag in meinem Leben.“ Ich hatte die ganze Nacht geweint. Komisch, wie stark diese Gefühle beim Lesen zurückkamen.\n\nDu kommst übrigens auch vor! Ich habe geschrieben, dass du mir im Ferienlager dein Taschenmesser geschenkt hast, weil ich so großes Heimweh hatte. Weißt du das noch?\n\nDas Tagebuch habe ich mit nach Hause genommen. Meine Tochter ist jetzt fast so alt wie ich damals, und ich möchte es ihr irgendwann zeigen. Im Moment ist es mir aber noch ein bisschen peinlich.\n\nHast du Lust, nächsten Monat mal wieder zusammen essen zu gehen? Dann bringe ich die Schachtel mit.\n\nLiebe Grüße\nTobias",
+          "statements": [
+            { "s": "Die Eltern von Tobias wohnen jetzt in einer kleineren Wohnung.", "answer": true },
+            { "s": "Tobias wusste, dass seine Mutter die Schachtel aufbewahrt hatte.", "answer": false },
+            { "s": "In seinem Tagebuch schrieb Tobias vor allem über traurige Erlebnisse.", "answer": false },
+            { "s": "Als der Hund der Familie starb, war Tobias sehr traurig.", "answer": true },
+            { "s": "Lea hat Tobias im Ferienlager etwas geschenkt.", "answer": true },
+            { "s": "Tobias hat seiner Tochter das Tagebuch schon gezeigt.", "answer": false }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Großeltern erzählen – Schüler schreiben mit",
+          "text": "In der Primarschule Moosmatt in Luzern gibt es jeden Donnerstagnachmittag Besuch: Seit einem Jahr kommen Seniorinnen und Senioren aus dem Quartier in die fünfte Klasse und erzählen von ihrer Kindheit. Die Idee hatte die Lehrerin Sandra Imhof. „Die Kinder wussten fast nichts darüber, wie man vor sechzig oder siebzig Jahren gelebt hat“, sagt sie. „In den Geschichtsbüchern steht das zwar, aber wenn ein echter Mensch erzählt, hören die Kinder ganz anders zu.“\n\nDer 81-jährige Walter Huber war von Anfang an dabei. Er wuchs auf einem Bauernhof im Entlebuch auf und musste schon mit sieben Jahren vor der Schule im Stall helfen. „Spielzeug hatten wir kaum. Wir bauten uns kleine Boote aus Holz und ließen sie im Bach schwimmen“, erzählt er. Die Kinder stellen viele Fragen: Hatte er Angst vor dem Lehrer? Gab es schon Fernsehen? „Einen Fernseher sah ich zum ersten Mal mit vierzehn, im Gasthaus im Dorf“, sagt Huber und lacht.\n\nNach jedem Besuch schreiben die Schülerinnen und Schüler die Geschichten auf. Am Ende des Schuljahres soll aus ihren Texten ein kleines Buch werden. Auch für die Senioren ist das Projekt wichtig: „Viele leben allein und freuen sich, wenn sich jemand für ihr Leben interessiert“, sagt Imhof. Inzwischen haben sich schon zwei andere Schulen in der Stadt gemeldet, die mitmachen möchten.",
+          "questions": [
+            { "q": "Warum hat Sandra Imhof das Projekt gestartet?", "options": ["Weil die Kinder in Geschichte schlechte Noten hatten.", "Weil die Senioren die Schule darum gebeten hatten.", "Weil Kinder durch persönliche Erzählungen mehr lernen."], "answer": 2 },
+            { "q": "Was erzählt Walter Huber über seine Kindheit?", "options": ["Er musste vor dem Unterricht auf dem Hof arbeiten.", "Er hatte viele Spielsachen aus Holz.", "Er sah jeden Abend im Gasthaus fern."], "answer": 0 },
+            { "q": "Was passiert am Ende des Schuljahres?", "options": ["Die Senioren schreiben selbst ein Buch.", "Aus den Texten der Kinder entsteht ein Buch.", "Die Klasse besucht zwei andere Schulen."], "answer": 1 }
+          ]
+        },
+        {
+          "title": "Woran erinnern wir uns zuerst?",
+          "text": "Die meisten Erwachsenen können sich an nichts erinnern, was vor ihrem dritten oder vierten Geburtstag passiert ist. Das zeigt eine neue Umfrage, an der über 1200 Personen aus Deutschland, Österreich und der Schweiz teilgenommen haben. Die Teilnehmenden sollten ihre allererste Erinnerung beschreiben und sagen, wie alt sie damals waren.\n\nDas Ergebnis: Im Durchschnitt stammt die erste Erinnerung aus dem Alter von drei Jahren und sieben Monaten. Etwa jede siebte Person sagte aber, dass sie sich an Ereignisse aus dem ersten oder zweiten Lebensjahr erinnert. „Das ist sehr wahrscheinlich nicht möglich“, erklärt die Psychologin Dr. Katrin Wolf, die die Umfrage geleitet hat. „Oft hat man ein Foto gesehen, oder die Eltern haben die Geschichte so oft erzählt, dass man glaubt, man kann sich selbst daran erinnern.“\n\nInteressant ist auch, woran sich die Menschen erinnern. Sehr häufig sind es Momente mit starken Gefühlen: die Geburt eines Geschwisterchens, ein Umzug, ein kleiner Unfall oder der erste Tag im Kindergarten. Schöne und unangenehme Erlebnisse kamen dabei fast gleich oft vor, und Frauen erinnerten sich im Durchschnitt etwas früher als Männer.\n\nWolf rät Eltern, mit ihren Kindern viel über gemeinsame Erlebnisse zu sprechen. „Wenn Eltern regelmäßig fragen: ‚Weißt du noch, wie wir im Zoo waren?‘, haben die Kinder später oft mehr und genauere Erinnerungen.“",
+          "questions": [
+            { "q": "Was mussten die Teilnehmenden der Umfrage tun?", "options": ["Fotos aus ihrer Kindheit zeigen.", "Ihre früheste Erinnerung beschreiben.", "Ihre Eltern nach ihrer Kindheit fragen."], "answer": 1 },
+            { "q": "Was sagt Dr. Wolf über Erinnerungen an das erste Lebensjahr?", "options": ["Oft kennt man diese Momente nur aus Fotos oder Erzählungen.", "Jede siebte Person erinnert sich sehr genau daran.", "Es sind meistens unangenehme Erlebnisse."], "answer": 0 },
+            { "q": "Was empfiehlt die Psychologin Eltern?", "options": ["Viele Fotos von den Kindern machen.", "Mit den Kindern oft in den Zoo gehen.", "Mit den Kindern über gemeinsame Erlebnisse reden."], "answer": 2 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            { "key": "a", "text": "Puppenklinik Zürich: Wir reparieren alte Puppen und Teddybären – auch Stücke, die über 50 Jahre alt sind. Kostenvoranschlag gratis." },
+            { "key": "b", "text": "Fotoservice Meier: Wir digitalisieren Ihre alten Dias, Negative und Fotoalben. Abholung und Lieferung in der ganzen Stadt Zürich." },
+            { "key": "c", "text": "Schreibwerkstatt „Mein Leben“: An sechs Abenden lernen Sie, Ihre Lebenserinnerungen aufzuschreiben. Für Personen ab 60, Volkshochschule Winterthur." },
+            { "key": "d", "text": "Spielzeugmuseum: Spielzeug aus drei Jahrhunderten – mit großer Spielecke, in der Kinder alles ausprobieren dürfen. Montag geschlossen." },
+            { "key": "e", "text": "Ferienlager am Walensee: Eine Woche Abenteuer für Kinder von 8 bis 12 Jahren – Zelten, Klettern, Kanu fahren. Im Juli noch Plätze frei." },
+            { "key": "f", "text": "Familienforschung für Anfänger: Finden Sie heraus, woher Ihre Großeltern und Urgroßeltern kamen. Kurs an vier Samstagen in Zürich." },
+            { "key": "g", "text": "Märchenstunde in der Stadtbibliothek: Jeden Mittwoch um 15 Uhr lesen wir Kindern ab 4 Jahren Märchen vor. Eintritt frei." },
+            { "key": "h", "text": "Klassentreffen.ch: Sie suchen alte Mitschülerinnen und Mitschüler? Auf unserer Plattform finden Sie Ihre Klasse und organisieren das Treffen online." },
+            { "key": "i", "text": "Flohmarkt auf dem Kanzleiareal: Jeden Samstag Kleider, Bücher, Schallplatten und altes Spielzeug. Verkäufer können ihren Tisch online reservieren." },
+            { "key": "j", "text": "Kinderfest wie früher: Am 1. Juni spielen wir im Park Sackhüpfen, Seilziehen und Murmeln. Für die ganze Familie, ohne Anmeldung." }
+          ],
+          "items": [
+            { "situation": "Ihre Mutter (68) möchte für ihre Enkel die Geschichte ihres Lebens aufschreiben.", "answer": "c" },
+            { "situation": "Sie haben bei Ihren Eltern viele alte Dias gefunden und möchten sie auf dem Computer ansehen.", "answer": "b" },
+            { "situation": "Ihr Sohn (10) möchte in den Sommerferien mit anderen Kindern draußen in der Natur etwas erleben.", "answer": "e" },
+            { "situation": "Ihre Freundin möchte mit ihrer Tochter (6) einen Kurs besuchen, in dem man zusammen Spielzeug aus Holz baut.", "answer": "x" },
+            { "situation": "Ein Kollege möchte 25 Jahre nach dem Schulabschluss seine alte Klasse wiedersehen.", "answer": "h" },
+            { "situation": "Ihre Tochter hat den alten Teddybären ihres Großvaters bekommen, aber ein Arm ist kaputt.", "answer": "a" },
+            { "situation": "Sie möchten Ihre alten Comics und Spielsachen verkaufen.", "answer": "i" }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Kinder allein unterwegs?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Kinder, die heute kaum noch ohne Erwachsene draußen spielen.",
+          "question": "Ist die Person dafür, dass Kinder mehr ohne Erwachsene unterwegs sein dürfen?",
+          "comments": [
+            { "name": "Lukas, 34, Graz", "text": "Als ich ein Kind war, waren wir jeden Nachmittag allein im Wald. Wir bauten Hütten, stritten uns und fanden selbst Lösungen. Niemand hat uns kontrolliert, und genau dabei habe ich gelernt, selbstständig zu sein. Natürlich gibt es heute mehr Verkehr, aber ich glaube, wir Eltern haben vor allem mehr Angst als früher. Meine Kinder gehen jedenfalls allein zur Schule.", "answer": true },
+            { "name": "Sabine, 41, Winterthur", "text": "Einerseits verstehe ich die Idee, denn ich war als Kind auch viel allein unterwegs. Andererseits wohnen wir heute an einer Hauptstraße, wo jeden Tag Hunderte Autos und Lastwagen vorbeifahren. Meine Tochter ist acht und kennt die Gefahren noch nicht gut genug. Solange sich die Situation in unserer Straße nicht ändert, begleite ich sie lieber, auch wenn das manchmal unpraktisch ist.", "answer": false },
+            { "name": "Murat, 29, Stuttgart", "text": "Ich arbeite als Erzieher in einer Kita und sehe jeden Tag, wie wichtig freies Spielen ist. Kinder, die immer nur unter Aufsicht sind, trauen sich später weniger zu. Ein paar kleine Unfälle gehören einfach zur Kindheit. Ich habe mir mit zehn auch mal den Arm gebrochen – und trotzdem bin ich froh, dass meine Eltern mich nicht ständig beobachtet haben.", "answer": true },
+            { "name": "Helga, 67, Salzburg", "text": "Viele Leute in meinem Alter erzählen gern, wie schön die Kindheit früher war. Aber man vergisst dabei leicht, was alles passiert ist. In meinem Dorf fiel ein Junge aus meiner Klasse vom Dach einer Scheune und verletzte sich schwer, weil kein Erwachsener in der Nähe war. Ich finde, dass Kinder heute sicherer aufwachsen, und das ist gut so. Freiheit ja, aber nicht ohne Kontrolle.", "answer": false },
+            { "name": "Nico, 38, Basel", "text": "Ich war zuerst skeptisch, als meine Frau vorschlug, unseren Sohn allein zum Fußballtraining fahren zu lassen. Er ist erst neun. Wir haben den Weg aber ein paar Mal zusammen geübt, und jetzt fährt er stolz mit dem Velo hin. Seitdem ist er viel selbstbewusster geworden. Ich kann es allen Eltern empfehlen – man muss die Kinder nur gut vorbereiten.", "answer": true },
+            { "name": "Daniela, 45, München", "text": "Ich lese immer wieder solche Artikel, die die Eltern kritisieren. Aber die Welt hat sich verändert: Beide Eltern arbeiten, die Kinder haben nachmittags Kurse, und in der Stadt gibt es kaum noch freie Flächen zum Spielen. Es ist nicht realistisch, die Kindheit von 1985 zurückzuholen. Meine Kinder spielen lieber organisiert im Verein, da weiß ich wenigstens, wo sie sind.", "answer": false },
+            { "name": "Jonas, 52, Bern", "text": "Meine Eltern haben mir als Kind fast alles verboten. Ich durfte nicht allein ins Schwimmbad, nicht allein in die Stadt, nicht einmal zu Freunden ins Nachbardorf. Damals fand ich das furchtbar, und heute weiß ich: Ich habe dadurch viele wichtige Erfahrungen verpasst. Mit meinen eigenen Kindern habe ich es deshalb anders gemacht, und ich habe es nie bereut.", "answer": true }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Ferienlager „Abenteuer am See“ – Wichtige Informationen für Eltern",
+          "text": "Anmeldung: Die Anmeldung ist erst gültig, wenn wir die Anzahlung von 150 Franken erhalten haben. Den Rest (insgesamt 590 Franken pro Woche) bezahlen Sie bis spätestens vier Wochen vor Lagerbeginn. Geschwister erhalten 10 % Rabatt.\n\nAbmeldung: Bis 30 Tage vor Beginn bekommen Sie den ganzen Betrag außer der Anzahlung zurück. Bei einer späteren Abmeldung erstatten wir nur bei Krankheit und mit Arztzeugnis 50 % des Preises.\n\nGesundheit: Bitte informieren Sie uns auf dem Anmeldeformular über Allergien und Medikamente. Die Medikamente geben die Kinder am ersten Tag der Lagerleitung ab.\n\nHandys: Im Lager sind Handys nicht erlaubt. Die Kinder sollen eine Woche lang die Natur und die Gemeinschaft erleben. In Notfällen erreichen Sie die Lagerleitung Tag und Nacht unter 079 412 55 80.\n\nBesuche: Besuche während der Woche sind nicht möglich, weil die Kinder danach oft stärkeres Heimweh haben. Am letzten Tag, dem Samstag, laden wir alle Familien um 14 Uhr zu unserem Abschlussfest ein.\n\nGepäck: Eine Packliste finden Sie auf unserer Website. Bitte schreiben Sie den Namen Ihres Kindes in alle Kleidungsstücke. Wertvolle Dinge wie Schmuck oder teure Kameras lassen Sie bitte zu Hause. Für verlorene Gegenstände übernehmen wir keine Haftung.",
+          "questions": [
+            { "q": "Wann ist die Anmeldung fest?", "options": ["Wenn das Formular bei der Lagerleitung ist.", "Wenn die Anzahlung bezahlt ist.", "Vier Wochen vor Beginn des Lagers."], "answer": 1 },
+            { "q": "Ihr Kind wird zwei Wochen vor dem Lager krank. Was bekommen Sie zurück?", "options": ["Nichts.", "Den ganzen Preis ohne die Anzahlung.", "Die Hälfte des Preises, wenn Sie ein Arztzeugnis haben."], "answer": 2 },
+            { "q": "Was gilt für Handys?", "options": ["Die Kinder dürfen im Lager kein Handy benutzen.", "Die Kinder dürfen abends kurz telefonieren.", "Die Eltern sollen der Lagerleitung nur SMS schreiben."], "answer": 0 },
+            { "q": "Wann können die Eltern ins Lager kommen?", "options": ["Jeden Abend nach dem Essen.", "Am letzten Tag zum Fest.", "Nur in Notfällen."], "answer": 1 }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [{ "v": "ch-f", "t": "Und nun ein Tipp fürs Wochenende: Das Stadtmuseum Aarau zeigt ab Samstag die Ausstellung „Kinderzimmer früher“. Zu sehen sind Spielsachen, Schulhefte und Möbel aus der Schweiz aus den Jahren 1950 bis 1990. Besonders für Familien interessant: In einem Raum dürfen Kinder alte Spiele selbst ausprobieren. Die Ausstellung läuft bis Ende März. Am Eröffnungstag ist der Eintritt frei." }],
+          "statement": "Die Ausstellung zeigt Spielzeug aus der ganzen Welt.",
+          "tf": false,
+          "q": "Was ist am Samstag besonders?",
+          "options": ["Man muss keinen Eintritt bezahlen.", "Das Museum ist länger geöffnet.", "Es gibt eine Führung für Kinder."],
+          "answer": 0
+        },
+        {
+          "audio": [{ "v": "m1", "t": "Hallo Paula, hier ist Florian. Du, ich organisiere gerade unser Klassentreffen – zwanzig Jahre nach dem Abitur! Wir treffen uns am 14. November im Restaurant Linde, das ist gleich neben unserer alten Schule. Kannst du mir bis Ende der Woche sagen, ob du kommst? Und hast du vielleicht noch Fotos von unserer Abschlussreise nach Prag? Die möchte ich gern an dem Abend zeigen. Bis bald!" }],
+          "statement": "Das Klassentreffen findet in der alten Schule statt.",
+          "tf": false,
+          "q": "Was soll Paula mitbringen?",
+          "options": ["Etwas zu essen", "Fotos von einer Reise", "Ihre alten Schulhefte"],
+          "answer": 1
+        },
+        {
+          "audio": [{ "v": "f2", "t": "Liebe Besucherinnen und Besucher, heute um 15 Uhr beginnt in der Kinderabteilung im zweiten Stock unsere Märchenstunde. Diesmal liest die Schauspielerin Lisa Brunner „Frau Holle“ vor. Die Veranstaltung ist für Kinder ab vier Jahren. Eltern können in dieser Zeit gern im Café im Erdgeschoss warten. Bitte beachten Sie: Wir schließen heute ausnahmsweise schon um 17 Uhr." }],
+          "statement": "Die Märchenstunde ist für Kinder ab vier Jahren.",
+          "tf": true,
+          "q": "Was ist heute anders als sonst?",
+          "options": ["Das Café ist geschlossen.", "Die Märchenstunde ist auf Englisch.", "Die Bibliothek schließt früher."],
+          "answer": 2
+        },
+        {
+          "audio": [{ "v": "at-m", "t": "Wien. Ein ungewöhnlicher Fund: Bei Bauarbeiten in einer Volksschule im zehnten Bezirk haben Arbeiter gestern eine Zeitkapsel gefunden. Schülerinnen und Schüler hatten die Metallbox im Jahr 1975 in einer Wand versteckt. Darin lagen Briefe, Zeichnungen und ein Foto der Klasse. Die Schule möchte die ehemaligen Schüler jetzt finden und zu einem Fest einladen." }],
+          "statement": "Die Zeitkapsel war über 50 Jahre in der Schule.",
+          "tf": true,
+          "q": "Was möchte die Schule jetzt tun?",
+          "options": ["Die Box in ein Museum bringen.", "Die früheren Schüler suchen.", "Eine neue Zeitkapsel verstecken."],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung durch ein altes Schulhaus teil, das heute ein Museum ist.",
+          "audio": [
+            { "v": "ch-f", "t": "Herzlich willkommen im alten Schulhaus von Oberried! Mein Name ist Ruth Baumann, und ich führe Sie heute etwa eine Stunde durch unser Museum. Das Haus ist von 1892, und bis 1968 hatten hier Kinder Unterricht." },
+            { "v": "ch-f", "t": "Wir beginnen hier im Klassenzimmer. Wie Sie sehen, gab es nur einen Raum. Alle Kinder, von der ersten bis zur sechsten Klasse, saßen zusammen – manchmal über fünfzig Schüler mit nur einem Lehrer." },
+            { "v": "ch-f", "t": "Die Kleinen saßen vorne, die Großen hinten. Die älteren Kinder mussten oft den jüngeren beim Lesen helfen, während der Lehrer mit einer anderen Gruppe arbeitete." },
+            { "v": "ch-f", "t": "Schauen Sie sich bitte die kleinen schwarzen Tafeln auf den Tischen an. Papier war damals teuer, deshalb schrieben die jüngeren Kinder mit einem Stift aus Stein auf diese Tafeln. Hefte bekamen erst die älteren Schüler." },
+            { "v": "ch-f", "t": "Die Disziplin war streng. Wer frech war oder zu spät kam, musste in der Ecke stehen. Aber die meisten ehemaligen Schüler, die uns besucht haben, erzählen auch von schönen Erlebnissen – zum Beispiel vom Schulausflug auf den Berg, einmal im Jahr." },
+            { "v": "ch-f", "t": "Im Winter mussten die Kinder übrigens jeden Morgen ein Stück Holz für den Ofen mitbringen. Wer es vergessen hatte, bekam einen Platz weit weg vom Ofen und fror den ganzen Vormittag." },
+            { "v": "ch-f", "t": "Gleich gehen wir in den ersten Stock. Dort wohnte der Lehrer mit seiner Familie. Die Küche sieht noch fast so aus wie damals." },
+            { "v": "ch-f", "t": "Und zum Schluss dürfen Sie im Hof selbst ausprobieren, wie die Kinder in der Pause gespielt haben. Fotografieren ist überall erlaubt, nur bitte ohne Blitz." }
+          ],
+          "questions": [
+            { "q": "Bis wann war das Haus eine Schule?", "options": ["Bis 1892", "Bis 1968", "Bis heute"], "answer": 1 },
+            { "q": "Wie war der Unterricht organisiert?", "options": ["Jede Klasse hatte einen eigenen Raum.", "Ältere Kinder unterstützten die jüngeren.", "Es gab zwei Lehrer für alle Kinder."], "answer": 1 },
+            { "q": "Worauf schrieben die jüngeren Kinder?", "options": ["Auf Papier", "In Hefte", "Auf kleine Tafeln"], "answer": 2 },
+            { "q": "Was mussten die Kinder im Winter mitbringen?", "options": ["Holz für den Ofen", "Warme Kleidung für den Ausflug", "Essen für den Lehrer"], "answer": 0 },
+            { "q": "Was ist im ersten Stock?", "options": ["Ein Raum zum Spielen", "Das Café des Museums", "Die frühere Wohnung des Lehrers"], "answer": 2 }
+          ]
+        },
+        {
+          "intro": "Sie hören im Radio die Sendung „Damals bei uns“. Eine Hörerin erzählt von ihrer Kindheit.",
+          "audio": [
+            { "v": "at-f", "t": "Grüß Gott, mein Name ist Elisabeth Gruber, ich bin 72 und komme aus einem kleinen Dorf in der Steiermark. Ich möchte heute erzählen, wie wir in den Sechzigerjahren Weihnachten gefeiert haben." },
+            { "v": "at-f", "t": "Wir waren sechs Kinder, und Geld hatten wir nicht viel. Mein Vater arbeitete in einer Fabrik im Nachbarort, meine Mutter kümmerte sich um den Haushalt und um unsere kleine Landwirtschaft." },
+            { "v": "at-f", "t": "Geschenke wie heute gab es kaum. Meistens bekam jedes Kind etwas Praktisches: warme Socken von der Großmutter oder neue Schuhe für die Schule." },
+            { "v": "at-f", "t": "Am meisten freuten wir uns auf den Christbaum. Den holte mein Vater am Morgen des 24. Dezember selbst aus dem Wald. Wir Kinder durften ihn aber erst am Abend sehen – vorher war die Tür zum Wohnzimmer abgeschlossen." },
+            { "v": "at-f", "t": "Einmal, ich war vielleicht sieben, habe ich heimlich durch das Schlüsselloch geschaut. Meine ältere Schwester hat es unseren Eltern erzählt, und zur Strafe musste ich als Letzte ins Zimmer. Ich habe so geweint!" },
+            { "v": "at-f", "t": "Nach dem Abendessen gingen wir alle zusammen zu Fuß in die Kirche. Der Weg dauerte fast eine Stunde, durch den tiefen Schnee. Das war für mich der schönste Moment: die Sterne, die Kälte und meine Hand in der Hand meines Vaters." },
+            { "v": "at-f", "t": "Heute bekommen meine Enkel viel mehr Geschenke, als wir uns damals vorstellen konnten. Aber ich glaube nicht, dass sie deshalb glücklicher sind. Wir hatten wenig, aber wir hatten einander." }
+          ],
+          "questions": [
+            { "q": "Was machte die Mutter von Frau Gruber?", "options": ["Sie arbeitete in einer Fabrik.", "Sie arbeitete im Haus und auf dem kleinen Hof.", "Sie strickte Socken für die Nachbarn."], "answer": 1 },
+            { "q": "Was bekamen die Kinder zu Weihnachten?", "options": ["Vor allem nützliche Dinge", "Teures Spielzeug", "Nur Süßigkeiten"], "answer": 0 },
+            { "q": "Wann sahen die Kinder den Christbaum zum ersten Mal?", "options": ["Am Morgen im Wald", "Am 25. Dezember", "Am Abend des 24. Dezember"], "answer": 2 },
+            { "q": "Warum musste Elisabeth einmal als Letzte ins Zimmer?", "options": ["Weil sie heimlich ins Zimmer geschaut hatte.", "Weil sie mit ihrer Schwester gestritten hatte.", "Weil sie zu spät nach Hause gekommen war."], "answer": 0 },
+            { "q": "Was denkt Frau Gruber über ihre Enkel?", "options": ["Sie bekommen zu wenige Geschenke.", "Sie sind nicht unbedingt glücklicher als die Kinder früher.", "Sie sollten an Weihnachten in die Kirche gehen."], "answer": 1 }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            { "v": "m2", "t": "Hey Carla! Du bist ja ganz braun. Warst du im Urlaub?" },
+            { "v": "f1", "t": "Hallo Stefan! Nein, nicht richtig. Ich war zwei Wochen bei meinen Eltern in Lugano. Die renovieren gerade ihr Haus, und ich habe beim Aufräumen geholfen." },
+            { "v": "m2", "t": "Klingt anstrengend." },
+            { "v": "f1", "t": "Ja, aber auch lustig. Weißt du, was ich im Keller gefunden habe? Alle meine Schulzeugnisse, von der ersten Klasse an!" },
+            { "v": "m2", "t": "Echt? Und, warst du eine gute Schülerin?" },
+            { "v": "f1", "t": "In Mathe schon, da hatte ich fast immer eine Sechs. Aber hör mal, was meine Lehrerin in der zweiten Klasse geschrieben hat: „Carla ist intelligent, aber sie redet zu viel mit ihren Nachbarn.“" },
+            { "v": "m2", "t": "Ha! Das hat sich ja nicht sehr verändert." },
+            { "v": "f1", "t": "Sehr witzig! Und du? Hast du deine alten Sachen noch?" },
+            { "v": "m2", "t": "Leider nicht. Als meine Eltern vor zehn Jahren nach Spanien gezogen sind, haben sie fast alles weggeworfen. Ich war damals in Kanada und wusste nichts davon." },
+            { "v": "f1", "t": "Oh, das ist schade. Warst du nicht sauer?" },
+            { "v": "m2", "t": "Doch, am Anfang schon. Am meisten vermisse ich meine Comics. Ich hatte über dreihundert Hefte. Die hatte ich jahrelang von meinem Taschengeld gekauft." },
+            { "v": "f1", "t": "Dreihundert! Die sind heute vielleicht viel Geld wert." },
+            { "v": "m2", "t": "Kann sein. Aber für mich waren sie eher eine Erinnerung an meinen Opa. Mit ihm bin ich jeden Samstag zum Kiosk gegangen und habe ein neues Heft ausgesucht." },
+            { "v": "f1", "t": "Das ist ja süß. Mein Opa hat mir immer Geschichten erzählt, wenn ich bei ihm übernachtet habe." },
+            { "v": "m2", "t": "Oh, ich muss hier aussteigen. Schickst du mir ein Foto von dem Zeugnis?" },
+            { "v": "f1", "t": "Nur, wenn du es niemandem zeigst! Tschüss!" }
+          ],
+          "statements": [
+            { "s": "Carla war in den Ferien am Meer.", "answer": false },
+            { "s": "Carla hat ihren Eltern bei Arbeiten im Haus geholfen.", "answer": true },
+            { "s": "In Mathematik hatte Carla gute Noten.", "answer": true },
+            { "s": "Die Lehrerin fand, dass Carla zu wenig sprach.", "answer": false },
+            { "s": "Stefans Eltern haben seine alten Sachen weggeworfen, ohne ihn zu fragen.", "answer": true },
+            { "s": "Stefan hat die Comics von seinem Opa geschenkt bekommen.", "answer": false },
+            { "s": "Carla möchte nicht, dass Stefan das Zeugnis anderen Leuten zeigt.", "answer": true }
+          ]
+        },
+        {
+          "intro": "Sie sind in der Straßenbahn und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            { "v": "m1", "t": "Jana, du siehst nervös aus. Alles okay?" },
+            { "v": "f2", "t": "Ja, ja. Morgen ist Lenas erster Schultag, und ich bin aufgeregter als sie!" },
+            { "v": "m1", "t": "Das kenne ich. Bei meinem Sohn war das letztes Jahr genauso. Er hat ganz ruhig geschlafen, und ich lag die halbe Nacht wach." },
+            { "v": "f2", "t": "Weißt du noch, wie dein eigener erster Schultag war?" },
+            { "v": "m1", "t": "Oh ja, sehr genau sogar. Ich war gerade mit meinen Eltern aus Polen nach Deutschland gekommen und konnte kaum Deutsch. Als die Lehrerin mich etwas fragte, verstand ich kein Wort und fing an zu weinen." },
+            { "v": "f2", "t": "Oh nein, du Armer!" },
+            { "v": "m1", "t": "Aber dann kam ein Junge zu mir und gab mir die Hälfte von seinem Pausenbrot. Er hieß Tobias, und wir sind bis heute befreundet." },
+            { "v": "f2", "t": "Wie schön! Bei mir war das weniger dramatisch. Ich erinnere mich eigentlich nur an meine Schultüte. Die war riesig, fast so groß wie ich." },
+            { "v": "m1", "t": "Und was war drin?" },
+            { "v": "f2", "t": "Vor allem Süßigkeiten und Buntstifte. Und ein kleines Buch. Meine Mutter hatte es gekauft, weil ich unbedingt lesen lernen wollte, bevor ich in die Schule kam." },
+            { "v": "m1", "t": "Und hast du für Lena auch eine Schultüte gemacht?" },
+            { "v": "f2", "t": "Natürlich. Ich habe am Wochenende drei Stunden daran gebastelt. Mit Pferden drauf, die liebt sie gerade." },
+            { "v": "m1", "t": "Dann ist sie bestimmt begeistert. Und noch ein Tipp: Geh morgen nach dem Unterricht mit ihr ein Eis essen. Das haben wir auch gemacht, und es war ein schöner Abschluss." },
+            { "v": "f2", "t": "Gute Idee! Danke, Moritz. Jetzt bin ich schon etwas ruhiger." }
+          ],
+          "statements": [
+            { "s": "Jana ist wegen des ersten Schultags ihrer Tochter nervös.", "answer": true },
+            { "s": "Der Sohn von Moritz konnte vor seinem ersten Schultag nicht schlafen.", "answer": false },
+            { "s": "Moritz sprach an seinem ersten Schultag noch wenig Deutsch.", "answer": true },
+            { "s": "Tobias und Moritz haben heute keinen Kontakt mehr.", "answer": false },
+            { "s": "In Janas Schultüte waren keine Süßigkeiten.", "answer": false },
+            { "s": "Jana hat die Schultüte für Lena selbst gemacht.", "answer": true },
+            { "s": "Moritz empfiehlt, nach der Schule ein Eis essen zu gehen.", "answer": true }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Treffpunkt Familie“ diskutiert mit dem Rentner Peter Lindner und der Kinderpsychologin Melanie Kraus über das Thema „War die Kindheit früher schöner?“.",
+          "options": ["Sabine Roth, Moderatorin", "Peter Lindner, Rentner", "Melanie Kraus, Kinderpsychologin"],
+          "audio": [
+            { "v": "f1", "t": "Herzlich willkommen zu „Treffpunkt Familie“. Heute geht es um die Frage: War die Kindheit früher schöner? Bei mir im Studio sind Peter Lindner, 72 Jahre alt und Großvater von fünf Enkeln, und Melanie Kraus, Kinderpsychologin aus Zürich. Herr Lindner, wie war Ihre Kindheit?" },
+            { "v": "m2", "t": "Sehr frei. Wir waren nach der Schule draußen, bis es dunkel wurde. Unsere Eltern wussten oft gar nicht, wo wir waren, und das war ganz normal." },
+            { "v": "f1", "t": "Frau Kraus, klingt das für Sie nach einer besseren Kindheit?" },
+            { "v": "f2", "t": "In manchen Punkten ja. Kinder brauchen Zeit, in der sie niemand kontrolliert. Aber man darf die Vergangenheit auch nicht romantisieren. Früher gab es viel mehr Unfälle, und über Probleme sprach man in vielen Familien überhaupt nicht." },
+            { "v": "m2", "t": "Das stimmt schon. Mein Vater war sehr streng. Wenn ich schlechte Noten nach Hause brachte, gab es Ärger, und reden konnte man mit ihm nicht." },
+            { "v": "f1", "t": "Heute sieht das anders aus, oder?" },
+            { "v": "f2", "t": "Ja, zum Glück. Eltern nehmen sich heute viel mehr Zeit für Gespräche mit ihren Kindern. Das ist ein großer Fortschritt." },
+            { "v": "f1", "t": "Herr Lindner, was macht Ihnen bei Ihren Enkeln Sorgen?" },
+            { "v": "m2", "t": "Ganz klar die Bildschirme. Mein Enkel ist zehn und sitzt jeden Tag stundenlang vor dem Tablet. Wir hatten kein Fernsehen, wir haben uns unsere Spiele selbst ausgedacht." },
+            { "v": "f2", "t": "Da muss ich widersprechen. Nicht jede Minute am Bildschirm ist verlorene Zeit. Viele Kinder sind dort auch kreativ, zum Beispiel, wenn sie eigene Videos drehen." },
+            { "v": "m2", "t": "Mag sein. Aber auf einen Baum klettern lernen sie dort nicht." },
+            { "v": "f1", "t": "Da haben Sie recht. Frau Kraus, haben Kinder heute mehr Stress als früher?" },
+            { "v": "f2", "t": "Viele schon. Sie haben nach der Schule Musikunterricht, Sport, Nachhilfe … Für freies Spielen bleibt kaum Zeit. Ich rate Eltern: Planen Sie ganz bewusst Nachmittage ohne Termine." },
+            { "v": "m2", "t": "Das sage ich meiner Tochter auch immer. Aber sie meint, alle anderen Kinder machen auch drei Kurse pro Woche." },
+            { "v": "f1", "t": "Zum Schluss: Was können Großeltern heute an ihre Enkel weitergeben?" },
+            { "v": "m2", "t": "Zeit und Geschichten. Wenn ich meinen Enkeln erzähle, wie wir früher im Winter Schlitten gefahren sind, hören sie ganz genau zu." },
+            { "v": "f2", "t": "Da stimme ich Herrn Lindner völlig zu. Großeltern sind für Kinder oft ein Ort der Ruhe, gerade weil sie weniger Stress haben als die Eltern." },
+            { "v": "f1", "t": "Vielen Dank Ihnen beiden für das spannende Gespräch!" }
+          ],
+          "items": [
+            { "q": "Früher wussten die Eltern oft nicht, wo ihre Kinder waren.", "answer": 1 },
+            { "q": "Man sollte die Kindheit früher nicht schöner sehen, als sie war.", "answer": 2 },
+            { "q": "Bei schlechten Noten reagierte der eigene Vater streng.", "answer": 1 },
+            { "q": "Heute sprechen Eltern mehr mit ihren Kindern.", "answer": 2 },
+            { "q": "Ein Enkelkind verbringt zu viel Zeit mit dem Tablet.", "answer": 1 },
+            { "q": "Auch am Bildschirm können Kinder kreativ sein.", "answer": 2 },
+            { "q": "Sie möchte wissen, ob Kinder heute mehr Stress haben.", "answer": 0 },
+            { "q": "Eltern sollten bewusst Nachmittage ohne Termine planen.", "answer": 2 }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie waren letztes Wochenende auf einem Klassentreffen. Ihr Freund Marco aus der Schulzeit konnte nicht kommen. Schreiben Sie Marco eine E-Mail.",
+          "points": ["Beschreiben Sie: Wie war das Treffen?", "Begründen Sie: Wer oder was hat Sie überrascht?", "Machen Sie Marco einen Vorschlag für ein Treffen."],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Marco,\n\nschade, dass du am Samstag nicht beim Klassentreffen warst! Es war ein super Abend. Wir waren fast zwanzig Leute und saßen bis Mitternacht im Restaurant „Linde“.\n\nAm meisten hat mich Sandro überrascht. In der Schule war er immer so schüchtern, und jetzt ist er Lehrer und hat drei Kinder! Auch Frau Keller, unsere alte Deutschlehrerin, war da. Sie hat sich noch an alle Namen erinnert.\n\nHast du Lust, nächsten Monat mit mir essen zu gehen? Dann zeige ich dir die Fotos.\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "Sie haben am Wochenende das Dorf besucht. Dort haben Sie als Kind gewohnt. Schreiben Sie Ihrer Freundin Julia eine E-Mail.",
+          "points": ["Beschreiben Sie: Was hat sich im Dorf verändert?", "Begründen Sie: Woran haben Sie sich besonders gern erinnert?", "Machen Sie Julia einen Vorschlag für einen gemeinsamen Ausflug dorthin."],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Julia,\n\nstell dir vor: Am Sonntag war ich endlich wieder in Mojácar, dem Dorf meiner Kindheit! Vieles hat sich verändert. Wo früher der kleine Laden war, steht jetzt ein Hotel, und am Strand gibt es viele neue Häuser.\n\nAber der Platz vor der Kirche sieht noch genauso aus. Dort spielten wir jeden Abend Verstecken, bis unsere Mütter uns zum Essen riefen. Daran habe ich sofort gedacht und musste lachen.\n\nWillst du im Frühling mit mir hinfahren? Ich zeige dir meine Lieblingsorte, und wir essen am Strand.\n\nViele Grüße\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Sollen Kinder Taschengeld bekommen?“ gesehen. Im Forum finden Sie folgende Meinung:",
+          "quote": "Ich finde Taschengeld für kleine Kinder unnötig. Wenn mein Sohn etwas braucht, kaufe ich es ihm. Kinder in der Grundschule können mit Geld noch nicht richtig umgehen, und am Ende kaufen sie nur Süßigkeiten. Mit vierzehn ist früh genug. (Markus, 44)",
+          "points": ["Schreiben Sie Ihre Meinung zum Thema.", "Erzählen Sie: Wie war das in Ihrer Kindheit?"],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich sehe das anders als Markus. Ich finde, dass Kinder schon in der Grundschule ein kleines Taschengeld bekommen sollten. So lernen sie früh, wie viel Dinge kosten und dass man nicht alles sofort kaufen kann. Natürlich machen sie am Anfang Fehler, aber gerade daraus lernen sie viel.\n\nAls ich ein Kind war, bekam ich jede Woche einen Euro. Meistens kaufte ich Süßigkeiten, aber einmal sparte ich drei Monate lang für ein Buch. Darauf war ich sehr stolz. Deshalb glaube ich: Taschengeld macht Kinder selbstständiger."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „War die Kindheit früher besser?“ gesehen. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:",
+          "quote": "Ich bin 1975 geboren. Wir spielten den ganzen Tag draußen, ohne Handy und ohne Termine. Die Kinder von heute sitzen nur noch vor dem Bildschirm und haben keine Fantasie mehr. Ich bin froh, dass ich früher Kind war. (Claudia, 51)",
+          "points": ["Schreiben Sie Ihre Meinung zum Thema.", "Nennen Sie Beispiele aus Ihrer eigenen Kindheit oder aus Ihrer Familie."],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich verstehe Claudia, aber ich finde nicht, dass die Kindheit früher einfach besser war. Sie war anders. Auch ich spielte als Kind jeden Nachmittag draußen, und daran erinnere ich mich gern. Aber meine Eltern waren sehr streng, und über Probleme sprachen wir nie.\n\nHeute haben Kinder mehr Möglichkeiten. Mein Neffe ist zehn und macht mit dem Tablet eigene Trickfilme – das ist doch auch Fantasie! Wichtig ist nur, dass die Eltern Grenzen setzen und die Kinder auch genug Zeit draußen verbringen. Dann kann eine Kindheit heute genauso schön sein."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Ihre frühere Lehrerin, Frau Keller, hat Sie zu ihrer Feier zum 70. Geburtstag am 12. Mai eingeladen. Sie können leider nicht kommen. Schreiben Sie Frau Keller.",
+          "points": ["Bedanken Sie sich für die Einladung.", "Entschuldigen Sie sich und nennen Sie einen Grund.", "Machen Sie einen anderen Vorschlag."],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Liebe Frau Keller,\n\nvielen Dank für Ihre Einladung zu Ihrem 70. Geburtstag. Ich habe mich sehr gefreut! Leider kann ich am 12. Mai nicht kommen, weil ich an diesem Wochenende auf einem Kongress in Wien bin. Darf ich Sie im Juni zu einem Kaffee einladen?\n\nHerzliche Grüße\nJosé Romero"
+        },
+        {
+          "task": "Sie besuchen an der Volkshochschule den Abendkurs „Familiengeschichte schreiben“. Am nächsten Dienstag können Sie nicht kommen. Schreiben Sie der Kursleiterin, Frau Brunner.",
+          "points": ["Entschuldigen Sie sich höflich und nennen Sie einen Grund.", "Fragen Sie nach den Hausaufgaben."],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Brunner,\n\nleider kann ich am nächsten Dienstag nicht zum Kurs kommen, weil ich an diesem Abend länger arbeiten muss. Das tut mir sehr leid. Könnten Sie mir bitte schreiben, welche Hausaufgaben wir machen sollen?\n\nVielen Dank und freundliche Grüße\nAndrea Navarro"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Ihre Schulklasse hat vor fünfzehn Jahren die Schule beendet. Sie möchten zusammen mit einer Mitschülerin / einem Mitschüler ein Klassentreffen organisieren. Planen Sie das Treffen.",
+          "points": ["Wann und wo?", "Wie die Leute einladen?", "Essen und Trinken?", "Programm (Fotos, alte Schule besuchen …)?"],
+          "model": [
+            { "v": "f1", "t": "Also, wir müssen das Klassentreffen planen. Wann wollen wir es machen?" },
+            { "v": "m1", "t": "Ich schlage vor, wir machen es im September. Im Sommer sind viele im Urlaub." },
+            { "v": "f1", "t": "Gute Idee. Und wo? Was hältst du von einem Restaurant in der Nähe der alten Schule?" },
+            { "v": "m1", "t": "Hm, Restaurants sind ziemlich teuer. Vielleicht können wir einen Raum im Gemeindezentrum mieten? Dann bringt jeder etwas zu essen mit." },
+            { "v": "f1", "t": "Das finde ich gut. So ist es auch gemütlicher. Und wie laden wir die Leute ein?" },
+            { "v": "m1", "t": "Am einfachsten über eine WhatsApp-Gruppe. Aber wir haben nicht mehr alle Nummern." },
+            { "v": "f1", "t": "Stimmt. Ich kann die Schule anrufen. Vielleicht haben sie noch eine alte Adressliste." },
+            { "v": "m1", "t": "Super. Und sollen wir auch unsere alten Lehrer einladen?" },
+            { "v": "f1", "t": "Ja, unbedingt! Vor allem Herrn Weber. Er war doch unser Lieblingslehrer." },
+            { "v": "m1", "t": "Einverstanden. Und als Programm: Was hältst du davon, alte Fotos an die Wand zu projizieren?" },
+            { "v": "f1", "t": "Tolle Idee! Ich habe noch viele Bilder von der Abschlussreise. Und am Nachmittag können wir zusammen durch die alte Schule gehen." },
+            { "v": "m1", "t": "Perfekt. Dann machen wir es so: Samstag, 20. September, im Gemeindezentrum. Ich kümmere mich um den Raum, du um die Einladungen." },
+            { "v": "f1", "t": "Abgemacht!" }
+          ]
+        },
+        {
+          "task": "Ihre Großmutter wird achtzig. Sie möchten ihr zusammen mit Ihrem Bruder / Ihrer Schwester ein Fotobuch mit Erinnerungen schenken. Planen Sie das Geschenk.",
+          "points": ["Welche Fotos?", "Wer sammelt Fotos und Geschichten?", "Wie viel darf es kosten?", "Wann und wie das Geschenk überreichen?"],
+          "model": [
+            { "v": "m2", "t": "Oma wird im März achtzig. Ich finde, wir sollten ihr etwas Besonderes schenken." },
+            { "v": "f2", "t": "Ja, ich hatte auch schon eine Idee: ein Fotobuch mit alten Familienfotos." },
+            { "v": "m2", "t": "Schöne Idee! Welche Fotos sollen wir nehmen?" },
+            { "v": "f2", "t": "Ich würde gern mit ihrer Kindheit anfangen und dann bis heute weitergehen. Mama hat bestimmt noch alte Alben." },
+            { "v": "m2", "t": "Gut. Ich kann Mama und Onkel Peter fragen. Die kennen sicher auch lustige Geschichten von früher." },
+            { "v": "f2", "t": "Ja, und zu jedem Foto schreiben wir ein paar Sätze. Und was darf das Buch kosten?" },
+            { "v": "m2", "t": "Ich habe online geschaut. Ein großes Fotobuch kostet ungefähr 80 Franken. Das teilen wir, oder?" },
+            { "v": "f2", "t": "Klar. Vielleicht machen die Cousins auch mit. Dann wird es billiger für uns." },
+            { "v": "m2", "t": "Gute Idee. Und wann geben wir es ihr? Beim Fest im Restaurant?" },
+            { "v": "f2", "t": "Lieber nicht vor allen Leuten. Sie weint bestimmt. Was hältst du davon, wenn wir sie am Morgen zu zweit besuchen?" },
+            { "v": "m2", "t": "Ja, das ist besser. Dann haben wir auch Zeit, das Buch zusammen mit ihr anzuschauen." },
+            { "v": "f2", "t": "Super. Dann schreibe ich heute Abend Mama und frage nach den Alben." }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Aufwachsen auf dem Land oder in der Stadt?",
+          "model": [
+            { "v": "m1", "t": "Ich möchte heute über das Thema „Aufwachsen auf dem Land oder in der Stadt“ sprechen. Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich über die Situation in Spanien. Danach nenne ich Vor- und Nachteile und sage meine Meinung. Zum Schluss fasse ich alles kurz zusammen." },
+            { "v": "m1", "t": "Ich bin in Córdoba aufgewachsen, also in einer Stadt. Aber jeden Sommer verbrachte ich zwei Monate bei meinen Großeltern in einem kleinen Dorf. Dort war ich viel freier: Wir fuhren den ganzen Tag mit dem Fahrrad herum und kamen erst zum Abendessen nach Hause." },
+            { "v": "m1", "t": "In Spanien wohnen heute die meisten Familien in Städten. Viele Dörfer, besonders im Landesinneren, verlieren Einwohner, weil es dort wenig Arbeit gibt. Oft bleiben nur die älteren Menschen." },
+            { "v": "m1", "t": "Ein Vorteil vom Land ist die Natur: Kinder können draußen spielen und bewegen sich mehr. Außerdem ist es ruhiger und sicherer. Ein Nachteil ist, dass es weniger Schulen, Kurse und Freizeitangebote gibt, und die Wege sind lang. In der Stadt ist das Angebot größer, aber die Kinder haben weniger Platz. Ich finde, dass das Land für kleine Kinder ideal ist, für Jugendliche aber eher die Stadt." },
+            { "v": "m1", "t": "Zusammenfassend kann man sagen: Beide Orte haben Vor- und Nachteile, und vieles hängt vom Alter der Kinder ab. Vielen Dank für Ihre Aufmerksamkeit. Haben Sie noch Fragen?" }
+          ],
+          "question": "Sie haben gesagt, dass es auf dem Land weniger Freizeitangebote gibt. Möchten Sie später mit Kindern auf dem Land wohnen?",
+          "answer": "Vielleicht, wenn die Kinder noch klein sind. Wichtig ist für mich, dass es eine gute Zugverbindung in die Stadt gibt. In der Schweiz ist das zum Glück meistens kein Problem."
+        },
+        {
+          "title": "Großeltern als Babysitter – eine gute Idee?",
+          "model": [
+            { "v": "f1", "t": "In meiner Präsentation geht es um die Frage, ob Großeltern regelmäßig auf ihre Enkel aufpassen sollen. Ich beginne mit meinen persönlichen Erfahrungen. Dann erzähle ich, wie es in meinem Heimatland Spanien ist. Danach spreche ich über Vor- und Nachteile und sage meine Meinung. Am Ende fasse ich alles zusammen." },
+            { "v": "f1", "t": "Als ich klein war, arbeiteten meine Eltern beide den ganzen Tag. Deshalb holte mich meine Oma jeden Tag von der Schule ab. Bei ihr aß ich zu Mittag, machte meine Hausaufgaben und lernte kochen. Meine Oma ist bis heute eine der wichtigsten Personen in meinem Leben." },
+            { "v": "f1", "t": "In Spanien ist das sehr normal. Viele Großeltern kümmern sich mehrmals pro Woche um ihre Enkel, weil die Kinderbetreuung teuer ist und die Familien oft in der gleichen Stadt wohnen. In der Schweiz sehe ich das seltener." },
+            { "v": "f1", "t": "Ein großer Vorteil ist, dass die Kinder eine enge Beziehung zu den Großeltern haben, und die Eltern sparen Geld. Andererseits kann es für ältere Menschen sehr anstrengend sein. Außerdem gibt es manchmal Streit, weil Großeltern andere Ideen von Erziehung haben. Meiner Meinung nach ist es eine gute Lösung, aber nicht jeden Tag." },
+            { "v": "f1", "t": "Zum Schluss möchte ich sagen: Großeltern sind eine große Hilfe, aber sie sind keine Angestellten der Familie. Vielen Dank fürs Zuhören!" }
+          ],
+          "question": "Sie haben gesagt, dass es Streit über die Erziehung geben kann. Was sollen Eltern in diesem Fall tun?",
+          "answer": "Ich finde, die Eltern sollten offen mit den Großeltern sprechen und ein paar klare Regeln festlegen. Bei kleinen Dingen sollte man aber nicht zu streng sein, denn bei Oma und Opa darf es auch ein bisschen anders sein."
+        }
+      ]
+    }
+  }
+}

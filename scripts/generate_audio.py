@@ -108,6 +108,8 @@ def collect() -> dict[str, list[dict]]:
                     add(it["model"])
                 if it.get("question") and it.get("answer"):
                     add([{"v": "f2", "t": it["question"]}, {"v": "m1", "t": it["answer"]}])
+                if it.get("title") and it.get("question"):  # B1 Teil 3: la pregunta sola
+                    add([{"v": "f2", "t": it["question"]}])
     return found
 
 

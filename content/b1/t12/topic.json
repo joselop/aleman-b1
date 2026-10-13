@@ -1,0 +1,2115 @@
+{
+  "id": "b1-t12",
+  "level": "b1",
+  "topic": "t12",
+  "title": "Sociedad y actualidad",
+  "title_de": "Gesellschaft und aktuelle Themen",
+  "goals": [
+    "Hablar de noticias y de temas sociales: vivienda, precios, trabajo, igualdad, integración, envejecimiento",
+    "Entender el vocabulario de la política y de la democracia directa suiza (Wahl, Abstimmung, Initiative)",
+    "Entender y usar el participio I como adjetivo (die steigenden Preise, eine wachsende Stadt)",
+    "Entender y usar el participio II como adjetivo (das gekaufte Auto, die geplante Reform)",
+    "Escribir un comentario de opinión bien estructurado en un foro (Schreiben Teil 2)",
+    "Entender artículos de prensa, comentarios de lectores y debates de radio sobre temas de actualidad"
+  ],
+  "vocab": [
+    {
+      "de": "die Gesellschaft",
+      "pl": "die Gesellschaften",
+      "es": "la sociedad",
+      "cat": "Política",
+      "ex": "In unserer Gesellschaft werden die Menschen immer älter.",
+      "ex_es": "En nuestra sociedad la gente vive cada vez más años."
+    },
+    {
+      "de": "die Regierung",
+      "pl": "die Regierungen",
+      "es": "el gobierno",
+      "cat": "Política",
+      "ex": "Die Regierung hat neue Maßnahmen angekündigt.",
+      "ex_es": "El gobierno ha anunciado nuevas medidas."
+    },
+    {
+      "de": "der Staat",
+      "pl": "die Staaten",
+      "es": "el Estado",
+      "cat": "Política",
+      "ex": "Der Staat sollte mehr Wohnungen bauen.",
+      "ex_es": "El Estado debería construir más viviendas."
+    },
+    {
+      "de": "die Politik",
+      "es": "la política",
+      "cat": "Política",
+      "ex": "Ich interessiere mich nicht besonders für Politik.",
+      "ex_es": "No me interesa especialmente la política."
+    },
+    {
+      "de": "politisch",
+      "es": "político",
+      "cat": "Política",
+      "ex": "Sie ist politisch sehr aktiv.",
+      "ex_es": "Es muy activa políticamente."
+    },
+    {
+      "de": "die Partei",
+      "pl": "die Parteien",
+      "es": "el partido (político)",
+      "cat": "Política",
+      "ex": "Welche Partei hat die Wahl gewonnen?",
+      "ex_es": "¿Qué partido ha ganado las elecciones?"
+    },
+    {
+      "de": "die Wahl",
+      "pl": "die Wahlen",
+      "es": "la elección; las elecciones",
+      "cat": "Política",
+      "ex": "Im Herbst finden die Wahlen statt.",
+      "ex_es": "En otoño se celebran las elecciones."
+    },
+    {
+      "de": "wählen",
+      "es": "elegir, votar (a alguien)",
+      "cat": "Política",
+      "forms": "er wählt, wählte, hat gewählt",
+      "ex": "Wer keinen Schweizer Pass hat, darf bei nationalen Wahlen nicht wählen.",
+      "ex_es": "Quien no tiene pasaporte suizo no puede votar en las elecciones nacionales."
+    },
+    {
+      "de": "die Abstimmung",
+      "pl": "die Abstimmungen",
+      "es": "la votación",
+      "cat": "Política",
+      "ex": "Am Sonntag gibt es eine Abstimmung über das neue Stadion.",
+      "ex_es": "El domingo hay una votación sobre el nuevo estadio."
+    },
+    {
+      "de": "abstimmen (über)",
+      "es": "votar (sobre algo)",
+      "cat": "Política",
+      "forms": "er stimmt ab, stimmte ab, hat abgestimmt",
+      "ex": "Die Schweizer stimmen mehrmals pro Jahr über neue Gesetze ab.",
+      "ex_es": "Los suizos votan varias veces al año sobre nuevas leyes."
+    },
+    {
+      "de": "das Gesetz",
+      "pl": "die Gesetze",
+      "es": "la ley",
+      "cat": "Política",
+      "ex": "Das neue Gesetz gilt ab Januar.",
+      "ex_es": "La nueva ley entra en vigor en enero."
+    },
+    {
+      "de": "der Bürger / die Bürgerin",
+      "pl": "die Bürger / die Bürgerinnen",
+      "es": "el ciudadano / la ciudadana",
+      "cat": "Política",
+      "ex": "Die Bürger können ihre Meinung direkt sagen.",
+      "ex_es": "Los ciudadanos pueden dar su opinión directamente."
+    },
+    {
+      "de": "die Mehrheit",
+      "pl": "die Mehrheiten",
+      "es": "la mayoría",
+      "cat": "Política",
+      "ex": "Die Mehrheit der Bevölkerung war dafür.",
+      "ex_es": "La mayoría de la población estaba a favor."
+    },
+    {
+      "de": "die Minderheit",
+      "pl": "die Minderheiten",
+      "es": "la minoría",
+      "cat": "Política",
+      "ex": "Nur eine Minderheit hat dagegen gestimmt.",
+      "ex_es": "Solo una minoría votó en contra."
+    },
+    {
+      "de": "unterstützen",
+      "es": "apoyar",
+      "cat": "Política",
+      "forms": "er unterstützt, unterstützte, hat unterstützt",
+      "ex": "Viele Vereine unterstützen die Initiative.",
+      "ex_es": "Muchas asociaciones apoyan la iniciativa."
+    },
+    {
+      "de": "fordern",
+      "es": "exigir, reclamar",
+      "cat": "Política",
+      "forms": "er fordert, forderte, hat gefordert",
+      "ex": "Die Eltern fordern mehr Kitaplätze.",
+      "ex_es": "Los padres reclaman más plazas de guardería."
+    },
+    {
+      "de": "die Demonstration",
+      "pl": "die Demonstrationen",
+      "es": "la manifestación",
+      "cat": "Política",
+      "ex": "Tausende Menschen nahmen an der Demonstration teil.",
+      "ex_es": "Miles de personas participaron en la manifestación."
+    },
+    {
+      "de": "die Bevölkerung",
+      "es": "la población",
+      "cat": "Sociedad",
+      "ex": "Ein Viertel der Bevölkerung hat keinen Schweizer Pass.",
+      "ex_es": "Una cuarta parte de la población no tiene pasaporte suizo."
+    },
+    {
+      "de": "der Ausländer / die Ausländerin",
+      "pl": "die Ausländer / die Ausländerinnen",
+      "es": "el extranjero / la extranjera",
+      "cat": "Sociedad",
+      "ex": "Viele Ausländer lernen Deutsch an der Volkshochschule.",
+      "ex_es": "Muchos extranjeros aprenden alemán en la escuela de adultos."
+    },
+    {
+      "de": "die Integration",
+      "es": "la integración",
+      "cat": "Sociedad",
+      "ex": "Die Sprache ist der Schlüssel zur Integration.",
+      "ex_es": "La lengua es la clave de la integración."
+    },
+    {
+      "de": "der Flüchtling",
+      "pl": "die Flüchtlinge",
+      "es": "el refugiado / la refugiada",
+      "cat": "Sociedad",
+      "ex": "Die Gemeinde hat Wohnungen für Flüchtlinge gesucht.",
+      "ex_es": "El municipio buscó pisos para refugiados."
+    },
+    {
+      "de": "die Gleichberechtigung",
+      "es": "la igualdad de derechos",
+      "cat": "Sociedad",
+      "ex": "Bei der Gleichberechtigung gibt es noch viel zu tun.",
+      "ex_es": "En igualdad de derechos todavía queda mucho por hacer."
+    },
+    {
+      "de": "gerecht / ungerecht",
+      "es": "justo / injusto",
+      "cat": "Sociedad",
+      "ex": "Ich finde es ungerecht, dass Frauen weniger verdienen.",
+      "ex_es": "Me parece injusto que las mujeres ganen menos."
+    },
+    {
+      "de": "die Armut",
+      "es": "la pobreza",
+      "cat": "Sociedad",
+      "ex": "Auch in reichen Ländern gibt es Armut.",
+      "ex_es": "También en los países ricos hay pobreza."
+    },
+    {
+      "de": "die Arbeitslosigkeit",
+      "es": "el desempleo",
+      "cat": "Sociedad",
+      "ex": "In Spanien ist die Arbeitslosigkeit höher als in der Schweiz.",
+      "ex_es": "En España el desempleo es más alto que en Suiza."
+    },
+    {
+      "de": "die Rente",
+      "pl": "die Renten",
+      "es": "la pensión, la jubilación",
+      "cat": "Sociedad",
+      "ex": "Mit 65 geht man in Rente.",
+      "ex_es": "A los 65 uno se jubila."
+    },
+    {
+      "de": "die Steuer",
+      "pl": "die Steuern",
+      "es": "el impuesto",
+      "cat": "Sociedad",
+      "ex": "In Zug zahlt man weniger Steuern als in Zürich.",
+      "ex_es": "En Zug se pagan menos impuestos que en Zúrich."
+    },
+    {
+      "de": "die Generation",
+      "pl": "die Generationen",
+      "es": "la generación",
+      "cat": "Sociedad",
+      "ex": "Die junge Generation sieht das anders.",
+      "ex_es": "La generación joven lo ve de otra manera."
+    },
+    {
+      "de": "die Sicherheit",
+      "es": "la seguridad",
+      "cat": "Sociedad",
+      "ex": "Für viele ist Sicherheit das wichtigste Thema.",
+      "ex_es": "Para muchos la seguridad es el tema más importante."
+    },
+    {
+      "de": "öffentlich",
+      "es": "público",
+      "cat": "Sociedad",
+      "ex": "Die öffentlichen Verkehrsmittel sind in der Schweiz sehr gut.",
+      "ex_es": "El transporte público en Suiza es muy bueno."
+    },
+    {
+      "de": "aktuell",
+      "es": "actual, de actualidad",
+      "cat": "Noticias",
+      "ex": "Das ist ein sehr aktuelles Thema.",
+      "ex_es": "Es un tema muy de actualidad."
+    },
+    {
+      "de": "das Ereignis",
+      "pl": "die Ereignisse",
+      "es": "el acontecimiento",
+      "cat": "Noticias",
+      "ex": "Das war das wichtigste Ereignis des Jahres.",
+      "ex_es": "Fue el acontecimiento más importante del año."
+    },
+    {
+      "de": "berichten (über)",
+      "es": "informar (sobre)",
+      "cat": "Noticias",
+      "forms": "er berichtet, berichtete, hat berichtet",
+      "ex": "Alle Zeitungen haben über den Unfall berichtet.",
+      "ex_es": "Todos los periódicos informaron sobre el accidente."
+    },
+    {
+      "de": "der Bericht",
+      "pl": "die Berichte",
+      "es": "el informe, el reportaje",
+      "cat": "Noticias",
+      "ex": "Ich habe einen interessanten Bericht über Armut gelesen.",
+      "ex_es": "He leído un reportaje interesante sobre la pobreza."
+    },
+    {
+      "de": "die Umfrage",
+      "pl": "die Umfragen",
+      "es": "la encuesta",
+      "cat": "Noticias",
+      "ex": "Laut einer Umfrage fühlen sich viele Menschen gestresst.",
+      "ex_es": "Según una encuesta, mucha gente se siente estresada."
+    },
+    {
+      "de": "die Studie",
+      "pl": "die Studien",
+      "es": "el estudio",
+      "cat": "Noticias",
+      "ex": "Eine neue Studie zeigt, dass junge Leute weniger Auto fahren.",
+      "ex_es": "Un nuevo estudio muestra que los jóvenes conducen menos."
+    },
+    {
+      "de": "das Ergebnis",
+      "pl": "die Ergebnisse",
+      "es": "el resultado",
+      "cat": "Noticias",
+      "ex": "Das Ergebnis der Abstimmung war sehr knapp.",
+      "ex_es": "El resultado de la votación fue muy ajustado."
+    },
+    {
+      "de": "veröffentlichen",
+      "es": "publicar",
+      "cat": "Noticias",
+      "forms": "er veröffentlicht, veröffentlichte, hat veröffentlicht",
+      "ex": "Die Studie wurde gestern veröffentlicht.",
+      "ex_es": "El estudio se publicó ayer."
+    },
+    {
+      "de": "der Beitrag",
+      "pl": "die Beiträge",
+      "es": "la contribución; el comentario (en un foro); la cuota",
+      "cat": "Noticias",
+      "ex": "Ich habe deinen Beitrag im Forum gelesen.",
+      "ex_es": "He leído tu comentario en el foro."
+    },
+    {
+      "de": "steigen",
+      "es": "subir, aumentar",
+      "cat": "Cambios",
+      "forms": "er steigt, stieg, ist gestiegen",
+      "ex": "Die Mieten sind im letzten Jahr stark gestiegen.",
+      "ex_es": "Los alquileres subieron mucho el año pasado."
+    },
+    {
+      "de": "sinken",
+      "es": "bajar, disminuir",
+      "cat": "Cambios",
+      "forms": "er sinkt, sank, ist gesunken",
+      "ex": "Die Zahl der Arbeitslosen ist gesunken.",
+      "ex_es": "El número de desempleados ha bajado."
+    },
+    {
+      "de": "zunehmen",
+      "es": "aumentar",
+      "cat": "Cambios",
+      "forms": "er nimmt zu, nahm zu, hat zugenommen",
+      "ex": "Der Verkehr in der Stadt nimmt jedes Jahr zu.",
+      "ex_es": "El tráfico en la ciudad aumenta cada año."
+    },
+    {
+      "de": "die Entwicklung",
+      "pl": "die Entwicklungen",
+      "es": "el desarrollo, la evolución",
+      "cat": "Cambios",
+      "ex": "Diese Entwicklung macht mir Sorgen.",
+      "ex_es": "Esta evolución me preocupa."
+    },
+    {
+      "de": "sich verändern",
+      "es": "cambiar(se)",
+      "cat": "Cambios",
+      "forms": "er verändert sich, veränderte sich, hat sich verändert",
+      "ex": "Zürich hat sich in den letzten Jahren stark verändert.",
+      "ex_es": "Zúrich ha cambiado mucho en los últimos años."
+    },
+    {
+      "de": "die Lösung",
+      "pl": "die Lösungen",
+      "es": "la solución",
+      "cat": "Opinar",
+      "ex": "Für dieses Problem gibt es keine einfache Lösung.",
+      "ex_es": "Para este problema no hay una solución sencilla."
+    },
+    {
+      "de": "überzeugt (von)",
+      "es": "convencido (de)",
+      "cat": "Opinar",
+      "ex": "Ich bin davon überzeugt, dass wir mehr tun müssen.",
+      "ex_es": "Estoy convencido de que tenemos que hacer más."
+    },
+    {
+      "de": "zustimmen",
+      "es": "estar de acuerdo con, aprobar",
+      "cat": "Opinar",
+      "forms": "er stimmt zu, stimmte zu, hat zugestimmt",
+      "ex": "Da muss ich dir zustimmen.",
+      "ex_es": "En eso tengo que darte la razón."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Sociedad y política",
+      "instructions": "Relaciona cada palabra con su traducción.",
+      "pairs": [
+        [
+          "die Gesellschaft",
+          "la sociedad"
+        ],
+        [
+          "die Abstimmung",
+          "la votación"
+        ],
+        [
+          "das Gesetz",
+          "la ley"
+        ],
+        [
+          "die Mehrheit",
+          "la mayoría"
+        ],
+        [
+          "die Bevölkerung",
+          "la población"
+        ],
+        [
+          "die Gleichberechtigung",
+          "la igualdad de derechos"
+        ],
+        [
+          "die Umfrage",
+          "la encuesta"
+        ],
+        [
+          "veröffentlichen",
+          "publicar"
+        ],
+        [
+          "sinken",
+          "bajar, disminuir"
+        ],
+        [
+          "unterstützen",
+          "apoyar"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "gap",
+      "title": "Participio I como adjetivo",
+      "instructions": "Forma el participio I del verbo entre paréntesis y añade la terminación correcta.",
+      "note": "Participio I = infinitivo + d. Luego, la terminación normal del adjetivo.",
+      "items": [
+        {
+          "text": "Die [[steigenden]] Mieten sind ein großes Problem. (steigen)"
+        },
+        {
+          "text": "Zürich ist eine schnell [[wachsende]] Stadt. (wachsen)"
+        },
+        {
+          "text": "Wegen der [[fehlenden]] Kitaplätze arbeitet sie Teilzeit. (fehlen)"
+        },
+        {
+          "text": "Am [[folgenden]] Tag stand die Nachricht in der Zeitung. (folgen)"
+        },
+        {
+          "text": "Wir haben ein [[wachsendes]] Problem mit dem Verkehr. (wachsen)"
+        },
+        {
+          "text": "Die [[wartenden]] Leute standen vor dem Rathaus. (warten)"
+        },
+        {
+          "text": "Pssst! Stör das [[schlafende]] Baby nicht! (schlafen)"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Participio II como adjetivo",
+      "instructions": "Forma el participio II del verbo entre paréntesis y añade la terminación correcta.",
+      "items": [
+        {
+          "text": "Das [[gekaufte]] Auto steht schon vor dem Haus. (kaufen)"
+        },
+        {
+          "text": "Die [[geplante]] Reform wird stark kritisiert. (planen)"
+        },
+        {
+          "text": "José und Andrea suchen eine [[renovierte]] Wohnung. (renovieren)"
+        },
+        {
+          "text": "Die [[verletzten]] Personen wurden ins Spital gebracht. (verletzen)"
+        },
+        {
+          "text": "Bitte nur bei [[geschlossenen]] Fenstern die Heizung anmachen. (schließen)"
+        },
+        {
+          "text": "Die Zahl der [[verkauften]] Elektroautos hat sich verdoppelt. (verkaufen)"
+        },
+        {
+          "text": "Das Ergebnis der gestern [[veröffentlichten]] Studie ist klar. (veröffentlichen)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "¿Participio I o II?",
+      "instructions": "Elige la forma que tiene sentido.",
+      "items": [
+        {
+          "q": "Die ___ Preise machen vielen Familien Sorgen. (los precios que están subiendo)",
+          "options": [
+            "steigenden",
+            "gestiegene",
+            "steigende"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Das ___ Geld liegt auf dem Konto. (el dinero ahorrado)",
+          "options": [
+            "sparende",
+            "gesparte",
+            "gespartes"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Die ___ Kinder spielen im Park. (los niños que ríen)",
+          "options": [
+            "gelachten",
+            "lachende",
+            "lachenden"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Ich habe den ___ Bericht noch nicht gelesen. (el reportaje publicado)",
+          "options": [
+            "veröffentlichten",
+            "veröffentlichenden",
+            "veröffentlichte"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Die ___ Gäste kommen um acht. (los invitados esperados)",
+          "options": [
+            "wartenden",
+            "erwarteten",
+            "erwartenden"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Wir müssen das ___ Problem endlich lösen. (el problema creciente)",
+          "options": [
+            "gewachsenen",
+            "wachsenden",
+            "wachsende"
+          ],
+          "answer": 2,
+          "explain": "das + adjetivo en acusativo neutro → -e: das wachsende Problem. «wachsenden» sería dativo o plural."
+        },
+        {
+          "q": "Die Polizei sucht das ___ Fahrrad. (la bici robada)",
+          "options": [
+            "stehlende",
+            "gestohlenen",
+            "gestohlene"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "write",
+      "title": "De relativo a participio",
+      "instructions": "Transforma la oración de relativo en un participio delante del sustantivo.",
+      "items": [
+        {
+          "prompt": "die Mieten, die steigen",
+          "answers": [
+            "die steigenden Mieten"
+          ]
+        },
+        {
+          "prompt": "das Auto, das gekauft wurde",
+          "answers": [
+            "das gekaufte Auto"
+          ]
+        },
+        {
+          "prompt": "eine Stadt, die wächst",
+          "answers": [
+            "eine wachsende Stadt"
+          ]
+        },
+        {
+          "prompt": "die Reform, die geplant ist",
+          "answers": [
+            "die geplante Reform"
+          ]
+        },
+        {
+          "prompt": "die Wohnung, die renoviert wurde",
+          "answers": [
+            "die renovierte Wohnung"
+          ]
+        },
+        {
+          "prompt": "die Studie, die gestern veröffentlicht wurde",
+          "answers": [
+            "die gestern veröffentlichte Studie"
+          ]
+        },
+        {
+          "prompt": "die Menschen, die demonstrieren",
+          "answers": [
+            "die demonstrierenden Menschen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "Ordena la frase",
+      "instructions": "Ordena las palabras. Lo que acompaña al participio va entre el artículo y el participio.",
+      "items": [
+        {
+          "words": [
+            "Die",
+            "steigenden",
+            "Mieten",
+            "sind",
+            "ein",
+            "großes",
+            "Problem",
+            "."
+          ],
+          "answers": [
+            "Die steigenden Mieten sind ein großes Problem."
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "gestern",
+            "veröffentlichte",
+            "Studie",
+            "zeigt",
+            "ein",
+            "klares",
+            "Ergebnis",
+            "."
+          ],
+          "answers": [
+            "Die gestern veröffentlichte Studie zeigt ein klares Ergebnis."
+          ]
+        },
+        {
+          "words": [
+            "Wir",
+            "wohnen",
+            "in",
+            "einer",
+            "schnell",
+            "wachsenden",
+            "Stadt",
+            "."
+          ],
+          "answers": [
+            "Wir wohnen in einer schnell wachsenden Stadt."
+          ]
+        },
+        {
+          "words": [
+            "Die",
+            "geplante",
+            "Reform",
+            "wird",
+            "stark",
+            "kritisiert",
+            "."
+          ],
+          "answers": [
+            "Die geplante Reform wird stark kritisiert."
+          ]
+        },
+        {
+          "words": [
+            "Meiner",
+            "Meinung",
+            "nach",
+            "sollte",
+            "der",
+            "Staat",
+            "mehr",
+            "Wohnungen",
+            "bauen",
+            "."
+          ],
+          "answers": [
+            "Meiner Meinung nach sollte der Staat mehr Wohnungen bauen."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "stimme",
+            "Lena",
+            "zu",
+            ",",
+            "denn",
+            "Wohnen",
+            "ist",
+            "zu",
+            "teuer",
+            "."
+          ],
+          "answers": [
+            "Ich stimme Lena zu, denn Wohnen ist zu teuer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen",
+      "title": "Noticias breves",
+      "instructions": "Escucha la noticia y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Die Mieten in der Stadt Zürich sind im letzten Jahr um durchschnittlich vier Prozent gestiegen. Besonders betroffen sind kleine Wohnungen in der Nähe des Zentrums."
+            }
+          ],
+          "q": "¿Qué pisos han subido más?",
+          "options": [
+            "Los pisos grandes de las afueras",
+            "Los pisos pequeños cerca del centro",
+            "Las casas nuevas"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Bei der Abstimmung vom Sonntag haben fast sechzig Prozent der Stimmenden Ja zum neuen Velogesetz gesagt. Die Stimmbeteiligung lag bei nur vierzig Prozent."
+            }
+          ],
+          "q": "¿Cuál fue el resultado?",
+          "options": [
+            "La ley fue aprobada.",
+            "La ley fue rechazada.",
+            "La votación se aplazó."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Laut einer neuen Studie arbeiten immer mehr Rentnerinnen und Rentner nach der Pensionierung weiter. Die meisten tun es nicht wegen des Geldes, sondern weil ihnen die Arbeit Spaß macht."
+            }
+          ],
+          "q": "¿Por qué siguen trabajando la mayoría de los jubilados?",
+          "options": [
+            "Porque necesitan dinero",
+            "Porque les obliga la ley",
+            "Porque les gusta su trabajo"
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "In Wien haben gestern rund zehntausend Menschen für mehr Klimaschutz demonstriert. Die Demonstration verlief friedlich. Wegen der gesperrten Straßen kam es in der Innenstadt zu Verspätungen bei Bus und Straßenbahn."
+            }
+          ],
+          "q": "¿Qué problema hubo?",
+          "options": [
+            "Hubo heridos.",
+            "Los autobuses y tranvías se retrasaron.",
+            "La manifestación se prohibió."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Die Zahl der Arbeitslosen in der Schweiz ist im September leicht gesunken. Die Arbeitslosenquote liegt jetzt bei zwei Komma drei Prozent."
+            }
+          ],
+          "q": "¿Qué ha pasado con el desempleo?",
+          "options": [
+            "Ha bajado un poco.",
+            "Ha subido un poco.",
+            "No ha cambiado."
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hast du gelesen? Die Stadt will die geplante Tramlinie doch nicht bauen. Zu teuer, sagt die Regierung."
+            },
+            {
+              "v": "m1",
+              "t": "Echt? Das finde ich schade. Die Busse sind jeden Morgen total voll."
+            }
+          ],
+          "q": "¿Qué opina él?",
+          "options": [
+            "Le parece bien.",
+            "Le parece una pena.",
+            "Le da igual."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Die steigenden Mieten sind ein großes Problem."
+            }
+          ],
+          "answers": [
+            "Die steigenden Mieten sind ein großes Problem."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Die geplante Reform wird stark kritisiert."
+            }
+          ],
+          "answers": [
+            "Die geplante Reform wird stark kritisiert."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Am Sonntag stimmen wir über das neue Gesetz ab."
+            }
+          ],
+          "answers": [
+            "Am Sonntag stimmen wir über das neue Gesetz ab."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Laut einer Umfrage ist die Mehrheit dagegen."
+            }
+          ],
+          "answers": [
+            "Laut einer Umfrage ist die Mehrheit dagegen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Ich bin davon überzeugt, dass wir eine Lösung finden."
+            }
+          ],
+          "answers": [
+            "Ich bin davon überzeugt, dass wir eine Lösung finden."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "mc",
+      "title": "Frases para el foro (Schreiben Teil 2)",
+      "instructions": "Elige la frase adecuada para cada función.",
+      "items": [
+        {
+          "q": "Quieres empezar tu comentario.",
+          "options": [
+            "Sehr geehrte Damen und Herren,",
+            "Ich habe den Beitrag von Lena gelesen und möchte meine Meinung dazu sagen.",
+            "Mit freundlichen Grüßen"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quieres mostrar que estás de acuerdo con otra persona.",
+          "options": [
+            "Ich sehe das anders als Lena.",
+            "Dagegen spricht, dass …",
+            "Da hat Lena völlig recht."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Quieres matizar: tiene razón en algo, pero no en todo.",
+          "options": [
+            "Lena hat zwar recht, dass Wohnen teuer ist, aber …",
+            "Ich stimme Lena völlig zu.",
+            "Zusammenfassend kann man sagen …"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quieres dar un argumento en contra.",
+          "options": [
+            "Ein wichtiges Argument dafür ist …",
+            "Dagegen spricht, dass …",
+            "Ich bin gespannt auf eure Meinungen."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quieres terminar el comentario.",
+          "options": [
+            "Zusammenfassend kann man sagen, dass es keine einfache Lösung gibt.",
+            "Ich habe den Beitrag gelesen.",
+            "In Spanien ist das ganz anders."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quieres comparar con tu país.",
+          "options": [
+            "Da hat Lena recht.",
+            "In Spanien ist das ganz anders: Dort …",
+            "Das Thema betrifft uns alle."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "gap",
+      "title": "Un comentario en el foro",
+      "instructions": "Completa el comentario de José con las palabras que faltan.",
+      "note": "Palabras: Meinung, zwar, deshalb, steigenden, überzeugt, zusammenfassend",
+      "items": [
+        {
+          "text": "Ich habe den Beitrag von Tobias gelesen und möchte meine [[Meinung]] dazu sagen."
+        },
+        {
+          "text": "Die [[steigenden]] Mieten sind in Zürich wirklich ein großes Problem."
+        },
+        {
+          "text": "Tobias hat [[zwar]] recht, dass der Staat helfen muss, aber auch die Firmen sind verantwortlich."
+        },
+        {
+          "text": "Ich bin davon [[überzeugt]], dass man mehr Genossenschaftswohnungen bauen sollte."
+        },
+        {
+          "text": "In Spanien gibt es kaum solche Wohnungen, [[deshalb]] wohnen dort viele junge Leute lange bei ihren Eltern."
+        },
+        {
+          "text": "[[Zusammenfassend]] kann man sagen, dass es keine einfache Lösung gibt."
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Los alquileres en aumento son un problema.",
+          "answers": [
+            "Die steigenden Mieten sind ein Problem."
+          ]
+        },
+        {
+          "prompt": "El estudio publicado ayer muestra un resultado claro.",
+          "answers": [
+            "Die gestern veröffentlichte Studie zeigt ein klares Ergebnis."
+          ]
+        },
+        {
+          "prompt": "La mayoría de la población está a favor.",
+          "answers": [
+            "Die Mehrheit der Bevölkerung ist dafür."
+          ]
+        },
+        {
+          "prompt": "En mi opinión, el Estado debería construir más pisos.",
+          "answers": [
+            "Meiner Meinung nach sollte der Staat mehr Wohnungen bauen."
+          ]
+        },
+        {
+          "prompt": "El número de desempleados ha bajado.",
+          "answers": [
+            "Die Zahl der Arbeitslosen ist gesunken."
+          ]
+        },
+        {
+          "prompt": "Estoy de acuerdo con Lena.",
+          "answers": [
+            "Ich stimme Lena zu.",
+            "Ich bin mit Lena einverstanden.",
+            "Ich bin Lenas Meinung.",
+            "Ich bin der gleichen Meinung wie Lena.",
+            "Ich bin derselben Meinung wie Lena."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Endlich mitreden!",
+          "text": "Hallo zusammen,\n\nviele von euch lesen meinen Blog, seit ich vor zwölf Jahren aus Portugal nach Basel gezogen bin. Heute habe ich große Neuigkeiten: Seit letztem Monat bin ich Schweizerin! Der Weg dahin war lang. Ich musste einen Sprachtest machen, Fragen über die Geschichte und Politik der Schweiz beantworten und sogar ein Gespräch mit der Gemeinde führen. Am Ende kam ein Brief mit der guten Nachricht. Mein Mann, der schon seit Jahren den Schweizer Pass hat, hat sofort eine Flasche Sekt geöffnet.\n\nAm meisten habe ich mich auf etwas gefreut: abstimmen zu dürfen. Zwölf Jahre lang habe ich mit meinen Kollegen über Abstimmungen diskutiert, aber ich durfte nie selbst entscheiden. Am letzten Sonntag war es dann so weit. Ehrlich gesagt war es schwieriger, als ich gedacht hatte. Es ging um vier Vorlagen, unter anderem um ein neues Gesetz zur Krankenversicherung. Das rote Abstimmungsbüchlein, in dem alles erklärt wird, hat über sechzig Seiten! Ich habe es an zwei Abenden genau gelesen und viele Wörter nachgeschlagen.\n\nAbgestimmt habe ich übrigens nicht im Wahllokal, sondern per Post, wie die meisten Leute hier. Man füllt einfach den Stimmzettel aus und wirft das Couvert in den Briefkasten. Ein bisschen schade fand ich das schon, denn ich hätte mir den Moment feierlicher vorgestellt.\n\nBei einer Vorlage habe ich verloren, bei den anderen drei gewonnen. Aber darum geht es nicht. Wichtig ist für mich, dass ich jetzt wirklich dazugehöre und mitreden kann.\n\nBis bald\nInês",
+          "statements": [
+            {
+              "s": "Inês lebt seit zwölf Jahren in der Schweiz.",
+              "answer": true
+            },
+            {
+              "s": "Für den Schweizer Pass musste Inês nur einen Sprachtest machen.",
+              "answer": false
+            },
+            {
+              "s": "Inês' Mann hat den Schweizer Pass schon länger.",
+              "answer": true
+            },
+            {
+              "s": "Das Abstimmen war für Inês einfacher als erwartet.",
+              "answer": false
+            },
+            {
+              "s": "Inês hat ihren Stimmzettel per Post geschickt.",
+              "answer": true
+            },
+            {
+              "s": "Inês ist enttäuscht, weil sie bei einer Vorlage verloren hat.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "title": "Unsere Wohnungssuche",
+          "text": "Liebe Paula,\n\nentschuldige, dass ich mich so lange nicht gemeldet habe. Die letzten Monate waren ziemlich chaotisch. Du weißt ja, dass Mario und ich eine größere Wohnung suchen, weil im Frühling unser Baby kommt. Ich hätte nie gedacht, dass das so schwierig ist!\n\nIn Zürich gibt es kaum freie Wohnungen, und die angebotenen Wohnungen sind unglaublich teuer. Für eine Dreizimmerwohnung in der Stadt zahlt man oft über 3000 Franken. Bei den Besichtigungen standen manchmal fünfzig Leute im Treppenhaus. Einmal mussten wir sogar eine Stunde draußen im Regen warten. Wir haben bestimmt dreißig Bewerbungen geschrieben und nur Absagen bekommen.\n\nDann hat uns eine Kollegin von Mario den Tipp gegeben, uns bei Genossenschaften zu bewerben. Das sind Organisationen, die Wohnungen ohne Gewinn vermieten. Deshalb sind die Mieten dort deutlich günstiger. Das Problem: Die Wartelisten sind sehr lang, und man muss Mitglied werden und einen Anteil bezahlen. Trotzdem haben wir es versucht.\n\nUnd jetzt kommt die gute Nachricht: Letzte Woche hat eine Genossenschaft in Oerlikon angerufen! Wir haben eine frisch renovierte Wohnung mit drei Zimmern und Balkon bekommen, für 1900 Franken. Der Weg zur Arbeit wird für mich zwar etwas länger, aber das ist mir egal. Im Haus wohnen viele junge Familien, und es gibt einen gemeinsamen Garten.\n\nAm 1. Dezember ziehen wir um. Hast du Lust, uns im Januar zu besuchen? Dann zeige ich dir alles.\n\nGanz liebe Grüße\nSophie",
+          "statements": [
+            {
+              "s": "Sophie und Mario suchen eine größere Wohnung, weil sie ein Kind erwarten.",
+              "answer": true
+            },
+            {
+              "s": "Bei den Besichtigungen waren nur wenige Interessenten.",
+              "answer": false
+            },
+            {
+              "s": "Die Idee mit der Genossenschaft kam von einer Kollegin von Mario.",
+              "answer": true
+            },
+            {
+              "s": "Bei einer Genossenschaft bekommt man sofort eine Wohnung.",
+              "answer": false
+            },
+            {
+              "s": "Sophie hat in Zukunft einen kürzeren Weg zur Arbeit.",
+              "answer": false
+            },
+            {
+              "s": "Sophie lädt Paula ein, sie in der neuen Wohnung zu besuchen.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Immer mehr Menschen leben allein",
+          "text": "Bern – In der Schweiz lebt heute mehr als jede sechste Person allein. In den großen Städten ist es sogar fast jede zweite Wohnung, in der nur eine Person wohnt. Das zeigt eine gestern veröffentlichte Studie des Bundesamts für Statistik. Vor fünfzig Jahren war ein Einpersonenhaushalt noch eine Ausnahme. Damals lebten die meisten Menschen mit ihrer Familie oder mit ihren Eltern zusammen, oft sogar mehrere Generationen unter einem Dach.\n\nDie Gründe für diese Entwicklung sind verschieden. Zum einen werden die Menschen immer älter. Viele ältere Frauen leben nach dem Tod ihres Partners allein in ihrer Wohnung. Zum anderen heiraten junge Menschen später als früher und wohnen nach dem Studium oft einige Jahre allein, bevor sie eine Familie gründen. Auch die steigende Zahl von Scheidungen spielt eine Rolle.\n\nFür die Städte ist das ein Problem: Wer allein lebt, braucht pro Person mehr Wohnfläche. Das ist einer der Gründe für die fehlenden Wohnungen in Zürich, Genf und Basel. Die Studie zeigt aber auch eine andere Seite: Viele Alleinlebende fühlen sich einsam. Vor allem bei älteren Menschen ist das ein wachsendes Problem. Einige Gemeinden reagieren schon darauf. In Winterthur gibt es zum Beispiel ein Projekt, bei dem Studierende günstig bei älteren Menschen wohnen und ihnen dafür im Alltag helfen.",
+          "questions": [
+            {
+              "q": "Was zeigt die Studie?",
+              "options": [
+                "Dass in den Städten viele Menschen allein wohnen.",
+                "Dass die meisten Schweizer allein leben.",
+                "Dass weniger Menschen allein leben als früher."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Warum leben viele junge Leute allein?",
+              "options": [
+                "Weil sie keine Familie wollen.",
+                "Weil sie später heiraten.",
+                "Weil Wohnungen für Familien zu teuer sind."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was passiert im Projekt in Winterthur?",
+              "options": [
+                "Ältere Menschen helfen Studierenden beim Lernen.",
+                "Die Gemeinde baut kleine Wohnungen für Studierende.",
+                "Junge Menschen wohnen billig bei Senioren und helfen ihnen."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Vier Tage arbeiten, gleicher Lohn?",
+          "text": "Graz – Eine Softwarefirma aus Graz hat es ein Jahr lang ausprobiert: Alle 45 Angestellten arbeiteten nur noch vier Tage pro Woche, bekamen aber den gleichen Lohn wie vorher. Jetzt hat die Firma die Ergebnisse präsentiert, und die sind überraschend positiv.\n\n„Wir haben in vier Tagen fast genauso viel geschafft wie früher in fünf“, sagt Geschäftsführerin Martina Hofer. Das Projekt wurde von der Universität Graz wissenschaftlich begleitet. Die Mitarbeiterinnen und Mitarbeiter waren seltener krank und deutlich zufriedener. Um Zeit zu sparen, hat die Firma vor allem die Zahl der Sitzungen reduziert: Eine Besprechung darf jetzt höchstens 30 Minuten dauern. Außerdem gibt es am Vormittag zwei Stunden, in denen niemand E-Mails beantworten muss.\n\nAuch bei der Suche nach neuen Angestellten hilft das Modell. „Früher hatten wir auf eine Stelle zwei oder drei Bewerbungen, heute sind es über fünfzig“, erzählt Hofer. Doch nicht alle sind begeistert. Einige Mitarbeitende berichten, dass die Arbeitstage jetzt stressiger sind. Und Wirtschaftsexperten warnen: Was in einer Softwarefirma funktioniert, ist in einem Spital oder in einem Restaurant kaum möglich. Dort muss jemand da sein, egal wie schnell man arbeitet. Die Firma in Graz will das Modell trotzdem behalten. Ab dem nächsten Jahr soll es sogar für alle neuen Angestellten gelten, auch für die Lernenden.",
+          "questions": [
+            {
+              "q": "Was hat die Firma ausprobiert?",
+              "options": [
+                "Weniger Arbeitstage für weniger Lohn.",
+                "Weniger Arbeitstage ohne weniger Lohn.",
+                "Mehr Homeoffice für alle Angestellten."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wie hat die Firma Zeit gespart?",
+              "options": [
+                "Mit kürzeren Besprechungen.",
+                "Mit längeren Arbeitstagen.",
+                "Ohne E-Mails am Nachmittag."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was sagen Wirtschaftsexperten?",
+              "options": [
+                "Das Modell sollte überall eingeführt werden.",
+                "Das Modell ist für Softwarefirmen zu teuer.",
+                "Das Modell passt nicht für jede Branche."
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Mieterinnen- und Mieterverband Zürich: Rechtsberatung bei Problemen mit dem Vermieter, Mieterhöhungen oder Kündigung. Für Mitglieder kostenlos, Mo–Fr 9–12 Uhr."
+            },
+            {
+              "key": "b",
+              "text": "Integrationskurs „Leben in der Schweiz“: Politik, Schule, Gesundheitssystem und Alltag einfach erklärt. Auf Deutsch (ab A2), 6 Abende, Kosten übernimmt die Stadt."
+            },
+            {
+              "key": "c",
+              "text": "Schuldenberatung Kanton Zürich: Sie können Ihre Rechnungen nicht mehr bezahlen? Wir helfen vertraulich und kostenlos. Termin nach telefonischer Vereinbarung."
+            },
+            {
+              "key": "d",
+              "text": "Generationenprojekt „Wohnen für Hilfe“: Studierende wohnen günstig bei Seniorinnen und Senioren und helfen dafür im Haushalt oder im Garten."
+            },
+            {
+              "key": "e",
+              "text": "Elterntreff International: Mütter und Väter aus aller Welt treffen sich jeden Mittwochmorgen mit ihren Kleinkindern. Mit Kinderbetreuung und Kaffee."
+            },
+            {
+              "key": "f",
+              "text": "Einbürgerungstest online üben: 300 Fragen zu Geschichte, Geografie und Politik der Schweiz, mit Lösungen. Gratis-App für iPhone und Android."
+            },
+            {
+              "key": "g",
+              "text": "Kleiderbörse der Caritas: Gut erhaltene Kleider für Erwachsene und Kinder zu kleinen Preisen. Für Personen mit KulturLegi zusätzlich 50 % Rabatt."
+            },
+            {
+              "key": "h",
+              "text": "Freiwillige gesucht! Unser Deutschtreff für Geflüchtete braucht Menschen, die einmal pro Woche mit Lernenden sprechen. Keine Lehrerfahrung nötig."
+            },
+            {
+              "key": "i",
+              "text": "Steuererklärung leicht gemacht: Wir füllen Ihre Steuererklärung schnell und korrekt aus. Ab 120 Fr., auch auf Englisch und Spanisch."
+            },
+            {
+              "key": "j",
+              "text": "Podiumsdiskussion „Wohnen in Zürich – bald nur noch für Reiche?“: mit Politikerinnen und Politikern aller Parteien. Eintritt frei, Volkshaus, Donnerstag 19 Uhr."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Dragan hat einen Brief bekommen: Seine Miete soll um 300 Franken steigen. Er möchte wissen, ob das erlaubt ist.",
+              "answer": "a"
+            },
+            {
+              "situation": "Frau Huber ist 78 und wohnt allein in einem großen Haus. Sie braucht Hilfe im Garten und hätte gern Gesellschaft.",
+              "answer": "d"
+            },
+            {
+              "situation": "Amira möchte sich einbürgern lassen und will sich auf die Fragen zur Schweizer Politik vorbereiten.",
+              "answer": "f"
+            },
+            {
+              "situation": "Pedro wohnt seit drei Monaten in Zürich und möchte besser verstehen, wie das Schulsystem und die Krankenversicherung funktionieren.",
+              "answer": "b"
+            },
+            {
+              "situation": "Thomas ist pensioniert, hat viel Zeit und möchte ohne Bezahlung etwas für andere Menschen tun.",
+              "answer": "h"
+            },
+            {
+              "situation": "Familie Rossi braucht Hilfe bei der Steuererklärung, möchte aber nichts dafür bezahlen.",
+              "answer": "x"
+            },
+            {
+              "situation": "Yuki interessiert sich für Politik und möchte hören, was die Parteien gegen die hohen Mieten tun wollen.",
+              "answer": "j"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Stimmrecht für Ausländerinnen und Ausländer?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über das Stimmrecht für Ausländerinnen und Ausländer in der Gemeinde.",
+          "question": "Ist die Person für das Stimmrecht für Ausländer in der Gemeinde?",
+          "comments": [
+            {
+              "name": "Marija, 36, Zürich",
+              "text": "Ich lebe seit 15 Jahren in Zürich, zahle hier Steuern, meine Kinder gehen hier zur Schule. Trotzdem darf ich nicht mitentscheiden, ob das neue Schulhaus gebaut wird oder nicht. Das finde ich nicht richtig. Wer schon lange in einer Gemeinde lebt, sollte bei den Themen, die ihn direkt betreffen, auch eine Stimme haben.",
+              "answer": true
+            },
+            {
+              "name": "Urs, 59, Winterthur",
+              "text": "Ich habe nichts gegen Ausländer, im Gegenteil, meine Schwiegertochter kommt aus Brasilien. Aber das Stimmrecht gehört für mich zum Schweizer Pass. Wer mitbestimmen möchte, kann sich nach zehn Jahren einbürgern lassen. Das ist nicht unmöglich. Meine Schwiegertochter hat es auch gemacht, mit viel Arbeit, und ist heute sehr stolz darauf.",
+              "answer": false
+            },
+            {
+              "name": "Elena, 24, Bern",
+              "text": "Einerseits verstehe ich die Leute, die sagen, man soll sich zuerst einbürgern lassen. Andererseits ist die Einbürgerung in manchen Gemeinden sehr teuer und dauert Jahre. In Neuenburg und im Jura dürfen Ausländer schon lange in der Gemeinde abstimmen, und dort gibt es keine Probleme. Ich sehe deshalb keinen Grund, warum das bei uns nicht auch möglich sein sollte.",
+              "answer": true
+            },
+            {
+              "name": "Reto, 45, Chur",
+              "text": "Abstimmen ist eine große Verantwortung. Man muss die Geschichte, die Kultur und das politische System gut kennen. Viele, die erst ein paar Jahre hier wohnen, verstehen die Vorlagen kaum, auch wegen der Sprache. Natürlich gibt es Ausnahmen. Aber ich finde, die Einbürgerung ist der richtige Weg, und sie zeigt auch, dass man wirklich bleiben will.",
+              "answer": false
+            },
+            {
+              "name": "Fatma, 41, Basel",
+              "text": "Ich bin in Basel geboren, habe aber einen türkischen Pass. Ich spreche Baseldeutsch, arbeite als Pflegefachfrau und engagiere mich im Quartierverein. Bei jeder Abstimmung fühle ich mich wie ein Gast in meiner eigenen Stadt. Ein Stimmrecht in der Gemeinde wäre ein wichtiges Zeichen, dass wir dazugehören. Es würde viele motivieren, sich noch mehr zu engagieren.",
+              "answer": true
+            },
+            {
+              "name": "Benedikt, 33, Luzern",
+              "text": "Am Anfang fand ich die Idee gut. Aber dann habe ich gelesen, dass in Gemeinden mit Ausländerstimmrecht nur sehr wenige Ausländer wirklich abstimmen. Offenbar ist das Interesse gar nicht so groß. Statt neue Rechte einzuführen, sollte man die Einbürgerung einfacher und billiger machen. Das wäre aus meiner Sicht die bessere Lösung.",
+              "answer": false
+            },
+            {
+              "name": "Claudine, 67, Genf",
+              "text": "In Genf dürfen Ausländerinnen und Ausländer nach acht Jahren in der Gemeinde abstimmen. Ich war am Anfang skeptisch, das gebe ich zu. Heute sehe ich, dass unsere Gemeinde davon profitiert: Die Leute interessieren sich mehr für ihr Quartier und machen bei Projekten mit. Man sollte dieses Modell in der ganzen Schweiz einführen.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Forum „Stadtleben“ – Regeln für die Nutzung",
+          "text": "Willkommen im Forum „Stadtleben“ der Zürcher Nachrichten! Hier können Sie über aktuelle Themen aus Ihrer Stadt diskutieren. Damit die Diskussion für alle angenehm bleibt, bitten wir Sie, folgende Regeln zu beachten.\n\nAnmeldung: Um Beiträge zu schreiben, müssen Sie sich mit Ihrer E-Mail-Adresse registrieren. Lesen können Sie alle Beiträge auch ohne Anmeldung. Sie dürfen einen Fantasienamen verwenden, Ihr richtiger Name wird nicht angezeigt.\n\nInhalt: Bleiben Sie beim Thema und bleiben Sie höflich. Beleidigungen, Rassismus und Werbung sind verboten. Beiträge dürfen höchstens 1000 Zeichen lang sein. Links zu anderen Seiten sind nur erlaubt, wenn sie zum Thema passen.\n\nKontrolle: Unser Team liest alle Beiträge, bevor sie veröffentlicht werden. Das kann am Wochenende bis zu 24 Stunden dauern. Beiträge, die gegen die Regeln verstoßen, werden ohne Begründung gelöscht. Wer mehrmals gegen die Regeln verstößt, wird gesperrt.\n\nFotos: Sie können pro Beitrag ein Foto hochladen. Achten Sie darauf, dass Sie die Rechte an dem Foto besitzen und dass keine Personen zu erkennen sind, die nicht zugestimmt haben.\n\nKontakt: Wenn Sie einen Beitrag sehen, der gegen die Regeln verstößt, klicken Sie bitte auf „Melden“. Bei anderen Fragen schreiben Sie an forum@zuercher-nachrichten.ch.",
+          "questions": [
+            {
+              "q": "Was brauchen Sie, um im Forum zu lesen?",
+              "options": [
+                "Eine Registrierung mit E-Mail-Adresse.",
+                "Nichts, Lesen ist ohne Anmeldung möglich.",
+                "Ihren richtigen Namen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wann erscheint ein Beitrag im Forum?",
+              "options": [
+                "Sofort nach dem Schreiben.",
+                "Nach einer Kontrolle durch das Team.",
+                "Immer genau 24 Stunden später."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was passiert, wenn jemand öfter gegen die Regeln verstößt?",
+              "options": [
+                "Er muss eine Strafe bezahlen.",
+                "Er bekommt eine E-Mail mit einer Begründung.",
+                "Er darf das Forum nicht mehr benutzen."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was ist bei Fotos zu beachten?",
+              "options": [
+                "Man darf nur ein Foto pro Beitrag hochladen.",
+                "Fotos sind nur am Wochenende erlaubt.",
+                "Man darf nur Fotos von Personen hochladen."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Radio Zürisee, die Nachrichten. Die Krankenkassenprämien steigen im nächsten Jahr erneut. Wie das Bundesamt für Gesundheit heute mitteilte, müssen die Versicherten durchschnittlich sechs Prozent mehr bezahlen. Besonders stark ist der Anstieg in den Kantonen Tessin und Genf. Familien mit kleinem Einkommen können bei ihrer Gemeinde eine Prämienverbilligung beantragen."
+            }
+          ],
+          "statement": "Die Krankenkassen werden im nächsten Jahr billiger.",
+          "tf": false,
+          "q": "Was können Familien mit wenig Geld tun?",
+          "options": [
+            "Die Krankenkasse wechseln.",
+            "Bei der Gemeinde Hilfe beantragen.",
+            "Weniger Prämie bezahlen, ohne etwas zu tun."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Grüezi Frau Blaser, hier ist Herr Frei von der Einwohnerkontrolle Uster. Sie haben Ihren Ausländerausweis verlängert, und der neue Ausweis ist jetzt bei uns abholbereit. Bitte bringen Sie den alten Ausweis mit. Unser Schalter ist von Montag bis Freitag von acht bis zwölf Uhr geöffnet, am Donnerstag zusätzlich bis achtzehn Uhr. Vielen Dank und auf Wiederhören."
+            }
+          ],
+          "statement": "Frau Blaser soll ihren alten Ausweis mitbringen.",
+          "tf": true,
+          "q": "Wann kann Frau Blaser auch am Abend kommen?",
+          "options": [
+            "Am Montag.",
+            "Am Donnerstag.",
+            "Am Freitag."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Und nun zum Verkehr. Wegen einer angemeldeten Demonstration ist die Bahnhofstraße in Zürich heute zwischen vierzehn und siebzehn Uhr gesperrt. Die Trams der Linien sechs, sieben, elf und dreizehn werden umgeleitet. Wer in die Innenstadt möchte, sollte wenn möglich zu Fuß gehen oder mehr Zeit einplanen."
+            }
+          ],
+          "statement": "Die Bahnhofstraße ist den ganzen Tag gesperrt.",
+          "tf": false,
+          "q": "Was wird empfohlen?",
+          "options": [
+            "Mit dem Auto zu fahren.",
+            "Die Demonstration zu besuchen.",
+            "Zu Fuß zu gehen."
+          ],
+          "answer": 2
+        },
+        {
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Eine aktuelle Umfrage zeigt: Fast siebzig Prozent der Österreicherinnen und Österreicher machen sich Sorgen wegen der steigenden Lebensmittelpreise. Vor allem junge Familien und Pensionisten sparen beim Einkaufen. Viele kaufen öfter im Discounter ein oder verzichten auf Fleisch. Gleichzeitig haben die Bioläden weniger Kundschaft als im Vorjahr."
+            }
+          ],
+          "statement": "Die Mehrheit der Österreicher hat Angst vor höheren Lebensmittelpreisen.",
+          "tf": true,
+          "q": "Was machen viele Menschen?",
+          "options": [
+            "Sie kaufen mehr Bioprodukte.",
+            "Sie essen weniger Fleisch.",
+            "Sie kaufen im Ausland ein."
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hallo Lea, ich bin's, Jonas. Du, wegen heute Abend: Die Podiumsdiskussion zum Thema Wohnen findet nicht im Gemeindehaus statt, sondern in der Aula vom Schulhaus Hofacker, weil so viele Leute angemeldet sind. Beginn ist trotzdem um halb acht. Ich bin schon um sieben dort und halte dir einen Platz frei. Bis später!"
+            }
+          ],
+          "statement": "Die Diskussion beginnt später als geplant.",
+          "tf": false,
+          "q": "Warum findet die Veranstaltung an einem anderen Ort statt?",
+          "options": [
+            "Weil das Gemeindehaus renoviert wird.",
+            "Weil es viele Anmeldungen gibt.",
+            "Weil die Aula billiger ist."
+          ],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie nehmen an einer Führung durch das Bundeshaus in Bern teil.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Guten Tag und herzlich willkommen im Bundeshaus! Ich heiße Nadine Kälin. In den nächsten fünfzig Minuten zeige ich Ihnen das Herz der Schweizer Politik. Bitte tragen Sie Ihren Besucherausweis die ganze Zeit sichtbar. Die Taschen haben Sie ja schon bei der Sicherheitskontrolle am Eingang abgegeben."
+            },
+            {
+              "v": "f2",
+              "t": "Das Gebäude wurde 1902 fertig gebaut. Fast alle Materialien kommen aus der Schweiz: Holz, Steine und Marmor aus verschiedenen Kantonen. Damit wollte man zeigen, dass das ganze Land hier vertreten ist. Auch die Bilder an den Wänden zeigen Landschaften aus allen Teilen der Schweiz."
+            },
+            {
+              "v": "f2",
+              "t": "Wir stehen jetzt im Nationalratssaal. Hier sitzen die zweihundert Mitglieder des Nationalrats. Sie werden alle vier Jahre vom Volk gewählt. Die Anzahl der Sitze pro Kanton hängt von der Bevölkerung ab: Zürich hat sechsunddreißig, kleine Kantone wie Uri nur einen."
+            },
+            {
+              "v": "f2",
+              "t": "Nebenan ist der Ständeratssaal. Er ist viel kleiner, denn im Ständerat sitzen nur sechsundvierzig Personen, in der Regel zwei pro Kanton, egal wie groß der Kanton ist. Ein neues Gesetz muss von beiden Räten angenommen werden. Und wenn genug Bürgerinnen und Bürger unterschreiben, kann am Ende das Volk darüber abstimmen."
+            },
+            {
+              "v": "f2",
+              "t": "Viele Besucher fragen mich, wo die Regierung arbeitet. Die sieben Mitglieder des Bundesrats haben ihre Büros in den Nebengebäuden links und rechts vom Parlament. Diese Büros kann man leider nicht besichtigen. Mit etwas Glück trifft man aber einen Bundesrat in der Cafeteria."
+            },
+            {
+              "v": "f2",
+              "t": "Während der Sessionen, also viermal im Jahr für drei Wochen, können Sie die Debatten von der Tribüne aus live verfolgen. Der Eintritt ist kostenlos, aber Sie brauchen einen Ausweis. Am Ausgang finden Sie Broschüren in vier Sprachen. Vielen Dank für Ihren Besuch!"
+            }
+          ],
+          "questions": [
+            {
+              "q": "Was müssen die Besucher während der Führung tun?",
+              "options": [
+                "Ihren Besucherausweis tragen.",
+                "Ihre Tasche bei sich haben.",
+                "Ihren Pass zeigen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was ist besonders an den Baumaterialien?",
+              "options": [
+                "Sie kommen alle aus Bern.",
+                "Sie kommen fast alle aus der Schweiz.",
+                "Sie sind sehr modern."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Wie viele Sitze hat ein Kanton im Nationalrat?",
+              "options": [
+                "Immer zwei.",
+                "Immer sechsunddreißig.",
+                "Das hängt von der Bevölkerung ab."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was sagt die Führerin über die Büros des Bundesrats?",
+              "options": [
+                "Man kann sie nicht besuchen.",
+                "Sie sind in der Cafeteria.",
+                "Man kann sie mit Ausweis besichtigen."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was kann man während der Sessionen machen?",
+              "options": [
+                "Mit den Politikern sprechen.",
+                "Den Debatten zuhören.",
+                "Gratis in der Cafeteria essen."
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "intro": "Sie nehmen an einer Begrüßungsveranstaltung für neue Einwohnerinnen und Einwohner Ihrer Gemeinde teil.",
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Liebe Neuzuzügerinnen und Neuzuzüger, im Namen des Gemeinderats begrüße ich Sie herzlich in Hinwil. Mein Name ist Peter Schnyder, ich bin der Gemeindepräsident. Im letzten Jahr sind über neunhundert Personen zu uns gezogen, aus vierzig verschiedenen Ländern. Das freut uns sehr."
+            },
+            {
+              "v": "ch-m",
+              "t": "Zuerst etwas Praktisches: Wenn Sie umziehen, müssen Sie sich innerhalb von vierzehn Tagen bei der Einwohnerkontrolle anmelden. Die meisten von Ihnen haben das schon gemacht. Viele Formulare können Sie inzwischen auch online auf unserer Webseite ausfüllen."
+            },
+            {
+              "v": "ch-m",
+              "t": "Ein Thema, zu dem wir viele Fragen bekommen, ist der Abfall. In Hinwil braucht man für den Hauskehricht spezielle Gebührensäcke, die Sie in jedem Supermarkt kaufen können. Papier und Karton werden einmal im Monat abgeholt. Den genauen Kalender finden Sie in der App der Gemeinde."
+            },
+            {
+              "v": "ch-m",
+              "t": "Für Familien: Unsere Gemeinde hat sechs Kindergärten und drei Schulhäuser. Für Kinder, die noch kein Deutsch sprechen, gibt es zusätzlichen Unterricht, den die Gemeinde bezahlt. Die Plätze in den Kitas sind leider knapp. Melden Sie Ihr Kind deshalb möglichst früh an."
+            },
+            {
+              "v": "ch-m",
+              "t": "Wir wünschen uns, dass Sie sich hier schnell zu Hause fühlen. Der beste Weg dazu sind unsere über hundert Vereine, vom Turnverein bis zum Theaterclub. Eine Liste liegt am Eingang. Außerdem bietet die Gemeinde Deutschkurse zu einem reduzierten Preis an."
+            },
+            {
+              "v": "ch-m",
+              "t": "Jetzt lade ich Sie herzlich zum Apéro im Foyer ein. Dort stellen sich auch einige Vereine vor, und die Mitarbeitenden der Verwaltung beantworten gern Ihre Fragen."
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wer spricht?",
+              "options": [
+                "Ein Mitarbeiter der Einwohnerkontrolle.",
+                "Der Präsident der Gemeinde.",
+                "Ein neuer Einwohner."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Bis wann muss man sich nach dem Umzug anmelden?",
+              "options": [
+                "Innerhalb von zwei Wochen.",
+                "Innerhalb von einem Monat.",
+                "Vor dem Umzug."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wo findet man die Termine für die Papiersammlung?",
+              "options": [
+                "Im Supermarkt.",
+                "Im Briefkasten.",
+                "In einer App."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was sagt der Sprecher über die Kitas?",
+              "options": [
+                "Sie sind kostenlos.",
+                "Es gibt nicht genug Plätze.",
+                "Es gibt sechs Kitas in der Gemeinde."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was empfiehlt er, um sich schnell zu Hause zu fühlen?",
+              "options": [
+                "In einem Verein mitzumachen.",
+                "Zum Apéro zu kommen.",
+                "Einen Kurs bei der Gemeinde zu besuchen."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Bus und hören, wie sich zwei Personen über eine Abstimmung unterhalten.",
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Hast du schon abgestimmt, Corinne?"
+            },
+            {
+              "v": "f1",
+              "t": "Noch nicht. Die Unterlagen liegen seit zwei Wochen auf meinem Küchentisch. Bis wann muss das Couvert bei der Gemeinde sein?"
+            },
+            {
+              "v": "m1",
+              "t": "Wenn du es per Post schickst, spätestens am Dienstag. Sonst musst du es am Sonntag selbst ins Gemeindehaus bringen."
+            },
+            {
+              "v": "f1",
+              "t": "Okay, dann mache ich es heute Abend. Und du, wie hast du bei der Tempo-30-Vorlage gestimmt?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich habe Ja gestimmt. Bei uns an der Hauptstraße ist es so laut, dass wir nachts die Fenster nicht öffnen können. Mit Tempo 30 wäre es viel ruhiger."
+            },
+            {
+              "v": "f1",
+              "t": "Das verstehe ich. Aber ich bin unsicher. Ich fahre jeden Tag mit dem Bus zur Arbeit, und die Busse werden dann noch langsamer."
+            },
+            {
+              "v": "m1",
+              "t": "Laut der Stadt sind es nur ein bis zwei Minuten mehr pro Fahrt."
+            },
+            {
+              "v": "f1",
+              "t": "Ein bis zwei Minuten, das sagen sie immer. Am Ende sind es zehn."
+            },
+            {
+              "v": "m1",
+              "t": "Vielleicht. Aber denk an die Kinder. Seit wir in der Nähe der Schule wohnen, habe ich jeden Morgen Angst, wenn meine Tochter allein über die Straße geht."
+            },
+            {
+              "v": "f1",
+              "t": "Das ist natürlich ein wichtiges Argument. Deine Tochter geht jetzt allein zur Schule?"
+            },
+            {
+              "v": "m1",
+              "t": "Ja, seit diesem Sommer. Sie ist ja schon neun."
+            },
+            {
+              "v": "f1",
+              "t": "Wie die Zeit vergeht! Und die zweite Vorlage, die über das neue Hallenbad?"
+            },
+            {
+              "v": "m1",
+              "t": "Da habe ich Nein gestimmt. Das alte Bad ist doch noch gut, und das neue würde über vierzig Millionen kosten."
+            },
+            {
+              "v": "f1",
+              "t": "Echt? Ich finde das neue Bad eine super Idee. Das alte ist im Winter immer total voll, ich schwimme dort zweimal pro Woche."
+            },
+            {
+              "v": "m1",
+              "t": "Siehst du, so verschieden sind die Meinungen. Deshalb stimmen wir ja ab."
+            },
+            {
+              "v": "f1",
+              "t": "Stimmt. Oh, hier muss ich aussteigen. Bis bald!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Corinne hat ihre Abstimmungsunterlagen schon abgeschickt.",
+              "answer": false
+            },
+            {
+              "s": "Der Mann hat für Tempo 30 gestimmt.",
+              "answer": true
+            },
+            {
+              "s": "Corinne fürchtet, dass die Busse langsamer werden.",
+              "answer": true
+            },
+            {
+              "s": "Die Stadt sagt, dass die Busse zehn Minuten länger brauchen.",
+              "answer": false
+            },
+            {
+              "s": "Die Tochter des Mannes geht seit Kurzem allein zur Schule.",
+              "answer": true
+            },
+            {
+              "s": "Der Mann ist für das neue Hallenbad.",
+              "answer": false
+            },
+            {
+              "s": "Corinne geht regelmäßig im alten Hallenbad schwimmen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind im Zug und hören, wie sich zwei Personen über steigende Preise unterhalten.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Hast du gesehen? Das Zugticket ist schon wieder teurer geworden."
+            },
+            {
+              "v": "m2",
+              "t": "Ja, ich habe es gestern gemerkt. Mein Generalabonnement kostet jetzt fast hundert Franken mehr im Jahr."
+            },
+            {
+              "v": "f2",
+              "t": "Und das ist nicht das Einzige. Unsere Miete steigt im Januar auch, um hundertfünfzig Franken im Monat."
+            },
+            {
+              "v": "m2",
+              "t": "Was? Darf der Vermieter das einfach so?"
+            },
+            {
+              "v": "f2",
+              "t": "Er sagt, wegen der gestiegenen Zinsen. Mein Mann hat sich beim Mieterverband beraten lassen. Wahrscheinlich ist die Erhöhung zu hoch, und wir können uns wehren."
+            },
+            {
+              "v": "m2",
+              "t": "Das würde ich auf jeden Fall machen. Bei uns geht es zum Glück noch. Wir haben eine Genossenschaftswohnung."
+            },
+            {
+              "v": "f2",
+              "t": "Da habt ihr Glück gehabt. Wie lange habt ihr gewartet?"
+            },
+            {
+              "v": "m2",
+              "t": "Fast vier Jahre. Aber es hat sich gelohnt."
+            },
+            {
+              "v": "f2",
+              "t": "Am meisten merke ich die Preise aber im Supermarkt. Früher habe ich für den Wocheneinkauf hundertzwanzig Franken bezahlt, heute sind es oft hundertfünfzig."
+            },
+            {
+              "v": "m2",
+              "t": "Wir fahren jetzt manchmal nach Konstanz zum Einkaufen. In Deutschland ist vieles billiger."
+            },
+            {
+              "v": "f2",
+              "t": "Das machen viele. Aber ich finde, dann fehlt das Geld den Geschäften hier. Ich kaufe lieber beim Bauern im Dorf, das ist auch nicht teurer als im Supermarkt."
+            },
+            {
+              "v": "m2",
+              "t": "Auch ein Argument. Und was machst du gegen die hohen Preise?"
+            },
+            {
+              "v": "f2",
+              "t": "Ich koche mehr selbst und gehe seltener ins Restaurant. Und im Sommer machen wir Ferien in der Schweiz statt im Ausland."
+            },
+            {
+              "v": "m2",
+              "t": "Ferien in der Schweiz sind aber auch nicht gerade billig!"
+            },
+            {
+              "v": "f2",
+              "t": "Das stimmt. Wir zelten. Das ist günstig, und die Kinder lieben es."
+            }
+          ],
+          "statements": [
+            {
+              "s": "Das Generalabonnement des Mannes ist billiger geworden.",
+              "answer": false
+            },
+            {
+              "s": "Die Frau will gegen die Mieterhöhung vielleicht etwas unternehmen.",
+              "answer": true
+            },
+            {
+              "s": "Der Mann hat sehr schnell eine Genossenschaftswohnung bekommen.",
+              "answer": false
+            },
+            {
+              "s": "Die Frau gibt heute mehr Geld für Lebensmittel aus als früher.",
+              "answer": true
+            },
+            {
+              "s": "Die Frau kauft auch oft in Deutschland ein.",
+              "answer": false
+            },
+            {
+              "s": "Die Frau isst seltener auswärts als früher.",
+              "answer": true
+            },
+            {
+              "s": "Die Familie der Frau macht im Sommer Campingferien.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Forum am Mittag“ diskutiert mit dem Immobilienexperten Daniel Wyss und der Mietervertreterin Sandra Meier über das Thema „Wohnen in der Stadt – bald nur noch für Reiche?“",
+          "options": [
+            "Moderatorin",
+            "Daniel Wyss",
+            "Sandra Meier"
+          ],
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Willkommen zum „Forum am Mittag“. In Zürich sind die Angebotsmieten in den letzten zehn Jahren um fast dreißig Prozent gestiegen. Herr Wyss, warum ist Wohnen in der Stadt so teuer geworden?"
+            },
+            {
+              "v": "m1",
+              "t": "Ganz einfach: Es wollen viel mehr Menschen in der Stadt wohnen, als es Wohnungen gibt. Zürich wächst jedes Jahr um mehrere tausend Personen, aber es wird zu wenig gebaut. Das Problem sind vor allem die komplizierten Bauvorschriften."
+            },
+            {
+              "v": "f2",
+              "t": "Das stimmt nur zum Teil. Es wird durchaus gebaut, aber fast nur teure Wohnungen. Alte, günstige Häuser werden abgerissen, und die Mieter müssen gehen. An ihrer Stelle entstehen Luxuswohnungen, die sich normale Familien nicht leisten können."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Meier, wen trifft das am stärksten?"
+            },
+            {
+              "v": "f2",
+              "t": "Vor allem Familien, Rentner und Menschen mit kleinem Einkommen, zum Beispiel Verkäuferinnen oder Pflegepersonal. Viele müssen die Stadt verlassen und jeden Tag lange pendeln. Dabei braucht die Stadt genau diese Menschen."
+            },
+            {
+              "v": "m1",
+              "t": "Aber das ist doch in allen großen Städten so, in London oder Paris ist es noch viel schlimmer. Niemand hat ein Recht darauf, mitten in der Stadt zu wohnen."
+            },
+            {
+              "v": "f1",
+              "t": "Frau Meier, sehen Sie das auch so?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, überhaupt nicht. Eine Stadt, in der nur noch Reiche wohnen können, verliert ihren Charakter. Und wer soll dann in den Spitälern und Restaurants arbeiten?"
+            },
+            {
+              "v": "f1",
+              "t": "Eine Hörerin schreibt uns, dass sie nach der Trennung von ihrem Mann seit acht Monaten eine Wohnung sucht. Was kann die Politik tun?"
+            },
+            {
+              "v": "f2",
+              "t": "Die Stadt sollte viel mehr Land an Genossenschaften geben. Dort sind die Mieten im Durchschnitt ein Drittel günstiger, weil niemand Gewinn macht. Außerdem brauchen wir strengere Regeln gegen zu hohe Mieterhöhungen."
+            },
+            {
+              "v": "m1",
+              "t": "Davon halte ich wenig. Strengere Regeln führen nur dazu, dass Investoren weniger bauen. Man muss das Bauen einfacher machen, zum Beispiel höhere Häuser erlauben. Dann steigt das Angebot, und die Preise sinken von allein."
+            },
+            {
+              "v": "f2",
+              "t": "Das glaube ich erst, wenn ich es sehe. In den letzten Jahren sind die Mieten auch in neuen Quartieren immer weiter gestiegen."
+            },
+            {
+              "v": "f1",
+              "t": "Zum Schluss: Wie sieht Zürich in zwanzig Jahren aus?"
+            },
+            {
+              "v": "m1",
+              "t": "Ich bin optimistisch. Zürich wird dichter und höher gebaut sein, mit mehr Wohnungen für alle."
+            },
+            {
+              "v": "f2",
+              "t": "Ich hoffe, dass dann nicht nur Reiche in der Stadt leben. Aber dafür muss die Politik jetzt handeln."
+            },
+            {
+              "v": "f1",
+              "t": "Vielen Dank Ihnen beiden für die engagierte Diskussion."
+            }
+          ],
+          "items": [
+            {
+              "q": "Die Mieten in Zürich sind in zehn Jahren um fast ein Drittel gestiegen.",
+              "answer": 0
+            },
+            {
+              "q": "Komplizierte Regeln verhindern, dass genug gebaut wird.",
+              "answer": 1
+            },
+            {
+              "q": "Günstige alte Häuser werden durch teure Neubauten ersetzt.",
+              "answer": 2
+            },
+            {
+              "q": "Viele Menschen mit kleinem Einkommen müssen weit zur Arbeit fahren.",
+              "answer": 2
+            },
+            {
+              "q": "In anderen Städten ist die Situation noch schlimmer.",
+              "answer": 1
+            },
+            {
+              "q": "Genossenschaftswohnungen sind deutlich billiger.",
+              "answer": 2
+            },
+            {
+              "q": "Höhere Häuser würden die Preise senken.",
+              "answer": 1
+            },
+            {
+              "q": "Auch in neuen Quartieren sind die Mieten nicht gesunken.",
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Ihr Freund Tomás möchte in die Schweiz ziehen und hat Sie um Tipps gebeten. Schreiben Sie Tomás eine E-Mail.",
+          "points": [
+            "Beschreiben Sie: Wie ist die Situation auf dem Wohnungsmarkt?",
+            "Geben Sie Tipps für die ersten Wochen.",
+            "Bieten Sie Ihre Hilfe an."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Tomás,\n\ntoll, dass du in die Schweiz ziehen willst! Leider ist die Wohnungssuche in Zürich wirklich schwierig. Die steigenden Mieten sind hier das größte Thema, und bei Besichtigungen stehen oft dreißig Leute vor der Tür. Am Anfang könntest du in einer WG oder in einem möblierten Zimmer wohnen. Melde dich in den ersten vierzehn Tagen bei der Gemeinde an und schließ sofort eine Krankenversicherung ab. Wenn du möchtest, kannst du die ersten Nächte bei uns schlafen. Andrea freut sich auch!\n\nLiebe Grüße\nJosé"
+        },
+        {
+          "task": "Sie haben am Wochenende bei einer Aufräumaktion in Ihrem Quartier mitgemacht. Ihre Freundin Elif war nicht dabei. Schreiben Sie Elif eine E-Mail.",
+          "points": [
+            "Erzählen Sie: Was haben Sie gemacht?",
+            "Wie hat es Ihnen gefallen?",
+            "Laden Sie Elif zur nächsten Aktion ein."
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Elif,\n\nwie geht es dir? Am Samstag habe ich beim „Clean-up-Day“ in unserem Quartier mitgemacht. Wir waren fast fünfzig Leute und haben den ganzen Vormittag am Seeufer und im Park Müll gesammelt. Du glaubst nicht, wie viele weggeworfene Flaschen und Zigaretten wir gefunden haben! Es war anstrengend, aber auch sehr schön, weil ich viele Nachbarn kennengelernt habe. Mittags gab es für alle Helferinnen und Helfer eine warme Suppe. Im Frühling gibt es die nächste Aktion. Kommst du mit?\n\nViele Grüße\nAndrea"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Sollen Geschäfte auch am Sonntag öffnen?“ gelesen.",
+          "quote": "Ich arbeite die ganze Woche bis 19 Uhr und habe kaum Zeit zum Einkaufen. Am Samstag sind die Läden total voll. Warum dürfen die Geschäfte am Sonntag nicht öffnen? In vielen Ländern ist das ganz normal. Wer nicht am Sonntag arbeiten will, muss es ja nicht. (Kevin, 29)",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Reagieren Sie auf Kevins Beitrag."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich habe Kevins Beitrag gelesen und kann ihn zum Teil verstehen. Auch für mich ist der Samstag im Supermarkt oft stressig. Trotzdem bin ich gegen offene Geschäfte am Sonntag. Erstens braucht jeder einen freien Tag, an dem er Zeit für Familie und Freunde hat. Zweitens glaube ich nicht, dass Verkäuferinnen wirklich frei entscheiden können, ob sie am Sonntag arbeiten. In Spanien sind viele Geschäfte am Sonntag offen, und die Angestellten haben oft schlecht bezahlte Jobs. Deshalb finde ich die Schweizer Regel gut, so wie sie ist."
+        },
+        {
+          "task": "Sie haben in einer Fernsehsendung eine Diskussion zum Thema „Stimmrecht für Ausländer in der Gemeinde“ gesehen. Im Online-Forum der Sendung finden Sie folgenden Kommentar:",
+          "quote": "Wer mitbestimmen will, soll sich einbürgern lassen. Das Stimmrecht gehört zum Schweizer Pass. Wenn jeder abstimmen darf, der ein paar Jahre hier wohnt, ist der Pass am Ende nichts mehr wert. Außerdem kennen viele Ausländer unser politisches System gar nicht gut genug. (Monika, 52)",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Nennen Sie Gründe für Ihre Meinung."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Ich sehe das anders als Monika. Meiner Meinung nach sollten Ausländer, die schon lange in einer Gemeinde wohnen, dort auch abstimmen dürfen. Sie zahlen Steuern, ihre Kinder gehen hier zur Schule, und die Entscheidungen der Gemeinde betreffen sie direkt. Monika hat zwar recht, dass man sich einbürgern lassen kann, aber das dauert oft viele Jahre und kostet viel Geld. In einigen Kantonen wie Neuenburg funktioniert das Stimmrecht für Ausländer schon lange gut. Deshalb bin ich dafür, zumindest in der Gemeinde."
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben sich für einen Integrationskurs der Stadt angemeldet. Sie können aber am ersten Abend nicht kommen. Schreiben Sie an die Kursleiterin, Frau Zimmermann.",
+          "points": [
+            "Entschuldigen Sie sich.",
+            "Erklären Sie den Grund.",
+            "Fragen Sie nach den Unterlagen für den ersten Abend."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Zimmermann,\n\nleider kann ich am kommenden Dienstag nicht am Integrationskurs teilnehmen, weil ich an diesem Abend einen wichtigen Arzttermin habe. Das tut mir sehr leid. Könnten Sie mir bitte die Unterlagen per E-Mail schicken?\n\nMit freundlichen Grüßen\nAndrea Navarro"
+        },
+        {
+          "task": "Sie wollten an einer Informationsveranstaltung der Gemeinde für neue Einwohner teilnehmen und haben sich angemeldet. Sie müssen sich abmelden. Schreiben Sie an Herrn Keller von der Gemeindeverwaltung.",
+          "points": [
+            "Melden Sie sich ab und entschuldigen Sie sich.",
+            "Fragen Sie, ob es einen anderen Termin gibt."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Keller,\n\nich hatte mich für die Informationsveranstaltung am 14. März angemeldet. Leider muss ich an diesem Tag beruflich verreisen und mich deshalb abmelden. Entschuldigen Sie bitte. Gibt es dieses Jahr noch einen anderen Termin?\n\nFreundliche Grüße\nJosé Romero"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "In Ihrem Quartier sind viele Flüchtlingsfamilien angekommen. Sie möchten zusammen mit einem Nachbarn / einer Nachbarin eine Sammelaktion für Kleider und Spielsachen organisieren.",
+          "points": [
+            "Wann und wo sammeln?",
+            "Was sammeln?",
+            "Wie informieren?",
+            "Wer hilft mit?"
+          ],
+          "model": [
+            {
+              "v": "m1",
+              "t": "Also, wir wollen eine Sammelaktion organisieren. Wann machen wir das am besten?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich schlage einen Samstag vor, dann haben die meisten Leute Zeit. Vielleicht in zwei Wochen?"
+            },
+            {
+              "v": "m1",
+              "t": "In zwei Wochen ist gut. Und wo? Wir könnten die Sachen in meiner Garage sammeln."
+            },
+            {
+              "v": "f1",
+              "t": "Hm, die Garage ist ein bisschen klein. Wie wäre es mit dem Gemeinschaftsraum im Quartierzentrum? Den kann man gratis reservieren."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt, das ist besser. Was sollen wir sammeln? Alles, was die Leute bringen?"
+            },
+            {
+              "v": "f1",
+              "t": "Lieber nicht, sonst haben wir am Ende viele kaputte Sachen. Ich würde nur Winterkleider und Spielsachen nehmen, die noch gut sind."
+            },
+            {
+              "v": "m1",
+              "t": "Einverstanden. Es wird ja bald kalt. Wie informieren wir die Nachbarn?"
+            },
+            {
+              "v": "f1",
+              "t": "Ich mache ein Plakat für die Hauseingänge, und wir posten es in der Quartier-Gruppe im Internet."
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee. Ich frage zusätzlich in der Schule, ob sie einen Brief an die Eltern schicken können."
+            },
+            {
+              "v": "f1",
+              "t": "Super. Und wer hilft am Samstag mit? Zu zweit schaffen wir das nicht."
+            },
+            {
+              "v": "m1",
+              "t": "Meine Kollegin Sarah hat schon gesagt, dass sie mitmacht. Und vielleicht der Quartierverein?"
+            },
+            {
+              "v": "f1",
+              "t": "Den rufe ich morgen an. Also: Samstag in zwei Wochen, im Quartierzentrum, Winterkleider und Spielsachen. Perfekt!"
+            }
+          ]
+        },
+        {
+          "task": "In Ihrer Gemeinde findet bald eine Podiumsdiskussion zum Thema „Wohnen“ statt. Sie möchten mit einem Freund / einer Freundin zusammen hingehen.",
+          "points": [
+            "Wie hinkommen?",
+            "Wann treffen?",
+            "Welche Fragen stellen?",
+            "Was danach machen?"
+          ],
+          "model": [
+            {
+              "v": "f2",
+              "t": "Die Diskussion ist am Donnerstag um sieben im Gemeindehaus. Wie kommen wir hin?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich könnte dich mit dem Auto abholen."
+            },
+            {
+              "v": "f2",
+              "t": "Das ist nett, aber beim Gemeindehaus gibt es kaum Parkplätze. Lass uns lieber das Velo nehmen, es sind nur zehn Minuten."
+            },
+            {
+              "v": "m2",
+              "t": "Du hast recht. Wann treffen wir uns? Um Viertel vor sieben?"
+            },
+            {
+              "v": "f2",
+              "t": "Das ist zu knapp. Es kommen bestimmt viele Leute, und wir wollen gute Plätze. Sagen wir halb sieben bei mir?"
+            },
+            {
+              "v": "m2",
+              "t": "Einverstanden. Sollen wir auch Fragen stellen? Ich möchte wissen, warum die Gemeinde nicht mehr günstige Wohnungen baut."
+            },
+            {
+              "v": "f2",
+              "t": "Gute Frage. Ich würde gern fragen, was mit den alten Häusern an der Bahnhofstraße passiert. Die Mieter haben alle die Kündigung bekommen."
+            },
+            {
+              "v": "m2",
+              "t": "Stimmt, das interessiert sicher viele. Schreib dir die Frage auf, damit du sie nicht vergisst."
+            },
+            {
+              "v": "f2",
+              "t": "Mache ich. Und danach? Gehen wir noch etwas trinken?"
+            },
+            {
+              "v": "m2",
+              "t": "Gern, aber nicht zu lange. Ich muss am Freitag früh arbeiten."
+            },
+            {
+              "v": "f2",
+              "t": "Kein Problem. Dann gehen wir nur auf ein Glas in die Bar gegenüber."
+            },
+            {
+              "v": "m2",
+              "t": "Perfekt. Also Donnerstag um halb sieben bei dir, mit dem Velo."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Wohnen in der Stadt oder auf dem Land?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Guten Tag! In meiner Präsentation geht es um die Frage, ob man besser in der Stadt oder auf dem Land wohnt. Zuerst erzähle ich von meiner eigenen Situation. Dann vergleiche ich mit Spanien. Danach spreche ich über Vor- und Nachteile und sage meine Meinung."
+            },
+            {
+              "v": "m1",
+              "t": "Ich komme aus Córdoba, also aus einer mittelgroßen Stadt, und wohne jetzt mitten in Zürich. Meine Partnerin und ich haben lange gesucht. Wir zahlen viel Miete, aber dafür sind wir in zehn Minuten bei der Arbeit, und am Abend können wir zu Fuß ins Kino oder ins Restaurant gehen."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien ziehen seit Jahrzehnten immer mehr Menschen in die Städte. Viele Dörfer, besonders im Landesinneren, werden immer leerer. Man spricht sogar vom „leeren Spanien“. Gleichzeitig steigen in Madrid und Barcelona die Mieten genauso stark wie hier."
+            },
+            {
+              "v": "m1",
+              "t": "Die Stadt bietet kurze Wege, Kultur und viele Arbeitsplätze. Ein Nachteil sind die hohen Mieten, der Lärm und der Verkehr. Auf dem Land wohnt man ruhiger, günstiger und in der Natur, aber man braucht oft ein Auto, und es gibt weniger Angebote für junge Leute. Für mich ist im Moment die Stadt die richtige Wahl. Mit Kindern würde ich aber vielleicht aufs Land ziehen."
+            },
+            {
+              "v": "m1",
+              "t": "Das war meine Präsentation. Vielen Dank für Ihre Aufmerksamkeit! Haben Sie noch Fragen?"
+            }
+          ],
+          "question": "Könnten Sie sich vorstellen, in einem kleinen Schweizer Dorf zu wohnen?",
+          "answer": "Vielleicht später, ja. Das Problem wäre am Anfang die Sprache, denn auf dem Dorf sprechen alle Schweizerdeutsch. Aber man lernt die Nachbarn dort schneller kennen als in der Stadt, und das wäre gut für die Integration."
+        },
+        {
+          "title": "Teilzeitarbeit – Vorteile und Nachteile",
+          "model": [
+            {
+              "v": "f2",
+              "t": "Hallo zusammen! Mein Thema ist die Teilzeitarbeit. In der Schweiz arbeitet mehr als jede dritte Person Teilzeit, und es werden immer mehr. Ich spreche zuerst über meine Erfahrungen, dann über die Situation in Spanien und danach über die Vor- und Nachteile. Am Schluss sage ich meine Meinung."
+            },
+            {
+              "v": "f2",
+              "t": "Ich arbeite bei einer Pharmafirma und habe bis jetzt immer hundert Prozent gearbeitet. Viele meiner Kolleginnen arbeiten aber achtzig Prozent und haben einen freien Tag pro Woche. Sie nutzen ihn für ihre Kinder, für Sport oder einfach zum Ausruhen. Das finde ich sehr attraktiv."
+            },
+            {
+              "v": "f2",
+              "t": "In Spanien ist Teilzeitarbeit weniger verbreitet. Wer Teilzeit arbeitet, macht das oft nicht freiwillig, sondern weil er keine Vollzeitstelle findet. Mit einem halben Lohn kann man dort kaum leben, weil die Löhne allgemein niedriger sind. Außerdem fehlen oft Kitaplätze, deshalb bleiben viele Mütter ganz zu Hause."
+            },
+            {
+              "v": "f2",
+              "t": "Ein großer Vorteil ist natürlich die gewonnene Freizeit: mehr Zeit für Familie, Hobbys oder eine Weiterbildung. Viele Teilzeitangestellte sind auch zufriedener und gesünder. Die Nachteile sind ein kleinerer Lohn und später eine kleinere Rente. Das betrifft vor allem Frauen. Ich finde Teilzeit eine gute Möglichkeit, aber man sollte die Folgen für die Rente kennen."
+            },
+            {
+              "v": "f2",
+              "t": "Damit bin ich am Ende. Vielen Dank fürs Zuhören! Gibt es Fragen?"
+            }
+          ],
+          "question": "Würden Sie selbst gern Teilzeit arbeiten?",
+          "answer": "Ja, ich könnte mir achtzig Prozent gut vorstellen. Dann hätte ich mehr Zeit für meinen Deutschkurs und für Sport. Aber zuerst möchte ich mit meiner Chefin sprechen, ob das in meinem Team möglich ist."
+        }
+      ]
+    }
+  }
+}

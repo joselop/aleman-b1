@@ -67,7 +67,20 @@ Las respuestas escritas se comparan ignorando espacios de más y la puntuación 
 | `write_free` | `task`, `points[]`, `register`, `model` |
 | `speak_intro` | `keywords[]`, `extra`, `model` (audio) |
 | `speak_cards` | `theme`, `word`, `question`, `answer` |
+| `read_mc` | `title?`, `intro?`, `text`, `questions: [{ q, options[3], answer }]` |
+| `listen_mc_multi` | igual que `read_mc` pero con `audio` (y normalmente `intro` en vez de `text`) |
+| `read_match` | `ads: [{ key: "a"…, text }]`, `items: [{ situation, answer: "a"… / "x" }]` (cada anuncio se usa como mucho una vez; una situación lleva "x") |
+| `listen_match` | `intro`, `options[]`, `audio`, `items: [{ q, answer: índice en options }]` |
+| `listen_yn` | `intro`, `audio`, `statements: [{ s, answer }]` (el Teil puede definir `labels`, p. ej. ["Richtig", "Falsch"]) |
+| `speak_topic` | `theme`, `question`, `prompts[4]`, `model` |
+| `speak_plan` | `task`, `mine[]`, `partner[]`, `model` (diálogo) |
+| `read_yn` (B1) | `title?`, `intro?`, `question` (¿está a favor de…?), `comments: [{ name, text, answer }]` |
+| `listen_pair` (B1) | `audio`, `statement`, `tf` (true/false), `q`, `options[3]`, `answer` |
+| `speak_points` (B1) | `task`, `points[4]`, `model` (diálogo) |
+| `speak_present` (B1) | `title`, `slides?` (si no, las 5 diapositivas estándar), `model` (presentación), `question`, `answer` (Teil 3) |
+
+`write_free` admite además `quote` (texto al que se reacciona, p. ej. un comentario de foro) y `words` (extensión orientativa).
 
 `n_tema` y `n_global` indican cuántos ítems de ese Teil entran en cada examen. El examen global reparte las preguntas por turnos entre todos los temas «ready» del nivel hasta el actual.
 
-A2 y B1 aún no tienen `kind` asignados: al generar su primer tema habrá que añadir los tipos que falten (por ejemplo emparejar personas con anuncios en A2 Lesen Teil 4, o el Sprechen de planificar algo juntos en B1).
+Los formatos de A1, A2 y B1 están definidos en `curriculum.json`.

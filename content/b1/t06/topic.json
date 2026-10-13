@@ -1,0 +1,2249 @@
+{
+  "id": "b1-t06",
+  "level": "b1",
+  "topic": "t06",
+  "title": "Viajes y movilidad",
+  "title_de": "Reisen und Mobilität",
+  "goals": [
+    "Hablar del transporte público, el coche y la bici en Suiza (abonos, transbordos, obras, atascos)",
+    "Organizar un viaje: reservar, alojamiento, equipaje y trámites en el aeropuerto o la frontera",
+    "Usar las preposiciones con genitivo wegen, trotz, während, innerhalb, außerhalb y statt con la terminación correcta",
+    "Expresar contrastes con obwohl y distinguirlo de trotzdem, aber y trotz",
+    "Entender avisos de estación, de tráfico y de aeropuerto (Hören Teil 1)",
+    "Planificar un viaje o una excursión con otra persona: proponer, reaccionar y decidir (Sprechen Teil 1)"
+  ],
+  "vocab": [
+    {
+      "de": "das Verkehrsmittel",
+      "pl": "die Verkehrsmittel",
+      "es": "el medio de transporte",
+      "cat": "Transporte",
+      "ex": "Die öffentlichen Verkehrsmittel in der Schweiz sind sehr pünktlich.",
+      "ex_es": "El transporte público en Suiza es muy puntual."
+    },
+    {
+      "de": "der Verkehr",
+      "es": "el tráfico; el transporte",
+      "cat": "Transporte",
+      "ex": "Am Freitagabend ist immer viel Verkehr.",
+      "ex_es": "El viernes por la tarde siempre hay mucho tráfico."
+    },
+    {
+      "de": "der Fahrgast",
+      "pl": "die Fahrgäste",
+      "es": "el pasajero / la pasajera",
+      "cat": "Transporte",
+      "ex": "Die Fahrgäste mussten eine Stunde warten.",
+      "ex_es": "Los pasajeros tuvieron que esperar una hora."
+    },
+    {
+      "de": "der Pendler / die Pendlerin",
+      "pl": "die Pendler / die Pendlerinnen",
+      "es": "persona que se desplaza a diario al trabajo",
+      "cat": "Transporte",
+      "ex": "Morgens sind die Züge voller Pendler.",
+      "ex_es": "Por la mañana los trenes van llenos de gente que va a trabajar."
+    },
+    {
+      "de": "pendeln",
+      "es": "ir y venir a diario (al trabajo)",
+      "cat": "Transporte",
+      "forms": "er pendelt, ist gependelt",
+      "ex": "Ich pendle jeden Tag von Baden nach Zürich.",
+      "ex_es": "Voy y vengo cada día de Baden a Zúrich."
+    },
+    {
+      "de": "das Generalabonnement (GA)",
+      "es": "el abono general (todo el transporte público de Suiza)",
+      "cat": "Transporte",
+      "ex": "Mit dem GA fahre ich auch mit dem Schiff gratis.",
+      "ex_es": "Con el abono general también voy gratis en barco."
+    },
+    {
+      "de": "das Halbtax",
+      "es": "el abono de media tarifa (Suiza)",
+      "cat": "Transporte",
+      "ex": "Mit dem Halbtax zahlst du nur die Hälfte.",
+      "ex_es": "Con el abono de media tarifa pagas solo la mitad."
+    },
+    {
+      "de": "der Fahrplan",
+      "pl": "die Fahrpläne",
+      "es": "el horario (de trenes, autobuses)",
+      "cat": "Transporte",
+      "ex": "Im Dezember ändert sich der Fahrplan.",
+      "ex_es": "En diciembre cambia el horario."
+    },
+    {
+      "de": "die Strecke",
+      "pl": "die Strecken",
+      "es": "el trayecto, la línea, el tramo",
+      "cat": "Transporte",
+      "ex": "Die Strecke zwischen Bern und Thun ist gesperrt.",
+      "ex_es": "El tramo entre Berna y Thun está cortado."
+    },
+    {
+      "de": "die Durchsage",
+      "pl": "die Durchsagen",
+      "es": "el aviso (por megafonía)",
+      "cat": "Transporte",
+      "ex": "Ich habe die Durchsage nicht verstanden.",
+      "ex_es": "No he entendido el aviso."
+    },
+    {
+      "de": "der Wagen",
+      "pl": "die Wagen",
+      "es": "el vagón; el coche",
+      "cat": "Transporte",
+      "ex": "Der Speisewagen ist in der Mitte des Zuges.",
+      "ex_es": "El vagón restaurante está en el centro del tren."
+    },
+    {
+      "de": "der Sitzplatz",
+      "pl": "die Sitzplätze",
+      "es": "el asiento, la plaza sentada",
+      "cat": "Transporte",
+      "ex": "Im Zug nach Mailand muss man einen Sitzplatz reservieren.",
+      "ex_es": "En el tren a Milán hay que reservar asiento."
+    },
+    {
+      "de": "reservieren",
+      "es": "reservar",
+      "cat": "Viajes",
+      "forms": "er reserviert, hat reserviert",
+      "ex": "Ich habe zwei Plätze am Fenster reserviert.",
+      "ex_es": "He reservado dos asientos de ventanilla."
+    },
+    {
+      "de": "pünktlich",
+      "es": "puntual, a la hora",
+      "cat": "Transporte",
+      "ex": "Der Zug ist pünktlich in Genf angekommen.",
+      "ex_es": "El tren ha llegado puntual a Ginebra."
+    },
+    {
+      "de": "unterwegs",
+      "es": "de camino, de viaje, fuera",
+      "cat": "Viajes",
+      "ex": "Ich bin gerade unterwegs und rufe dich später an.",
+      "ex_es": "Ahora estoy de camino y te llamo más tarde."
+    },
+    {
+      "de": "der Stau",
+      "pl": "die Staus",
+      "es": "el atasco",
+      "cat": "Coche",
+      "ex": "Vor dem Gotthard gibt es 12 Kilometer Stau.",
+      "ex_es": "Antes del Gotardo hay 12 kilómetros de atasco."
+    },
+    {
+      "de": "die Baustelle",
+      "pl": "die Baustellen",
+      "es": "las obras (en la calle, la carretera)",
+      "cat": "Coche",
+      "ex": "Wegen einer Baustelle ist die Straße gesperrt.",
+      "ex_es": "Por unas obras la calle está cortada."
+    },
+    {
+      "de": "die Umleitung",
+      "pl": "die Umleitungen",
+      "es": "el desvío",
+      "cat": "Coche",
+      "ex": "Der Bus fährt heute eine Umleitung.",
+      "ex_es": "Hoy el autobús hace un desvío."
+    },
+    {
+      "de": "der Streik",
+      "pl": "die Streiks",
+      "es": "la huelga",
+      "cat": "Transporte",
+      "ex": "Wegen des Streiks fallen viele Flüge aus.",
+      "ex_es": "Por la huelga se cancelan muchos vuelos."
+    },
+    {
+      "de": "streiken",
+      "es": "estar en huelga, hacer huelga",
+      "cat": "Transporte",
+      "forms": "er streikt, hat gestreikt",
+      "ex": "Die Lokführer in Deutschland streiken schon wieder.",
+      "ex_es": "Los maquinistas en Alemania vuelven a estar en huelga."
+    },
+    {
+      "de": "die Autobahn",
+      "pl": "die Autobahnen",
+      "es": "la autopista",
+      "cat": "Coche",
+      "ex": "Auf der Autobahn darf man in der Schweiz 120 fahren.",
+      "ex_es": "En Suiza se puede ir a 120 por la autopista."
+    },
+    {
+      "de": "die Vignette",
+      "pl": "die Vignetten",
+      "es": "la viñeta (peaje anual de autopista)",
+      "cat": "Coche",
+      "ex": "Die Vignette kostet 40 Franken pro Jahr.",
+      "ex_es": "La viñeta cuesta 40 francos al año."
+    },
+    {
+      "de": "tanken",
+      "es": "echar gasolina, repostar",
+      "cat": "Coche",
+      "forms": "er tankt, hat getankt",
+      "ex": "Wir müssen vor der Grenze noch tanken.",
+      "ex_es": "Antes de la frontera tenemos que repostar."
+    },
+    {
+      "de": "die Tankstelle",
+      "pl": "die Tankstellen",
+      "es": "la gasolinera",
+      "cat": "Coche",
+      "ex": "Die nächste Tankstelle ist in 20 Kilometern.",
+      "ex_es": "La próxima gasolinera está a 20 kilómetros."
+    },
+    {
+      "de": "der Führerschein",
+      "pl": "die Führerscheine",
+      "es": "el carné de conducir",
+      "cat": "Coche",
+      "ex": "Seit wann hast du den Führerschein?",
+      "ex_es": "¿Desde cuándo tienes el carné de conducir?"
+    },
+    {
+      "de": "der Mietwagen",
+      "pl": "die Mietwagen",
+      "es": "el coche de alquiler",
+      "cat": "Coche",
+      "ex": "Auf Mallorca haben wir einen Mietwagen genommen.",
+      "ex_es": "En Mallorca cogimos un coche de alquiler."
+    },
+    {
+      "de": "das Velo",
+      "pl": "die Velos",
+      "es": "la bici (en Suiza)",
+      "cat": "Transporte",
+      "ex": "In Zürich fahre ich fast überall mit dem Velo.",
+      "ex_es": "En Zúrich voy en bici a casi todas partes."
+    },
+    {
+      "de": "die Grenze",
+      "pl": "die Grenzen",
+      "es": "la frontera",
+      "cat": "Viajes",
+      "ex": "Basel liegt direkt an der Grenze zu Deutschland und Frankreich.",
+      "ex_es": "Basilea está justo en la frontera con Alemania y Francia."
+    },
+    {
+      "de": "der Zoll",
+      "es": "la aduana",
+      "cat": "Viajes",
+      "ex": "Am Zoll mussten wir den Koffer öffnen.",
+      "ex_es": "En la aduana tuvimos que abrir la maleta."
+    },
+    {
+      "de": "das Reiseziel",
+      "pl": "die Reiseziele",
+      "es": "el destino (del viaje)",
+      "cat": "Viajes",
+      "ex": "Was ist dein Lieblingsreiseziel?",
+      "ex_es": "¿Cuál es tu destino de viaje favorito?"
+    },
+    {
+      "de": "die Pauschalreise",
+      "pl": "die Pauschalreisen",
+      "es": "el viaje organizado (todo incluido)",
+      "cat": "Viajes",
+      "ex": "Eine Pauschalreise ist bequem, aber nicht immer billig.",
+      "ex_es": "Un viaje organizado es cómodo, pero no siempre barato."
+    },
+    {
+      "de": "das Reisebüro",
+      "pl": "die Reisebüros",
+      "es": "la agencia de viajes",
+      "cat": "Viajes",
+      "ex": "Meine Eltern buchen ihre Reisen immer im Reisebüro.",
+      "ex_es": "Mis padres siempre reservan sus viajes en la agencia."
+    },
+    {
+      "de": "die Anreise / die Abreise",
+      "es": "el viaje de ida, la llegada / la salida, la partida",
+      "cat": "Viajes",
+      "ex": "Am Tag der Abreise müssen Sie das Zimmer bis 11 Uhr verlassen.",
+      "ex_es": "El día de la salida tiene que dejar la habitación antes de las 11 h."
+    },
+    {
+      "de": "übernachten",
+      "es": "pasar la noche, alojarse",
+      "cat": "Viajes",
+      "forms": "er übernachtet, hat übernachtet",
+      "ex": "Wir haben in einer Berghütte übernachtet.",
+      "ex_es": "Pasamos la noche en un refugio de montaña."
+    },
+    {
+      "de": "die Übernachtung",
+      "pl": "die Übernachtungen",
+      "es": "la noche (de alojamiento), la pernoctación",
+      "cat": "Viajes",
+      "ex": "Die Übernachtung kostet 90 Franken mit Frühstück.",
+      "ex_es": "La noche cuesta 90 francos con desayuno."
+    },
+    {
+      "de": "die Halbpension",
+      "es": "la media pensión",
+      "cat": "Viajes",
+      "ex": "Wir haben ein Zimmer mit Halbpension gebucht.",
+      "ex_es": "Hemos reservado una habitación con media pensión."
+    },
+    {
+      "de": "die Entfernung",
+      "pl": "die Entfernungen",
+      "es": "la distancia",
+      "cat": "Viajes",
+      "ex": "Die Entfernung zwischen Zürich und Bern beträgt etwa 120 Kilometer.",
+      "ex_es": "La distancia entre Zúrich y Berna es de unos 120 kilómetros."
+    },
+    {
+      "de": "verreisen",
+      "es": "irse de viaje",
+      "cat": "Viajes",
+      "forms": "er verreist, ist verreist",
+      "ex": "Über Ostern verreisen wir nicht.",
+      "ex_es": "En Semana Santa no nos vamos de viaje."
+    },
+    {
+      "de": "landen",
+      "es": "aterrizar",
+      "cat": "Avión",
+      "forms": "er landet, ist gelandet",
+      "ex": "Das Flugzeug ist pünktlich in Málaga gelandet.",
+      "ex_es": "El avión ha aterrizado puntual en Málaga."
+    },
+    {
+      "de": "einchecken",
+      "es": "facturar, hacer el check-in",
+      "cat": "Avión",
+      "forms": "er checkt ein, hat eingecheckt",
+      "ex": "Ich habe schon online eingecheckt.",
+      "ex_es": "Ya he hecho el check-in en línea."
+    },
+    {
+      "de": "die Bordkarte",
+      "pl": "die Bordkarten",
+      "es": "la tarjeta de embarque",
+      "cat": "Avión",
+      "ex": "Ich habe die Bordkarte auf dem Handy.",
+      "ex_es": "Tengo la tarjeta de embarque en el móvil."
+    },
+    {
+      "de": "das Handgepäck",
+      "es": "el equipaje de mano",
+      "cat": "Avión",
+      "ex": "Ich reise nur mit Handgepäck.",
+      "ex_es": "Viajo solo con equipaje de mano."
+    },
+    {
+      "de": "trotz (+ Gen)",
+      "es": "a pesar de",
+      "cat": "Gramática",
+      "ex": "Trotz des Regens sind wir gewandert.",
+      "ex_es": "A pesar de la lluvia fuimos de excursión."
+    },
+    {
+      "de": "innerhalb (+ Gen)",
+      "es": "dentro de, en el plazo de",
+      "cat": "Gramática",
+      "ex": "Bitte bezahlen Sie innerhalb einer Woche.",
+      "ex_es": "Por favor, pague en el plazo de una semana."
+    },
+    {
+      "de": "außerhalb (+ Gen)",
+      "es": "fuera de",
+      "cat": "Gramática",
+      "ex": "Wir wohnen außerhalb der Stadt.",
+      "ex_es": "Vivimos fuera de la ciudad."
+    },
+    {
+      "de": "statt (+ Gen)",
+      "es": "en vez de, en lugar de",
+      "cat": "Gramática",
+      "ex": "Statt des Autos nehmen wir den Zug.",
+      "ex_es": "En vez del coche cogemos el tren."
+    },
+    {
+      "de": "obwohl",
+      "es": "aunque",
+      "cat": "Gramática",
+      "ex": "Obwohl es regnet, fahren wir mit dem Velo.",
+      "ex_es": "Aunque llueve, vamos en bici."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match",
+      "title": "Viajes y transporte",
+      "instructions": "Relaciona.",
+      "pairs": [
+        [
+          "der Stau",
+          "el atasco"
+        ],
+        [
+          "die Baustelle",
+          "las obras"
+        ],
+        [
+          "die Umleitung",
+          "el desvío"
+        ],
+        [
+          "der Streik",
+          "la huelga"
+        ],
+        [
+          "die Durchsage",
+          "el aviso por megafonía"
+        ],
+        [
+          "die Bordkarte",
+          "la tarjeta de embarque"
+        ],
+        [
+          "das Handgepäck",
+          "el equipaje de mano"
+        ],
+        [
+          "tanken",
+          "echar gasolina"
+        ],
+        [
+          "die Grenze",
+          "la frontera"
+        ]
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "mc",
+      "title": "¿Qué preposición?",
+      "instructions": "Elige la preposición que da sentido a la frase.",
+      "items": [
+        {
+          "q": "___ des Streiks fahren heute keine Züge.",
+          "options": [
+            "Trotz",
+            "Wegen",
+            "Während"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "___ des Regens haben wir eine Velotour gemacht.",
+          "options": [
+            "Trotz",
+            "Wegen",
+            "Innerhalb"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "___ der Fahrt habe ich ein Buch gelesen.",
+          "options": [
+            "Außerhalb",
+            "Statt",
+            "Während"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Sie bekommen Ihr Geld ___ einer Woche zurück.",
+          "options": [
+            "innerhalb",
+            "außerhalb",
+            "trotz"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Wir wohnen ___ der Stadt, deshalb brauchen wir ein Auto.",
+          "options": [
+            "während",
+            "außerhalb",
+            "wegen"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "___ des Autos nehmen wir lieber den Zug.",
+          "options": [
+            "Statt",
+            "Wegen",
+            "Während"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Der Flug hatte ___ eines Gewitters drei Stunden Verspätung.",
+          "options": [
+            "trotz",
+            "wegen",
+            "statt"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "___ der Öffnungszeiten können Sie Tickets am Automaten kaufen.",
+          "options": [
+            "Wegen",
+            "Trotz",
+            "Außerhalb"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "gap",
+      "title": "Las terminaciones del genitivo",
+      "instructions": "Completa el artículo y, en masculino y neutro, la terminación del sustantivo.",
+      "items": [
+        {
+          "text": "wegen d[[es]] Streik[[s/es]] (der Streik)"
+        },
+        {
+          "text": "trotz d[[es]] Regen[[s]] (der Regen)"
+        },
+        {
+          "text": "während d[[er]] Reise (die Reise)"
+        },
+        {
+          "text": "innerhalb ein[[er]] Woche (die Woche)"
+        },
+        {
+          "text": "wegen ein[[es]] Unfall[[s/es]] (der Unfall)"
+        },
+        {
+          "text": "außerhalb d[[es]] Zentrum[[s]] (das Zentrum)"
+        },
+        {
+          "text": "während d[[er]] Ferien (die Ferien, plural)"
+        },
+        {
+          "text": "statt d[[es]] Flugzeug[[s/es]] (das Flugzeug)"
+        }
+      ],
+      "note": "Masculino y neutro: des/eines + -s o -es en el sustantivo. Femenino y plural: der/einer, sin terminación."
+    },
+    {
+      "id": "e04",
+      "type": "mc",
+      "title": "Genitivo correcto",
+      "instructions": "Elige la forma correcta (lengua escrita).",
+      "items": [
+        {
+          "q": "Wegen ___ fällt der Zug aus.",
+          "options": [
+            "einer Störung",
+            "einer Störungs",
+            "eine Störung"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Trotz ___ sind wir pünktlich angekommen.",
+          "options": [
+            "dem Stau",
+            "des Staus",
+            "der Stau"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Während ___ ist das Handy aus.",
+          "options": [
+            "des Flugs",
+            "dem Flug",
+            "der Flug"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Wegen ___ fahren wir einen Umweg.",
+          "options": [
+            "die Baustelle",
+            "der Baustelles",
+            "der Baustelle"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Ich komme wegen ___ später.",
+          "options": [
+            "meinem Bruder",
+            "meines Bruders",
+            "meinen Bruder"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Innerhalb ___ zwei Tagen bekommen Sie eine Antwort.",
+          "options": [
+            "von",
+            "der",
+            "des"
+          ],
+          "answer": 0,
+          "explain": "Sin artículo (plural con número): innerhalb von + dativo."
+        },
+        {
+          "q": "Wegen ___ Verspätung haben wir den Anschluss verpasst.",
+          "options": [
+            "Andreas",
+            "Andrea",
+            "Andreas'"
+          ],
+          "answer": 0,
+          "explain": "Nombre propio en genitivo: Andreas Verspätung (el retraso de Andrea)."
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "write",
+      "title": "De la oración a la preposición",
+      "instructions": "Reescribe la frase con wegen o trotz + genitivo. Empieza por la preposición.",
+      "items": [
+        {
+          "prompt": "Weil es einen Streik gibt, fahren keine Züge. (der Streik)",
+          "answers": [
+            "Wegen des Streiks fahren keine Züge.",
+            "Wegen eines Streiks fahren keine Züge."
+          ]
+        },
+        {
+          "prompt": "Obwohl es regnet, gehen wir wandern. (der Regen)",
+          "answers": [
+            "Trotz des Regens gehen wir wandern."
+          ]
+        },
+        {
+          "prompt": "Weil es eine Baustelle gibt, ist die Straße gesperrt. (die Baustelle)",
+          "answers": [
+            "Wegen der Baustelle ist die Straße gesperrt.",
+            "Wegen einer Baustelle ist die Straße gesperrt."
+          ]
+        },
+        {
+          "prompt": "Obwohl es einen Stau gab, sind wir pünktlich angekommen. (der Stau)",
+          "answers": [
+            "Trotz des Staus sind wir pünktlich angekommen.",
+            "Trotz eines Staus sind wir pünktlich angekommen."
+          ]
+        },
+        {
+          "prompt": "Weil es ein Gewitter gibt, landet das Flugzeug später. (das Gewitter)",
+          "answers": [
+            "Wegen des Gewitters landet das Flugzeug später.",
+            "Wegen eines Gewitters landet das Flugzeug später."
+          ]
+        },
+        {
+          "prompt": "Obwohl das Wetter schlecht ist, fahren wir ans Meer. (das Wetter)",
+          "answers": [
+            "Trotz des Wetters fahren wir ans Meer.",
+            "Trotz des schlechten Wetters fahren wir ans Meer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "order",
+      "title": "Oraciones con obwohl",
+      "instructions": "Ordena la frase. Recuerda: verbo al final después de obwohl; si la frase empieza por obwohl, «verbo, verbo».",
+      "items": [
+        {
+          "words": [
+            "Wir",
+            "fahren",
+            "mit",
+            "dem",
+            "Zug",
+            ",",
+            "obwohl",
+            "das",
+            "Flugzeug",
+            "billiger",
+            "ist",
+            "."
+          ],
+          "answers": [
+            "Wir fahren mit dem Zug, obwohl das Flugzeug billiger ist."
+          ]
+        },
+        {
+          "words": [
+            "Obwohl",
+            "es",
+            "regnet",
+            ",",
+            "fährt",
+            "Andrea",
+            "mit",
+            "dem",
+            "Velo",
+            "."
+          ],
+          "answers": [
+            "Obwohl es regnet, fährt Andrea mit dem Velo."
+          ]
+        },
+        {
+          "words": [
+            "Obwohl",
+            "der",
+            "Zug",
+            "Verspätung",
+            "hatte",
+            ",",
+            "habe",
+            "ich",
+            "den",
+            "Anschluss",
+            "bekommen",
+            "."
+          ],
+          "answers": [
+            "Obwohl der Zug Verspätung hatte, habe ich den Anschluss bekommen."
+          ]
+        },
+        {
+          "words": [
+            "José",
+            "hat",
+            "kein",
+            "Auto",
+            ",",
+            "obwohl",
+            "er",
+            "gern",
+            "Auto",
+            "fährt",
+            "."
+          ],
+          "answers": [
+            "José hat kein Auto, obwohl er gern Auto fährt."
+          ]
+        },
+        {
+          "words": [
+            "Obwohl",
+            "wir",
+            "ein",
+            "GA",
+            "haben",
+            ",",
+            "fahren",
+            "wir",
+            "oft",
+            "Velo",
+            "."
+          ],
+          "answers": [
+            "Obwohl wir ein GA haben, fahren wir oft Velo."
+          ]
+        },
+        {
+          "words": [
+            "Ich",
+            "bin",
+            "müde",
+            ",",
+            "obwohl",
+            "ich",
+            "im",
+            "Zug",
+            "geschlafen",
+            "habe",
+            "."
+          ],
+          "answers": [
+            "Ich bin müde, obwohl ich im Zug geschlafen habe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "mc",
+      "title": "obwohl, weil, trotzdem, trotz",
+      "instructions": "Elige la palabra correcta.",
+      "items": [
+        {
+          "q": "Wir nehmen den Zug, ___ er schneller ist.",
+          "options": [
+            "weil",
+            "obwohl",
+            "trotzdem"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Wir nehmen den Zug, ___ das Auto schneller ist.",
+          "options": [
+            "weil",
+            "obwohl",
+            "trotz"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Es gibt Stau. ___ kommen wir pünktlich an.",
+          "options": [
+            "Obwohl",
+            "Trotz",
+            "Trotzdem"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "___ des Staus kommen wir pünktlich an.",
+          "options": [
+            "Trotz",
+            "Trotzdem",
+            "Obwohl"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "___ ich ein GA habe, fahre ich oft mit dem Auto.",
+          "options": [
+            "Trotzdem",
+            "Obwohl",
+            "Wegen"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Der Flug war billig, ___ er hatte vier Stunden Verspätung.",
+          "options": [
+            "aber",
+            "obwohl",
+            "trotz"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "___ des Wetters bleiben wir zu Hause.",
+          "options": [
+            "Weil",
+            "Wegen",
+            "Deshalb"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Es war kalt. ___ sind wir im See geschwommen.",
+          "options": [
+            "Trotzdem",
+            "Obwohl",
+            "Trotz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "write",
+      "title": "Une con obwohl",
+      "instructions": "Une las dos frases con obwohl. Empieza por Obwohl.",
+      "items": [
+        {
+          "prompt": "Es regnet. Wir machen eine Velotour.",
+          "answers": [
+            "Obwohl es regnet, machen wir eine Velotour."
+          ]
+        },
+        {
+          "prompt": "Der Zug ist voll. Ich habe einen Sitzplatz bekommen.",
+          "answers": [
+            "Obwohl der Zug voll ist, habe ich einen Sitzplatz bekommen.",
+            "Obwohl der Zug voll war, habe ich einen Sitzplatz bekommen."
+          ]
+        },
+        {
+          "prompt": "Ich habe einen Führerschein. Ich fahre nie Auto.",
+          "answers": [
+            "Obwohl ich einen Führerschein habe, fahre ich nie Auto."
+          ]
+        },
+        {
+          "prompt": "Die Reise war teuer. Sie hat sich gelohnt.",
+          "answers": [
+            "Obwohl die Reise teuer war, hat sie sich gelohnt."
+          ]
+        },
+        {
+          "prompt": "Andrea hat online eingecheckt. Sie musste lange warten.",
+          "answers": [
+            "Obwohl Andrea online eingecheckt hat, musste sie lange warten.",
+            "Obwohl Andrea online eingecheckt hatte, musste sie lange warten."
+          ]
+        },
+        {
+          "prompt": "Es gab viel Verkehr. Wir waren pünktlich.",
+          "answers": [
+            "Obwohl es viel Verkehr gab, waren wir pünktlich."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "listen",
+      "title": "Avisos y mensajes",
+      "instructions": "Escucha y contesta.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Information zum InterRegio nach Luzern, Abfahrt 14 Uhr 04: Wegen einer Störung fährt dieser Zug heute ausnahmsweise auf Gleis 9 statt auf Gleis 7 ab."
+            }
+          ],
+          "q": "¿De qué vía sale hoy el tren?",
+          "options": [
+            "De la vía 7",
+            "De la vía 9",
+            "De la vía 4"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Hier die Verkehrsmeldungen: Auf der A1 zwischen Zürich und Bern gibt es wegen eines Unfalls acht Kilometer Stau. Bitte rechnen Sie mit einer Stunde Wartezeit."
+            }
+          ],
+          "q": "¿Por qué hay atasco?",
+          "options": [
+            "Por unas obras",
+            "Por un accidente",
+            "Por la nieve"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wie war euer Wochenende in Lugano?"
+            },
+            {
+              "v": "m1",
+              "t": "Super! Obwohl es am Samstag geregnet hat, sind wir auf den Monte Brè gewandert. Und am Sonntag war es dann richtig warm."
+            }
+          ],
+          "q": "¿Qué hicieron el sábado?",
+          "options": [
+            "Se quedaron en el hotel por la lluvia",
+            "Subieron andando a una montaña",
+            "Fueron a nadar al lago"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Sehr geehrte Fahrgäste, wegen Bauarbeiten verkehren zwischen Thalwil und Zug heute Abend keine Züge. Bitte benutzen Sie die Ersatzbusse vor dem Bahnhof."
+            }
+          ],
+          "q": "¿Qué tienen que hacer los pasajeros?",
+          "options": [
+            "Esperar el siguiente tren",
+            "Coger un autobús de sustitución",
+            "Cambiar de tren en Zug"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "at-m",
+              "t": "Hallo Sabine, ich bin's, Florian. Mein Flug aus Wien landet wegen des Nebels erst um 22 Uhr. Du musst mich nicht abholen, ich nehme den Zug."
+            }
+          ],
+          "q": "¿Qué va a hacer Florian?",
+          "options": [
+            "Coger el tren",
+            "Esperar a Sabine en el aeropuerto",
+            "Coger un taxi"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Fahren wir mit dem Auto nach Mailand?"
+            },
+            {
+              "v": "f1",
+              "t": "Lieber nicht. Wegen der Baustellen am Gotthard dauert das ewig. Ich würde den Zug nehmen, obwohl er etwas teurer ist."
+            }
+          ],
+          "q": "¿Por qué prefiere ella el tren?",
+          "options": [
+            "Porque es más barato",
+            "Porque en coche hay mucho tráfico por las obras",
+            "Porque no tiene carné de conducir"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "dictation",
+      "title": "Dictado",
+      "instructions": "Escucha y escribe la frase.",
+      "items": [
+        {
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Wegen des Streiks fahren keine Züge."
+            }
+          ],
+          "answers": [
+            "Wegen des Streiks fahren keine Züge."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m1",
+              "t": "Obwohl es regnet, gehen wir wandern."
+            }
+          ],
+          "answers": [
+            "Obwohl es regnet, gehen wir wandern."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Ich habe ein Halbtax."
+            }
+          ],
+          "answers": [
+            "Ich habe ein Halbtax."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Während der Fahrt habe ich geschlafen."
+            }
+          ],
+          "answers": [
+            "Während der Fahrt habe ich geschlafen."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Auf der Autobahn gibt es Stau."
+            }
+          ],
+          "answers": [
+            "Auf der Autobahn gibt es Stau."
+          ]
+        },
+        {
+          "audio": [
+            {
+              "v": "at-f",
+              "t": "Wir wohnen außerhalb der Stadt."
+            }
+          ],
+          "answers": [
+            "Wir wohnen außerhalb der Stadt.",
+            "Wir wohnen ausserhalb der Stadt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "gap",
+      "title": "Una postal desde el Tesino",
+      "instructions": "Completa con obwohl, trotzdem, trotz, wegen, während o innerhalb.",
+      "items": [
+        {
+          "text": "Liebe Grüße aus Locarno! [[Wegen]] einer Baustelle auf der Strecke mussten wir mit dem Auto fahren."
+        },
+        {
+          "text": "[[Während]] der Fahrt durch den Gotthard haben die Kinder geschlafen."
+        },
+        {
+          "text": "[[Trotz]] des Staus sind wir pünktlich zum Abendessen angekommen."
+        },
+        {
+          "text": "Das Hotel ist klein und alt. [[Trotzdem]] gefällt es uns sehr gut."
+        },
+        {
+          "text": "[[Obwohl]] es gestern geregnet hat, sind wir mit dem Schiff nach Ascona gefahren."
+        },
+        {
+          "text": "Das Hotel bietet an: Wer [[innerhalb]] einer Woche wieder bucht, bekommt zehn Prozent Rabatt."
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "write",
+      "title": "Traduce al alemán",
+      "instructions": "Escribe la frase en alemán.",
+      "items": [
+        {
+          "prompt": "Por la huelga el vuelo se ha cancelado. (wegen, ausfallen)",
+          "answers": [
+            "Wegen des Streiks ist der Flug ausgefallen.",
+            "Der Flug ist wegen des Streiks ausgefallen.",
+            "Wegen eines Streiks ist der Flug ausgefallen.",
+            "Der Flug ist wegen eines Streiks ausgefallen."
+          ]
+        },
+        {
+          "prompt": "Aunque llueve, vamos en bici. (Velo, empieza por Obwohl)",
+          "answers": [
+            "Obwohl es regnet, fahren wir mit dem Velo.",
+            "Obwohl es regnet, fahren wir Velo."
+          ]
+        },
+        {
+          "prompt": "Durante el viaje leí un libro. (die Reise, Perfekt)",
+          "answers": [
+            "Während der Reise habe ich ein Buch gelesen.",
+            "Ich habe während der Reise ein Buch gelesen."
+          ]
+        },
+        {
+          "prompt": "Vivimos fuera de la ciudad.",
+          "answers": [
+            "Wir wohnen außerhalb der Stadt.",
+            "Wir wohnen ausserhalb der Stadt.",
+            "Wir leben außerhalb der Stadt.",
+            "Wir leben ausserhalb der Stadt."
+          ]
+        },
+        {
+          "prompt": "He reservado un asiento.",
+          "answers": [
+            "Ich habe einen Sitzplatz reserviert.",
+            "Ich habe einen Platz reserviert."
+          ]
+        },
+        {
+          "prompt": "Tengo la tarjeta de embarque en el móvil.",
+          "answers": [
+            "Ich habe die Bordkarte auf dem Handy.",
+            "Ich habe meine Bordkarte auf dem Handy."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam": {
+    "lesen": {
+      "t1": [
+        {
+          "title": "Blog: Mit dem Zug nach Barcelona",
+          "text": "Hallo zusammen,\n\nviele von euch haben gefragt, wie meine Reise nach Barcelona war. Wie ihr wisst, wollte ich dieses Jahr nicht fliegen, obwohl der Flug nur anderthalb Stunden dauert und viel billiger gewesen wäre. Ich wollte einfach mal ausprobieren, wie es ist, langsam zu reisen.\n\nLos ging es an einem Freitagmorgen in Zürich. Bis Genf war alles perfekt: Der Zug war pünktlich, und ich hatte einen Fensterplatz mit Blick auf den Genfersee. In Genf bin ich in einen französischen Zug nach Lyon umgestiegen. Dort habe ich übernachtet, denn ich wollte unbedingt die Altstadt sehen und abends typisch französisch essen.\n\nAm zweiten Tag gab es leider Probleme: Wegen eines Streiks fiel mein Zug nach Barcelona aus. Ich musste zwei Stunden warten, dann kam ein Ersatzzug, der völlig überfüllt war. Obwohl ich einen Platz reserviert hatte, musste ich bis Montpellier im Gang stehen. Trotzdem war die Stimmung gut: Ich habe mit einer Familie aus Bern Karten gespielt und Schokolade geteilt.\n\nAm Abend bin ich endlich in Barcelona angekommen, mit vier Stunden Verspätung. Die Bahn hat mir einen Teil des Ticketpreises zurückgezahlt, weil ich innerhalb einer Woche ein Formular online ausgefüllt habe.\n\nWürde ich es wieder machen? Auf jeden Fall! Während der Fahrt habe ich so viel gesehen und so nette Leute kennengelernt. Nur würde ich beim nächsten Mal mehr Zeit einplanen.\n\nEuer Tobias",
+          "statements": [
+            {
+              "s": "Tobias ist mit dem Zug gefahren, weil das billiger war.",
+              "answer": false
+            },
+            {
+              "s": "Tobias hat eine Nacht in Lyon verbracht.",
+              "answer": true
+            },
+            {
+              "s": "Der Zug nach Barcelona ist wegen eines Streiks nicht gefahren.",
+              "answer": true
+            },
+            {
+              "s": "Im Ersatzzug hatte Tobias von Anfang an einen Sitzplatz.",
+              "answer": false
+            },
+            {
+              "s": "Tobias hat für die Verspätung Geld zurückbekommen.",
+              "answer": true
+            },
+            {
+              "s": "Beim nächsten Mal möchte Tobias lieber fliegen.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "title": "E-Mail",
+          "text": "Liebe Pilar,\n\nwie geht es dir in Valencia? Hier in Basel ist schon richtig Herbst. Ich habe dir lange nicht geschrieben, denn seit ich die neue Stelle in Zürich habe, ist mein Alltag ziemlich anstrengend. Ich pendle jetzt jeden Tag: eine Stunde hin, eine Stunde zurück. Am Anfang wollte ich mit dem Auto fahren, aber wegen der vielen Staus auf der Autobahn habe ich das nach einer Woche aufgegeben. Jetzt habe ich ein GA. Es war teuer, aber meine Firma bezahlt die Hälfte.\n\nEhrlich gesagt gefällt mir das Pendeln besser, als ich dachte. Während der Fahrt lese ich, beantworte E-Mails oder schaue einfach aus dem Fenster. Am Freitag arbeite ich im Homeoffice, das ist eine gute Pause.\n\nUnd jetzt die große Neuigkeit: Felix und ich wollen im Frühling eine Woche nach Spanien kommen! Wir möchten mit dem Zug bis Barcelona fahren und dann einen Mietwagen nehmen. Obwohl Felix nicht gern Auto fährt, findet er die Idee gut, denn so können wir auch kleine Dörfer besuchen. Hättest du Zeit, uns ein paar Tage Valencia zu zeigen? Wir würden natürlich in einem Hotel übernachten, keine Sorge!\n\nKennst du vielleicht eine schöne Unterkunft außerhalb der Stadt, am besten in der Nähe vom Meer? Schreib mir bald!\n\nLiebe Grüße\nSimone",
+          "statements": [
+            {
+              "s": "Simone hat lange nicht geschrieben, weil sie wenig Zeit hat.",
+              "answer": true
+            },
+            {
+              "s": "Simone fährt jeden Tag mit dem Auto zur Arbeit.",
+              "answer": false
+            },
+            {
+              "s": "Simone bezahlt ihr GA nicht allein.",
+              "answer": true
+            },
+            {
+              "s": "Simone arbeitet jeden Tag im Büro in Zürich.",
+              "answer": false
+            },
+            {
+              "s": "Simone und Felix möchten bei Pilar wohnen.",
+              "answer": false
+            },
+            {
+              "s": "Simone sucht eine Unterkunft in der Nähe vom Meer.",
+              "answer": true
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Nachtzüge: Die Rückkehr einer alten Idee",
+          "text": "Vor zehn Jahren schien der Nachtzug fast verschwunden. Viele Bahnen hatten ihre Verbindungen eingestellt, weil Flugzeuge schneller und günstiger waren. Doch heute sind Nachtzüge wieder in Mode: Von der Schweiz aus kann man inzwischen im Schlafwagen nach Amsterdam, Berlin, Hamburg, Wien oder Prag reisen.\n\nDer wichtigste Grund für den Erfolg ist das Klima. Ein Nachtzug produziert pro Person nur einen kleinen Teil der CO₂-Emissionen eines Flugzeugs. „Viele unserer Fahrgäste sagen uns, dass sie aus Umweltgründen nicht mehr fliegen möchten“, erklärt die Sprecherin einer Bahngesellschaft. Aber auch die Bequemlichkeit spielt eine Rolle: Man steigt abends im Stadtzentrum ein und kommt am nächsten Morgen ausgeschlafen im Zentrum einer anderen Stadt an, ohne lange Wartezeiten am Flughafen.\n\nGanz ohne Probleme ist das Angebot allerdings nicht. Die Tickets sind oft schnell ausverkauft, besonders in den Ferien. Und billig ist eine Reise im Schlafwagen nicht: Ein Bett im Zweierabteil kostet je nach Strecke über 200 Franken. Wer sparen will, kann einen Sitzplatz buchen, sollte dann aber keinen erholsamen Schlaf erwarten.\n\nExperten glauben, dass die Nachfrage in den nächsten Jahren weiter steigt. Die Bahnen wollen deshalb neue Wagen kaufen und zusätzliche Strecken anbieten, zum Beispiel nach Barcelona oder Rom. Wer im Sommer reisen möchte, sollte also früh buchen.",
+          "questions": [
+            {
+              "q": "Warum gab es vor zehn Jahren kaum noch Nachtzüge?",
+              "options": [
+                "Die Schlafwagen waren zu alt und unbequem.",
+                "Flugzeuge waren schneller und billiger.",
+                "Es gab Probleme an den Grenzen."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was ist laut Text ein Vorteil von Nachtzügen?",
+              "options": [
+                "Man kommt ausgeruht im Stadtzentrum an.",
+                "Die Tickets sind immer günstig.",
+                "Man findet auch kurzfristig immer einen Platz."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was planen die Bahnen?",
+              "options": [
+                "die Preise zu senken",
+                "nur noch Betten anzubieten",
+                "neue Wagen und zusätzliche Strecken"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Velo statt Auto: Mit dem E-Bike zur Arbeit",
+          "text": "Immer mehr Menschen in der Schweiz fahren mit dem E-Bike zur Arbeit. Laut einer Umfrage hat sich die Zahl der E-Bike-Pendler in den letzten fünf Jahren fast verdoppelt. Besonders beliebt ist das E-Bike bei Personen, die zwischen fünf und fünfzehn Kilometer von ihrem Arbeitsplatz entfernt wohnen.\n\nEiner von ihnen ist Marc Huber aus Uster. Der 44-jährige Informatiker fährt seit zwei Jahren täglich die 17 Kilometer nach Zürich-Oerlikon. „Mit dem Auto stand ich jeden Morgen im Stau, und mit dem Zug musste ich zweimal umsteigen“, erzählt er. „Mit dem E-Bike brauche ich 40 Minuten, und das bei fast jedem Wetter.“ Nur bei Schnee und Eis lässt er das Velo stehen. Seine Firma unterstützt ihn: Sie hat eine Garage mit Steckdosen und Duschen für die Mitarbeitenden eingerichtet.\n\nTrotz des Booms gibt es auch Kritik. Viele Velowege sind zu schmal für die vielen schnellen E-Bikes, und die Zahl der Unfälle ist gestiegen. Die Beratungsstelle für Unfallverhütung empfiehlt deshalb allen E-Bike-Fahrerinnen und -Fahrern, einen Helm zu tragen und einen Kurs zu besuchen. Solche Kurse werden in vielen Gemeinden gratis angeboten.\n\nAuch der Preis ist ein Thema: Ein gutes E-Bike kostet zwischen 3000 und 5000 Franken. Einige Arbeitgeber und Gemeinden helfen deshalb beim Kauf mit einem Zuschuss. Wer sein E-Bike oft benutzt, spart trotzdem viel Geld im Vergleich zum Auto.",
+          "questions": [
+            {
+              "q": "Für wen ist das E-Bike laut Text besonders attraktiv?",
+              "options": [
+                "für Personen, die weniger als fünf Kilometer zur Arbeit fahren",
+                "für Personen mit einem Arbeitsweg von fünf bis fünfzehn Kilometern",
+                "für Personen, die keinen Führerschein haben"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Warum fährt Marc Huber mit dem E-Bike zur Arbeit?",
+              "options": [
+                "Sein Arzt hat es ihm empfohlen.",
+                "Er hat sein Auto verkauft.",
+                "Auto und Zug waren für ihn unpraktisch."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was empfiehlt die Beratungsstelle für Unfallverhütung?",
+              "options": [
+                "einen Helm tragen und einen Kurs machen",
+                "nur auf Velowegen fahren",
+                "bei Regen nicht mit dem E-Bike fahren"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "ads": [
+            {
+              "key": "a",
+              "text": "Nachtzug-Spezial: Im Schlafwagen von Zürich nach Wien, ab 79 Franken pro Person. Frühbucher-Rabatt bis Ende des Monats."
+            },
+            {
+              "key": "b",
+              "text": "Velovermietung am Bahnhof Luzern: E-Bikes und Tourenvelos pro Tag, Helm inklusive. Rückgabe auch an anderen Bahnhöfen möglich."
+            },
+            {
+              "key": "c",
+              "text": "Sprachreise nach Málaga: zwei Wochen Spanischkurs mit Unterkunft in einer Gastfamilie, für Jugendliche von 14 bis 17 Jahren."
+            },
+            {
+              "key": "d",
+              "text": "Mitfahrzentrale online: Sie fahren mit dem Auto nach Deutschland? Nehmen Sie Mitfahrer mit und teilen Sie die Benzinkosten!"
+            },
+            {
+              "key": "e",
+              "text": "Ferienhaus im Engadin: drei Zimmer, Garten, ruhige Lage außerhalb des Dorfes. Haustiere sind herzlich willkommen."
+            },
+            {
+              "key": "f",
+              "text": "Carsharing in Ihrem Quartier: Autos stundenweise mieten, rund um die Uhr, per App. Im ersten Jahr keine Grundgebühr."
+            },
+            {
+              "key": "g",
+              "text": "Busreise für Seniorinnen und Senioren: fünf Tage Gardasee mit Halbpension und Reiseleitung. Abholung in Ihrer Gemeinde."
+            },
+            {
+              "key": "h",
+              "text": "Fahrschule Meier: Endlich den Führerschein machen! Abendkurse und Intensivwochen, auch auf Englisch."
+            },
+            {
+              "key": "i",
+              "text": "Kinderhotel im Tirol: Betreuung für Kinder ab drei Jahren, Hallenbad und Spielzimmer. Familienzimmer ab 180 Euro."
+            },
+            {
+              "key": "j",
+              "text": "Wanderwoche in den Dolomiten für erfahrene Bergwanderer: Übernachtung in Berghütten, Gepäcktransport inklusive."
+            }
+          ],
+          "items": [
+            {
+              "situation": "Ihre Kollegin braucht ab und zu ein Auto für große Einkäufe, möchte aber kein eigenes kaufen.",
+              "answer": "f"
+            },
+            {
+              "situation": "Ihr Nachbar (75) möchte verreisen, aber nicht selbst Auto fahren und nicht alles allein organisieren.",
+              "answer": "g"
+            },
+            {
+              "situation": "Ein Freund möchte mit seinem Hund eine Woche Ferien in den Bergen machen.",
+              "answer": "e"
+            },
+            {
+              "situation": "Ihre Schwester will mit ihrem Mann und den zwei kleinen Kindern in die Ferien und dort auch mal Zeit für sich haben.",
+              "answer": "i"
+            },
+            {
+              "situation": "Sie möchten am Wochenende eine Velotour am Vierwaldstättersee machen, haben aber kein Velo.",
+              "answer": "b"
+            },
+            {
+              "situation": "Ein Bekannter fährt nächste Woche mit dem Auto nach München und möchte Kosten sparen.",
+              "answer": "d"
+            },
+            {
+              "situation": "Ihre Tante möchte mit dem Zug nach Paris fahren und dabei im Zug schlafen.",
+              "answer": "x"
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "title": "Kurzstreckenflüge verbieten?",
+          "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über ein Verbot von Kurzstreckenflügen innerhalb Europas.",
+          "question": "Ist die Person für ein Verbot von Kurzstreckenflügen?",
+          "comments": [
+            {
+              "name": "Martina, 41, St. Gallen",
+              "text": "Ich fliege beruflich oft nach Frankfurt oder München und habe mich lange über jede Diskussion über ein Verbot geärgert. Seit unsere Firma aber für solche Reisen die Bahn vorschreibt, habe ich meine Meinung geändert. Im Zug kann ich arbeiten, und am Ende bin ich kaum langsamer. Für Strecken, die man in weniger als fünf Stunden mit dem Zug schafft, sollte das Fliegen einfach nicht mehr erlaubt sein.",
+              "answer": true
+            },
+            {
+              "name": "Georg, 58, Salzburg",
+              "text": "Ein Verbot klingt gut, ist aber unfair. Wer in einer Großstadt mit einem guten Bahnhof wohnt, hat leicht reden. Ich lebe auf dem Land, und bis zum nächsten Bahnhof mit Fernverkehr brauche ich eine Stunde. Außerdem sind die Bahntickets oft doppelt so teuer wie ein Flug. Solange das so ist, sollte die Politik lieber die Bahn billiger machen, statt Flüge zu verbieten.",
+              "answer": false
+            },
+            {
+              "name": "Noemi, 23, Lausanne",
+              "text": "Ich studiere Umweltwissenschaften, und für mich ist die Sache klar. Ein Flug von Genf nach Paris produziert viel mehr CO₂ als dieselbe Reise mit dem Zug. Freiwillig ändern die Menschen ihr Verhalten leider nicht, das sieht man jeden Tag. Natürlich ist ein Verbot unbequem, aber wir haben keine Zeit mehr. Frankreich hat es vorgemacht, und das Leben dort geht ganz normal weiter.",
+              "answer": true
+            },
+            {
+              "name": "Dieter, 66, Köln",
+              "text": "Einerseits finde ich es gut, wenn mehr Menschen mit der Bahn fahren. Ich selbst fahre fast nur noch Zug. Andererseits habe ich in den letzten Jahren so viele Verspätungen und Zugausfälle erlebt, dass ich die Bahn niemandem empfehlen würde, der pünktlich ankommen muss. Zuerst müsste die Bahn zuverlässig werden. Ein Verbot wäre im Moment der falsche Weg.",
+              "answer": false
+            },
+            {
+              "name": "Carolina, 35, Zug",
+              "text": "Meine Eltern wohnen in Barcelona, und ich fliege mehrmals im Jahr zu ihnen. Mit dem Zug wäre ich einen ganzen Tag unterwegs, und das kann ich mir mit zwei kleinen Kindern einfach nicht vorstellen. Ich finde, jeder sollte selbst entscheiden dürfen. Wer viel fliegt, kann ja mehr bezahlen, zum Beispiel durch eine höhere Steuer auf Flugtickets. Aber verbieten? Nein.",
+              "answer": false
+            },
+            {
+              "name": "Ralf, 49, Hamburg",
+              "text": "Ich war früher Pilot und bin wahrscheinlich der Letzte, den man hier erwarten würde. Aber ich habe gesehen, wie viele Flugzeuge morgens halb leer zwischen Hamburg und Berlin fliegen. Das ist einfach Unsinn, wenn der Zug weniger als zwei Stunden braucht. Bei langen Strecken sieht es anders aus. Aber für kurze Strecken bin ich klar für ein Verbot.",
+              "answer": true
+            },
+            {
+              "name": "Isabel, 30, Wien",
+              "text": "Ich arbeite in einem Reisebüro und sehe, wie viele Familien auf günstige Flüge angewiesen sind. Für viele ist ein Flug die einzige Möglichkeit, einmal im Jahr Urlaub am Meer zu machen. Ein Verbot würde vor allem Menschen mit wenig Geld treffen. Ich wünsche mir mehr und bessere Nachtzüge, also ein Angebot und kein Verbot.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t5": [
+        {
+          "title": "Velos im Zug – das müssen Sie wissen",
+          "text": "Velo-Tageskarte: Für Ihr Velo brauchen Sie in allen Zügen eine Velo-Tageskarte. Sie kostet 14 Franken und gilt einen ganzen Tag auf allen Strecken. Kinder unter 16 Jahren mit eigener Fahrkarte bezahlen für ihr Velo nichts. Zusammengeklappte Klappvelos gelten als Handgepäck und sind gratis.\n\nReservierung: Vom 21. März bis 31. Oktober müssen Sie in den Intercity-Zügen zusätzlich einen Veloplatz reservieren. Die Reservierung kostet 2 Franken und ist online bis 15 Minuten vor der Abfahrt möglich.\n\nEinsteigen: Steigen Sie nur in Wagen mit dem Velosymbol ein. Bitte warten Sie, bis alle anderen Fahrgäste eingestiegen sind. Während der Fahrt darf das Velo nicht im Gang oder vor den Türen stehen.\n\nE-Bikes: Für E-Bikes gelten die gleichen Regeln wie für normale Velos. Den Akku dürfen Sie im Zug nicht aufladen.\n\nStoßzeiten: Montag bis Freitag zwischen 6 und 9 Uhr und zwischen 16 und 19 Uhr sind die Züge sehr voll. Bitte reisen Sie in dieser Zeit möglichst ohne Velo. Wenn nicht genug Platz ist, kann das Zugpersonal Sie bitten, auf den nächsten Zug zu warten.\n\nWer ohne gültige Velokarte reist, bezahlt einen Zuschlag von 90 Franken.",
+          "questions": [
+            {
+              "q": "Wer muss für das Velo nichts bezahlen?",
+              "options": [
+                "Erwachsene mit einem Halbtax",
+                "Kinder unter 16 mit eigener Fahrkarte",
+                "alle Fahrgäste am Wochenende"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Sie möchten im Juli mit dem Velo in einem Intercity fahren. Was müssen Sie tun?",
+              "options": [
+                "einen Veloplatz reservieren",
+                "eine Stunde vor der Abfahrt am Bahnhof sein",
+                "das Velo zusammenklappen"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was ist im Zug nicht erlaubt?",
+              "options": [
+                "mit einem E-Bike reisen",
+                "im Wagen mit dem Velosymbol sitzen",
+                "den Akku des E-Bikes aufladen"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was kann zu den Stoßzeiten passieren?",
+              "options": [
+                "Die Velokarte kostet mehr.",
+                "Sie müssen vielleicht einen späteren Zug nehmen.",
+                "Velos sind dann ganz verboten."
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "t1": [
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Gleis 5: Information zum Intercity nach Bern, planmäßige Abfahrt 10 Uhr 32. Wegen einer Störung an einem anderen Zug hat dieser Zug voraussichtlich 15 Minuten Verspätung. Reisende nach Interlaken: Ihr Anschluss in Bern um 11 Uhr 04 wird nicht erreicht. Bitte nehmen Sie in Bern den Zug um 11 Uhr 34 auf Gleis 6. Wir bitten um Entschuldigung."
+            }
+          ],
+          "statement": "Der Zug nach Bern fährt heute pünktlich ab.",
+          "tf": false,
+          "q": "Was sollen Reisende nach Interlaken tun?",
+          "options": [
+            "in Bern einen späteren Zug nehmen",
+            "in Zürich einen anderen Zug nehmen",
+            "ab Bern mit dem Bus fahren"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Und jetzt der Verkehr: Am Gotthard staut sich der Verkehr vor dem Nordportal auf zwölf Kilometern. Das bedeutet etwa zwei Stunden Wartezeit. Wer Richtung Süden fährt, sollte die Route über den San Bernardino nehmen, dort gibt es zurzeit keine Probleme. Auf der A1 bei Winterthur ist die linke Spur wegen einer Baustelle noch bis Freitag gesperrt."
+            }
+          ],
+          "statement": "Am Gotthard muss man mit ungefähr zwei Stunden Wartezeit rechnen.",
+          "tf": true,
+          "q": "Warum ist auf der A1 eine Spur gesperrt?",
+          "options": [
+            "wegen eines Unfalls",
+            "wegen einer Baustelle",
+            "wegen des Schnees"
+          ],
+          "answer": 1
+        },
+        {
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Achtung, eine Durchsage für die Passagiere des Fluges 1452 nach Madrid: Wegen des Nebels verschiebt sich der Abflug um etwa 45 Minuten. Das Boarding beginnt jetzt um 13 Uhr 20, und zwar am Gate B 34 statt am Gate A 12. Bitte halten Sie Ihre Bordkarte und Ihren Ausweis bereit."
+            }
+          ],
+          "statement": "Der Flug nach Madrid startet von einem anderen Gate.",
+          "tf": true,
+          "q": "Wann beginnt das Boarding?",
+          "options": [
+            "um 13.20 Uhr",
+            "um 12.35 Uhr",
+            "um 14.05 Uhr"
+          ],
+          "answer": 0
+        },
+        {
+          "audio": [
+            {
+              "v": "ch-f",
+              "t": "Grüezi Herr Lehmann, hier ist Barbara Caflisch vom Hotel Bergsonne in Arosa. Sie haben für nächstes Wochenende ein Doppelzimmer mit Halbpension reserviert. Leider ist die Straße nach Arosa wegen eines Erdrutsches im Moment gesperrt. Sie können aber problemlos mit dem Zug ab Chur anreisen. Wir holen Sie gern am Bahnhof Arosa ab. Bitte sagen Sie uns Bescheid, mit welchem Zug Sie kommen."
+            }
+          ],
+          "statement": "Herr Lehmann soll seine Reservierung stornieren.",
+          "tf": false,
+          "q": "Was bietet das Hotel an?",
+          "options": [
+            "einen Rabatt auf das Zimmer",
+            "Herrn Lehmann am Bahnhof abzuholen",
+            "ein Zimmer in einem anderen Hotel"
+          ],
+          "answer": 1
+        }
+      ],
+      "t2": [
+        {
+          "intro": "Sie machen eine Schifffahrt auf dem Vierwaldstättersee.",
+          "audio": [
+            {
+              "v": "ch-m",
+              "t": "Liebe Fahrgäste, herzlich willkommen an Bord! Mein Name ist Urs Gisler, und ich begleite Sie heute auf unserer Fahrt von Luzern nach Flüelen. Die Fahrt dauert etwa dreieinhalb Stunden, und wir halten unterwegs an zwölf Stationen."
+            },
+            {
+              "v": "ch-m",
+              "t": "Unser Schiff ist ein Dampfschiff aus dem Jahr 1928. Wenn Sie sich für Technik interessieren, können Sie im Unterdeck die Dampfmaschine anschauen. Bitte halten Sie Kinder dort an der Hand, denn die Maschine ist sehr heiß."
+            },
+            {
+              "v": "ch-m",
+              "t": "Im Restaurant auf dem Oberdeck servieren wir ab 11 Uhr 30 ein Mittagessen. Heute gibt es Fisch aus dem See oder ein vegetarisches Risotto. Das Restaurant ist meistens schnell voll. Ich empfehle Ihnen deshalb, schon jetzt beim Personal an der Bar einen Tisch zu reservieren."
+            },
+            {
+              "v": "ch-m",
+              "t": "In etwa einer Stunde erreichen wir Vitznau. Von dort fährt die älteste Zahnradbahn Europas auf die Rigi. Wer aussteigen möchte: Ihr Schiffsticket gilt nicht für die Bergbahn. Tickets bekommen Sie am Schalter in Vitznau."
+            },
+            {
+              "v": "ch-m",
+              "t": "Später fahren wir am Rütli vorbei. Auf dieser Wiese haben sich der Legende nach im Jahr 1291 die ersten drei Kantone verbündet. Viele Schweizerinnen und Schweizer sehen das Rütli deshalb als Geburtsort der Schweiz."
+            },
+            {
+              "v": "ch-m",
+              "t": "Noch ein Hinweis: Während der Fahrt dürfen Sie sich überall auf dem Schiff frei bewegen. Nur die Brücke, also der Platz des Kapitäns, ist für Passagiere geschlossen. Und obwohl die Sonne scheint, ist es auf dem See oft windig. Nehmen Sie also lieber eine Jacke mit nach draußen. Ich wünsche Ihnen eine schöne Fahrt!"
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wie lange dauert die Schifffahrt bis Flüelen?",
+              "options": [
+                "etwa eineinhalb Stunden",
+                "etwa dreieinhalb Stunden",
+                "etwa zwölf Stunden"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was können die Fahrgäste im Unterdeck sehen?",
+              "options": [
+                "die Dampfmaschine",
+                "eine Ausstellung über den See",
+                "das Restaurant"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Was empfiehlt Herr Gisler zum Mittagessen?",
+              "options": [
+                "in Vitznau zu essen",
+                "ein Picknick mitzubringen",
+                "jetzt schon einen Tisch zu reservieren"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was gilt für die Fahrt auf die Rigi?",
+              "options": [
+                "Man braucht ein eigenes Ticket.",
+                "Die Fahrt ist im Schiffsticket inbegriffen.",
+                "Die Bahn fährt heute nicht."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wohin dürfen die Fahrgäste nicht gehen?",
+              "options": [
+                "aufs Oberdeck",
+                "auf die Brücke",
+                "ins Unterdeck"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind neu in einer Firma und hören eine Information zum Thema Arbeitsweg.",
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Guten Morgen und herzlich willkommen bei Alpina Medtech! Ich bin Karin Odermatt aus der Personalabteilung. In den nächsten Minuten erkläre ich Ihnen, wie Sie am besten zu uns kommen und welche Angebote wir für Ihren Arbeitsweg haben."
+            },
+            {
+              "v": "f2",
+              "t": "Zuerst das Wichtigste: Unsere Firma liegt außerhalb des Zentrums, direkt neben dem Bahnhof Dietlikon. Vom Zürcher Hauptbahnhof brauchen Sie mit der S-Bahn nur zwölf Minuten. Die meisten Mitarbeitenden kommen deshalb mit dem Zug."
+            },
+            {
+              "v": "f2",
+              "t": "Wenn Sie mit den öffentlichen Verkehrsmitteln kommen, bezahlen wir Ihnen die Hälfte Ihres Abonnements, egal, ob es ein Monatsabo oder ein GA ist. Das Formular finden Sie im Intranet. Bitte schicken Sie es innerhalb der ersten drei Monate an die Personalabteilung, sonst können wir leider nichts mehr zurückzahlen."
+            },
+            {
+              "v": "f2",
+              "t": "Parkplätze haben wir leider nur wenige. Sie kosten 150 Franken im Monat, und die Warteliste ist lang. Mitarbeitende mit kleinen Kindern oder mit einer Behinderung bekommen zuerst einen Platz."
+            },
+            {
+              "v": "f2",
+              "t": "Für Velofahrerinnen und Velofahrer gibt es eine Velogarage im Untergeschoss und Duschen im ersten Stock. Neu haben wir außerdem fünf E-Bikes, die Sie für Termine bei Kunden in der Region ausleihen können. Reservieren können Sie sie über die Firmen-App."
+            },
+            {
+              "v": "f2",
+              "t": "Und zum Schluss: Zweimal pro Woche dürfen Sie im Homeoffice arbeiten. Sprechen Sie die Tage bitte mit Ihrem Team ab. Gibt es noch Fragen? Nein? Dann wünsche ich Ihnen einen guten Start!"
+            }
+          ],
+          "questions": [
+            {
+              "q": "Wie kommen die meisten Mitarbeitenden zur Arbeit?",
+              "options": [
+                "mit dem Auto",
+                "mit dem Velo",
+                "mit der S-Bahn"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Was bezahlt die Firma?",
+              "options": [
+                "das ganze GA",
+                "die Hälfte des Abonnements",
+                "nur ein Monatsabo"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Bis wann muss man das Formular schicken?",
+              "options": [
+                "innerhalb der ersten drei Monate",
+                "bis Ende des Jahres",
+                "innerhalb der ersten Woche"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Wofür kann man die E-Bikes der Firma benutzen?",
+              "options": [
+                "für den Weg nach Hause",
+                "für Termine bei Kunden",
+                "für Ausflüge am Wochenende"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Was gilt für das Homeoffice?",
+              "options": [
+                "Es ist nicht erlaubt.",
+                "Man muss es bei der Personalabteilung beantragen.",
+                "Man darf zweimal pro Woche zu Hause arbeiten."
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ],
+      "t3": [
+        {
+          "intro": "Sie sind im Zug und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "m2",
+              "t": "Laura! Was machst du denn hier? Ich dachte, du bist in den Ferien."
+            },
+            {
+              "v": "f2",
+              "t": "Ja, morgen geht's los. Ich fahre nur schnell nach Zürich, um meinen neuen Pass abzuholen. Der alte war abgelaufen, und das habe ich erst letzte Woche gemerkt."
+            },
+            {
+              "v": "m2",
+              "t": "Gerade noch rechtzeitig! Wohin geht die Reise?"
+            },
+            {
+              "v": "f2",
+              "t": "Nach Sardinien. Zwei Wochen mit meinem Freund und seinen Eltern."
+            },
+            {
+              "v": "m2",
+              "t": "Toll! Fliegt ihr?"
+            },
+            {
+              "v": "f2",
+              "t": "Nein, wir fahren mit dem Auto bis Genua und nehmen dann die Fähre. Obwohl das viel länger dauert, wollten seine Eltern unbedingt ihr eigenes Auto dabeihaben."
+            },
+            {
+              "v": "m2",
+              "t": "Das verstehe ich. Auf Sardinien braucht man ein Auto, und Mietwagen sind im Sommer sehr teuer."
+            },
+            {
+              "v": "f2",
+              "t": "Genau das hat sein Vater auch gesagt. Die Fähre fährt über Nacht, wir haben eine Kabine mit vier Betten gebucht."
+            },
+            {
+              "v": "m2",
+              "t": "Und wann fahrt ihr los?"
+            },
+            {
+              "v": "f2",
+              "t": "Morgen um fünf Uhr früh, wegen des Verkehrs. Am Samstag gibt es am Gotthard immer Stau. Die Fähre fährt erst um 20 Uhr, aber wir wollen nichts riskieren."
+            },
+            {
+              "v": "m2",
+              "t": "Sehr vernünftig. Wir sind letztes Jahr um neun Uhr losgefahren und standen drei Stunden vor dem Tunnel."
+            },
+            {
+              "v": "f2",
+              "t": "Und du? Fährst du dieses Jahr nicht weg?"
+            },
+            {
+              "v": "m2",
+              "t": "Doch, aber erst im September. Ich mache mit meiner Schwester eine Velotour entlang der Donau, von Passau bis Wien."
+            },
+            {
+              "v": "f2",
+              "t": "Mit dem Velo? Wie viele Kilometer sind das?"
+            },
+            {
+              "v": "m2",
+              "t": "Ungefähr 330. Wir haben eine Woche Zeit, das schaffen wir locker. Und unser Gepäck bringt ein Taxi von Hotel zu Hotel."
+            },
+            {
+              "v": "f2",
+              "t": "Klingt super. Oh, ich muss hier aussteigen. Schöne Ferien, Matteo!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Laura fährt nach Zürich, weil sie ein neues Dokument abholen muss.",
+              "answer": true
+            },
+            {
+              "s": "Laura fliegt nach Sardinien.",
+              "answer": false
+            },
+            {
+              "s": "Die Eltern von Lauras Freund möchten mit ihrem eigenen Auto reisen.",
+              "answer": true
+            },
+            {
+              "s": "Die Fähre fährt am Morgen ab.",
+              "answer": false
+            },
+            {
+              "s": "Matteo stand letztes Jahr am Gotthard im Stau.",
+              "answer": true
+            },
+            {
+              "s": "Matteo fährt im August in die Ferien.",
+              "answer": false
+            },
+            {
+              "s": "Matteo muss sein Gepäck nicht selbst auf dem Velo transportieren.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "intro": "Sie sind im Tram und hören, wie sich zwei Personen unterhalten.",
+          "audio": [
+            {
+              "v": "f1",
+              "t": "Hallo Patrick! Du im Tram? Wo ist denn dein Auto?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Verkauft! Seit zwei Wochen habe ich kein Auto mehr."
+            },
+            {
+              "v": "f1",
+              "t": "Wirklich? Du warst doch immer so stolz auf dein Auto."
+            },
+            {
+              "v": "ch-m",
+              "t": "Ja, schon. Aber ich habe einmal ausgerechnet, was es mich kostet: Versicherung, Parkplatz, Benzin, Reparaturen … fast 600 Franken im Monat. Und meistens stand es nur in der Garage."
+            },
+            {
+              "v": "f1",
+              "t": "Und wie machst du das jetzt mit dem Einkaufen?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Unter der Woche fahre ich Velo oder Tram. Und für den Großeinkauf oder für Ausflüge nehme ich ein Carsharing-Auto. Bei uns im Quartier gibt es drei Stück."
+            },
+            {
+              "v": "f1",
+              "t": "Ist das nicht kompliziert? Man muss doch immer reservieren."
+            },
+            {
+              "v": "ch-m",
+              "t": "Das geht ganz einfach per App, auch kurzfristig. Nur am Wochenende sollte man früh buchen, dann sind die Autos schnell weg."
+            },
+            {
+              "v": "f1",
+              "t": "Ich könnte das nicht. Ich wohne außerhalb der Stadt, und am Abend fährt der Bus nur einmal pro Stunde."
+            },
+            {
+              "v": "ch-m",
+              "t": "Das ist natürlich etwas anderes. Aber in der Stadt braucht man wirklich kein Auto."
+            },
+            {
+              "v": "f1",
+              "t": "Und deine Kinder? Was sagen die?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Die Große findet es super, wegen der Umwelt. Der Kleine war am Anfang traurig, er hat unser rotes Auto geliebt. Aber jetzt darf er manchmal die App bedienen, und das findet er cool."
+            },
+            {
+              "v": "f1",
+              "t": "Ha, typisch! Und die Ferien? Fahrt ihr nicht immer mit dem Auto nach Italien?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Dieses Jahr nehmen wir den Zug nach Rimini. Obwohl die Tickets teurer sind als das Benzin, freuen wir uns schon. Im Zug kann man wenigstens Karten spielen."
+            },
+            {
+              "v": "f1",
+              "t": "Na dann, gute Reise! Ich muss hier raus."
+            },
+            {
+              "v": "ch-m",
+              "t": "Tschüss, Sevda, bis morgen im Büro!"
+            }
+          ],
+          "statements": [
+            {
+              "s": "Patrick hat sein Auto vor zwei Wochen verkauft.",
+              "answer": true
+            },
+            {
+              "s": "Patrick hat sein Auto fast jeden Tag benutzt.",
+              "answer": false
+            },
+            {
+              "s": "Für große Einkäufe benutzt Patrick ein Carsharing-Auto.",
+              "answer": true
+            },
+            {
+              "s": "Am Wochenende sind die Carsharing-Autos oft schon reserviert.",
+              "answer": true
+            },
+            {
+              "s": "Sevda könnte auch gut ohne Auto leben.",
+              "answer": false
+            },
+            {
+              "s": "Patricks Sohn war von Anfang an begeistert.",
+              "answer": false
+            },
+            {
+              "s": "Die Zugtickets nach Rimini sind billiger als das Benzin.",
+              "answer": false
+            }
+          ]
+        }
+      ],
+      "t4": [
+        {
+          "intro": "Die Moderatorin der Radiosendung „Unterwegs“ diskutiert mit der Stadtplanerin Lea Baumgartner und dem Geschäftsinhaber Roland Wüest über das Thema „Autofreie Altstadt – eine gute Idee?“",
+          "options": [
+            "Moderatorin",
+            "Lea Baumgartner",
+            "Roland Wüest"
+          ],
+          "audio": [
+            {
+              "v": "f2",
+              "t": "Willkommen bei „Unterwegs“, der Sendung über Verkehr und Mobilität. In vielen Städten wird diskutiert, ob man die Altstadt für Autos sperren sollte. Bei mir im Studio sind die Stadtplanerin Lea Baumgartner und Roland Wüest, der seit dreißig Jahren ein Sportgeschäft in der Altstadt führt. Frau Baumgartner, warum brauchen wir eine autofreie Altstadt?"
+            },
+            {
+              "v": "ch-f",
+              "t": "Weil die Straßen allen gehören und nicht nur den Autos. Heute nehmen parkierte Autos in vielen Altstädten ein Drittel des Platzes ein. Stellen Sie sich vor, was man stattdessen machen könnte: Bäume, Bänke, Spielplätze, Platz für Cafés."
+            },
+            {
+              "v": "f2",
+              "t": "Herr Wüest, das klingt doch schön, oder?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Schön für Spaziergänger, ja. Aber ich muss von meinem Geschäft leben. Viele meiner Kunden kommen aus den Dörfern rund um die Stadt, und sie kommen mit dem Auto. Wenn sie nicht mehr parkieren können, fahren sie ins Einkaufszentrum außerhalb der Stadt."
+            },
+            {
+              "v": "ch-f",
+              "t": "Diese Angst hören wir oft, aber die Erfahrungen aus anderen Städten zeigen etwas anderes. Wenn die Straßen attraktiver werden, kommen mehr Menschen zu Fuß oder mit dem Velo, und sie bleiben länger. In mehreren Städten in Europa haben die Geschäfte nach ein paar Jahren sogar mehr verkauft als vorher."
+            },
+            {
+              "v": "ch-m",
+              "t": "Mag sein. Aber was ist mit meinen Lieferungen? Mein Lieferwagen kommt jeden Morgen mit neuer Ware."
+            },
+            {
+              "v": "ch-f",
+              "t": "Lieferungen sind natürlich weiterhin erlaubt, zum Beispiel morgens zwischen sechs und elf Uhr. Das ist in allen Fußgängerzonen so geregelt."
+            },
+            {
+              "v": "f2",
+              "t": "Und was ist mit älteren Menschen oder Menschen mit einer Behinderung? Für sie ist das Auto oft die einzige Möglichkeit."
+            },
+            {
+              "v": "ch-f",
+              "t": "Für diese Gruppen braucht es Ausnahmen, ganz klar. Außerdem könnten kleine Elektrobusse durch die Altstadt fahren."
+            },
+            {
+              "v": "ch-m",
+              "t": "Wenn es Ausnahmen für Lieferungen, für Ältere und für Handwerker gibt, dann ist die Altstadt am Ende doch nicht autofrei. Dann hätte man sich die ganze Diskussion sparen können."
+            },
+            {
+              "v": "f2",
+              "t": "Herr Wüest, gibt es denn gar nichts, was Ihnen an der Idee gefällt?"
+            },
+            {
+              "v": "ch-m",
+              "t": "Doch. Ich gebe zu, dass die Luft besser wäre, und für meine Enkel wäre es sicherer. Ich wäre für einen Kompromiss: autofreie Samstage, zum Beispiel, als Test. Dann sieht man, was passiert."
+            },
+            {
+              "v": "ch-f",
+              "t": "Ein Test ist eine gute Idee. Wichtig wäre aber, dass er mindestens ein Jahr dauert. Die Menschen brauchen Zeit, um ihre Gewohnheiten zu ändern."
+            },
+            {
+              "v": "f2",
+              "t": "Ich selbst wohne übrigens in der Altstadt und habe vor fünf Jahren mein Auto verkauft. Ich habe es noch keinen Tag bereut. Aber ich weiß, dass das nicht für alle so einfach ist."
+            },
+            {
+              "v": "ch-m",
+              "t": "Genau das ist der Punkt. Die Politik sollte auch an die Menschen denken, die auf dem Land wohnen."
+            },
+            {
+              "v": "f2",
+              "t": "Vielen Dank Ihnen beiden. Liebe Hörerinnen und Hörer, schreiben Sie uns Ihre Meinung auf unserer Webseite!"
+            }
+          ],
+          "items": [
+            {
+              "q": "Parkierte Autos brauchen in der Altstadt sehr viel Platz.",
+              "answer": 1
+            },
+            {
+              "q": "Viele Kunden kommen aus der Umgebung mit dem Auto.",
+              "answer": 2
+            },
+            {
+              "q": "In anderen Städten verkaufen die Geschäfte nach einiger Zeit mehr.",
+              "answer": 1
+            },
+            {
+              "q": "Ich bekomme jeden Tag neue Ware.",
+              "answer": 2
+            },
+            {
+              "q": "Man muss auch an ältere Menschen denken.",
+              "answer": 0
+            },
+            {
+              "q": "Zu viele Ausnahmen machen die Idee sinnlos.",
+              "answer": 2
+            },
+            {
+              "q": "Ein Test sollte lange genug dauern.",
+              "answer": 1
+            },
+            {
+              "q": "Ich lebe schon seit Jahren ohne Auto.",
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "t1": [
+        {
+          "task": "Sie waren am Wochenende mit dem Zug in einer anderen Stadt. Auf der Reise gab es einige Probleme. Schreiben Sie Ihrer Freundin Marta eine E-Mail.",
+          "points": [
+            "Wohin sind Sie gefahren und warum?",
+            "Was ist auf der Reise passiert?",
+            "Was hat Ihnen trotzdem gefallen?"
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Liebe Marta,\n\nwie geht's dir? Letztes Wochenende waren José und ich in Lugano, weil eine Kollegin von mir dort ihren Geburtstag gefeiert hat. Die Reise war ein kleines Abenteuer! Wegen einer Baustelle mussten wir in Arth-Goldau in einen Bus umsteigen, und wir sind mit zwei Stunden Verspätung angekommen. Obwohl wir sehr müde waren, sind wir abends direkt zur Party gegangen. Trotz des Regens am Sonntag hat uns Lugano sehr gut gefallen: Die Altstadt, der See und das Essen waren toll! Du solltest auch mal hinfahren.\n\nLiebe Grüße\nAndrea"
+        },
+        {
+          "task": "Ihr Freund Daniel aus Hamburg möchte Sie in den Ferien besuchen und fragt, wie er am besten zu Ihnen kommt. Antworten Sie ihm.",
+          "points": [
+            "Welches Verkehrsmittel empfehlen Sie und warum?",
+            "Was sollte er bei der Reise beachten?",
+            "Was können Sie zusammen unternehmen?"
+          ],
+          "register": "informal (du)",
+          "words": 80,
+          "model": "Lieber Daniel,\n\nwie schön, dass du uns besuchen willst! Ich würde dir den Zug empfehlen. Obwohl der Flug schneller ist, bist du mit dem Zug direkt im Zentrum von Zürich, und du kannst während der Fahrt lesen oder schlafen. Buch das Ticket am besten früh, dann ist es viel billiger. Und vergiss nicht, einen Sitzplatz zu reservieren, denn im Sommer sind die Züge sehr voll. Wenn du hier bist, könnten wir mit dem Schiff auf dem Zürichsee fahren oder in den Bergen wandern.\n\nBis bald!\nJosé"
+        }
+      ],
+      "t2": [
+        {
+          "task": "Sie haben in einer Fernsehsendung einen Beitrag zum Thema „Fliegen – sollte es teurer werden?“ gesehen. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:",
+          "quote": "Ich finde, Fliegen ist viel zu billig. Ein Flug nach London kostet manchmal weniger als ein Zugticket nach Bern! Deshalb fliegen die Leute für ein Wochenende quer durch Europa. Flugtickets sollten mindestens doppelt so teuer sein. Das wäre gut für die Umwelt. – Stefanie, 52",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Gehen Sie auf die Meinung von Stefanie ein."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Hallo Stefanie,\n\nich verstehe deinen Ärger. Es ist wirklich absurd, dass ein Flug manchmal billiger ist als eine Zugfahrt. Trotzdem bin ich gegen doppelt so teure Tickets. Ich komme aus Spanien und fliege ein paarmal im Jahr nach Hause, um meine Familie zu besuchen. Mit dem Zug wäre ich mehr als einen Tag unterwegs. Meiner Meinung nach sollte man lieber die Bahn billiger machen und nur kurze Flüge innerhalb Europas teurer. So hätten alle eine echte Wahl, und die Umwelt würde trotzdem profitieren.\n\nViele Grüße\nJosé"
+        },
+        {
+          "task": "Sie haben in einem Online-Forum einen Beitrag zum Thema „Mit dem Velo zur Arbeit“ gelesen.",
+          "quote": "Seit einem Jahr fahre ich jeden Tag mit dem Velo zur Arbeit, auch im Winter. Ich spare Geld, bin fitter und komme nie zu spät. Ich verstehe nicht, warum nicht alle das machen. Wer mit dem Auto in die Stadt fährt, ist einfach bequem. – Dominik, 29",
+          "points": [
+            "Schreiben Sie Ihre Meinung zum Thema.",
+            "Berichten Sie von Ihren eigenen Erfahrungen."
+          ],
+          "register": "neutral (foro)",
+          "words": 80,
+          "model": "Hallo Dominik,\n\nich finde es toll, dass du jeden Tag mit dem Velo fährst. Ich mache das auch, aber nur im Sommer. Im Winter nehme ich lieber das Tram, weil es früh dunkel und oft glatt ist und ich Angst vor Unfällen habe. Ich glaube, man sollte nicht alle Autofahrer kritisieren. Manche wohnen außerhalb der Stadt, wo der Bus nur selten fährt, oder sie müssen Kinder in die Kita bringen. Wichtig ist, dass die Städte mehr sichere Velowege bauen. Dann würden bestimmt mehr Leute mitmachen.\n\nViele Grüße\nAndrea"
+        }
+      ],
+      "t3": [
+        {
+          "task": "Sie haben bei einem Reisebüro eine Reise gebucht. Wegen einer Krankheit können Sie die Reise nicht machen. Schreiben Sie Frau Studer vom Reisebüro.",
+          "points": [
+            "Entschuldigen Sie sich und erklären Sie den Grund.",
+            "Fragen Sie, ob Sie Ihr Geld zurückbekommen."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrte Frau Studer,\n\nleider muss ich meine Reise nach Lissabon vom 12. bis 19. Mai stornieren, weil ich krank bin und eine Woche im Krankenhaus bleiben muss. Das Arztzeugnis schicke ich Ihnen im Anhang. Könnten Sie mir bitte sagen, ob ich mein Geld zurückbekomme?\n\nMit freundlichen Grüßen\nJosé Romero"
+        },
+        {
+          "task": "Sie haben heute um 9 Uhr einen Termin bei Ihrem Chef, Herrn Gerber. Wegen eines Zugausfalls kommen Sie zu spät. Schreiben Sie ihm eine kurze Nachricht.",
+          "points": [
+            "Entschuldigen Sie sich.",
+            "Erklären Sie den Grund.",
+            "Machen Sie einen Vorschlag."
+          ],
+          "register": "formal (Sie)",
+          "words": 40,
+          "model": "Sehr geehrter Herr Gerber,\n\nes tut mir sehr leid, aber ich komme etwa 30 Minuten später zu unserem Termin um 9 Uhr. Wegen einer Störung ist mein Zug in Winterthur ausgefallen. Wäre es möglich, das Gespräch auf 9.30 Uhr zu verschieben? Sonst könnten wir auch per Video sprechen.\n\nFreundliche Grüße\nAndrea Navarro"
+        }
+      ]
+    },
+    "sprechen": {
+      "t1": [
+        {
+          "task": "Sie möchten mit einem Freund / einer Freundin ein Wochenende in den Bergen verbringen. Planen Sie gemeinsam.",
+          "points": [
+            "Wohin?",
+            "Mit welchem Verkehrsmittel?",
+            "Wo übernachten?",
+            "Was mitnehmen?"
+          ],
+          "model": [
+            {
+              "v": "m1",
+              "t": "Also, wohin fahren wir am Wochenende? Ich hätte Lust auf das Engadin."
+            },
+            {
+              "v": "f1",
+              "t": "Das Engadin ist schön, aber ziemlich weit. Mit dem Zug sind das über drei Stunden. Wie wäre es mit dem Berner Oberland?"
+            },
+            {
+              "v": "m1",
+              "t": "Gute Idee, da war ich noch nie. Fahren wir mit dem Auto?"
+            },
+            {
+              "v": "f1",
+              "t": "Lieber nicht. Am Samstagmorgen gibt es immer Stau, und wir haben beide ein Halbtax. Mit dem Zug ist es auch nicht so teuer."
+            },
+            {
+              "v": "m1",
+              "t": "Stimmt, und während der Fahrt können wir frühstücken. Wo sollen wir übernachten? In einem Hotel?"
+            },
+            {
+              "v": "f1",
+              "t": "Hotels sind im Sommer sehr teuer. Ich schlage vor, dass wir in einer Berghütte übernachten. Das ist günstiger und viel romantischer."
+            },
+            {
+              "v": "m1",
+              "t": "Hm, in einer Hütte schläft man oft mit zwanzig Leuten in einem Raum. Da schlafe ich immer schlecht."
+            },
+            {
+              "v": "f1",
+              "t": "Es gibt auch Hütten mit Zweierzimmern. Ich kann heute Abend eine suchen und reservieren."
+            },
+            {
+              "v": "m1",
+              "t": "Einverstanden. Und was nehmen wir mit? Wir sollten nur kleine Rucksäcke nehmen."
+            },
+            {
+              "v": "f1",
+              "t": "Ja, aber eine warme Jacke brauchen wir trotzdem. Obwohl es Sommer ist, kann es oben sehr kalt werden."
+            },
+            {
+              "v": "m1",
+              "t": "Klar. Und ich kümmere mich um das Picknick für Samstag. Ich kaufe am Freitag ein."
+            },
+            {
+              "v": "f1",
+              "t": "Super. Dann haben wir alles: Berner Oberland, Zug, Berghütte mit Zweierzimmer, und du machst das Picknick."
+            }
+          ]
+        },
+        {
+          "task": "Ihr Deutschkurs möchte am Ende des Kurses einen gemeinsamen Ausflug machen. Sie organisieren ihn zusammen mit einer Person aus dem Kurs.",
+          "points": [
+            "Wann?",
+            "Wohin?",
+            "Wie dorthin kommen?",
+            "Wer kümmert sich um was?"
+          ],
+          "model": [
+            {
+              "v": "f2",
+              "t": "Der Kurs ist ja in drei Wochen zu Ende. Wann sollen wir den Ausflug machen?"
+            },
+            {
+              "v": "m2",
+              "t": "Ich würde den letzten Samstag vorschlagen. Dann haben alle Zeit."
+            },
+            {
+              "v": "f2",
+              "t": "Samstag ist schwierig. Einige arbeiten am Wochenende, zum Beispiel Rania im Restaurant. Wie wäre es mit dem letzten Kurstag, also Freitag, nach dem Unterricht?"
+            },
+            {
+              "v": "m2",
+              "t": "Gute Idee, dann kommen bestimmt alle. Und wohin? Wir sind fünfzehn Personen."
+            },
+            {
+              "v": "f2",
+              "t": "Wir könnten mit dem Schiff auf dem Zürichsee nach Rapperswil fahren. Dort gibt es ein schönes Schloss und viele Restaurants."
+            },
+            {
+              "v": "m2",
+              "t": "Das finde ich schön, aber die Schifffahrt dauert fast zwei Stunden, und das Ticket ist ziemlich teuer. Nicht alle haben ein Halbtax."
+            },
+            {
+              "v": "f2",
+              "t": "Das stimmt. Dann fahren wir mit dem Zug hin, das dauert nur 35 Minuten, und wer möchte, fährt mit dem Schiff zurück."
+            },
+            {
+              "v": "m2",
+              "t": "Einverstanden! Für Gruppen ab zehn Personen gibt es außerdem Rabatt. Ich kann die Gruppentickets kaufen."
+            },
+            {
+              "v": "f2",
+              "t": "Super. Und ich reserviere einen Tisch in einem Restaurant am See. Was meinst du, Pizza oder etwas Schweizerisches?"
+            },
+            {
+              "v": "m2",
+              "t": "Lieber etwas Einfaches, damit es nicht zu teuer wird. Pizza passt für alle."
+            },
+            {
+              "v": "f2",
+              "t": "Gut. Dann frage ich noch die Lehrerin, ob sie mitkommt."
+            },
+            {
+              "v": "m2",
+              "t": "Perfekt. Ich schreibe heute Abend eine Nachricht an die Gruppe."
+            }
+          ]
+        }
+      ],
+      "t2": [
+        {
+          "title": "Auto oder öffentliche Verkehrsmittel?",
+          "model": [
+            {
+              "v": "m1",
+              "t": "Ich möchte heute über das Thema „Auto oder öffentliche Verkehrsmittel?“ sprechen. Zuerst erzähle ich von meinen eigenen Erfahrungen. Danach berichte ich über die Situation in Spanien. Dann nenne ich Vor- und Nachteile und sage meine Meinung. Am Ende fasse ich alles kurz zusammen."
+            },
+            {
+              "v": "m1",
+              "t": "In Córdoba bin ich fast immer mit dem Auto gefahren, weil die Busse nicht oft fahren. Seit ich in Zürich wohne, habe ich kein Auto mehr. Ich fahre mit dem Velo zur Universität, und für längere Strecken nehme ich den Zug. Obwohl ich gern Auto fahre, vermisse ich mein Auto überhaupt nicht."
+            },
+            {
+              "v": "m1",
+              "t": "In Spanien benutzen viele Menschen das Auto, besonders auf dem Land und in kleineren Städten. In Madrid und Barcelona gibt es aber gute Metros, und die Schnellzüge zwischen den großen Städten sind sehr beliebt. Seit einigen Jahren gibt es auch günstige Abos für Pendler."
+            },
+            {
+              "v": "m1",
+              "t": "Der größte Vorteil vom Auto ist die Freiheit: Man kann fahren, wann und wohin man will. Ein Nachteil sind die Kosten und die Staus. Öffentliche Verkehrsmittel sind besser für die Umwelt, und man kann während der Fahrt lesen oder arbeiten. Aber außerhalb der Städte fahren sie oft zu selten. Meiner Meinung nach sollte man in der Stadt auf das Auto verzichten. Auf dem Land ist das schwieriger."
+            },
+            {
+              "v": "m1",
+              "t": "Das war meine Präsentation. Vielen Dank für Ihre Aufmerksamkeit! Haben Sie noch Fragen?"
+            }
+          ],
+          "question": "Würden Sie wieder ein Auto kaufen, wenn Sie in einem Dorf wohnen würden?",
+          "answer": "Ja, wahrscheinlich schon. Wenn der Bus nur einmal pro Stunde fährt, ist man ohne Auto nicht flexibel. Aber ich würde ein kleines Auto oder ein Elektroauto kaufen."
+        },
+        {
+          "title": "Urlaub im eigenen Land oder im Ausland?",
+          "model": [
+            {
+              "v": "f1",
+              "t": "Mein Thema heute ist „Urlaub im eigenen Land oder im Ausland?“. Zuerst spreche ich über meine persönlichen Erfahrungen. Dann erzähle ich, wie man in Spanien Urlaub macht. Danach nenne ich Vor- und Nachteile und meine Meinung, und zum Schluss komme ich zu einem Fazit."
+            },
+            {
+              "v": "f1",
+              "t": "Als Kind habe ich alle Sommerferien in Spanien verbracht, meistens am Strand in der Nähe von Almería. Ins Ausland sind wir fast nie gefahren, weil es für unsere Familie zu teuer war. Heute reise ich sehr gern. Letztes Jahr war ich zum Beispiel mit meinem Partner in Norwegen."
+            },
+            {
+              "v": "f1",
+              "t": "In Spanien machen die meisten Menschen Urlaub im eigenen Land. Im August fahren viele Familien ans Meer oder in ihr Heimatdorf zu den Großeltern. Viele Spanier reisen zum ersten Mal ins Ausland, wenn sie studieren, zum Beispiel mit dem Erasmus-Programm."
+            },
+            {
+              "v": "f1",
+              "t": "Ein Vorteil vom Urlaub im eigenen Land ist, dass die Anreise kurz ist und man die Sprache spricht. Außerdem ist es oft besser für die Umwelt. Im Ausland lernt man dagegen neue Kulturen und neues Essen kennen, und das finde ich sehr wertvoll. Meiner Meinung nach ist eine Mischung ideal: ein großer Urlaub im Ausland pro Jahr und Wochenendreisen innerhalb des Landes."
+            },
+            {
+              "v": "f1",
+              "t": "Damit bin ich am Ende. Vielen Dank fürs Zuhören! Ich freue mich auf Ihre Fragen."
+            }
+          ],
+          "question": "Wo machen Sie lieber Urlaub, seit Sie in der Schweiz wohnen?",
+          "answer": "Ich reise gern in der Schweiz, weil man mit dem Zug in kurzer Zeit in den Bergen ist. Aber im Sommer fahre ich trotzdem jedes Jahr nach Almería, um meine Familie zu besuchen."
+        }
+      ]
+    }
+  }
+}
