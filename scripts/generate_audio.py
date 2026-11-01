@@ -182,6 +182,15 @@ async def main():
         sys.exit("Necesitas ffmpeg instalado.")
     AUDIO.mkdir(exist_ok=True)
     wanted = collect()
+    # Audios de ElevenLabs (scripts/generate_elevenlabs.py): sustituyen a los de la voz gratuita.
+    premium = ROOT / "audio-premium"
+    n_premium = 0
+    for k in wanted:
+        src = premium / f"{k}.mp3"
+        if src.exists():
+            shutil.copyfile(src, AUDIO / f"{k}.mp3")
+            n_premium += 1
+    print(f"{n_premium} audios de ElevenLabs copiados desde audio-premium/")
     missing = [k for k in wanted if not (AUDIO / f"{k}.mp3").exists()]
     if args.limit:
         missing = missing[: args.limit]

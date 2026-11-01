@@ -70,3 +70,15 @@ audio/                     MP3 generados (no se sube al repo; lo crea GitHub Act
 - **Schreiben (texto libre) y Sprechen** no se corrigen solos: tienes texto modelo, audio modelo, grabadora y autoevaluación. El botón «Copiar para corregir con Claude» prepara un prompt con los criterios del Goethe.
 - El contenido lo genera una IA: revisa cada tema con el prompt de revisión y contrasta tu nivel con los **Modellsätze oficiales** gratuitos del Goethe-Institut al final de cada bloque.
 - A2 y B1 necesitarán algunos tipos de pregunta nuevos en `assets/app.js` (ver `docs/esquema.md`).
+
+
+## Audios de ElevenLabs
+
+El A1 tiene sus audios generados con ElevenLabs (Eleven v4 para el examen y los ejercicios de escuchar, v4 Turbo para lecciones y vocabulario). Están en `audio-premium/` y al publicar sustituyen a los de la voz gratuita. Para generar otro nivel:
+
+```
+ELEVENLABS_API_KEY=sk_... python scripts/generate_elevenlabs.py --level a2 --dry-run   # cuenta caracteres
+ELEVENLABS_API_KEY=sk_... python scripts/generate_elevenlabs.py --level a2
+```
+
+La clave nunca se guarda en el repositorio.
