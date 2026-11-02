@@ -16,7 +16,7 @@ En Suiza el dinero está en todas partes: el sueldo, el alquiler, la *Krankenkas
 | [[de:Er hat Schulden bei der Bank.]] | Tiene deudas con el banco. |
 | [[de:Hast du Bargeld dabei, oder kann ich dir das Geld über TWINT schicken?]] | ¿Llevas efectivo, o te mando el dinero por TWINT? |
 
-Palabras clave: **das Einkommen** (ingresos) · **der Lohn** (sueldo) · **die Ausgabe / die Einnahme** (gasto / ingreso) · **ausgeben** (gastar) · **sparen** · **verschwenden** (derrochar) · **der Kredit** (préstamo) · **die Zinsen** (intereses) · **der Betrag** (importe) · **die Steuern** (impuestos) · **die Versicherung** (seguro) · **der Kontoauszug** (extracto) · **die Münze / der Geldschein** (moneda / billete).
+Palabras clave: **das Einkommen** (ingresos) · **der Lohn** (sueldo) · **die Ausgabe / die Einnahme** (gasto / ingreso) · **ausgeben** (gastar) · **sparen** · **verschwenden** (derrochar) · **der Kredit** (préstamo) · **die Zinsen** (intereses) · **der Betrag** (importe) · **die Steuern** (impuestos) · **die Versicherung** (seguro) · **der Kontoauszug** (extracto) · **die Münze / der Geldschein** (moneda / billete) · [[de:sich (Dat.) etwas leisten::permitirse algo]] (*Das kann ich mir nicht leisten*).
 
 Ojo: **die Währung** es la moneda de un país (*der Franken, der Euro*); **die Münze** es la pieza metálica. Y en Suiza **das Trinkgeld** (la propina) está incluido en el precio: se redondea si el servicio ha sido bueno.
 
@@ -34,6 +34,10 @@ Ojo: **die Währung** es la moneda de un país (*der Franken, der Euro*); **die 
 | [[de:Auf das Gerät haben Sie zwei Jahre Garantie.]] | El aparato tiene dos años de garantía. |
 | [[de:Ohne Quittung können wir die Ware leider nicht umtauschen.]] | Sin tique, por desgracia, no podemos cambiar el artículo. |
 | [[de:Lohnt es sich, ein teures Handy zu kaufen?]] | ¿Merece la pena comprar un móvil caro? |
+| [[de:preiswert]] | barato, a buen precio |
+| [[de:liefern]] | entregar, suministrar |
+| [[de:zurückschicken]] (schickt zurück, hat zurückgeschickt) | devolver (por correo) |
+| [[de:das Abonnement / das Abo]] (Pl. die Abonnements / die Abos) | la suscripción, el abono |
 
 Para reclamar por correo (Schreiben Teil 3) te sirven las fórmulas del correo formal del tema 2: [[de:Leider muss ich mich über meine Bestellung beschweren.::Por desgracia tengo que quejarme de mi pedido.]] · [[de:Ich bitte Sie, mir den Betrag zurückzuzahlen.::Le ruego que me devuelva el importe.]]
 
@@ -101,6 +105,13 @@ Recuerda los comparativos irregulares: *viel → **mehr***, *gut → **besser***
 - [[de:Ich finde es wichtig, die kleinen Läden im Viertel zu unterstützen.::Me parece importante apoyar a las tiendas pequeñas del barrio.]]
 - [[de:Wer bar bezahlt, behält den Überblick über seine Ausgaben.::Quien paga en efectivo no pierde de vista sus gastos.]]
 - [[de:Meiner Meinung nach sollte das Bargeld nicht verschwinden.::En mi opinión, el dinero en efectivo no debería desaparecer.]]
+
+### Más vocabulario: consumo
+
+| Alemán | Español |
+|---|---|
+| [[de:der Verbraucher / die Verbraucherin]] (Pl. die Verbraucher / die Verbraucherinnen) | el consumidor / la consumidora |
+| [[de:der Konsum]] | el consumo |
 
 ## 7. Estrategia para el examen B1: Lesen Teil 4 (¿a favor o en contra?)
 

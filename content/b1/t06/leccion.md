@@ -15,7 +15,7 @@ Vivir en Suiza es vivir en el tren: el abono, los transbordos, los retrasos (poc
 | [[de:Auf dieser Strecke gibt es oft Verspätungen.]] | En este trayecto hay retrasos a menudo. |
 | [[de:Achtung, eine Durchsage!]] | ¡Atención, un aviso por megafonía! |
 
-Palabras clave: **das Verkehrsmittel** (medio de transporte) · **der Fahrgast** (pasajero) · **der Pendler / die Pendlerin** (persona que se desplaza a diario al trabajo) · **die Strecke** (trayecto, línea) · **unterwegs** (de camino, de viaje) · **pünktlich** (puntual).
+Palabras clave: **das Verkehrsmittel** (medio de transporte) · **der Fahrgast** (pasajero) · **der Pendler / die Pendlerin** (persona que se desplaza a diario al trabajo) · **die Strecke** (trayecto, línea) · **unterwegs** (de camino, de viaje) · **pünktlich** (puntual) · [[de:pendeln::ir y venir a diario (al trabajo)]] · [[de:der Verkehr::el tráfico; el transporte]] · [[de:der Streik::la huelga]] · [[de:streiken::estar en huelga, hacer huelga]].
 
 En Suiza: **das GA** (*Generalabonnement*, abono general anual) y **das Halbtax** (abono que te da un 50 % de descuento). Los suizos dicen **das Velo** por *das Fahrrad*, **das Tram** por *die Straßenbahn* y a menudo **der ÖV** (*öffentlicher Verkehr*) por *transporte público*.
 
@@ -28,6 +28,12 @@ En Suiza: **das GA** (*Generalabonnement*, abono general anual) y **das Halbtax*
 - [[de:Andrea hat ihren Führerschein in Almería gemacht.::Andrea se sacó el carné de conducir en Almería.]]
 - [[de:In Zürich fahre ich fast überall mit dem Velo.::En Zúrich voy en bici a casi todas partes.]]
 
+### Más vocabulario: en coche
+
+| Alemán | Español |
+|---|---|
+| [[de:der Mietwagen]] (Pl. die Mietwagen) | el coche de alquiler |
+
 ## 3. Organizar un viaje
 
 | Alemán | Español |
@@ -39,6 +45,17 @@ En Suiza: **das GA** (*Generalabonnement*, abono general anual) y **das Halbtax*
 | [[de:Im Handgepäck darf man keine Flüssigkeiten über 100 ml mitnehmen.]] | En el equipaje de mano no se pueden llevar líquidos de más de 100 ml. |
 | [[de:An der Grenze gab es eine Zollkontrolle.]] | En la frontera hubo un control de aduana. |
 | [[de:Wie groß ist die Entfernung von Zürich nach Mailand?]] | ¿Qué distancia hay de Zúrich a Milán? |
+
+### Más vocabulario: viajes y vuelos
+
+| Alemán | Español |
+|---|---|
+| [[de:das Reiseziel]] (Pl. die Reiseziele) | el destino (del viaje) |
+| [[de:die Anreise / die Abreise]] | el viaje de ida, la llegada / la salida, la partida |
+| [[de:verreisen]] (verreist, ist verreist) | irse de viaje |
+| [[de:der Zoll]] | la aduana |
+| [[de:landen]] (landet, ist gelandet) | aterrizar |
+| [[de:die Bordkarte]] (Pl. die Bordkarten) | la tarjeta de embarque |
 
 ## 4. Preposiciones con genitivo
 

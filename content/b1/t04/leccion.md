@@ -15,7 +15,7 @@ En el A2 aprendiste a ir al médico, describir síntomas y dar consejos con *sol
 | [[de:Seit ich mehr Gemüse esse, habe ich drei Kilo abgenommen.]] | Desde que como más verdura he adelgazado tres kilos. |
 | [[de:Im Winter nehme ich immer ein bisschen zu.]] | En invierno siempre engordo un poco. |
 
-Palabras clave: **die Lebensmittel** (alimentos) · **die Zutat** (ingrediente) · **das Vollkornbrot** (pan integral) · **das Fett / fettig** · **der Zucker** · **die Kalorie** · **vegetarisch / vegan** · **der Bioladen** (tienda ecológica) · **abnehmen / zunehmen** (adelgazar / engordar) · **satt** (lleno, saciado).
+Palabras clave: **die Lebensmittel** (alimentos) · **die Zutat** (ingrediente) · **das Vollkornbrot** (pan integral) · **das Fett / fettig** · **der Zucker** · **die Kalorie** · **vegetarisch / vegan** · **der Bioladen** (tienda ecológica) · **abnehmen / zunehmen** (adelgazar / engordar) · **satt** (lleno, saciado) · [[de:der Vegetarier / die Vegetarierin::el / la vegetariano/a]] · [[de:die Portion::la ración]] · [[de:roh::crudo]] · [[de:der Appetit::el apetito]] · [[de:die Diät::la dieta (para adelgazar)]].
 
 En Suiza mucha gente compra en **Migros** y **Coop**, que tienen líneas *Bio* y productos regionales. En la etiqueta (*Etikett*) encontrarás las **Nährwerte** (valores nutricionales) por cada 100 g.
 
@@ -32,6 +32,21 @@ En Suiza mucha gente compra en **Migros** y **Coop**, que tienen líneas *Bio* y
 | [[de:Rauchen ist sehr schädlich für die Gesundheit.]] | Fumar es muy perjudicial para la salud. |
 
 En Suiza el **seguro médico básico** (*Grundversicherung*) es obligatorio. Tú pagas los primeros gastos de cada año hasta la **Franchise** (franquicia) que hayas elegido; por eso mucha gente pregunta primero en la **Apotheke**, donde también te aconsejan.
+
+### Más vocabulario: salud, deporte y hábitos
+
+| Alemán | Español |
+|---|---|
+| [[de:das Übergewicht]] | el sobrepeso |
+| [[de:die Waage]] (Pl. die Waagen) | la báscula |
+| [[de:die Impfung]] (Pl. die Impfungen) | la vacuna, la vacunación |
+| [[de:der Schlaf]] | el sueño (dormir) |
+| [[de:abbauen]] (baut ab, baute ab, hat abgebaut) | reducir, eliminar (estrés) |
+| [[de:der Muskel]] (Pl. die Muskeln) | el músculo |
+| [[de:das Training]] (Pl. die Trainings) | el entrenamiento |
+| [[de:trainieren]] | entrenar |
+| [[de:die Gewohnheit]] (Pl. die Gewohnheiten) | la costumbre, el hábito |
+| [[de:ausprobieren]] (probiert aus, hat ausprobiert) | probar (algo nuevo) |
 
 ## 3. Finalidad con *um … zu*
 

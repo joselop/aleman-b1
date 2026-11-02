@@ -19,6 +19,23 @@ En Suiza la **democracia directa** es parte de la vida diaria: varias veces al a
 
 Palabras clave: **die Gesellschaft** (sociedad) · **die Regierung** (gobierno) · **die Politik / politisch** · **die Wahl / wählen** (elección / votar a, elegir) · **die Abstimmung / abstimmen** (votación / votar sobre algo) · **das Gesetz** (ley) · **die Umfrage** (encuesta) · **die Mehrheit / die Minderheit** · **die Bevölkerung** (población) · **steigen / sinken** (subir / bajar) · **die Gleichberechtigung** (igualdad de derechos) · **die Integration**.
 
+### Más vocabulario: política y noticias
+
+| Alemán | Español |
+|---|---|
+| [[de:der Staat]] (Pl. die Staaten) | el Estado |
+| [[de:der Bürger / die Bürgerin]] (Pl. die Bürger / die Bürgerinnen) | el ciudadano / la ciudadana |
+| [[de:unterstützen]] | apoyar |
+| [[de:fordern]] | exigir, reclamar |
+| [[de:die Demonstration]] (Pl. die Demonstrationen) | la manifestación |
+| [[de:aktuell]] | actual, de actualidad |
+| [[de:das Ereignis]] (Pl. die Ereignisse) | el acontecimiento |
+| [[de:berichten (über)]] | informar (sobre) |
+| [[de:der Bericht]] (Pl. die Berichte) | el informe, el reportaje |
+| [[de:die Studie]] (Pl. die Studien) | el estudio |
+| [[de:das Ergebnis]] (Pl. die Ergebnisse) | el resultado |
+| [[de:veröffentlichen]] | publicar |
+
 ## 2. Temas de actualidad
 
 - [[de:In vielen Städten gibt es zu wenig günstige Wohnungen.::En muchas ciudades hay muy pocos pisos asequibles.]]
@@ -27,6 +44,25 @@ Palabras clave: **die Gesellschaft** (sociedad) · **die Regierung** (gobierno) 
 - [[de:Ein Viertel der Bevölkerung in der Schweiz hat keinen Schweizer Pass.::Una cuarta parte de la población de Suiza no tiene pasaporte suizo.]]
 - [[de:Viele junge Leute engagieren sich für den Klimaschutz.::Muchos jóvenes se comprometen con la protección del clima.]]
 - [[de:Die Lebenshaltungskosten sind stark gestiegen.::El coste de la vida ha subido mucho.]]
+
+### Más vocabulario: sociedad y cambios
+
+| Alemán | Español |
+|---|---|
+| [[de:der Ausländer / die Ausländerin]] (Pl. die Ausländer / die Ausländerinnen) | el extranjero / la extranjera |
+| [[de:der Flüchtling]] (Pl. die Flüchtlinge) | el refugiado / la refugiada |
+| [[de:gerecht / ungerecht]] | justo / injusto |
+| [[de:die Armut]] | la pobreza |
+| [[de:die Arbeitslosigkeit]] | el desempleo |
+| [[de:die Rente]] (Pl. die Renten) | la pensión, la jubilación |
+| [[de:die Steuer]] (Pl. die Steuern) | el impuesto |
+| [[de:die Generation]] (Pl. die Generationen) | la generación |
+| [[de:die Sicherheit]] | la seguridad |
+| [[de:öffentlich]] | público |
+| [[de:zunehmen]] (nimmt zu, hat zugenommen) | aumentar |
+| [[de:die Entwicklung]] (Pl. die Entwicklungen) | el desarrollo, la evolución |
+| [[de:sich verändern]] | cambiar(se) |
+| [[de:die Lösung]] (Pl. die Lösungen) | la solución |
 
 ## 3. El participio I como adjetivo (*die steigenden Preise*)
 
@@ -114,6 +150,7 @@ En el **Schreiben Teil 2** lees un tema de debate (de un programa de televisión
 | Alemán | Español |
 |---|---|
 | [[de:Ich stimme Lena zu, denn …]] | Estoy de acuerdo con Lena, porque… |
+| [[de:zustimmen]] (stimmt zu, hat zugestimmt) | estar de acuerdo con, aprobar |
 | [[de:Da hat Lena völlig recht.]] | En eso Lena tiene toda la razón. |
 | [[de:Ich sehe das anders als Lena.]] | Yo lo veo distinto que Lena. |
 | [[de:Lena hat zwar recht, dass …, aber …]] | Lena tiene razón en que…, pero… |

@@ -15,9 +15,19 @@ El móvil, el ordenador, las redes sociales, las noticias en internet y la intel
 | [[de:Ich muss zuerst ein Update installieren.]] | Primero tengo que instalar una actualización. |
 | [[de:Am Wochenende schalte ich das Handy ab.]] | El fin de semana apago el móvil (y desconecto). |
 
-Palabras clave: **das Gerät** (aparato) · **der Bildschirm** (pantalla) · **die Tastatur** (teclado) · **speichern / löschen** (guardar / borrar) · **die Daten** (datos) · **der Datenschutz** (protección de datos) · **der Nutzer / die Nutzerin** (usuario) · **erreichbar** (localizable) · **ständig** (constantemente).
+Palabras clave: **das Gerät** (aparato) · **der Bildschirm** (pantalla) · **die Tastatur** (teclado) · **speichern / löschen** (guardar / borrar) · **die Daten** (datos) · **der Datenschutz** (protección de datos) · **der Nutzer / die Nutzerin** (usuario) · **erreichbar** (localizable) · **ständig** (constantemente) · [[de:aufladen::cargar (la batería)]] · [[de:die Sicherheit::la seguridad]].
 
 En Suiza dirás a menudo **das Handy** (móvil) y, para el wifi, tanto *WLAN* como *Wifi*. En las noticias suizas oirás *der Datenschutz* muy a menudo: los suizos son muy sensibles con sus datos.
+
+### Más vocabulario: innovación
+
+| Alemán | Español |
+|---|---|
+| [[de:die Entwicklung]] (Pl. die Entwicklungen) | el desarrollo, la evolución |
+| [[de:entwickeln]] | desarrollar |
+| [[de:die Erfindung]] (Pl. die Erfindungen) | el invento |
+| [[de:erfinden]] (erfindet, erfand, hat erfunden) | inventar |
+| [[de:digital]] | digital |
 
 ## 2. Cuando algo no funciona
 
@@ -38,6 +48,15 @@ En Suiza dirás a menudo **das Handy** (móvil) y, para el wifi, tanto *WLAN* co
 - [[de:Bevor ich etwas teile, prüfe ich die Quelle.::Antes de compartir algo, compruebo la fuente.]]
 - [[de:Im Internet gibt es viele Falschmeldungen.::En internet hay muchos bulos (noticias falsas).]]
 - [[de:Ich lese immer zuerst die Bewertungen.::Siempre leo primero las valoraciones.]]
+
+### Más vocabulario: medios y hábitos digitales
+
+| Alemán | Español |
+|---|---|
+| [[de:der Bericht]] (Pl. die Berichte) | el reportaje, el informe |
+| [[de:das Abonnement / das Abo]] (Pl. die Abonnements / die Abos) | la suscripción, el abono |
+| [[de:süchtig (nach)]] | adicto (a) |
+| [[de:abschalten]] (schaltet ab, hat abgeschaltet) | apagar; desconectar (descansar) |
 
 ## 4. Konjunktiv II en presente: *würde, wäre, hätte, könnte…*
 
@@ -125,6 +144,16 @@ Para lo que **pudo ser y no fue** (arrepentimientos, reproches, alternativas en 
 | | [[de:Das stimmt, aber man darf nicht vergessen, dass …]] | Eso es verdad, pero no hay que olvidar que… |
 
 Y con Konjunktiv II suena más prudente y más B1: [[de:Ich würde sagen, dass das Problem nicht die Technik ist.::Yo diría que el problema no es la tecnología.]] · [[de:Es wäre besser, wenn Kinder erst mit zwölf ein Handy bekommen würden.::Sería mejor que los niños no tuvieran móvil hasta los doce años.]]
+
+### Más vocabulario: opinar y discutir
+
+| Alemán | Español |
+|---|---|
+| [[de:die Ansicht]] (Pl. die Ansichten) | el punto de vista, la opinión |
+| [[de:zustimmen (+ Dat)]] (stimmt zu, stimmte zu, hat zugestimmt) | estar de acuerdo (con alguien) |
+| [[de:widersprechen (+ Dat)]] (widerspricht, widersprach, hat widersprochen) | contradecir, llevar la contraria |
+| [[de:behaupten]] | afirmar (sin pruebas) |
+| [[de:überzeugen]] | convencer |
 
 ## 7. Estrategia para el examen B1: Lesen Teil 4 y Schreiben Teil 2
 

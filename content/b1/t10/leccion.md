@@ -21,7 +21,7 @@ Estudiar, formarse y aprender (también alemán) es el tema de esta unidad: el s
 - **Alemania:** el bachillerato se llama **Abitur**; la FP dual se llama **Ausbildung** y el aprendiz es **der/die Auszubildende (Azubi)**. En Suiza se dice **der/die Lernende** o **der Lehrling**.
 - **España:** la mayoría estudia bachillerato y universidad; la FP tiene (todavía) menos prestigio. ¡Buen material para la diapositiva 3 de tu presentación!
 
-Palabras clave: **die Hochschule** · **der Studiengang** (carrera) · **das Seminar** · **die Studiengebühren** (tasas) · **das Diplom** · **der Dozent / die Dozentin** · **der Unterricht** (las clases) · **unterrichten** · **das Fernstudium** (a distancia) · **sich weiterbilden** · **die Anmeldung** (inscripción).
+Palabras clave: **die Hochschule** · **der Studiengang** (carrera) · **das Seminar** · **die Studiengebühren** (tasas) · **das Diplom** · **der Dozent / die Dozentin** · **der Unterricht** (las clases) · **unterrichten** · **das Fernstudium** (a distancia) · **sich weiterbilden** · **die Anmeldung** (inscripción) · [[de:die Teilnahme::la participación, la asistencia]] · [[de:abschließen::terminar, acabar (unos estudios)]] (*schließt ab, hat abgeschlossen*).
 
 ## 2. Cómo aprendo: métodos, dificultades y progresos
 
@@ -33,6 +33,20 @@ Palabras clave: **die Hochschule** · **der Studiengang** (carrera) · **das Sem
 - [[de:Du machst große Fortschritte!::¡Estás progresando mucho!]]
 - [[de:Mein Ziel ist das B1-Zertifikat im Juni.::Mi objetivo es el certificado B1 en junio.]]
 - [[de:Übung macht den Meister.::La práctica hace al maestro.]]
+
+### Más vocabulario: aprender
+
+| Alemán | Español |
+|---|---|
+| [[de:die Kenntnisse (Pl.)]] | los conocimientos |
+| [[de:die Fremdsprache]] (Pl. die Fremdsprachen) | la lengua extranjera |
+| [[de:die Motivation]] | la motivación |
+| [[de:motiviert]] | motivado |
+| [[de:nachschlagen]] (schlägt nach, hat nachgeschlagen) | consultar (en un diccionario, un libro) |
+| [[de:der Lernstoff]] | la materia (que hay que estudiar) |
+| [[de:der Erfolg]] (Pl. die Erfolge) | el éxito |
+| [[de:die Methode]] (Pl. die Methoden) | el método |
+| [[de:fleißig]] | trabajador, aplicado |
 
 ## 3. Nominalización (I): el verbo como sustantivo
 
@@ -101,6 +115,14 @@ Pista para el español: muchas palabras en **-ción** corresponden a **-ung** (*
 ## 6. Estrategia para el examen B1: presentar un tema (Sprechen Teil 2 y 3)
 
 En **Sprechen Teil 2** presentas un tema durante **unos 3 minutos** con **cinco diapositivas** (Folien). Tienes **15 minutos de preparación** (junto con Teil 1) y puedes llevar **notas con palabras clave**, no frases enteras. Después, en **Teil 3**, reaccionas a la presentación de tu compañero/a (le das tu impresión y le haces una pregunta) y contestas a su pregunta sobre la tuya.
+
+### Más vocabulario: presentar
+
+| Alemán | Español |
+|---|---|
+| [[de:der Vortrag]] (Pl. die Vorträge) | la charla, la conferencia |
+| [[de:die Zuhörer (Pl.)]] | el público, los oyentes |
+| [[de:zusammenfassen]] (fasst zusammen, hat zusammengefasst) | resumir |
 
 **Diapositiva 1 – Introducción y estructura**
 

@@ -15,7 +15,7 @@ Las relaciones personales son uno de los temas favoritos del Goethe B1: la famil
 | [[de:Sie ist alleinerziehend und hat zwei Kinder.]] | Es madre soltera y tiene dos hijos. |
 | [[de:José und Andrea sind nicht verheiratet, sie leben zusammen.]] | José y Andrea no están casados, viven juntos. |
 
-Palabras clave: **die Verwandten** (los parientes) · **der Schwager / die Schwägerin** (cuñado/a) · **die Schwiegermutter / der Schwiegervater** (suegra / suegro) · **der Neffe / die Nichte** (sobrino/a) · **der Cousin / die Cousine** (primo/a) · **der Enkel / die Enkelin** (nieto/a) · **der Lebensgefährte / die Lebensgefährtin** (la pareja, sin estar casados) · **die Ehe** (el matrimonio) · **die Scheidung** (el divorcio) · **die Patchworkfamilie** (familia reconstituida).
+Palabras clave: **die Verwandten** (los parientes) · **der Schwager / die Schwägerin** (cuñado/a) · **die Schwiegermutter / der Schwiegervater** (suegra / suegro) · **der Neffe / die Nichte** (sobrino/a) · **der Cousin / die Cousine** (primo/a) · **der Enkel / die Enkelin** (nieto/a) · **der Lebensgefährte / die Lebensgefährtin** (la pareja, sin estar casados) · **die Ehe** (el matrimonio) · **die Scheidung** (el divorcio) · **die Patchworkfamilie** (familia reconstituida) · [[de:der Ehemann / die Ehefrau::el marido / la esposa]] · [[de:erziehen::educar, criar]] · [[de:die Erziehung::la educación (de los hijos), la crianza]] · [[de:der Trauzeuge / die Trauzeugin::el testigo / la testigo de boda]] · [[de:der Jahrestag::el aniversario]] · [[de:zusammenziehen::irse a vivir juntos]] (*zieht zusammen, ist zusammengezogen*).
 
 ## 2. Hablar de relaciones
 
@@ -32,6 +32,22 @@ Palabras clave: **die Verwandten** (los parientes) · **der Schwager / die Schw�
 | [[de:Sie haben sich nach zwanzig Jahren scheiden lassen.]] | Se divorciaron después de veinte años. |
 
 Ojo: **vermissen** (echar de menos) lleva acusativo: [[de:Ich vermisse dich.::Te echo de menos.]] Y *divorciarse* se dice **sich scheiden lassen** (literalmente "hacerse divorciar").
+
+### Más vocabulario: relaciones
+
+| Alemán | Español |
+|---|---|
+| [[de:die Freundschaft]] (Pl. die Freundschaften) | la amistad |
+| [[de:die Liebe]] | el amor |
+| [[de:der/die Bekannte]] (Pl. die Bekannten) | el conocido / la conocida |
+| [[de:das Vertrauen]] | la confianza |
+| [[de:vertrauen (+ Dat.)]] | confiar (en alguien) |
+| [[de:der Streit]] | la pelea, la discusión |
+| [[de:eifersüchtig (auf + Akk.)]] | celoso/a (de) |
+| [[de:treu]] | fiel |
+| [[de:die Rücksicht (auf + Akk.)]] | la consideración (hacia alguien) |
+| [[de:gemeinsam]] | juntos, en común |
+| [[de:der Praktikant / die Praktikantin]] (Pl. die Praktikanten / die Praktikantinnen) | el/la becario/a, el/la que hace prácticas |
 
 ## 3. Verbos con preposición (nivel B1)
 

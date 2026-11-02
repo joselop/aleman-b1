@@ -46,6 +46,16 @@ En Suiza casi todo el mundo vive de alquiler, y muchos edificios tienen una **Wa
 
 Un buen vecino es **rücksichtsvoll** (considerado): respeta la **Nachtruhe** (de 22 a 7 h), deja el **Treppenhaus** limpio y no ocupa la lavandería fuera de su turno. Si hay un problema, primero se habla con la persona y solo después se escribe a la **Hausverwaltung** (*eine Beschwerde schreiben*).
 
+### Más vocabulario: convivencia y basura
+
+| Alemán | Español |
+|---|---|
+| [[de:die Rücksicht]] | la consideración, el respeto |
+| [[de:annehmen]] (nimmt an, nahm an, hat angenommen) | aceptar; recoger (un paquete) |
+| [[de:die Mülltonne]] (Pl. die Mülltonnen) | el contenedor de basura |
+| [[de:das Altpapier]] | el papel para reciclar |
+| [[de:entsorgen]] | deshacerse de, tirar (correctamente) |
+
 ## 3. Averías y reparaciones
 
 | Alemán | Español |
@@ -57,6 +67,15 @@ Un buen vecino es **rücksichtsvoll** (considerado): respeta la **Nachtruhe** (d
 | [[de:An der Decke ist ein Wasserschaden.]] | En el techo hay daños por agua. |
 | [[de:Wann kann der Handwerker vorbeikommen?]] | ¿Cuándo puede pasar el técnico? |
 | [[de:Ich habe meinen Schlüssel verloren und kann nicht in die Wohnung.]] | He perdido la llave y no puedo entrar en el piso. |
+
+### Más vocabulario: reparaciones
+
+| Alemán | Español |
+|---|---|
+| [[de:der Handwerker / die Handwerkerin]] (Pl. die Handwerker / die Handwerkerinnen) | el / la operario/a, el técnico |
+| [[de:der Schaden]] (Pl. die Schäden) | el daño, la avería |
+| [[de:renovieren]] | renovar, reformar |
+| [[de:ersetzen]] | sustituir, reemplazar |
 
 ## 4. La voz pasiva en presente: *wird gemacht*
 

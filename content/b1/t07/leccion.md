@@ -15,7 +15,7 @@ Suiza es el país de la basura bien separada, del tren puntual y de los glaciare
 | [[de:Die Abgase der Autos schaden der Umwelt.]] | Los gases de escape de los coches perjudican al medio ambiente. |
 | [[de:Eine Ursache ist der hohe Energieverbrauch.]] | Una causa es el alto consumo de energía. |
 
-Palabras clave: **die Ursache** (la causa) · **die Folge** (la consecuencia; *die Folgen des Klimawandels*) · **die Erderwärmung** (el calentamiento global) · **die Verschmutzung** (la contaminación) · **schaden** + dativo (perjudicar) · **steigen / sinken** (subir / bajar) · **die Katastrophe** · **die Generation** (*die nächsten Generationen*).
+Palabras clave: **die Ursache** (la causa) · **die Folge** (la consecuencia; *die Folgen des Klimawandels*) · **die Erderwärmung** (el calentamiento global) · **die Verschmutzung** (la contaminación) · **schaden** + dativo (perjudicar) · **steigen / sinken** (subir / bajar) · **die Katastrophe** · **die Generation** (*die nächsten Generationen*) · [[de:das Klima::el clima]] · [[de:der Umweltschutz::la protección del medio ambiente]] · [[de:umweltschädlich::perjudicial para el medio ambiente]] · [[de:die Natur::la naturaleza]] · [[de:die Art::la especie; el tipo]] (*Tier- und Pflanzenarten*) · [[de:aussterben::extinguirse]] (*stirbt aus, ist ausgestorben*).
 
 Ojo con *schaden*: rige **dativo** como *helfen*: [[de:Plastik schadet dem Meer.::El plástico perjudica al mar.]]
 
@@ -38,7 +38,7 @@ Ojo con *schaden*: rige **dativo** como *helfen*: [[de:Plastik schadet dem Meer.
 - [[de:PET-Flaschen kann man im Supermarkt zurückgeben.::Las botellas de PET se pueden devolver en el supermercado.]]
 - [[de:Wer den Müll falsch entsorgt, muss eine Strafe bezahlen.::Quien se deshace mal de la basura tiene que pagar una multa.]]
 
-Palabras clave: **recyceln** (reciclar) · **wegwerfen** (tirar) · **entsorgen** (deshacerse de algo correctamente) · **die Verpackung** (el envase, el embalaje) · **nachhaltig** (sostenible) · **erneuerbare Energien** (energías renovables) · **reduzieren** (reducir) · **verzichten auf** + acusativo (renunciar a).
+Palabras clave: **recyceln** (reciclar) · **wegwerfen** (tirar) · **entsorgen** (deshacerse de algo correctamente) · **die Verpackung** (el envase, el embalaje) · **nachhaltig** (sostenible) · **erneuerbare Energien** (energías renovables) · **reduzieren** (reducir) · **verzichten auf** + acusativo (renunciar a) · [[de:heizen::calentar, poner la calefacción]] · [[de:das Kraftwerk::la central eléctrica]].
 
 ## 3. La pasiva con verbos modales
 
@@ -120,6 +120,17 @@ Para el Sprechen y el Schreiben necesitas proponer medidas. Combina lo que ya sa
 - [[de:Meiner Meinung nach muss mehr in erneuerbare Energien investiert werden.::En mi opinión, hay que invertir más en energías renovables.]]
 - [[de:Jeder Einzelne kann etwas tun, um die Umwelt zu schützen.::Cada uno puede hacer algo para proteger el medio ambiente.]]
 - [[de:Ich bin dagegen, dass das Benzin noch teurer wird.::Estoy en contra de que la gasolina se encarezca más.]]
+
+### Más vocabulario: futuro y medidas
+
+Palabras útiles para proponer soluciones y hablar de lo que vendrá:
+
+| Alemán | Español |
+|---|---|
+| [[de:die Zukunft]] | el futuro |
+| [[de:die Maßnahme]] (Pl. die Maßnahmen) | la medida |
+| [[de:das Verbot]] (Pl. die Verbote) | la prohibición |
+| [[de:das Elektroauto]] (Pl. die Elektroautos) | el coche eléctrico |
 
 ## 6. Estrategia para el examen B1: Lesen Teil 4 (¿a favor o en contra?)
 

@@ -19,6 +19,25 @@ Palabras clave: **die Aufführung / die Vorstellung** (función, representación
 
 En Zúrich: el **Schauspielhaus**, la **Tonhalle** (conciertos), el **Opernhaus**, el **Kunsthaus**, el **Zürich Film Festival** (finales de septiembre) y en verano el **Theaterspektakel** en la orilla del lago. La **Museumsnacht** (una noche al año, una entrada para todos los museos) es un clásico.
 
+### Más vocabulario: cultura y eventos
+
+| Alemán | Español |
+|---|---|
+| [[de:das Orchester]] (Pl. die Orchester) | la orquesta |
+| [[de:die Oper]] (Pl. die Opern) | la ópera |
+| [[de:das Instrument]] (Pl. die Instrumente) | el instrumento |
+| [[de:der Saal]] (Pl. die Säle) | la sala |
+| [[de:die Kunst]] (Pl. die Künste) | el arte |
+| [[de:die Sammlung]] (Pl. die Sammlungen) | la colección |
+| [[de:der Roman]] (Pl. die Romane) | la novela |
+| [[de:der Autor / die Autorin]] (Pl. die Autoren / die Autorinnen) | el autor / la autora |
+| [[de:die Kritik]] (Pl. die Kritiken) | la crítica (reseña) |
+| [[de:die Veranstaltung]] (Pl. die Veranstaltungen) | el evento, el acto |
+| [[de:der Besucher / die Besucherin]] (Pl. die Besucher / die Besucherinnen) | el / la visitante |
+| [[de:die Reihe]] (Pl. die Reihen) | la fila |
+| [[de:das Abonnement (das Abo)]] (Pl. die Abonnements) | el abono, la suscripción |
+| [[de:die Tradition]] (Pl. die Traditionen) | la tradición |
+
 ## 2. Ocio, clubs y voluntariado
 
 - [[de:Seit einem Jahr singe ich in einem Chor.::Desde hace un año canto en un coro.]]
@@ -37,6 +56,18 @@ Opinar sobre un espectáculo o un libro:
 | [[de:Am besten hat mir die Musik gefallen.]] | Lo que más me gustó fue la música. |
 | [[de:Das Buch kann ich nur empfehlen.]] | El libro solo puedo recomendarlo. |
 | [[de:Ich hätte mir mehr erwartet.]] | Esperaba más. |
+| [[de:berühmt]] | famoso |
+| [[de:begeistert (von)]] | entusiasmado (con) |
+
+### Más vocabulario: ocio
+
+| Alemán | Español |
+|---|---|
+| [[de:der Wettbewerb]] (Pl. die Wettbewerbe) | el concurso, la competición |
+| [[de:gewinnen]] (gewinnt, hat gewonnen) | ganar |
+| [[de:basteln]] | hacer manualidades |
+| [[de:sammeln]] | coleccionar, recoger |
+| [[de:die Unterhaltung]] (Pl. die Unterhaltungen) | el entretenimiento; la conversación |
 
 ## 3. Oraciones de relativo con preposición
 
