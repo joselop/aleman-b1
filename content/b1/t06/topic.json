@@ -13,430 +13,57 @@
     "Planificar un viaje o una excursión con otra persona: proponer, reaccionar y decidir (Sprechen Teil 1)"
   ],
   "vocab": [
-    {
-      "de": "das Verkehrsmittel",
-      "pl": "die Verkehrsmittel",
-      "es": "el medio de transporte",
-      "cat": "Transporte",
-      "ex": "Die öffentlichen Verkehrsmittel in der Schweiz sind sehr pünktlich.",
-      "ex_es": "El transporte público en Suiza es muy puntual."
-    },
-    {
-      "de": "der Verkehr",
-      "es": "el tráfico; el transporte",
-      "cat": "Transporte",
-      "ex": "Am Freitagabend ist immer viel Verkehr.",
-      "ex_es": "El viernes por la tarde siempre hay mucho tráfico."
-    },
-    {
-      "de": "der Fahrgast",
-      "pl": "die Fahrgäste",
-      "es": "el pasajero / la pasajera",
-      "cat": "Transporte",
-      "ex": "Die Fahrgäste mussten eine Stunde warten.",
-      "ex_es": "Los pasajeros tuvieron que esperar una hora."
-    },
-    {
-      "de": "der Pendler / die Pendlerin",
-      "pl": "die Pendler / die Pendlerinnen",
-      "es": "persona que se desplaza a diario al trabajo",
-      "cat": "Transporte",
-      "ex": "Morgens sind die Züge voller Pendler.",
-      "ex_es": "Por la mañana los trenes van llenos de gente que va a trabajar."
-    },
-    {
-      "de": "pendeln",
-      "es": "ir y venir a diario (al trabajo)",
-      "cat": "Transporte",
-      "forms": "er pendelt, ist gependelt",
-      "ex": "Ich pendle jeden Tag von Baden nach Zürich.",
-      "ex_es": "Voy y vengo cada día de Baden a Zúrich."
-    },
-    {
-      "de": "das Generalabonnement (GA)",
-      "es": "el abono general (todo el transporte público de Suiza)",
-      "cat": "Transporte",
-      "ex": "Mit dem GA fahre ich auch mit dem Schiff gratis.",
-      "ex_es": "Con el abono general también voy gratis en barco."
-    },
-    {
-      "de": "das Halbtax",
-      "es": "el abono de media tarifa (Suiza)",
-      "cat": "Transporte",
-      "ex": "Mit dem Halbtax zahlst du nur die Hälfte.",
-      "ex_es": "Con el abono de media tarifa pagas solo la mitad."
-    },
-    {
-      "de": "der Fahrplan",
-      "pl": "die Fahrpläne",
-      "es": "el horario (de trenes, autobuses)",
-      "cat": "Transporte",
-      "ex": "Im Dezember ändert sich der Fahrplan.",
-      "ex_es": "En diciembre cambia el horario."
-    },
-    {
-      "de": "die Strecke",
-      "pl": "die Strecken",
-      "es": "el trayecto, la línea, el tramo",
-      "cat": "Transporte",
-      "ex": "Die Strecke zwischen Bern und Thun ist gesperrt.",
-      "ex_es": "El tramo entre Berna y Thun está cortado."
-    },
-    {
-      "de": "die Durchsage",
-      "pl": "die Durchsagen",
-      "es": "el aviso (por megafonía)",
-      "cat": "Transporte",
-      "ex": "Ich habe die Durchsage nicht verstanden.",
-      "ex_es": "No he entendido el aviso."
-    },
-    {
-      "de": "der Wagen",
-      "pl": "die Wagen",
-      "es": "el vagón; el coche",
-      "cat": "Transporte",
-      "ex": "Der Speisewagen ist in der Mitte des Zuges.",
-      "ex_es": "El vagón restaurante está en el centro del tren."
-    },
-    {
-      "de": "der Sitzplatz",
-      "pl": "die Sitzplätze",
-      "es": "el asiento, la plaza sentada",
-      "cat": "Transporte",
-      "ex": "Im Zug nach Mailand muss man einen Sitzplatz reservieren.",
-      "ex_es": "En el tren a Milán hay que reservar asiento."
-    },
-    {
-      "de": "reservieren",
-      "es": "reservar",
-      "cat": "Viajes",
-      "forms": "er reserviert, hat reserviert",
-      "ex": "Ich habe zwei Plätze am Fenster reserviert.",
-      "ex_es": "He reservado dos asientos de ventanilla."
-    },
-    {
-      "de": "pünktlich",
-      "es": "puntual, a la hora",
-      "cat": "Transporte",
-      "ex": "Der Zug ist pünktlich in Genf angekommen.",
-      "ex_es": "El tren ha llegado puntual a Ginebra."
-    },
-    {
-      "de": "unterwegs",
-      "es": "de camino, de viaje, fuera",
-      "cat": "Viajes",
-      "ex": "Ich bin gerade unterwegs und rufe dich später an.",
-      "ex_es": "Ahora estoy de camino y te llamo más tarde."
-    },
-    {
-      "de": "der Stau",
-      "pl": "die Staus",
-      "es": "el atasco",
-      "cat": "Coche",
-      "ex": "Vor dem Gotthard gibt es 12 Kilometer Stau.",
-      "ex_es": "Antes del Gotardo hay 12 kilómetros de atasco."
-    },
-    {
-      "de": "die Baustelle",
-      "pl": "die Baustellen",
-      "es": "las obras (en la calle, la carretera)",
-      "cat": "Coche",
-      "ex": "Wegen einer Baustelle ist die Straße gesperrt.",
-      "ex_es": "Por unas obras la calle está cortada."
-    },
-    {
-      "de": "die Umleitung",
-      "pl": "die Umleitungen",
-      "es": "el desvío",
-      "cat": "Coche",
-      "ex": "Der Bus fährt heute eine Umleitung.",
-      "ex_es": "Hoy el autobús hace un desvío."
-    },
-    {
-      "de": "der Streik",
-      "pl": "die Streiks",
-      "es": "la huelga",
-      "cat": "Transporte",
-      "ex": "Wegen des Streiks fallen viele Flüge aus.",
-      "ex_es": "Por la huelga se cancelan muchos vuelos."
-    },
-    {
-      "de": "streiken",
-      "es": "estar en huelga, hacer huelga",
-      "cat": "Transporte",
-      "forms": "er streikt, hat gestreikt",
-      "ex": "Die Lokführer in Deutschland streiken schon wieder.",
-      "ex_es": "Los maquinistas en Alemania vuelven a estar en huelga."
-    },
-    {
-      "de": "die Autobahn",
-      "pl": "die Autobahnen",
-      "es": "la autopista",
-      "cat": "Coche",
-      "ex": "Auf der Autobahn darf man in der Schweiz 120 fahren.",
-      "ex_es": "En Suiza se puede ir a 120 por la autopista."
-    },
-    {
-      "de": "die Vignette",
-      "pl": "die Vignetten",
-      "es": "la viñeta (peaje anual de autopista)",
-      "cat": "Coche",
-      "ex": "Die Vignette kostet 40 Franken pro Jahr.",
-      "ex_es": "La viñeta cuesta 40 francos al año."
-    },
-    {
-      "de": "tanken",
-      "es": "echar gasolina, repostar",
-      "cat": "Coche",
-      "forms": "er tankt, hat getankt",
-      "ex": "Wir müssen vor der Grenze noch tanken.",
-      "ex_es": "Antes de la frontera tenemos que repostar."
-    },
-    {
-      "de": "die Tankstelle",
-      "pl": "die Tankstellen",
-      "es": "la gasolinera",
-      "cat": "Coche",
-      "ex": "Die nächste Tankstelle ist in 20 Kilometern.",
-      "ex_es": "La próxima gasolinera está a 20 kilómetros."
-    },
-    {
-      "de": "der Führerschein",
-      "pl": "die Führerscheine",
-      "es": "el carné de conducir",
-      "cat": "Coche",
-      "ex": "Seit wann hast du den Führerschein?",
-      "ex_es": "¿Desde cuándo tienes el carné de conducir?"
-    },
-    {
-      "de": "der Mietwagen",
-      "pl": "die Mietwagen",
-      "es": "el coche de alquiler",
-      "cat": "Coche",
-      "ex": "Auf Mallorca haben wir einen Mietwagen genommen.",
-      "ex_es": "En Mallorca cogimos un coche de alquiler."
-    },
-    {
-      "de": "das Velo",
-      "pl": "die Velos",
-      "es": "la bici (en Suiza)",
-      "cat": "Transporte",
-      "ex": "In Zürich fahre ich fast überall mit dem Velo.",
-      "ex_es": "En Zúrich voy en bici a casi todas partes."
-    },
-    {
-      "de": "der ÖV (öffentlicher Verkehr)",
-      "es": "el transporte público (en Suiza)",
-      "cat": "Transporte",
-      "ex": "In Zürich kommt man mit dem ÖV überallhin.",
-      "ex_es": "En Zúrich se llega a todas partes en transporte público."
-    },
-    {
-      "de": "die Störung",
-      "pl": "die Störungen",
-      "es": "la avería, la incidencia",
-      "cat": "Transporte",
-      "ex": "Wegen einer Störung fährt der Zug heute auf Gleis 7 ab.",
-      "ex_es": "Por una avería, hoy el tren sale de la vía 7."
-    },
-    {
-      "de": "laut (+ Dat./Gen.)",
-      "es": "según",
-      "cat": "Transporte",
-      "ex": "Laut Fahrplan fährt der Zug um 8.32 Uhr ab.",
-      "ex_es": "Según el horario, el tren sale a las 8:32."
-    },
-    {
-      "de": "erreichen",
-      "es": "alcanzar, llegar a tiempo a; localizar (a alguien)",
-      "cat": "Transporte",
-      "forms": "er erreicht, erreichte, hat erreicht",
-      "ex": "Wenn wir uns beeilen, erreichen wir den Zug noch.",
-      "ex_es": "Si nos damos prisa, todavía cogemos el tren."
-    },
-    {
-      "de": "die Grenze",
-      "pl": "die Grenzen",
-      "es": "la frontera",
-      "cat": "Viajes",
-      "ex": "Basel liegt direkt an der Grenze zu Deutschland und Frankreich.",
-      "ex_es": "Basilea está justo en la frontera con Alemania y Francia."
-    },
-    {
-      "de": "der Zoll",
-      "es": "la aduana",
-      "cat": "Viajes",
-      "ex": "Am Zoll mussten wir den Koffer öffnen.",
-      "ex_es": "En la aduana tuvimos que abrir la maleta."
-    },
-    {
-      "de": "das Reiseziel",
-      "pl": "die Reiseziele",
-      "es": "el destino (del viaje)",
-      "cat": "Viajes",
-      "ex": "Was ist dein Lieblingsreiseziel?",
-      "ex_es": "¿Cuál es tu destino de viaje favorito?"
-    },
-    {
-      "de": "die Pauschalreise",
-      "pl": "die Pauschalreisen",
-      "es": "el viaje organizado (todo incluido)",
-      "cat": "Viajes",
-      "ex": "Eine Pauschalreise ist bequem, aber nicht immer billig.",
-      "ex_es": "Un viaje organizado es cómodo, pero no siempre barato."
-    },
-    {
-      "de": "das Reisebüro",
-      "pl": "die Reisebüros",
-      "es": "la agencia de viajes",
-      "cat": "Viajes",
-      "ex": "Meine Eltern buchen ihre Reisen immer im Reisebüro.",
-      "ex_es": "Mis padres siempre reservan sus viajes en la agencia."
-    },
-    {
-      "de": "die Anreise / die Abreise",
-      "es": "el viaje de ida, la llegada / la salida, la partida",
-      "cat": "Viajes",
-      "ex": "Am Tag der Abreise müssen Sie das Zimmer bis 11 Uhr verlassen.",
-      "ex_es": "El día de la salida tiene que dejar la habitación antes de las 11 h."
-    },
-    {
-      "de": "übernachten",
-      "es": "pasar la noche, alojarse",
-      "cat": "Viajes",
-      "forms": "er übernachtet, hat übernachtet",
-      "ex": "Wir haben in einer Berghütte übernachtet.",
-      "ex_es": "Pasamos la noche en un refugio de montaña."
-    },
-    {
-      "de": "die Übernachtung",
-      "pl": "die Übernachtungen",
-      "es": "la noche (de alojamiento), la pernoctación",
-      "cat": "Viajes",
-      "ex": "Die Übernachtung kostet 90 Franken mit Frühstück.",
-      "ex_es": "La noche cuesta 90 francos con desayuno."
-    },
-    {
-      "de": "die Halbpension",
-      "es": "la media pensión",
-      "cat": "Viajes",
-      "ex": "Wir haben ein Zimmer mit Halbpension gebucht.",
-      "ex_es": "Hemos reservado una habitación con media pensión."
-    },
-    {
-      "de": "die Entfernung",
-      "pl": "die Entfernungen",
-      "es": "la distancia",
-      "cat": "Viajes",
-      "ex": "Die Entfernung zwischen Zürich und Bern beträgt etwa 120 Kilometer.",
-      "ex_es": "La distancia entre Zúrich y Berna es de unos 120 kilómetros."
-    },
-    {
-      "de": "verreisen",
-      "es": "irse de viaje",
-      "cat": "Viajes",
-      "forms": "er verreist, ist verreist",
-      "ex": "Über Ostern verreisen wir nicht.",
-      "ex_es": "En Semana Santa no nos vamos de viaje."
-    },
-    {
-      "de": "losfahren",
-      "es": "salir, ponerse en marcha (en un vehículo)",
-      "cat": "Viajes",
-      "forms": "er fährt los, fuhr los, ist losgefahren",
-      "ex": "Wir fahren am Samstag um sechs Uhr los.",
-      "ex_es": "Salimos el sábado a las seis."
-    },
-    {
-      "de": "landen",
-      "es": "aterrizar",
-      "cat": "Avión",
-      "forms": "er landet, ist gelandet",
-      "ex": "Das Flugzeug ist pünktlich in Málaga gelandet.",
-      "ex_es": "El avión ha aterrizado puntual en Málaga."
-    },
-    {
-      "de": "einchecken",
-      "es": "facturar, hacer el check-in",
-      "cat": "Avión",
-      "forms": "er checkt ein, hat eingecheckt",
-      "ex": "Ich habe schon online eingecheckt.",
-      "ex_es": "Ya he hecho el check-in en línea."
-    },
-    {
-      "de": "die Bordkarte",
-      "pl": "die Bordkarten",
-      "es": "la tarjeta de embarque",
-      "cat": "Avión",
-      "ex": "Ich habe die Bordkarte auf dem Handy.",
-      "ex_es": "Tengo la tarjeta de embarque en el móvil."
-    },
-    {
-      "de": "das Handgepäck",
-      "es": "el equipaje de mano",
-      "cat": "Avión",
-      "ex": "Ich reise nur mit Handgepäck.",
-      "ex_es": "Viajo solo con equipaje de mano."
-    },
-    {
-      "de": "der Abflug",
-      "pl": "die Abflüge",
-      "es": "la salida (de un vuelo), el despegue",
-      "cat": "Avión",
-      "ex": "Wir müssen zwei Stunden vor dem Abflug am Flughafen sein.",
-      "ex_es": "Tenemos que estar en el aeropuerto dos horas antes de la salida."
-    },
-    {
-      "de": "die Flüssigkeit",
-      "pl": "die Flüssigkeiten",
-      "es": "el líquido",
-      "cat": "Avión",
-      "ex": "Im Handgepäck sind nur kleine Flüssigkeiten erlaubt.",
-      "ex_es": "En el equipaje de mano solo se permiten líquidos pequeños."
-    },
-    {
-      "de": "halten von (+ Dat.)",
-      "es": "opinar de, pensar de",
-      "cat": "Planificar",
-      "forms": "er hält, hielt, hat gehalten",
-      "ex": "Was hältst du davon, wenn wir den Bus nehmen?",
-      "ex_es": "¿Qué te parece si cogemos el autobús?"
-    },
-    {
-      "de": "trotz (+ Gen)",
-      "es": "a pesar de",
-      "cat": "Gramática",
-      "ex": "Trotz des Regens sind wir gewandert.",
-      "ex_es": "A pesar de la lluvia fuimos de excursión."
-    },
-    {
-      "de": "innerhalb (+ Gen)",
-      "es": "dentro de, en el plazo de",
-      "cat": "Gramática",
-      "ex": "Bitte bezahlen Sie innerhalb einer Woche.",
-      "ex_es": "Por favor, pague en el plazo de una semana."
-    },
-    {
-      "de": "außerhalb (+ Gen)",
-      "es": "fuera de",
-      "cat": "Gramática",
-      "ex": "Wir wohnen außerhalb der Stadt.",
-      "ex_es": "Vivimos fuera de la ciudad."
-    },
-    {
-      "de": "statt (+ Gen)",
-      "es": "en vez de, en lugar de",
-      "cat": "Gramática",
-      "ex": "Statt des Autos nehmen wir den Zug.",
-      "ex_es": "En vez del coche cogemos el tren."
-    },
-    {
-      "de": "obwohl",
-      "es": "aunque",
-      "cat": "Gramática",
-      "ex": "Obwohl es regnet, fahren wir mit dem Velo.",
-      "ex_es": "Aunque llueve, vamos en bici."
-    }
+    {"de": "das Verkehrsmittel", "pl": "die Verkehrsmittel", "es": "el medio de transporte", "cat": "Transporte", "ex": "Die öffentlichen Verkehrsmittel in der Schweiz sind sehr pünktlich.", "ex_es": "El transporte público en Suiza es muy puntual."},
+    {"de": "der Verkehr", "es": "el tráfico; el transporte", "cat": "Transporte", "ex": "Am Freitagabend ist immer viel Verkehr.", "ex_es": "El viernes por la tarde siempre hay mucho tráfico."},
+    {"de": "der Fahrgast", "pl": "die Fahrgäste", "es": "el pasajero / la pasajera", "cat": "Transporte", "ex": "Die Fahrgäste mussten eine Stunde warten.", "ex_es": "Los pasajeros tuvieron que esperar una hora."},
+    {"de": "der Pendler / die Pendlerin", "pl": "die Pendler / die Pendlerinnen", "es": "persona que se desplaza a diario al trabajo", "cat": "Transporte", "ex": "Morgens sind die Züge voller Pendler.", "ex_es": "Por la mañana los trenes van llenos de gente que va a trabajar."},
+    {"de": "pendeln", "es": "ir y venir a diario (al trabajo)", "cat": "Transporte", "forms": "er pendelt, ist gependelt", "ex": "Ich pendle jeden Tag von Baden nach Zürich.", "ex_es": "Voy y vengo cada día de Baden a Zúrich."},
+    {"de": "das Generalabonnement (GA)", "es": "el abono general (todo el transporte público de Suiza)", "cat": "Transporte", "ex": "Mit dem GA fahre ich auch mit dem Schiff gratis.", "ex_es": "Con el abono general también voy gratis en barco."},
+    {"de": "die Strecke", "pl": "die Strecken", "es": "el trayecto, la línea, el tramo", "cat": "Transporte", "ex": "Die Strecke zwischen Bern und Thun ist gesperrt.", "ex_es": "El tramo entre Berna y Thun está cortado."},
+    {"de": "die Durchsage", "pl": "die Durchsagen", "es": "el aviso (por megafonía)", "cat": "Transporte", "ex": "Ich habe die Durchsage nicht verstanden.", "ex_es": "No he entendido el aviso."},
+    {"de": "der Wagen", "pl": "die Wagen", "es": "el vagón; el coche", "cat": "Transporte", "ex": "Der Speisewagen ist in der Mitte des Zuges.", "ex_es": "El vagón restaurante está en el centro del tren."},
+    {"de": "der Sitzplatz", "pl": "die Sitzplätze", "es": "el asiento, la plaza sentada", "cat": "Transporte", "ex": "Im Zug nach Mailand muss man einen Sitzplatz reservieren.", "ex_es": "En el tren a Milán hay que reservar asiento."},
+    {"de": "reservieren", "es": "reservar", "cat": "Viajes", "forms": "er reserviert, hat reserviert", "ex": "Ich habe zwei Plätze am Fenster reserviert.", "ex_es": "He reservado dos asientos de ventanilla."},
+    {"de": "pünktlich", "es": "puntual, a la hora", "cat": "Transporte", "ex": "Der Zug ist pünktlich in Genf angekommen.", "ex_es": "El tren ha llegado puntual a Ginebra."},
+    {"de": "unterwegs", "es": "de camino, de viaje, fuera", "cat": "Viajes", "ex": "Ich bin gerade unterwegs und rufe dich später an.", "ex_es": "Ahora estoy de camino y te llamo más tarde."},
+    {"de": "der Stau", "pl": "die Staus", "es": "el atasco", "cat": "Coche", "ex": "Vor dem Gotthard gibt es 12 Kilometer Stau.", "ex_es": "Antes del Gotardo hay 12 kilómetros de atasco."},
+    {"de": "die Baustelle", "pl": "die Baustellen", "es": "las obras (en la calle, la carretera)", "cat": "Coche", "ex": "Wegen einer Baustelle ist die Straße gesperrt.", "ex_es": "Por unas obras la calle está cortada."},
+    {"de": "die Umleitung", "pl": "die Umleitungen", "es": "el desvío", "cat": "Coche", "ex": "Der Bus fährt heute eine Umleitung.", "ex_es": "Hoy el autobús hace un desvío."},
+    {"de": "der Streik", "pl": "die Streiks", "es": "la huelga", "cat": "Transporte", "ex": "Wegen des Streiks fallen viele Flüge aus.", "ex_es": "Por la huelga se cancelan muchos vuelos."},
+    {"de": "streiken", "es": "estar en huelga, hacer huelga", "cat": "Transporte", "forms": "er streikt, hat gestreikt", "ex": "Die Lokführer in Deutschland streiken schon wieder.", "ex_es": "Los maquinistas en Alemania vuelven a estar en huelga."},
+    {"de": "die Autobahn", "pl": "die Autobahnen", "es": "la autopista", "cat": "Coche", "ex": "Auf der Autobahn darf man in der Schweiz 120 fahren.", "ex_es": "En Suiza se puede ir a 120 por la autopista."},
+    {"de": "die Vignette", "pl": "die Vignetten", "es": "la viñeta (peaje anual de autopista)", "cat": "Coche", "ex": "Die Vignette kostet 40 Franken pro Jahr.", "ex_es": "La viñeta cuesta 40 francos al año."},
+    {"de": "tanken", "es": "echar gasolina, repostar", "cat": "Coche", "forms": "er tankt, hat getankt", "ex": "Wir müssen vor der Grenze noch tanken.", "ex_es": "Antes de la frontera tenemos que repostar."},
+    {"de": "die Tankstelle", "pl": "die Tankstellen", "es": "la gasolinera", "cat": "Coche", "ex": "Die nächste Tankstelle ist in 20 Kilometern.", "ex_es": "La próxima gasolinera está a 20 kilómetros."},
+    {"de": "der Führerschein", "pl": "die Führerscheine", "es": "el carné de conducir", "cat": "Coche", "ex": "Seit wann hast du den Führerschein?", "ex_es": "¿Desde cuándo tienes el carné de conducir?"},
+    {"de": "der Mietwagen", "pl": "die Mietwagen", "es": "el coche de alquiler", "cat": "Coche", "ex": "Auf Mallorca haben wir einen Mietwagen genommen.", "ex_es": "En Mallorca cogimos un coche de alquiler."},
+    {"de": "das Velo", "pl": "die Velos", "es": "la bici (en Suiza)", "cat": "Transporte", "ex": "In Zürich fahre ich fast überall mit dem Velo.", "ex_es": "En Zúrich voy en bici a casi todas partes."},
+    {"de": "der ÖV (öffentlicher Verkehr)", "es": "el transporte público (en Suiza)", "cat": "Transporte", "ex": "In Zürich kommt man mit dem ÖV überallhin.", "ex_es": "En Zúrich se llega a todas partes en transporte público."},
+    {"de": "die Störung", "pl": "die Störungen", "es": "la avería, la incidencia", "cat": "Transporte", "ex": "Wegen einer Störung fährt der Zug heute auf Gleis 7 ab.", "ex_es": "Por una avería, hoy el tren sale de la vía 7."},
+    {"de": "laut (+ Dat./Gen.)", "es": "según", "cat": "Transporte", "ex": "Laut Fahrplan fährt der Zug um 8.32 Uhr ab.", "ex_es": "Según el horario, el tren sale a las 8:32."},
+    {"de": "erreichen", "es": "alcanzar, llegar a tiempo a; localizar (a alguien)", "cat": "Transporte", "forms": "er erreicht, erreichte, hat erreicht", "ex": "Wenn wir uns beeilen, erreichen wir den Zug noch.", "ex_es": "Si nos damos prisa, todavía cogemos el tren."},
+    {"de": "die Grenze", "pl": "die Grenzen", "es": "la frontera", "cat": "Viajes", "ex": "Basel liegt direkt an der Grenze zu Deutschland und Frankreich.", "ex_es": "Basilea está justo en la frontera con Alemania y Francia."},
+    {"de": "der Zoll", "es": "la aduana", "cat": "Viajes", "ex": "Am Zoll mussten wir den Koffer öffnen.", "ex_es": "En la aduana tuvimos que abrir la maleta."},
+    {"de": "das Reiseziel", "pl": "die Reiseziele", "es": "el destino (del viaje)", "cat": "Viajes", "ex": "Was ist dein Lieblingsreiseziel?", "ex_es": "¿Cuál es tu destino de viaje favorito?"},
+    {"de": "die Pauschalreise", "pl": "die Pauschalreisen", "es": "el viaje organizado (todo incluido)", "cat": "Viajes", "ex": "Eine Pauschalreise ist bequem, aber nicht immer billig.", "ex_es": "Un viaje organizado es cómodo, pero no siempre barato."},
+    {"de": "das Reisebüro", "pl": "die Reisebüros", "es": "la agencia de viajes", "cat": "Viajes", "ex": "Meine Eltern buchen ihre Reisen immer im Reisebüro.", "ex_es": "Mis padres siempre reservan sus viajes en la agencia."},
+    {"de": "die Anreise / die Abreise", "es": "el viaje de ida, la llegada / la salida, la partida", "cat": "Viajes", "ex": "Am Tag der Abreise müssen Sie das Zimmer bis 11 Uhr verlassen.", "ex_es": "El día de la salida tiene que dejar la habitación antes de las 11 h."},
+    {"de": "übernachten", "es": "pasar la noche, alojarse", "cat": "Viajes", "forms": "er übernachtet, hat übernachtet", "ex": "Wir haben in einer Berghütte übernachtet.", "ex_es": "Pasamos la noche en un refugio de montaña."},
+    {"de": "die Übernachtung", "pl": "die Übernachtungen", "es": "la noche (de alojamiento), la pernoctación", "cat": "Viajes", "ex": "Die Übernachtung kostet 90 Franken mit Frühstück.", "ex_es": "La noche cuesta 90 francos con desayuno."},
+    {"de": "die Entfernung", "pl": "die Entfernungen", "es": "la distancia", "cat": "Viajes", "ex": "Die Entfernung zwischen Zürich und Bern beträgt etwa 120 Kilometer.", "ex_es": "La distancia entre Zúrich y Berna es de unos 120 kilómetros."},
+    {"de": "verreisen", "es": "irse de viaje", "cat": "Viajes", "forms": "er verreist, ist verreist", "ex": "Über Ostern verreisen wir nicht.", "ex_es": "En Semana Santa no nos vamos de viaje."},
+    {"de": "losfahren", "es": "salir, ponerse en marcha (en un vehículo)", "cat": "Viajes", "forms": "er fährt los, fuhr los, ist losgefahren", "ex": "Wir fahren am Samstag um sechs Uhr los.", "ex_es": "Salimos el sábado a las seis."},
+    {"de": "landen", "es": "aterrizar", "cat": "Avión", "forms": "er landet, ist gelandet", "ex": "Das Flugzeug ist pünktlich in Málaga gelandet.", "ex_es": "El avión ha aterrizado puntual en Málaga."},
+    {"de": "einchecken", "es": "facturar, hacer el check-in", "cat": "Avión", "forms": "er checkt ein, hat eingecheckt", "ex": "Ich habe schon online eingecheckt.", "ex_es": "Ya he hecho el check-in en línea."},
+    {"de": "die Bordkarte", "pl": "die Bordkarten", "es": "la tarjeta de embarque", "cat": "Avión", "ex": "Ich habe die Bordkarte auf dem Handy.", "ex_es": "Tengo la tarjeta de embarque en el móvil."},
+    {"de": "das Handgepäck", "es": "el equipaje de mano", "cat": "Avión", "ex": "Ich reise nur mit Handgepäck.", "ex_es": "Viajo solo con equipaje de mano."},
+    {"de": "der Abflug", "pl": "die Abflüge", "es": "la salida (de un vuelo), el despegue", "cat": "Avión", "ex": "Wir müssen zwei Stunden vor dem Abflug am Flughafen sein.", "ex_es": "Tenemos que estar en el aeropuerto dos horas antes de la salida."},
+    {"de": "die Flüssigkeit", "pl": "die Flüssigkeiten", "es": "el líquido", "cat": "Avión", "ex": "Im Handgepäck sind nur kleine Flüssigkeiten erlaubt.", "ex_es": "En el equipaje de mano solo se permiten líquidos pequeños."},
+    {"de": "halten von (+ Dat.)", "es": "opinar de, pensar de", "cat": "Planificar", "forms": "er hält, hielt, hat gehalten", "ex": "Was hältst du davon, wenn wir den Bus nehmen?", "ex_es": "¿Qué te parece si cogemos el autobús?"},
+    {"de": "innerhalb (+ Gen)", "es": "dentro de, en el plazo de", "cat": "Gramática", "ex": "Bitte bezahlen Sie innerhalb einer Woche.", "ex_es": "Por favor, pague en el plazo de una semana."},
+    {"de": "außerhalb (+ Gen)", "es": "fuera de", "cat": "Gramática", "ex": "Wir wohnen außerhalb der Stadt.", "ex_es": "Vivimos fuera de la ciudad."},
+    {"de": "statt (+ Gen)", "es": "en vez de, en lugar de", "cat": "Gramática", "ex": "Statt des Autos nehmen wir den Zug.", "ex_es": "En vez del coche cogemos el tren."},
+    {"de": "obwohl", "es": "aunque", "cat": "Gramática", "ex": "Obwohl es regnet, fahren wir mit dem Velo.", "ex_es": "Aunque llueve, vamos en bici."}
   ],
   "exercises": [
     {

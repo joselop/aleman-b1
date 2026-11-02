@@ -12,370 +12,52 @@
     "Proponer un plan, aceptar, rechazar y quedar a una hora y en un sitio"
   ],
   "vocab": [
-    {
-      "de": "die Freizeit",
-      "es": "el tiempo libre",
-      "cat": "Aficiones",
-      "ex": "Was machst du in deiner Freizeit?",
-      "ex_es": "¿Qué haces en tu tiempo libre?"
-    },
-    {
-      "de": "das Hobby",
-      "pl": "die Hobbys",
-      "es": "la afición",
-      "cat": "Aficiones",
-      "ex": "Mein Hobby ist Fotografieren.",
-      "ex_es": "Mi afición es la fotografía."
-    },
-    {
-      "de": "der Sport",
-      "es": "el deporte",
-      "cat": "Aficiones",
-      "ex": "Machst du gern Sport?",
-      "ex_es": "¿Te gusta hacer deporte?"
-    },
-    {
-      "de": "spielen",
-      "es": "jugar; tocar (instrumento)",
-      "cat": "Aficiones",
-      "forms": "ich spiele, du spielst, er spielt",
-      "ex": "Ich spiele Gitarre.",
-      "ex_es": "Toco la guitarra."
-    },
-    {
-      "de": "der Fußball",
-      "es": "el fútbol",
-      "cat": "Aficiones",
-      "ex": "Am Sonntag spielen wir Fußball.",
-      "ex_es": "El domingo jugamos al fútbol."
-    },
-    {
-      "de": "schwimmen",
-      "es": "nadar",
-      "cat": "Aficiones",
-      "forms": "ich schwimme, du schwimmst, er schwimmt",
-      "ex": "Ich schwimme gern im See.",
-      "ex_es": "Me gusta nadar en el lago."
-    },
-    {
-      "de": "Rad fahren",
-      "es": "montar en bici",
-      "cat": "Aficiones",
-      "forms": "ich fahre Rad, du fährst Rad, er fährt Rad",
-      "ex": "Er fährt jeden Tag Rad.",
-      "ex_es": "Monta en bici todos los días."
-    },
-    {
-      "de": "laufen",
-      "es": "correr; andar",
-      "cat": "Aficiones",
-      "forms": "ich laufe, du läufst, er läuft, ist gelaufen",
-      "ex": "Sie läuft jeden Morgen fünf Kilometer.",
-      "ex_es": "Corre cinco kilómetros cada mañana."
-    },
-    {
-      "de": "joggen",
-      "es": "hacer footing",
-      "cat": "Aficiones",
-      "forms": "ich jogge, du joggst, er joggt",
-      "ex": "Wir joggen im Park.",
-      "ex_es": "Corremos en el parque."
-    },
-    {
-      "de": "wandern",
-      "es": "hacer senderismo",
-      "cat": "Aficiones",
-      "forms": "ich wandere, du wanderst, er wandert",
-      "ex": "Am Wochenende wandern wir in den Bergen.",
-      "ex_es": "El fin de semana hacemos senderismo en la montaña."
-    },
-    {
-      "de": "Ski fahren",
-      "es": "esquiar",
-      "cat": "Aficiones",
-      "forms": "ich fahre Ski, du fährst Ski, er fährt Ski",
-      "ex": "Kannst du Ski fahren?",
-      "ex_es": "¿Sabes esquiar?"
-    },
-    {
-      "de": "tanzen",
-      "es": "bailar",
-      "cat": "Aficiones",
-      "forms": "ich tanze, du tanzt, er tanzt",
-      "ex": "Sie tanzt sehr gut Salsa.",
-      "ex_es": "Baila muy bien salsa."
-    },
-    {
-      "de": "singen",
-      "es": "cantar",
-      "cat": "Aficiones",
-      "forms": "ich singe, du singst, er singt",
-      "ex": "Ich singe in einem Chor.",
-      "ex_es": "Canto en un coro."
-    },
-    {
-      "de": "die Musik",
-      "es": "la música",
-      "cat": "Aficiones",
-      "ex": "Ich höre gern Musik.",
-      "ex_es": "Me gusta escuchar música."
-    },
-    {
-      "de": "die Gitarre",
-      "pl": "die Gitarren",
-      "es": "la guitarra",
-      "cat": "Aficiones",
-      "ex": "Spielst du Gitarre?",
-      "ex_es": "¿Tocas la guitarra?"
-    },
-    {
-      "de": "lesen",
-      "es": "leer",
-      "cat": "Aficiones",
-      "forms": "ich lese, du liest, er liest",
-      "ex": "Sie liest gern Romane.",
-      "ex_es": "Le gusta leer novelas."
-    },
-    {
-      "de": "das Buch",
-      "pl": "die Bücher",
-      "es": "el libro",
-      "cat": "Aficiones",
-      "ex": "Das Buch ist sehr spannend.",
-      "ex_es": "El libro es muy emocionante."
-    },
-    {
-      "de": "fotografieren",
-      "es": "hacer fotos",
-      "cat": "Aficiones",
-      "forms": "ich fotografiere, du fotografierst, er fotografiert",
-      "ex": "Ich fotografiere gern Tiere.",
-      "ex_es": "Me gusta fotografiar animales."
-    },
-    {
-      "de": "malen",
-      "es": "pintar",
-      "cat": "Aficiones",
-      "forms": "ich male, du malst, er malt",
-      "ex": "Meine Tochter malt sehr schön.",
-      "ex_es": "Mi hija pinta muy bien."
-    },
-    {
-      "de": "reisen",
-      "es": "viajar",
-      "cat": "Aficiones",
-      "forms": "ich reise, du reist, er reist, ist gereist",
-      "ex": "Am liebsten reise ich.",
-      "ex_es": "Lo que más me gusta es viajar."
-    },
-    {
-      "de": "spazieren gehen",
-      "es": "pasear",
-      "cat": "Aficiones",
-      "ex": "Am Sonntag gehen wir spazieren.",
-      "ex_es": "El domingo vamos a pasear."
-    },
-    {
-      "de": "das Kino",
-      "pl": "die Kinos",
-      "es": "el cine",
-      "cat": "Aficiones",
-      "ex": "Gehen wir heute ins Kino?",
-      "ex_es": "¿Vamos hoy al cine?"
-    },
-    {
-      "de": "der Film",
-      "pl": "die Filme",
-      "es": "la película",
-      "cat": "Aficiones",
-      "ex": "Der Film ist sehr lustig.",
-      "ex_es": "La película es muy divertida."
-    },
-    {
-      "de": "das Konzert",
-      "pl": "die Konzerte",
-      "es": "el concierto",
-      "cat": "Aficiones",
-      "ex": "Am Freitag ist ein Konzert.",
-      "ex_es": "El viernes hay un concierto."
-    },
-    {
-      "de": "der Verein",
-      "pl": "die Vereine",
-      "es": "el club, la asociación",
-      "cat": "Aficiones",
-      "ex": "Er spielt in einem Fußballverein.",
-      "ex_es": "Juega en un club de fútbol."
-    },
-    {
-      "de": "Computerspiele spielen",
-      "es": "jugar a videojuegos",
-      "cat": "Aficiones",
-      "ex": "Mein Bruder spielt gern Computerspiele.",
-      "ex_es": "A mi hermano le gusta jugar a videojuegos."
-    },
-    {
-      "de": "treffen",
-      "es": "encontrarse con, quedar",
-      "cat": "Verbos",
-      "forms": "ich treffe, du triffst, er trifft",
-      "ex": "Ich treffe am Samstag meine Freunde.",
-      "ex_es": "El sábado quedo con mis amigos."
-    },
-    {
-      "de": "sehen",
-      "es": "ver",
-      "cat": "Verbos",
-      "forms": "ich sehe, du siehst, er sieht",
-      "ex": "Siehst du gern Filme?",
-      "ex_es": "¿Te gusta ver películas?"
-    },
-    {
-      "de": "fahren",
-      "es": "ir (en vehículo), conducir",
-      "cat": "Verbos",
-      "forms": "ich fahre, du fährst, er fährt",
-      "ex": "Wir fahren an den See.",
-      "ex_es": "Vamos al lago."
-    },
-    {
-      "de": "helfen",
-      "es": "ayudar",
-      "cat": "Verbos",
-      "forms": "ich helfe, du hilfst, er hilft",
-      "ex": "Er hilft gern.",
-      "ex_es": "Le gusta ayudar."
-    },
-    {
-      "de": "geben",
-      "es": "dar",
-      "cat": "Verbos",
-      "forms": "ich gebe, du gibst, er gibt",
-      "ex": "Heute gibt es ein Konzert.",
-      "ex_es": "Hoy hay un concierto."
-    },
-    {
-      "de": "können",
-      "es": "poder; saber (hacer)",
-      "cat": "Verbos",
-      "forms": "ich kann, du kannst, er kann",
-      "ex": "Ich kann gut schwimmen.",
-      "ex_es": "Sé nadar bien."
-    },
-    {
-      "de": "wollen",
-      "es": "querer",
-      "cat": "Verbos",
-      "forms": "ich will, du willst, er will",
-      "ex": "Wir wollen am Samstag wandern.",
-      "ex_es": "Queremos hacer senderismo el sábado."
-    },
-    {
-      "de": "gern",
-      "es": "con gusto; (verbo + gern) gustar",
-      "cat": "Gustos",
-      "ex": "Ich tanze gern.",
-      "ex_es": "Me gusta bailar."
-    },
-    {
-      "de": "lieber",
-      "es": "preferiblemente; preferir",
-      "cat": "Gustos",
-      "ex": "Ich trinke lieber Tee.",
-      "ex_es": "Prefiero tomar té."
-    },
-    {
-      "de": "am liebsten",
-      "es": "lo que más (me gusta)",
-      "cat": "Gustos",
-      "ex": "Am liebsten lese ich.",
-      "ex_es": "Lo que más me gusta es leer."
-    },
-    {
-      "de": "die Lust",
-      "es": "las ganas",
-      "cat": "Quedar",
-      "ex": "Hast du Lust auf Kino?",
-      "ex_es": "¿Te apetece ir al cine?"
-    },
-    {
-      "de": "die Idee",
-      "pl": "die Ideen",
-      "es": "la idea",
-      "cat": "Quedar",
-      "ex": "Gute Idee!",
-      "ex_es": "¡Buena idea!"
-    },
-    {
-      "de": "leider",
-      "es": "desgraciadamente",
-      "cat": "Quedar",
-      "ex": "Leider kann ich nicht.",
-      "ex_es": "Lo siento, no puedo."
-    },
-    {
-      "de": "Tut mir leid.",
-      "es": "Lo siento.",
-      "cat": "Quedar",
-      "ex": "Tut mir leid, ich habe keine Zeit.",
-      "ex_es": "Lo siento, no tengo tiempo."
-    },
-    {
-      "de": "zusammen",
-      "es": "juntos",
-      "cat": "Quedar",
-      "ex": "Wollen wir zusammen kochen?",
-      "ex_es": "¿Cocinamos juntos?"
-    },
-    {
-      "de": "Hast du Lust?",
-      "es": "¿Te apetece?",
-      "cat": "Quedar",
-      "ex": "Wir gehen ins Kino. Hast du Lust?",
-      "ex_es": "Vamos al cine. ¿Te apetece?"
-    },
-    {
-      "de": "Ja, gern!",
-      "es": "¡Sí, con mucho gusto!",
-      "cat": "Quedar",
-      "ex": "Kommst du mit? – Ja, gern!",
-      "ex_es": "¿Te vienes? – ¡Sí, con mucho gusto!"
-    },
-    {
-      "de": "Gute Idee!",
-      "es": "¡Buena idea!",
-      "cat": "Quedar",
-      "ex": "Wollen wir wandern? – Gute Idee!",
-      "ex_es": "¿Hacemos senderismo? – ¡Buena idea!"
-    },
-    {
-      "de": "spannend",
-      "es": "emocionante, interesante",
-      "cat": "Adjetivos",
-      "ex": "Das Buch ist spannend.",
-      "ex_es": "El libro es emocionante."
-    },
-    {
-      "de": "langweilig",
-      "es": "aburrido",
-      "cat": "Adjetivos",
-      "ex": "Der Film ist langweilig.",
-      "ex_es": "La película es aburrida."
-    },
-    {
-      "de": "lustig",
-      "es": "divertido, gracioso",
-      "cat": "Adjetivos",
-      "ex": "Tom ist sehr lustig.",
-      "ex_es": "Tom es muy gracioso."
-    },
-    {
-      "de": "toll / super",
-      "es": "genial",
-      "cat": "Adjetivos",
-      "ex": "Das Konzert ist toll!",
-      "ex_es": "¡El concierto es genial!"
-    }
+    {"de": "die Freizeit", "es": "el tiempo libre", "cat": "Aficiones", "ex": "Was machst du in deiner Freizeit?", "ex_es": "¿Qué haces en tu tiempo libre?"},
+    {"de": "das Hobby", "pl": "die Hobbys", "es": "la afición", "cat": "Aficiones", "ex": "Mein Hobby ist Fotografieren.", "ex_es": "Mi afición es la fotografía."},
+    {"de": "der Sport", "es": "el deporte", "cat": "Aficiones", "ex": "Machst du gern Sport?", "ex_es": "¿Te gusta hacer deporte?"},
+    {"de": "spielen", "es": "jugar; tocar (instrumento)", "cat": "Aficiones", "forms": "ich spiele, du spielst, er spielt", "ex": "Ich spiele Gitarre.", "ex_es": "Toco la guitarra."},
+    {"de": "der Fußball", "es": "el fútbol", "cat": "Aficiones", "ex": "Am Sonntag spielen wir Fußball.", "ex_es": "El domingo jugamos al fútbol."},
+    {"de": "schwimmen", "es": "nadar", "cat": "Aficiones", "forms": "ich schwimme, du schwimmst, er schwimmt", "ex": "Ich schwimme gern im See.", "ex_es": "Me gusta nadar en el lago."},
+    {"de": "Rad fahren", "es": "montar en bici", "cat": "Aficiones", "forms": "ich fahre Rad, du fährst Rad, er fährt Rad", "ex": "Er fährt jeden Tag Rad.", "ex_es": "Monta en bici todos los días."},
+    {"de": "laufen", "es": "correr; andar", "cat": "Aficiones", "forms": "ich laufe, du läufst, er läuft, ist gelaufen", "ex": "Sie läuft jeden Morgen fünf Kilometer.", "ex_es": "Corre cinco kilómetros cada mañana."},
+    {"de": "joggen", "es": "hacer footing", "cat": "Aficiones", "forms": "ich jogge, du joggst, er joggt", "ex": "Wir joggen im Park.", "ex_es": "Corremos en el parque."},
+    {"de": "wandern", "es": "hacer senderismo", "cat": "Aficiones", "forms": "ich wandere, du wanderst, er wandert", "ex": "Am Wochenende wandern wir in den Bergen.", "ex_es": "El fin de semana hacemos senderismo en la montaña."},
+    {"de": "Ski fahren", "es": "esquiar", "cat": "Aficiones", "forms": "ich fahre Ski, du fährst Ski, er fährt Ski", "ex": "Kannst du Ski fahren?", "ex_es": "¿Sabes esquiar?"},
+    {"de": "tanzen", "es": "bailar", "cat": "Aficiones", "forms": "ich tanze, du tanzt, er tanzt", "ex": "Sie tanzt sehr gut Salsa.", "ex_es": "Baila muy bien salsa."},
+    {"de": "singen", "es": "cantar", "cat": "Aficiones", "forms": "ich singe, du singst, er singt", "ex": "Ich singe in einem Chor.", "ex_es": "Canto en un coro."},
+    {"de": "die Musik", "es": "la música", "cat": "Aficiones", "ex": "Ich höre gern Musik.", "ex_es": "Me gusta escuchar música."},
+    {"de": "die Gitarre", "pl": "die Gitarren", "es": "la guitarra", "cat": "Aficiones", "ex": "Spielst du Gitarre?", "ex_es": "¿Tocas la guitarra?"},
+    {"de": "lesen", "es": "leer", "cat": "Aficiones", "forms": "ich lese, du liest, er liest", "ex": "Sie liest gern Romane.", "ex_es": "Le gusta leer novelas."},
+    {"de": "das Buch", "pl": "die Bücher", "es": "el libro", "cat": "Aficiones", "ex": "Das Buch ist sehr spannend.", "ex_es": "El libro es muy emocionante."},
+    {"de": "fotografieren", "es": "hacer fotos", "cat": "Aficiones", "forms": "ich fotografiere, du fotografierst, er fotografiert", "ex": "Ich fotografiere gern Tiere.", "ex_es": "Me gusta fotografiar animales."},
+    {"de": "malen", "es": "pintar", "cat": "Aficiones", "forms": "ich male, du malst, er malt", "ex": "Meine Tochter malt sehr schön.", "ex_es": "Mi hija pinta muy bien."},
+    {"de": "reisen", "es": "viajar", "cat": "Aficiones", "forms": "ich reise, du reist, er reist, ist gereist", "ex": "Am liebsten reise ich.", "ex_es": "Lo que más me gusta es viajar."},
+    {"de": "spazieren gehen", "es": "pasear", "cat": "Aficiones", "ex": "Am Sonntag gehen wir spazieren.", "ex_es": "El domingo vamos a pasear."},
+    {"de": "das Kino", "pl": "die Kinos", "es": "el cine", "cat": "Aficiones", "ex": "Gehen wir heute ins Kino?", "ex_es": "¿Vamos hoy al cine?"},
+    {"de": "der Film", "pl": "die Filme", "es": "la película", "cat": "Aficiones", "ex": "Der Film ist sehr lustig.", "ex_es": "La película es muy divertida."},
+    {"de": "das Konzert", "pl": "die Konzerte", "es": "el concierto", "cat": "Aficiones", "ex": "Am Freitag ist ein Konzert.", "ex_es": "El viernes hay un concierto."},
+    {"de": "der Verein", "pl": "die Vereine", "es": "el club, la asociación", "cat": "Aficiones", "ex": "Er spielt in einem Fußballverein.", "ex_es": "Juega en un club de fútbol."},
+    {"de": "Computerspiele spielen", "es": "jugar a videojuegos", "cat": "Aficiones", "ex": "Mein Bruder spielt gern Computerspiele.", "ex_es": "A mi hermano le gusta jugar a videojuegos."},
+    {"de": "treffen", "es": "encontrarse con, quedar", "cat": "Verbos", "forms": "ich treffe, du triffst, er trifft", "ex": "Ich treffe am Samstag meine Freunde.", "ex_es": "El sábado quedo con mis amigos."},
+    {"de": "sehen", "es": "ver", "cat": "Verbos", "forms": "ich sehe, du siehst, er sieht", "ex": "Siehst du gern Filme?", "ex_es": "¿Te gusta ver películas?"},
+    {"de": "fahren", "es": "ir (en vehículo), conducir", "cat": "Verbos", "forms": "ich fahre, du fährst, er fährt", "ex": "Wir fahren an den See.", "ex_es": "Vamos al lago."},
+    {"de": "helfen", "es": "ayudar", "cat": "Verbos", "forms": "ich helfe, du hilfst, er hilft", "ex": "Er hilft gern.", "ex_es": "Le gusta ayudar."},
+    {"de": "geben", "es": "dar", "cat": "Verbos", "forms": "ich gebe, du gibst, er gibt", "ex": "Heute gibt es ein Konzert.", "ex_es": "Hoy hay un concierto."},
+    {"de": "können", "es": "poder; saber (hacer)", "cat": "Verbos", "forms": "ich kann, du kannst, er kann", "ex": "Ich kann gut schwimmen.", "ex_es": "Sé nadar bien."},
+    {"de": "wollen", "es": "querer", "cat": "Verbos", "forms": "ich will, du willst, er will", "ex": "Wir wollen am Samstag wandern.", "ex_es": "Queremos hacer senderismo el sábado."},
+    {"de": "lieber", "es": "preferiblemente; preferir", "cat": "Gustos", "ex": "Ich trinke lieber Tee.", "ex_es": "Prefiero tomar té."},
+    {"de": "am liebsten", "es": "lo que más (me gusta)", "cat": "Gustos", "ex": "Am liebsten lese ich.", "ex_es": "Lo que más me gusta es leer."},
+    {"de": "die Lust", "es": "las ganas", "cat": "Quedar", "ex": "Hast du Lust auf Kino?", "ex_es": "¿Te apetece ir al cine?"},
+    {"de": "die Idee", "pl": "die Ideen", "es": "la idea", "cat": "Quedar", "ex": "Gute Idee!", "ex_es": "¡Buena idea!"},
+    {"de": "leider", "es": "desgraciadamente", "cat": "Quedar", "ex": "Leider kann ich nicht.", "ex_es": "Lo siento, no puedo."},
+    {"de": "Tut mir leid.", "es": "Lo siento.", "cat": "Quedar", "ex": "Tut mir leid, ich habe keine Zeit.", "ex_es": "Lo siento, no tengo tiempo."},
+    {"de": "Hast du Lust?", "es": "¿Te apetece?", "cat": "Quedar", "ex": "Wir gehen ins Kino. Hast du Lust?", "ex_es": "Vamos al cine. ¿Te apetece?"},
+    {"de": "Ja, gern!", "es": "¡Sí, con mucho gusto!", "cat": "Quedar", "ex": "Kommst du mit? – Ja, gern!", "ex_es": "¿Te vienes? – ¡Sí, con mucho gusto!"},
+    {"de": "Gute Idee!", "es": "¡Buena idea!", "cat": "Quedar", "ex": "Wollen wir wandern? – Gute Idee!", "ex_es": "¿Hacemos senderismo? – ¡Buena idea!"},
+    {"de": "spannend", "es": "emocionante, interesante", "cat": "Adjetivos", "ex": "Das Buch ist spannend.", "ex_es": "El libro es emocionante."},
+    {"de": "langweilig", "es": "aburrido", "cat": "Adjetivos", "ex": "Der Film ist langweilig.", "ex_es": "La película es aburrida."},
+    {"de": "lustig", "es": "divertido, gracioso", "cat": "Adjetivos", "ex": "Tom ist sehr lustig.", "ex_es": "Tom es muy gracioso."},
+    {"de": "toll / super", "es": "genial", "cat": "Adjetivos", "ex": "Das Konzert ist toll!", "ex_es": "¡El concierto es genial!"}
   ],
   "exercises": [
     {

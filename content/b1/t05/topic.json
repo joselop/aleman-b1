@@ -13,460 +13,63 @@
     "Reconocer si una persona está a favor o en contra en Lesen Teil 4 y escribir un comentario de foro (Schreiben Teil 2)"
   ],
   "vocab": [
-    {
-      "de": "das Gerät",
-      "pl": "die Geräte",
-      "es": "el aparato, el dispositivo",
-      "cat": "Tecnología",
-      "ex": "Wie viele digitale Geräte habt ihr zu Hause?",
-      "ex_es": "¿Cuántos dispositivos digitales tenéis en casa?"
-    },
-    {
-      "de": "der Bildschirm",
-      "pl": "die Bildschirme",
-      "es": "la pantalla",
-      "cat": "Tecnología",
-      "ex": "Ich sitze acht Stunden am Tag vor dem Bildschirm.",
-      "ex_es": "Paso ocho horas al día delante de la pantalla."
-    },
-    {
-      "de": "die Tastatur",
-      "pl": "die Tastaturen",
-      "es": "el teclado",
-      "cat": "Tecnología",
-      "ex": "Die Schweizer Tastatur hat kein ß.",
-      "ex_es": "El teclado suizo no tiene ß."
-    },
-    {
-      "de": "der Akku",
-      "pl": "die Akkus",
-      "es": "la batería (recargable)",
-      "cat": "Tecnología",
-      "ex": "Mein Akku hält nur noch einen halben Tag.",
-      "ex_es": "Mi batería ya solo dura medio día."
-    },
-    {
-      "de": "aufladen",
-      "es": "cargar (la batería)",
-      "cat": "Tecnología",
-      "forms": "er lädt auf, lud auf, hat aufgeladen",
-      "ex": "Ich lade das Handy nachts auf.",
-      "ex_es": "Cargo el móvil por la noche."
-    },
-    {
-      "de": "das Ladegerät",
-      "pl": "die Ladegeräte",
-      "es": "el cargador",
-      "cat": "Tecnología",
-      "ex": "Ich habe mein Ladegerät im Büro vergessen.",
-      "ex_es": "Me he dejado el cargador en la oficina."
-    },
-    {
-      "de": "das Passwort",
-      "pl": "die Passwörter",
-      "es": "la contraseña",
-      "cat": "Internet",
-      "ex": "Du solltest nicht überall dasselbe Passwort benutzen.",
-      "ex_es": "No deberías usar la misma contraseña en todas partes."
-    },
-    {
-      "de": "sich einloggen",
-      "es": "iniciar sesión",
-      "cat": "Internet",
-      "forms": "er loggt sich ein, hat sich eingeloggt",
-      "ex": "Ich kann mich nicht in mein Konto einloggen.",
-      "ex_es": "No puedo iniciar sesión en mi cuenta."
-    },
-    {
-      "de": "speichern",
-      "es": "guardar (un archivo)",
-      "cat": "Tecnología",
-      "forms": "er speichert, hat gespeichert",
-      "ex": "Hast du das Dokument gespeichert?",
-      "ex_es": "¿Has guardado el documento?"
-    },
-    {
-      "de": "löschen",
-      "es": "borrar",
-      "cat": "Tecnología",
-      "forms": "er löscht, hat gelöscht",
-      "ex": "Ich habe aus Versehen alle Fotos gelöscht.",
-      "ex_es": "He borrado sin querer todas las fotos."
-    },
-    {
-      "de": "die Datei",
-      "pl": "die Dateien",
-      "es": "el archivo (informático)",
-      "cat": "Tecnología",
-      "ex": "Die Datei ist zu groß für eine E-Mail.",
-      "ex_es": "El archivo es demasiado grande para un correo."
-    },
-    {
-      "de": "der Anhang",
-      "pl": "die Anhänge",
-      "es": "el archivo adjunto",
-      "cat": "Internet",
-      "ex": "Im Anhang finden Sie meinen Lebenslauf.",
-      "ex_es": "Adjunto encontrará mi currículum."
-    },
-    {
-      "de": "installieren",
-      "es": "instalar",
-      "cat": "Tecnología",
-      "forms": "er installiert, hat installiert",
-      "ex": "Ich habe eine neue App installiert.",
-      "ex_es": "He instalado una aplicación nueva."
-    },
-    {
-      "de": "das Update",
-      "pl": "die Updates",
-      "es": "la actualización",
-      "cat": "Tecnología",
-      "ex": "Nach dem Update ist das Handy sehr langsam.",
-      "ex_es": "Después de la actualización el móvil va muy lento."
-    },
-    {
-      "de": "funktionieren",
-      "es": "funcionar",
-      "cat": "Tecnología",
-      "forms": "er funktioniert, hat funktioniert",
-      "ex": "Der Drucker funktioniert schon wieder nicht.",
-      "ex_es": "La impresora vuelve a no funcionar."
-    },
-    {
-      "de": "der Kundendienst",
-      "es": "el servicio de atención al cliente",
-      "cat": "Tecnología",
-      "ex": "Der Kundendienst ist nur bis 18 Uhr erreichbar.",
-      "ex_es": "El servicio de atención al cliente solo está disponible hasta las 18 h."
-    },
-    {
-      "de": "der Empfang",
-      "es": "la cobertura (del móvil); la recepción",
-      "cat": "Tecnología",
-      "ex": "In den Bergen hatten wir keinen Empfang.",
-      "ex_es": "En la montaña no teníamos cobertura."
-    },
-    {
-      "de": "das WLAN",
-      "es": "el wifi",
-      "cat": "Internet",
-      "ex": "Gibt es im Hotel kostenloses WLAN?",
-      "ex_es": "¿Hay wifi gratis en el hotel?"
-    },
-    {
-      "de": "die Daten",
-      "es": "los datos",
-      "cat": "Internet",
-      "ex": "Die App sammelt viele persönliche Daten.",
-      "ex_es": "La aplicación recopila muchos datos personales."
-    },
-    {
-      "de": "der Datenschutz",
-      "es": "la protección de datos",
-      "cat": "Internet",
-      "ex": "In der Schweiz ist der Datenschutz sehr wichtig.",
-      "ex_es": "En Suiza la protección de datos es muy importante."
-    },
-    {
-      "de": "die Sicherheit",
-      "es": "la seguridad",
-      "cat": "Internet",
-      "ex": "Für mehr Sicherheit brauchen Sie ein neues Passwort.",
-      "ex_es": "Para más seguridad necesita una contraseña nueva."
-    },
-    {
-      "de": "der Nutzer / die Nutzerin",
-      "pl": "die Nutzer / die Nutzerinnen",
-      "es": "el usuario / la usuaria",
-      "cat": "Internet",
-      "ex": "Die App hat über eine Million Nutzer.",
-      "ex_es": "La aplicación tiene más de un millón de usuarios."
-    },
-    {
-      "de": "das Abonnement / das Abo",
-      "pl": "die Abonnements / die Abos",
-      "es": "la suscripción, el abono",
-      "cat": "Medios",
-      "ex": "Ich habe mein Zeitungsabo gekündigt.",
-      "ex_es": "He cancelado mi suscripción al periódico."
-    },
-    {
-      "de": "die Bewertung",
-      "pl": "die Bewertungen",
-      "es": "la valoración, la reseña",
-      "cat": "Internet",
-      "ex": "Bevor ich etwas kaufe, lese ich die Bewertungen.",
-      "ex_es": "Antes de comprar algo leo las valoraciones."
-    },
-    {
-      "de": "teilen",
-      "es": "compartir",
-      "cat": "Internet",
-      "forms": "er teilt, teilte, hat geteilt",
-      "ex": "Ich teile keine privaten Fotos im Internet.",
-      "ex_es": "No comparto fotos privadas en internet."
-    },
-    {
-      "de": "der Bericht",
-      "pl": "die Berichte",
-      "es": "el reportaje, el informe",
-      "cat": "Medios",
-      "ex": "Im Fernsehen kam ein Bericht über Handysucht.",
-      "ex_es": "En la tele salió un reportaje sobre la adicción al móvil."
-    },
-    {
-      "de": "berichten (über)",
-      "es": "informar (sobre)",
-      "cat": "Medios",
-      "forms": "er berichtet, hat berichtet",
-      "ex": "Die Zeitung berichtet über den Streik.",
-      "ex_es": "El periódico informa sobre la huelga."
-    },
-    {
-      "de": "der Artikel",
-      "pl": "die Artikel",
-      "es": "el artículo (de prensa)",
-      "cat": "Medios",
-      "ex": "Hast du den Artikel über KI gelesen?",
-      "ex_es": "¿Has leído el artículo sobre la IA?"
-    },
-    {
-      "de": "der Journalist / die Journalistin",
-      "pl": "die Journalisten / die Journalistinnen",
-      "es": "el/la periodista",
-      "cat": "Medios",
-      "ex": "Die Journalistin hat mit vielen Jugendlichen gesprochen.",
-      "ex_es": "La periodista ha hablado con muchos jóvenes."
-    },
-    {
-      "de": "die Quelle",
-      "pl": "die Quellen",
-      "es": "la fuente (de información)",
-      "cat": "Medios",
-      "ex": "Man sollte immer die Quelle prüfen.",
-      "ex_es": "Siempre habría que comprobar la fuente."
-    },
-    {
-      "de": "die Falschmeldung",
-      "pl": "die Falschmeldungen",
-      "es": "la noticia falsa, el bulo",
-      "cat": "Medios",
-      "ex": "Diese Falschmeldung haben Tausende geteilt.",
-      "ex_es": "Miles de personas han compartido este bulo."
-    },
-    {
-      "de": "die Meinung",
-      "pl": "die Meinungen",
-      "es": "la opinión",
-      "cat": "Opinar",
-      "ex": "Meiner Meinung nach brauchen Kinder kein Smartphone.",
-      "ex_es": "En mi opinión, los niños no necesitan un smartphone."
-    },
-    {
-      "de": "die Ansicht",
-      "pl": "die Ansichten",
-      "es": "el punto de vista, la opinión",
-      "cat": "Opinar",
-      "ex": "Ich bin der Ansicht, dass das zu teuer ist.",
-      "ex_es": "Opino que es demasiado caro."
-    },
-    {
-      "de": "zustimmen (+ Dat)",
-      "es": "estar de acuerdo (con alguien)",
-      "cat": "Opinar",
-      "forms": "er stimmt zu, stimmte zu, hat zugestimmt",
-      "ex": "Da stimme ich dir völlig zu.",
-      "ex_es": "En eso estoy totalmente de acuerdo contigo."
-    },
-    {
-      "de": "widersprechen (+ Dat)",
-      "es": "contradecir, llevar la contraria",
-      "cat": "Opinar",
-      "forms": "er widerspricht, widersprach, hat widersprochen",
-      "ex": "Da muss ich dir widersprechen.",
-      "ex_es": "Ahí tengo que llevarte la contraria."
-    },
-    {
-      "de": "behaupten",
-      "es": "afirmar (sin pruebas)",
-      "cat": "Opinar",
-      "forms": "er behauptet, hat behauptet",
-      "ex": "Er behauptet, dass er nie am Handy ist.",
-      "ex_es": "Afirma que nunca está con el móvil."
-    },
-    {
-      "de": "überzeugen",
-      "es": "convencer",
-      "cat": "Opinar",
-      "forms": "er überzeugt, hat überzeugt",
-      "ex": "Das Argument hat mich nicht überzeugt.",
-      "ex_es": "El argumento no me ha convencido."
-    },
-    {
-      "de": "Meiner Meinung nach …",
-      "es": "en mi opinión…",
-      "cat": "Opinar",
-      "ex": "Meiner Meinung nach ist das Handy für Kinder gefährlich.",
-      "ex_es": "En mi opinión, el móvil es peligroso para los niños."
-    },
-    {
-      "de": "dafür / dagegen sein",
-      "es": "estar a favor / en contra",
-      "cat": "Opinar",
-      "ex": "Ich bin dafür, dass Schulen Tablets kaufen.",
-      "ex_es": "Estoy a favor de que los colegios compren tabletas."
-    },
-    {
-      "de": "einerseits … andererseits",
-      "es": "por un lado… por otro",
-      "cat": "Opinar",
-      "ex": "Einerseits ist KI praktisch, andererseits macht sie mir Angst.",
-      "ex_es": "Por un lado la IA es práctica, por otro me da miedo."
-    },
-    {
-      "de": "Das kommt darauf an.",
-      "es": "Depende.",
-      "cat": "Opinar",
-      "ex": "Ist das Handy gut für Kinder? – Das kommt darauf an.",
-      "ex_es": "¿El móvil es bueno para los niños? – Depende."
-    },
-    {
-      "de": "recht haben",
-      "es": "tener razón",
-      "cat": "Opinar",
-      "forms": "er hat recht, hatte recht, hat recht gehabt",
-      "ex": "Da hast du völlig recht.",
-      "ex_es": "Tienes toda la razón."
-    },
-    {
-      "de": "Das sehe ich anders.",
-      "es": "Yo lo veo de otra manera.",
-      "cat": "Opinar",
-      "ex": "Das sehe ich anders: Ohne Handy geht es heute nicht mehr.",
-      "ex_es": "Yo lo veo de otra manera: hoy en día no se puede vivir sin móvil."
-    },
-    {
-      "de": "der Standpunkt",
-      "pl": "die Standpunkte",
-      "es": "el punto de vista, la postura",
-      "cat": "Opinar",
-      "ex": "Ich verstehe deinen Standpunkt, aber ich sehe das anders.",
-      "ex_es": "Entiendo tu punto de vista, pero lo veo distinto."
-    },
-    {
-      "de": "an deiner Stelle",
-      "es": "yo en tu lugar",
-      "cat": "Opinar",
-      "ex": "An deiner Stelle würde ich das Abo kündigen.",
-      "ex_es": "Yo en tu lugar me daría de baja de la suscripción."
-    },
-    {
-      "de": "die Entwicklung",
-      "pl": "die Entwicklungen",
-      "es": "el desarrollo, la evolución",
-      "cat": "Tecnología",
-      "ex": "Die Entwicklung der KI geht sehr schnell.",
-      "ex_es": "El desarrollo de la IA va muy rápido."
-    },
-    {
-      "de": "entwickeln",
-      "es": "desarrollar",
-      "cat": "Tecnología",
-      "forms": "er entwickelt, hat entwickelt",
-      "ex": "Die Firma entwickelt Apps für Schulen.",
-      "ex_es": "La empresa desarrolla aplicaciones para colegios."
-    },
-    {
-      "de": "die Erfindung",
-      "pl": "die Erfindungen",
-      "es": "el invento",
-      "cat": "Tecnología",
-      "ex": "Das Internet ist eine wichtige Erfindung.",
-      "ex_es": "Internet es un invento importante."
-    },
-    {
-      "de": "erfinden",
-      "es": "inventar",
-      "cat": "Tecnología",
-      "forms": "er erfindet, erfand, hat erfunden",
-      "ex": "Wer hat das Telefon erfunden?",
-      "ex_es": "¿Quién inventó el teléfono?"
-    },
-    {
-      "de": "die künstliche Intelligenz (KI)",
-      "es": "la inteligencia artificial (IA)",
-      "cat": "Tecnología",
-      "ex": "Viele Studierende nutzen KI für ihre Hausarbeiten.",
-      "ex_es": "Muchos estudiantes usan la IA para sus trabajos."
-    },
-    {
-      "de": "digital",
-      "es": "digital",
-      "cat": "Tecnología",
-      "ex": "Die Rechnung kommt nur noch digital.",
-      "ex_es": "La factura ya solo llega en formato digital."
-    },
-    {
-      "de": "der Laptop",
-      "pl": "die Laptops",
-      "es": "el portátil",
-      "cat": "Tecnología",
-      "ex": "Mein Laptop funktioniert nicht mehr.",
-      "ex_es": "Mi portátil ya no funciona."
-    },
-    {
-      "de": "aus Versehen",
-      "es": "sin querer, por error",
-      "cat": "Tecnología",
-      "ex": "Ich habe aus Versehen die falsche Datei geschickt.",
-      "ex_es": "He enviado sin querer el archivo equivocado."
-    },
-    {
-      "de": "umgehen (mit)",
-      "es": "manejar, saber tratar (algo o a alguien)",
-      "cat": "Tecnología",
-      "forms": "er geht um, ging um, ist umgegangen",
-      "ex": "Meine Oma kann gut mit dem Tablet umgehen.",
-      "ex_es": "Mi abuela sabe manejar bien la tableta."
-    },
-    {
-      "de": "erreichbar",
-      "es": "localizable, disponible",
-      "cat": "Medios",
-      "ex": "Im Urlaub bin ich nicht erreichbar.",
-      "ex_es": "En vacaciones no estoy localizable."
-    },
-    {
-      "de": "ständig",
-      "es": "constantemente, todo el rato",
-      "cat": "Medios",
-      "ex": "Mein Handy klingelt ständig.",
-      "ex_es": "Mi móvil suena todo el rato."
-    },
-    {
-      "de": "süchtig (nach)",
-      "es": "adicto (a)",
-      "cat": "Medios",
-      "ex": "Manche Jugendliche sind fast süchtig nach ihrem Handy.",
-      "ex_es": "Algunos jóvenes son casi adictos al móvil."
-    },
-    {
-      "de": "abschalten",
-      "es": "apagar; desconectar (descansar)",
-      "cat": "Medios",
-      "forms": "er schaltet ab, hat abgeschaltet",
-      "ex": "Am Wochenende schalte ich das Handy ab.",
-      "ex_es": "El fin de semana apago el móvil."
-    },
-    {
-      "de": "prüfen",
-      "es": "comprobar, revisar",
-      "cat": "Medios",
-      "forms": "er prüft, prüfte, hat geprüft",
-      "ex": "Bevor ich etwas teile, prüfe ich die Quelle.",
-      "ex_es": "Antes de compartir algo, compruebo la fuente."
-    }
+    {"de": "das Gerät", "pl": "die Geräte", "es": "el aparato, el dispositivo", "cat": "Tecnología", "ex": "Wie viele digitale Geräte habt ihr zu Hause?", "ex_es": "¿Cuántos dispositivos digitales tenéis en casa?"},
+    {"de": "der Bildschirm", "pl": "die Bildschirme", "es": "la pantalla", "cat": "Tecnología", "ex": "Ich sitze acht Stunden am Tag vor dem Bildschirm.", "ex_es": "Paso ocho horas al día delante de la pantalla."},
+    {"de": "die Tastatur", "pl": "die Tastaturen", "es": "el teclado", "cat": "Tecnología", "ex": "Die Schweizer Tastatur hat kein ß.", "ex_es": "El teclado suizo no tiene ß."},
+    {"de": "der Akku", "pl": "die Akkus", "es": "la batería (recargable)", "cat": "Tecnología", "ex": "Mein Akku hält nur noch einen halben Tag.", "ex_es": "Mi batería ya solo dura medio día."},
+    {"de": "aufladen", "es": "cargar (la batería)", "cat": "Tecnología", "forms": "er lädt auf, lud auf, hat aufgeladen", "ex": "Ich lade das Handy nachts auf.", "ex_es": "Cargo el móvil por la noche."},
+    {"de": "das Ladegerät", "pl": "die Ladegeräte", "es": "el cargador", "cat": "Tecnología", "ex": "Ich habe mein Ladegerät im Büro vergessen.", "ex_es": "Me he dejado el cargador en la oficina."},
+    {"de": "das Passwort", "pl": "die Passwörter", "es": "la contraseña", "cat": "Internet", "ex": "Du solltest nicht überall dasselbe Passwort benutzen.", "ex_es": "No deberías usar la misma contraseña en todas partes."},
+    {"de": "sich einloggen", "es": "iniciar sesión", "cat": "Internet", "forms": "er loggt sich ein, hat sich eingeloggt", "ex": "Ich kann mich nicht in mein Konto einloggen.", "ex_es": "No puedo iniciar sesión en mi cuenta."},
+    {"de": "speichern", "es": "guardar (un archivo)", "cat": "Tecnología", "forms": "er speichert, hat gespeichert", "ex": "Hast du das Dokument gespeichert?", "ex_es": "¿Has guardado el documento?"},
+    {"de": "löschen", "es": "borrar", "cat": "Tecnología", "forms": "er löscht, hat gelöscht", "ex": "Ich habe aus Versehen alle Fotos gelöscht.", "ex_es": "He borrado sin querer todas las fotos."},
+    {"de": "die Datei", "pl": "die Dateien", "es": "el archivo (informático)", "cat": "Tecnología", "ex": "Die Datei ist zu groß für eine E-Mail.", "ex_es": "El archivo es demasiado grande para un correo."},
+    {"de": "installieren", "es": "instalar", "cat": "Tecnología", "forms": "er installiert, hat installiert", "ex": "Ich habe eine neue App installiert.", "ex_es": "He instalado una aplicación nueva."},
+    {"de": "das Update", "pl": "die Updates", "es": "la actualización", "cat": "Tecnología", "ex": "Nach dem Update ist das Handy sehr langsam.", "ex_es": "Después de la actualización el móvil va muy lento."},
+    {"de": "funktionieren", "es": "funcionar", "cat": "Tecnología", "forms": "er funktioniert, hat funktioniert", "ex": "Der Drucker funktioniert schon wieder nicht.", "ex_es": "La impresora vuelve a no funcionar."},
+    {"de": "der Kundendienst", "es": "el servicio de atención al cliente", "cat": "Tecnología", "ex": "Der Kundendienst ist nur bis 18 Uhr erreichbar.", "ex_es": "El servicio de atención al cliente solo está disponible hasta las 18 h."},
+    {"de": "der Empfang", "es": "la cobertura (del móvil); la recepción", "cat": "Tecnología", "ex": "In den Bergen hatten wir keinen Empfang.", "ex_es": "En la montaña no teníamos cobertura."},
+    {"de": "das WLAN", "es": "el wifi", "cat": "Internet", "ex": "Gibt es im Hotel kostenloses WLAN?", "ex_es": "¿Hay wifi gratis en el hotel?"},
+    {"de": "die Daten", "es": "los datos", "cat": "Internet", "ex": "Die App sammelt viele persönliche Daten.", "ex_es": "La aplicación recopila muchos datos personales."},
+    {"de": "der Datenschutz", "es": "la protección de datos", "cat": "Internet", "ex": "In der Schweiz ist der Datenschutz sehr wichtig.", "ex_es": "En Suiza la protección de datos es muy importante."},
+    {"de": "die Sicherheit", "es": "la seguridad", "cat": "Internet", "ex": "Für mehr Sicherheit brauchen Sie ein neues Passwort.", "ex_es": "Para más seguridad necesita una contraseña nueva."},
+    {"de": "der Nutzer / die Nutzerin", "pl": "die Nutzer / die Nutzerinnen", "es": "el usuario / la usuaria", "cat": "Internet", "ex": "Die App hat über eine Million Nutzer.", "ex_es": "La aplicación tiene más de un millón de usuarios."},
+    {"de": "das Abonnement / das Abo", "pl": "die Abonnements / die Abos", "es": "la suscripción, el abono", "cat": "Medios", "ex": "Ich habe mein Zeitungsabo gekündigt.", "ex_es": "He cancelado mi suscripción al periódico."},
+    {"de": "die Bewertung", "pl": "die Bewertungen", "es": "la valoración, la reseña", "cat": "Internet", "ex": "Bevor ich etwas kaufe, lese ich die Bewertungen.", "ex_es": "Antes de comprar algo leo las valoraciones."},
+    {"de": "teilen", "es": "compartir", "cat": "Internet", "forms": "er teilt, teilte, hat geteilt", "ex": "Ich teile keine privaten Fotos im Internet.", "ex_es": "No comparto fotos privadas en internet."},
+    {"de": "der Bericht", "pl": "die Berichte", "es": "el reportaje, el informe", "cat": "Medios", "ex": "Im Fernsehen kam ein Bericht über Handysucht.", "ex_es": "En la tele salió un reportaje sobre la adicción al móvil."},
+    {"de": "berichten (über)", "es": "informar (sobre)", "cat": "Medios", "forms": "er berichtet, hat berichtet", "ex": "Die Zeitung berichtet über den Streik.", "ex_es": "El periódico informa sobre la huelga."},
+    {"de": "der Artikel", "pl": "die Artikel", "es": "el artículo (de prensa)", "cat": "Medios", "ex": "Hast du den Artikel über KI gelesen?", "ex_es": "¿Has leído el artículo sobre la IA?"},
+    {"de": "der Journalist / die Journalistin", "pl": "die Journalisten / die Journalistinnen", "es": "el/la periodista", "cat": "Medios", "ex": "Die Journalistin hat mit vielen Jugendlichen gesprochen.", "ex_es": "La periodista ha hablado con muchos jóvenes."},
+    {"de": "die Quelle", "pl": "die Quellen", "es": "la fuente (de información)", "cat": "Medios", "ex": "Man sollte immer die Quelle prüfen.", "ex_es": "Siempre habría que comprobar la fuente."},
+    {"de": "die Falschmeldung", "pl": "die Falschmeldungen", "es": "la noticia falsa, el bulo", "cat": "Medios", "ex": "Diese Falschmeldung haben Tausende geteilt.", "ex_es": "Miles de personas han compartido este bulo."},
+    {"de": "die Meinung", "pl": "die Meinungen", "es": "la opinión", "cat": "Opinar", "ex": "Meiner Meinung nach brauchen Kinder kein Smartphone.", "ex_es": "En mi opinión, los niños no necesitan un smartphone."},
+    {"de": "die Ansicht", "pl": "die Ansichten", "es": "el punto de vista, la opinión", "cat": "Opinar", "ex": "Ich bin der Ansicht, dass das zu teuer ist.", "ex_es": "Opino que es demasiado caro."},
+    {"de": "zustimmen (+ Dat)", "es": "estar de acuerdo (con alguien)", "cat": "Opinar", "forms": "er stimmt zu, stimmte zu, hat zugestimmt", "ex": "Da stimme ich dir völlig zu.", "ex_es": "En eso estoy totalmente de acuerdo contigo."},
+    {"de": "widersprechen (+ Dat)", "es": "contradecir, llevar la contraria", "cat": "Opinar", "forms": "er widerspricht, widersprach, hat widersprochen", "ex": "Da muss ich dir widersprechen.", "ex_es": "Ahí tengo que llevarte la contraria."},
+    {"de": "behaupten", "es": "afirmar (sin pruebas)", "cat": "Opinar", "forms": "er behauptet, hat behauptet", "ex": "Er behauptet, dass er nie am Handy ist.", "ex_es": "Afirma que nunca está con el móvil."},
+    {"de": "überzeugen", "es": "convencer", "cat": "Opinar", "forms": "er überzeugt, hat überzeugt", "ex": "Das Argument hat mich nicht überzeugt.", "ex_es": "El argumento no me ha convencido."},
+    {"de": "Meiner Meinung nach …", "es": "en mi opinión…", "cat": "Opinar", "ex": "Meiner Meinung nach ist das Handy für Kinder gefährlich.", "ex_es": "En mi opinión, el móvil es peligroso para los niños."},
+    {"de": "dafür / dagegen sein", "es": "estar a favor / en contra", "cat": "Opinar", "ex": "Ich bin dafür, dass Schulen Tablets kaufen.", "ex_es": "Estoy a favor de que los colegios compren tabletas."},
+    {"de": "einerseits … andererseits", "es": "por un lado… por otro", "cat": "Opinar", "ex": "Einerseits ist KI praktisch, andererseits macht sie mir Angst.", "ex_es": "Por un lado la IA es práctica, por otro me da miedo."},
+    {"de": "Das kommt darauf an.", "es": "Depende.", "cat": "Opinar", "ex": "Ist das Handy gut für Kinder? – Das kommt darauf an.", "ex_es": "¿El móvil es bueno para los niños? – Depende."},
+    {"de": "recht haben", "es": "tener razón", "cat": "Opinar", "forms": "er hat recht, hatte recht, hat recht gehabt", "ex": "Da hast du völlig recht.", "ex_es": "Tienes toda la razón."},
+    {"de": "Das sehe ich anders.", "es": "Yo lo veo de otra manera.", "cat": "Opinar", "ex": "Das sehe ich anders: Ohne Handy geht es heute nicht mehr.", "ex_es": "Yo lo veo de otra manera: hoy en día no se puede vivir sin móvil."},
+    {"de": "der Standpunkt", "pl": "die Standpunkte", "es": "el punto de vista, la postura", "cat": "Opinar", "ex": "Ich verstehe deinen Standpunkt, aber ich sehe das anders.", "ex_es": "Entiendo tu punto de vista, pero lo veo distinto."},
+    {"de": "an deiner Stelle", "es": "yo en tu lugar", "cat": "Opinar", "ex": "An deiner Stelle würde ich das Abo kündigen.", "ex_es": "Yo en tu lugar me daría de baja de la suscripción."},
+    {"de": "die Entwicklung", "pl": "die Entwicklungen", "es": "el desarrollo, la evolución", "cat": "Tecnología", "ex": "Die Entwicklung der KI geht sehr schnell.", "ex_es": "El desarrollo de la IA va muy rápido."},
+    {"de": "entwickeln", "es": "desarrollar", "cat": "Tecnología", "forms": "er entwickelt, hat entwickelt", "ex": "Die Firma entwickelt Apps für Schulen.", "ex_es": "La empresa desarrolla aplicaciones para colegios."},
+    {"de": "die Erfindung", "pl": "die Erfindungen", "es": "el invento", "cat": "Tecnología", "ex": "Das Internet ist eine wichtige Erfindung.", "ex_es": "Internet es un invento importante."},
+    {"de": "erfinden", "es": "inventar", "cat": "Tecnología", "forms": "er erfindet, erfand, hat erfunden", "ex": "Wer hat das Telefon erfunden?", "ex_es": "¿Quién inventó el teléfono?"},
+    {"de": "die künstliche Intelligenz (KI)", "es": "la inteligencia artificial (IA)", "cat": "Tecnología", "ex": "Viele Studierende nutzen KI für ihre Hausarbeiten.", "ex_es": "Muchos estudiantes usan la IA para sus trabajos."},
+    {"de": "digital", "es": "digital", "cat": "Tecnología", "ex": "Die Rechnung kommt nur noch digital.", "ex_es": "La factura ya solo llega en formato digital."},
+    {"de": "der Laptop", "pl": "die Laptops", "es": "el portátil", "cat": "Tecnología", "ex": "Mein Laptop funktioniert nicht mehr.", "ex_es": "Mi portátil ya no funciona."},
+    {"de": "aus Versehen", "es": "sin querer, por error", "cat": "Tecnología", "ex": "Ich habe aus Versehen die falsche Datei geschickt.", "ex_es": "He enviado sin querer el archivo equivocado."},
+    {"de": "umgehen (mit)", "es": "manejar, saber tratar (algo o a alguien)", "cat": "Tecnología", "forms": "er geht um, ging um, ist umgegangen", "ex": "Meine Oma kann gut mit dem Tablet umgehen.", "ex_es": "Mi abuela sabe manejar bien la tableta."},
+    {"de": "ständig", "es": "constantemente, todo el rato", "cat": "Medios", "ex": "Mein Handy klingelt ständig.", "ex_es": "Mi móvil suena todo el rato."},
+    {"de": "süchtig (nach)", "es": "adicto (a)", "cat": "Medios", "ex": "Manche Jugendliche sind fast süchtig nach ihrem Handy.", "ex_es": "Algunos jóvenes son casi adictos al móvil."},
+    {"de": "abschalten", "es": "apagar; desconectar (descansar)", "cat": "Medios", "forms": "er schaltet ab, hat abgeschaltet", "ex": "Am Wochenende schalte ich das Handy ab.", "ex_es": "El fin de semana apago el móvil."},
+    {"de": "prüfen", "es": "comprobar, revisar", "cat": "Medios", "forms": "er prüft, prüfte, hat geprüft", "ex": "Bevor ich etwas teile, prüfe ich die Quelle.", "ex_es": "Antes de compartir algo, compruebo la fuente."}
   ],
   "exercises": [
     {

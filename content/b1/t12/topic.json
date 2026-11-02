@@ -13,501 +13,60 @@
     "Entender artículos de prensa, comentarios de lectores y debates de radio sobre temas de actualidad"
   ],
   "vocab": [
-    {
-      "de": "die Gesellschaft",
-      "pl": "die Gesellschaften",
-      "es": "la sociedad",
-      "cat": "Política",
-      "ex": "In unserer Gesellschaft werden die Menschen immer älter.",
-      "ex_es": "En nuestra sociedad la gente vive cada vez más años."
-    },
-    {
-      "de": "die Regierung",
-      "pl": "die Regierungen",
-      "es": "el gobierno",
-      "cat": "Política",
-      "ex": "Die Regierung hat neue Maßnahmen angekündigt.",
-      "ex_es": "El gobierno ha anunciado nuevas medidas."
-    },
-    {
-      "de": "der Staat",
-      "pl": "die Staaten",
-      "es": "el Estado",
-      "cat": "Política",
-      "ex": "Der Staat sollte mehr Wohnungen bauen.",
-      "ex_es": "El Estado debería construir más viviendas."
-    },
-    {
-      "de": "die Politik",
-      "es": "la política",
-      "cat": "Política",
-      "ex": "Ich interessiere mich nicht besonders für Politik.",
-      "ex_es": "No me interesa especialmente la política."
-    },
-    {
-      "de": "politisch",
-      "es": "político",
-      "cat": "Política",
-      "ex": "Sie ist politisch sehr aktiv.",
-      "ex_es": "Es muy activa políticamente."
-    },
-    {
-      "de": "die Partei",
-      "pl": "die Parteien",
-      "es": "el partido (político)",
-      "cat": "Política",
-      "ex": "Welche Partei hat die Wahl gewonnen?",
-      "ex_es": "¿Qué partido ha ganado las elecciones?"
-    },
-    {
-      "de": "die Wahl",
-      "pl": "die Wahlen",
-      "es": "la elección; las elecciones",
-      "cat": "Política",
-      "ex": "Im Herbst finden die Wahlen statt.",
-      "ex_es": "En otoño se celebran las elecciones."
-    },
-    {
-      "de": "wählen",
-      "es": "elegir, votar (a alguien)",
-      "cat": "Política",
-      "forms": "er wählt, wählte, hat gewählt",
-      "ex": "Wer keinen Schweizer Pass hat, darf bei nationalen Wahlen nicht wählen.",
-      "ex_es": "Quien no tiene pasaporte suizo no puede votar en las elecciones nacionales."
-    },
-    {
-      "de": "die Abstimmung",
-      "pl": "die Abstimmungen",
-      "es": "la votación",
-      "cat": "Política",
-      "ex": "Am Sonntag gibt es eine Abstimmung über das neue Stadion.",
-      "ex_es": "El domingo hay una votación sobre el nuevo estadio."
-    },
-    {
-      "de": "abstimmen (über)",
-      "es": "votar (sobre algo)",
-      "cat": "Política",
-      "forms": "er stimmt ab, stimmte ab, hat abgestimmt",
-      "ex": "Die Schweizer stimmen mehrmals pro Jahr über neue Gesetze ab.",
-      "ex_es": "Los suizos votan varias veces al año sobre nuevas leyes."
-    },
-    {
-      "de": "das Gesetz",
-      "pl": "die Gesetze",
-      "es": "la ley",
-      "cat": "Política",
-      "ex": "Das neue Gesetz gilt ab Januar.",
-      "ex_es": "La nueva ley entra en vigor en enero."
-    },
-    {
-      "de": "der Bürger / die Bürgerin",
-      "pl": "die Bürger / die Bürgerinnen",
-      "es": "el ciudadano / la ciudadana",
-      "cat": "Política",
-      "ex": "Die Bürger können ihre Meinung direkt sagen.",
-      "ex_es": "Los ciudadanos pueden dar su opinión directamente."
-    },
-    {
-      "de": "die Mehrheit",
-      "pl": "die Mehrheiten",
-      "es": "la mayoría",
-      "cat": "Política",
-      "ex": "Die Mehrheit der Bevölkerung war dafür.",
-      "ex_es": "La mayoría de la población estaba a favor."
-    },
-    {
-      "de": "die Minderheit",
-      "pl": "die Minderheiten",
-      "es": "la minoría",
-      "cat": "Política",
-      "ex": "Nur eine Minderheit hat dagegen gestimmt.",
-      "ex_es": "Solo una minoría votó en contra."
-    },
-    {
-      "de": "unterstützen",
-      "es": "apoyar",
-      "cat": "Política",
-      "forms": "er unterstützt, unterstützte, hat unterstützt",
-      "ex": "Viele Vereine unterstützen die Initiative.",
-      "ex_es": "Muchas asociaciones apoyan la iniciativa."
-    },
-    {
-      "de": "fordern",
-      "es": "exigir, reclamar",
-      "cat": "Política",
-      "forms": "er fordert, forderte, hat gefordert",
-      "ex": "Die Eltern fordern mehr Kitaplätze.",
-      "ex_es": "Los padres reclaman más plazas de guardería."
-    },
-    {
-      "de": "die Demonstration",
-      "pl": "die Demonstrationen",
-      "es": "la manifestación",
-      "cat": "Política",
-      "ex": "Tausende Menschen nahmen an der Demonstration teil.",
-      "ex_es": "Miles de personas participaron en la manifestación."
-    },
-    {
-      "de": "die Demokratie",
-      "pl": "die Demokratien",
-      "es": "la democracia",
-      "cat": "Política",
-      "ex": "In der Schweiz gibt es eine direkte Demokratie.",
-      "ex_es": "En Suiza hay una democracia directa."
-    },
-    {
-      "de": "die Initiative",
-      "pl": "die Initiativen",
-      "es": "la iniciativa (popular)",
-      "cat": "Política",
-      "ex": "Am Sonntag wird über die Initiative abgestimmt.",
-      "ex_es": "El domingo se vota la iniciativa."
-    },
-    {
-      "de": "das Referendum",
-      "pl": "die Referenden",
-      "es": "el referéndum",
-      "cat": "Política",
-      "ex": "Gegen das neue Gesetz wurde ein Referendum ergriffen.",
-      "ex_es": "Contra la nueva ley se ha presentado un referéndum."
-    },
-    {
-      "de": "beschließen",
-      "es": "decidir, aprobar (una ley, una medida)",
-      "cat": "Política",
-      "forms": "er beschließt, beschloss, hat beschlossen",
-      "ex": "Die Regierung hat ein neues Gesetz beschlossen.",
-      "ex_es": "El Gobierno ha aprobado una nueva ley."
-    },
-    {
-      "de": "die Reform",
-      "pl": "die Reformen",
-      "es": "la reforma",
-      "cat": "Política",
-      "ex": "Die geplante Reform wird stark kritisiert.",
-      "ex_es": "La reforma prevista recibe muchas críticas."
-    },
-    {
-      "de": "die Bevölkerung",
-      "es": "la población",
-      "cat": "Sociedad",
-      "ex": "Ein Viertel der Bevölkerung hat keinen Schweizer Pass.",
-      "ex_es": "Una cuarta parte de la población no tiene pasaporte suizo."
-    },
-    {
-      "de": "der Ausländer / die Ausländerin",
-      "pl": "die Ausländer / die Ausländerinnen",
-      "es": "el extranjero / la extranjera",
-      "cat": "Sociedad",
-      "ex": "Viele Ausländer lernen Deutsch an der Volkshochschule.",
-      "ex_es": "Muchos extranjeros aprenden alemán en la escuela de adultos."
-    },
-    {
-      "de": "die Integration",
-      "es": "la integración",
-      "cat": "Sociedad",
-      "ex": "Die Sprache ist der Schlüssel zur Integration.",
-      "ex_es": "La lengua es la clave de la integración."
-    },
-    {
-      "de": "der Flüchtling",
-      "pl": "die Flüchtlinge",
-      "es": "el refugiado / la refugiada",
-      "cat": "Sociedad",
-      "ex": "Die Gemeinde hat Wohnungen für Flüchtlinge gesucht.",
-      "ex_es": "El municipio buscó pisos para refugiados."
-    },
-    {
-      "de": "die Gleichberechtigung",
-      "es": "la igualdad de derechos",
-      "cat": "Sociedad",
-      "ex": "Bei der Gleichberechtigung gibt es noch viel zu tun.",
-      "ex_es": "En igualdad de derechos todavía queda mucho por hacer."
-    },
-    {
-      "de": "gerecht / ungerecht",
-      "es": "justo / injusto",
-      "cat": "Sociedad",
-      "ex": "Ich finde es ungerecht, dass Frauen weniger verdienen.",
-      "ex_es": "Me parece injusto que las mujeres ganen menos."
-    },
-    {
-      "de": "die Armut",
-      "es": "la pobreza",
-      "cat": "Sociedad",
-      "ex": "Auch in reichen Ländern gibt es Armut.",
-      "ex_es": "También en los países ricos hay pobreza."
-    },
-    {
-      "de": "die Arbeitslosigkeit",
-      "es": "el desempleo",
-      "cat": "Sociedad",
-      "ex": "In Spanien ist die Arbeitslosigkeit höher als in der Schweiz.",
-      "ex_es": "En España el desempleo es más alto que en Suiza."
-    },
-    {
-      "de": "die Rente",
-      "pl": "die Renten",
-      "es": "la pensión, la jubilación",
-      "cat": "Sociedad",
-      "ex": "Mit 65 geht man in Rente.",
-      "ex_es": "A los 65 uno se jubila."
-    },
-    {
-      "de": "die Steuer",
-      "pl": "die Steuern",
-      "es": "el impuesto",
-      "cat": "Sociedad",
-      "ex": "In Zug zahlt man weniger Steuern als in Zürich.",
-      "ex_es": "En Zug se pagan menos impuestos que en Zúrich."
-    },
-    {
-      "de": "die Generation",
-      "pl": "die Generationen",
-      "es": "la generación",
-      "cat": "Sociedad",
-      "ex": "Die junge Generation sieht das anders.",
-      "ex_es": "La generación joven lo ve de otra manera."
-    },
-    {
-      "de": "die Sicherheit",
-      "es": "la seguridad",
-      "cat": "Sociedad",
-      "ex": "Für viele ist Sicherheit das wichtigste Thema.",
-      "ex_es": "Para muchos la seguridad es el tema más importante."
-    },
-    {
-      "de": "öffentlich",
-      "es": "público",
-      "cat": "Sociedad",
-      "ex": "Die öffentlichen Verkehrsmittel sind in der Schweiz sehr gut.",
-      "ex_es": "El transporte público en Suiza es muy bueno."
-    },
-    {
-      "de": "der/die Arbeitslose",
-      "pl": "die Arbeitslosen",
-      "es": "el desempleado / la desempleada",
-      "cat": "Sociedad",
-      "ex": "Die Zahl der Arbeitslosen ist gesunken.",
-      "ex_es": "El número de desempleados ha bajado."
-    },
-    {
-      "de": "die Lebenshaltungskosten (Pl.)",
-      "es": "el coste de la vida",
-      "cat": "Sociedad",
-      "ex": "Die Lebenshaltungskosten sind stark gestiegen.",
-      "ex_es": "El coste de la vida ha subido mucho."
-    },
-    {
-      "de": "der Klimaschutz",
-      "es": "la protección del clima",
-      "cat": "Sociedad",
-      "ex": "Viele junge Leute engagieren sich für den Klimaschutz.",
-      "ex_es": "Muchos jóvenes se comprometen con la protección del clima."
-    },
-    {
-      "de": "die Kita",
-      "pl": "die Kitas",
-      "es": "la guardería",
-      "cat": "Sociedad",
-      "ex": "In Zürich ist ein Platz in der Kita sehr teuer.",
-      "ex_es": "En Zúrich una plaza de guardería es muy cara."
-    },
-    {
-      "de": "aktuell",
-      "es": "actual, de actualidad",
-      "cat": "Noticias",
-      "ex": "Das ist ein sehr aktuelles Thema.",
-      "ex_es": "Es un tema muy de actualidad."
-    },
-    {
-      "de": "das Ereignis",
-      "pl": "die Ereignisse",
-      "es": "el acontecimiento",
-      "cat": "Noticias",
-      "ex": "Das war das wichtigste Ereignis des Jahres.",
-      "ex_es": "Fue el acontecimiento más importante del año."
-    },
-    {
-      "de": "berichten (über)",
-      "es": "informar (sobre)",
-      "cat": "Noticias",
-      "forms": "er berichtet, berichtete, hat berichtet",
-      "ex": "Alle Zeitungen haben über den Unfall berichtet.",
-      "ex_es": "Todos los periódicos informaron sobre el accidente."
-    },
-    {
-      "de": "der Bericht",
-      "pl": "die Berichte",
-      "es": "el informe, el reportaje",
-      "cat": "Noticias",
-      "ex": "Ich habe einen interessanten Bericht über Armut gelesen.",
-      "ex_es": "He leído un reportaje interesante sobre la pobreza."
-    },
-    {
-      "de": "die Umfrage",
-      "pl": "die Umfragen",
-      "es": "la encuesta",
-      "cat": "Noticias",
-      "ex": "Laut einer Umfrage fühlen sich viele Menschen gestresst.",
-      "ex_es": "Según una encuesta, mucha gente se siente estresada."
-    },
-    {
-      "de": "die Studie",
-      "pl": "die Studien",
-      "es": "el estudio",
-      "cat": "Noticias",
-      "ex": "Eine neue Studie zeigt, dass junge Leute weniger Auto fahren.",
-      "ex_es": "Un nuevo estudio muestra que los jóvenes conducen menos."
-    },
-    {
-      "de": "das Ergebnis",
-      "pl": "die Ergebnisse",
-      "es": "el resultado",
-      "cat": "Noticias",
-      "ex": "Das Ergebnis der Abstimmung war sehr knapp.",
-      "ex_es": "El resultado de la votación fue muy ajustado."
-    },
-    {
-      "de": "veröffentlichen",
-      "es": "publicar",
-      "cat": "Noticias",
-      "forms": "er veröffentlicht, veröffentlichte, hat veröffentlicht",
-      "ex": "Die Studie wurde gestern veröffentlicht.",
-      "ex_es": "El estudio se publicó ayer."
-    },
-    {
-      "de": "der Beitrag",
-      "pl": "die Beiträge",
-      "es": "la contribución; el comentario (en un foro); la cuota",
-      "cat": "Noticias",
-      "ex": "Ich habe deinen Beitrag im Forum gelesen.",
-      "ex_es": "He leído tu comentario en el foro."
-    },
-    {
-      "de": "die Situation",
-      "pl": "die Situationen",
-      "es": "la situación",
-      "cat": "Noticias",
-      "ex": "Die Situation hat sich verbessert.",
-      "ex_es": "La situación ha mejorado."
-    },
-    {
-      "de": "diskutieren",
-      "es": "debatir, discutir",
-      "cat": "Noticias",
-      "forms": "er diskutiert, diskutierte, hat diskutiert",
-      "ex": "Das Thema wird gerade viel diskutiert.",
-      "ex_es": "El tema se está debatiendo mucho ahora."
-    },
-    {
-      "de": "kritisieren",
-      "es": "criticar",
-      "cat": "Noticias",
-      "forms": "er kritisiert, kritisierte, hat kritisiert",
-      "ex": "Viele Bürger kritisieren die hohen Mieten.",
-      "ex_es": "Muchos ciudadanos critican los alquileres altos."
-    },
-    {
-      "de": "steigen",
-      "es": "subir, aumentar",
-      "cat": "Cambios",
-      "forms": "er steigt, stieg, ist gestiegen",
-      "ex": "Die Mieten sind im letzten Jahr stark gestiegen.",
-      "ex_es": "Los alquileres subieron mucho el año pasado."
-    },
-    {
-      "de": "sinken",
-      "es": "bajar, disminuir",
-      "cat": "Cambios",
-      "forms": "er sinkt, sank, ist gesunken",
-      "ex": "Die Zahl der Arbeitslosen ist gesunken.",
-      "ex_es": "El número de desempleados ha bajado."
-    },
-    {
-      "de": "zunehmen",
-      "es": "aumentar",
-      "cat": "Cambios",
-      "forms": "er nimmt zu, nahm zu, hat zugenommen",
-      "ex": "Der Verkehr in der Stadt nimmt jedes Jahr zu.",
-      "ex_es": "El tráfico en la ciudad aumenta cada año."
-    },
-    {
-      "de": "die Entwicklung",
-      "pl": "die Entwicklungen",
-      "es": "el desarrollo, la evolución",
-      "cat": "Cambios",
-      "ex": "Diese Entwicklung macht mir Sorgen.",
-      "ex_es": "Esta evolución me preocupa."
-    },
-    {
-      "de": "sich verändern",
-      "es": "cambiar(se)",
-      "cat": "Cambios",
-      "forms": "er verändert sich, veränderte sich, hat sich verändert",
-      "ex": "Zürich hat sich in den letzten Jahren stark verändert.",
-      "ex_es": "Zúrich ha cambiado mucho en los últimos años."
-    },
-    {
-      "de": "die Lösung",
-      "pl": "die Lösungen",
-      "es": "la solución",
-      "cat": "Opinar",
-      "ex": "Für dieses Problem gibt es keine einfache Lösung.",
-      "ex_es": "Para este problema no hay una solución sencilla."
-    },
-    {
-      "de": "überzeugt (von)",
-      "es": "convencido (de)",
-      "cat": "Opinar",
-      "ex": "Ich bin davon überzeugt, dass wir mehr tun müssen.",
-      "ex_es": "Estoy convencido de que tenemos que hacer más."
-    },
-    {
-      "de": "zustimmen",
-      "es": "estar de acuerdo con, aprobar",
-      "cat": "Opinar",
-      "forms": "er stimmt zu, stimmte zu, hat zugestimmt",
-      "ex": "Da muss ich dir zustimmen.",
-      "ex_es": "En eso tengo que darte la razón."
-    },
-    {
-      "de": "betreffen",
-      "es": "afectar, concernir",
-      "cat": "Opinar",
-      "forms": "es betrifft, betraf, hat betroffen",
-      "ex": "Das Thema betrifft uns alle.",
-      "ex_es": "El tema nos afecta a todos."
-    },
-    {
-      "de": "das Argument",
-      "pl": "die Argumente",
-      "es": "el argumento",
-      "cat": "Opinar",
-      "ex": "Ein wichtiges Argument dafür ist, dass es billiger ist.",
-      "ex_es": "Un argumento importante a favor es que es más barato."
-    },
-    {
-      "de": "Dagegen spricht, dass …",
-      "es": "en contra habla el hecho de que…",
-      "cat": "Opinar",
-      "ex": "Dagegen spricht, dass die Mieten weiter steigen.",
-      "ex_es": "En contra habla el hecho de que los alquileres siguen subiendo."
-    },
-    {
-      "de": "zusammenfassend",
-      "es": "en resumen",
-      "cat": "Opinar",
-      "ex": "Zusammenfassend kann man sagen, dass das Problem wächst.",
-      "ex_es": "En resumen, se puede decir que el problema crece."
-    },
-    {
-      "de": "gespannt sein (auf + Akk.)",
-      "es": "tener curiosidad (por), estar expectante",
-      "cat": "Opinar",
-      "ex": "Ich bin gespannt auf eure Meinungen.",
-      "ex_es": "Tengo curiosidad por leer vuestras opiniones."
-    }
+    {"de": "die Gesellschaft", "pl": "die Gesellschaften", "es": "la sociedad", "cat": "Política", "ex": "In unserer Gesellschaft werden die Menschen immer älter.", "ex_es": "En nuestra sociedad la gente vive cada vez más años."},
+    {"de": "die Regierung", "pl": "die Regierungen", "es": "el gobierno", "cat": "Política", "ex": "Die Regierung hat neue Maßnahmen angekündigt.", "ex_es": "El gobierno ha anunciado nuevas medidas."},
+    {"de": "der Staat", "pl": "die Staaten", "es": "el Estado", "cat": "Política", "ex": "Der Staat sollte mehr Wohnungen bauen.", "ex_es": "El Estado debería construir más viviendas."},
+    {"de": "die Politik", "es": "la política", "cat": "Política", "ex": "Ich interessiere mich nicht besonders für Politik.", "ex_es": "No me interesa especialmente la política."},
+    {"de": "politisch", "es": "político", "cat": "Política", "ex": "Sie ist politisch sehr aktiv.", "ex_es": "Es muy activa políticamente."},
+    {"de": "die Partei", "pl": "die Parteien", "es": "el partido (político)", "cat": "Política", "ex": "Welche Partei hat die Wahl gewonnen?", "ex_es": "¿Qué partido ha ganado las elecciones?"},
+    {"de": "die Wahl", "pl": "die Wahlen", "es": "la elección; las elecciones", "cat": "Política", "ex": "Im Herbst finden die Wahlen statt.", "ex_es": "En otoño se celebran las elecciones."},
+    {"de": "wählen", "es": "elegir, votar (a alguien)", "cat": "Política", "forms": "er wählt, wählte, hat gewählt", "ex": "Wer keinen Schweizer Pass hat, darf bei nationalen Wahlen nicht wählen.", "ex_es": "Quien no tiene pasaporte suizo no puede votar en las elecciones nacionales."},
+    {"de": "die Abstimmung", "pl": "die Abstimmungen", "es": "la votación", "cat": "Política", "ex": "Am Sonntag gibt es eine Abstimmung über das neue Stadion.", "ex_es": "El domingo hay una votación sobre el nuevo estadio."},
+    {"de": "abstimmen (über)", "es": "votar (sobre algo)", "cat": "Política", "forms": "er stimmt ab, stimmte ab, hat abgestimmt", "ex": "Die Schweizer stimmen mehrmals pro Jahr über neue Gesetze ab.", "ex_es": "Los suizos votan varias veces al año sobre nuevas leyes."},
+    {"de": "das Gesetz", "pl": "die Gesetze", "es": "la ley", "cat": "Política", "ex": "Das neue Gesetz gilt ab Januar.", "ex_es": "La nueva ley entra en vigor en enero."},
+    {"de": "der Bürger / die Bürgerin", "pl": "die Bürger / die Bürgerinnen", "es": "el ciudadano / la ciudadana", "cat": "Política", "ex": "Die Bürger können ihre Meinung direkt sagen.", "ex_es": "Los ciudadanos pueden dar su opinión directamente."},
+    {"de": "die Mehrheit", "pl": "die Mehrheiten", "es": "la mayoría", "cat": "Política", "ex": "Die Mehrheit der Bevölkerung war dafür.", "ex_es": "La mayoría de la población estaba a favor."},
+    {"de": "die Minderheit", "pl": "die Minderheiten", "es": "la minoría", "cat": "Política", "ex": "Nur eine Minderheit hat dagegen gestimmt.", "ex_es": "Solo una minoría votó en contra."},
+    {"de": "unterstützen", "es": "apoyar", "cat": "Política", "forms": "er unterstützt, unterstützte, hat unterstützt", "ex": "Viele Vereine unterstützen die Initiative.", "ex_es": "Muchas asociaciones apoyan la iniciativa."},
+    {"de": "fordern", "es": "exigir, reclamar", "cat": "Política", "forms": "er fordert, forderte, hat gefordert", "ex": "Die Eltern fordern mehr Kitaplätze.", "ex_es": "Los padres reclaman más plazas de guardería."},
+    {"de": "die Demonstration", "pl": "die Demonstrationen", "es": "la manifestación", "cat": "Política", "ex": "Tausende Menschen nahmen an der Demonstration teil.", "ex_es": "Miles de personas participaron en la manifestación."},
+    {"de": "die Demokratie", "pl": "die Demokratien", "es": "la democracia", "cat": "Política", "ex": "In der Schweiz gibt es eine direkte Demokratie.", "ex_es": "En Suiza hay una democracia directa."},
+    {"de": "die Initiative", "pl": "die Initiativen", "es": "la iniciativa (popular)", "cat": "Política", "ex": "Am Sonntag wird über die Initiative abgestimmt.", "ex_es": "El domingo se vota la iniciativa."},
+    {"de": "das Referendum", "pl": "die Referenden", "es": "el referéndum", "cat": "Política", "ex": "Gegen das neue Gesetz wurde ein Referendum ergriffen.", "ex_es": "Contra la nueva ley se ha presentado un referéndum."},
+    {"de": "beschließen", "es": "decidir, aprobar (una ley, una medida)", "cat": "Política", "forms": "er beschließt, beschloss, hat beschlossen", "ex": "Die Regierung hat ein neues Gesetz beschlossen.", "ex_es": "El Gobierno ha aprobado una nueva ley."},
+    {"de": "die Reform", "pl": "die Reformen", "es": "la reforma", "cat": "Política", "ex": "Die geplante Reform wird stark kritisiert.", "ex_es": "La reforma prevista recibe muchas críticas."},
+    {"de": "die Bevölkerung", "es": "la población", "cat": "Sociedad", "ex": "Ein Viertel der Bevölkerung hat keinen Schweizer Pass.", "ex_es": "Una cuarta parte de la población no tiene pasaporte suizo."},
+    {"de": "der Ausländer / die Ausländerin", "pl": "die Ausländer / die Ausländerinnen", "es": "el extranjero / la extranjera", "cat": "Sociedad", "ex": "Viele Ausländer lernen Deutsch an der Volkshochschule.", "ex_es": "Muchos extranjeros aprenden alemán en la escuela de adultos."},
+    {"de": "die Integration", "es": "la integración", "cat": "Sociedad", "ex": "Die Sprache ist der Schlüssel zur Integration.", "ex_es": "La lengua es la clave de la integración."},
+    {"de": "der Flüchtling", "pl": "die Flüchtlinge", "es": "el refugiado / la refugiada", "cat": "Sociedad", "ex": "Die Gemeinde hat Wohnungen für Flüchtlinge gesucht.", "ex_es": "El municipio buscó pisos para refugiados."},
+    {"de": "die Gleichberechtigung", "es": "la igualdad de derechos", "cat": "Sociedad", "ex": "Bei der Gleichberechtigung gibt es noch viel zu tun.", "ex_es": "En igualdad de derechos todavía queda mucho por hacer."},
+    {"de": "gerecht / ungerecht", "es": "justo / injusto", "cat": "Sociedad", "ex": "Ich finde es ungerecht, dass Frauen weniger verdienen.", "ex_es": "Me parece injusto que las mujeres ganen menos."},
+    {"de": "die Armut", "es": "la pobreza", "cat": "Sociedad", "ex": "Auch in reichen Ländern gibt es Armut.", "ex_es": "También en los países ricos hay pobreza."},
+    {"de": "die Arbeitslosigkeit", "es": "el desempleo", "cat": "Sociedad", "ex": "In Spanien ist die Arbeitslosigkeit höher als in der Schweiz.", "ex_es": "En España el desempleo es más alto que en Suiza."},
+    {"de": "die Rente", "pl": "die Renten", "es": "la pensión, la jubilación", "cat": "Sociedad", "ex": "Mit 65 geht man in Rente.", "ex_es": "A los 65 uno se jubila."},
+    {"de": "öffentlich", "es": "público", "cat": "Sociedad", "ex": "Die öffentlichen Verkehrsmittel sind in der Schweiz sehr gut.", "ex_es": "El transporte público en Suiza es muy bueno."},
+    {"de": "der/die Arbeitslose", "pl": "die Arbeitslosen", "es": "el desempleado / la desempleada", "cat": "Sociedad", "ex": "Die Zahl der Arbeitslosen ist gesunken.", "ex_es": "El número de desempleados ha bajado."},
+    {"de": "die Lebenshaltungskosten (Pl.)", "es": "el coste de la vida", "cat": "Sociedad", "ex": "Die Lebenshaltungskosten sind stark gestiegen.", "ex_es": "El coste de la vida ha subido mucho."},
+    {"de": "der Klimaschutz", "es": "la protección del clima", "cat": "Sociedad", "ex": "Viele junge Leute engagieren sich für den Klimaschutz.", "ex_es": "Muchos jóvenes se comprometen con la protección del clima."},
+    {"de": "die Kita", "pl": "die Kitas", "es": "la guardería", "cat": "Sociedad", "ex": "In Zürich ist ein Platz in der Kita sehr teuer.", "ex_es": "En Zúrich una plaza de guardería es muy cara."},
+    {"de": "aktuell", "es": "actual, de actualidad", "cat": "Noticias", "ex": "Das ist ein sehr aktuelles Thema.", "ex_es": "Es un tema muy de actualidad."},
+    {"de": "die Umfrage", "pl": "die Umfragen", "es": "la encuesta", "cat": "Noticias", "ex": "Laut einer Umfrage fühlen sich viele Menschen gestresst.", "ex_es": "Según una encuesta, mucha gente se siente estresada."},
+    {"de": "die Studie", "pl": "die Studien", "es": "el estudio", "cat": "Noticias", "ex": "Eine neue Studie zeigt, dass junge Leute weniger Auto fahren.", "ex_es": "Un nuevo estudio muestra que los jóvenes conducen menos."},
+    {"de": "das Ergebnis", "pl": "die Ergebnisse", "es": "el resultado", "cat": "Noticias", "ex": "Das Ergebnis der Abstimmung war sehr knapp.", "ex_es": "El resultado de la votación fue muy ajustado."},
+    {"de": "veröffentlichen", "es": "publicar", "cat": "Noticias", "forms": "er veröffentlicht, veröffentlichte, hat veröffentlicht", "ex": "Die Studie wurde gestern veröffentlicht.", "ex_es": "El estudio se publicó ayer."},
+    {"de": "der Beitrag", "pl": "die Beiträge", "es": "la contribución; el comentario (en un foro); la cuota", "cat": "Noticias", "ex": "Ich habe deinen Beitrag im Forum gelesen.", "ex_es": "He leído tu comentario en el foro."},
+    {"de": "die Situation", "pl": "die Situationen", "es": "la situación", "cat": "Noticias", "ex": "Die Situation hat sich verbessert.", "ex_es": "La situación ha mejorado."},
+    {"de": "diskutieren", "es": "debatir, discutir", "cat": "Noticias", "forms": "er diskutiert, diskutierte, hat diskutiert", "ex": "Das Thema wird gerade viel diskutiert.", "ex_es": "El tema se está debatiendo mucho ahora."},
+    {"de": "kritisieren", "es": "criticar", "cat": "Noticias", "forms": "er kritisiert, kritisierte, hat kritisiert", "ex": "Viele Bürger kritisieren die hohen Mieten.", "ex_es": "Muchos ciudadanos critican los alquileres altos."},
+    {"de": "zunehmen", "es": "aumentar", "cat": "Cambios", "forms": "er nimmt zu, nahm zu, hat zugenommen", "ex": "Der Verkehr in der Stadt nimmt jedes Jahr zu.", "ex_es": "El tráfico en la ciudad aumenta cada año."},
+    {"de": "die Lösung", "pl": "die Lösungen", "es": "la solución", "cat": "Opinar", "ex": "Für dieses Problem gibt es keine einfache Lösung.", "ex_es": "Para este problema no hay una solución sencilla."},
+    {"de": "überzeugt (von)", "es": "convencido (de)", "cat": "Opinar", "ex": "Ich bin davon überzeugt, dass wir mehr tun müssen.", "ex_es": "Estoy convencido de que tenemos que hacer más."},
+    {"de": "zustimmen", "es": "estar de acuerdo con, aprobar", "cat": "Opinar", "forms": "er stimmt zu, stimmte zu, hat zugestimmt", "ex": "Da muss ich dir zustimmen.", "ex_es": "En eso tengo que darte la razón."},
+    {"de": "betreffen", "es": "afectar, concernir", "cat": "Opinar", "forms": "es betrifft, betraf, hat betroffen", "ex": "Das Thema betrifft uns alle.", "ex_es": "El tema nos afecta a todos."},
+    {"de": "das Argument", "pl": "die Argumente", "es": "el argumento", "cat": "Opinar", "ex": "Ein wichtiges Argument dafür ist, dass es billiger ist.", "ex_es": "Un argumento importante a favor es que es más barato."},
+    {"de": "Dagegen spricht, dass …", "es": "en contra habla el hecho de que…", "cat": "Opinar", "ex": "Dagegen spricht, dass die Mieten weiter steigen.", "ex_es": "En contra habla el hecho de que los alquileres siguen subiendo."},
+    {"de": "zusammenfassend", "es": "en resumen", "cat": "Opinar", "ex": "Zusammenfassend kann man sagen, dass das Problem wächst.", "ex_es": "En resumen, se puede decir que el problema crece."},
+    {"de": "gespannt sein (auf + Akk.)", "es": "tener curiosidad (por), estar expectante", "cat": "Opinar", "ex": "Ich bin gespannt auf eure Meinungen.", "ex_es": "Tengo curiosidad por leer vuestras opiniones."}
   ],
   "exercises": [
     {

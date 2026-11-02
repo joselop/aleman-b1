@@ -14,419 +14,58 @@
     "Escribir un mensaje formal breve al casero o a la Hausverwaltung (Schreiben Teil 3)"
   ],
   "vocab": [
-    {
-      "de": "die Nachbarschaft",
-      "pl": "die Nachbarschaften",
-      "es": "el vecindario; los vecinos",
-      "cat": "Barrio",
-      "ex": "In unserer Nachbarschaft kennt man sich.",
-      "ex_es": "En nuestro vecindario la gente se conoce."
-    },
-    {
-      "de": "das Stadtviertel",
-      "pl": "die Stadtviertel",
-      "es": "el barrio",
-      "cat": "Barrio",
-      "ex": "Kreis 4 ist ein lebendiges Stadtviertel.",
-      "ex_es": "El distrito 4 es un barrio con mucha vida."
-    },
-    {
-      "de": "die Gegend",
-      "pl": "die Gegenden",
-      "es": "la zona",
-      "cat": "Barrio",
-      "ex": "Die Gegend ist ruhig und grün.",
-      "ex_es": "La zona es tranquila y verde."
-    },
-    {
-      "de": "die Umgebung",
-      "pl": "die Umgebungen",
-      "es": "los alrededores, el entorno",
-      "cat": "Barrio",
-      "ex": "In der Umgebung gibt es zwei Supermärkte.",
-      "ex_es": "En los alrededores hay dos supermercados."
-    },
-    {
-      "de": "die Lage",
-      "pl": "die Lagen",
-      "es": "la ubicación, la situación",
-      "cat": "Barrio",
-      "ex": "Die Wohnung hat eine sehr gute Lage.",
-      "ex_es": "El piso tiene muy buena ubicación."
-    },
-    {
-      "de": "der Vorort",
-      "pl": "die Vororte",
-      "es": "la población de la periferia",
-      "cat": "Barrio",
-      "ex": "Viele Familien wohnen in einem Vorort von Zürich.",
-      "ex_es": "Muchas familias viven en una población de las afueras de Zúrich."
-    },
-    {
-      "de": "der Stadtrand",
-      "pl": "die Stadtränder",
-      "es": "las afueras de la ciudad",
-      "cat": "Barrio",
-      "ex": "Am Stadtrand sind die Mieten günstiger.",
-      "ex_es": "En las afueras los alquileres son más baratos."
-    },
-    {
-      "de": "der Spielplatz",
-      "pl": "die Spielplätze",
-      "es": "el parque infantil",
-      "cat": "Barrio",
-      "ex": "Hinter dem Haus ist ein Spielplatz.",
-      "ex_es": "Detrás de la casa hay un parque infantil."
-    },
-    {
-      "de": "der Altbau",
-      "pl": "die Altbauten",
-      "es": "el edificio antiguo",
-      "cat": "Edificio",
-      "ex": "Wir wohnen in einem Altbau von 1905.",
-      "ex_es": "Vivimos en un edificio antiguo de 1905."
-    },
-    {
-      "de": "der Neubau",
-      "pl": "die Neubauten",
-      "es": "el edificio nuevo",
-      "cat": "Edificio",
-      "ex": "Im Neubau gibt es einen Lift.",
-      "ex_es": "En el edificio nuevo hay ascensor."
-    },
-    {
-      "de": "das Hochhaus",
-      "pl": "die Hochhäuser",
-      "es": "el rascacielos, la torre de pisos",
-      "cat": "Edificio",
-      "ex": "Er wohnt im 14. Stock eines Hochhauses.",
-      "ex_es": "Vive en el piso 14 de una torre."
-    },
-    {
-      "de": "das Treppenhaus",
-      "pl": "die Treppenhäuser",
-      "es": "la escalera (del edificio)",
-      "cat": "Edificio",
-      "ex": "Das Treppenhaus wird jeden Freitag geputzt.",
-      "ex_es": "La escalera se limpia cada viernes."
-    },
-    {
-      "de": "der Eingang",
-      "pl": "die Eingänge",
-      "es": "la entrada",
-      "cat": "Edificio",
-      "ex": "Die Briefkästen sind neben dem Eingang.",
-      "ex_es": "Los buzones están junto a la entrada."
-    },
-    {
-      "de": "der Hof",
-      "pl": "die Höfe",
-      "es": "el patio",
-      "cat": "Edificio",
-      "ex": "Im Hof spielen die Kinder.",
-      "ex_es": "Los niños juegan en el patio."
-    },
-    {
-      "de": "die Klingel",
-      "pl": "die Klingeln",
-      "es": "el timbre",
-      "cat": "Edificio",
-      "ex": "Die Klingel ist kaputt, bitte ruf an.",
-      "ex_es": "El timbre está roto, llama por teléfono."
-    },
-    {
-      "de": "der Briefkasten",
-      "pl": "die Briefkästen",
-      "es": "el buzón",
-      "cat": "Edificio",
-      "ex": "Ich habe den Zettel in deinen Briefkasten gelegt.",
-      "ex_es": "He dejado la nota en tu buzón."
-    },
-    {
-      "de": "die Hausverwaltung",
-      "pl": "die Hausverwaltungen",
-      "es": "la administración de fincas",
-      "cat": "Alquiler",
-      "ex": "Die Hausverwaltung hat uns einen Brief geschickt.",
-      "ex_es": "La administración nos ha mandado una carta."
-    },
-    {
-      "de": "der Eigentümer / die Eigentümerin",
-      "pl": "die Eigentümer / die Eigentümerinnen",
-      "es": "el propietario / la propietaria",
-      "cat": "Alquiler",
-      "ex": "Die Eigentümerin wohnt im Erdgeschoss.",
-      "ex_es": "La propietaria vive en la planta baja."
-    },
-    {
-      "de": "die Eigentumswohnung",
-      "pl": "die Eigentumswohnungen",
-      "es": "el piso en propiedad",
-      "cat": "Alquiler",
-      "ex": "In der Schweiz ist eine Eigentumswohnung sehr teuer.",
-      "ex_es": "En Suiza un piso en propiedad es muy caro."
-    },
-    {
-      "de": "die Wohnfläche",
-      "pl": "die Wohnflächen",
-      "es": "la superficie (útil) del piso",
-      "cat": "Alquiler",
-      "ex": "Die Wohnfläche beträgt 68 Quadratmeter.",
-      "ex_es": "La superficie es de 68 metros cuadrados."
-    },
-    {
-      "de": "möbliert",
-      "es": "amueblado",
-      "cat": "Alquiler",
-      "ex": "Wir suchen eine möblierte Wohnung für sechs Monate.",
-      "ex_es": "Buscamos un piso amueblado para seis meses."
-    },
-    {
-      "de": "der Nachmieter / die Nachmieterin",
-      "pl": "die Nachmieter / die Nachmieterinnen",
-      "es": "el nuevo inquilino (que sigue a otro)",
-      "cat": "Alquiler",
-      "ex": "Wir müssen einen Nachmieter finden.",
-      "ex_es": "Tenemos que encontrar a alguien que se quede el piso."
-    },
-    {
-      "de": "vermieten",
-      "es": "alquilar (como propietario)",
-      "cat": "Alquiler",
-      "forms": "er vermietet, vermietete, hat vermietet",
-      "ex": "Sie vermietet ein Zimmer an Studenten.",
-      "ex_es": "Alquila una habitación a estudiantes."
-    },
-    {
-      "de": "der Bewohner / die Bewohnerin",
-      "pl": "die Bewohner / die Bewohnerinnen",
-      "es": "el / la residente",
-      "cat": "Barrio",
-      "ex": "Alle Bewohner sind zum Hoffest eingeladen.",
-      "ex_es": "Todos los residentes están invitados a la fiesta del patio."
-    },
-    {
-      "de": "der Lärm",
-      "es": "el ruido",
-      "cat": "Convivencia",
-      "ex": "Der Lärm von der Baustelle ist schrecklich.",
-      "ex_es": "El ruido de la obra es horrible."
-    },
-    {
-      "de": "stören",
-      "es": "molestar",
-      "cat": "Convivencia",
-      "forms": "er stört, störte, hat gestört",
-      "ex": "Stört es Sie, wenn wir im Garten grillen?",
-      "ex_es": "¿Le molesta si hacemos barbacoa en el jardín?"
-    },
-    {
-      "de": "die Beschwerde",
-      "pl": "die Beschwerden",
-      "es": "la queja",
-      "cat": "Convivencia",
-      "ex": "Es gab eine Beschwerde wegen der lauten Musik.",
-      "ex_es": "Hubo una queja por la música alta."
-    },
-    {
-      "de": "die Rücksicht",
-      "es": "la consideración, el respeto",
-      "cat": "Convivencia",
-      "ex": "Bitte nehmen Sie Rücksicht auf Ihre Nachbarn.",
-      "ex_es": "Por favor, tenga consideración con sus vecinos."
-    },
-    {
-      "de": "rücksichtsvoll",
-      "es": "considerado, respetuoso",
-      "cat": "Convivencia",
-      "ex": "Unsere Nachbarn sind sehr rücksichtsvoll.",
-      "ex_es": "Nuestros vecinos son muy considerados."
-    },
-    {
-      "de": "gießen",
-      "es": "regar",
-      "cat": "Convivencia",
-      "forms": "er gießt, goss, hat gegossen",
-      "ex": "Kannst du meine Blumen gießen?",
-      "ex_es": "¿Puedes regar mis plantas?"
-    },
-    {
-      "de": "annehmen",
-      "es": "aceptar; recoger (un paquete)",
-      "cat": "Convivencia",
-      "forms": "er nimmt an, nahm an, hat angenommen",
-      "ex": "Die Nachbarin hat das Paket für uns angenommen.",
-      "ex_es": "La vecina ha recogido el paquete por nosotros."
-    },
-    {
-      "de": "grillen",
-      "es": "hacer barbacoa",
-      "cat": "Convivencia",
-      "forms": "er grillt, grillte, hat gegrillt",
-      "ex": "Auf dem Balkon wird nicht gegrillt.",
-      "ex_es": "En el balcón no se hace barbacoa."
-    },
-    {
-      "de": "die Mülltonne",
-      "pl": "die Mülltonnen",
-      "es": "el contenedor de basura",
-      "cat": "Convivencia",
-      "ex": "Die Mülltonnen stehen im Hof.",
-      "ex_es": "Los contenedores están en el patio."
-    },
-    {
-      "de": "das Altpapier",
-      "es": "el papel para reciclar",
-      "cat": "Convivencia",
-      "ex": "Das Altpapier wird am Mittwoch abgeholt.",
-      "ex_es": "El papel se recoge el miércoles."
-    },
-    {
-      "de": "entsorgen",
-      "es": "deshacerse de, tirar (correctamente)",
-      "cat": "Convivencia",
-      "forms": "er entsorgt, entsorgte, hat entsorgt",
-      "ex": "Alte Möbel muss man beim Recyclinghof entsorgen.",
-      "ex_es": "Los muebles viejos hay que llevarlos al punto limpio."
-    },
-    {
-      "de": "der Schaden",
-      "pl": "die Schäden",
-      "es": "el daño, la avería",
-      "cat": "Reparaciones",
-      "ex": "Den Schaden müssen Sie sofort melden.",
-      "ex_es": "Tiene que comunicar el daño enseguida."
-    },
-    {
-      "de": "der Handwerker / die Handwerkerin",
-      "pl": "die Handwerker / die Handwerkerinnen",
-      "es": "el / la operario/a, el técnico",
-      "cat": "Reparaciones",
-      "ex": "Der Handwerker kommt am Montag um acht.",
-      "ex_es": "El técnico viene el lunes a las ocho."
-    },
-    {
-      "de": "der Wasserhahn",
-      "pl": "die Wasserhähne",
-      "es": "el grifo",
-      "cat": "Reparaciones",
-      "ex": "Der Wasserhahn in der Küche tropft.",
-      "ex_es": "El grifo de la cocina gotea."
-    },
-    {
-      "de": "tropfen",
-      "es": "gotear",
-      "cat": "Reparaciones",
-      "forms": "er tropft, tropfte, hat getropft",
-      "ex": "Es tropft von der Decke!",
-      "ex_es": "¡Gotea del techo!"
-    },
-    {
-      "de": "verstopft",
-      "es": "atascado",
-      "cat": "Reparaciones",
-      "ex": "Die Toilette ist schon wieder verstopft.",
-      "ex_es": "El váter está otra vez atascado."
-    },
-    {
-      "de": "das Waschbecken",
-      "pl": "die Waschbecken",
-      "es": "el lavabo",
-      "cat": "Reparaciones",
-      "ex": "Das Waschbecken hat einen Riss.",
-      "ex_es": "El lavabo tiene una grieta."
-    },
-    {
-      "de": "die Steckdose",
-      "pl": "die Steckdosen",
-      "es": "el enchufe",
-      "cat": "Reparaciones",
-      "ex": "Neben dem Bett gibt es keine Steckdose.",
-      "ex_es": "Junto a la cama no hay enchufe."
-    },
-    {
-      "de": "der Strom",
-      "es": "la electricidad, la corriente",
-      "cat": "Reparaciones",
-      "ex": "Im ganzen Haus gab es keinen Strom.",
-      "ex_es": "En todo el edificio no había luz."
-    },
-    {
-      "de": "der Schlüssel",
-      "pl": "die Schlüssel",
-      "es": "la llave",
-      "cat": "Reparaciones",
-      "ex": "Ein Ersatzschlüssel liegt bei der Nachbarin.",
-      "ex_es": "La vecina tiene una llave de repuesto."
-    },
-    {
-      "de": "renovieren",
-      "es": "renovar, reformar",
-      "cat": "Reparaciones",
-      "forms": "er renoviert, renovierte, hat renoviert",
-      "ex": "Das Bad wurde 2022 renoviert.",
-      "ex_es": "El baño se reformó en 2022."
-    },
-    {
-      "de": "ersetzen",
-      "es": "sustituir, reemplazar",
-      "cat": "Reparaciones",
-      "forms": "er ersetzt, ersetzte, hat ersetzt",
-      "ex": "Die alte Waschmaschine wird durch eine neue ersetzt.",
-      "ex_es": "La lavadora vieja se sustituye por una nueva."
-    },
-    {
-      "de": "bauen",
-      "es": "construir",
-      "cat": "Edificio",
-      "forms": "er baut, baute, hat gebaut",
-      "ex": "Das Haus wurde 1960 gebaut.",
-      "ex_es": "La casa se construyó en 1960."
-    },
-    {
-      "de": "betragen",
-      "es": "ascender a, ser de (una cantidad)",
-      "cat": "Alquiler",
-      "forms": "es beträgt, betrug, hat betragen",
-      "ex": "Die Miete beträgt 2100 Franken.",
-      "ex_es": "El alquiler es de 2100 francos."
-    },
-    {
-      "de": "vorbeikommen",
-      "es": "pasar (por casa de alguien)",
-      "cat": "Reparaciones",
-      "forms": "er kommt vorbei, kam vorbei, ist vorbeigekommen",
-      "ex": "Der Hausmeister kommt heute Nachmittag vorbei.",
-      "ex_es": "El conserje pasa esta tarde."
-    },
-    {
-      "de": "mindestens",
-      "es": "como mínimo, al menos",
-      "cat": "Normas",
-      "ex": "Die Kündigungsfrist beträgt mindestens drei Monate.",
-      "ex_es": "El plazo de preaviso es de tres meses como mínimo."
-    },
-    {
-      "de": "spätestens",
-      "es": "a más tardar",
-      "cat": "Normas",
-      "ex": "Der Müll muss spätestens um 7 Uhr draußen stehen.",
-      "ex_es": "La basura tiene que estar fuera a las 7 a más tardar."
-    },
-    {
-      "de": "ausnahmsweise",
-      "es": "excepcionalmente, por esta vez",
-      "cat": "Normas",
-      "ex": "Heute darf ausnahmsweise am Sonntag gewaschen werden.",
-      "ex_es": "Hoy, excepcionalmente, se puede hacer la colada en domingo."
-    },
-    {
-      "de": "werden + Partizip II (Passiv)",
-      "es": "la voz pasiva: ser + participio / se + verbo",
-      "cat": "Gramática",
-      "ex": "Die Heizung wird repariert. Die Heizung wurde repariert.",
-      "ex_es": "Se repara la calefacción. Se reparó la calefacción."
-    }
+    {"de": "die Nachbarschaft", "pl": "die Nachbarschaften", "es": "el vecindario; los vecinos", "cat": "Barrio", "ex": "In unserer Nachbarschaft kennt man sich.", "ex_es": "En nuestro vecindario la gente se conoce."},
+    {"de": "das Stadtviertel", "pl": "die Stadtviertel", "es": "el barrio", "cat": "Barrio", "ex": "Kreis 4 ist ein lebendiges Stadtviertel.", "ex_es": "El distrito 4 es un barrio con mucha vida."},
+    {"de": "die Gegend", "pl": "die Gegenden", "es": "la zona", "cat": "Barrio", "ex": "Die Gegend ist ruhig und grün.", "ex_es": "La zona es tranquila y verde."},
+    {"de": "die Umgebung", "pl": "die Umgebungen", "es": "los alrededores, el entorno", "cat": "Barrio", "ex": "In der Umgebung gibt es zwei Supermärkte.", "ex_es": "En los alrededores hay dos supermercados."},
+    {"de": "die Lage", "pl": "die Lagen", "es": "la ubicación, la situación", "cat": "Barrio", "ex": "Die Wohnung hat eine sehr gute Lage.", "ex_es": "El piso tiene muy buena ubicación."},
+    {"de": "der Vorort", "pl": "die Vororte", "es": "la población de la periferia", "cat": "Barrio", "ex": "Viele Familien wohnen in einem Vorort von Zürich.", "ex_es": "Muchas familias viven en una población de las afueras de Zúrich."},
+    {"de": "der Stadtrand", "pl": "die Stadtränder", "es": "las afueras de la ciudad", "cat": "Barrio", "ex": "Am Stadtrand sind die Mieten günstiger.", "ex_es": "En las afueras los alquileres son más baratos."},
+    {"de": "der Altbau", "pl": "die Altbauten", "es": "el edificio antiguo", "cat": "Edificio", "ex": "Wir wohnen in einem Altbau von 1905.", "ex_es": "Vivimos en un edificio antiguo de 1905."},
+    {"de": "der Neubau", "pl": "die Neubauten", "es": "el edificio nuevo", "cat": "Edificio", "ex": "Im Neubau gibt es einen Lift.", "ex_es": "En el edificio nuevo hay ascensor."},
+    {"de": "das Hochhaus", "pl": "die Hochhäuser", "es": "el rascacielos, la torre de pisos", "cat": "Edificio", "ex": "Er wohnt im 14. Stock eines Hochhauses.", "ex_es": "Vive en el piso 14 de una torre."},
+    {"de": "das Treppenhaus", "pl": "die Treppenhäuser", "es": "la escalera (del edificio)", "cat": "Edificio", "ex": "Das Treppenhaus wird jeden Freitag geputzt.", "ex_es": "La escalera se limpia cada viernes."},
+    {"de": "der Eingang", "pl": "die Eingänge", "es": "la entrada", "cat": "Edificio", "ex": "Die Briefkästen sind neben dem Eingang.", "ex_es": "Los buzones están junto a la entrada."},
+    {"de": "der Hof", "pl": "die Höfe", "es": "el patio", "cat": "Edificio", "ex": "Im Hof spielen die Kinder.", "ex_es": "Los niños juegan en el patio."},
+    {"de": "die Klingel", "pl": "die Klingeln", "es": "el timbre", "cat": "Edificio", "ex": "Die Klingel ist kaputt, bitte ruf an.", "ex_es": "El timbre está roto, llama por teléfono."},
+    {"de": "der Briefkasten", "pl": "die Briefkästen", "es": "el buzón", "cat": "Edificio", "ex": "Ich habe den Zettel in deinen Briefkasten gelegt.", "ex_es": "He dejado la nota en tu buzón."},
+    {"de": "die Hausverwaltung", "pl": "die Hausverwaltungen", "es": "la administración de fincas", "cat": "Alquiler", "ex": "Die Hausverwaltung hat uns einen Brief geschickt.", "ex_es": "La administración nos ha mandado una carta."},
+    {"de": "der Eigentümer / die Eigentümerin", "pl": "die Eigentümer / die Eigentümerinnen", "es": "el propietario / la propietaria", "cat": "Alquiler", "ex": "Die Eigentümerin wohnt im Erdgeschoss.", "ex_es": "La propietaria vive en la planta baja."},
+    {"de": "die Eigentumswohnung", "pl": "die Eigentumswohnungen", "es": "el piso en propiedad", "cat": "Alquiler", "ex": "In der Schweiz ist eine Eigentumswohnung sehr teuer.", "ex_es": "En Suiza un piso en propiedad es muy caro."},
+    {"de": "die Wohnfläche", "pl": "die Wohnflächen", "es": "la superficie (útil) del piso", "cat": "Alquiler", "ex": "Die Wohnfläche beträgt 68 Quadratmeter.", "ex_es": "La superficie es de 68 metros cuadrados."},
+    {"de": "möbliert", "es": "amueblado", "cat": "Alquiler", "ex": "Wir suchen eine möblierte Wohnung für sechs Monate.", "ex_es": "Buscamos un piso amueblado para seis meses."},
+    {"de": "der Nachmieter / die Nachmieterin", "pl": "die Nachmieter / die Nachmieterinnen", "es": "el nuevo inquilino (que sigue a otro)", "cat": "Alquiler", "ex": "Wir müssen einen Nachmieter finden.", "ex_es": "Tenemos que encontrar a alguien que se quede el piso."},
+    {"de": "vermieten", "es": "alquilar (como propietario)", "cat": "Alquiler", "forms": "er vermietet, vermietete, hat vermietet", "ex": "Sie vermietet ein Zimmer an Studenten.", "ex_es": "Alquila una habitación a estudiantes."},
+    {"de": "der Bewohner / die Bewohnerin", "pl": "die Bewohner / die Bewohnerinnen", "es": "el / la residente", "cat": "Barrio", "ex": "Alle Bewohner sind zum Hoffest eingeladen.", "ex_es": "Todos los residentes están invitados a la fiesta del patio."},
+    {"de": "der Lärm", "es": "el ruido", "cat": "Convivencia", "ex": "Der Lärm von der Baustelle ist schrecklich.", "ex_es": "El ruido de la obra es horrible."},
+    {"de": "stören", "es": "molestar", "cat": "Convivencia", "forms": "er stört, störte, hat gestört", "ex": "Stört es Sie, wenn wir im Garten grillen?", "ex_es": "¿Le molesta si hacemos barbacoa en el jardín?"},
+    {"de": "die Beschwerde", "pl": "die Beschwerden", "es": "la queja", "cat": "Convivencia", "ex": "Es gab eine Beschwerde wegen der lauten Musik.", "ex_es": "Hubo una queja por la música alta."},
+    {"de": "die Rücksicht", "es": "la consideración, el respeto", "cat": "Convivencia", "ex": "Bitte nehmen Sie Rücksicht auf Ihre Nachbarn.", "ex_es": "Por favor, tenga consideración con sus vecinos."},
+    {"de": "rücksichtsvoll", "es": "considerado, respetuoso", "cat": "Convivencia", "ex": "Unsere Nachbarn sind sehr rücksichtsvoll.", "ex_es": "Nuestros vecinos son muy considerados."},
+    {"de": "gießen", "es": "regar", "cat": "Convivencia", "forms": "er gießt, goss, hat gegossen", "ex": "Kannst du meine Blumen gießen?", "ex_es": "¿Puedes regar mis plantas?"},
+    {"de": "annehmen", "es": "aceptar; recoger (un paquete)", "cat": "Convivencia", "forms": "er nimmt an, nahm an, hat angenommen", "ex": "Die Nachbarin hat das Paket für uns angenommen.", "ex_es": "La vecina ha recogido el paquete por nosotros."},
+    {"de": "grillen", "es": "hacer barbacoa", "cat": "Convivencia", "forms": "er grillt, grillte, hat gegrillt", "ex": "Auf dem Balkon wird nicht gegrillt.", "ex_es": "En el balcón no se hace barbacoa."},
+    {"de": "die Mülltonne", "pl": "die Mülltonnen", "es": "el contenedor de basura", "cat": "Convivencia", "ex": "Die Mülltonnen stehen im Hof.", "ex_es": "Los contenedores están en el patio."},
+    {"de": "das Altpapier", "es": "el papel para reciclar", "cat": "Convivencia", "ex": "Das Altpapier wird am Mittwoch abgeholt.", "ex_es": "El papel se recoge el miércoles."},
+    {"de": "entsorgen", "es": "deshacerse de, tirar (correctamente)", "cat": "Convivencia", "forms": "er entsorgt, entsorgte, hat entsorgt", "ex": "Alte Möbel muss man beim Recyclinghof entsorgen.", "ex_es": "Los muebles viejos hay que llevarlos al punto limpio."},
+    {"de": "der Schaden", "pl": "die Schäden", "es": "el daño, la avería", "cat": "Reparaciones", "ex": "Den Schaden müssen Sie sofort melden.", "ex_es": "Tiene que comunicar el daño enseguida."},
+    {"de": "der Handwerker / die Handwerkerin", "pl": "die Handwerker / die Handwerkerinnen", "es": "el / la operario/a, el técnico", "cat": "Reparaciones", "ex": "Der Handwerker kommt am Montag um acht.", "ex_es": "El técnico viene el lunes a las ocho."},
+    {"de": "der Wasserhahn", "pl": "die Wasserhähne", "es": "el grifo", "cat": "Reparaciones", "ex": "Der Wasserhahn in der Küche tropft.", "ex_es": "El grifo de la cocina gotea."},
+    {"de": "tropfen", "es": "gotear", "cat": "Reparaciones", "forms": "er tropft, tropfte, hat getropft", "ex": "Es tropft von der Decke!", "ex_es": "¡Gotea del techo!"},
+    {"de": "verstopft", "es": "atascado", "cat": "Reparaciones", "ex": "Die Toilette ist schon wieder verstopft.", "ex_es": "El váter está otra vez atascado."},
+    {"de": "das Waschbecken", "pl": "die Waschbecken", "es": "el lavabo", "cat": "Reparaciones", "ex": "Das Waschbecken hat einen Riss.", "ex_es": "El lavabo tiene una grieta."},
+    {"de": "die Steckdose", "pl": "die Steckdosen", "es": "el enchufe", "cat": "Reparaciones", "ex": "Neben dem Bett gibt es keine Steckdose.", "ex_es": "Junto a la cama no hay enchufe."},
+    {"de": "der Strom", "es": "la electricidad, la corriente", "cat": "Reparaciones", "ex": "Im ganzen Haus gab es keinen Strom.", "ex_es": "En todo el edificio no había luz."},
+    {"de": "der Schlüssel", "pl": "die Schlüssel", "es": "la llave", "cat": "Reparaciones", "ex": "Ein Ersatzschlüssel liegt bei der Nachbarin.", "ex_es": "La vecina tiene una llave de repuesto."},
+    {"de": "renovieren", "es": "renovar, reformar", "cat": "Reparaciones", "forms": "er renoviert, renovierte, hat renoviert", "ex": "Das Bad wurde 2022 renoviert.", "ex_es": "El baño se reformó en 2022."},
+    {"de": "ersetzen", "es": "sustituir, reemplazar", "cat": "Reparaciones", "forms": "er ersetzt, ersetzte, hat ersetzt", "ex": "Die alte Waschmaschine wird durch eine neue ersetzt.", "ex_es": "La lavadora vieja se sustituye por una nueva."},
+    {"de": "bauen", "es": "construir", "cat": "Edificio", "forms": "er baut, baute, hat gebaut", "ex": "Das Haus wurde 1960 gebaut.", "ex_es": "La casa se construyó en 1960."},
+    {"de": "betragen", "es": "ascender a, ser de (una cantidad)", "cat": "Alquiler", "forms": "es beträgt, betrug, hat betragen", "ex": "Die Miete beträgt 2100 Franken.", "ex_es": "El alquiler es de 2100 francos."},
+    {"de": "vorbeikommen", "es": "pasar (por casa de alguien)", "cat": "Reparaciones", "forms": "er kommt vorbei, kam vorbei, ist vorbeigekommen", "ex": "Der Hausmeister kommt heute Nachmittag vorbei.", "ex_es": "El conserje pasa esta tarde."},
+    {"de": "mindestens", "es": "como mínimo, al menos", "cat": "Normas", "ex": "Die Kündigungsfrist beträgt mindestens drei Monate.", "ex_es": "El plazo de preaviso es de tres meses como mínimo."},
+    {"de": "spätestens", "es": "a más tardar", "cat": "Normas", "ex": "Der Müll muss spätestens um 7 Uhr draußen stehen.", "ex_es": "La basura tiene que estar fuera a las 7 a más tardar."},
+    {"de": "ausnahmsweise", "es": "excepcionalmente, por esta vez", "cat": "Normas", "ex": "Heute darf ausnahmsweise am Sonntag gewaschen werden.", "ex_es": "Hoy, excepcionalmente, se puede hacer la colada en domingo."},
+    {"de": "werden + Partizip II (Passiv)", "es": "la voz pasiva: ser + participio / se + verbo", "cat": "Gramática", "ex": "Die Heizung wird repariert. Die Heizung wurde repariert.", "ex_es": "Se repara la calefacción. Se reparó la calefacción."}
   ],
   "exercises": [
     {

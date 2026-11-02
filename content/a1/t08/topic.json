@@ -13,400 +13,54 @@
     "Decir si algo te gusta o te queda bien: gefällt mir / passt"
   ],
   "vocab": [
-    {
-      "de": "die Kleidung",
-      "es": "la ropa",
-      "cat": "Ropa",
-      "ex": "Ich kaufe Kleidung im Internet.",
-      "ex_es": "Compro ropa por internet."
-    },
-    {
-      "de": "der Pullover",
-      "pl": "die Pullover",
-      "es": "el jersey",
-      "cat": "Ropa",
-      "ex": "Der Pullover ist warm.",
-      "ex_es": "El jersey es calentito."
-    },
-    {
-      "de": "die Hose",
-      "pl": "die Hosen",
-      "es": "el pantalón",
-      "cat": "Ropa",
-      "ex": "Die Hose ist zu lang.",
-      "ex_es": "El pantalón es demasiado largo."
-    },
-    {
-      "de": "das Hemd",
-      "pl": "die Hemden",
-      "es": "la camisa",
-      "cat": "Ropa",
-      "ex": "Das Hemd ist weiß.",
-      "ex_es": "La camisa es blanca."
-    },
-    {
-      "de": "die Bluse",
-      "pl": "die Blusen",
-      "es": "la blusa",
-      "cat": "Ropa",
-      "ex": "Die Bluse gefällt mir.",
-      "ex_es": "Me gusta la blusa."
-    },
-    {
-      "de": "das T-Shirt",
-      "pl": "die T-Shirts",
-      "es": "la camiseta",
-      "cat": "Ropa",
-      "ex": "Das T-Shirt kostet 15 Euro.",
-      "ex_es": "La camiseta cuesta 15 euros."
-    },
-    {
-      "de": "der Rock",
-      "pl": "die Röcke",
-      "es": "la falda",
-      "cat": "Ropa",
-      "ex": "Der Rock ist zu kurz.",
-      "ex_es": "La falda es demasiado corta."
-    },
-    {
-      "de": "das Kleid",
-      "pl": "die Kleider",
-      "es": "el vestido",
-      "cat": "Ropa",
-      "ex": "Das Kleid ist sehr schön.",
-      "ex_es": "El vestido es muy bonito."
-    },
-    {
-      "de": "die Jacke",
-      "pl": "die Jacken",
-      "es": "la chaqueta",
-      "cat": "Ropa",
-      "ex": "Ich suche eine Jacke.",
-      "ex_es": "Busco una chaqueta."
-    },
-    {
-      "de": "der Mantel",
-      "pl": "die Mäntel",
-      "es": "el abrigo",
-      "cat": "Ropa",
-      "ex": "Im Winter brauche ich einen Mantel.",
-      "ex_es": "En invierno necesito un abrigo."
-    },
-    {
-      "de": "der Schuh",
-      "pl": "die Schuhe",
-      "es": "el zapato",
-      "cat": "Ropa",
-      "ex": "Die Schuhe sind zu klein.",
-      "ex_es": "Los zapatos son demasiado pequeños."
-    },
-    {
-      "de": "der Stiefel",
-      "pl": "die Stiefel",
-      "es": "la bota",
-      "cat": "Ropa",
-      "ex": "Die Stiefel sind reduziert.",
-      "ex_es": "Las botas están rebajadas."
-    },
-    {
-      "de": "die Socke",
-      "pl": "die Socken",
-      "es": "el calcetín",
-      "cat": "Ropa",
-      "ex": "Fünf Paar Socken für 10 Euro.",
-      "ex_es": "Cinco pares de calcetines por 10 euros."
-    },
-    {
-      "de": "die Jeans",
-      "pl": "die Jeans",
-      "es": "los vaqueros",
-      "cat": "Ropa",
-      "ex": "Die Jeans passt gut.",
-      "ex_es": "Los vaqueros me quedan bien."
-    },
-    {
-      "de": "die Mütze",
-      "pl": "die Mützen",
-      "es": "el gorro",
-      "cat": "Ropa",
-      "ex": "Die Mütze ist aus Wolle.",
-      "ex_es": "El gorro es de lana."
-    },
-    {
-      "de": "die Tasche",
-      "pl": "die Taschen",
-      "es": "el bolso, la bolsa",
-      "cat": "Ropa",
-      "ex": "Brauchen Sie eine Tasche?",
-      "ex_es": "¿Necesita una bolsa?"
-    },
-    {
-      "de": "der Hut",
-      "pl": "die Hüte",
-      "es": "el sombrero",
-      "cat": "Ropa",
-      "ex": "Der Hut ist zu groß.",
-      "ex_es": "El sombrero es demasiado grande."
-    },
-    {
-      "de": "die Größe",
-      "pl": "die Größen",
-      "es": "la talla, el tamaño",
-      "cat": "En la tienda",
-      "ex": "Welche Größe haben Sie?",
-      "ex_es": "¿Qué talla tiene?"
-    },
-    {
-      "de": "anprobieren",
-      "es": "probarse (ropa)",
-      "cat": "En la tienda",
-      "forms": "ich probiere an, du probierst an, er probiert an",
-      "ex": "Kann ich die Hose anprobieren?",
-      "ex_es": "¿Puedo probarme el pantalón?"
-    },
-    {
-      "de": "die Umkleidekabine",
-      "pl": "die Umkleidekabinen",
-      "es": "el probador",
-      "cat": "En la tienda",
-      "ex": "Die Umkleidekabine ist dort hinten.",
-      "ex_es": "El probador está allí al fondo."
-    },
-    {
-      "de": "passen",
-      "es": "quedar bien (de talla)",
-      "cat": "En la tienda",
-      "forms": "es passt, sie passen",
-      "ex": "Die Schuhe passen nicht.",
-      "ex_es": "Los zapatos no me quedan bien."
-    },
-    {
-      "de": "gefallen",
-      "es": "gustar",
-      "cat": "En la tienda",
-      "forms": "es gefällt, sie gefallen",
-      "ex": "Das Kleid gefällt mir.",
-      "ex_es": "Me gusta el vestido."
-    },
-    {
-      "de": "kosten",
-      "es": "costar",
-      "cat": "En la tienda",
-      "forms": "es kostet, sie kosten",
-      "ex": "Was kostet der Mantel?",
-      "ex_es": "¿Cuánto cuesta el abrigo?"
-    },
-    {
-      "de": "der Preis",
-      "pl": "die Preise",
-      "es": "el precio",
-      "cat": "En la tienda",
-      "ex": "Der Preis ist gut.",
-      "ex_es": "El precio es bueno."
-    },
-    {
-      "de": "das Angebot",
-      "pl": "die Angebote",
-      "es": "la oferta",
-      "cat": "En la tienda",
-      "ex": "Die Jacken sind im Angebot.",
-      "ex_es": "Las chaquetas están de oferta."
-    },
-    {
-      "de": "reduziert",
-      "es": "rebajado",
-      "cat": "En la tienda",
-      "ex": "Alle Schuhe sind reduziert.",
-      "ex_es": "Todos los zapatos están rebajados."
-    },
-    {
-      "de": "bar",
-      "es": "en efectivo",
-      "cat": "En la tienda",
-      "ex": "Ich zahle bar.",
-      "ex_es": "Pago en efectivo."
-    },
-    {
-      "de": "die Karte",
-      "pl": "die Karten",
-      "es": "la tarjeta",
-      "cat": "En la tienda",
-      "ex": "Kann ich mit Karte zahlen?",
-      "ex_es": "¿Puedo pagar con tarjeta?"
-    },
-    {
-      "de": "das Geld",
-      "es": "el dinero",
-      "cat": "En la tienda",
-      "ex": "Ich habe kein Geld mehr.",
-      "ex_es": "Ya no tengo dinero."
-    },
-    {
-      "de": "der Franken",
-      "pl": "die Franken",
-      "es": "el franco (suizo)",
-      "cat": "En la tienda",
-      "ex": "Das kostet 20 Franken.",
-      "ex_es": "Cuesta 20 francos."
-    },
-    {
-      "de": "der Cent",
-      "pl": "die Cent",
-      "es": "el céntimo",
-      "cat": "En la tienda",
-      "ex": "Das kostet 80 Cent.",
-      "ex_es": "Cuesta 80 céntimos."
-    },
-    {
-      "de": "das Sonderangebot",
-      "pl": "die Sonderangebote",
-      "es": "la oferta especial",
-      "cat": "En la tienda",
-      "ex": "Die Jacke ist heute im Sonderangebot.",
-      "ex_es": "La chaqueta está hoy en oferta especial."
-    },
-    {
-      "de": "der Schlussverkauf",
-      "pl": "die Schlussverkäufe",
-      "es": "las rebajas (de fin de temporada)",
-      "cat": "En la tienda",
-      "ex": "Im Schlussverkauf ist alles billiger.",
-      "ex_es": "En las rebajas todo es más barato."
-    },
-    {
-      "de": "das Kaufhaus",
-      "pl": "die Kaufhäuser",
-      "es": "los grandes almacenes",
-      "cat": "Tiendas",
-      "ex": "Im Kaufhaus gibt es alles.",
-      "ex_es": "En los grandes almacenes hay de todo."
-    },
-    {
-      "de": "das Geschäft",
-      "pl": "die Geschäfte",
-      "es": "la tienda",
-      "cat": "Tiendas",
-      "ex": "Die Geschäfte sind am Sonntag zu.",
-      "ex_es": "Las tiendas cierran el domingo."
-    },
-    {
-      "de": "die Bäckerei",
-      "pl": "die Bäckereien",
-      "es": "la panadería",
-      "cat": "Tiendas",
-      "ex": "Die Bäckerei öffnet um sechs.",
-      "ex_es": "La panadería abre a las seis."
-    },
-    {
-      "de": "die Apotheke",
-      "pl": "die Apotheken",
-      "es": "la farmacia",
-      "cat": "Tiendas",
-      "ex": "Die Apotheke ist neben der Post.",
-      "ex_es": "La farmacia está junto a Correos."
-    },
-    {
-      "de": "der Markt",
-      "pl": "die Märkte",
-      "es": "el mercado",
-      "cat": "Tiendas",
-      "ex": "Samstags gehe ich auf den Markt.",
-      "ex_es": "Los sábados voy al mercado."
-    },
-    {
-      "de": "offen / geschlossen",
-      "es": "abierto / cerrado",
-      "cat": "Tiendas",
-      "ex": "Das Geschäft ist heute geschlossen.",
-      "ex_es": "La tienda está cerrada hoy."
-    },
-    {
-      "de": "der Supermarkt",
-      "pl": "die Supermärkte",
-      "es": "el supermercado",
-      "cat": "Tiendas",
-      "ex": "Ich kaufe im Supermarkt ein.",
-      "ex_es": "Hago la compra en el supermercado."
-    },
-    {
-      "de": "tausend",
-      "es": "mil",
-      "cat": "Números",
-      "ex": "Das Sofa kostet tausend Euro.",
-      "ex_es": "El sofá cuesta mil euros."
-    },
-    {
-      "de": "zweihundert",
-      "es": "doscientos",
-      "cat": "Números",
-      "ex": "Der Mantel kostet zweihundert Franken.",
-      "ex_es": "El abrigo cuesta doscientos francos."
-    },
-    {
-      "de": "welcher / welche / welches",
-      "es": "¿qué? / ¿cuál?",
-      "cat": "Palabras útiles",
-      "ex": "Welcher Pullover gefällt dir?",
-      "ex_es": "¿Qué jersey te gusta?"
-    },
-    {
-      "de": "dieser / diese / dieses",
-      "es": "este / esta / esto",
-      "cat": "Palabras útiles",
-      "ex": "Ich nehme diese Jacke.",
-      "ex_es": "Me llevo esta chaqueta."
-    },
-    {
-      "de": "eng / weit",
-      "es": "estrecho / ancho",
-      "cat": "Adjetivos",
-      "ex": "Die Hose ist zu eng.",
-      "ex_es": "El pantalón es demasiado estrecho."
-    },
-    {
-      "de": "lang / kurz",
-      "es": "largo / corto",
-      "cat": "Adjetivos",
-      "ex": "Der Rock ist zu kurz.",
-      "ex_es": "La falda es demasiado corta."
-    },
-    {
-      "de": "warm",
-      "es": "caliente, abrigado",
-      "cat": "Adjetivos",
-      "ex": "Die Jacke ist sehr warm.",
-      "ex_es": "La chaqueta abriga mucho."
-    },
-    {
-      "de": "bequem",
-      "es": "cómodo",
-      "cat": "Adjetivos",
-      "ex": "Die Schuhe sind bequem.",
-      "ex_es": "Los zapatos son cómodos."
-    },
-    {
-      "de": "helfen",
-      "es": "ayudar",
-      "cat": "Palabras útiles",
-      "forms": "ich helfe, du hilfst, er hilft",
-      "ex": "Kann ich Ihnen helfen?",
-      "ex_es": "¿Puedo ayudarle?"
-    },
-    {
-      "de": "suchen",
-      "es": "buscar",
-      "cat": "Palabras útiles",
-      "forms": "ich suche, du suchst, er sucht",
-      "ex": "Ich suche einen Mantel.",
-      "ex_es": "Busco un abrigo."
-    },
-    {
-      "de": "ihn",
-      "es": "lo, le (a él, masculino)",
-      "cat": "Palabras útiles",
-      "ex": "Der Mantel? Ich nehme ihn.",
-      "ex_es": "¿El abrigo? Me lo llevo."
-    }
+    {"de": "die Kleidung", "es": "la ropa", "cat": "Ropa", "ex": "Ich kaufe Kleidung im Internet.", "ex_es": "Compro ropa por internet."},
+    {"de": "der Pullover", "pl": "die Pullover", "es": "el jersey", "cat": "Ropa", "ex": "Der Pullover ist warm.", "ex_es": "El jersey es calentito."},
+    {"de": "die Hose", "pl": "die Hosen", "es": "el pantalón", "cat": "Ropa", "ex": "Die Hose ist zu lang.", "ex_es": "El pantalón es demasiado largo."},
+    {"de": "das Hemd", "pl": "die Hemden", "es": "la camisa", "cat": "Ropa", "ex": "Das Hemd ist weiß.", "ex_es": "La camisa es blanca."},
+    {"de": "die Bluse", "pl": "die Blusen", "es": "la blusa", "cat": "Ropa", "ex": "Die Bluse gefällt mir.", "ex_es": "Me gusta la blusa."},
+    {"de": "das T-Shirt", "pl": "die T-Shirts", "es": "la camiseta", "cat": "Ropa", "ex": "Das T-Shirt kostet 15 Euro.", "ex_es": "La camiseta cuesta 15 euros."},
+    {"de": "der Rock", "pl": "die Röcke", "es": "la falda", "cat": "Ropa", "ex": "Der Rock ist zu kurz.", "ex_es": "La falda es demasiado corta."},
+    {"de": "das Kleid", "pl": "die Kleider", "es": "el vestido", "cat": "Ropa", "ex": "Das Kleid ist sehr schön.", "ex_es": "El vestido es muy bonito."},
+    {"de": "die Jacke", "pl": "die Jacken", "es": "la chaqueta", "cat": "Ropa", "ex": "Ich suche eine Jacke.", "ex_es": "Busco una chaqueta."},
+    {"de": "der Mantel", "pl": "die Mäntel", "es": "el abrigo", "cat": "Ropa", "ex": "Im Winter brauche ich einen Mantel.", "ex_es": "En invierno necesito un abrigo."},
+    {"de": "der Schuh", "pl": "die Schuhe", "es": "el zapato", "cat": "Ropa", "ex": "Die Schuhe sind zu klein.", "ex_es": "Los zapatos son demasiado pequeños."},
+    {"de": "der Stiefel", "pl": "die Stiefel", "es": "la bota", "cat": "Ropa", "ex": "Die Stiefel sind reduziert.", "ex_es": "Las botas están rebajadas."},
+    {"de": "die Socke", "pl": "die Socken", "es": "el calcetín", "cat": "Ropa", "ex": "Fünf Paar Socken für 10 Euro.", "ex_es": "Cinco pares de calcetines por 10 euros."},
+    {"de": "die Jeans", "pl": "die Jeans", "es": "los vaqueros", "cat": "Ropa", "ex": "Die Jeans passt gut.", "ex_es": "Los vaqueros me quedan bien."},
+    {"de": "die Mütze", "pl": "die Mützen", "es": "el gorro", "cat": "Ropa", "ex": "Die Mütze ist aus Wolle.", "ex_es": "El gorro es de lana."},
+    {"de": "die Tasche", "pl": "die Taschen", "es": "el bolso, la bolsa", "cat": "Ropa", "ex": "Brauchen Sie eine Tasche?", "ex_es": "¿Necesita una bolsa?"},
+    {"de": "der Hut", "pl": "die Hüte", "es": "el sombrero", "cat": "Ropa", "ex": "Der Hut ist zu groß.", "ex_es": "El sombrero es demasiado grande."},
+    {"de": "die Größe", "pl": "die Größen", "es": "la talla, el tamaño", "cat": "En la tienda", "ex": "Welche Größe haben Sie?", "ex_es": "¿Qué talla tiene?"},
+    {"de": "anprobieren", "es": "probarse (ropa)", "cat": "En la tienda", "forms": "ich probiere an, du probierst an, er probiert an", "ex": "Kann ich die Hose anprobieren?", "ex_es": "¿Puedo probarme el pantalón?"},
+    {"de": "die Umkleidekabine", "pl": "die Umkleidekabinen", "es": "el probador", "cat": "En la tienda", "ex": "Die Umkleidekabine ist dort hinten.", "ex_es": "El probador está allí al fondo."},
+    {"de": "passen", "es": "quedar bien (de talla)", "cat": "En la tienda", "forms": "es passt, sie passen", "ex": "Die Schuhe passen nicht.", "ex_es": "Los zapatos no me quedan bien."},
+    {"de": "gefallen", "es": "gustar", "cat": "En la tienda", "forms": "es gefällt, sie gefallen", "ex": "Das Kleid gefällt mir.", "ex_es": "Me gusta el vestido."},
+    {"de": "kosten", "es": "costar", "cat": "En la tienda", "forms": "es kostet, sie kosten", "ex": "Was kostet der Mantel?", "ex_es": "¿Cuánto cuesta el abrigo?"},
+    {"de": "der Preis", "pl": "die Preise", "es": "el precio", "cat": "En la tienda", "ex": "Der Preis ist gut.", "ex_es": "El precio es bueno."},
+    {"de": "das Angebot", "pl": "die Angebote", "es": "la oferta", "cat": "En la tienda", "ex": "Die Jacken sind im Angebot.", "ex_es": "Las chaquetas están de oferta."},
+    {"de": "reduziert", "es": "rebajado", "cat": "En la tienda", "ex": "Alle Schuhe sind reduziert.", "ex_es": "Todos los zapatos están rebajados."},
+    {"de": "bar", "es": "en efectivo", "cat": "En la tienda", "ex": "Ich zahle bar.", "ex_es": "Pago en efectivo."},
+    {"de": "die Karte", "pl": "die Karten", "es": "la tarjeta", "cat": "En la tienda", "ex": "Kann ich mit Karte zahlen?", "ex_es": "¿Puedo pagar con tarjeta?"},
+    {"de": "das Geld", "es": "el dinero", "cat": "En la tienda", "ex": "Ich habe kein Geld mehr.", "ex_es": "Ya no tengo dinero."},
+    {"de": "der Franken", "pl": "die Franken", "es": "el franco (suizo)", "cat": "En la tienda", "ex": "Das kostet 20 Franken.", "ex_es": "Cuesta 20 francos."},
+    {"de": "der Cent", "pl": "die Cent", "es": "el céntimo", "cat": "En la tienda", "ex": "Das kostet 80 Cent.", "ex_es": "Cuesta 80 céntimos."},
+    {"de": "das Sonderangebot", "pl": "die Sonderangebote", "es": "la oferta especial", "cat": "En la tienda", "ex": "Die Jacke ist heute im Sonderangebot.", "ex_es": "La chaqueta está hoy en oferta especial."},
+    {"de": "der Schlussverkauf", "pl": "die Schlussverkäufe", "es": "las rebajas (de fin de temporada)", "cat": "En la tienda", "ex": "Im Schlussverkauf ist alles billiger.", "ex_es": "En las rebajas todo es más barato."},
+    {"de": "das Kaufhaus", "pl": "die Kaufhäuser", "es": "los grandes almacenes", "cat": "Tiendas", "ex": "Im Kaufhaus gibt es alles.", "ex_es": "En los grandes almacenes hay de todo."},
+    {"de": "das Geschäft", "pl": "die Geschäfte", "es": "la tienda", "cat": "Tiendas", "ex": "Die Geschäfte sind am Sonntag zu.", "ex_es": "Las tiendas cierran el domingo."},
+    {"de": "die Bäckerei", "pl": "die Bäckereien", "es": "la panadería", "cat": "Tiendas", "ex": "Die Bäckerei öffnet um sechs.", "ex_es": "La panadería abre a las seis."},
+    {"de": "die Apotheke", "pl": "die Apotheken", "es": "la farmacia", "cat": "Tiendas", "ex": "Die Apotheke ist neben der Post.", "ex_es": "La farmacia está junto a Correos."},
+    {"de": "der Markt", "pl": "die Märkte", "es": "el mercado", "cat": "Tiendas", "ex": "Samstags gehe ich auf den Markt.", "ex_es": "Los sábados voy al mercado."},
+    {"de": "offen / geschlossen", "es": "abierto / cerrado", "cat": "Tiendas", "ex": "Das Geschäft ist heute geschlossen.", "ex_es": "La tienda está cerrada hoy."},
+    {"de": "der Supermarkt", "pl": "die Supermärkte", "es": "el supermercado", "cat": "Tiendas", "ex": "Ich kaufe im Supermarkt ein.", "ex_es": "Hago la compra en el supermercado."},
+    {"de": "tausend", "es": "mil", "cat": "Números", "ex": "Das Sofa kostet tausend Euro.", "ex_es": "El sofá cuesta mil euros."},
+    {"de": "zweihundert", "es": "doscientos", "cat": "Números", "ex": "Der Mantel kostet zweihundert Franken.", "ex_es": "El abrigo cuesta doscientos francos."},
+    {"de": "welcher / welche / welches", "es": "¿qué? / ¿cuál?", "cat": "Palabras útiles", "ex": "Welcher Pullover gefällt dir?", "ex_es": "¿Qué jersey te gusta?"},
+    {"de": "dieser / diese / dieses", "es": "este / esta / esto", "cat": "Palabras útiles", "ex": "Ich nehme diese Jacke.", "ex_es": "Me llevo esta chaqueta."},
+    {"de": "eng / weit", "es": "estrecho / ancho", "cat": "Adjetivos", "ex": "Die Hose ist zu eng.", "ex_es": "El pantalón es demasiado estrecho."},
+    {"de": "lang / kurz", "es": "largo / corto", "cat": "Adjetivos", "ex": "Der Rock ist zu kurz.", "ex_es": "La falda es demasiado corta."},
+    {"de": "warm", "es": "caliente, abrigado", "cat": "Adjetivos", "ex": "Die Jacke ist sehr warm.", "ex_es": "La chaqueta abriga mucho."},
+    {"de": "ihn", "es": "lo, le (a él, masculino)", "cat": "Palabras útiles", "ex": "Der Mantel? Ich nehme ihn.", "ex_es": "¿El abrigo? Me lo llevo."}
   ],
   "exercises": [
     {

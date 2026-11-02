@@ -13,412 +13,53 @@
     "Planear algo juntos en el Sprechen Teil 1: proponer, aceptar, rechazar y acordar"
   ],
   "vocab": [
-    {
-      "de": "der/die Verwandte",
-      "pl": "die Verwandten",
-      "es": "el pariente / la pariente",
-      "cat": "Familia",
-      "ex": "Zu Weihnachten kommen alle Verwandten zu uns.",
-      "ex_es": "En Navidad viene toda la familia a nuestra casa."
-    },
-    {
-      "de": "der Schwager / die Schwägerin",
-      "pl": "die Schwäger / die Schwägerinnen",
-      "es": "el cuñado / la cuñada",
-      "cat": "Familia",
-      "ex": "Meine Schwägerin hilft uns beim Umzug.",
-      "ex_es": "Mi cuñada nos ayuda con la mudanza."
-    },
-    {
-      "de": "die Schwiegereltern",
-      "es": "los suegros",
-      "cat": "Familia",
-      "ex": "Am Sonntag essen wir bei meinen Schwiegereltern.",
-      "ex_es": "El domingo comemos en casa de mis suegros."
-    },
-    {
-      "de": "der Neffe / die Nichte",
-      "pl": "die Neffen / die Nichten",
-      "es": "el sobrino / la sobrina",
-      "cat": "Familia",
-      "ex": "Meine Nichte hat nächste Woche Geburtstag.",
-      "ex_es": "Mi sobrina cumple años la semana que viene."
-    },
-    {
-      "de": "der Cousin / die Cousine",
-      "pl": "die Cousins / die Cousinen",
-      "es": "el primo / la prima",
-      "cat": "Familia",
-      "ex": "Mein Cousin wohnt auch in Zürich.",
-      "ex_es": "Mi primo también vive en Zúrich."
-    },
-    {
-      "de": "der Enkel / die Enkelin",
-      "pl": "die Enkel / die Enkelinnen",
-      "es": "el nieto / la nieta",
-      "cat": "Familia",
-      "ex": "Oma passt jeden Mittwoch auf ihre Enkel auf.",
-      "ex_es": "La abuela cuida de sus nietos todos los miércoles."
-    },
-    {
-      "de": "der Lebensgefährte / die Lebensgefährtin",
-      "pl": "die Lebensgefährten / die Lebensgefährtinnen",
-      "es": "la pareja (sin estar casados)",
-      "cat": "Familia",
-      "ex": "Er wohnt mit seiner Lebensgefährtin in Bern.",
-      "ex_es": "Vive con su pareja en Berna."
-    },
-    {
-      "de": "die Ehe",
-      "pl": "die Ehen",
-      "es": "el matrimonio",
-      "cat": "Familia",
-      "ex": "Meine Großeltern hatten eine sehr glückliche Ehe.",
-      "ex_es": "Mis abuelos tuvieron un matrimonio muy feliz."
-    },
-    {
-      "de": "der Ehemann / die Ehefrau",
-      "pl": "die Ehemänner / die Ehefrauen",
-      "es": "el marido / la esposa",
-      "cat": "Familia",
-      "ex": "Ihr Ehemann arbeitet als Lehrer.",
-      "ex_es": "Su marido trabaja de profesor."
-    },
-    {
-      "de": "die Scheidung",
-      "pl": "die Scheidungen",
-      "es": "el divorcio",
-      "cat": "Familia",
-      "ex": "Nach der Scheidung blieben die Kinder bei der Mutter.",
-      "ex_es": "Después del divorcio los niños se quedaron con la madre."
-    },
-    {
-      "de": "sich scheiden lassen",
-      "es": "divorciarse",
-      "cat": "Familia",
-      "forms": "er lässt sich scheiden, ließ sich scheiden, hat sich scheiden lassen",
-      "ex": "Meine Eltern haben sich vor zehn Jahren scheiden lassen.",
-      "ex_es": "Mis padres se divorciaron hace diez años."
-    },
-    {
-      "de": "alleinerziehend",
-      "es": "que cría solo/a a sus hijos (madre/padre soltero)",
-      "cat": "Familia",
-      "ex": "Als alleinerziehende Mutter hat sie wenig Freizeit.",
-      "ex_es": "Como madre soltera tiene poco tiempo libre."
-    },
-    {
-      "de": "erziehen",
-      "es": "educar, criar",
-      "cat": "Familia",
-      "forms": "er erzieht, erzog, hat erzogen",
-      "ex": "Meine Eltern haben uns sehr frei erzogen.",
-      "ex_es": "Mis padres nos educaron con mucha libertad."
-    },
-    {
-      "de": "die Erziehung",
-      "es": "la educación (de los hijos), la crianza",
-      "cat": "Familia",
-      "ex": "Bei der Erziehung sind sich die beiden nicht immer einig.",
-      "ex_es": "En la crianza los dos no siempre están de acuerdo."
-    },
-    {
-      "de": "der Trauzeuge / die Trauzeugin",
-      "pl": "die Trauzeugen / die Trauzeuginnen",
-      "es": "el testigo / la testigo de boda",
-      "cat": "Familia",
-      "ex": "Mein bester Freund war mein Trauzeuge.",
-      "ex_es": "Mi mejor amigo fue mi testigo de boda."
-    },
-    {
-      "de": "der Jahrestag",
-      "pl": "die Jahrestage",
-      "es": "el aniversario",
-      "cat": "Familia",
-      "ex": "Zu unserem Jahrestag gehen wir schön essen.",
-      "ex_es": "Por nuestro aniversario vamos a cenar a un buen sitio."
-    },
-    {
-      "de": "zusammenziehen",
-      "es": "irse a vivir juntos",
-      "cat": "Familia",
-      "forms": "er zieht zusammen, zog zusammen, ist zusammengezogen",
-      "ex": "Nach einem Jahr sind wir zusammengezogen.",
-      "ex_es": "Al cabo de un año nos fuimos a vivir juntos."
-    },
-    {
-      "de": "die Schwiegermutter / der Schwiegervater",
-      "pl": "die Schwiegermütter / die Schwiegerväter",
-      "es": "la suegra / el suegro",
-      "cat": "Familia",
-      "ex": "Meine Schwiegermutter kocht jeden Sonntag für die ganze Familie.",
-      "ex_es": "Mi suegra cocina cada domingo para toda la familia."
-    },
-    {
-      "de": "die Patchworkfamilie",
-      "pl": "die Patchworkfamilien",
-      "es": "la familia reconstituida",
-      "cat": "Familia",
-      "ex": "In unserer Patchworkfamilie gibt es fünf Kinder.",
-      "ex_es": "En nuestra familia reconstituida hay cinco niños."
-    },
-    {
-      "de": "die Beziehung",
-      "pl": "die Beziehungen",
-      "es": "la relación",
-      "cat": "Relaciones",
-      "ex": "Sie haben eine sehr gute Beziehung.",
-      "ex_es": "Tienen muy buena relación."
-    },
-    {
-      "de": "die Fernbeziehung",
-      "pl": "die Fernbeziehungen",
-      "es": "la relación a distancia",
-      "cat": "Relaciones",
-      "ex": "Eine Fernbeziehung ist nicht immer einfach.",
-      "ex_es": "Una relación a distancia no siempre es fácil."
-    },
-    {
-      "de": "das Verhältnis",
-      "pl": "die Verhältnisse",
-      "es": "la relación (trato)",
-      "cat": "Relaciones",
-      "ex": "Zu meinem Bruder habe ich ein enges Verhältnis.",
-      "ex_es": "Con mi hermano tengo una relación muy estrecha."
-    },
-    {
-      "de": "die Freundschaft",
-      "pl": "die Freundschaften",
-      "es": "la amistad",
-      "cat": "Relaciones",
-      "ex": "Unsere Freundschaft hält schon seit der Schulzeit.",
-      "ex_es": "Nuestra amistad dura desde el colegio."
-    },
-    {
-      "de": "die Liebe",
-      "es": "el amor",
-      "cat": "Relaciones",
-      "ex": "Für sie war es Liebe auf den ersten Blick.",
-      "ex_es": "Para ella fue amor a primera vista."
-    },
-    {
-      "de": "der/die Bekannte",
-      "pl": "die Bekannten",
-      "es": "el conocido / la conocida",
-      "cat": "Relaciones",
-      "ex": "Ein Bekannter hat mir die Wohnung empfohlen.",
-      "ex_es": "Un conocido me recomendó el piso."
-    },
-    {
-      "de": "der Mensch",
-      "pl": "die Menschen",
-      "es": "la persona, el ser humano",
-      "cat": "Relaciones",
-      "ex": "Ich habe viele interessante Menschen kennengelernt.",
-      "ex_es": "He conocido a mucha gente interesante."
-    },
-    {
-      "de": "das Vertrauen",
-      "es": "la confianza",
-      "cat": "Relaciones",
-      "ex": "Ohne Vertrauen funktioniert keine Beziehung.",
-      "ex_es": "Sin confianza no funciona ninguna relación."
-    },
-    {
-      "de": "vertrauen (+ Dat.)",
-      "es": "confiar (en alguien)",
-      "cat": "Relaciones",
-      "forms": "er vertraut, hat vertraut",
-      "ex": "Ich vertraue meiner Schwester total.",
-      "ex_es": "Confío totalmente en mi hermana."
-    },
-    {
-      "de": "vermissen",
-      "es": "echar de menos",
-      "cat": "Relaciones",
-      "forms": "er vermisst, hat vermisst",
-      "ex": "Ich vermisse meine Familie in Spanien.",
-      "ex_es": "Echo de menos a mi familia en España."
-    },
-    {
-      "de": "der Streit",
-      "es": "la pelea, la discusión",
-      "cat": "Relaciones",
-      "ex": "Nach dem Streit haben sie zwei Tage nicht miteinander gesprochen.",
-      "ex_es": "Después de la pelea no se hablaron en dos días."
-    },
-    {
-      "de": "eifersüchtig (auf + Akk.)",
-      "es": "celoso/a (de)",
-      "cat": "Relaciones",
-      "ex": "Mein kleiner Bruder war eifersüchtig auf das Baby.",
-      "ex_es": "Mi hermano pequeño tenía celos del bebé."
-    },
-    {
-      "de": "der Kompromiss",
-      "pl": "die Kompromisse",
-      "es": "el compromiso, la concesión mutua",
-      "cat": "Relaciones",
-      "ex": "Wir haben einen Kompromiss gefunden.",
-      "ex_es": "Hemos llegado a un acuerdo intermedio."
-    },
-    {
-      "de": "treu",
-      "es": "fiel",
-      "cat": "Relaciones",
-      "ex": "Unser Hund ist sehr treu.",
-      "ex_es": "Nuestro perro es muy fiel."
-    },
-    {
-      "de": "die Rücksicht (auf + Akk.)",
-      "es": "la consideración (hacia alguien)",
-      "cat": "Relaciones",
-      "ex": "In einer WG muss man Rücksicht auf die anderen nehmen.",
-      "ex_es": "En un piso compartido hay que tener consideración con los demás."
-    },
-    {
-      "de": "gemeinsam",
-      "es": "juntos, en común",
-      "cat": "Relaciones",
-      "ex": "Wir haben viele gemeinsame Hobbys.",
-      "ex_es": "Tenemos muchas aficiones en común."
-    },
-    {
-      "de": "der Praktikant / die Praktikantin",
-      "pl": "die Praktikanten / die Praktikantinnen",
-      "es": "el/la becario/a, el/la que hace prácticas",
-      "cat": "Relaciones",
-      "ex": "Wir haben einen neuen Praktikanten im Team.",
-      "ex_es": "Tenemos un becario nuevo en el equipo."
-    },
-    {
-      "de": "sich verlassen (auf + Akk.)",
-      "es": "contar con, fiarse de",
-      "cat": "Verbos con preposición",
-      "forms": "er verlässt sich, verließ sich, hat sich verlassen",
-      "ex": "Auf meine Freunde kann ich mich immer verlassen.",
-      "ex_es": "Siempre puedo contar con mis amigos."
-    },
-    {
-      "de": "sich gewöhnen (an + Akk.)",
-      "es": "acostumbrarse (a)",
-      "cat": "Verbos con preposición",
-      "forms": "er gewöhnt sich, hat sich gewöhnt",
-      "ex": "Ich habe mich an das Essen hier gewöhnt.",
-      "ex_es": "Me he acostumbrado a la comida de aquí."
-    },
-    {
-      "de": "sich verstehen (mit + Dat.)",
-      "es": "llevarse bien (con)",
-      "cat": "Verbos con preposición",
-      "forms": "er versteht sich, verstand sich, hat sich verstanden",
-      "ex": "Ich verstehe mich gut mit meiner Schwiegermutter.",
-      "ex_es": "Me llevo bien con mi suegra."
-    },
-    {
-      "de": "sich unterhalten (mit + Dat. / über + Akk.)",
-      "es": "conversar (con / sobre)",
-      "cat": "Verbos con preposición",
-      "forms": "er unterhält sich, unterhielt sich, hat sich unterhalten",
-      "ex": "Wir haben uns lange über unsere Kindheit unterhalten.",
-      "ex_es": "Estuvimos hablando mucho rato sobre nuestra infancia."
-    },
-    {
-      "de": "sich entschuldigen (bei + Dat. / für + Akk.)",
-      "es": "disculparse (con / por)",
-      "cat": "Verbos con preposición",
-      "forms": "er entschuldigt sich, hat sich entschuldigt",
-      "ex": "Er hat sich bei mir für den Streit entschuldigt.",
-      "ex_es": "Se disculpó conmigo por la pelea."
-    },
-    {
-      "de": "sich bedanken (bei + Dat. / für + Akk.)",
-      "es": "dar las gracias (a / por)",
-      "cat": "Verbos con preposición",
-      "forms": "er bedankt sich, hat sich bedankt",
-      "ex": "Ich möchte mich bei euch für die Hilfe bedanken.",
-      "ex_es": "Quiero daros las gracias por la ayuda."
-    },
-    {
-      "de": "sich verabreden (mit + Dat.)",
-      "es": "quedar (con alguien)",
-      "cat": "Verbos con preposición",
-      "forms": "er verabredet sich, hat sich verabredet",
-      "ex": "Ich habe mich mit Leonie zum Joggen verabredet.",
-      "ex_es": "He quedado con Leonie para correr."
-    },
-    {
-      "de": "sich beschäftigen (mit + Dat.)",
-      "es": "ocuparse (de), dedicarse (a)",
-      "cat": "Verbos con preposición",
-      "forms": "er beschäftigt sich, hat sich beschäftigt",
-      "ex": "Am Wochenende beschäftige ich mich viel mit meinen Kindern.",
-      "ex_es": "El fin de semana me dedico mucho a mis hijos."
-    },
-    {
-      "de": "sich Sorgen machen (um + Akk.)",
-      "es": "preocuparse (por)",
-      "cat": "Verbos con preposición",
-      "forms": "er macht sich Sorgen, hat sich Sorgen gemacht",
-      "ex": "Meine Mutter macht sich Sorgen um meinen Vater.",
-      "ex_es": "Mi madre se preocupa por mi padre."
-    },
-    {
-      "de": "bitten (um + Akk.)",
-      "es": "pedir (algo)",
-      "cat": "Verbos con preposición",
-      "forms": "er bittet, bat, hat gebeten",
-      "ex": "Darf ich Sie um einen Rat bitten?",
-      "ex_es": "¿Puedo pedirle un consejo?"
-    },
-    {
-      "de": "träumen (von + Dat.)",
-      "es": "soñar (con)",
-      "cat": "Verbos con preposición",
-      "forms": "er träumt, hat geträumt",
-      "ex": "Sie träumt von einer großen Hochzeit.",
-      "ex_es": "Sueña con una gran boda."
-    },
-    {
-      "de": "abhängen (von + Dat.)",
-      "es": "depender (de)",
-      "cat": "Verbos con preposición",
-      "forms": "es hängt ab, hing ab, hat abgehangen",
-      "ex": "Ob wir kommen, hängt von meiner Arbeit ab.",
-      "ex_es": "Si venimos depende de mi trabajo."
-    },
-    {
-      "de": "sich sehnen (nach + Dat.)",
-      "es": "añorar, anhelar",
-      "cat": "Verbos con preposición",
-      "forms": "er sehnt sich, hat sich gesehnt",
-      "ex": "Im Winter sehne ich mich nach der Sonne in Spanien.",
-      "ex_es": "En invierno añoro el sol de España."
-    },
-    {
-      "de": "achten (auf + Akk.)",
-      "es": "prestar atención (a), vigilar",
-      "cat": "Verbos con preposición",
-      "forms": "er achtet, hat geachtet",
-      "ex": "Achte bitte auf deinen kleinen Bruder!",
-      "ex_es": "¡Vigila a tu hermano pequeño, por favor!"
-    },
-    {
-      "de": "sich wundern (über + Akk.)",
-      "es": "sorprenderse, extrañarse (de)",
-      "cat": "Verbos con preposición",
-      "forms": "er wundert sich, hat sich gewundert",
-      "ex": "Ich wundere mich über seine Reaktion.",
-      "ex_es": "Me extraña su reacción."
-    },
-    {
-      "de": "denken (an + Akk.)",
-      "es": "pensar (en), acordarse (de)",
-      "cat": "Verbos con preposición",
-      "forms": "er denkt, dachte, hat gedacht",
-      "ex": "Denk bitte an das Geschenk für Opa!",
-      "ex_es": "¡Acuérdate, por favor, del regalo para el abuelo!"
-    }
+    {"de": "der/die Verwandte", "pl": "die Verwandten", "es": "el pariente / la pariente", "cat": "Familia", "ex": "Zu Weihnachten kommen alle Verwandten zu uns.", "ex_es": "En Navidad viene toda la familia a nuestra casa."},
+    {"de": "der Schwager / die Schwägerin", "pl": "die Schwäger / die Schwägerinnen", "es": "el cuñado / la cuñada", "cat": "Familia", "ex": "Meine Schwägerin hilft uns beim Umzug.", "ex_es": "Mi cuñada nos ayuda con la mudanza."},
+    {"de": "die Schwiegereltern", "es": "los suegros", "cat": "Familia", "ex": "Am Sonntag essen wir bei meinen Schwiegereltern.", "ex_es": "El domingo comemos en casa de mis suegros."},
+    {"de": "der Neffe / die Nichte", "pl": "die Neffen / die Nichten", "es": "el sobrino / la sobrina", "cat": "Familia", "ex": "Meine Nichte hat nächste Woche Geburtstag.", "ex_es": "Mi sobrina cumple años la semana que viene."},
+    {"de": "der Cousin / die Cousine", "pl": "die Cousins / die Cousinen", "es": "el primo / la prima", "cat": "Familia", "ex": "Mein Cousin wohnt auch in Zürich.", "ex_es": "Mi primo también vive en Zúrich."},
+    {"de": "der Lebensgefährte / die Lebensgefährtin", "pl": "die Lebensgefährten / die Lebensgefährtinnen", "es": "la pareja (sin estar casados)", "cat": "Familia", "ex": "Er wohnt mit seiner Lebensgefährtin in Bern.", "ex_es": "Vive con su pareja en Berna."},
+    {"de": "die Ehe", "pl": "die Ehen", "es": "el matrimonio", "cat": "Familia", "ex": "Meine Großeltern hatten eine sehr glückliche Ehe.", "ex_es": "Mis abuelos tuvieron un matrimonio muy feliz."},
+    {"de": "der Ehemann / die Ehefrau", "pl": "die Ehemänner / die Ehefrauen", "es": "el marido / la esposa", "cat": "Familia", "ex": "Ihr Ehemann arbeitet als Lehrer.", "ex_es": "Su marido trabaja de profesor."},
+    {"de": "die Scheidung", "pl": "die Scheidungen", "es": "el divorcio", "cat": "Familia", "ex": "Nach der Scheidung blieben die Kinder bei der Mutter.", "ex_es": "Después del divorcio los niños se quedaron con la madre."},
+    {"de": "sich scheiden lassen", "es": "divorciarse", "cat": "Familia", "forms": "er lässt sich scheiden, ließ sich scheiden, hat sich scheiden lassen", "ex": "Meine Eltern haben sich vor zehn Jahren scheiden lassen.", "ex_es": "Mis padres se divorciaron hace diez años."},
+    {"de": "alleinerziehend", "es": "que cría solo/a a sus hijos (madre/padre soltero)", "cat": "Familia", "ex": "Als alleinerziehende Mutter hat sie wenig Freizeit.", "ex_es": "Como madre soltera tiene poco tiempo libre."},
+    {"de": "der Trauzeuge / die Trauzeugin", "pl": "die Trauzeugen / die Trauzeuginnen", "es": "el testigo / la testigo de boda", "cat": "Familia", "ex": "Mein bester Freund war mein Trauzeuge.", "ex_es": "Mi mejor amigo fue mi testigo de boda."},
+    {"de": "der Jahrestag", "pl": "die Jahrestage", "es": "el aniversario", "cat": "Familia", "ex": "Zu unserem Jahrestag gehen wir schön essen.", "ex_es": "Por nuestro aniversario vamos a cenar a un buen sitio."},
+    {"de": "zusammenziehen", "es": "irse a vivir juntos", "cat": "Familia", "forms": "er zieht zusammen, zog zusammen, ist zusammengezogen", "ex": "Nach einem Jahr sind wir zusammengezogen.", "ex_es": "Al cabo de un año nos fuimos a vivir juntos."},
+    {"de": "die Schwiegermutter / der Schwiegervater", "pl": "die Schwiegermütter / die Schwiegerväter", "es": "la suegra / el suegro", "cat": "Familia", "ex": "Meine Schwiegermutter kocht jeden Sonntag für die ganze Familie.", "ex_es": "Mi suegra cocina cada domingo para toda la familia."},
+    {"de": "die Patchworkfamilie", "pl": "die Patchworkfamilien", "es": "la familia reconstituida", "cat": "Familia", "ex": "In unserer Patchworkfamilie gibt es fünf Kinder.", "ex_es": "En nuestra familia reconstituida hay cinco niños."},
+    {"de": "die Beziehung", "pl": "die Beziehungen", "es": "la relación", "cat": "Relaciones", "ex": "Sie haben eine sehr gute Beziehung.", "ex_es": "Tienen muy buena relación."},
+    {"de": "die Fernbeziehung", "pl": "die Fernbeziehungen", "es": "la relación a distancia", "cat": "Relaciones", "ex": "Eine Fernbeziehung ist nicht immer einfach.", "ex_es": "Una relación a distancia no siempre es fácil."},
+    {"de": "das Verhältnis", "pl": "die Verhältnisse", "es": "la relación (trato)", "cat": "Relaciones", "ex": "Zu meinem Bruder habe ich ein enges Verhältnis.", "ex_es": "Con mi hermano tengo una relación muy estrecha."},
+    {"de": "die Freundschaft", "pl": "die Freundschaften", "es": "la amistad", "cat": "Relaciones", "ex": "Unsere Freundschaft hält schon seit der Schulzeit.", "ex_es": "Nuestra amistad dura desde el colegio."},
+    {"de": "die Liebe", "es": "el amor", "cat": "Relaciones", "ex": "Für sie war es Liebe auf den ersten Blick.", "ex_es": "Para ella fue amor a primera vista."},
+    {"de": "der/die Bekannte", "pl": "die Bekannten", "es": "el conocido / la conocida", "cat": "Relaciones", "ex": "Ein Bekannter hat mir die Wohnung empfohlen.", "ex_es": "Un conocido me recomendó el piso."},
+    {"de": "der Mensch", "pl": "die Menschen", "es": "la persona, el ser humano", "cat": "Relaciones", "ex": "Ich habe viele interessante Menschen kennengelernt.", "ex_es": "He conocido a mucha gente interesante."},
+    {"de": "das Vertrauen", "es": "la confianza", "cat": "Relaciones", "ex": "Ohne Vertrauen funktioniert keine Beziehung.", "ex_es": "Sin confianza no funciona ninguna relación."},
+    {"de": "vertrauen (+ Dat.)", "es": "confiar (en alguien)", "cat": "Relaciones", "forms": "er vertraut, hat vertraut", "ex": "Ich vertraue meiner Schwester total.", "ex_es": "Confío totalmente en mi hermana."},
+    {"de": "eifersüchtig (auf + Akk.)", "es": "celoso/a (de)", "cat": "Relaciones", "ex": "Mein kleiner Bruder war eifersüchtig auf das Baby.", "ex_es": "Mi hermano pequeño tenía celos del bebé."},
+    {"de": "der Kompromiss", "pl": "die Kompromisse", "es": "el compromiso, la concesión mutua", "cat": "Relaciones", "ex": "Wir haben einen Kompromiss gefunden.", "ex_es": "Hemos llegado a un acuerdo intermedio."},
+    {"de": "treu", "es": "fiel", "cat": "Relaciones", "ex": "Unser Hund ist sehr treu.", "ex_es": "Nuestro perro es muy fiel."},
+    {"de": "die Rücksicht (auf + Akk.)", "es": "la consideración (hacia alguien)", "cat": "Relaciones", "ex": "In einer WG muss man Rücksicht auf die anderen nehmen.", "ex_es": "En un piso compartido hay que tener consideración con los demás."},
+    {"de": "gemeinsam", "es": "juntos, en común", "cat": "Relaciones", "ex": "Wir haben viele gemeinsame Hobbys.", "ex_es": "Tenemos muchas aficiones en común."},
+    {"de": "der Praktikant / die Praktikantin", "pl": "die Praktikanten / die Praktikantinnen", "es": "el/la becario/a, el/la que hace prácticas", "cat": "Relaciones", "ex": "Wir haben einen neuen Praktikanten im Team.", "ex_es": "Tenemos un becario nuevo en el equipo."},
+    {"de": "sich verlassen (auf + Akk.)", "es": "contar con, fiarse de", "cat": "Verbos con preposición", "forms": "er verlässt sich, verließ sich, hat sich verlassen", "ex": "Auf meine Freunde kann ich mich immer verlassen.", "ex_es": "Siempre puedo contar con mis amigos."},
+    {"de": "sich gewöhnen (an + Akk.)", "es": "acostumbrarse (a)", "cat": "Verbos con preposición", "forms": "er gewöhnt sich, hat sich gewöhnt", "ex": "Ich habe mich an das Essen hier gewöhnt.", "ex_es": "Me he acostumbrado a la comida de aquí."},
+    {"de": "sich verstehen (mit + Dat.)", "es": "llevarse bien (con)", "cat": "Verbos con preposición", "forms": "er versteht sich, verstand sich, hat sich verstanden", "ex": "Ich verstehe mich gut mit meiner Schwiegermutter.", "ex_es": "Me llevo bien con mi suegra."},
+    {"de": "sich unterhalten (mit + Dat. / über + Akk.)", "es": "conversar (con / sobre)", "cat": "Verbos con preposición", "forms": "er unterhält sich, unterhielt sich, hat sich unterhalten", "ex": "Wir haben uns lange über unsere Kindheit unterhalten.", "ex_es": "Estuvimos hablando mucho rato sobre nuestra infancia."},
+    {"de": "sich entschuldigen (bei + Dat. / für + Akk.)", "es": "disculparse (con / por)", "cat": "Verbos con preposición", "forms": "er entschuldigt sich, hat sich entschuldigt", "ex": "Er hat sich bei mir für den Streit entschuldigt.", "ex_es": "Se disculpó conmigo por la pelea."},
+    {"de": "sich bedanken (bei + Dat. / für + Akk.)", "es": "dar las gracias (a / por)", "cat": "Verbos con preposición", "forms": "er bedankt sich, hat sich bedankt", "ex": "Ich möchte mich bei euch für die Hilfe bedanken.", "ex_es": "Quiero daros las gracias por la ayuda."},
+    {"de": "sich verabreden (mit + Dat.)", "es": "quedar (con alguien)", "cat": "Verbos con preposición", "forms": "er verabredet sich, hat sich verabredet", "ex": "Ich habe mich mit Leonie zum Joggen verabredet.", "ex_es": "He quedado con Leonie para correr."},
+    {"de": "sich beschäftigen (mit + Dat.)", "es": "ocuparse (de), dedicarse (a)", "cat": "Verbos con preposición", "forms": "er beschäftigt sich, hat sich beschäftigt", "ex": "Am Wochenende beschäftige ich mich viel mit meinen Kindern.", "ex_es": "El fin de semana me dedico mucho a mis hijos."},
+    {"de": "sich Sorgen machen (um + Akk.)", "es": "preocuparse (por)", "cat": "Verbos con preposición", "forms": "er macht sich Sorgen, hat sich Sorgen gemacht", "ex": "Meine Mutter macht sich Sorgen um meinen Vater.", "ex_es": "Mi madre se preocupa por mi padre."},
+    {"de": "bitten (um + Akk.)", "es": "pedir (algo)", "cat": "Verbos con preposición", "forms": "er bittet, bat, hat gebeten", "ex": "Darf ich Sie um einen Rat bitten?", "ex_es": "¿Puedo pedirle un consejo?"},
+    {"de": "träumen (von + Dat.)", "es": "soñar (con)", "cat": "Verbos con preposición", "forms": "er träumt, hat geträumt", "ex": "Sie träumt von einer großen Hochzeit.", "ex_es": "Sueña con una gran boda."},
+    {"de": "abhängen (von + Dat.)", "es": "depender (de)", "cat": "Verbos con preposición", "forms": "es hängt ab, hing ab, hat abgehangen", "ex": "Ob wir kommen, hängt von meiner Arbeit ab.", "ex_es": "Si venimos depende de mi trabajo."},
+    {"de": "sich sehnen (nach + Dat.)", "es": "añorar, anhelar", "cat": "Verbos con preposición", "forms": "er sehnt sich, hat sich gesehnt", "ex": "Im Winter sehne ich mich nach der Sonne in Spanien.", "ex_es": "En invierno añoro el sol de España."},
+    {"de": "achten (auf + Akk.)", "es": "prestar atención (a), vigilar", "cat": "Verbos con preposición", "forms": "er achtet, hat geachtet", "ex": "Achte bitte auf deinen kleinen Bruder!", "ex_es": "¡Vigila a tu hermano pequeño, por favor!"},
+    {"de": "sich wundern (über + Akk.)", "es": "sorprenderse, extrañarse (de)", "cat": "Verbos con preposición", "forms": "er wundert sich, hat sich gewundert", "ex": "Ich wundere mich über seine Reaktion.", "ex_es": "Me extraña su reacción."},
+    {"de": "denken (an + Akk.)", "es": "pensar (en), acordarse (de)", "cat": "Verbos con preposición", "forms": "er denkt, dachte, hat gedacht", "ex": "Denk bitte an das Geschenk für Opa!", "ex_es": "¡Acuérdate, por favor, del regalo para el abuelo!"}
   ],
   "exercises": [
     {

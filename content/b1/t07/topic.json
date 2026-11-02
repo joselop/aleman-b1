@@ -14,432 +14,55 @@
     "Proponer medidas para proteger el medio ambiente en un foro o una presentación"
   ],
   "vocab": [
-    {
-      "de": "der Umweltschutz",
-      "es": "la protección del medio ambiente",
-      "cat": "Clima y problemas",
-      "ex": "Umweltschutz ist für viele junge Leute sehr wichtig.",
-      "ex_es": "La protección del medio ambiente es muy importante para muchos jóvenes."
-    },
-    {
-      "de": "das Klima",
-      "es": "el clima",
-      "cat": "Clima y problemas",
-      "ex": "Das Klima in den Alpen verändert sich schnell.",
-      "ex_es": "El clima de los Alpes está cambiando rápido."
-    },
-    {
-      "de": "die Erderwärmung",
-      "es": "el calentamiento global",
-      "cat": "Clima y problemas",
-      "ex": "Die Erderwärmung ist eine große Gefahr für die Gletscher.",
-      "ex_es": "El calentamiento global es un gran peligro para los glaciares."
-    },
-    {
-      "de": "die Ursache",
-      "pl": "die Ursachen",
-      "es": "la causa",
-      "cat": "Clima y problemas",
-      "ex": "Was ist die Ursache für das Problem?",
-      "ex_es": "¿Cuál es la causa del problema?"
-    },
-    {
-      "de": "die Hitze",
-      "es": "el calor (intenso)",
-      "cat": "Clima y problemas",
-      "ex": "Bei dieser Hitze kann ich nicht schlafen.",
-      "ex_es": "Con este calor no puedo dormir."
-    },
-    {
-      "de": "die Trockenheit",
-      "es": "la sequía",
-      "cat": "Clima y problemas",
-      "ex": "Wegen der Trockenheit ist das Grillen im Wald verboten.",
-      "ex_es": "Por la sequía está prohibido hacer barbacoas en el bosque."
-    },
-    {
-      "de": "die Überschwemmung",
-      "pl": "die Überschwemmungen",
-      "es": "la inundación",
-      "cat": "Clima y problemas",
-      "ex": "Nach dem Gewitter gab es Überschwemmungen im Dorf.",
-      "ex_es": "Después de la tormenta hubo inundaciones en el pueblo."
-    },
-    {
-      "de": "die Katastrophe",
-      "pl": "die Katastrophen",
-      "es": "la catástrofe",
-      "cat": "Clima y problemas",
-      "ex": "Für die Bauern war der trockene Sommer eine Katastrophe.",
-      "ex_es": "Para los agricultores, el verano seco fue una catástrofe."
-    },
-    {
-      "de": "die Luft",
-      "es": "el aire",
-      "cat": "Clima y problemas",
-      "ex": "In den Bergen ist die Luft viel sauberer.",
-      "ex_es": "En la montaña el aire está mucho más limpio."
-    },
-    {
-      "de": "verschmutzen",
-      "es": "contaminar, ensuciar",
-      "cat": "Clima y problemas",
-      "forms": "er verschmutzt, hat verschmutzt",
-      "ex": "Die Fabrik hat den Fluss verschmutzt.",
-      "ex_es": "La fábrica ha contaminado el río."
-    },
-    {
-      "de": "die Verschmutzung",
-      "pl": "die Verschmutzungen",
-      "es": "la contaminación",
-      "cat": "Clima y problemas",
-      "ex": "Die Verschmutzung der Meere ist ein großes Problem.",
-      "ex_es": "La contaminación de los mares es un gran problema."
-    },
-    {
-      "de": "das Abgas",
-      "pl": "die Abgase",
-      "es": "el gas de escape",
-      "cat": "Clima y problemas",
-      "ex": "Die Abgase der Autos sind schlecht für die Gesundheit.",
-      "ex_es": "Los gases de escape de los coches son malos para la salud."
-    },
-    {
-      "de": "schaden (+ Dat.)",
-      "es": "perjudicar, dañar",
-      "cat": "Clima y problemas",
-      "forms": "er schadet, hat geschadet",
-      "ex": "Zu viel Fleisch schadet der Umwelt.",
-      "ex_es": "Demasiada carne perjudica al medio ambiente."
-    },
-    {
-      "de": "umweltschädlich",
-      "es": "perjudicial para el medio ambiente",
-      "cat": "Clima y problemas",
-      "ex": "Kurze Flüge sind besonders umweltschädlich.",
-      "ex_es": "Los vuelos cortos son especialmente perjudiciales para el medio ambiente."
-    },
-    {
-      "de": "steigen",
-      "es": "subir, aumentar",
-      "cat": "Clima y problemas",
-      "forms": "er steigt, stieg, ist gestiegen",
-      "ex": "Die Temperaturen sind in den letzten Jahren gestiegen.",
-      "ex_es": "Las temperaturas han subido en los últimos años."
-    },
-    {
-      "de": "sinken",
-      "es": "bajar, disminuir",
-      "cat": "Clima y problemas",
-      "forms": "er sinkt, sank, ist gesunken",
-      "ex": "Der Wasserstand im See ist stark gesunken.",
-      "ex_es": "El nivel del agua del lago ha bajado mucho."
-    },
-    {
-      "de": "die Art",
-      "pl": "die Arten",
-      "es": "la especie; el tipo",
-      "cat": "Clima y problemas",
-      "ex": "In diesem Wald leben viele seltene Arten.",
-      "ex_es": "En este bosque viven muchas especies raras."
-    },
-    {
-      "de": "aussterben",
-      "es": "extinguirse",
-      "cat": "Clima y problemas",
-      "forms": "er stirbt aus, starb aus, ist ausgestorben",
-      "ex": "Ohne Schutz wird diese Vogelart aussterben.",
-      "ex_es": "Sin protección esta especie de pájaro se extinguirá."
-    },
-    {
-      "de": "die Natur",
-      "es": "la naturaleza",
-      "cat": "Clima y problemas",
-      "ex": "Am Wochenende sind wir gern in der Natur.",
-      "ex_es": "El fin de semana nos gusta estar en la naturaleza."
-    },
-    {
-      "de": "die Energie",
-      "pl": "die Energien",
-      "es": "la energía",
-      "cat": "Energía",
-      "ex": "Wir müssen Energie sparen.",
-      "ex_es": "Tenemos que ahorrar energía."
-    },
-    {
-      "de": "der Strom",
-      "es": "la electricidad, la corriente",
-      "cat": "Energía",
-      "ex": "Unser Strom kommt aus Wasserkraft.",
-      "ex_es": "Nuestra electricidad viene de la energía hidráulica."
-    },
-    {
-      "de": "verbrauchen",
-      "es": "consumir, gastar",
-      "cat": "Energía",
-      "forms": "er verbraucht, hat verbraucht",
-      "ex": "Ein alter Kühlschrank verbraucht viel Strom.",
-      "ex_es": "Una nevera vieja consume mucha electricidad."
-    },
-    {
-      "de": "der Verbrauch",
-      "es": "el consumo",
-      "cat": "Energía",
-      "ex": "Der Verbrauch von Wasser ist im Sommer höher.",
-      "ex_es": "El consumo de agua es más alto en verano."
-    },
-    {
-      "de": "erneuerbar",
-      "es": "renovable",
-      "cat": "Energía",
-      "ex": "Die Schweiz will mehr erneuerbare Energie produzieren.",
-      "ex_es": "Suiza quiere producir más energía renovable."
-    },
-    {
-      "de": "die Solaranlage",
-      "pl": "die Solaranlagen",
-      "es": "la instalación solar",
-      "cat": "Energía",
-      "ex": "Auf dem Dach der Schule wurde eine Solaranlage gebaut.",
-      "ex_es": "En el tejado del colegio se construyó una instalación solar."
-    },
-    {
-      "de": "das Kraftwerk",
-      "pl": "die Kraftwerke",
-      "es": "la central eléctrica",
-      "cat": "Energía",
-      "ex": "Das Kraftwerk produziert Strom für die ganze Region.",
-      "ex_es": "La central produce electricidad para toda la región."
-    },
-    {
-      "de": "ausschalten",
-      "es": "apagar (un aparato)",
-      "cat": "Energía",
-      "forms": "er schaltet aus, hat ausgeschaltet",
-      "ex": "Schalte bitte das Licht aus, wenn du gehst.",
-      "ex_es": "Apaga la luz, por favor, cuando te vayas."
-    },
-    {
-      "de": "heizen",
-      "es": "calentar, poner la calefacción",
-      "cat": "Energía",
-      "forms": "er heizt, hat geheizt",
-      "ex": "Im Winter heizen wir nur bis 20 Grad.",
-      "ex_es": "En invierno ponemos la calefacción solo hasta 20 grados."
-    },
-    {
-      "de": "recyceln",
-      "es": "reciclar",
-      "cat": "Reciclaje",
-      "forms": "er recycelt, hat recycelt",
-      "ex": "Glas und Papier kann man gut recyceln.",
-      "ex_es": "El vidrio y el papel se reciclan bien."
-    },
-    {
-      "de": "wegwerfen",
-      "es": "tirar (a la basura)",
-      "cat": "Reciclaje",
-      "forms": "er wirft weg, warf weg, hat weggeworfen",
-      "ex": "Wir werfen zu viele Lebensmittel weg.",
-      "ex_es": "Tiramos demasiada comida."
-    },
-    {
-      "de": "entsorgen",
-      "es": "deshacerse de, eliminar (residuos)",
-      "cat": "Reciclaje",
-      "forms": "er entsorgt, hat entsorgt",
-      "ex": "Alte Farben muss man bei der Sammelstelle entsorgen.",
-      "ex_es": "Las pinturas viejas hay que llevarlas al punto de recogida."
-    },
-    {
-      "de": "die Verpackung",
-      "pl": "die Verpackungen",
-      "es": "el envase, el embalaje",
-      "cat": "Reciclaje",
-      "ex": "Im Supermarkt gibt es viel zu viele Verpackungen.",
-      "ex_es": "En el supermercado hay demasiados envases."
-    },
-    {
-      "de": "die Plastiktüte",
-      "pl": "die Plastiktüten",
-      "es": "la bolsa de plástico",
-      "cat": "Reciclaje",
-      "ex": "Ich nehme keine Plastiktüte, ich habe meinen Rucksack dabei.",
-      "ex_es": "No cojo bolsa de plástico, llevo mi mochila."
-    },
-    {
-      "de": "die Batterie",
-      "pl": "die Batterien",
-      "es": "la pila, la batería",
-      "cat": "Reciclaje",
-      "ex": "Leere Batterien bringe ich in den Supermarkt zurück.",
-      "ex_es": "Las pilas gastadas las devuelvo al supermercado."
-    },
-    {
-      "de": "die Sammelstelle",
-      "pl": "die Sammelstellen",
-      "es": "el punto de recogida (de residuos)",
-      "cat": "Reciclaje",
-      "ex": "Die Sammelstelle ist samstags von 8 bis 12 Uhr offen.",
-      "ex_es": "El punto de recogida abre los sábados de 8 a 12."
-    },
-    {
-      "de": "der Container",
-      "pl": "die Container",
-      "es": "el contenedor",
-      "cat": "Reciclaje",
-      "ex": "Der Altglascontainer steht neben dem Bahnhof.",
-      "ex_es": "El contenedor de vidrio está al lado de la estación."
-    },
-    {
-      "de": "der Kompost",
-      "es": "el compost",
-      "cat": "Reciclaje",
-      "ex": "Kaffeesatz und Gemüsereste kommen auf den Kompost.",
-      "ex_es": "Los posos de café y los restos de verdura van al compost."
-    },
-    {
-      "de": "die Strafe",
-      "pl": "die Strafen",
-      "es": "la multa, el castigo",
-      "cat": "Reciclaje",
-      "ex": "Für Müll im Wald gibt es eine hohe Strafe.",
-      "ex_es": "Por tirar basura en el bosque hay una multa alta."
-    },
-    {
-      "de": "das Plastik",
-      "es": "el plástico",
-      "cat": "Reciclaje",
-      "ex": "Ich versuche, Plastik zu vermeiden.",
-      "ex_es": "Intento evitar el plástico."
-    },
-    {
-      "de": "das Altglas",
-      "es": "el vidrio para reciclar",
-      "cat": "Reciclaje",
-      "ex": "Das Altglas wird nach Farben getrennt.",
-      "ex_es": "El vidrio se separa por colores."
-    },
-    {
-      "de": "der Karton",
-      "pl": "die Kartons",
-      "es": "el cartón; la caja de cartón",
-      "cat": "Reciclaje",
-      "ex": "Karton muss gebündelt an die Straße gestellt werden.",
-      "ex_es": "El cartón hay que sacarlo atado a la calle."
-    },
-    {
-      "de": "das Grüngut",
-      "es": "los residuos orgánicos (de jardín y cocina)",
-      "cat": "Reciclaje",
-      "ex": "Kartoffelschalen gehören ins Grüngut.",
-      "ex_es": "Las pieles de patata van a los residuos orgánicos."
-    },
-    {
-      "de": "nachhaltig",
-      "es": "sostenible",
-      "cat": "Consumo responsable",
-      "ex": "Wir möchten nachhaltiger leben.",
-      "ex_es": "Queremos vivir de forma más sostenible."
-    },
-    {
-      "de": "regional",
-      "es": "regional, de la zona",
-      "cat": "Consumo responsable",
-      "ex": "Auf dem Markt kaufe ich regionales Gemüse.",
-      "ex_es": "En el mercado compro verdura de la zona."
-    },
-    {
-      "de": "saisonal",
-      "es": "de temporada",
-      "cat": "Consumo responsable",
-      "ex": "Erdbeeren im Dezember sind nicht saisonal.",
-      "ex_es": "Las fresas en diciembre no son de temporada."
-    },
-    {
-      "de": "vermeiden",
-      "es": "evitar",
-      "cat": "Consumo responsable",
-      "forms": "er vermeidet, vermied, hat vermieden",
-      "ex": "Ich versuche, Plastik zu vermeiden.",
-      "ex_es": "Intento evitar el plástico."
-    },
-    {
-      "de": "verzichten (auf + Akk.)",
-      "es": "renunciar (a), prescindir (de)",
-      "cat": "Consumo responsable",
-      "forms": "er verzichtet, hat verzichtet",
-      "ex": "Seit einem Jahr verzichten wir auf das Auto.",
-      "ex_es": "Desde hace un año prescindimos del coche."
-    },
-    {
-      "de": "reduzieren",
-      "es": "reducir",
-      "cat": "Consumo responsable",
-      "forms": "er reduziert, hat reduziert",
-      "ex": "Die Firma will ihren CO₂-Ausstoß bis 2030 reduzieren.",
-      "ex_es": "La empresa quiere reducir sus emisiones de CO₂ de aquí a 2030."
-    },
-    {
-      "de": "die öffentlichen Verkehrsmittel",
-      "es": "el transporte público",
-      "cat": "Consumo responsable",
-      "ex": "In Zürich sind die öffentlichen Verkehrsmittel sehr gut.",
-      "ex_es": "En Zúrich el transporte público es muy bueno."
-    },
-    {
-      "de": "das Elektroauto",
-      "pl": "die Elektroautos",
-      "es": "el coche eléctrico",
-      "cat": "Consumo responsable",
-      "ex": "Mein Nachbar hat sich ein Elektroauto gekauft.",
-      "ex_es": "Mi vecino se ha comprado un coche eléctrico."
-    },
-    {
-      "de": "die Zukunft",
-      "es": "el futuro",
-      "cat": "Futuro y medidas",
-      "ex": "In Zukunft werden wir weniger Auto fahren.",
-      "ex_es": "En el futuro iremos menos en coche."
-    },
-    {
-      "de": "die Generation",
-      "pl": "die Generationen",
-      "es": "la generación",
-      "cat": "Futuro y medidas",
-      "ex": "Wir müssen an die nächsten Generationen denken.",
-      "ex_es": "Tenemos que pensar en las próximas generaciones."
-    },
-    {
-      "de": "die Maßnahme",
-      "pl": "die Maßnahmen",
-      "es": "la medida",
-      "cat": "Futuro y medidas",
-      "ex": "Die Stadt plant neue Maßnahmen gegen den Verkehr.",
-      "ex_es": "La ciudad planea nuevas medidas contra el tráfico."
-    },
-    {
-      "de": "das Verbot",
-      "pl": "die Verbote",
-      "es": "la prohibición",
-      "cat": "Futuro y medidas",
-      "ex": "Was hältst du von einem Verbot von Plastiktüten?",
-      "ex_es": "¿Qué te parece una prohibición de las bolsas de plástico?"
-    },
-    {
-      "de": "unterm Strich",
-      "es": "en resumidas cuentas, al final",
-      "cat": "Futuro y medidas",
-      "ex": "Unterm Strich ist das Elektroauto besser für die Umwelt.",
-      "ex_es": "En resumidas cuentas, el coche eléctrico es mejor para el medio ambiente."
-    },
-    {
-      "de": "letztendlich",
-      "es": "al fin y al cabo, finalmente",
-      "cat": "Futuro y medidas",
-      "ex": "Letztendlich muss jeder selbst entscheiden.",
-      "ex_es": "Al fin y al cabo, cada uno tiene que decidir por sí mismo."
-    }
+    {"de": "der Umweltschutz", "es": "la protección del medio ambiente", "cat": "Clima y problemas", "ex": "Umweltschutz ist für viele junge Leute sehr wichtig.", "ex_es": "La protección del medio ambiente es muy importante para muchos jóvenes."},
+    {"de": "die Erderwärmung", "es": "el calentamiento global", "cat": "Clima y problemas", "ex": "Die Erderwärmung ist eine große Gefahr für die Gletscher.", "ex_es": "El calentamiento global es un gran peligro para los glaciares."},
+    {"de": "die Ursache", "pl": "die Ursachen", "es": "la causa", "cat": "Clima y problemas", "ex": "Was ist die Ursache für das Problem?", "ex_es": "¿Cuál es la causa del problema?"},
+    {"de": "die Hitze", "es": "el calor (intenso)", "cat": "Clima y problemas", "ex": "Bei dieser Hitze kann ich nicht schlafen.", "ex_es": "Con este calor no puedo dormir."},
+    {"de": "die Trockenheit", "es": "la sequía", "cat": "Clima y problemas", "ex": "Wegen der Trockenheit ist das Grillen im Wald verboten.", "ex_es": "Por la sequía está prohibido hacer barbacoas en el bosque."},
+    {"de": "die Überschwemmung", "pl": "die Überschwemmungen", "es": "la inundación", "cat": "Clima y problemas", "ex": "Nach dem Gewitter gab es Überschwemmungen im Dorf.", "ex_es": "Después de la tormenta hubo inundaciones en el pueblo."},
+    {"de": "die Katastrophe", "pl": "die Katastrophen", "es": "la catástrofe", "cat": "Clima y problemas", "ex": "Für die Bauern war der trockene Sommer eine Katastrophe.", "ex_es": "Para los agricultores, el verano seco fue una catástrofe."},
+    {"de": "die Luft", "es": "el aire", "cat": "Clima y problemas", "ex": "In den Bergen ist die Luft viel sauberer.", "ex_es": "En la montaña el aire está mucho más limpio."},
+    {"de": "verschmutzen", "es": "contaminar, ensuciar", "cat": "Clima y problemas", "forms": "er verschmutzt, hat verschmutzt", "ex": "Die Fabrik hat den Fluss verschmutzt.", "ex_es": "La fábrica ha contaminado el río."},
+    {"de": "die Verschmutzung", "pl": "die Verschmutzungen", "es": "la contaminación", "cat": "Clima y problemas", "ex": "Die Verschmutzung der Meere ist ein großes Problem.", "ex_es": "La contaminación de los mares es un gran problema."},
+    {"de": "das Abgas", "pl": "die Abgase", "es": "el gas de escape", "cat": "Clima y problemas", "ex": "Die Abgase der Autos sind schlecht für die Gesundheit.", "ex_es": "Los gases de escape de los coches son malos para la salud."},
+    {"de": "schaden (+ Dat.)", "es": "perjudicar, dañar", "cat": "Clima y problemas", "forms": "er schadet, hat geschadet", "ex": "Zu viel Fleisch schadet der Umwelt.", "ex_es": "Demasiada carne perjudica al medio ambiente."},
+    {"de": "umweltschädlich", "es": "perjudicial para el medio ambiente", "cat": "Clima y problemas", "ex": "Kurze Flüge sind besonders umweltschädlich.", "ex_es": "Los vuelos cortos son especialmente perjudiciales para el medio ambiente."},
+    {"de": "steigen", "es": "subir, aumentar", "cat": "Clima y problemas", "forms": "er steigt, stieg, ist gestiegen", "ex": "Die Temperaturen sind in den letzten Jahren gestiegen.", "ex_es": "Las temperaturas han subido en los últimos años."},
+    {"de": "sinken", "es": "bajar, disminuir", "cat": "Clima y problemas", "forms": "er sinkt, sank, ist gesunken", "ex": "Der Wasserstand im See ist stark gesunken.", "ex_es": "El nivel del agua del lago ha bajado mucho."},
+    {"de": "die Art", "pl": "die Arten", "es": "la especie; el tipo", "cat": "Clima y problemas", "ex": "In diesem Wald leben viele seltene Arten.", "ex_es": "En este bosque viven muchas especies raras."},
+    {"de": "aussterben", "es": "extinguirse", "cat": "Clima y problemas", "forms": "er stirbt aus, starb aus, ist ausgestorben", "ex": "Ohne Schutz wird diese Vogelart aussterben.", "ex_es": "Sin protección esta especie de pájaro se extinguirá."},
+    {"de": "die Natur", "es": "la naturaleza", "cat": "Clima y problemas", "ex": "Am Wochenende sind wir gern in der Natur.", "ex_es": "El fin de semana nos gusta estar en la naturaleza."},
+    {"de": "verbrauchen", "es": "consumir, gastar", "cat": "Energía", "forms": "er verbraucht, hat verbraucht", "ex": "Ein alter Kühlschrank verbraucht viel Strom.", "ex_es": "Una nevera vieja consume mucha electricidad."},
+    {"de": "der Verbrauch", "es": "el consumo", "cat": "Energía", "ex": "Der Verbrauch von Wasser ist im Sommer höher.", "ex_es": "El consumo de agua es más alto en verano."},
+    {"de": "erneuerbar", "es": "renovable", "cat": "Energía", "ex": "Die Schweiz will mehr erneuerbare Energie produzieren.", "ex_es": "Suiza quiere producir más energía renovable."},
+    {"de": "die Solaranlage", "pl": "die Solaranlagen", "es": "la instalación solar", "cat": "Energía", "ex": "Auf dem Dach der Schule wurde eine Solaranlage gebaut.", "ex_es": "En el tejado del colegio se construyó una instalación solar."},
+    {"de": "das Kraftwerk", "pl": "die Kraftwerke", "es": "la central eléctrica", "cat": "Energía", "ex": "Das Kraftwerk produziert Strom für die ganze Region.", "ex_es": "La central produce electricidad para toda la región."},
+    {"de": "ausschalten", "es": "apagar (un aparato)", "cat": "Energía", "forms": "er schaltet aus, hat ausgeschaltet", "ex": "Schalte bitte das Licht aus, wenn du gehst.", "ex_es": "Apaga la luz, por favor, cuando te vayas."},
+    {"de": "heizen", "es": "calentar, poner la calefacción", "cat": "Energía", "forms": "er heizt, hat geheizt", "ex": "Im Winter heizen wir nur bis 20 Grad.", "ex_es": "En invierno ponemos la calefacción solo hasta 20 grados."},
+    {"de": "wegwerfen", "es": "tirar (a la basura)", "cat": "Reciclaje", "forms": "er wirft weg, warf weg, hat weggeworfen", "ex": "Wir werfen zu viele Lebensmittel weg.", "ex_es": "Tiramos demasiada comida."},
+    {"de": "die Verpackung", "pl": "die Verpackungen", "es": "el envase, el embalaje", "cat": "Reciclaje", "ex": "Im Supermarkt gibt es viel zu viele Verpackungen.", "ex_es": "En el supermercado hay demasiados envases."},
+    {"de": "die Plastiktüte", "pl": "die Plastiktüten", "es": "la bolsa de plástico", "cat": "Reciclaje", "ex": "Ich nehme keine Plastiktüte, ich habe meinen Rucksack dabei.", "ex_es": "No cojo bolsa de plástico, llevo mi mochila."},
+    {"de": "die Batterie", "pl": "die Batterien", "es": "la pila, la batería", "cat": "Reciclaje", "ex": "Leere Batterien bringe ich in den Supermarkt zurück.", "ex_es": "Las pilas gastadas las devuelvo al supermercado."},
+    {"de": "die Sammelstelle", "pl": "die Sammelstellen", "es": "el punto de recogida (de residuos)", "cat": "Reciclaje", "ex": "Die Sammelstelle ist samstags von 8 bis 12 Uhr offen.", "ex_es": "El punto de recogida abre los sábados de 8 a 12."},
+    {"de": "der Container", "pl": "die Container", "es": "el contenedor", "cat": "Reciclaje", "ex": "Der Altglascontainer steht neben dem Bahnhof.", "ex_es": "El contenedor de vidrio está al lado de la estación."},
+    {"de": "der Kompost", "es": "el compost", "cat": "Reciclaje", "ex": "Kaffeesatz und Gemüsereste kommen auf den Kompost.", "ex_es": "Los posos de café y los restos de verdura van al compost."},
+    {"de": "das Plastik", "es": "el plástico", "cat": "Reciclaje", "ex": "Ich versuche, Plastik zu vermeiden.", "ex_es": "Intento evitar el plástico."},
+    {"de": "das Altglas", "es": "el vidrio para reciclar", "cat": "Reciclaje", "ex": "Das Altglas wird nach Farben getrennt.", "ex_es": "El vidrio se separa por colores."},
+    {"de": "der Karton", "pl": "die Kartons", "es": "el cartón; la caja de cartón", "cat": "Reciclaje", "ex": "Karton muss gebündelt an die Straße gestellt werden.", "ex_es": "El cartón hay que sacarlo atado a la calle."},
+    {"de": "das Grüngut", "es": "los residuos orgánicos (de jardín y cocina)", "cat": "Reciclaje", "ex": "Kartoffelschalen gehören ins Grüngut.", "ex_es": "Las pieles de patata van a los residuos orgánicos."},
+    {"de": "nachhaltig", "es": "sostenible", "cat": "Consumo responsable", "ex": "Wir möchten nachhaltiger leben.", "ex_es": "Queremos vivir de forma más sostenible."},
+    {"de": "regional", "es": "regional, de la zona", "cat": "Consumo responsable", "ex": "Auf dem Markt kaufe ich regionales Gemüse.", "ex_es": "En el mercado compro verdura de la zona."},
+    {"de": "saisonal", "es": "de temporada", "cat": "Consumo responsable", "ex": "Erdbeeren im Dezember sind nicht saisonal.", "ex_es": "Las fresas en diciembre no son de temporada."},
+    {"de": "vermeiden", "es": "evitar", "cat": "Consumo responsable", "forms": "er vermeidet, vermied, hat vermieden", "ex": "Ich versuche, Plastik zu vermeiden.", "ex_es": "Intento evitar el plástico."},
+    {"de": "verzichten (auf + Akk.)", "es": "renunciar (a), prescindir (de)", "cat": "Consumo responsable", "forms": "er verzichtet, hat verzichtet", "ex": "Seit einem Jahr verzichten wir auf das Auto.", "ex_es": "Desde hace un año prescindimos del coche."},
+    {"de": "reduzieren", "es": "reducir", "cat": "Consumo responsable", "forms": "er reduziert, hat reduziert", "ex": "Die Firma will ihren CO₂-Ausstoß bis 2030 reduzieren.", "ex_es": "La empresa quiere reducir sus emisiones de CO₂ de aquí a 2030."},
+    {"de": "die öffentlichen Verkehrsmittel", "es": "el transporte público", "cat": "Consumo responsable", "ex": "In Zürich sind die öffentlichen Verkehrsmittel sehr gut.", "ex_es": "En Zúrich el transporte público es muy bueno."},
+    {"de": "das Elektroauto", "pl": "die Elektroautos", "es": "el coche eléctrico", "cat": "Consumo responsable", "ex": "Mein Nachbar hat sich ein Elektroauto gekauft.", "ex_es": "Mi vecino se ha comprado un coche eléctrico."},
+    {"de": "die Zukunft", "es": "el futuro", "cat": "Futuro y medidas", "ex": "In Zukunft werden wir weniger Auto fahren.", "ex_es": "En el futuro iremos menos en coche."},
+    {"de": "die Maßnahme", "pl": "die Maßnahmen", "es": "la medida", "cat": "Futuro y medidas", "ex": "Die Stadt plant neue Maßnahmen gegen den Verkehr.", "ex_es": "La ciudad planea nuevas medidas contra el tráfico."},
+    {"de": "das Verbot", "pl": "die Verbote", "es": "la prohibición", "cat": "Futuro y medidas", "ex": "Was hältst du von einem Verbot von Plastiktüten?", "ex_es": "¿Qué te parece una prohibición de las bolsas de plástico?"},
+    {"de": "unterm Strich", "es": "en resumidas cuentas, al final", "cat": "Futuro y medidas", "ex": "Unterm Strich ist das Elektroauto besser für die Umwelt.", "ex_es": "En resumidas cuentas, el coche eléctrico es mejor para el medio ambiente."},
+    {"de": "letztendlich", "es": "al fin y al cabo, finalmente", "cat": "Futuro y medidas", "ex": "Letztendlich muss jeder selbst entscheiden.", "ex_es": "Al fin y al cabo, cada uno tiene que decidir por sí mismo."}
   ],
   "exercises": [
     {

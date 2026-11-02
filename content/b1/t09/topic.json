@@ -13,482 +13,60 @@
     "Leer condiciones de devolución y comentarios de lectores como en Lesen Teil 4 y 5"
   ],
   "vocab": [
-    {
-      "de": "das Einkommen",
-      "pl": "die Einkommen",
-      "es": "los ingresos, la renta",
-      "cat": "Dinero",
-      "ex": "Mit einem Einkommen allein ist das Leben in Zürich teuer.",
-      "ex_es": "Con un solo sueldo la vida en Zúrich es cara."
-    },
-    {
-      "de": "die Ausgabe",
-      "pl": "die Ausgaben",
-      "es": "el gasto",
-      "cat": "Dinero",
-      "ex": "Unsere größte Ausgabe ist die Miete.",
-      "ex_es": "Nuestro mayor gasto es el alquiler."
-    },
-    {
-      "de": "die Einnahme",
-      "pl": "die Einnahmen",
-      "es": "el ingreso (entrada de dinero)",
-      "cat": "Dinero",
-      "ex": "Ich schreibe alle Einnahmen und Ausgaben in eine App.",
-      "ex_es": "Apunto todos los ingresos y gastos en una app."
-    },
-    {
-      "de": "ausgeben",
-      "es": "gastar (dinero)",
-      "cat": "Dinero",
-      "forms": "er gibt aus, gab aus, hat ausgegeben",
-      "ex": "Wie viel gibst du im Monat für Essen aus?",
-      "ex_es": "¿Cuánto gastas al mes en comida?"
-    },
-    {
-      "de": "sich (Dat.) etwas leisten",
-      "es": "permitirse algo",
-      "cat": "Dinero",
-      "forms": "er leistet sich, leistete sich, hat sich geleistet",
-      "ex": "Ein neues Auto können wir uns im Moment nicht leisten.",
-      "ex_es": "Un coche nuevo no nos lo podemos permitir ahora mismo."
-    },
-    {
-      "de": "verschwenden",
-      "es": "derrochar, malgastar",
-      "cat": "Dinero",
-      "forms": "er verschwendet, verschwendete, hat verschwendet",
-      "ex": "Ich will kein Geld für unnötige Dinge verschwenden.",
-      "ex_es": "No quiero derrochar dinero en cosas innecesarias."
-    },
-    {
-      "de": "das Bargeld",
-      "es": "el dinero en efectivo",
-      "cat": "Dinero",
-      "ex": "Hast du Bargeld dabei?",
-      "ex_es": "¿Llevas efectivo?"
-    },
-    {
-      "de": "die Münze",
-      "pl": "die Münzen",
-      "es": "la moneda (pieza)",
-      "cat": "Dinero",
-      "ex": "Für den Parkautomaten brauche ich Münzen.",
-      "ex_es": "Para el parquímetro necesito monedas."
-    },
-    {
-      "de": "der Geldschein",
-      "pl": "die Geldscheine",
-      "es": "el billete",
-      "cat": "Dinero",
-      "ex": "Der Automat nimmt keine Geldscheine.",
-      "ex_es": "La máquina no acepta billetes."
-    },
-    {
-      "de": "die Kreditkarte",
-      "pl": "die Kreditkarten",
-      "es": "la tarjeta de crédito",
-      "cat": "Dinero",
-      "ex": "Kann ich mit Kreditkarte bezahlen?",
-      "ex_es": "¿Puedo pagar con tarjeta de crédito?"
-    },
-    {
-      "de": "der Kredit",
-      "pl": "die Kredite",
-      "es": "el préstamo, el crédito",
-      "cat": "Dinero",
-      "ex": "Für die Wohnung haben sie einen Kredit aufgenommen.",
-      "ex_es": "Para el piso pidieron un préstamo."
-    },
-    {
-      "de": "die Schulden (Pl.)",
-      "es": "las deudas",
-      "cat": "Dinero",
-      "ex": "Viele junge Leute haben Schulden wegen ihres Handys.",
-      "ex_es": "Muchos jóvenes tienen deudas por su móvil."
-    },
-    {
-      "de": "die Zinsen (Pl.)",
-      "es": "los intereses",
-      "cat": "Dinero",
-      "ex": "Auf dem Sparkonto bekommt man kaum noch Zinsen.",
-      "ex_es": "En la cuenta de ahorro ya casi no te dan intereses."
-    },
-    {
-      "de": "der Betrag",
-      "pl": "die Beträge",
-      "es": "el importe, la cantidad",
-      "cat": "Dinero",
-      "ex": "Bitte überweisen Sie den Betrag bis Ende Monat.",
-      "ex_es": "Por favor, transfiera el importe antes de fin de mes."
-    },
-    {
-      "de": "die Rate",
-      "pl": "die Raten",
-      "es": "el plazo (de un pago)",
-      "cat": "Dinero",
-      "ex": "Ich bezahle den Laptop in zwölf Raten.",
-      "ex_es": "Pago el portátil en doce plazos."
-    },
-    {
-      "de": "die Steuer",
-      "pl": "die Steuern",
-      "es": "el impuesto",
-      "cat": "Dinero",
-      "ex": "In der Schweiz zahlt man die Steuern selbst, nicht automatisch vom Lohn.",
-      "ex_es": "En Suiza uno paga los impuestos por su cuenta, no automáticamente del sueldo."
-    },
-    {
-      "de": "die Versicherung",
-      "pl": "die Versicherungen",
-      "es": "el seguro",
-      "cat": "Dinero",
-      "ex": "Die Versicherung bezahlt den Schaden.",
-      "ex_es": "El seguro paga los daños."
-    },
-    {
-      "de": "der Kontoauszug",
-      "pl": "die Kontoauszüge",
-      "es": "el extracto bancario",
-      "cat": "Dinero",
-      "ex": "Auf dem Kontoauszug sehe ich alle Zahlungen.",
-      "ex_es": "En el extracto veo todos los pagos."
-    },
-    {
-      "de": "der Dauerauftrag",
-      "pl": "die Daueraufträge",
-      "es": "la orden de transferencia periódica",
-      "cat": "Dinero",
-      "ex": "Die Miete bezahle ich mit einem Dauerauftrag.",
-      "ex_es": "El alquiler lo pago con una transferencia periódica."
-    },
-    {
-      "de": "das Trinkgeld",
-      "pl": "die Trinkgelder",
-      "es": "la propina",
-      "cat": "Dinero",
-      "ex": "In der Schweiz ist das Trinkgeld im Preis inbegriffen.",
-      "ex_es": "En Suiza la propina está incluida en el precio."
-    },
-    {
-      "de": "das Taschengeld",
-      "es": "la paga (de los niños)",
-      "cat": "Dinero",
-      "ex": "Mit zehn Jahren bekam ich fünf Franken Taschengeld pro Woche.",
-      "ex_es": "Con diez años recibía cinco francos de paga a la semana."
-    },
-    {
-      "de": "knapp",
-      "es": "escaso, justo",
-      "cat": "Dinero",
-      "ex": "Am Ende des Monats ist das Geld oft knapp.",
-      "ex_es": "A final de mes el dinero suele ir justo."
-    },
-    {
-      "de": "die Währung",
-      "pl": "die Währungen",
-      "es": "la moneda (divisa)",
-      "cat": "Dinero",
-      "ex": "Die Währung der Schweiz ist der Franken.",
-      "ex_es": "La moneda de Suiza es el franco."
-    },
-    {
-      "de": "der Lohn",
-      "pl": "die Löhne",
-      "es": "el sueldo, el salario",
-      "cat": "Dinero",
-      "ex": "Der Lohn kommt immer am 25. des Monats.",
-      "ex_es": "El sueldo llega siempre el día 25 del mes."
-    },
-    {
-      "de": "das Sparkonto",
-      "pl": "die Sparkonten",
-      "es": "la cuenta de ahorro",
-      "cat": "Dinero",
-      "ex": "Jeden Monat lege ich 300 Franken auf mein Sparkonto.",
-      "ex_es": "Cada mes meto 300 francos en mi cuenta de ahorro."
-    },
-    {
-      "de": "zurückzahlen",
-      "es": "devolver (dinero)",
-      "cat": "Dinero",
-      "forms": "er zahlt zurück, zahlte zurück, hat zurückgezahlt",
-      "ex": "Ich zahle dir das Geld nächste Woche zurück.",
-      "ex_es": "Te devuelvo el dinero la semana que viene."
-    },
-    {
-      "de": "der Überblick",
-      "es": "la visión de conjunto, el control",
-      "cat": "Dinero",
-      "ex": "Mit einer App behalte ich den Überblick über meine Ausgaben.",
-      "ex_es": "Con una aplicación no pierdo de vista mis gastos."
-    },
-    {
-      "de": "abschaffen",
-      "es": "abolir, suprimir",
-      "cat": "Dinero",
-      "forms": "er schafft ab, schaffte ab, hat abgeschafft",
-      "ex": "Sollte man das Bargeld abschaffen?",
-      "ex_es": "¿Habría que eliminar el dinero en efectivo?"
-    },
-    {
-      "de": "der Verbraucher / die Verbraucherin",
-      "pl": "die Verbraucher / die Verbraucherinnen",
-      "es": "el consumidor / la consumidora",
-      "cat": "Consumo",
-      "ex": "Viele Verbraucher kaufen heute online.",
-      "ex_es": "Muchos consumidores compran hoy por internet."
-    },
-    {
-      "de": "der Konsum",
-      "es": "el consumo",
-      "cat": "Consumo",
-      "ex": "Unser Konsum ist schlecht für die Umwelt.",
-      "ex_es": "Nuestro consumo es malo para el medio ambiente."
-    },
-    {
-      "de": "das Sonderangebot",
-      "pl": "die Sonderangebote",
-      "es": "la oferta especial",
-      "cat": "Consumo",
-      "ex": "Der Kaffee ist diese Woche im Sonderangebot.",
-      "ex_es": "El café está de oferta esta semana."
-    },
-    {
-      "de": "der Rabatt",
-      "pl": "die Rabatte",
-      "es": "el descuento",
-      "cat": "Consumo",
-      "ex": "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.",
-      "ex_es": "Con la tarjeta de cliente tiene un diez por ciento de descuento."
-    },
-    {
-      "de": "das Schnäppchen",
-      "pl": "die Schnäppchen",
-      "es": "la ganga",
-      "cat": "Consumo",
-      "ex": "Die Jacke war ein echtes Schnäppchen.",
-      "ex_es": "La chaqueta fue una auténtica ganga."
-    },
-    {
-      "de": "die Quittung",
-      "pl": "die Quittungen",
-      "es": "el recibo, el tique",
-      "cat": "Consumo",
-      "ex": "Ohne Quittung können wir die Ware leider nicht umtauschen.",
-      "ex_es": "Sin tique, por desgracia, no podemos cambiar el artículo."
-    },
-    {
-      "de": "die Garantie",
-      "pl": "die Garantien",
-      "es": "la garantía",
-      "cat": "Consumo",
-      "ex": "Auf das Gerät haben Sie zwei Jahre Garantie.",
-      "ex_es": "El aparato tiene dos años de garantía."
-    },
-    {
-      "de": "die Lieferung",
-      "pl": "die Lieferungen",
-      "es": "la entrega, el envío",
-      "cat": "Consumo",
-      "ex": "Die Lieferung dauert drei bis fünf Werktage.",
-      "ex_es": "La entrega tarda de tres a cinco días laborables."
-    },
-    {
-      "de": "liefern",
-      "es": "entregar, suministrar",
-      "cat": "Consumo",
-      "forms": "er liefert, lieferte, hat geliefert",
-      "ex": "Das Sofa wird am Freitag geliefert.",
-      "ex_es": "El sofá se entrega el viernes."
-    },
-    {
-      "de": "die Versandkosten (Pl.)",
-      "es": "los gastos de envío",
-      "cat": "Consumo",
-      "ex": "Ab 50 Franken gibt es keine Versandkosten.",
-      "ex_es": "A partir de 50 francos no hay gastos de envío."
-    },
-    {
-      "de": "zurückschicken",
-      "es": "devolver (por correo)",
-      "cat": "Consumo",
-      "forms": "er schickt zurück, schickte zurück, hat zurückgeschickt",
-      "ex": "Die Schuhe sind zu klein, ich schicke sie zurück.",
-      "ex_es": "Los zapatos son pequeños, los devuelvo."
-    },
-    {
-      "de": "vergleichen",
-      "es": "comparar",
-      "cat": "Consumo",
-      "forms": "er vergleicht, verglich, hat verglichen",
-      "ex": "Vor dem Kauf vergleiche ich immer die Preise.",
-      "ex_es": "Antes de comprar siempre comparo precios."
-    },
-    {
-      "de": "die Qualität",
-      "pl": "die Qualitäten",
-      "es": "la calidad",
-      "cat": "Consumo",
-      "ex": "Die Qualität ist mir wichtiger als der Preis.",
-      "ex_es": "La calidad me importa más que el precio."
-    },
-    {
-      "de": "preiswert",
-      "es": "barato, a buen precio",
-      "cat": "Consumo",
-      "ex": "Im Ausverkauf findet man preiswerte Kleidung.",
-      "ex_es": "En las rebajas se encuentra ropa a buen precio."
-    },
-    {
-      "de": "sich lohnen",
-      "es": "merecer la pena, compensar",
-      "cat": "Consumo",
-      "forms": "es lohnt sich, lohnte sich, hat sich gelohnt",
-      "ex": "Es lohnt sich, die Preise zu vergleichen.",
-      "ex_es": "Merece la pena comparar precios."
-    },
-    {
-      "de": "kostenlos / gratis",
-      "es": "gratis",
-      "cat": "Consumo",
-      "ex": "Die Beratung ist kostenlos.",
-      "ex_es": "El asesoramiento es gratuito."
-    },
-    {
-      "de": "der Flohmarkt",
-      "pl": "die Flohmärkte",
-      "es": "el mercadillo (de segunda mano)",
-      "cat": "Consumo",
-      "ex": "Am Samstag ist Flohmarkt auf dem Bürkliplatz.",
-      "ex_es": "El sábado hay mercadillo en la Bürkliplatz."
-    },
-    {
-      "de": "nachhaltig",
-      "es": "sostenible",
-      "cat": "Consumo",
-      "ex": "Ich versuche, nachhaltiger einzukaufen.",
-      "ex_es": "Intento comprar de forma más sostenible."
-    },
-    {
-      "de": "die Marke",
-      "pl": "die Marken",
-      "es": "la marca",
-      "cat": "Consumo",
-      "ex": "Teure Marken sind nicht immer besser.",
-      "ex_es": "Las marcas caras no siempre son mejores."
-    },
-    {
-      "de": "das Abonnement / das Abo",
-      "pl": "die Abonnements / die Abos",
-      "es": "la suscripción, el abono",
-      "cat": "Consumo",
-      "ex": "Ich habe mein Streaming-Abo gekündigt.",
-      "ex_es": "He cancelado mi suscripción de streaming."
-    },
-    {
-      "de": "die Bestellung",
-      "pl": "die Bestellungen",
-      "es": "el pedido",
-      "cat": "Consumo",
-      "ex": "Leider muss ich mich über meine Bestellung beschweren.",
-      "ex_es": "Por desgracia tengo que quejarme de mi pedido."
-    },
-    {
-      "de": "die Ware",
-      "pl": "die Waren",
-      "es": "la mercancía, el artículo",
-      "cat": "Consumo",
-      "ex": "Ohne Quittung können wir die Ware nicht umtauschen.",
-      "ex_es": "Sin tique no podemos cambiar el artículo."
-    },
-    {
-      "de": "die Kundenkarte",
-      "pl": "die Kundenkarten",
-      "es": "la tarjeta de cliente",
-      "cat": "Consumo",
-      "ex": "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.",
-      "ex_es": "Con la tarjeta de cliente tiene un diez por ciento de descuento."
-    },
-    {
-      "de": "der Werktag",
-      "pl": "die Werktage",
-      "es": "el día laborable",
-      "cat": "Consumo",
-      "ex": "Die Lieferung dauert drei bis fünf Werktage.",
-      "ex_es": "La entrega tarda de tres a cinco días laborables."
-    },
-    {
-      "de": "die Beratung",
-      "pl": "die Beratungen",
-      "es": "el asesoramiento",
-      "cat": "Consumo",
-      "ex": "Die Beratung im Geschäft war sehr gut.",
-      "ex_es": "El asesoramiento en la tienda fue muy bueno."
-    },
-    {
-      "de": "das Rückgaberecht",
-      "es": "el derecho de devolución",
-      "cat": "Consumo",
-      "ex": "Sie haben ein Rückgaberecht von 30 Tagen.",
-      "ex_es": "Tiene un derecho de devolución de 30 días."
-    },
-    {
-      "de": "der Umtausch",
-      "es": "el cambio (de un artículo)",
-      "cat": "Consumo",
-      "ex": "Ein Umtausch ist nur mit Quittung möglich.",
-      "ex_es": "Solo se puede cambiar un artículo con el tique."
-    },
-    {
-      "de": "sowohl … als auch",
-      "es": "tanto … como",
-      "cat": "Conectores",
-      "ex": "Man kann sowohl bar als auch mit Karte bezahlen.",
-      "ex_es": "Se puede pagar tanto en efectivo como con tarjeta."
-    },
-    {
-      "de": "weder … noch",
-      "es": "ni … ni",
-      "cat": "Conectores",
-      "ex": "Ich habe weder Zeit noch Geld.",
-      "ex_es": "No tengo ni tiempo ni dinero."
-    },
-    {
-      "de": "entweder … oder",
-      "es": "o … o",
-      "cat": "Conectores",
-      "ex": "Entweder sparen wir jetzt, oder wir fahren nicht in den Urlaub.",
-      "ex_es": "O ahorramos ahora o no nos vamos de vacaciones."
-    },
-    {
-      "de": "nicht nur … sondern auch",
-      "es": "no solo … sino también",
-      "cat": "Conectores",
-      "ex": "Second-Hand ist nicht nur billig, sondern auch nachhaltig.",
-      "ex_es": "La segunda mano no solo es barata, sino también sostenible."
-    },
-    {
-      "de": "zwar … aber",
-      "es": "es verdad que … pero; si bien … pero",
-      "cat": "Conectores",
-      "ex": "Das Handy ist zwar teuer, aber es ist sehr gut.",
-      "ex_es": "Es verdad que el móvil es caro, pero es muy bueno."
-    },
-    {
-      "de": "je … desto / umso",
-      "es": "cuanto más … más",
-      "cat": "Conectores",
-      "ex": "Je mehr man verdient, desto mehr gibt man aus.",
-      "ex_es": "Cuanto más se gana, más se gasta."
-    },
-    {
-      "de": "Je früher, desto besser!",
-      "es": "¡Cuanto antes, mejor!",
-      "cat": "Conectores",
-      "ex": "Wann soll ich die Tickets kaufen? – Je früher, desto besser!",
-      "ex_es": "¿Cuándo compro las entradas? – ¡Cuanto antes, mejor!"
-    }
+    {"de": "das Einkommen", "pl": "die Einkommen", "es": "los ingresos, la renta", "cat": "Dinero", "ex": "Mit einem Einkommen allein ist das Leben in Zürich teuer.", "ex_es": "Con un solo sueldo la vida en Zúrich es cara."},
+    {"de": "die Ausgabe", "pl": "die Ausgaben", "es": "el gasto", "cat": "Dinero", "ex": "Unsere größte Ausgabe ist die Miete.", "ex_es": "Nuestro mayor gasto es el alquiler."},
+    {"de": "die Einnahme", "pl": "die Einnahmen", "es": "el ingreso (entrada de dinero)", "cat": "Dinero", "ex": "Ich schreibe alle Einnahmen und Ausgaben in eine App.", "ex_es": "Apunto todos los ingresos y gastos en una app."},
+    {"de": "ausgeben", "es": "gastar (dinero)", "cat": "Dinero", "forms": "er gibt aus, gab aus, hat ausgegeben", "ex": "Wie viel gibst du im Monat für Essen aus?", "ex_es": "¿Cuánto gastas al mes en comida?"},
+    {"de": "sich (Dat.) etwas leisten", "es": "permitirse algo", "cat": "Dinero", "forms": "er leistet sich, leistete sich, hat sich geleistet", "ex": "Ein neues Auto können wir uns im Moment nicht leisten.", "ex_es": "Un coche nuevo no nos lo podemos permitir ahora mismo."},
+    {"de": "verschwenden", "es": "derrochar, malgastar", "cat": "Dinero", "forms": "er verschwendet, verschwendete, hat verschwendet", "ex": "Ich will kein Geld für unnötige Dinge verschwenden.", "ex_es": "No quiero derrochar dinero en cosas innecesarias."},
+    {"de": "das Bargeld", "es": "el dinero en efectivo", "cat": "Dinero", "ex": "Hast du Bargeld dabei?", "ex_es": "¿Llevas efectivo?"},
+    {"de": "die Münze", "pl": "die Münzen", "es": "la moneda (pieza)", "cat": "Dinero", "ex": "Für den Parkautomaten brauche ich Münzen.", "ex_es": "Para el parquímetro necesito monedas."},
+    {"de": "der Geldschein", "pl": "die Geldscheine", "es": "el billete", "cat": "Dinero", "ex": "Der Automat nimmt keine Geldscheine.", "ex_es": "La máquina no acepta billetes."},
+    {"de": "der Kredit", "pl": "die Kredite", "es": "el préstamo, el crédito", "cat": "Dinero", "ex": "Für die Wohnung haben sie einen Kredit aufgenommen.", "ex_es": "Para el piso pidieron un préstamo."},
+    {"de": "die Schulden (Pl.)", "es": "las deudas", "cat": "Dinero", "ex": "Viele junge Leute haben Schulden wegen ihres Handys.", "ex_es": "Muchos jóvenes tienen deudas por su móvil."},
+    {"de": "die Zinsen (Pl.)", "es": "los intereses", "cat": "Dinero", "ex": "Auf dem Sparkonto bekommt man kaum noch Zinsen.", "ex_es": "En la cuenta de ahorro ya casi no te dan intereses."},
+    {"de": "der Betrag", "pl": "die Beträge", "es": "el importe, la cantidad", "cat": "Dinero", "ex": "Bitte überweisen Sie den Betrag bis Ende Monat.", "ex_es": "Por favor, transfiera el importe antes de fin de mes."},
+    {"de": "die Rate", "pl": "die Raten", "es": "el plazo (de un pago)", "cat": "Dinero", "ex": "Ich bezahle den Laptop in zwölf Raten.", "ex_es": "Pago el portátil en doce plazos."},
+    {"de": "die Steuer", "pl": "die Steuern", "es": "el impuesto", "cat": "Dinero", "ex": "In der Schweiz zahlt man die Steuern selbst, nicht automatisch vom Lohn.", "ex_es": "En Suiza uno paga los impuestos por su cuenta, no automáticamente del sueldo."},
+    {"de": "die Versicherung", "pl": "die Versicherungen", "es": "el seguro", "cat": "Dinero", "ex": "Die Versicherung bezahlt den Schaden.", "ex_es": "El seguro paga los daños."},
+    {"de": "der Dauerauftrag", "pl": "die Daueraufträge", "es": "la orden de transferencia periódica", "cat": "Dinero", "ex": "Die Miete bezahle ich mit einem Dauerauftrag.", "ex_es": "El alquiler lo pago con una transferencia periódica."},
+    {"de": "das Trinkgeld", "pl": "die Trinkgelder", "es": "la propina", "cat": "Dinero", "ex": "In der Schweiz ist das Trinkgeld im Preis inbegriffen.", "ex_es": "En Suiza la propina está incluida en el precio."},
+    {"de": "knapp", "es": "escaso, justo", "cat": "Dinero", "ex": "Am Ende des Monats ist das Geld oft knapp.", "ex_es": "A final de mes el dinero suele ir justo."},
+    {"de": "die Währung", "pl": "die Währungen", "es": "la moneda (divisa)", "cat": "Dinero", "ex": "Die Währung der Schweiz ist der Franken.", "ex_es": "La moneda de Suiza es el franco."},
+    {"de": "das Sparkonto", "pl": "die Sparkonten", "es": "la cuenta de ahorro", "cat": "Dinero", "ex": "Jeden Monat lege ich 300 Franken auf mein Sparkonto.", "ex_es": "Cada mes meto 300 francos en mi cuenta de ahorro."},
+    {"de": "zurückzahlen", "es": "devolver (dinero)", "cat": "Dinero", "forms": "er zahlt zurück, zahlte zurück, hat zurückgezahlt", "ex": "Ich zahle dir das Geld nächste Woche zurück.", "ex_es": "Te devuelvo el dinero la semana que viene."},
+    {"de": "der Überblick", "es": "la visión de conjunto, el control", "cat": "Dinero", "ex": "Mit einer App behalte ich den Überblick über meine Ausgaben.", "ex_es": "Con una aplicación no pierdo de vista mis gastos."},
+    {"de": "abschaffen", "es": "abolir, suprimir", "cat": "Dinero", "forms": "er schafft ab, schaffte ab, hat abgeschafft", "ex": "Sollte man das Bargeld abschaffen?", "ex_es": "¿Habría que eliminar el dinero en efectivo?"},
+    {"de": "der Verbraucher / die Verbraucherin", "pl": "die Verbraucher / die Verbraucherinnen", "es": "el consumidor / la consumidora", "cat": "Consumo", "ex": "Viele Verbraucher kaufen heute online.", "ex_es": "Muchos consumidores compran hoy por internet."},
+    {"de": "der Konsum", "es": "el consumo", "cat": "Consumo", "ex": "Unser Konsum ist schlecht für die Umwelt.", "ex_es": "Nuestro consumo es malo para el medio ambiente."},
+    {"de": "der Rabatt", "pl": "die Rabatte", "es": "el descuento", "cat": "Consumo", "ex": "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.", "ex_es": "Con la tarjeta de cliente tiene un diez por ciento de descuento."},
+    {"de": "das Schnäppchen", "pl": "die Schnäppchen", "es": "la ganga", "cat": "Consumo", "ex": "Die Jacke war ein echtes Schnäppchen.", "ex_es": "La chaqueta fue una auténtica ganga."},
+    {"de": "die Garantie", "pl": "die Garantien", "es": "la garantía", "cat": "Consumo", "ex": "Auf das Gerät haben Sie zwei Jahre Garantie.", "ex_es": "El aparato tiene dos años de garantía."},
+    {"de": "die Lieferung", "pl": "die Lieferungen", "es": "la entrega, el envío", "cat": "Consumo", "ex": "Die Lieferung dauert drei bis fünf Werktage.", "ex_es": "La entrega tarda de tres a cinco días laborables."},
+    {"de": "liefern", "es": "entregar, suministrar", "cat": "Consumo", "forms": "er liefert, lieferte, hat geliefert", "ex": "Das Sofa wird am Freitag geliefert.", "ex_es": "El sofá se entrega el viernes."},
+    {"de": "die Versandkosten (Pl.)", "es": "los gastos de envío", "cat": "Consumo", "ex": "Ab 50 Franken gibt es keine Versandkosten.", "ex_es": "A partir de 50 francos no hay gastos de envío."},
+    {"de": "zurückschicken", "es": "devolver (por correo)", "cat": "Consumo", "forms": "er schickt zurück, schickte zurück, hat zurückgeschickt", "ex": "Die Schuhe sind zu klein, ich schicke sie zurück.", "ex_es": "Los zapatos son pequeños, los devuelvo."},
+    {"de": "vergleichen", "es": "comparar", "cat": "Consumo", "forms": "er vergleicht, verglich, hat verglichen", "ex": "Vor dem Kauf vergleiche ich immer die Preise.", "ex_es": "Antes de comprar siempre comparo precios."},
+    {"de": "die Qualität", "pl": "die Qualitäten", "es": "la calidad", "cat": "Consumo", "ex": "Die Qualität ist mir wichtiger als der Preis.", "ex_es": "La calidad me importa más que el precio."},
+    {"de": "preiswert", "es": "barato, a buen precio", "cat": "Consumo", "ex": "Im Ausverkauf findet man preiswerte Kleidung.", "ex_es": "En las rebajas se encuentra ropa a buen precio."},
+    {"de": "sich lohnen", "es": "merecer la pena, compensar", "cat": "Consumo", "forms": "es lohnt sich, lohnte sich, hat sich gelohnt", "ex": "Es lohnt sich, die Preise zu vergleichen.", "ex_es": "Merece la pena comparar precios."},
+    {"de": "kostenlos / gratis", "es": "gratis", "cat": "Consumo", "ex": "Die Beratung ist kostenlos.", "ex_es": "El asesoramiento es gratuito."},
+    {"de": "der Flohmarkt", "pl": "die Flohmärkte", "es": "el mercadillo (de segunda mano)", "cat": "Consumo", "ex": "Am Samstag ist Flohmarkt auf dem Bürkliplatz.", "ex_es": "El sábado hay mercadillo en la Bürkliplatz."},
+    {"de": "die Marke", "pl": "die Marken", "es": "la marca", "cat": "Consumo", "ex": "Teure Marken sind nicht immer besser.", "ex_es": "Las marcas caras no siempre son mejores."},
+    {"de": "die Bestellung", "pl": "die Bestellungen", "es": "el pedido", "cat": "Consumo", "ex": "Leider muss ich mich über meine Bestellung beschweren.", "ex_es": "Por desgracia tengo que quejarme de mi pedido."},
+    {"de": "die Ware", "pl": "die Waren", "es": "la mercancía, el artículo", "cat": "Consumo", "ex": "Ohne Quittung können wir die Ware nicht umtauschen.", "ex_es": "Sin tique no podemos cambiar el artículo."},
+    {"de": "die Kundenkarte", "pl": "die Kundenkarten", "es": "la tarjeta de cliente", "cat": "Consumo", "ex": "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.", "ex_es": "Con la tarjeta de cliente tiene un diez por ciento de descuento."},
+    {"de": "der Werktag", "pl": "die Werktage", "es": "el día laborable", "cat": "Consumo", "ex": "Die Lieferung dauert drei bis fünf Werktage.", "ex_es": "La entrega tarda de tres a cinco días laborables."},
+    {"de": "die Beratung", "pl": "die Beratungen", "es": "el asesoramiento", "cat": "Consumo", "ex": "Die Beratung im Geschäft war sehr gut.", "ex_es": "El asesoramiento en la tienda fue muy bueno."},
+    {"de": "das Rückgaberecht", "es": "el derecho de devolución", "cat": "Consumo", "ex": "Sie haben ein Rückgaberecht von 30 Tagen.", "ex_es": "Tiene un derecho de devolución de 30 días."},
+    {"de": "der Umtausch", "es": "el cambio (de un artículo)", "cat": "Consumo", "ex": "Ein Umtausch ist nur mit Quittung möglich.", "ex_es": "Solo se puede cambiar un artículo con el tique."},
+    {"de": "sowohl … als auch", "es": "tanto … como", "cat": "Conectores", "ex": "Man kann sowohl bar als auch mit Karte bezahlen.", "ex_es": "Se puede pagar tanto en efectivo como con tarjeta."},
+    {"de": "weder … noch", "es": "ni … ni", "cat": "Conectores", "ex": "Ich habe weder Zeit noch Geld.", "ex_es": "No tengo ni tiempo ni dinero."},
+    {"de": "entweder … oder", "es": "o … o", "cat": "Conectores", "ex": "Entweder sparen wir jetzt, oder wir fahren nicht in den Urlaub.", "ex_es": "O ahorramos ahora o no nos vamos de vacaciones."},
+    {"de": "nicht nur … sondern auch", "es": "no solo … sino también", "cat": "Conectores", "ex": "Second-Hand ist nicht nur billig, sondern auch nachhaltig.", "ex_es": "La segunda mano no solo es barata, sino también sostenible."},
+    {"de": "zwar … aber", "es": "es verdad que … pero; si bien … pero", "cat": "Conectores", "ex": "Das Handy ist zwar teuer, aber es ist sehr gut.", "ex_es": "Es verdad que el móvil es caro, pero es muy bueno."},
+    {"de": "je … desto / umso", "es": "cuanto más … más", "cat": "Conectores", "ex": "Je mehr man verdient, desto mehr gibt man aus.", "ex_es": "Cuanto más se gana, más se gasta."},
+    {"de": "Je früher, desto besser!", "es": "¡Cuanto antes, mejor!", "cat": "Conectores", "ex": "Wann soll ich die Tickets kaufen? – Je früher, desto besser!", "ex_es": "¿Cuándo compro las entradas? – ¡Cuanto antes, mejor!"}
   ],
   "exercises": [
     {

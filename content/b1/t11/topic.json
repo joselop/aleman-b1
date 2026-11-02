@@ -13,406 +13,54 @@
     "Entender programas culturales, anuncios de cursos y visitas guiadas (Lesen Teil 3, Hören Teil 2)"
   ],
   "vocab": [
-    {
-      "de": "die Aufführung",
-      "pl": "die Aufführungen",
-      "es": "la representación, la función",
-      "cat": "Teatro y música",
-      "ex": "Die Aufführung beginnt um 19.30 Uhr.",
-      "ex_es": "La función empieza a las 19:30."
-    },
-    {
-      "de": "die Vorstellung",
-      "pl": "die Vorstellungen",
-      "es": "la sesión, la función",
-      "cat": "Teatro y música",
-      "ex": "Für die Vorstellung am Freitag gibt es noch Karten.",
-      "ex_es": "Para la sesión del viernes todavía hay entradas."
-    },
-    {
-      "de": "das Publikum",
-      "es": "el público",
-      "cat": "Teatro y música",
-      "ex": "Das Publikum war begeistert.",
-      "ex_es": "El público estaba entusiasmado."
-    },
-    {
-      "de": "die Bühne",
-      "pl": "die Bühnen",
-      "es": "el escenario",
-      "cat": "Teatro y música",
-      "ex": "Die Band stand zwei Stunden auf der Bühne.",
-      "ex_es": "El grupo estuvo dos horas en el escenario."
-    },
-    {
-      "de": "der Schauspieler / die Schauspielerin",
-      "pl": "die Schauspieler / die Schauspielerinnen",
-      "es": "el actor / la actriz",
-      "cat": "Teatro y música",
-      "ex": "Die Schauspielerin hat einen Preis gewonnen.",
-      "ex_es": "La actriz ha ganado un premio."
-    },
-    {
-      "de": "der Regisseur / die Regisseurin",
-      "pl": "die Regisseure / die Regisseurinnen",
-      "es": "el director / la directora (de cine o teatro)",
-      "cat": "Teatro y música",
-      "ex": "Der Regisseur des Films kommt aus Basel.",
-      "ex_es": "El director de la película es de Basilea."
-    },
-    {
-      "de": "der Chor",
-      "pl": "die Chöre",
-      "es": "el coro",
-      "cat": "Teatro y música",
-      "ex": "Andrea singt in einem Chor.",
-      "ex_es": "Andrea canta en un coro."
-    },
-    {
-      "de": "das Orchester",
-      "pl": "die Orchester",
-      "es": "la orquesta",
-      "cat": "Teatro y música",
-      "ex": "Das Orchester spielt heute Mozart.",
-      "ex_es": "La orquesta toca hoy Mozart."
-    },
-    {
-      "de": "die Oper",
-      "pl": "die Opern",
-      "es": "la ópera",
-      "cat": "Teatro y música",
-      "ex": "Wart ihr schon mal in der Oper?",
-      "ex_es": "¿Habéis estado alguna vez en la ópera?"
-    },
-    {
-      "de": "das Instrument",
-      "pl": "die Instrumente",
-      "es": "el instrumento",
-      "cat": "Teatro y música",
-      "ex": "Spielst du ein Instrument?",
-      "ex_es": "¿Tocas algún instrumento?"
-    },
-    {
-      "de": "der Saal",
-      "pl": "die Säle",
-      "es": "la sala",
-      "cat": "Teatro y música",
-      "ex": "Der Saal war bis zum letzten Platz besetzt.",
-      "ex_es": "La sala estaba llena hasta el último asiento."
-    },
-    {
-      "de": "applaudieren",
-      "es": "aplaudir",
-      "cat": "Teatro y música",
-      "forms": "er applaudiert, applaudierte, hat applaudiert",
-      "ex": "Am Ende haben alle laut applaudiert.",
-      "ex_es": "Al final todos aplaudieron fuerte."
-    },
-    {
-      "de": "die Kunst",
-      "pl": "die Künste",
-      "es": "el arte",
-      "cat": "Arte y literatura",
-      "ex": "Ich interessiere mich für moderne Kunst.",
-      "ex_es": "Me interesa el arte moderno."
-    },
-    {
-      "de": "der Künstler / die Künstlerin",
-      "pl": "die Künstler / die Künstlerinnen",
-      "es": "el / la artista",
-      "cat": "Arte y literatura",
-      "ex": "Die Künstlerin malt vor allem Landschaften.",
-      "ex_es": "La artista pinta sobre todo paisajes."
-    },
-    {
-      "de": "das Gemälde",
-      "pl": "die Gemälde",
-      "es": "el cuadro, la pintura",
-      "cat": "Arte y literatura",
-      "ex": "Das Gemälde ist über 300 Jahre alt.",
-      "ex_es": "El cuadro tiene más de 300 años."
-    },
-    {
-      "de": "die Sammlung",
-      "pl": "die Sammlungen",
-      "es": "la colección",
-      "cat": "Arte y literatura",
-      "ex": "Das Kunsthaus hat eine große Sammlung von Bildern.",
-      "ex_es": "El Kunsthaus tiene una gran colección de cuadros."
-    },
-    {
-      "de": "die Führung",
-      "pl": "die Führungen",
-      "es": "la visita guiada",
-      "cat": "Arte y literatura",
-      "ex": "Die Führung dauert etwa eine Stunde.",
-      "ex_es": "La visita guiada dura una hora aproximadamente."
-    },
-    {
-      "de": "der Roman",
-      "pl": "die Romane",
-      "es": "la novela",
-      "cat": "Arte y literatura",
-      "ex": "Ich lese gerade einen Roman von Martin Suter.",
-      "ex_es": "Estoy leyendo una novela de Martin Suter."
-    },
-    {
-      "de": "der Autor / die Autorin",
-      "pl": "die Autoren / die Autorinnen",
-      "es": "el autor / la autora",
-      "cat": "Arte y literatura",
-      "ex": "Die Autorin liest heute aus ihrem neuen Buch.",
-      "ex_es": "La autora lee hoy fragmentos de su nuevo libro."
-    },
-    {
-      "de": "die Lesung",
-      "pl": "die Lesungen",
-      "es": "la lectura pública (de un autor)",
-      "cat": "Arte y literatura",
-      "ex": "Nach der Lesung kann man Fragen stellen.",
-      "ex_es": "Después de la lectura se pueden hacer preguntas."
-    },
-    {
-      "de": "die Handlung",
-      "pl": "die Handlungen",
-      "es": "el argumento, la trama",
-      "cat": "Arte y literatura",
-      "ex": "Die Handlung des Films war ziemlich kompliziert.",
-      "ex_es": "La trama de la película era bastante complicada."
-    },
-    {
-      "de": "die Kritik",
-      "pl": "die Kritiken",
-      "es": "la crítica (reseña)",
-      "cat": "Arte y literatura",
-      "ex": "Der Film hat sehr gute Kritiken bekommen.",
-      "ex_es": "La película ha recibido muy buenas críticas."
-    },
-    {
-      "de": "berühmt",
-      "es": "famoso",
-      "cat": "Opinar",
-      "ex": "Die Sängerin ist in der ganzen Schweiz berühmt.",
-      "ex_es": "La cantante es famosa en toda Suiza."
-    },
-    {
-      "de": "sehenswert",
-      "es": "que merece la pena ver",
-      "cat": "Opinar",
-      "ex": "Die neue Ausstellung ist wirklich sehenswert.",
-      "ex_es": "La nueva exposición merece mucho la pena."
-    },
-    {
-      "de": "beeindrucken",
-      "es": "impresionar",
-      "cat": "Opinar",
-      "forms": "es beeindruckt, beeindruckte, hat beeindruckt",
-      "ex": "Die Musik hat mich sehr beeindruckt.",
-      "ex_es": "La música me impresionó mucho."
-    },
-    {
-      "de": "begeistert (von)",
-      "es": "entusiasmado (con)",
-      "cat": "Opinar",
-      "ex": "Wir waren von dem Konzert begeistert.",
-      "ex_es": "Estábamos entusiasmados con el concierto."
-    },
-    {
-      "de": "empfehlen",
-      "es": "recomendar",
-      "cat": "Opinar",
-      "forms": "er empfiehlt, empfahl, hat empfohlen",
-      "ex": "Kannst du mir ein gutes Buch empfehlen?",
-      "ex_es": "¿Me puedes recomendar un buen libro?"
-    },
-    {
-      "de": "erwarten",
-      "es": "esperar (contar con algo)",
-      "cat": "Opinar",
-      "forms": "er erwartet, erwartete, hat erwartet",
-      "ex": "Von dem Film hätte ich mir mehr erwartet.",
-      "ex_es": "De la película esperaba más."
-    },
-    {
-      "de": "überraschen",
-      "es": "sorprender",
-      "cat": "Opinar",
-      "forms": "er überrascht, überraschte, hat überrascht",
-      "ex": "Das Ende des Romans hat mich überrascht.",
-      "ex_es": "El final de la novela me sorprendió."
-    },
-    {
-      "de": "die Veranstaltung",
-      "pl": "die Veranstaltungen",
-      "es": "el evento, el acto",
-      "cat": "Eventos",
-      "ex": "Die Veranstaltung findet im Freien statt.",
-      "ex_es": "El evento se celebra al aire libre."
-    },
-    {
-      "de": "stattfinden",
-      "es": "celebrarse, tener lugar",
-      "cat": "Eventos",
-      "forms": "es findet statt, fand statt, hat stattgefunden",
-      "ex": "Das Festival findet jedes Jahr im August statt.",
-      "ex_es": "El festival se celebra todos los años en agosto."
-    },
-    {
-      "de": "das Festival",
-      "pl": "die Festivals",
-      "es": "el festival",
-      "cat": "Eventos",
-      "ex": "Im Sommer gibt es am See ein großes Festival.",
-      "ex_es": "En verano hay un gran festival junto al lago."
-    },
-    {
-      "de": "der Besucher / die Besucherin",
-      "pl": "die Besucher / die Besucherinnen",
-      "es": "el / la visitante",
-      "cat": "Eventos",
-      "ex": "Das Museum hatte letztes Jahr 300 000 Besucher.",
-      "ex_es": "El museo tuvo el año pasado 300 000 visitantes."
-    },
-    {
-      "de": "ermäßigt",
-      "es": "con descuento, reducido",
-      "cat": "Eventos",
-      "ex": "Für Studierende ist der Eintritt ermäßigt.",
-      "ex_es": "Para estudiantes la entrada tiene descuento."
-    },
-    {
-      "de": "reservieren",
-      "es": "reservar",
-      "cat": "Eventos",
-      "forms": "er reserviert, reservierte, hat reserviert",
-      "ex": "Ich habe zwei Plätze in der dritten Reihe reserviert.",
-      "ex_es": "He reservado dos asientos en la tercera fila."
-    },
-    {
-      "de": "die Reihe",
-      "pl": "die Reihen",
-      "es": "la fila",
-      "cat": "Eventos",
-      "ex": "Wir sitzen in der ersten Reihe.",
-      "ex_es": "Nos sentamos en la primera fila."
-    },
-    {
-      "de": "das Abonnement (das Abo)",
-      "pl": "die Abonnements",
-      "es": "el abono, la suscripción",
-      "cat": "Eventos",
-      "ex": "Mit dem Abo kann ich sechs Konzerte besuchen.",
-      "ex_es": "Con el abono puedo ir a seis conciertos."
-    },
-    {
-      "de": "die Tradition",
-      "pl": "die Traditionen",
-      "es": "la tradición",
-      "cat": "Eventos",
-      "ex": "Die Fasnacht in Basel hat eine lange Tradition.",
-      "ex_es": "El carnaval de Basilea tiene una larga tradición."
-    },
-    {
-      "de": "das Brettspiel",
-      "pl": "die Brettspiele",
-      "es": "el juego de mesa",
-      "cat": "Ocio",
-      "ex": "Am Sonntag spielen wir oft ein Brettspiel.",
-      "ex_es": "Los domingos jugamos a menudo a un juego de mesa."
-    },
-    {
-      "de": "der Wettbewerb",
-      "pl": "die Wettbewerbe",
-      "es": "el concurso, la competición",
-      "cat": "Ocio",
-      "ex": "Er hat beim Fotowettbewerb den ersten Preis gewonnen.",
-      "ex_es": "Ganó el primer premio en el concurso de fotografía."
-    },
-    {
-      "de": "gewinnen",
-      "es": "ganar",
-      "cat": "Ocio",
-      "forms": "er gewinnt, gewann, hat gewonnen",
-      "ex": "Unser Team hat das Quiz gewonnen.",
-      "ex_es": "Nuestro equipo ganó el concurso de preguntas."
-    },
-    {
-      "de": "basteln",
-      "es": "hacer manualidades",
-      "cat": "Ocio",
-      "forms": "er bastelt, bastelte, hat gebastelt",
-      "ex": "Mit den Kindern basteln wir Laternen.",
-      "ex_es": "Con los niños hacemos farolillos."
-    },
-    {
-      "de": "sammeln",
-      "es": "coleccionar, recoger",
-      "cat": "Ocio",
-      "forms": "er sammelt, sammelte, hat gesammelt",
-      "ex": "Mein Onkel sammelt alte Schallplatten.",
-      "ex_es": "Mi tío colecciona discos de vinilo antiguos."
-    },
-    {
-      "de": "die Unterhaltung",
-      "pl": "die Unterhaltungen",
-      "es": "el entretenimiento; la conversación",
-      "cat": "Ocio",
-      "ex": "Die Show war gute Unterhaltung für die ganze Familie.",
-      "ex_es": "El espectáculo fue un buen entretenimiento para toda la familia."
-    },
-    {
-      "de": "ehrenamtlich",
-      "es": "voluntario, sin cobrar",
-      "cat": "Ocio",
-      "ex": "Sie arbeitet ehrenamtlich in einer Bibliothek.",
-      "ex_es": "Trabaja como voluntaria en una biblioteca."
-    },
-    {
-      "de": "sich engagieren (für)",
-      "es": "comprometerse (con), colaborar (en)",
-      "cat": "Ocio",
-      "forms": "er engagiert sich, engagierte sich, hat sich engagiert",
-      "ex": "Viele Menschen engagieren sich in einem Verein.",
-      "ex_es": "Mucha gente colabora en una asociación."
-    },
-    {
-      "de": "regelmäßig",
-      "es": "con regularidad, regularmente",
-      "cat": "Ocio",
-      "ex": "Ich gehe regelmäßig ins Theater.",
-      "ex_es": "Voy al teatro con regularidad."
-    },
-    {
-      "de": "der Vorschlag",
-      "pl": "die Vorschläge",
-      "es": "la propuesta",
-      "cat": "Planificar",
-      "ex": "Hast du einen besseren Vorschlag?",
-      "ex_es": "¿Tienes una propuesta mejor?"
-    },
-    {
-      "de": "vorschlagen",
-      "es": "proponer",
-      "cat": "Planificar",
-      "forms": "er schlägt vor, schlug vor, hat vorgeschlagen",
-      "ex": "Ich schlage vor, dass wir den Zug nehmen.",
-      "ex_es": "Propongo que cojamos el tren."
-    },
-    {
-      "de": "einverstanden",
-      "es": "de acuerdo",
-      "cat": "Planificar",
-      "ex": "Bist du damit einverstanden?",
-      "ex_es": "¿Estás de acuerdo con eso?"
-    },
-    {
-      "de": "übernehmen",
-      "es": "encargarse de, asumir",
-      "cat": "Planificar",
-      "forms": "er übernimmt, übernahm, hat übernommen",
-      "ex": "Ich übernehme die Getränke.",
-      "ex_es": "Yo me encargo de las bebidas."
-    }
+    {"de": "die Aufführung", "pl": "die Aufführungen", "es": "la representación, la función", "cat": "Teatro y música", "ex": "Die Aufführung beginnt um 19.30 Uhr.", "ex_es": "La función empieza a las 19:30."},
+    {"de": "die Vorstellung", "pl": "die Vorstellungen", "es": "la sesión, la función", "cat": "Teatro y música", "ex": "Für die Vorstellung am Freitag gibt es noch Karten.", "ex_es": "Para la sesión del viernes todavía hay entradas."},
+    {"de": "das Publikum", "es": "el público", "cat": "Teatro y música", "ex": "Das Publikum war begeistert.", "ex_es": "El público estaba entusiasmado."},
+    {"de": "die Bühne", "pl": "die Bühnen", "es": "el escenario", "cat": "Teatro y música", "ex": "Die Band stand zwei Stunden auf der Bühne.", "ex_es": "El grupo estuvo dos horas en el escenario."},
+    {"de": "der Schauspieler / die Schauspielerin", "pl": "die Schauspieler / die Schauspielerinnen", "es": "el actor / la actriz", "cat": "Teatro y música", "ex": "Die Schauspielerin hat einen Preis gewonnen.", "ex_es": "La actriz ha ganado un premio."},
+    {"de": "der Regisseur / die Regisseurin", "pl": "die Regisseure / die Regisseurinnen", "es": "el director / la directora (de cine o teatro)", "cat": "Teatro y música", "ex": "Der Regisseur des Films kommt aus Basel.", "ex_es": "El director de la película es de Basilea."},
+    {"de": "der Chor", "pl": "die Chöre", "es": "el coro", "cat": "Teatro y música", "ex": "Andrea singt in einem Chor.", "ex_es": "Andrea canta en un coro."},
+    {"de": "das Orchester", "pl": "die Orchester", "es": "la orquesta", "cat": "Teatro y música", "ex": "Das Orchester spielt heute Mozart.", "ex_es": "La orquesta toca hoy Mozart."},
+    {"de": "die Oper", "pl": "die Opern", "es": "la ópera", "cat": "Teatro y música", "ex": "Wart ihr schon mal in der Oper?", "ex_es": "¿Habéis estado alguna vez en la ópera?"},
+    {"de": "das Instrument", "pl": "die Instrumente", "es": "el instrumento", "cat": "Teatro y música", "ex": "Spielst du ein Instrument?", "ex_es": "¿Tocas algún instrumento?"},
+    {"de": "der Saal", "pl": "die Säle", "es": "la sala", "cat": "Teatro y música", "ex": "Der Saal war bis zum letzten Platz besetzt.", "ex_es": "La sala estaba llena hasta el último asiento."},
+    {"de": "applaudieren", "es": "aplaudir", "cat": "Teatro y música", "forms": "er applaudiert, applaudierte, hat applaudiert", "ex": "Am Ende haben alle laut applaudiert.", "ex_es": "Al final todos aplaudieron fuerte."},
+    {"de": "die Kunst", "pl": "die Künste", "es": "el arte", "cat": "Arte y literatura", "ex": "Ich interessiere mich für moderne Kunst.", "ex_es": "Me interesa el arte moderno."},
+    {"de": "der Künstler / die Künstlerin", "pl": "die Künstler / die Künstlerinnen", "es": "el / la artista", "cat": "Arte y literatura", "ex": "Die Künstlerin malt vor allem Landschaften.", "ex_es": "La artista pinta sobre todo paisajes."},
+    {"de": "das Gemälde", "pl": "die Gemälde", "es": "el cuadro, la pintura", "cat": "Arte y literatura", "ex": "Das Gemälde ist über 300 Jahre alt.", "ex_es": "El cuadro tiene más de 300 años."},
+    {"de": "die Sammlung", "pl": "die Sammlungen", "es": "la colección", "cat": "Arte y literatura", "ex": "Das Kunsthaus hat eine große Sammlung von Bildern.", "ex_es": "El Kunsthaus tiene una gran colección de cuadros."},
+    {"de": "die Führung", "pl": "die Führungen", "es": "la visita guiada", "cat": "Arte y literatura", "ex": "Die Führung dauert etwa eine Stunde.", "ex_es": "La visita guiada dura una hora aproximadamente."},
+    {"de": "der Roman", "pl": "die Romane", "es": "la novela", "cat": "Arte y literatura", "ex": "Ich lese gerade einen Roman von Martin Suter.", "ex_es": "Estoy leyendo una novela de Martin Suter."},
+    {"de": "der Autor / die Autorin", "pl": "die Autoren / die Autorinnen", "es": "el autor / la autora", "cat": "Arte y literatura", "ex": "Die Autorin liest heute aus ihrem neuen Buch.", "ex_es": "La autora lee hoy fragmentos de su nuevo libro."},
+    {"de": "die Lesung", "pl": "die Lesungen", "es": "la lectura pública (de un autor)", "cat": "Arte y literatura", "ex": "Nach der Lesung kann man Fragen stellen.", "ex_es": "Después de la lectura se pueden hacer preguntas."},
+    {"de": "die Handlung", "pl": "die Handlungen", "es": "el argumento, la trama", "cat": "Arte y literatura", "ex": "Die Handlung des Films war ziemlich kompliziert.", "ex_es": "La trama de la película era bastante complicada."},
+    {"de": "die Kritik", "pl": "die Kritiken", "es": "la crítica (reseña)", "cat": "Arte y literatura", "ex": "Der Film hat sehr gute Kritiken bekommen.", "ex_es": "La película ha recibido muy buenas críticas."},
+    {"de": "berühmt", "es": "famoso", "cat": "Opinar", "ex": "Die Sängerin ist in der ganzen Schweiz berühmt.", "ex_es": "La cantante es famosa en toda Suiza."},
+    {"de": "sehenswert", "es": "que merece la pena ver", "cat": "Opinar", "ex": "Die neue Ausstellung ist wirklich sehenswert.", "ex_es": "La nueva exposición merece mucho la pena."},
+    {"de": "beeindrucken", "es": "impresionar", "cat": "Opinar", "forms": "es beeindruckt, beeindruckte, hat beeindruckt", "ex": "Die Musik hat mich sehr beeindruckt.", "ex_es": "La música me impresionó mucho."},
+    {"de": "begeistert (von)", "es": "entusiasmado (con)", "cat": "Opinar", "ex": "Wir waren von dem Konzert begeistert.", "ex_es": "Estábamos entusiasmados con el concierto."},
+    {"de": "erwarten", "es": "esperar (contar con algo)", "cat": "Opinar", "forms": "er erwartet, erwartete, hat erwartet", "ex": "Von dem Film hätte ich mir mehr erwartet.", "ex_es": "De la película esperaba más."},
+    {"de": "überraschen", "es": "sorprender", "cat": "Opinar", "forms": "er überrascht, überraschte, hat überrascht", "ex": "Das Ende des Romans hat mich überrascht.", "ex_es": "El final de la novela me sorprendió."},
+    {"de": "die Veranstaltung", "pl": "die Veranstaltungen", "es": "el evento, el acto", "cat": "Eventos", "ex": "Die Veranstaltung findet im Freien statt.", "ex_es": "El evento se celebra al aire libre."},
+    {"de": "stattfinden", "es": "celebrarse, tener lugar", "cat": "Eventos", "forms": "es findet statt, fand statt, hat stattgefunden", "ex": "Das Festival findet jedes Jahr im August statt.", "ex_es": "El festival se celebra todos los años en agosto."},
+    {"de": "das Festival", "pl": "die Festivals", "es": "el festival", "cat": "Eventos", "ex": "Im Sommer gibt es am See ein großes Festival.", "ex_es": "En verano hay un gran festival junto al lago."},
+    {"de": "der Besucher / die Besucherin", "pl": "die Besucher / die Besucherinnen", "es": "el / la visitante", "cat": "Eventos", "ex": "Das Museum hatte letztes Jahr 300 000 Besucher.", "ex_es": "El museo tuvo el año pasado 300 000 visitantes."},
+    {"de": "ermäßigt", "es": "con descuento, reducido", "cat": "Eventos", "ex": "Für Studierende ist der Eintritt ermäßigt.", "ex_es": "Para estudiantes la entrada tiene descuento."},
+    {"de": "die Reihe", "pl": "die Reihen", "es": "la fila", "cat": "Eventos", "ex": "Wir sitzen in der ersten Reihe.", "ex_es": "Nos sentamos en la primera fila."},
+    {"de": "das Abonnement (das Abo)", "pl": "die Abonnements", "es": "el abono, la suscripción", "cat": "Eventos", "ex": "Mit dem Abo kann ich sechs Konzerte besuchen.", "ex_es": "Con el abono puedo ir a seis conciertos."},
+    {"de": "die Tradition", "pl": "die Traditionen", "es": "la tradición", "cat": "Eventos", "ex": "Die Fasnacht in Basel hat eine lange Tradition.", "ex_es": "El carnaval de Basilea tiene una larga tradición."},
+    {"de": "das Brettspiel", "pl": "die Brettspiele", "es": "el juego de mesa", "cat": "Ocio", "ex": "Am Sonntag spielen wir oft ein Brettspiel.", "ex_es": "Los domingos jugamos a menudo a un juego de mesa."},
+    {"de": "der Wettbewerb", "pl": "die Wettbewerbe", "es": "el concurso, la competición", "cat": "Ocio", "ex": "Er hat beim Fotowettbewerb den ersten Preis gewonnen.", "ex_es": "Ganó el primer premio en el concurso de fotografía."},
+    {"de": "gewinnen", "es": "ganar", "cat": "Ocio", "forms": "er gewinnt, gewann, hat gewonnen", "ex": "Unser Team hat das Quiz gewonnen.", "ex_es": "Nuestro equipo ganó el concurso de preguntas."},
+    {"de": "basteln", "es": "hacer manualidades", "cat": "Ocio", "forms": "er bastelt, bastelte, hat gebastelt", "ex": "Mit den Kindern basteln wir Laternen.", "ex_es": "Con los niños hacemos farolillos."},
+    {"de": "die Unterhaltung", "pl": "die Unterhaltungen", "es": "el entretenimiento; la conversación", "cat": "Ocio", "ex": "Die Show war gute Unterhaltung für die ganze Familie.", "ex_es": "El espectáculo fue un buen entretenimiento para toda la familia."},
+    {"de": "ehrenamtlich", "es": "voluntario, sin cobrar", "cat": "Ocio", "ex": "Sie arbeitet ehrenamtlich in einer Bibliothek.", "ex_es": "Trabaja como voluntaria en una biblioteca."},
+    {"de": "sich engagieren (für)", "es": "comprometerse (con), colaborar (en)", "cat": "Ocio", "forms": "er engagiert sich, engagierte sich, hat sich engagiert", "ex": "Viele Menschen engagieren sich in einem Verein.", "ex_es": "Mucha gente colabora en una asociación."},
+    {"de": "regelmäßig", "es": "con regularidad, regularmente", "cat": "Ocio", "ex": "Ich gehe regelmäßig ins Theater.", "ex_es": "Voy al teatro con regularidad."},
+    {"de": "der Vorschlag", "pl": "die Vorschläge", "es": "la propuesta", "cat": "Planificar", "ex": "Hast du einen besseren Vorschlag?", "ex_es": "¿Tienes una propuesta mejor?"},
+    {"de": "vorschlagen", "es": "proponer", "cat": "Planificar", "forms": "er schlägt vor, schlug vor, hat vorgeschlagen", "ex": "Ich schlage vor, dass wir den Zug nehmen.", "ex_es": "Propongo que cojamos el tren."},
+    {"de": "einverstanden", "es": "de acuerdo", "cat": "Planificar", "ex": "Bist du damit einverstanden?", "ex_es": "¿Estás de acuerdo con eso?"},
+    {"de": "übernehmen", "es": "encargarse de, asumir", "cat": "Planificar", "forms": "er übernimmt, übernahm, hat übernommen", "ex": "Ich übernehme die Getränke.", "ex_es": "Yo me encargo de las bebidas."}
   ],
   "exercises": [
     {

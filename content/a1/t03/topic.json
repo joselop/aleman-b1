@@ -13,339 +13,49 @@
     "Decir tu estado civil en un formulario o una conversación"
   ],
   "vocab": [
-    {
-      "de": "die Familie",
-      "pl": "die Familien",
-      "es": "la familia",
-      "cat": "Familia",
-      "ex": "Das ist meine Familie.",
-      "ex_es": "Esta es mi familia."
-    },
-    {
-      "de": "der Vater",
-      "pl": "die Väter",
-      "es": "el padre",
-      "cat": "Familia",
-      "ex": "Mein Vater heißt Luis.",
-      "ex_es": "Mi padre se llama Luis."
-    },
-    {
-      "de": "die Mutter",
-      "pl": "die Mütter",
-      "es": "la madre",
-      "cat": "Familia",
-      "ex": "Meine Mutter ist 58.",
-      "ex_es": "Mi madre tiene 58 años."
-    },
-    {
-      "de": "die Eltern",
-      "es": "los padres (solo plural)",
-      "cat": "Familia",
-      "ex": "Meine Eltern wohnen in Córdoba.",
-      "ex_es": "Mis padres viven en Córdoba."
-    },
-    {
-      "de": "der Sohn",
-      "pl": "die Söhne",
-      "es": "el hijo",
-      "cat": "Familia",
-      "ex": "Sein Sohn ist fünf Jahre alt.",
-      "ex_es": "Su hijo tiene cinco años."
-    },
-    {
-      "de": "die Tochter",
-      "pl": "die Töchter",
-      "es": "la hija",
-      "cat": "Familia",
-      "ex": "Ihre Tochter heißt Mia.",
-      "ex_es": "Su hija se llama Mia."
-    },
-    {
-      "de": "das Kind",
-      "pl": "die Kinder",
-      "es": "el niño; el hijo",
-      "cat": "Familia",
-      "ex": "Haben Sie Kinder?",
-      "ex_es": "¿Tiene usted hijos?"
-    },
-    {
-      "de": "das Baby",
-      "pl": "die Babys",
-      "es": "el bebé",
-      "cat": "Familia",
-      "ex": "Das Baby heißt Leo.",
-      "ex_es": "El bebé se llama Leo."
-    },
-    {
-      "de": "der Bruder",
-      "pl": "die Brüder",
-      "es": "el hermano",
-      "cat": "Familia",
-      "ex": "Ich habe einen Bruder.",
-      "ex_es": "Tengo un hermano."
-    },
-    {
-      "de": "die Schwester",
-      "pl": "die Schwestern",
-      "es": "la hermana",
-      "cat": "Familia",
-      "ex": "Meine Schwester wohnt in Madrid.",
-      "ex_es": "Mi hermana vive en Madrid."
-    },
-    {
-      "de": "die Geschwister",
-      "es": "los hermanos (plural)",
-      "cat": "Familia",
-      "ex": "Hast du Geschwister?",
-      "ex_es": "¿Tienes hermanos?"
-    },
-    {
-      "de": "der Großvater / der Opa",
-      "pl": "die Großväter / die Opas",
-      "es": "el abuelo",
-      "cat": "Familia",
-      "ex": "Mein Opa ist 80.",
-      "ex_es": "Mi abuelo tiene 80 años."
-    },
-    {
-      "de": "die Großmutter / die Oma",
-      "pl": "die Großmütter / die Omas",
-      "es": "la abuela",
-      "cat": "Familia",
-      "ex": "Meine Oma spricht nur Spanisch.",
-      "ex_es": "Mi abuela solo habla español."
-    },
-    {
-      "de": "die Großeltern",
-      "es": "los abuelos (plural)",
-      "cat": "Familia",
-      "ex": "Die Großeltern wohnen in Sevilla.",
-      "ex_es": "Los abuelos viven en Sevilla."
-    },
-    {
-      "de": "der Onkel",
-      "pl": "die Onkel",
-      "es": "el tío",
-      "cat": "Familia",
-      "ex": "Mein Onkel wohnt in Mexiko.",
-      "ex_es": "Mi tío vive en México."
-    },
-    {
-      "de": "die Tante",
-      "pl": "die Tanten",
-      "es": "la tía",
-      "cat": "Familia",
-      "ex": "Meine Tante ist Lehrerin.",
-      "ex_es": "Mi tía es profesora."
-    },
-    {
-      "de": "der Mann",
-      "pl": "die Männer",
-      "es": "el hombre; el marido",
-      "cat": "Familia",
-      "ex": "Das ist mein Mann, Peter.",
-      "ex_es": "Este es mi marido, Peter."
-    },
-    {
-      "de": "die Frau",
-      "pl": "die Frauen",
-      "es": "la mujer; la esposa",
-      "cat": "Familia",
-      "ex": "Seine Frau kommt aus Italien.",
-      "ex_es": "Su mujer es de Italia."
-    },
-    {
-      "de": "der Partner / die Partnerin",
-      "pl": "die Partner / die Partnerinnen",
-      "es": "la pareja",
-      "cat": "Familia",
-      "ex": "Meine Partnerin heißt Andrea.",
-      "ex_es": "Mi pareja se llama Andrea."
-    },
-    {
-      "de": "die Verwandten",
-      "es": "los parientes (plural)",
-      "cat": "Familia",
-      "ex": "Am Wochenende besuchen wir unsere Verwandten.",
-      "ex_es": "El fin de semana visitamos a nuestros parientes."
-    },
-    {
-      "de": "der Freund / die Freundin",
-      "pl": "die Freunde / die Freundinnen",
-      "es": "el amigo / la amiga; el novio / la novia",
-      "cat": "Amigos",
-      "ex": "Das ist meine Freundin Lisa.",
-      "ex_es": "Esta es mi novia (amiga) Lisa."
-    },
-    {
-      "de": "der Kollege / die Kollegin",
-      "pl": "die Kollegen / die Kolleginnen",
-      "es": "el/la compañero/a de trabajo",
-      "cat": "Amigos",
-      "ex": "Mein Kollege heißt Tim.",
-      "ex_es": "Mi compañero de trabajo se llama Tim."
-    },
-    {
-      "de": "der Nachbar / die Nachbarin",
-      "pl": "die Nachbarn / die Nachbarinnen",
-      "es": "el/la vecino/a",
-      "cat": "Amigos",
-      "ex": "Unsere Nachbarin ist sehr nett.",
-      "ex_es": "Nuestra vecina es muy simpática."
-    },
-    {
-      "de": "das Mädchen",
-      "pl": "die Mädchen",
-      "es": "la chica, la niña",
-      "cat": "Amigos",
-      "ex": "Das Mädchen heißt Sofia.",
-      "ex_es": "La niña se llama Sofia."
-    },
-    {
-      "de": "der Junge",
-      "pl": "die Jungen",
-      "es": "el chico, el niño",
-      "cat": "Amigos",
-      "ex": "Der Junge ist zehn.",
-      "ex_es": "El chico tiene diez años."
-    },
-    {
-      "de": "der Hund",
-      "pl": "die Hunde",
-      "es": "el perro",
-      "cat": "Amigos",
-      "ex": "Wir haben einen Hund.",
-      "ex_es": "Tenemos un perro."
-    },
-    {
-      "de": "die Katze",
-      "pl": "die Katzen",
-      "es": "el gato",
-      "cat": "Amigos",
-      "ex": "Die Katze heißt Mimi.",
-      "ex_es": "La gata se llama Mimi."
-    },
-    {
-      "de": "das Foto",
-      "pl": "die Fotos",
-      "es": "la foto",
-      "cat": "Amigos",
-      "ex": "Hast du ein Foto?",
-      "ex_es": "¿Tienes una foto?"
-    },
-    {
-      "de": "der Familienstand",
-      "es": "el estado civil",
-      "cat": "Estado civil",
-      "ex": "Familienstand: verheiratet",
-      "ex_es": "Estado civil: casado"
-    },
-    {
-      "de": "ledig",
-      "es": "soltero/a",
-      "cat": "Estado civil",
-      "ex": "Ich bin ledig.",
-      "ex_es": "Estoy soltero."
-    },
-    {
-      "de": "verheiratet",
-      "es": "casado/a",
-      "cat": "Estado civil",
-      "ex": "Bist du verheiratet?",
-      "ex_es": "¿Estás casado?"
-    },
-    {
-      "de": "geschieden",
-      "es": "divorciado/a",
-      "cat": "Estado civil",
-      "ex": "Er ist geschieden.",
-      "ex_es": "Está divorciado."
-    },
-    {
-      "de": "verwitwet",
-      "es": "viudo/a",
-      "cat": "Estado civil",
-      "ex": "Meine Oma ist verwitwet.",
-      "ex_es": "Mi abuela es viuda."
-    },
-    {
-      "de": "haben",
-      "es": "tener",
-      "cat": "Verbos y palabras útiles",
-      "forms": "ich habe, du hast, er hat",
-      "ex": "Hast du Kinder?",
-      "ex_es": "¿Tienes hijos?"
-    },
-    {
-      "de": "mein / meine",
-      "es": "mi",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Das sind meine Eltern.",
-      "ex_es": "Estos son mis padres."
-    },
-    {
-      "de": "dein / deine",
-      "es": "tu",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Wie heißt deine Schwester?",
-      "ex_es": "¿Cómo se llama tu hermana?"
-    },
-    {
-      "de": "sein / seine",
-      "es": "su (de él)",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Peter und seine Frau",
-      "ex_es": "Peter y su mujer"
-    },
-    {
-      "de": "ihr / ihre",
-      "es": "su (de ella)",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Nora und ihr Mann",
-      "ex_es": "Nora y su marido"
-    },
-    {
-      "de": "Ihr / Ihre",
-      "es": "su (de usted)",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Wie heißt Ihr Sohn?",
-      "ex_es": "¿Cómo se llama su hijo?"
-    },
-    {
-      "de": "kein / keine",
-      "es": "ningún / ninguna; no (un)",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Ich habe keine Geschwister.",
-      "ex_es": "No tengo hermanos."
-    },
-    {
-      "de": "nett",
-      "es": "simpático, amable",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Deine Mutter ist sehr nett.",
-      "ex_es": "Tu madre es muy simpática."
-    },
-    {
-      "de": "zusammen",
-      "es": "juntos",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Wir wohnen zusammen.",
-      "ex_es": "Vivimos juntos."
-    },
-    {
-      "de": "allein",
-      "es": "solo (sin compañía)",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Mein Opa wohnt allein.",
-      "ex_es": "Mi abuelo vive solo."
-    },
-    {
-      "de": "Das sind …",
-      "es": "Estos/as son …",
-      "cat": "Verbos y palabras útiles",
-      "ex": "Das sind meine Kinder.",
-      "ex_es": "Estos son mis hijos."
-    }
+    {"de": "die Familie", "pl": "die Familien", "es": "la familia", "cat": "Familia", "ex": "Das ist meine Familie.", "ex_es": "Esta es mi familia."},
+    {"de": "der Vater", "pl": "die Väter", "es": "el padre", "cat": "Familia", "ex": "Mein Vater heißt Luis.", "ex_es": "Mi padre se llama Luis."},
+    {"de": "die Mutter", "pl": "die Mütter", "es": "la madre", "cat": "Familia", "ex": "Meine Mutter ist 58.", "ex_es": "Mi madre tiene 58 años."},
+    {"de": "die Eltern", "es": "los padres (solo plural)", "cat": "Familia", "ex": "Meine Eltern wohnen in Córdoba.", "ex_es": "Mis padres viven en Córdoba."},
+    {"de": "der Sohn", "pl": "die Söhne", "es": "el hijo", "cat": "Familia", "ex": "Sein Sohn ist fünf Jahre alt.", "ex_es": "Su hijo tiene cinco años."},
+    {"de": "die Tochter", "pl": "die Töchter", "es": "la hija", "cat": "Familia", "ex": "Ihre Tochter heißt Mia.", "ex_es": "Su hija se llama Mia."},
+    {"de": "das Kind", "pl": "die Kinder", "es": "el niño; el hijo", "cat": "Familia", "ex": "Haben Sie Kinder?", "ex_es": "¿Tiene usted hijos?"},
+    {"de": "das Baby", "pl": "die Babys", "es": "el bebé", "cat": "Familia", "ex": "Das Baby heißt Leo.", "ex_es": "El bebé se llama Leo."},
+    {"de": "der Bruder", "pl": "die Brüder", "es": "el hermano", "cat": "Familia", "ex": "Ich habe einen Bruder.", "ex_es": "Tengo un hermano."},
+    {"de": "die Schwester", "pl": "die Schwestern", "es": "la hermana", "cat": "Familia", "ex": "Meine Schwester wohnt in Madrid.", "ex_es": "Mi hermana vive en Madrid."},
+    {"de": "die Geschwister", "es": "los hermanos (plural)", "cat": "Familia", "ex": "Hast du Geschwister?", "ex_es": "¿Tienes hermanos?"},
+    {"de": "der Großvater / der Opa", "pl": "die Großväter / die Opas", "es": "el abuelo", "cat": "Familia", "ex": "Mein Opa ist 80.", "ex_es": "Mi abuelo tiene 80 años."},
+    {"de": "die Großmutter / die Oma", "pl": "die Großmütter / die Omas", "es": "la abuela", "cat": "Familia", "ex": "Meine Oma spricht nur Spanisch.", "ex_es": "Mi abuela solo habla español."},
+    {"de": "die Großeltern", "es": "los abuelos (plural)", "cat": "Familia", "ex": "Die Großeltern wohnen in Sevilla.", "ex_es": "Los abuelos viven en Sevilla."},
+    {"de": "der Onkel", "pl": "die Onkel", "es": "el tío", "cat": "Familia", "ex": "Mein Onkel wohnt in Mexiko.", "ex_es": "Mi tío vive en México."},
+    {"de": "die Tante", "pl": "die Tanten", "es": "la tía", "cat": "Familia", "ex": "Meine Tante ist Lehrerin.", "ex_es": "Mi tía es profesora."},
+    {"de": "der Mann", "pl": "die Männer", "es": "el hombre; el marido", "cat": "Familia", "ex": "Das ist mein Mann, Peter.", "ex_es": "Este es mi marido, Peter."},
+    {"de": "der Partner / die Partnerin", "pl": "die Partner / die Partnerinnen", "es": "la pareja", "cat": "Familia", "ex": "Meine Partnerin heißt Andrea.", "ex_es": "Mi pareja se llama Andrea."},
+    {"de": "die Verwandten", "es": "los parientes (plural)", "cat": "Familia", "ex": "Am Wochenende besuchen wir unsere Verwandten.", "ex_es": "El fin de semana visitamos a nuestros parientes."},
+    {"de": "der Freund / die Freundin", "pl": "die Freunde / die Freundinnen", "es": "el amigo / la amiga; el novio / la novia", "cat": "Amigos", "ex": "Das ist meine Freundin Lisa.", "ex_es": "Esta es mi novia (amiga) Lisa."},
+    {"de": "der Kollege / die Kollegin", "pl": "die Kollegen / die Kolleginnen", "es": "el/la compañero/a de trabajo", "cat": "Amigos", "ex": "Mein Kollege heißt Tim.", "ex_es": "Mi compañero de trabajo se llama Tim."},
+    {"de": "der Nachbar / die Nachbarin", "pl": "die Nachbarn / die Nachbarinnen", "es": "el/la vecino/a", "cat": "Amigos", "ex": "Unsere Nachbarin ist sehr nett.", "ex_es": "Nuestra vecina es muy simpática."},
+    {"de": "das Mädchen", "pl": "die Mädchen", "es": "la chica, la niña", "cat": "Amigos", "ex": "Das Mädchen heißt Sofia.", "ex_es": "La niña se llama Sofia."},
+    {"de": "der Junge", "pl": "die Jungen", "es": "el chico, el niño", "cat": "Amigos", "ex": "Der Junge ist zehn.", "ex_es": "El chico tiene diez años."},
+    {"de": "der Hund", "pl": "die Hunde", "es": "el perro", "cat": "Amigos", "ex": "Wir haben einen Hund.", "ex_es": "Tenemos un perro."},
+    {"de": "die Katze", "pl": "die Katzen", "es": "el gato", "cat": "Amigos", "ex": "Die Katze heißt Mimi.", "ex_es": "La gata se llama Mimi."},
+    {"de": "das Foto", "pl": "die Fotos", "es": "la foto", "cat": "Amigos", "ex": "Hast du ein Foto?", "ex_es": "¿Tienes una foto?"},
+    {"de": "der Familienstand", "es": "el estado civil", "cat": "Estado civil", "ex": "Familienstand: verheiratet", "ex_es": "Estado civil: casado"},
+    {"de": "ledig", "es": "soltero/a", "cat": "Estado civil", "ex": "Ich bin ledig.", "ex_es": "Estoy soltero."},
+    {"de": "verheiratet", "es": "casado/a", "cat": "Estado civil", "ex": "Bist du verheiratet?", "ex_es": "¿Estás casado?"},
+    {"de": "geschieden", "es": "divorciado/a", "cat": "Estado civil", "ex": "Er ist geschieden.", "ex_es": "Está divorciado."},
+    {"de": "verwitwet", "es": "viudo/a", "cat": "Estado civil", "ex": "Meine Oma ist verwitwet.", "ex_es": "Mi abuela es viuda."},
+    {"de": "haben", "es": "tener", "cat": "Verbos y palabras útiles", "forms": "ich habe, du hast, er hat", "ex": "Hast du Kinder?", "ex_es": "¿Tienes hijos?"},
+    {"de": "mein / meine", "es": "mi", "cat": "Verbos y palabras útiles", "ex": "Das sind meine Eltern.", "ex_es": "Estos son mis padres."},
+    {"de": "dein / deine", "es": "tu", "cat": "Verbos y palabras útiles", "ex": "Wie heißt deine Schwester?", "ex_es": "¿Cómo se llama tu hermana?"},
+    {"de": "sein / seine", "es": "su (de él)", "cat": "Verbos y palabras útiles", "ex": "Peter und seine Frau", "ex_es": "Peter y su mujer"},
+    {"de": "ihr / ihre", "es": "su (de ella)", "cat": "Verbos y palabras útiles", "ex": "Nora und ihr Mann", "ex_es": "Nora y su marido"},
+    {"de": "Ihr / Ihre", "es": "su (de usted)", "cat": "Verbos y palabras útiles", "ex": "Wie heißt Ihr Sohn?", "ex_es": "¿Cómo se llama su hijo?"},
+    {"de": "kein / keine", "es": "ningún / ninguna; no (un)", "cat": "Verbos y palabras útiles", "ex": "Ich habe keine Geschwister.", "ex_es": "No tengo hermanos."},
+    {"de": "nett", "es": "simpático, amable", "cat": "Verbos y palabras útiles", "ex": "Deine Mutter ist sehr nett.", "ex_es": "Tu madre es muy simpática."},
+    {"de": "zusammen", "es": "juntos", "cat": "Verbos y palabras útiles", "ex": "Wir wohnen zusammen.", "ex_es": "Vivimos juntos."},
+    {"de": "allein", "es": "solo (sin compañía)", "cat": "Verbos y palabras útiles", "ex": "Mein Opa wohnt allein.", "ex_es": "Mi abuelo vive solo."},
+    {"de": "Das sind …", "es": "Estos/as son …", "cat": "Verbos y palabras útiles", "ex": "Das sind meine Kinder.", "ex_es": "Estos son mis hijos."}
   ],
   "exercises": [
     {
