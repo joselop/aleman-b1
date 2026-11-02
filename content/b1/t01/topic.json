@@ -28,6 +28,7 @@
     { "de": "die Strafe", "pl": "die Strafen", "es": "el castigo", "cat": "Familia", "ex": "Als Strafe durfte ich eine Woche nicht fernsehen.", "ex_es": "Como castigo no pude ver la tele durante una semana." },
     { "de": "der Streit", "pl": "die Streitigkeiten", "es": "la pelea, la discusión", "cat": "Familia", "ex": "Zwischen meinem Bruder und mir gab es oft Streit.", "ex_es": "Entre mi hermano y yo había a menudo peleas." },
     { "de": "das Taschengeld", "es": "la paga (de los niños)", "cat": "Familia", "ex": "Ich bekam jede Woche zwei Euro Taschengeld.", "ex_es": "Recibía dos euros de paga cada semana." },
+    { "de": "aufbleiben", "es": "quedarse despierto (hasta tarde)", "cat": "Familia", "forms": "er bleibt auf, blieb auf, ist aufgeblieben", "ex": "Als Kind durfte ich am Wochenende länger aufbleiben.", "ex_es": "De pequeño, el fin de semana me dejaban quedarme despierto hasta más tarde." },
     { "de": "der Kindergarten", "pl": "die Kindergärten", "es": "la guardería, el parvulario", "cat": "Escuela", "ex": "Im Kindergarten habe ich meinen besten Freund kennengelernt.", "ex_es": "En el parvulario conocí a mi mejor amigo." },
     { "de": "die Grundschule / die Primarschule", "pl": "die Grundschulen", "es": "la escuela primaria (Alemania / Suiza)", "cat": "Escuela", "ex": "In der Schweiz dauert die Primarschule sechs Jahre.", "ex_es": "En Suiza la primaria dura seis años." },
     { "de": "der Mitschüler / die Mitschülerin", "pl": "die Mitschüler / die Mitschülerinnen", "es": "el compañero / la compañera de clase", "cat": "Escuela", "ex": "Mit einigen Mitschülern habe ich noch Kontakt.", "ex_es": "Con algunos compañeros de clase todavía tengo contacto." },
@@ -62,7 +63,9 @@
     { "de": "jedes Mal", "es": "cada vez", "cat": "Narrar", "ex": "Jedes Mal, wenn wir zu Oma fuhren, wurde mir im Auto schlecht.", "ex_es": "Cada vez que íbamos a casa de la abuela, me mareaba en el coche." },
     { "de": "nachdem", "es": "después de que", "cat": "Narrar", "ex": "Nachdem wir gegessen hatten, gingen wir spazieren.", "ex_es": "Después de comer, fuimos a pasear." },
     { "de": "bevor", "es": "antes de que", "cat": "Narrar", "ex": "Bevor ich zur Schule ging, frühstückte ich immer mit meinem Opa.", "ex_es": "Antes de ir al colegio, siempre desayunaba con mi abuelo." },
-    { "de": "schließlich", "es": "finalmente, al final", "cat": "Narrar", "ex": "Wir suchten stundenlang und fanden den Hund schließlich im Wald.", "ex_es": "Buscamos durante horas y al final encontramos al perro en el bosque." }
+    { "de": "schließlich", "es": "finalmente, al final", "cat": "Narrar", "ex": "Wir suchten stundenlang und fanden den Hund schließlich im Wald.", "ex_es": "Buscamos durante horas y al final encontramos al perro en el bosque." },
+    { "de": "auf einmal", "es": "de repente", "cat": "Narrar", "ex": "Auf einmal ging das Licht aus.", "ex_es": "De repente se apagó la luz." },
+    { "de": "am Ende", "es": "al final", "cat": "Narrar", "ex": "Am Ende haben wir alle zusammen gelacht.", "ex_es": "Al final nos reímos todos juntos." }
   ],
   "exercises": [
     { "id": "e01", "type": "match", "title": "Recuerdos de infancia", "instructions": "Relaciona cada palabra con su traducción.", "pairs": [

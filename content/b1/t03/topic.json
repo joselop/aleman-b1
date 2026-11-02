@@ -400,6 +400,27 @@
       "ex_es": "El conserje pasa esta tarde."
     },
     {
+      "de": "mindestens",
+      "es": "como mínimo, al menos",
+      "cat": "Normas",
+      "ex": "Die Kündigungsfrist beträgt mindestens drei Monate.",
+      "ex_es": "El plazo de preaviso es de tres meses como mínimo."
+    },
+    {
+      "de": "spätestens",
+      "es": "a más tardar",
+      "cat": "Normas",
+      "ex": "Der Müll muss spätestens um 7 Uhr draußen stehen.",
+      "ex_es": "La basura tiene que estar fuera a las 7 a más tardar."
+    },
+    {
+      "de": "ausnahmsweise",
+      "es": "excepcionalmente, por esta vez",
+      "cat": "Normas",
+      "ex": "Heute darf ausnahmsweise am Sonntag gewaschen werden.",
+      "ex_es": "Hoy, excepcionalmente, se puede hacer la colada en domingo."
+    },
+    {
       "de": "werden + Partizip II (Passiv)",
       "es": "la voz pasiva: ser + participio / se + verbo",
       "cat": "Gramática",

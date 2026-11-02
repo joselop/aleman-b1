@@ -201,6 +201,37 @@
       "ex_es": "El sueldo llega siempre el día 25 del mes."
     },
     {
+      "de": "das Sparkonto",
+      "pl": "die Sparkonten",
+      "es": "la cuenta de ahorro",
+      "cat": "Dinero",
+      "ex": "Jeden Monat lege ich 300 Franken auf mein Sparkonto.",
+      "ex_es": "Cada mes meto 300 francos en mi cuenta de ahorro."
+    },
+    {
+      "de": "zurückzahlen",
+      "es": "devolver (dinero)",
+      "cat": "Dinero",
+      "forms": "er zahlt zurück, zahlte zurück, hat zurückgezahlt",
+      "ex": "Ich zahle dir das Geld nächste Woche zurück.",
+      "ex_es": "Te devuelvo el dinero la semana que viene."
+    },
+    {
+      "de": "der Überblick",
+      "es": "la visión de conjunto, el control",
+      "cat": "Dinero",
+      "ex": "Mit einer App behalte ich den Überblick über meine Ausgaben.",
+      "ex_es": "Con una aplicación no pierdo de vista mis gastos."
+    },
+    {
+      "de": "abschaffen",
+      "es": "abolir, suprimir",
+      "cat": "Dinero",
+      "forms": "er schafft ab, schaffte ab, hat abgeschafft",
+      "ex": "Sollte man das Bargeld abschaffen?",
+      "ex_es": "¿Habría que eliminar el dinero en efectivo?"
+    },
+    {
       "de": "der Verbraucher / die Verbraucherin",
       "pl": "die Verbraucher / die Verbraucherinnen",
       "es": "el consumidor / la consumidora",
@@ -356,6 +387,60 @@
       "ex_es": "He cancelado mi suscripción de streaming."
     },
     {
+      "de": "die Bestellung",
+      "pl": "die Bestellungen",
+      "es": "el pedido",
+      "cat": "Consumo",
+      "ex": "Leider muss ich mich über meine Bestellung beschweren.",
+      "ex_es": "Por desgracia tengo que quejarme de mi pedido."
+    },
+    {
+      "de": "die Ware",
+      "pl": "die Waren",
+      "es": "la mercancía, el artículo",
+      "cat": "Consumo",
+      "ex": "Ohne Quittung können wir die Ware nicht umtauschen.",
+      "ex_es": "Sin tique no podemos cambiar el artículo."
+    },
+    {
+      "de": "die Kundenkarte",
+      "pl": "die Kundenkarten",
+      "es": "la tarjeta de cliente",
+      "cat": "Consumo",
+      "ex": "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.",
+      "ex_es": "Con la tarjeta de cliente tiene un diez por ciento de descuento."
+    },
+    {
+      "de": "der Werktag",
+      "pl": "die Werktage",
+      "es": "el día laborable",
+      "cat": "Consumo",
+      "ex": "Die Lieferung dauert drei bis fünf Werktage.",
+      "ex_es": "La entrega tarda de tres a cinco días laborables."
+    },
+    {
+      "de": "die Beratung",
+      "pl": "die Beratungen",
+      "es": "el asesoramiento",
+      "cat": "Consumo",
+      "ex": "Die Beratung im Geschäft war sehr gut.",
+      "ex_es": "El asesoramiento en la tienda fue muy bueno."
+    },
+    {
+      "de": "das Rückgaberecht",
+      "es": "el derecho de devolución",
+      "cat": "Consumo",
+      "ex": "Sie haben ein Rückgaberecht von 30 Tagen.",
+      "ex_es": "Tiene un derecho de devolución de 30 días."
+    },
+    {
+      "de": "der Umtausch",
+      "es": "el cambio (de un artículo)",
+      "cat": "Consumo",
+      "ex": "Ein Umtausch ist nur mit Quittung möglich.",
+      "ex_es": "Solo se puede cambiar un artículo con el tique."
+    },
+    {
       "de": "sowohl … als auch",
       "es": "tanto … como",
       "cat": "Conectores",
@@ -396,6 +481,13 @@
       "cat": "Conectores",
       "ex": "Je mehr man verdient, desto mehr gibt man aus.",
       "ex_es": "Cuanto más se gana, más se gasta."
+    },
+    {
+      "de": "Je früher, desto besser!",
+      "es": "¡Cuanto antes, mejor!",
+      "cat": "Conectores",
+      "ex": "Wann soll ich die Tickets kaufen? – Je früher, desto besser!",
+      "ex_es": "¿Cuándo compro las entradas? – ¡Cuanto antes, mejor!"
     }
   ],
   "exercises": [

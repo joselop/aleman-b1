@@ -147,6 +147,22 @@
       "ex_es": "Al cabo de un año nos fuimos a vivir juntos."
     },
     {
+      "de": "die Schwiegermutter / der Schwiegervater",
+      "pl": "die Schwiegermütter / die Schwiegerväter",
+      "es": "la suegra / el suegro",
+      "cat": "Familia",
+      "ex": "Meine Schwiegermutter kocht jeden Sonntag für die ganze Familie.",
+      "ex_es": "Mi suegra cocina cada domingo para toda la familia."
+    },
+    {
+      "de": "die Patchworkfamilie",
+      "pl": "die Patchworkfamilien",
+      "es": "la familia reconstituida",
+      "cat": "Familia",
+      "ex": "In unserer Patchworkfamilie gibt es fünf Kinder.",
+      "ex_es": "En nuestra familia reconstituida hay cinco niños."
+    },
+    {
       "de": "die Beziehung",
       "pl": "die Beziehungen",
       "es": "la relación",

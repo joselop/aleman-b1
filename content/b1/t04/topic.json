@@ -37,6 +37,7 @@
     { "de": "abnehmen", "es": "adelgazar", "cat": "Alimentación", "forms": "er nimmt ab, nahm ab, hat abgenommen", "ex": "Seit ich mehr Gemüse esse, habe ich drei Kilo abgenommen.", "ex_es": "Desde que como más verdura he adelgazado tres kilos." },
     { "de": "zunehmen", "es": "engordar", "cat": "Alimentación", "forms": "er nimmt zu, nahm zu, hat zugenommen", "ex": "Im Winter nehme ich immer ein bisschen zu.", "ex_es": "En invierno siempre engordo un poco." },
     { "de": "die Diät", "pl": "die Diäten", "es": "la dieta (para adelgazar)", "cat": "Alimentación", "ex": "Sie macht schon wieder eine Diät.", "ex_es": "Otra vez está haciendo dieta." },
+    { "de": "kaum", "es": "apenas, casi no", "cat": "Alimentación", "ex": "Ich esse kaum Fleisch.", "ex_es": "Casi no como carne." },
     { "de": "das Übergewicht", "es": "el sobrepeso", "cat": "Salud", "ex": "Übergewicht ist schlecht für das Herz.", "ex_es": "El sobrepeso es malo para el corazón." },
     { "de": "die Waage", "pl": "die Waagen", "es": "la báscula", "cat": "Salud", "ex": "Ich stelle mich jeden Montag auf die Waage.", "ex_es": "Me peso todos los lunes." },
     { "de": "die Vorsorgeuntersuchung", "pl": "die Vorsorgeuntersuchungen", "es": "la revisión médica (preventiva)", "cat": "Salud", "ex": "Ich gehe einmal im Jahr zur Vorsorgeuntersuchung.", "ex_es": "Voy una vez al año a la revisión médica." },
@@ -57,6 +58,7 @@
     { "de": "sich vornehmen", "es": "proponerse", "cat": "Hábitos", "forms": "er nimmt sich vor, nahm sich vor, hat sich vorgenommen", "ex": "Ich habe mir vorgenommen, weniger Kaffee zu trinken.", "ex_es": "Me he propuesto beber menos café." },
     { "de": "vorhaben", "es": "tener previsto, planear", "cat": "Hábitos", "forms": "er hat vor, hatte vor, hat vorgehabt", "ex": "Hast du vor, nächstes Jahr einen Marathon zu laufen?", "ex_es": "¿Tienes previsto correr un maratón el año que viene?" },
     { "de": "ausprobieren", "es": "probar (algo nuevo)", "cat": "Hábitos", "forms": "er probiert aus, probierte aus, hat ausprobiert", "ex": "Es macht mir Spaß, neue Rezepte auszuprobieren.", "ex_es": "Me divierte probar recetas nuevas." },
+    { "de": "Wie wäre es mit …?", "es": "¿qué tal…? (para proponer)", "cat": "Planificar", "ex": "Wie wäre es mit einem Kochkurs am Samstag?", "ex_es": "¿Qué tal un curso de cocina el sábado?" },
     { "de": "um … zu + Infinitiv", "es": "para + infinitivo (mismo sujeto)", "cat": "Gramática", "ex": "Ich jogge jeden Morgen, um fit zu bleiben.", "ex_es": "Corro cada mañana para mantenerme en forma." },
     { "de": "damit", "es": "para que (sujetos distintos)", "cat": "Gramática", "ex": "Ich koche viel Gemüse, damit die Kinder gesund essen.", "ex_es": "Cocino mucha verdura para que los niños coman sano." },
     { "de": "wozu?", "es": "¿para qué?", "cat": "Gramática", "ex": "Wozu brauchst du die Waage? – Um mein Gewicht zu kontrollieren.", "ex_es": "¿Para qué necesitas la báscula? – Para controlar mi peso." }

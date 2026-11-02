@@ -226,6 +226,22 @@
       "ex_es": "¿Me puedes recomendar un buen libro?"
     },
     {
+      "de": "erwarten",
+      "es": "esperar (contar con algo)",
+      "cat": "Opinar",
+      "forms": "er erwartet, erwartete, hat erwartet",
+      "ex": "Von dem Film hätte ich mir mehr erwartet.",
+      "ex_es": "De la película esperaba más."
+    },
+    {
+      "de": "überraschen",
+      "es": "sorprender",
+      "cat": "Opinar",
+      "forms": "er überrascht, überraschte, hat überrascht",
+      "ex": "Das Ende des Romans hat mich überrascht.",
+      "ex_es": "El final de la novela me sorprendió."
+    },
+    {
       "de": "die Veranstaltung",
       "pl": "die Veranstaltungen",
       "es": "el evento, el acto",
@@ -358,6 +374,13 @@
       "forms": "er engagiert sich, engagierte sich, hat sich engagiert",
       "ex": "Viele Menschen engagieren sich in einem Verein.",
       "ex_es": "Mucha gente colabora en una asociación."
+    },
+    {
+      "de": "regelmäßig",
+      "es": "con regularidad, regularmente",
+      "cat": "Ocio",
+      "ex": "Ich gehe regelmäßig ins Theater.",
+      "ex_es": "Voy al teatro con regularidad."
     },
     {
       "de": "der Vorschlag",

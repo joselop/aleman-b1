@@ -29,6 +29,8 @@
     { "de": "einstellen", "es": "contratar", "cat": "Candidatura", "forms": "er stellt ein, stellte ein, hat eingestellt", "ex": "Die Firma stellt dieses Jahr zehn neue Mitarbeiter ein.", "ex_es": "La empresa contrata este año a diez empleados nuevos." },
     { "de": "sich vorstellen", "es": "presentarse", "cat": "Candidatura", "forms": "er stellt sich vor, stellte sich vor, hat sich vorgestellt", "ex": "Können Sie sich bitte kurz vorstellen?", "ex_es": "¿Puede presentarse brevemente, por favor?" },
     { "de": "fließend", "es": "con fluidez", "cat": "Candidatura", "ex": "Sie spricht fließend Französisch.", "ex_es": "Habla francés con fluidez." },
+    { "de": "die Bewerbungsunterlagen (Pl.)", "es": "la documentación de la candidatura", "cat": "Candidatura", "ex": "Bitte schicken Sie Ihre vollständigen Bewerbungsunterlagen per E-Mail.", "ex_es": "Por favor, envíe su documentación completa por correo electrónico." },
+    { "de": "die Geduld", "es": "la paciencia", "cat": "Candidatura", "ex": "Für diese Arbeit braucht man viel Geduld.", "ex_es": "Para este trabajo hace falta mucha paciencia." },
     { "de": "das Unternehmen", "pl": "die Unternehmen", "es": "la empresa", "cat": "Empresa", "ex": "Das Unternehmen hat Standorte in Zürich und Basel.", "ex_es": "La empresa tiene sedes en Zúrich y Basilea." },
     { "de": "der Betrieb", "pl": "die Betriebe", "es": "la empresa, el negocio (sobre todo pequeño o mediano)", "cat": "Empresa", "ex": "Er macht seine Lehre in einem kleinen Betrieb.", "ex_es": "Hace su aprendizaje en una empresa pequeña." },
     { "de": "die Abteilung", "pl": "die Abteilungen", "es": "el departamento", "cat": "Empresa", "ex": "In welcher Abteilung arbeiten Sie?", "ex_es": "¿En qué departamento trabaja?" },
@@ -39,6 +41,7 @@
     { "de": "die Branche", "pl": "die Branchen", "es": "el sector", "cat": "Empresa", "ex": "In der Pharmabranche gibt es in Basel viele Stellen.", "ex_es": "En el sector farmacéutico hay muchos puestos en Basilea." },
     { "de": "der Arbeitsplatz", "pl": "die Arbeitsplätze", "es": "el puesto de trabajo; el lugar de trabajo", "cat": "Empresa", "ex": "Mein Arbeitsplatz ist direkt am Fenster.", "ex_es": "Mi puesto está justo al lado de la ventana." },
     { "de": "das Arbeitsklima", "es": "el ambiente de trabajo", "cat": "Empresa", "ex": "Das Arbeitsklima in unserer Abteilung ist super.", "ex_es": "El ambiente de trabajo en nuestro departamento es estupendo." },
+    { "de": "die Leitung", "pl": "die Leitungen", "es": "la dirección (de un equipo o empresa)", "cat": "Empresa", "ex": "Frau Huber hat die Leitung der Abteilung übernommen.", "ex_es": "La señora Huber ha asumido la dirección del departamento." },
     { "de": "die Probezeit", "pl": "die Probezeiten", "es": "el periodo de prueba", "cat": "Condiciones", "ex": "Die Probezeit dauert drei Monate.", "ex_es": "El periodo de prueba dura tres meses." },
     { "de": "die Arbeitszeit", "pl": "die Arbeitszeiten", "es": "el horario de trabajo, la jornada", "cat": "Condiciones", "ex": "Wir haben flexible Arbeitszeiten.", "ex_es": "Tenemos horario flexible." },
     { "de": "der Lohn", "pl": "die Löhne", "es": "el sueldo, el salario", "cat": "Condiciones", "ex": "In der Schweiz sind die Löhne hoch, aber das Leben ist teuer.", "ex_es": "En Suiza los sueldos son altos, pero la vida es cara." },
@@ -61,7 +64,8 @@
     { "de": "die Anrede", "pl": "die Anreden", "es": "el saludo, la fórmula de tratamiento", "cat": "Correo formal", "ex": "Die Anrede in einem formellen Brief ist „Sehr geehrte …“.", "ex_es": "El saludo en una carta formal es «Sehr geehrte…»." },
     { "de": "der Anhang", "pl": "die Anhänge", "es": "el archivo adjunto, el anexo", "cat": "Correo formal", "ex": "Im Anhang finden Sie meinen Lebenslauf.", "ex_es": "Adjunto encontrará mi CV." },
     { "de": "Sehr geehrte Damen und Herren", "es": "Estimados señores", "cat": "Correo formal", "ex": "Sehr geehrte Damen und Herren, ich interessiere mich für die Stelle als Verkäuferin.", "ex_es": "Estimados señores: me interesa el puesto de dependienta." },
-    { "de": "Mit freundlichen Grüßen", "es": "Atentamente", "cat": "Correo formal", "ex": "Einen formellen Brief beende ich immer mit „Mit freundlichen Grüßen“.", "ex_es": "Una carta formal siempre la termino con «Atentamente»." }
+    { "de": "Mit freundlichen Grüßen", "es": "Atentamente", "cat": "Correo formal", "ex": "Einen formellen Brief beende ich immer mit „Mit freundlichen Grüßen“.", "ex_es": "Una carta formal siempre la termino con «Atentamente»." },
+    { "de": "mitteilen", "es": "comunicar, informar", "cat": "Correo formal", "forms": "er teilt mit, teilte mit, hat mitgeteilt", "ex": "Könnten Sie mir bitte mitteilen, wann das Gespräch stattfindet?", "ex_es": "¿Podría comunicarme, por favor, cuándo tiene lugar la entrevista?" }
   ],
   "exercises": [
     { "id": "e01", "type": "match", "title": "El mundo laboral", "instructions": "Relaciona cada palabra con su traducción.", "pairs": [

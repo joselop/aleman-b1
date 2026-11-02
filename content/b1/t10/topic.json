@@ -186,6 +186,53 @@
       "ex_es": "Terminó la carrera el año pasado."
     },
     {
+      "de": "die Sekundarschule",
+      "pl": "die Sekundarschulen",
+      "es": "la escuela secundaria (en Suiza)",
+      "cat": "Estudios",
+      "ex": "Nach der Sekundarschule möchte er eine Lehre machen.",
+      "ex_es": "Después de la secundaria quiere hacer una FP."
+    },
+    {
+      "de": "die Berufsmaturität",
+      "es": "el bachillerato profesional (en Suiza)",
+      "cat": "Estudios",
+      "ex": "Mit der Berufsmaturität kann sie an einer Fachhochschule studieren.",
+      "ex_es": "Con el bachillerato profesional puede estudiar en una Fachhochschule."
+    },
+    {
+      "de": "der/die Lernende",
+      "pl": "die Lernenden",
+      "es": "el / la aprendiz (en Suiza)",
+      "cat": "Estudios",
+      "ex": "Unsere Firma bildet jedes Jahr drei Lernende aus.",
+      "ex_es": "Nuestra empresa forma cada año a tres aprendices."
+    },
+    {
+      "de": "der/die Auszubildende (Azubi)",
+      "pl": "die Auszubildenden (Azubis)",
+      "es": "el / la aprendiz (en Alemania)",
+      "cat": "Estudios",
+      "ex": "Als Azubi verdient man noch nicht viel.",
+      "ex_es": "Como aprendiz todavía no se gana mucho."
+    },
+    {
+      "de": "der/die Erwachsene",
+      "pl": "die Erwachsenen",
+      "es": "el / la adulto/a",
+      "cat": "Estudios",
+      "ex": "Die Volkshochschule bietet Kurse für Erwachsene an.",
+      "ex_es": "La escuela de adultos ofrece cursos para adultos."
+    },
+    {
+      "de": "der/die Jugendliche",
+      "pl": "die Jugendlichen",
+      "es": "el / la joven, el / la adolescente",
+      "cat": "Estudios",
+      "ex": "Viele Jugendliche in der Schweiz machen eine Lehre.",
+      "ex_es": "Muchos jóvenes en Suiza hacen una FP."
+    },
+    {
       "de": "die Kenntnisse (Pl.)",
       "es": "los conocimientos",
       "cat": "Aprender",
@@ -333,6 +380,61 @@
       "ex_es": "Es muy aplicada y estudia todos los días."
     },
     {
+      "de": "die Möglichkeit",
+      "pl": "die Möglichkeiten",
+      "es": "la posibilidad",
+      "cat": "Aprender",
+      "ex": "Im Kurs hat man die Möglichkeit, viel zu sprechen.",
+      "ex_es": "En el curso se tiene la posibilidad de hablar mucho."
+    },
+    {
+      "de": "die Schwierigkeit",
+      "pl": "die Schwierigkeiten",
+      "es": "la dificultad",
+      "cat": "Aprender",
+      "ex": "Am Anfang hatte ich große Schwierigkeiten mit der Aussprache.",
+      "ex_es": "Al principio tuve grandes dificultades con la pronunciación."
+    },
+    {
+      "de": "die Vorbereitung",
+      "pl": "die Vorbereitungen",
+      "es": "la preparación",
+      "cat": "Aprender",
+      "ex": "Die Vorbereitung auf die Prüfung dauert drei Monate.",
+      "ex_es": "La preparación para el examen dura tres meses."
+    },
+    {
+      "de": "die Freiheit",
+      "pl": "die Freiheiten",
+      "es": "la libertad",
+      "cat": "Aprender",
+      "ex": "Beim Fernstudium hat man viel Freiheit.",
+      "ex_es": "En los estudios a distancia se tiene mucha libertad."
+    },
+    {
+      "de": "die Karteikarte",
+      "pl": "die Karteikarten",
+      "es": "la ficha, la tarjeta (para estudiar)",
+      "cat": "Aprender",
+      "ex": "Zum Wiederholen benutze ich Karteikarten.",
+      "ex_es": "Para repasar uso fichas."
+    },
+    {
+      "de": "übersetzen",
+      "es": "traducir",
+      "cat": "Aprender",
+      "forms": "er übersetzt, übersetzte, hat übersetzt",
+      "ex": "Kannst du mir diesen Satz übersetzen?",
+      "ex_es": "¿Me puedes traducir esta frase?"
+    },
+    {
+      "de": "Übung macht den Meister.",
+      "es": "La práctica hace al maestro.",
+      "cat": "Aprender",
+      "ex": "Du sprichst schon viel besser! Übung macht den Meister.",
+      "ex_es": "¡Ya hablas mucho mejor! La práctica hace al maestro."
+    },
+    {
       "de": "die Präsentation",
       "pl": "die Präsentationen",
       "es": "la presentación",
@@ -377,6 +479,42 @@
       "cat": "Presentar",
       "ex": "Vielen Dank für Ihre Aufmerksamkeit!",
       "ex_es": "¡Muchas gracias por su atención!"
+    },
+    {
+      "de": "das Heimatland",
+      "pl": "die Heimatländer",
+      "es": "el país de origen",
+      "cat": "Presentar",
+      "ex": "In meinem Heimatland ist das ganz anders.",
+      "ex_es": "En mi país es muy distinto."
+    },
+    {
+      "de": "ähnlich (wie)",
+      "es": "parecido (a)",
+      "cat": "Presentar",
+      "ex": "In Spanien ist die Situation ähnlich wie hier.",
+      "ex_es": "En España la situación es parecida a la de aquí."
+    },
+    {
+      "de": "im Vergleich zu (+ Dat.)",
+      "es": "en comparación con",
+      "cat": "Presentar",
+      "ex": "Im Vergleich zur Schweiz studieren in Spanien mehr junge Leute.",
+      "ex_es": "En comparación con Suiza, en España estudian más jóvenes."
+    },
+    {
+      "de": "auf der einen Seite … auf der anderen Seite",
+      "es": "por un lado… por otro",
+      "cat": "Presentar",
+      "ex": "Auf der einen Seite ist die Lehre praktisch, auf der anderen Seite ist sie anstrengend.",
+      "ex_es": "Por un lado la FP es práctica, por otro es agotadora."
+    },
+    {
+      "de": "zum Schluss",
+      "es": "para terminar, al final",
+      "cat": "Presentar",
+      "ex": "Zum Schluss sage ich meine Meinung.",
+      "ex_es": "Para terminar, doy mi opinión."
     }
   ],
   "exercises": [

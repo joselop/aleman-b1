@@ -225,6 +225,36 @@
       "ex_es": "En Zúrich voy en bici a casi todas partes."
     },
     {
+      "de": "der ÖV (öffentlicher Verkehr)",
+      "es": "el transporte público (en Suiza)",
+      "cat": "Transporte",
+      "ex": "In Zürich kommt man mit dem ÖV überallhin.",
+      "ex_es": "En Zúrich se llega a todas partes en transporte público."
+    },
+    {
+      "de": "die Störung",
+      "pl": "die Störungen",
+      "es": "la avería, la incidencia",
+      "cat": "Transporte",
+      "ex": "Wegen einer Störung fährt der Zug heute auf Gleis 7 ab.",
+      "ex_es": "Por una avería, hoy el tren sale de la vía 7."
+    },
+    {
+      "de": "laut (+ Dat./Gen.)",
+      "es": "según",
+      "cat": "Transporte",
+      "ex": "Laut Fahrplan fährt der Zug um 8.32 Uhr ab.",
+      "ex_es": "Según el horario, el tren sale a las 8:32."
+    },
+    {
+      "de": "erreichen",
+      "es": "alcanzar, llegar a tiempo a; localizar (a alguien)",
+      "cat": "Transporte",
+      "forms": "er erreicht, erreichte, hat erreicht",
+      "ex": "Wenn wir uns beeilen, erreichen wir den Zug noch.",
+      "ex_es": "Si nos damos prisa, todavía cogemos el tren."
+    },
+    {
       "de": "die Grenze",
       "pl": "die Grenzen",
       "es": "la frontera",
@@ -310,6 +340,14 @@
       "ex_es": "En Semana Santa no nos vamos de viaje."
     },
     {
+      "de": "losfahren",
+      "es": "salir, ponerse en marcha (en un vehículo)",
+      "cat": "Viajes",
+      "forms": "er fährt los, fuhr los, ist losgefahren",
+      "ex": "Wir fahren am Samstag um sechs Uhr los.",
+      "ex_es": "Salimos el sábado a las seis."
+    },
+    {
       "de": "landen",
       "es": "aterrizar",
       "cat": "Avión",
@@ -339,6 +377,30 @@
       "cat": "Avión",
       "ex": "Ich reise nur mit Handgepäck.",
       "ex_es": "Viajo solo con equipaje de mano."
+    },
+    {
+      "de": "der Abflug",
+      "pl": "die Abflüge",
+      "es": "la salida (de un vuelo), el despegue",
+      "cat": "Avión",
+      "ex": "Wir müssen zwei Stunden vor dem Abflug am Flughafen sein.",
+      "ex_es": "Tenemos que estar en el aeropuerto dos horas antes de la salida."
+    },
+    {
+      "de": "die Flüssigkeit",
+      "pl": "die Flüssigkeiten",
+      "es": "el líquido",
+      "cat": "Avión",
+      "ex": "Im Handgepäck sind nur kleine Flüssigkeiten erlaubt.",
+      "ex_es": "En el equipaje de mano solo se permiten líquidos pequeños."
+    },
+    {
+      "de": "halten von (+ Dat.)",
+      "es": "opinar de, pensar de",
+      "cat": "Planificar",
+      "forms": "er hält, hielt, hat gehalten",
+      "ex": "Was hältst du davon, wenn wir den Bus nehmen?",
+      "ex_es": "¿Qué te parece si cogemos el autobús?"
     },
     {
       "de": "trotz (+ Gen)",

@@ -148,6 +148,46 @@
       "ex_es": "Miles de personas participaron en la manifestación."
     },
     {
+      "de": "die Demokratie",
+      "pl": "die Demokratien",
+      "es": "la democracia",
+      "cat": "Política",
+      "ex": "In der Schweiz gibt es eine direkte Demokratie.",
+      "ex_es": "En Suiza hay una democracia directa."
+    },
+    {
+      "de": "die Initiative",
+      "pl": "die Initiativen",
+      "es": "la iniciativa (popular)",
+      "cat": "Política",
+      "ex": "Am Sonntag wird über die Initiative abgestimmt.",
+      "ex_es": "El domingo se vota la iniciativa."
+    },
+    {
+      "de": "das Referendum",
+      "pl": "die Referenden",
+      "es": "el referéndum",
+      "cat": "Política",
+      "ex": "Gegen das neue Gesetz wurde ein Referendum ergriffen.",
+      "ex_es": "Contra la nueva ley se ha presentado un referéndum."
+    },
+    {
+      "de": "beschließen",
+      "es": "decidir, aprobar (una ley, una medida)",
+      "cat": "Política",
+      "forms": "er beschließt, beschloss, hat beschlossen",
+      "ex": "Die Regierung hat ein neues Gesetz beschlossen.",
+      "ex_es": "El Gobierno ha aprobado una nueva ley."
+    },
+    {
+      "de": "die Reform",
+      "pl": "die Reformen",
+      "es": "la reforma",
+      "cat": "Política",
+      "ex": "Die geplante Reform wird stark kritisiert.",
+      "ex_es": "La reforma prevista recibe muchas críticas."
+    },
+    {
       "de": "die Bevölkerung",
       "es": "la población",
       "cat": "Sociedad",
@@ -244,6 +284,36 @@
       "ex_es": "El transporte público en Suiza es muy bueno."
     },
     {
+      "de": "der/die Arbeitslose",
+      "pl": "die Arbeitslosen",
+      "es": "el desempleado / la desempleada",
+      "cat": "Sociedad",
+      "ex": "Die Zahl der Arbeitslosen ist gesunken.",
+      "ex_es": "El número de desempleados ha bajado."
+    },
+    {
+      "de": "die Lebenshaltungskosten (Pl.)",
+      "es": "el coste de la vida",
+      "cat": "Sociedad",
+      "ex": "Die Lebenshaltungskosten sind stark gestiegen.",
+      "ex_es": "El coste de la vida ha subido mucho."
+    },
+    {
+      "de": "der Klimaschutz",
+      "es": "la protección del clima",
+      "cat": "Sociedad",
+      "ex": "Viele junge Leute engagieren sich für den Klimaschutz.",
+      "ex_es": "Muchos jóvenes se comprometen con la protección del clima."
+    },
+    {
+      "de": "die Kita",
+      "pl": "die Kitas",
+      "es": "la guardería",
+      "cat": "Sociedad",
+      "ex": "In Zürich ist ein Platz in der Kita sehr teuer.",
+      "ex_es": "En Zúrich una plaza de guardería es muy cara."
+    },
+    {
       "de": "aktuell",
       "es": "actual, de actualidad",
       "cat": "Noticias",
@@ -315,6 +385,30 @@
       "ex_es": "He leído tu comentario en el foro."
     },
     {
+      "de": "die Situation",
+      "pl": "die Situationen",
+      "es": "la situación",
+      "cat": "Noticias",
+      "ex": "Die Situation hat sich verbessert.",
+      "ex_es": "La situación ha mejorado."
+    },
+    {
+      "de": "diskutieren",
+      "es": "debatir, discutir",
+      "cat": "Noticias",
+      "forms": "er diskutiert, diskutierte, hat diskutiert",
+      "ex": "Das Thema wird gerade viel diskutiert.",
+      "ex_es": "El tema se está debatiendo mucho ahora."
+    },
+    {
+      "de": "kritisieren",
+      "es": "criticar",
+      "cat": "Noticias",
+      "forms": "er kritisiert, kritisierte, hat kritisiert",
+      "ex": "Viele Bürger kritisieren die hohen Mieten.",
+      "ex_es": "Muchos ciudadanos critican los alquileres altos."
+    },
+    {
       "de": "steigen",
       "es": "subir, aumentar",
       "cat": "Cambios",
@@ -376,6 +470,43 @@
       "forms": "er stimmt zu, stimmte zu, hat zugestimmt",
       "ex": "Da muss ich dir zustimmen.",
       "ex_es": "En eso tengo que darte la razón."
+    },
+    {
+      "de": "betreffen",
+      "es": "afectar, concernir",
+      "cat": "Opinar",
+      "forms": "es betrifft, betraf, hat betroffen",
+      "ex": "Das Thema betrifft uns alle.",
+      "ex_es": "El tema nos afecta a todos."
+    },
+    {
+      "de": "das Argument",
+      "pl": "die Argumente",
+      "es": "el argumento",
+      "cat": "Opinar",
+      "ex": "Ein wichtiges Argument dafür ist, dass es billiger ist.",
+      "ex_es": "Un argumento importante a favor es que es más barato."
+    },
+    {
+      "de": "Dagegen spricht, dass …",
+      "es": "en contra habla el hecho de que…",
+      "cat": "Opinar",
+      "ex": "Dagegen spricht, dass die Mieten weiter steigen.",
+      "ex_es": "En contra habla el hecho de que los alquileres siguen subiendo."
+    },
+    {
+      "de": "zusammenfassend",
+      "es": "en resumen",
+      "cat": "Opinar",
+      "ex": "Zusammenfassend kann man sagen, dass das Problem wächst.",
+      "ex_es": "En resumen, se puede decir que el problema crece."
+    },
+    {
+      "de": "gespannt sein (auf + Akk.)",
+      "es": "tener curiosidad (por), estar expectante",
+      "cat": "Opinar",
+      "ex": "Ich bin gespannt auf eure Meinungen.",
+      "ex_es": "Tengo curiosidad por leer vuestras opiniones."
     }
   ],
   "exercises": [

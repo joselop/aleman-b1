@@ -307,6 +307,35 @@
       "ex_es": "Por tirar basura en el bosque hay una multa alta."
     },
     {
+      "de": "das Plastik",
+      "es": "el plástico",
+      "cat": "Reciclaje",
+      "ex": "Ich versuche, Plastik zu vermeiden.",
+      "ex_es": "Intento evitar el plástico."
+    },
+    {
+      "de": "das Altglas",
+      "es": "el vidrio para reciclar",
+      "cat": "Reciclaje",
+      "ex": "Das Altglas wird nach Farben getrennt.",
+      "ex_es": "El vidrio se separa por colores."
+    },
+    {
+      "de": "der Karton",
+      "pl": "die Kartons",
+      "es": "el cartón; la caja de cartón",
+      "cat": "Reciclaje",
+      "ex": "Karton muss gebündelt an die Straße gestellt werden.",
+      "ex_es": "El cartón hay que sacarlo atado a la calle."
+    },
+    {
+      "de": "das Grüngut",
+      "es": "los residuos orgánicos (de jardín y cocina)",
+      "cat": "Reciclaje",
+      "ex": "Kartoffelschalen gehören ins Grüngut.",
+      "ex_es": "Las pieles de patata van a los residuos orgánicos."
+    },
+    {
       "de": "nachhaltig",
       "es": "sostenible",
       "cat": "Consumo responsable",
@@ -396,6 +425,20 @@
       "cat": "Futuro y medidas",
       "ex": "Was hältst du von einem Verbot von Plastiktüten?",
       "ex_es": "¿Qué te parece una prohibición de las bolsas de plástico?"
+    },
+    {
+      "de": "unterm Strich",
+      "es": "en resumidas cuentas, al final",
+      "cat": "Futuro y medidas",
+      "ex": "Unterm Strich ist das Elektroauto besser für die Umwelt.",
+      "ex_es": "En resumidas cuentas, el coche eléctrico es mejor para el medio ambiente."
+    },
+    {
+      "de": "letztendlich",
+      "es": "al fin y al cabo, finalmente",
+      "cat": "Futuro y medidas",
+      "ex": "Letztendlich muss jeder selbst entscheiden.",
+      "ex_es": "Al fin y al cabo, cada uno tiene que decidir por sí mismo."
     }
   ],
   "exercises": [
