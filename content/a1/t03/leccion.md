@@ -19,6 +19,13 @@ En este tema hablas de tu familia y de tus amigos: quién es quién, cómo se ll
 - **Mann** y **Frau** significan hombre/mujer y también marido/esposa: [[de:Das ist mein Mann.::Este es mi marido.]]
 - **Opa** y **Oma** son las formas cariñosas y las más usadas.
 
+### Más vocabulario: familia
+
+| Alemán | Español |
+|---|---|
+| [[de:die Familie]] (Pl. die Familien) | la familia |
+| [[de:das Baby]] (Pl. die Babys) | el bebé |
+
 ### Estado civil (*der Familienstand*)
 
 [[de:ledig]] soltero/a · [[de:verheiratet]] casado/a · [[de:geschieden]] divorciado/a · [[de:verwitwet]] viudo/a
@@ -26,6 +33,17 @@ En este tema hablas de tu familia y de tus amigos: quién es quién, cómo se ll
 - [[de:Bist du verheiratet?::¿Estás casado/a?]] — [[de:Nein, ich bin ledig. Aber ich habe eine Freundin.::No, estoy soltero. Pero tengo novia.]]
 
 Ojo: **der Freund / die Freundin** significa *amigo/amiga*, pero con el posesivo (**mein Freund, meine Freundin**) casi siempre se entiende *mi novio / mi novia*. Para un amigo sin más, se dice *ein Freund von mir* o *ein guter Freund*.
+
+### Más vocabulario: amigos y otras personas
+
+| Alemán | Español |
+|---|---|
+| [[de:der Kollege / die Kollegin]] (Pl. die Kollegen / die Kolleginnen) | el/la compañero/a de trabajo |
+| [[de:der Nachbar / die Nachbarin]] (Pl. die Nachbarn / die Nachbarinnen) | el/la vecino/a |
+| [[de:der Junge]] (Pl. die Jungen) | el chico, el niño |
+| [[de:der Hund]] (Pl. die Hunde) | el perro |
+| [[de:die Katze]] (Pl. die Katzen) | el gato |
+| [[de:das Foto]] (Pl. die Fotos) | la foto |
 
 ## 2. Los artículos: der, die, das
 
@@ -121,6 +139,14 @@ Frases útiles para preguntar:
 - [[de:Wo wohnen deine Eltern?::¿Dónde viven tus padres?]]
 
 Fíjate en **Das ist** (singular) y **Das sind** (plural): *Das **sind** meine Eltern.*
+
+### Más vocabulario: palabras útiles
+
+| Alemán | Español |
+|---|---|
+| [[de:nett]] | simpático, amable |
+| [[de:zusammen]] | juntos |
+| [[de:allein]] | solo (sin compañía) |
 
 ## 6. Errores típicos de hispanohablantes
 

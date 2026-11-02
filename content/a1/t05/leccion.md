@@ -45,6 +45,8 @@ Cuando el adjetivo va detrás de *sein* (o de *finden*), **no cambia nunca**: ni
 | ruhig | tranquilo | laut | ruidoso |
 | modern | moderno | gemütlich | acogedor |
 | praktisch | práctico | zentral | céntrico |
+| [[de:bequem]] | cómodo | [[de:kaputt]] | roto, estropeado |
+| [[de:frei]] | libre, disponible | | |
 
 Para matizar: **sehr** (muy) · **ziemlich** (bastante) · **zu** (demasiado) · **nicht so** (no muy):
 
@@ -55,6 +57,7 @@ Para matizar: **sehr** (muy) · **ziemlich** (bastante) · **zu** (demasiado) ·
 
 [[de:rot]] rojo · [[de:blau]] azul · [[de:grün]] verde · [[de:gelb]] amarillo · [[de:schwarz]] negro · [[de:weiß]] blanco · [[de:grau]] gris · [[de:braun]] marrón · [[de:orange]] naranja · [[de:rosa]] rosa
 
+- [[de:die Farbe::el color]] (Pl. die Farben)
 - [[de:Das Sofa ist blau.::El sofá es azul.]] · [[de:Welche Farbe hat der Tisch? – Er ist braun.::¿De qué color es la mesa? – Es marrón.]]
 
 ## 4. *es gibt*: hay
@@ -112,6 +115,13 @@ Los anuncios usan muchas abreviaturas:
 > **3 Zi., Kü., Bad, Balkon, 75 m², 2. OG, ruhig und hell. Miete 1450 Fr. + 200 Fr. NK. Ab sofort frei. Tel. 044 312 45 67**
 
 [[de:Die Wohnung hat drei Zimmer und einen Balkon. Sie ist ruhig und hell. Die Miete ist 1450 Franken plus Nebenkosten.::El piso tiene tres habitaciones y un balcón. Es tranquilo y luminoso. El alquiler es de 1450 francos más gastos.]]
+
+### Más vocabulario: buscar piso
+
+| Alemán | Español |
+|---|---|
+| [[de:suchen]] | buscar |
+| [[de:mieten]] (ich miete, du mietest, er mietet) | alquilar |
 
 ## 7. Errores típicos de hispanohablantes
 

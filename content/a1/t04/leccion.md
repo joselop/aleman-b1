@@ -33,8 +33,18 @@ En los países germanohablantes se come pronto: el *Mittagessen* hacia las 12:00
 | [[de:die Tomate]] | el tomate | | |
 | [[de:der Salat]] | la ensalada; la lechuga | | |
 | [[de:der Kuchen]] | el pastel | | |
+| [[de:die Suppe]] | la sopa | | |
 
 Fíjate: **das Gemüse** y **das Obst** son singulares aunque signifiquen "verduras" y "frutas".
+
+### Más vocabulario: describir la comida
+
+| Alemán | Español |
+|---|---|
+| [[de:lecker]] | rico, sabroso |
+| [[de:heiß / kalt]] | caliente / frío |
+| [[de:gesund]] | sano |
+| [[de:süß]] | dulce |
 
 ## 3. Los verbos: essen, trinken, nehmen
 
@@ -52,6 +62,16 @@ Fíjate: **das Gemüse** y **das Obst** son singulares aunque signifiquen "verdu
 - [[de:Was isst du zum Frühstück?::¿Qué desayunas?]] — [[de:Ich esse ein Brötchen mit Käse.::Me como un panecillo con queso.]]
 - [[de:Er trinkt keinen Kaffee.::No toma café.]]
 - [[de:Ich nehme die Suppe.]] (en el restaurante: "tomaré la sopa")
+
+### Más vocabulario: otros verbos
+
+| Alemán | Español |
+|---|---|
+| [[de:mögen]] (ich mag, du magst, er mag) | gustar (en general) |
+| [[de:kaufen]] | comprar |
+| [[de:brauchen]] | necesitar |
+| [[de:kochen]] | cocinar |
+| [[de:bezahlen / zahlen]] | pagar |
 
 ## 4. *möchte*: pedir de forma educada
 
@@ -73,6 +93,13 @@ Fíjate: **das Gemüse** y **das Obst** son singulares aunque signifiquen "verdu
 Con otro verbo, el infinitivo va **al final** de la frase: [[de:Ich möchte heute Fisch essen.::Hoy quiero comer pescado.]] Esta "pinza" (verbo conjugado en posición 2 + infinitivo al final) la verás muchísimo.
 
 **möchte** ≠ **mag**: *Ich möchte einen Tee* = quiero un té (ahora). *Ich mag Tee* = me gusta el té (en general). [[de:Ich mag keinen Fisch.::No me gusta el pescado.]]
+
+### Más vocabulario: frases útiles
+
+| Alemán | Español |
+|---|---|
+| [[de:noch]] | todavía, aún; más |
+| [[de:gern]] | con gusto; (verbo + gern) gustar hacer algo |
 
 ## 5. El acusativo
 
@@ -123,6 +150,12 @@ No hay una regla única: **aprende cada sustantivo con su artículo y su plural*
 > [[de:Zusammen oder getrennt?::¿Junto o por separado?]]
 > [[de:Getrennt, bitte.::Por separado, por favor.]]
 > [[de:Das macht 7,80 Euro.::Son 7,80 euros.]]
+
+### Más vocabulario: en el restaurante
+
+| Alemán | Español |
+|---|---|
+| [[de:die Speisekarte]] (Pl. die Speisekarten) | la carta, el menú |
 
 Envases y cantidades muy frecuentes: [[de:eine Flasche Wasser::una botella de agua]] · [[de:ein Glas Wein::una copa de vino]] · [[de:eine Tasse Kaffee::una taza de café]] · [[de:ein Stück Kuchen::un trozo de pastel]] · [[de:ein Kilo Äpfel::un kilo de manzanas]]. Fíjate: en alemán **no hay "de"**: *eine Flasche Wasser* (una botella de agua).
 

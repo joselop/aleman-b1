@@ -28,6 +28,15 @@ Ojo: **Guten Abend** es para *saludar* por la noche; **Gute Nacht** solo para *d
 - Respuestas: [[de:Sehr gut, danke!::¡Muy bien, gracias!]] · [[de:Gut, danke.::Bien, gracias.]] · [[de:Es geht.]] (regular) · [[de:Nicht so gut.::No muy bien.]]
 - Devolver la pregunta: [[de:Und Ihnen?::¿Y usted?]] (formal) · [[de:Und dir?::¿Y tú?]] (informal)
 
+### Más vocabulario: cortesía
+
+| Alemán | Español |
+|---|---|
+| [[de:danke]] | gracias |
+| [[de:bitte]] | por favor / de nada |
+| [[de:Entschuldigung!]] | ¡Perdón! / Disculpe |
+| [[de:nein]] | no |
+
 ## 2. *du* o *Sie*
 
 El alemán distingue, igual que el español, entre tú y usted, pero **se usa *Sie* mucho más** que "usted" en España.
@@ -57,6 +66,15 @@ Fíjate en las preposiciones, que no se traducen igual que en español:
 - **in** = en (lugar donde vives): *Ich wohne **in** Zürich.*
 - Algunos países llevan artículo: [[de:Ich komme aus der Schweiz.::Soy de Suiza.]] (lo verás a fondo en el tema 2).
 
+### Más vocabulario: países
+
+| Alemán | Español |
+|---|---|
+| [[de:Deutschland]] | Alemania |
+| [[de:Österreich]] | Austria |
+| [[de:Italien]] | Italia |
+| [[de:Frankreich]] | Francia |
+
 ### Un diálogo completo
 
 > [[de:Guten Tag! Ich heiße Martin Keller. Wie heißen Sie?::¡Buenos días! Me llamo Martin Keller. ¿Cómo se llama usted?]]
@@ -66,6 +84,17 @@ Fíjate en las preposiciones, que no se traducen igual que en español:
 > [[de:Ich komme aus Deutschland. Aber ich wohne jetzt in Zürich.::Soy de Alemania. Pero ahora vivo en Zúrich.]]
 
 *Herr* = señor, *Frau* = señora (y también "mujer"). Se usan siempre con el **apellido**: *Herr Keller*, nunca *Herr Martin*.
+
+### Más vocabulario: nombres y personas del curso
+
+| Alemán | Español |
+|---|---|
+| [[de:der Name]] (Pl. die Namen) | el nombre |
+| [[de:der Familienname]] (Pl. die Familiennamen) | el apellido |
+| [[de:der Lehrer / die Lehrerin]] (Pl. die Lehrer / die Lehrerinnen) | el profesor / la profesora |
+| [[de:der Kursleiter / die Kursleiterin]] (Pl. die Kursleiter / die Kursleiterinnen) | el/la profesor/a de un curso |
+| [[de:der Kursteilnehmer / die Kursteilnehmerin]] (Pl. die Kursteilnehmer / die Kursteilnehmerinnen) | el/la alumno/a de un curso |
+| [[de:der Deutschkurs]] (Pl. die Deutschkurse) | el curso de alemán |
 
 ## 4. El alfabeto y cómo deletrear
 
@@ -194,6 +223,16 @@ Esta es la regla más importante del alemán: en una frase afirmativa, **el verb
 | Jetzt | **wohne** | ich in Zürich. |
 
 Si pones otra cosa delante (*In Zürich*, *Jetzt*), el sujeto pasa **detrás** del verbo. Nunca *~~Jetzt ich wohne in Zürich~~*.
+
+### Más vocabulario: palabras útiles
+
+| Alemán | Español |
+|---|---|
+| [[de:und]] | y |
+| [[de:aber]] | pero |
+| [[de:auch]] | también |
+| [[de:hier]] | aquí |
+| [[de:jetzt]] | ahora |
 
 ## 9. Preguntas con W-
 

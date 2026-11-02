@@ -7,6 +7,15 @@ En este tema aprendes a decir la hora, los días de la semana y las partes del d
 - [[de:Wie spät ist es?]] · [[de:Wie viel Uhr ist es?]] — ¿Qué hora es?
 - [[de:Es ist drei Uhr.]] — Son las tres.
 
+### Más vocabulario: la hora
+
+| Alemán | Español |
+|---|---|
+| [[de:die Uhr]] (Pl. die Uhren) | el reloj; (con número) la hora |
+| [[de:die Uhrzeit]] (Pl. die Uhrzeiten) | la hora |
+| [[de:die Minute]] (Pl. die Minuten) | el minuto |
+| [[de:die Stunde]] (Pl. die Stunden) | la hora (duración) |
+
 Hay dos formas de decir la hora:
 
 **Oficial** (radio, estaciones, horarios): hora + *Uhr* + minutos, de 0 a 24.
@@ -38,6 +47,7 @@ Hay dos formas de decir la hora:
 |---|---|---|---|
 | [[de:der Montag]] lunes | [[de:der Dienstag]] martes | [[de:der Mittwoch]] miércoles | [[de:der Donnerstag]] jueves |
 | [[de:der Freitag]] viernes | [[de:der Samstag]] sábado | [[de:der Sonntag]] domingo | [[de:das Wochenende]] el fin de semana |
+| [[de:der Tag]] el día | [[de:die Woche]] la semana | | |
 
 | | | |
 |---|---|---|
@@ -57,6 +67,14 @@ Con **-s** y en minúscula significan "habitualmente, todos los…": [[de:morgen
 | **ab** | a partir de | [[de:Ab Montag habe ich Urlaub.::A partir del lunes tengo vacaciones.]] |
 
 Para preguntar: [[de:Wann beginnt der Film?::¿Cuándo empieza la película?]] (¿cuándo?) · [[de:Um wie viel Uhr kommst du?::¿A qué hora vienes?]] (¿a qué hora?) · [[de:Wie lange arbeitest du?::¿Cuánto tiempo trabajas?]] (¿cuánto tiempo?).
+
+### Más vocabulario: palabras útiles
+
+| Alemán | Español |
+|---|---|
+| [[de:früh / spät]] | temprano / tarde |
+| [[de:die Zeit]] | el tiempo (disponible) |
+| [[de:der Termin]] (Pl. die Termine) | la cita (formal) |
 
 ## 4. Los verbos separables
 
@@ -101,6 +119,16 @@ Dos verbos separables tienen además cambio de vocal: *anfangen* → *er f**ä**
 Palabras para ordenar la historia: **zuerst** (primero) · **dann** (luego) · **danach** (después) · **zum Schluss** (al final). Recuerda que, si empiezas con una de ellas, el sujeto va **detrás** del verbo: *Dann dusche **ich**.*
 
 ¿Con qué frecuencia? [[de:immer]] (siempre) · [[de:oft]] (a menudo) · [[de:manchmal]] (a veces) · [[de:nie]] (nunca).
+
+### Más vocabulario: otros verbos de la rutina
+
+| Alemán | Español |
+|---|---|
+| [[de:beginnen]] | empezar |
+| [[de:duschen]] | ducharse |
+| [[de:schlafen]] (schläft, hat geschlafen) | dormir |
+| [[de:gehen]] | ir (a pie) |
+| [[de:dauern]] (es dauert) | durar |
 
 ## 6. Errores típicos de hispanohablantes
 

@@ -17,6 +17,13 @@ Estos hay que aprenderlos de memoria, porque son la base de todos los demás.
 - **sechs** suena "seks"; **acht** lleva la *ch* de jota suave.
 - Cuando cuentas se dice **eins**; delante de un sustantivo es **ein/eine** (lo verás en el tema 3).
 
+### Más vocabulario: números
+
+| Alemán | Español |
+|---|---|
+| [[de:die Zahl]] (Pl. die Zahlen) | el número (cifra) |
+| [[de:zählen]] | contar |
+
 ## 2. Del 13 al 19: número + *zehn*
 
 | | | |
@@ -60,12 +67,32 @@ En 21, 31, 41… se dice **ein**und-, no *eins*und-: *einundzwanzig*.
 
 Recuerda: la edad se dice con **sein** (*ich bin*), no con "tener".
 
+### Más vocabulario: datos personales
+
+| Alemán | Español |
+|---|---|
+| [[de:das Jahr]] (Pl. die Jahre) | el año |
+| [[de:alt]] | viejo; (con edad) … años |
+| [[de:das Alter]] | la edad |
+| [[de:die Telefonnummer]] (Pl. die Telefonnummern) | el número de teléfono |
+| [[de:die Nummer]] (Pl. die Nummern) | el número |
+| [[de:das Handy]] (Pl. die Handys) | el móvil |
+| [[de:die E-Mail]] (Pl. die E-Mails) | el correo electrónico |
+
 - [[de:Wie ist Ihre Telefonnummer?::¿Cuál es su número de teléfono?]] · [[de:Wie ist deine Telefonnummer?::¿Cuál es tu número de teléfono?]]
 - [[de:Meine Nummer ist 0176 45 83 21.::Mi número es el 0176 45 83 21.]]
 
 Los teléfonos se dicen cifra a cifra o en grupos de dos: *null – eins – sieben – sechs – fünfundvierzig – dreiundachtzig – einundzwanzig*.
 
 Para pedir que te lo repitan: [[de:Wie bitte?]] (¿Cómo dice?) · [[de:Noch einmal, bitte.]] (Otra vez, por favor) · [[de:Langsam, bitte.]] (Despacio, por favor).
+
+### Más vocabulario: verbos de clase
+
+| Alemán | Español |
+|---|---|
+| [[de:schreiben]] | escribir |
+| [[de:hören]] | oír, escuchar |
+| [[de:verstehen]] | entender |
 
 ## 5. Países e idiomas
 
@@ -82,6 +109,12 @@ Para pedir que te lo repitan: [[de:Wie bitte?]] (¿Cómo dice?) · [[de:Noch ein
 
 - Los idiomas se escriben con **mayúscula** (son sustantivos) y casi todos acaban en **-isch**.
 - Los idiomas van **sin artículo**: [[de:Ich spreche Spanisch.::Hablo español.]]
+
+### Más vocabulario: países e idiomas
+
+| Alemán | Español |
+|---|---|
+| [[de:das Land]] (Pl. die Länder) | el país |
 
 ### Países con artículo
 
@@ -131,6 +164,14 @@ Respuestas:
 
 - [[de:Ja, ich komme aus Spanien.::Sí, soy de España.]]
 - [[de:Nein, ich komme aus Mexiko.::No, soy de México.]]
+
+### Más vocabulario: responder y elegir
+
+| Alemán | Español |
+|---|---|
+| [[de:richtig]] | correcto |
+| [[de:falsch]] | incorrecto, falso |
+| [[de:oder]] | o |
 
 Compara las dos preguntas:
 
