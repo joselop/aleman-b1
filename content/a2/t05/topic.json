@@ -34,6 +34,7 @@
     { "de": "kariert", "es": "de cuadros", "cat": "Materiales", "ex": "Der Rock ist kariert.", "ex_es": "La falda es de cuadros." },
     { "de": "einfarbig", "es": "liso, de un color", "cat": "Materiales", "ex": "Ich mag einfarbige Kleidung.", "ex_es": "Me gusta la ropa lisa." },
     { "de": "hell / dunkel", "es": "claro / oscuro", "cat": "Materiales", "ex": "Haben Sie die Hose auch in Dunkelblau?", "ex_es": "¿Tiene el pantalón también en azul oscuro?" },
+    { "de": "gepunktet", "es": "de lunares", "cat": "Materiales", "ex": "Sie trägt ein gepunktetes Kleid.", "ex_es": "Lleva un vestido de lunares." },
     { "de": "umtauschen", "es": "cambiar (en una tienda)", "cat": "Tienda", "forms": "er tauscht um, hat umgetauscht", "ex": "Kann ich die Jacke umtauschen?", "ex_es": "¿Puedo cambiar la chaqueta?" },
     { "de": "zurückgeben", "es": "devolver", "cat": "Tienda", "forms": "er gibt zurück, hat zurückgegeben", "ex": "Ich möchte die Schuhe zurückgeben.", "ex_es": "Quiero devolver los zapatos." },
     { "de": "der Kassenbon", "pl": "die Kassenbons", "es": "el tique de compra", "cat": "Tienda", "ex": "Ohne Kassenbon kein Umtausch.", "ex_es": "Sin tique no hay cambio." },
@@ -42,12 +43,15 @@
     { "de": "die Nummer", "pl": "die Nummern", "es": "la talla, el número", "cat": "Tienda", "ex": "Haben Sie die Schuhe eine Nummer kleiner?", "ex_es": "¿Tiene los zapatos un número menos?" },
     { "de": "der Schlussverkauf", "es": "las rebajas", "cat": "Tienda", "ex": "Im Schlussverkauf ist alles billiger.", "ex_es": "En las rebajas todo es más barato." },
     { "de": "bestellen", "es": "pedir, encargar", "cat": "Tienda", "forms": "er bestellt, hat bestellt", "ex": "Ich bestelle oft Kleidung im Internet.", "ex_es": "A menudo pido ropa por internet." },
+    { "de": "die Quittung", "pl": "die Quittungen", "es": "el recibo, el tique", "cat": "Tienda", "ex": "Ohne Quittung können wir die Jacke nicht umtauschen.", "ex_es": "Sin tique no podemos cambiar la chaqueta." },
+    { "de": "die Rücksendung", "pl": "die Rücksendungen", "es": "la devolución (por correo)", "cat": "Tienda", "ex": "Die Rücksendung ist kostenlos.", "ex_es": "La devolución es gratuita." },
     { "de": "billiger / teurer", "es": "más barato / más caro", "cat": "Comparar", "ex": "Im Internet ist es billiger.", "ex_es": "En internet es más barato." },
     { "de": "besser – am besten", "es": "mejor – lo mejor", "cat": "Comparar", "ex": "Welche Jacke gefällt dir am besten?", "ex_es": "¿Qué chaqueta te gusta más?" },
     { "de": "mehr – am meisten", "es": "más – lo que más", "cat": "Comparar", "ex": "Frauen kaufen mehr Schuhe als Männer.", "ex_es": "Las mujeres compran más zapatos que los hombres." },
     { "de": "als", "es": "que (en comparaciones)", "cat": "Comparar", "ex": "Der Mantel ist wärmer als die Jacke.", "ex_es": "El abrigo abriga más que la chaqueta." },
     { "de": "so … wie", "es": "tan … como", "cat": "Comparar", "ex": "Der Rock ist so teuer wie das Kleid.", "ex_es": "La falda es tan cara como el vestido." },
-    { "de": "die Größe", "pl": "die Größen", "es": "la talla", "cat": "Comparar", "ex": "Welche Größe tragen Sie?", "ex_es": "¿Qué talla usa?" }
+    { "de": "die Größe", "pl": "die Größen", "es": "la talla", "cat": "Comparar", "ex": "Welche Größe tragen Sie?", "ex_es": "¿Qué talla usa?" },
+    { "de": "höher – am höchsten", "es": "más alto – el más alto", "cat": "Comparar", "ex": "Die Preise sind hier höher als online.", "ex_es": "Aquí los precios son más altos que en internet." }
   ],
   "exercises": [
     {

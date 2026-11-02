@@ -30,6 +30,7 @@
     { "de": "der Kunde / die Kundin", "pl": "die Kunden / die Kundinnen", "es": "el/la cliente", "cat": "Trabajo", "ex": "Ich berate Kunden am Telefon.", "ex_es": "Asesoro a clientes por teléfono." },
     { "de": "beraten", "es": "asesorar", "cat": "Trabajo", "forms": "er berät, hat beraten", "ex": "Wir beraten Sie gern.", "ex_es": "Le asesoramos con gusto." },
     { "de": "die Besprechung", "pl": "die Besprechungen", "es": "la reunión", "cat": "Trabajo", "ex": "Die Besprechung dauert eine Stunde.", "ex_es": "La reunión dura una hora." },
+    { "de": "beantworten", "es": "contestar, responder (a algo)", "cat": "Trabajo", "forms": "er beantwortet, hat beantwortet", "ex": "Am Morgen beantworte ich zuerst meine Mails.", "ex_es": "Por la mañana primero contesto mis correos." },
     { "de": "die Stellenanzeige", "pl": "die Stellenanzeigen", "es": "la oferta de empleo", "cat": "Buscar trabajo", "ex": "Ich habe eine interessante Stellenanzeige gelesen.", "ex_es": "He leído una oferta de empleo interesante." },
     { "de": "die Bewerbung", "pl": "die Bewerbungen", "es": "la candidatura, la solicitud", "cat": "Buscar trabajo", "ex": "Ich schicke meine Bewerbung per E-Mail.", "ex_es": "Envío mi candidatura por correo electrónico." },
     { "de": "sich bewerben (um)", "es": "presentarse (a un puesto)", "cat": "Buscar trabajo", "forms": "er bewirbt sich, hat sich beworben", "ex": "Sie bewirbt sich um eine Stelle als Lehrerin.", "ex_es": "Se presenta a un puesto de profesora." },
@@ -51,7 +52,8 @@
     { "de": "wichtig", "es": "importante", "cat": "Opinión", "ex": "Für mich ist wichtig, dass ich Zeit für die Familie habe.", "ex_es": "Para mí es importante tener tiempo para la familia." },
     { "de": "zufrieden", "es": "satisfecho", "cat": "Opinión", "ex": "Ich bin mit meiner Arbeit zufrieden.", "ex_es": "Estoy contento con mi trabajo." },
     { "de": "stressig", "es": "estresante", "cat": "Opinión", "ex": "Die Arbeit ist manchmal stressig.", "ex_es": "El trabajo a veces es estresante." },
-    { "de": "abwechslungsreich", "es": "variado", "cat": "Opinión", "ex": "Mein Job ist sehr abwechslungsreich.", "ex_es": "Mi trabajo es muy variado." }
+    { "de": "abwechslungsreich", "es": "variado", "cat": "Opinión", "ex": "Mein Job ist sehr abwechslungsreich.", "ex_es": "Mi trabajo es muy variado." },
+    { "de": "sagen", "es": "decir", "cat": "Opinión", "forms": "er sagt, hat gesagt", "ex": "Die Chefin hat gesagt, dass das Meeting ausfällt.", "ex_es": "La jefa ha dicho que la reunión se cancela." }
   ],
   "exercises": [
     {

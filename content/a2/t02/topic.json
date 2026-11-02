@@ -42,6 +42,8 @@
     { "de": "das Kissen", "pl": "die Kissen", "es": "el cojín, la almohada", "cat": "Casa", "ex": "Die Kissen liegen auf dem Sofa.", "ex_es": "Los cojines están en el sofá." },
     { "de": "die Schublade", "pl": "die Schubladen", "es": "el cajón", "cat": "Casa", "ex": "Der Schlüssel liegt in der Schublade.", "ex_es": "La llave está en el cajón." },
     { "de": "der Schreibtisch", "pl": "die Schreibtische", "es": "el escritorio", "cat": "Casa", "ex": "Der Schreibtisch steht am Fenster.", "ex_es": "El escritorio está junto a la ventana." },
+    { "de": "der Teppich", "pl": "die Teppiche", "es": "la alfombra", "cat": "Casa", "ex": "Der Teppich liegt vor dem Bett.", "ex_es": "La alfombra está delante de la cama." },
+    { "de": "der Flur", "pl": "die Flure", "es": "el pasillo", "cat": "Casa", "ex": "Die Schuhe stehen im Flur.", "ex_es": "Los zapatos están en el pasillo." },
     { "de": "stellen", "es": "poner (de pie)", "cat": "Verbos de posición", "forms": "er stellt, hat gestellt", "ex": "Ich stelle die Flasche in den Kühlschrank.", "ex_es": "Meto la botella en la nevera." },
     { "de": "stehen", "es": "estar (de pie)", "cat": "Verbos de posición", "forms": "er steht, hat gestanden", "ex": "Die Flasche steht im Kühlschrank.", "ex_es": "La botella está en la nevera." },
     { "de": "legen", "es": "poner (tumbado)", "cat": "Verbos de posición", "forms": "er legt, hat gelegt", "ex": "Leg das Handy auf den Tisch.", "ex_es": "Deja el móvil en la mesa." },

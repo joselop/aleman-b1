@@ -24,6 +24,9 @@
     { "de": "die Temperatur", "pl": "die Temperaturen", "es": "la temperatura", "cat": "Tiempo", "ex": "Die Temperaturen steigen auf 30 Grad.", "ex_es": "Las temperaturas suben a 30 grados." },
     { "de": "der Grad", "pl": "die Grad", "es": "el grado", "cat": "Tiempo", "ex": "Es sind minus drei Grad.", "ex_es": "Hace tres bajo cero." },
     { "de": "die Jahreszeit", "pl": "die Jahreszeiten", "es": "la estación del año", "cat": "Tiempo", "ex": "Der Herbst ist meine Lieblingsjahreszeit.", "ex_es": "El otoño es mi estación favorita." },
+    { "de": "regnerisch", "es": "lluvioso", "cat": "Tiempo", "ex": "Der April war sehr regnerisch.", "ex_es": "Abril fue muy lluvioso." },
+    { "de": "schwül", "es": "bochornoso", "cat": "Tiempo", "ex": "Im Sommer ist es oft schwül.", "ex_es": "En verano a menudo hace bochorno." },
+    { "de": "der Föhn", "es": "el foehn (viento cálido de los Alpes)", "cat": "Tiempo", "ex": "Bei Föhn sieht man die Berge sehr klar.", "ex_es": "Con foehn se ven las montañas muy nítidas." },
     { "de": "der Berg", "pl": "die Berge", "es": "la montaña", "cat": "Naturaleza", "ex": "Am Wochenende fahren wir in die Berge.", "ex_es": "El fin de semana vamos a la montaña." },
     { "de": "der Gipfel", "pl": "die Gipfel", "es": "la cima", "cat": "Naturaleza", "ex": "Wir sind um zehn Uhr auf dem Gipfel.", "ex_es": "A las diez estamos en la cima." },
     { "de": "das Tal", "pl": "die Täler", "es": "el valle", "cat": "Naturaleza", "ex": "Das Dorf liegt in einem schönen Tal.", "ex_es": "El pueblo está en un valle precioso." },
@@ -34,6 +37,10 @@
     { "de": "die Aussicht", "es": "las vistas", "cat": "Naturaleza", "ex": "Von hier hat man eine tolle Aussicht.", "ex_es": "Desde aquí hay unas vistas increíbles." },
     { "de": "das Tier", "pl": "die Tiere", "es": "el animal", "cat": "Naturaleza", "ex": "Welche Tiere leben in den Alpen?", "ex_es": "¿Qué animales viven en los Alpes?" },
     { "de": "die Pflanze", "pl": "die Pflanzen", "es": "la planta", "cat": "Naturaleza", "ex": "Ich habe viele Pflanzen auf dem Balkon.", "ex_es": "Tengo muchas plantas en el balcón." },
+    { "de": "der Baum", "pl": "die Bäume", "es": "el árbol", "cat": "Naturaleza", "ex": "Im Herbst verlieren die Bäume ihre Blätter.", "ex_es": "En otoño los árboles pierden las hojas." },
+    { "de": "der Vogel", "pl": "die Vögel", "es": "el pájaro", "cat": "Naturaleza", "ex": "Am Morgen singen die Vögel.", "ex_es": "Por la mañana cantan los pájaros." },
+    { "de": "die Kuh", "pl": "die Kühe", "es": "la vaca", "cat": "Naturaleza", "ex": "Auf der Wiese stehen viele Kühe.", "ex_es": "En el prado hay muchas vacas." },
+    { "de": "das Murmeltier", "pl": "die Murmeltiere", "es": "la marmota", "cat": "Naturaleza", "ex": "In den Alpen haben wir ein Murmeltier gesehen.", "ex_es": "En los Alpes vimos una marmota." },
     { "de": "die Umwelt", "es": "el medio ambiente", "cat": "Medio ambiente", "ex": "Wir müssen die Umwelt schützen.", "ex_es": "Tenemos que proteger el medio ambiente." },
     { "de": "der Klimawandel", "es": "el cambio climático", "cat": "Medio ambiente", "ex": "Der Klimawandel ist ein großes Problem.", "ex_es": "El cambio climático es un gran problema." },
     { "de": "der Müll / der Abfall", "es": "la basura", "cat": "Medio ambiente", "ex": "Bring bitte den Müll raus!", "ex_es": "¡Saca la basura, por favor!" },
@@ -42,9 +49,14 @@
     { "de": "schützen", "es": "proteger", "cat": "Medio ambiente", "forms": "er schützt, hat geschützt", "ex": "Diese Tiere sind geschützt.", "ex_es": "Estos animales están protegidos." },
     { "de": "umweltfreundlich", "es": "ecológico, respetuoso con el medio ambiente", "cat": "Medio ambiente", "ex": "Der Zug ist umweltfreundlicher als das Flugzeug.", "ex_es": "El tren es más ecológico que el avión." },
     { "de": "der Gletscher", "pl": "die Gletscher", "es": "el glaciar", "cat": "Medio ambiente", "ex": "Der Gletscher ist in den letzten 100 Jahren viel kleiner geworden.", "ex_es": "El glaciar se ha hecho mucho más pequeño en 100 años." },
+    { "de": "das Klima", "es": "el clima", "cat": "Medio ambiente", "ex": "Das Klima wird immer wärmer.", "ex_es": "El clima es cada vez más cálido." },
+    { "de": "die Energie", "es": "la energía", "cat": "Medio ambiente", "ex": "Wir müssen mehr Energie sparen.", "ex_es": "Tenemos que ahorrar más energía." },
+    { "de": "recyceln", "es": "reciclar", "cat": "Medio ambiente", "forms": "er recycelt, hat recycelt", "ex": "In der Schweiz recycelt man fast alle Flaschen.", "ex_es": "En Suiza se reciclan casi todas las botellas." },
     { "de": "werden (Futur)", "es": "futuro: werden + infinitivo", "cat": "Gramática", "forms": "ich werde, du wirst, er wird", "ex": "Morgen wird es schneien.", "ex_es": "Mañana nevará." },
     { "de": "wegen (+ Gen)", "es": "a causa de, por", "cat": "Gramática", "ex": "Wegen des Wetters fällt das Fest aus.", "ex_es": "Por el tiempo se suspende la fiesta." },
-    { "de": "während (+ Gen)", "es": "durante", "cat": "Gramática", "ex": "Während des Sommers ist das Hotel voll.", "ex_es": "Durante el verano el hotel está lleno." }
+    { "de": "während (+ Gen)", "es": "durante", "cat": "Gramática", "ex": "Während des Sommers ist das Hotel voll.", "ex_es": "Durante el verano el hotel está lleno." },
+    { "de": "trotz (+ Gen)", "es": "a pesar de", "cat": "Gramática", "ex": "Trotz des Regens sind wir wandern gegangen.", "ex_es": "A pesar de la lluvia fuimos de excursión." },
+    { "de": "wessen?", "es": "¿de quién?", "cat": "Gramática", "ex": "Wessen Rucksack ist das?", "ex_es": "¿De quién es esta mochila?" }
   ],
   "exercises": [
     {

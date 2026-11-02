@@ -24,6 +24,10 @@
     { "de": "studieren", "es": "estudiar (en la universidad)", "cat": "Formación", "forms": "er studiert, hat studiert", "ex": "Ich habe in Sevilla Biologie studiert.", "ex_es": "Estudié Biología en Sevilla." },
     { "de": "der Abschluss", "pl": "die Abschlüsse", "es": "el título, la titulación", "cat": "Formación", "ex": "Ist mein Abschluss in der Schweiz gültig?", "ex_es": "¿Mi título es válido en Suiza?" },
     { "de": "die Weiterbildung", "pl": "die Weiterbildungen", "es": "la formación continua", "cat": "Formación", "ex": "Die Firma bezahlt meine Weiterbildung.", "ex_es": "La empresa me paga la formación." },
+    { "de": "die Matura", "es": "el bachillerato y la selectividad (Suiza)", "cat": "Formación", "ex": "Nach der Matura möchte sie an der ETH studieren.", "ex_es": "Después de la Matura quiere estudiar en la ETH." },
+    { "de": "das Gymnasium", "pl": "die Gymnasien", "es": "el instituto (de bachillerato)", "cat": "Formación", "ex": "Mein Bruder geht aufs Gymnasium.", "ex_es": "Mi hermano va al instituto." },
+    { "de": "die Fachhochschule", "pl": "die Fachhochschulen", "es": "la universidad de ciencias aplicadas", "cat": "Formación", "ex": "Sie studiert Informatik an der Fachhochschule.", "ex_es": "Estudia Informática en una universidad de ciencias aplicadas." },
+    { "de": "die Hausaufgabe", "pl": "die Hausaufgaben", "es": "los deberes, la tarea", "cat": "Formación", "ex": "Hast du deine Hausaufgaben schon gemacht?", "ex_es": "¿Ya has hecho los deberes?" },
     { "de": "die Volkshochschule", "es": "la escuela de adultos", "cat": "Cursos", "ex": "Die Volkshochschule bietet viele Sprachkurse an.", "ex_es": "La escuela de adultos ofrece muchos cursos de idiomas." },
     { "de": "der Kurs", "pl": "die Kurse", "es": "el curso", "cat": "Cursos", "ex": "Der Kurs findet zwei Mal pro Woche statt.", "ex_es": "El curso es dos veces por semana." },
     { "de": "die Lektion", "pl": "die Lektionen", "es": "la clase, la lección (unidad de 45 min)", "cat": "Cursos", "ex": "Der Kurs hat 40 Lektionen.", "ex_es": "El curso tiene 40 clases." },
@@ -39,11 +43,13 @@
     { "de": "versuchen", "es": "intentar", "cat": "Aprender", "forms": "er versucht, hat versucht", "ex": "Ich versuche, jeden Tag Deutsch zu sprechen.", "ex_es": "Intento hablar alemán todos los días." },
     { "de": "anfangen / aufhören", "es": "empezar / dejar de", "cat": "Aprender", "forms": "er fängt an, hat angefangen / er hört auf, hat aufgehört", "ex": "Ich habe angefangen, Italienisch zu lernen.", "ex_es": "He empezado a aprender italiano." },
     { "de": "vergessen", "es": "olvidar", "cat": "Aprender", "forms": "er vergisst, hat vergessen", "ex": "Ich habe vergessen, die Hausaufgaben zu machen.", "ex_es": "Me olvidé de hacer los deberes." },
+    { "de": "die Grammatik", "es": "la gramática", "cat": "Aprender", "ex": "Die deutsche Grammatik ist nicht leicht.", "ex_es": "La gramática alemana no es fácil." },
     { "de": "deshalb", "es": "por eso (verbo detrás)", "cat": "Conectores", "ex": "Ich will in Zürich arbeiten. Deshalb lerne ich Deutsch.", "ex_es": "Quiero trabajar en Zúrich. Por eso aprendo alemán." },
     { "de": "trotzdem", "es": "aun así, sin embargo (verbo detrás)", "cat": "Conectores", "ex": "Es regnet. Trotzdem gehe ich joggen.", "ex_es": "Llueve. Aun así, salgo a correr." },
     { "de": "darum / deswegen", "es": "por eso (= deshalb)", "cat": "Conectores", "ex": "Ich war krank, darum war ich nicht im Kurs.", "ex_es": "Estaba enfermo; por eso no fui a clase." },
     { "de": "Lust haben (zu)", "es": "tener ganas (de)", "cat": "Expresiones", "ex": "Ich habe keine Lust, heute zu lernen.", "ex_es": "Hoy no tengo ganas de estudiar." },
-    { "de": "Es ist wichtig, … zu …", "es": "es importante…", "cat": "Expresiones", "ex": "Es ist wichtig, viel zu sprechen.", "ex_es": "Es importante hablar mucho." }
+    { "de": "Es ist wichtig, … zu …", "es": "es importante…", "cat": "Expresiones", "ex": "Es ist wichtig, viel zu sprechen.", "ex_es": "Es importante hablar mucho." },
+    { "de": "Spaß machen", "es": "ser divertido, gustar (hacer algo)", "cat": "Expresiones", "forms": "es macht Spaß, hat Spaß gemacht", "ex": "Es macht Spaß, mit dem Tandempartner zu sprechen.", "ex_es": "Es divertido hablar con el compañero de intercambio." }
   ],
   "exercises": [
     {
