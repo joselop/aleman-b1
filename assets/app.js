@@ -333,8 +333,10 @@ async function srsDue() {
       const topic = await loadTopic(lvl, t);
       const v = topic.vocab.find((x) => x.de === de);
       if (v) cards.push({ key: k, card: c, v, topic });
+      else delete s[k]; // la palabra ya no está en el vocabulario de ese tema
     } catch { /* tema eliminado */ }
   }
+  store.set("srs", s);
   return shuffle(cards);
 }
 function srsGrade(key, ok) {
