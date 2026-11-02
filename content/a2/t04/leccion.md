@@ -19,6 +19,18 @@ En A1 aprendiste a decir qué te duele. Ahora vas un paso más allá: explicar s
 
 Recuerda: **Mir ist schlecht / kalt / warm** se dice con **mir** (dativo), no con *ich*.
 
+### Más vocabulario: salud, enfermedades y accidentes
+
+| Alemán | Español |
+|---|---|
+| [[de:die Gesundheit]] | la salud |
+| [[de:die Krankheit]] (Pl. die Krankheiten) | la enfermedad |
+| [[de:die Erkältung]] (Pl. die Erkältungen) | el resfriado |
+| [[de:die Allergie]] (Pl. die Allergien) | la alergia |
+| [[de:der Unfall]] (Pl. die Unfälle) | el accidente |
+| [[de:brechen]] (bricht, hat gebrochen) | romper(se) |
+| [[de:die Wunde]] (Pl. die Wunden) | la herida |
+
 ## 2. En la consulta y en la farmacia
 
 > [[de:Was fehlt Ihnen denn?::¿Qué le pasa?]]
@@ -34,6 +46,16 @@ En la farmacia: [[de:Haben Sie etwas gegen Halsschmerzen?::¿Tiene algo para el 
 En una urgencia: **die Notaufnahme** (urgencias del hospital) · **der Notarzt** (médico de urgencias) · teléfono **144** (Suiza), **112** (Alemania, Austria y toda Europa).
 
 En Suiza el justificante médico se llama **das Arztzeugnis**; en Alemania, **die Krankmeldung** o *AU-Bescheinigung*.
+
+### Más vocabulario: en la consulta
+
+| Alemán | Español |
+|---|---|
+| [[de:der Hausarzt / die Hausärztin]] (Pl. die Hausärzte / die Hausärztinnen) | el/la médico/a de cabecera |
+| [[de:untersuchen]] (untersucht, hat untersucht) | examinar, reconocer |
+| [[de:krankschreiben]] (schreibt krank, hat krankgeschrieben) | dar la baja médica |
+| [[de:die Salbe]] (Pl. die Salben) | la pomada |
+| [[de:die Tropfen]] | las gotas |
 
 ## 3. Los verbos reflexivos
 
@@ -86,9 +108,26 @@ Dónde va el pronombre:
 
 Otras formas de aconsejar: [[de:Am besten gehst du zum Arzt.::Lo mejor es que vayas al médico.]] · [[de:Ich würde an deiner Stelle …::Yo en tu lugar…]] (lo verás a fondo en el tema 7).
 
+### Más vocabulario: consejos
+
+| Alemán | Español |
+|---|---|
+| [[de:der Rat / der Tipp]] (Pl. die Ratschläge / die Tipps) | el consejo |
+
 ## 5. Vida sana
 
 [[de:Ich ernähre mich gesund: viel Obst und Gemüse, wenig Fleisch.::Me alimento de forma sana: mucha fruta y verdura, poca carne.]] · [[de:Ich bewege mich jeden Tag mindestens 30 Minuten.::Me muevo al menos 30 minutos al día.]] · [[de:Ich versuche, weniger Stress zu haben.::Intento tener menos estrés.]] · [[de:Ich habe mit dem Rauchen aufgehört.::He dejado de fumar.]]
+
+### Más vocabulario: vida sana
+
+| Alemán | Español |
+|---|---|
+| [[de:aufhören (mit)]] (hört auf, hat aufgehört) | dejar (de hacer algo) |
+| [[de:die Ernährung]] | la alimentación |
+| [[de:die Bewegung]] | el ejercicio, el movimiento |
+| [[de:das Gewicht]] | el peso |
+| [[de:fit]] | en forma |
+| [[de:müde]] | cansado |
 
 ## 6. Errores típicos de hispanohablantes
 

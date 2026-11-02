@@ -17,6 +17,20 @@ En el A2 aprendiste a buscar piso, firmar el contrato y colocar los muebles. En 
 
 Palabras clave: **die Nachbarschaft** (vecindario, los vecinos) · **das Stadtviertel** (barrio) · **die Gegend** (zona) · **die Lage** (ubicación) · **der Altbau / der Neubau** · **die Hausverwaltung** (administración de fincas) · **der Eigentümer** (propietario) · **das Treppenhaus** (escalera, portal) · **der Hof** (patio) · **der Briefkasten** · **die Klingel** (timbre).
 
+### Más vocabulario: edificio y alquiler
+
+| Alemán | Español |
+|---|---|
+| [[de:der Spielplatz]] (Pl. die Spielplätze) | el parque infantil |
+| [[de:das Hochhaus]] (Pl. die Hochhäuser) | el rascacielos, la torre de pisos |
+| [[de:der Eingang]] (Pl. die Eingänge) | la entrada |
+| [[de:der Bewohner / die Bewohnerin]] (Pl. die Bewohner / die Bewohnerinnen) | el / la residente |
+| [[de:der Eigentümer / die Eigentümerin]] (Pl. die Eigentümer / die Eigentümerinnen) | el propietario / la propietaria |
+| [[de:die Eigentumswohnung]] (Pl. die Eigentumswohnungen) | el piso en propiedad |
+| [[de:der Nachmieter / die Nachmieterin]] (Pl. die Nachmieter / die Nachmieterinnen) | el nuevo inquilino (que sigue a otro) |
+| [[de:bauen]] | construir |
+| [[de:betragen]] (es beträgt, betrug, hat betragen) | ascender a, ser de (una cantidad) |
+
 En Suiza casi todo el mundo vive de alquiler, y muchos edificios tienen una **Waschküche** común con un **plan de lavado**. En Zúrich, además, la basura solo se recoge en **bolsas oficiales** (*Züri-Säcke*), y el papel y el cartón se sacan atados en días fijos.
 
 ## 2. Convivir con los vecinos

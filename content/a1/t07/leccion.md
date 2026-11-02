@@ -19,6 +19,22 @@ En este tema hablas de tus aficiones y de lo que haces en tu tiempo libre, y apr
 - [[de:Was machst du in deiner Freizeit?]] — ¿Qué haces en tu tiempo libre?
 - [[de:Was sind deine Hobbys?::¿Cuáles son tus aficiones?]] — [[de:Meine Hobbys sind Lesen und Wandern.::Mis aficiones son leer y hacer senderismo.]]
 
+### Más vocabulario: aficiones
+
+| Alemán | Español |
+|---|---|
+| [[de:die Freizeit]] | el tiempo libre |
+| [[de:das Hobby]] (Pl. die Hobbys) | la afición |
+| [[de:der Sport]] | el deporte |
+| [[de:der Fußball]] | el fútbol |
+| [[de:die Musik]] | la música |
+| [[de:die Gitarre]] (Pl. die Gitarren) | la guitarra |
+| [[de:das Buch]] (Pl. die Bücher) | el libro |
+| [[de:das Kino]] (Pl. die Kinos) | el cine |
+| [[de:der Film]] (Pl. die Filme) | la película |
+| [[de:das Konzert]] (Pl. die Konzerte) | el concierto |
+| [[de:der Verein]] (Pl. die Vereine) | el club, la asociación |
+
 Fíjate: **spielen** se usa tanto para deportes y juegos (*Fußball spielen*) como para instrumentos (*Gitarre spielen*). Y cuando una actividad es sustantivo, va con mayúscula: *das Lesen*, *das Schwimmen*.
 
 ## 2. gern, lieber, am liebsten
@@ -88,17 +104,31 @@ Con otro interlocutor, para invitar o pedir, es más educado *möchte*: [[de:Mö
 - [[de:Hast du Lust? Wir gehen ins Kino.::¿Te apetece? Vamos al cine.]] — ¿Te apetece?
 - [[de:Wollen wir am Samstag schwimmen gehen?::¿Vamos a nadar el sábado?]]
 - [[de:Kommst du mit?::¿Te vienes?]]
+- Palabras clave: [[de:die Lust::las ganas]] · [[de:zusammen::juntos]]
 
 **Aceptar:**
 - [[de:Ja, gern!::¡Sí, con mucho gusto!]] · [[de:Gute Idee!::¡Buena idea!]] · [[de:Super, ich komme mit.::Genial, me apunto.]]
+- Palabras clave: [[de:die Idee::la idea]] (Pl. die Ideen)
 
 **Rechazar:**
+- Palabras clave: [[de:leider::desgraciadamente]]
 - [[de:Leider kann ich nicht.::Lo siento, no puedo.]] · [[de:Tut mir leid, ich habe keine Zeit.::Lo siento, no tengo tiempo.]]
 - [[de:Am Samstag kann ich nicht, aber am Sonntag.::El sábado no puedo, pero el domingo sí.]]
 
 **Concretar:**
 - [[de:Wann treffen wir uns?::¿Cuándo quedamos?]] — [[de:Um acht vor dem Kino.::A las ocho delante del cine.]]
 - [[de:Wo treffen wir uns?::¿Dónde quedamos?]]
+
+### Más vocabulario: opinar sobre un plan
+
+Para decir qué te parece una actividad: *Der Film ist spannend.*
+
+| Alemán | Español |
+|---|---|
+| [[de:spannend]] | emocionante, interesante |
+| [[de:langweilig]] | aburrido |
+| [[de:lustig]] | divertido, gracioso |
+| [[de:toll / super]] | genial |
 
 ## 6. Errores típicos de hispanohablantes
 

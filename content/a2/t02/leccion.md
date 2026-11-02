@@ -16,9 +16,15 @@ En este tema te mudas: buscas piso, firmas el contrato, colocas los muebles y co
 | [[de:Am Samstag ziehe ich ein.]] | El sábado me instalo (entro a vivir). |
 | [[de:Die alten Mieter ziehen aus.]] | Los inquilinos anteriores se van. |
 
-Personas: **der Vermieter / die Vermieterin** (casero/a) · **der Mieter / die Mieterin** (inquilino/a) · **der Hausmeister** (portero, conserje) · **die Nachbarn** (los vecinos).
+Personas: **der Vermieter / die Vermieterin** (casero/a) · **der Mieter / die Mieterin** (inquilino/a) · **der Hausmeister / die Hausmeisterin** (portero/a, conserje) · **die Nachbarn** (los vecinos).
 
-Verbos de la mudanza: **einziehen** (instalarse) · **ausziehen** (dejar un piso) · **umziehen** (mudarse) · **einrichten** (amueblar, decorar) · **streichen** (pintar paredes) · **reparieren** (arreglar).
+Verbos de la mudanza: **einziehen** (instalarse) · **ausziehen** (dejar un piso) · **umziehen** (mudarse) · **einrichten** (amueblar, decorar) · **streichen** (pintar paredes) · **reparieren** (arreglar) · [[de:unterschreiben::firmar]] (unterschreibt, hat unterschrieben).
+
+### Más vocabulario: el alquiler
+
+| Alemán | Español |
+|---|---|
+| [[de:die Besichtigung]] (Pl. die Besichtigungen) | la visita (a un piso) |
 
 ## 2. Las preposiciones de dos casos
 
@@ -93,6 +99,12 @@ Con los vecinos:
 - [[de:Hallo, ich bin neu hier. Ich wohne im dritten Stock.::Hola, soy nuevo aquí. Vivo en el tercer piso.]]
 - [[de:Könnten Sie die Musik bitte etwas leiser machen?::¿Podría bajar un poco la música, por favor?]]
 - [[de:Können Sie bitte mein Paket annehmen?::¿Puede recogerme un paquete, por favor?]]
+
+### Más vocabulario: la comunidad
+
+| Alemán | Español |
+|---|---|
+| [[de:die Heizung]] (Pl. die Heizungen) | la calefacción |
 
 ## 6. Errores típicos de hispanohablantes
 

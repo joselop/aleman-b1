@@ -16,11 +16,19 @@ En este tema hablas de tu trabajo con más detalle: qué haces en tu día a día
 | [[de:Meine Aufgaben sind: Mails beantworten, Termine planen und Kunden beraten.]] | Mis tareas son: contestar correos, planificar citas y asesorar a clientes. |
 | [[de:Ich verdiene nicht schlecht.]] | No gano mal. |
 
-Palabras clave: **der Arbeitgeber** (empleador) · **der Arbeitnehmer** (empleado) · **das Gehalt** (sueldo) · **die Überstunden** (horas extra) · **die Kündigung** (despido / dimisión) · **der Vertrag** (contrato) · **befristet / unbefristet** (temporal / indefinido).
+Palabras clave: **der Arbeitgeber / die Arbeitgeberin** (empleador/a) · **der Arbeitnehmer / die Arbeitnehmerin** (empleado/a) · **das Gehalt** (sueldo) · **die Überstunden** (horas extra) · **die Kündigung** (despido / dimisión) · **der Vertrag** (contrato) · **befristet / unbefristet** (temporal / indefinido).
+
+### Más vocabulario: en la empresa
+
+| Alemán | Español |
+|---|---|
+| [[de:kündigen]] (kündigt, hat gekündigt) | despedir; dejar el trabajo |
+| [[de:der Kunde / die Kundin]] (Pl. die Kunden / die Kundinnen) | el/la cliente |
+| [[de:die Besprechung]] (Pl. die Besprechungen) | la reunión |
 
 ## 2. Buscar trabajo
 
-- [[de:die Stellenanzeige::la oferta de empleo]] · [[de:die Bewerbung::la candidatura]] · [[de:der Lebenslauf::el currículum]] · [[de:das Vorstellungsgespräch::la entrevista de trabajo]]
+- [[de:die Stellenanzeige::la oferta de empleo]] · [[de:die Bewerbung::la candidatura]] · [[de:der Lebenslauf::el currículum]] · [[de:das Vorstellungsgespräch::la entrevista de trabajo]] · [[de:die Erfahrung::la experiencia]] · [[de:die Voraussetzung::el requisito]]
 - [[de:Ich bewerbe mich um die Stelle als Verkäufer.::Me presento al puesto de dependiente.]]
 - [[de:Ich habe drei Jahre Berufserfahrung.::Tengo tres años de experiencia profesional.]]
 - [[de:Andrea arbeitet bei einer Pharmafirma in Zürich. Sie hat zwei Jahre Berufserfahrung in klinischen Studien.::Andrea trabaja en una farmacéutica de Zúrich. Tiene dos años de experiencia en ensayos clínicos.]]
@@ -70,6 +78,14 @@ Truco de colocación: piensa en el **verbo conjugado como un imán que la conjun
 - [[de:Ich finde gut, dass ich im Homeoffice arbeiten kann.::Me parece bien poder teletrabajar.]]
 - [[de:Mir gefällt nicht, dass ich so viele Überstunden machen muss.::No me gusta tener que hacer tantas horas extra.]]
 - [[de:Für mich ist wichtig, dass die Kollegen nett sind.::Para mí es importante que los compañeros sean simpáticos.]]
+
+### Más vocabulario: valorar tu trabajo
+
+| Alemán | Español |
+|---|---|
+| [[de:zufrieden]] | satisfecho |
+| [[de:stressig]] | estresante |
+| [[de:abwechslungsreich]] | variado |
 
 ## 5. Errores típicos de hispanohablantes
 

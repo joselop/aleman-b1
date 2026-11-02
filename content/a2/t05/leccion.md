@@ -20,6 +20,28 @@ Ojo con tres verbos: **passen** (quedar bien de talla), **stehen** + dativo (fav
 
 Para cada ocasión: [[de:Für die Hochzeit brauche ich einen Anzug.::Para la boda necesito un traje.]] · [[de:Im Büro trage ich meistens Hemd und Jeans.::En la oficina suelo llevar camisa y vaqueros.]] (**tragen** = llevar puesto: *er trägt*).
 
+### Más vocabulario: moda y estilo
+
+| Alemán | Español |
+|---|---|
+| [[de:die Mode]] | la moda |
+| [[de:modisch / modern]] | a la moda / moderno |
+| [[de:elegant]] | elegante |
+| [[de:sportlich]] | deportivo |
+| [[de:bequem]] | cómodo |
+| [[de:aussehen]] (sieht aus, hat ausgesehen) | parecer, tener aspecto |
+| [[de:hell / dunkel]] | claro / oscuro |
+
+### Más vocabulario: prendas y complementos
+
+| Alemán | Español |
+|---|---|
+| [[de:die Krawatte]] (Pl. die Krawatten) | la corbata |
+| [[de:der Schal]] (Pl. die Schals) | la bufanda |
+| [[de:der Handschuh]] (Pl. die Handschuhe) | el guante |
+| [[de:die Sonnenbrille]] (Pl. die Sonnenbrillen) | las gafas de sol |
+| [[de:der Gürtel]] (Pl. die Gürtel) | el cinturón |
+
 ## 2. El adjetivo después de *der, die, das*
 
 Cuando el adjetivo va **delante** del sustantivo, lleva terminación. Después del artículo determinado (y de *dieser, welcher, jeder*) solo hay **dos terminaciones posibles: -e o -en**.
@@ -81,7 +103,7 @@ El superlativo también puede ir delante del sustantivo, con las terminaciones d
 > [[de:Leider nicht. Möchten Sie das Geld zurück?::Lo siento, no. ¿Quiere que le devuelva el dinero?]]
 > [[de:Ja, bitte. Hier ist der Kassenbon.::Sí, por favor. Aquí tiene el tique.]]
 
-Palabras útiles: **umtauschen** (cambiar) · **zurückgeben** (devolver) · **der Kassenbon / die Quittung** (el tique) · **reklamieren** (reclamar) · **kaputt / ein Loch haben** (estar roto / tener un agujero) · **die Rücksendung** (devolución por correo).
+Palabras útiles: **umtauschen** (cambiar) · **zurückgeben** (devolver) · **der Kassenbon / die Quittung** (el tique) · **reklamieren** (reclamar) · **kaputt / ein Loch haben** (estar roto / tener un agujero) · **die Rücksendung** (devolución por correo) · [[de:die Größe::la talla]] · [[de:bestellen::pedir, encargar]] · [[de:der Schlussverkauf::las rebajas]].
 
 ## 5. Errores típicos de hispanohablantes
 

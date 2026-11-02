@@ -17,6 +17,44 @@ Empezamos el B1 mirando hacia atrás: tu infancia, el colegio, los veranos en el
 
 Palabras clave: **die Erinnerung** (el recuerdo) · **das Erlebnis** (la vivencia) · **der Kindergarten** · **die Grundschule** (en Suiza, **Primarschule**) · **der Spielplatz** (parque infantil) · **das Spielzeug** (juguete) · **das Märchen** (cuento) · **das Taschengeld** (paga) · **neugierig** (curioso) · **frech** (descarado) · **brav** (bueno, obediente) · **das Heimweh** (morriña).
 
+### Más vocabulario: recuerdos y pasado
+
+| Alemán | Español |
+|---|---|
+| [[de:das Ereignis]] (Pl. die Ereignisse) | el acontecimiento |
+| [[de:die Vergangenheit]] | el pasado |
+| [[de:die Generation]] (Pl. die Generationen) | la generación |
+| [[de:das Abenteuer]] (Pl. die Abenteuer) | la aventura |
+| [[de:das Geheimnis]] (Pl. die Geheimnisse) | el secreto |
+| [[de:wachsen]] (wächst, wuchs, ist gewachsen) | crecer |
+| [[de:sich verändern]] (verändert sich, hat sich verändert) | cambiar (uno mismo) |
+
+### Más vocabulario: familia y educación
+
+| Alemán | Español |
+|---|---|
+| [[de:der Enkel / die Enkelin]] (Pl. die Enkel / die Enkelinnen) | el nieto / la nieta |
+| [[de:die Erziehung]] | la educación (de los padres), la crianza |
+| [[de:erziehen]] (erzieht, erzog, hat erzogen) | educar, criar |
+| [[de:erlauben]] | permitir |
+| [[de:verbieten]] (verbietet, verbot, hat verboten) | prohibir |
+| [[de:die Strafe]] (Pl. die Strafen) | el castigo |
+| [[de:der Streit]] (Pl. die Streitigkeiten) | la pelea, la discusión |
+
+### Más vocabulario: colegio, juegos y vacaciones
+
+| Alemán | Español |
+|---|---|
+| [[de:der Mitschüler / die Mitschülerin]] (Pl. die Mitschüler / die Mitschülerinnen) | el compañero / la compañera de clase |
+| [[de:die Pause]] (Pl. die Pausen) | el recreo, el descanso |
+| [[de:die Puppe]] (Pl. die Puppen) | la muñeca |
+| [[de:vorlesen]] (liest vor, las vor, hat vorgelesen) | leer en voz alta |
+| [[de:sammeln]] | coleccionar, reunir |
+| [[de:klettern]] (klettert, ist geklettert) | trepar, escalar |
+| [[de:sich verstecken]] | esconderse |
+| [[de:der Bauernhof]] (Pl. die Bauernhöfe) | la granja |
+| [[de:das Ferienlager]] (Pl. die Ferienlager) | el campamento de verano |
+
 ## 2. Contar una anécdota
 
 Una historia en alemán suele tener tres partes: **situación** (cuándo, dónde), **lo que pasó** (con *plötzlich*, *auf einmal*) y **final** (cómo terminó, qué sentiste).
@@ -28,7 +66,22 @@ Una historia en alemán suele tener tres partes: **situación** (cuándo, dónde
 - [[de:Am Ende mussten wir beide lachen.::Al final los dos tuvimos que reírnos.]]
 - [[de:Daran denke ich heute noch gern.::Todavía hoy pienso en ello con cariño.]]
 
-Conectores útiles para ordenar: **zuerst** (primero) · **dann / danach** (luego) · **später** (más tarde) · **eines Tages** (un día) · **plötzlich / auf einmal** (de repente) · **schließlich / am Ende** (al final).
+Conectores útiles para ordenar: **zuerst** (primero) · **dann / danach** (luego) · **später** (más tarde) · **eines Tages** (un día) · **plötzlich / auf einmal** (de repente) · **schließlich / am Ende** (al final) · [[de:jedes Mal::cada vez]].
+
+### Más vocabulario: sentimientos y carácter
+
+Para el final de la historia (qué sentiste) o para describir cómo eras:
+
+| Alemán | Español |
+|---|---|
+| [[de:vermissen]] | echar de menos |
+| [[de:träumen (von)]] | soñar (con) |
+| [[de:der Traum]] (Pl. die Träume) | el sueño (deseo o al dormir) |
+| [[de:der Wunsch]] (Pl. die Wünsche) | el deseo |
+| [[de:erschrecken]] (erschrickt, erschrak, ist erschrocken) | asustarse |
+| [[de:weinen]] | llorar |
+| [[de:ängstlich]] | miedoso |
+| [[de:aufregend]] | emocionante, excitante |
 
 ## 3. El Präteritum
 

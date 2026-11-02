@@ -15,7 +15,7 @@ En este tema hablas de tus aficiones con más detalle y de los **medios**: serie
 | [[de:Ich verbringe zu viel Zeit am Handy.]] | Paso demasiado tiempo con el móvil. |
 | [[de:Hast du die neue Folge schon gesehen?]] | ¿Ya has visto el nuevo episodio? |
 
-Palabras clave: **die Sendung** (programa) · **die Serie / die Folge** (serie / episodio) · **die Nachrichten** (noticias) · **der Krimi** (policíaca) · **die Komödie** · **der Dokumentarfilm** · **die Werbung** (publicidad) · **herunterladen** (descargar) · **streamen** · **posten** · **die App**.
+Palabras clave: **die Sendung** (programa) · **die Serie / die Folge** (serie / episodio) · **die Nachrichten** (noticias) · **der Krimi** (policíaca) · **die Komödie** · **der Dokumentarfilm** · **die Werbung** (publicidad) · **herunterladen** (descargar) · **streamen** · **posten** · **die App** · [[de:die Medien::los medios de comunicación]] · [[de:die Zeitschrift::la revista]].
 
 ## 2. Ocio y cultura
 
@@ -24,6 +24,15 @@ Palabras clave: **die Sendung** (programa) · **die Serie / die Folge** (serie /
 - [[de:Hast du Lust, ins Theater zu gehen?::¿Te apetece ir al teatro?]]
 - [[de:Die Karten für das Konzert sind schon ausverkauft.::Las entradas del concierto ya están agotadas.]]
 - [[de:Ich interessiere mich für Fotografie.::Me interesa la fotografía.]] (*sich interessieren für* + acusativo)
+
+### Más vocabulario: ocio y cultura
+
+| Alemán | Español |
+|---|---|
+| [[de:die Freizeit]] | el tiempo libre |
+| [[de:der Verein]] (Pl. die Vereine) | el club, la asociación |
+| [[de:die Eintrittskarte / die Karte]] (Pl. die Eintrittskarten) | la entrada |
+| [[de:der Eintritt]] | la entrada (precio, acceso) |
 
 ## 3. El adjetivo después de *ein, kein, mein*…
 
@@ -46,6 +55,15 @@ Truco: **-er** recuerda a *de**r***, **-es** recuerda a *da**s***. El adjetivo "
 - [[de:Mein bester Freund spielt in einer Band.::Mi mejor amigo toca en un grupo.]]
 
 **Sin artículo**, el adjetivo toma las terminaciones del artículo determinado: [[de:Ich trinke gern heißen Tee.::Me gusta tomar té caliente.]] · [[de:Das ist gute Musik.::Es buena música.]] · [[de:Viele Grüße!::¡Saludos!]]
+
+### Más vocabulario: adjetivos para recomendar
+
+| Alemán | Español |
+|---|---|
+| [[de:spannend]] | emocionante, intrigante |
+| [[de:interessant]] | interesante |
+| [[de:lustig]] | divertido, gracioso |
+| [[de:langweilig]] | aburrido |
 
 ## 4. Oraciones con *wenn*
 
@@ -70,6 +88,13 @@ Ojo: para **una sola vez en el pasado** no se usa *wenn* sino *als* (lo verás e
 - [[de:Soziale Netzwerke sind praktisch, aber man verliert viel Zeit.::Las redes sociales son prácticas, pero se pierde mucho tiempo.]]
 - [[de:Ohne Internet kann ich nicht arbeiten.::Sin internet no puedo trabajar.]]
 - [[de:Ein Vorteil ist …, ein Nachteil ist …::Una ventaja es…, un inconveniente es…]]
+
+### Más vocabulario: opinar sobre los medios
+
+| Alemán | Español |
+|---|---|
+| [[de:nutzen]] (nutzt, hat genutzt) | usar, utilizar |
+| [[de:abhängig]] | dependiente, enganchado |
 
 ## 6. Errores típicos de hispanohablantes
 

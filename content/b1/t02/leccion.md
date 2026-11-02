@@ -17,6 +17,18 @@ En A2 aprendiste a hablar de tu trabajo y a leer una oferta de empleo. En B1 das
 
 Palabras clave: **das Unternehmen / der Betrieb** (la empresa) · **die Abteilung** (el departamento) · **der Mitarbeiter / die Mitarbeiterin** (el empleado) · **die Leitung, leiten** (la dirección, dirigir) · **zuständig für** (responsable de) · **die Branche** (el sector) · **der Lohn** (el sueldo, sobre todo por horas) · **die Probezeit** (el periodo de prueba) · **der Feierabend** (el final de la jornada).
 
+### Más vocabulario: la empresa y la carrera
+
+| Alemán | Español |
+|---|---|
+| [[de:der Leiter / die Leiterin]] (Pl. die Leiter / die Leiterinnen) | el jefe / la jefa (de un departamento o proyecto) |
+| [[de:der Arbeitsplatz]] (Pl. die Arbeitsplätze) | el puesto de trabajo; el lugar de trabajo |
+| [[de:der Nebenjob]] (Pl. die Nebenjobs) | el trabajo extra, el trabajillo |
+| [[de:die Karriere]] (Pl. die Karrieren) | la carrera profesional |
+| [[de:der Auftrag]] (Pl. die Aufträge) | el encargo, el pedido |
+| [[de:vereinbaren]] | acordar, concertar |
+| [[de:entlassen]] (entlässt, entließ, hat entlassen) | despedir (a un empleado) |
+
 ## 2. La candidatura (*die Bewerbung*)
 
 En Alemania, Austria y Suiza una candidatura completa (*die Bewerbungsunterlagen*) suele llevar:
@@ -37,6 +49,23 @@ En Alemania, Austria y Suiza una candidatura completa (*die Bewerbungsunterlagen
 | [[de:Leider haben wir uns für einen anderen Bewerber entschieden.]] | Lamentablemente nos hemos decidido por otro candidato. |
 
 Después de enviar los papeles puedes recibir **eine Einladung zum Vorstellungsgespräch** (una invitación a la entrevista), **eine Zusage** (te cogen) o **eine Absage** (te rechazan). Si te cogen, la empresa te **stellt ein** (*einstellen* = contratar).
+
+### Más vocabulario: candidatura y cualidades
+
+| Alemán | Español |
+|---|---|
+| [[de:der Bewerber / die Bewerberin]] (Pl. die Bewerber / die Bewerberinnen) | el candidato / la candidata |
+| [[de:die Qualifikation]] (Pl. die Qualifikationen) | la cualificación |
+| [[de:die Kenntnisse]] | los conocimientos |
+| [[de:die Fähigkeit]] (Pl. die Fähigkeiten) | la capacidad, la habilidad |
+| [[de:die Schwäche]] (Pl. die Schwächen) | el punto débil |
+| [[de:die Anforderung]] (Pl. die Anforderungen) | el requisito, la exigencia |
+| [[de:erfüllen]] | cumplir (requisitos, deseos) |
+| [[de:sich vorstellen]] (stellt sich vor, hat sich vorgestellt) | presentarse |
+| [[de:belastbar]] | resistente al estrés, capaz de trabajar bajo presión |
+| [[de:teamfähig]] | capaz de trabajar en equipo |
+| [[de:motiviert]] | motivado |
+| [[de:erreichbar]] | localizable |
 
 ## 3. Oraciones de relativo
 
@@ -91,6 +120,7 @@ En el Schreiben B1 (Teil 3) y en tu vida en Suiza escribirás muchos correos for
 | Parte | Alemán | Español |
 |---|---|---|
 | Asunto | **Betreff:** Bewerbung als Laborassistent | Asunto: candidatura al puesto de asistente de laboratorio |
+| Saludo (término) | [[de:die Anrede]] (Pl. die Anreden) | el saludo, la fórmula de tratamiento |
 | Saludo (no sabes el nombre) | Sehr geehrte Damen und Herren, | Estimados señores: |
 | Saludo (sabes el nombre) | Sehr geehrte Frau Huber, / Sehr geehrter Herr Meier, | Estimada señora Huber: / Estimado señor Meier: |
 | Motivo | ich schreibe Ihnen, weil … | le escribo porque… |

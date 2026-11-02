@@ -19,9 +19,24 @@ Empiezas A2 contando tu vida: dónde naciste, cómo fue tu infancia, qué estudi
 
 Palabras clave: **die Kindheit** (la infancia), **die Jugend** (la juventud), **die Schule** (el colegio), **das Studium** (la carrera), **der Abschluss** (el título), **der Umzug** (la mudanza), **die Hochzeit** (la boda).
 
+### Más vocabulario: la vida, los estudios y el trabajo
+
+| Alemán | Español |
+|---|---|
+| [[de:das Leben]] | la vida |
+| [[de:das Dorf]] (Pl. die Dörfer) | el pueblo |
+| [[de:die Universität / die Uni]] (Pl. die Universitäten) | la universidad |
+| [[de:die Prüfung]] (Pl. die Prüfungen) | el examen |
+| [[de:bestehen]] (besteht, hat bestanden) | aprobar (un examen) |
+| [[de:die Stelle]] (Pl. die Stellen) | el puesto de trabajo |
+| [[de:anfangen]] (fängt an, hat angefangen) | empezar |
+| [[de:das Ausland]] | el extranjero |
+| [[de:sich trennen]] (trennt sich, hat sich getrennt) | separarse |
+| [[de:ein Kind bekommen]] (hat bekommen) | tener un hijo |
+
 Para situar en el tiempo:
 
-- [[de:früher::antes, en el pasado]] · [[de:damals::entonces, en aquella época]] · [[de:als Kind::de niño]] · [[de:mit 18 Jahren::a los 18 años]]
+- [[de:früher::antes, en el pasado]] · [[de:damals::entonces, en aquella época]] · [[de:als Kind::de niño]] · [[de:mit 18 Jahren::a los 18 años]] · [[de:am Anfang::al principio]]
 - [[de:vor zehn Jahren::hace diez años]] · [[de:seit drei Jahren::desde hace tres años]] · [[de:im Jahr 2015::en el año 2015]] · [[de:von 2016 bis 2020::de 2016 a 2020]]
 - [[de:zuerst … dann … danach … später … zum Schluss::primero … luego … después … más tarde … al final]]
 
@@ -68,6 +83,14 @@ Recuerda las reglas de forma:
 - **separables:** el *ge-* va en medio: *kennenlernen → kennen**ge**lernt*, *umziehen → um**ge**zogen*;
 - **sin ge-:** prefijos *be-, ver-, er-, ent-, ge-* y verbos en *-ieren*: *bekommen → bekommen*, *verlieren → verloren*, *studieren → studiert*.
 
+### Más vocabulario: verbos para contar recuerdos
+
+| Alemán | Español |
+|---|---|
+| [[de:erzählen]] (erzählt, hat erzählt) | contar, narrar |
+| [[de:erleben]] (erlebt, hat erlebt) | vivir (una experiencia) |
+| [[de:sich erinnern (an)]] (erinnert sich, hat sich erinnert) | acordarse (de) |
+
 ## 3. El Präteritum de los verbos modales
 
 Con los **modales** (y con *sein* y *haben*), en el pasado se usa casi siempre el **Präteritum**, también al hablar. Es mucho más natural decir *Ich musste arbeiten* que *Ich habe arbeiten müssen*.
@@ -94,6 +117,16 @@ El infinitivo sigue yendo **al final**:
 **sollen** (deber, "se supone que") es nuevo: [[de:Ich soll morgen um acht da sein.::Tengo que estar mañana a las ocho (me lo han pedido).]] · [[de:Der Arzt sagt, ich soll mehr Sport machen.::El médico dice que debo hacer más deporte.]]
 
 Y repasa **war / hatte**: [[de:Als Kind war ich sehr schüchtern und hatte viele Haustiere.::De niño era muy tímido y tenía muchas mascotas.]]
+
+### Más vocabulario: describir tu infancia
+
+| Alemán | Español |
+|---|---|
+| [[de:schüchtern]] | tímido |
+| [[de:streng]] | estricto |
+| [[de:anstrengend]] | agotador |
+| [[de:glücklich]] | feliz |
+| [[de:das Haustier]] (Pl. die Haustiere) | la mascota |
 
 ## 4. Contar tu vida (modelo para el Sprechen)
 
