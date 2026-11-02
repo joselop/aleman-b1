@@ -28,6 +28,17 @@ Palabras clave: **das Konto** (cuenta) · **die Bankkarte / Kreditkarte** · **d
 
 En Suiza: **A-Post** (llega al día siguiente, más cara) y **B-Post** (tarda 2–3 días, más barata).
 
+### Más vocabulario: correos
+
+| Alemán | Español |
+|---|---|
+| [[de:das Paket]] (Pl. die Pakete) | el paquete |
+| [[de:der Brief]] (Pl. die Briefe) | la carta |
+| [[de:die Briefmarke]] (Pl. die Briefmarken) | el sello |
+| [[de:der Absender / der Empfänger]] | el remitente / el destinatario |
+| [[de:abholen]] (holt ab, hat abgeholt) | recoger |
+| [[de:der Schalter]] (Pl. die Schalter) | la ventanilla |
+
 ## 3. Trámites en la oficina
 
 | Alemán | Español |
@@ -40,7 +51,7 @@ En Suiza: **A-Post** (llega al día siguiente, más cara) y **B-Post** (tarda 2�
 | [[de:Mein Ausweis ist abgelaufen.]] | Mi documento de identidad ha caducado. |
 | [[de:Ziehen Sie bitte eine Nummer.]] | Coja número, por favor. |
 
-Palabras clave: **das Amt / die Behörde** (oficina pública) · **die Gemeinde** (municipio, ayuntamiento) · **der Antrag** (solicitud) · **beantragen** (solicitar) · **die Aufenthaltsbewilligung** (permiso de residencia en Suiza) · **die Krankenkasse** (seguro médico) · **die Steuererklärung** (declaración de la renta) · **die Frist** (plazo) · **gültig** (válido).
+Palabras clave: **das Amt / die Behörde** (oficina pública) · **die Gemeinde** (municipio, ayuntamiento) · **der Antrag** (solicitud) · **beantragen** (solicitar) · **die Aufenthaltsbewilligung** (permiso de residencia en Suiza) · **die Krankenkasse** (seguro médico) · **die Steuererklärung** (declaración de la renta) · **die Frist** (plazo) · **gültig** (válido) · [[de:sich anmelden / abmelden::registrarse, darse de alta / de baja]] · [[de:ausfüllen::rellenar]].
 
 ## 4. Verbos con preposición
 

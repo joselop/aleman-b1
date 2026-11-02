@@ -17,7 +17,17 @@ En este tema planificas un viaje de principio a fin: elegir el transporte, compr
 
 Recuerda: **mit** + dativo para el medio (*mit dem Zug, mit der S-Bahn, mit dem Auto*), pero **zu Fuß** (a pie). *fahren* = ir en un vehículo; *gehen* = ir andando; *fliegen* = ir en avión.
 
-Palabras clave: **der Bahnhof** (estación) · **das Gleis** (vía, andén) · **die Fahrkarte / das Ticket** (billete) · **hin und zurück** (ida y vuelta) · **einfach** (solo ida) · **die Verbindung** (conexión) · **die Abfahrt / die Ankunft** (salida / llegada) · **der Anschluss** (enlace) · **das Halbtax** (abono suizo de medio precio).
+Palabras clave: **der Bahnhof** (estación) · **das Gleis** (vía, andén) · **die Fahrkarte / das Ticket** (billete) · **hin und zurück** (ida y vuelta) · **einfach** (solo ida) · **die Verbindung** (conexión) · **die Abfahrt / die Ankunft** (salida / llegada) · **der Anschluss** (enlace) · **das Halbtax** (abono suizo de medio precio) · [[de:die Verspätung::el retraso]] · [[de:die Haltestelle::la parada]] · [[de:die Straßenbahn / das Tram::el tranvía]] · [[de:der Flughafen::el aeropuerto]] · [[de:der Flug::el vuelo]].
+
+### Más vocabulario: verbos de viaje
+
+| Alemán | Español |
+|---|---|
+| [[de:umsteigen]] (steigt um, ist umgestiegen) | hacer transbordo |
+| [[de:abfahren]] (fährt ab, ist abgefahren) | salir (un vehículo) |
+| [[de:ankommen]] (kommt an, ist angekommen) | llegar |
+| [[de:ausfallen]] (fällt aus, ist ausgefallen) | cancelarse, no circular |
+| [[de:verpassen]] (verpasst, hat verpasst) | perder (un tren, una cita) |
 
 ## 2. ¿De dónde, adónde, dónde?
 
@@ -79,7 +89,17 @@ Para pedir algo de forma educada (en la estación, en un hotel, por teléfono) e
 
 En el hotel: [[de:Ich habe ein Zimmer auf den Namen Romero reserviert.::Tengo una habitación reservada a nombre de Romero.]] · [[de:Ist das Frühstück im Preis inbegriffen?::¿El desayuno está incluido en el precio?]] · [[de:Bis wann muss ich das Zimmer verlassen?::¿Hasta qué hora tengo que dejar la habitación?]]
 
-Palabras útiles: **das Einzelzimmer / Doppelzimmer** · **mit Halbpension** (media pensión) · **die Rezeption** · **die Unterkunft** (alojamiento) · **die Jugendherberge** (albergue) · **buchen** (reservar) · **stornieren** (anular una reserva).
+Palabras útiles: **das Einzelzimmer / Doppelzimmer** · **mit Halbpension** (media pensión) · **die Rezeption** · **die Unterkunft** (alojamiento) · **die Jugendherberge** (albergue) · **buchen** (reservar) · **stornieren** (anular una reserva) · [[de:inbegriffen::incluido]].
+
+### Más vocabulario: el viaje
+
+| Alemán | Español |
+|---|---|
+| [[de:der Koffer]] (Pl. die Koffer) | la maleta |
+| [[de:das Gepäck]] | el equipaje |
+| [[de:der Ausweis / der Reisepass]] | el carné de identidad / el pasaporte |
+| [[de:der Urlaub]] (Pl. die Urlaube) | las vacaciones |
+| [[de:die Sehenswürdigkeit]] (Pl. die Sehenswürdigkeiten) | el lugar de interés, el monumento |
 
 ## 5. Problemas de viaje
 

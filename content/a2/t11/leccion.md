@@ -19,6 +19,15 @@ El último tema del A2 te saca al aire libre: el **tiempo** y el **pronóstico**
 
 De sustantivo a adjetivo: **die Sonne → sonnig**, **der Regen → regnerisch**, **der Wind → windig**, **die Wolke → bewölkt / wolkig**, **der Nebel → neblig**. Las estaciones: **der Frühling, der Sommer, der Herbst, der Winter** (*im Frühling, im Winter*).
 
+### Más vocabulario: el tiempo
+
+| Alemán | Español |
+|---|---|
+| [[de:der Wetterbericht]] (Pl. die Wetterberichte) | el parte meteorológico |
+| [[de:die Temperatur]] (Pl. die Temperaturen) | la temperatura |
+| [[de:die Jahreszeit]] (Pl. die Jahreszeiten) | la estación del año |
+| [[de:der Schnee / schneien]] | la nieve / nevar |
+
 Un fenómeno suizo: el **Föhn**, un viento cálido y seco que baja de los Alpes y da días muy claros (y a mucha gente, dolor de cabeza).
 
 ## 2. Paisaje y animales
@@ -29,7 +38,7 @@ Un fenómeno suizo: el **Föhn**, un viento cálido y seco que baja de los Alpes
 - [[de:Im Fluss kann man im Sommer baden.::En el río se puede bañar en verano.]]
 - [[de:Auf dem Land ist die Luft sauberer als in der Stadt.::En el campo el aire es más limpio que en la ciudad.]]
 
-Palabras clave: **der Berg** · **der Gipfel** (cima) · **das Tal** (valle) · **der See** (lago) · **das Meer** (mar) · **der Fluss** (río) · **der Wald** (bosque) · **die Wiese** (prado) · **die Pflanze** · **der Baum** · **das Tier** · **der Vogel** · **die Kuh** · **das Murmeltier** (marmota, ¡muy típico de los Alpes!).
+Palabras clave: **der Berg** · **der Gipfel** (cima) · **das Tal** (valle) · **der See** (lago) · **das Meer** (mar) · **der Fluss** (río) · **der Wald** (bosque) · **die Wiese** (prado) · **die Pflanze** · **der Baum** · **das Tier** · **der Vogel** · **die Kuh** · **das Murmeltier** (marmota, ¡muy típico de los Alpes!) · [[de:die Aussicht::las vistas]].
 
 ## 3. Medio ambiente
 

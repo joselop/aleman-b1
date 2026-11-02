@@ -19,6 +19,34 @@ En este tema hablas de **fiestas, regalos e invitaciones** (cumpleaños, bodas, 
 
 Fiestas en Suiza y Alemania: **Weihnachten** (Navidad, el regalo se abre el 24 por la noche: *Heiligabend*), **Silvester** (Nochevieja), **Ostern** (Semana Santa, huevos de colores), **der 1. August** (fiesta nacional suiza con hogueras y fuegos artificiales), **der Karneval / die Fasnacht** (carnaval, muy famoso en Basilea y Lucerna), **das Oktoberfest** en Múnich.
 
+### Más vocabulario: fiestas
+
+| Alemán | Español |
+|---|---|
+| [[de:das Fest]] (Pl. die Feste) | la fiesta, la celebración |
+| [[de:feiern]] (feiert, hat gefeiert) | celebrar, festejar |
+| [[de:einladen]] (lädt ein, hat eingeladen) | invitar |
+| [[de:der Gast]] (Pl. die Gäste) | el invitado |
+| [[de:das Geschenk]] (Pl. die Geschenke) | el regalo |
+| [[de:die Hochzeit]] (Pl. die Hochzeiten) | la boda |
+| [[de:das Feuerwerk]] | los fuegos artificiales |
+| [[de:anstoßen]] (stößt an, hat angestoßen) | brindar |
+| [[de:mitbringen]] (bringt mit, hat mitgebracht) | traer, llevar (consigo) |
+
+### Más vocabulario: relaciones
+
+Las personas de tu vida y cómo hablar de ellas:
+
+| Alemán | Español |
+|---|---|
+| [[de:der Freund / die Freundin]] | el amigo / la amiga; el novio / la novia |
+| [[de:der Partner / die Partnerin]] | la pareja |
+| [[de:der Nachbar / die Nachbarin]] (Pl. die Nachbarn) | el vecino / la vecina |
+| [[de:verheiratet / ledig / geschieden]] | casado / soltero / divorciado |
+| [[de:kennenlernen]] (lernt kennen, hat kennengelernt) | conocer (a alguien) |
+| [[de:sich verlieben (in)]] (verliebt sich, hat sich verliebt) | enamorarse (de) |
+| [[de:sich streiten]] (streitet sich, hat sich gestritten) | discutir, pelearse |
+
 ## 2. Verbos con dativo
 
 Algunos verbos llevan **dativo** en lugar de acusativo. Hay que aprenderlos de memoria; los más importantes:
@@ -56,6 +84,8 @@ Fíjate en *gefallen, schmecken, gehören, fehlen*: igual que en español con *g
 - [[de:Ich rufe ihn an und gratuliere ihm.::Lo llamo y lo felicito.]]
 - [[de:Wie gefällt euch die Wohnung?::¿Qué os parece el piso?]]
 - [[de:Die Kinder sind müde. Ich lese ihnen eine Geschichte vor.::Los niños están cansados. Les leo un cuento.]]
+
+Para preguntar por la persona en dativo: [[de:wem::a quién (dativo)]] (*Wem gehört die Jacke?*).
 
 ## 4. Verbos con dos complementos: dativo + acusativo
 

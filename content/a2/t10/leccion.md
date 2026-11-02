@@ -17,7 +17,7 @@ Tú mismo estás aprendiendo alemán, así que este tema te toca de cerca: el co
 
 El sistema suizo: **Primarschule** (6 años) → **Sekundarschule** (3 años) → o bien **Lehre / Ausbildung** (FP en una empresa + escuela, la opción de dos de cada tres jóvenes) o bien **Gymnasium** → **Matura** → **Universität / ETH / Fachhochschule**. En Alemania el bachillerato se llama **Abitur**.
 
-Palabras clave: **das Fach** (asignatura) · **die Note** (nota; en Suiza 6 es la mejor, en Alemania 1) · **das Zeugnis** (boletín de notas, certificado) · **die Prüfung** (examen) · **bestehen** (aprobar) · **durchfallen** (suspender) · **die Hausaufgabe** · **der Abschluss** (título) · **die Weiterbildung** (formación continua).
+Palabras clave: **das Fach** (asignatura) · **die Note** (nota; en Suiza 6 es la mejor, en Alemania 1) · **das Zeugnis** (boletín de notas, certificado) · **die Prüfung** (examen) · **bestehen** (aprobar) · **durchfallen** (suspender) · **die Hausaufgabe** · **der Abschluss** (título) · **die Weiterbildung** (formación continua) · [[de:das Studium::los estudios universitarios]].
 
 ## 2. Cómo aprender un idioma
 
@@ -27,6 +27,16 @@ Palabras clave: **das Fach** (asignatura) · **die Note** (nota; en Suiza 6 es l
 - [[de:Am schwierigsten finde ich die Artikel.::Lo que más me cuesta son los artículos.]]
 - [[de:Ich mache viele Fehler, aber ich spreche einfach.::Cometo muchos errores, pero hablo sin más.]]
 - [[de:Ich wiederhole die Grammatik am Wochenende.::Repaso la gramática los fines de semana.]]
+
+### Más vocabulario: aprender
+
+| Alemán | Español |
+|---|---|
+| [[de:üben]] (übt, hat geübt) | practicar |
+| [[de:wiederholen]] (wiederholt, hat wiederholt) | repasar, repetir |
+| [[de:die Vokabel]] (Pl. die Vokabeln) | la palabra (de vocabulario) |
+| [[de:der Fehler]] (Pl. die Fehler) | el error |
+| [[de:die Aussprache]] | la pronunciación |
 
 ## 3. *deshalb* y *trotzdem*
 
@@ -81,6 +91,16 @@ Reglas:
 > [[de:Gibt es auch Abendkurse? Tagsüber arbeite ich.::¿Hay también cursos de tarde? Durante el día trabajo.]]
 > [[de:Muss ich vorher einen Einstufungstest machen?::¿Tengo que hacer antes una prueba de nivel?]]
 > [[de:Bekomme ich am Ende ein Zertifikat?::¿Recibo un certificado al final?]]
+
+### Más vocabulario: cursos
+
+| Alemán | Español |
+|---|---|
+| [[de:die Lektion]] (Pl. die Lektionen) | la clase, la lección (unidad de 45 min) |
+| [[de:das Niveau]] (Pl. die Niveaus) | el nivel |
+| [[de:der Einstufungstest]] (Pl. die Einstufungstests) | la prueba de nivel |
+| [[de:das Zertifikat]] (Pl. die Zertifikate) | el certificado |
+| [[de:sich anmelden (für)]] (meldet sich an, hat sich angemeldet) | inscribirse (en) |
 
 ## 6. Errores típicos de hispanohablantes
 
