@@ -11,6 +11,7 @@ En este tema aprendes las partes del cuerpo, a decir qué te duele y cómo te en
 | [[de:der Hals]] el cuello, la garganta | [[de:der Rücken]] la espalda | [[de:der Bauch]] la barriga |
 | [[de:der Arm]] el brazo | [[de:die Hand]] la mano | [[de:der Finger]] el dedo |
 | [[de:das Bein]] la pierna | [[de:das Knie]] la rodilla | [[de:der Fuß]] el pie |
+| [[de:der Körper]] (Pl. die Körper) el cuerpo | | |
 
 Plurales útiles: *die Augen, die Ohren, die Zähne, die Hände, die Beine, die Füße*.
 
@@ -19,6 +20,17 @@ Plurales útiles: *die Augen, die Ohren, die Zähne, die Hände, die Beine, die 
 - [[de:Wie geht es Ihnen?::¿Cómo está usted?]] · [[de:Was fehlt Ihnen?]] (el médico: ¿qué le pasa?)
 - [[de:Ich bin krank.::Estoy enfermo/a.]] · [[de:Ich bin erkältet.]] (estoy resfriado)
 - [[de:Ich habe Fieber.::Tengo fiebre.]] · [[de:Ich habe Husten.]] (tos) · [[de:Ich habe Schnupfen.]] (mocos)
+
+### Más vocabulario: cómo te encuentras
+
+| Alemán | Español |
+|---|---|
+| [[de:krank / gesund]] | enfermo / sano |
+| [[de:das Fieber]] | la fiebre |
+| [[de:der Husten]] | la tos |
+| [[de:der Schnupfen]] | el resfriado (mocos) |
+| [[de:die Schmerzen]] | los dolores |
+| [[de:wehtun]] (tut weh, hat wehgetan) | doler |
 
 Para decir que algo **duele** hay dos formas:
 
@@ -93,6 +105,16 @@ Para dar instrucciones o consejos a quien tratas de usted (el médico, carteles,
 | kommen | [[de:Kommen Sie morgen wieder!::¡Vuelva mañana!]] |
 | anrufen | [[de:Rufen Sie mich am Montag an!::¡Llámeme el lunes!]] |
 | sein | [[de:Seien Sie bitte pünktlich!::¡Sea puntual, por favor!]] (irregular) |
+
+### Más vocabulario: los consejos del médico
+
+| Alemán | Español |
+|---|---|
+| [[de:warten]] | esperar |
+| [[de:sich ausruhen]] (ruht sich aus, hat sich ausgeruht) | descansar |
+| [[de:sofort]] | enseguida, inmediatamente |
+| [[de:dreimal am Tag]] | tres veces al día |
+| [[de:vor / nach dem Essen]] | antes / después de comer |
 
 Ahora ya tienes las tres formas del imperativo:
 

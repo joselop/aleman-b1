@@ -12,6 +12,7 @@ En este tema te mueves por la ciudad: lugares importantes, transporte, cómo pre
 | [[de:die Kirche]] la iglesia | [[de:das Museum]] el museo | [[de:der Park]] el parque |
 | [[de:der Platz]] la plaza | [[de:die Straße]] la calle | [[de:die Ampel]] el semáforo |
 | [[de:die Kreuzung]] el cruce | [[de:die Ecke]] la esquina | [[de:das Zentrum]] el centro |
+| [[de:die Stadt]] (Pl. die Städte) la ciudad | | |
 
 ## 2. El transporte: *mit* + dativo
 
@@ -25,6 +26,20 @@ En este tema te mueves por la ciudad: lugares importantes, transporte, cómo pre
 - [[de:Wie kommst du zur Arbeit? – Mit dem Fahrrad.::¿Cómo vas al trabajo? – En bici.]]
 - [[de:Ich fahre mit dem Zug nach Bern.::Voy en tren a Berna.]]
 - [[de:Ich gehe zu Fuß.::Voy a pie.]]
+
+### Más vocabulario: los medios de transporte
+
+Detrás de *mit* el artículo cambia; aquí tienes cada palabra en nominativo:
+
+| Alemán | Español |
+|---|---|
+| [[de:der Bus]] (Pl. die Busse) | el autobús |
+| [[de:die U-Bahn]] (Pl. die U-Bahnen) | el metro |
+| [[de:die Straßenbahn / das Tram]] (Pl. die Straßenbahnen) | el tranvía |
+| [[de:der Zug]] (Pl. die Züge) | el tren |
+| [[de:das Auto]] (Pl. die Autos) | el coche |
+| [[de:das Fahrrad]] (Pl. die Fahrräder) | la bicicleta |
+| [[de:die Verspätung]] (Pl. die Verspätungen) | el retraso |
 
 Otras palabras del transporte: [[de:die Fahrkarte]] / [[de:das Ticket]] (el billete) · [[de:der Fahrplan]] (el horario) · [[de:das Gleis]] (la vía, el andén) · [[de:abfahren]] (salir) · [[de:ankommen]] (llegar) · [[de:umsteigen]] (hacer transbordo) · [[de:einsteigen]] / [[de:aussteigen]] (subir / bajar).
 
@@ -89,6 +104,7 @@ Las indicaciones:
 | [[de:über die Straße]] cruzando la calle | [[de:bis zur Kreuzung]] hasta el cruce |
 | [[de:neben der Bank]] al lado del banco | [[de:gegenüber vom Rathaus]] enfrente del ayuntamiento |
 | [[de:hier]] / [[de:dort]] aquí / allí | [[de:in der Nähe]] cerca |
+| [[de:weit / nah]] lejos / cerca | |
 
 Palabras como *an der Ampel*, *neben der Bank* o *in der Nähe* también llevan dativo, pero con otras preposiciones que funcionan de forma especial; de momento apréndelas como bloques (las verás a fondo en A2).
 

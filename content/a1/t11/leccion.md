@@ -20,6 +20,7 @@ En este tema hablas de tu profesión y de tu trabajo, aprendes los meses, las es
 
 La forma femenina casi siempre se hace con **-in** (y a veces con diéresis: *Arzt → Ärztin, Koch → Köchin*).
 
+- [[de:der Beruf::la profesión]] (Pl. die Berufe)
 - [[de:Was sind Sie von Beruf?]] · [[de:Was machst du beruflich?]] — ¿A qué te dedicas?
 - [[de:Ich bin Ingenieur.]] — **sin artículo**, igual que en español ("soy ingeniero").
 - [[de:Ich arbeite als Krankenpflegerin im Krankenhaus.::Trabajo de enfermera en el hospital.]] (*als* = como)
@@ -28,7 +29,7 @@ La forma femenina casi siempre se hace con **-in** (y a veces con diéresis: *Ar
 - [[de:Andrea arbeitet bei einer Pharmafirma. Sie organisiert klinische Studien.::Andrea trabaja en una farmacéutica. Organiza ensayos clínicos.]]
 - [[de:Ich bin arbeitslos.::Estoy en paro.]] · [[de:Ich studiere Medizin.::Estudio Medicina.]] · [[de:Ich mache eine Ausbildung.::Hago una formación profesional.]] (formación profesional)
 
-Palabras del trabajo: [[de:die Firma]] (la empresa) · [[de:das Büro]] (la oficina) · [[de:der Chef::el jefe]] / [[de:die Chefin::la jefa]] · [[de:der Kollege::el compañero de trabajo]] / [[de:die Kollegin::la compañera de trabajo]] · [[de:die Arbeit::el trabajo]] · [[de:der Job::el trabajo, el empleo]] · [[de:Vollzeit]] / [[de:Teilzeit]] (jornada completa / parcial) · [[de:das Praktikum]] (las prácticas) · [[de:der Urlaub]] (las vacaciones).
+Palabras del trabajo: [[de:die Firma]] (la empresa) · [[de:das Büro]] (la oficina) · [[de:der Chef::el jefe]] / [[de:die Chefin::la jefa]] · [[de:der Kollege::el compañero de trabajo]] / [[de:die Kollegin::la compañera de trabajo]] · [[de:die Arbeit::el trabajo]] · [[de:der Job::el trabajo, el empleo]] · [[de:Vollzeit]] / [[de:Teilzeit]] (jornada completa / parcial) · [[de:das Praktikum]] (las prácticas) · [[de:der Urlaub]] (las vacaciones) · [[de:die Ausbildung]] (la formación profesional) · [[de:studieren]] (estudiar en la universidad).
 
 ## 2. Meses y estaciones
 
@@ -37,6 +38,8 @@ Palabras del trabajo: [[de:die Firma]] (la empresa) · [[de:das Büro]] (la ofic
 | [[de:Januar::enero]] | [[de:Februar::febrero]] | [[de:März::marzo]] | [[de:April::abril]] |
 | [[de:Mai::mayo]] | [[de:Juni::junio]] | [[de:Juli::julio]] | [[de:August::agosto]] |
 | [[de:September::septiembre]] | [[de:Oktober::octubre]] | [[de:November::noviembre]] | [[de:Dezember::diciembre]] |
+
+- Palabras clave: [[de:der Monat::el mes]] (Pl. die Monate) · [[de:Januar, Februar, März …::enero, febrero, marzo…]]
 
 Estaciones: [[de:der Frühling::la primavera]] · [[de:der Sommer::el verano]] · [[de:der Herbst::el otoño]] · [[de:der Winter::el invierno]]
 
@@ -54,6 +57,7 @@ Los ordinales (primero, segundo…) se forman así:
 
 En la escritura, un **punto** detrás del número indica que es ordinal: *3.* = *dritte*.
 
+- Palabras clave: [[de:das Datum::la fecha]] (Pl. die Daten) · [[de:der Geburtstag::el cumpleaños]] (Pl. die Geburtstage) · [[de:geboren::nacido]]
 - ¿Qué día es hoy? [[de:Der Wievielte ist heute?::¿A qué día estamos?]] — [[de:Heute ist der dritte Mai.::Hoy es 3 de mayo.]] (*der 3. Mai*)
 - ¿Cuándo? con **am** y el ordinal acabado en **-en**: [[de:am dritten Mai::el 3 de mayo]] · [[de:am ersten Januar::el 1 de enero]]
 - [[de:Wann hast du Geburtstag? – Am zwölften März.::¿Cuándo es tu cumpleaños? – El 12 de marzo.]]
@@ -85,6 +89,16 @@ El **Perfekt** es el pasado que se usa al hablar (en España equivale tanto a "h
 | Gestern | hat | Andrea ein Buch | **gelesen**. |
 | Was | hast | du am Wochenende | **gemacht**? |
 | | Hast | du schon | **gegessen**? |
+
+### Más vocabulario: hablar del pasado
+
+| Alemán | Español |
+|---|---|
+| [[de:gestern]] | ayer |
+| [[de:vorgestern]] | anteayer |
+| [[de:letzte Woche]] | la semana pasada |
+| [[de:schon]] | ya |
+| [[de:noch nicht]] | todavía no |
 
 ### Cómo se forma el participio
 

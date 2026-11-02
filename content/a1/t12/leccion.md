@@ -17,6 +17,8 @@ En este último tema de A1 hablas de viajes y vacaciones, del **tiempo** que hac
 
 Temperatura: [[de:Es ist heiß.::Hace calor (mucho).]] · [[de:Es ist warm.::Hace calor (agradable).]] · [[de:Es ist kalt.::Hace frío.]] · [[de:Es sind 25 Grad.::Hace 25 grados.]] · [[de:minus fünf Grad::cinco grados bajo cero]].
 
+Verbos y palabras clave: [[de:regnen]] (llover) · [[de:schneien]] (nevar) · [[de:das Grad]] (el grado).
+
 En alemán el tiempo se dice con **es** (sujeto vacío): *Es regnet* = llueve.
 
 ## 2. Viajar
@@ -30,6 +32,7 @@ En alemán el tiempo se dice con **es** (sujeto vacío): *Es regnet* = llueve.
 | [[de:das Meer]] el mar | [[de:der Strand]] la playa |
 | [[de:die Berge]] la montaña | [[de:der See]] el lago |
 | [[de:der Ausflug]] la excursión | [[de:besichtigen]] visitar (monumentos) |
+| [[de:das Doppelzimmer / Einzelzimmer]] (Pl. die Doppelzimmer / Einzelzimmer) la habitación doble / individual | [[de:die Nacht]] (Pl. die Nächte) la noche |
 
 - [[de:Ich fliege im Sommer nach Mallorca.::En verano vuelo a Mallorca.]]
 - [[de:Wir machen Urlaub am Meer.::Pasamos las vacaciones en el mar.]] · [[de:Wir fahren in die Berge.::Vamos a la montaña.]]
@@ -54,6 +57,7 @@ En el tema 11 viste el Perfekt con *haben*. Algunos verbos forman el Perfekt con
 | reisen | [[de:ich bin gereist::he viajado / viajé]] |
 | ankommen | [[de:ich bin angekommen::he llegado / llegué]] |
 | aufstehen | [[de:ich bin aufgestanden::me he levantado / me levanté]] |
+| schwimmen | [[de:schwimmen – geschwommen::nadar – nadado]] (ich bin geschwommen) |
 | bleiben | [[de:ich bin geblieben::me he quedado / me quedé]] |
 | sein | [[de:ich bin gewesen::he estado / estuve]] |
 | passieren | [[de:Was ist passiert?::¿Qué ha pasado?]] |
@@ -108,7 +112,7 @@ Así que lo más natural es: *Ich **war** in Berlin* (mejor que *Ich bin in Berl
 | Boda | [[de:Herzlichen Glückwunsch zur Hochzeit!::¡Enhorabuena por la boda!]] |
 | Examen aprobado | [[de:Herzlichen Glückwunsch! Super gemacht!::¡Enhorabuena! ¡Muy bien hecho!]] |
 
-Fiestas: [[de:der Geburtstag::el cumpleaños]] · [[de:Weihnachten]] (Navidad) · [[de:Silvester]] (Nochevieja) · [[de:Ostern]] (Pascua) · [[de:die Hochzeit]] (la boda) · [[de:die Party::la fiesta]] · [[de:feiern]] (celebrar) · [[de:das Geschenk]] (el regalo) · [[de:schenken]] (regalar).
+Fiestas: [[de:der Geburtstag::el cumpleaños]] · [[de:Weihnachten]] (Navidad) · [[de:Silvester]] (Nochevieja) · [[de:Neujahr]] (Año Nuevo) · [[de:Ostern]] (Pascua) · [[de:die Hochzeit]] (la boda) · [[de:die Party::la fiesta]] · [[de:feiern]] (celebrar) · [[de:das Geschenk]] (el regalo) · [[de:schenken]] (regalar) · [[de:das Fest]] (la fiesta, la celebración) · [[de:die Einladung]] (la invitación) · [[de:einladen]] (invitar).
 
 ## 6. Invitar, aceptar y rechazar
 

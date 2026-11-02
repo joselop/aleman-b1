@@ -10,6 +10,8 @@ En este tema vas de compras: aprendes la ropa, las tallas, los precios (también
 | [[de:der Rock]] la falda | [[de:die Jacke]] la chaqueta | [[de:das Kleid]] el vestido | [[de:die Socken]] los calcetines |
 | [[de:der Mantel]] el abrigo | [[de:die Bluse]] la blusa | [[de:das T-Shirt]] la camiseta | [[de:die Jeans]] los vaqueros |
 | [[de:der Hut]] el sombrero | [[de:die Mütze]] el gorro | | [[de:die Stiefel]] las botas |
+| | [[de:die Tasche]] (Pl. die Taschen) el bolso, la bolsa | | |
+| | [[de:die Kleidung]] la ropa (sin plural) | | |
 
 Ojo: **die Hose** es singular en alemán (en español "los pantalones" o "el pantalón"): *Die Hose **ist** zu lang.* En cambio **die Jeans** puede ser singular o plural.
 
@@ -17,6 +19,7 @@ Ojo: **die Hose** es singular en alemán (en español "los pantalones" o "el pan
 - [[de:anprobieren]] — probarse · [[de:Kann ich die Jacke anprobieren?::¿Puedo probarme la chaqueta?]]
 - [[de:die Umkleidekabine]] — el probador
 - Tamaño y ajuste: *zu groß / zu klein* · *zu lang / zu kurz* · [[de:eng]] (estrecho) · [[de:weit]] (ancho)
+- Otros adjetivos: [[de:warm::caliente, abrigado]] · [[de:bequem::cómodo]]
 - [[de:Die Hose passt nicht.]] — el pantalón no me queda bien (de talla)
 - [[de:Wie gefällt dir der Pullover?]] — ¿Qué te parece el jersey? — [[de:Er gefällt mir gut.::Me gusta mucho.]] (me gusta)
 
@@ -36,6 +39,17 @@ Los precios: **19,99 €** = [[de:neunzehn Euro neunundneunzig]] · **4,50 Fr.**
 Para preguntar: [[de:Was kostet der Mantel?::¿Cuánto cuesta el abrigo?]] · [[de:Wie viel kosten die Schuhe?::¿Cuánto cuestan los zapatos?]] — [[de:Er kostet 89 Euro.::Cuesta 89 euros.]] / [[de:Sie kosten 120 Euro.::Cuestan 120 euros.]]
 
 Pagar: [[de:Zahlen Sie bar oder mit Karte?::¿Paga en efectivo o con tarjeta?]] — [[de:Mit Karte, bitte.::Con tarjeta, por favor.]]
+
+### Más vocabulario: precios y pagar
+
+| Alemán | Español |
+|---|---|
+| [[de:der Preis]] (Pl. die Preise) | el precio |
+| [[de:das Geld]] | el dinero |
+| [[de:bar]] | en efectivo |
+| [[de:die Karte]] (Pl. die Karten) | la tarjeta |
+| [[de:der Franken]] (Pl. die Franken) | el franco (suizo) |
+| [[de:der Cent]] (Pl. die Cent) | el céntimo |
 
 ## 3. welch- y dies-
 
@@ -85,7 +99,9 @@ La regla de siempre: **solo cambia el masculino** en 3.ª persona (*er → ihn*)
 > [[de:Neunundvierzig Euro neunzig.::Cuarenta y nueve euros con noventa.]]
 > [[de:Gut, ich nehme ihn.::Bien, me lo llevo.]]
 
-Tiendas: [[de:das Kaufhaus]] (grandes almacenes) · [[de:der Supermarkt::el supermercado]] · [[de:die Bäckerei]] (panadería) · [[de:die Apotheke]] (farmacia) · [[de:der Markt]] (mercado). En los grandes almacenes: [[de:Die Damenmode ist im zweiten Stock.::La moda de mujer está en la segunda planta.]]
+- Verbos de la tienda: [[de:suchen::buscar]] · [[de:helfen::ayudar]]
+
+Tiendas: [[de:das Kaufhaus]] (grandes almacenes) · [[de:der Supermarkt::el supermercado]] · [[de:die Bäckerei]] (panadería) · [[de:die Apotheke]] (farmacia) · [[de:der Markt]] (mercado) · [[de:das Geschäft]] (la tienda; Pl. die Geschäfte). Horarios: [[de:offen / geschlossen]] (abierto / cerrado). En los grandes almacenes: [[de:Die Damenmode ist im zweiten Stock.::La moda de mujer está en la segunda planta.]]
 
 Ofertas: [[de:das Angebot]] (la oferta) · *reduziert* (rebajado) · *Sonderangebot* · *Schlussverkauf* (rebajas) · *50 % billiger*.
 
