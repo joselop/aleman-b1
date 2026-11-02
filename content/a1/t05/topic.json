@@ -147,6 +147,38 @@
       "ex_es": "Vivo en un piso compartido."
     },
     {
+      "de": "die Toilette",
+      "pl": "die Toiletten",
+      "es": "el aseo, el váter",
+      "cat": "Casa",
+      "ex": "Die Toilette ist neben dem Bad.",
+      "ex_es": "El aseo está al lado del baño."
+    },
+    {
+      "de": "das Kinderzimmer",
+      "pl": "die Kinderzimmer",
+      "es": "el cuarto de los niños",
+      "cat": "Casa",
+      "ex": "Das Kinderzimmer ist hell.",
+      "ex_es": "El cuarto de los niños es luminoso."
+    },
+    {
+      "de": "der Flur",
+      "pl": "die Flure",
+      "es": "el pasillo, la entrada",
+      "cat": "Casa",
+      "ex": "Der Flur ist sehr dunkel.",
+      "ex_es": "El pasillo es muy oscuro."
+    },
+    {
+      "de": "die Treppe",
+      "pl": "die Treppen",
+      "es": "la escalera",
+      "cat": "Casa",
+      "ex": "Es gibt keinen Aufzug, nur eine Treppe.",
+      "ex_es": "No hay ascensor, solo escalera."
+    },
+    {
       "de": "der Tisch",
       "pl": "die Tische",
       "es": "la mesa",
@@ -225,6 +257,22 @@
       "cat": "Muebles",
       "ex": "Gibt es eine Waschmaschine?",
       "ex_es": "¿Hay lavadora?"
+    },
+    {
+      "de": "der Teppich",
+      "pl": "die Teppiche",
+      "es": "la alfombra",
+      "cat": "Muebles",
+      "ex": "Im Wohnzimmer liegt ein Teppich.",
+      "ex_es": "En el salón hay una alfombra."
+    },
+    {
+      "de": "der Sessel",
+      "pl": "die Sessel",
+      "es": "el sillón",
+      "cat": "Muebles",
+      "ex": "Der Sessel ist sehr gemütlich.",
+      "ex_es": "El sillón es muy cómodo."
     },
     {
       "de": "groß / klein",
@@ -311,6 +359,20 @@
       "ex_es": "El piso está disponible ya."
     },
     {
+      "de": "modern",
+      "es": "moderno",
+      "cat": "Adjetivos",
+      "ex": "Die Küche ist ganz modern.",
+      "ex_es": "La cocina es muy moderna."
+    },
+    {
+      "de": "praktisch",
+      "es": "práctico",
+      "cat": "Adjetivos",
+      "ex": "Das Regal ist klein, aber praktisch.",
+      "ex_es": "La estantería es pequeña, pero práctica."
+    },
+    {
       "de": "die Farbe",
       "pl": "die Farben",
       "es": "el color",
@@ -331,6 +393,20 @@
       "cat": "Colores",
       "ex": "Der Tisch ist braun.",
       "ex_es": "La mesa es marrón."
+    },
+    {
+      "de": "orange",
+      "es": "naranja",
+      "cat": "Colores",
+      "ex": "Die Lampe ist orange.",
+      "ex_es": "La lámpara es naranja."
+    },
+    {
+      "de": "rosa",
+      "es": "rosa",
+      "cat": "Colores",
+      "ex": "Das Kinderzimmer ist rosa.",
+      "ex_es": "El cuarto de los niños es rosa."
     },
     {
       "de": "es gibt",

@@ -132,6 +132,30 @@
       "ex_es": "El hotel está en el centro."
     },
     {
+      "de": "die Schule",
+      "pl": "die Schulen",
+      "es": "el colegio, la escuela",
+      "cat": "Lugares",
+      "ex": "Die Schule ist neben der Kirche.",
+      "ex_es": "El colegio está al lado de la iglesia."
+    },
+    {
+      "de": "der Park",
+      "pl": "die Parks",
+      "es": "el parque",
+      "cat": "Lugares",
+      "ex": "Wir gehen in den Park.",
+      "ex_es": "Vamos al parque."
+    },
+    {
+      "de": "die Kreuzung",
+      "pl": "die Kreuzungen",
+      "es": "el cruce",
+      "cat": "Lugares",
+      "ex": "Geh bis zur Kreuzung und dann rechts.",
+      "ex_es": "Ve hasta el cruce y luego a la derecha."
+    },
+    {
       "de": "der Bus",
       "pl": "die Busse",
       "es": "el autobús",
@@ -243,6 +267,30 @@
       "ex_es": "¡Bájate en la parada Bellevue!"
     },
     {
+      "de": "das Taxi",
+      "pl": "die Taxis",
+      "es": "el taxi",
+      "cat": "Transporte",
+      "ex": "Wir fahren mit dem Taxi zum Bahnhof.",
+      "ex_es": "Vamos en taxi a la estación."
+    },
+    {
+      "de": "das Ticket",
+      "pl": "die Tickets",
+      "es": "el billete, la entrada",
+      "cat": "Transporte",
+      "ex": "Hast du schon ein Ticket?",
+      "ex_es": "¿Ya tienes billete?"
+    },
+    {
+      "de": "der Fahrplan",
+      "pl": "die Fahrpläne",
+      "es": "el horario (de transporte)",
+      "cat": "Transporte",
+      "ex": "Wann fährt der Bus? Schau auf den Fahrplan!",
+      "ex_es": "¿Cuándo sale el autobús? ¡Mira el horario!"
+    },
+    {
       "de": "geradeaus",
       "es": "todo recto",
       "cat": "Direcciones",
@@ -339,6 +387,13 @@
       "cat": "Preposiciones + dativo",
       "ex": "Ich gehe nach Hause. Um sechs bin ich zu Hause.",
       "ex_es": "Me voy a casa. A las seis estoy en casa."
+    },
+    {
+      "de": "aus",
+      "es": "de (origen, salir de dentro)",
+      "cat": "Preposiciones + dativo",
+      "ex": "Sie kommt gerade aus dem Supermarkt.",
+      "ex_es": "Acaba de salir del supermercado."
     },
     {
       "de": "Wie komme ich zu …?",

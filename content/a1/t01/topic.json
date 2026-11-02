@@ -119,6 +119,34 @@
       "ex_es": "No estoy muy bien."
     },
     {
+      "de": "Grüezi!",
+      "es": "¡Hola! / ¡Buenos días! (Suiza, formal)",
+      "cat": "Saludos",
+      "ex": "Grüezi, Frau Keller!",
+      "ex_es": "¡Buenos días, señora Keller!"
+    },
+    {
+      "de": "Grüß Gott!",
+      "es": "¡Buenos días! (Austria y sur de Alemania)",
+      "cat": "Saludos",
+      "ex": "Grüß Gott, Herr Huber!",
+      "ex_es": "¡Buenos días, señor Huber!"
+    },
+    {
+      "de": "Und Ihnen?",
+      "es": "¿Y usted?",
+      "cat": "Saludos",
+      "ex": "Gut, danke. Und Ihnen?",
+      "ex_es": "Bien, gracias. ¿Y usted?"
+    },
+    {
+      "de": "Und dir?",
+      "es": "¿Y tú?",
+      "cat": "Saludos",
+      "ex": "Sehr gut, danke! Und dir?",
+      "ex_es": "¡Muy bien, gracias! ¿Y tú?"
+    },
+    {
       "de": "danke",
       "es": "gracias",
       "cat": "Cortesía",
@@ -236,7 +264,7 @@
       "de": "sein",
       "es": "ser, estar",
       "cat": "Verbos",
-      "forms": "ich bin, du bist, er ist",
+      "forms": "ich bin, du bist, er ist, war, ist gewesen",
       "ex": "Ich bin José.",
       "ex_es": "Soy José."
     },
@@ -330,6 +358,13 @@
       "cat": "Preguntas",
       "ex": "Was machen Sie hier?",
       "ex_es": "¿Qué hace usted aquí?"
+    },
+    {
+      "de": "Wie schreibt man das?",
+      "es": "¿Cómo se escribe?",
+      "cat": "Preguntas",
+      "ex": "Romero? Wie schreibt man das?",
+      "ex_es": "¿Romero? ¿Cómo se escribe?"
     },
     {
       "de": "und",

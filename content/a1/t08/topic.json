@@ -141,6 +141,14 @@
       "ex_es": "¿Necesita una bolsa?"
     },
     {
+      "de": "der Hut",
+      "pl": "die Hüte",
+      "es": "el sombrero",
+      "cat": "Ropa",
+      "ex": "Der Hut ist zu groß.",
+      "ex_es": "El sombrero es demasiado grande."
+    },
+    {
       "de": "die Größe",
       "pl": "die Größen",
       "es": "la talla, el tamaño",
@@ -250,6 +258,22 @@
       "ex_es": "Cuesta 80 céntimos."
     },
     {
+      "de": "das Sonderangebot",
+      "pl": "die Sonderangebote",
+      "es": "la oferta especial",
+      "cat": "En la tienda",
+      "ex": "Die Jacke ist heute im Sonderangebot.",
+      "ex_es": "La chaqueta está hoy en oferta especial."
+    },
+    {
+      "de": "der Schlussverkauf",
+      "pl": "die Schlussverkäufe",
+      "es": "las rebajas (de fin de temporada)",
+      "cat": "En la tienda",
+      "ex": "Im Schlussverkauf ist alles billiger.",
+      "ex_es": "En las rebajas todo es más barato."
+    },
+    {
       "de": "das Kaufhaus",
       "pl": "die Kaufhäuser",
       "es": "los grandes almacenes",
@@ -295,6 +319,14 @@
       "cat": "Tiendas",
       "ex": "Das Geschäft ist heute geschlossen.",
       "ex_es": "La tienda está cerrada hoy."
+    },
+    {
+      "de": "der Supermarkt",
+      "pl": "die Supermärkte",
+      "es": "el supermercado",
+      "cat": "Tiendas",
+      "ex": "Ich kaufe im Supermarkt ein.",
+      "ex_es": "Hago la compra en el supermercado."
     },
     {
       "de": "tausend",

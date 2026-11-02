@@ -163,6 +163,13 @@
       "ex_es": "Mi pareja se llama Andrea."
     },
     {
+      "de": "die Verwandten",
+      "es": "los parientes (plural)",
+      "cat": "Familia",
+      "ex": "Am Wochenende besuchen wir unsere Verwandten.",
+      "ex_es": "El fin de semana visitamos a nuestros parientes."
+    },
+    {
       "de": "der Freund / die Freundin",
       "pl": "die Freunde / die Freundinnen",
       "es": "el amigo / la amiga; el novio / la novia",

@@ -37,6 +37,13 @@
       "ex_es": "Perdone, ¿qué hora es?"
     },
     {
+      "de": "Wie viel Uhr ist es?",
+      "es": "¿Qué hora es?",
+      "cat": "La hora",
+      "ex": "Wie viel Uhr ist es? – Halb neun.",
+      "ex_es": "¿Qué hora es? – Las ocho y media."
+    },
+    {
       "de": "halb",
       "es": "media (hacia la hora siguiente)",
       "cat": "La hora",
@@ -148,6 +155,20 @@
       "ex_es": "¡Buen fin de semana!"
     },
     {
+      "de": "montags",
+      "es": "los lunes",
+      "cat": "Días",
+      "ex": "Montags habe ich Deutschkurs.",
+      "ex_es": "Los lunes tengo curso de alemán."
+    },
+    {
+      "de": "sonntags",
+      "es": "los domingos",
+      "cat": "Días",
+      "ex": "Sonntags schlafe ich lange.",
+      "ex_es": "Los domingos duermo hasta tarde."
+    },
+    {
       "de": "der Morgen",
       "es": "la mañana (temprano)",
       "cat": "Partes del día",
@@ -189,6 +210,20 @@
       "cat": "Partes del día",
       "ex": "In der Nacht schlafe ich.",
       "ex_es": "Por la noche duermo."
+    },
+    {
+      "de": "morgens",
+      "es": "por las mañanas",
+      "cat": "Partes del día",
+      "ex": "Morgens trinke ich Kaffee.",
+      "ex_es": "Por las mañanas tomo café."
+    },
+    {
+      "de": "abends",
+      "es": "por las noches, por la tarde-noche",
+      "cat": "Partes del día",
+      "ex": "Abends sehe ich fern.",
+      "ex_es": "Por las noches veo la tele."
     },
     {
       "de": "aufstehen",
@@ -379,6 +414,41 @@
       "cat": "Palabras útiles",
       "ex": "Ich habe um drei einen Termin.",
       "ex_es": "A las tres tengo una cita."
+    },
+    {
+      "de": "um",
+      "es": "a las (con la hora)",
+      "cat": "Palabras útiles",
+      "ex": "Der Kurs beginnt um neun Uhr.",
+      "ex_es": "El curso empieza a las nueve."
+    },
+    {
+      "de": "von … bis",
+      "es": "de … a, desde … hasta",
+      "cat": "Palabras útiles",
+      "ex": "Ich arbeite von acht bis fünf.",
+      "ex_es": "Trabajo de ocho a cinco."
+    },
+    {
+      "de": "ab",
+      "es": "a partir de",
+      "cat": "Palabras útiles",
+      "ex": "Ab Montag habe ich Urlaub.",
+      "ex_es": "A partir del lunes tengo vacaciones."
+    },
+    {
+      "de": "wie lange?",
+      "es": "¿cuánto tiempo?",
+      "cat": "Palabras útiles",
+      "ex": "Wie lange arbeitest du heute?",
+      "ex_es": "¿Cuánto tiempo trabajas hoy?"
+    },
+    {
+      "de": "zum Schluss",
+      "es": "al final",
+      "cat": "Palabras útiles",
+      "ex": "Zum Schluss räume ich die Küche auf.",
+      "ex_es": "Al final recojo la cocina."
     }
   ],
   "exercises": [

@@ -43,11 +43,95 @@
       "ex_es": "Habitación dos, por favor."
     },
     {
+      "de": "drei",
+      "es": "tres",
+      "cat": "Números",
+      "ex": "Ich habe drei Brüder.",
+      "ex_es": "Tengo tres hermanos."
+    },
+    {
+      "de": "vier",
+      "es": "cuatro",
+      "cat": "Números",
+      "ex": "Wir sind vier Personen.",
+      "ex_es": "Somos cuatro personas."
+    },
+    {
+      "de": "fünf",
+      "es": "cinco",
+      "cat": "Números",
+      "ex": "Das Kind ist fünf Jahre alt.",
+      "ex_es": "El niño tiene cinco años."
+    },
+    {
+      "de": "sechs",
+      "es": "seis",
+      "cat": "Números",
+      "ex": "Der Kurs hat sechs Teilnehmer.",
+      "ex_es": "El curso tiene seis alumnos."
+    },
+    {
+      "de": "sieben",
+      "es": "siete",
+      "cat": "Números",
+      "ex": "Die Woche hat sieben Tage.",
+      "ex_es": "La semana tiene siete días."
+    },
+    {
+      "de": "acht",
+      "es": "ocho",
+      "cat": "Números",
+      "ex": "Meine Nummer endet mit acht.",
+      "ex_es": "Mi número acaba en ocho."
+    },
+    {
+      "de": "neun",
+      "es": "nueve",
+      "cat": "Números",
+      "ex": "Meine Tochter ist neun.",
+      "ex_es": "Mi hija tiene nueve años."
+    },
+    {
+      "de": "zehn",
+      "es": "diez",
+      "cat": "Números",
+      "ex": "Ich lerne seit zehn Jahren Englisch.",
+      "ex_es": "Aprendo inglés desde hace diez años."
+    },
+    {
+      "de": "elf",
+      "es": "once",
+      "cat": "Números",
+      "ex": "Mein Sohn ist elf Jahre alt.",
+      "ex_es": "Mi hijo tiene once años."
+    },
+    {
       "de": "zwölf",
       "es": "doce",
       "cat": "Números",
       "ex": "Das Kind ist zwölf.",
       "ex_es": "El niño tiene doce años."
+    },
+    {
+      "de": "dreizehn",
+      "es": "trece",
+      "cat": "Números",
+      "ex": "Sie ist dreizehn.",
+      "ex_es": "Tiene trece años."
+    },
+    {
+      "de": "vierzehn",
+      "es": "catorce",
+      "cat": "Números",
+      "ex": "Im Kurs sind vierzehn Personen.",
+      "ex_es": "En el curso hay catorce personas."
+    },
+    {
+      "de": "fünfzehn",
+      "es": "quince",
+      "cat": "Números",
+      "ex": "Mein Bruder ist fünfzehn.",
+      "ex_es": "Mi hermano tiene quince años."
     },
     {
       "de": "sechzehn",
@@ -62,6 +146,20 @@
       "cat": "Números",
       "ex": "Er ist siebzehn.",
       "ex_es": "Él tiene diecisiete años."
+    },
+    {
+      "de": "achtzehn",
+      "es": "dieciocho",
+      "cat": "Números",
+      "ex": "Sie ist achtzehn Jahre alt.",
+      "ex_es": "Tiene dieciocho años."
+    },
+    {
+      "de": "neunzehn",
+      "es": "diecinueve",
+      "cat": "Números",
+      "ex": "Er ist neunzehn.",
+      "ex_es": "Tiene diecinueve años."
     },
     {
       "de": "zwanzig",
@@ -85,6 +183,20 @@
       "ex_es": "Nora tiene treinta años."
     },
     {
+      "de": "vierzig",
+      "es": "cuarenta",
+      "cat": "Números",
+      "ex": "Mein Chef ist vierzig.",
+      "ex_es": "Mi jefe tiene cuarenta años."
+    },
+    {
+      "de": "fünfzig",
+      "es": "cincuenta",
+      "cat": "Números",
+      "ex": "Meine Mutter ist fünfzig Jahre alt.",
+      "ex_es": "Mi madre tiene cincuenta años."
+    },
+    {
       "de": "sechzig",
       "es": "sesenta",
       "cat": "Números",
@@ -97,6 +209,20 @@
       "cat": "Números",
       "ex": "Herr Braun ist siebzig Jahre alt.",
       "ex_es": "El señor Braun tiene setenta años."
+    },
+    {
+      "de": "achtzig",
+      "es": "ochenta",
+      "cat": "Números",
+      "ex": "Mein Opa ist achtzig.",
+      "ex_es": "Mi abuelo tiene ochenta años."
+    },
+    {
+      "de": "neunzig",
+      "es": "noventa",
+      "cat": "Números",
+      "ex": "Meine Oma ist neunzig Jahre alt.",
+      "ex_es": "Mi abuela tiene noventa años."
     },
     {
       "de": "hundert",
@@ -158,6 +284,13 @@
       "cat": "Datos personales",
       "ex": "Wie ist Ihre E-Mail-Adresse?",
       "ex_es": "¿Cuál es su dirección de correo?"
+    },
+    {
+      "de": "Wie alt bist du?",
+      "es": "¿Cuántos años tienes?",
+      "cat": "Datos personales",
+      "ex": "Wie alt bist du? – Ich bin 28.",
+      "ex_es": "¿Cuántos años tienes? – Tengo 28."
     },
     {
       "de": "das Land",
@@ -280,6 +413,69 @@
       "cat": "Países e idiomas",
       "ex": "Li kommt aus China.",
       "ex_es": "Li es de China."
+    },
+    {
+      "de": "Polnisch",
+      "es": "polaco (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "In Polen spricht man Polnisch.",
+      "ex_es": "En Polonia se habla polaco."
+    },
+    {
+      "de": "Japan",
+      "es": "Japón",
+      "cat": "Países e idiomas",
+      "ex": "Kenji kommt aus Japan.",
+      "ex_es": "Kenji es de Japón."
+    },
+    {
+      "de": "Japanisch",
+      "es": "japonés (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Sprichst du Japanisch?",
+      "ex_es": "¿Hablas japonés?"
+    },
+    {
+      "de": "Russland",
+      "es": "Rusia",
+      "cat": "Países e idiomas",
+      "ex": "Olga kommt aus Russland.",
+      "ex_es": "Olga es de Rusia."
+    },
+    {
+      "de": "Russisch",
+      "es": "ruso (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Sie spricht Russisch und Deutsch.",
+      "ex_es": "Habla ruso y alemán."
+    },
+    {
+      "de": "Griechenland",
+      "es": "Grecia",
+      "cat": "Países e idiomas",
+      "ex": "Wir fahren im Sommer nach Griechenland.",
+      "ex_es": "En verano vamos a Grecia."
+    },
+    {
+      "de": "Griechisch",
+      "es": "griego (idioma)",
+      "cat": "Países e idiomas",
+      "ex": "Nikos spricht Griechisch.",
+      "ex_es": "Nikos habla griego."
+    },
+    {
+      "de": "die Niederlande",
+      "es": "los Países Bajos (solo plural)",
+      "cat": "Países e idiomas",
+      "ex": "Ich komme aus den Niederlanden.",
+      "ex_es": "Soy de los Países Bajos."
+    },
+    {
+      "de": "der Iran",
+      "es": "Irán",
+      "cat": "Países e idiomas",
+      "ex": "Er wohnt im Iran.",
+      "ex_es": "Vive en Irán."
     },
     {
       "de": "sprechen",

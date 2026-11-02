@@ -225,6 +225,14 @@
       "ex_es": "Una copa de vino tinto, por favor."
     },
     {
+      "de": "die Cola",
+      "pl": "die Colas",
+      "es": "la cola (refresco)",
+      "cat": "Bebida",
+      "ex": "Ich nehme eine Cola, bitte.",
+      "ex_es": "Una cola, por favor."
+    },
+    {
       "de": "die Flasche",
       "pl": "die Flaschen",
       "es": "la botella",
@@ -368,6 +376,13 @@
       "ex_es": "Son diez euros."
     },
     {
+      "de": "Zahlen, bitte!",
+      "es": "¡Cóbreme, por favor! (en el bar)",
+      "cat": "En el restaurante",
+      "ex": "Entschuldigung! Zahlen, bitte!",
+      "ex_es": "¡Perdone! ¡Cóbreme, por favor!"
+    },
+    {
       "de": "lecker",
       "es": "rico, sabroso",
       "cat": "Adjetivos",
@@ -415,6 +430,13 @@
       "cat": "Frases útiles",
       "ex": "Ich esse gern Fisch.",
       "ex_es": "Me gusta comer pescado."
+    },
+    {
+      "de": "Prost!",
+      "es": "¡Salud! (al brindar)",
+      "cat": "Frases útiles",
+      "ex": "Prost! Auf deinen Geburtstag!",
+      "ex_es": "¡Salud! ¡Por tu cumpleaños!"
     }
   ],
   "exercises": [
