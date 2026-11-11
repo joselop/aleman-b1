@@ -268,3 +268,5 @@ blockquote .de.has-tr + br { display: none; }
 .slide p { margin: 0; font-size: 0.92rem; }
 .subq.comment .text { margin-bottom: 6px; }
 [hidden] { display: none !important; }
+.offline-list { display: grid; gap: 4px; margin: 6px 0 10px; }
+details summary { cursor: pointer; font-weight: 600; margin: 6px 0; }

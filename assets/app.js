@@ -131,9 +131,111 @@ function audioKey(lines) {
 const ttsText = (t) => t.replace(/\s*\/\s*/g, ", ").replace(/…/g, "").replace(/\?$/, "?").trim();
 
 let manifest = new Set();
+const audioMissing = new Set();
 getJSON("audio/manifest.json")
   .then((m) => (manifest = new Set(m.files || [])))
   .catch(() => {});
+
+/* ------------------------------------------------------------------ sin conexión */
+if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
+// Todas las claves de audio que puede pedir un tema (mismo criterio que scripts/generate_audio.py).
+async function topicAudioKeys(lvl, tid) {
+  const keys = new Set();
+  const add = (lines) => lines && lines.length && keys.add(audioKey(lines));
+  const md = await getText(`content/${lvl}/${tid}/leccion.md`);
+  for (const m of md.matchAll(/\[\[de:(.+?)\]\]/g)) add([{ v: "f1", t: m[1].split("::")[0] }]);
+  const topic = await loadTopic(lvl, tid);
+  for (const v of topic.vocab || []) {
+    add([{ v: "f1", t: v.de }]);
+    if (v.ex) add([{ v: "m1", t: v.ex }]);
+  }
+  for (const ex of topic.exercises || []) {
+    if (ex.type === "match") for (const [l] of ex.pairs) add([{ v: "f1", t: l }]);
+    for (const it of ex.items || []) if (it.audio) add(it.audio);
+  }
+  const exam = topic.exam || {};
+  for (const teil of Object.values(exam.hoeren || {})) for (const it of teil) add(it.audio);
+  for (const teil of Object.values(exam.sprechen || {})) for (const it of teil) {
+    if (it.model) add(it.model);
+    if (it.question && it.answer) add([{ v: "f2", t: it.question }, { v: "m1", t: it.answer }]);
+    if (it.title && it.question) add([{ v: "f2", t: it.question }]);
+  }
+  return [...keys].filter((k) => manifest.has(k));
+}
+async function downloadTopics(list, onProgress) {
+  if (!("caches" in window)) throw new Error("Este navegador no permite guardar archivos para usar sin conexión.");
+  await navigator.serviceWorker?.ready;
+  const shell = await caches.open("dsfs-shell-v1");
+  await shell.addAll(["./", "index.html", "assets/app.js", "assets/style.css", "assets/content-bundle.js", "audio/manifest.json", "content/curriculum.json"]);
+  const keys = new Set();
+  for (const [lvl, tid] of list) {
+    await shell.addAll([`content/${lvl}/${tid}/leccion.md`, `content/${lvl}/${tid}/topic.json`]);
+    for (const k of await topicAudioKeys(lvl, tid)) keys.add(k);
+  }
+  const cache = await caches.open("dsfs-audio-v1");
+  const todo = [...keys];
+  let done = 0, bytes = 0, failed = 0;
+  const worker = async () => {
+    while (todo.length) {
+      const k = todo.pop();
+      const url = `audio/${k}.mp3`;
+      try {
+        let r = await cache.match(new URL(url, location.href).pathname);
+        if (!r) {
+          r = await fetch(url, { cache: "no-store" });
+          if (!r.ok) throw new Error(r.status);
+          await cache.put(new URL(url, location.href).pathname, r.clone());
+        }
+        bytes += (await r.blob()).size;
+      } catch { failed++; }
+      onProgress(++done, keys.size);
+    }
+  };
+  await Promise.all(Array.from({ length: 6 }, worker));
+  const saved = new Set(store.get("offline", []));
+  for (const [lvl, tid] of list) saved.add(`${lvl}/${tid}`);
+  store.set("offline", [...saved]);
+  return { n: keys.size, failed, mb: bytes / 1048576 };
+}
+async function offlineCard() {
+  const cur = await curriculum();
+  const saved = new Set(store.get("offline", []));
+  const boxes = [];
+  const groups = cur.levels.map((lvl) => {
+    const ready = lvl.topics.filter((t) => t.status === "ready");
+    if (!ready.length) return null;
+    return h("details", { open: lvl.id === "a1" },
+      h("summary", {}, `${lvl.id.toUpperCase()} · ${ready.filter((t) => saved.has(`${lvl.id}/${t.id}`)).length}/${ready.length} descargados`),
+      h("div", { class: "offline-list" }, ready.map((t) => {
+        const cb = h("input", { type: "checkbox", value: `${lvl.id}/${t.id}` });
+        boxes.push(cb);
+        return h("label", { class: "opt" }, cb, ` Tema ${+t.id.slice(1)}: ${t.title}`, saved.has(`${lvl.id}/${t.id}`) ? h("span", { class: "muted small" }, " ✓ descargado") : null);
+      })));
+  });
+  const status = h("p", { class: "muted small" });
+  const btn = h("button", { class: "btn", type: "button" }, "Descargar seleccionados");
+  btn.onclick = async () => {
+    const list = boxes.filter((b) => b.checked).map((b) => b.value.split("/"));
+    if (!list.length) { status.textContent = "Marca primero los temas que quieras llevarte."; return; }
+    btn.disabled = true;
+    try {
+      const r = await downloadTopics(list, (d, n) => (status.textContent = `Descargando audios… ${d} / ${n}`));
+      status.textContent = `Listo: ${list.length} temas y ${r.n} audios guardados (${r.mb.toFixed(1)} MB)` + (r.failed ? ` · ${r.failed} audios no se pudieron descargar (se usará la voz del móvil)` : "") + ". Ya puedes usarlos sin conexión.";
+      for (const b of boxes) if (b.checked) b.parentElement.append(h("span", { class: "muted small" }, " ✓ descargado"));
+    } catch (e) {
+      status.textContent = `No se pudo descargar: ${e.message}. Comprueba la conexión y vuelve a intentarlo.`;
+    }
+    btn.disabled = false;
+  };
+  const supported = "serviceWorker" in navigator && "caches" in window && location.protocol !== "file:";
+  return h("div", { class: "card" }, h("h3", {}, "Usar sin conexión (modo avión)"),
+    supported
+      ? h("p", { class: "muted small" }, "Con internet, marca los temas que quieras llevarte y pulsa «Descargar». Se guardan las lecciones, los ejercicios, los exámenes y todos sus audios en este móvil. Después, sin conexión, abre esta misma página (mejor añadida a la pantalla de inicio) y funcionará igual. Tu progreso se guarda en el móvil como siempre. Lo único que no funciona sin conexión es la transcripción de lo que grabas.")
+      : h("p", { class: "muted small" }, "Para usar la web sin conexión ábrela desde su dirección web (https://…) en Safari o Chrome, no como archivo."),
+    supported ? h("div", {}, ...groups.filter(Boolean), h("div", { class: "row" }, btn), status) : null);
+}
 
 window.__dsfs = { audioKey: (l) => audioKey(l), transcribe: (b, cb) => transcribe(b, cb) }; // útil para depurar y para las pruebas
 
@@ -178,11 +280,12 @@ function play(lines, { onend } = {}) {
     if (current && current.key === key) current = null;
     if (!stopped && onend) onend();
   };
-  if (manifest.has(key)) {
+  if (manifest.has(key) && !audioMissing.has(key)) {
     const audio = new Audio(`audio/${key}.mp3`);
     audio.playbackRate = rate;
     audio.onended = finish;
-    audio.onerror = finish;
+    // Si el MP3 no carga (p. ej. sin conexión y sin descargar), se usa la voz del navegador.
+    audio.onerror = () => { if (stopped) return; audioMissing.add(key); play(lines, { onend }); };
     audio.play().catch(finish);
     current = { key, stop: () => { stopped = true; audio.pause(); } };
     return current;
@@ -362,7 +465,7 @@ async function route() {
   try {
     if (!parts.length) await viewHome(root);
     else if (parts[0] === "repaso") await viewRepaso(root, parts[1]);
-    else if (parts[0] === "ajustes") viewAjustes(root);
+    else if (parts[0] === "ajustes") await viewAjustes(root);
     else if (parts.length === 1) await viewLevel(root, parts[0]);
     else if (parts[2] === "examen") await viewExam(root, parts[0], parts[1], parts[3] || "tema");
     else await viewTopic(root, parts[0], parts[1], parts[2] || "leccion");
@@ -1324,7 +1427,7 @@ function runFlashcards(root, cards, opts) {
 }
 
 /* ------------------------------------------------------------------ ajustes */
-function viewAjustes(root) {
+async function viewAjustes(root) {
   const s = settings();
   root.append(h("h1", {}, "Ajustes"));
   const rate = h("select", { onchange: (e) => store.set("settings", { ...settings(), rate: +e.target.value }) },
@@ -1334,6 +1437,7 @@ function viewAjustes(root) {
     h("div", { class: "card" }, h("h3", {}, "Audio"), h("label", {}, "Velocidad: ", rate),
       h("p", { class: "muted small" }, `Audios pregenerados disponibles: ${manifest.size}. Si falta alguno se usa la voz del navegador. Voces alemanas del navegador: ${voices}.`),
       h("button", { class: "btn ghost", type: "button", onclick: () => play([{ v: "f1", t: "Hallo! Ich heiße Andrea." }, { v: "m1", t: "Freut mich! Ich bin Jonas." }]) }, "Probar voces")),
+    await offlineCard(),
     h("div", { class: "card" }, h("h3", {}, "Transcripción de la parte oral"),
       h("p", { class: "muted small" }, "Al grabarte en el Sprechen puedes pasar el audio a texto con Whisper, un modelo de reconocimiento de voz que funciona dentro de tu navegador: la grabación no se envía a ningún servidor. El modelo se descarga la primera vez y luego queda guardado."),
       h("label", {}, "Modelo: ", h("select", { onchange: (e) => store.set("settings", { ...settings(), asr: e.target.value }) },
