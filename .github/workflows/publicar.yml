@@ -6,6 +6,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Una vez por semana: GitHub borra la caché de audios si pasa 7 días sin usarse,
+  # y regenerarla entera tarda más de una hora.
+  schedule:
+    - cron: "17 4 * * 1"
 
 permissions:
   contents: read
