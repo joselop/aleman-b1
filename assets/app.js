@@ -166,11 +166,14 @@ async function topicAudioKeys(lvl, tid) {
 }
 async function downloadTopics(list, onProgress) {
   if (!("caches" in window)) throw new Error("Este navegador no permite guardar archivos para usar sin conexión.");
-  await navigator.serviceWorker?.ready;
+  // Si el service worker tarda (primera visita), no esperamos indefinidamente.
+  if (navigator.serviceWorker) await Promise.race([navigator.serviceWorker.ready, new Promise((r) => setTimeout(r, 4000))]);
+  onProgress(0, 0, "Preparando la descarga…");
   const shell = await caches.open("dsfs-shell-v1");
   await shell.addAll(["./", "index.html", "assets/app.js", "assets/style.css", "assets/content-bundle.js", "audio/manifest.json", "content/curriculum.json"]);
   const keys = new Set();
   for (const [lvl, tid] of list) {
+    onProgress(0, 0, `Preparando ${lvl.toUpperCase()} tema ${+tid.slice(1)}…`);
     await shell.addAll([`content/${lvl}/${tid}/leccion.md`, `content/${lvl}/${tid}/topic.json`]);
     for (const k of await topicAudioKeys(lvl, tid)) keys.add(k);
   }
@@ -221,7 +224,8 @@ async function offlineCard() {
     if (!list.length) { status.textContent = "Marca primero los temas que quieras llevarte."; return; }
     btn.disabled = true;
     try {
-      const r = await downloadTopics(list, (d, n) => (status.textContent = `Descargando audios… ${d} / ${n}`));
+      status.textContent = "Preparando la descarga…";
+      const r = await downloadTopics(list, (d, n, msg) => (status.textContent = msg || `Descargando audios… ${d} / ${n} (${Math.round((100 * d) / n)} %)`));
       status.textContent = `Listo: ${list.length} temas y ${r.n} audios guardados (${r.mb.toFixed(1)} MB)` + (r.failed ? ` · ${r.failed} audios no se pudieron descargar (se usará la voz del móvil)` : "") + ". Ya puedes usarlos sin conexión.";
       for (const b of boxes) if (b.checked) b.parentElement.append(h("span", { class: "muted small" }, " ✓ descargado"));
     } catch (e) {
